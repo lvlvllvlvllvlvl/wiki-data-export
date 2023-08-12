@@ -1,0 +1,37 @@
+{{Skill
+|gem_description                         = Raises a spectral version of a defeated foe as a minion to fight for you in battle.
+|active_skill_name                       = Raise Spectre
+|skill_id                                = TormentRaiseMultipleSpectres
+|cast_time                               = 0.85
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_minion_life_+%_final
+|static_stat1_value                      = -10
+|static_stat2_id                         = active_skill_minion_energy_shield_+%_final
+|static_stat2_value                      = -10
+|static_stat3_id                         = active_skill_minion_damage_+%_final
+|static_stat3_value                      = 10
+|stat_text                               = Maximum (8-11) Raised Spectres<br>Minions have 10% less Maximum Life<br>Minions have 10% less Energy Shield<br>Minions deal 10% more Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat_text                        = Maximum 8 Raised Spectres
+|level1_stat1_id                         = base_number_of_spectres_allowed
+|level1_stat1_value                      = 8
+|level2                                  = True
+|level2_level_requirement                = 35
+|level2_stat_text                        = Maximum 9 Raised Spectres
+|level2_stat1_id                         = base_number_of_spectres_allowed
+|level2_stat1_value                      = 9
+|level3                                  = True
+|level3_level_requirement                = 55
+|level3_stat_text                        = Maximum 10 Raised Spectres
+|level3_stat1_id                         = base_number_of_spectres_allowed
+|level3_stat1_value                      = 10
+|level4                                  = True
+|level4_level_requirement                = 66
+|level4_stat_text                        = Maximum 11 Raised Spectres
+|level4_stat1_id                         = base_number_of_spectres_allowed
+|level4_stat1_value                      = 11
+}}

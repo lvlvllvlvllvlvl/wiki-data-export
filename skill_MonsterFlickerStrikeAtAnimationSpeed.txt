@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = Teleports the character to a nearby monster and attacks with a melee weapon. If no specific monster is targeted, one is picked at random. Grants a buff that increases movement speed for a duration. The cooldown can be bypassed by expending a Frenzy Charge.
+|active_skill_name                       = Flicker Strike
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff, Rune Dagger
+|skill_id                                = MonsterFlickerStrikeAtAnimationSpeed
+|cast_time                               = 1.0
+|required_level                          = 13
+|static_stored_uses                      = 1
+|static_cooldown                         = 2
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = ignores_proximity_shield
+|static_stat1_value                      = 1
+|static_stat2_id                         = melee_defer_damage_prediction
+|static_stat2_value                      = 1
+|static_stat3_id                         = action_attack_or_cast_time_uses_animation_length
+|static_stat3_value                      = 1
+|static_stat4_id                         = active_skill_damage_+%_final
+|static_stat4_value                      = 10
+|static_stat5_id                         = attack_speed_+%
+|static_stat5_value                      = 30
+|static_stat6_id                         = base_attack_speed_+%_per_frenzy_charge
+|static_stat6_value                      = 10
+|stat_text                               = Deals 10% more Damage<br>30% increased Attack Speed<br>10% increased Attack Speed per Frenzy Charge
+|level1                                  = True
+|level1_level_requirement                = 13
+}}

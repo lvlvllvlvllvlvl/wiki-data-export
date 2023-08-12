@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = BellyTotemDetonateDead
+|cast_time                               = 0.8
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 1
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat1_value                      = -25
+|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat2_value                      = -18
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = secondary_minimum_base_fire_damage
+|static_stat4_value                      = 6
+|static_stat5_id                         = secondary_maximum_base_fire_damage
+|static_stat5_value                      = 9
+|static_stat6_id                         = corpse_explosion_monster_life_%
+|static_stat6_value                      = 6
+|stat_text                               = Deals 6 to 9 Fire Damage<br>Explosion deals base Fire Damage equal to 6% of the corpse's Maximum Life
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

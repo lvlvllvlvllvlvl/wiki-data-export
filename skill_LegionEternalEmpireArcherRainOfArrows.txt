@@ -1,0 +1,30 @@
+{{Skill
+|gem_description                         = Fires multiple arrows into the air, to land in sequence after a delay, starting at the targeted location and spreading outwards in all directions. Each arrow deals damage in an area around it. Half of the arrows will land directly on targets if there are targets in their range.
+|active_skill_name                       = Rain of Arrows
+|item_class_id_restriction               = Bow
+|skill_id                                = LegionEternalEmpireArcherRainOfArrows
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 8
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 65
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = -25
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = skill_can_fire_arrows
+|static_stat4_value                      = 1
+|static_stat5_id                         = cannot_pierce
+|static_stat5_value                      = 1
+|static_stat6_id                         = base_number_of_additional_arrows
+|static_stat6_value                      = 10
+|static_stat7_id                         = active_skill_attack_speed_+%_final
+|static_stat7_value                      = -33
+|stat_text                               = Fires 10 additional Arrows<br>33% less Attack Speed
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

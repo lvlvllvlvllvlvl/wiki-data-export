@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = mace_stun_notable2492
+|int_id                              = 5126
+|name                                = Spinecruncher
+|is_notable                          = True
+|icon                                = stunmace
+|stat1_id                            = physical_mace_damage_+%
+|stat1_value                         = 30
+|stat2_id                            = mace_ailment_damage_+%
+|stat2_value                         = 30
+|stat3_id                            = stun_duration_+%_vs_enemies_that_are_on_full_life
+|stat3_value                         = 60
+|stat_text                           = 30% increased [[Physical Damage]] with [[Mace|Maces]] or Sceptres<br>[[Mace]] or Sceptre [[Attack|Attacks]] deal 30% increased Damage with Ailments<br>60% increased Stun Duration against Enemies that are on [[Full Life]]
+|connections                         = mastery_mace155,mace_stun2490,mace_stun2491,mastery_mace155
+}}

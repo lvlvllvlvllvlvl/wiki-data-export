@@ -1,0 +1,35 @@
+{{Skill
+|gem_description                         = Fires a large number of arrows into the air, to land at the target after a short delay. Enemies hit by the arrows are pinned in place, unable to move for a time.
+|active_skill_name                       = Vaal Rain of Arrows
+|item_class_id_restriction               = Bow
+|skill_id                                = DarkExileVaalRainOfArrows
+|cast_time                               = 1.0
+|required_level                          = 73
+|static_cost_amounts                     = 160
+|static_cost_types                       = Mana
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 4
+|static_stat1_id                         = spell_maximum_action_distance_+%
+|static_stat1_value                      = -35
+|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat2_value                      = -18
+|static_stat3_id                         = base_is_projectile
+|static_stat3_value                      = 1
+|static_stat4_id                         = is_area_damage
+|static_stat4_value                      = 1
+|static_stat5_id                         = rain_of_arrows_pin
+|static_stat5_value                      = 1
+|static_stat6_id                         = active_skill_damage_+%_final
+|static_stat6_value                      = -30
+|static_stat7_id                         = base_skill_effect_duration
+|static_stat7_value                      = 4000
+|static_stat8_id                         = attack_speed_+%
+|static_stat8_value                      = 22
+|static_stat9_id                         = base_projectile_speed_+%
+|static_stat9_value                      = -35
+|stat_text                               = Deals 30% less Damage<br>Base duration is 4 seconds<br>22% increased Attack Speed<br>35% reduced Projectile Speed
+|level1                                  = True
+|level1_level_requirement                = 73
+}}

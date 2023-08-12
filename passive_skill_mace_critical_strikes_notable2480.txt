@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = mace_critical_strikes_notable2480
+|int_id                              = 39657
+|name                                = Pain Forger
+|is_notable                          = True
+|icon                                = MaceNotable2
+|stat1_id                            = chance_to_gain_power_charge_on_melee_stun_%
+|stat1_value                         = 10
+|stat2_id                            = mace_critical_strike_chance_+%
+|stat2_value                         = 60
+|stat3_id                            = while_using_mace_stun_threshold_reduction_+%
+|stat3_value                         = 10
+|stat_text                           = 10% chance to gain a [[Power Charge]] when you Stun with Melee Damage<br>60% increased [[Critical Strike Chance]] with [[Mace|Maces]] or Sceptres<br>10% reduced Enemy Stun Threshold with [[Mace|Maces]] or Sceptres
+|connections                         = mastery_mace154,mace_critical_strikes2479,mastery_mace154
+}}

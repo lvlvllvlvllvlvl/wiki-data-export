@@ -1,0 +1,16 @@
+{{Passive skill
+|id                                  = AscendancyElementalist14
+|int_id                              = 258
+|name                                = Elemancer
+|ascendancy_class                    = Elementalist
+|is_notable                          = True
+|icon                                = ElemancerIcon (Elementalist)
+|stat1_id                            = base_number_of_golems_allowed
+|stat1_value                         = 1
+|stat2_id                            = golem_immunity_to_elemental_damage
+|stat2_value                         = 1
+|stat3_id                            = golem_buff_effect_+%_per_summoned_golem
+|stat3_value                         = 25
+|stat_text                           = +1 to maximum number of Summoned Golems<br>Summoned Golems are Immune to [[Elemental Damage]]<br>25% increased Effect of Buffs granted by your Golems per Summoned Golem
+|connections                         = AscendancyElementalist13
+}}

@@ -1,0 +1,17 @@
+{{Skill
+|gem_description                         = Strike your foes down with a powerful blow.
+|active_skill_name                       = Default Attack
+|skill_id                                = HarvestBattleVineCleave2
+|cast_time                               = 1.0
+|required_level                          = 0
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 60
+|static_attack_speed_multiplier          = 70
+|static_stat1_id                         = bleed_on_hit_with_attacks_%
+|static_stat1_value                      = 15
+|static_stat2_id                         = global_maim_on_hit
+|static_stat2_value                      = 1
+|stat_text                               = 15% chance to cause Bleeding<br>Maim on Hit
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

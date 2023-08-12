@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = Calls forth a protective aegis which takes physical damage from hits for you until depleted. The aegis will be restored to its full value after a short delay if you stop taking physical damage from hits, or if depleted.
+|active_skill_name                       = Physical Aegis
+|skill_id                                = PhysicalAegis
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = aegis_unique_shield_max_value
+|static_stat1_value                      = 1000
+|static_stat2_id                         = aegis_recharge_delay_ms
+|static_stat2_value                      = 10000
+|static_stat3_id                         = spell_uncastable_if_triggerable
+|static_stat3_value                      = 1
+|static_stat4_id                         = active_skill_display_aegis_variation
+|static_stat4_value                      = 4
+|static_stat5_id                         = cast_on_gain_skill
+|static_stat5_value                      = 1
+|static_stat6_id                         = no_cost
+|static_stat6_value                      = 1
+|stat_text                               = You cannot Cast this Spell directly<br>This Spell is Triggered when Gained<br>This Skill Costs nothing
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

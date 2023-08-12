@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = An icy projectile which has a chance to freeze enemies it passes through. The projectile fades quickly, reducing damage and freezing chance until it dissipates.
+|active_skill_name                       = Freezing Pulse
+|skill_id                                = MonsterFreezingPulseWhirlwindBlight
+|cast_time                               = 0.65
+|required_level                          = 1
+|static_critical_strike_chance           = 6
+|static_damage_effectiveness             = 125
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_cold_damage
+|static_stat2_value                      = 5
+|static_stat3_id                         = spell_maximum_base_cold_damage
+|static_stat3_value                      = 7
+|static_stat4_id                         = always_pierce
+|static_stat4_value                      = 1
+|stat_text                               = Deals 5 to 7 Cold Damage<br>Projectiles Pierce all Targets
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

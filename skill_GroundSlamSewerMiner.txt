@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = The character slams the ground in front of them with a Staff, Mace or Sceptre, creating a wave that travels forward and damages enemies with an increased chance to stun.
+|active_skill_name                       = Ground Slam
+|item_class_id_restriction               = One Hand Mace, Sceptre, Staff, Two Hand Mace, Unarmed, Warstaff
+|skill_id                                = GroundSlamSewerMiner
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 8
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = active_skill_damage_+%_final
+|static_stat2_value                      = 50
+|static_stat3_id                         = base_stun_threshold_reduction_+%
+|static_stat3_value                      = 35
+|static_stat4_id                         = active_skill_attack_speed_+%_final
+|static_stat4_value                      = -20
+|stat_text                               = Deals 50% more Damage<br>35% reduced Enemy Stun Threshold<br>20% less Attack Speed
+|level1                                  = True
+|level1_level_requirement                = 1
+|level2                                  = True
+|level2_level_requirement                = 68
+}}

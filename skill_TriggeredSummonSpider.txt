@@ -1,0 +1,36 @@
+{{Skill
+|gem_description                         = Raise two spectral spiders from each nearby corpse that will attack your enemies with Viper Strike. Each raised spider grants you increased Attack Speed and increased Damage with Poison. Enemies will not engage the spiders directly, and they are immune to damage.
+|active_skill_name                       = Raise Spiders
+|skill_id                                = TriggeredSummonSpider
+|cast_time                               = 1.0
+|required_level                          = 75
+|static_stored_uses                      = 1
+|static_cooldown                         = 2
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 30
+|static_stat1_id                         = damage_+%_vs_players
+|static_stat1_value                      = -85
+|static_stat2_id                         = take_no_actions_while_parent_dead
+|static_stat2_value                      = 1
+|static_stat3_id                         = minion_dies_when_parent_dies
+|static_stat3_value                      = 1
+|static_stat4_id                         = base_skill_effect_duration
+|static_stat4_value                      = 30000
+|static_stat5_id                         = spell_uncastable_if_triggerable
+|static_stat5_value                      = 1
+|static_stat6_id                         = chance_to_cast_on_kill_%_target_self
+|static_stat6_value                      = 100
+|static_stat7_id                         = number_of_spider_minions_allowed
+|static_stat7_value                      = 20
+|static_stat8_id                         = minions_cannot_taunt_enemies
+|static_stat8_value                      = 1
+|static_stat9_id                         = summoned_spider_grants_attack_speed_+%
+|static_stat9_value                      = 2
+|static_stat10_id                        = summoned_spider_grants_poison_damage_+%
+|static_stat10_value                     = 15
+|stat_text                               = Base duration is 30 seconds<br>You cannot Cast this Spell directly<br>Trigger this Spell on Kill<br>Maximum 20 Raised Spiders<br>Minions cannot Taunt Enemies<br>Each Spider grants 2% increased Attack Speed<br>Each Spider grants 15% increased Damage with Poison
+|level1                                  = True
+|level1_level_requirement                = 75
+}}

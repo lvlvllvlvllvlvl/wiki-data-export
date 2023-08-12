@@ -1,0 +1,21 @@
+{{Skill
+|gem_description                         = Summons Arbalist minions which use projectile attacks.
+|active_skill_name                       = Summon Arbalists
+|skill_id                                = SummonArbalists
+|cast_time                               = 1.0
+|required_level                          = 70
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_number_of_arbalists
+|static_stat1_value                      = 2
+|static_stat2_id                         = cast_on_gain_skill
+|static_stat2_value                      = 1
+|static_stat3_id                         = no_cost
+|static_stat3_value                      = 1
+|static_stat4_id                         = minions_cannot_taunt_enemies
+|static_stat4_value                      = 1
+|stat_text                               = +2 to number of Summoned Arbalists<br>This Spell is Triggered when Gained<br>This Skill Costs nothing<br>Minions cannot Taunt Enemies
+|level1                                  = True
+|level1_level_requirement                = 70
+}}

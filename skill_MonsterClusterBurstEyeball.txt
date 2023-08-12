@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = Fires a projectile from a Wand that causes a series of small explosions surrounding its point of impact, each damaging enemies caught in the area.
+|active_skill_name                       = Kinetic Blast
+|item_class_id_restriction               = Wand
+|skill_id                                = MonsterClusterBurstEyeball
+|cast_time                               = 1.0
+|required_level                          = 2
+|static_stored_uses                      = 1
+|static_cooldown                         = 4
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = -29
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = skill_can_fire_wand_projectiles
+|static_stat3_value                      = 1
+|static_stat4_id                         = cluster_burst_spawn_amount
+|static_stat4_value                      = 15
+|stat_text                               = Creates 15 explosions
+|level1                                  = True
+|level1_level_requirement                = 2
+}}

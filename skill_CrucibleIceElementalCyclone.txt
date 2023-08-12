@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = Channel this skill to move towards a targeted location while spinning, building up stages while constantly attacking enemies in an area around you. While channelling this skill, you cannot be knocked back.
+|active_skill_name                       = Cyclone
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Unarmed, Warstaff, Rune Dagger
+|skill_id                                = CrucibleIceElementalCyclone
+|cast_time                               = 1.0
+|required_level                          = 0
+|static_damage_effectiveness             = 60
+|static_damage_multiplier                = 60
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_can_add_multiple_charges_per_action
+|static_stat2_value                      = 1
+|static_stat3_id                         = skill_physical_damage_%_to_convert_to_lightning
+|static_stat3_value                      = 50
+|static_stat4_id                         = active_skill_area_of_effect_+%_final
+|static_stat4_value                      = -25
+|static_stat5_id                         = cyclone_movement_speed_+%_final
+|static_stat5_value                      = 5
+|stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>Deals 30% less Damage<br>25% less Area of Effect<br>5% more Movement Speed
+|level1                                  = True
+|level1_level_requirement                = 0
+|level1_cost_amounts                     = []
+}}

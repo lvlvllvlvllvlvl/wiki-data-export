@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = The character slams the ground in front of them with a Staff, Mace or Sceptre, creating a wave that travels forward and damages enemies with an increased chance to stun.
+|active_skill_name                       = Ground Slam
+|item_class_id_restriction               = One Hand Mace, Sceptre, Staff, Two Hand Mace, Unarmed, Warstaff
+|skill_id                                = ShieldCrabGroundSlam
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 6
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = -30
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_stun_threshold_reduction_+%
+|static_stat3_value                      = 15
+|stat_text                               = 15% reduced Enemy Stun Threshold
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

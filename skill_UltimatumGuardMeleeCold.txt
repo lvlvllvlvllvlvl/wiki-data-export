@@ -1,0 +1,32 @@
+{{Skill
+|gem_description                         = Strike your foes down with a powerful blow.
+|active_skill_name                       = Default Attack
+|skill_id                                = UltimatumGuardMeleeCold
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = arrow_projectile_variation
+|static_stat1_value                      = 34
+|static_stat2_id                         = skill_can_fire_arrows
+|static_stat2_value                      = 1
+|static_stat3_id                         = skill_can_fire_wand_projectiles
+|static_stat3_value                      = 1
+|static_stat4_id                         = action_attack_or_cast_time_uses_animation_length
+|static_stat4_value                      = 1
+|static_stat5_id                         = use_scaled_contact_offset
+|static_stat5_value                      = 1
+|static_stat6_id                         = number_of_additional_projectiles
+|static_stat6_value                      = 2
+|static_stat7_id                         = skill_physical_damage_%_to_convert_to_cold
+|static_stat7_value                      = 50
+|stat_text                               = Deals (50-0)% less Damage<br>Fires 2 additional Projectiles<br>50% of Physical Damage Converted to Cold Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat_text                        = Deals 50% less Damage
+|level1_stat1_id                         = active_skill_damage_+%_final
+|level1_stat1_value                      = -50
+|level2                                  = True
+|level2_level_requirement                = 68
+}}

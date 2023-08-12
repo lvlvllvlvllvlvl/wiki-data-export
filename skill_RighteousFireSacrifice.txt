@@ -1,0 +1,33 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = RighteousFireSacrifice
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 10
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 4
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 4000
+|stat_text                               = Deals (5.8-649.5) Base Fire Damage per second<br>Base duration is 4 seconds
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat_text                        = Deals 5.8 Base Fire Damage per second
+|level1_stat1_id                         = base_fire_damage_to_deal_per_minute
+|level1_stat1_value                      = 348
+|level2                                  = True
+|level2_level_requirement                = 35
+|level2_stat_text                        = Deals 92.7 Base Fire Damage per second
+|level2_stat1_id                         = base_fire_damage_to_deal_per_minute
+|level2_stat1_value                      = 5560
+|level3                                  = True
+|level3_level_requirement                = 70
+|level3_stat_text                        = Deals 649.5 Base Fire Damage per second
+|level3_stat1_id                         = base_fire_damage_to_deal_per_minute
+|level3_stat1_value                      = 38968
+}}

@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = mace_accuracy_speed_notable2484
+|int_id                              = 49969
+|name                                = Courage
+|is_notable                          = True
+|icon                                = ArmourandEvasion2
+|stat1_id                            = armour_+%_if_have_been_hit_recently
+|stat1_value                         = 30
+|stat2_id                            = evasion_rating_+%_if_have_not_been_hit_recently
+|stat2_value                         = 30
+|stat3_id                            = spell_suppression_chance_%_if_enemy_hit_recently
+|stat3_value                         = 15
+|stat_text                           = 30% increased [[Armour]] if you have been [[Hit]] [[Recently]]<br>30% increased [[Evasion Rating]] if you haven't been [[Hit]] [[Recently]]<br>+15% chance to Suppress [[Spell Damage]] if you've [[Hit]] an Enemy [[Recently]]
+|connections                         = mastery_evasion109,mastery_evasion109,melee_evasion2037
+}}

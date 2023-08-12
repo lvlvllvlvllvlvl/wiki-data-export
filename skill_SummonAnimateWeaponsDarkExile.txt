@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = SummonAnimateWeaponsDarkExile
+|cast_time                               = 1.0
+|required_level                          = 73
+|static_stored_uses                      = 1
+|static_cooldown                         = 8
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 30
+|static_stat1_id                         = skill_repeat_count
+|static_stat1_value                      = 1
+|static_stat2_id                         = active_skill_damage_+%_final
+|static_stat2_value                      = 50
+|static_stat3_id                         = base_skill_effect_duration
+|static_stat3_value                      = 30000
+|static_stat4_id                         = active_skill_cast_speed_+%_final
+|static_stat4_value                      = 200
+|static_stat5_id                         = attack_speed_+%
+|static_stat5_value                      = 200
+|static_stat6_id                         = active_skill_minion_life_+%_final
+|static_stat6_value                      = 2000
+|stat_text                               = Skills Repeat an additional Time<br>Deals 50% more Damage<br>Base duration is 30 seconds<br>200% more Cast Speed<br>200% increased Attack Speed<br>Minions have 2000% more Maximum Life
+|level1                                  = True
+|level1_level_requirement                = 73
+}}

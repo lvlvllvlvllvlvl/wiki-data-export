@@ -1,0 +1,19 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Quicksilver Flask
+|class_id                                = UtilityFlask
+|size_x                                  = 1
+|size_y                                  = 2
+|drop_level                              = 4
+|drop_rarities_ids                       = normal, magic, unique
+|tags                                    = utility_flask, flask, default
+|metadata_id                             = Metadata/Items/Flasks/FlaskUtility6
+|help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.
+|required_level                          = 4
+|flask_duration                          = 6
+|buff_id                                 = flask_utility_sprint
+|buff_value1                             = 40
+|buff_stat_text                          = 40% increased [[Movement Speed]]
+|charges_max                             = 60
+|charges_per_use                         = 30
+}}

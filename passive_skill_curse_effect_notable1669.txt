@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = curse_effect_notable1669
+|int_id                              = 15400
+|name                                = Skittering Runes
+|is_notable                          = True
+|icon                                = CurseAreaOfEffectNotable
+|stat1_id                            = curse_area_of_effect_+%
+|stat1_value                         = 50
+|stat2_id                            = curse_aura_skills_mana_reservation_efficiency_+%
+|stat2_value                         = 20
+|stat3_id                            = curse_mana_cost_+%
+|stat3_value                         = -20
+|stat_text                           = 50% increased Area of Effect of Hex [[Skill|Skills]]<br>20% increased [[Mana Reservation]] Efficiency of [[Curse]] Aura [[Skill|Skills]]<br>20% reduced [[Mana]] Cost of [[Curse]] [[Skill|Skills]]
+|connections                         = curse_mana_cost2867,mastery_curse75,curse_mana_cost2867,curse_reservation_efficiency2865,mastery_curse75
+}}

@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = Launches unpredictable sparks that move randomly until they hit an enemy or expire.
+|active_skill_name                       = Spark
+|skill_id                                = LightningIncursionSpark
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 0.5
+|static_stat1_id                         = spell_minimum_base_lightning_damage
+|static_stat1_value                      = 6
+|static_stat2_id                         = spell_maximum_base_lightning_damage
+|static_stat2_value                      = 11
+|static_stat3_id                         = base_skill_effect_duration
+|static_stat3_value                      = 500
+|static_stat4_id                         = projectiles_nova
+|static_stat4_value                      = 1
+|static_stat5_id                         = base_projectile_speed_+%
+|static_stat5_value                      = 25
+|static_stat6_id                         = number_of_additional_projectiles
+|static_stat6_value                      = 3
+|stat_text                               = Deals 6 to 11 Lightning Damage<br>Base duration is 0.5 seconds<br>Fires Projectiles in a circle<br>25% increased Projectile Speed<br>Fires 3 additional Projectiles
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

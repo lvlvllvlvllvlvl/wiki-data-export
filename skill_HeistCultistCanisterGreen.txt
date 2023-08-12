@@ -1,0 +1,31 @@
+{{Skill
+|gem_description                         = Generic monster mortar skill. Like Monster Projectile but has an impact effect.
+|active_skill_name                       = 
+|skill_id                                = HeistCultistCanisterGreen
+|cast_time                               = 1.33
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 8
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = projectile_spread_radius
+|static_stat1_value                      = 20
+|static_stat2_id                         = projectile_minimum_range
+|static_stat2_value                      = 15
+|static_stat3_id                         = spell_maximum_action_distance_+%
+|static_stat3_value                      = -40
+|static_stat4_id                         = number_of_projectiles_override
+|static_stat4_value                      = 1
+|static_stat5_id                         = is_area_damage
+|static_stat5_value                      = 1
+|static_stat6_id                         = base_is_projectile
+|static_stat6_value                      = 1
+|static_stat7_id                         = projectile_uses_contact_position
+|static_stat7_value                      = 1
+|static_stat8_id                         = number_of_additional_projectiles
+|static_stat8_value                      = 3
+|stat_text                               = Fires 3 additional Projectiles
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

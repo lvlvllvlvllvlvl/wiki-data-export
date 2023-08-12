@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = Targets an area and builds up a large explosion. The build-up speed is based on cast speed. The explosion occurs after it reaches 10 stacks.
+|active_skill_name                       = Vaal Flameblast
+|skill_id                                = EssenceDaemonVaalFlameblast
+|cast_time                               = 1.0
+|required_level                          = 4
+|static_stored_uses                      = 1
+|static_cooldown                         = 2
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 50
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = -50
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_fire_damage
+|static_stat3_value                      = 5
+|static_stat4_id                         = spell_maximum_base_fire_damage
+|static_stat4_value                      = 8
+|static_stat5_id                         = charged_blast_spell_damage_+%_final_per_stack
+|static_stat5_value                      = 110
+|static_stat6_id                         = flameblast_ailment_damage_+%_final_per_stack
+|static_stat6_value                      = 110
+|stat_text                               = Deals 5 to 8 Fire Damage<br>110% more Spell Damage for each stage<br>110% more Damage with Ailments for each stage
+|level1                                  = True
+|level1_level_requirement                = 4
+}}

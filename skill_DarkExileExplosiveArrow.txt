@@ -1,0 +1,37 @@
+{{Skill
+|gem_description                         = Fires an arrow which acts as a short duration fuse. Applying additional arrows to an enemy extends the duration. When the target dies or the fuses expire, the arrows explode, dealing fire AoE damage to nearby enemies. The AoE radius is proportional to the number of arrows upon death.
+|active_skill_name                       = Explosive Arrow
+|item_class_id_restriction               = Bow
+|skill_id                                = DarkExileExplosiveArrow
+|cast_time                               = 1.0
+|required_level                          = 73
+|static_stored_uses                      = 1
+|static_cooldown                         = 12
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 2
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_can_fire_arrows
+|static_stat2_value                      = 1
+|static_stat3_id                         = skill_repeat_count
+|static_stat3_value                      = 6
+|static_stat4_id                         = active_skill_attack_damage_+%_final
+|static_stat4_value                      = -10
+|static_stat5_id                         = base_skill_effect_duration
+|static_stat5_value                      = 2000
+|static_stat6_id                         = number_of_additional_projectiles
+|static_stat6_value                      = 5
+|static_stat7_id                         = minimum_fire_damage_per_fuse_arrow_orb
+|static_stat7_value                      = 653
+|static_stat8_id                         = maximum_fire_damage_per_fuse_arrow_orb
+|static_stat8_value                      = 980
+|static_stat9_id                         = fuse_arrow_explosion_radius_+_per_fuse_arrow_orb
+|static_stat9_value                      = 3
+|static_stat10_id                        = active_skill_attack_speed_+%_final
+|static_stat10_value                     = 150
+|stat_text                               = Skills Repeat an additional 6 Times<br>Deals 10% less Attack Damage<br>Base duration is 2 seconds<br>Fires 5 additional Projectiles<br>Explosion deals 653 to 980 Base Fire Damage per Fuse Charge<br>+3 to Explosion Radius per Explosive Arrow on Target<br>150% more Attack Speed
+|level1                                  = True
+|level1_level_requirement                = 73
+}}

@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = Reserves some of your life to cause bleeding you inflict to be stronger, and grant life regeneration based on the number bleeding enemies nearby.
+|active_skill_name                       = Thirst for Blood
+|skill_id                                = VampiricIcon
+|cast_time                               = 0.0
+|required_level                          = 70
+|static_stored_uses                      = 1
+|static_cooldown                         = 1.2
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_life_reservation_percent         = 10
+|static_stat1_id                         = vampiric_icon_max_bleeding_beam_targets
+|static_stat1_value                      = 5
+|static_stat2_id                         = skill_life_regeneration_per_minute_per_affected_enemy
+|static_stat2_value                      = 24000
+|static_stat3_id                         = vampiric_icon_bleeding_damage_+%_final
+|static_stat3_value                      = 20
+|stat_text                               = Applies beams to the closest 5 nearby Bleeding Enemies<br>Regenerate 400 Life per second for each affected Enemy<br>Grants 20% more Damage with Bleeding
+|level1                                  = True
+|level1_level_requirement                = 70
+}}

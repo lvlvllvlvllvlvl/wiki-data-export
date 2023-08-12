@@ -1,0 +1,13 @@
+{{Passive skill
+|id                                  = reduced_proj_speed_notable2739
+|int_id                              = 31513
+|name                                = Adjacent Animosity
+|is_notable                          = True
+|icon                                = ReducedProjectileSpeedNotable
+|stat1_id                            = base_projectile_speed_+%
+|stat1_value                         = -10
+|stat2_id                            = projectile_damage_+%_max_before_distance_increase
+|stat2_value                         = 40
+|stat_text                           = 10% reduced Projectile Speed<br>Projectiles deal 40% increased Damage with [[Hit|Hits]] to targets at the start<br />of their movement, reducing to 0% as they travel farther
+|connections                         = mastery_projectile202,reduced_proj_speed2738
+}}

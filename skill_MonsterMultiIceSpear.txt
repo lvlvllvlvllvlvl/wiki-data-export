@@ -1,0 +1,32 @@
+{{Skill
+|gem_description                         = Launches shards of ice in rapid succession. After travelling a short distance they change to a second form, which moves much faster and pierces through enemies.
+|active_skill_name                       = Ice Spear
+|skill_id                                = MonsterMultiIceSpear
+|cast_time                               = 0.85
+|required_level                          = 3
+|static_critical_strike_chance           = 7
+|static_damage_effectiveness             = 80
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = ice_spear_second_form_damage_+%
+|static_stat1_value                      = 50
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = number_of_additional_projectiles
+|static_stat3_value                      = 2
+|stat_text                               = Deals (6-494) to (10-741) Cold Damage<br>Fires 2 additional Projectiles
+|level1                                  = True
+|level1_level_requirement                = 3
+|level1_stat_text                        = Deals 6 to 10 Cold Damage
+|level1_stat1_id                         = spell_minimum_base_cold_damage
+|level1_stat1_value                      = 6
+|level1_stat2_id                         = spell_maximum_base_cold_damage
+|level1_stat2_value                      = 10
+|level2                                  = True
+|level2_level_requirement                = 68
+|level2_stat_text                        = Deals 494 to 741 Cold Damage
+|level2_stat1_id                         = spell_minimum_base_cold_damage
+|level2_stat1_value                      = 494
+|level2_stat2_id                         = spell_maximum_base_cold_damage
+|level2_stat2_value                      = 741
+}}

@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = BetrayalLeoCombo1
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|stat_text                               = Deals (30-0)% less Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat_text                        = Deals 30% less Damage
+|level1_stat1_id                         = active_skill_damage_+%_final
+|level1_stat1_value                      = -30
+|level2                                  = True
+|level2_level_requirement                = 10
+|level2_stat_text                        = Deals 30% less Damage
+|level2_stat1_id                         = active_skill_damage_+%_final
+|level2_stat1_value                      = -30
+|level3                                  = True
+|level3_level_requirement                = 60
+}}

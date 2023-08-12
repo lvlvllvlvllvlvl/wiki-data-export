@@ -1,0 +1,19 @@
+{{Skill
+|gem_description                         = Casts an aura that causes nearby enemies to take more physical damage.
+|active_skill_name                       = Pride
+|skill_id                                = ExilePhysicalDamageAura
+|cast_time                               = 0.5
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = physical_damage_aura_nearby_enemies_physical_damage_taken_+%
+|static_stat1_value                      = 15
+|static_stat2_id                         = physical_damage_aura_nearby_enemies_physical_damage_taken_+%_max
+|static_stat2_value                      = 30
+|stat_text                               = Nearby Enemies take at least 15% more Physical Damage,<br> raising up to 30% as they stay in the Aura for 4 seconds
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

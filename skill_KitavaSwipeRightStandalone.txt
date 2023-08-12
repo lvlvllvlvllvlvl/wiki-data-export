@@ -1,0 +1,29 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = KitavaSwipeRightStandalone
+|cast_time                               = 7.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 10
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat1_value                      = -70
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = action_do_not_face_target
+|static_stat3_value                      = 1
+|static_stat4_id                         = cannot_stun
+|static_stat4_value                      = 1
+|static_stat5_id                         = global_cannot_crit
+|static_stat5_value                      = 1
+|static_stat6_id                         = active_skill_damage_+%_final
+|static_stat6_value                      = -80
+|static_stat7_id                         = global_always_hit
+|static_stat7_value                      = 1
+|stat_text                               = Your Hits cannot Stun Enemies<br>Never deal Critical Strikes<br>Deals 80% less Damage<br>Can't be Evaded
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

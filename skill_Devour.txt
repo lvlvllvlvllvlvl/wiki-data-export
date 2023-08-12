@@ -1,0 +1,15 @@
+{{Skill
+|gem_description                         = Summons a totem that can consume nearby corpses. If you are hurt, it will destroy a corpse to leech life to you.
+|active_skill_name                       = Devouring Totem
+|skill_id                                = Devour
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = corpse_consumption_life_to_gain
+|static_stat1_value                      = 200
+|stat_text                               = Leeches 200 Life to you for each corpse Consumed
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

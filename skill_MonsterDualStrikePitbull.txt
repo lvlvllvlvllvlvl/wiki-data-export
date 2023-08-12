@@ -1,0 +1,20 @@
+{{Skill
+|gem_description                         = Attacks with both weapons, dealing the damage of both in one strike. Dual wield only. Does not work with wands.
+|active_skill_name                       = Dual Strike
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Two Hand Axe, Rune Dagger
+|skill_id                                = MonsterDualStrikePitbull
+|cast_time                               = 1.0
+|required_level                          = 2
+|static_stored_uses                      = 1
+|static_cooldown                         = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = skill_double_hits_when_dual_wielding
+|static_stat1_value                      = 1
+|static_stat2_id                         = active_skill_damage_+%_final
+|static_stat2_value                      = -10
+|stat_text                               = Deals 10% less Damage
+|level1                                  = True
+|level1_level_requirement                = 2
+}}

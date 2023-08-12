@@ -1,0 +1,17 @@
+{{Skill
+|skill_id                                = SupportTriggerSpellOnBowAttack
+|required_level                          = 1
+|static_cost_multiplier                  = 100
+|static_stored_uses                      = 1
+|static_cooldown                         = 0.3
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = triggered_skill_uses_main_hand_or_averaged_attack_time_for_pvp_scaling
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_has_trigger_from_unique_item
+|static_stat2_value                      = 1
+|stat_text                               = 
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

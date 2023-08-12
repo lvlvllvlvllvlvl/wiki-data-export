@@ -1,0 +1,21 @@
+{{Skill
+|gem_description                         = Drops a Flare at your feet. The Flare temporarily illuminates an area, protecting those within its radius from the darkness. The Flare fades over its duration.
+|active_skill_name                       = Throw Flare
+|skill_id                                = Flare
+|cast_time                               = 0.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 0.5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = base_deal_no_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = no_mana_cost
+|static_stat3_value                      = 1
+|stat_text                               = 
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

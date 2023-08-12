@@ -1,0 +1,31 @@
+{{Skill
+|gem_description                         = Hits enemies, converting some of your physical damage to cold damage. It traps enemies with you in a circle of ice so that they can't escape. Requires a Mace, Sceptre or Staff.
+|active_skill_name                       = Vaal Glacial Hammer
+|item_class_id_restriction               = One Hand Mace, Sceptre, Two Hand Mace, Staff, Warstaff
+|skill_id                                = WbVaalGlacialHammer
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 10
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 7.5
+|static_stat1_id                         = active_skill_chill_duration_+%_final
+|static_stat1_value                      = 35
+|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat2_value                      = 75
+|static_stat3_id                         = active_skill_damage_+%_final
+|static_stat3_value                      = 30
+|static_stat4_id                         = base_skill_effect_duration
+|static_stat4_value                      = 7500
+|static_stat5_id                         = base_chance_to_freeze_%
+|static_stat5_value                      = 20
+|static_stat6_id                         = physical_damage_+%
+|static_stat6_value                      = 29
+|static_stat7_id                         = skill_physical_damage_%_to_convert_to_cold
+|static_stat7_value                      = 50
+|stat_text                               = Deals 30% more Damage<br>Base duration is 7.5 seconds<br>20% chance to Freeze enemies<br>29% increased Physical Damage<br>50% of Physical Damage Converted to Cold Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

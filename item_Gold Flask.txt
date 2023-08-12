@@ -1,0 +1,19 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Gold Flask
+|class_id                                = UtilityFlask
+|size_x                                  = 1
+|size_y                                  = 2
+|drop_level                              = 27
+|drop_rarities_ids                       = normal, magic, unique
+|tags                                    = utility_flask, flask, default
+|metadata_id                             = Metadata/Items/Flasks/FlaskUtility16
+|help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.
+|required_level                          = 27
+|flask_duration                          = 5
+|buff_id                                 = flask_utility_rarity
+|buff_value1                             = 30
+|buff_stat_text                          = 30% increased Rarity of Items found
+|charges_max                             = 80
+|charges_per_use                         = 60
+}}

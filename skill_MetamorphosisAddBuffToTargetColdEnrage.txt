@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = MetamorphosisAddBuffToTargetColdEnrage
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 5
+|static_stat1_id                         = chill_minimum_slow_%
+|static_stat1_value                      = 15
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 5000
+|static_stat3_id                         = global_minimum_added_cold_damage
+|static_stat3_value                      = 3
+|static_stat4_id                         = global_maximum_added_cold_damage
+|static_stat4_value                      = 5
+|static_stat5_id                         = base_damage_taken_+%
+|static_stat5_value                      = -10
+|stat_text                               = Chills from your Hits always reduce Action Speed by at least 15%<br>Base duration is 5 seconds<br>Adds 3 to 5 Cold Damage<br>10% reduced Damage taken
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

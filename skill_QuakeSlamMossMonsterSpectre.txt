@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a short duration. Cracks created before the first one has erupted will not generate their own aftershocks. Requires an Axe, Mace, Sceptre, Staff or Unarmed.
+|active_skill_name                       = Earthquake
+|item_class_id_restriction               = One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Axe, Two Hand Mace, Unarmed, Warstaff
+|skill_id                                = QuakeSlamMossMonsterSpectre
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 2.5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 3
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = -20
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = force_lite_skill_effects
+|static_stat3_value                      = 1
+|static_stat4_id                         = base_skill_effect_duration
+|static_stat4_value                      = 3000
+|static_stat5_id                         = quake_slam_fully_charged_explosion_damage_+%_final
+|static_stat5_value                      = 50
+|stat_text                               = Base duration is 3 seconds<br>Aftershock deals 50% more Damage with Hits and Ailments
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

@@ -1,0 +1,33 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = AtziriSpearThrow
+|cast_time                               = 0.93
+|required_level                          = 70
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_bleeding_damage_+%_final
+|static_stat1_value                      = -64
+|static_stat2_id                         = cast_time_overrides_attack_duration
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_is_projectile
+|static_stat3_value                      = 1
+|static_stat4_id                         = base_bleed_duration_+%
+|static_stat4_value                      = -20
+|static_stat5_id                         = global_bleed_on_hit
+|static_stat5_value                      = 1
+|stat_text                               = 20% reduced Bleeding Duration<br>(100-150)% increased Projectile Speed<br>(0-30)% more Attack Speed<br>Causes Bleeding
+|level1                                  = True
+|level1_level_requirement                = 70
+|level1_stat_text                        = 100% increased Projectile Speed
+|level1_stat1_id                         = base_projectile_speed_+%
+|level1_stat1_value                      = 100
+|level2                                  = True
+|level2_level_requirement                = 80
+|level2_stat_text                        = 150% increased Projectile Speed<br>30% more Attack Speed
+|level2_stat1_id                         = base_projectile_speed_+%
+|level2_stat1_value                      = 150
+|level2_stat2_id                         = active_skill_attack_speed_+%_final
+|level2_stat2_value                      = 30
+}}

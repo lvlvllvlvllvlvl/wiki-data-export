@@ -1,0 +1,23 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = AfflictionMinionDeathSpike
+|cast_time                               = 1.0
+|required_level                          = 0
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = projectile_speed_is_divided_by_%_of_scale
+|static_stat1_value                      = 200
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = projectile_uses_contact_position
+|static_stat3_value                      = 1
+|static_stat4_id                         = use_scaled_contact_offset
+|static_stat4_value                      = 1
+|static_stat5_id                         = always_pierce
+|static_stat5_value                      = 1
+|stat_text                               = Projectiles Pierce all Targets
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

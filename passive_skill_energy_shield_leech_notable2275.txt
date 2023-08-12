@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = energy_shield_leech_notable2275
+|int_id                              = 9567
+|name                                = Light Eater
+|is_notable                          = True
+|icon                                = SoulSiphoning
+|stat1_id                            = base_energy_shield_leech_from_spell_damage_permyriad
+|stat1_value                         = 80
+|stat2_id                            = maximum_energy_shield_leech_rate_+%
+|stat2_value                         = 30
+|stat3_id                            = damage_+%_on_full_energy_shield
+|stat3_value                         = 24
+|stat_text                           = 0.8% of [[Spell Damage]] Leeched as [[Energy Shield]]<br>30% increased Maximum total [[Energy Shield]] Recovery per second from [[Leech]]<br>24% increased Damage while on Full [[Energy Shield]]
+|connections                         = mastery_caster46,energy_shield_leech2273,mastery_caster46
+}}

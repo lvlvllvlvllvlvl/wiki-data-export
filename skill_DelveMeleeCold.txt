@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = Strike your foes down with a powerful blow.
+|active_skill_name                       = Default Attack
+|skill_id                                = DelveMeleeCold
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = action_attack_or_cast_time_uses_animation_length
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_can_fire_arrows
+|static_stat2_value                      = 1
+|static_stat3_id                         = skill_can_fire_wand_projectiles
+|static_stat3_value                      = 1
+|stat_text                               = Gain (10-100)% of Physical Damage as Extra Cold Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat_text                        = Gain 10% of Physical Damage as Extra Cold Damage
+|level1_stat1_id                         = physical_damage_%_to_add_as_cold
+|level1_stat1_value                      = 10
+|level2                                  = True
+|level2_level_requirement                = 83
+|level2_stat_text                        = Gain 100% of Physical Damage as Extra Cold Damage
+|level2_stat1_id                         = physical_damage_%_to_add_as_cold
+|level2_stat1_value                      = 100
+}}

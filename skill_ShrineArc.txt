@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = An arc of lightning stretches from the caster to a targeted enemy and chains on to other nearby enemies. Each time the main beam chains it will also chain to a second enemy, but that secondary arc cannot chain further.
+|active_skill_name                       = Arc
+|skill_id                                = ShrineArc
+|cast_time                               = 0.8
+|required_level                          = 4
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 20
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = spell_minimum_base_lightning_damage
+|static_stat1_value                      = 2
+|static_stat2_id                         = spell_maximum_base_lightning_damage
+|static_stat2_value                      = 6
+|static_stat3_id                         = base_chance_to_shock_%
+|static_stat3_value                      = 10
+|static_stat4_id                         = number_of_chains
+|static_stat4_value                      = 3
+|stat_text                               = Deals 2 to 6 Lightning Damage<br>10% chance to Shock enemies<br>Chains +3 Times
+|level1                                  = True
+|level1_level_requirement                = 4
+}}

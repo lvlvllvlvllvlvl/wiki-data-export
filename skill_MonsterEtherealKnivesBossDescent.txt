@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = Fires an arc of knives in front of the caster which deals physical damage.
+|active_skill_name                       = Ethereal Knives
+|skill_id                                = MonsterEtherealKnivesBossDescent
+|cast_time                               = 0.6
+|required_level                          = 19
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_physical_damage
+|static_stat2_value                      = 29
+|static_stat3_id                         = spell_maximum_base_physical_damage
+|static_stat3_value                      = 43
+|static_stat4_id                         = active_skill_cast_speed_+%_final
+|static_stat4_value                      = -20
+|static_stat5_id                         = number_of_additional_projectiles
+|static_stat5_value                      = 9
+|stat_text                               = Deals 29 to 43 Physical Damage<br>20% less Cast Speed<br>Fires 9 additional Projectiles
+|level1                                  = True
+|level1_level_requirement                = 19
+}}

@@ -1,0 +1,18 @@
+{{Passive skill
+|id                                  = affliction_notable_guerilla_tactics
+|int_id                              = 24645
+|name                                = Guerilla Tactics
+|is_notable                          = True
+|icon                                = TrapAndMineDmgNotable
+|stat1_id                            = trap_damage_+%
+|stat1_value                         = 20
+|stat2_id                            = mine_damage_+%
+|stat2_value                         = 20
+|stat3_id                            = trap_throwing_speed_+%
+|stat3_value                         = 10
+|stat4_id                            = mine_laying_speed_+%
+|stat4_value                         = 10
+|stat5_id                            = movement_speed_+%_if_placed_trap_or_mine_recently
+|stat5_value                         = 5
+|stat_text                           = 20% increased [[Trap]] Damage<br>20% increased [[Mine]] Damage<br>10% increased [[Trap]] Throwing Speed<br>10% increased [[Mine]] Throwing Speed<br>5% increased [[Movement Speed]] if you've thrown a [[Trap]] or [[Mine]] [[Recently]]
+}}

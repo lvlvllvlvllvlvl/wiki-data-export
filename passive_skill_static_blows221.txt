@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = static_blows221
+|int_id                              = 26557
+|name                                = Static Blows
+|is_notable                          = True
+|icon                                = staticshield
+|stat1_id                            = damage_+%_if_you_have_shocked_recently
+|stat1_value                         = 30
+|stat2_id                            = lightning_ailment_effect_+%
+|stat2_value                         = 30
+|stat3_id                            = lightning_ailment_duration_+%
+|stat3_value                         = 50
+|stat_text                           = 30% increased Damage if you have [[Shock|Shocked]] an Enemy [[Recently]]<br>30% increased Effect of Lightning Ailments<br>50% increased Duration of Lightning Ailments
+|connections                         = mastery_lightning148,shock_chance1654
+}}

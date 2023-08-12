@@ -1,0 +1,34 @@
+{{Skill
+|gem_description                         = As you channel this spell, it spreads its effect to more of your minions. When you stop channelling, each affected minion explodes, and this skill deals spell damage around them.  The explosion of the minion is not affected by modifiers to spell damage, and cannot be reflected.
+|active_skill_name                       = Death Wish
+|skill_id                                = DeathWish
+|cast_time                               = 0.2
+|required_level                          = 70
+|static_cost_amounts                     = 7
+|static_cost_types                       = Mana
+|static_critical_strike_chance           = 6
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_fire_damage
+|static_stat2_value                      = 444
+|static_stat3_id                         = spell_maximum_base_fire_damage
+|static_stat3_value                      = 666
+|static_stat4_id                         = skill_minion_explosion_life_%
+|static_stat4_value                      = 19
+|static_stat5_id                         = death_wish_attack_speed_+%
+|static_stat5_value                      = 40
+|static_stat6_id                         = death_wish_cast_speed_+%
+|static_stat6_value                      = 40
+|static_stat7_id                         = death_wish_hit_and_ailment_damage_+%_final_per_stage
+|static_stat7_value                      = 10
+|static_stat8_id                         = death_wish_max_stages
+|static_stat8_value                      = 13
+|static_stat9_id                         = death_wish_movement_speed_+%
+|static_stat9_value                      = 40
+|stat_text                               = Deals 444 to 666 Fire Damage<br>Explosion deals base Fire Damage equal to 19% of the Minion's maximum Life<br>Affected Minions have 40% increased Attack Speed<br>Affected Minions have 40% increased Cast Speed<br>Deals 10% more Damage with Hits and Ailments per affected Minion<br>Can affect 13 Minions<br>Affected Minions have 40% increased Movement Speed
+|level1                                  = True
+|level1_level_requirement                = 70
+}}

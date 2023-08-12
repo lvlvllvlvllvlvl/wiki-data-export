@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = Strike your foes down with a powerful blow.
+|active_skill_name                       = Default Attack
+|skill_id                                = MeleeEinhar
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = arrow_projectile_variation
+|static_stat1_value                      = 3
+|static_stat2_id                         = skill_can_fire_arrows
+|static_stat2_value                      = 1
+|static_stat3_id                         = skill_can_fire_wand_projectiles
+|static_stat3_value                      = 1
+|static_stat4_id                         = always_pierce
+|static_stat4_value                      = 1
+|static_stat5_id                         = active_skill_attack_speed_+%_final
+|static_stat5_value                      = 25
+|static_stat6_id                         = global_always_hit
+|static_stat6_value                      = 1
+|stat_text                               = Projectiles Pierce all Targets<br>25% more Attack Speed<br>Can't be Evaded
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

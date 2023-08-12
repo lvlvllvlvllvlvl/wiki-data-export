@@ -1,0 +1,16 @@
+{{Passive skill
+|id                                  = AscendancyTrickster10
+|int_id                              = 41891
+|name                                = Spellbreaker
+|ascendancy_class                    = Trickster
+|is_notable                          = True
+|icon                                = SupressionEnergyShieldTrickster (Trickster)
+|stat1_id                            = base_spell_suppression_chance_%
+|stat1_value                         = 20
+|stat2_id                            = spell_damage_%_suppressed_while_on_full_energy_shield
+|stat2_value                         = 10
+|stat3_id                            = energy_shield_recharges_on_suppress_%
+|stat3_value                         = 50
+|stat_text                           = +20% chance to Suppress [[Spell Damage]]<br>Prevent +10% of Suppressed [[Spell Damage]] while on Full [[Energy Shield]]<br>50% chance for [[Energy Shield]] Recharge to start when you Suppress [[Spell Damage]]
+|connections                         = AscendancyTrickster15
+}}

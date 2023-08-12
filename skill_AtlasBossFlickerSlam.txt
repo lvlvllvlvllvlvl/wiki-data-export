@@ -1,0 +1,35 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = AtlasBossFlickerSlam
+|cast_time                               = 2.0
+|required_level                          = 84
+|static_stored_uses                      = 1
+|static_cooldown                         = 15
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat1_value                      = -50
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|stat_text                               = Deals (200-400)% more Damage<br>(50-0)% less Attack Speed<br>Enemy Block Chance reduced by (0-1000)% against this Skill<br>Enemies have (0-1000)% reduced chance to Dodge Hits from this Skill
+|level1                                  = True
+|level1_level_requirement                = 84
+|level1_stat_text                        = Deals 200% more Damage<br>50% less Attack Speed
+|level1_stat1_id                         = active_skill_damage_+%_final
+|level1_stat1_value                      = 200
+|level1_stat2_id                         = active_skill_attack_speed_+%_final
+|level1_stat2_value                      = -50
+|level2                                  = True
+|level2_level_requirement                = 85
+|level2_stat_text                        = Deals 400% more Damage<br>Enemy Block Chance reduced by 1000% against this Skill<br>Enemies have 1000% reduced chance to Dodge Hits from this Skill
+|level2_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|level2_stat1_value                      = 30
+|level2_stat2_id                         = active_skill_damage_+%_final
+|level2_stat2_value                      = 400
+|level2_stat3_id                         = global_reduce_enemy_block_%
+|level2_stat3_value                      = 1000
+|level2_stat4_id                         = reduce_enemy_dodge_%
+|level2_stat4_value                      = 1000
+}}

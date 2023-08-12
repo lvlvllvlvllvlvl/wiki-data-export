@@ -1,0 +1,17 @@
+{{Passive skill
+|id                                  = vaal_spell_keystone_2194
+|int_id                              = 27637
+|name                                = Vaal Dominion
+|flavour_text                        = Gain Soul Harvest for 4 seconds when you Hit an Enemy with a Non-Vaal Spell if you have not gained Soul Harvest in the past 0.5 seconds
+Reminder text:
+(Soul Harvest adds 1 Vaal Soul to a damaging Vaal Spell or Vaal Minion Spell every second
+Up to 4 Soul Harvests can be active at a time)
+x% less Damage with Non-Vaal Skills
+|is_keystone                         = True
+|icon                                = newtitanicmight
+|stat1_id                            = gain_soul_regeneration_for_x_seconds_on_hit_every_500_ms
+|stat1_value                         = 6000
+|stat2_id                            = non_vaal_skills_damage_+%_final
+|stat2_value                         = -10
+|stat_text                           = 
+}}

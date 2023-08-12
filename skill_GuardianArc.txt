@@ -1,0 +1,32 @@
+{{Skill
+|gem_description                         = An arc of lightning stretches from the caster to a targeted enemy and chains on to other nearby enemies. Each time the main beam chains it will also chain to a second enemy, but that secondary arc cannot chain further.
+|active_skill_name                       = Arc
+|skill_id                                = GuardianArc
+|cast_time                               = 0.8
+|required_level                          = 2
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 70
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = spell_maximum_action_distance_+%
+|static_stat1_value                      = -50
+|static_stat2_id                         = active_skill_cast_speed_+%_final
+|static_stat2_value                      = -80
+|static_stat3_id                         = base_chance_to_shock_%
+|static_stat3_value                      = 5
+|stat_text                               = Deals (2-113) to (6-338) Lightning Damage<br>80% less Cast Speed<br>5% chance to Shock enemies
+|level1                                  = True
+|level1_level_requirement                = 2
+|level1_stat_text                        = Deals 2 to 6 Lightning Damage
+|level1_stat1_id                         = spell_minimum_base_lightning_damage
+|level1_stat1_value                      = 2
+|level1_stat2_id                         = spell_maximum_base_lightning_damage
+|level1_stat2_value                      = 6
+|level2                                  = True
+|level2_level_requirement                = 70
+|level2_stat_text                        = Deals 113 to 338 Lightning Damage
+|level2_stat1_id                         = spell_minimum_base_lightning_damage
+|level2_stat1_value                      = 113
+|level2_stat2_id                         = spell_maximum_base_lightning_damage
+|level2_stat2_value                      = 338
+}}

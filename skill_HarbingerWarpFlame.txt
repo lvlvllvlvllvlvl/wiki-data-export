@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = HarbingerWarpFlame
+|cast_time                               = 2.5
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 6
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 5
+|static_stat1_id                         = ground_fire_art_variation
+|static_stat1_value                      = 5
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 5000
+|stat_text                               = Deals (4-615.5) Base Fire Damage per second<br>Base duration is 5 seconds
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat_text                        = Deals 4 Base Fire Damage per second
+|level1_stat1_id                         = base_fire_damage_to_deal_per_minute
+|level1_stat1_value                      = 237
+|level2                                  = True
+|level2_level_requirement                = 68
+|level2_stat_text                        = Deals 615.5 Base Fire Damage per second
+|level2_stat1_id                         = base_fire_damage_to_deal_per_minute
+|level2_stat1_value                      = 36933
+}}

@@ -1,0 +1,34 @@
+{{Skill
+|gem_description                         = Launches shards of ice in rapid succession. After travelling a short distance they change to a second form, which moves much faster and pierces through enemies.
+|active_skill_name                       = Ice Spear
+|skill_id                                = SpikerBossIceSpearInvasion
+|cast_time                               = 0.85
+|required_level                          = 2
+|static_critical_strike_chance           = 7
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_chill_duration_+%_final
+|static_stat1_value                      = 78
+|static_stat2_id                         = spell_maximum_action_distance_+%
+|static_stat2_value                      = -40
+|static_stat3_id                         = base_is_projectile
+|static_stat3_value                      = 1
+|static_stat4_id                         = ice_spear_second_form_critical_strike_chance_+%
+|static_stat4_value                      = 600
+|stat_text                               = Deals (6-310) to (10-414) Cold Damage<br>Second form has 600% increased Critical Strike Chance
+|level1                                  = True
+|level1_level_requirement                = 2
+|level1_stat_text                        = Deals 6 to 10 Cold Damage
+|level1_stat1_id                         = spell_minimum_base_cold_damage
+|level1_stat1_value                      = 6
+|level1_stat2_id                         = spell_maximum_base_cold_damage
+|level1_stat2_value                      = 10
+|level2                                  = True
+|level2_level_requirement                = 53
+|level2_stat_text                        = Deals 310 to 414 Cold Damage
+|level2_stat1_id                         = spell_minimum_base_cold_damage
+|level2_stat1_value                      = 310
+|level2_stat2_id                         = spell_maximum_base_cold_damage
+|level2_stat2_value                      = 414
+}}

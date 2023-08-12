@@ -1,0 +1,32 @@
+{{Skill
+|gem_description                         = A chilling circle of ice expands from the caster, repeating from every enemy it hits.
+|active_skill_name                       = Vaal Ice Nova
+|skill_id                                = TormentSpiritVaalIceNova
+|cast_time                               = 0.8
+|required_level                          = 3
+|static_cost_amounts                     = 200
+|static_cost_types                       = Mana
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat1_value                      = -25
+|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat2_value                      = 15
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = force_lite_skill_effects
+|static_stat4_value                      = 1
+|static_stat5_id                         = spell_minimum_base_cold_damage
+|static_stat5_value                      = 6
+|static_stat6_id                         = spell_maximum_base_cold_damage
+|static_stat6_value                      = 9
+|static_stat7_id                         = ice_nova_number_of_repeats
+|static_stat7_value                      = 5
+|static_stat8_id                         = ice_nova_radius_+%_per_repeat
+|static_stat8_value                      = -20
+|stat_text                               = Deals 6 to 9 Cold Damage<br>Causes smaller novas up to 5 times on enemies hit<br>20% reduced Area of Effect each repeat
+|level1                                  = True
+|level1_level_requirement                = 3
+}}

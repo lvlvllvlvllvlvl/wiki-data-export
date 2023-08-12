@@ -1,0 +1,33 @@
+{{Skill
+|gem_description                         = Discharges Endurance Charges, making the character invulnerable to physical damage for a short time, proportional to how many endurance charges were expended.
+|active_skill_name                       = Immortal Call
+|skill_id                                = ExileImmortalCall
+|cast_time                               = 0.85
+|required_level                          = 35
+|static_stored_uses                      = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|stat_text                               = Base duration is (2.8-5) seconds
+|level1                                  = True
+|level1_level_requirement                = 35
+|level1_cooldown                         = 10
+|level1_duration                         = 2.8
+|level1_stat_text                        = Base duration is 2.8 seconds
+|level1_stat1_id                         = base_skill_effect_duration
+|level1_stat1_value                      = 2800
+|level2                                  = True
+|level2_level_requirement                = 50
+|level2_cooldown                         = 7
+|level2_duration                         = 3.3
+|level2_stat_text                        = Base duration is 3.3 seconds
+|level2_stat1_id                         = base_skill_effect_duration
+|level2_stat1_value                      = 3300
+|level3                                  = True
+|level3_level_requirement                = 70
+|level3_cooldown                         = 5
+|level3_duration                         = 5
+|level3_stat_text                        = Base duration is 5 seconds
+|level3_stat1_id                         = base_skill_effect_duration
+|level3_stat1_value                      = 5000
+}}

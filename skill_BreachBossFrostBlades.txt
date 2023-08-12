@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = Attack enemies with increased range, releasing icy blades from the first enemy hit which fly at other enemies. Requires a Melee Weapon.
+|active_skill_name                       = Frost Blades
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff, Rune Dagger
+|skill_id                                = BreachBossFrostBlades
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_damage_+%_final
+|static_stat1_value                      = 100
+|static_stat2_id                         = number_of_additional_projectiles
+|static_stat2_value                      = 2
+|static_stat3_id                         = skill_physical_damage_%_to_convert_to_cold
+|static_stat3_value                      = 50
+|static_stat4_id                         = active_skill_attack_speed_+%_final
+|static_stat4_value                      = 35
+|static_stat5_id                         = melee_weapon_range_+
+|static_stat5_value                      = 14
+|stat_text                               = Deals 100% more Damage<br>Fires 2 additional Projectiles<br>50% of Physical Damage Converted to Cold Damage<br>35% more Attack Speed<br>+14 to Melee Strike Range
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

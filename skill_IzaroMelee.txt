@@ -1,0 +1,18 @@
+{{Skill
+|gem_description                         = Strike your foes down with a powerful blow.
+|active_skill_name                       = Default Attack
+|skill_id                                = IzaroMelee
+|cast_time                               = 1.0
+|required_level                          = 33
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|stat_text                               = (0-25)% more Attack Speed
+|level1                                  = True
+|level1_level_requirement                = 33
+|level2                                  = True
+|level2_level_requirement                = 75
+|level2_stat_text                        = 25% more Attack Speed
+|level2_stat1_id                         = active_skill_attack_speed_+%_final
+|level2_stat1_value                      = 25
+}}

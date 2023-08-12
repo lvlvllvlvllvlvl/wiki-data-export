@@ -1,0 +1,18 @@
+{{Passive skill
+|id                                  = AscendancyElementalist19
+|int_id                              = 27038
+|name                                = Shaper of Storms
+|ascendancy_class                    = Elementalist
+|is_notable                          = True
+|icon                                = ShockSpecialisation (Elementalist)
+|stat1_id                            = always_shock
+|stat1_value                         = 1
+|stat2_id                            = all_damage_can_shock
+|stat2_value                         = 1
+|stat3_id                            = lightning_ailments_effect_+%_final_if_hit_highest_lightning
+|stat3_value                         = 25
+|stat4_id                            = shock_minimum_damage_taken_increase_%
+|stat4_value                         = 15
+|stat_text                           = [[Hit|Hits]] always [[Shock]]<br>All Damage can [[Shock]]<br>25% more Effect of Lightning Ailments you inflict with [[Hit|Hits]] if the highest Damage Type is Lightning<br>[[Shock|Shocks]] from your [[Hit|Hits]] always increase Damage taken by at least 15%
+|connections                         = AscendancyElementalist16
+}}

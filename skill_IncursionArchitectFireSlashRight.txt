@@ -1,0 +1,31 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = IncursionArchitectFireSlashRight
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 70
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_physical_damage_%_to_convert_to_fire
+|static_stat2_value                      = 75
+|static_stat3_id                         = active_skill_attack_speed_+%_final
+|static_stat3_value                      = -25
+|stat_text                               = Deals (0-200)% more Damage<br>75% of Physical Damage Converted to Fire Damage<br>25% less Attack Speed
+|level1                                  = True
+|level1_level_requirement                = 1
+|level2                                  = True
+|level2_level_requirement                = 20
+|level3                                  = True
+|level3_level_requirement                = 21
+|level3_stat_text                        = Deals 1% more Damage
+|level3_stat1_id                         = active_skill_damage_+%_final
+|level3_stat1_value                      = 1
+|level4                                  = True
+|level4_level_requirement                = 84
+|level4_stat_text                        = Deals 200% more Damage
+|level4_stat1_id                         = active_skill_damage_+%_final
+|level4_stat1_value                      = 200
+}}

@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = Launches shards of ice in rapid succession. After travelling a short distance they change to a second form, which moves much faster and pierces through enemies.
+|active_skill_name                       = Ice Spear
+|skill_id                                = SynthesisFinalBossIceSpear
+|cast_time                               = 1.83
+|required_level                          = 75
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = projectile_uses_contact_position
+|static_stat2_value                      = 1
+|static_stat3_id                         = use_scaled_contact_offset
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_cold_damage
+|static_stat4_value                      = 952
+|static_stat5_id                         = spell_maximum_base_cold_damage
+|static_stat5_value                      = 1428
+|static_stat6_id                         = ice_spear_second_form_projectile_speed_+%_final
+|static_stat6_value                      = 1200
+|stat_text                               = Deals 952 to 1428 Cold Damage<br>Second form has 1200% more Projectile Speed
+|level1                                  = True
+|level1_level_requirement                = 75
+}}

@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = Curses all targets in an area, lowering their lightning resistance and giving them a chance to be shocked when hit.
+|active_skill_name                       = Conductivity
+|skill_id                                = MonsterConductivityOnDeath
+|cast_time                               = 0.5
+|required_level                          = 55
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 6
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 9
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 6000
+|static_stat3_id                         = cast_on_death_%
+|static_stat3_value                      = 75
+|static_stat4_id                         = base_lightning_damage_resistance_%
+|static_stat4_value                      = -30
+|static_stat5_id                         = chance_to_be_shocked_%
+|static_stat5_value                      = 25
+|stat_text                               = Base duration is 6 seconds<br>75% chance to Trigger this Spell on Death<br>Cursed enemies have -30% to Lightning Resistance<br>Hits against Cursed Enemies have +25% chance to Shock
+|level1                                  = True
+|level1_level_requirement                = 55
+}}

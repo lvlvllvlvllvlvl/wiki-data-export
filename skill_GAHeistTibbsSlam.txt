@@ -1,0 +1,31 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = GAHeistTibbsSlam
+|cast_time                               = 2.166
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 12
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 140
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = cast_time_overrides_attack_duration
+|static_stat2_value                      = 1
+|static_stat3_id                         = always_stun
+|static_stat3_value                      = 1
+|static_stat4_id                         = melee_range_+
+|static_stat4_value                      = 7
+|stat_text                               = Deals (-60-800)% more Damage<br>Stuns Enemies<br>+7 to Melee Strike Range
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat_text                        = Deals 60% less Damage
+|level1_stat1_id                         = active_skill_damage_+%_final
+|level1_stat1_value                      = -60
+|level2                                  = True
+|level2_level_requirement                = 100
+|level2_stat_text                        = Deals 800% more Damage
+|level2_stat1_id                         = active_skill_damage_+%_final
+|level2_stat1_value                      = 800
+}}

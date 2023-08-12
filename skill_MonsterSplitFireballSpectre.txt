@@ -1,0 +1,32 @@
+{{Skill
+|gem_description                         = Unleashes a ball of fire towards a target which explodes, damaging nearby foes.
+|active_skill_name                       = Fireball
+|skill_id                                = MonsterSplitFireballSpectre
+|cast_time                               = 0.85
+|required_level                          = 3
+|static_critical_strike_chance           = 6
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = spell_maximum_action_distance_+%
+|static_stat1_value                      = -50
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = projectiles_fork
+|static_stat3_value                      = 1
+|stat_text                               = Deals (4-628) to (6-941) Fire Damage<br>Projectiles Fork
+|level1                                  = True
+|level1_level_requirement                = 3
+|level1_stat_text                        = Deals 4 to 6 Fire Damage
+|level1_stat1_id                         = spell_minimum_base_fire_damage
+|level1_stat1_value                      = 4
+|level1_stat2_id                         = spell_maximum_base_fire_damage
+|level1_stat2_value                      = 6
+|level2                                  = True
+|level2_level_requirement                = 68
+|level2_stat_text                        = Deals 628 to 941 Fire Damage
+|level2_stat1_id                         = spell_minimum_base_fire_damage
+|level2_stat1_value                      = 628
+|level2_stat2_id                         = spell_maximum_base_fire_damage
+|level2_stat2_value                      = 941
+}}

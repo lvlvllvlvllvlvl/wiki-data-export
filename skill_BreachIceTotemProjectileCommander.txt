@@ -1,0 +1,31 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = BreachIceTotemProjectileCommander
+|cast_time                               = 1.5
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_projectile_variation
+|static_stat1_value                      = 18
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_projectile_speed_+%
+|static_stat3_value                      = 250
+|stat_text                               = Deals (4-1004) to (6-1406) Cold Damage<br>250% increased Projectile Speed
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat_text                        = Deals 4 to 6 Cold Damage
+|level1_stat1_id                         = spell_minimum_base_cold_damage
+|level1_stat1_value                      = 4
+|level1_stat2_id                         = spell_maximum_base_cold_damage
+|level1_stat2_value                      = 6
+|level2                                  = True
+|level2_level_requirement                = 68
+|level2_stat_text                        = Deals 1004 to 1406 Cold Damage
+|level2_stat1_id                         = spell_minimum_base_cold_damage
+|level2_stat1_value                      = 1004
+|level2_stat2_id                         = spell_maximum_base_cold_damage
+|level2_stat2_value                      = 1406
+}}

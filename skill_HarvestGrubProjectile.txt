@@ -1,0 +1,29 @@
+{{Skill
+|gem_description                         = Generic monster mortar skill. Like Monster Projectile but has an impact effect.
+|active_skill_name                       = 
+|skill_id                                = HarvestGrubProjectile
+|cast_time                               = 2.0
+|required_level                          = 0
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 120
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = projectile_minimum_range
+|static_stat1_value                      = 15
+|static_stat2_id                         = number_of_projectiles_override
+|static_stat2_value                      = 1
+|static_stat3_id                         = main_hand_base_maximum_attack_distance
+|static_stat3_value                      = 60
+|static_stat4_id                         = projectile_spread_radius
+|static_stat4_value                      = 15
+|static_stat5_id                         = is_area_damage
+|static_stat5_value                      = 1
+|static_stat6_id                         = base_is_projectile
+|static_stat6_value                      = 1
+|static_stat7_id                         = projectile_uses_contact_position
+|static_stat7_value                      = 1
+|static_stat8_id                         = use_scaled_contact_offset
+|static_stat8_value                      = 1
+|stat_text                               = 
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

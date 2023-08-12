@@ -1,0 +1,18 @@
+{{Skill
+|gem_description                         = Casts an aura that grants extra cold damage based on physical damage to you and your allies.
+|active_skill_name                       = Hatred
+|skill_id                                = MonsterHatred
+|cast_time                               = 1.2
+|required_level                          = 10
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_mana_reservation_percent         = 60
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 33
+|static_stat2_id                         = physical_damage_%_to_add_as_cold
+|static_stat2_value                      = 30
+|stat_text                               = You and nearby allies gain 30% of Physical Damage as Extra Cold Damage
+|level1                                  = True
+|level1_level_requirement                = 10
+}}

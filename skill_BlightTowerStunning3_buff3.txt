@@ -1,0 +1,32 @@
+{{Skill
+|gem_description                         = Throws a trap which, once triggered, repeatedly releases a number of waves for a duration. Each wave deals damage in a series of small bursts in a line, ending with a larger burst. Modifiers to trap throwing speed affects how frequently it releases waves.
+|active_skill_name                       = Seismic Trap
+|skill_id                                = BlightTowerStunning3_buff3
+|cast_time                               = 3.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 4
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 7.5
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_physical_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_maximum_base_physical_damage
+|static_stat3_value                      = 2
+|static_stat4_id                         = base_skill_effect_duration
+|static_stat4_value                      = 7500
+|static_stat5_id                         = base_stun_duration_+%
+|static_stat5_value                      = 150
+|static_stat6_id                         = always_stun
+|static_stat6_value                      = 1
+|static_stat7_id                         = phys_cascade_trap_base_interval_duration_ms
+|static_stat7_value                      = 250
+|static_stat8_id                         = phys_cascade_trap_number_of_cascades
+|static_stat8_value                      = 6
+|stat_text                               = Deals 1 to 2 Physical Damage<br>Base duration is 7.5 seconds<br>150% increased Stun Duration on enemies<br>Stuns Enemies<br>Releases waves every 0.25 seconds<br>Releases 6 waves
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

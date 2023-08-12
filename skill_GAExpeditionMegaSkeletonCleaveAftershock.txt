@@ -1,0 +1,23 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = GAExpeditionMegaSkeletonCleaveAftershock
+|cast_time                               = 1.0
+|required_level                          = 0
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = skill_physical_damage_%_to_convert_to_cold
+|static_stat1_value                      = 100
+|stat_text                               = Deals (-40-50)% more Damage<br>100% of Physical Damage Converted to Cold Damage
+|level1                                  = True
+|level1_level_requirement                = 0
+|level1_stat_text                        = Deals 40% less Damage
+|level1_stat1_id                         = active_skill_damage_+%_final
+|level1_stat1_value                      = -40
+|level2                                  = True
+|level2_level_requirement                = 83
+|level2_stat_text                        = Deals 50% more Damage
+|level2_stat1_id                         = active_skill_damage_+%_final
+|level2_stat1_value                      = 50
+}}

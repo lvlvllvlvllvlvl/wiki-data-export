@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = Damaging cones of lightning surround you.
+|active_skill_name                       = Edict of Thunder
+|skill_id                                = EnchantmentOfThunderOnKill2
+|cast_time                               = 1.0
+|required_level                          = 53
+|static_stored_uses                      = 1
+|static_cooldown                         = 5
+|static_critical_strike_chance           = 7
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_lightning_damage
+|static_stat2_value                      = 330
+|static_stat3_id                         = spell_maximum_base_lightning_damage
+|static_stat3_value                      = 506
+|static_stat4_id                         = chance_to_cast_on_kill_%_target_self
+|static_stat4_value                      = 100
+|static_stat5_id                         = damage_cannot_be_reflected
+|static_stat5_value                      = 1
+|stat_text                               = Deals 330 to 506 Lightning Damage<br>Trigger this Spell on Kill<br>Damage cannot be Reflected
+|level1                                  = True
+|level1_level_requirement                = 53
+}}

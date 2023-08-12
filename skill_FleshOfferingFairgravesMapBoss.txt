@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = Consumes a corpse, which temporarily empowers your minions with swiftness. The skill consumes other nearby corpses, increasing the duration for each corpse consumed.
+|active_skill_name                       = Flesh Offering
+|skill_id                                = FleshOfferingFairgravesMapBoss
+|cast_time                               = 1.0
+|required_level                          = 70
+|static_stored_uses                      = 1
+|static_cooldown                         = 10
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 20
+|static_stat1_id                         = base_skill_effect_duration
+|static_stat1_value                      = 20000
+|static_stat2_id                         = offering_skill_effect_duration_per_corpse
+|static_stat2_value                      = 4000
+|static_stat3_id                         = attack_speed_+%_granted_from_skill
+|static_stat3_value                      = 100
+|static_stat4_id                         = cast_speed_+%_granted_from_skill
+|static_stat4_value                      = 100
+|static_stat5_id                         = base_movement_velocity_+%
+|static_stat5_value                      = 100
+|stat_text                               = Base duration is 20 seconds<br>Additional 4 seconds Base Duration per extra corpse Consumed<br>Grants Minions 100% increased Attack Speed<br>Grants Minions 100% increased Cast Speed<br>Grants Minions 100% increased Movement Speed
+|level1                                  = True
+|level1_level_requirement                = 70
+}}

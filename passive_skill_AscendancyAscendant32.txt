@@ -1,0 +1,24 @@
+{{Passive skill
+|id                                  = AscendancyAscendant32
+|int_id                              = 4194
+|name                                = Berserker
+|reminder_text                       = (You can only take one of the three Marauder Ascendancy passives)<br>(Recently refers to the past 4 seconds)<br>(Maximum Rage is 50)<br>(You lose 1 Rage every 0.5 seconds if you have not been Hit or gained Rage Recently)<br>(Inherent effects from having Rage are:
+1% increased Attack Damage per 1 Rage
+1% increased Attack Speed per 2 Rage
+1% increased Movement Speed per 5 Rage)
+|ascendancy_class                    = Ascendant
+|is_multiple_choice_option           = True
+|icon                                = Berserker (Ascendants)
+|stat1_id                            = berserker_gain_rage_on_attack_hit_cooldown_ms
+|stat1_value                         = 300
+|stat2_id                            = cannot_be_stunned_with_25_rage
+|stat2_value                         = 1
+|stat3_id                            = berserker_damage_+%_final
+|stat3_value                         = 15
+|stat4_id                            = base_damage_taken_+%
+|stat4_value                         = 5
+|stat5_id                            = life_and_mana_leech_from_attack_damage_permyriad_if_killed_recently
+|stat5_value                         = 200
+|stat_text                           = Gain 1 Rage on [[Hit]] with Attacks, no more than once every 0.3 seconds<br>Cannot be Stunned while you have at least 25 Rage<br>15% more Damage<br>5% increased Damage taken<br>2% of [[Attack Damage]] Leeched as [[Life]] and [[Mana]] if you've Killed [[Recently]]
+|connections                         = AscendancyAscendant25
+}}

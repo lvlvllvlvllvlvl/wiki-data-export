@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = Infuses your melee weapon with electrical energies as you swing. In addition to converting some of your physical damage to lightning damage, the stored energy is released from the weapon as projectiles as you strike, flying out to hit farther-away enemies. The projectiles cannot miss if the melee attack hits a target.
+|active_skill_name                       = Lightning Strike
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff, Rune Dagger
+|skill_id                                = WbMonsterLightningStrike
+|cast_time                               = 1.0
+|required_level                          = 4
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = total_projectile_spread_angle_override
+|static_stat1_value                      = 70
+|static_stat2_id                         = show_number_of_projectiles
+|static_stat2_value                      = 1
+|static_stat3_id                         = skill_physical_damage_%_to_convert_to_lightning
+|static_stat3_value                      = 50
+|static_stat4_id                         = active_skill_attack_damage_+%_final
+|static_stat4_value                      = 30
+|static_stat5_id                         = active_skill_damage_+%_final
+|static_stat5_value                      = 20
+|static_stat6_id                         = number_of_additional_projectiles
+|static_stat6_value                      = 2
+|static_stat7_id                         = active_skill_projectile_damage_+%_final
+|static_stat7_value                      = -30
+|stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>Deals 30% more Attack Damage<br>Deals 20% more Damage<br>Fires 2 additional Projectiles<br>30% less Projectile Damage
+|level1                                  = True
+|level1_level_requirement                = 4
+}}

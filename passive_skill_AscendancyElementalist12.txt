@@ -1,0 +1,16 @@
+{{Passive skill
+|id                                  = AscendancyElementalist12
+|int_id                              = 4917
+|name                                = Bastion of Elements
+|ascendancy_class                    = Elementalist
+|is_notable                          = True
+|icon                                = IridescentFlesh (Elementalist)
+|stat1_id                            = local_display_cast_primal_aegis_on_gain_skill
+|stat1_value                         = 20
+|stat2_id                            = your_aegis_skills_except_primal_are_disabled
+|stat2_value                         = 1
+|stat3_id                            = cannot_take_reflected_elemental_damage
+|stat3_value                         = 1
+|stat_text                           = Triggers [[Level]] 20 Primal Aegis when Allocated<br />Primal Aegis can take 75 [[Elemental Damage]] per Allocated Notable Passive [[Skill]]<br>Other Aegis [[Skill|Skills]] are Disabled<br>Cannot take Reflected [[Elemental Damage]]
+|connections                         = AscendancyElementalist5
+}}

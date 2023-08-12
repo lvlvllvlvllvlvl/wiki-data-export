@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = Lob a fiery orb that deals area damage as it hits the ground. The skill chains, bouncing forward to deal damage multiple times.
+|active_skill_name                       = Rolling Magma
+|skill_id                                = RaisedSkeletonCasterBelfryMagmaOrb
+|cast_time                               = 1.17
+|required_level                          = 68
+|static_stored_uses                      = 1
+|static_cooldown                         = 3
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_fire_damage
+|static_stat3_value                      = 963
+|static_stat4_id                         = spell_maximum_base_fire_damage
+|static_stat4_value                      = 1445
+|static_stat5_id                         = base_cast_speed_+%
+|static_stat5_value                      = -66
+|static_stat6_id                         = number_of_chains
+|static_stat6_value                      = 4
+|stat_text                               = Deals 963 to 1445 Fire Damage<br>66% reduced Cast Speed<br>Chains +4 Times
+|level1                                  = True
+|level1_level_requirement                = 68
+}}

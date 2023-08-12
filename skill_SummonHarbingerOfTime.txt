@@ -1,0 +1,19 @@
+{{Skill
+|gem_description                         = Summons an immortal Harbinger minion. The minion will occasionally create an aura on you that increases the Action Speed of you, and all allies and enemies near you.
+|active_skill_name                       = Summon Harbinger of Time
+|skill_id                                = SummonHarbingerOfTime
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 6
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = alternate_minion
+|static_stat1_value                      = 1
+|static_stat2_id                         = display_one_harbinger_allowed
+|static_stat2_value                      = 1
+|stat_text                               = Maximum 1 Summoned Harbinger
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

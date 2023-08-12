@@ -1,0 +1,30 @@
+{{Skill
+|gem_description                         = Charges at a targeted location or enemy, pushing away enemies in your path and repeatedly dealing damage in a small area in front of you. You deal damage in a larger area when you reach the target. The further you travel, the more damage you deal, and the greater your chance of stunning enemies. Cannot be supported by Multistrike.
+|active_skill_name                       = Shield Charge
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Unarmed, Rune Dagger
+|skill_id                                = TemplarCultistShieldCharge
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 3
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = shield_charge_extra_distance
+|static_stat1_value                      = 15
+|static_stat2_id                         = ignores_proximity_shield
+|static_stat2_value                      = 1
+|static_stat3_id                         = attack_speed_+%
+|static_stat3_value                      = 15
+|static_stat4_id                         = shield_charge_scaling_stun_threshold_reduction_+%_at_maximum_range
+|static_stat4_value                      = 50
+|static_stat5_id                         = shield_charge_damage_+%_maximum
+|static_stat5_value                      = 20
+|static_stat6_id                         = base_movement_velocity_+%
+|static_stat6_value                      = 50
+|static_stat7_id                         = maim_on_hit_%
+|static_stat7_value                      = 50
+|stat_text                               = 15% increased Attack Speed<br>50% increased Stun Threshold reduction on enemies at Maximum charge distance<br>20% more Damage with Hits at Maximum Charge Distance<br>50% increased Movement Speed<br>50% chance to Maim on Hit
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

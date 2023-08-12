@@ -1,0 +1,19 @@
+{{Passive skill
+|id                                  = AscendancyChampion12
+|int_id                              = 27604
+|name                                = First to Strike, Last to Fall
+|reminder_text                       = (Adrenaline grants 100% increased Damage, 25% increased Attack, Cast and Movement Speed and 10% additional Physical Damage Reduction. You cannot gain Adrenaline if you already have it)
+|ascendancy_class                    = Champion
+|is_notable                          = True
+|icon                                = FirstStrikeLastFall (Champion)
+|stat1_id                            = permanently_intimidate_enemies_you_hit_on_full_life
+|stat1_value                         = 1
+|stat2_id                            = gain_adrenaline_for_X_seconds_on_low_life_unless_you_have_adrenaline
+|stat2_value                         = 20
+|stat3_id                            = remove_ailments_and_burning_on_gaining_adrenaline
+|stat3_value                         = 1
+|stat4_id                            = recover_%_life_when_gaining_adrenaline
+|stat4_value                         = 25
+|stat_text                           = Your [[Hit|Hits]] permanently Intimidate Enemies that are on [[Full Life]]<br>Gain Adrenaline for 20 seconds when you reach [[Low Life]]<br>Remove all Ailments and Burning when you gain Adrenaline<br>Recover 25% of [[Life]] when you gain Adrenaline
+|connections                         = AscendancyChampion6
+}}

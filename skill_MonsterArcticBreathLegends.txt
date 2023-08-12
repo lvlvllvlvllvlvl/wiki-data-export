@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = Fire an icy projectile that bursts on impact or when reaching the targeted area, dealing area damage and creating a chilling area that deals cold damage over time. This area will creep across the ground towards nearby enemies until its duration expires.
+|active_skill_name                       = Creeping Frost
+|skill_id                                = MonsterArcticBreathLegends
+|cast_time                               = 0.8
+|required_level                          = 74
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 1.5
+|static_stat1_id                         = spell_minimum_base_cold_damage
+|static_stat1_value                      = 870
+|static_stat2_id                         = spell_maximum_base_cold_damage
+|static_stat2_value                      = 1305
+|static_stat3_id                         = always_pierce
+|static_stat3_value                      = 1
+|static_stat4_id                         = base_skill_effect_duration
+|static_stat4_value                      = 1500
+|static_stat5_id                         = base_projectile_speed_+%
+|static_stat5_value                      = 25
+|static_stat6_id                         = number_of_additional_projectiles
+|static_stat6_value                      = 1
+|stat_text                               = Deals 870 to 1305 Cold Damage<br>Projectiles Pierce all Targets<br>Base duration is 1.5 seconds<br>25% increased Projectile Speed<br>Fires an additional Projectile
+|level1                                  = True
+|level1_level_requirement                = 74
+}}

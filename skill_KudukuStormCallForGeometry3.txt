@@ -1,0 +1,29 @@
+{{Skill
+|gem_description                         = Sets a marker at a location. After a short duration, lightning strikes the marker, dealing damage around it. When this happens, it will also set off the lightning at any other markers you've cast.
+|active_skill_name                       = Storm Call
+|skill_id                                = KudukuStormCallForGeometry3
+|cast_time                               = 0.5
+|required_level                          = 12
+|static_critical_strike_chance           = 40
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 3
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = -68
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_lightning_damage
+|static_stat3_value                      = 28
+|static_stat4_id                         = spell_maximum_base_lightning_damage
+|static_stat4_value                      = 85
+|static_stat5_id                         = always_shock
+|static_stat5_value                      = 1
+|static_stat6_id                         = base_skill_effect_duration
+|static_stat6_value                      = 3000
+|static_stat7_id                         = base_cast_speed_+%
+|static_stat7_value                      = 20
+|stat_text                               = Deals 28 to 85 Lightning Damage<br>Hits always Shock<br>Base duration is 3 seconds<br>20% increased Cast Speed
+|level1                                  = True
+|level1_level_requirement                = 12
+}}

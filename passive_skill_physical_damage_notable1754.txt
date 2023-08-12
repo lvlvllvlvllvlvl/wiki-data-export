@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = physical_damage_notable1754
+|int_id                              = 47065
+|name                                = Master of Blades
+|is_notable                          = True
+|icon                                = MasterofForce
+|stat1_id                            = physical_damage_+%
+|stat1_value                         = 30
+|stat2_id                            = base_strength
+|stat2_value                         = 30
+|stat3_id                            = enemy_phys_reduction_%_penalty_vs_hit
+|stat3_value                         = 10
+|stat_text                           = 30% increased [[Physical Damage]]<br>+30 to [[Strength]]<br>Overwhelm 10% [[Physical Damage]] Reduction
+|connections                         = physical_damage1752,mastery_physical196
+}}

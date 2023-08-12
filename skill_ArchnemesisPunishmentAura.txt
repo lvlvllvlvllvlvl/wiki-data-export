@@ -1,0 +1,19 @@
+{{Skill
+|gem_description                         = Curses all targets in an area, causing them to be debilitated when they hit enemies and increasing damage they take while on low life.
+|active_skill_name                       = Punishment
+|skill_id                                = ArchnemesisPunishmentAura
+|cast_time                               = 0.5
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = curse_apply_as_aura
+|static_stat1_value                      = 1
+|static_stat2_id                         = damage_taken_+%_on_low_life
+|static_stat2_value                      = 70
+|static_stat3_id                         = debilitate_self_for_x_milliseconds_on_hit
+|static_stat3_value                      = 2000
+|stat_text                               = This Curse is Cast as an Aura applying to nearby Enemies<br>Cursed Enemies take 70% increased Damage while on Low Life<br>Cursed Enemies are Debilitated for 2 Seconds when they Hit
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

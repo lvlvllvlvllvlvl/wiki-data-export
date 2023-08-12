@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = AscendancyTrickster12
+|int_id                              = 23225
+|name                                = One Step Ahead
+|buff_id                             = trickster_nearby_enemy_action_speed
+|ascendancy_class                    = Trickster
+|is_notable                          = True
+|icon                                = OneStepAheadTrickster (Trickster)
+|stat1_id                            = action_speed_is_at_least_108%
+|stat1_value                         = 1
+|stat_text                           = Your Action Speed is at least 108% of base value<br>Nearby Enemy Monsters' Action Speed is at most 92% of base value
+|stat2_id                            = action_speed_is_at_most_92%
+|stat2_value                         = 1
+|connections                         = AscendancyTrickster9
+}}

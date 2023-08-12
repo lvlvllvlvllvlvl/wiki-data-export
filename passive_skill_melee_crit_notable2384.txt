@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = melee_crit_notable2384
+|int_id                              = 37647
+|name                                = Dismembering
+|is_notable                          = True
+|icon                                = MeleeCriticalStrikesNotable
+|stat1_id                            = melee_critical_strike_chance_+%
+|stat1_value                         = 40
+|stat2_id                            = melee_weapon_critical_strike_multiplier_+
+|stat2_value                         = 20
+|stat3_id                            = maim_on_crit_%_with_attacks
+|stat3_value                         = 20
+|stat_text                           = 40% increased Melee [[Critical Strike Chance]]<br>+20% to Melee [[Critical Strike Multiplier]]<br>20% chance to Maim Enemies on [[Critical Strike]] with [[Attack|Attacks]]
+|connections                         = melee_crit2382,mastery_criticals64,melee_crit2383
+}}

@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = blade_barrier693
+|int_id                              = 54268
+|name                                = Blade Barrier
+|is_notable                          = True
+|icon                                = BladeBarrierNotable
+|stat1_id                            = block_while_dual_wielding_%
+|stat1_value                         = 5
+|stat2_id                            = attack_skills_damage_+%_while_dual_wielding
+|stat2_value                         = 25
+|stat3_id                            = block_recovery_+%
+|stat3_value                         = 50
+|stat_text                           = +5% Chance to [[Block]] [[Attack Damage]] while [[Dual Wield|Dual Wielding]]<br>[[Attack]] [[Skill|Skills]] deal 25% increased Damage while [[Dual Wield|Dual Wielding]]<br>50% increased [[Block]] Recovery
+|connections                         = mastery_dualwield86,dual_damage_block1818,mastery_dualwield86
+}}

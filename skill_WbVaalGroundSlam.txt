@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = The character slams the ground with a Staff, Mace or Sceptre, creating a wave that travels in all directions and damages enemies with an increased chance to stun.
+|active_skill_name                       = Vaal Ground Slam
+|item_class_id_restriction               = One Hand Mace, Sceptre, Staff, Two Hand Mace, Unarmed, Warstaff
+|skill_id                                = WbVaalGroundSlam
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 6
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = animation_effect_variation
+|static_stat1_value                      = -1
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = global_knockback
+|static_stat3_value                      = 1
+|static_stat4_id                         = active_skill_damage_+%_final
+|static_stat4_value                      = 50
+|static_stat5_id                         = knockback_distance_+%
+|static_stat5_value                      = 100
+|static_stat6_id                         = always_stun
+|static_stat6_value                      = 1
+|stat_text                               = Knocks Enemies Back on Hit<br>Deals 50% more Damage<br>100% increased Knockback Distance<br>Stuns Enemies
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

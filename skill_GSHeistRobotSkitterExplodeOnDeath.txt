@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = GSHeistRobotSkitterExplodeOnDeath
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_physical_damage
+|static_stat2_value                      = 9
+|static_stat3_id                         = spell_maximum_base_physical_damage
+|static_stat3_value                      = 14
+|static_stat4_id                         = skill_physical_damage_%_to_convert_to_lightning
+|static_stat4_value                      = 25
+|static_stat5_id                         = skill_physical_damage_%_to_convert_to_fire
+|static_stat5_value                      = 25
+|stat_text                               = Deals 9 to 14 Physical Damage<br>25% of Physical Damage Converted to Lightning Damage<br>25% of Physical Damage Converted to Fire Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

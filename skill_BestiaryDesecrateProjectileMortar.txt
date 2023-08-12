@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = Generic monster mortar skill. Like Monster Projectile but has an impact effect.
+|active_skill_name                       = 
+|skill_id                                = BestiaryDesecrateProjectileMortar
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = spell_maximum_action_distance_+%
+|static_stat1_value                      = -60
+|static_stat2_id                         = projectile_minimum_range
+|static_stat2_value                      = 20
+|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat3_value                      = -33
+|static_stat4_id                         = base_is_projectile
+|static_stat4_value                      = 1
+|static_stat5_id                         = spell_minimum_base_physical_damage
+|static_stat5_value                      = 1
+|static_stat6_id                         = spell_maximum_base_physical_damage
+|static_stat6_value                      = 1
+|stat_text                               = Deals 1 to 1 Physical Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

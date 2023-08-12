@@ -1,0 +1,20 @@
+{{Skill
+|gem_description                         = Slashes twice, releasing waves of force that damage enemies they hit. Enemies in the middle of the slashes can be hit by both. The slashes will have a chance to inflict bleeding in Blood Stance, or have a wider angle in Sand Stance, Can be used with Axes and Swords. You are in Blood Stance by default.
+|active_skill_name                       = Lacerate
+|item_class_id_restriction               = One Hand Sword, Two Hand Sword, One Hand Axe, Two Hand Axe, Thrusting One Hand Sword
+|skill_id                                = DoubleSlashBloodwing
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 4
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 40
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|stat_text                               = 
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

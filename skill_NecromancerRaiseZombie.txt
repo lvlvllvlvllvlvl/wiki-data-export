@@ -1,0 +1,33 @@
+{{Skill
+|gem_description                         = Raises a zombie minion from a corpse, which will follow you and attack enemies with a melee attack and an area of effect slam which cannot be evaded.
+|active_skill_name                       = Raise Zombie
+|skill_id                                = NecromancerRaiseZombie
+|cast_time                               = 0.85
+|required_level                          = 2
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = alternate_minion
+|static_stat1_value                      = 1
+|stat_text                               = Maximum (3-6) Raised Zombies
+|level1                                  = True
+|level1_level_requirement                = 2
+|level1_stat_text                        = Maximum 3 Raised Zombies
+|level1_stat1_id                         = base_number_of_zombies_allowed
+|level1_stat1_value                      = 3
+|level2                                  = True
+|level2_level_requirement                = 26
+|level2_stat_text                        = Maximum 4 Raised Zombies
+|level2_stat1_id                         = base_number_of_zombies_allowed
+|level2_stat1_value                      = 4
+|level3                                  = True
+|level3_level_requirement                = 40
+|level3_stat_text                        = Maximum 5 Raised Zombies
+|level3_stat1_id                         = base_number_of_zombies_allowed
+|level3_stat1_value                      = 5
+|level4                                  = True
+|level4_level_requirement                = 51
+|level4_stat_text                        = Maximum 6 Raised Zombies
+|level4_stat1_id                         = base_number_of_zombies_allowed
+|level4_stat1_value                      = 6
+}}

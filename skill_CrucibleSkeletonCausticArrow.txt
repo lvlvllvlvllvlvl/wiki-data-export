@@ -1,0 +1,35 @@
+{{Skill
+|gem_description                         = Fires an arrow which deals chaos damage in an area on impact, and spreads caustic ground. Enemies standing on the caustic ground take chaos damage over time.
+|active_skill_name                       = Caustic Arrow
+|item_class_id_restriction               = Bow
+|skill_id                                = CrucibleSkeletonCausticArrow
+|cast_time                               = 1.67
+|required_level                          = 0
+|static_stored_uses                      = 1
+|static_cooldown                         = 8
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 75
+|static_duration                         = 2.5
+|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat1_value                      = -25
+|static_stat2_id                         = ground_caustic_art_variation
+|static_stat2_value                      = 18
+|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat3_value                      = -15
+|static_stat4_id                         = action_attack_or_cast_time_uses_animation_length
+|static_stat4_value                      = 1
+|static_stat5_id                         = skill_can_fire_arrows
+|static_stat5_value                      = 1
+|static_stat6_id                         = base_chaos_damage_to_deal_per_minute
+|static_stat6_value                      = 60
+|static_stat7_id                         = base_skill_effect_duration
+|static_stat7_value                      = 2500
+|static_stat8_id                         = projectile_damage_modifiers_apply_to_skill_dot
+|static_stat8_value                      = 1
+|static_stat9_id                         = skill_physical_damage_%_to_convert_to_chaos
+|static_stat9_value                      = 50
+|stat_text                               = Deals 1 Base Chaos Damage per second<br>Base duration is 2.5 seconds<br>Modifiers to Projectile Damage apply to this Skill's Damage Over Time effect<br>50% of Physical Damage Converted to Chaos Damage
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

@@ -1,0 +1,21 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Muttering Essence of Sorrow
+|class_id                                = StackableCurrency
+|size_x                                  = 1
+|size_y                                  = 1
+|drop_level                              = 12
+|tags                                    = essence, currency, default
+|metadata_id                             = Metadata/Items/Currency/CurrencyEssenceSorrow1
+|stack_size                              = 9
+|description                             = Upgrades a normal item to rare with one guaranteed property<br />Properties restricted to level 45 and below<br /><br />One Handed Weapon: Damage Penetrates 3% [[Cold Resistance]]<br />Two Handed Weapon: Damage Penetrates (5-6)% [[Cold Resistance]]<br />Other Items: +(13-17) to [[Dexterity]]
+|help_text                               = Right click this item then left click a normal item to apply it.<br>Shift click to unstack.
+|stack_size_currency_tab                 = 5000
+|drop_level_maximum                      = 67
+|essence_level_restriction               = 45
+|essence_level                           = 2
+|essence_type                            = 2
+|essence_category                        = Essence of Sorrow
+|essence_monster_modifier_ids            = EssenceDaemonModLifeAndDamageLevel2, EssenceDaemonPhysicalAddedAndConvertedToCold
+|is_essence                              = True
+}}

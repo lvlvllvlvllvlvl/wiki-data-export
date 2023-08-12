@@ -1,0 +1,19 @@
+{{Passive skill
+|id                                  = AscendancyAscendant46
+|int_id                              = 43122
+|name                                = Assassin
+|reminder_text                       = (You can only take one of the three Shadow Ascendancy passives)
+|ascendancy_class                    = Ascendant
+|is_multiple_choice_option           = True
+|icon                                = Assassin (Ascendants)
+|stat1_id                            = add_power_charge_on_critical_strike_%
+|stat1_value                         = 10
+|stat2_id                            = additional_base_critical_strike_chance
+|stat2_value                         = 75
+|stat3_id                            = critical_strike_damage_cannot_be_reflected
+|stat3_value                         = 1
+|stat4_id                            = gain_elusive_on_crit_%_chance
+|stat4_value                         = 10
+|stat_text                           = 10% chance to gain a [[Power Charge]] on [[Critical Strike]]<br>+0.75% to [[Critical Strike Chance]]<br>Damage from your Critical Strikes cannot be Reflected<br>10% chance to gain Elusive on [[Critical Strike]]
+|connections                         = AscendancyAscendant30
+}}

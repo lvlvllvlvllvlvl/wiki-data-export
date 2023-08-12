@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = atlas_keystone_monsterdamage_1
+|int_id                              = 36386
+|name                                = Dance of Destruction
+|flavour_text                        = Atlassian aberrations engage in a deadly dance.
+Will you be joining them in the fray?
+|is_keystone                         = True
+|is_atlas_passive                    = True
+|icon                                = DanceofDestructKeystone
+|stat1_id                            = map_monster_damage_+%_final_from_deadly_atlas
+|stat1_value                         = 25
+|stat2_id                            = map_monster_life_+%_final_from_deadly_atlas
+|stat2_value                         = -25
+|stat_text                           = Monsters in your Maps deal 25% more Damage<br>Monsters in your Maps have 25% less [[Life]]
+}}

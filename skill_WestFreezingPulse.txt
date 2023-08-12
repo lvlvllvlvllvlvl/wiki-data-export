@@ -1,0 +1,34 @@
+{{Skill
+|gem_description                         = An icy projectile which has a chance to freeze enemies it passes through. The projectile fades quickly, reducing damage and freezing chance until it dissipates.
+|active_skill_name                       = Freezing Pulse
+|skill_id                                = WestFreezingPulse
+|cast_time                               = 0.85
+|required_level                          = 79
+|static_critical_strike_chance           = 6
+|static_damage_effectiveness             = 125
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = skill_visual_scale_+%
+|static_stat1_value                      = 15
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = projectile_uses_contact_position
+|static_stat3_value                      = 1
+|static_stat4_id                         = use_scaled_contact_offset
+|static_stat4_value                      = 1
+|static_stat5_id                         = maintain_projectile_direction_when_using_contact_position
+|static_stat5_value                      = 1
+|static_stat6_id                         = spell_minimum_base_cold_damage
+|static_stat6_value                      = 2306
+|static_stat7_id                         = spell_maximum_base_cold_damage
+|static_stat7_value                      = 3458
+|static_stat8_id                         = always_pierce
+|static_stat8_value                      = 1
+|static_stat9_id                         = number_of_additional_projectiles
+|static_stat9_value                      = 2
+|static_stat10_id                        = never_freeze
+|static_stat10_value                     = 1
+|stat_text                               = Deals 2306 to 3458 Cold Damage<br>Projectiles Pierce all Targets<br>Fires 2 additional Projectiles<br>Cannot Freeze
+|level1                                  = True
+|level1_level_requirement                = 79
+}}

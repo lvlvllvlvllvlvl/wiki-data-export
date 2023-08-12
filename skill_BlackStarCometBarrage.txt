@@ -1,0 +1,35 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = BlackStarCometBarrage
+|cast_time                               = 2.2
+|required_level                          = 83
+|static_stored_uses                      = 1
+|static_cooldown                         = 25
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = black_star_comet_barrage_big_projectiles
+|static_stat1_value                      = 55
+|static_stat2_id                         = black_star_comet_barrage_small_projectiles_per_big
+|static_stat2_value                      = 7
+|static_stat3_id                         = black_star_comet_barrage_projectile_start_height
+|static_stat3_value                      = 500
+|static_stat4_id                         = black_star_comet_barrage_overall_spawn_time_ms
+|static_stat4_value                      = 4000
+|static_stat5_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat5_value                      = -60
+|static_stat6_id                         = base_is_projectile
+|static_stat6_value                      = 1
+|static_stat7_id                         = spell_minimum_base_cold_damage
+|static_stat7_value                      = 967
+|static_stat8_id                         = spell_maximum_base_cold_damage
+|static_stat8_value                      = 1450
+|static_stat9_id                         = do_not_chain
+|static_stat9_value                      = 1
+|static_stat10_id                        = always_pierce
+|static_stat10_value                     = 1
+|stat_text                               = Deals 967 to 1450 Cold Damage<br>Projectiles do not Chain<br>Projectiles Pierce all Targets
+|level1                                  = True
+|level1_level_requirement                = 83
+}}

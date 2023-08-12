@@ -1,0 +1,30 @@
+{{Skill
+|gem_description                         = Fires an arc of knives in front of the caster which deals physical damage.
+|active_skill_name                       = Ethereal Knives
+|skill_id                                = MonsterEtherealKnivesInvasion
+|cast_time                               = 0.6
+|required_level                          = 3
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = number_of_additional_projectiles
+|static_stat2_value                      = 9
+|stat_text                               = Deals (7-8) to (10-13) Physical Damage<br>Fires 9 additional Projectiles
+|level1                                  = True
+|level1_level_requirement                = 3
+|level1_stat_text                        = Deals 7 to 10 Physical Damage
+|level1_stat1_id                         = spell_minimum_base_physical_damage
+|level1_stat1_value                      = 7
+|level1_stat2_id                         = spell_maximum_base_physical_damage
+|level1_stat2_value                      = 10
+|level2                                  = True
+|level2_level_requirement                = 5
+|level2_stat_text                        = Deals 8 to 13 Physical Damage
+|level2_stat1_id                         = spell_minimum_base_physical_damage
+|level2_stat1_value                      = 8
+|level2_stat2_id                         = spell_maximum_base_physical_damage
+|level2_stat2_value                      = 13
+}}

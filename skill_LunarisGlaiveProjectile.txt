@@ -1,0 +1,29 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = LunarisGlaiveProjectile
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 70
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = lunaris_glaive_angle
+|static_stat1_value                      = -30
+|static_stat2_id                         = lunaris_glaive_acceleration_x
+|static_stat2_value                      = 1000
+|static_stat3_id                         = lunaris_glaive_acceleration_y
+|static_stat3_value                      = 1000
+|static_stat4_id                         = animation_effect_variation
+|static_stat4_value                      = 1
+|static_stat5_id                         = base_is_projectile
+|static_stat5_value                      = 1
+|static_stat6_id                         = active_skill_damage_+%_final
+|static_stat6_value                      = -30
+|static_stat7_id                         = number_of_additional_projectiles
+|static_stat7_value                      = 1
+|static_stat8_id                         = melee_weapon_range_+
+|static_stat8_value                      = 50
+|stat_text                               = Deals 30% less Damage<br>Fires an additional Projectile<br>+50 to Melee Strike Range
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

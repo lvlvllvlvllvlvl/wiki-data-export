@@ -1,0 +1,29 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = IncaBossExplosionAtziri
+|cast_time                               = 2.25
+|required_level                          = 70
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat1_value                      = -25
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = global_cannot_crit
+|static_stat3_value                      = 1
+|static_stat4_id                         = skill_physical_damage_%_to_convert_to_fire
+|static_stat4_value                      = 50
+|stat_text                               = Never deal Critical Strikes<br>Deals (8-17)% less Damage<br>50% of Physical Damage Converted to Fire Damage
+|level1                                  = True
+|level1_level_requirement                = 70
+|level1_stat_text                        = Deals 8% less Damage
+|level1_stat1_id                         = active_skill_damage_+%_final
+|level1_stat1_value                      = -8
+|level2                                  = True
+|level2_level_requirement                = 80
+|level2_stat_text                        = Deals 17% less Damage
+|level2_stat1_id                         = active_skill_damage_+%_final
+|level2_stat1_value                      = -17
+}}

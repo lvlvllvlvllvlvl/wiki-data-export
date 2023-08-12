@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = minion_duration_notable2626
+|int_id                              = 7688
+|name                                = Enduring Bond
+|is_notable                          = True
+|icon                                = DurationofMinionsNotable
+|stat1_id                            = base_minion_duration_+%
+|stat1_value                         = 20
+|stat2_id                            = minion_damage_+%_if_have_used_a_minion_skill_recently
+|stat2_value                         = 30
+|stat3_id                            = skill_effect_duration_+%
+|stat3_value                         = 20
+|stat_text                           = 20% increased [[Minion]] Duration<br>[[Minion|Minions]] deal 30% increased Damage if you've used a [[Minion Skills|Minion Skill]] [[Recently]]<br>20% increased [[Skill]] Effect Duration
+|connections                         = mastery_minionoffence186,minion_duration2625
+}}

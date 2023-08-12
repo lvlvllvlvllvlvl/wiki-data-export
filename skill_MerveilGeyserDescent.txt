@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = MerveilGeyserDescent
+|cast_time                               = 1.0
+|required_level                          = 13
+|static_stored_uses                      = 1
+|static_cooldown                         = 2.5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 6
+|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat1_value                      = -35
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_cold_damage
+|static_stat3_value                      = 8
+|static_stat4_id                         = spell_maximum_base_cold_damage
+|static_stat4_value                      = 12
+|static_stat5_id                         = base_skill_effect_duration
+|static_stat5_value                      = 6000
+|stat_text                               = Deals 8 to 12 Cold Damage<br>Base duration is 6 seconds
+|level1                                  = True
+|level1_level_requirement                = 13
+}}

@@ -1,0 +1,36 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = ZanaRoseScourgeProjectile
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_projectile_variation
+|static_stat1_value                      = 80
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = projectile_uses_contact_position
+|static_stat3_value                      = 1
+|static_stat4_id                         = always_pierce
+|static_stat4_value                      = 1
+|stat_text                               = Deals (6-42207) to (9-63311) Physical Damage<br>Projectiles Pierce all Targets<br>Deals (250-0)% more Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat_text                        = Deals 6 to 9 Physical Damage<br>Deals 250% more Damage
+|level1_stat1_id                         = spell_minimum_base_physical_damage
+|level1_stat1_value                      = 6
+|level1_stat2_id                         = spell_maximum_base_physical_damage
+|level1_stat2_value                      = 9
+|level1_stat3_id                         = active_skill_damage_+%_final
+|level1_stat3_value                      = 250
+|level2                                  = True
+|level2_level_requirement                = 100
+|level2_stat_text                        = Deals 42207 to 63311 Physical Damage
+|level2_stat1_id                         = spell_minimum_base_physical_damage
+|level2_stat1_value                      = 42207
+|level2_stat2_id                         = spell_maximum_base_physical_damage
+|level2_stat2_value                      = 63311
+}}

@@ -1,0 +1,21 @@
+{{Skill
+|gem_description                         = Fires a slow-moving projectile that periodically damages enemies in an area around it with bolts of lightning.
+|active_skill_name                       = Ball Lightning
+|skill_id                                = BestiaryIguanaSpiritSubBossBallLightning
+|cast_time                               = 0.05
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_lightning_damage
+|static_stat2_value                      = 2
+|static_stat3_id                         = spell_maximum_base_lightning_damage
+|static_stat3_value                      = 7
+|static_stat4_id                         = base_projectile_speed_+%
+|static_stat4_value                      = -99
+|stat_text                               = Deals 2 to 7 Lightning Damage<br>99% reduced Projectile Speed
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

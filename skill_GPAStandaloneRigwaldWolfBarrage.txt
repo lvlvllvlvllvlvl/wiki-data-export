@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = GPAStandaloneRigwaldWolfBarrage
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 126
+|static_damage_multiplier                = 126
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_reverse_point_blank_damage_-%_at_minimum_range
+|static_stat1_value                      = 25
+|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat2_value                      = -75
+|static_stat3_id                         = projectile_speed_variation_+%
+|static_stat3_value                      = 15
+|static_stat4_id                         = base_is_projectile
+|static_stat4_value                      = 1
+|static_stat5_id                         = cannot_stun
+|static_stat5_value                      = 1
+|static_stat6_id                         = accuracy_rating_+%
+|static_stat6_value                      = 200
+|static_stat7_id                         = active_skill_attack_speed_+%_final
+|static_stat7_value                      = -90
+|stat_text                               = Your Hits cannot Stun Enemies<br>200% increased Accuracy Rating<br>90% less Attack Speed
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

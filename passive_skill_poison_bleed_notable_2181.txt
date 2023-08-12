@@ -1,0 +1,13 @@
+{{Passive skill
+|id                                  = poison_bleed_notable_2181
+|int_id                              = 59766
+|name                                = Dirty Techniques
+|is_notable                          = True
+|icon                                = BleedPoison
+|stat1_id                            = ailment_dot_multiplier_+
+|stat1_value                         = 10
+|stat2_id                            = damaging_ailments_deal_damage_+%_faster
+|stat2_value                         = 10
+|stat_text                           = +10% to Damage over Time Multiplier for Ailments<br>Damaging Ailments deal damage 10% faster
+|connections                         = poison_bleed_duration_2180,mastery_damageovertime82
+}}

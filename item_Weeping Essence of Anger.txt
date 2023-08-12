@@ -1,0 +1,21 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Weeping Essence of Anger
+|class_id                                = StackableCurrency
+|size_x                                  = 1
+|size_y                                  = 1
+|drop_level                              = 30
+|tags                                    = essence, currency, default
+|metadata_id                             = Metadata/Items/Currency/CurrencyEssenceAnger2
+|stack_size                              = 9
+|description                             = Upgrades a normal item to rare with one guaranteed property<br />Properties restricted to level 60 and below<br /><br />Bow: Adds (32-44) to (65-76) [[Fire Damage]]<br />Two Handed Melee Weapon: Adds (32-44) to (65-76) [[Fire Damage]]<br />Other Weapon: Adds (17-24) to (35-41) [[Fire Damage]]<br />Armour: +(18-23)% to [[Fire Resistance]]<br />Quiver: +(18-23)% to [[Fire Resistance]]<br />Belt: +(18-23)% to [[Fire Resistance]]<br />Other Jewellery: (15-18)% increased [[Fire Damage]]
+|help_text                               = Right click this item then left click a normal item to apply it.<br>Shift click to unstack.
+|stack_size_currency_tab                 = 5000
+|drop_level_maximum                      = 100
+|essence_level_restriction               = 60
+|essence_level                           = 3
+|essence_type                            = 2
+|essence_category                        = Essence of Anger
+|essence_monster_modifier_ids            = EssenceDaemonModLifeAndDamageLevel3, EssenceDaemonPhysicalAddedAndConvertedToFire
+|is_essence                              = True
+}}

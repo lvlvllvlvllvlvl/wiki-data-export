@@ -1,0 +1,32 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Blinding Aura
+|class_id                                = Active Skill Gem
+|size_x                                  = 1
+|size_y                                  = 1
+|drop_level                              = 1
+|tags                                    = gem, default
+|metadata_id                             = Metadata/Items/Gems/SkillGemBlindingAura
+|help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|gem_tags                                = Spell, AoE, Aura, Trigger
+|gem_description                         = Casts an aura that blinds enemies in a radius.
+|active_skill_name                       = Blinding Aura
+|skill_id                                = CastAuraBlinding
+|cast_time                               = 1.2
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = light_radius_increases_apply_to_area_of_effect
+|static_stat1_value                      = 1
+|static_stat2_id                         = cast_on_gain_skill
+|static_stat2_value                      = 1
+|static_stat3_id                         = no_cost
+|static_stat3_value                      = 1
+|stat_text                               = Increases and Reductions to Light Radius also apply to this Skill's Area of Effect<br>This Spell is Triggered when Gained<br>This Skill Costs nothing
+|level1                                  = True
+|level1_level_requirement                = 1
+|level2                                  = True
+|level2_level_requirement                = 1
+|level1_experience                       = 0
+}}

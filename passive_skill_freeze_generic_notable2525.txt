@@ -1,0 +1,13 @@
+{{Passive skill
+|id                                  = freeze_generic_notable2525
+|int_id                              = 41870
+|name                                = Winter's Embrace
+|is_notable                          = True
+|icon                                = ColdDamageEnemyNotable
+|stat1_id                            = freeze_duration_+%
+|stat1_value                         = 60
+|stat2_id                            = damage_+%_if_enemy_shattered_recently
+|stat2_value                         = 30
+|stat_text                           = 60% increased [[Freeze]] Duration on Enemies<br>30% increased Damage if you've Shattered an Enemy [[Recently]]
+|connections                         = mastery_cold272,freeze_generic1784,mastery_cold272
+}}

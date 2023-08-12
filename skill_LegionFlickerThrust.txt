@@ -1,0 +1,23 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = Flicker Thrust
+|skill_id                                = LegionFlickerThrust
+|cast_time                               = 1.0
+|required_level                          = 0
+|static_stored_uses                      = 1
+|static_cooldown                         = 16
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 60
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = flicker_thrust_number_of_teleports
+|static_stat1_value                      = 5
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = global_chance_to_blind_on_hit_%
+|static_stat3_value                      = 25
+|static_stat4_id                         = active_skill_attack_speed_+%_final
+|static_stat4_value                      = -56
+|stat_text                               = 25% chance to Blind enemies on hit<br>56% less Attack Speed
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

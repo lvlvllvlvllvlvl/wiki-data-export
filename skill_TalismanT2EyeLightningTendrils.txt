@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = TalismanT2EyeLightningTendrils
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_skill_number_of_additional_hits
+|static_stat1_value                      = 3
+|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat2_value                      = -75
+|static_stat3_id                         = spell_minimum_base_lightning_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_maximum_base_lightning_damage
+|static_stat4_value                      = 3
+|stat_text                               = Deals 1 to 3 Lightning Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_damage_effectiveness             = 35
+|level2                                  = True
+|level2_level_requirement                = 2
+|level2_damage_effectiveness             = 100
+}}

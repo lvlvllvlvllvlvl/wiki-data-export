@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = Throws a spectral copy of your shield as a projectile which cannot pierce, and deals off-hand damage augmented by the defences of the shield. When it collides with something it will shatter, launching a number of smaller shards as projectiles in all directions. Modifiers that cause additional projectiles to be fired will add more shards, not more copies of the shield.
+|active_skill_name                       = Spectral Shield Throw
+|item_class_id_restriction               = Shield
+|skill_id                                = BloodwingThrownShieldProjectile
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 4
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = thrown_shield_num_additional_projectiles
+|static_stat1_value                      = 5
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = always_pierce
+|static_stat3_value                      = 1
+|stat_text                               = Projectiles Pierce all Targets
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

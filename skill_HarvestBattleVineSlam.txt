@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = Strike your foes down with a powerful blow.
+|active_skill_name                       = Default Attack
+|skill_id                                = HarvestBattleVineSlam
+|cast_time                               = 1.0
+|required_level                          = 0
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 60
+|static_attack_speed_multiplier          = 78
+|static_stat1_id                         = main_hand_base_maximum_attack_distance
+|static_stat1_value                      = 10
+|static_stat2_id                         = base_knockback_speed_+%
+|static_stat2_value                      = 100
+|static_stat3_id                         = determine_knockback_direction_from_melee_pattern
+|static_stat3_value                      = 1
+|static_stat4_id                         = global_knockback
+|static_stat4_value                      = 1
+|static_stat5_id                         = bleed_on_hit_with_attacks_%
+|static_stat5_value                      = 15
+|static_stat6_id                         = global_maim_on_hit
+|static_stat6_value                      = 1
+|stat_text                               = Knocks Enemies Back on Hit<br>15% chance to cause Bleeding<br>Maim on Hit
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

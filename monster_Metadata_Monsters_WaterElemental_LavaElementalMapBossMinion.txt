@@ -1,0 +1,17 @@
+{{Monster
+|metadata_id                      = Metadata/Monsters/WaterElemental/LavaElementalMapBossMinion
+|monster_type_id                  = WaterElementalMagmaWbMinion
+|mod_ids                          = MonsterImplicitSlowRun1, MonsterElementalSkeletonFire, MonsterNoDropsOrExperience, MonsterNoMapDrops, ImmuneToLavaDamage
+|tags                             = cleaving_weapon, construct, is_unarmed, liquid_armour, melee, mud_blood, not_dex, not_str, physical_affinity, small_height, very_slow_movement, water_elemental
+|skill_ids                        = MeleeAtAnimationSpeedUnique
+|name                             = Magma Elemental
+|size                             = 2
+|minimum_attack_distance          = 6
+|maximum_attack_distance          = 13
+|model_size_multiplier            = 0.65
+|experience_multiplier            = 1.2
+|damage_multiplier                = 1.8
+|health_multiplier                = 2.4
+|critical_strike_chance           = 5.0
+|attack_speed                     = 1.5
+}}

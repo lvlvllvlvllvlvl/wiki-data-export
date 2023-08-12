@@ -1,0 +1,20 @@
+{{Skill
+|gem_description                         = Slams the ground with a Mace, Sceptre, Axe or Staff, creating a wave of broken ground that damages enemies in an area in front of you. Enemies hit by the wave will release a circular shockwave, dealing damage to other enemies around them.
+|active_skill_name                       = Sunder
+|item_class_id_restriction               = One Hand Mace, Sceptre, Staff, Two Hand Mace, One Hand Axe, Two Hand Axe, Unarmed, Warstaff
+|skill_id                                = MinotaurSunder
+|cast_time                               = 1.0
+|required_level                          = 15
+|static_stored_uses                      = 1
+|static_cooldown                         = 10
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = -100
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|stat_text                               = 
+|level1                                  = True
+|level1_level_requirement                = 15
+}}

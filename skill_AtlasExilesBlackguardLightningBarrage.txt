@@ -1,0 +1,32 @@
+{{Skill
+|gem_description                         = Fires a charged arrow at the target, causing them to be struck by a bolt of lightning which damages a number of surrounding enemies.
+|active_skill_name                       = Lightning Arrow
+|item_class_id_restriction               = Bow
+|skill_id                                = AtlasExilesBlackguardLightningBarrage
+|cast_time                               = 1.0
+|required_level                          = 9
+|static_stored_uses                      = 1
+|static_cooldown                         = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 25
+|static_stat2_id                         = shock_art_variation
+|static_stat2_value                      = 3
+|static_stat3_id                         = skill_can_fire_arrows
+|static_stat3_value                      = 1
+|static_stat4_id                         = skill_physical_damage_%_to_convert_to_lightning
+|static_stat4_value                      = 50
+|static_stat5_id                         = projectiles_barrage
+|static_stat5_value                      = 1
+|static_stat6_id                         = base_chance_to_shock_%
+|static_stat6_value                      = 25
+|static_stat7_id                         = number_of_additional_projectiles
+|static_stat7_value                      = 4
+|static_stat8_id                         = lightning_arrow_maximum_number_of_extra_targets
+|static_stat8_value                      = 3
+|stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>Fires Projectiles sequentially<br>25% chance to Shock enemies<br>Fires 4 additional Projectiles<br>Hits up to 3 additional enemies near the target
+|level1                                  = True
+|level1_level_requirement                = 9
+}}

@@ -1,0 +1,30 @@
+{{Skill
+|gem_description                         = Launches unpredictable sparks that move randomly until they hit an enemy or expire.
+|active_skill_name                       = Spark
+|skill_id                                = VaalIncursionCausticSpark
+|cast_time                               = 0.5
+|required_level                          = 68
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 2
+|static_stat1_id                         = base_projectile_ground_caustic_cloud_damage_per_minute
+|static_stat1_value                      = 46926
+|static_stat2_id                         = base_projectile_ground_effect_duration
+|static_stat2_value                      = 4000
+|static_stat3_id                         = ground_caustic_art_variation
+|static_stat3_value                      = 6
+|static_stat4_id                         = projectile_ground_caustic_cloud_radius
+|static_stat4_value                      = 5
+|static_stat5_id                         = projectiles_drop_caustic_cloud
+|static_stat5_value                      = 1
+|static_stat6_id                         = always_pierce
+|static_stat6_value                      = 1
+|static_stat7_id                         = base_skill_effect_duration
+|static_stat7_value                      = 2000
+|static_stat8_id                         = base_projectile_speed_+%
+|static_stat8_value                      = 25
+|stat_text                               = Projectiles Pierce all Targets<br>Base duration is 2 seconds<br>25% increased Projectile Speed
+|level1                                  = True
+|level1_level_requirement                = 68
+}}

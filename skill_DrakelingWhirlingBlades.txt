@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = Dive through enemies, dealing weapon damage. Only works with daggers, claws and one handed swords. Cannot be supported by Multistrike.
+|active_skill_name                       = Whirling Blades
+|item_class_id_restriction               = Dagger, One Hand Sword, Thrusting One Hand Sword, Claw, Rune Dagger
+|skill_id                                = DrakelingWhirlingBlades
+|cast_time                               = 1.83
+|required_level                          = 0
+|static_stored_uses                      = 1
+|static_cooldown                         = 9
+|static_damage_effectiveness             = 155
+|static_damage_multiplier                = 155
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = spell_maximum_action_distance_+%
+|static_stat1_value                      = 10
+|static_stat2_id                         = ignores_proximity_shield
+|static_stat2_value                      = 1
+|static_stat3_id                         = cast_time_overrides_attack_duration
+|static_stat3_value                      = 1
+|stat_text                               = 
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

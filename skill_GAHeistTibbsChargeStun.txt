@@ -1,0 +1,23 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = GAHeistTibbsChargeStun
+|cast_time                               = 1.0
+|required_level                          = 0
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 140
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = cast_time_overrides_attack_duration
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_stun_duration_+%
+|static_stat3_value                      = 200
+|static_stat4_id                         = always_stun
+|static_stat4_value                      = 1
+|static_stat5_id                         = melee_range_+
+|static_stat5_value                      = 7
+|stat_text                               = 200% increased Stun Duration on enemies<br>Stuns Enemies<br>+7 to Melee Strike Range
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

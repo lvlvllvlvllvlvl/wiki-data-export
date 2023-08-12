@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = Creates an area of Consecrated Ground, providing life regeneration and reducing the effect of curses for you and allies who stand in it.
+|active_skill_name                       = Consecrate
+|skill_id                                = TriggeredConsecrate
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 5
+|static_stat1_id                         = base_skill_effect_duration
+|static_stat1_value                      = 5000
+|static_stat2_id                         = life_regeneration_rate_per_minute_%
+|static_stat2_value                      = 360
+|static_stat3_id                         = spell_uncastable_if_triggerable
+|static_stat3_value                      = 1
+|static_stat4_id                         = cast_on_crit_%
+|static_stat4_value                      = 100
+|stat_text                               = Base duration is 5 seconds<br>Regenerate 6% of Life per second<br>You cannot Cast this Spell directly<br>Trigger this Spell when you Crit an Enemy
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

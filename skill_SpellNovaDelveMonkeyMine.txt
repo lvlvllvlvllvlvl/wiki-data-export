@@ -1,0 +1,30 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = SpellNovaDelveMonkeyMine
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_chill_effect_+%_final
+|static_stat1_value                      = -67
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|stat_text                               = Deals (9-21) to (13-32) Cold Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat_text                        = Deals 9 to 13 Cold Damage
+|level1_stat1_id                         = spell_minimum_base_cold_damage
+|level1_stat1_value                      = 9
+|level1_stat2_id                         = spell_maximum_base_cold_damage
+|level1_stat2_value                      = 13
+|level2                                  = True
+|level2_level_requirement                = 10
+|level2_stat_text                        = Deals 21 to 32 Cold Damage
+|level2_stat1_id                         = spell_minimum_base_cold_damage
+|level2_stat1_value                      = 21
+|level2_stat2_id                         = spell_maximum_base_cold_damage
+|level2_stat2_value                      = 32
+}}

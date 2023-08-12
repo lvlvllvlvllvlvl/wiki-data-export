@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = AscendancyJuggernaut13
+|int_id                              = 17988
+|name                                = Untiring
+|buff_id                             = juggernaut_phys_damage_prevented_as_life_regen
+|ascendancy_class                    = Juggernaut
+|is_notable                          = True
+|icon                                = Unbreakable (Juggernaut)
+|stat1_id                            = gain_%_total_phys_damage_prevented_in_the_past_10_sec_as_life_regen_per_sec
+|stat1_value                         = 15
+|stat2_id                            = life_regeneration_rate_+%
+|stat2_value                         = 40
+|stat_text                           = 1.5% of [[Physical Damage]] prevented from [[Hit|Hits]] in the past<br />10 seconds is Regenerated as [[Life]] per second<br>40% increased [[Life]] Regeneration rate<br>
+|connections                         = AscendancyJuggernaut14
+}}

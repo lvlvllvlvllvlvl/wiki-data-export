@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = Attacks a small area in front of you. Each Reave that hits an enemy grants stages, which you will begin to lose after a short period without hitting anything. Only works with Daggers, Claws, and One-Handed Swords.
+|active_skill_name                       = Reave
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, Rune Dagger
+|skill_id                                = DarkExileReave
+|cast_time                               = 1.0
+|required_level                          = 73
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = -9
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = attack_speed_+%
+|static_stat3_value                      = 55
+|static_stat4_id                         = reave_area_of_effect_+%_final_per_stage
+|static_stat4_value                      = 80
+|stat_text                               = 55% increased Attack Speed<br>80% more Area of Effect for each stage
+|level1                                  = True
+|level1_level_requirement                = 73
+}}

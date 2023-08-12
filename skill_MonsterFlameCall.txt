@@ -1,0 +1,33 @@
+{{Skill
+|gem_description                         = Sets a marker at a location. After a short duration, lightning strikes the marker, dealing damage around it. When this happens, it will also set off the lightning at any other markers you've cast.
+|active_skill_name                       = Storm Call
+|skill_id                                = MonsterFlameCall
+|cast_time                               = 0.5
+|required_level                          = 40
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 4
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = -31
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_skill_effect_duration
+|static_stat3_value                      = 4000
+|stat_text                               = Deals (71-235) to (107-353) Fire Damage<br>Base duration is 4 seconds
+|level1                                  = True
+|level1_level_requirement                = 40
+|level1_stat_text                        = Deals 71 to 107 Fire Damage
+|level1_stat1_id                         = spell_minimum_base_fire_damage
+|level1_stat1_value                      = 71
+|level1_stat2_id                         = spell_maximum_base_fire_damage
+|level1_stat2_value                      = 107
+|level2                                  = True
+|level2_level_requirement                = 73
+|level2_stat_text                        = Deals 235 to 353 Fire Damage
+|level2_stat1_id                         = spell_minimum_base_fire_damage
+|level2_stat1_value                      = 235
+|level2_stat2_id                         = spell_maximum_base_fire_damage
+|level2_stat2_value                      = 353
+}}

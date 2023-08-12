@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = TormentSummonSandstormDaemon
+|cast_time                               = 0.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 1.5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = number_of_monsters_to_summon
+|static_stat1_value                      = 3
+|static_stat2_id                         = alternate_minion
+|static_stat2_value                      = 136
+|static_stat3_id                         = summon_specific_monsters_radius_+%
+|static_stat3_value                      = -80
+|static_stat4_id                         = summon_specific_monsters_cannot_fail
+|static_stat4_value                      = 1
+|static_stat5_id                         = skill_repeat_count
+|static_stat5_value                      = 3
+|stat_text                               = Skills Repeat an additional 3 Times
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

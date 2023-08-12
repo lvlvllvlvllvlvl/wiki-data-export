@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = Launches a spinning blade that deals weapon damage to enemies. If firing multiple projectiles, they will be fired in a circle.
+|active_skill_name                       = Unseen Strike
+|item_class_id_restriction               = Claw, Dagger, Rune Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Mace, Sceptre, One Hand Axe
+|skill_id                                = HiddenBlade
+|cast_time                               = 1.0
+|required_level                          = 70
+|static_stored_uses                      = 1
+|static_cooldown                         = 0.5
+|static_damage_effectiveness             = 250
+|static_damage_multiplier                = 250
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = projectiles_nova
+|static_stat2_value                      = 1
+|static_stat3_id                         = skill_has_trigger_from_unique_item
+|static_stat3_value                      = 1
+|stat_text                               = Fires Projectiles in a circle<br>This Skill is Triggered by a Unique Item
+|level1                                  = True
+|level1_level_requirement                = 70
+}}

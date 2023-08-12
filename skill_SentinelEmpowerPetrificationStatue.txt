@@ -1,0 +1,20 @@
+{{Skill
+|gem_description                         = Creates a Petrification Statue in front of you, which will slow enemies with its gaze, until they become fully petrified.
+|active_skill_name                       = Petrification Statue
+|skill_id                                = SentinelEmpowerPetrificationStatue
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 4
+|static_stat1_id                         = petrification_statue_pertrify_duration_ms
+|static_stat1_value                      = 3000
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 4000
+|static_stat3_id                         = petrification_statue_target_action_speed_-%
+|static_stat3_value                      = 10
+|stat_text                               = Base duration is 4 seconds<br>Enemy Action Speed is reduced by 10% every 0.3 seconds
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

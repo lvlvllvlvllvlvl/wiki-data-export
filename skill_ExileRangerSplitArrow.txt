@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = Fires multiple arrows at different targets.
+|active_skill_name                       = Split Arrow
+|item_class_id_restriction               = Bow
+|skill_id                                = ExileRangerSplitArrow
+|cast_time                               = 1.0
+|required_level                          = 8
+|static_stored_uses                      = 3
+|static_cooldown                         = 2
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = projectile_uses_contact_position
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_can_fire_arrows
+|static_stat2_value                      = 1
+|static_stat3_id                         = active_skill_damage_+%_final
+|static_stat3_value                      = -40
+|static_stat4_id                         = base_number_of_additional_arrows
+|static_stat4_value                      = 5
+|static_stat5_id                         = attack_speed_+%
+|static_stat5_value                      = 80
+|static_stat6_id                         = physical_damage_+%
+|static_stat6_value                      = 12
+|stat_text                               = Deals 40% less Damage<br>Fires 5 additional Arrows<br>80% increased Attack Speed<br>12% increased Physical Damage
+|level1                                  = True
+|level1_level_requirement                = 8
+}}

@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = Generic monster mortar skill. Like Monster Projectile but has an impact effect.
+|active_skill_name                       = 
+|skill_id                                = MoltenMortarProjectileProphecy
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = projectile_spread_radius
+|static_stat1_value                      = 15
+|static_stat2_id                         = spell_maximum_action_distance_+%
+|static_stat2_value                      = -20
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = base_is_projectile
+|static_stat4_value                      = 1
+|static_stat5_id                         = spell_minimum_base_fire_damage
+|static_stat5_value                      = 8
+|static_stat6_id                         = spell_maximum_base_fire_damage
+|static_stat6_value                      = 11
+|stat_text                               = Deals 8 to 11 Fire Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

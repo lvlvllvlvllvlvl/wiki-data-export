@@ -1,0 +1,23 @@
+{{Skill
+|gem_description                         = Raises a spectral version of a defeated foe as a minion to fight for you in battle.
+|active_skill_name                       = Raise Spectre
+|skill_id                                = MonsterRaiseSpectre
+|cast_time                               = 0.85
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 3
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_number_of_spectres_allowed
+|static_stat1_value                      = 10
+|static_stat2_id                         = active_skill_minion_life_+%_final
+|static_stat2_value                      = -10
+|static_stat3_id                         = active_skill_minion_energy_shield_+%_final
+|static_stat3_value                      = -10
+|static_stat4_id                         = active_skill_minion_damage_+%_final
+|static_stat4_value                      = 10
+|stat_text                               = Maximum 10 Raised Spectres<br>Minions have 10% less Maximum Life<br>Minions have 10% less Energy Shield<br>Minions deal 10% more Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

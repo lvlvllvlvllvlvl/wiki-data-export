@@ -1,0 +1,20 @@
+{{Passive skill
+|id                                  = AscendancyOccultist15
+|int_id                              = 25309
+|name                                = Withering Presence
+|reminder_text                       = (Withered applies 6% increased Chaos Damage Taken, and can be inflicted up to 15 times)
+|buff_id                             = wither_nearby_enemies_every_second,occultist_damage_over_time_dealt_while_hindered
+|ascendancy_class                    = Occultist
+|is_notable                          = True
+|icon                                = WitheringPresence (Occultist)
+|stat1_id                            = occultist_chaos_damage_+%_final
+|stat1_value                         = 15
+|stat2_id                            = base_chaos_damage_resistance_%
+|stat2_value                         = 60
+|stat_text                           = 15% more [[Chaos Damage]]<br>+60% to [[Chaos Resistance]]<br>Every second, inflict Withered on nearby Enemies for 15 seconds<br>Nearby Hindered Enemies deal 15% reduced Damage over Time
+|stat3_id                            = every_1_second_nearby_enemies_withered_for_X_ms
+|stat3_value                         = 15000
+|stat4_id                            = damage_over_time_+%_while_hindered
+|stat4_value                         = -15
+|connections                         = AscendancyOccultist13
+}}

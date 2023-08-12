@@ -1,0 +1,36 @@
+{{Skill
+|gem_description                         = Launches shards of ice in rapid succession. After travelling a short distance they change to a second form, which moves much faster and pierces through enemies.
+|active_skill_name                       = Ice Spear
+|skill_id                                = WestIceSpear
+|cast_time                               = 0.85
+|required_level                          = 79
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_chill_duration_+%_final
+|static_stat1_value                      = 98
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = projectile_uses_contact_position
+|static_stat3_value                      = 1
+|static_stat4_id                         = use_scaled_contact_offset
+|static_stat4_value                      = 1
+|static_stat5_id                         = maintain_projectile_direction_when_using_contact_position
+|static_stat5_value                      = 1
+|static_stat6_id                         = spell_minimum_base_cold_damage
+|static_stat6_value                      = 1215
+|static_stat7_id                         = spell_maximum_base_cold_damage
+|static_stat7_value                      = 1823
+|static_stat8_id                         = active_skill_cast_speed_+%_final
+|static_stat8_value                      = -20
+|static_stat9_id                         = number_of_additional_projectiles
+|static_stat9_value                      = 2
+|static_stat10_id                        = ice_spear_second_form_critical_strike_chance_+%
+|static_stat10_value                     = 5000
+|static_stat11_id                        = never_freeze
+|static_stat11_value                     = 1
+|stat_text                               = Deals 1215 to 1823 Cold Damage<br>20% less Cast Speed<br>Fires 2 additional Projectiles<br>Second form has 5000% increased Critical Strike Chance<br>Cannot Freeze
+|level1                                  = True
+|level1_level_requirement                = 79
+}}

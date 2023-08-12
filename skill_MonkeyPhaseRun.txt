@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = Gain a buff that makes you move faster, become harder to detect, and no longer have your movement impeded by enemies. Your next attack also deals extra damage. Performing any skill removes this buff but grants a new buff that increases the damage of your attacks for a short time. Consumes Frenzy Charges to increase duration.
+|active_skill_name                       = Phase Run
+|skill_id                                = MonkeyPhaseRun
+|cast_time                               = 0.5
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 6
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 10
+|static_stat1_id                         = base_skill_effect_duration
+|static_stat1_value                      = 10000
+|static_stat2_id                         = base_movement_velocity_+%
+|static_stat2_value                      = 50
+|static_stat3_id                         = monster_response_time_ms
+|static_stat3_value                      = 750
+|static_stat4_id                         = phase_run_melee_physical_damage_+%_final
+|static_stat4_value                      = 50
+|stat_text                               = Base duration is 10 seconds<br>50% increased Movement Speed<br>Adds 0.75 seconds to monster response time<br>50% more Melee Physical Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

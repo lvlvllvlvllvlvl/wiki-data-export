@@ -1,0 +1,35 @@
+{{Skill
+|gem_description                         = Fire an icy projectile that bursts on impact or when reaching the targeted area, dealing area damage and creating a chilling area that deals cold damage over time. This area will creep across the ground towards nearby enemies until its duration expires.
+|active_skill_name                       = Creeping Frost
+|skill_id                                = WaterElementalArcticBreath
+|cast_time                               = 0.8
+|required_level                          = 12
+|static_cost_amounts                     = 24
+|static_cost_types                       = Mana
+|static_critical_strike_chance           = 10
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 1.65
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 1650
+|stat_text                               = Deals (16-889) to (24-1334) Cold Damage<br>Base duration is 1.65 seconds
+|level1                                  = True
+|level1_level_requirement                = 12
+|level1_stat_text                        = Deals 16 to 24 Cold Damage
+|level1_stat1_id                         = spell_minimum_base_cold_damage
+|level1_stat1_value                      = 16
+|level1_stat2_id                         = spell_maximum_base_cold_damage
+|level1_stat2_value                      = 24
+|level2                                  = True
+|level2_level_requirement                = 68
+|level2_stat_text                        = Deals 889 to 1334 Cold Damage
+|level2_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|level2_stat1_value                      = -25
+|level2_stat2_id                         = spell_minimum_base_cold_damage
+|level2_stat2_value                      = 889
+|level2_stat3_id                         = spell_maximum_base_cold_damage
+|level2_stat3_value                      = 1334
+}}

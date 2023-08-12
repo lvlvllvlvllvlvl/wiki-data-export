@@ -1,0 +1,30 @@
+{{Skill
+|gem_description                         = Channels to build up a large explosion. The longer you channel, the larger the area of effect and damage of the explosion. The explosion occurs after using another skill or after a short period without casting.
+|active_skill_name                       = Flameblast
+|skill_id                                = StrongboxCelestialFlameblast
+|cast_time                               = 0.2
+|required_level                          = 4
+|static_stored_uses                      = 1
+|static_cooldown                         = 3.5
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 50
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_fire_damage
+|static_stat2_value                      = 6
+|static_stat3_id                         = spell_maximum_base_fire_damage
+|static_stat3_value                      = 9
+|static_stat4_id                         = skill_repeat_count
+|static_stat4_value                      = 9
+|static_stat5_id                         = base_cast_speed_+%
+|static_stat5_value                      = -13
+|static_stat6_id                         = charged_blast_spell_damage_+%_final_per_stack
+|static_stat6_value                      = 110
+|static_stat7_id                         = flameblast_ailment_damage_+%_final_per_stack
+|static_stat7_value                      = 110
+|stat_text                               = Deals 6 to 9 Fire Damage<br>Skills Repeat an additional 9 Times<br>13% reduced Cast Speed<br>110% more Spell Damage for each stage<br>110% more Damage with Ailments for each stage
+|level1                                  = True
+|level1_level_requirement                = 4
+}}

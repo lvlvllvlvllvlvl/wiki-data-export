@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = mana_leech_notable2048
+|int_id                              = 1382
+|name                                = Spirit Void
+|is_notable                          = True
+|icon                                = minddrinker
+|stat1_id                            = mana_leech_speed_+%
+|stat1_value                         = 60
+|stat2_id                            = base_mana_leech_from_attack_damage_permyriad
+|stat2_value                         = 80
+|stat3_id                            = maximum_mana_leech_rate_+%
+|stat3_value                         = 25
+|stat_text                           = 60% increased total Recovery per second from [[Mana]] [[Leech]]<br>0.8% of [[Attack Damage]] Leeched as [[Mana]]<br>25% increased Maximum total [[Mana]] Recovery per second from [[Leech]]
+|connections                         = mastery_leech159,mana_leech2047,mastery_leech159
+}}

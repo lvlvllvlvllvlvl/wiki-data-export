@@ -1,0 +1,31 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = KitavaMinionProjectileSpellMinion
+|cast_time                               = 0.9
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_projectile_variation
+|static_stat1_value                      = 23
+|static_stat2_id                         = skill_visual_scale_+%
+|static_stat2_value                      = -50
+|static_stat3_id                         = base_is_projectile
+|static_stat3_value                      = 1
+|stat_text                               = Deals (4-212) to (6-318) Physical Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat_text                        = Deals 4 to 6 Physical Damage
+|level1_stat1_id                         = spell_minimum_base_physical_damage
+|level1_stat1_value                      = 4
+|level1_stat2_id                         = spell_maximum_base_physical_damage
+|level1_stat2_value                      = 6
+|level2                                  = True
+|level2_level_requirement                = 67
+|level2_stat_text                        = Deals 212 to 318 Physical Damage
+|level2_stat1_id                         = spell_minimum_base_physical_damage
+|level2_stat1_value                      = 212
+|level2_stat2_id                         = spell_maximum_base_physical_damage
+|level2_stat2_value                      = 318
+}}

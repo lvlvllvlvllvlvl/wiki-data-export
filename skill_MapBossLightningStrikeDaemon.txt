@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = Infuses your melee weapon with electrical energies as you swing. In addition to converting some of your physical damage to lightning damage, the stored energy is released from the weapon as projectiles as you strike, flying out to hit farther-away enemies. The projectiles cannot miss if the melee attack hits a target.
+|active_skill_name                       = Lightning Strike
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff, Rune Dagger
+|skill_id                                = MapBossLightningStrikeDaemon
+|cast_time                               = 1.0
+|required_level                          = 68
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_reverse_point_blank_damage_-%_at_minimum_range
+|static_stat1_value                      = 50
+|static_stat2_id                         = skill_physical_damage_%_to_convert_to_lightning
+|static_stat2_value                      = 50
+|static_stat3_id                         = projectiles_nova
+|static_stat3_value                      = 1
+|static_stat4_id                         = base_projectile_speed_+%
+|static_stat4_value                      = -90
+|static_stat5_id                         = number_of_additional_projectiles
+|static_stat5_value                      = 2
+|stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>Fires Projectiles in a circle<br>90% reduced Projectile Speed<br>Fires 2 additional Projectiles
+|level1                                  = True
+|level1_level_requirement                = 68
+}}

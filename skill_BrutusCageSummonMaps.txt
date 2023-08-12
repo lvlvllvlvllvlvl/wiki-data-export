@@ -1,0 +1,35 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = BrutusCageSummonMaps
+|cast_time                               = 1.0
+|required_level                          = 9
+|static_stored_uses                      = 1
+|static_cooldown                         = 24
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|stat_text                               = Deals (3-161) to (4-241) Physical Damage<br>Base duration is (5.5-14.5) seconds
+|level1                                  = True
+|level1_level_requirement                = 9
+|level1_duration                         = 5.5
+|level1_stat_text                        = Deals 3 to 4 Physical Damage<br>Base duration is 5.5 seconds
+|level1_stat1_id                         = secondary_minimum_base_physical_damage
+|level1_stat1_value                      = 3
+|level1_stat2_id                         = secondary_maximum_base_physical_damage
+|level1_stat2_value                      = 4
+|level1_stat3_id                         = base_skill_effect_duration
+|level1_stat3_value                      = 5500
+|level2                                  = True
+|level2_level_requirement                = 66
+|level2_duration                         = 14.5
+|level2_stat_text                        = Deals 161 to 241 Physical Damage<br>Base duration is 14.5 seconds
+|level2_stat1_id                         = secondary_minimum_base_physical_damage
+|level2_stat1_value                      = 161
+|level2_stat2_id                         = secondary_maximum_base_physical_damage
+|level2_stat2_value                      = 241
+|level2_stat3_id                         = base_skill_effect_duration
+|level2_stat3_value                      = 14500
+}}

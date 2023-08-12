@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = Ice crystals protrude from the ground at target location. Monsters in this area take damage and become frozen. The cooldown can be bypassed by expending a Power Charge.
+|active_skill_name                       = Cold Snap
+|skill_id                                = HailrakeColdSnap
+|cast_time                               = 0.85
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 8
+|static_critical_strike_chance           = 4
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_chill_duration_+%_final
+|static_stat1_value                      = 10
+|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat2_value                      = 200
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_cold_damage
+|static_stat4_value                      = 3
+|static_stat5_id                         = spell_maximum_base_cold_damage
+|static_stat5_value                      = 5
+|static_stat6_id                         = skill_effect_duration_+%
+|static_stat6_value                      = 200
+|stat_text                               = Deals 3 to 5 Cold Damage<br>200% increased Skill Effect Duration
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

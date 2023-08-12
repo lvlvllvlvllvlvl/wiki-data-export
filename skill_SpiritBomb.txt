@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = SpiritBomb
+|cast_time                               = 3.5
+|required_level                          = 80
+|static_stored_uses                      = 1
+|static_cooldown                         = 12
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat1_value                      = -50
+|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat2_value                      = 40
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_physical_damage
+|static_stat4_value                      = 1769
+|static_stat5_id                         = spell_maximum_base_physical_damage
+|static_stat5_value                      = 2163
+|stat_text                               = Deals 1769 to 2163 Physical Damage
+|level1                                  = True
+|level1_level_requirement                = 80
+}}

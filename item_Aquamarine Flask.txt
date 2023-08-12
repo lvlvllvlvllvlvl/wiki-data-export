@@ -1,0 +1,20 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Aquamarine Flask
+|class_id                                = UtilityFlask
+|size_x                                  = 1
+|size_y                                  = 2
+|drop_level                              = 27
+|drop_rarities_ids                       = normal, magic, unique
+|tags                                    = utility_flask, flask, default
+|metadata_id                             = Metadata/Items/Flasks/FlaskUtility11
+|help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.
+|implicit1                               = UtilityFlaskChilledGround
+|required_level                          = 27
+|flask_duration                          = 8
+|buff_id                                 = flask_utility_aquamarine
+|buff_value1                             = -60
+|buff_stat_text                          = 60% reduced Effect of [[Freeze]] on you
+|charges_max                             = 50
+|charges_per_use                         = 20
+}}

@@ -1,0 +1,35 @@
+{{Skill
+|gem_description                         = Throws a trap that releases a number of flames in different directions around it when triggered. The flames last for a duration, rotating around the trap and repeatedly dealing damage. Burning enemies are dealt more damage.
+|active_skill_name                       = Flamethrower Trap
+|skill_id                                = UltimatumGuardFlameThrowerTrap
+|cast_time                               = 1.0
+|required_level                          = 0
+|static_stored_uses                      = 1
+|static_cooldown                         = 12
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 30
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 3.5
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = base_skill_is_trapped
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_skill_show_average_damage_instead_of_dps
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_fire_damage
+|static_stat4_value                      = 1
+|static_stat5_id                         = spell_maximum_base_fire_damage
+|static_stat5_value                      = 1
+|static_stat6_id                         = base_skill_effect_duration
+|static_stat6_value                      = 3500
+|static_stat7_id                         = is_trap
+|static_stat7_value                      = 1
+|static_stat8_id                         = trap_throwing_speed_+%
+|static_stat8_value                      = -67
+|static_stat9_id                         = flamethrower_tower_trap_number_of_flamethrowers
+|static_stat9_value                      = 5
+|stat_text                               = Deals 1 to 1 Fire Damage<br>Base duration is 3.5 seconds<br>67% reduced Trap Throwing Speed<br>Has 5 Flames
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

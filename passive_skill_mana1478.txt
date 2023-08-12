@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = mana1478
+|int_id                              = 25178
+|name                                = Primal Spirit
+|is_notable                          = True
+|icon                                = animalspirit
+|stat1_id                            = base_strength_and_intelligence
+|stat1_value                         = 20
+|stat2_id                            = maximum_mana_+%
+|stat2_value                         = 20
+|stat3_id                            = mana_gained_on_attack_hit_if_used_mana_flask_in_past_10_seconds
+|stat3_value                         = 4
+|stat_text                           = +20 to [[Strength]] and [[Intelligence]]<br>20% increased maximum [[Mana]]<br>Gain 4 [[Mana]] per Enemy [[Hit]] with [[Attack|Attacks]] if you've used a [[Mana]] Flask in the past 10 seconds
+|connections                         = reduced_mana1480,mana1479,reduced_mana1480
+}}

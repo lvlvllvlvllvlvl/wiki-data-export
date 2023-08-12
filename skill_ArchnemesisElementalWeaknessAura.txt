@@ -1,0 +1,17 @@
+{{Skill
+|gem_description                         = Curses all targets in an area, lowering their elemental resistances.
+|active_skill_name                       = Elemental Weakness
+|skill_id                                = ArchnemesisElementalWeaknessAura
+|cast_time                               = 0.5
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_resist_all_elements_%
+|static_stat1_value                      = -30
+|static_stat2_id                         = curse_apply_as_aura
+|static_stat2_value                      = 1
+|stat_text                               = Cursed enemies have -30% to Elemental Resistances<br>This Curse is Cast as an Aura applying to nearby Enemies
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

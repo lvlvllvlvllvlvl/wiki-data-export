@@ -1,0 +1,20 @@
+{{Skill
+|gem_description                         = While active, periodically adds Crab Barriers to you, and grants additional Physical Damage reduction for each Crab Barrier you have. All Crab Barriers are lost when you take physical damage from a hit.
+|active_skill_name                       = Aspect of the Crab
+|skill_id                                = CrabAspect
+|cast_time                               = 0.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 0.5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_mana_reservation_percent         = 25
+|static_stat1_id                         = max_crab_aspect_stacks
+|static_stat1_value                      = 10
+|static_stat2_id                         = physical_damage_reduction_%_per_crab_aspect_stack
+|static_stat2_value                      = 2
+|stat_text                               = Can have up to 10 Crab Barriers<br>Grants 2% additional Physical Damage Reduction per Crab Barrier
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

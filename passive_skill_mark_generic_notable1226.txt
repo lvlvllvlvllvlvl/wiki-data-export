@@ -1,0 +1,13 @@
+{{Passive skill
+|id                                  = mark_generic_notable1226
+|int_id                              = 32681
+|name                                = Mark the Prey
+|is_notable                          = True
+|icon                                = MarkNotableMarkSpellRecently
+|stat1_id                            = marked_enemy_damage_taken_+%
+|stat1_value                         = 10
+|stat2_id                            = marked_enemy_accuracy_rating_+%
+|stat2_value                         = -10
+|stat_text                           = Marked Enemy takes 10% increased Damage<br>Marked Enemy has 10% reduced [[Accuracy Rating]]
+|connections                         = mastery_mine178,mark_generic1225,mastery_mine178
+}}

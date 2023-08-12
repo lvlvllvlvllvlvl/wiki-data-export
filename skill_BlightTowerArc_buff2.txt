@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = An arc of lightning stretches from the caster to a targeted enemy and chains on to other nearby enemies. Each time the main beam chains it will also chain to a second enemy, but that secondary arc cannot chain further.
+|active_skill_name                       = Arc
+|skill_id                                = BlightTowerArc_buff2
+|cast_time                               = 0.575
+|required_level                          = 1
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = disable_visual_hit_effect
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_lightning_damage
+|static_stat2_value                      = 49
+|static_stat3_id                         = spell_maximum_base_lightning_damage
+|static_stat3_value                      = 146
+|static_stat4_id                         = base_chance_to_shock_%
+|static_stat4_value                      = 10
+|static_stat5_id                         = number_of_chains
+|static_stat5_value                      = 10
+|stat_text                               = Deals 49 to 146 Lightning Damage<br>10% chance to Shock enemies<br>Chains +10 Times
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

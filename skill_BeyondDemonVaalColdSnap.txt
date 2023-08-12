@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = A sequence of ice crystals erupts from the ground around the caster, damaging enemies and leaving the ground chilled.
+|active_skill_name                       = Vaal Cold Snap
+|skill_id                                = BeyondDemonVaalColdSnap
+|cast_time                               = 0.85
+|required_level                          = 4
+|static_stored_uses                      = 1
+|static_cooldown                         = 10
+|static_critical_strike_chance           = 4
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 5
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_cold_damage
+|static_stat2_value                      = 6
+|static_stat3_id                         = spell_maximum_base_cold_damage
+|static_stat3_value                      = 10
+|static_stat4_id                         = base_skill_effect_duration
+|static_stat4_value                      = 5000
+|static_stat5_id                         = base_chance_to_freeze_%
+|static_stat5_value                      = 100
+|stat_text                               = Deals 6 to 10 Cold Damage<br>Base duration is 5 seconds<br>Always Freezes enemies
+|level1                                  = True
+|level1_level_requirement                = 4
+}}

@@ -1,0 +1,18 @@
+{{Passive skill
+|id                                  = AscendancyBerserker9
+|int_id                              = 9271
+|name                                = Defy Pain
+|ascendancy_class                    = Berserker
+|is_notable                          = True
+|icon                                = DefyPain (Berserker)
+|stat1_id                            = gain_defiance_when_lose_life_to_hit_once_per_x_ms
+|stat1_value                         = 300
+|stat2_id                            = armour_+%_per_defiance
+|stat2_value                         = 25
+|stat3_id                            = maximum_total_life_recovery_per_second_from_leech_+%_while_have_defiance
+|stat3_value                         = 50
+|stat4_id                            = lose_all_defiance_and_take_max_life_as_damage_on_reaching_x_defiance
+|stat4_value                         = 10
+|stat_text                           = Gain Defiance for 10 seconds on losing [[Life]] to an Enemy Hit, no more than once every 0.3 seconds<br>25% increased [[Armour]] per Defiance<br>50% increased Maximum total [[Life]] Recovery per second from [[Leech]] while you have Defiance<br>At 10 Defiance, take Reflected [[Physical Damage]] equal to maximum Life, then lose all Defiance
+|connections                         = AscendancyBerserker1
+}}

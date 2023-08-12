@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = Fires an arrow which decelerates to the target location, the arrow will then become unstable and explode dealing weapon damage in an area, converting half of the physical damage to cold damage.
+|active_skill_name                       = Void Shot
+|item_class_id_restriction               = Bow
+|skill_id                                = VoidShot
+|cast_time                               = 1.0
+|required_level                          = 70
+|static_damage_effectiveness             = 65
+|static_damage_multiplier                = 65
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_can_fire_arrows
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_skill_show_average_damage_instead_of_dps
+|static_stat3_value                      = 1
+|static_stat4_id                         = skill_physical_damage_%_to_convert_to_cold
+|static_stat4_value                      = 50
+|static_stat5_id                         = attack_unusable_if_triggerable
+|static_stat5_value                      = 1
+|static_stat6_id                         = active_skill_area_damage_+%_final
+|static_stat6_value                      = 25
+|static_stat7_id                         = trigger_on_skill_use_%_if_you_have_a_void_arrow
+|static_stat7_value                      = 100
+|stat_text                               = 50% of Physical Damage Converted to Cold Damage<br>You cannot use this Attack directly<br>25% more Area Damage<br>Consume a Void Charge to Trigger this Skill when you fire Arrows with a Non-Triggered Skill
+|level1                                  = True
+|level1_level_requirement                = 70
+}}

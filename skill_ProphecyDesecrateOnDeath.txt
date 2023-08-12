@@ -1,0 +1,32 @@
+{{Skill
+|gem_description                         = Desecrates the ground, summoning corpses and dealing chaos damage to all enemies in the area. The corpses will be chosen from the monsters in the current area and any Spectres that have existed in this instance.
+|active_skill_name                       = Desecrate
+|skill_id                                = ProphecyDesecrateOnDeath
+|cast_time                               = 1.0
+|required_level                          = 3
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 5
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 60
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_chaos_damage_to_deal_per_minute
+|static_stat3_value                      = 55
+|static_stat4_id                         = base_skill_effect_duration
+|static_stat4_value                      = 5000
+|static_stat5_id                         = spell_uncastable_if_triggerable
+|static_stat5_value                      = 1
+|static_stat6_id                         = cast_on_death_%
+|static_stat6_value                      = 100
+|static_stat7_id                         = desecrate_number_of_corpses_to_create
+|static_stat7_value                      = 3
+|static_stat8_id                         = desecrate_corpse_level
+|static_stat8_value                      = 100
+|static_stat9_id                         = desecrate_maximum_number_of_corpses
+|static_stat9_value                      = 10
+|stat_text                               = Deals 0.9 Base Chaos Damage per second<br>Base duration is 5 seconds<br>You cannot Cast this Spell directly<br>100% chance to Trigger this Spell on Death<br>Spawns 3 corpses<br>Spawns corpses up to Level 100<br>Maximum of 10 corpses allowed
+|level1                                  = True
+|level1_level_requirement                = 3
+}}

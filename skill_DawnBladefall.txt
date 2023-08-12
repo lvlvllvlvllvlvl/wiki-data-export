@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = Ethereal weapons rain from the sky, dealing damage to enemies in a sequence of volleys, each wider but less damaging than the last. Enemies can be hit multiple times where these overlap.
+|active_skill_name                       = Bladefall
+|skill_id                                = DawnBladefall
+|cast_time                               = 1.5
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 15
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = number_of_monsters_to_summon
+|static_stat1_value                      = 2
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_physical_damage
+|static_stat3_value                      = 4
+|static_stat4_id                         = spell_maximum_base_physical_damage
+|static_stat4_value                      = 7
+|static_stat5_id                         = bladefall_number_of_volleys
+|static_stat5_value                      = 5
+|static_stat6_id                         = bladefall_damage_per_stage_+%_final
+|static_stat6_value                      = -5
+|stat_text                               = Deals 4 to 7 Physical Damage<br>5 Volleys<br>5% less Damage per Volley
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

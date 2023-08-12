@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = Unleashes a ball of fire towards a target which explodes, damaging nearby foes.
+|active_skill_name                       = Fireball
+|skill_id                                = AvariusWickermanFireball
+|cast_time                               = 1.2
+|required_level                          = 65
+|static_critical_strike_chance           = 6
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = number_of_projectiles_override
+|static_stat1_value                      = 1
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = projectile_uses_contact_position
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_physical_damage
+|static_stat4_value                      = 286
+|static_stat5_id                         = spell_maximum_base_physical_damage
+|static_stat5_value                      = 429
+|stat_text                               = Deals 286 to 429 Physical Damage
+|level1                                  = True
+|level1_level_requirement                = 65
+}}

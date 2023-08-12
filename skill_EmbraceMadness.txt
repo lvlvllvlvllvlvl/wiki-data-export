@@ -1,0 +1,19 @@
+{{Skill
+|gem_description                         = Grants Glorious Madness. Using this skill again will remove Glorious Madness and the Touched Debuffs it inflicts, but you will be unable to Embrace Madness again until the cooldown expires.
+|active_skill_name                       = Embrace Madness
+|skill_id                                = EmbraceMadness
+|cast_time                               = 0.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = embrace_madness_amount_of_cooldown_to_gain_ms
+|static_stat1_value                      = 8000
+|static_stat2_id                         = glorious_madness_timer_ms
+|static_stat2_value                      = 1000
+|stat_text                               = +8 seconds to Cooldown while you have Glorious Madness<br>Glorious Madness inflicts a random Touched Debuff every second
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

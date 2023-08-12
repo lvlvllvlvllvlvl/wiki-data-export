@@ -1,0 +1,17 @@
+{{Skill
+|gem_description                         = Enemies affected by this aura will take increased damage from all sources
+|active_skill_name                       = Increased Damage Taken Aura
+|skill_id                                = AuraIncreasedDamageTaken
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_aura_area_of_effect_+%
+|static_stat1_value                      = 10
+|static_stat2_id                         = base_damage_taken_+%
+|static_stat2_value                      = 50
+|stat_text                               = 10% increased Aura Area of Effect<br>50% increased Damage taken
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

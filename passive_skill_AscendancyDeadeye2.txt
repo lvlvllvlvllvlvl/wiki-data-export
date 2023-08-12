@@ -1,0 +1,16 @@
+{{Passive skill
+|id                                  = AscendancyDeadeye2
+|int_id                              = 5443
+|name                                = Focal Point
+|ascendancy_class                    = Deadeye
+|is_notable                          = True
+|icon                                = Mark
+|stat1_id                            = mark_skills_curse_effect_+%
+|stat1_value                         = 75
+|stat2_id                            = damage_taken_+%_final_from_enemies_near_marked_enemy
+|stat2_value                         = -25
+|stat3_id                            = your_marks_transfer_to_nearby_enemies_on_death_%_chance
+|stat3_value                         = 100
+|stat_text                           = 75% increased Effect of your Marks<br>25% less Damage taken from other Enemies near your Marked Enemy<br>Your Mark Transfers to another Enemy when Marked Enemy dies
+|connections                         = AscendancyDeadeye1
+}}

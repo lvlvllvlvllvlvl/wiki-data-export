@@ -1,0 +1,30 @@
+{{Skill
+|gem_description                         = Summons three icy skull minions that explode at the end of their duration.
+|active_skill_name                       = Edict of the Grave
+|skill_id                                = EnchantmentOfTheGraveOnKill2
+|cast_time                               = 1.0
+|required_level                          = 53
+|static_stored_uses                      = 1
+|static_cooldown                         = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 5
+|static_stat1_id                         = chance_to_cast_on_owned_kill_%
+|static_stat1_value                      = 100
+|static_stat2_id                         = number_of_monsters_to_summon
+|static_stat2_value                      = 3
+|static_stat3_id                         = display_minion_monster_type
+|static_stat3_value                      = 10
+|static_stat4_id                         = display_minion_monster_level
+|static_stat4_value                      = 53
+|static_stat5_id                         = minions_explode_on_death_for_%_max_life_at_end_of_duration
+|static_stat5_value                      = 20
+|static_stat6_id                         = minions_cannot_taunt_enemies
+|static_stat6_value                      = 1
+|static_stat7_id                         = base_skill_effect_duration
+|static_stat7_value                      = 5000
+|stat_text                               = Minions cannot Taunt Enemies<br>Base duration is 5 seconds
+|level1                                  = True
+|level1_level_requirement                = 53
+}}

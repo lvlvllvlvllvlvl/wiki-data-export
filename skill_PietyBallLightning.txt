@@ -1,0 +1,23 @@
+{{Skill
+|gem_description                         = Fires a slow-moving projectile that periodically damages enemies in an area around it with bolts of lightning.
+|active_skill_name                       = Ball Lightning
+|skill_id                                = PietyBallLightning
+|cast_time                               = 0.8
+|required_level                          = 25
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat1_value                      = -25
+|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat2_value                      = -33
+|static_stat3_id                         = base_is_projectile
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_lightning_damage
+|static_stat4_value                      = 16
+|static_stat5_id                         = spell_maximum_base_lightning_damage
+|static_stat5_value                      = 47
+|stat_text                               = Deals 16 to 47 Lightning Damage
+|level1                                  = True
+|level1_level_requirement                = 25
+}}

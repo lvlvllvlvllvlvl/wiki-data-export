@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = Desecrates the ground, summoning corpses and dealing chaos damage to all enemies in the area. The corpses will be chosen from the monsters in the current area and any Spectres that have existed in this instance.
+|active_skill_name                       = Desecrate
+|skill_id                                = ArchnemesisDesecrate
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 100
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_cast_speed_+%
+|static_stat3_value                      = 65
+|static_stat4_id                         = desecrate_number_of_corpses_to_create
+|static_stat4_value                      = 4
+|static_stat5_id                         = desecrate_corpse_level
+|static_stat5_value                      = 100
+|static_stat6_id                         = desecrate_maximum_number_of_corpses
+|static_stat6_value                      = 25
+|stat_text                               = 65% increased Cast Speed<br>Spawns 4 corpses<br>Spawns corpses up to Level 100<br>Maximum of 25 corpses allowed
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

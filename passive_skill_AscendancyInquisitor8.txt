@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = AscendancyInquisitor8
+|int_id                              = 48214
+|name                                = Inevitable Judgement
+|reminder_text                       = (Ignoring Resistances means your Damage cannot be modified in any way by any Resistance stats)
+|ascendancy_class                    = Inquisitor
+|is_notable                          = True
+|icon                                = ElementalForce (Inquistitor)
+|stat1_id                            = critical_strikes_ignore_elemental_resistances
+|stat1_value                         = 1
+|stat2_id                            = non_critical_strikes_penetrate_elemental_resistances_%
+|stat2_value                         = 10
+|stat_text                           = Critical Strikes ignore Enemy Monster [[Elemental Resistance|Elemental Resistances]]<br>Non-Critical Strikes Penetrate 10% of Enemy [[Elemental Resistance|Elemental Resistances]]
+|connections                         = AscendancyInquisitor6
+}}

@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = flask_generic_notable2844_
+|int_id                              = 31585
+|name                                = Careful Conservationist
+|is_notable                          = True
+|icon                                = FlaskNotableCritStrikeRecharge
+|stat1_id                            = flask_effect_+%
+|stat1_value                         = 5
+|stat2_id                            = flask_charges_used_+%
+|stat2_value                         = -10
+|stat3_id                            = flask_charges_gained_+%_if_crit_recently
+|stat3_value                         = 20
+|stat_text                           = Flasks applied to you have 5% increased Effect<br>10% reduced Flask [[Charge|Charges]] used<br>20% increased Flask [[Charge|Charges]] gained if you've dealt a [[Critical Strike]] [[Recently]]
+|connections                         = mastery_flask124,flask_mana324,mastery_flask124
+}}

@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = Summon Skeleton Warrior minions at the targeted location. They use a melee attack and die after a duration. If made aggressive, Skeleton Warriors will also dash towards nearby enemies.
+|active_skill_name                       = Summon Skeletons
+|skill_id                                = FireFurySummonExplodingSkeletons
+|cast_time                               = 1.0
+|required_level                          = 4
+|static_stored_uses                      = 1
+|static_cooldown                         = 6
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 10
+|static_stat1_id                         = alternate_minion
+|static_stat1_value                      = 2
+|static_stat2_id                         = base_number_of_skeletons_allowed
+|static_stat2_value                      = 12
+|static_stat3_id                         = base_skill_effect_duration
+|static_stat3_value                      = 10000
+|static_stat4_id                         = number_of_melee_skeletons_to_summon
+|static_stat4_value                      = 2
+|stat_text                               = Maximum 12 Summoned Skeletons<br>Base duration is 10 seconds<br>Summons 2 Skeleton Warriors
+|level1                                  = True
+|level1_level_requirement                = 4
+}}

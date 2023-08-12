@@ -1,0 +1,30 @@
+{{Skill
+|gem_description                         = An icy projectile which has a chance to freeze enemies it passes through. The projectile fades quickly, reducing damage and freezing chance until it dissipates.
+|active_skill_name                       = Freezing Pulse
+|skill_id                                = ProphecyFreezingPulseWhirlwindSpiral
+|cast_time                               = 0.65
+|required_level                          = 3
+|static_critical_strike_chance           = 6
+|static_damage_effectiveness             = 125
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = projectile_spiral_nova_time_ms
+|static_stat1_value                      = 200
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_cold_damage
+|static_stat3_value                      = 4
+|static_stat4_id                         = spell_maximum_base_cold_damage
+|static_stat4_value                      = 6
+|static_stat5_id                         = always_pierce
+|static_stat5_value                      = 1
+|static_stat6_id                         = base_number_of_projectiles_in_spiral_nova
+|static_stat6_value                      = 6
+|static_stat7_id                         = projectile_spiral_nova_angle
+|static_stat7_value                      = 360
+|static_stat8_id                         = base_projectile_speed_+%
+|static_stat8_value                      = 100
+|stat_text                               = Deals 4 to 6 Cold Damage<br>Projectiles Pierce all Targets<br>Fires 6 Projectiles in a spiral<br>100% increased Projectile Speed
+|level1                                  = True
+|level1_level_requirement                = 3
+}}

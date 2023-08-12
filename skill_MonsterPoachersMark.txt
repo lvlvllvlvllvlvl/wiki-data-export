@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = Curses a single enemy, lowering their physical damage reduction, and adding physical damage to all hits against them. Attacking the cursed enemy will grant life and mana, and killing them will grant a frenzy charge. You can only have one Mark at a time.
+|active_skill_name                       = Poacher's Mark
+|skill_id                                = MonsterPoachersMark
+|cast_time                               = 0.5
+|required_level                          = 30
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 8.8
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 24
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 8800
+|static_stat3_id                         = chance_to_grant_frenzy_charge_on_death_%
+|static_stat3_value                      = 100
+|static_stat4_id                         = life_granted_when_hit_by_attacks
+|static_stat4_value                      = 9
+|static_stat5_id                         = mana_granted_when_hit_by_attacks
+|static_stat5_value                      = 9
+|static_stat6_id                         = base_additional_physical_damage_reduction_%
+|static_stat6_value                      = -20
+|stat_text                               = Base duration is 8.8 seconds<br>Cursed enemies have a 100% chance to grant a Frenzy Charge when slain<br>Cursed enemies grant 9 Life when Hit by Attacks<br>Cursed enemies grant 9 Mana when Hit by Attacks<br>Cursed enemies have -20% to Physical Damage Reduction
+|level1                                  = True
+|level1_level_requirement                = 30
+}}

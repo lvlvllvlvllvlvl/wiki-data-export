@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = An arc of lightning stretches from the caster to a targeted enemy and chains on to other nearby enemies. Each time the main beam chains it will also chain to a second enemy, but that secondary arc cannot chain further.
+|active_skill_name                       = Arc
+|skill_id                                = HellscapeFleshFodderArc
+|cast_time                               = 1.166
+|required_level                          = 1
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = spell_maximum_action_distance_+%
+|static_stat1_value                      = -50
+|static_stat2_id                         = shock_art_variation
+|static_stat2_value                      = 2
+|static_stat3_id                         = disable_visual_hit_effect
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_lightning_damage
+|static_stat4_value                      = 3
+|static_stat5_id                         = spell_maximum_base_lightning_damage
+|static_stat5_value                      = 8
+|static_stat6_id                         = base_chance_to_shock_%
+|static_stat6_value                      = 10
+|stat_text                               = Deals 3 to 8 Lightning Damage<br>10% chance to Shock enemies
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

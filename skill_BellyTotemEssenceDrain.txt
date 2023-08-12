@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = Fires a projectile that applies a damage over time debuff when it hits. You are healed for a portion of the debuff damage. The debuff is spread by Contagion.
+|active_skill_name                       = Essence Drain
+|skill_id                                = BellyTotemEssenceDrain
+|cast_time                               = 0.75
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 4
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 2
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_chaos_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_maximum_base_chaos_damage
+|static_stat3_value                      = 2
+|static_stat4_id                         = base_chaos_damage_to_deal_per_minute
+|static_stat4_value                      = 173
+|static_stat5_id                         = base_skill_effect_duration
+|static_stat5_value                      = 2000
+|stat_text                               = Deals 1 to 2 Chaos Damage<br>Deals 2.9 Base Chaos Damage per second<br>Base duration is 2 seconds
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

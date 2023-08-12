@@ -1,0 +1,21 @@
+{{Passive skill
+|id                                  = AscendancyAscendant36
+|int_id                              = 9327
+|name                                = Pathfinder
+|reminder_text                       = (You can only take one of the three Ranger Ascendancy passives)
+|ascendancy_class                    = Ascendant
+|is_multiple_choice_option           = True
+|icon                                = Pathfinder (Ascendants)
+|stat1_id                            = remove_bleed_on_flask_use
+|stat1_value                         = 1
+|stat2_id                            = movement_speed_+%_during_flask_effect
+|stat2_value                         = 10
+|stat3_id                            = attack_speed_+%_during_flask_effect
+|stat3_value                         = 10
+|stat4_id                            = flask_charges_recovered_per_3_seconds
+|stat4_value                         = 3
+|stat5_id                            = flasks_%_chance_to_not_consume_charges
+|stat5_value                         = 25
+|stat_text                           = Removes Bleeding when you use a Flask<br>10% increased [[Movement Speed]] during any Flask Effect<br>10% increased [[Attack Speed]] during any Flask Effect<br>Flasks gain 3 [[Charge|Charges]] every 3 seconds<br>25% chance for Flasks you use to not consume [[Charge|Charges]]
+|connections                         = AscendancyAscendant26
+}}

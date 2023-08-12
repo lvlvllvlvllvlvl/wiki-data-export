@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = Fires an arc of knives in front of the caster which deals physical damage.
+|active_skill_name                       = Ethereal Knives
+|skill_id                                = MetamorphosisEtherealKnivesSpiral
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = projectile_spiral_nova_time_ms
+|static_stat1_value                      = 700
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_physical_damage
+|static_stat3_value                      = 2
+|static_stat4_id                         = spell_maximum_base_physical_damage
+|static_stat4_value                      = 2
+|static_stat5_id                         = base_number_of_projectiles_in_spiral_nova
+|static_stat5_value                      = 13
+|static_stat6_id                         = projectile_spiral_nova_angle
+|static_stat6_value                      = 300
+|stat_text                               = Deals 2 to 2 Physical Damage<br>Fires 13 Projectiles in a spiral
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

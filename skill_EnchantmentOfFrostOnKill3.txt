@@ -1,0 +1,32 @@
+{{Skill
+|gem_description                         = Fire icy projectiles around you in all directions.
+|active_skill_name                       = Decree of Frost
+|skill_id                                = EnchantmentOfFrostOnKill3
+|cast_time                               = 1.0
+|required_level                          = 66
+|static_stored_uses                      = 1
+|static_cooldown                         = 5
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_cold_damage
+|static_stat2_value                      = 836
+|static_stat3_id                         = spell_maximum_base_cold_damage
+|static_stat3_value                      = 1254
+|static_stat4_id                         = projectiles_nova
+|static_stat4_value                      = 1
+|static_stat5_id                         = number_of_additional_projectiles
+|static_stat5_value                      = 8
+|static_stat6_id                         = spell_uncastable_if_triggerable
+|static_stat6_value                      = 1
+|static_stat7_id                         = chance_to_cast_on_kill_%_target_self
+|static_stat7_value                      = 100
+|static_stat8_id                         = damage_cannot_be_reflected
+|static_stat8_value                      = 1
+|stat_text                               = Deals 836 to 1254 Cold Damage<br>Fires Projectiles in a circle<br>Fires 8 additional Projectiles<br>You cannot Cast this Spell directly<br>Trigger this Spell on Kill<br>Damage cannot be Reflected
+|level1                                  = True
+|level1_level_requirement                = 66
+}}

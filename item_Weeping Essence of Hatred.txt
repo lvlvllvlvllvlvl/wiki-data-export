@@ -1,0 +1,21 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Weeping Essence of Hatred
+|class_id                                = StackableCurrency
+|size_x                                  = 1
+|size_y                                  = 1
+|drop_level                              = 30
+|tags                                    = essence, currency, default
+|metadata_id                             = Metadata/Items/Currency/CurrencyEssenceHatred3
+|stack_size                              = 9
+|description                             = Upgrades a normal item to rare with one guaranteed property<br />Properties restricted to level 60 and below<br /><br />Bow: Adds (29-40) to (58-68) [[Cold Damage]]<br />Two Handed Melee Weapon: Adds (29-40) to (58-68) [[Cold Damage]]<br />Other Weapon: Adds (16-21) to (31-37) [[Cold Damage]]<br />Armour: +(18-23)% to [[Cold Resistance]]<br />Quiver: +(18-23)% to [[Cold Resistance]]<br />Belt: +(18-23)% to [[Cold Resistance]]<br />Other Jewellery: (15-18)% increased [[Cold Damage]]
+|help_text                               = Right click this item then left click a normal item to apply it.<br>Shift click to unstack.
+|stack_size_currency_tab                 = 5000
+|drop_level_maximum                      = 100
+|essence_level_restriction               = 60
+|essence_level                           = 3
+|essence_type                            = 1
+|essence_category                        = Essence of Hatred
+|essence_monster_modifier_ids            = EssenceDaemonModLifeAndDamageLevel3, EssenceDaemonPhysicalAddedAndConvertedToCold
+|is_essence                              = True
+}}

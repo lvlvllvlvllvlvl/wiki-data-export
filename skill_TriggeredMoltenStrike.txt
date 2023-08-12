@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = Launch molten projectiles from the point of impact, causing AoE attack damage to enemies where they land.
+|active_skill_name                       = Molten Burst
+|skill_id                                = TriggeredMoltenStrike
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 0.15
+|static_damage_effectiveness             = 115
+|static_damage_multiplier                = 115
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = show_number_of_projectiles
+|static_stat1_value                      = 1
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = base_skill_show_average_damage_instead_of_dps
+|static_stat4_value                      = 1
+|static_stat5_id                         = number_of_additional_projectiles
+|static_stat5_value                      = 3
+|static_stat6_id                         = attack_trigger_on_melee_hit_%
+|static_stat6_value                      = 20
+|stat_text                               = Fires 3 additional Projectiles<br>20% chance to Trigger this Skill on Melee Hit
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

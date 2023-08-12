@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = SpawnBloodMeteors
+|cast_time                               = 2.9
+|required_level                          = 80
+|static_stored_uses                      = 1
+|static_cooldown                         = 10
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = number_of_blood_meteors_to_create
+|static_stat1_value                      = 20
+|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat2_value                      = -25
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_physical_damage
+|static_stat4_value                      = 705
+|static_stat5_id                         = spell_maximum_base_physical_damage
+|static_stat5_value                      = 1058
+|stat_text                               = Deals 705 to 1058 Physical Damage
+|level1                                  = True
+|level1_level_requirement                = 80
+}}

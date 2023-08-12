@@ -1,0 +1,36 @@
+{{Skill
+|gem_description                         = Fires a large number of arrows into the air, to land at the target after a short delay.
+|active_skill_name                       = Rain of Arrows
+|item_class_id_restriction               = Bow
+|skill_id                                = BetrayalRinRainOfArrows
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 8
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 85
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = skill_physical_damage_%_to_convert_to_cold
+|static_stat3_value                      = 75
+|static_stat4_id                         = active_skill_attack_speed_+%_final
+|static_stat4_value                      = -25
+|stat_text                               = Deals (0-200)% more Damage<br>75% of Physical Damage Converted to Cold Damage<br>25% less Attack Speed
+|level1                                  = True
+|level1_level_requirement                = 1
+|level2                                  = True
+|level2_level_requirement                = 20
+|level3                                  = True
+|level3_level_requirement                = 21
+|level3_stat_text                        = Deals 1% more Damage
+|level3_stat1_id                         = active_skill_damage_+%_final
+|level3_stat1_value                      = 1
+|level4                                  = True
+|level4_level_requirement                = 84
+|level4_stat_text                        = Deals 200% more Damage
+|level4_stat1_id                         = active_skill_damage_+%_final
+|level4_stat1_value                      = 200
+}}

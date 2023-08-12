@@ -1,0 +1,32 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = DarkExileSummonRagingSpirit
+|cast_time                               = 0.8
+|required_level                          = 73
+|static_stored_uses                      = 1
+|static_cooldown                         = 0.1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 60
+|static_stat1_id                         = alternate_minion
+|static_stat1_value                      = 1
+|static_stat2_id                         = cast_on_damage_taken_also_tracks_dot
+|static_stat2_value                      = 1
+|static_stat3_id                         = active_skill_damage_+%_final
+|static_stat3_value                      = -50
+|static_stat4_id                         = base_number_of_raging_spirits_allowed
+|static_stat4_value                      = 50
+|static_stat5_id                         = base_skill_effect_duration
+|static_stat5_value                      = 60000
+|static_stat6_id                         = active_skill_minion_life_+%_final
+|static_stat6_value                      = 1000
+|static_stat7_id                         = cast_on_damage_taken_%
+|static_stat7_value                      = 100
+|static_stat8_id                         = cast_on_damage_taken_threshold
+|static_stat8_value                      = 1
+|stat_text                               = Deals 50% less Damage<br>Maximum 50 Summoned Raging Spirits<br>Base duration is 60 seconds<br>Minions have 1000% more Maximum Life
+|level1                                  = True
+|level1_level_requirement                = 73
+}}

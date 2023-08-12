@@ -1,0 +1,34 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = Flame Breath
+|skill_id                                = Flamebreath
+|cast_time                               = 2.97
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 10
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 5
+|static_stat1_id                         = projectile_spread_radius
+|static_stat1_value                      = 10
+|static_stat2_id                         = ground_fire_art_variation
+|static_stat2_value                      = 2
+|static_stat3_id                         = projectile_uses_contact_position
+|static_stat3_value                      = 1
+|static_stat4_id                         = is_area_damage
+|static_stat4_value                      = 1
+|static_stat5_id                         = spell_minimum_base_fire_damage
+|static_stat5_value                      = 1
+|static_stat6_id                         = spell_maximum_base_fire_damage
+|static_stat6_value                      = 2
+|static_stat7_id                         = base_fire_damage_to_deal_per_minute
+|static_stat7_value                      = 210
+|static_stat8_id                         = base_skill_effect_duration
+|static_stat8_value                      = 5000
+|static_stat9_id                         = base_projectile_speed_+%
+|static_stat9_value                      = 40
+|stat_text                               = Deals 1 to 2 Fire Damage<br>Deals 3.5 Base Fire Damage per second<br>Base duration is 5 seconds<br>40% increased Projectile Speed
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

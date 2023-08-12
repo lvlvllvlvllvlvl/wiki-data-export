@@ -1,0 +1,18 @@
+{{Passive skill
+|id                                  = AscendancySlayer10
+|int_id                              = 34484
+|name                                = Endless Hunger
+|ascendancy_class                    = Slayer
+|is_notable                          = True
+|icon                                = EndlessHunger (Slayer)
+|stat1_id                            = life_leech_on_overkill_damage_%
+|stat1_value                         = 20
+|stat2_id                            = unaffected_by_bleeding_while_leeching
+|stat2_value                         = 1
+|stat3_id                            = cannot_be_stunned_while_leeching
+|stat3_value                         = 1
+|stat4_id                            = attack_speed_+%_while_leeching
+|stat4_value                         = 20
+|stat_text                           = 20% of Overkill Damage is Leeched as [[Life]]<br>You are Unaffected by Bleeding while Leeching<br>Cannot be Stunned while Leeching<br>20% increased [[Attack Speed]] while Leeching
+|connections                         = AscendancySlayer4
+}}

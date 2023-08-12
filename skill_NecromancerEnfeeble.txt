@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = Curses all targets in an area, reducing their accuracy and making them deal less damage.
+|active_skill_name                       = Enfeeble
+|skill_id                                = NecromancerEnfeeble
+|cast_time                               = 1.1
+|required_level                          = 4
+|static_stored_uses                      = 1
+|static_cooldown                         = 10
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 5
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 42
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 5000
+|static_stat3_id                         = accuracy_rating_+%
+|static_stat3_value                      = -60
+|static_stat4_id                         = enfeeble_damage_+%_final
+|static_stat4_value                      = -60
+|static_stat5_id                         = enfeeble_damage_+%_vs_rare_or_unique_final
+|static_stat5_value                      = -23
+|stat_text                               = Base duration is 5 seconds<br>Cursed enemies have 60% reduced Accuracy Rating<br>Cursed Normal or Magic enemies deal 60% less Damage<br>Cursed Rare or Unique enemies deal 23% less Damage
+|level1                                  = True
+|level1_level_requirement                = 4
+}}

@@ -1,0 +1,19 @@
+{{Passive skill
+|id                                  = AscendancyChampion14
+|int_id                              = 13374
+|name                                = Master of Metal
+|buff_id                             = champion_damage_against_impaled
+|ascendancy_class                    = Champion
+|is_notable                          = True
+|icon                                = ImpalePassiveNotable (Champion)
+|stat1_id                            = impaled_debuff_number_of_reflected_hits
+|stat1_value                         = 1
+|stat2_id                            = you_and_nearby_allies_armour_+_if_have_impaled_recently
+|stat2_value                         = 1000
+|stat_text                           = Impales you inflict last 1 additional [[Hit]]<br>If you've Impaled an Enemy Recently, you<br />and nearby Allies have +1000 to [[Armour]]<br>You and nearby Allies deal 6 to 12 added [[Physical Damage]] for<br />each Impale on Enemy
+|stat3_id                            = minimum_added_physical_damage_per_impaled_on_enemy
+|stat3_value                         = 6
+|stat4_id                            = maximum_added_physical_damage_per_impaled_on_enemy
+|stat4_value                         = 12
+|connections                         = AscendancyChampion13
+}}

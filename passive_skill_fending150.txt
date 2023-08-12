@@ -1,0 +1,13 @@
+{{Passive skill
+|id                                  = fending150
+|int_id                              = 30160
+|name                                = Fending
+|is_notable                          = True
+|icon                                = fending
+|stat1_id                            = knockback_distance_+%
+|stat1_value                         = 25
+|stat2_id                            = base_global_chance_to_knockback_%
+|stat2_value                         = 15
+|stat_text                           = 25% increased Knockback Distance<br>15% chance to Knock Enemies Back on [[Hit|hit]]
+|connections                         = mastery_attack21,knockback_distance149,mastery_attack21
+}}

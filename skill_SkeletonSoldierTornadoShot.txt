@@ -1,0 +1,33 @@
+{{Skill
+|gem_description                         = Fires a piercing shot that travels until it reaches the targeted location. It will then fire projectiles out in all directions from that point, which will travel for a short time before disappearing.
+|active_skill_name                       = Tornado Shot
+|item_class_id_restriction               = Bow
+|skill_id                                = SkeletonSoldierTornadoShot
+|cast_time                               = 1.0
+|required_level                          = 2
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_can_fire_arrows
+|static_stat2_value                      = 1
+|static_stat3_id                         = tornado_shot_num_of_secondary_projectiles
+|static_stat3_value                      = 3
+|stat_text                               = Deals (30-40)% less Damage<br>Fires 3 secondary Projectiles
+|level1                                  = True
+|level1_level_requirement                = 2
+|level1_stat_text                        = Deals 30% less Damage
+|level1_stat1_id                         = active_skill_damage_+%_final
+|level1_stat1_value                      = -30
+|level2                                  = True
+|level2_level_requirement                = 38
+|level2_stat_text                        = Deals 35% less Damage
+|level2_stat1_id                         = active_skill_damage_+%_final
+|level2_stat1_value                      = -35
+|level3                                  = True
+|level3_level_requirement                = 54
+|level3_stat_text                        = Deals 40% less Damage
+|level3_stat1_id                         = active_skill_damage_+%_final
+|level3_stat1_value                      = -40
+}}

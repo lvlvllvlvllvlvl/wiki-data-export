@@ -1,0 +1,20 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Screaming Essence of Misery
+|class_id                                = StackableCurrency
+|size_x                                  = 1
+|size_y                                  = 1
+|drop_level                              = 68
+|tags                                    = essence, currency, default
+|metadata_id                             = Metadata/Items/Currency/CurrencyEssenceMisery1
+|stack_size                              = 9
+|description                             = Upgrades a normal item to rare or reforges a rare item, guaranteeing one property<br />One Handed Weapon: (21-24)% increased [[Cast Speed]]<br />Two Handed Weapon: (32-37)% increased [[Cast Speed]]<br />Shield: (50-59)% increased [[Mana]] Regeneration Rate<br />Other Armour: +(55-59) to maximum [[Mana]]<br />Quiver: (0.2-0.4)% of Physical [[Attack Damage]] Leeched as [[Mana]]<br />Belt: (11-15)% increased Flask [[Mana]] Recovery rate<br />Other Jewellery: (50-59)% increased [[Mana]] Regeneration Rate
+|help_text                               = Right click this item then left click a normal or rare item to apply it.<br>Shift click to unstack.
+|stack_size_currency_tab                 = 5000
+|drop_level_maximum                      = 100
+|essence_level                           = 5
+|essence_type                            = 5
+|essence_category                        = Essence of Misery
+|essence_monster_modifier_ids            = EssenceDaemonModLifeAndDamageLevel5
+|is_essence                              = True
+}}

@@ -1,0 +1,32 @@
+{{Skill
+|gem_description                         = Fires a slow-moving projectile that pierces through enemies, dealing cold damage.
+|active_skill_name                       = Frostbolt
+|skill_id                                = WaterElementalFrostbolt
+|cast_time                               = 0.75
+|required_level                          = 3
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = always_pierce
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_projectile_speed_+%
+|static_stat3_value                      = -30
+|stat_text                               = Deals (10-812) to (15-1219) Cold Damage<br>Projectiles Pierce all Targets<br>30% reduced Projectile Speed
+|level1                                  = True
+|level1_level_requirement                = 3
+|level1_stat_text                        = Deals 10 to 15 Cold Damage
+|level1_stat1_id                         = spell_minimum_base_cold_damage
+|level1_stat1_value                      = 10
+|level1_stat2_id                         = spell_maximum_base_cold_damage
+|level1_stat2_value                      = 15
+|level2                                  = True
+|level2_level_requirement                = 68
+|level2_stat_text                        = Deals 812 to 1219 Cold Damage
+|level2_stat1_id                         = spell_minimum_base_cold_damage
+|level2_stat1_value                      = 812
+|level2_stat2_id                         = spell_maximum_base_cold_damage
+|level2_stat2_value                      = 1219
+}}

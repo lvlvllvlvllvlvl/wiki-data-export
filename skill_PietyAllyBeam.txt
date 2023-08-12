@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = Piety Beam
+|skill_id                                = PietyAllyBeam
+|cast_time                               = 1.0
+|required_level                          = 40
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|stat_text                               = (0-100)% chance to Shock enemies
+|level1                                  = True
+|level1_level_requirement                = 40
+|level1_stat1_id                         = base_lightning_damage_to_deal_per_minute
+|level1_stat1_value                      = 8549
+|level2                                  = True
+|level2_level_requirement                = 68
+|level2_stat_text                        = 100% chance to Shock enemies
+|level2_stat1_id                         = base_lightning_damage_to_deal_per_minute
+|level2_stat1_value                      = 71913
+|level2_stat2_id                         = base_chance_to_shock_%
+|level2_stat2_value                      = 100
+}}

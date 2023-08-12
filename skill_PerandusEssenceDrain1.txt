@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = Fires a projectile that applies a damage over time debuff when it hits. You are healed for a portion of the debuff damage. The debuff is spread by Contagion.
+|active_skill_name                       = Essence Drain
+|skill_id                                = PerandusEssenceDrain1
+|cast_time                               = 0.75
+|required_level                          = 3
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 2
+|static_stat1_id                         = spell_maximum_action_distance_+%
+|static_stat1_value                      = -30
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_chaos_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_maximum_base_chaos_damage
+|static_stat4_value                      = 2
+|static_stat5_id                         = base_chaos_damage_to_deal_per_minute
+|static_stat5_value                      = 194
+|static_stat6_id                         = base_skill_effect_duration
+|static_stat6_value                      = 2000
+|static_stat7_id                         = number_of_additional_projectiles
+|static_stat7_value                      = 2
+|stat_text                               = Deals 1 to 2 Chaos Damage<br>Deals 3.2 Base Chaos Damage per second<br>Base duration is 2 seconds<br>Fires 2 additional Projectiles
+|level1                                  = True
+|level1_level_requirement                = 3
+}}

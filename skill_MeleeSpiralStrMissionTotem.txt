@@ -1,0 +1,23 @@
+{{Skill
+|gem_description                         = Strike your foes down with a powerful blow.
+|active_skill_name                       = Default Attack
+|skill_id                                = MeleeSpiralStrMissionTotem
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 10
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = projectile_spiral_nova_time_ms
+|static_stat1_value                      = 1600
+|static_stat2_id                         = skill_can_fire_wand_projectiles
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_number_of_projectiles_in_spiral_nova
+|static_stat3_value                      = 15
+|static_stat4_id                         = projectile_spiral_nova_angle
+|static_stat4_value                      = 3200
+|stat_text                               = Fires 15 Projectiles in a spiral
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

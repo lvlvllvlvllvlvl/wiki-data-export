@@ -1,0 +1,23 @@
+{{Skill
+|gem_description                         = Fires a slow-moving projectile that periodically damages enemies in an area around it with bolts of lightning.
+|active_skill_name                       = Ball Lightning
+|skill_id                                = ProphecyBossBallLightning
+|cast_time                               = 0.8
+|required_level                          = 3
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 60
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_lightning_damage
+|static_stat3_value                      = 3
+|static_stat4_id                         = spell_maximum_base_lightning_damage
+|static_stat4_value                      = 5
+|static_stat5_id                         = base_projectile_speed_+%
+|static_stat5_value                      = -60
+|stat_text                               = Deals 3 to 5 Lightning Damage<br>60% reduced Projectile Speed
+|level1                                  = True
+|level1_level_requirement                = 3
+}}

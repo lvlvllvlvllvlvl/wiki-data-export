@@ -1,0 +1,21 @@
+{{Skill
+|gem_description                         = This attack causes three otherworldly tentacles to strike the ground around you, each dealing your attack damage in an area.
+|active_skill_name                       = Tentacle Whip
+|skill_id                                = TentacleSmash
+|cast_time                               = 1.0
+|required_level                          = 70
+|static_stored_uses                      = 1
+|static_cooldown                         = 2
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 250
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = attack_unusable_if_triggerable
+|static_stat2_value                      = 1
+|static_stat3_id                         = attack_trigger_on_kill_%
+|static_stat3_value                      = 20
+|stat_text                               = You cannot use this Attack directly<br>20% chance to Trigger this Attack on Kill
+|level1                                  = True
+|level1_level_requirement                = 70
+}}

@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = Curses all targets in an area, lowering their fire resistance and giving them a chance to be ignited when hit.
+|active_skill_name                       = Flammability
+|skill_id                                = FlammabilityInvasionGuardian
+|cast_time                               = 0.5
+|required_level                          = 60
+|static_stored_uses                      = 1
+|static_cooldown                         = 11
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 5
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 9
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 5000
+|static_stat3_id                         = base_fire_damage_resistance_%
+|static_stat3_value                      = -40
+|static_stat4_id                         = chance_to_be_ignited_%
+|static_stat4_value                      = 25
+|stat_text                               = Base duration is 5 seconds<br>Cursed enemies have -40% to Fire Resistance<br>Hits against Cursed Enemies have +25% chance to Ignite
+|level1                                  = True
+|level1_level_requirement                = 60
+}}

@@ -1,0 +1,21 @@
+{{Skill
+|gem_description                         = Infuses your melee weapon with electrical energies as you swing. In addition to converting some of your physical damage to lightning damage, the stored energy is forced into the enemy as you strike, electrically charging them for a duration, during which lightning will arc between them and other nearby enemies, dealing damage. This occurs even if the attack is dodged.
+|active_skill_name                       = Vaal Lightning Strike
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff, Rune Dagger
+|skill_id                                = VinktarBossVaalLightningStrike
+|cast_time                               = 1.0
+|required_level                          = 80
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 5
+|static_stat1_id                         = skill_physical_damage_%_to_convert_to_lightning
+|static_stat1_value                      = 50
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 5000
+|static_stat3_id                         = vaal_lightning_strike_beam_damage_+%_final
+|static_stat3_value                      = -50
+|stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>Base duration is 5 seconds<br>Beams deal 50% less Damage
+|level1                                  = True
+|level1_level_requirement                = 80
+}}

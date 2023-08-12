@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = Fires a slow-moving projectile that periodically damages enemies in an area around it with bolts of lightning.
+|active_skill_name                       = Ball Lightning
+|skill_id                                = BallLightningSeawitchBoss
+|cast_time                               = 1.333
+|required_level                          = 1
+|static_critical_strike_chance           = 6
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = -33
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_lightning_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_maximum_base_lightning_damage
+|static_stat4_value                      = 3
+|stat_text                               = Deals 1 to 3 Lightning Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

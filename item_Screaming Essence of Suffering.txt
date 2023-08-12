@@ -1,0 +1,20 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Screaming Essence of Suffering
+|class_id                                = StackableCurrency
+|size_x                                  = 1
+|size_y                                  = 1
+|drop_level                              = 68
+|tags                                    = essence, currency, default
+|metadata_id                             = Metadata/Items/Currency/CurrencyEssenceSuffering3
+|stack_size                              = 9
+|description                             = Upgrades a normal item to rare or reforges a rare item, guaranteeing one property<br />One Handed Weapon: Adds (26-35) to (51-60) [[Cold Damage]] to [[Spell|Spells]]<br />Two Handed Weapon: Adds (39-52) to (77-90) [[Cold Damage]] to [[Spell|Spells]]<br />Gloves: Adds (6-9) to (13-16) [[Cold Damage]] to [[Attack|Attacks]]<br />Body Armour: (7-8)% chance to Avoid [[Cold Damage]] from [[Hit|Hits]]<br />Shield: (7-8)% chance to Avoid [[Cold Damage]] from [[Hit|Hits]]<br />Other Armour: (47-50)% chance to Avoid being [[Freeze|Frozen]]<br />Quiver: Adds (18-24) to (36-42) [[Cold Damage]] to [[Attack|Attacks]]<br />Belt: (47-50)% chance to Avoid being [[Freeze|Frozen]]<br />Other Jewellery: Adds (12-16) to (24-28) [[Cold Damage]] to [[Attack|Attacks]]
+|help_text                               = Right click this item then left click a normal or rare item to apply it.<br>Shift click to unstack.
+|stack_size_currency_tab                 = 5000
+|drop_level_maximum                      = 100
+|essence_level                           = 5
+|essence_type                            = 3
+|essence_category                        = Essence of Suffering
+|essence_monster_modifier_ids            = EssenceDaemonModLifeAndDamageLevel5, EssenceDaemonPhysicalAddedAndConvertedToCold
+|is_essence                              = True
+}}

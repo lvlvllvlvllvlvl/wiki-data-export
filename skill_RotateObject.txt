@@ -1,0 +1,31 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = RotateObject
+|cast_time                               = 2.5
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 15
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = move_daemon_number_of_daemons_to_spawn
+|static_stat1_value                      = 5
+|static_stat2_id                         = move_daemon_movement_speed
+|static_stat2_value                      = 20
+|static_stat3_id                         = move_daemon_rotation_per_daemon
+|static_stat3_value                      = 30
+|static_stat4_id                         = move_daemon_end_rotation_per_daemon
+|static_stat4_value                      = 30
+|static_stat5_id                         = move_daemon_end_rotation
+|static_stat5_value                      = 180
+|static_stat6_id                         = move_daemon_y_offset_per_daemon
+|static_stat6_value                      = 10
+|static_stat7_id                         = move_daemon_pivot_variation
+|static_stat7_value                      = 1
+|static_stat8_id                         = move_daemon_delay_between_daemons_ms
+|static_stat8_value                      = 75
+|stat_text                               = 
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

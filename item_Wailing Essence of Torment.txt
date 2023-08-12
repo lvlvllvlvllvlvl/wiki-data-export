@@ -1,0 +1,21 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Wailing Essence of Torment
+|class_id                                = StackableCurrency
+|size_x                                  = 1
+|size_y                                  = 1
+|drop_level                              = 48
+|tags                                    = essence, currency, default
+|metadata_id                             = Metadata/Items/Currency/CurrencyEssenceTorment3
+|stack_size                              = 9
+|description                             = Upgrades a normal item to rare with one guaranteed property<br />Properties restricted to level 75 and below<br /><br />One Handed Weapon: Adds (2-7) to (84-88) [[Lightning Damage]] to [[Spell|Spells]]<br />Two Handed Weapon: Adds (3-10) to (126-133) [[Lightning Damage]] to [[Spell|Spells]]<br />Gloves: Adds (1-2) to (22-23) [[Lightning Damage]] to [[Attack|Attacks]]<br />Body Armour: (6-7)% chance to Avoid [[Lightning Damage]] from [[Hit|Hits]]<br />Shield: (6-7)% chance to Avoid [[Lightning Damage]] from [[Hit|Hits]]<br />Other Armour: (43-46)% chance to Avoid being [[Shock|Shocked]]<br />Quiver: Adds (2-5) to (56-62) [[Lightning Damage]] to [[Attack|Attacks]]<br />Belt: (43-46)% chance to Avoid being [[Shock|Shocked]]<br />Other Jewellery: Adds (1-4) to (40-43) [[Lightning Damage]] to [[Attack|Attacks]]
+|help_text                               = Right click this item then left click a normal item to apply it.<br>Shift click to unstack.
+|stack_size_currency_tab                 = 5000
+|drop_level_maximum                      = 100
+|essence_level_restriction               = 75
+|essence_level                           = 4
+|essence_type                            = 2
+|essence_category                        = Essence of Torment
+|essence_monster_modifier_ids            = EssenceDaemonModLifeAndDamageLevel4, EssenceDaemonPhysicalAddedAndConvertedToLightning
+|is_essence                              = True
+}}

@@ -1,0 +1,18 @@
+{{Passive skill
+|id                                  = AscendancyChieftan10
+|int_id                              = 48480
+|name                                = Tasalio, Cleansing Water
+|ascendancy_class                    = Chieftain
+|is_notable                          = True
+|icon                                = TasalioCleansingWater (Chieftain)
+|stat1_id                            = physical_damage_taken_%_as_fire
+|stat1_value                         = 20
+|stat2_id                            = unaffected_by_ignite
+|stat2_value                         = 1
+|stat3_id                            = base_fire_damage_resistance_%
+|stat3_value                         = 100
+|stat4_id                            = life_recovery_rate_+%_if_have_taken_fire_damage_from_an_enemy_hit_recently
+|stat4_value                         = 20
+|stat_text                           = 20% of [[Physical Damage]] from [[Hit|Hits]] taken as [[Fire Damage]]<br>Unaffected by [[Ignite]]<br>+100% to [[Fire Resistance]]<br>20% increased [[Life]] Recovery Rate if you've taken [[Fire Damage]] from an Enemy [[Hit]] [[Recently]]
+|connections                         = AscendancyChieftan15
+}}

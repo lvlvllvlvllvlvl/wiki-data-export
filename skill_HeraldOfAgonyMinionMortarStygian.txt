@@ -1,0 +1,35 @@
+{{Skill
+|gem_description                         = Generic monster mortar skill. Like Monster Projectile but has an impact effect.
+|active_skill_name                       = 
+|skill_id                                = HeraldOfAgonyMinionMortarStygian
+|cast_time                               = 2.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 7.5
+|static_damage_effectiveness             = 40
+|static_damage_multiplier                = 40
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = projectile_spread_radius
+|static_stat1_value                      = 20
+|static_stat2_id                         = projectile_minimum_range
+|static_stat2_value                      = 10
+|static_stat3_id                         = main_hand_base_maximum_attack_distance
+|static_stat3_value                      = 50
+|static_stat4_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat4_value                      = 20
+|static_stat5_id                         = is_area_damage
+|static_stat5_value                      = 1
+|static_stat6_id                         = base_is_projectile
+|static_stat6_value                      = 1
+|static_stat7_id                         = distribute_additional_projectiles_over_contact_points
+|static_stat7_value                      = 1
+|static_stat8_id                         = visual_hit_effect_chaos_is_green
+|static_stat8_value                      = 1
+|static_stat9_id                         = number_of_additional_projectiles
+|static_stat9_value                      = 5
+|static_stat10_id                        = active_skill_attack_speed_+%_final
+|static_stat10_value                     = -35
+|stat_text                               = Fires 5 additional Projectiles<br>35% less Attack Speed
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

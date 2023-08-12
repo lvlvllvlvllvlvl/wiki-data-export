@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = Each attack with this skill will choose an element at random, and will only be able to deal damage of that element. If the attack hits an enemy, it will also deal damage in an area around them, with the radius being larger if that enemy is suffering from an ailment of the chosen element. It will avoid choosing the same element twice in a row.
+|active_skill_name                       = Elemental Hit
+|skill_id                                = ExileElementalHitLightning
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_can_fire_arrows
+|static_stat2_value                      = 1
+|static_stat3_id                         = skill_can_fire_wand_projectiles
+|static_stat3_value                      = 1
+|static_stat4_id                         = elemental_hit_cannot_roll_cold_damage
+|static_stat4_value                      = 1
+|static_stat5_id                         = elemental_hit_cannot_roll_fire_damage
+|static_stat5_value                      = 1
+|static_stat6_id                         = number_of_additional_projectiles
+|static_stat6_value                      = 2
+|static_stat7_id                         = chance_to_freeze_shock_ignite_%
+|static_stat7_value                      = 25
+|stat_text                               = Prismatic Skills cannot choose Cold<br>Prismatic Skills cannot choose Fire<br>Fires 2 additional Projectiles<br>25% chance to Freeze, Shock and Ignite
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

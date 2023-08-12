@@ -1,0 +1,29 @@
+{{Skill
+|gem_description                         = Icicles emerge from the ground in a series of small bursts, each damaging enemies caught in the area.
+|active_skill_name                       = Glacial Cascade
+|skill_id                                = TalismanT2ChaosCascade
+|cast_time                               = 0.8
+|required_level                          = 4
+|static_damage_effectiveness             = 60
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat1_value                      = -25
+|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat2_value                      = -34
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_physical_damage
+|static_stat4_value                      = 5
+|static_stat5_id                         = spell_maximum_base_physical_damage
+|static_stat5_value                      = 7
+|static_stat6_id                         = active_skill_cast_speed_+%_final
+|static_stat6_value                      = -40
+|static_stat7_id                         = skill_physical_damage_%_to_convert_to_chaos
+|static_stat7_value                      = 50
+|static_stat8_id                         = upheaval_number_of_spikes
+|static_stat8_value                      = 15
+|stat_text                               = Deals 5 to 7 Physical Damage<br>40% less Cast Speed<br>50% of Physical Damage Converted to Chaos Damage<br>Causes 15 Bursts
+|level1                                  = True
+|level1_level_requirement                = 4
+}}

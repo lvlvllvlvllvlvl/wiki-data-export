@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = Creates a patch of Fungal Ground at the targeted location.
+|active_skill_name                       = Contaminate
+|skill_id                                = CreateFungalGroundOnKill
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 5
+|static_stat1_id                         = base_deal_no_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 5000
+|static_stat3_id                         = spell_uncastable_if_triggerable
+|static_stat3_value                      = 1
+|static_stat4_id                         = chance_to_cast_on_kill_%
+|static_stat4_value                      = 100
+|stat_text                               = Base duration is 5 seconds<br>You cannot Cast this Spell directly<br>Trigger this Spell on Kill
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

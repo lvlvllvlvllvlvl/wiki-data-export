@@ -1,0 +1,13 @@
+{{Passive skill
+|id                                  = mine_area_of_effect_notable2649
+|int_id                              = 6233
+|name                                = Blast Waves
+|is_notable                          = True
+|icon                                = MineAreaOfEffectNotable
+|stat1_id                            = mine_area_damage_+%_if_detonated_mine_recently
+|stat1_value                         = 30
+|stat2_id                            = mine_area_of_effect_+%_if_detonated_mine_recently
+|stat2_value                         = 15
+|stat_text                           = [[Skill|Skills]] used by [[Mine|Mines]] deal 30% increased Area Damage if you Detonated a [[Mine]] [[Recently]]<br>[[Skill|Skills]] used by [[Mine|Mines]] have 15% increased Area of Effect if you Detonated a [[Mine]] [[Recently]]
+|connections                         = mastery_mine176,mine_area_of_effect2647
+}}

@@ -1,0 +1,21 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = GAHarvestDevourerSnakeBite
+|cast_time                               = 1.5
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = cast_time_overrides_attack_duration
+|static_stat2_value                      = 1
+|static_stat3_id                         = skill_physical_damage_%_to_convert_to_cold
+|static_stat3_value                      = 15
+|static_stat4_id                         = melee_range_+
+|static_stat4_value                      = 30
+|stat_text                               = 15% of Physical Damage Converted to Cold Damage<br>+30 to Melee Strike Range
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

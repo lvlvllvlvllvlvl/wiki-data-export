@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = Teleport to a location, damaging enemies and leaving a trail of burning ground in your wake. Shares a cooldown with other Blink skills.
+|active_skill_name                       = Flame Dash
+|skill_id                                = FemaleCannibalBossFlameDash
+|cast_time                               = 1.13
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 6
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 3
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_fire_damage
+|static_stat2_value                      = 3
+|static_stat3_id                         = spell_maximum_base_fire_damage
+|static_stat3_value                      = 5
+|static_stat4_id                         = base_fire_damage_to_deal_per_minute
+|static_stat4_value                      = 369
+|static_stat5_id                         = base_skill_effect_duration
+|static_stat5_value                      = 3000
+|stat_text                               = Deals 3 to 5 Fire Damage<br>Deals 6.2 Base Fire Damage per second<br>Base duration is 3 seconds
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

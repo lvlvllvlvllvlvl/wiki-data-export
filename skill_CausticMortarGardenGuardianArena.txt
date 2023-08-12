@@ -1,0 +1,36 @@
+{{Skill
+|gem_description                         = Like monster mortar skill, but leaves a ground effect on impact.
+|active_skill_name                       = Mortar
+|skill_id                                = CausticMortarGardenGuardianArena
+|cast_time                               = 1.0
+|required_level                          = 82
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 3
+|static_stat1_id                         = base_projectile_ground_caustic_cloud_damage_per_minute
+|static_stat1_value                      = 57123
+|static_stat2_id                         = monster_projectile_variation
+|static_stat2_value                      = 9
+|static_stat3_id                         = projectile_spread_radius
+|static_stat3_value                      = 15
+|static_stat4_id                         = ground_caustic_art_variation
+|static_stat4_value                      = 5
+|static_stat5_id                         = projectile_spread_radius_per_additional_projectile
+|static_stat5_value                      = 3
+|static_stat6_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat6_value                      = -10
+|static_stat7_id                         = is_area_damage
+|static_stat7_value                      = 1
+|static_stat8_id                         = base_is_projectile
+|static_stat8_value                      = 1
+|static_stat9_id                         = spell_minimum_base_chaos_damage
+|static_stat9_value                      = 457
+|static_stat10_id                        = spell_maximum_base_chaos_damage
+|static_stat10_value                     = 685
+|static_stat11_id                        = base_skill_effect_duration
+|static_stat11_value                     = 3000
+|stat_text                               = Deals 457 to 685 Chaos Damage<br>Base duration is 3 seconds
+|level1                                  = True
+|level1_level_requirement                = 82
+}}

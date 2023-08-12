@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = Summons a Phantasm minion, which uses a piercing projectile spell that deals physical damage.
+|active_skill_name                       = Summon Phantasm
+|skill_id                                = TriggeredSummonGhostOnKill
+|cast_time                               = 1.0
+|required_level                          = 70
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 15
+|static_stat1_id                         = phantasm_minimum_added_physical_damage_to_grant
+|static_stat1_value                      = 42
+|static_stat2_id                         = phantasm_maximum_added_physical_damage_to_grant
+|static_stat2_value                      = 65
+|static_stat3_id                         = skill_can_own_support_ghosts
+|static_stat3_value                      = 1
+|static_stat4_id                         = base_number_of_support_ghosts_allowed
+|static_stat4_value                      = 10
+|static_stat5_id                         = base_skill_effect_duration
+|static_stat5_value                      = 15000
+|static_stat6_id                         = skill_has_trigger_from_unique_item
+|static_stat6_value                      = 1
+|static_stat7_id                         = trigger_on_corpse_consume_%_chance
+|static_stat7_value                      = 100
+|stat_text                               = Maximum 10 Summoned Phantasm<br>Base duration is 15 seconds<br>This Skill is Triggered by a Unique Item<br>Trigger this Skill when you Consume a corpse
+|level1                                  = True
+|level1_level_requirement                = 70
+}}

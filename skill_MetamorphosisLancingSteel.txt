@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = Lancing Steel
+|item_class_id_restriction               = One Hand Sword, Thrusting One Hand Sword, Two Hand Sword, One Hand Axe, Two Hand Axe
+|skill_id                                = MetamorphosisLancingSteel
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 135
+|static_damage_multiplier                = 135
+|static_attack_speed_multiplier          = 80
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = projectile_uses_contact_position
+|static_stat2_value                      = 1
+|static_stat3_id                         = number_of_additional_projectiles
+|static_stat3_value                      = 4
+|static_stat4_id                         = attacks_impale_on_hit_%_chance
+|static_stat4_value                      = 30
+|static_stat5_id                         = primary_projectile_impale_chance_%
+|static_stat5_value                      = 100
+|stat_text                               = Fires 4 additional Projectiles<br>30% chance to Impale Enemies on Hit<br>Primary Projectile Impales Enemies on Hit
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

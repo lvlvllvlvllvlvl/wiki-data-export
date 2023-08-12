@@ -1,0 +1,34 @@
+{{Skill
+|gem_description                         = Summons an Ancestor Totem which attacks enemies with melee strikes while you're near it. Being near it grants you more attack speed. Requires a Melee Weapon or Unarmed.
+|active_skill_name                       = Ancestral Protector
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Unarmed, Warstaff, Rune Dagger
+|skill_id                                = AncestralProtectorBanditMapBoss
+|cast_time                               = 1.0
+|required_level                          = 68
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_totem_range
+|static_stat1_value                      = 50
+|static_stat2_id                         = base_active_skill_totem_level
+|static_stat2_value                      = 90
+|static_stat3_id                         = ancestor_totem_parent_activiation_range
+|static_stat3_value                      = 70
+|static_stat4_id                         = base_skill_is_totemified
+|static_stat4_value                      = 1
+|static_stat5_id                         = summon_your_maximum_number_of_totems_in_formation
+|static_stat5_value                      = 1
+|static_stat6_id                         = base_totem_duration
+|static_stat6_value                      = 12000
+|static_stat7_id                         = is_totem
+|static_stat7_value                      = 1
+|static_stat8_id                         = melee_ancestor_totem_grant_owner_attack_speed_+%_final
+|static_stat8_value                      = 25
+|static_stat9_id                         = summon_totem_cast_speed_+%
+|static_stat9_value                      = 50
+|static_stat10_id                        = melee_range_+
+|static_stat10_value                     = 16
+|stat_text                               = Totem lasts 12 seconds<br>Summons a Totem which uses this Skill<br>25% more Attack Speed while Totem is Active<br>50% increased Totem Placement speed<br>+16 to Melee Strike Range
+|level1                                  = True
+|level1_level_requirement                = 68
+}}

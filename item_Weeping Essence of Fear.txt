@@ -1,0 +1,21 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Weeping Essence of Fear
+|class_id                                = StackableCurrency
+|size_x                                  = 1
+|size_y                                  = 1
+|drop_level                              = 30
+|tags                                    = essence, currency, default
+|metadata_id                             = Metadata/Items/Currency/CurrencyEssenceFear2
+|stack_size                              = 9
+|description                             = Upgrades a normal item to rare with one guaranteed property<br />Properties restricted to level 60 and below<br /><br />One Handed Weapon: [[Minion|Minions]] deal (30-39)% increased Damage<br />Two Handed Weapon: [[Minion|Minions]] deal (45-59)% increased Damage<br />Gloves: [[Minion|Minions]] deal (16-18)% increased Damage<br />Helmet: (16-18)% increased [[Minion]] [[Accuracy Rating]]<br />Other Armour: [[Minion|Minions]] have (16-18)% increased maximum [[Life]]<br />Quiver: [[Minion|Minions]] have (16-18)% increased [[Movement Speed]]<br />Belt: [[Minion|Minions]] have (16-18)% increased maximum [[Life]]<br />Other Jewellery: [[Minion|Minions]] have (16-18)% increased [[Movement Speed]]
+|help_text                               = Right click this item then left click a normal item to apply it.<br>Shift click to unstack.
+|stack_size_currency_tab                 = 5000
+|drop_level_maximum                      = 100
+|essence_level_restriction               = 60
+|essence_level                           = 3
+|essence_type                            = 2
+|essence_category                        = Essence of Fear
+|essence_monster_modifier_ids            = EssenceDaemonModLifeAndDamageLevel3
+|is_essence                              = True
+}}

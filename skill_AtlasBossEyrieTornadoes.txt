@@ -1,0 +1,35 @@
+{{Skill
+|gem_description                         = Launches unpredictable sparks that move randomly until they hit an enemy or expire.
+|active_skill_name                       = Spark
+|skill_id                                = AtlasBossEyrieTornadoes
+|cast_time                               = 0.25
+|required_level                          = 0
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 4
+|static_stat1_id                         = skill_visual_scale_+%
+|static_stat1_value                      = -50
+|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat2_value                      = -50
+|static_stat3_id                         = base_is_projectile
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_physical_damage
+|static_stat4_value                      = 6
+|static_stat5_id                         = spell_maximum_base_physical_damage
+|static_stat5_value                      = 9
+|static_stat6_id                         = always_pierce
+|static_stat6_value                      = 1
+|static_stat7_id                         = base_skill_effect_duration
+|static_stat7_value                      = 4000
+|static_stat8_id                         = projectiles_nova
+|static_stat8_value                      = 1
+|static_stat9_id                         = skill_physical_damage_%_to_convert_to_cold
+|static_stat9_value                      = 100
+|static_stat10_id                        = spell_uncastable_if_triggerable
+|static_stat10_value                     = 1
+|stat_text                               = Deals 6 to 9 Physical Damage<br>Projectiles Pierce all Targets<br>Base duration is 4 seconds<br>Fires Projectiles in a circle<br>100% of Physical Damage Converted to Cold Damage<br>You cannot Cast this Spell directly
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

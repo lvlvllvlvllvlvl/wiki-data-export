@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = An arc of lightning stretches from the caster to a targeted enemy and chains on to other nearby enemies. Each time the main beam chains it will also chain to a second enemy, but that secondary arc cannot chain further.
+|active_skill_name                       = Arc
+|skill_id                                = TotemBossArc
+|cast_time                               = 0.8
+|required_level                          = 6
+|static_stored_uses                      = 1
+|static_cooldown                         = 15
+|static_damage_effectiveness             = 20
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = spell_minimum_base_lightning_damage
+|static_stat1_value                      = 3
+|static_stat2_id                         = spell_maximum_base_lightning_damage
+|static_stat2_value                      = 8
+|static_stat3_id                         = cannot_stun
+|static_stat3_value                      = 1
+|static_stat4_id                         = skill_repeat_count
+|static_stat4_value                      = 6
+|static_stat5_id                         = global_cannot_crit
+|static_stat5_value                      = 1
+|static_stat6_id                         = active_skill_cast_speed_+%_final
+|static_stat6_value                      = 40
+|stat_text                               = Deals 3 to 8 Lightning Damage<br>Your Hits cannot Stun Enemies<br>Skills Repeat an additional 6 Times<br>Never deal Critical Strikes<br>40% more Cast Speed
+|level1                                  = True
+|level1_level_requirement                = 6
+}}

@@ -1,0 +1,19 @@
+{{Skill
+|gem_description                         = Enemies affected by this aura will be dealt damage on using a movement skill
+|active_skill_name                       = Damage On Movement Skill Use Aura
+|skill_id                                = AuraDamageTakenOnMovementSkillUse
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = %_of_life_to_deal_as_damage_on_using_a_movement_skill
+|static_stat1_value                      = 20
+|static_stat2_id                         = %_of_energy_shield_to_deal_as_damage_on_using_a_movement_skill
+|static_stat2_value                      = 12
+|static_stat3_id                         = base_aura_area_of_effect_+%
+|static_stat3_value                      = -64
+|stat_text                               = 64% reduced Aura Area of Effect
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

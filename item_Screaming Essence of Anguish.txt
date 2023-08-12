@@ -1,0 +1,20 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Screaming Essence of Anguish
+|class_id                                = StackableCurrency
+|size_x                                  = 1
+|size_y                                  = 1
+|drop_level                              = 68
+|tags                                    = essence, currency, default
+|metadata_id                             = Metadata/Items/Currency/CurrencyEssenceAnguish2
+|stack_size                              = 9
+|description                             = Upgrades a normal item to rare or reforges a rare item, guaranteeing one property<br />One Handed Weapon: Adds (31-42) to (64-73) [[Fire Damage]] to [[Spell|Spells]]<br />Two Handed Weapon: Adds (42-56) to (85-99) [[Fire Damage]] to [[Spell|Spells]]<br />Gloves: Adds (7-10) to (15-18) [[Fire Damage]] to [[Attack|Attacks]]<br />Body Armour: (7-8)% chance to Avoid [[Fire Damage]] from [[Hit|Hits]]<br />Shield: (7-8)% chance to Avoid [[Fire Damage]] from [[Hit|Hits]]<br />Other Armour: (47-50)% chance to Avoid being Ignited<br />Quiver: Adds (27-35) to (53-62) [[Fire Damage]] to [[Attack|Attacks]]<br />Belt: (47-50)% chance to Avoid being Ignited<br />Other Jewellery: Adds (16-22) to (32-38) [[Fire Damage]] to [[Attack|Attacks]]
+|help_text                               = Right click this item then left click a normal or rare item to apply it.<br>Shift click to unstack.
+|stack_size_currency_tab                 = 5000
+|drop_level_maximum                      = 100
+|essence_level                           = 5
+|essence_type                            = 4
+|essence_category                        = Essence of Anguish
+|essence_monster_modifier_ids            = EssenceDaemonModLifeAndDamageLevel5, EssenceDaemonPhysicalAddedAndConvertedToFire, EssenceDaemonMeteorFirestorm
+|is_essence                              = True
+}}

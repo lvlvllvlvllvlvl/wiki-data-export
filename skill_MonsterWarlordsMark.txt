@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = Curses a single enemy, giving a chance to double the duration of stuns on them. Attacking the cursed enemy will leech life and mana, stunning them will grant rage, and killing it will grant an endurance charge. You can only have one Mark at a time.
+|active_skill_name                       = Warlord's Mark
+|skill_id                                = MonsterWarlordsMark
+|cast_time                               = 0.5
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 8
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 4
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 24
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 4000
+|static_stat3_id                         = life_leech_on_any_damage_when_hit_by_attack_permyriad
+|static_stat3_value                      = 200
+|static_stat4_id                         = mana_leech_on_any_damage_when_hit_by_attack_permyriad
+|static_stat4_value                      = 200
+|static_stat5_id                         = chance_to_grant_endurance_charge_on_death_%
+|static_stat5_value                      = 100
+|static_stat6_id                         = enemy_chance_to_double_stun_duration_%_vs_self
+|static_stat6_value                      = 40
+|stat_text                               = Base duration is 4 seconds<br>Cursed enemies grant 2% Life Leech when Hit by Attacks<br>Cursed enemies grant 2% Mana Leech when Hit by Attacks<br>Cursed enemies have a 100% chance to grant an Endurance Charge when slain<br>Hits against Cursed Enemies have 40% chance to double Stun Duration
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

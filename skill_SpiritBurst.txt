@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = Consumes a spirit charge to fire projectiles which deals physical damage.
+|active_skill_name                       = Spirit Burst
+|skill_id                                = SpiritBurst
+|cast_time                               = 1.0
+|required_level                          = 70
+|static_critical_strike_chance           = 6
+|static_damage_effectiveness             = 120
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_physical_damage
+|static_stat2_value                      = 646
+|static_stat3_id                         = spell_maximum_base_physical_damage
+|static_stat3_value                      = 968
+|static_stat4_id                         = projectiles_nova
+|static_stat4_value                      = 1
+|static_stat5_id                         = number_of_additional_projectiles
+|static_stat5_value                      = 6
+|static_stat6_id                         = spell_uncastable_if_triggerable
+|static_stat6_value                      = 1
+|static_stat7_id                         = trigger_on_skill_use_%_if_you_have_a_spirit_charge
+|static_stat7_value                      = 100
+|stat_text                               = Deals 646 to 968 Physical Damage<br>Fires Projectiles in a circle<br>Fires 6 additional Projectiles<br>You cannot Cast this Spell directly<br>Trigger this Spell when you Use a Skill while you have a Spirit Charge
+|level1                                  = True
+|level1_level_requirement                = 70
+}}

@@ -1,0 +1,16 @@
+{{Passive skill
+|id                                  = AscendancyAssassin14
+|int_id                              = 28782
+|name                                = Mistwalker
+|ascendancy_class                    = Assassin
+|is_notable                          = True
+|icon                                = Elusive (Assassin)
+|stat1_id                            = elusive_effect_+%
+|stat1_value                         = 50
+|stat2_id                            = self_take_no_extra_damage_from_critical_strikes_while_affected_by_elusive
+|stat2_value                         = 1
+|stat3_id                            = gain_elusive_on_crit_%_chance
+|stat3_value                         = 100
+|stat_text                           = 50% increased Elusive Effect<br>You take no Extra Damage from Critical Strikes while Elusive<br>Gain Elusive on [[Critical Strike]]
+|connections                         = AscendancyAssassin13
+}}

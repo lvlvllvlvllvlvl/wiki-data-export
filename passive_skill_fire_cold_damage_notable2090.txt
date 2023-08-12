@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = fire_cold_damage_notable2090
+|int_id                              = 42649
+|name                                = Snowforged
+|is_notable                          = True
+|icon                                = ColdAndFireHybridNotable
+|stat1_id                            = ignites_and_chill_apply_elemental_resistance_+
+|stat1_value                         = -5
+|stat2_id                            = fire_damage_+%
+|stat2_value                         = 25
+|stat3_id                            = cold_damage_+%
+|stat3_value                         = 25
+|stat_text                           = Enemies Ignited or Chilled by you have -5% to [[Elemental Resistance|Elemental Resistances]]<br>25% increased [[Fire Damage]]<br>25% increased [[Cold Damage]]
+|connections                         = mastery_elemental95,fire_cold_damage2088,fire_cold_damage2089,mastery_elemental95
+}}

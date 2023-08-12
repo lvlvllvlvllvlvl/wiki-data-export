@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = This spell removes some life from one of your Skeleton minions near you or the targeted location to deal chaos damage in an area around it. This effect will chain to your other nearby skeletons. If you have no skeletons near you or the targeted location, it will sacrifice your own life to deal damage instead.
+|active_skill_name                       = Dark Pact
+|skill_id                                = AvatarSkeletalChains
+|cast_time                               = 0.5
+|required_level                          = 1
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_chaos_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_maximum_base_chaos_damage
+|static_stat3_value                      = 2
+|static_stat4_id                         = number_of_chains
+|static_stat4_value                      = 8
+|stat_text                               = Deals 1 to 2 Chaos Damage<br>Chains +8 Times
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

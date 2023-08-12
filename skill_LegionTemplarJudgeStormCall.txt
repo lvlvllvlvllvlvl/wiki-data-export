@@ -1,0 +1,29 @@
+{{Skill
+|gem_description                         = Sets a marker at a location. After a short duration, lightning strikes the marker, dealing damage around it. When this happens, it will also set off the lightning at any other markers you've cast.
+|active_skill_name                       = Storm Call
+|skill_id                                = LegionTemplarJudgeStormCall
+|cast_time                               = 1.5
+|required_level                          = 1
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 2
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = -13
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = visual_hit_effect_elemental_is_holy
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_physical_damage
+|static_stat4_value                      = 9
+|static_stat5_id                         = spell_maximum_base_physical_damage
+|static_stat5_value                      = 14
+|static_stat6_id                         = skill_physical_damage_%_to_convert_to_lightning
+|static_stat6_value                      = 60
+|static_stat7_id                         = base_skill_effect_duration
+|static_stat7_value                      = 2000
+|stat_text                               = Deals 9 to 14 Physical Damage<br>60% of Physical Damage Converted to Lightning Damage<br>Base duration is 2 seconds
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

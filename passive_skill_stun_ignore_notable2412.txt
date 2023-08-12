@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = stun_ignore_notable2412
+|int_id                              = 45945
+|name                                = Conjured Barrier
+|is_notable                          = True
+|icon                                = AvoidInterruptionFromCastingNotable
+|stat1_id                            = avoid_interruption_while_casting_%
+|stat1_value                         = 30
+|stat2_id                            = base_stun_recovery_+%
+|stat2_value                         = 50
+|stat3_id                            = mana_regeneration_rate_+%_while_stationary
+|stat3_value                         = 30
+|stat_text                           = 30% chance to Ignore Stuns while Casting<br>50% increased Stun and [[Block]] Recovery<br>30% increased [[Mana]] Regeneration Rate while stationary
+|connections                         = mastery_caster43,stun_ignore2411
+}}

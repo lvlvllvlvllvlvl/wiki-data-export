@@ -1,0 +1,14 @@
+{{Passive skill
+|id                                  = affliction_notable_fire_attunement
+|int_id                              = 42530
+|name                                = Fire Attunement
+|is_notable                          = True
+|icon                                = FireResistNotable
+|stat1_id                            = base_self_ignite_duration_-%
+|stat1_value                         = 30
+|stat2_id                            = unaffected_by_burning_ground
+|stat2_value                         = 1
+|stat3_id                            = cannot_be_ignited_if_you_have_been_ignited_recently
+|stat3_value                         = 1
+|stat_text                           = 30% reduced [[Ignite]] Duration on you<br>Unaffected by Burning Ground<br>You cannot be Ignited if you've been Ignited [[Recently]]
+}}

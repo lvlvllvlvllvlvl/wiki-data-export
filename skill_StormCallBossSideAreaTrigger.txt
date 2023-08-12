@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = Sets a marker at a location. After a short duration, lightning strikes the marker, dealing damage around it. When this happens, it will also set off the lightning at any other markers you've cast.
+|active_skill_name                       = Storm Call
+|skill_id                                = StormCallBossSideAreaTrigger
+|cast_time                               = 0.5
+|required_level                          = 3
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 2.5
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = -31
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_lightning_damage
+|static_stat3_value                      = 11
+|static_stat4_id                         = spell_maximum_base_lightning_damage
+|static_stat4_value                      = 33
+|static_stat5_id                         = base_skill_effect_duration
+|static_stat5_value                      = 2500
+|stat_text                               = Deals 11 to 33 Lightning Damage<br>Base duration is 2.5 seconds
+|level1                                  = True
+|level1_level_requirement                = 3
+}}

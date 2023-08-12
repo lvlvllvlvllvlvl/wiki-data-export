@@ -1,0 +1,23 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = AvariusDivineSlam
+|cast_time                               = 2.25
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 20
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat1_value                      = -50
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = active_skill_attack_speed_+%_final
+|static_stat3_value                      = -15
+|static_stat4_id                         = shockwave_slam_explosion_damage_+%_final
+|static_stat4_value                      = 50
+|stat_text                               = 15% less Attack Speed<br>Shockwaves deal 50% more Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

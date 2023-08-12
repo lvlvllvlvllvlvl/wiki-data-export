@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = Fires multiple arrows at different targets.
+|active_skill_name                       = Split Arrow
+|item_class_id_restriction               = Bow
+|skill_id                                = SkeletonForsakenSplitArrow
+|cast_time                               = 1.0
+|required_level                          = 7
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 125
+|static_stat1_id                         = skill_can_fire_arrows
+|static_stat1_value                      = 1
+|static_stat2_id                         = base_number_of_additional_arrows
+|static_stat2_value                      = 5
+|static_stat3_id                         = accuracy_rating_+%
+|static_stat3_value                      = 40
+|static_stat4_id                         = physical_damage_+%
+|static_stat4_value                      = 28
+|stat_text                               = Fires 5 additional Arrows<br>40% increased Accuracy Rating<br>28% increased Physical Damage
+|level1                                  = True
+|level1_level_requirement                = 7
+}}

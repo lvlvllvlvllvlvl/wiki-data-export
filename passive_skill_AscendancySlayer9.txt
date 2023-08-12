@@ -1,0 +1,16 @@
+{{Passive skill
+|id                                  = AscendancySlayer9
+|int_id                              = 62817
+|name                                = Bane of Legends
+|ascendancy_class                    = Slayer
+|is_notable                          = True
+|icon                                = Headman (Slayer)
+|stat1_id                            = slayer_damage_+%_final_against_unique_enemies
+|stat1_value                         = 20
+|stat2_id                            = damage_+%_if_enemy_killed_recently_final
+|stat2_value                         = 10
+|stat3_id                            = cannot_take_reflected_physical_damage
+|stat3_value                         = 1
+|stat_text                           = 20% more Damage with [[Hit|Hits]] and Ailments against Unique Enemies<br>10% more Damage if you've Killed [[Recently]]<br>Cannot take Reflected [[Physical Damage]]
+|connections                         = AscendancySlayer2,AscendancySlayer3
+}}

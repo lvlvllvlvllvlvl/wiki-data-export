@@ -1,0 +1,21 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = KitavaSlamRight
+|cast_time                               = 4.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat1_value                      = -50
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = global_cannot_crit
+|static_stat3_value                      = 1
+|static_stat4_id                         = active_skill_damage_+%_final
+|static_stat4_value                      = -25
+|stat_text                               = Never deal Critical Strikes<br>Deals 25% less Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

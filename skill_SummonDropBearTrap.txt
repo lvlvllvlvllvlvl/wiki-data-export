@@ -1,0 +1,33 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = SummonDropBearTrap
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = number_of_monsters_to_summon
+|static_stat1_value                      = 1
+|static_stat2_id                         = alternate_minion
+|static_stat2_value                      = 126
+|static_stat3_id                         = summon_specific_monsters_radius_+%
+|static_stat3_value                      = -95
+|static_stat4_id                         = summoned_monster_rarity
+|static_stat4_value                      = 3
+|static_stat5_id                         = summoned_monsters_no_drops_or_experience
+|static_stat5_value                      = 1
+|static_stat6_id                         = base_skill_is_trapped
+|static_stat6_value                      = 1
+|static_stat7_id                         = minion_dies_when_parent_dies
+|static_stat7_value                      = 1
+|static_stat8_id                         = ignores_trap_and_mine_cooldown_limit
+|static_stat8_value                      = 1
+|static_stat9_id                         = base_trap_duration
+|static_stat9_value                      = 10000
+|static_stat10_id                        = is_trap
+|static_stat10_value                     = 1
+|stat_text                               = Trap lasts 10 seconds
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

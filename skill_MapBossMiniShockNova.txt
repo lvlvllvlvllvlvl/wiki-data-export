@@ -1,0 +1,20 @@
+{{Skill
+|gem_description                         = Casts a ring of Lightning around you, followed by a larger Lightning nova. Each effect hits enemies caught in their area with Lightning Damage.
+|active_skill_name                       = Shock Nova
+|skill_id                                = MapBossMiniShockNova
+|cast_time                               = 0.75
+|required_level                          = 3
+|static_critical_strike_chance           = 3
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_lightning_damage
+|static_stat2_value                      = 6
+|static_stat3_id                         = spell_maximum_base_lightning_damage
+|static_stat3_value                      = 18
+|stat_text                               = Deals 6 to 18 Lightning Damage
+|level1                                  = True
+|level1_level_requirement                = 3
+}}

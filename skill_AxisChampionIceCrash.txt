@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = Slam the ground, damaging enemies in an area around the impact in three stages. Enemies take slightly less damage on the second and third stage. Works with Swords, Maces, Sceptres, Axes, Staves and Unarmed.
+|active_skill_name                       = Ice Crash
+|item_class_id_restriction               = One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Unarmed, Warstaff
+|skill_id                                = AxisChampionIceCrash
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 175
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = -20
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = skill_physical_damage_%_to_convert_to_cold
+|static_stat3_value                      = 50
+|static_stat4_id                         = active_skill_attack_speed_+%_final
+|static_stat4_value                      = -40
+|static_stat5_id                         = ice_crash_second_hit_damage_+%_final
+|static_stat5_value                      = -25
+|stat_text                               = 50% of Physical Damage Converted to Cold Damage<br>40% less Attack Speed<br>Second Stage deals 25% less Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

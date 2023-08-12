@@ -1,0 +1,36 @@
+{{Skill
+|gem_description                         = A corpse near the targeted location explodes, dealing damage in a small area and creating an orb which moves towards nearby enemies before dealing spell damage in a larger area. The explosion of the corpse is not affected by modifiers to spell damage, and cannot be reflected.
+|active_skill_name                       = Stalking Pustule
+|skill_id                                = VolatileDeadChaos
+|cast_time                               = 0.8
+|required_level                          = 59
+|static_stored_uses                      = 1
+|static_cooldown                         = 2
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 140
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = volatile_dead_core_explosion_radius_+
+|static_stat1_value                      = 13
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_skill_show_average_damage_instead_of_dps
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_chaos_damage
+|static_stat4_value                      = 409
+|static_stat5_id                         = spell_maximum_base_chaos_damage
+|static_stat5_value                      = 613
+|static_stat6_id                         = corpse_explosion_monster_life_%_chaos
+|static_stat6_value                      = 9
+|static_stat7_id                         = volatile_dead_base_number_of_corpses_to_consume
+|static_stat7_value                      = 1
+|static_stat8_id                         = spell_uncastable_if_triggerable
+|static_stat8_value                      = 1
+|static_stat9_id                         = chance_to_cast_on_kill_%
+|static_stat9_value                      = 100
+|static_stat10_id                        = volatile_dead_max_cores_allowed
+|static_stat10_value                     = 10
+|stat_text                               = Deals 409 to 613 Chaos Damage<br>Explosion deals base Chaos Damage equal to 9% of the corpse's Maximum Life<br>Consumes up to 1 corpse<br>You cannot Cast this Spell directly<br>Trigger this Spell on Kill<br>Maximum of 10 Orbs at a time
+|level1                                  = True
+|level1_level_requirement                = 59
+}}

@@ -1,0 +1,17 @@
+{{Passive skill
+|id                                  = AscendancyTrickster6
+|int_id                              = 28884
+|name                                = Heartstopper
+|buff_id                             = trickster_alternating_less_damage_alternator
+|ascendancy_class                    = Trickster
+|is_notable                          = True
+|icon                                = ImmuneToDoT (Trickster)
+|stat1_id                            = local_display_trickster_heartstopper_rotating_buff
+|stat1_value                         = -40
+|stat_text                           = Every 10 seconds:<br />Take 40% less Damage from [[Hit|Hits]] for 5 seconds<br />Take 40% less Damage over Time for 5 seconds<br>
+|stat2_id                            = trickster_damage_over_time_taken_+%_final
+|stat2_value                         = -40
+|stat3_id                            = trickster_hit_damage_taken_+%_final
+|stat3_value                         = -40
+|connections                         = AscendancyTrickster5
+}}

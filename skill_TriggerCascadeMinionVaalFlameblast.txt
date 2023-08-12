@@ -1,0 +1,29 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = TriggerCascadeMinionVaalFlameblast
+|cast_time                               = 2.5
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = trigger_cascade_A
+|static_stat1_value                      = 60
+|static_stat2_id                         = trigger_skill_restriction
+|static_stat2_value                      = 6
+|stat_text                               = 
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat1_id                         = trigger_cascade_number_of_spikes
+|level1_stat1_value                      = 2
+|level1_stat2_id                         = trigger_cascade_ms_between_spikes
+|level1_stat2_value                      = 500
+|level2                                  = True
+|level2_level_requirement                = 85
+|level2_stat1_id                         = trigger_cascade_number_of_spikes
+|level2_stat1_value                      = 5
+|level2_stat2_id                         = trigger_cascade_ms_between_spikes
+|level2_stat2_value                      = 200
+}}

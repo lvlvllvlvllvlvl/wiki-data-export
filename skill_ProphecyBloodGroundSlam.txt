@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = The character slams the ground in front of them with a Staff, Mace or Sceptre, creating a wave that travels forward and damages enemies with an increased chance to stun.
+|active_skill_name                       = Ground Slam
+|item_class_id_restriction               = One Hand Mace, Sceptre, Staff, Two Hand Mace, Unarmed, Warstaff
+|skill_id                                = ProphecyBloodGroundSlam
+|cast_time                               = 1.0
+|required_level                          = 3
+|static_stored_uses                      = 1
+|static_cooldown                         = 2.5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = active_skill_damage_+%_final
+|static_stat2_value                      = -30
+|static_stat3_id                         = active_skill_attack_speed_+%_final
+|static_stat3_value                      = -55
+|stat_text                               = Deals 30% less Damage<br>55% less Attack Speed
+|level1                                  = True
+|level1_level_requirement                = 3
+}}

@@ -1,0 +1,30 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = SynthesisColdRend
+|cast_time                               = 1.5
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 8
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 1
+|static_stat1_id                         = active_skill_projectile_speed_+%_variation_final
+|static_stat1_value                      = 50
+|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat2_value                      = -50
+|static_stat3_id                         = base_is_projectile
+|static_stat3_value                      = 1
+|static_stat4_id                         = projectile_uses_contact_position
+|static_stat4_value                      = 1
+|static_stat5_id                         = base_cold_damage_to_deal_per_minute
+|static_stat5_value                      = 389
+|static_stat6_id                         = base_skill_effect_duration
+|static_stat6_value                      = 1000
+|static_stat7_id                         = number_of_additional_projectiles
+|static_stat7_value                      = 2
+|stat_text                               = Deals 6.5 Base Cold Damage per second<br>Base duration is 1 seconds<br>Fires 2 additional Projectiles
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

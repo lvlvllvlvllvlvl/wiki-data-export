@@ -1,0 +1,18 @@
+{{Passive skill
+|id                                  = AscendancyPathfinder10
+|int_id                              = 6038
+|name                                = Master Distiller
+|ascendancy_class                    = Pathfinder
+|is_notable                          = True
+|icon                                = VeteranBowyer (PathFinder)
+|stat1_id                            = pathfinder_skills_consume_x_charges_from_a_bismuth_diamond_or_amethyst_flask
+|stat1_value                         = 3
+|stat2_id                            = pathfinder_skills_penetrate_elemental_resistances_%_if_charges_consumed_from_bismuth_flask
+|stat2_value                         = 20
+|stat3_id                            = pathfinder_skills_critical_strike_chance_+%_if_charges_consumed_from_diamond_flask
+|stat3_value                         = 150
+|stat4_id                            = pathfinder_skills_physical_damage_%_to_add_as_chaos_if_charges_consumed_from_amethyst_flask
+|stat4_value                         = 25
+|stat_text                           = Grant bonuses to Non-Channelling [[Skill|Skills]] you use by consuming 3 [[Charge|Charges]] from a Flask of<br />each of the following types, if possible:<br>If Bismuth Flask [[Charge|Charges]] are consumed, Penetrate 20% [[Elemental Resistance|Elemental Resistances]]<br>If Diamond Flask [[Charge|Charges]] are consumed, 150% increased [[Critical Strike Chance]]<br>If Amethyst Flask [[Charge|Charges]] are consumed, 25% of [[Physical Damage]] as Extra [[Chaos Damage]]
+|connections                         = AscendancyPathfinder9
+}}

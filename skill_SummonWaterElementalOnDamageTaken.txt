@@ -1,0 +1,33 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = SummonWaterElementalOnDamageTaken
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 3
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = number_of_monsters_to_summon
+|static_stat1_value                      = 1
+|static_stat2_id                         = alternate_minion
+|static_stat2_value                      = 231
+|static_stat3_id                         = summon_specific_monsters_radius_+%
+|static_stat3_value                      = 50
+|static_stat4_id                         = summoned_monsters_are_minions
+|static_stat4_value                      = 1
+|static_stat5_id                         = monster_no_drops_or_experience
+|static_stat5_value                      = 1
+|static_stat6_id                         = cast_on_damage_taken_also_tracks_dot
+|static_stat6_value                      = 1
+|static_stat7_id                         = spell_uncastable_if_triggerable
+|static_stat7_value                      = 1
+|static_stat8_id                         = cast_on_damage_taken_%
+|static_stat8_value                      = 100
+|static_stat9_id                         = cast_on_damage_taken_threshold
+|static_stat9_value                      = 1
+|stat_text                               = You cannot Cast this Spell directly
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

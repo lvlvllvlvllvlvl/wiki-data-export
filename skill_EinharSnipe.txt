@@ -1,0 +1,33 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = EinharSnipe
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_projectile_variation
+|static_stat1_value                      = 53
+|static_stat2_id                         = skill_visual_scale_+%
+|static_stat2_value                      = 100
+|static_stat3_id                         = base_is_projectile
+|static_stat3_value                      = 1
+|static_stat4_id                         = always_pierce
+|static_stat4_value                      = 1
+|static_stat5_id                         = active_skill_attack_speed_+%_final
+|static_stat5_value                      = 33
+|static_stat6_id                         = global_always_hit
+|static_stat6_value                      = 1
+|stat_text                               = Projectiles Pierce all Targets<br>Deals (-50-1250)% more Damage<br>33% more Attack Speed<br>Can't be Evaded
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat_text                        = Deals 50% less Damage
+|level1_stat1_id                         = active_skill_damage_+%_final
+|level1_stat1_value                      = -50
+|level2                                  = True
+|level2_level_requirement                = 100
+|level2_stat_text                        = Deals 1250% more Damage
+|level2_stat1_id                         = active_skill_damage_+%_final
+|level2_stat1_value                      = 1250
+}}

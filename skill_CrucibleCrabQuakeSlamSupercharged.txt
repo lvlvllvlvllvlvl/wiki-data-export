@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a short duration. Cracks created before the first one has erupted will not generate their own aftershocks. Requires an Axe, Mace, Sceptre, Staff or Unarmed.
+|active_skill_name                       = Earthquake
+|item_class_id_restriction               = One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Axe, Two Hand Mace, Unarmed, Warstaff
+|skill_id                                = CrucibleCrabQuakeSlamSupercharged
+|cast_time                               = 1.0
+|required_level                          = 0
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_duration                         = 4
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = action_attack_or_cast_time_uses_animation_length
+|static_stat2_value                      = 1
+|static_stat3_id                         = skill_physical_damage_%_to_convert_to_lightning
+|static_stat3_value                      = 50
+|static_stat4_id                         = base_skill_effect_duration
+|static_stat4_value                      = 4000
+|static_stat5_id                         = base_secondary_skill_effect_duration
+|static_stat5_value                      = 1050
+|static_stat6_id                         = quake_slam_fully_charged_explosion_damage_+%_final
+|static_stat6_value                      = 25
+|stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>Deals 30% less Damage<br>Base duration is 4 seconds<br>Base secondary duration is 1.05 seconds<br>Aftershock deals 25% more Damage with Hits and Ailments
+|level1                                  = True
+|level1_level_requirement                = 0
+|level1_cost_amounts                     = []
+}}

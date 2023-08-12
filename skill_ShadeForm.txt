@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = Makes you immune to physical damage, and harder for enemies to detect, for a duration.
+|active_skill_name                       = Shade Form
+|skill_id                                = ShadeForm
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 40
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 3
+|static_stat1_id                         = base_skill_effect_duration
+|static_stat1_value                      = 3000
+|static_stat2_id                         = trigger_on_skill_use_from_chest_%
+|static_stat2_value                      = 20
+|static_stat3_id                         = display_this_skill_cooldown_does_not_recover_during_buff
+|static_stat3_value                      = 1
+|static_stat4_id                         = stealth_+%
+|static_stat4_value                      = 100
+|stat_text                               = Base duration is 3 seconds<br>20% chance to Trigger this Spell when you Use a Skill Socketed in Equipped Body Armour<br>This Skill's Cooldown does not recover during its effect<br>100% increased Stealth
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

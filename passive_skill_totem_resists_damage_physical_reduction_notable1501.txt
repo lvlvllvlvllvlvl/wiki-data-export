@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = totem_resists_damage_physical_reduction_notable1501
+|int_id                              = 63150
+|name                                = Ironwood
+|is_notable                          = True
+|icon                                = ironwoodtotem
+|stat1_id                            = totem_elemental_resistance_%
+|stat1_value                         = 30
+|stat2_id                            = X_armour_per_active_totem
+|stat2_value                         = 150
+|stat3_id                            = totem_life_+%
+|stat3_value                         = 30
+|stat_text                           = [[Totem|Totems]] gain +30% to all [[Elemental Resistance|Elemental Resistances]]<br>+150 [[Armour]] per Summoned [[Totem]]<br>30% increased [[Totem]] [[Life]]
+|connections                         = totem_attack_cast_and_placement_speed1506,mastery_totem231,totem_placement_speed1507
+}}

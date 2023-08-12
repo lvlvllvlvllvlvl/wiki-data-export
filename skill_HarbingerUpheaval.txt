@@ -1,0 +1,32 @@
+{{Skill
+|gem_description                         = Icicles emerge from the ground in a series of small bursts, each damaging enemies caught in the area.
+|active_skill_name                       = Glacial Cascade
+|skill_id                                = HarbingerUpheaval
+|cast_time                               = 0.8
+|required_level                          = 1
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = trigger_skill_restriction
+|static_stat1_value                      = 4
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = cast_on_trigger_cascade_event
+|static_stat3_value                      = 1
+|static_stat4_id                         = skill_unusable
+|static_stat4_value                      = 1
+|static_stat5_id                         = spell_minimum_base_physical_damage
+|static_stat5_value                      = 3
+|static_stat6_id                         = spell_maximum_base_physical_damage
+|static_stat6_value                      = 5
+|static_stat7_id                         = cannot_stun
+|static_stat7_value                      = 1
+|static_stat8_id                         = skill_physical_damage_%_to_convert_to_lightning
+|static_stat8_value                      = 100
+|static_stat9_id                         = upheaval_number_of_spikes
+|static_stat9_value                      = 10
+|stat_text                               = Deals 3 to 5 Physical Damage<br>Your Hits cannot Stun Enemies<br>100% of Physical Damage Converted to Lightning Damage<br>Causes 10 Bursts
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = Waits for a duration before teleporting to a targeted destination, with the duration based on the distance and your movement speed. When the teleport occurs, lightning damage is dealt to the area around both where the player was and where they teleported to. Casting again will queue up multiple teleportations to occur in sequence.
+|active_skill_name                       = Lightning Warp
+|skill_id                                = VinktarBossLightningWarp
+|cast_time                               = 1.0
+|required_level                          = 77
+|static_stored_uses                      = 1
+|static_cooldown                         = 3
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = skill_override_pvp_scaling_time_ms
+|static_stat1_value                      = 1000
+|static_stat2_id                         = base_skill_show_average_damage_instead_of_dps
+|static_stat2_value                      = 1
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_lightning_damage
+|static_stat4_value                      = 277
+|static_stat5_id                         = spell_maximum_base_lightning_damage
+|static_stat5_value                      = 831
+|static_stat6_id                         = skill_effect_duration_+%
+|static_stat6_value                      = -30
+|stat_text                               = Deals 277 to 831 Lightning Damage<br>30% reduced Duration
+|level1                                  = True
+|level1_level_requirement                = 77
+}}

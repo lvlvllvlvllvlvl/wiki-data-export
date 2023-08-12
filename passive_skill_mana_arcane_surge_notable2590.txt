@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = mana_arcane_surge_notable2590
+|int_id                              = 51108
+|name                                = Arcane Capacitor
+|is_notable                          = True
+|icon                                = ManaandArcaneSurge
+|stat1_id                            = maximum_mana_+%
+|stat1_value                         = 15
+|stat2_id                            = gain_arcane_surge_on_kill_chance_%
+|stat2_value                         = 10
+|stat3_id                            = arcane_surge_effect_+%_per_200_mana_spent_recently_up_to_50%
+|stat3_value                         = 10
+|stat_text                           = 15% increased maximum [[Mana]]<br>10% chance to gain Arcane Surge when you [[Kill]] an Enemy<br>10% increased Effect of Arcane Surge on you per<br />200 [[Mana]] spent Recently, up to 50%
+|connections                         = mastery_mana160,mana_arcane_surge2588_,mana_arcane_surge2589,mastery_mana160
+}}

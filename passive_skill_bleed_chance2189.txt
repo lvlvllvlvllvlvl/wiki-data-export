@@ -1,0 +1,12 @@
+{{Passive skill
+|id                                  = bleed_chance2189
+|int_id                              = 12247
+|name                                = Damage with Life Cost Skills and Reduced Life Cost
+|icon                                = SkillscostingLifenode
+|stat1_id                            = damage_+%_if_skill_costs_life
+|stat1_value                         = 12
+|stat2_id                            = base_life_cost_+%
+|stat2_value                         = -4
+|stat_text                           = 12% increased Damage with [[Skill|Skills]] that Cost [[Life]]<br>4% reduced [[Life]] Cost of [[Skill|Skills]]
+|connections                         = bleed_chance_notable2190,bleed_chance_notable2190,physical_damage_over_time2188
+}}

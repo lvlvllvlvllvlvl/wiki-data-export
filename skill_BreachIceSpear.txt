@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = Launches shards of ice in rapid succession. After travelling a short distance they change to a second form, which moves much faster and pierces through enemies.
+|active_skill_name                       = Ice Spear
+|skill_id                                = BreachIceSpear
+|cast_time                               = 0.85
+|required_level                          = 1
+|static_critical_strike_chance           = 7
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = spell_maximum_action_distance_+%
+|static_stat1_value                      = -25
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_cold_damage
+|static_stat3_value                      = 6
+|static_stat4_id                         = spell_maximum_base_cold_damage
+|static_stat4_value                      = 9
+|static_stat5_id                         = chill_duration_+%
+|static_stat5_value                      = 78
+|static_stat6_id                         = ice_spear_second_form_critical_strike_chance_+%
+|static_stat6_value                      = 600
+|stat_text                               = Deals 6 to 9 Cold Damage<br>78% increased Chill Duration on enemies<br>Second form has 600% increased Critical Strike Chance
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

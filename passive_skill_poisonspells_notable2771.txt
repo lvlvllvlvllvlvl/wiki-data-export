@@ -1,0 +1,13 @@
+{{Passive skill
+|id                                  = poisonspells_notable2771
+|int_id                              = 58032
+|name                                = Serpentine Spellslinger
+|is_notable                          = True
+|icon                                = PoisonSpellsNotable
+|stat1_id                            = poison_dot_multiplier_+_with_spells
+|stat1_value                         = 12
+|stat2_id                            = enemies_poisoned_by_you_chaos_resistance_+%
+|stat2_value                         = -5
+|stat_text                           = [[Spell]] [[Skill|Skills]] have +12% to Damage over Time Multiplier for [[Poison]]<br>Enemies [[Poison|Poisoned]] by you have -5% to [[Chaos Resistance]]
+|connections                         = mastery_poison200,poisonspells_chance2770,poisonspells_damage2768
+}}

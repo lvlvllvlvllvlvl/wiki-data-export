@@ -1,0 +1,20 @@
+{{Skill
+|gem_description                         = Hits enemies, converting some of your physical damage to cold damage. If an enemy is frozen and is on less than one third life, they will shatter when hit by Glacial Hammer. If striking three times in a row, the third strike will freeze enemies more easily. Requires a Mace, Sceptre or Staff.
+|active_skill_name                       = Glacial Hammer
+|item_class_id_restriction               = One Hand Mace, Sceptre, Two Hand Mace, Staff, Warstaff
+|skill_id                                = MonsterGlacialHammerInvasion
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_damage_+%_final
+|static_stat1_value                      = 20
+|static_stat2_id                         = base_chance_to_freeze_%
+|static_stat2_value                      = 25
+|static_stat3_id                         = skill_physical_damage_%_to_convert_to_cold
+|static_stat3_value                      = 50
+|stat_text                               = Deals 20% more Damage<br>25% chance to Freeze enemies<br>50% of Physical Damage Converted to Cold Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

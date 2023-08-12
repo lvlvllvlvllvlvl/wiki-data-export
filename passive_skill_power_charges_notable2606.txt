@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = power_charges_notable2606
+|int_id                              = 9261
+|name                                = Disciple of the Forbidden
+|is_notable                          = True
+|icon                                = PowerChargeNotable
+|stat1_id                            = base_minimum_power_charges
+|stat1_value                         = 1
+|stat2_id                            = add_power_charge_on_kill_%_chance
+|stat2_value                         = 8
+|stat3_id                            = damage_+%_per_power_charge
+|stat3_value                         = 8
+|stat_text                           = +1 to Minimum [[Power Charge|Power Charges]]<br>8% chance to gain a [[Power Charge]] on [[Kill]]<br>8% increased Damage per [[Power Charge]]
+|connections                         = mastery_charges51,power_charges2605
+}}

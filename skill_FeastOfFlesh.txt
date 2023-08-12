@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = Consume a number of corpses around you to recover life, mana and energy shield.
+|active_skill_name                       = Feast of Flesh
+|skill_id                                = FeastOfFlesh
+|cast_time                               = 1.0
+|required_level                          = 70
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = spell_uncastable_if_triggerable
+|static_stat1_value                      = 1
+|static_stat2_id                         = feast_of_flesh_gain_X_life_per_corpse_consumed
+|static_stat2_value                      = 400
+|static_stat3_id                         = feast_of_flesh_gain_X_mana_per_corpse_consumed
+|static_stat3_value                      = 200
+|static_stat4_id                         = feast_of_flesh_gain_X_energy_shield_per_corpse_consumed
+|static_stat4_value                      = 400
+|static_stat5_id                         = number_of_corpses_to_consume
+|static_stat5_value                      = 10
+|static_stat6_id                         = triggered_by_item_buff
+|static_stat6_value                      = 1
+|stat_text                               = You cannot Cast this Spell directly<br>Gain 400 Life per corpse Consumed<br>Gain 200 Mana per corpse Consumed<br>Gain 400 Energy Shield per corpse Consumed<br>Consumes up to 10 corpses<br>This Skill is Triggered by the Item granting it
+|level1                                  = True
+|level1_level_requirement                = 70
+}}

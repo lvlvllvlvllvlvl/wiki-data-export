@@ -1,0 +1,23 @@
+{{Skill
+|gem_description                         = Curses all targets in an area, lowering their elemental resistances.
+|active_skill_name                       = Elemental Weakness
+|skill_id                                = ElementalWeaknessAuraMapBoss
+|cast_time                               = 1.5
+|required_level                          = 1
+|static_cost_amounts                     = 50
+|static_cost_types                       = Mana
+|static_stored_uses                      = 1
+|static_cooldown                         = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 50
+|static_stat2_id                         = base_resist_all_elements_%
+|static_stat2_value                      = -40
+|static_stat3_id                         = curse_apply_as_aura
+|static_stat3_value                      = 1
+|stat_text                               = Cursed enemies have -40% to Elemental Resistances<br>This Curse is Cast as an Aura applying to nearby Enemies
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = Casts a buff that grants different bonuses to attack skills depending on your stance. Using the skill again alternates between Blood Stance and Sand Stance.
+|active_skill_name                       = Stance Swap
+|skill_id                                = BloodSandTriggered
+|cast_time                               = 0.0
+|required_level                          = 4
+|static_stored_uses                      = 1
+|static_cooldown                         = 2
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_deal_no_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = console_skill_dont_chase
+|static_stat2_value                      = 1
+|static_stat3_id                         = blood_sand_triggered_blind_on_attack_chance_%
+|static_stat3_value                      = 20
+|static_stat4_id                         = blood_sand_triggered_change_bleed_on_attack_chance_%
+|static_stat4_value                      = 20
+|static_stat5_id                         = chance_to_cast_a_stance_change_on_perforate_or_lacerate_%
+|static_stat5_value                      = 100
+|stat_text                               = 20% chance to Blind Enemies on Hit with Attacks while in Sand Stance<br>Attacks have 20% chance to cause Bleeding while in Blood Stance<br>This Skill is Triggered when you Attack with Perforate or Lacerate
+|level1                                  = True
+|level1_level_requirement                = 4
+}}

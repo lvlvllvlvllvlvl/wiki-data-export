@@ -1,0 +1,20 @@
+{{Skill
+|gem_description                         = Summons an effigy of Doedre, which will project auras of all the curse skill gems socketed in Doedre's Skin. These curses have less effectiveness.
+|active_skill_name                       = Summon Doedre's Effigy
+|skill_id                                = CursePillar
+|cast_time                               = 0.5
+|required_level                          = 70
+|static_cost_amounts                     = 50
+|static_cost_types                       = Mana
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 10
+|static_stat1_id                         = base_skill_effect_duration
+|static_stat1_value                      = 10000
+|static_stat2_id                         = base_number_of_effigies_allowed
+|static_stat2_value                      = 3
+|stat_text                               = Base duration is 10 seconds<br>Maximum 3 Summoned Effigy
+|level1                                  = True
+|level1_level_requirement                = 70
+}}

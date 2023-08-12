@@ -1,0 +1,12 @@
+{{Passive skill
+|id                                  = stun_ignore1680
+|int_id                              = 11128
+|name                                = Avoid Interruption while Casting and Elemental Resistances
+|icon                                = castavoidinterruption
+|stat1_id                            = avoid_interruption_while_casting_%
+|stat1_value                         = 15
+|stat2_id                            = base_resist_all_elements_%
+|stat2_value                         = 3
+|stat_text                           = 15% chance to Ignore Stuns while Casting<br>+3% to all [[Elemental Resistance|Elemental Resistances]]
+|connections                         = savant901,stun_ignore_str_dex1678
+}}

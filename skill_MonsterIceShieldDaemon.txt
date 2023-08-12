@@ -1,0 +1,16 @@
+{{Skill
+|gem_description                         = Summons an icy shield that protects against physical and fire damage. It drains your mana while active and at a faster rate while you are moving. When you have no mana left, the skill turns off. While active, it leaves a trail of ground ice which lasts for a short duration.
+|active_skill_name                       = Arctic Armour
+|skill_id                                = MonsterIceShieldDaemon
+|cast_time                               = 0.5
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 0.6
+|static_stat1_id                         = base_skill_effect_duration
+|static_stat1_value                      = 600
+|stat_text                               = Base duration is 0.6 seconds
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

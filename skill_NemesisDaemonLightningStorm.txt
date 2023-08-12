@@ -1,0 +1,29 @@
+{{Skill
+|gem_description                         = Flaming bolts rain down over the targeted area. They explode when landing, dealing damage to nearby enemies.
+|active_skill_name                       = Firestorm
+|skill_id                                = NemesisDaemonLightningStorm
+|cast_time                               = 0.9
+|required_level                          = 4
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 5.6
+|static_stat1_id                         = firestorm_base_area_of_effect_+%
+|static_stat1_value                      = -49
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_lightning_damage
+|static_stat3_value                      = 2
+|static_stat4_id                         = spell_maximum_base_lightning_damage
+|static_stat4_value                      = 7
+|static_stat5_id                         = base_skill_effect_duration
+|static_stat5_value                      = 5600
+|static_stat6_id                         = base_chance_to_shock_%
+|static_stat6_value                      = 10
+|static_stat7_id                         = fire_storm_fireball_delay_ms
+|static_stat7_value                      = 350
+|stat_text                               = Deals 2 to 7 Lightning Damage<br>Base duration is 5.6 seconds<br>10% chance to Shock enemies<br>One impact every 0.35 seconds
+|level1                                  = True
+|level1_level_requirement                = 4
+}}

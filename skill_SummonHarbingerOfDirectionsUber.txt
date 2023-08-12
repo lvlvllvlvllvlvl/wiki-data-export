@@ -1,0 +1,19 @@
+{{Skill
+|gem_description                         = Summons an immortal Harbinger minion. The minion will cast a random buff on you that grants one or all of the following: Fire 2 additional Projectiles, Chain 2 additional times, Projectiles Pierce 2 additional targets, or Projectiles Fork then Fork an additional time.
+|active_skill_name                       = Summon Greater Harbinger of Directions
+|skill_id                                = SummonHarbingerOfDirectionsUber
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 6
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = alternate_minion
+|static_stat1_value                      = 9
+|static_stat2_id                         = display_one_harbinger_allowed
+|static_stat2_value                      = 1
+|stat_text                               = 
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

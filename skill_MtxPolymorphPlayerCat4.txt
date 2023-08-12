@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = Polymorphs a party member in town, or a player in your hideout, into an animal.
+|active_skill_name                       = Polymorph
+|skill_id                                = MtxPolymorphPlayerCat4
+|cast_time                               = 0.7
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 4
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 6
+|static_stat1_id                         = skill_surge_type_override
+|static_stat1_value                      = 107
+|static_stat2_id                         = base_deal_no_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_skill_effect_duration
+|static_stat3_value                      = 6000
+|stat_text                               = Base duration is 6 seconds
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

@@ -1,0 +1,32 @@
+{{Skill
+|gem_description                         = Fires a chaining burst of ethereal blades.
+|active_skill_name                       = Decree of Blades
+|skill_id                                = EnchantmentOfBladesOnHit3
+|cast_time                               = 1.0
+|required_level                          = 66
+|static_stored_uses                      = 1
+|static_cooldown                         = 5
+|static_critical_strike_chance           = 7
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_physical_damage
+|static_stat2_value                      = 985
+|static_stat3_id                         = spell_maximum_base_physical_damage
+|static_stat3_value                      = 1477
+|static_stat4_id                         = number_of_additional_projectiles
+|static_stat4_value                      = 2
+|static_stat5_id                         = number_of_chains
+|static_stat5_value                      = 3
+|static_stat6_id                         = spell_uncastable_if_triggerable
+|static_stat6_value                      = 1
+|static_stat7_id                         = cast_on_hit_%
+|static_stat7_value                      = 100
+|static_stat8_id                         = damage_cannot_be_reflected
+|static_stat8_value                      = 1
+|stat_text                               = Deals 985 to 1477 Physical Damage<br>Fires 2 additional Projectiles<br>Chains +3 Times<br>You cannot Cast this Spell directly<br>Trigger this Spell when you Hit<br>Damage cannot be Reflected
+|level1                                  = True
+|level1_level_requirement                = 66
+}}

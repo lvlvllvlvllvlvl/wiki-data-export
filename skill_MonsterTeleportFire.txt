@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = MonsterTeleportFire
+|cast_time                               = 1.0
+|required_level                          = 3
+|static_stored_uses                      = 1
+|static_cooldown                         = 3
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 0.5
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_fire_damage
+|static_stat2_value                      = 5
+|static_stat3_id                         = spell_maximum_base_fire_damage
+|static_stat3_value                      = 7
+|static_stat4_id                         = base_skill_effect_duration
+|static_stat4_value                      = 500
+|stat_text                               = Deals 5 to 7 Fire Damage<br>Base duration is 0.5 seconds
+|level1                                  = True
+|level1_level_requirement                = 3
+}}

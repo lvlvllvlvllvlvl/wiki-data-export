@@ -1,0 +1,32 @@
+{{Skill
+|gem_description                         = Deals attack damage in an area.
+|active_skill_name                       = Gore Shockwave
+|item_class_id_restriction               = Two Hand Axe
+|skill_id                                = GoreShockwave
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 1
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = attack_trigger_on_melee_hit_with_atleast_150_strength_%
+|static_stat1_value                      = 100
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|stat_text                               = +(1-2) to radius<br>(0-8)% increased Cooldown Recovery Rate
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_damage_effectiveness             = 160
+|level1_damage_multiplier                = 160
+|level1_stat_text                        = +1 to radius
+|level1_stat1_id                         = active_skill_base_radius_+
+|level1_stat1_value                      = 1
+|level2                                  = True
+|level2_level_requirement                = 1
+|level2_damage_effectiveness             = 181
+|level2_damage_multiplier                = 181
+|level2_stat_text                        = +2 to radius<br>8% increased Cooldown Recovery Rate
+|level2_stat1_id                         = active_skill_base_radius_+
+|level2_stat1_value                      = 2
+|level2_stat2_id                         = base_cooldown_speed_+%
+|level2_stat2_value                      = 8
+}}

@@ -1,0 +1,31 @@
+{{Skill
+|gem_description                         = Lay a remote mine that you can detonate to create a series of fire novas. Each sequential nova from the same mine will do higher damage than the previous.
+|active_skill_name                       = Fire Nova Mine
+|skill_id                                = FireNovaDarkExileWitch
+|cast_time                               = 0.4
+|required_level                          = 73
+|static_stored_uses                      = 1
+|static_cooldown                         = 12
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 100
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_fire_damage
+|static_stat3_value                      = 668
+|static_stat4_id                         = spell_maximum_base_fire_damage
+|static_stat4_value                      = 1002
+|static_stat5_id                         = cannot_stun
+|static_stat5_value                      = 1
+|static_stat6_id                         = skill_repeat_count
+|static_stat6_value                      = 5
+|static_stat7_id                         = base_cast_speed_+%
+|static_stat7_value                      = -50
+|static_stat8_id                         = fire_nova_damage_+%_per_repeat_final
+|static_stat8_value                      = 100
+|stat_text                               = Deals 668 to 1002 Fire Damage<br>Your Hits cannot Stun Enemies<br>Skills Repeat an additional 5 Times<br>50% reduced Cast Speed<br>100% more Damage with Hits and Ailments per Repeat
+|level1                                  = True
+|level1_level_requirement                = 73
+}}

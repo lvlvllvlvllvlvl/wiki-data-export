@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = Curses a single enemy, increasing the damage they take from projectiles, and making projectiles split when hitting them, to hit other targets around them. You can only have one Mark at a time.
+|active_skill_name                       = Sniper's Mark
+|skill_id                                = ExileProjectileWeakness
+|cast_time                               = 0.5
+|required_level                          = 30
+|static_stored_uses                      = 1
+|static_cooldown                         = 8
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 7
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 16
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 7000
+|static_stat3_id                         = projectile_damage_taken_+%
+|static_stat3_value                      = 25
+|static_stat4_id                         = projectiles_hitting_self_split_into_x
+|static_stat4_value                      = 3
+|stat_text                               = Base duration is 7 seconds<br>Cursed enemies take 25% increased Damage from Projectile Hits<br>Projectiles which Hit Cursed Enemies Split towards 3 additional targets
+|level1                                  = True
+|level1_level_requirement                = 30
+}}

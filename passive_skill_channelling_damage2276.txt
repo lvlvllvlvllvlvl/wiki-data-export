@@ -1,0 +1,14 @@
+{{Passive skill
+|id                                  = channelling_damage2276
+|int_id                              = 57746
+|name                                = Chaos Resistance and Avoidance
+|icon                                = BleedAndPoisonMitigateNode
+|stat1_id                            = base_avoid_poison_%
+|stat1_value                         = 10
+|stat2_id                            = base_avoid_bleed_%
+|stat2_value                         = 10
+|stat3_id                            = base_chaos_damage_resistance_%
+|stat3_value                         = 7
+|stat_text                           = 10% chance to Avoid being [[Poison|Poisoned]]<br>10% chance to Avoid Bleeding<br>+7% to [[Chaos Resistance]]
+|connections                         = channelling_damage2278,strength702,channelling_damage_and_speed2279,channelling_damage2277,channelling_damage2277,channelling_damage2278,channelling_damage_and_speed2279
+}}

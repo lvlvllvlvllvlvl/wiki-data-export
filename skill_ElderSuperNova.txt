@@ -1,0 +1,35 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = ElderSuperNova
+|cast_time                               = 1.0
+|required_level                          = 68
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 300
+|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat2_value                      = -90
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = physical_damage_%_to_add_as_random_element
+|static_stat4_value                      = 400
+|static_stat5_id                         = cast_on_death_%
+|static_stat5_value                      = 100
+|stat_text                               = Deals (6255-16686) to (7645-20394) Physical Damage<br>Gain 400% of Physical Damage as Extra Damage of a random Element<br>100% chance to Trigger this Spell on Death
+|level1                                  = True
+|level1_level_requirement                = 68
+|level1_stat_text                        = Deals 6255 to 7645 Physical Damage
+|level1_stat1_id                         = spell_minimum_base_physical_damage
+|level1_stat1_value                      = 6255
+|level1_stat2_id                         = spell_maximum_base_physical_damage
+|level1_stat2_value                      = 7645
+|level2                                  = True
+|level2_level_requirement                = 82
+|level2_stat_text                        = Deals 16686 to 20394 Physical Damage
+|level2_stat1_id                         = spell_minimum_base_physical_damage
+|level2_stat1_value                      = 16686
+|level2_stat2_id                         = spell_maximum_base_physical_damage
+|level2_stat2_value                      = 20394
+}}

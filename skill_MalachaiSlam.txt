@@ -1,0 +1,35 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = MalachaiSlam
+|cast_time                               = 1.0
+|required_level                          = 40
+|static_stored_uses                      = 1
+|static_cooldown                         = 8
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = -14
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = active_skill_attack_speed_+%_final
+|static_stat3_value                      = -41
+|stat_text                               = 41% less Attack Speed
+|level1                                  = True
+|level1_level_requirement                = 40
+|level1_damage_effectiveness             = 136
+|level1_damage_multiplier                = 136
+|level1_stat1_id                         = voll_slam_damage_+%_final_at_centre
+|level1_stat1_value                      = 75
+|level2                                  = True
+|level2_level_requirement                = 57
+|level2_damage_effectiveness             = 156
+|level2_damage_multiplier                = 156.4
+|level2_stat1_id                         = voll_slam_damage_+%_final_at_centre
+|level2_stat1_value                      = 75
+|level3                                  = True
+|level3_level_requirement                = 66
+|level3_damage_effectiveness             = 250
+|level3_damage_multiplier                = 250
+|level3_stat1_id                         = voll_slam_damage_+%_final_at_centre
+|level3_stat1_value                      = 100
+}}

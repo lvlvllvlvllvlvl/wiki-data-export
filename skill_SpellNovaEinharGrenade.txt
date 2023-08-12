@@ -1,0 +1,35 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = SpellNovaEinharGrenade
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = ignores_proximity_shield
+|static_stat2_value                      = 1
+|static_stat3_id                         = skill_physical_damage_%_to_convert_to_fire
+|static_stat3_value                      = 40
+|stat_text                               = Deals (6-42207) to (9-63311) Physical Damage<br>Deals (250-100)% more Damage<br>40% of Physical Damage Converted to Fire Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat_text                        = Deals 6 to 9 Physical Damage<br>Deals 250% more Damage
+|level1_stat1_id                         = spell_minimum_base_physical_damage
+|level1_stat1_value                      = 6
+|level1_stat2_id                         = spell_maximum_base_physical_damage
+|level1_stat2_value                      = 9
+|level1_stat3_id                         = active_skill_damage_+%_final
+|level1_stat3_value                      = 250
+|level2                                  = True
+|level2_level_requirement                = 100
+|level2_stat_text                        = Deals 42207 to 63311 Physical Damage<br>Deals 100% more Damage
+|level2_stat1_id                         = spell_minimum_base_physical_damage
+|level2_stat1_value                      = 42207
+|level2_stat2_id                         = spell_maximum_base_physical_damage
+|level2_stat2_value                      = 63311
+|level2_stat3_id                         = active_skill_damage_+%_final
+|level2_stat3_value                      = 100
+}}

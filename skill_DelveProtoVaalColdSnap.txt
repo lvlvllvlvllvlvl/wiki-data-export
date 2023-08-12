@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = Creates a sudden burst of cold in a targeted area, damaging enemies. This also creates an expanding area which is filled with chilled ground, and deals cold damage over time to enemies. Enemies that die while in the area have a chance to grant Frenzy Charges. The cooldown can be bypassed by expending a Frenzy Charge.
+|active_skill_name                       = Cold Snap
+|skill_id                                = DelveProtoVaalColdSnap
+|cast_time                               = 0.85
+|required_level                          = 83
+|static_critical_strike_chance           = 6
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_chill_effect_+%_final
+|static_stat1_value                      = 300
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = infinite_skill_effect_duration
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_cold_damage
+|static_stat4_value                      = 3125
+|static_stat5_id                         = spell_maximum_base_cold_damage
+|static_stat5_value                      = 4688
+|static_stat6_id                         = base_cold_damage_to_deal_per_minute
+|static_stat6_value                      = 325564
+|stat_text                               = Deals 3125 to 4688 Cold Damage<br>Deals 5426.1 Base Cold Damage per second
+|level1                                  = True
+|level1_level_requirement                = 83
+}}

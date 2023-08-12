@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = additional_spectre278
+|int_id                              = 19897
+|name                                = Death Attunement
+|is_notable                          = True
+|icon                                = deathattunement
+|stat1_id                            = base_number_of_spectres_allowed
+|stat1_value                         = 1
+|stat2_id                            = base_number_of_zombies_allowed
+|stat2_value                         = 1
+|stat3_id                            = base_number_of_skeletons_allowed
+|stat3_value                         = 1
+|stat_text                           = +1 to Maximum number of Spectres<br>+1 to Maximum number of Raised Zombies<br>+1 to Maximum number of Skeletons
+|connections                         = mastery_minionoffence187,mastery_minionoffence187,minion_damage1129,minion_life280
+}}

@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = Generic monster mortar skill. Like Monster Projectile but has an impact effect.
+|active_skill_name                       = 
+|skill_id                                = MetamorphosisMortar
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = projectile_uses_contact_position
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_physical_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_maximum_base_physical_damage
+|static_stat4_value                      = 2
+|stat_text                               = Deals 1 to 2 Physical Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

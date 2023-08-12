@@ -1,0 +1,33 @@
+{{Skill
+|gem_description                         = Sets a marker at a location. After a short duration, lightning strikes the marker, dealing damage around it. When this happens, it will also set off the lightning at any other markers you've cast.
+|active_skill_name                       = Storm Call
+|skill_id                                = WestStormCall
+|cast_time                               = 0.5
+|required_level                          = 79
+|static_stored_uses                      = 1
+|static_cooldown                         = 3
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 1.5
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 22
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_lightning_damage
+|static_stat3_value                      = 1665
+|static_stat4_id                         = spell_maximum_base_lightning_damage
+|static_stat4_value                      = 3091
+|static_stat5_id                         = skill_repeat_count
+|static_stat5_value                      = 3
+|static_stat6_id                         = base_skill_effect_duration
+|static_stat6_value                      = 1500
+|static_stat7_id                         = base_chance_to_shock_%
+|static_stat7_value                      = 100
+|static_stat8_id                         = base_reduce_enemy_lightning_resistance_%
+|static_stat8_value                      = 10
+|stat_text                               = Deals 1665 to 3091 Lightning Damage<br>Skills Repeat an additional 3 Times<br>Base duration is 1.5 seconds<br>100% chance to Shock enemies<br>Penetrates 10% Lightning Resistance
+|level1                                  = True
+|level1_level_requirement                = 79
+}}

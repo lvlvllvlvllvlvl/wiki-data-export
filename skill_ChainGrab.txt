@@ -1,0 +1,20 @@
+{{Skill
+|gem_description                         = [DNT]
+|active_skill_name                       = [DNT] Chain Grab
+|item_class_id_restriction               = One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, FishingRod
+|skill_id                                = ChainGrab
+|cast_time                               = 1.0
+|required_level                          = 12
+|static_cost_amounts                     = 8
+|static_cost_types                       = Mana
+|static_damage_effectiveness             = 115
+|static_damage_multiplier                = 115
+|static_attack_speed_multiplier          = 120
+|static_stat1_id                         = chain_grab_number_of_targets
+|static_stat1_value                      = 5
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|stat_text                               = 
+|level1                                  = True
+|level1_level_requirement                = 12
+}}

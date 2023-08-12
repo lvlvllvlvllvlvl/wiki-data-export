@@ -1,0 +1,13 @@
+{{Passive skill
+|id                                  = melee_damage_notable2124
+|int_id                              = 55002
+|name                                = Righteous Fury
+|is_notable                          = True
+|icon                                = RedHolyAttackNotable
+|stat1_id                            = melee_damage_+%_at_close_range
+|stat1_value                         = 40
+|stat2_id                            = chance_to_create_consecrated_ground_on_melee_kill_%
+|stat2_value                         = 10
+|stat_text                           = 40% increased Melee Damage with [[Hit|Hits]] at Close Range<br>10% chance to create Consecrated Ground on Melee Kill, lasting 4 seconds
+|connections                         = mastery_attack25,melee_damage2123
+}}

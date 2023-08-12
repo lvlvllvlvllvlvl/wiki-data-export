@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = Throws a spectral copy of your melee weapon. It flies out and then returns to you, in a spinning attack that damages enemies in its path.
+|active_skill_name                       = Spectral Throw
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff, Rune Dagger
+|skill_id                                = HandfingerThrownWeaponBossNear
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = spectral_throw_deceleration_override
+|static_stat1_value                      = 120
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = active_skill_damage_+%_final
+|static_stat3_value                      = -30
+|static_stat4_id                         = base_projectile_speed_+%
+|static_stat4_value                      = -25
+|stat_text                               = Deals 30% less Damage<br>25% reduced Projectile Speed
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

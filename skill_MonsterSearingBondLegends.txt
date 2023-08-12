@@ -1,0 +1,31 @@
+{{Skill
+|gem_description                         = Summons a totem that casts a beam of fire at you and each other totem you control, dealing burning damage to enemies caught in the beam. Enemies near either end of a beam also suffer burning damage.
+|active_skill_name                       = Searing Bond
+|skill_id                                = MonsterSearingBondLegends
+|cast_time                               = 1.0
+|required_level                          = 74
+|static_stored_uses                      = 1
+|static_cooldown                         = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_totem_range
+|static_stat1_value                      = 200
+|static_stat2_id                         = base_active_skill_totem_level
+|static_stat2_value                      = 74
+|static_stat3_id                         = totem_art_variation
+|static_stat3_value                      = 3
+|static_stat4_id                         = number_of_totems_summoned_in_formation
+|static_stat4_value                      = 3
+|static_stat5_id                         = base_skill_is_totemified
+|static_stat5_value                      = 1
+|static_stat6_id                         = base_totem_duration
+|static_stat6_value                      = 20000
+|static_stat7_id                         = base_fire_damage_to_deal_per_minute
+|static_stat7_value                      = 56250
+|static_stat8_id                         = is_totem
+|static_stat8_value                      = 1
+|stat_text                               = Totem lasts 20 seconds<br>Deals 937.5 Base Fire Damage per second<br>Summons a Totem which uses this Skill
+|level1                                  = True
+|level1_level_requirement                = 74
+}}

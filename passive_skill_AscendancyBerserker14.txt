@@ -1,0 +1,18 @@
+{{Passive skill
+|id                                  = AscendancyBerserker14
+|int_id                              = 29630
+|name                                = Blitz
+|ascendancy_class                    = Berserker
+|is_notable                          = True
+|icon                                = Blitz (Berserker)
+|stat1_id                            = gain_blitz_charge_%_chance_on_crit
+|stat1_value                         = 100
+|stat2_id                            = attack_speed_+%_final_per_blitz_charge
+|stat2_value                         = 2
+|stat3_id                            = critical_strike_chance_+%_per_blitz_charge
+|stat3_value                         = -8
+|stat4_id                            = maximum_blitz_charges
+|stat4_value                         = 20
+|stat_text                           = Gain a Blitz [[Charge]] on [[Critical Strike]]<br>2% more [[Attack Speed]] per Blitz [[Charge]]<br>8% reduced [[Critical Strike Chance]] per Blitz [[Charge]]<br>+20 to Maximum Blitz [[Charge|Charges]]
+|connections                         = AscendancyBerserker2
+}}

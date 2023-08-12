@@ -1,0 +1,20 @@
+{{Passive skill
+|id                                  = AscendancyAscendant47
+|int_id                              = 6778
+|name                                = Trickster
+|reminder_text                       = (You can only take one of the three Shadow Ascendancy passives)
+|buff_id                             = trickster_nearby_enemy_action_speed
+|ascendancy_class                    = Ascendant
+|is_multiple_choice_option           = True
+|icon                                = Trickster (Ascendants)
+|stat1_id                            = energy_shield_leech_from_any_damage_permyriad
+|stat1_value                         = 200
+|stat2_id                            = trickster_damage_+%_final_per_different_mastery
+|stat2_value                         = 2
+|stat3_id                            = spell_damage_%_suppressed_while_on_full_energy_shield
+|stat3_value                         = 6
+|stat_text                           = 2% of Damage Leeched as [[Energy Shield]]<br>2% more Damage for each different type of Mastery you have Allocated<br>Prevent +6% of Suppressed [[Spell Damage]] while on Full [[Energy Shield]]<br>Nearby Enemy Monsters' Action Speed is at most 92% of base value
+|stat4_id                            = action_speed_is_at_most_92%
+|stat4_value                         = 1
+|connections                         = AscendancyAscendant30
+}}

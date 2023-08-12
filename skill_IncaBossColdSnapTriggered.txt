@@ -1,0 +1,34 @@
+{{Skill
+|gem_description                         = Creates a sudden burst of cold in a targeted area, damaging enemies. This also creates an expanding area which is filled with chilled ground, and deals cold damage over time to enemies. Enemies that die while in the area have a chance to grant Frenzy Charges. The cooldown can be bypassed by expending a Frenzy Charge.
+|active_skill_name                       = Cold Snap
+|skill_id                                = IncaBossColdSnapTriggered
+|cast_time                               = 1.0
+|required_level                          = 23
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 7
+|static_stat1_id                         = active_skill_chill_effect_+%_final
+|static_stat1_value                      = 200
+|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat2_value                      = -50
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_cold_damage
+|static_stat4_value                      = 1
+|static_stat5_id                         = spell_maximum_base_cold_damage
+|static_stat5_value                      = 1
+|static_stat6_id                         = base_skill_effect_duration
+|static_stat6_value                      = 7000
+|stat_text                               = Deals 1 to 1 Cold Damage<br>Deals (57-997.4) Base Cold Damage per second<br>Base duration is 7 seconds
+|level1                                  = True
+|level1_level_requirement                = 23
+|level1_stat_text                        = Deals 57 Base Cold Damage per second
+|level1_stat1_id                         = base_cold_damage_to_deal_per_minute
+|level1_stat1_value                      = 3420
+|level2                                  = True
+|level2_level_requirement                = 68
+|level2_stat_text                        = Deals 997.4 Base Cold Damage per second
+|level2_stat1_id                         = base_cold_damage_to_deal_per_minute
+|level2_stat1_value                      = 59842
+}}

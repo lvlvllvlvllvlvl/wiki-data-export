@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = Throws a trap that damages and immobilises a single enemy for a duration based on how much damage was dealt. After the immobilise expires, a debuff remains on the enemy for a duration, lowering their movement speed by an amount which lessens over time. The affected enemy will take increased damage from traps and mines until the debuff expires. Modifiers to spell damage do not affect this skill's damage.
+|active_skill_name                       = Bear Trap
+|skill_id                                = MonsterBearTrapBossDescent
+|cast_time                               = 1.0
+|required_level                          = 19
+|static_stored_uses                      = 1
+|static_cooldown                         = 5
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 120
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_skill_is_trapped
+|static_stat1_value                      = 1
+|static_stat2_id                         = ignores_trap_and_mine_cooldown_limit
+|static_stat2_value                      = 1
+|static_stat3_id                         = secondary_minimum_base_physical_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = secondary_maximum_base_physical_damage
+|static_stat4_value                      = 32
+|static_stat5_id                         = base_trap_duration
+|static_stat5_value                      = 30000
+|static_stat6_id                         = is_trap
+|static_stat6_value                      = 1
+|stat_text                               = Deals 1 to 32 Physical Damage<br>Trap lasts 30 seconds
+|level1                                  = True
+|level1_level_requirement                = 19
+}}

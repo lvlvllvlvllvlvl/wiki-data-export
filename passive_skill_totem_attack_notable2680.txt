@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = totem_attack_notable2680
+|int_id                              = 61039
+|name                                = Panopticon
+|is_notable                          = True
+|icon                                = AttackTotemMultiple
+|stat1_id                            = attack_skills_additional_ballista_totems_allowed
+|stat1_value                         = 1
+|stat2_id                            = ancestor_totem_buff_effect_+%
+|stat2_value                         = 50
+|stat3_id                            = totem_damage_+%
+|stat3_value                         = 30
+|stat_text                           = [[Attack]] [[Skill|Skills]] have +1 to maximum number of Summoned Ballista [[Totem|Totems]]<br>50% increased Effect of Buffs your Ancestor [[Totem|Totems]] grant while Active<br>30% increased [[Totem]] Damage
+|connections                         = totem_attack_cast_and_placement_speed1506,mastery_totem231,totem_attack_damage2678
+}}

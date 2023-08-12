@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = Performs two fast strikes with a melee weapon, and summons your double for a duration to continuously attack monsters in this fashion.
+|active_skill_name                       = Vaal Double Strike
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff, Rune Dagger
+|skill_id                                = BrutusUniqueMapCloneStrike
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 10
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 6
+|static_stat1_id                         = number_of_monsters_to_summon
+|static_stat1_value                      = 1
+|static_stat2_id                         = alternate_minion
+|static_stat2_value                      = 14
+|static_stat3_id                         = minion_dies_when_parent_dies
+|static_stat3_value                      = 1
+|static_stat4_id                         = base_skill_effect_duration
+|static_stat4_value                      = 6000
+|static_stat5_id                         = maximum_number_of_summoned_doubles
+|static_stat5_value                      = 1
+|stat_text                               = Base duration is 6 seconds<br>Maximum 1 Summoned Double
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

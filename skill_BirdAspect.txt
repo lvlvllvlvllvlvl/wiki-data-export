@@ -1,0 +1,29 @@
+{{Skill
+|gem_description                         = While active, grants the Avian's Might and Avian's Flight buffs in sequence. Avian's Might grants you and your minions a chance to deal Double Damage with hits for a duration. Avian's Flight grants you and your minions increased Movement Speed for a secondary duration.
+|active_skill_name                       = Aspect of the Avian
+|skill_id                                = BirdAspect
+|cast_time                               = 0.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 0.5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 4
+|static_mana_reservation_percent         = 25
+|static_stat1_id                         = base_skill_effect_duration
+|static_stat1_value                      = 4000
+|static_stat2_id                         = base_secondary_skill_effect_duration
+|static_stat2_value                      = 4000
+|static_stat3_id                         = base_movement_velocity_+%
+|static_stat3_value                      = 10
+|static_stat4_id                         = minion_movement_speed_+%
+|static_stat4_value                      = 10
+|static_stat5_id                         = chance_to_deal_double_damage_%
+|static_stat5_value                      = 10
+|static_stat6_id                         = minion_chance_to_deal_double_damage_%
+|static_stat6_value                      = 10
+|stat_text                               = Base duration is 4 seconds<br>Base secondary duration is 4 seconds<br>10% increased Movement Speed<br>10% increased Minion Movement Speed<br>10% chance to deal Double Damage<br>Minions gain 10% chance to deal Double Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

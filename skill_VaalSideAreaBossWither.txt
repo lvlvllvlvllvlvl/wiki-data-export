@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = Casts a debilitating effect on enemies in an area, Hindering their movement and applying a stacking Withered debuff that increases the Chaos Damage they take. This effect can stack up to 15 times.
+|active_skill_name                       = Wither
+|skill_id                                = VaalSideAreaBossWither
+|cast_time                               = 0.28
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 0.5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 0.5
+|static_stat1_id                         = skill_repeat_count
+|static_stat1_value                      = 4
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 500
+|static_stat3_id                         = base_secondary_skill_effect_duration
+|static_stat3_value                      = 8000
+|static_stat4_id                         = base_cast_speed_+%
+|static_stat4_value                      = 20
+|static_stat5_id                         = base_movement_velocity_+%
+|static_stat5_value                      = -20
+|static_stat6_id                         = chaos_damage_taken_+%
+|static_stat6_value                      = 5
+|stat_text                               = Skills Repeat an additional 4 Times<br>Base duration is 0.5 seconds<br>Base secondary duration is 8 seconds<br>20% increased Cast Speed<br>20% reduced Movement Speed<br>5% increased Chaos Damage taken
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

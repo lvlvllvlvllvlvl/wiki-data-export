@@ -1,0 +1,37 @@
+{{Skill
+|gem_description                         = Strike your foes down with a powerful blow.
+|active_skill_name                       = Default Attack
+|skill_id                                = HeistTibbsMelee1
+|cast_time                               = 1.556
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 4
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_knockback_speed_+%
+|static_stat1_value                      = 300
+|static_stat2_id                         = skill_can_fire_arrows
+|static_stat2_value                      = 1
+|static_stat3_id                         = skill_can_fire_wand_projectiles
+|static_stat3_value                      = 1
+|static_stat4_id                         = determine_knockback_direction_from_melee_pattern
+|static_stat4_value                      = 1
+|static_stat5_id                         = cast_time_overrides_attack_duration
+|static_stat5_value                      = 1
+|static_stat6_id                         = global_knockback
+|static_stat6_value                      = 1
+|static_stat7_id                         = knockback_distance_+%
+|static_stat7_value                      = 100
+|stat_text                               = Knocks Enemies Back on Hit<br>Deals (-50-400)% more Damage<br>100% increased Knockback Distance
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat_text                        = Deals 50% less Damage
+|level1_stat1_id                         = active_skill_damage_+%_final
+|level1_stat1_value                      = -50
+|level2                                  = True
+|level2_level_requirement                = 100
+|level2_stat_text                        = Deals 400% more Damage
+|level2_stat1_id                         = active_skill_damage_+%_final
+|level2_stat1_value                      = 400
+}}

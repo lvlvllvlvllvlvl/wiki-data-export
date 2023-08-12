@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = corpses_notable2748
+|int_id                              = 25439
+|name                                = Undertaker
+|is_notable                          = True
+|icon                                = CorpsesNotable
+|stat1_id                            = damage_+%_if_you_have_consumed_a_corpse_recently
+|stat1_value                         = 30
+|stat2_id                            = life_regeneration_rate_per_minute_%_if_consumed_corpse_recently
+|stat2_value                         = 120
+|stat3_id                            = desecrate_maximum_number_of_corpses
+|stat3_value                         = 2
+|stat_text                           = 30% increased Damage if you have Consumed a corpse [[Recently]]<br>Regenerate 2% of [[Life]] per second if you've Consumed a corpse [[Recently]]<br>[[Desecrate]] and Unearth have +2 to Maximum number of corpses allowed
+|connections                         = mastery_minionoffence189,corpses_life2746,corpses_speed2747_,mastery_minionoffence189
+}}

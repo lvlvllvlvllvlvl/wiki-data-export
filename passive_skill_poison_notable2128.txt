@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = poison_notable2128
+|int_id                              = 31359
+|name                                = Fatal Toxins
+|is_notable                          = True
+|icon                                = Poison
+|stat1_id                            = base_poison_damage_+%
+|stat1_value                         = 30
+|stat2_id                            = base_chaos_damage_resistance_%
+|stat2_value                         = 10
+|stat3_id                            = poison_dot_multiplier_+
+|stat3_value                         = 10
+|stat_text                           = 30% increased Damage with [[Poison]]<br>+10% to [[Chaos Resistance]]<br>+10% to Damage over Time Multiplier for [[Poison]]
+|connections                         = mastery_poison199,degen_damage2129,poison_chance2127
+}}

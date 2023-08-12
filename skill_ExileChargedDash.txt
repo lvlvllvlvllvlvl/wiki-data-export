@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = Channel to project a mirage forward in the direction you're facing, based on your movement speed. Release to teleport to the mirage dealing area of effect damage multiple times along the way. Travelling further applies a bonus to the damage as well as dealing damage in larger areas. Faster attack speed and lower movement speed will both cause damage to be dealt more frequently along the path.
+|active_skill_name                       = Charged Dash
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff, Rune Dagger
+|skill_id                                = ExileChargedDash
+|cast_time                               = 2.5
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_physical_damage_%_to_convert_to_lightning
+|static_stat2_value                      = 100
+|static_stat3_id                         = active_skill_damage_+%_final
+|static_stat3_value                      = 100
+|static_stat4_id                         = attack_speed_+%
+|static_stat4_value                      = 200
+|static_stat5_id                         = fortify_on_hit
+|static_stat5_value                      = 1
+|stat_text                               = 100% of Physical Damage Converted to Lightning Damage<br>Deals 100% more Damage<br>200% increased Attack Speed<br>Melee Hits Fortify
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

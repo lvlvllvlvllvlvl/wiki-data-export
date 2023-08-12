@@ -1,0 +1,13 @@
+{{Passive skill
+|id                                  = warcry_damage_notable2719
+|int_id                              = 14001
+|name                                = Unfaltering
+|is_notable                          = True
+|icon                                = Unfaltering
+|stat1_id                            = stun_threshold_+%
+|stat1_value                         = 50
+|stat2_id                            = damage_taken_%_recovered_as_life_from_stunning_hits
+|stat2_value                         = 10
+|stat_text                           = 50% increased Stun Threshold<br>10% of Damage taken from Stunning [[Hit|Hits]] is Recovered as [[Life]]
+|connections                         = mastery_warcry252_,warcry_buff_effect2246
+}}

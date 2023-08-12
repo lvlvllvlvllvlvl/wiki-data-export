@@ -1,0 +1,32 @@
+{{Skill
+|gem_description                         = Infuses your melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth from the enemies you hit, divided amongst all enemies hit by the strike. These will deal area attack damage to enemies where they land.
+|active_skill_name                       = Molten Strike
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff, Rune Dagger
+|skill_id                                = ChurchStatueMoltenStrikeMassive
+|cast_time                               = 1.0
+|required_level                          = 10
+|static_stored_uses                      = 1
+|static_cooldown                         = 4
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 75
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 100
+|static_stat2_id                         = active_skill_damage_+%_final
+|static_stat2_value                      = -10
+|static_stat3_id                         = base_projectile_speed_+%
+|static_stat3_value                      = -25
+|static_stat4_id                         = number_of_additional_projectiles
+|static_stat4_value                      = 12
+|static_stat5_id                         = physical_damage_+%
+|static_stat5_value                      = 10
+|static_stat6_id                         = skill_physical_damage_%_to_convert_to_fire
+|static_stat6_value                      = 60
+|static_stat7_id                         = active_skill_attack_speed_+%_final
+|static_stat7_value                      = 40
+|static_stat8_id                         = active_skill_projectile_damage_+%_final
+|static_stat8_value                      = -40
+|stat_text                               = Deals 10% less Damage<br>25% reduced Projectile Speed<br>Fires 12 additional Projectiles<br>10% increased Physical Damage<br>60% of Physical Damage Converted to Fire Damage<br>40% more Attack Speed<br>40% less Projectile Damage
+|level1                                  = True
+|level1_level_requirement                = 10
+}}

@@ -1,0 +1,16 @@
+{{Passive skill
+|id                                  = AscendancyElementalist18
+|int_id                              = 53123
+|name                                = Shaper of Flames
+|ascendancy_class                    = Elementalist
+|is_notable                          = True
+|icon                                = IgniteSpecialisation (Elementalist)
+|stat1_id                            = all_damage_can_ignite
+|stat1_value                         = 1
+|stat2_id                            = always_ignite
+|stat2_value                         = 1
+|stat3_id                            = ignite_damage_+%_final_if_hit_highest_fire
+|stat3_value                         = 25
+|stat_text                           = All Damage can [[Ignite]]<br>[[Hit|Hits]] always [[Ignite]]<br>25% more Damage with [[Ignite|Ignites]] you inflict with [[Hit|Hits]] for which the highest Damage Type is Fire
+|connections                         = AscendancyElementalist15
+}}

@@ -1,0 +1,34 @@
+{{Skill
+|gem_description                         = Repeatedly attacks a large area in different directions. Each Vaal Reave that hits an enemy grants stages, which you will begin to lose after a short period without hitting anything. Only works with Daggers, Claws, and One-Handed Swords.
+|active_skill_name                       = Vaal Reave
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, Rune Dagger
+|skill_id                                = DarkExileVaalReave
+|cast_time                               = 1.0
+|required_level                          = 73
+|static_cost_amounts                     = 150
+|static_cost_types                       = Mana
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = reave_rotation_on_repeat
+|static_stat1_value                      = 135
+|static_stat2_id                         = base_attack_repeat_count
+|static_stat2_value                      = 7
+|static_stat3_id                         = reave_additional_starting_stacks
+|static_stat3_value                      = 4
+|static_stat4_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat4_value                      = -9
+|static_stat5_id                         = is_area_damage
+|static_stat5_value                      = 1
+|static_stat6_id                         = global_cannot_crit
+|static_stat6_value                      = 1
+|static_stat7_id                         = reave_area_of_effect_+%_final_per_stage
+|static_stat7_value                      = 100
+|static_stat8_id                         = active_skill_attack_speed_+%_final
+|static_stat8_value                      = 150
+|static_stat9_id                         = reave_additional_max_stacks
+|static_stat9_value                      = 4
+|stat_text                               = Never deal Critical Strikes<br>100% more Area of Effect for each stage<br>150% more Attack Speed<br>+4 to maximum Stages
+|level1                                  = True
+|level1_level_requirement                = 73
+}}

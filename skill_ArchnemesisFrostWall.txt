@@ -1,0 +1,29 @@
+{{Skill
+|gem_description                         = Creates a wall of ice which holds back enemies. Targets under the wall are damaged and pushed back.
+|active_skill_name                       = Frost Wall
+|skill_id                                = ArchnemesisFrostWall
+|cast_time                               = 0.5
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 1.5
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 2.5
+|static_stat1_id                         = spell_maximum_action_distance_+%
+|static_stat1_value                      = 40
+|static_stat2_id                         = spell_minimum_base_cold_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_maximum_base_cold_damage
+|static_stat3_value                      = 2
+|static_stat4_id                         = base_skill_effect_duration
+|static_stat4_value                      = 2500
+|static_stat5_id                         = wall_expand_delay_ms
+|static_stat5_value                      = 150
+|static_stat6_id                         = wall_maximum_length
+|static_stat6_value                      = 48
+|stat_text                               = Deals 1 to 2 Cold Damage<br>Base duration is 2.5 seconds<br>0.15 seconds between appearance of Wall sections<br>Wall will be 48 units long
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

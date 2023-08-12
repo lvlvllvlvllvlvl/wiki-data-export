@@ -1,0 +1,16 @@
+{{Passive skill
+|id                                  = affliction_notable_flexible_sentry
+|int_id                              = 4641
+|name                                = Flexible Sentry
+|is_notable                          = True
+|icon                                = BlockSpellDmgNotable
+|stat1_id                            = additional_block_%
+|stat1_value                         = 3
+|stat2_id                            = base_spell_block_%
+|stat2_value                         = 3
+|stat3_id                            = self_elemental_status_duration_-%
+|stat3_value                         = 25
+|stat4_id                            = shocked_chilled_effect_on_self_+%
+|stat4_value                         = -25
+|stat_text                           = +3% Chance to [[Block]] [[Attack Damage]]<br>3% Chance to [[Block]] [[Spell Damage]]<br>25% reduced Elemental Ailment Duration on you<br>25% reduced Effect of Chill and [[Shock]] on you
+}}

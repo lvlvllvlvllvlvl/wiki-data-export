@@ -1,0 +1,19 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = RootSpiderEmergeSideArea
+|cast_time                               = 1.0
+|required_level                          = 0
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = curse_on_melee_hit_%_random_curse
+|static_stat1_value                      = 100
+|static_stat2_id                         = active_skill_damage_+%_final
+|static_stat2_value                      = -40
+|static_stat3_id                         = attack_speed_+%
+|static_stat3_value                      = -20
+|stat_text                               = Deals 40% less Damage<br>20% reduced Attack Speed
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

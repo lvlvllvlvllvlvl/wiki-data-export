@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = Leap Slam
+|item_class_id_restriction               = One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff
+|skill_id                                = MonsterLeapSlamBehindEnemy
+|cast_time                               = 1.4
+|required_level                          = 2
+|static_stored_uses                      = 1
+|static_cooldown                         = 4
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = cast_time_overrides_attack_duration
+|static_stat2_value                      = 1
+|static_stat3_id                         = active_skill_attack_speed_+%_final
+|static_stat3_value                      = 20
+|stat_text                               = 20% more Attack Speed
+|level1                                  = True
+|level1_level_requirement                = 2
+}}

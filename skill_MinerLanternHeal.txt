@@ -1,0 +1,20 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = MinerLanternHeal
+|cast_time                               = 1.0
+|required_level                          = 2
+|static_stored_uses                      = 1
+|static_cooldown                         = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 0.5
+|static_stat1_id                         = base_skill_effect_duration
+|static_stat1_value                      = 500
+|static_stat2_id                         = life_regeneration_rate_per_minute_%
+|static_stat2_value                      = 3000
+|stat_text                               = Base duration is 0.5 seconds<br>Regenerate 50% of Life per second
+|level1                                  = True
+|level1_level_requirement                = 2
+}}

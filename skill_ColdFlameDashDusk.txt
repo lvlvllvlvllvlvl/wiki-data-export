@@ -1,0 +1,23 @@
+{{Skill
+|gem_description                         = Teleport to a location, damaging enemies and leaving a trail of burning ground in your wake. Shares a cooldown with other Blink skills.
+|active_skill_name                       = Flame Dash
+|skill_id                                = ColdFlameDashDusk
+|cast_time                               = 0.75
+|required_level                          = 1
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 4
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_cold_damage
+|static_stat2_value                      = 3
+|static_stat3_id                         = spell_maximum_base_cold_damage
+|static_stat3_value                      = 5
+|static_stat4_id                         = base_skill_effect_duration
+|static_stat4_value                      = 4000
+|stat_text                               = Deals 3 to 5 Cold Damage<br>Base duration is 4 seconds
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

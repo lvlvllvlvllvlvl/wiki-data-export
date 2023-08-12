@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = Raises a zombie minion from a corpse, which will follow you and attack enemies with a melee attack and an area of effect slam which cannot be evaded.
+|active_skill_name                       = Raise Zombie
+|skill_id                                = ThaumaturgistRaiseZombie
+|cast_time                               = 0.85
+|required_level                          = 73
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = alternate_minion
+|static_stat1_value                      = 2
+|static_stat2_id                         = base_number_of_zombies_allowed
+|static_stat2_value                      = 10
+|static_stat3_id                         = active_skill_minion_life_+%_final
+|static_stat3_value                      = 90
+|static_stat4_id                         = active_skill_minion_damage_+%_final
+|static_stat4_value                      = 30
+|stat_text                               = Maximum 10 Raised Zombies<br>Minions have 90% more Maximum Life<br>Minions deal 30% more Damage
+|level1                                  = True
+|level1_level_requirement                = 73
+|level2                                  = True
+|level2_level_requirement                = 76
+|level3                                  = True
+|level3_level_requirement                = 79
+|level4                                  = True
+|level4_level_requirement                = 82
+}}

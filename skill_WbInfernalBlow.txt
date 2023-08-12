@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = [UNUSED] Hits enemies, converting some of your physical damage to fire damage. If an enemy dies soon after being hit, they will explode, dealing fire damage to nearby enemies. The damage from this explosion cannot be reflected. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed.
+|active_skill_name                       = Infernal Blow
+|item_class_id_restriction               = One Hand Sword, Thrusting One Hand Sword, Two Hand Sword, One Hand Axe, Two Hand Axe, One Hand Mace, Sceptre, Two Hand Mace, Staff, Unarmed, Warstaff
+|skill_id                                = WbInfernalBlow
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_critical_strike_chance           = 7
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 0.5
+|static_stat1_id                         = active_skill_damage_+%_final
+|static_stat1_value                      = 25
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 500
+|static_stat3_id                         = corpse_explosion_monster_life_%
+|static_stat3_value                      = 25
+|static_stat4_id                         = skill_physical_damage_%_to_convert_to_fire
+|static_stat4_value                      = 50
+|stat_text                               = Deals 25% more Damage<br>Base duration is 0.5 seconds<br>Explosion deals base Fire Damage equal to 25% of the corpse's Maximum Life<br>50% of Physical Damage Converted to Fire Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+|level2                                  = True
+|level2_level_requirement                = 15
+}}

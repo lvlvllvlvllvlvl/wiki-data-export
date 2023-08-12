@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = frenzy_charges_notable2421
+|int_id                              = 58921
+|name                                = Disciple of the Slaughter
+|is_notable                          = True
+|icon                                = FrenzyChargeNotable
+|stat1_id                            = base_minimum_frenzy_charges
+|stat1_value                         = 1
+|stat2_id                            = add_frenzy_charge_on_kill_%_chance
+|stat2_value                         = 8
+|stat3_id                            = damage_+%_per_frenzy_charge
+|stat3_value                         = 8
+|stat_text                           = +1 to Minimum [[Frenzy Charge|Frenzy Charges]]<br>8% chance to gain a [[Frenzy Charge]] on [[Kill]]<br>8% increased Damage per [[Frenzy Charge]]
+|connections                         = mastery_charges50,frenzy_charges2420,mastery_charges50
+}}

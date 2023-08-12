@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = Performs a warcry, granting increased damage and mana regeneration to the user and nearby allies if there are nearby enemies. The damage increase is proportional to the number of surrounding enemies. Taunts all nearby enemies to attack the user. Shares a cooldown with other Warcry skills.
+|active_skill_name                       = Rallying Cry
+|skill_id                                = GreustWolfRallyingCry
+|cast_time                               = 1.4
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 6
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 3.5
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = -25
+|static_stat2_id                         = base_deal_no_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_skill_effect_duration
+|static_stat3_value                      = 3500
+|static_stat4_id                         = damage_+%
+|static_stat4_value                      = 25
+|stat_text                               = Base duration is 3.5 seconds<br>25% increased Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

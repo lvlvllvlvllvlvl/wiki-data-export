@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = Channels to build up a large explosion. The longer you channel, the larger the area of effect and damage of the explosion. The explosion occurs after using another skill or after a short period without casting.
+|active_skill_name                       = Flameblast
+|skill_id                                = HeistCasterFlameblast
+|cast_time                               = 2.5
+|required_level                          = 0
+|static_stored_uses                      = 1
+|static_cooldown                         = 14
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = spell_maximum_action_distance_+%
+|static_stat1_value                      = -50
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_lightning_damage
+|static_stat3_value                      = 7
+|static_stat4_id                         = spell_maximum_base_lightning_damage
+|static_stat4_value                      = 21
+|stat_text                               = Deals 7 to 21 Lightning Damage
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

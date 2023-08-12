@@ -1,0 +1,18 @@
+{{Passive skill
+|id                                  = AscendancyBerserker10
+|int_id                              = 38999
+|name                                = Flawless Savagery
+|ascendancy_class                    = Berserker
+|is_notable                          = True
+|icon                                = CloakedAgony (Berserker)
+|stat1_id                            = critical_strike_chance_+%
+|stat1_value                         = 50
+|stat2_id                            = base_critical_strike_multiplier_+
+|stat2_value                         = 25
+|stat3_id                            = minimum_added_physical_damage_if_have_crit_recently
+|stat3_value                         = 20
+|stat4_id                            = maximum_added_physical_damage_if_have_crit_recently
+|stat4_value                         = 30
+|stat_text                           = 50% increased [[Critical Strike Chance]]<br>+25% to [[Critical Strike Multiplier]]<br>Adds 20 to 30 [[Physical Damage]] if you've dealt a [[Critical Strike]] [[Recently]]
+|connections                         = AscendancyBerserker2,AscendancyBerserker13,AscendancyBerserker2
+}}

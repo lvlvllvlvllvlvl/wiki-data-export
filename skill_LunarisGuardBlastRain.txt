@@ -1,0 +1,36 @@
+{{Skill
+|gem_description                         = Fires arrows up in the air, to rain down in an area. Each arrow deals area damage around where it lands, and they will all overlap on the targeted location.
+|active_skill_name                       = Blast Rain
+|item_class_id_restriction               = Bow
+|skill_id                                = LunarisGuardBlastRain
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 5
+|static_damage_effectiveness             = 50
+|static_damage_multiplier                = 50
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = blast_rain_arrow_delay_ms
+|static_stat1_value                      = 80
+|static_stat2_id                         = animation_effect_variation
+|static_stat2_value                      = 1
+|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat3_value                      = -25
+|static_stat4_id                         = base_is_projectile
+|static_stat4_value                      = 1
+|static_stat5_id                         = is_area_damage
+|static_stat5_value                      = 1
+|static_stat6_id                         = skill_can_fire_arrows
+|static_stat6_value                      = 1
+|static_stat7_id                         = cannot_stun
+|static_stat7_value                      = 1
+|static_stat8_id                         = base_number_of_additional_arrows
+|static_stat8_value                      = 5
+|static_stat9_id                         = base_projectile_speed_+%
+|static_stat9_value                      = 30
+|static_stat10_id                        = skill_physical_damage_%_to_convert_to_fire
+|static_stat10_value                     = 50
+|stat_text                               = Your Hits cannot Stun Enemies<br>Fires 5 additional Arrows<br>30% increased Projectile Speed<br>50% of Physical Damage Converted to Fire Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

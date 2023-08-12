@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = serpent_stance1461
+|int_id                              = 22702
+|name                                = Serpent Stance
+|is_notable                          = True
+|icon                                = serpentstance
+|stat1_id                            = global_critical_strike_chance_+%_while_holding_staff
+|stat1_value                         = 40
+|stat2_id                            = global_critical_strike_multiplier_+_while_holding_staff
+|stat2_value                         = 30
+|stat3_id                            = additional_block_%_if_you_have_crit_recently
+|stat3_value                         = 5
+|stat_text                           = 40% increased Global [[Critical Strike Chance]] while wielding a [[Staff]]<br>+30% to Global [[Critical Strike Multiplier]] while wielding a [[Staff]]<br>+5% Chance to [[Block]] [[Attack Damage]] if you've dealt a [[Critical Strike]] [[Recently]]
+|connections                         = mastery_staff219,staff_crit2312
+}}

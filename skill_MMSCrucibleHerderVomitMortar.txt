@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = Generic monster mortar skill. Like Monster Projectile but has an impact effect.
+|active_skill_name                       = 
+|skill_id                                = MMSCrucibleHerderVomitMortar
+|cast_time                               = 2.7
+|required_level                          = 0
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_stat1_id                         = spell_maximum_action_distance_+%
+|static_stat1_value                      = -50
+|static_stat2_id                         = projectile_spread_radius
+|static_stat2_value                      = 5
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = base_is_projectile
+|static_stat4_value                      = 1
+|static_stat5_id                         = projectile_uses_contact_position
+|static_stat5_value                      = 1
+|static_stat6_id                         = use_scaled_contact_offset
+|static_stat6_value                      = 1
+|static_stat7_id                         = skill_physical_damage_%_to_convert_to_fire
+|static_stat7_value                      = 25
+|stat_text                               = Deals 6 to 9 Physical Damage<br>Deals 30% less Damage<br>25% of Physical Damage Converted to Fire Damage
+|level1                                  = True
+|level1_level_requirement                = 0
+|level1_cost_amounts                     = []
+}}

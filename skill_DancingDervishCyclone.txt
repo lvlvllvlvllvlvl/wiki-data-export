@@ -1,0 +1,20 @@
+{{Skill
+|gem_description                         = Damage enemies around you, then perform a spinning series of attacks as you travel to a target location. Cannot be supported by Ruthless or Multistrike.
+|active_skill_name                       = Cyclone
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Unarmed, Warstaff, Rune Dagger
+|skill_id                                = DancingDervishCyclone
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = cyclone_extra_distance
+|static_stat1_value                      = 25
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = attack_speed_+%
+|static_stat3_value                      = 20
+|stat_text                               = 20% increased Attack Speed
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

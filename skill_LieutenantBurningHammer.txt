@@ -1,0 +1,35 @@
+{{Skill
+|gem_description                         = Hits enemies, converting some of your physical damage to cold damage. If an enemy is frozen and is on less than one third life, they will shatter when hit by Glacial Hammer. If striking three times in a row, the third strike will freeze enemies more easily. Requires a Mace, Sceptre or Staff.
+|active_skill_name                       = Glacial Hammer
+|item_class_id_restriction               = One Hand Mace, Sceptre, Two Hand Mace, Staff, Warstaff
+|skill_id                                = LieutenantBurningHammer
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 25
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = skill_physical_damage_%_to_convert_to_fire
+|static_stat1_value                      = 50
+|stat_text                               = Deals (5-0)% more Damage<br>(0-15)% chance to Ignite enemies<br>(0-15)% increased Physical Damage<br>50% of Physical Damage Converted to Fire Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat_text                        = Deals 5% more Damage
+|level1_stat1_id                         = active_skill_damage_+%_final
+|level1_stat1_value                      = 5
+|level2                                  = True
+|level2_level_requirement                = 20
+|level2_stat_text                        = 10% chance to Ignite enemies<br>15% increased Physical Damage
+|level2_stat1_id                         = base_chance_to_ignite_%
+|level2_stat1_value                      = 10
+|level2_stat2_id                         = physical_damage_+%
+|level2_stat2_value                      = 15
+|level3                                  = True
+|level3_level_requirement                = 58
+|level3_stat_text                        = 15% chance to Ignite enemies<br>15% increased Physical Damage
+|level3_stat1_id                         = base_chance_to_ignite_%
+|level3_stat1_value                      = 15
+|level3_stat2_id                         = physical_damage_+%
+|level3_stat2_value                      = 15
+}}

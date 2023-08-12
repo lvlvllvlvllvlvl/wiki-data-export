@@ -1,0 +1,33 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = BossBatScreechNova
+|cast_time                               = 1.2
+|required_level                          = 35
+|static_stored_uses                      = 1
+|static_cooldown                         = 10
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 2.5
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 50
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 2500
+|stat_text                               = Base duration is 2.5 seconds<br>(20-30)% reduced Movement Speed
+|level1                                  = True
+|level1_level_requirement                = 35
+|level1_stat_text                        = 20% reduced Movement Speed
+|level1_stat1_id                         = base_movement_velocity_+%
+|level1_stat1_value                      = -20
+|level2                                  = True
+|level2_level_requirement                = 55
+|level2_stat_text                        = 25% reduced Movement Speed
+|level2_stat1_id                         = base_movement_velocity_+%
+|level2_stat1_value                      = -25
+|level3                                  = True
+|level3_level_requirement                = 67
+|level3_stat_text                        = 30% reduced Movement Speed
+|level3_stat1_id                         = base_movement_velocity_+%
+|level3_stat1_value                      = -30
+}}

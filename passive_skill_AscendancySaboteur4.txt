@@ -1,0 +1,19 @@
+{{Passive skill
+|id                                  = AscendancySaboteur4
+|int_id                              = 5087
+|name                                = Born in the Shadows
+|buff_id                             = generic_buff_aura
+|ascendancy_class                    = Saboteur
+|is_notable                          = True
+|icon                                = ShadowsDarknessBlind (Saboteur)
+|stat1_id                            = cannot_be_blinded
+|stat1_value                         = 1
+|stat2_id                            = global_chance_to_blind_on_hit_%
+|stat2_value                         = 100
+|stat3_id                            = damage_taken_+%_from_blinded_enemies
+|stat3_value                         = -15
+|stat4_id                            = local_display_nearby_enemies_are_blinded
+|stat4_value                         = 1
+|stat_text                           = Cannot be Blinded<br>Blind Enemies on [[Hit]]<br>15% reduced Damage taken from Blinded Enemies<br>Nearby Enemies are Blinded<br>
+|connections                         = AscendancySaboteur1
+}}

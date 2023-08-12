@@ -1,0 +1,35 @@
+{{Skill
+|gem_description                         = Summons a totem that fires a stream of flame at nearby enemies.
+|active_skill_name                       = Holy Flame Totem
+|skill_id                                = FireElementalFlameRedMaps
+|cast_time                               = 0.25
+|required_level                          = 3
+|static_damage_effectiveness             = 20
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = spell_maximum_action_distance_+%
+|static_stat1_value                      = -77
+|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat2_value                      = -25
+|static_stat3_id                         = base_is_projectile
+|static_stat3_value                      = 1
+|static_stat4_id                         = always_pierce
+|static_stat4_value                      = 1
+|static_stat5_id                         = active_skill_cast_speed_+%_final
+|static_stat5_value                      = -89
+|stat_text                               = Deals (2-288) to (4-432) Fire Damage<br>Projectiles Pierce all Targets<br>89% less Cast Speed
+|level1                                  = True
+|level1_level_requirement                = 3
+|level1_stat_text                        = Deals 2 to 4 Fire Damage
+|level1_stat1_id                         = spell_minimum_base_fire_damage
+|level1_stat1_value                      = 2
+|level1_stat2_id                         = spell_maximum_base_fire_damage
+|level1_stat2_value                      = 4
+|level2                                  = True
+|level2_level_requirement                = 68
+|level2_stat_text                        = Deals 288 to 432 Fire Damage
+|level2_stat1_id                         = spell_minimum_base_fire_damage
+|level2_stat1_value                      = 288
+|level2_stat2_id                         = spell_maximum_base_fire_damage
+|level2_stat2_value                      = 432
+}}

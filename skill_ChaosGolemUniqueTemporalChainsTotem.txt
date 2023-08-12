@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = Curses all enemies in an area, lowering their action speed and making other effects on them expire more slowly.
+|active_skill_name                       = Temporal Chains
+|skill_id                                = ChaosGolemUniqueTemporalChainsTotem
+|cast_time                               = 0.5
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 30
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 20
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 30000
+|static_stat3_id                         = temporal_chains_action_speed_+%_final
+|static_stat3_value                      = -25
+|static_stat4_id                         = buff_time_passed_+%_other_than_temporal_chains
+|static_stat4_value                      = -40
+|static_stat5_id                         = curse_apply_as_aura
+|static_stat5_value                      = 1
+|static_stat6_id                         = temporal_chains_action_speed_+%_vs_rare_or_unique_final
+|static_stat6_value                      = -10
+|stat_text                               = Base duration is 30 seconds<br>Cursed Normal and Magic Enemies have 25% less Action Speed<br>Other effects on Cursed enemies expire 40% slower<br>This Curse is Cast as an Aura applying to nearby Enemies<br>Cursed Rare and Unique Enemies have 10% less Action Speed
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

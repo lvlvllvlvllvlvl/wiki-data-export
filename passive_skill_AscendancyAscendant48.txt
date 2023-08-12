@@ -1,0 +1,19 @@
+{{Passive skill
+|id                                  = AscendancyAscendant48
+|int_id                              = 58827
+|name                                = Saboteur
+|reminder_text                       = (You can only take one of the three Shadow Ascendancy passives)<br>(Recently refers to the past 4 seconds)<br>(Being Blinded causes 20% less Accuracy Rating and Evasion Rating, for 4 seconds)
+|ascendancy_class                    = Ascendant
+|is_multiple_choice_option           = True
+|icon                                = Saboteur (Ascendants)
+|stat1_id                            = global_chance_to_blind_on_hit_%
+|stat1_value                         = 25
+|stat2_id                            = base_cooldown_speed_+%
+|stat2_value                         = 15
+|stat3_id                            = base_skill_area_of_effect_+%
+|stat3_value                         = 30
+|stat4_id                            = %_chance_to_deal_150%_area_damage_+%_final
+|stat4_value                         = 15
+|stat_text                           = 25% chance to Blind Enemies on [[Hit]]<br>15% increased Cooldown Recovery Rate<br>30% increased Area of Effect<br>[[Hit|Hits]] have 15% chance to deal 50% more Area Damage
+|connections                         = AscendancyAscendant30
+}}

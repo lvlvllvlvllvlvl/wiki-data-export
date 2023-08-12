@@ -1,0 +1,32 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = PietyCorruptedBallLightning
+|cast_time                               = 1.0
+|required_level                          = 39
+|static_stored_uses                      = 3
+|static_cooldown                         = 8
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 6
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 6000
+|stat_text                               = Deals (65-405) to (98-608) Lightning Damage<br>Base duration is 6 seconds
+|level1                                  = True
+|level1_level_requirement                = 39
+|level1_stat_text                        = Deals 65 to 98 Lightning Damage
+|level1_stat1_id                         = spell_minimum_base_lightning_damage
+|level1_stat1_value                      = 65
+|level1_stat2_id                         = spell_maximum_base_lightning_damage
+|level1_stat2_value                      = 98
+|level2                                  = True
+|level2_level_requirement                = 68
+|level2_stat_text                        = Deals 405 to 608 Lightning Damage
+|level2_stat1_id                         = spell_minimum_base_lightning_damage
+|level2_stat1_value                      = 405
+|level2_stat2_id                         = spell_maximum_base_lightning_damage
+|level2_stat2_value                      = 608
+}}

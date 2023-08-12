@@ -1,0 +1,34 @@
+{{Skill
+|gem_description                         = The character slams the ground with a Staff, Mace or Sceptre, creating a wave that travels in all directions and damages enemies with an increased chance to stun.
+|active_skill_name                       = Vaal Ground Slam
+|item_class_id_restriction               = One Hand Mace, Sceptre, Staff, Two Hand Mace, Unarmed, Warstaff
+|skill_id                                = DarkExileVaalGroundSlam
+|cast_time                               = 1.0
+|required_level                          = 73
+|static_stored_uses                      = 1
+|static_cooldown                         = 7
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = animation_effect_variation
+|static_stat1_value                      = -1
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = global_knockback
+|static_stat3_value                      = 1
+|static_stat4_id                         = skill_repeat_count
+|static_stat4_value                      = 1
+|static_stat5_id                         = active_skill_damage_+%_final
+|static_stat5_value                      = 20
+|static_stat6_id                         = attack_speed_+%
+|static_stat6_value                      = 80
+|static_stat7_id                         = knockback_distance_+%
+|static_stat7_value                      = 50
+|static_stat8_id                         = always_stun
+|static_stat8_value                      = 1
+|static_stat9_id                         = physical_damage_+%
+|static_stat9_value                      = 29
+|stat_text                               = Knocks Enemies Back on Hit<br>Skills Repeat an additional Time<br>Deals 20% more Damage<br>80% increased Attack Speed<br>50% increased Knockback Distance<br>Stuns Enemies<br>29% increased Physical Damage
+|level1                                  = True
+|level1_level_requirement                = 73
+}}

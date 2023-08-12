@@ -1,0 +1,30 @@
+{{Skill
+|gem_description                         = Lightning is released from your hands four times in quick succession, damaging all enemies in an arc in front of you.
+|active_skill_name                       = Lightning Tendrils
+|skill_id                                = MonsterLightningTendrils
+|cast_time                               = 0.8
+|required_level                          = 1
+|static_critical_strike_chance           = 6
+|static_damage_effectiveness             = 35
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_skill_number_of_additional_hits
+|static_stat1_value                      = 3
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|stat_text                               = Deals 1 to (3-4) Lightning Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat_text                        = Deals 1 to 3 Lightning Damage
+|level1_stat1_id                         = spell_minimum_base_lightning_damage
+|level1_stat1_value                      = 1
+|level1_stat2_id                         = spell_maximum_base_lightning_damage
+|level1_stat2_value                      = 3
+|level2                                  = True
+|level2_level_requirement                = 2
+|level2_stat_text                        = Deals 1 to 4 Lightning Damage
+|level2_stat1_id                         = spell_minimum_base_lightning_damage
+|level2_stat1_value                      = 1
+|level2_stat2_id                         = spell_maximum_base_lightning_damage
+|level2_stat2_value                      = 4
+}}

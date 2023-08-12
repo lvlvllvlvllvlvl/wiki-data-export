@@ -1,0 +1,20 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff, Rune Dagger
+|skill_id                                = AnimatedThrownWeapon
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 3
+|static_cooldown                         = 3
+|static_damage_effectiveness             = 48
+|static_damage_multiplier                = 48
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = base_projectile_speed_+%
+|static_stat2_value                      = 40
+|stat_text                               = 40% increased Projectile Speed
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

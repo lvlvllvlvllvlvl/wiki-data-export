@@ -1,0 +1,21 @@
+{{Skill
+|gem_description                         = Violently destroys your body and recreates it at the location of a targeted enemy or corpse, dealing spell damage in an area at both locations. If there is no specific target, it will prioritise corpses over enemies. If targeting a corpse, the corpse will also explode, dealing damage around it that is not affected by modifiers to spell damage, and cannot be reflected. This spell cannot be repeated.
+|active_skill_name                       = Bodyswap
+|skill_id                                = CorpseWarpBestiaryKiwethBoss
+|cast_time                               = 1.33
+|required_level                          = 70
+|static_stored_uses                      = 1
+|static_cooldown                         = 6
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_physical_damage
+|static_stat2_value                      = 494
+|static_stat3_id                         = spell_maximum_base_physical_damage
+|static_stat3_value                      = 741
+|stat_text                               = Deals 494 to 741 Physical Damage
+|level1                                  = True
+|level1_level_requirement                = 70
+}}

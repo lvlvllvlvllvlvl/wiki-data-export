@@ -1,0 +1,13 @@
+{{Passive skill
+|id                                  = affliction_notable_replenishing_presence
+|int_id                              = 62634
+|name                                = Replenishing Presence
+|buff_id                             = replenishing_presence_passive_aura
+|is_notable                          = True
+|icon                                = AuraEffectNotable
+|stat1_id                            = skill_effect_duration_+%_with_non_curse_aura_skills
+|stat1_value                         = 20
+|stat_text                           = Non-Curse Aura [[Skill|Skills]] have 20% increased Duration<br>You and nearby Allies Regenerate 1% of [[Life]] per second
+|stat2_id                            = life_regeneration_rate_per_minute_%
+|stat2_value                         = 60
+}}

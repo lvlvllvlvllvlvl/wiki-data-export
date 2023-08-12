@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = The character slams the ground in front of them with a Staff, Mace or Sceptre, creating a wave that travels forward and damages enemies with an increased chance to stun.
+|active_skill_name                       = Ground Slam
+|item_class_id_restriction               = One Hand Mace, Sceptre, Staff, Two Hand Mace, Unarmed, Warstaff
+|skill_id                                = HellionGreustGroundSlam
+|cast_time                               = 1.0
+|required_level                          = 2
+|static_stored_uses                      = 1
+|static_cooldown                         = 4.5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 200
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 20
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = always_ignite
+|static_stat3_value                      = 1
+|static_stat4_id                         = skill_physical_damage_%_to_convert_to_fire
+|static_stat4_value                      = 50
+|static_stat5_id                         = active_skill_attack_speed_+%_final
+|static_stat5_value                      = -35
+|static_stat6_id                         = ground_slam_angle_+%
+|static_stat6_value                      = -50
+|stat_text                               = Hits always Ignite<br>50% of Physical Damage Converted to Fire Damage<br>35% less Attack Speed<br>50% reduced angle
+|level1                                  = True
+|level1_level_requirement                = 2
+}}

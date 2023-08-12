@@ -1,0 +1,17 @@
+{{Monster
+|metadata_id                      = Metadata/Monsters/Bandits/MapBanditBossBow2
+|monster_type_id                  = BanditBowMapBoss
+|mod_ids                          = MonsterMapBoss, MonsterImplicitFastAttack1, MonsterMultipleProjectilesImplicit1, StunRepeatImmunityMapBoss_
+|tags                             = archer_boss, bandit, chaos_affinity, cold_affinity, fire_affinity, flesh_armour, has_bow, human, humanoid, lightning_affinity, medium_height, not_int, not_str, physical_affinity, puncturing_weapon, ranged, red_blood, very_slow_movement
+|skill_ids                        = MonsterPuncture, MonsterLightningArrow, BanditExplosiveArrow, MonsterCausticArrow, MonsterIceShot, MonsterBurningArrow
+|name                             = Lord of the Bow
+|size                             = 3
+|minimum_attack_distance          = 6
+|maximum_attack_distance          = 40
+|model_size_multiplier            = 1.2
+|experience_multiplier            = 1.5
+|damage_multiplier                = 0.9
+|health_multiplier                = 1.8
+|critical_strike_chance           = 5.0
+|attack_speed                     = 1.995
+}}

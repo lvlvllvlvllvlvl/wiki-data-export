@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = LegionTemplarGroundLaser
+|cast_time                               = 2.145
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 10
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = visual_hit_effect_elemental_is_holy
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_physical_damage
+|static_stat3_value                      = 2
+|static_stat4_id                         = spell_maximum_base_physical_damage
+|static_stat4_value                      = 4
+|static_stat5_id                         = cannot_stun
+|static_stat5_value                      = 1
+|static_stat6_id                         = skill_physical_damage_%_to_convert_to_lightning
+|static_stat6_value                      = 50
+|stat_text                               = Deals 2 to 4 Physical Damage<br>Your Hits cannot Stun Enemies<br>50% of Physical Damage Converted to Lightning Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

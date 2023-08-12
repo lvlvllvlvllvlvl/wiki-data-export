@@ -1,0 +1,30 @@
+{{Skill
+|gem_description                         = Summons a Taunting Contraption that taunts nearby enemies to attack it.
+|active_skill_name                       = Summon Taunting Contraption
+|skill_id                                = SummonTauntingContraption
+|cast_time                               = 0.0
+|required_level                          = 70
+|static_stored_uses                      = 1
+|static_cooldown                         = 8
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 4
+|static_stat1_id                         = display_minion_monster_type
+|static_stat1_value                      = 17
+|static_stat2_id                         = display_minion_monster_level
+|static_stat2_value                      = 70
+|static_stat3_id                         = base_deal_no_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = base_skill_effect_duration
+|static_stat4_value                      = 4000
+|static_stat5_id                         = minion_maximum_life_+%
+|static_stat5_value                      = 150
+|static_stat6_id                         = spell_uncastable_if_triggerable
+|static_stat6_value                      = 1
+|static_stat7_id                         = cast_on_flask_use_%
+|static_stat7_value                      = 100
+|stat_text                               = Base duration is 4 seconds<br>150% increased Minion Maximum Life<br>You cannot Cast this Spell directly<br>Trigger this Spell when you use a Flask
+|level1                                  = True
+|level1_level_requirement                = 70
+}}

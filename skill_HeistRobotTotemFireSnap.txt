@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = Creates a sudden burst of cold in a targeted area, damaging enemies. This also creates an expanding area which is filled with chilled ground, and deals cold damage over time to enemies. Enemies that die while in the area have a chance to grant Frenzy Charges. The cooldown can be bypassed by expending a Frenzy Charge.
+|active_skill_name                       = Cold Snap
+|skill_id                                = HeistRobotTotemFireSnap
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_critical_strike_chance           = 6
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 6
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_fire_damage
+|static_stat2_value                      = 6
+|static_stat3_id                         = spell_maximum_base_fire_damage
+|static_stat3_value                      = 9
+|static_stat4_id                         = base_fire_damage_to_deal_per_minute
+|static_stat4_value                      = 648
+|static_stat5_id                         = base_skill_effect_duration
+|static_stat5_value                      = 6000
+|stat_text                               = Deals 6 to 9 Fire Damage<br>Deals 10.8 Base Fire Damage per second<br>Base duration is 6 seconds
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|item_class_id_restriction               = One Hand Mace, Sceptre, Staff, Two Hand Mace, One Hand Axe, Two Hand Axe, Warstaff
+|skill_id                                = OakSunder
+|cast_time                               = 1.0
+|required_level                          = 12
+|static_stored_uses                      = 1
+|static_cooldown                         = 3
+|static_damage_effectiveness             = 140
+|static_damage_multiplier                = 140
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = active_skill_attack_speed_+%_final
+|static_stat2_value                      = -15
+|static_stat3_id                         = shockwave_slam_explosion_damage_+%_final
+|static_stat3_value                      = -60
+|stat_text                               = 15% less Attack Speed<br>Shockwaves deal 60% less Damage
+|level1                                  = True
+|level1_level_requirement                = 12
+}}

@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = An icy blast explodes around the caster, dealing cold damage to enemies, and leaving behind a whirling vortex which deals cold damage over time and chills enemies caught in it. If the caster targets near their Frostbolt projectiles, it will explode from a number of those projectiles instead, destroying them.
+|active_skill_name                       = Vortex
+|skill_id                                = EssenceDaemonFrostBoltNova
+|cast_time                               = 0.9
+|required_level                          = 3
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 4.75
+|static_stat1_id                         = ground_maelstrom_art_variation
+|static_stat1_value                      = 1
+|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat2_value                      = -17
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_cold_damage
+|static_stat4_value                      = 7
+|static_stat5_id                         = spell_maximum_base_cold_damage
+|static_stat5_value                      = 11
+|static_stat6_id                         = base_cold_damage_to_deal_per_minute
+|static_stat6_value                      = 352
+|static_stat7_id                         = base_skill_effect_duration
+|static_stat7_value                      = 4750
+|stat_text                               = Deals 7 to 11 Cold Damage<br>Deals 5.9 Base Cold Damage per second<br>Base duration is 4.75 seconds
+|level1                                  = True
+|level1_level_requirement                = 3
+}}

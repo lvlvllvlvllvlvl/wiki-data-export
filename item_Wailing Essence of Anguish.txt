@@ -1,0 +1,21 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Wailing Essence of Anguish
+|class_id                                = StackableCurrency
+|size_x                                  = 1
+|size_y                                  = 1
+|drop_level                              = 48
+|tags                                    = essence, currency, default
+|metadata_id                             = Metadata/Items/Currency/CurrencyEssenceAnguish1
+|stack_size                              = 9
+|description                             = Upgrades a normal item to rare with one guaranteed property<br />Properties restricted to level 75 and below<br /><br />One Handed Weapon: Adds (24-33) to (48-57) [[Fire Damage]] to [[Spell|Spells]]<br />Two Handed Weapon: Adds (32-44) to (65-76) [[Fire Damage]] to [[Spell|Spells]]<br />Gloves: Adds (5-7) to (11-13) [[Fire Damage]] to [[Attack|Attacks]]<br />Body Armour: (6-7)% chance to Avoid [[Fire Damage]] from [[Hit|Hits]]<br />Shield: (6-7)% chance to Avoid [[Fire Damage]] from [[Hit|Hits]]<br />Other Armour: (43-46)% chance to Avoid being Ignited<br />Quiver: Adds (17-22) to (33-38) [[Fire Damage]] to [[Attack|Attacks]]<br />Belt: (43-46)% chance to Avoid being Ignited<br />Other Jewellery: Adds (11-15) to (23-27) [[Fire Damage]] to [[Attack|Attacks]]
+|help_text                               = Right click this item then left click a normal item to apply it.<br>Shift click to unstack.
+|stack_size_currency_tab                 = 5000
+|drop_level_maximum                      = 100
+|essence_level_restriction               = 75
+|essence_level                           = 4
+|essence_type                            = 4
+|essence_category                        = Essence of Anguish
+|essence_monster_modifier_ids            = EssenceDaemonModLifeAndDamageLevel4, EssenceDaemonPhysicalAddedAndConvertedToFire, EssenceDaemonMeteorFirestorm
+|is_essence                              = True
+}}

@@ -1,0 +1,32 @@
+{{Skill
+|gem_description                         = Discharge all the character's charges to deal elemental damage to all nearby monsters.
+|active_skill_name                       = Discharge
+|skill_id                                = MonsterDischargeInvasion
+|cast_time                               = 1.0
+|required_level                          = 4
+|static_critical_strike_chance           = 4
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = spell_maximum_action_distance_+%
+|static_stat1_value                      = -75
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = disable_skill_repeats
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_lightning_damage_per_removable_power_charge
+|static_stat4_value                      = 4
+|static_stat5_id                         = spell_maximum_base_lightning_damage_per_removable_power_charge
+|static_stat5_value                      = 12
+|static_stat6_id                         = spell_minimum_base_fire_damage_per_removable_endurance_charge
+|static_stat6_value                      = 6
+|static_stat7_id                         = spell_maximum_base_fire_damage_per_removable_endurance_charge
+|static_stat7_value                      = 9
+|static_stat8_id                         = spell_minimum_base_cold_damage_per_removable_frenzy_charge
+|static_stat8_value                      = 5
+|static_stat9_id                         = spell_maximum_base_cold_damage_per_removable_frenzy_charge
+|static_stat9_value                      = 7
+|stat_text                               = Deals 4 to 12 base Lightning Damage per Power Charge removed<br>Deals 6 to 9 base Fire Damage per Endurance Charge removed<br>Deals 5 to 7 base Cold Damage per Frenzy Charge removed
+|level1                                  = True
+|level1_level_requirement                = 4
+}}

@@ -1,0 +1,31 @@
+{{Skill
+|gem_description                         = This attack fires icy projectiles in a circle around enemies you hit, dealing attack damage with all physical damage converted to cold.
+|active_skill_name                       = Icicle Burst
+|skill_id                                = TriggeredIcicleNova
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 0.5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_projectile_variation
+|static_stat1_value                      = 38
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = projectiles_nova
+|static_stat3_value                      = 1
+|static_stat4_id                         = number_of_additional_projectiles
+|static_stat4_value                      = 8
+|static_stat5_id                         = skill_physical_damage_%_to_convert_to_cold
+|static_stat5_value                      = 100
+|static_stat6_id                         = spell_uncastable_if_triggerable
+|static_stat6_value                      = 1
+|static_stat7_id                         = never_freeze
+|static_stat7_value                      = 1
+|static_stat8_id                         = trigger_on_hit_vs_frozen_enemy_%
+|static_stat8_value                      = 100
+|stat_text                               = Fires Projectiles in a circle<br>Fires 8 additional Projectiles<br>100% of Physical Damage Converted to Cold Damage<br>You cannot Cast this Spell directly<br>Cannot Freeze<br>Trigger this Skill when you Hit a Frozen Enemy
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

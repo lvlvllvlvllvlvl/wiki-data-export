@@ -1,0 +1,33 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = Flicker Thrust
+|skill_id                                = FlickerThrust
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 8
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = flicker_thrust_number_of_teleports
+|static_stat1_value                      = 5
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = global_chance_to_blind_on_hit_%
+|static_stat3_value                      = 25
+|static_stat4_id                         = active_skill_attack_speed_+%_final
+|static_stat4_value                      = -40
+|static_stat5_id                         = global_always_hit
+|static_stat5_value                      = 1
+|stat_text                               = Deals (-50-1250)% more Damage<br>25% chance to Blind enemies on hit<br>40% less Attack Speed<br>Can't be Evaded
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat_text                        = Deals 50% less Damage
+|level1_stat1_id                         = active_skill_damage_+%_final
+|level1_stat1_value                      = -50
+|level2                                  = True
+|level2_level_requirement                = 100
+|level2_stat_text                        = Deals 1250% more Damage
+|level2_stat1_id                         = active_skill_damage_+%_final
+|level2_stat1_value                      = 1250
+}}

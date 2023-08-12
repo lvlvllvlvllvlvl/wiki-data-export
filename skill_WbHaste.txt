@@ -1,0 +1,23 @@
+{{Skill
+|gem_description                         = Casts an aura that increases the movement speed, attack speed and cast speed of you and your allies.
+|active_skill_name                       = Haste
+|skill_id                                = WbHaste
+|cast_time                               = 1.2
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 0.5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 40
+|static_stat2_id                         = base_movement_velocity_+%
+|static_stat2_value                      = 8
+|static_stat3_id                         = attack_speed_+%_granted_from_skill
+|static_stat3_value                      = 15
+|static_stat4_id                         = cast_speed_+%_granted_from_skill
+|static_stat4_value                      = 15
+|stat_text                               = You and nearby allies gain 8% increased Movement Speed<br>You and nearby allies gain 15% increased Attack Speed<br>You and nearby allies gain 15% increased Cast Speed
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

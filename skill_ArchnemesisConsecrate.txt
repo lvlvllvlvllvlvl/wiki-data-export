@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = Creates an area of Consecrated Ground, providing life regeneration and reducing the effect of curses for you and allies who stand in it.
+|active_skill_name                       = Consecrate
+|skill_id                                = ArchnemesisConsecrate
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 6
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 6
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 30
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 6000
+|static_stat3_id                         = life_regeneration_rate_per_minute_%
+|static_stat3_value                      = 120
+|stat_text                               = Base duration is 6 seconds<br>Regenerate 2% of Life per second
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

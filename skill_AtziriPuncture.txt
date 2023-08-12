@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = Punctures enemies, causing a bleeding debuff, which will be affected by modifiers to skill duration. Puncture works with bows, daggers, claws or swords.
+|active_skill_name                       = Puncture
+|item_class_id_restriction               = Bow, Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, Two Hand Sword, Rune Dagger
+|skill_id                                = AtziriPuncture
+|cast_time                               = 1.0
+|required_level                          = 70
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_bleeding_damage_+%_final
+|static_stat1_value                      = -64
+|static_stat2_id                         = skill_can_fire_arrows
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_bleed_duration_+%
+|static_stat3_value                      = -20
+|static_stat4_id                         = global_bleed_on_hit
+|static_stat4_value                      = 1
+|stat_text                               = 20% reduced Bleeding Duration<br>Causes Bleeding
+|level1                                  = True
+|level1_level_requirement                = 70
+}}

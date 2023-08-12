@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = KaomWarriorAncestorSlam
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 0.3
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 170
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_skill_effect_duration
+|static_stat3_value                      = 300
+|static_stat4_id                         = skill_physical_damage_%_to_convert_to_fire
+|static_stat4_value                      = 50
+|static_stat5_id                         = active_skill_attack_speed_+%_final
+|static_stat5_value                      = 20
+|stat_text                               = Base duration is 0.3 seconds<br>50% of Physical Damage Converted to Fire Damage<br>20% more Attack Speed
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_damage_effectiveness             = 300
+|level1_damage_multiplier                = 300
+|level2                                  = True
+|level2_level_requirement                = 68
+|level2_damage_effectiveness             = 180
+|level2_damage_multiplier                = 180
+}}

@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = AscendancyInquisitor9
+|int_id                              = 40059
+|name                                = Augury of Penitence
+|buff_id                             = augry_of_penitence
+|ascendancy_class                    = Inquisitor
+|is_notable                          = True
+|icon                                = ElementalDomination (Inquistitor)
+|stat_text                           = Nearby Enemies take 16% increased [[Elemental Damage]]<br>Nearby Enemies deal 8% less [[Elemental Damage]]
+|stat1_id                            = elemental_damage_taken_+%
+|stat1_value                         = 16
+|stat2_id                            = inquisitor_aura_elemental_damage_+%_final
+|stat2_value                         = -8
+|connections                         = AscendancyInquisitor4
+}}

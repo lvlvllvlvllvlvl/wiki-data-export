@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = impale_notable2401
+|int_id                              = 9194
+|name                                = Merciless Skewering
+|is_notable                          = True
+|icon                                = ImpaleNotable1
+|stat1_id                            = attacks_impale_on_hit_%_chance
+|stat1_value                         = 15
+|stat2_id                            = impale_phys_reduction_%_penalty
+|stat2_value                         = 15
+|stat3_id                            = impale_debuff_effect_+%
+|stat3_value                         = 5
+|stat_text                           = 15% chance to Impale Enemies on [[Hit]] with [[Attack|Attacks]]<br>Impale Damage dealt to Enemies Impaled by you Overwhelms 15% [[Physical Damage]] Reduction<br>5% increased Impale Effect
+|connections                         = mastery_impale15,call_of_steel_speed_area2817,impale2397,mastery_impale15
+}}

@@ -1,0 +1,17 @@
+{{Monster
+|metadata_id                      = Metadata/Monsters/WaterElemental/WaterElementalUniqueStandalone
+|monster_type_id                  = WaterElementalUnique
+|mod_ids                          = MonsterConvertToColdDamage1
+|tags                             = cannot_be_monolith, caster, cleaving_weapon, cold_affinity, construct, hidden_monster, is_unarmed, liquid_armour, melee, not_dex, not_str, physical_affinity, slow_movement, unusable_corpse, water, water_elemental
+|skill_ids                        = MeleeAtAnimationSpeedUnique, WaterElementalWaterCascade, SummonWaterElementalOnDamageTaken
+|name                             = Riptide
+|size                             = 3
+|minimum_attack_distance          = 6
+|maximum_attack_distance          = 13
+|model_size_multiplier            = 1.4
+|experience_multiplier            = 1.8
+|damage_multiplier                = 1.89
+|health_multiplier                = 3.6
+|critical_strike_chance           = 5.0
+|attack_speed                     = 1.5
+}}

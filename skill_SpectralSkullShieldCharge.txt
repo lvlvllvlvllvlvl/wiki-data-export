@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = Charges at an enemy, bashing it with the character's shield and striking it. This knocks it back and stuns it. Enemies in the way are pushed to the side. Damage and stun are proportional to distance travelled. Cannot be supported by Multistrike.
+|active_skill_name                       = Shield Charge
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Unarmed, Rune Dagger
+|skill_id                                = SpectralSkullShieldCharge
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = ignores_proximity_shield
+|static_stat1_value                      = 1
+|static_stat2_id                         = active_skill_damage_+%_final
+|static_stat2_value                      = -50
+|static_stat3_id                         = shield_charge_stun_duration_+%_maximum
+|static_stat3_value                      = 200
+|static_stat4_id                         = shield_charge_damage_+%_maximum
+|static_stat4_value                      = 300
+|static_stat5_id                         = base_movement_velocity_+%
+|static_stat5_value                      = 500
+|stat_text                               = Deals 50% less Damage<br>200% increased Stun Duration on enemies at Maximum charge distance<br>300% more Damage with Hits at Maximum Charge Distance<br>500% increased Movement Speed
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

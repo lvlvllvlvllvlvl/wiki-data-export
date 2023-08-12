@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = SpiderPoisonProjectileChampion
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 2
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_projectile_variation
+|static_stat1_value                      = 5
+|static_stat2_id                         = spell_minimum_base_chaos_damage
+|static_stat2_value                      = 2
+|static_stat3_id                         = spell_maximum_base_chaos_damage
+|static_stat3_value                      = 3
+|static_stat4_id                         = base_projectile_speed_+%
+|static_stat4_value                      = -20
+|static_stat5_id                         = global_poison_on_hit
+|static_stat5_value                      = 1
+|stat_text                               = Deals 2 to 3 Chaos Damage<br>20% reduced Projectile Speed<br>Poisons Enemies on Hit
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

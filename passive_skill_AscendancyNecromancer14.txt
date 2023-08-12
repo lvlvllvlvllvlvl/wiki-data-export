@@ -1,0 +1,16 @@
+{{Passive skill
+|id                                  = AscendancyNecromancer14
+|int_id                              = 11490
+|name                                = Plaguebringer
+|ascendancy_class                    = Necromancer
+|is_notable                          = True
+|icon                                = PlagueBringer (Necromancer)
+|stat1_id                            = necromancer_damage_+%_for_nearby_enemies_with_nearby_corpse
+|stat1_value                         = -10
+|stat2_id                            = necromancer_damage_+%_final_for_you_and_allies_with_nearby_corpse
+|stat2_value                         = 10
+|stat3_id                            = area_of_effect_+%_for_you_and_minions_if_consumed_corpse_recently
+|stat3_value                         = 30
+|stat_text                           = With at least one nearby corpse, nearby Enemies deal 10% reduced Damage<br>With at least one nearby corpse, you and nearby Allies deal 10% more Damage<br>If you've Consumed a corpse Recently, you and your [[Minion|Minions]] have 30% increased Area of Effect
+|connections                         = AscendancyNecromancer15,AscendancyNecromancer15,AscendancyNecromancer3
+}}

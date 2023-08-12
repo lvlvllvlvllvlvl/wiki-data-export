@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = shield_mastery34
+|int_id                              = 20832
+|name                                = Sanctuary
+|is_notable                          = True
+|icon                                = Sanctuary
+|stat1_id                            = shield_block_%
+|stat1_value                         = 4
+|stat2_id                            = shield_spell_block_%
+|stat2_value                         = 4
+|stat3_id                            = resist_all_elements_+%_while_holding_shield
+|stat3_value                         = 12
+|stat_text                           = +4% Chance to [[Block]] [[Attack Damage]] while holding a [[Shield]]<br>+4% Chance to [[Block]] [[Spell Damage]] while holding a [[Shield]]<br>+12% [[Elemental Resistance|Elemental Resistances]] while holding a [[Shield]]
+|connections                         = shield_block_and_block_recovery29,mastery_shield212,shield_defences1063
+}}

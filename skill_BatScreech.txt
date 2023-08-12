@@ -1,0 +1,30 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = BatScreech
+|cast_time                               = 1.0
+|required_level                          = 3
+|static_stored_uses                      = 1
+|static_cooldown                         = 4
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|stat_text                               = Deals (6-899) to (10-1349) Lightning Damage
+|level1                                  = True
+|level1_level_requirement                = 3
+|level1_stat_text                        = Deals 6 to 10 Lightning Damage
+|level1_stat1_id                         = spell_minimum_base_lightning_damage
+|level1_stat1_value                      = 6
+|level1_stat2_id                         = spell_maximum_base_lightning_damage
+|level1_stat2_value                      = 10
+|level2                                  = True
+|level2_level_requirement                = 68
+|level2_stat_text                        = Deals 899 to 1349 Lightning Damage
+|level2_stat1_id                         = spell_minimum_base_lightning_damage
+|level2_stat1_value                      = 899
+|level2_stat2_id                         = spell_maximum_base_lightning_damage
+|level2_stat2_value                      = 1349
+}}

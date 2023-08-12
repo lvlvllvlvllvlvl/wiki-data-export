@@ -1,0 +1,33 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = MachinariumLightningStormCascade
+|cast_time                               = 1.0
+|required_level                          = 80
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 1.5
+|static_stat1_id                         = skill_override_pvp_scaling_time_ms
+|static_stat1_value                      = 450
+|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat2_value                      = -50
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_lightning_damage
+|static_stat4_value                      = 1679
+|static_stat5_id                         = spell_maximum_base_lightning_damage
+|static_stat5_value                      = 5038
+|static_stat6_id                         = base_skill_effect_duration
+|static_stat6_value                      = 1500
+|static_stat7_id                         = base_secondary_skill_effect_duration
+|static_stat7_value                      = 500
+|static_stat8_id                         = fire_storm_fireball_delay_ms
+|static_stat8_value                      = 500
+|static_stat9_id                         = upheaval_number_of_spikes
+|static_stat9_value                      = 10
+|stat_text                               = Deals 1679 to 5038 Lightning Damage<br>Base duration is 1.5 seconds<br>Base secondary duration is 0.5 seconds<br>One impact every 0.5 seconds<br>Causes 10 Bursts
+|level1                                  = True
+|level1_level_requirement                = 80
+}}

@@ -1,0 +1,17 @@
+{{Skill
+|gem_description                         = Teleport to a target destination. Chilled ground is spread in an area around both where the caster was and where they teleported to.
+|active_skill_name                       = Illusory Warp
+|skill_id                                = BestiaryParasiticSquidWarp
+|cast_time                               = 2.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 10
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_movement_velocity_+%
+|static_stat1_value                      = -50
+|stat_text                               = 50% reduced Movement Speed
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

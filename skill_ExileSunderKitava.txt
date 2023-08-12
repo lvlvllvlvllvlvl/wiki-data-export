@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = Slams the ground with a Mace, Sceptre, Axe or Staff, creating a wave of broken ground that damages enemies in an area in front of you. Enemies hit by the wave will release a circular shockwave, dealing damage to other enemies around them.
+|active_skill_name                       = Sunder
+|item_class_id_restriction               = One Hand Mace, Sceptre, Staff, Two Hand Mace, One Hand Axe, Two Hand Axe, Unarmed, Warstaff
+|skill_id                                = ExileSunderKitava
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 60
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = firestorm_base_area_of_effect_+%
+|static_stat1_value                      = 80
+|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat2_value                      = -50
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = active_skill_attack_speed_+%_final
+|static_stat4_value                      = 5
+|static_stat5_id                         = shockwave_slam_explosion_damage_+%_final
+|static_stat5_value                      = -85
+|stat_text                               = 5% more Attack Speed<br>Shockwaves deal 85% less Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

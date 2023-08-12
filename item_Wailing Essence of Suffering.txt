@@ -1,0 +1,21 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Wailing Essence of Suffering
+|class_id                                = StackableCurrency
+|size_x                                  = 1
+|size_y                                  = 1
+|drop_level                              = 48
+|tags                                    = essence, currency, default
+|metadata_id                             = Metadata/Items/Currency/CurrencyEssenceSuffering2
+|stack_size                              = 9
+|description                             = Upgrades a normal item to rare with one guaranteed property<br />Properties restricted to level 75 and below<br /><br />One Handed Weapon: Adds (20-26) to (40-46) [[Cold Damage]] to [[Spell|Spells]]<br />Two Handed Weapon: Adds (30-40) to (59-69) [[Cold Damage]] to [[Spell|Spells]]<br />Gloves: Adds (5-7) to (10-12) [[Cold Damage]] to [[Attack|Attacks]]<br />Body Armour: (6-7)% chance to Avoid [[Cold Damage]] from [[Hit|Hits]]<br />Shield: (6-7)% chance to Avoid [[Cold Damage]] from [[Hit|Hits]]<br />Other Armour: (43-46)% chance to Avoid being [[Freeze|Frozen]]<br />Quiver: Adds (15-20) to (30-35) [[Cold Damage]] to [[Attack|Attacks]]<br />Belt: (43-46)% chance to Avoid being [[Freeze|Frozen]]<br />Other Jewellery: Adds (10-13) to (20-24) [[Cold Damage]] to [[Attack|Attacks]]
+|help_text                               = Right click this item then left click a normal item to apply it.<br>Shift click to unstack.
+|stack_size_currency_tab                 = 5000
+|drop_level_maximum                      = 100
+|essence_level_restriction               = 75
+|essence_level                           = 4
+|essence_type                            = 3
+|essence_category                        = Essence of Suffering
+|essence_monster_modifier_ids            = EssenceDaemonModLifeAndDamageLevel4, EssenceDaemonPhysicalAddedAndConvertedToCold
+|is_essence                              = True
+}}

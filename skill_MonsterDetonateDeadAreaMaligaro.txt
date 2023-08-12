@@ -1,0 +1,33 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = MonsterDetonateDeadAreaMaligaro
+|cast_time                               = 0.75
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 6
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 2
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_fire_damage
+|static_stat2_value                      = 9
+|static_stat3_id                         = spell_maximum_base_fire_damage
+|static_stat3_value                      = 14
+|static_stat4_id                         = base_skill_effect_duration
+|static_stat4_value                      = 2000
+|static_stat5_id                         = base_secondary_skill_effect_duration
+|static_stat5_value                      = 500
+|static_stat6_id                         = corpse_explosion_monster_life_%
+|static_stat6_value                      = 1
+|static_stat7_id                         = skill_fire_damage_%_to_convert_to_chaos
+|static_stat7_value                      = 20
+|static_stat8_id                         = upheaval_number_of_spikes
+|static_stat8_value                      = 6
+|stat_text                               = Deals 9 to 14 Fire Damage<br>Base duration is 2 seconds<br>Base secondary duration is 0.5 seconds<br>Explosion deals base Fire Damage equal to 1% of the corpse's Maximum Life<br>20% of Fire Damage Converted to Chaos Damage<br>Causes 6 Bursts
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

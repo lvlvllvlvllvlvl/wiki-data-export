@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = player_and_minion_notable2237
+|int_id                              = 43689
+|name                                = Spiritual Command
+|is_notable                          = True
+|icon                                = SpiritualCommand
+|stat1_id                            = minion_attack_speed_+%
+|stat1_value                         = 8
+|stat2_id                            = additive_modifiers_to_minion_attack_speed_also_affect_you
+|stat2_value                         = 1
+|stat3_id                            = minion_cast_speed_+%
+|stat3_value                         = 8
+|stat_text                           = [[Minion|Minions]] have 8% increased [[Attack Speed]]<br>Increases and Reductions to [[Minion]] [[Attack Speed]] also affect you<br>[[Minion|Minions]] have 8% increased [[Cast Speed]]
+|connections                         = minion_damage769,mastery_minionoffence185,attack_and_minion_damage_2212
+}}

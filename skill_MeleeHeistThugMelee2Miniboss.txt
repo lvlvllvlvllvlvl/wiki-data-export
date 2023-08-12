@@ -1,0 +1,23 @@
+{{Skill
+|gem_description                         = Strike your foes down with a powerful blow.
+|active_skill_name                       = Default Attack
+|skill_id                                = MeleeHeistThugMelee2Miniboss
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 75
+|static_stat1_id                         = base_knockback_speed_+%
+|static_stat1_value                      = 100
+|static_stat2_id                         = skill_can_fire_arrows
+|static_stat2_value                      = 1
+|static_stat3_id                         = skill_can_fire_wand_projectiles
+|static_stat3_value                      = 1
+|static_stat4_id                         = determine_knockback_direction_from_melee_pattern
+|static_stat4_value                      = 1
+|static_stat5_id                         = global_knockback
+|static_stat5_value                      = 1
+|stat_text                               = Knocks Enemies Back on Hit
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

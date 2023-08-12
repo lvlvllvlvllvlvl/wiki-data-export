@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = Throws a trap that applies debuff beams to a number of nearby enemies for a duration. The beams chill enemies and deal cold damage over time. A beam is also applied to you, granting life and mana regeneration based on the number of debuff beams affecting enemies.
+|active_skill_name                       = Siphoning Trap
+|skill_id                                = BlightTowerChillingBeams2_buff2
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 4
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 7
+|static_stat1_id                         = action_speed_+%_while_chilled
+|static_stat1_value                      = -50
+|static_stat2_id                         = base_cold_damage_to_deal_per_minute
+|static_stat2_value                      = 486
+|static_stat3_id                         = base_skill_effect_duration
+|static_stat3_value                      = 7000
+|static_stat4_id                         = ice_siphon_trap_max_beam_targets
+|static_stat4_value                      = 16
+|stat_text                               = 50% redcued Action Speed while Chilled<br>Deals 8.1 Base Cold Damage per second<br>Base duration is 7 seconds<br>Applies beams to the closest 16 Enemies
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

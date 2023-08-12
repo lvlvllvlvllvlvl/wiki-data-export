@@ -1,0 +1,36 @@
+{{Skill
+|gem_description                         = Flaming bolts rain down over the targeted area. They explode when landing, dealing damage to nearby enemies.
+|active_skill_name                       = Firestorm
+|skill_id                                = IncaBossRocksTriggered
+|cast_time                               = 1.0
+|required_level                          = 23
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 0.9
+|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat1_value                      = -25
+|static_stat2_id                         = firestorm_base_area_of_effect_+%
+|static_stat2_value                      = -50
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = base_skill_effect_duration
+|static_stat4_value                      = 900
+|static_stat5_id                         = fire_storm_fireball_delay_ms
+|static_stat5_value                      = 300
+|stat_text                               = Deals (22-295) to (34-442) Physical Damage<br>Base duration is 0.9 seconds<br>One impact every 0.3 seconds
+|level1                                  = True
+|level1_level_requirement                = 23
+|level1_stat_text                        = Deals 22 to 34 Physical Damage
+|level1_stat1_id                         = spell_minimum_base_physical_damage
+|level1_stat1_value                      = 22
+|level1_stat2_id                         = spell_maximum_base_physical_damage
+|level1_stat2_value                      = 34
+|level2                                  = True
+|level2_level_requirement                = 67
+|level2_stat_text                        = Deals 295 to 442 Physical Damage
+|level2_stat1_id                         = spell_minimum_base_physical_damage
+|level2_stat1_value                      = 295
+|level2_stat2_id                         = spell_maximum_base_physical_damage
+|level2_stat2_value                      = 442
+}}

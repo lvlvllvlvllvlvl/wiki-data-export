@@ -1,0 +1,36 @@
+{{Skill
+|gem_description                         = Ethereal weapons rain from the sky, dealing damage to enemies in a sequence of volleys, each wider but less damaging than the last. Enemies can be hit multiple times where these overlap.
+|active_skill_name                       = Bladefall
+|skill_id                                = IguanaBossBladefall
+|cast_time                               = 2.5
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 5
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 90
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 50
+|static_stat2_id                         = bladefall_width_+%
+|static_stat2_value                      = -70
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = visual_hit_effect_chaos_is_green
+|static_stat4_value                      = 1
+|static_stat5_id                         = spell_minimum_base_physical_damage
+|static_stat5_value                      = 2
+|static_stat6_id                         = spell_maximum_base_physical_damage
+|static_stat6_value                      = 3
+|static_stat7_id                         = cannot_stun
+|static_stat7_value                      = 1
+|static_stat8_id                         = bladefall_number_of_volleys
+|static_stat8_value                      = 6
+|static_stat9_id                         = skill_physical_damage_%_to_convert_to_chaos
+|static_stat9_value                      = 25
+|static_stat10_id                        = base_chance_to_poison_on_hit_%
+|static_stat10_value                     = 100
+|stat_text                               = Deals 2 to 3 Physical Damage<br>Your Hits cannot Stun Enemies<br>6 Volleys<br>25% of Physical Damage Converted to Chaos Damage<br>Always Poison on Hit
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

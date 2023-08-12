@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = HeistTwinsTotemProjectileIce
+|cast_time                               = 1.0
+|required_level                          = 0
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_projectile_variation
+|static_stat1_value                      = 136
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = use_scaled_contact_offset
+|static_stat3_value                      = 1
+|static_stat4_id                         = projectile_uses_contact_position
+|static_stat4_value                      = 1
+|static_stat5_id                         = cast_time_overrides_attack_duration
+|static_stat5_value                      = 1
+|static_stat6_id                         = skill_physical_damage_%_to_convert_to_cold
+|static_stat6_value                      = 50
+|stat_text                               = 50% of Physical Damage Converted to Cold Damage
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

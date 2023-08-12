@@ -1,0 +1,18 @@
+{{Passive skill
+|id                                  = AscendancyHeirophant8
+|int_id                              = 29026
+|name                                = Sanctuary of Thought
+|ascendancy_class                    = Hierophant
+|is_notable                          = True
+|icon                                = MindOverBeing (Hierophant)
+|stat1_id                            = mana_%_to_add_as_energy_shield
+|stat1_value                         = 20
+|stat2_id                            = base_mana_reservation_efficiency_+%
+|stat2_value                         = 25
+|stat3_id                            = hierophant_mana_cost_+%_final
+|stat3_value                         = -50
+|stat4_id                            = hierophant_area_of_effect_+%_per_50_unreserved_mana_up_to_100%
+|stat4_value                         = 1
+|stat_text                           = Gain 20% of Maximum [[Mana]] as Extra Maximum [[Energy Shield]]<br>25% increased [[Mana Reservation]] Efficiency of [[Skill|Skills]]<br>50% less [[Mana]] Cost of [[Skill|Skills]]<br>1% increased Area of Effect per 50 Unreserved Maximum Mana, up to 100%
+|connections                         = AscendancyHeirophant4_
+}}

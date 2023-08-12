@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = ExpeditionArbalestRainOfArrows
+|cast_time                               = 1.0
+|required_level                          = 0
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 95
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_physical_damage_%_to_convert_to_cold
+|static_stat2_value                      = 30
+|static_stat3_id                         = maim_on_hit_%
+|static_stat3_value                      = 35
+|stat_text                               = Deals (15-0)% more Damage<br>30% of Physical Damage Converted to Cold Damage<br>35% chance to Maim on Hit
+|level1                                  = True
+|level1_level_requirement                = 0
+|level1_stat_text                        = Deals 15% more Damage
+|level1_stat1_id                         = active_skill_damage_+%_final
+|level1_stat1_value                      = 15
+|level2                                  = True
+|level2_level_requirement                = 68
+}}

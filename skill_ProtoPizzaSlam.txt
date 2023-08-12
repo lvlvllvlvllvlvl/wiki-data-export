@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = ProtoPizzaSlam
+|cast_time                               = 3.33
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 14
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat1_value                      = -50
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = active_skill_damage_+%_final
+|static_stat3_value                      = 275
+|static_stat4_id                         = skill_physical_damage_%_to_convert_to_cold
+|static_stat4_value                      = 75
+|static_stat5_id                         = active_skill_attack_speed_+%_final
+|static_stat5_value                      = -25
+|static_stat6_id                         = upheaval_number_of_spikes
+|static_stat6_value                      = 20
+|stat_text                               = Deals 275% more Damage<br>75% of Physical Damage Converted to Cold Damage<br>25% less Attack Speed<br>Causes 20 Bursts
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

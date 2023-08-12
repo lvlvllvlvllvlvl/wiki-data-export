@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = A chilling circle of ice expands from the caster, repeating from every enemy it hits.
+|active_skill_name                       = Vaal Ice Nova
+|skill_id                                = RampageDaemonSuperRippleNova
+|cast_time                               = 0.8
+|required_level                          = 2
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 15
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_physical_damage
+|static_stat3_value                      = 10
+|static_stat4_id                         = spell_maximum_base_physical_damage
+|static_stat4_value                      = 14
+|static_stat5_id                         = base_cast_speed_+%
+|static_stat5_value                      = 300
+|static_stat6_id                         = ice_nova_number_of_repeats
+|static_stat6_value                      = 20
+|static_stat7_id                         = ice_nova_radius_+%_per_repeat
+|static_stat7_value                      = -5
+|stat_text                               = Deals 10 to 14 Physical Damage<br>300% increased Cast Speed<br>Causes smaller novas up to 20 times on enemies hit<br>5% reduced Area of Effect each repeat
+|level1                                  = True
+|level1_level_requirement                = 2
+}}

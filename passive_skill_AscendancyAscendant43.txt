@@ -1,0 +1,20 @@
+{{Passive skill
+|id                                  = AscendancyAscendant43
+|int_id                              = 43962
+|name                                = Inquisitor
+|reminder_text                       = (You can only take one of the three Templar Ascendancy passives)<br>(Allies on your Consecrated Ground Regenerate a percentage of their Maximum Life per second, and Curses have 50% reduced effect on them)
+|buff_id                             = scion_augry_of_penitence
+|ascendancy_class                    = Ascendant
+|is_multiple_choice_option           = True
+|icon                                = Inquisitor (Ascendants)
+|stat1_id                            = base_penetrate_elemental_resistances_%
+|stat1_value                         = 8
+|stat2_id                            = create_consecrated_ground_on_hit_%_vs_rare_or_unique_enemy
+|stat2_value                         = 10
+|stat3_id                            = your_consecrated_ground_effect_lingers_for_ms_after_leaving_the_area
+|stat3_value                         = 4000
+|stat_text                           = Damage Penetrates 8% of Enemy [[Elemental Resistance|Elemental Resistances]]<br>10% chance to create Consecrated Ground when you [[Hit]] a Rare or Unique Enemy, lasting 8 seconds<br>Effects of Consecrated Ground you create Linger for 4 seconds<br>Nearby Enemies take 10% increased [[Elemental Damage]]
+|stat4_id                            = elemental_damage_taken_+%
+|stat4_value                         = 10
+|connections                         = AscendancyAscendant29
+}}

@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = mana_curse_notable2595
+|int_id                              = 51748
+|name                                = Last Rites
+|is_notable                          = True
+|icon                                = LifeandCursesN
+|stat1_id                            = enemies_cursed_by_you_have_life_regeneration_rate_+%
+|stat1_value                         = -50
+|stat2_id                            = enemies_you_curse_cannot_recharge_energy_shield
+|stat2_value                         = 1
+|stat3_id                            = cursed_enemies_are_exorcised_on_kill
+|stat3_value                         = 1
+|stat_text                           = Enemies Cursed by you have 50% reduced [[Life]] Regeneration Rate<br>Enemies you [[Curse]] cannot Recharge [[Energy Shield]]<br>Cursed Enemies you [[Kill]] are destroyed
+|connections                         = mastery_mana161,mana_on_cursed_kill2879,mana_curse2594,mana_on_cursed_kill2879,mastery_mana161
+}}

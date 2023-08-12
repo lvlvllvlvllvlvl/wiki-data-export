@@ -1,0 +1,14 @@
+{{Passive skill
+|id                                  = affliction_notable_sadist
+|int_id                              = 42117
+|name                                = Sadist
+|is_notable                          = True
+|icon                                = IncreasedElementalDamage
+|stat1_id                            = elemental_damage_+%_if_enemy_chilled_recently
+|stat1_value                         = 15
+|stat2_id                            = elemental_damage_+%_if_enemy_shocked_recently
+|stat2_value                         = 25
+|stat3_id                            = elemental_damage_+%_if_enemy_ignited_recently
+|stat3_value                         = 20
+|stat_text                           = 15% increased [[Elemental Damage]] if you've Chilled an Enemy [[Recently]]<br>25% increased [[Elemental Damage]] if you've [[Shock|Shocked]] an Enemy [[Recently]]<br>20% increased [[Elemental Damage]] if you've Ignited an Enemy [[Recently]]
+}}

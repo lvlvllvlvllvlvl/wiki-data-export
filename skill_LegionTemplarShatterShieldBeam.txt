@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = LegionTemplarShatterShieldBeam
+|cast_time                               = 1.0
+|required_level                          = 0
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = visual_hit_effect_elemental_is_holy
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_physical_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_maximum_base_physical_damage
+|static_stat4_value                      = 1
+|static_stat5_id                         = cannot_stun
+|static_stat5_value                      = 1
+|static_stat6_id                         = skill_physical_damage_%_to_convert_to_lightning
+|static_stat6_value                      = 50
+|stat_text                               = Deals 1 to 1 Physical Damage<br>Your Hits cannot Stun Enemies<br>50% of Physical Damage Converted to Lightning Damage
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

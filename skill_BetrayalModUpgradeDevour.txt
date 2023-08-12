@@ -1,0 +1,36 @@
+{{Skill
+|gem_description                         = Summons a totem that can consume nearby corpses. If you are hurt, it will destroy a corpse to leech life to you.
+|active_skill_name                       = Devouring Totem
+|skill_id                                = BetrayalModUpgradeDevour
+|cast_time                               = 1.0
+|required_level                          = 4
+|static_stored_uses                      = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|stat_text                               = Leeches (22-50000) Life to you for each corpse Consumed
+|level1                                  = True
+|level1_level_requirement                = 4
+|level1_cooldown                         = 6
+|level1_stat_text                        = Leeches 22 Life to you for each corpse Consumed
+|level1_stat1_id                         = corpse_consumption_life_to_gain
+|level1_stat1_value                      = 22
+|level2                                  = True
+|level2_level_requirement                = 35
+|level2_cooldown                         = 4
+|level2_stat_text                        = Leeches 2300 Life to you for each corpse Consumed
+|level2_stat1_id                         = corpse_consumption_life_to_gain
+|level2_stat1_value                      = 2300
+|level3                                  = True
+|level3_level_requirement                = 68
+|level3_cooldown                         = 4
+|level3_stat_text                        = Leeches 12000 Life to you for each corpse Consumed
+|level3_stat1_id                         = corpse_consumption_life_to_gain
+|level3_stat1_value                      = 12000
+|level4                                  = True
+|level4_level_requirement                = 84
+|level4_cooldown                         = 4
+|level4_stat_text                        = Leeches 50000 Life to you for each corpse Consumed
+|level4_stat1_id                         = corpse_consumption_life_to_gain
+|level4_stat1_value                      = 50000
+}}

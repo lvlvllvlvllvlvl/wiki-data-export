@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = trap_mine_elemental_penetration_notable_1525
+|int_id                              = 21297
+|name                                = High Explosives
+|is_notable                          = True
+|icon                                = highexplosives
+|stat1_id                            = trap_critical_strike_chance_+%
+|stat1_value                         = 60
+|stat2_id                            = trap_critical_strike_multiplier_+
+|stat2_value                         = 20
+|stat3_id                            = %_chance_to_gain_power_charge_on_trap_triggered_by_an_enemy
+|stat3_value                         = 15
+|stat_text                           = 60% increased [[Critical Strike Chance]] with [[Trap|Traps]]<br>+20% to [[Critical Strike Multiplier]] with [[Trap|Traps]]<br>15% chance to gain a [[Power Charge]] when your [[Trap]] is triggered by an Enemy
+|connections                         = trap_laying_speed1267,mastery_trap236,trap_damage_trigger_radius2141
+}}

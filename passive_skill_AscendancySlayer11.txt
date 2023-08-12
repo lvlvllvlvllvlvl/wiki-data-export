@@ -1,0 +1,16 @@
+{{Passive skill
+|id                                  = AscendancySlayer11
+|int_id                              = 10143
+|name                                = Brutal Fervour
+|ascendancy_class                    = Slayer
+|is_notable                          = True
+|icon                                = BrutalFervor (Slayer)
+|stat1_id                            = life_leech_does_not_stop_at_full_life
+|stat1_value                         = 1
+|stat2_id                            = damage_taken_+%_while_leeching
+|stat2_value                         = -10
+|stat3_id                            = maximum_life_leech_amount_per_leech_+%
+|stat3_value                         = 100
+|stat_text                           = [[Life]] [[Leech]] effects are not removed when Unreserved [[Life]] is Filled<br>10% reduced Damage taken while Leeching<br>100% increased Maximum Recovery per [[Life]] [[Leech]]
+|connections                         = AscendancySlayer4,AscendancySlayer4,AscendancySlayer5
+}}

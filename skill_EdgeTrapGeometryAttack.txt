@@ -1,0 +1,29 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = EdgeTrapGeometryAttack
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = geometry_attack_%_target_life_to_deal_as_additional_damage
+|static_stat1_value                      = 25
+|static_stat2_id                         = geometry_attack_%_target_es_to_deal_as_additional_damage
+|static_stat2_value                      = 15
+|static_stat3_id                         = damage_+%_vs_players
+|static_stat3_value                      = 20
+|static_stat4_id                         = active_skill_bleeding_damage_+%_final
+|static_stat4_value                      = -45
+|static_stat5_id                         = cannot_be_blocked_or_dodged_or_suppressed
+|static_stat5_value                      = 1
+|static_stat6_id                         = base_bleed_duration_+%
+|static_stat6_value                      = -40
+|static_stat7_id                         = global_always_hit
+|static_stat7_value                      = 1
+|static_stat8_id                         = global_bleed_on_hit
+|static_stat8_value                      = 1
+|stat_text                               = 40% reduced Bleeding Duration<br>Can't be Evaded<br>Causes Bleeding
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

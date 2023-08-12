@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = Fires an arrow which acts as a short duration fuse. Applying additional arrows to an enemy extends the duration. When the target dies or the fuses expire, the arrows explode, dealing fire AoE damage to nearby enemies. The AoE radius is proportional to the number of arrows upon death.
+|active_skill_name                       = Explosive Arrow
+|item_class_id_restriction               = Bow
+|skill_id                                = BanditExplosiveArrowChampion
+|cast_time                               = 1.0
+|required_level                          = 4
+|static_critical_strike_chance           = 6
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 1
+|static_stat1_id                         = skill_can_fire_arrows
+|static_stat1_value                      = 1
+|static_stat2_id                         = base_is_projectile
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_skill_effect_duration
+|static_stat3_value                      = 1000
+|static_stat4_id                         = minimum_fire_damage_per_fuse_arrow_orb
+|static_stat4_value                      = 8
+|static_stat5_id                         = maximum_fire_damage_per_fuse_arrow_orb
+|static_stat5_value                      = 13
+|static_stat6_id                         = fuse_arrow_explosion_radius_+_per_fuse_arrow_orb
+|static_stat6_value                      = 2
+|stat_text                               = Base duration is 1 seconds<br>Explosion deals 8 to 13 Base Fire Damage per Fuse Charge<br>+2 to Explosion Radius per Explosive Arrow on Target
+|level1                                  = True
+|level1_level_requirement                = 4
+}}

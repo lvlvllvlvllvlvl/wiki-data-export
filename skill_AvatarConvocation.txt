@@ -1,0 +1,21 @@
+{{Skill
+|gem_description                         = Recalls all minions that are following you to your location, and grants them a temporary life regeneration effect.
+|active_skill_name                       = Convocation
+|skill_id                                = AvatarConvocation
+|cast_time                               = 0.8
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 10
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = convocation_max_number_of_minions_to_teleport
+|static_stat1_value                      = 10
+|static_stat2_id                         = base_deal_no_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_secondary_skill_effect_duration
+|static_stat3_value                      = 2000
+|stat_text                               = Base secondary duration is 2 seconds
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

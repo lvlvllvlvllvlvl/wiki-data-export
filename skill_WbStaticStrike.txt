@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = Strike your enemies with a melee weapon, building up static energy on you. This energy damages enemies around you when it expires, dealing damage that cannot be evaded or dodged. 
+|active_skill_name                       = Static Strike
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff, Rune Dagger
+|skill_id                                = WbStaticStrike
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_cost_amounts                     = 7
+|static_cost_types                       = Mana
+|static_damage_effectiveness             = 110
+|static_damage_multiplier                = 110
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 0.75
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = -16
+|static_stat2_id                         = skill_physical_damage_%_to_convert_to_lightning
+|static_stat2_value                      = 60
+|static_stat3_id                         = base_skill_effect_duration
+|static_stat3_value                      = 750
+|static_stat4_id                         = static_strike_explosion_damage_+%_final
+|static_stat4_value                      = -40
+|stat_text                               = 60% of Physical Damage Converted to Lightning Damage<br>Base duration is 0.75 seconds<br>Explosion deals 40% less Damage with Hits and Ailments
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

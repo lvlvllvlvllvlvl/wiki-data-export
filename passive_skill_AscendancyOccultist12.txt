@@ -1,0 +1,19 @@
+{{Passive skill
+|id                                  = AscendancyOccultist12
+|int_id                              = 62504
+|name                                = Forbidden Power
+|buff_id                             = occultist_power_charge_on_mana_spent
+|ascendancy_class                    = Occultist
+|is_notable                          = True
+|icon                                = VowOfDamnation (Occultist)
+|stat1_id                            = max_power_charges
+|stat1_value                         = 1
+|stat2_id                            = skill_area_of_effect_+%_per_power_charge
+|stat2_value                         = 6
+|stat3_id                            = damage_+%_per_power_charge
+|stat3_value                         = 6
+|stat4_id                            = local_display_gain_power_charge_on_spending_mana
+|stat4_value                         = 200
+|stat_text                           = +1 to Maximum [[Power Charge|Power Charges]]<br>6% increased Area of Effect per [[Power Charge]]<br>6% increased Damage per [[Power Charge]]<br>Gain a [[Power Charge]] after Spending a total of 200 [[Mana]]<br>
+|connections                         = AscendancyOccultist4
+}}

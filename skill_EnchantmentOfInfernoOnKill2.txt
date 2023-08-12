@@ -1,0 +1,35 @@
+{{Skill
+|gem_description                         = Drops a meteor from above on a nearby foe, dealing fire damage in an area around them.
+|active_skill_name                       = Edict of Inferno
+|skill_id                                = EnchantmentOfInfernoOnKill2
+|cast_time                               = 1.0
+|required_level                          = 53
+|static_stored_uses                      = 1
+|static_cooldown                         = 10
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 2
+|static_stat1_id                         = skill_override_pvp_scaling_time_ms
+|static_stat1_value                      = 450
+|static_stat2_id                         = base_skill_show_average_damage_instead_of_dps
+|static_stat2_value                      = 1
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_fire_damage
+|static_stat4_value                      = 722
+|static_stat5_id                         = spell_maximum_base_fire_damage
+|static_stat5_value                      = 1107
+|static_stat6_id                         = base_skill_effect_duration
+|static_stat6_value                      = 2000
+|static_stat7_id                         = fire_storm_fireball_delay_ms
+|static_stat7_value                      = 100
+|static_stat8_id                         = chance_to_cast_on_kill_%_target_self
+|static_stat8_value                      = 100
+|static_stat9_id                         = damage_cannot_be_reflected
+|static_stat9_value                      = 1
+|stat_text                               = Deals 722 to 1107 Fire Damage<br>Base duration is 2 seconds<br>One impact every 0.1 seconds<br>Trigger this Spell on Kill<br>Damage cannot be Reflected
+|level1                                  = True
+|level1_level_requirement                = 53
+}}

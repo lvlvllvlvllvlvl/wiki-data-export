@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = 
+|skill_id                                = RootSpiderProjectile
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_projectile_variation
+|static_stat1_value                      = 6
+|static_stat2_id                         = spell_maximum_action_distance_+%
+|static_stat2_value                      = -30
+|static_stat3_id                         = base_is_projectile
+|static_stat3_value                      = 1
+|static_stat4_id                         = base_projectile_speed_+%
+|static_stat4_value                      = 100
+|stat_text                               = Deals (45-0)% more Damage<br>100% increased Projectile Speed
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat_text                        = Deals 45% more Damage
+|level1_stat1_id                         = active_skill_damage_+%_final
+|level1_stat1_value                      = 45
+|level2                                  = True
+|level2_level_requirement                = 68
+}}

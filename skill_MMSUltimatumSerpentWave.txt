@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = Generic monster mortar skill. Like Monster Projectile but has an impact effect.
+|active_skill_name                       = 
+|skill_id                                = MMSUltimatumSerpentWave
+|cast_time                               = 2.5
+|required_level                          = 0
+|static_stored_uses                      = 1
+|static_cooldown                         = 14
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = number_of_projectiles_override
+|static_stat1_value                      = 1
+|static_stat2_id                         = mortar_projectile_distance_override
+|static_stat2_value                      = 25
+|static_stat3_id                         = base_is_projectile
+|static_stat3_value                      = 1
+|static_stat4_id                         = base_deal_no_damage
+|static_stat4_value                      = 1
+|static_stat5_id                         = use_scaled_contact_offset
+|static_stat5_value                      = 1
+|stat_text                               = 
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

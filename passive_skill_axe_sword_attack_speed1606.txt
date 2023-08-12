@@ -1,0 +1,14 @@
+{{Passive skill
+|id                                  = axe_sword_attack_speed1606
+|int_id                              = 16756
+|name                                = Axe Damage and Impale Chance
+|icon                                = damageaxe
+|stat1_id                            = physical_axe_damage_+%
+|stat1_value                         = 14
+|stat2_id                            = axe_ailment_damage_+%
+|stat2_value                         = 14
+|stat3_id                            = attacks_impale_on_hit_%_chance
+|stat3_value                         = 10
+|stat_text                           = 14% increased [[Physical Damage]] with [[Axe|Axes]]<br>[[Axe]] [[Attack|Attacks]] deal 14% increased Damage with Ailments<br>10% chance to Impale Enemies on [[Hit]] with [[Attack|Attacks]]
+|connections                         = travel_skills_cant_be_exerted_notable,axe_sword_damage1603,travel_skills_cant_be_exerted_notable
+}}

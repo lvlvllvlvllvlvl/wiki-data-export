@@ -1,0 +1,19 @@
+{{Skill
+|skill_id                                = SupportAdditionalProjectilesUnique
+|required_level                          = 1
+|static_cost_multiplier                  = 100
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|stat_text                               = Supported Skills fire an additional Projectile
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat_text                        = Supported Skills fire 4 additional Projectiles
+|level1_stat1_id                         = number_of_additional_projectiles
+|level1_stat1_value                      = 4
+|level2                                  = True
+|level2_level_requirement                = 1
+|level2_stat_text                        = Supported Skills fire an additional Projectile
+|level2_stat1_id                         = number_of_additional_projectiles
+|level2_stat1_value                      = 1
+}}

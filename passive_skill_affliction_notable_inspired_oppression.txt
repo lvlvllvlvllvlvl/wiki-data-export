@@ -1,0 +1,16 @@
+{{Passive skill
+|id                                  = affliction_notable_inspired_oppression
+|int_id                              = 20343
+|name                                = Inspired Oppression
+|is_notable                          = True
+|icon                                = IncreasedNonDamageAilmentNotable
+|stat1_id                            = non_damaging_ailment_effect_+%
+|stat1_value                         = 10
+|stat2_id                            = elemental_damage_+%
+|stat2_value                         = 20
+|stat3_id                            = mana_regeneration_rate_+%_if_enemy_frozen_recently
+|stat3_value                         = 30
+|stat4_id                            = mana_regeneration_rate_+%_if_enemy_shocked_recently
+|stat4_value                         = 30
+|stat_text                           = 10% increased Effect of Non-Damaging Ailments<br>20% increased [[Elemental Damage]]<br>30% increased [[Mana]] Regeneration Rate if you have [[Freeze|Frozen]] an Enemy [[Recently]]<br>30% increased [[Mana]] Regeneration Rate if you have [[Shock|Shocked]] an Enemy [[Recently]]
+}}

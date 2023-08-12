@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = Slam the ground, damaging enemies in an area around the impact in three stages. Enemies take slightly less damage on the second and third stage. Works with Swords, Maces, Sceptres, Axes, Staves and Unarmed.
+|active_skill_name                       = Ice Crash
+|item_class_id_restriction               = One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Unarmed, Warstaff
+|skill_id                                = ChattersIceCrash
+|cast_time                               = 1.43
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 2.5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 150
+|static_attack_speed_multiplier          = 85
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = -20
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_chance_to_freeze_%
+|static_stat3_value                      = 25
+|static_stat4_id                         = skill_physical_damage_%_to_convert_to_cold
+|static_stat4_value                      = 100
+|static_stat5_id                         = ice_crash_second_hit_damage_+%_final
+|static_stat5_value                      = -15
+|static_stat6_id                         = ice_crash_third_hit_damage_+%_final
+|static_stat6_value                      = -30
+|stat_text                               = 25% chance to Freeze enemies<br>100% of Physical Damage Converted to Cold Damage<br>Second Stage deals 15% less Damage<br>Third Stage deals 30% less Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

@@ -1,0 +1,32 @@
+{{Skill
+|gem_description                         = Dive through enemies, dealing weapon damage. Only works with daggers, claws and one handed swords. Cannot be supported by Multistrike.
+|active_skill_name                       = Whirling Blades
+|item_class_id_restriction               = Dagger, One Hand Sword, Thrusting One Hand Sword, Claw, Rune Dagger
+|skill_id                                = ExpeditionWhirlingBlades
+|cast_time                               = 0.866
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 4
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 110
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_flurry
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_sound_variation
+|static_stat2_value                      = 3
+|static_stat3_id                         = cast_time_overrides_attack_duration
+|static_stat3_value                      = 1
+|static_stat4_id                         = ignores_proximity_shield
+|static_stat4_value                      = 1
+|static_stat5_id                         = bleed_on_melee_attack_chance_%
+|static_stat5_value                      = 20
+|stat_text                               = Melee Attacks have 20% chance to cause Bleeding
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat1_id                         = active_skill_bleeding_damage_+%_final
+|level1_stat1_value                      = 20
+|level2                                  = True
+|level2_level_requirement                = 83
+|level2_stat1_id                         = active_skill_bleeding_damage_+%_final
+|level2_stat1_value                      = 70
+}}

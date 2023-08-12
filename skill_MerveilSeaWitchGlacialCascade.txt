@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = Icicles emerge from the ground in a series of small bursts, each damaging enemies caught in the area.
+|active_skill_name                       = Glacial Cascade
+|skill_id                                = MerveilSeaWitchGlacialCascade
+|cast_time                               = 2.0
+|required_level                          = 15
+|static_stored_uses                      = 1
+|static_cooldown                         = 7
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat1_value                      = -30
+|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat2_value                      = -20
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_cold_damage
+|static_stat4_value                      = 37
+|static_stat5_id                         = spell_maximum_base_cold_damage
+|static_stat5_value                      = 55
+|static_stat6_id                         = upheaval_number_of_spikes
+|static_stat6_value                      = 8
+|stat_text                               = Deals 37 to 55 Cold Damage<br>Causes 8 Bursts
+|level1                                  = True
+|level1_level_requirement                = 15
+}}

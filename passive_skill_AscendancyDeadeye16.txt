@@ -1,0 +1,16 @@
+{{Passive skill
+|id                                  = AscendancyDeadeye16
+|int_id                              = 2872
+|name                                = Occupying Force
+|ascendancy_class                    = Deadeye
+|is_notable                          = True
+|icon                                = Mirage
+|stat1_id                            = mirage_archers_do_not_attach
+|stat1_value                         = 1
+|stat2_id                            = additional_max_mirage_archers
+|stat2_value                         = 2
+|stat3_id                            = cannot_summon_mirage_archer_if_near_mirage_archer_radius
+|stat3_value                         = 35
+|stat_text                           = Mirage Archers are not attached to you<br>+2 to maximum number of Summoned Mirage Archers<br>Cannot Summon Mirage Archers while near your Mirage Archers
+|connections                         = AscendancyDeadeye13,AscendancyDeadeye15
+}}

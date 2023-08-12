@@ -1,0 +1,33 @@
+{{Skill
+|gem_description                         = Summons a totem that can consume nearby corpses. If you are hurt, it will destroy a corpse to leech life to you.
+|active_skill_name                       = Devouring Totem
+|skill_id                                = BossDevour
+|cast_time                               = 1.0
+|required_level                          = 33
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|stat_text                               = Leeches (2040-31644) Life to you for each corpse Consumed<br>Leeches (0-2000) Mana to you for each corpse Consumed
+|level1                                  = True
+|level1_level_requirement                = 33
+|level1_stat_text                        = Leeches 2040 Life to you for each corpse Consumed
+|level1_stat1_id                         = corpse_consumption_life_to_gain
+|level1_stat1_value                      = 2040
+|level2                                  = True
+|level2_level_requirement                = 54
+|level2_stat_text                        = Leeches 8700 Life to you for each corpse Consumed
+|level2_stat1_id                         = corpse_consumption_life_to_gain
+|level2_stat1_value                      = 8700
+|level3                                  = True
+|level3_level_requirement                = 67
+|level3_stat_text                        = Leeches 27486 Life to you for each corpse Consumed
+|level3_stat1_id                         = corpse_consumption_life_to_gain
+|level3_stat1_value                      = 27486
+|level4                                  = True
+|level4_level_requirement                = 70
+|level4_stat_text                        = Leeches 31644 Life to you for each corpse Consumed<br>Leeches 2000 Mana to you for each corpse Consumed
+|level4_stat1_id                         = corpse_consumption_life_to_gain
+|level4_stat1_value                      = 31644
+|level4_stat2_id                         = corpse_consumption_mana_to_gain
+|level4_stat2_value                      = 2000
+}}

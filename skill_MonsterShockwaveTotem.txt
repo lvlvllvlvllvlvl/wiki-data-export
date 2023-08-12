@@ -1,0 +1,33 @@
+{{Skill
+|gem_description                         = Summons a totem that shakes the earth around it, knocking back and damaging nearby enemies
+|active_skill_name                       = Shockwave Totem
+|skill_id                                = MonsterShockwaveTotem
+|cast_time                               = 0.6
+|required_level                          = 2
+|static_damage_effectiveness             = 50
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = -17
+|static_stat2_id                         = base_skill_is_totemified
+|static_stat2_value                      = 1
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = global_knockback
+|static_stat4_value                      = 1
+|stat_text                               = Deals (1-61) to (3-114) Physical Damage<br>Knocks Enemies Back on Hit
+|level1                                  = True
+|level1_level_requirement                = 2
+|level1_stat_text                        = Deals 1 to 3 Physical Damage
+|level1_stat1_id                         = spell_minimum_base_physical_damage
+|level1_stat1_value                      = 1
+|level1_stat2_id                         = spell_maximum_base_physical_damage
+|level1_stat2_value                      = 3
+|level2                                  = True
+|level2_level_requirement                = 66
+|level2_stat_text                        = Deals 61 to 114 Physical Damage
+|level2_stat1_id                         = spell_minimum_base_physical_damage
+|level2_stat1_value                      = 61
+|level2_stat2_id                         = spell_maximum_base_physical_damage
+|level2_stat2_value                      = 114
+}}

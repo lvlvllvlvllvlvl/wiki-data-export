@@ -1,0 +1,37 @@
+{{Skill
+|gem_description                         = Unleashes a ball of fire towards a target which explodes, damaging nearby foes.
+|active_skill_name                       = Fireball
+|skill_id                                = VaalIncursionArchitectProjectileFire2
+|cast_time                               = 1.67
+|required_level                          = 1
+|static_critical_strike_chance           = 6
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = projectile_uses_contact_position
+|static_stat2_value                      = 1
+|stat_text                               = Deals (5-982) to (8-1473) Fire Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+|level1_stat_text                        = Deals 5 to 8 Fire Damage
+|level1_stat1_id                         = spell_minimum_base_fire_damage
+|level1_stat1_value                      = 5
+|level1_stat2_id                         = spell_maximum_base_fire_damage
+|level1_stat2_value                      = 8
+|level2                                  = True
+|level2_level_requirement                = 67
+|level2_stat_text                        = Deals 923 to 1385 Fire Damage
+|level2_stat1_id                         = spell_minimum_base_fire_damage
+|level2_stat1_value                      = 923
+|level2_stat2_id                         = spell_maximum_base_fire_damage
+|level2_stat2_value                      = 1385
+|level3                                  = True
+|level3_level_requirement                = 68
+|level3_stat_text                        = Deals 982 to 1473 Fire Damage
+|level3_stat1_id                         = spell_minimum_base_fire_damage
+|level3_stat1_value                      = 982
+|level3_stat2_id                         = spell_maximum_base_fire_damage
+|level3_stat2_value                      = 1473
+}}

@@ -1,0 +1,13 @@
+{{Passive skill
+|id                                  = reduced_duration_notable2742
+|int_id                              = 4207
+|name                                = Window of Opportunity
+|is_notable                          = True
+|icon                                = ReducedSkillEffectDurationNotable
+|stat1_id                            = skill_effect_duration_+%
+|stat1_value                         = -15
+|stat2_id                            = debuff_time_passed_+%
+|stat2_value                         = 15
+|stat_text                           = 15% reduced [[Skill]] Effect Duration<br>Debuffs on you expire 15% faster
+|connections                         = mastery_duration91,reduced_duration2740
+}}

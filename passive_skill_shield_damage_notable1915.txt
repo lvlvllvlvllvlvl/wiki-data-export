@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = shield_damage_notable1915
+|int_id                              = 12878
+|name                                = Retaliation
+|is_notable                          = True
+|icon                                = Retaliation
+|stat1_id                            = attack_skills_damage_+%_while_holding_shield
+|stat1_value                         = 20
+|stat2_id                            = shield_armour_+%
+|stat2_value                         = 60
+|stat3_id                            = attack_speed_+%_while_holding_shield
+|stat3_value                         = 8
+|stat_text                           = [[Attack]] [[Skill|Skills]] deal 20% increased Damage while holding a [[Shield]]<br>60% increased Defences from Equipped [[Shield]]<br>8% increased [[Attack Speed]] while holding a [[Shield]]
+|connections                         = damage_while_using_shield1913,mastery_shield211
+}}

@@ -1,0 +1,16 @@
+{{Passive skill
+|id                                  = AscendancyChampion9_
+|int_id                              = 35750
+|name                                = Conqueror
+|ascendancy_class                    = Champion
+|is_notable                          = True
+|icon                                = Conqueror (Champion)
+|stat1_id                            = chance_to_taunt_on_hit_%
+|stat1_value                         = 100
+|stat2_id                            = damage_taken_+%_if_taunted_an_enemy_recently
+|stat2_value                         = -10
+|stat3_id                            = taunted_enemies_damage_+%_final_vs_non_taunt_target
+|stat3_value                         = -20
+|stat_text                           = 100% chance to Taunt on [[Hit]]<br>10% reduced Damage taken if you've Taunted an Enemy [[Recently]]<br>Enemies Taunted by you deal 20% less Damage with [[Hit|Hits]] and<br />Ailments against other targets
+|connections                         = AscendancyChampion2,AscendancyChampion1
+}}

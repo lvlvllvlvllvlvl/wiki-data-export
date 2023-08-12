@@ -1,0 +1,12 @@
+{{Passive skill
+|id                                  = mana_curse2592
+|int_id                              = 64401
+|name                                = Life and Mana on Kill against Cursed Enemies
+|icon                                = LifeandMana
+|stat1_id                            = recover_%_maximum_life_on_killing_cursed_enemy
+|stat1_value                         = 1
+|stat2_id                            = recover_%_maximum_mana_on_killing_cursed_enemy
+|stat2_value                         = 1
+|stat_text                           = Recover 1% of [[Life]] when you [[Kill]] a Cursed Enemy<br>Recover 1% of [[Mana]] when you [[Kill]] a Cursed Enemy
+|connections                         = mana_curse2594,mana_curse2594,mana_on_cursed_kill2879,intelligence913
+}}

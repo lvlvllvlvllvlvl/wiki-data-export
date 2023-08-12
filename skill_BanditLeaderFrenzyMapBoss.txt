@@ -1,0 +1,23 @@
+{{Skill
+|gem_description                         = Performs an attack that gives the character a frenzy charge if it hits. Frenzy charges increase your attack speed.
+|active_skill_name                       = Frenzy
+|skill_id                                = BanditLeaderFrenzyMapBoss
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = skill_can_fire_arrows
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_can_fire_wand_projectiles
+|static_stat2_value                      = 1
+|static_stat3_id                         = active_skill_physical_damage_+%_final
+|static_stat3_value                      = 20
+|static_stat4_id                         = physical_damage_+%_per_frenzy_charge
+|static_stat4_value                      = 12
+|static_stat5_id                         = base_attack_speed_+%_per_frenzy_charge
+|static_stat5_value                      = 5
+|stat_text                               = Deals 20% more Physical Damage<br>12% increased Physical Damage per Frenzy Charge<br>5% increased Attack Speed per Frenzy Charge
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

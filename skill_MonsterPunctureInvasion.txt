@@ -1,0 +1,20 @@
+{{Skill
+|gem_description                         = Punctures enemies, causing a bleeding debuff, which will be affected by modifiers to skill duration. Puncture works with bows, daggers, claws or swords.
+|active_skill_name                       = Puncture
+|item_class_id_restriction               = Bow, Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, Two Hand Sword, Rune Dagger
+|skill_id                                = MonsterPunctureInvasion
+|cast_time                               = 1.0
+|required_level                          = 9
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 120
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_bleeding_damage_+%_final
+|static_stat1_value                      = 57
+|static_stat2_id                         = skill_can_fire_arrows
+|static_stat2_value                      = 1
+|static_stat3_id                         = global_bleed_on_hit
+|static_stat3_value                      = 1
+|stat_text                               = Causes Bleeding
+|level1                                  = True
+|level1_level_requirement                = 9
+}}

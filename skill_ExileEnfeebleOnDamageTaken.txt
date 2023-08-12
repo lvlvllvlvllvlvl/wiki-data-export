@@ -1,0 +1,32 @@
+{{Skill
+|gem_description                         = Curses all targets in an area, reducing their accuracy and making them deal less damage.
+|active_skill_name                       = Enfeeble
+|skill_id                                = ExileEnfeebleOnDamageTaken
+|cast_time                               = 0.5
+|required_level                          = 60
+|static_stored_uses                      = 1
+|static_cooldown                         = 8
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 5
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 42
+|static_stat2_id                         = cast_on_damage_taken_also_tracks_dot
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_skill_effect_duration
+|static_stat3_value                      = 5000
+|static_stat4_id                         = cast_on_damage_taken_%
+|static_stat4_value                      = 100
+|static_stat5_id                         = cast_on_damage_taken_threshold
+|static_stat5_value                      = 1
+|static_stat6_id                         = accuracy_rating_+%
+|static_stat6_value                      = -40
+|static_stat7_id                         = enfeeble_damage_+%_final
+|static_stat7_value                      = -40
+|static_stat8_id                         = enfeeble_damage_+%_vs_rare_or_unique_final
+|static_stat8_value                      = -15
+|stat_text                               = Base duration is 5 seconds<br>Cursed enemies have 40% reduced Accuracy Rating<br>Cursed Normal or Magic enemies deal 40% less Damage<br>Cursed Rare or Unique enemies deal 15% less Damage
+|level1                                  = True
+|level1_level_requirement                = 60
+}}

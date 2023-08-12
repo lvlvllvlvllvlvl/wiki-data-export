@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = Charges at an enemy, bashing it with the character's shield and striking it. This knocks it back and stuns it. Enemies in the way are pushed to the side. Damage and stun are proportional to distance travelled. Cannot be supported by Multistrike.
+|active_skill_name                       = Shield Charge
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Unarmed, Rune Dagger
+|skill_id                                = IvoryTempleMilitaryBossShieldCharge
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 12
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = shield_charge_extra_distance
+|static_stat1_value                      = 30
+|static_stat2_id                         = ignores_proximity_shield
+|static_stat2_value                      = 1
+|static_stat3_id                         = global_cannot_crit
+|static_stat3_value                      = 1
+|static_stat4_id                         = shield_charge_stun_duration_+%_maximum
+|static_stat4_value                      = 50
+|static_stat5_id                         = base_movement_velocity_+%
+|static_stat5_value                      = -50
+|stat_text                               = Never deal Critical Strikes<br>50% increased Stun Duration on enemies at Maximum charge distance<br>50% reduced Movement Speed
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

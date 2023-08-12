@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = Lay a remote mine that you can detonate to create a series of fire novas. Each sequential nova from the same mine will do higher damage than the previous.
+|active_skill_name                       = Fire Nova Mine
+|skill_id                                = HoundBossFireNova
+|cast_time                               = 0.25
+|required_level                          = 45
+|static_stored_uses                      = 1
+|static_cooldown                         = 4
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 50
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_fire_damage
+|static_stat3_value                      = 197
+|static_stat4_id                         = spell_maximum_base_fire_damage
+|static_stat4_value                      = 296
+|static_stat5_id                         = cannot_stun
+|static_stat5_value                      = 1
+|static_stat6_id                         = base_cast_speed_+%
+|static_stat6_value                      = 20
+|stat_text                               = Deals 197 to 296 Fire Damage<br>Your Hits cannot Stun Enemies<br>20% increased Cast Speed
+|level1                                  = True
+|level1_level_requirement                = 45
+}}

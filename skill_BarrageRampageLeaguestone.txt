@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = After a short preparation time, you attack repeatedly with a ranged weapon. These attacks have a small randomised spread. Only works with Bows and Wands. This skill cannot be Triggered.
+|active_skill_name                       = Barrage
+|item_class_id_restriction               = Bow, Wand
+|skill_id                                = BarrageRampageLeaguestone
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 75
+|static_damage_multiplier                = 75
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = monster_reverse_point_blank_damage_-%_at_minimum_range
+|static_stat1_value                      = 40
+|static_stat2_id                         = skill_can_fire_arrows
+|static_stat2_value                      = 1
+|static_stat3_id                         = cannot_stun
+|static_stat3_value                      = 1
+|static_stat4_id                         = projectiles_barrage
+|static_stat4_value                      = 1
+|static_stat5_id                         = number_of_additional_projectiles
+|static_stat5_value                      = 7
+|static_stat6_id                         = active_skill_attack_speed_+%_final
+|static_stat6_value                      = -50
+|stat_text                               = Your Hits cannot Stun Enemies<br>Fires Projectiles sequentially<br>Fires 7 additional Projectiles<br>50% less Attack Speed
+|level1                                  = True
+|level1_level_requirement                = 1
+}}
