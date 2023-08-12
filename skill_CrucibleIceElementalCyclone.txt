@@ -20,5 +20,18 @@
 |stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>Deals 30% less Damage<br>25% less Area of Effect<br>5% more Movement Speed
 |level1                                  = True
 |level1_level_requirement                = 0
-|level1_cost_amounts                     = []
+|level1_cost_multiplier                  = 100
+|level1_attack_speed_multiplier          = 300
+|level1_stat_text                        = Deals 30% less Damage
+|level1_stat1_id                         = active_skill_damage_+%_final
+|level1_stat1_value                      = -30
+|level2                                  = True
+|level3                                  = True
+|level3_stat_text                        = Deals 1% more Damage
+|level3_stat1_id                         = active_skill_damage_+%_final
+|level3_stat1_value                      = 1
+|level4                                  = True
+|level4_stat_text                        = Deals 60% more Damage
+|level4_stat1_id                         = active_skill_damage_+%_final
+|level4_stat1_value                      = 60
 }}

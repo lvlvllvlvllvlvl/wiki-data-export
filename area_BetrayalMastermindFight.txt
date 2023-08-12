@@ -1,0 +1,15 @@
+{{Area
+|id                               = BetrayalMastermindFight
+|name                             = Mastermind's Lair
+|act                              = 0
+|area_level                       = 68
+|area_type_tags                   = church
+|loading_screen                   = Betrayal
+|modifier_ids                     = MapRevealedMap, BetrayalSafehouseExperience2__
+|boss_monster_ids                 = Metadata/Monsters/LeagueBetrayal/BetrayalCatarina1, Metadata/Monsters/LeagueBetrayal/BetrayalCatarina2
+|monster_ids                      = Metadata/Monsters/LeagueBetrayal/BetrayalCatarinaHalfSkeleton
+|spawn_weight1_tag                = high_level_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 1000
+}}

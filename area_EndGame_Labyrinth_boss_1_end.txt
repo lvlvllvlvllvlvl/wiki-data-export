@@ -1,0 +1,14 @@
+{{Area
+|id                               = EndGame_Labyrinth_boss_1_end
+|name                             = Aspirant's Trial
+|act                              = 11
+|area_level                       = 75
+|area_type_tags                   = dungeon
+|tags                             = indoors_area, labyrinth_end_area
+|loading_screen                   = Labyrinth
+|parent_area_id                   = 1_3_town
+|modifier_ids                     = MapLabyrinthHiddenDamageLifeBoss, MapNoExiles
+|boss_monster_ids                 = Metadata/Monsters/Labyrinth/LabyrinthBossMaul, Metadata/Monsters/Labyrinth/LabyrinthBossOneHandAndShield, Metadata/Monsters/Labyrinth/LabyrinthBossDualWield
+|is_labyrinth_area                = True
+|is_labyrinth_boss_area           = True
+}}

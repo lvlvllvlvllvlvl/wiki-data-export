@@ -16,5 +16,22 @@
 |stat_text                               = Base duration is 6 seconds<br>Cursed enemies have -20% to Cold Resistance<br>Hits against Cursed Enemies have +25% chance to Freeze
 |level1                                  = True
 |level1_level_requirement                = 1
-|level1_cost_amounts                     = []
+|level1_cost_multiplier                  = 100
+|level1_stored_uses                      = 1
+|level1_cooldown                         = 10
+|level1_stat_text                        = Cursed enemies have -20% to Cold Resistance
+|level1_stat1_id                         = base_cold_damage_resistance_%
+|level1_stat1_value                      = -20
+|level2                                  = True
+|level2_stat_text                        = Cursed enemies have -25% to Cold Resistance
+|level2_stat1_id                         = base_cold_damage_resistance_%
+|level2_stat1_value                      = -25
+|level3                                  = True
+|level3_stat_text                        = Cursed enemies have -30% to Cold Resistance
+|level3_stat1_id                         = base_cold_damage_resistance_%
+|level3_stat1_value                      = -30
+|level4                                  = True
+|level4_stat_text                        = Cursed enemies have -40% to Cold Resistance
+|level4_stat1_id                         = base_cold_damage_resistance_%
+|level4_stat1_value                      = -40
 }}

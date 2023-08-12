@@ -1,0 +1,18 @@
+{{Area
+|id                               = 2_Labyrinth_boss_3_end_#
+|name                             = Aspirant's Trial
+|act                              = 3
+|area_level                       = 55
+|area_type_tags                   = dungeon
+|tags                             = indoors_area, labyrinth_end_area
+|loading_screen                   = Labyrinth
+|parent_area_id                   = 1_3_town
+|modifier_ids                     = MapNoExiles
+|boss_monster_ids                 = Metadata/Monsters/Labyrinth/LabyrinthBossMaul, Metadata/Monsters/Labyrinth/LabyrinthBossOneHandAndShield, Metadata/Monsters/Labyrinth/LabyrinthBossDualWield
+|is_labyrinth_area                = True
+|is_labyrinth_boss_area           = True
+|spawn_weight1_tag                = high_level_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 1000
+}}
