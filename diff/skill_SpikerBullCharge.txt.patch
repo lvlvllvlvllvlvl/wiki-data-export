@@ -1,0 +1,51 @@
+--- Skill:SpikerBullCharge
++++ Export
+@@ -12,27 +12,27 @@
+ |static_attack_speed_multiplier          = 75
+ |static_stat1_id                         = base_knockback_speed_+%
+ |static_stat1_value                      = 300
+-|static_stat2_id                         = shield_charge_extra_distance
+-|static_stat2_value                      = 100
+-|static_stat3_id                         = active_skill_damage_+%_final
+-|static_stat3_value                      = -50
+-|static_stat4_id                         = knockback_distance_+%
+-|static_stat4_value                      = 500
+-|static_stat5_id                         = shield_charge_damage_+%_maximum
+-|static_stat5_value                      = 50
+-|static_stat6_id                         = shield_charge_stun_duration_+%_maximum
+-|static_stat6_value                      = 50
+-|static_stat7_id                         = base_movement_velocity_+%
+-|static_stat7_value                      = 87
+-|static_stat8_id                         = global_cannot_crit
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = global_knockback
+-|static_stat9_value                      = 1
+-|static_stat10_id                        = ignores_proximity_shield
+-|static_stat10_value                     = 1
+-|static_stat11_id                        = is_area_damage
+-|static_stat11_value                     = 1
+-|stat_text                               = Deals 50% less Damage<br>500% increased Knockback Distance<br>50% more Damage with Hits at Maximum Charge Distance<br>50% increased Stun Duration on enemies at Maximum charge distance<br>87% increased Movement Speed<br>Never deal Critical Strikes<br>Knocks Enemies Back on Hit
++|static_stat2_id                         = ignores_proximity_shield
++|static_stat2_value                      = 1
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = shield_charge_extra_distance
++|static_stat4_value                      = 100
++|static_stat5_id                         = global_knockback
++|static_stat5_value                      = 1
++|static_stat6_id                         = global_cannot_crit
++|static_stat6_value                      = 1
++|static_stat7_id                         = active_skill_damage_+%_final
++|static_stat7_value                      = -50
++|static_stat8_id                         = knockback_distance_+%
++|static_stat8_value                      = 500
++|static_stat9_id                         = shield_charge_stun_duration_+%_maximum
++|static_stat9_value                      = 50
++|static_stat10_id                        = shield_charge_damage_+%_maximum
++|static_stat10_value                     = 50
++|static_stat11_id                        = base_movement_velocity_+%
++|static_stat11_value                     = 87
++|stat_text                               = Knocks Enemies Back on Hit<br>Never deal Critical Strikes<br>Deals 50% less Damage<br>500% increased Knockback Distance<br>50% increased Stun Duration on enemies at Maximum charge distance<br>50% more Damage with Hits at Maximum Charge Distance<br>87% increased Movement Speed
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

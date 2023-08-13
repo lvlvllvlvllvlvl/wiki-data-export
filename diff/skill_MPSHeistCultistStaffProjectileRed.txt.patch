@@ -1,0 +1,37 @@
+--- Skill:MPSHeistCultistStaffProjectileRed
++++ Export
+@@ -9,20 +9,20 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_fire_damage
+-|static_stat1_value                      = 9
+-|static_stat2_id                         = spell_maximum_base_fire_damage
+-|static_stat2_value                      = 13
+-|static_stat3_id                         = spell_maximum_action_distance_+%
+-|static_stat3_value                      = -40
+-|static_stat4_id                         = monster_projectile_variation
+-|static_stat4_value                      = 165
+-|static_stat5_id                         = base_is_projectile
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = projectile_uses_contact_position
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = maintain_projectile_direction_when_using_contact_position
+-|static_stat7_value                      = 1
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = maintain_projectile_direction_when_using_contact_position
++|static_stat2_value                      = 1
++|static_stat3_id                         = monster_projectile_variation
++|static_stat3_value                      = 165
++|static_stat4_id                         = projectile_uses_contact_position
++|static_stat4_value                      = 1
++|static_stat5_id                         = spell_maximum_action_distance_+%
++|static_stat5_value                      = -40
++|static_stat6_id                         = spell_minimum_base_fire_damage
++|static_stat6_value                      = 9
++|static_stat7_id                         = spell_maximum_base_fire_damage
++|static_stat7_value                      = 13
+ |stat_text                               = Deals 9 to 13 Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 0

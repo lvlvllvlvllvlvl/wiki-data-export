@@ -1,0 +1,21 @@
+--- Skill:ExileShadowBallLightning
++++ Export
+@@ -12,12 +12,12 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = -57
+-|static_stat2_id                         = base_projectile_speed_+%
+-|static_stat2_value                      = -25
+-|static_stat3_id                         = number_of_additional_projectiles
+-|static_stat3_value                      = 2
+-|static_stat4_id                         = base_is_projectile
+-|static_stat4_value                      = 1
++|static_stat2_id                         = base_is_projectile
++|static_stat2_value                      = 1
++|static_stat3_id                         = base_projectile_speed_+%
++|static_stat3_value                      = -25
++|static_stat4_id                         = number_of_additional_projectiles
++|static_stat4_value                      = 2
+ |stat_text                               = Deals (1-37) to (9-705) Lightning Damage<br>Skills Repeat an additional (2-4) Times<br>(50-90)% increased Cast Speed<br>25% reduced Projectile Speed<br>Fires 2 additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 3

@@ -1,0 +1,42 @@
+--- Skill:KitavaBeamOrbMiddleFinalPhaseStandalone
++++ Export
+@@ -9,23 +9,24 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 9
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 11
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = -50
++|static_duration                         = 20
++|static_stat1_id                         = action_do_not_face_target
++|static_stat1_value                      = 1
++|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat2_value                      = -50
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
+ |static_stat4_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+ |static_stat4_value                      = -60
+-|static_stat5_id                         = skill_physical_damage_%_to_convert_to_fire
+-|static_stat5_value                      = 50
+-|static_stat6_id                         = base_skill_effect_duration
+-|static_stat6_value                      = 20000
+-|static_stat7_id                         = is_area_damage
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = action_do_not_face_target
+-|static_stat8_value                      = 1
+-|stat_text                               = Deals 9 to 11 Physical Damage<br>50% of Physical Damage Converted to Fire Damage<br>Base duration is 20 seconds
++|static_stat5_id                         = spell_minimum_base_physical_damage
++|static_stat5_value                      = 9
++|static_stat6_id                         = spell_maximum_base_physical_damage
++|static_stat6_value                      = 11
++|static_stat7_id                         = base_skill_effect_duration
++|static_stat7_value                      = 20000
++|static_stat8_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat8_value                      = 50
++|stat_text                               = Deals 9 to 11 Physical Damage<br>Base duration is 20 seconds<br>50% of Physical Damage Converted to Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 0
+ }}

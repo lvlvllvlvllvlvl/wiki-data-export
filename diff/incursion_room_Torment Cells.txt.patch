@@ -1,0 +1,16 @@
+--- Torment Cells
++++ Export
+@@ -1,11 +1,12 @@
+ {{Incursion room
+ |id                      = TormentI
+ |name                    = Torment Cells
+-|description             = Contains Tormented Spirits.<br/>Contains additional roaming Tormented Spirits.
++|description             = Contains Tormented Spirits.<br />Contains additional roaming Tormented Spirits.
+ |flavour_text            = They rot for ages in iron cages.
+ |tier                    = 1
+ |upgrade_room_id         = TormentII
+ |icon                    = TormentRoom
++|modifier_ids            = IncursionTempleAdditionalTormentedSpirit2
+ |architect_metadata_id   = Metadata/Monsters/VaalArchitect/VaalArchitect23
+ |architect_name          = Tzamoto, Architect of Torments
+ }}

@@ -1,0 +1,44 @@
+--- Skill:IncaBossSummonAtziri
++++ Export
+@@ -11,27 +11,27 @@
+ |static_stat1_value                      = 1
+ |static_stat2_id                         = is_area_damage
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = projectile_uses_contact_position
++|static_stat3_id                         = projectile_uses_contact_direction
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = projectile_uses_contact_direction
++|static_stat4_id                         = projectile_uses_contact_position
+ |static_stat4_value                      = 1
+ |stat_text                               = Deals (184-300) to (276-451) Physical Damage
+ |level1                                  = True
+ |level1_level_requirement                = 70
+ |level1_stat_text                        = Deals 184 to 276 Physical Damage
+-|level1_stat1_id                         = spell_minimum_base_physical_damage
+-|level1_stat1_value                      = 184
+-|level1_stat2_id                         = spell_maximum_base_physical_damage
+-|level1_stat2_value                      = 276
+-|level1_stat3_id                         = number_of_inca_minions_allowed
+-|level1_stat3_value                      = 7
++|level1_stat1_id                         = number_of_inca_minions_allowed
++|level1_stat1_value                      = 7
++|level1_stat2_id                         = spell_minimum_base_physical_damage
++|level1_stat2_value                      = 184
++|level1_stat3_id                         = spell_maximum_base_physical_damage
++|level1_stat3_value                      = 276
+ |level2                                  = True
+ |level2_level_requirement                = 80
+ |level2_stat_text                        = Deals 300 to 451 Physical Damage
+-|level2_stat1_id                         = spell_minimum_base_physical_damage
+-|level2_stat1_value                      = 300
+-|level2_stat2_id                         = spell_maximum_base_physical_damage
+-|level2_stat2_value                      = 451
+-|level2_stat3_id                         = number_of_inca_minions_allowed
+-|level2_stat3_value                      = 8
++|level2_stat1_id                         = number_of_inca_minions_allowed
++|level2_stat1_value                      = 8
++|level2_stat2_id                         = spell_minimum_base_physical_damage
++|level2_stat2_value                      = 300
++|level2_stat3_id                         = spell_maximum_base_physical_damage
++|level2_stat3_value                      = 451
+ }}

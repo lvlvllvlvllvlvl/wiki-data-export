@@ -1,0 +1,38 @@
+--- Skill:HeistUnbreakableMk1MagneticStormGS
++++ Export
+@@ -8,21 +8,22 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 2
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 2
+-|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat3_value                      = -80
+-|static_stat4_id                         = shock_art_variation
+-|static_stat4_value                      = 3
+-|static_stat5_id                         = base_skill_effect_duration
+-|static_stat5_value                      = 5000
++|static_duration                         = 5
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat2_value                      = -80
++|static_stat3_id                         = shock_art_variation
++|static_stat3_value                      = 3
++|static_stat4_id                         = spell_minimum_base_physical_damage
++|static_stat4_value                      = 2
++|static_stat5_id                         = spell_maximum_base_physical_damage
++|static_stat5_value                      = 2
+ |static_stat6_id                         = skill_physical_damage_%_to_convert_to_lightning
+ |static_stat6_value                      = 75
+-|static_stat7_id                         = is_area_damage
+-|static_stat7_value                      = 1
+-|stat_text                               = Deals 2 to 2 Physical Damage<br>Base duration is 5 seconds<br>75% of Physical Damage Converted to Lightning Damage
++|static_stat7_id                         = base_skill_effect_duration
++|static_stat7_value                      = 5000
++|stat_text                               = Deals 2 to 2 Physical Damage<br>75% of Physical Damage Converted to Lightning Damage<br>Base duration is 5 seconds
+ |level1                                  = True
+ |level1_level_requirement                = 0
+ }}

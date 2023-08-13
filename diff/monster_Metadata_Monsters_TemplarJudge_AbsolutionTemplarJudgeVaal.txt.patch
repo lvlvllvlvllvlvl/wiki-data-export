@@ -1,0 +1,19 @@
+--- Monster:Metadata/Monsters/TemplarJudge/AbsolutionTemplarJudgeVaal
++++ Export
+@@ -0,0 +1,16 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/TemplarJudge/AbsolutionTemplarJudgeVaal
++|monster_type_id                  = AbsolutionTemplarJudgeVaal
++|tags                             = bludgeoning_weapon, caster, fast_movement, flesh_armour, has_one_hand_mace, has_one_handed_melee, human, innocence_story, melee, not_dex, physical_affinity, ranged, templar
++|skill_ids                        = AbsolutionMinionVaal, AbsolutionMinionVaalCascade, GTVaalAbsolutionLarge, VaalAbsolutionDelayedBlast, GSVaalAbsolutionEmerge
++|name                             = Ascended Sentinel of Absolution
++|size                             = 3
++|minimum_attack_distance          = 6
++|maximum_attack_distance          = 9
++|model_size_multiplier            = 0.8
++|experience_multiplier            = 2.0
++|damage_multiplier                = 2.8
++|health_multiplier                = 4.0
++|critical_strike_chance           = 3.0
++|attack_speed                     = 1.17
++}}

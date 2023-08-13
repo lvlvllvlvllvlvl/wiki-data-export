@@ -1,0 +1,22 @@
+--- Skill:MonsterSparkGoatmanBoss
++++ Export
+@@ -8,13 +8,14 @@
+ |static_damage_effectiveness             = 50
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_projectile_speed_+%
+-|static_stat1_value                      = 100
++|static_duration                         = 1.2
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
+ |static_stat2_id                         = base_skill_effect_duration
+ |static_stat2_value                      = 1200
+-|static_stat3_id                         = base_is_projectile
+-|static_stat3_value                      = 1
+-|stat_text                               = Deals (2-63) to (7-189) Lightning Damage<br>Fires (2-9) additional Projectiles<br>100% increased Projectile Speed<br>Base duration is 1.2 seconds
++|static_stat3_id                         = base_projectile_speed_+%
++|static_stat3_value                      = 100
++|stat_text                               = Deals (2-63) to (7-189) Lightning Damage<br>Base duration is 1.2 seconds<br>100% increased Projectile Speed<br>Fires (2-9) additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 4
+ |level1_stat_text                        = Deals 2 to 7 Lightning Damage<br>Fires 2 additional Projectiles

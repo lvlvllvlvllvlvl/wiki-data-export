@@ -1,0 +1,31 @@
+--- Skill:AtziriFlameblastEmpoweredIncursion
++++ Export
+@@ -9,17 +9,17 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat1_value                      = -25
+-|static_stat2_id                         = flameblast_ailment_damage_+%_final_per_stack
+-|static_stat2_value                      = 110
+-|static_stat3_id                         = charged_blast_spell_damage_+%_final_per_stack
+-|static_stat3_value                      = 110
+-|static_stat4_id                         = always_ignite
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = is_area_damage
+-|static_stat5_value                      = 1
+-|stat_text                               = Deals (1013-1893) to (1520-2839) Fire Damage<br>Penetrates (8-10)% Fire Resistance<br>110% more Damage with Ailments for each stage<br>110% more Spell Damage for each stage<br>Hits always Ignite
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat2_value                      = -25
++|static_stat3_id                         = always_ignite
++|static_stat3_value                      = 1
++|static_stat4_id                         = charged_blast_spell_damage_+%_final_per_stack
++|static_stat4_value                      = 110
++|static_stat5_id                         = flameblast_ailment_damage_+%_final_per_stack
++|static_stat5_value                      = 110
++|stat_text                               = Deals (1013-1893) to (1520-2839) Fire Damage<br>Hits always Ignite<br>Penetrates (8-10)% Fire Resistance<br>110% more Spell Damage for each stage<br>110% more Damage with Ailments for each stage
+ |level1                                  = True
+ |level1_level_requirement                = 70
+ |level1_stat_text                        = Deals 1013 to 1520 Fire Damage<br>Penetrates 8% Fire Resistance

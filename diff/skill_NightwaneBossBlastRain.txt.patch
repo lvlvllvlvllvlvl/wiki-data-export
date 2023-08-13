@@ -1,0 +1,37 @@
+--- Skill:NightwaneBossBlastRain
++++ Export
+@@ -12,20 +12,20 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = -5
+-|static_stat2_id                         = blast_rain_arrow_delay_ms
+-|static_stat2_value                      = 80
+-|static_stat3_id                         = active_skill_damage_+%_final
+-|static_stat3_value                      = 33
+-|static_stat4_id                         = base_number_of_additional_arrows
+-|static_stat4_value                      = 4
+-|static_stat5_id                         = skill_physical_damage_%_to_convert_to_fire
+-|static_stat5_value                      = 50
+-|static_stat6_id                         = base_is_projectile
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = is_area_damage
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = skill_can_fire_arrows
+-|static_stat8_value                      = 1
++|static_stat2_id                         = base_is_projectile
++|static_stat2_value                      = 1
++|static_stat3_id                         = blast_rain_arrow_delay_ms
++|static_stat3_value                      = 80
++|static_stat4_id                         = is_area_damage
++|static_stat4_value                      = 1
++|static_stat5_id                         = skill_can_fire_arrows
++|static_stat5_value                      = 1
++|static_stat6_id                         = active_skill_damage_+%_final
++|static_stat6_value                      = 33
++|static_stat7_id                         = base_number_of_additional_arrows
++|static_stat7_value                      = 4
++|static_stat8_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat8_value                      = 50
+ |stat_text                               = Deals 33% more Damage<br>Fires 4 additional Arrows<br>50% of Physical Damage Converted to Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1

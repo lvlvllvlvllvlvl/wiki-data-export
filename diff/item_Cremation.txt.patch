@@ -1,0 +1,32 @@
+--- Wiki
++++ Export
+@@ -10,7 +10,7 @@
+ |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+ |dexterity_percent                       = 60
+ |intelligence_percent                    = 40
+-|gem_tags                                = Spell, AoE, Fire, Duration, Projectile, Orb
++|gem_tags                                = Spell, AoE, Fire, Duration, Projectile
+ |gem_description                         = A targeted corpse explodes, dealing area damage and turning into a volcanic geyser, which will repeatedly unleash exploding projectiles sequentially over the surrounding area for a duration. The explosion of the corpse is not affected by modifiers to spell damage, and cannot be reflected.
+ |active_skill_name                       = Cremation
+ |skill_id                                = CorpseEruption
+@@ -38,15 +38,15 @@
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+ |static_duration                         = 8
+-|static_stat1_id                         = is_area_damage
++|static_stat1_id                         = base_is_projectile
+ |static_stat1_value                      = 1
+-|static_stat2_id                         = show_number_of_projectiles
++|static_stat2_id                         = base_skill_show_average_damage_instead_of_dps
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = base_skill_show_average_damage_instead_of_dps
++|static_stat3_id                         = is_area_damage
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = base_is_projectile
++|static_stat4_id                         = projectile_behaviour_only_explode
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = projectile_behaviour_only_explode
++|static_stat5_id                         = show_number_of_projectiles
+ |static_stat5_value                      = 1
+ |static_stat6_id                         = cremation_base_fires_projectile_every_x_ms
+ |static_stat6_value                      = 1000

@@ -1,0 +1,56 @@
+--- Skill:CleansingFireWall4
++++ Export
+@@ -9,29 +9,31 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_fire_damage
+-|static_stat1_value                      = 6700
+-|static_stat2_id                         = spell_maximum_base_fire_damage
+-|static_stat2_value                      = 10049
+-|static_stat3_id                         = trigger_spawners_time_between_max_ms
+-|static_stat3_value                      = 1500
+-|static_stat4_id                         = trigger_spawners_time_between_min_ms
+-|static_stat4_value                      = 500
+-|static_stat5_id                         = cleansing_fire_maven_projectiles_to_destroy
+-|static_stat5_value                      = 9
+-|static_stat6_id                         = cleansing_fire_projectile_move_delay_ms
+-|static_stat6_value                      = 2000
+-|static_stat7_id                         = number_of_projectiles_override
+-|static_stat7_value                      = 20
+-|static_stat8_id                         = cleansing_fire_delay_between_spawns_ms
+-|static_stat8_value                      = 900
+-|static_stat9_id                         = base_spell_repeat_count
+-|static_stat9_value                      = 17
+-|static_stat10_id                        = always_ignite
+-|static_stat10_value                     = 1
+-|static_stat11_id                        = base_is_projectile
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = cannot_be_blocked_or_dodged_or_suppressed
++|static_stat2_value                      = 1
++|static_stat3_id                         = cleansing_fire_delay_between_spawns_ms
++|static_stat3_value                      = 900
++|static_stat4_id                         = cleansing_fire_maven_projectiles_to_destroy
++|static_stat4_value                      = 9
++|static_stat5_id                         = cleansing_fire_projectile_move_delay_ms
++|static_stat5_value                      = 2000
++|static_stat6_id                         = number_of_projectiles_override
++|static_stat6_value                      = 20
++|static_stat7_id                         = trigger_spawners_time_between_max_ms
++|static_stat7_value                      = 1500
++|static_stat8_id                         = trigger_spawners_time_between_min_ms
++|static_stat8_value                      = 500
++|static_stat9_id                         = spell_minimum_base_fire_damage
++|static_stat9_value                      = 6700
++|static_stat10_id                        = spell_maximum_base_fire_damage
++|static_stat10_value                     = 10049
++|static_stat11_id                        = always_ignite
+ |static_stat11_value                     = 1
+-|stat_text                               = Deals 6700 to 10049 Fire Damage<br>Spell Repeats 17 times<br>Hits always Ignite
++|static_stat12_id                        = base_spell_repeat_count
++|static_stat12_value                     = 17
++|stat_text                               = Deals 6700 to 10049 Fire Damage<br>Hits always Ignite<br>Spell Repeats 17 times
+ |level1                                  = True
+ |level1_level_requirement                = 83
+ }}

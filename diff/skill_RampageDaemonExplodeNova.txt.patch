@@ -1,0 +1,33 @@
+--- Skill:RampageDaemonExplodeNova
++++ Export
+@@ -8,19 +8,19 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 9
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 13
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = 15
+-|static_stat4_id                         = base_cast_speed_+%
+-|static_stat4_value                      = 300
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = 15
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_minimum_base_physical_damage
++|static_stat3_value                      = 9
++|static_stat4_id                         = spell_maximum_base_physical_damage
++|static_stat4_value                      = 13
+ |static_stat5_id                         = explode_on_kill_%_fire_damage_to_deal
+ |static_stat5_value                      = 25
+-|static_stat6_id                         = is_area_damage
+-|static_stat6_value                      = 1
+-|stat_text                               = Deals 9 to 13 Physical Damage<br>300% increased Cast Speed<br>Enemies Killed with Attack or Spell Hits Explode, dealing 25% of their Life as Fire Damage
++|static_stat6_id                         = base_cast_speed_+%
++|static_stat6_value                      = 300
++|stat_text                               = Deals 9 to 13 Physical Damage<br>Enemies Killed with Attack or Spell Hits Explode, dealing 25% of their Life as Fire Damage<br>300% increased Cast Speed
+ |level1                                  = True
+ |level1_level_requirement                = 2
+ }}

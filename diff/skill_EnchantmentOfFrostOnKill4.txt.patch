@@ -1,0 +1,40 @@
+--- Skill:EnchantmentOfFrostOnKill4
++++ Export
+@@ -10,23 +10,23 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_cold_damage
+-|static_stat1_value                      = 1530
+-|static_stat2_id                         = spell_maximum_base_cold_damage
+-|static_stat2_value                      = 2422
+-|static_stat3_id                         = number_of_additional_projectiles
+-|static_stat3_value                      = 8
+-|static_stat4_id                         = chance_to_cast_on_kill_%_target_self
+-|static_stat4_value                      = 100
+-|static_stat5_id                         = projectiles_nova
+-|static_stat5_value                      = 1
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_minimum_base_cold_damage
++|static_stat2_value                      = 1530
++|static_stat3_id                         = spell_maximum_base_cold_damage
++|static_stat3_value                      = 2422
++|static_stat4_id                         = projectiles_nova
++|static_stat4_value                      = 1
++|static_stat5_id                         = number_of_additional_projectiles
++|static_stat5_value                      = 8
+ |static_stat6_id                         = spell_uncastable_if_triggerable
+ |static_stat6_value                      = 1
+-|static_stat7_id                         = damage_cannot_be_reflected
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = base_is_projectile
++|static_stat7_id                         = chance_to_cast_on_kill_%_target_self
++|static_stat7_value                      = 100
++|static_stat8_id                         = damage_cannot_be_reflected
+ |static_stat8_value                      = 1
+-|stat_text                               = Deals 1530 to 2422 Cold Damage<br>Fires 8 additional Projectiles<br>Trigger this Spell on Kill<br>Fires Projectiles in a circle<br>You cannot Cast this Spell directly<br>Damage cannot be Reflected
++|stat_text                               = Deals 1530 to 2422 Cold Damage<br>Fires Projectiles in a circle<br>Fires 8 additional Projectiles<br>You cannot Cast this Spell directly<br>Trigger this Spell on Kill<br>Damage cannot be Reflected
+ |level1                                  = True
+ |level1_level_requirement                = 75
+ }}

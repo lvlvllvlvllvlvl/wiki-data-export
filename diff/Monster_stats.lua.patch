@@ -1,0 +1,89 @@
+--- Module:Data tables/Monster stats
++++ Export
+@@ -109,20 +109,32 @@
+ 	{
+ 		name = "Monster", 
+ 		id = "base_attack_speed_+%_per_frenzy_charge", 
+-		value = 15, 
+-		stat_text = "15% increased [[Attack Speed]] per [[Frenzy Charge]]", 
++		value = 4, 
++		stat_text = "4% increased [[Attack Speed]] per [[Frenzy Charge]]", 
++	},
++	{
++		name = "Monster", 
++		id = "base_attack_speed_+%_per_frenzy_charge_if_not_player_minion", 
++		value = 11, 
++		stat_text = "", 
+ 	},
+ 	{
+ 		name = "Monster", 
+ 		id = "base_cast_speed_+%_per_frenzy_charge", 
+-		value = 15, 
+-		stat_text = "15% increased [[Cast Speed]] per [[Frenzy Charge]]", 
+-	},
+-	{
+-		name = "Monster", 
+-		id = "movement_velocity_+%_per_frenzy_charge", 
++		value = 4, 
++		stat_text = "4% increased [[Cast Speed]] per [[Frenzy Charge]]", 
++	},
++	{
++		name = "Monster", 
++		id = "base_cast_speed_+%_per_frenzy_charge_if_not_player_minion", 
++		value = 11, 
++		stat_text = "", 
++	},
++	{
++		name = "Monster", 
++		id = "movement_velocity_+%_per_frenzy_charge_if_not_player_minion", 
+ 		value = 5, 
+-		stat_text = "5% increased [[Movement Speed]] per [[Frenzy Charge]]", 
++		stat_text = "", 
+ 	},
+ 	{
+ 		name = "Monster", 
+@@ -133,20 +145,38 @@
+ 	{
+ 		name = "Monster", 
+ 		id = "physical_damage_reduction_%_per_endurance_charge", 
+-		value = 15, 
+-		stat_text = "15% additional [[Physical Damage]] Reduction per [[Endurance Charge]]", 
++		value = 4, 
++		stat_text = "4% additional [[Physical Damage]] Reduction per [[Endurance Charge]]", 
++	},
++	{
++		name = "Monster", 
++		id = "physical_damage_reduction_%_per_endurance_charge_if_not_player_minion", 
++		value = 11, 
++		stat_text = "", 
+ 	},
+ 	{
+ 		name = "Monster", 
+ 		id = "resist_all_elements_%_per_endurance_charge", 
+-		value = 15, 
+-		stat_text = "+15% to all [[Elemental Resistance|Elemental Resistances]] per [[Endurance Charge]]", 
++		value = 4, 
++		stat_text = "+4% to all [[Elemental Resistance|Elemental Resistances]] per [[Endurance Charge]]", 
++	},
++	{
++		name = "Monster", 
++		id = "resist_all_elements_%_per_endurance_charge_if_not_player_minion", 
++		value = 11, 
++		stat_text = "", 
+ 	},
+ 	{
+ 		name = "Monster", 
+ 		id = "critical_strike_chance_+%_per_power_charge", 
+-		value = 200, 
+-		stat_text = "200% increased [[Critical Strike Chance]] per [[Power Charge]]", 
++		value = 50, 
++		stat_text = "50% increased [[Critical Strike Chance]] per [[Power Charge]]", 
++	},
++	{
++		name = "Monster", 
++		id = "critical_strike_chance_+%_per_power_charge_if_not_player_minion", 
++		value = 150, 
++		stat_text = "", 
+ 	},
+ 	{
+ 		name = "Monster", 

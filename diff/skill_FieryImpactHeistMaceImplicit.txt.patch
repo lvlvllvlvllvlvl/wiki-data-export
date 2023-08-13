@@ -1,0 +1,19 @@
+--- Skill:FieryImpactHeistMaceImplicit
++++ Export
+@@ -8,11 +8,11 @@
+ |static_stored_uses                      = 1
+ |static_cooldown                         = 2
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = skill_physical_damage_%_to_convert_to_fire
+-|static_stat1_value                      = 60
+-|static_stat2_id                         = skill_has_trigger_from_unique_item
+-|static_stat2_value                      = 1
+-|static_stat3_id                         = is_area_damage
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat2_value                      = 60
++|static_stat3_id                         = skill_has_trigger_from_unique_item
+ |static_stat3_value                      = 1
+ |stat_text                               = 60% of Physical Damage Converted to Fire Damage<br>This Skill is Triggered by a Unique Item
+ |level1                                  = True

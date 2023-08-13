@@ -1,0 +1,20 @@
+--- Monster:Metadata/Monsters/LeagueCrucible/CriticalSpeed/KitavaHerald
++++ Export
+@@ -0,0 +1,17 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueCrucible/CriticalSpeed/KitavaHerald
++|monster_type_id                  = CrucibleKitavaHerald
++|mod_ids                          = MonsterSpeedAndDamageFixupComplete
++|tags                             = cannot_be_monolith, caster, cleaving_weapon, cultist, demon, fire_affinity, flesh_armour, has_one_hand_sword, has_one_handed_melee, medium_height, medium_movement, melee, not_int, physical_affinity
++|skill_ids                        = KitavaDemonLeapSlam, KitavaDemonCleave, KitavaDemonWhirlingBlades, KitavaDemonXMortar, Melee, GTCrucibleKitavaDemonMassMortar, CrucibleKitavaDemonXMortarTriggered
++|name                             = Forged Herald
++|size                             = 3
++|minimum_attack_distance          = 6
++|maximum_attack_distance          = 10
++|model_size_multiplier            = 1.15
++|experience_multiplier            = 2.0
++|damage_multiplier                = 1.17
++|health_multiplier                = 3.6
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.455
++}}

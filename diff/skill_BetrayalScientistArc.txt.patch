@@ -1,0 +1,21 @@
+--- Skill:BetrayalScientistArc
++++ Export
+@@ -8,12 +8,12 @@
+ |static_damage_effectiveness             = 50
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 2
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 7
+-|static_stat3_id                         = damage_vs_tiki_totems_+%
+-|static_stat3_value                      = 100
++|static_stat1_id                         = damage_vs_tiki_totems_+%
++|static_stat1_value                      = 100
++|static_stat2_id                         = spell_minimum_base_lightning_damage
++|static_stat2_value                      = 2
++|static_stat3_id                         = spell_maximum_base_lightning_damage
++|static_stat3_value                      = 7
+ |static_stat4_id                         = base_chance_to_shock_%
+ |static_stat4_value                      = 10
+ |stat_text                               = Deals 2 to 7 Lightning Damage<br>10% chance to Shock enemies

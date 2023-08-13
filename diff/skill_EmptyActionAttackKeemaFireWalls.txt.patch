@@ -1,0 +1,19 @@
+--- Skill:EmptyActionAttackKeemaFireWalls
++++ Export
+@@ -11,12 +11,12 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = main_hand_base_maximum_attack_distance
+ |static_stat1_value                      = 20
+-|static_stat2_id                         = active_skill_attack_speed_+%_final
+-|static_stat2_value                      = -25
++|static_stat2_id                         = skill_cannot_be_knocked_back
++|static_stat2_value                      = 1
+ |static_stat3_id                         = skill_cannot_be_stunned
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = skill_cannot_be_knocked_back
+-|static_stat4_value                      = 1
++|static_stat4_id                         = active_skill_attack_speed_+%_final
++|static_stat4_value                      = -25
+ |stat_text                               = 25% less Attack Speed
+ |level1                                  = True
+ |level1_level_requirement                = 0

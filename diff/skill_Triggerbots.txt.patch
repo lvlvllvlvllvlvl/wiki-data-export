@@ -1,0 +1,22 @@
+--- Skill:Triggerbots
++++ Export
+@@ -0,0 +1,19 @@
++{{Skill
++|gem_description                         = Summon two Triggerbots which follow you around and run towards enemies.
++|active_skill_name                       = Summon Triggerbots
++|skill_id                                = Triggerbots
++|cast_time                               = 0.0
++|required_level                          = 1
++|static_stored_uses                      = 1
++|static_cooldown                         = 1
++|static_damage_effectiveness             = 100
++|static_damage_multiplier                = 100
++|static_attack_speed_multiplier          = 100
++|static_stat1_id                         = cast_on_gain_skill
++|static_stat1_value                      = 1
++|static_stat2_id                         = display_triggerbots_do_their_job
++|static_stat2_value                      = 1
++|stat_text                               = This Spell is Triggered when Gained<br>Your Triggered Spells Trigger twice, once from each Triggerbot's location<br>The additional Trigger ignores Cooldowns
++|level1                                  = True
++|level1_level_requirement                = 1
++}}

@@ -1,0 +1,13 @@
+--- Area:1~1~1
++++ Export
+@@ -9,6 +9,10 @@
+ |parent_area_id                   = 1_1_town
+ |modifier_ids                     = MapNoPortals
+ |boss_monster_ids                 = Metadata/Monsters/ZombieBoss/ZombieBossHillockNormal
++|spawn_weight1_tag                = sentinel_drone
++|spawn_weight1_value              = 0
++|spawn_weight2_tag                = default
++|spawn_weight2_value              = 1000
+ |flavour_text                     = Hope was drowned here.
+ |main_page                        = The Twilight Strand (Act 1)
+ |screenshot_ext                   = png

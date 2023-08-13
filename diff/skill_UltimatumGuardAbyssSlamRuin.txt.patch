@@ -1,0 +1,37 @@
+--- Skill:UltimatumGuardAbyssSlamRuin
++++ Export
+@@ -9,20 +9,20 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = total_projectile_spread_angle_override
+-|static_stat1_value                      = 90
+-|static_stat2_id                         = main_hand_base_maximum_attack_distance
+-|static_stat2_value                      = 50
+-|static_stat3_id                         = number_of_additional_projectiles
+-|static_stat3_value                      = 2
+-|static_stat4_id                         = upheaval_number_of_spikes
+-|static_stat4_value                      = 10
+-|static_stat5_id                         = is_area_damage
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = cast_time_overrides_attack_duration
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = apply_ultimatum_ruin_on_hit
+-|static_stat7_value                      = 1
++|static_stat1_id                         = apply_ultimatum_ruin_on_hit
++|static_stat1_value                      = 1
++|static_stat2_id                         = cast_time_overrides_attack_duration
++|static_stat2_value                      = 1
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = main_hand_base_maximum_attack_distance
++|static_stat4_value                      = 50
++|static_stat5_id                         = total_projectile_spread_angle_override
++|static_stat5_value                      = 90
++|static_stat6_id                         = number_of_additional_projectiles
++|static_stat6_value                      = 2
++|static_stat7_id                         = upheaval_number_of_spikes
++|static_stat7_value                      = 10
+ |stat_text                               = Fires 2 additional Projectiles<br>Causes 10 Bursts
+ |level1                                  = True
+ |level1_level_requirement                = 1

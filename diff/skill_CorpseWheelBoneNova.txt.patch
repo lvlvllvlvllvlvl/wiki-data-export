@@ -1,0 +1,29 @@
+--- Skill:CorpseWheelBoneNova
++++ Export
+@@ -9,17 +9,17 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = projectile_spiral_nova_time_ms
+-|static_stat1_value                      = 220
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
+ |static_stat2_id                         = monster_projectile_variation
+ |static_stat2_value                      = 118
+-|static_stat3_id                         = base_number_of_projectiles_in_spiral_nova
+-|static_stat3_value                      = 15
+-|static_stat4_id                         = projectile_spiral_nova_angle
+-|static_stat4_value                      = 336
+-|static_stat5_id                         = global_bleed_on_hit
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = base_is_projectile
++|static_stat3_id                         = projectile_spiral_nova_time_ms
++|static_stat3_value                      = 220
++|static_stat4_id                         = base_number_of_projectiles_in_spiral_nova
++|static_stat4_value                      = 15
++|static_stat5_id                         = projectile_spiral_nova_angle
++|static_stat5_value                      = 336
++|static_stat6_id                         = global_bleed_on_hit
+ |static_stat6_value                      = 1
+ |stat_text                               = Fires 15 Projectiles in a spiral<br>Causes Bleeding
+ |level1                                  = True

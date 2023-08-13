@@ -1,0 +1,57 @@
+--- Skill:MavenBrainIonCannon
++++ Export
+@@ -8,33 +8,31 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 33
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 50
++|static_stat1_id                         = cannot_be_blocked_or_dodged_or_suppressed
++|static_stat1_value                      = 1
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
+ |static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+ |static_stat3_value                      = -95
+-|static_stat4_id                         = reduce_enemy_dodge_%
+-|static_stat4_value                      = 1000
+-|static_stat5_id                         = global_reduce_enemy_block_%
+-|static_stat5_value                      = 1000
+-|static_stat6_id                         = always_shock
++|static_stat4_id                         = skill_cannot_be_interrupted
++|static_stat4_value                      = 1
++|static_stat5_id                         = skill_cannot_be_knocked_back
++|static_stat5_value                      = 1
++|static_stat6_id                         = skill_cannot_be_stunned
+ |static_stat6_value                      = 1
+-|static_stat7_id                         = always_freeze
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = skill_cannot_be_knocked_back
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = skill_cannot_be_stunned
+-|static_stat9_value                      = 1
+-|static_stat10_id                        = is_area_damage
+-|static_stat10_value                     = 1
+-|static_stat11_id                        = skill_cannot_be_interrupted
++|static_stat7_id                         = spell_minimum_base_cold_damage
++|static_stat7_value                      = 33
++|static_stat8_id                         = spell_maximum_base_cold_damage
++|static_stat8_value                      = 50
++|static_stat9_id                         = spell_minimum_base_lightning_damage
++|static_stat9_value                      = 33
++|static_stat10_id                        = spell_maximum_base_lightning_damage
++|static_stat10_value                     = 50
++|static_stat11_id                        = always_shock
+ |static_stat11_value                     = 1
+-|static_stat12_id                        = spell_minimum_base_cold_damage
+-|static_stat12_value                     = 33
+-|static_stat13_id                        = spell_maximum_base_cold_damage
+-|static_stat13_value                     = 50
+-|stat_text                               = Deals 33 to 50 Lightning Damage<br>Enemies have 1000% reduced chance to Dodge Hits from this Skill<br>Enemy Block Chance reduced by 1000% against this Skill<br>Hits always Shock<br>Always Freezes enemies<br>Deals 33 to 50 Cold Damage
++|static_stat12_id                        = always_freeze
++|static_stat12_value                     = 1
++|stat_text                               = Deals 33 to 50 Cold Damage<br>Deals 33 to 50 Lightning Damage<br>Hits always Shock<br>Always Freezes enemies
+ |level1                                  = True
+ |level1_level_requirement                = 0
+ }}

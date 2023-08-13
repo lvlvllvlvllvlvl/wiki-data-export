@@ -1,0 +1,27 @@
+--- Skill:GPSBoneCultistOrb
++++ Export
+@@ -9,16 +9,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_maximum_action_distance_+%
+-|static_stat1_value                      = -58
+-|static_stat2_id                         = skill_physical_damage_%_to_convert_to_chaos
+-|static_stat2_value                      = 20
+-|static_stat3_id                         = base_is_projectile
+-|static_stat3_value                      = 1
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = projectile_uses_contact_position
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_maximum_action_distance_+%
++|static_stat3_value                      = -58
+ |static_stat4_id                         = use_scaled_contact_offset
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = projectile_uses_contact_position
+-|static_stat5_value                      = 1
++|static_stat5_id                         = skill_physical_damage_%_to_convert_to_chaos
++|static_stat5_value                      = 20
+ |stat_text                               = Deals (2-204) to (2-306) Physical Damage<br>Fires (0-3) additional Projectiles<br>20% of Physical Damage Converted to Chaos Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1

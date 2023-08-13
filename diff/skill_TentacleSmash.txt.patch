@@ -1,0 +1,21 @@
+--- Skill:TentacleSmash
++++ Export
+@@ -9,13 +9,13 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 250
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = attack_trigger_on_kill_%
+-|static_stat1_value                      = 20
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
+ |static_stat2_id                         = attack_unusable_if_triggerable
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = is_area_damage
+-|static_stat3_value                      = 1
+-|stat_text                               = 20% chance to Trigger this Attack on Kill<br>You cannot use this Attack directly
++|static_stat3_id                         = attack_trigger_on_kill_%
++|static_stat3_value                      = 20
++|stat_text                               = You cannot use this Attack directly<br>20% chance to Trigger this Attack on Kill
+ |level1                                  = True
+ |level1_level_requirement                = 70
+ }}

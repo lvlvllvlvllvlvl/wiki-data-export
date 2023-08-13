@@ -1,0 +1,17 @@
+--- Skill:BanditDetonateDead
++++ Export
+@@ -10,10 +10,10 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = -18
+-|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat2_value                      = -25
+-|static_stat3_id                         = is_area_damage
+-|static_stat3_value                      = 1
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat3_value                      = -25
+ |stat_text                               = Deals (16-57) to (24-85) Fire Damage<br>Explosion deals base Fire Damage equal to (9-6)% of the corpse's Maximum Life
+ |level1                                  = True
+ |level1_level_requirement                = 17

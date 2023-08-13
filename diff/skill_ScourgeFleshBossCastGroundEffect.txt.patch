@@ -1,0 +1,26 @@
+--- Skill:ScourgeFleshBossCastGroundEffect
++++ Export
+@@ -7,14 +7,15 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_physical_damage_to_deal_per_minute
+-|static_stat1_value                      = 486
+-|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat2_value                      = -60
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = -40
+-|static_stat4_id                         = ground_blood_art_variation
+-|static_stat4_value                      = 3
++|static_duration                         = 5
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -40
++|static_stat2_id                         = ground_blood_art_variation
++|static_stat2_value                      = 3
++|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat3_value                      = -60
++|static_stat4_id                         = base_physical_damage_to_deal_per_minute
++|static_stat4_value                      = 486
+ |static_stat5_id                         = base_skill_effect_duration
+ |static_stat5_value                      = 5000
+ |stat_text                               = Deals 8.1 Base Physical Damage per second<br>Base duration is 5 seconds

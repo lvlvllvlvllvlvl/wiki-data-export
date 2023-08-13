@@ -1,0 +1,17 @@
+--- Skill:AnimatedThrownWeapon
++++ Export
+@@ -10,10 +10,10 @@
+ |static_damage_effectiveness             = 48
+ |static_damage_multiplier                = 48
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_projectile_speed_+%
+-|static_stat1_value                      = 40
+-|static_stat2_id                         = base_is_projectile
+-|static_stat2_value                      = 1
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_projectile_speed_+%
++|static_stat2_value                      = 40
+ |stat_text                               = 40% increased Projectile Speed
+ |level1                                  = True
+ |level1_level_requirement                = 1

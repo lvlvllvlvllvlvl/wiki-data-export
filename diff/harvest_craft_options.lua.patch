@@ -1,0 +1,52 @@
+--- Module:Harvest/harvest craft options
++++ Export
+@@ -178,9 +178,9 @@
+ 	},
+ 	{
+ 		id = "RerollCorruptedMap", 
+-		text = "{{c|white|Sacrifice}} a {{c|white|Corrupted Map}}. Create a new Corrupted Map of the same tier and rarity.", 
+-		tier = 0, 
+-		effect = "Sacrifice a Corrupted Map. Create a new Corrupted Map of the same tier and rarity.", 
++		text = "{{c|white|Sacrifice}} a Rare {{c|white|Corrupted Map}}. Create a new Corrupted Map of the same tier and rarity.", 
++		tier = 0, 
++		effect = "Sacrifice a Rare Corrupted Map. Create a new Corrupted Map of the same tier and rarity.", 
+ 		is_enchant = false, 
+ 		cost_lifeforce_type = 1, 
+ 		cost_lifeforce = 200, 
+@@ -249,9 +249,9 @@
+ 	},
+ 	{
+ 		id = "RerollBreachSplinters", 
+-		text = "{{c|white|Change}} a stack of {{c|white|Breach Splinters}} or a normal, Charged, Enriched or Pure {{c|white|Breachstone}} into Splinters or a Breachstone of another type. Cost is proportional to stack size.", 
+-		tier = 0, 
+-		effect = "Change a stack of Breach Splinters or a normal, Enriched or Pure Breachstone into Splinters or a Breachstone of another type. Cost is proportional to stack size.", 
++		text = "{{c|white|Change}} a stack of {{c|white|Breach Splinters}} or a normal or Flawless {{c|white|Breachstone}} into Splinters or a Breachstone of another type. Cost is proportional to stack size.", 
++		tier = 0, 
++		effect = "Change a stack of Breach Splinters or a normal or Flawless Breachstone into Splinters or a Breachstone of another type. Cost is proportional to stack size.", 
+ 		is_enchant = false, 
+ 		cost_lifeforce_type = 1, 
+ 		cost_lifeforce = 4, 
+@@ -259,9 +259,7 @@
+ 		command = "exchange_item_in_set_for_other_item_in_set", 
+ 		parameters = {"HarvestBreachSplinterExchange",
+ "HarvestBreachStoneExchange",
+-"HarvestBreachStoneExchange2",
+-"HarvestBreachStoneExchange3",
+-"HarvestBreachStoneExchange4"}, 
++"HarvestBreachStoneExchange5"}, 
+ 	},
+ 	{
+ 		id = "RerollScarabs", 
+@@ -539,9 +537,9 @@
+ 	},
+ 	{
+ 		id = "MapNoSextantEnchant", 
+-		text = "{{c|white|Enchant}} a non-Unique {{c|white|Map}} with {{c|white|Map doesn't consume Sextant charges}}", 
+-		tier = 2, 
+-		effect = "Enchant a non-Unique Map with Map doesn't consume Sextant charges", 
++		text = "{{c|white|Enchant}} a non-Unique {{c|white|Map}} with {{c|white|Map has 50% chance to not consume Sextant Uses}}", 
++		tier = 2, 
++		effect = "Enchant a non-Unique Map with Map has 50% chance to not consume Sextant Uses", 
+ 		is_enchant = false, 
+ 		cost_lifeforce_type = 2, 
+ 		cost_lifeforce = 2500, 

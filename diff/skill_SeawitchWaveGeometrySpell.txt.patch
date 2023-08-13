@@ -1,0 +1,17 @@
+--- Skill:SeawitchWaveGeometrySpell
++++ Export
+@@ -10,10 +10,10 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_maximum_action_distance_+%
+-|static_stat1_value                      = -60
+-|static_stat2_id                         = is_area_damage
+-|static_stat2_value                      = 1
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_maximum_action_distance_+%
++|static_stat2_value                      = -60
+ |stat_text                               = Deals (15-1813) to (23-2719) Cold Damage
+ |level1                                  = True
+ |level1_level_requirement                = 4

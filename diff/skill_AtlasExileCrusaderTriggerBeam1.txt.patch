@@ -1,0 +1,21 @@
+--- Skill:AtlasExileCrusaderTriggerBeam1
++++ Export
+@@ -8,12 +8,12 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 7
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 10
+-|static_stat3_id                         = generic_skill_trigger_skills_with_id
+-|static_stat3_value                      = 1
++|static_stat1_id                         = generic_skill_trigger_skills_with_id
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_minimum_base_physical_damage
++|static_stat2_value                      = 7
++|static_stat3_id                         = spell_maximum_base_physical_damage
++|static_stat3_value                      = 10
+ |static_stat4_id                         = skill_physical_damage_%_to_convert_to_lightning
+ |static_stat4_value                      = 75
+ |stat_text                               = Deals 7 to 10 Physical Damage<br>75% of Physical Damage Converted to Lightning Damage

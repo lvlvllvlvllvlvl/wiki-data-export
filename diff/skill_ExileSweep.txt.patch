@@ -1,0 +1,51 @@
+--- Skill:ExileSweep
++++ Export
+@@ -8,31 +8,31 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = is_area_damage
++|static_stat1_id                         = cast_time_overrides_attack_duration
+ |static_stat1_value                      = 1
+-|static_stat2_id                         = cast_time_overrides_attack_duration
++|static_stat2_id                         = is_area_damage
+ |static_stat2_value                      = 1
+-|stat_text                               = (50-100)% chance to Knock Enemies Back on hit<br>(12-24)% increased Physical Damage<br>(15-40)% increased Attack Speed
++|stat_text                               = (50-100)% chance to Knock Enemies Back on hit<br>(15-40)% increased Attack Speed<br>(12-24)% increased Physical Damage
+ |level1                                  = True
+ |level1_level_requirement                = 30
+-|level1_stat_text                        = 50% chance to Knock Enemies Back on hit<br>12% increased Physical Damage<br>15% increased Attack Speed
+-|level1_stat1_id                         = base_global_chance_to_knockback_%
+-|level1_stat1_value                      = 50
+-|level1_stat2_id                         = physical_damage_+%
+-|level1_stat2_value                      = 12
++|level1_stat_text                        = 50% chance to Knock Enemies Back on hit<br>15% increased Attack Speed<br>12% increased Physical Damage
++|level1_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|level1_stat1_value                      = -10
++|level1_stat2_id                         = base_global_chance_to_knockback_%
++|level1_stat2_value                      = 50
+ |level1_stat3_id                         = attack_speed_+%
+ |level1_stat3_value                      = 15
+-|level1_stat4_id                         = active_skill_area_of_effect_radius_+%_final
+-|level1_stat4_value                      = -10
++|level1_stat4_id                         = physical_damage_+%
++|level1_stat4_value                      = 12
+ |level2                                  = True
+ |level2_level_requirement                = 65
+-|level2_stat_text                        = 100% chance to Knock Enemies Back on hit<br>24% increased Physical Damage<br>40% increased Attack Speed
+-|level2_stat1_id                         = base_global_chance_to_knockback_%
+-|level2_stat1_value                      = 100
+-|level2_stat2_id                         = physical_damage_+%
+-|level2_stat2_value                      = 24
++|level2_stat_text                        = 100% chance to Knock Enemies Back on hit<br>40% increased Attack Speed<br>24% increased Physical Damage
++|level2_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|level2_stat1_value                      = 25
++|level2_stat2_id                         = base_global_chance_to_knockback_%
++|level2_stat2_value                      = 100
+ |level2_stat3_id                         = attack_speed_+%
+ |level2_stat3_value                      = 40
+-|level2_stat4_id                         = active_skill_area_of_effect_radius_+%_final
+-|level2_stat4_value                      = 25
++|level2_stat4_id                         = physical_damage_+%
++|level2_stat4_value                      = 24
+ }}

@@ -1,0 +1,43 @@
+--- Skill:MPSHeistRobotTotemFireShot
++++ Export
+@@ -9,25 +9,25 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_fire_damage
+-|static_stat1_value                      = 7
+-|static_stat2_id                         = spell_maximum_base_fire_damage
+-|static_stat2_value                      = 10
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = maintain_projectile_direction_when_using_contact_position
++|static_stat2_value                      = 1
+ |static_stat3_id                         = monster_projectile_variation
+ |static_stat3_value                      = 158
+-|static_stat4_id                         = number_of_additional_projectiles
+-|static_stat4_value                      = 4
+-|static_stat5_id                         = projectiles_nova
++|static_stat4_id                         = projectile_uses_contact_position
++|static_stat4_value                      = 1
++|static_stat5_id                         = projectiles_not_offset
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = base_is_projectile
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = projectile_uses_contact_position
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = maintain_projectile_direction_when_using_contact_position
++|static_stat6_id                         = spell_minimum_base_fire_damage
++|static_stat6_value                      = 7
++|static_stat7_id                         = spell_maximum_base_fire_damage
++|static_stat7_value                      = 10
++|static_stat8_id                         = projectiles_nova
+ |static_stat8_value                      = 1
+-|static_stat9_id                         = projectiles_not_offset
+-|static_stat9_value                      = 1
+-|stat_text                               = Deals 7 to 10 Fire Damage<br>Fires 4 additional Projectiles<br>Fires Projectiles in a circle
++|static_stat9_id                         = number_of_additional_projectiles
++|static_stat9_value                      = 4
++|stat_text                               = Deals 7 to 10 Fire Damage<br>Fires Projectiles in a circle<br>Fires 4 additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 0
+ }}

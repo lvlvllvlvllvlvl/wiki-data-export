@@ -1,0 +1,28 @@
+--- Skill:ExileChargedDash
++++ Export
+@@ -8,17 +8,17 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = active_skill_damage_+%_final
+-|static_stat1_value                      = 100
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
+ |static_stat2_id                         = skill_physical_damage_%_to_convert_to_lightning
+ |static_stat2_value                      = 100
+-|static_stat3_id                         = attack_speed_+%
+-|static_stat3_value                      = 200
+-|static_stat4_id                         = fortify_on_hit
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = is_area_damage
++|static_stat3_id                         = active_skill_damage_+%_final
++|static_stat3_value                      = 100
++|static_stat4_id                         = attack_speed_+%
++|static_stat4_value                      = 200
++|static_stat5_id                         = fortify_on_hit
+ |static_stat5_value                      = 1
+-|stat_text                               = Deals 100% more Damage<br>100% of Physical Damage Converted to Lightning Damage<br>200% increased Attack Speed<br>Melee Hits Fortify
++|stat_text                               = 100% of Physical Damage Converted to Lightning Damage<br>Deals 100% more Damage<br>200% increased Attack Speed<br>Melee Hits Fortify
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

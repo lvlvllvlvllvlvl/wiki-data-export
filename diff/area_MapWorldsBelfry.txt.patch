@@ -1,0 +1,19 @@
+--- Area:MapWorldsBelfry
++++ Export
+@@ -4,14 +4,14 @@
+ |act                              = 11
+ |area_level                       = 77
+ |area_type_tags                   = urban
+-|tags                             = map, cannot_be_twinned, einharmaps, kitava_area, church
++|tags                             = map, cannot_be_twinned, einharmaps, kitava_area, church, cannot_possess_boss
+ |loading_screen                   = Maps
+ |parent_area_id                   = 2_11_endgame_town
+ |boss_monster_ids                 = Metadata/Monsters/KitavaBoss/Kitava1Map
+ |entry_text                       = Bells are rung in celebration, and in sorrow. And, finally, in despair.
+ |entry_npc                        = The Shaper
+ |is_map_area                      = True
+-|flavour_text                     = Bells are rung in celebration, and in sorrow.
++|flavour_text                     = Bells are rung in celebration, and in sorrow.
+ And, finally, in despair.
+ |main_page                        = Belfry Map
+ }}

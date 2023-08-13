@@ -1,0 +1,46 @@
+--- Skill:PerandusFireNova
++++ Export
+@@ -9,26 +9,26 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = fire_nova_damage_+%_per_repeat_final
+-|static_stat1_value                      = 30
+-|static_stat2_id                         = skill_repeat_count
+-|static_stat2_value                      = 3
+-|static_stat3_id                         = cannot_stun
+-|static_stat3_value                      = 1
+-|static_stat4_id                         = is_area_damage
+-|static_stat4_value                      = 1
+-|stat_text                               = Deals (7-392) to (11-587) Fire Damage<br>(20-50)% increased Cast Speed<br>30% more Damage with Hits and Ailments per Repeat<br>Skills Repeat an additional 3 Times<br>Your Hits cannot Stun Enemies
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = cannot_stun
++|static_stat2_value                      = 1
++|static_stat3_id                         = skill_repeat_count
++|static_stat3_value                      = 3
++|static_stat4_id                         = fire_nova_damage_+%_per_repeat_final
++|static_stat4_value                      = 30
++|stat_text                               = Deals (7-392) to (11-587) Fire Damage<br>Your Hits cannot Stun Enemies<br>Skills Repeat an additional 3 Times<br>(20-50)% increased Cast Speed<br>30% more Damage with Hits and Ailments per Repeat
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ |level1_stat_text                        = Deals 7 to 11 Fire Damage<br>20% increased Cast Speed
+-|level1_stat1_id                         = spell_minimum_base_fire_damage
+-|level1_stat1_value                      = 7
+-|level1_stat2_id                         = spell_maximum_base_fire_damage
+-|level1_stat2_value                      = 11
+-|level1_stat3_id                         = base_cast_speed_+%
+-|level1_stat3_value                      = 20
+-|level1_stat4_id                         = active_skill_area_of_effect_radius_+%_final
+-|level1_stat4_value                      = -30
++|level1_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|level1_stat1_value                      = -30
++|level1_stat2_id                         = spell_minimum_base_fire_damage
++|level1_stat2_value                      = 7
++|level1_stat3_id                         = spell_maximum_base_fire_damage
++|level1_stat3_value                      = 11
++|level1_stat4_id                         = base_cast_speed_+%
++|level1_stat4_value                      = 20
+ |level2                                  = True
+ |level2_level_requirement                = 5
+ |level2_stat_text                        = Deals 9 to 14 Fire Damage<br>20% increased Cast Speed

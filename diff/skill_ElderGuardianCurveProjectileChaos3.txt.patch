@@ -1,0 +1,53 @@
+--- Skill:ElderGuardianCurveProjectileChaos3
++++ Export
+@@ -7,29 +7,29 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 70
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = lunaris_glaive_acceleration_y
+-|static_stat1_value                      = 500
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
+ |static_stat2_id                         = lunaris_glaive_acceleration_x
+ |static_stat2_value                      = 500
+-|static_stat3_id                         = lunaris_glaive_angle
+-|static_stat3_value                      = -15
+-|static_stat4_id                         = active_skill_damage_+%_final
+-|static_stat4_value                      = -30
+-|static_stat5_id                         = melee_weapon_range_+
+-|static_stat5_value                      = 50
+-|static_stat6_id                         = active_skill_attack_speed_+%_final
+-|static_stat6_value                      = 20
+-|static_stat7_id                         = number_of_additional_projectiles
+-|static_stat7_value                      = 3
+-|static_stat8_id                         = cannot_stun
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = base_is_projectile
+-|static_stat9_value                      = 1
+-|static_stat10_id                        = projectile_uses_contact_position
+-|static_stat10_value                     = 1
+-|static_stat11_id                        = triggered_skill_use_animation_event
+-|static_stat11_value                     = 1
+-|stat_text                               = Deals 30% less Damage<br>+50 to Melee Strike Range<br>20% more Attack Speed<br>Fires 3 additional Projectiles<br>Your Hits cannot Stun Enemies
++|static_stat3_id                         = lunaris_glaive_acceleration_y
++|static_stat3_value                      = 500
++|static_stat4_id                         = lunaris_glaive_angle
++|static_stat4_value                      = -15
++|static_stat5_id                         = projectile_uses_contact_position
++|static_stat5_value                      = 1
++|static_stat6_id                         = triggered_skill_use_animation_event
++|static_stat6_value                      = 1
++|static_stat7_id                         = cannot_stun
++|static_stat7_value                      = 1
++|static_stat8_id                         = active_skill_damage_+%_final
++|static_stat8_value                      = -30
++|static_stat9_id                         = number_of_additional_projectiles
++|static_stat9_value                      = 3
++|static_stat10_id                        = active_skill_attack_speed_+%_final
++|static_stat10_value                     = 20
++|static_stat11_id                        = melee_weapon_range_+
++|static_stat11_value                     = 50
++|stat_text                               = Your Hits cannot Stun Enemies<br>Deals 30% less Damage<br>Fires 3 additional Projectiles<br>20% more Attack Speed<br>+50 to Melee Strike Range
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

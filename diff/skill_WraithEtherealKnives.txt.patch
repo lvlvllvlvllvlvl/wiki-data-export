@@ -1,0 +1,71 @@
+--- Skill:WraithEtherealKnives
++++ Export
+@@ -1,6 +1,6 @@
+ {{Skill
+ |gem_description                         = Fires an arc of knives in front of the caster which deals physical damage.
+-|active_skill_name                       = 
++|active_skill_name                       = Ethereal Knives
+ |skill_id                                = WraithEtherealKnives
+ |cast_time                               = 0.8
+ |required_level                          = 51
+@@ -8,19 +8,19 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = fixed_projectile_spread
+-|static_stat1_value                      = 20
+-|static_stat2_id                         = base_projectile_speed_+%
+-|static_stat2_value                      = 25
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = fixed_projectile_spread
++|static_stat2_value                      = 20
+ |static_stat3_id                         = active_skill_damage_+%_final
+ |static_stat3_value                      = -15
+ |static_stat4_id                         = base_cast_speed_+%
+ |static_stat4_value                      = -25
+-|static_stat5_id                         = number_of_additional_projectiles
+-|static_stat5_value                      = 9
+-|static_stat6_id                         = base_is_projectile
+-|static_stat6_value                      = 1
+-|stat_text                               = Deals (192-692) to (288-1038) Physical Damage<br>25% increased Projectile Speed<br>Deals 15% less Damage<br>25% reduced Cast Speed<br>Fires 9 additional Projectiles
++|static_stat5_id                         = base_projectile_speed_+%
++|static_stat5_value                      = 25
++|static_stat6_id                         = number_of_additional_projectiles
++|static_stat6_value                      = 9
++|stat_text                               = Deals (192-692) to (288-1038) Physical Damage<br>Deals 15% less Damage<br>25% reduced Cast Speed<br>25% increased Projectile Speed<br>Fires 9 additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 51
+ |level1_stat_text                        = Deals 192 to 288 Physical Damage
+@@ -31,19 +31,19 @@
+ |level2                                  = True
+ |level2_level_requirement                = 68
+ |level2_stat_text                        = Deals 348 to 522 Physical Damage
+-|level2_stat1_id                         = spell_minimum_base_physical_damage
+-|level2_stat1_value                      = 348
+-|level2_stat2_id                         = spell_maximum_base_physical_damage
+-|level2_stat2_value                      = 522
+-|level2_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|level2_stat3_value                      = -25
++|level2_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|level2_stat1_value                      = -25
++|level2_stat2_id                         = spell_minimum_base_physical_damage
++|level2_stat2_value                      = 348
++|level2_stat3_id                         = spell_maximum_base_physical_damage
++|level2_stat3_value                      = 522
+ |level3                                  = True
+ |level3_level_requirement                = 82
+ |level3_stat_text                        = Deals 692 to 1038 Physical Damage
+-|level3_stat1_id                         = spell_minimum_base_physical_damage
+-|level3_stat1_value                      = 692
+-|level3_stat2_id                         = spell_maximum_base_physical_damage
+-|level3_stat2_value                      = 1038
+-|level3_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|level3_stat3_value                      = -25
++|level3_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|level3_stat1_value                      = -25
++|level3_stat2_id                         = spell_minimum_base_physical_damage
++|level3_stat2_value                      = 692
++|level3_stat3_id                         = spell_maximum_base_physical_damage
++|level3_stat3_value                      = 1038
+ }}

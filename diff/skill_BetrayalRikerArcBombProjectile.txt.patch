@@ -1,0 +1,19 @@
+--- Skill:BetrayalRikerArcBombProjectile
++++ Export
+@@ -9,13 +9,13 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = number_of_projectiles_override
++|static_stat1_id                         = base_deal_no_damage
+ |static_stat1_value                      = 1
+ |static_stat2_id                         = base_is_projectile
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = projectile_uses_contact_position
++|static_stat3_id                         = number_of_projectiles_override
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = base_deal_no_damage
++|static_stat4_id                         = projectile_uses_contact_position
+ |static_stat4_value                      = 1
+ |stat_text                               = 
+ |level1                                  = True

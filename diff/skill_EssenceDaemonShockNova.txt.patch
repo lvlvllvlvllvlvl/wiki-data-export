@@ -1,0 +1,46 @@
+--- Skill:EssenceDaemonShockNova
++++ Export
+@@ -10,25 +10,26 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 1
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 15
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = 100
+-|static_stat4_id                         = base_active_skill_totem_level
+-|static_stat4_value                      = 20
++|static_duration                         = 4
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = 100
++|static_stat2_id                         = base_active_skill_totem_level
++|static_stat2_value                      = 20
++|static_stat3_id                         = base_skill_is_totemified
++|static_stat3_value                      = 1
++|static_stat4_id                         = is_area_damage
++|static_stat4_value                      = 1
+ |static_stat5_id                         = shock_nova_places_X_ground_lightning_patches
+ |static_stat5_value                      = 5
+-|static_stat6_id                         = base_totem_duration
+-|static_stat6_value                      = 10000
+-|static_stat7_id                         = base_skill_effect_duration
+-|static_stat7_value                      = 4000
+-|static_stat8_id                         = is_totem
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = is_area_damage
+-|static_stat9_value                      = 1
+-|static_stat10_id                        = base_skill_is_totemified
++|static_stat6_id                         = spell_minimum_base_lightning_damage
++|static_stat6_value                      = 1
++|static_stat7_id                         = spell_maximum_base_lightning_damage
++|static_stat7_value                      = 15
++|static_stat8_id                         = base_totem_duration
++|static_stat8_value                      = 10000
++|static_stat9_id                         = base_skill_effect_duration
++|static_stat9_value                      = 4000
++|static_stat10_id                        = is_totem
+ |static_stat10_value                     = 1
+ |stat_text                               = Deals 1 to 15 Lightning Damage<br>Totem lasts 10 seconds<br>Base duration is 4 seconds<br>Summons a Totem which uses this Skill
+ |level1                                  = True

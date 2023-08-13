@@ -1,0 +1,17 @@
+--- Wiki
++++ Export
+@@ -27,11 +27,11 @@
+ |static_vaal_stored_uses                 = 1
+ |static_vaal_soul_gain_prevention_time   = 3
+ |static_attack_speed_multiplier          = 320
+-|static_stat1_id                         = is_area_damage
++|static_stat1_id                         = base_skill_show_average_damage_instead_of_dps
+ |static_stat1_value                      = 1
+-|static_stat2_id                         = base_skill_show_average_damage_instead_of_dps
++|static_stat2_id                         = cannot_cancel_skill_before_contact_point
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = cannot_cancel_skill_before_contact_point
++|static_stat3_id                         = is_area_damage
+ |static_stat3_value                      = 1
+ |static_stat4_id                         = global_chance_to_blind_on_hit_%
+ |static_stat4_value                      = 100

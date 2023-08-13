@@ -1,0 +1,55 @@
+--- Skill:WbLightningEliteFlickerStrike
++++ Export
+@@ -12,32 +12,32 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = base_attack_repeat_count
+ |static_stat1_value                      = 2
+-|static_stat2_id                         = active_skill_attack_speed_+%_final
+-|static_stat2_value                      = 50
+-|static_stat3_id                         = ignores_proximity_shield
+-|static_stat3_value                      = 1
+-|stat_text                               = (20-55)% increased Attack Speed<br>Deals (0-20)% more Damage<br>50% more Attack Speed
++|static_stat2_id                         = ignores_proximity_shield
++|static_stat2_value                      = 1
++|static_stat3_id                         = active_skill_attack_speed_+%_final
++|static_stat3_value                      = 50
++|stat_text                               = Deals (0-20)% more Damage<br>(20-55)% increased Attack Speed<br>50% more Attack Speed
+ |level1                                  = True
+ |level1_level_requirement                = 28
+ |level1_stat_text                        = 20% increased Attack Speed
+-|level1_stat1_id                         = attack_speed_+%
+-|level1_stat1_value                      = 20
+-|level1_stat2_id                         = skill_physical_damage_%_to_convert_to_lightning
+-|level1_stat2_value                      = -10
++|level1_stat1_id                         = skill_physical_damage_%_to_convert_to_lightning
++|level1_stat1_value                      = -10
++|level1_stat2_id                         = attack_speed_+%
++|level1_stat2_value                      = 20
+ |level2                                  = True
+ |level2_level_requirement                = 45
+ |level2_stat_text                        = 45% increased Attack Speed
+-|level2_stat1_id                         = attack_speed_+%
+-|level2_stat1_value                      = 45
+-|level2_stat2_id                         = skill_physical_damage_%_to_convert_to_lightning
+-|level2_stat2_value                      = -30
++|level2_stat1_id                         = skill_physical_damage_%_to_convert_to_lightning
++|level2_stat1_value                      = -30
++|level2_stat2_id                         = attack_speed_+%
++|level2_stat2_value                      = 45
+ |level3                                  = True
+ |level3_level_requirement                = 60
+-|level3_stat_text                        = 55% increased Attack Speed<br>Deals 20% more Damage
+-|level3_stat1_id                         = attack_speed_+%
+-|level3_stat1_value                      = 55
+-|level3_stat2_id                         = skill_physical_damage_%_to_convert_to_lightning
+-|level3_stat2_value                      = -30
+-|level3_stat3_id                         = active_skill_damage_+%_final
+-|level3_stat3_value                      = 20
++|level3_stat_text                        = Deals 20% more Damage<br>55% increased Attack Speed
++|level3_stat1_id                         = skill_physical_damage_%_to_convert_to_lightning
++|level3_stat1_value                      = -30
++|level3_stat2_id                         = active_skill_damage_+%_final
++|level3_stat2_value                      = 20
++|level3_stat3_id                         = attack_speed_+%
++|level3_stat3_value                      = 55
+ }}

@@ -1,0 +1,25 @@
+--- Skill:PietyLightningWarp
++++ Export
+@@ -8,14 +8,14 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 57
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 171
+-|static_stat3_id                         = base_skill_show_average_damage_instead_of_dps
+-|static_stat3_value                      = 1
+-|static_stat4_id                         = is_area_damage
+-|static_stat4_value                      = 1
++|static_stat1_id                         = base_skill_show_average_damage_instead_of_dps
++|static_stat1_value                      = 1
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_minimum_base_lightning_damage
++|static_stat3_value                      = 57
++|static_stat4_id                         = spell_maximum_base_lightning_damage
++|static_stat4_value                      = 171
+ |stat_text                               = Deals 57 to 171 Lightning Damage
+ |level1                                  = True
+ |level1_level_requirement                = 30

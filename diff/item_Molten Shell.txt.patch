@@ -1,0 +1,22 @@
+--- Wiki
++++ Export
+@@ -34,14 +34,14 @@
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+ |static_duration                         = 3
+-|static_stat1_id                         = skill_override_pvp_scaling_time_ms
+-|static_stat1_value                      = 200
+-|static_stat2_id                         = base_skill_show_average_damage_instead_of_dps
++|static_stat1_id                         = base_skill_show_average_damage_instead_of_dps
++|static_stat1_value                      = 1
++|static_stat2_id                         = damage_originates_from_initiator_location
+ |static_stat2_value                      = 1
+ |static_stat3_id                         = is_area_damage
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = damage_originates_from_initiator_location
+-|static_stat4_value                      = 1
++|static_stat4_id                         = skill_override_pvp_scaling_time_ms
++|static_stat4_value                      = 200
+ |static_stat5_id                         = base_skill_effect_duration
+ |static_stat5_value                      = 3000
+ |static_stat6_id                         = display_this_skill_cooldown_does_not_recover_during_buff

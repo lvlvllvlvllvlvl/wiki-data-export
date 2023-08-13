@@ -1,0 +1,20 @@
+--- Skill:BetrayalMassSkeletonRainOfArrows
++++ Export
+@@ -12,12 +12,12 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = 50
+-|static_stat2_id                         = melee_range_+
+-|static_stat2_value                      = 50
+-|static_stat3_id                         = base_is_projectile
++|static_stat2_id                         = base_is_projectile
++|static_stat2_value                      = 1
++|static_stat3_id                         = is_area_damage
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = is_area_damage
+-|static_stat4_value                      = 1
++|static_stat4_id                         = melee_range_+
++|static_stat4_value                      = 50
+ |stat_text                               = +50 to Melee Strike Range
+ |level1                                  = True
+ |level1_level_requirement                = 1

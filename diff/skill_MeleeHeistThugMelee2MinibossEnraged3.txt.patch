@@ -1,0 +1,23 @@
+--- Skill:MeleeHeistThugMelee2MinibossEnraged3
++++ Export
+@@ -9,15 +9,15 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = base_knockback_speed_+%
+ |static_stat1_value                      = 100
+-|static_stat2_id                         = global_knockback
++|static_stat2_id                         = cast_time_overrides_attack_duration
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = skill_can_fire_arrows
++|static_stat3_id                         = determine_knockback_direction_from_melee_pattern
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = skill_can_fire_wand_projectiles
++|static_stat4_id                         = skill_can_fire_arrows
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = determine_knockback_direction_from_melee_pattern
++|static_stat5_id                         = skill_can_fire_wand_projectiles
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = cast_time_overrides_attack_duration
++|static_stat6_id                         = global_knockback
+ |static_stat6_value                      = 1
+ |stat_text                               = Knocks Enemies Back on Hit
+ |level1                                  = True

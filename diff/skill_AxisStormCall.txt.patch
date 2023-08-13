@@ -1,0 +1,38 @@
+--- Skill:AxisStormCall
++++ Export
+@@ -10,21 +10,22 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 8
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 24
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = -2
+-|static_stat4_id                         = skill_repeat_count
+-|static_stat4_value                      = 2
+-|static_stat5_id                         = base_cast_speed_+%
+-|static_stat5_value                      = 20
++|static_duration                         = 6
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -2
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_minimum_base_lightning_damage
++|static_stat3_value                      = 8
++|static_stat4_id                         = spell_maximum_base_lightning_damage
++|static_stat4_value                      = 24
++|static_stat5_id                         = skill_repeat_count
++|static_stat5_value                      = 2
+ |static_stat6_id                         = base_skill_effect_duration
+ |static_stat6_value                      = 6000
+-|static_stat7_id                         = is_area_damage
+-|static_stat7_value                      = 1
+-|stat_text                               = Deals 8 to 24 Lightning Damage<br>Skills Repeat an additional 2 Times<br>20% increased Cast Speed<br>Base duration is 6 seconds
++|static_stat7_id                         = base_cast_speed_+%
++|static_stat7_value                      = 20
++|stat_text                               = Deals 8 to 24 Lightning Damage<br>Skills Repeat an additional 2 Times<br>Base duration is 6 seconds<br>20% increased Cast Speed
+ |level1                                  = True
+ |level1_level_requirement                = 12
+ }}

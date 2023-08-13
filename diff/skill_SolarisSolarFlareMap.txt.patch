@@ -1,0 +1,40 @@
+--- Skill:SolarisSolarFlareMap
++++ Export
+@@ -11,21 +11,22 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_fire_damage
+-|static_stat1_value                      = 4
+-|static_stat2_id                         = spell_maximum_base_fire_damage
+-|static_stat2_value                      = 6
+-|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat3_value                      = -70
+-|static_stat4_id                         = base_secondary_skill_effect_duration
+-|static_stat4_value                      = 1000
+-|static_stat5_id                         = base_skill_effect_duration
+-|static_stat5_value                      = 5000
+-|static_stat6_id                         = cannot_stun
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = is_area_damage
+-|static_stat7_value                      = 1
+-|stat_text                               = Deals 4 to 6 Fire Damage<br>Base secondary duration is 1 seconds<br>Base duration is 5 seconds<br>Your Hits cannot Stun Enemies
++|static_duration                         = 5
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat2_value                      = -70
++|static_stat3_id                         = spell_minimum_base_fire_damage
++|static_stat3_value                      = 4
++|static_stat4_id                         = spell_maximum_base_fire_damage
++|static_stat4_value                      = 6
++|static_stat5_id                         = cannot_stun
++|static_stat5_value                      = 1
++|static_stat6_id                         = base_skill_effect_duration
++|static_stat6_value                      = 5000
++|static_stat7_id                         = base_secondary_skill_effect_duration
++|static_stat7_value                      = 1000
++|stat_text                               = Deals 4 to 6 Fire Damage<br>Your Hits cannot Stun Enemies<br>Base duration is 5 seconds<br>Base secondary duration is 1 seconds
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

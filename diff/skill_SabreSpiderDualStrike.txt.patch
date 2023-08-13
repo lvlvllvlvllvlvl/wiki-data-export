@@ -1,0 +1,25 @@
+--- Skill:SabreSpiderDualStrike
++++ Export
+@@ -9,14 +9,14 @@
+ |static_damage_effectiveness             = 175
+ |static_damage_multiplier                = 175
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = skill_physical_damage_%_to_convert_to_chaos
+-|static_stat1_value                      = 60
+-|static_stat2_id                         = melee_range_+
+-|static_stat2_value                      = 6
+-|static_stat3_id                         = cast_time_overrides_attack_duration
+-|static_stat3_value                      = 1
+-|static_stat4_id                         = visual_hit_effect_chaos_is_green
+-|static_stat4_value                      = 1
++|static_stat1_id                         = cast_time_overrides_attack_duration
++|static_stat1_value                      = 1
++|static_stat2_id                         = visual_hit_effect_chaos_is_green
++|static_stat2_value                      = 1
++|static_stat3_id                         = skill_physical_damage_%_to_convert_to_chaos
++|static_stat3_value                      = 60
++|static_stat4_id                         = melee_range_+
++|static_stat4_value                      = 6
+ |stat_text                               = 60% of Physical Damage Converted to Chaos Damage<br>+6 to Melee Strike Range
+ |level1                                  = True
+ |level1_level_requirement                = 1

@@ -1,0 +1,27 @@
+--- Skill:LightningElderBouncingOrb
++++ Export
+@@ -9,15 +9,15 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 226
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 679
+-|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat3_value                      = -50
+-|static_stat4_id                         = cannot_stun
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = is_area_damage
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat2_value                      = -50
++|static_stat3_id                         = spell_minimum_base_lightning_damage
++|static_stat3_value                      = 226
++|static_stat4_id                         = spell_maximum_base_lightning_damage
++|static_stat4_value                      = 679
++|static_stat5_id                         = cannot_stun
+ |static_stat5_value                      = 1
+ |stat_text                               = Deals 226 to 679 Lightning Damage<br>Your Hits cannot Stun Enemies
+ |level1                                  = True

@@ -1,0 +1,52 @@
+--- Skill:ShieldShatter
++++ Export
+@@ -8,31 +8,32 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 4
+ |static_stat1_id                         = base_skill_effect_duration
+ |static_stat1_value                      = 4000
+ |static_stat2_id                         = trigger_on_block_%_chance
+ |static_stat2_value                      = 100
+-|stat_text                               = (2-163) to (2-244) Base Spell Physical Damage per 1% Shield Quality<br>Base duration is 4 seconds<br>Trigger this Skill when you Block<br>Buff grants (1-10) to (2-16) Added Spell Physical Damage per 1% Shield Quality
++|stat_text                               = Base duration is 4 seconds<br>Buff grants (1-10) to (2-16) Added Spell Physical Damage per 1% Shield Quality<br>(2-163) to (2-244) Base Spell Physical Damage per 1% Shield Quality<br>Trigger this Skill when you Block
+ |level1                                  = True
+ |level1_level_requirement                = 4
+-|level1_stat_text                        = 2 to 2 Base Spell Physical Damage per 1% Shield Quality<br>Buff grants 1 to 2 Added Spell Physical Damage per 1% Shield Quality
+-|level1_stat1_id                         = spell_minimum_base_physical_damage_per_shield_quality
+-|level1_stat1_value                      = 2
+-|level1_stat2_id                         = spell_maximum_base_physical_damage_per_shield_quality
++|level1_stat_text                        = Buff grants 1 to 2 Added Spell Physical Damage per 1% Shield Quality<br>2 to 2 Base Spell Physical Damage per 1% Shield Quality
++|level1_stat1_id                         = buff_added_spell_minimum_base_physical_damage_per_shield_quality
++|level1_stat1_value                      = 1
++|level1_stat2_id                         = buff_added_spell_maximum_base_physical_damage_per_shield_quality
+ |level1_stat2_value                      = 2
+-|level1_stat3_id                         = buff_added_spell_minimum_base_physical_damage_per_shield_quality
+-|level1_stat3_value                      = 1
+-|level1_stat4_id                         = buff_added_spell_maximum_base_physical_damage_per_shield_quality
++|level1_stat3_id                         = spell_minimum_base_physical_damage_per_shield_quality
++|level1_stat3_value                      = 2
++|level1_stat4_id                         = spell_maximum_base_physical_damage_per_shield_quality
+ |level1_stat4_value                      = 2
+ |level2                                  = True
+ |level2_level_requirement                = 70
+-|level2_stat_text                        = 163 to 244 Base Spell Physical Damage per 1% Shield Quality<br>Buff grants 10 to 16 Added Spell Physical Damage per 1% Shield Quality
+-|level2_stat1_id                         = spell_minimum_base_physical_damage_per_shield_quality
+-|level2_stat1_value                      = 163
+-|level2_stat2_id                         = spell_maximum_base_physical_damage_per_shield_quality
+-|level2_stat2_value                      = 244
+-|level2_stat3_id                         = buff_added_spell_minimum_base_physical_damage_per_shield_quality
+-|level2_stat3_value                      = 10
+-|level2_stat4_id                         = buff_added_spell_maximum_base_physical_damage_per_shield_quality
+-|level2_stat4_value                      = 16
++|level2_stat_text                        = Buff grants 10 to 16 Added Spell Physical Damage per 1% Shield Quality<br>163 to 244 Base Spell Physical Damage per 1% Shield Quality
++|level2_stat1_id                         = buff_added_spell_minimum_base_physical_damage_per_shield_quality
++|level2_stat1_value                      = 10
++|level2_stat2_id                         = buff_added_spell_maximum_base_physical_damage_per_shield_quality
++|level2_stat2_value                      = 16
++|level2_stat3_id                         = spell_minimum_base_physical_damage_per_shield_quality
++|level2_stat3_value                      = 163
++|level2_stat4_id                         = spell_maximum_base_physical_damage_per_shield_quality
++|level2_stat4_value                      = 244
+ }}

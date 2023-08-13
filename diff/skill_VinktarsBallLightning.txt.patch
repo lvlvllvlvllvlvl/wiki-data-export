@@ -1,0 +1,29 @@
+--- Skill:VinktarsBallLightning
++++ Export
+@@ -8,16 +8,16 @@
+ |static_damage_effectiveness             = 20
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 249
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 748
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = -11
+-|static_stat4_id                         = base_cast_speed_+%
+-|static_stat4_value                      = 30
+-|static_stat5_id                         = base_is_projectile
+-|static_stat5_value                      = 1
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -11
++|static_stat2_id                         = base_is_projectile
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_minimum_base_lightning_damage
++|static_stat3_value                      = 249
++|static_stat4_id                         = spell_maximum_base_lightning_damage
++|static_stat4_value                      = 748
++|static_stat5_id                         = base_cast_speed_+%
++|static_stat5_value                      = 30
+ |stat_text                               = Deals 249 to 748 Lightning Damage<br>30% increased Cast Speed
+ |level1                                  = True
+ |level1_level_requirement                = 77

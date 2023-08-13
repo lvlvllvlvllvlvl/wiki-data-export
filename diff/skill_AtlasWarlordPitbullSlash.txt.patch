@@ -1,0 +1,17 @@
+--- Skill:AtlasWarlordPitbullSlash
++++ Export
+@@ -7,10 +7,10 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = melee_range_+
+-|static_stat1_value                      = 25
+-|static_stat2_id                         = is_area_damage
+-|static_stat2_value                      = 1
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = melee_range_+
++|static_stat2_value                      = 25
+ |stat_text                               = +25 to Melee Strike Range
+ |level1                                  = True
+ |level1_level_requirement                = 0

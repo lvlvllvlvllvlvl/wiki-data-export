@@ -1,0 +1,14 @@
+--- Skill:ZanaRoseGroundHit
++++ Export
+@@ -7,9 +7,9 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = global_maim_on_hit
++|static_stat1_id                         = is_area_damage
+ |static_stat1_value                      = 1
+-|static_stat2_id                         = is_area_damage
++|static_stat2_id                         = global_maim_on_hit
+ |static_stat2_value                      = 1
+ |stat_text                               = Deals (2-10552) to (2-15828) Physical Damage<br>Deals (250-0)% more Damage<br>Maim on Hit
+ |level1                                  = True

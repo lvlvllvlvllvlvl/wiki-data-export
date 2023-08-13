@@ -1,0 +1,20 @@
+--- Monster:Metadata/Monsters/LeagueCrucible/Physical/SinsSpiderBoss
++++ Export
+@@ -0,0 +1,17 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueCrucible/Physical/SinsSpiderBoss
++|monster_type_id                  = CrucibleSinsSpiderBoss
++|mod_ids                          = MonsterCrucibleMapBoss, StunRepeatImmunityMapBoss_
++|tags                             = animal_claw_weapon, beast, caster, chaos_affinity, flesh_armour, has_one_hand_sword, has_one_handed_melee, medium_small_height, melee, not_dex, physical_affinity, ranged, spider, standalone_map_boss, very_fast_movement
++|skill_ids                        = MeleeAtAnimationSpeedUnique, MMSCrucibleBloodMortarSpider, MonsterLeapSlam, CGECrucibleSpiderBloodGround
++|name                             = Knepha, Crawler of the Caverns
++|size                             = 4
++|minimum_attack_distance          = 5
++|maximum_attack_distance          = 19
++|model_size_multiplier            = 2.1
++|experience_multiplier            = 2.0
++|damage_multiplier                = 3.5
++|health_multiplier                = 5.4
++|critical_strike_chance           = 5.0
++|attack_speed                     = 0.945
++}}

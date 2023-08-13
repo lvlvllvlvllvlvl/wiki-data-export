@@ -1,0 +1,28 @@
+--- Skill:LionWolfFireBossDaemonGroundFire
++++ Export
+@@ -9,17 +9,18 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 20
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = 50
+-|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat2_value                      = -25
+-|static_stat3_id                         = base_cast_speed_+%
+-|static_stat3_value                      = 100
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat3_value                      = -25
+ |static_stat4_id                         = base_skill_effect_duration
+ |static_stat4_value                      = 20000
+-|static_stat5_id                         = is_area_damage
+-|static_stat5_value                      = 1
+-|stat_text                               = Deals (3.7-468.7) Base Fire Damage per second<br>100% increased Cast Speed<br>Base duration is 20 seconds
++|static_stat5_id                         = base_cast_speed_+%
++|static_stat5_value                      = 100
++|stat_text                               = Deals (3.7-468.7) Base Fire Damage per second<br>Base duration is 20 seconds<br>100% increased Cast Speed
+ |level1                                  = True
+ |level1_level_requirement                = 4
+ |level1_stat_text                        = Deals 3.7 Base Fire Damage per second

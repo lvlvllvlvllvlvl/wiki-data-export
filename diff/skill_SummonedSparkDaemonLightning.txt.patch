@@ -1,0 +1,36 @@
+--- Skill:SummonedSparkDaemonLightning
++++ Export
+@@ -7,19 +7,21 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = summon_specific_monsters_radius_+%
+-|static_stat1_value                      = -90
+-|static_stat2_id                         = number_of_monsters_to_summon
+-|static_stat2_value                      = 1
+-|static_stat3_id                         = alternate_minion
+-|static_stat3_value                      = 340
+-|static_stat4_id                         = cast_on_delayed_skill_trigger_%
+-|static_stat4_value                      = 100
+-|static_stat5_id                         = summoned_monsters_are_minions
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = monster_no_drops_or_experience
++|static_stat1_id                         = alternate_minion
++|static_stat1_value                      = 340
++|static_stat2_id                         = cast_on_delayed_skill_trigger_%
++|static_stat2_value                      = 100
++|static_stat3_id                         = monster_no_drops_or_experience
++|static_stat3_value                      = 1
++|static_stat4_id                         = number_of_monsters_to_summon
++|static_stat4_value                      = 1
++|static_stat5_id                         = summon_specific_monsters_radius_+%
++|static_stat5_value                      = -90
++|static_stat6_id                         = summoned_monsters_are_minions
+ |static_stat6_value                      = 1
+-|stat_text                               = 
++|static_stat7_id                         = base_projectile_speed_+%
++|static_stat7_value                      = 25
++|stat_text                               = 25% increased Projectile Speed
+ |level1                                  = True
+ |level1_level_requirement                = 0
+ }}

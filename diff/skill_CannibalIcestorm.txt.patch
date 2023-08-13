@@ -1,0 +1,32 @@
+--- Skill:CannibalIcestorm
++++ Export
+@@ -1,6 +1,6 @@
+ {{Skill
+ |gem_description                         = Flaming bolts rain down over the targeted area. They explode when landing, dealing damage to nearby enemies.
+-|active_skill_name                       = 
++|active_skill_name                       = Firestorm
+ |skill_id                                = CannibalIcestorm
+ |cast_time                               = 0.9
+ |required_level                          = 59
+@@ -10,15 +10,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 3
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = -50
+-|static_stat2_id                         = fire_storm_fireball_delay_ms
+-|static_stat2_value                      = 120
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
+ |static_stat3_id                         = base_skill_effect_duration
+ |static_stat3_value                      = 3000
+-|static_stat4_id                         = is_area_damage
+-|static_stat4_value                      = 1
+-|stat_text                               = Deals (151-471) to (226-707) Cold Damage<br>One impact every 0.12 seconds<br>Base duration is 3 seconds
++|static_stat4_id                         = fire_storm_fireball_delay_ms
++|static_stat4_value                      = 120
++|stat_text                               = Deals (151-471) to (226-707) Cold Damage<br>Base duration is 3 seconds<br>One impact every 0.12 seconds
+ |level1                                  = True
+ |level1_level_requirement                = 59
+ |level1_stat_text                        = Deals 151 to 226 Cold Damage

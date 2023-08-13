@@ -1,0 +1,16 @@
+--- Factory (incursion room)
++++ Export
+@@ -3,11 +3,11 @@
+ {{Incursion room
+ |id                      = WorkshopIII
+ |name                    = Factory
+-|description             = Increases the life of the Omnitect and Monsters throughout the Temple. Increases item yield of the Temple.
++|description             = Increases the life of the Omnitect and Monsters throughout the Temple.<br />Increases item yield of the Temple.
+ |flavour_text            = The world burns, the cog turns.
+ |tier                    = 3
+ |icon                    = Workshop3
+-|modifier_ids            = MapMassiveBossIncursionTemple3
++|modifier_ids            = IncursionMonsterLife3, MapMassiveBossIncursionTemple3, IncursionTempleRoomBonus3
+ |architect_metadata_id   = Metadata/Monsters/VaalArchitect/VaalArchitect17
+ |architect_name          = Jiquani, Architect of Industry
+ }}

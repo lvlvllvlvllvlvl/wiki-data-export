@@ -1,0 +1,19 @@
+--- Monster:Metadata/Monsters/LeagueCrucible/Cold/MonkeyChieftain
++++ Export
+@@ -0,0 +1,16 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueCrucible/Cold/MonkeyChieftain
++|monster_type_id                  = CrucibleMonkeyChieftain
++|tags                             = beast, bludgeoning_weapon, fast_movement, flesh_armour, has_one_hand_mace, has_one_handed_melee, mammal_beast, medium_height, melee, not_dex, not_int, physical_affinity, primate_beast
++|skill_ids                        = MeleeAtAnimationSpeedCold, GACrucibleChieftainSlam, MonkeyThrow, TriggeredMonkeyBomb
++|name                             = Forged Ape
++|size                             = 3
++|minimum_attack_distance          = 7
++|maximum_attack_distance          = 13
++|model_size_multiplier            = 1.05
++|experience_multiplier            = 1.2
++|damage_multiplier                = 1.2
++|health_multiplier                = 1.92
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.905
++}}

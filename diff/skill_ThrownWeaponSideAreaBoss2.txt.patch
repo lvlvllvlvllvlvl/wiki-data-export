@@ -1,0 +1,17 @@
+--- Skill:ThrownWeaponSideAreaBoss2
++++ Export
+@@ -8,10 +8,10 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = active_skill_damage_+%_final
+-|static_stat1_value                      = -40
+-|static_stat2_id                         = base_is_projectile
+-|static_stat2_value                      = 1
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = active_skill_damage_+%_final
++|static_stat2_value                      = -40
+ |stat_text                               = Deals 40% less Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1

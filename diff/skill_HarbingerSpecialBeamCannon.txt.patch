@@ -1,0 +1,55 @@
+--- Skill:HarbingerSpecialBeamCannon
++++ Export
+@@ -11,35 +11,37 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = -30
+-|static_stat2_id                         = never_freeze
++|static_stat2_id                         = is_area_damage
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = is_area_damage
++|static_stat3_id                         = never_freeze
+ |static_stat3_value                      = 1
+-|stat_text                               = Deals (8-1450) to (12-2175) Cold Damage<br>Base duration is (5-10) seconds<br>+(10-50)% to Cold Resistance<br>Gain (10-50)% of Physical Damage as Extra Cold Damage<br>Cannot Freeze
++|stat_text                               = Deals (8-1450) to (12-2175) Cold Damage<br>Gain (10-50)% of Physical Damage as Extra Cold Damage<br>Base duration is (5-10) seconds<br>+(10-50)% to Cold Resistance<br>Cannot Freeze
+ |level1                                  = True
+ |level1_level_requirement                = 1
+-|level1_stat_text                        = Deals 8 to 12 Cold Damage<br>Base duration is 5 seconds<br>+10% to Cold Resistance<br>Gain 10% of Physical Damage as Extra Cold Damage
++|level1_duration                         = 5
++|level1_stat_text                        = Deals 8 to 12 Cold Damage<br>Gain 10% of Physical Damage as Extra Cold Damage<br>Base duration is 5 seconds<br>+10% to Cold Resistance
+ |level1_stat1_id                         = spell_minimum_base_cold_damage
+ |level1_stat1_value                      = 8
+ |level1_stat2_id                         = spell_maximum_base_cold_damage
+ |level1_stat2_value                      = 12
+-|level1_stat3_id                         = base_skill_effect_duration
+-|level1_stat3_value                      = 5000
+-|level1_stat4_id                         = base_cold_damage_resistance_%
+-|level1_stat4_value                      = 10
+-|level1_stat5_id                         = physical_damage_%_to_add_as_cold
++|level1_stat3_id                         = physical_damage_%_to_add_as_cold
++|level1_stat3_value                      = 10
++|level1_stat4_id                         = base_skill_effect_duration
++|level1_stat4_value                      = 5000
++|level1_stat5_id                         = base_cold_damage_resistance_%
+ |level1_stat5_value                      = 10
+ |level2                                  = True
+ |level2_level_requirement                = 85
+-|level2_stat_text                        = Deals 1450 to 2175 Cold Damage<br>Base duration is 10 seconds<br>+50% to Cold Resistance<br>Gain 50% of Physical Damage as Extra Cold Damage
++|level2_duration                         = 10
++|level2_stat_text                        = Deals 1450 to 2175 Cold Damage<br>Gain 50% of Physical Damage as Extra Cold Damage<br>Base duration is 10 seconds<br>+50% to Cold Resistance
+ |level2_stat1_id                         = spell_minimum_base_cold_damage
+ |level2_stat1_value                      = 1450
+ |level2_stat2_id                         = spell_maximum_base_cold_damage
+ |level2_stat2_value                      = 2175
+-|level2_stat3_id                         = base_skill_effect_duration
+-|level2_stat3_value                      = 10000
+-|level2_stat4_id                         = base_cold_damage_resistance_%
+-|level2_stat4_value                      = 50
+-|level2_stat5_id                         = physical_damage_%_to_add_as_cold
++|level2_stat3_id                         = physical_damage_%_to_add_as_cold
++|level2_stat3_value                      = 50
++|level2_stat4_id                         = base_skill_effect_duration
++|level2_stat4_value                      = 10000
++|level2_stat5_id                         = base_cold_damage_resistance_%
+ |level2_stat5_value                      = 50
+ }}

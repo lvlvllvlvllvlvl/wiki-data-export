@@ -1,0 +1,27 @@
+--- Skill:FairgravesVaalThrownWeapon
++++ Export
+@@ -10,17 +10,17 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat1_value                      = -35
+-|static_stat2_id                         = number_of_additional_projectiles
+-|static_stat2_value                      = 5
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat2_value                      = -35
+ |static_stat3_id                         = active_skill_damage_+%_final
+ |static_stat3_value                      = -40
+ |static_stat4_id                         = projectiles_nova
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = base_is_projectile
+-|static_stat5_value                      = 1
+-|stat_text                               = Fires 5 additional Projectiles<br>Deals 40% less Damage<br>Fires Projectiles in a circle
++|static_stat5_id                         = number_of_additional_projectiles
++|static_stat5_value                      = 5
++|stat_text                               = Deals 40% less Damage<br>Fires Projectiles in a circle<br>Fires 5 additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 0
+ }}

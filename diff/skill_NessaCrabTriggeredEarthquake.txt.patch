@@ -1,0 +1,32 @@
+--- Skill:NessaCrabTriggeredEarthquake
++++ Export
+@@ -7,19 +7,20 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 25
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 0.1
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = -40
+-|static_stat2_id                         = melee_weapon_range_+
+-|static_stat2_value                      = -11
+-|static_stat3_id                         = quake_slam_fully_charged_explosion_damage_+%_final
+-|static_stat3_value                      = 300
++|static_stat2_id                         = force_lite_skill_effects
++|static_stat2_value                      = 1
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
+ |static_stat4_id                         = base_skill_effect_duration
+ |static_stat4_value                      = 100
+-|static_stat5_id                         = is_area_damage
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = force_lite_skill_effects
+-|static_stat6_value                      = 1
+-|stat_text                               = -11 to Melee Strike Range<br>Aftershock deals 300% more Damage with Hits and Ailments<br>Base duration is 0.1 seconds
++|static_stat5_id                         = melee_weapon_range_+
++|static_stat5_value                      = -11
++|static_stat6_id                         = quake_slam_fully_charged_explosion_damage_+%_final
++|static_stat6_value                      = 300
++|stat_text                               = Base duration is 0.1 seconds<br>-11 to Melee Strike Range<br>Aftershock deals 300% more Damage with Hits and Ailments
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

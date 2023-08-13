@@ -1,0 +1,32 @@
+--- Skill:AbyssVoidbearerProjectile
++++ Export
+@@ -7,19 +7,19 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_maximum_action_distance_+%
+-|static_stat1_value                      = -30
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
+ |static_stat2_id                         = monster_projectile_variation
+ |static_stat2_value                      = 38
+-|static_stat3_id                         = base_projectile_speed_+%
+-|static_stat3_value                      = 100
+-|static_stat4_id                         = always_pierce
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = base_is_projectile
++|static_stat3_id                         = projectile_uses_contact_position
++|static_stat3_value                      = 1
++|static_stat4_id                         = spell_maximum_action_distance_+%
++|static_stat4_value                      = -30
++|static_stat5_id                         = always_pierce
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = projectile_uses_contact_position
+-|static_stat6_value                      = 1
+-|stat_text                               = Deals (6-580) to (9-870) Physical Damage<br>100% increased Projectile Speed<br>Projectiles Pierce all Targets
++|static_stat6_id                         = base_projectile_speed_+%
++|static_stat6_value                      = 100
++|stat_text                               = Deals (6-580) to (9-870) Physical Damage<br>Projectiles Pierce all Targets<br>100% increased Projectile Speed
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_stat_text                        = Deals 6 to 9 Physical Damage

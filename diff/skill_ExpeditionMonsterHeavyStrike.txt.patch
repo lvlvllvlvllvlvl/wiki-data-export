@@ -1,0 +1,21 @@
+--- Skill:ExpeditionMonsterHeavyStrike
++++ Export
+@@ -10,13 +10,13 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_stun_threshold_reduction_+%
+-|static_stat1_value                      = 30
++|static_stat1_id                         = action_attack_or_cast_time_uses_animation_length
++|static_stat1_value                      = 1
+ |static_stat2_id                         = global_knockback
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = action_attack_or_cast_time_uses_animation_length
+-|static_stat3_value                      = 1
+-|stat_text                               = 30% reduced Enemy Stun Threshold<br>Knocks Enemies Back on Hit
++|static_stat3_id                         = base_stun_threshold_reduction_+%
++|static_stat3_value                      = 30
++|stat_text                               = Knocks Enemies Back on Hit<br>30% reduced Enemy Stun Threshold
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

@@ -1,0 +1,32 @@
+--- Skill:PopUpMapMossMonsterBossOldFields2Earthquake
++++ Export
+@@ -10,17 +10,18 @@
+ |static_damage_effectiveness             = 50
+ |static_damage_multiplier                = 50
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = active_skill_damage_+%_final
+-|static_stat1_value                      = -20
+-|static_stat2_id                         = quake_slam_fully_charged_explosion_damage_+%_final
+-|static_stat2_value                      = 300
+-|static_stat3_id                         = base_skill_effect_duration
+-|static_stat3_value                      = 2000
+-|static_stat4_id                         = is_area_damage
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = force_lite_skill_effects
+-|static_stat5_value                      = 1
+-|stat_text                               = Deals 20% less Damage<br>Aftershock deals 300% more Damage with Hits and Ailments<br>Base duration is 2 seconds
++|static_duration                         = 2
++|static_stat1_id                         = force_lite_skill_effects
++|static_stat1_value                      = 1
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = active_skill_damage_+%_final
++|static_stat3_value                      = -20
++|static_stat4_id                         = base_skill_effect_duration
++|static_stat4_value                      = 2000
++|static_stat5_id                         = quake_slam_fully_charged_explosion_damage_+%_final
++|static_stat5_value                      = 300
++|stat_text                               = Deals 20% less Damage<br>Base duration is 2 seconds<br>Aftershock deals 300% more Damage with Hits and Ailments
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

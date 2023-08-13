@@ -1,0 +1,47 @@
+--- Skill:YugulStormBurst
++++ Export
+@@ -10,27 +10,27 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_cold_damage
+-|static_stat1_value                      = 523
+-|static_stat2_id                         = spell_maximum_base_cold_damage
+-|static_stat2_value                      = 784
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = -10
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -10
++|static_stat2_id                         = base_is_projectile
++|static_stat2_value                      = 1
++|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat3_value                      = -25
+ |static_stat4_id                         = skill_visual_scale_+%
+ |static_stat4_value                      = 60
+-|static_stat5_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat5_value                      = -25
+-|static_stat6_id                         = base_cast_speed_+%
+-|static_stat6_value                      = -40
+-|static_stat7_id                         = base_projectile_speed_+%
+-|static_stat7_value                      = -60
+-|static_stat8_id                         = active_skill_area_damage_+%_final
+-|static_stat8_value                      = 100
++|static_stat5_id                         = spell_minimum_base_cold_damage
++|static_stat5_value                      = 523
++|static_stat6_id                         = spell_maximum_base_cold_damage
++|static_stat6_value                      = 784
++|static_stat7_id                         = base_cast_speed_+%
++|static_stat7_value                      = -40
++|static_stat8_id                         = base_projectile_speed_+%
++|static_stat8_value                      = -60
+ |static_stat9_id                         = never_freeze
+ |static_stat9_value                      = 1
+-|static_stat10_id                        = base_is_projectile
+-|static_stat10_value                     = 1
+-|stat_text                               = Deals 523 to 784 Cold Damage<br>40% reduced Cast Speed<br>60% reduced Projectile Speed<br>100% more Area Damage<br>Cannot Freeze
++|static_stat10_id                        = active_skill_area_damage_+%_final
++|static_stat10_value                     = 100
++|stat_text                               = Deals 523 to 784 Cold Damage<br>40% reduced Cast Speed<br>60% reduced Projectile Speed<br>Cannot Freeze<br>100% more Area Damage
+ |level1                                  = True
+ |level1_level_requirement                = 60
+ }}

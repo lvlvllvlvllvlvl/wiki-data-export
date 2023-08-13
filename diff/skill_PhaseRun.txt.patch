@@ -1,0 +1,20 @@
+--- Skill:PhaseRun
++++ Export
+@@ -10,11 +10,12 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = buff_effect_duration_+%_per_removable_endurance_charge
+-|static_stat1_value                      = 100
+-|static_stat2_id                         = base_skill_effect_duration
+-|static_stat2_value                      = 2500
+-|stat_text                               = (30-44)% increased Movement Speed<br>(20-34)% more Melee Physical Damage<br>100% increased Buff Duration per Endurance Charge removed<br>Base duration is 2.5 seconds
++|static_duration                         = 2.5
++|static_stat1_id                         = base_skill_effect_duration
++|static_stat1_value                      = 2500
++|static_stat2_id                         = buff_effect_duration_+%_per_removable_endurance_charge
++|static_stat2_value                      = 100
++|stat_text                               = Base duration is 2.5 seconds<br>(30-44)% increased Movement Speed<br>(20-34)% more Melee Physical Damage<br>100% increased Buff Duration per Endurance Charge removed
+ |level1                                  = True
+ |level1_level_requirement                = 34
+ |level1_cost_amounts                     = 11

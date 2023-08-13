@@ -1,0 +1,27 @@
+--- Skill:TemplarVaultTotemArcGrid
++++ Export
+@@ -7,15 +7,15 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = secondary_minimum_base_lightning_damage
+-|static_stat1_value                      = 3
+-|static_stat2_id                         = secondary_maximum_base_lightning_damage
+-|static_stat2_value                      = 10
+-|static_stat3_id                         = damage_+%_vs_players
+-|static_stat3_value                      = 5000
+-|static_stat4_id                         = cannot_stun
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = is_area_damage
++|static_stat1_id                         = damage_+%_vs_players
++|static_stat1_value                      = 5000
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = secondary_minimum_base_lightning_damage
++|static_stat3_value                      = 3
++|static_stat4_id                         = secondary_maximum_base_lightning_damage
++|static_stat4_value                      = 10
++|static_stat5_id                         = cannot_stun
+ |static_stat5_value                      = 1
+ |stat_text                               = Deals 3 to 10 Lightning Damage<br>Your Hits cannot Stun Enemies
+ |level1                                  = True

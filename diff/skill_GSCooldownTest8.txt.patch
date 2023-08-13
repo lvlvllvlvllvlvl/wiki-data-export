@@ -1,0 +1,27 @@
+--- Skill:GSCooldownTest8
++++ Export
+@@ -0,0 +1,24 @@
++{{Skill
++|gem_description                         = 
++|active_skill_name                       = 
++|skill_id                                = GSCooldownTest8
++|cast_time                               = 1.0
++|required_level                          = 0
++|static_stored_uses                      = 1
++|static_cooldown                         = 5
++|static_critical_strike_chance           = 5
++|static_damage_effectiveness             = 100
++|static_damage_multiplier                = 100
++|static_attack_speed_multiplier          = 100
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_minimum_base_cold_damage
++|static_stat2_value                      = 9
++|static_stat3_id                         = spell_maximum_base_cold_damage
++|static_stat3_value                      = 14
++|static_stat4_id                         = chill_minimum_slow_%
++|static_stat4_value                      = 30
++|stat_text                               = Deals 9 to 14 Cold Damage<br>Chills from your Hits always reduce Action Speed by at least 30%
++|level1                                  = True
++|level1_level_requirement                = 0
++}}

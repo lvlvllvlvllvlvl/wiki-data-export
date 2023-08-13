@@ -1,0 +1,21 @@
+--- Skill:DropBearRainMapBoss
++++ Export
+@@ -15,13 +15,13 @@
+ |static_stat3_value                      = 5
+ |static_stat4_id                         = base_actor_scale_+%
+ |static_stat4_value                      = 30
+-|static_stat5_id                         = minion_movement_speed_+%
+-|static_stat5_value                      = 60
+-|static_stat6_id                         = active_skill_minion_damage_+%_final
+-|static_stat6_value                      = 70
++|static_stat5_id                         = active_skill_minion_damage_+%_final
++|static_stat5_value                      = 70
++|static_stat6_id                         = minion_movement_speed_+%
++|static_stat6_value                      = 60
+ |static_stat7_id                         = active_skill_minion_life_+%_final
+ |static_stat7_value                      = 300
+-|stat_text                               = 30% increased Character Size<br>60% increased Minion Movement Speed<br>Minions deal 170% of Damage<br>Minions have 300% more Maximum Life
++|stat_text                               = 30% increased Character Size<br>Minions deal 170% of Damage<br>60% increased Minion Movement Speed<br>Minions have 300% more Maximum Life
+ |level1                                  = True
+ |level1_level_requirement                = 68
+ }}

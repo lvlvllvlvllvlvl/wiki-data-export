@@ -1,0 +1,38 @@
+--- Skill:TalismanSpark
++++ Export
+@@ -8,13 +8,16 @@
+ |static_damage_effectiveness             = 60
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = projectiles_nova
++|static_stat1_id                         = base_is_projectile
+ |static_stat1_value                      = 1
+-|static_stat2_id                         = base_is_projectile
++|static_stat2_id                         = projectiles_nova
+ |static_stat2_value                      = 1
+-|stat_text                               = Deals (3-136) to (5-250) Lightning Damage<br>Base duration is (3-6) seconds<br>Fires (2-8) additional Projectiles<br>Fires Projectiles in a circle
++|static_stat3_id                         = base_projectile_speed_+%
++|static_stat3_value                      = 25
++|stat_text                               = Deals (3-136) to (5-250) Lightning Damage<br>Base duration is (3-6) seconds<br>Fires Projectiles in a circle<br>25% increased Projectile Speed<br>Fires (2-8) additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 4
++|level1_duration                         = 3
+ |level1_stat_text                        = Deals 3 to 5 Lightning Damage<br>Base duration is 3 seconds<br>Fires 2 additional Projectiles
+ |level1_stat1_id                         = spell_minimum_base_lightning_damage
+ |level1_stat1_value                      = 3
+@@ -26,6 +29,7 @@
+ |level1_stat4_value                      = 2
+ |level2                                  = True
+ |level2_level_requirement                = 40
++|level2_duration                         = 4.5
+ |level2_stat_text                        = Deals 33 to 61 Lightning Damage<br>Base duration is 4.5 seconds<br>Fires 4 additional Projectiles
+ |level2_stat1_id                         = spell_minimum_base_lightning_damage
+ |level2_stat1_value                      = 33
+@@ -37,6 +41,7 @@
+ |level2_stat4_value                      = 4
+ |level3                                  = True
+ |level3_level_requirement                = 69
++|level3_duration                         = 6
+ |level3_stat_text                        = Deals 136 to 250 Lightning Damage<br>Base duration is 6 seconds<br>Fires 8 additional Projectiles
+ |level3_stat1_id                         = spell_minimum_base_lightning_damage
+ |level3_stat1_value                      = 136

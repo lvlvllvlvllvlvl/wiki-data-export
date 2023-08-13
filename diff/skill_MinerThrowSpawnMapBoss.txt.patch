@@ -1,0 +1,17 @@
+--- Skill:MinerThrowSpawnMapBoss
++++ Export
+@@ -9,10 +9,10 @@
+ |static_damage_effectiveness             = 90
+ |static_damage_multiplier                = 90
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = number_of_additional_projectiles
+-|static_stat1_value                      = 3
+-|static_stat2_id                         = base_is_projectile
+-|static_stat2_value                      = 1
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = number_of_additional_projectiles
++|static_stat2_value                      = 3
+ |stat_text                               = Fires 3 additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 0

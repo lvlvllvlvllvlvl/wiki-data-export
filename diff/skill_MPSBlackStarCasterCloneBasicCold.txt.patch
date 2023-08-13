@@ -1,0 +1,46 @@
+--- Skill:MPSBlackStarCasterCloneBasicCold
++++ Export
+@@ -8,26 +8,26 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_cold_damage
+-|static_stat1_value                      = 11
+-|static_stat2_id                         = spell_maximum_base_cold_damage
+-|static_stat2_value                      = 17
+-|static_stat3_id                         = spell_maximum_action_distance_+%
+-|static_stat3_value                      = -50
++|static_stat1_id                         = action_attack_or_cast_time_uses_animation_length
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_is_projectile
++|static_stat2_value                      = 1
++|static_stat3_id                         = maintain_projectile_direction_when_using_contact_position
++|static_stat3_value                      = 1
+ |static_stat4_id                         = monster_projectile_variation
+ |static_stat4_value                      = 211
+-|static_stat5_id                         = base_chance_to_freeze_%
+-|static_stat5_value                      = 15
+-|static_stat6_id                         = base_is_projectile
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = projectile_uses_contact_position
++|static_stat5_id                         = projectile_uses_contact_position
++|static_stat5_value                      = 1
++|static_stat6_id                         = spell_maximum_action_distance_+%
++|static_stat6_value                      = -50
++|static_stat7_id                         = use_scaled_contact_offset
+ |static_stat7_value                      = 1
+-|static_stat8_id                         = use_scaled_contact_offset
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = action_attack_or_cast_time_uses_animation_length
+-|static_stat9_value                      = 1
+-|static_stat10_id                        = maintain_projectile_direction_when_using_contact_position
+-|static_stat10_value                     = 1
++|static_stat8_id                         = spell_minimum_base_cold_damage
++|static_stat8_value                      = 11
++|static_stat9_id                         = spell_maximum_base_cold_damage
++|static_stat9_value                      = 17
++|static_stat10_id                        = base_chance_to_freeze_%
++|static_stat10_value                     = 15
+ |stat_text                               = Deals 11 to 17 Cold Damage<br>15% chance to Freeze enemies
+ |level1                                  = True
+ |level1_level_requirement                = 1

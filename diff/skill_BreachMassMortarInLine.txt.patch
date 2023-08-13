@@ -1,0 +1,47 @@
+--- Skill:BreachMassMortarInLine
++++ Export
+@@ -9,29 +9,29 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 325
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 487
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
+ |static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+ |static_stat3_value                      = -30
+ |static_stat4_id                         = mortar_distance_in_front_of_target
+ |static_stat4_value                      = 20
+ |static_stat5_id                         = projectile_spread_radius
+ |static_stat5_value                      = 125
+-|static_stat6_id                         = skill_physical_damage_%_to_convert_to_chaos
+-|static_stat6_value                      = 25
+-|static_stat7_id                         = number_of_additional_projectiles
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = projectiles_nova
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = is_area_damage
++|static_stat6_id                         = projectile_uses_contact_position
++|static_stat6_value                      = 1
++|static_stat7_id                         = spell_minimum_base_physical_damage
++|static_stat7_value                      = 325
++|static_stat8_id                         = spell_maximum_base_physical_damage
++|static_stat8_value                      = 487
++|static_stat9_id                         = projectiles_nova
+ |static_stat9_value                      = 1
+-|static_stat10_id                        = base_is_projectile
++|static_stat10_id                        = number_of_additional_projectiles
+ |static_stat10_value                     = 1
+-|static_stat11_id                        = projectile_uses_contact_position
+-|static_stat11_value                     = 1
+-|stat_text                               = Deals 325 to 487 Physical Damage<br>25% of Physical Damage Converted to Chaos Damage<br>Fires an additional Projectile<br>Fires Projectiles in a circle
++|static_stat11_id                        = skill_physical_damage_%_to_convert_to_chaos
++|static_stat11_value                     = 25
++|stat_text                               = Deals 325 to 487 Physical Damage<br>Fires Projectiles in a circle<br>Fires an additional Projectile<br>25% of Physical Damage Converted to Chaos Damage
+ |level1                                  = True
+ |level1_level_requirement                = 68
+ }}

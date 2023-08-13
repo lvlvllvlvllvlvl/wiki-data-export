@@ -1,0 +1,19 @@
+--- Skill:BreachBoneGroundSlam
++++ Export
+@@ -8,11 +8,11 @@
+ |static_damage_effectiveness             = 90
+ |static_damage_multiplier                = 90
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_stun_threshold_reduction_+%
+-|static_stat1_value                      = 25
+-|static_stat2_id                         = global_maim_on_hit
+-|static_stat2_value                      = 1
+-|static_stat3_id                         = is_area_damage
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_stun_threshold_reduction_+%
++|static_stat2_value                      = 25
++|static_stat3_id                         = global_maim_on_hit
+ |static_stat3_value                      = 1
+ |stat_text                               = 25% reduced Enemy Stun Threshold<br>Maim on Hit
+ |level1                                  = True

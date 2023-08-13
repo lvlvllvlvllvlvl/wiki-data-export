@@ -1,0 +1,22 @@
+--- Skill:FireElementalMeteorEssence
++++ Export
+@@ -5,13 +5,14 @@
+ |cast_time                               = 3.0
+ |required_level                          = 3
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = skill_physical_damage_%_to_convert_to_fire
+-|static_stat1_value                      = 100
++|static_duration                         = 1.5
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
+ |static_stat2_id                         = base_skill_effect_duration
+ |static_stat2_value                      = 1500
+-|static_stat3_id                         = is_area_damage
+-|static_stat3_value                      = 1
+-|stat_text                               = Deals (4.6-733.9) Base Fire Damage per second<br>100% of Physical Damage Converted to Fire Damage<br>Base duration is 1.5 seconds
++|static_stat3_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat3_value                      = 100
++|stat_text                               = Deals (4.6-733.9) Base Fire Damage per second<br>Base duration is 1.5 seconds<br>100% of Physical Damage Converted to Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ |level1_damage_effectiveness             = 110

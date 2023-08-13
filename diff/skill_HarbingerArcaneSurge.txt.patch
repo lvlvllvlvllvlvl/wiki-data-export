@@ -1,0 +1,24 @@
+--- Skill:HarbingerArcaneSurge
++++ Export
+@@ -9,13 +9,14 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = support_arcane_surge_spell_damage_+%_final
+-|static_stat1_value                      = 20
+-|static_stat2_id                         = support_arcane_surge_mana_regeneration_rate_+%
+-|static_stat2_value                      = 58
+-|static_stat3_id                         = base_skill_effect_duration
+-|static_stat3_value                      = 4000
+-|stat_text                               = Arcane Surge grants 20% more Spell Damage<br>Arcane Surge grants 58% increased Mana Regeneration rate<br>Base duration is 4 seconds
++|static_duration                         = 4
++|static_stat1_id                         = base_skill_effect_duration
++|static_stat1_value                      = 4000
++|static_stat2_id                         = support_arcane_surge_cast_speed_+%
++|static_stat2_value                      = 20
++|static_stat3_id                         = support_arcane_surge_mana_regeneration_rate_+%
++|static_stat3_value                      = 58
++|stat_text                               = Base duration is 4 seconds<br>Arcane Surge grants 20% increased Cast Speed<br>Arcane Surge grants 58% increased Mana Regeneration rate
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

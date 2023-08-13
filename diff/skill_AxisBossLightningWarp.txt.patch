@@ -1,0 +1,25 @@
+--- Skill:AxisBossLightningWarp
++++ Export
+@@ -8,14 +8,14 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 546
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 1639
+-|static_stat3_id                         = skill_effect_duration_+%
+-|static_stat3_value                      = -90
+-|static_stat4_id                         = base_skill_show_average_damage_instead_of_dps
+-|static_stat4_value                      = 1
++|static_stat1_id                         = base_skill_show_average_damage_instead_of_dps
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_minimum_base_lightning_damage
++|static_stat2_value                      = 546
++|static_stat3_id                         = spell_maximum_base_lightning_damage
++|static_stat3_value                      = 1639
++|static_stat4_id                         = skill_effect_duration_+%
++|static_stat4_value                      = -90
+ |stat_text                               = Deals 546 to 1639 Lightning Damage<br>90% reduced Duration
+ |level1                                  = True
+ |level1_level_requirement                = 66

@@ -1,0 +1,42 @@
+--- Skill:LegionTemplarBossMassBeam
++++ Export
+@@ -8,23 +8,24 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 12
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 18
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = -50
+-|static_stat4_id                         = skill_physical_damage_%_to_convert_to_lightning
+-|static_stat4_value                      = 75
+-|static_stat5_id                         = base_skill_effect_duration
+-|static_stat5_value                      = 260
++|static_duration                         = 0.26
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -50
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = visual_hit_effect_elemental_is_holy
++|static_stat3_value                      = 1
++|static_stat4_id                         = spell_minimum_base_physical_damage
++|static_stat4_value                      = 12
++|static_stat5_id                         = spell_maximum_base_physical_damage
++|static_stat5_value                      = 18
+ |static_stat6_id                         = skill_range_+%
+ |static_stat6_value                      = 100
+-|static_stat7_id                         = is_area_damage
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = visual_hit_effect_elemental_is_holy
+-|static_stat8_value                      = 1
+-|stat_text                               = Deals 12 to 18 Physical Damage<br>75% of Physical Damage Converted to Lightning Damage<br>Base duration is 0.26 seconds<br>100% increased Skill Range
++|static_stat7_id                         = skill_physical_damage_%_to_convert_to_lightning
++|static_stat7_value                      = 75
++|static_stat8_id                         = base_skill_effect_duration
++|static_stat8_value                      = 260
++|stat_text                               = Deals 12 to 18 Physical Damage<br>100% increased Skill Range<br>75% of Physical Damage Converted to Lightning Damage<br>Base duration is 0.26 seconds
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

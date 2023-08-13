@@ -1,0 +1,40 @@
+--- Skill:StrMissionTotemBarrage
++++ Export
+@@ -1,5 +1,5 @@
+ {{Skill
+-|gem_description                         = After a short preparation time, you attack repeatedly with a ranged weapon. These attacks have a small randomised spread. Only works with Bows and Wands.
++|gem_description                         = After a short preparation time, you attack repeatedly with a ranged weapon. These attacks have a small randomised spread. Only works with Bows and Wands. This skill cannot be Triggered.
+ |active_skill_name                       = Barrage
+ |item_class_id_restriction               = Bow, Wand
+ |skill_id                                = StrMissionTotemBarrage
+@@ -10,19 +10,19 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = monster_reverse_point_blank_damage_-%_at_minimum_range
+ |static_stat1_value                      = 30
+-|static_stat2_id                         = active_skill_attack_speed_+%_final
+-|static_stat2_value                      = 10
+-|static_stat3_id                         = active_skill_damage_+%_final
+-|static_stat3_value                      = -50
+-|static_stat4_id                         = number_of_additional_projectiles
+-|static_stat4_value                      = 6
++|static_stat2_id                         = skill_can_fire_arrows
++|static_stat2_value                      = 1
++|static_stat3_id                         = skill_can_fire_wand_projectiles
++|static_stat3_value                      = 1
++|static_stat4_id                         = active_skill_damage_+%_final
++|static_stat4_value                      = -50
+ |static_stat5_id                         = projectiles_barrage
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = skill_can_fire_arrows
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = skill_can_fire_wand_projectiles
+-|static_stat7_value                      = 1
+-|stat_text                               = 10% more Attack Speed<br>Deals 50% less Damage<br>Fires 6 additional Projectiles<br>Fires Projectiles sequentially
++|static_stat6_id                         = number_of_additional_projectiles
++|static_stat6_value                      = 6
++|static_stat7_id                         = active_skill_attack_speed_+%_final
++|static_stat7_value                      = 10
++|stat_text                               = Deals 50% less Damage<br>Fires Projectiles sequentially<br>Fires 6 additional Projectiles<br>10% more Attack Speed
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

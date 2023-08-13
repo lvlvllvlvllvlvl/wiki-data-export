@@ -1,0 +1,25 @@
+--- Skill:BetrayalThaneCleaveShot
++++ Export
+@@ -7,15 +7,15 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = monster_projectile_variation
+-|static_stat1_value                      = 52
+-|static_stat2_id                         = active_skill_damage_+%_final
+-|static_stat2_value                      = -30
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_projectile_variation
++|static_stat2_value                      = 52
+ |static_stat3_id                         = always_pierce
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = base_is_projectile
+-|static_stat4_value                      = 1
+-|stat_text                               = Deals 30% less Damage<br>Projectiles Pierce all Targets
++|static_stat4_id                         = active_skill_damage_+%_final
++|static_stat4_value                      = -30
++|stat_text                               = Projectiles Pierce all Targets<br>Deals 30% less Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

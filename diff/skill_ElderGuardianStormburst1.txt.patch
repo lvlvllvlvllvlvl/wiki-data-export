@@ -1,0 +1,43 @@
+--- Skill:ElderGuardianStormburst1
++++ Export
+@@ -7,23 +7,23 @@
+ |static_damage_effectiveness             = 25
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 805
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 1207
+-|static_stat3_id                         = base_projectile_speed_+%
+-|static_stat3_value                      = -85
+-|static_stat4_id                         = number_of_additional_projectiles
+-|static_stat4_value                      = 3
+-|static_stat5_id                         = active_skill_area_damage_+%_final
+-|static_stat5_value                      = 200
+-|static_stat6_id                         = projectiles_nova
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = base_is_projectile
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = projectiles_not_offset
+-|static_stat8_value                      = 1
+-|stat_text                               = Deals 805 to 1207 Lightning Damage<br>85% reduced Projectile Speed<br>Fires 3 additional Projectiles<br>200% more Area Damage<br>Fires Projectiles in a circle
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = projectiles_not_offset
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_minimum_base_lightning_damage
++|static_stat3_value                      = 805
++|static_stat4_id                         = spell_maximum_base_lightning_damage
++|static_stat4_value                      = 1207
++|static_stat5_id                         = projectiles_nova
++|static_stat5_value                      = 1
++|static_stat6_id                         = base_projectile_speed_+%
++|static_stat6_value                      = -85
++|static_stat7_id                         = number_of_additional_projectiles
++|static_stat7_value                      = 3
++|static_stat8_id                         = active_skill_area_damage_+%_final
++|static_stat8_value                      = 200
++|stat_text                               = Deals 805 to 1207 Lightning Damage<br>Fires Projectiles in a circle<br>85% reduced Projectile Speed<br>Fires 3 additional Projectiles<br>200% more Area Damage
+ |level1                                  = True
+ |level1_level_requirement                = 82
+ }}

@@ -1,0 +1,39 @@
+--- Skill:MonsterSparkLegends
++++ Export
+@@ -8,21 +8,24 @@
+ |static_damage_effectiveness             = 50
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 156
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 469
+-|static_stat3_id                         = number_of_additional_projectiles
+-|static_stat3_value                      = 14
++|static_duration                         = 3
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_minimum_base_lightning_damage
++|static_stat2_value                      = 156
++|static_stat3_id                         = spell_maximum_base_lightning_damage
++|static_stat3_value                      = 469
+ |static_stat4_id                         = base_skill_effect_duration
+ |static_stat4_value                      = 3000
+-|static_stat5_id                         = projectiles_fork
++|static_stat5_id                         = projectiles_nova
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = projectiles_nova
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = base_is_projectile
+-|static_stat7_value                      = 1
+-|stat_text                               = Deals 156 to 469 Lightning Damage<br>Fires 14 additional Projectiles<br>Base duration is 3 seconds<br>Projectiles Fork<br>Fires Projectiles in a circle
++|static_stat6_id                         = base_projectile_speed_+%
++|static_stat6_value                      = 25
++|static_stat7_id                         = number_of_additional_projectiles
++|static_stat7_value                      = 14
++|static_stat8_id                         = projectiles_fork
++|static_stat8_value                      = 1
++|stat_text                               = Deals 156 to 469 Lightning Damage<br>Base duration is 3 seconds<br>Fires Projectiles in a circle<br>25% increased Projectile Speed<br>Fires 14 additional Projectiles<br>Projectiles Fork
+ |level1                                  = True
+ |level1_level_requirement                = 74
+ }}

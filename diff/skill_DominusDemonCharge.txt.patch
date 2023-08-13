@@ -1,0 +1,19 @@
+--- Skill:DominusDemonCharge
++++ Export
+@@ -9,11 +9,11 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_movement_velocity_+%
+-|static_stat1_value                      = 200
+-|static_stat2_id                         = global_cannot_crit
+-|static_stat2_value                      = 1
+-|stat_text                               = 200% increased Movement Speed<br>Never deal Critical Strikes
++|static_stat1_id                         = global_cannot_crit
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_movement_velocity_+%
++|static_stat2_value                      = 200
++|stat_text                               = Never deal Critical Strikes<br>200% increased Movement Speed
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

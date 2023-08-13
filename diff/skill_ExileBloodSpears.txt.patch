@@ -1,0 +1,25 @@
+--- Skill:ExileBloodSpears
++++ Export
+@@ -7,10 +7,10 @@
+ |required_level                          = 1
+ |static_damage_effectiveness             = 30
+ |static_damage_multiplier                = 65
+-|static_stat1_id                         = blood_spears_base_number_of_spears
+-|static_stat1_value                      = 7
+-|static_stat2_id                         = is_area_damage
+-|static_stat2_value                      = 1
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = blood_spears_base_number_of_spears
++|static_stat2_value                      = 7
+ |stat_text                               = Creates 7 Spikes
+ |level1                                  = True
+ |level1_level_requirement                = 1
+@@ -19,7 +19,6 @@
+ |level1_stat1_value                      = -20
+ |level2                                  = True
+ |level2_level_requirement                = 35
+-|level2_attack_speed_multiplier          = 100
+ |level3                                  = True
+ |level3_level_requirement                = 68
+ |level3_attack_speed_multiplier          = 120

@@ -1,0 +1,37 @@
+--- Skill:WestIceNovaTriggered
++++ Export
+@@ -7,21 +7,21 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_cold_damage
+-|static_stat1_value                      = 1071
+-|static_stat2_id                         = spell_maximum_base_cold_damage
+-|static_stat2_value                      = 1674
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = 125
+-|static_stat4_id                         = base_reduce_enemy_cold_resistance_%
+-|static_stat4_value                      = 10
+-|static_stat5_id                         = cannot_stun
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = 125
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_minimum_base_cold_damage
++|static_stat3_value                      = 1071
++|static_stat4_id                         = spell_maximum_base_cold_damage
++|static_stat4_value                      = 1674
++|static_stat5_id                         = global_knockback
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = global_knockback
++|static_stat6_id                         = cannot_stun
+ |static_stat6_value                      = 1
+-|static_stat7_id                         = is_area_damage
+-|static_stat7_value                      = 1
+-|stat_text                               = Deals 1071 to 1674 Cold Damage<br>Penetrates 10% Cold Resistance<br>Your Hits cannot Stun Enemies<br>Knocks Enemies Back on Hit
++|static_stat7_id                         = base_reduce_enemy_cold_resistance_%
++|static_stat7_value                      = 10
++|stat_text                               = Deals 1071 to 1674 Cold Damage<br>Knocks Enemies Back on Hit<br>Your Hits cannot Stun Enemies<br>Penetrates 10% Cold Resistance
+ |level1                                  = True
+ |level1_level_requirement                = 79
+ }}

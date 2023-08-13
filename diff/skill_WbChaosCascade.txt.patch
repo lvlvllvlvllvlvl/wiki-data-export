@@ -1,0 +1,37 @@
+--- Skill:WbChaosCascade
++++ Export
+@@ -9,20 +9,20 @@
+ |static_damage_effectiveness             = 60
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 5
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 7
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = -34
+-|static_stat4_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat4_value                      = -25
+-|static_stat5_id                         = skill_physical_damage_%_to_convert_to_chaos
+-|static_stat5_value                      = 50
+-|static_stat6_id                         = upheaval_number_of_spikes
+-|static_stat6_value                      = 10
+-|static_stat7_id                         = is_area_damage
+-|static_stat7_value                      = 1
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -34
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat3_value                      = -25
++|static_stat4_id                         = spell_minimum_base_physical_damage
++|static_stat4_value                      = 5
++|static_stat5_id                         = spell_maximum_base_physical_damage
++|static_stat5_value                      = 7
++|static_stat6_id                         = skill_physical_damage_%_to_convert_to_chaos
++|static_stat6_value                      = 50
++|static_stat7_id                         = upheaval_number_of_spikes
++|static_stat7_value                      = 10
+ |stat_text                               = Deals 5 to 7 Physical Damage<br>50% of Physical Damage Converted to Chaos Damage<br>Causes 10 Bursts
+ |level1                                  = True
+ |level1_level_requirement                = 4

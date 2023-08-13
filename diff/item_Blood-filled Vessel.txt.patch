@@ -1,0 +1,19 @@
+--- Wiki
++++ Export
+@@ -7,13 +7,12 @@
+ |drop_level                              = 1
+ |tags                                    = currency, default
+ |metadata_id                             = Metadata/Items/MapFragments/RitualFragment
+-|help_text                               = Can be used in a personal Map Device alongside a Map to add the monsters stored from a previous Ritual Altar to a Ritual Altar in that Map.
+-|implicit1_text = {{c|stat|Monsters: }}<br>{{c|unique|<Unique monster(s)>}}<br>{{c|normal|# }}{{c|stat|Other Monsters}}<br>{{c|stat|Monster Level: }}{{c|normal|#}}<br>{{c|stat|From: }}{{c|normal|<Map>}}
+-|explicit1_text                       = Rituals have 20% improved Favour Rewards<br>Rituals spawn Monsters 20% faster<br>Rituals have 20% more maximum monsters alive
+-|explicit2                               = RitualFragment
++|help_text                               = Can be used in a personal Map Device.
++|implicit1                               = RitualFragment
+ |drop_text                               = Blood-filled Vessel is created from using a {{il|Ritual Vessel}} on a completed Ritual altar.
+ |is_drop_restricted                      = true
+ |release_version                         = 3.13.0
++|implicit1_text                          = {{c|stat|Monsters: }}<br>{{c|unique|<Unique monster(s)>}}<br>{{c|normal|# }}{{c|stat|Other Monsters}}<br>{{c|stat|Monster Level: }}{{c|normal|#}}<br>{{c|stat|From: }}{{c|normal|<Map>}}
+ }}
+ 
+ '''Blood-filled Vessel''' is a [[map fragment]].

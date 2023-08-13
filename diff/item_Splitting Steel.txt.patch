@@ -1,0 +1,44 @@
+--- Wiki
++++ Export
+@@ -41,20 +41,22 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = base_is_projectile
+ |static_stat1_value                      = 1
+-|static_stat2_id                         = modifiers_to_number_of_projectiles_instead_apply_to_splitting
++|static_stat2_id                         = console_skill_dont_chase
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = already_split_if_no_steel_shards
++|static_stat3_id                         = modifiers_to_number_of_projectiles_instead_apply_to_splitting
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = attacks_impale_on_hit_%_chance
+-|static_stat4_value                      = 60
+-|static_stat5_id                         = impacting_steel_secondary_projectile_damage_+%_final
+-|static_stat5_value                      = -35
+-|static_stat6_id                         = projectiles_can_split_at_end_of_range
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = projectiles_can_split_from_terrain
++|static_stat4_id                         = already_split_if_no_steel_shards
++|static_stat4_value                      = 1
++|static_stat5_id                         = attacks_impale_on_hit_%_chance
++|static_stat5_value                      = 60
++|static_stat6_id                         = impacting_steel_secondary_projectile_damage_+%_final
++|static_stat6_value                      = -35
++|static_stat7_id                         = projectiles_can_split_at_end_of_range
+ |static_stat7_value                      = 1
+-|static_stat8_id                         = steel_ammo_consumed_per_use
++|static_stat8_id                         = projectiles_can_split_from_terrain
+ |static_stat8_value                      = 1
++|static_stat9_id                         = steel_ammo_consumed_per_use
++|static_stat9_value                      = 1
+ |stat_text                               = (1-101) to (2-151) Added Attack Physical Damage<br>+(0-4) to radius<br>Modifiers to number of Projectiles instead apply to<br>the number of targets Projectile Splits towards<br>Projectiles Split towards (2-5) targets<br>If you have no Steel Shards, Projectile counts as already having Split<br>60% chance to Impale Enemies on Hit<br>Projectiles which have Split deal 35% less Damage<br>Projectiles can Split without hitting a target<br>Consumes up to 1 Steel Shard
+ |level1                                  = True
+ |level1_level_requirement                = 1
+@@ -135,8 +137,6 @@
+ |level7                                  = True
+ |level7_level_requirement                = 20
+ |level7_cost_amounts                     = 6
+-|level7_damage_effectiveness             = 100
+-|level7_damage_multiplier                = 100
+ |level7_stat_text                        = 7 to 10 Added Attack Physical Damage<br>+1 to radius<br>Projectiles Split towards 3 targets
+ |level7_stat1_id                         = attack_minimum_added_physical_damage
+ |level7_stat1_value                      = 7

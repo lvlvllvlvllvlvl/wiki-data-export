@@ -1,0 +1,45 @@
+--- Skill:EssenceFleshmonsterMoltenStrike
++++ Export
+@@ -1,5 +1,5 @@
+ {{Skill
+-|gem_description                         = Infuses your melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth from the enemies you hit, divided amongst all enemies hit by the strike. These will explode, causing AoE attack damage to enemies where they land.
++|gem_description                         = Infuses your melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth from the enemies you hit, divided amongst all enemies hit by the strike. These will deal area attack damage to enemies where they land.
+ |active_skill_name                       = Molten Strike
+ |item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff, Rune Dagger
+ |skill_id                                = EssenceFleshmonsterMoltenStrike
+@@ -14,7 +14,7 @@
+ |static_stat1_value                      = -25
+ |static_stat2_id                         = active_skill_projectile_damage_+%_final
+ |static_stat2_value                      = -50
+-|stat_text                               = Fires (2-6) additional Projectiles<br>Deals (0-30)% less Damage<br>25% reduced Projectile Speed<br>Projectiles deal 50% less Damage
++|stat_text                               = Deals (0-30)% less Damage<br>25% reduced Projectile Speed<br>Fires (2-6) additional Projectiles<br>50% less Projectile Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_stat_text                        = Fires 2 additional Projectiles
+@@ -22,16 +22,16 @@
+ |level1_stat1_value                      = 2
+ |level2                                  = True
+ |level2_level_requirement                = 30
+-|level2_stat_text                        = Fires 4 additional Projectiles<br>Deals 20% less Damage
+-|level2_stat1_id                         = number_of_additional_projectiles
+-|level2_stat1_value                      = 4
+-|level2_stat2_id                         = active_skill_damage_+%_final
+-|level2_stat2_value                      = -20
++|level2_stat_text                        = Deals 20% less Damage<br>Fires 4 additional Projectiles
++|level2_stat1_id                         = active_skill_damage_+%_final
++|level2_stat1_value                      = -20
++|level2_stat2_id                         = number_of_additional_projectiles
++|level2_stat2_value                      = 4
+ |level3                                  = True
+ |level3_level_requirement                = 60
+-|level3_stat_text                        = Fires 6 additional Projectiles<br>Deals 30% less Damage
+-|level3_stat1_id                         = number_of_additional_projectiles
+-|level3_stat1_value                      = 6
+-|level3_stat2_id                         = active_skill_damage_+%_final
+-|level3_stat2_value                      = -30
++|level3_stat_text                        = Deals 30% less Damage<br>Fires 6 additional Projectiles
++|level3_stat1_id                         = active_skill_damage_+%_final
++|level3_stat1_value                      = -30
++|level3_stat2_id                         = number_of_additional_projectiles
++|level3_stat2_value                      = 6
+ }}

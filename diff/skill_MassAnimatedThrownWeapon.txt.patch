@@ -1,0 +1,21 @@
+--- Skill:MassAnimatedThrownWeapon
++++ Export
+@@ -10,13 +10,13 @@
+ |static_damage_effectiveness             = 60
+ |static_damage_multiplier                = 60
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = number_of_additional_projectiles
+-|static_stat1_value                      = 4
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
+ |static_stat2_id                         = projectiles_nova
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = base_is_projectile
+-|static_stat3_value                      = 1
+-|stat_text                               = Fires 4 additional Projectiles<br>Fires Projectiles in a circle
++|static_stat3_id                         = number_of_additional_projectiles
++|static_stat3_value                      = 4
++|stat_text                               = Fires Projectiles in a circle<br>Fires 4 additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

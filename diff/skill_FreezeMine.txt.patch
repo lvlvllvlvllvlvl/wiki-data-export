@@ -1,0 +1,41 @@
+--- Skill:FreezeMine
++++ Export
+@@ -8,23 +8,23 @@
+ |static_damage_effectiveness             = 50
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_mine_detonation_time_ms
+-|static_stat1_value                      = 250
+-|static_stat2_id                         = base_mine_duration
+-|static_stat2_value                      = 5000
+-|static_stat3_id                         = freeze_mine_cold_resistance_+_while_frozen
+-|static_stat3_value                      = -15
+-|static_stat4_id                         = is_remote_mine
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = always_freeze
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = base_skill_is_mined
++|static_stat1_id                         = base_skill_is_mined
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_skill_show_average_damage_instead_of_dps
++|static_stat2_value                      = 1
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = base_mine_duration
++|static_stat4_value                      = 5000
++|static_stat5_id                         = base_mine_detonation_time_ms
++|static_stat5_value                      = 250
++|static_stat6_id                         = is_remote_mine
+ |static_stat6_value                      = 1
+-|static_stat7_id                         = base_skill_show_average_damage_instead_of_dps
++|static_stat7_id                         = always_freeze
+ |static_stat7_value                      = 1
+-|static_stat8_id                         = is_area_damage
+-|static_stat8_value                      = 1
+-|stat_text                               = Deals (7-635) to (10-952) Cold Damage<br>Freezes enemies as though dealing (200-540)% more Damage<br>Base Mine Detonation Time is 0.25 seconds<br>Mine lasts 5 seconds<br>Enemies lose 15% Cold Resistance while Frozen<br>Always Freezes enemies
++|static_stat8_id                         = freeze_mine_cold_resistance_+_while_frozen
++|static_stat8_value                      = -15
++|stat_text                               = Deals (7-635) to (10-952) Cold Damage<br>Mine lasts 5 seconds<br>Base Mine Detonation Time is 0.25 seconds<br>Always Freezes enemies<br>Freezes enemies as though dealing (200-540)% more Damage<br>Enemies lose 15% Cold Resistance while Frozen
+ |level1                                  = True
+ |level1_level_requirement                = 10
+ |level1_cost_amounts                     = 7

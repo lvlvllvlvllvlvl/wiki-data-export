@@ -1,0 +1,28 @@
+--- Skill:ExileImmortalCallOnDamageTaken
++++ Export
+@@ -9,15 +9,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = cast_on_damage_taken_%
+-|static_stat1_value                      = 100
+-|static_stat2_id                         = base_buff_duration_ms_+_per_removable_endurance_charge
+-|static_stat2_value                      = 600
+-|static_stat3_id                         = base_skill_effect_duration
+-|static_stat3_value                      = 250
+-|static_stat4_id                         = cast_on_damage_taken_also_tracks_dot
+-|static_stat4_value                      = 1
+-|stat_text                               = +0.6 seconds to Base Duration per Endurance Charge removed<br>Base duration is 0.25 seconds
++|static_duration                         = 0.25
++|static_stat1_id                         = cast_on_damage_taken_also_tracks_dot
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_skill_effect_duration
++|static_stat2_value                      = 250
++|static_stat3_id                         = base_buff_duration_ms_+_per_removable_endurance_charge
++|static_stat3_value                      = 600
++|static_stat4_id                         = cast_on_damage_taken_%
++|static_stat4_value                      = 100
++|stat_text                               = Base duration is 0.25 seconds<br>+0.6 seconds to Base Duration per Endurance Charge removed
+ |level1                                  = True
+ |level1_level_requirement                = 24
+ |level1_stat1_id                         = cast_on_damage_taken_threshold

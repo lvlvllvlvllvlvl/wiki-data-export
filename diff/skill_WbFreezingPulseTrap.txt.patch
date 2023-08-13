@@ -1,0 +1,110 @@
+--- Skill:WbFreezingPulseTrap
++++ Export
+@@ -7,23 +7,23 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = trap_variation
+-|static_stat1_value                      = 4
+-|static_stat2_id                         = base_trap_duration
+-|static_stat2_value                      = 10000
+-|static_stat3_id                         = is_trap
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_skill_is_trapped
++|static_stat2_value                      = 1
++|static_stat3_id                         = ignores_trap_and_mine_cooldown_limit
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = projectiles_nova
+-|static_stat4_value                      = 1
++|static_stat4_id                         = trap_variation
++|static_stat4_value                      = 4
+ |static_stat5_id                         = always_pierce
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = base_is_projectile
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = base_skill_is_trapped
++|static_stat6_id                         = base_trap_duration
++|static_stat6_value                      = 10000
++|static_stat7_id                         = is_trap
+ |static_stat7_value                      = 1
+-|static_stat8_id                         = ignores_trap_and_mine_cooldown_limit
++|static_stat8_id                         = projectiles_nova
+ |static_stat8_value                      = 1
+-|stat_text                               = Deals (9-1383) to (13-2075) Cold Damage<br>(-30-38)% increased Projectile Speed<br>Fires (0-2) additional Projectiles<br>Trap lasts 10 seconds<br>Fires Projectiles in a circle<br>Projectiles Pierce all Targets
++|stat_text                               = Deals (9-1383) to (13-2075) Cold Damage<br>Projectiles Pierce all Targets<br>Trap lasts 10 seconds<br>Fires Projectiles in a circle<br>(-30-38)% increased Projectile Speed<br>Fires (0-2) additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ |level1_stored_uses                      = 1
+@@ -345,8 +345,6 @@
+ |level27_stat4_value                     = 2
+ |level28                                 = True
+ |level28_level_requirement               = 75
+-|level28_stored_uses                     = 0
+-|level28_cooldown                        = 0
+ |level28_stat_text                       = Deals 971 to 1457 Cold Damage<br>24% increased Projectile Speed<br>Fires 2 additional Projectiles
+ |level28_stat1_id                        = spell_minimum_base_cold_damage
+ |level28_stat1_value                     = 971
+@@ -358,8 +356,6 @@
+ |level28_stat4_value                     = 2
+ |level29                                 = True
+ |level29_level_requirement               = 76
+-|level29_stored_uses                     = 0
+-|level29_cooldown                        = 0
+ |level29_stat_text                       = Deals 1022 to 1533 Cold Damage<br>26% increased Projectile Speed<br>Fires 2 additional Projectiles
+ |level29_stat1_id                        = spell_minimum_base_cold_damage
+ |level29_stat1_value                     = 1022
+@@ -371,8 +367,6 @@
+ |level29_stat4_value                     = 2
+ |level30                                 = True
+ |level30_level_requirement               = 77
+-|level30_stored_uses                     = 0
+-|level30_cooldown                        = 0
+ |level30_stat_text                       = Deals 1075 to 1613 Cold Damage<br>28% increased Projectile Speed<br>Fires 2 additional Projectiles
+ |level30_stat1_id                        = spell_minimum_base_cold_damage
+ |level30_stat1_value                     = 1075
+@@ -384,8 +378,6 @@
+ |level30_stat4_value                     = 2
+ |level31                                 = True
+ |level31_level_requirement               = 78
+-|level31_stored_uses                     = 0
+-|level31_cooldown                        = 0
+ |level31_stat_text                       = Deals 1131 to 1697 Cold Damage<br>30% increased Projectile Speed<br>Fires 2 additional Projectiles
+ |level31_stat1_id                        = spell_minimum_base_cold_damage
+ |level31_stat1_value                     = 1131
+@@ -397,8 +389,6 @@
+ |level31_stat4_value                     = 2
+ |level32                                 = True
+ |level32_level_requirement               = 79
+-|level32_stored_uses                     = 0
+-|level32_cooldown                        = 0
+ |level32_stat_text                       = Deals 1190 to 1785 Cold Damage<br>32% increased Projectile Speed<br>Fires 2 additional Projectiles
+ |level32_stat1_id                        = spell_minimum_base_cold_damage
+ |level32_stat1_value                     = 1190
+@@ -410,8 +400,6 @@
+ |level32_stat4_value                     = 2
+ |level33                                 = True
+ |level33_level_requirement               = 80
+-|level33_stored_uses                     = 0
+-|level33_cooldown                        = 0
+ |level33_stat_text                       = Deals 1251 to 1877 Cold Damage<br>34% increased Projectile Speed<br>Fires 2 additional Projectiles
+ |level33_stat1_id                        = spell_minimum_base_cold_damage
+ |level33_stat1_value                     = 1251
+@@ -423,8 +411,6 @@
+ |level33_stat4_value                     = 2
+ |level34                                 = True
+ |level34_level_requirement               = 81
+-|level34_stored_uses                     = 0
+-|level34_cooldown                        = 0
+ |level34_stat_text                       = Deals 1316 to 1974 Cold Damage<br>36% increased Projectile Speed<br>Fires 2 additional Projectiles
+ |level34_stat1_id                        = spell_minimum_base_cold_damage
+ |level34_stat1_value                     = 1316
+@@ -436,8 +422,6 @@
+ |level34_stat4_value                     = 2
+ |level35                                 = True
+ |level35_level_requirement               = 82
+-|level35_stored_uses                     = 0
+-|level35_cooldown                        = 0
+ |level35_stat_text                       = Deals 1383 to 2075 Cold Damage<br>38% increased Projectile Speed<br>Fires 2 additional Projectiles
+ |level35_stat1_id                        = spell_minimum_base_cold_damage
+ |level35_stat1_value                     = 1383

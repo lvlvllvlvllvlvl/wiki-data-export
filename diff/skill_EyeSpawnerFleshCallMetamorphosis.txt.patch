@@ -1,0 +1,42 @@
+--- Skill:EyeSpawnerFleshCallMetamorphosis
++++ Export
+@@ -10,22 +10,23 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 5
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 9
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = -20
+-|static_stat4_id                         = active_skill_damage_+%_final
+-|static_stat4_value                      = 40
+-|static_stat5_id                         = base_skill_effect_duration
+-|static_stat5_value                      = 2500
+-|static_stat6_id                         = is_area_damage
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = base_skill_show_average_damage_instead_of_dps
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = monster_stormcall_individually_trigger
+-|static_stat8_value                      = 1
++|static_duration                         = 2.5
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -20
++|static_stat2_id                         = base_skill_show_average_damage_instead_of_dps
++|static_stat2_value                      = 1
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = monster_stormcall_individually_trigger
++|static_stat4_value                      = 1
++|static_stat5_id                         = spell_minimum_base_physical_damage
++|static_stat5_value                      = 5
++|static_stat6_id                         = spell_maximum_base_physical_damage
++|static_stat6_value                      = 9
++|static_stat7_id                         = active_skill_damage_+%_final
++|static_stat7_value                      = 40
++|static_stat8_id                         = base_skill_effect_duration
++|static_stat8_value                      = 2500
+ |stat_text                               = Deals 5 to 9 Physical Damage<br>Deals 40% more Damage<br>Base duration is 2.5 seconds
+ |level1                                  = True
+ |level1_level_requirement                = 3

@@ -1,0 +1,30 @@
+--- Skill:HarbingerProjectileBuffUber5
++++ Export
+@@ -9,19 +9,20 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 4
+ |static_stat1_id                         = number_of_additional_forks_base
+ |static_stat1_value                      = 1
+-|static_stat2_id                         = projectile_base_number_of_targets_to_pierce
+-|static_stat2_value                      = 2
+-|static_stat3_id                         = number_of_chains
++|static_stat2_id                         = base_skill_effect_duration
++|static_stat2_value                      = 4000
++|static_stat3_id                         = number_of_additional_projectiles
+ |static_stat3_value                      = 2
+-|static_stat4_id                         = number_of_additional_projectiles
++|static_stat4_id                         = number_of_chains
+ |static_stat4_value                      = 2
+-|static_stat5_id                         = base_skill_effect_duration
+-|static_stat5_value                      = 4000
++|static_stat5_id                         = projectile_base_number_of_targets_to_pierce
++|static_stat5_value                      = 2
+ |static_stat6_id                         = projectiles_fork
+ |static_stat6_value                      = 1
+-|stat_text                               = Projectiles from Supported Skills Fork an additional Time<br>Projectiles Pierce 2 additional Targets<br>Chains +2 Times<br>Fires 2 additional Projectiles<br>Base duration is 4 seconds<br>Projectiles Fork
++|stat_text                               = Projectiles from Supported Skills Fork an additional Time<br>Base duration is 4 seconds<br>Fires 2 additional Projectiles<br>Chains +2 Times<br>Projectiles Pierce 2 additional Targets<br>Projectiles Fork
+ |level1                                  = True
+ |level1_level_requirement                = 0
+ }}

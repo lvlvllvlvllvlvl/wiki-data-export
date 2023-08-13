@@ -1,0 +1,27 @@
+--- Skill:SummonHydroPumpDaemon
++++ Export
+@@ -9,16 +9,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = number_of_monsters_to_summon
+-|static_stat1_value                      = 1
+-|static_stat2_id                         = alternate_minion
+-|static_stat2_value                      = 312
+-|static_stat3_id                         = active_skill_base_radius_+
+-|static_stat3_value                      = 150
++|static_stat1_id                         = alternate_minion
++|static_stat1_value                      = 312
++|static_stat2_id                         = number_of_monsters_to_summon
++|static_stat2_value                      = 1
++|static_stat3_id                         = summoned_monsters_are_minions
++|static_stat3_value                      = 1
+ |static_stat4_id                         = summoned_monsters_no_drops_or_experience
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = summoned_monsters_are_minions
+-|static_stat5_value                      = 1
++|static_stat5_id                         = active_skill_base_radius_+
++|static_stat5_value                      = 150
+ |stat_text                               = +150 to radius
+ |level1                                  = True
+ |level1_level_requirement                = 0

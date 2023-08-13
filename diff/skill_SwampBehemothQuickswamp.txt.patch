@@ -1,0 +1,25 @@
+--- Skill:SwampBehemothQuickswamp
++++ Export
+@@ -7,14 +7,14 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_chaos_damage_to_deal_per_minute
+-|static_stat1_value                      = 112
+-|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat2_value                      = 100
+-|static_stat3_id                         = ground_quicksand_art_variation
+-|static_stat3_value                      = 7
+-|static_stat4_id                         = infinite_skill_effect_duration
+-|static_stat4_value                      = 1
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = 100
++|static_stat2_id                         = ground_quicksand_art_variation
++|static_stat2_value                      = 7
++|static_stat3_id                         = infinite_skill_effect_duration
++|static_stat3_value                      = 1
++|static_stat4_id                         = base_chaos_damage_to_deal_per_minute
++|static_stat4_value                      = 112
+ |stat_text                               = Deals 1.9 Base Chaos Damage per second
+ |level1                                  = True
+ |level1_level_requirement                = 0

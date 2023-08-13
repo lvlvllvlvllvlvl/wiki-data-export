@@ -1,0 +1,49 @@
+--- Skill:DeathProjectileSpell
++++ Export
+@@ -7,27 +7,27 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 456
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 685
+-|static_stat3_id                         = monster_projectile_variation
+-|static_stat3_value                      = 14
+-|static_stat4_id                         = skill_physical_damage_%_to_convert_to_chaos
+-|static_stat4_value                      = 25
+-|static_stat5_id                         = cast_on_death_%
+-|static_stat5_value                      = 100
+-|static_stat6_id                         = number_of_additional_projectiles
+-|static_stat6_value                      = 9
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_projectile_variation
++|static_stat2_value                      = 14
++|static_stat3_id                         = projectile_uses_contact_position
++|static_stat3_value                      = 1
++|static_stat4_id                         = visual_hit_effect_chaos_is_green
++|static_stat4_value                      = 1
++|static_stat5_id                         = spell_minimum_base_physical_damage
++|static_stat5_value                      = 456
++|static_stat6_id                         = spell_maximum_base_physical_damage
++|static_stat6_value                      = 685
+ |static_stat7_id                         = projectiles_nova
+ |static_stat7_value                      = 1
+-|static_stat8_id                         = base_is_projectile
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = projectile_uses_contact_position
+-|static_stat9_value                      = 1
+-|static_stat10_id                        = visual_hit_effect_chaos_is_green
+-|static_stat10_value                     = 1
+-|stat_text                               = Deals 456 to 685 Physical Damage<br>25% of Physical Damage Converted to Chaos Damage<br>100% chance to Trigger this Spell on Death<br>Fires 9 additional Projectiles<br>Fires Projectiles in a circle
++|static_stat8_id                         = number_of_additional_projectiles
++|static_stat8_value                      = 9
++|static_stat9_id                         = skill_physical_damage_%_to_convert_to_chaos
++|static_stat9_value                      = 25
++|static_stat10_id                        = cast_on_death_%
++|static_stat10_value                     = 100
++|stat_text                               = Deals 456 to 685 Physical Damage<br>Fires Projectiles in a circle<br>Fires 9 additional Projectiles<br>25% of Physical Damage Converted to Chaos Damage<br>100% chance to Trigger this Spell on Death
+ |level1                                  = True
+ |level1_level_requirement                = 68
+ }}

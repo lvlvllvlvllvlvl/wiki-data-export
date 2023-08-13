@@ -1,0 +1,26 @@
+--- Skill:HarbingerColdBeacon
++++ Export
+@@ -7,14 +7,15 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat1_value                      = -25
+-|static_stat2_id                         = number_of_beacons
+-|static_stat2_value                      = 1
+-|static_stat3_id                         = base_skill_effect_duration
+-|static_stat3_value                      = 2500
+-|static_stat4_id                         = is_area_damage
+-|static_stat4_value                      = 1
++|static_duration                         = 2.5
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat2_value                      = -25
++|static_stat3_id                         = number_of_beacons
++|static_stat3_value                      = 1
++|static_stat4_id                         = base_skill_effect_duration
++|static_stat4_value                      = 2500
+ |stat_text                               = Deals (7-1140) to (11-1711) Cold Damage<br>Base duration is 2.5 seconds
+ |level1                                  = True
+ |level1_level_requirement                = 1

@@ -1,0 +1,19 @@
+--- Skill:MonsterSplitIceSpear
++++ Export
+@@ -8,11 +8,11 @@
+ |static_damage_effectiveness             = 80
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = ice_spear_second_form_damage_+%
+-|static_stat1_value                      = 50
+-|static_stat2_id                         = projectiles_fork
+-|static_stat2_value                      = 1
+-|static_stat3_id                         = base_is_projectile
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = ice_spear_second_form_damage_+%
++|static_stat2_value                      = 50
++|static_stat3_id                         = projectiles_fork
+ |static_stat3_value                      = 1
+ |stat_text                               = Deals (6-494) to (10-741) Cold Damage<br>Projectiles Fork
+ |level1                                  = True

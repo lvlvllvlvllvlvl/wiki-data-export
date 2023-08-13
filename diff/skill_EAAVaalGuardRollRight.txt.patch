@@ -1,0 +1,20 @@
+--- Skill:EAAVaalGuardRollRight
++++ Export
+@@ -9,12 +9,12 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = melee_range_+
+-|static_stat1_value                      = 70
+-|static_stat2_id                         = base_deal_no_damage
++|static_stat1_id                         = base_deal_no_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = cast_time_overrides_attack_duration
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = cast_time_overrides_attack_duration
+-|static_stat3_value                      = 1
++|static_stat3_id                         = melee_range_+
++|static_stat3_value                      = 70
+ |stat_text                               = +70 to Melee Strike Range
+ |level1                                  = True
+ |level1_level_requirement                = 0

@@ -1,0 +1,22 @@
+--- Skill:SummonMirageChieftain
++++ Export
+@@ -9,13 +9,14 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 3
+ |static_stat1_id                         = base_skill_effect_duration
+ |static_stat1_value                      = 3000
+-|static_stat2_id                         = trigger_on_slam_%_chance
+-|static_stat2_value                      = 100
+-|static_stat3_id                         = spell_uncastable_if_triggerable
+-|static_stat3_value                      = 1
+-|stat_text                               = Skills used by Mirage Chieftains deal (-40-100)% more Damage<br>Skills used by Mirage Chieftains cannot Repeat<br>Base duration is 3 seconds<br>Trigger this Spell when you Attack with a Non-Vaal Slam Skill near an Enemy<br>You cannot Cast this Spell directly
++|static_stat2_id                         = spell_uncastable_if_triggerable
++|static_stat2_value                      = 1
++|static_stat3_id                         = trigger_on_slam_%_chance
++|static_stat3_value                      = 100
++|stat_text                               = Base duration is 3 seconds<br>You cannot Cast this Spell directly<br>Skills used by Mirage Chieftains deal (-40-100)% more Damage<br>Skills used by Mirage Chieftains cannot Repeat<br>Trigger this Spell when you Attack with a Non-Vaal Slam Skill near an Enemy
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_stat_text                        = Skills used by Mirage Chieftains deal 40% less Damage<br>Skills used by Mirage Chieftains cannot Repeat

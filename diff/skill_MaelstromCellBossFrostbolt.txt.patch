@@ -1,0 +1,35 @@
+--- Skill:MaelstromCellBossFrostbolt
++++ Export
+@@ -8,19 +8,19 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_cold_damage
+-|static_stat1_value                      = 7
+-|static_stat2_id                         = spell_maximum_base_cold_damage
+-|static_stat2_value                      = 11
+-|static_stat3_id                         = number_of_additional_projectiles
+-|static_stat3_value                      = 2
+-|static_stat4_id                         = base_projectile_speed_+%
+-|static_stat4_value                      = 20
+-|static_stat5_id                         = always_pierce
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = base_is_projectile
+-|static_stat6_value                      = 1
+-|stat_text                               = Deals 7 to 11 Cold Damage<br>Fires 2 additional Projectiles<br>20% increased Projectile Speed<br>Projectiles Pierce all Targets
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_minimum_base_cold_damage
++|static_stat2_value                      = 7
++|static_stat3_id                         = spell_maximum_base_cold_damage
++|static_stat3_value                      = 11
++|static_stat4_id                         = always_pierce
++|static_stat4_value                      = 1
++|static_stat5_id                         = base_projectile_speed_+%
++|static_stat5_value                      = 20
++|static_stat6_id                         = number_of_additional_projectiles
++|static_stat6_value                      = 2
++|stat_text                               = Deals 7 to 11 Cold Damage<br>Projectiles Pierce all Targets<br>20% increased Projectile Speed<br>Fires 2 additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 0
+ }}

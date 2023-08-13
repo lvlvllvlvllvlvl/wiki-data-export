@@ -1,0 +1,21 @@
+--- Skill:BetrayalThaneLeapSlam
++++ Export
+@@ -10,13 +10,13 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = active_skill_attack_speed_+%_final
+-|static_stat1_value                      = -60
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
+ |static_stat2_id                         = active_skill_damage_+%_final
+ |static_stat2_value                      = -100
+-|static_stat3_id                         = is_area_damage
+-|static_stat3_value                      = 1
+-|stat_text                               = 60% less Attack Speed<br>Deals 100% less Damage
++|static_stat3_id                         = active_skill_attack_speed_+%_final
++|static_stat3_value                      = -60
++|stat_text                               = Deals 100% less Damage<br>60% less Attack Speed
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

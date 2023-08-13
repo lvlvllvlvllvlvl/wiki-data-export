@@ -1,0 +1,46 @@
+--- Skill:IzaroGargoyleBladeVortexCold
++++ Export
+@@ -10,25 +10,26 @@
+ |static_damage_effectiveness             = 20
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 4
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 6
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = 20
+-|static_stat4_id                         = physical_damage_%_to_add_as_cold
+-|static_stat4_value                      = 20
+-|static_stat5_id                         = active_skill_cast_speed_+%_final
+-|static_stat5_value                      = -50
+-|static_stat6_id                         = maximum_number_of_spinning_blades
+-|static_stat6_value                      = 5
++|static_duration                         = 4.5
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = 20
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = skill_can_add_multiple_charges_per_action
++|static_stat3_value                      = 1
++|static_stat4_id                         = spell_minimum_base_physical_damage
++|static_stat4_value                      = 4
++|static_stat5_id                         = spell_maximum_base_physical_damage
++|static_stat5_value                      = 6
++|static_stat6_id                         = physical_damage_%_to_add_as_cold
++|static_stat6_value                      = 20
+ |static_stat7_id                         = base_skill_effect_duration
+ |static_stat7_value                      = 4500
+-|static_stat8_id                         = is_area_damage
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = skill_can_add_multiple_charges_per_action
+-|static_stat9_value                      = 1
+-|stat_text                               = Deals 4 to 6 Physical Damage<br>Gain 20% of Physical Damage as Extra Cold Damage<br>50% less Cast Speed<br>Can have up to 5 active spinning blades<br>Base duration is 4.5 seconds
++|static_stat8_id                         = active_skill_cast_speed_+%_final
++|static_stat8_value                      = -50
++|static_stat9_id                         = maximum_number_of_spinning_blades
++|static_stat9_value                      = 5
++|stat_text                               = Deals 4 to 6 Physical Damage<br>Gain 20% of Physical Damage as Extra Cold Damage<br>Base duration is 4.5 seconds<br>50% less Cast Speed<br>Can have up to 5 active spinning blades
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ }}

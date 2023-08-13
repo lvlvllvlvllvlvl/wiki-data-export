@@ -1,0 +1,19 @@
+--- Skill:MonsterDischarge
++++ Export
+@@ -8,12 +8,12 @@
+ |static_damage_effectiveness             = 150
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_maximum_action_distance_+%
+-|static_stat1_value                      = -75
++|static_stat1_id                         = disable_skill_repeats
++|static_stat1_value                      = 1
+ |static_stat2_id                         = is_area_damage
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = disable_skill_repeats
+-|static_stat3_value                      = 1
++|static_stat3_id                         = spell_maximum_action_distance_+%
++|static_stat3_value                      = -75
+ |stat_text                               = Deals (7-252) to (20-753) base Lightning Damage per Power Charge removed<br>Deals (10-358) to (14-537) base Fire Damage per Endurance Charge removed<br>Deals (8-293) to (12-440) base Cold Damage per Frenzy Charge removed
+ |level1                                  = True
+ |level1_level_requirement                = 4

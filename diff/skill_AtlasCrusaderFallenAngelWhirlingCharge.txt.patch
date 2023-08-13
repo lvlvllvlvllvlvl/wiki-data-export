@@ -1,0 +1,20 @@
+--- Skill:AtlasCrusaderFallenAngelWhirlingCharge
++++ Export
+@@ -13,12 +13,12 @@
+ |static_stat1_value                      = -15
+ |static_stat2_id                         = combo_attack_first_hit_damage_+%_final
+ |static_stat2_value                      = 100
+-|static_stat3_id                         = skill_physical_damage_%_to_convert_to_lightning
+-|static_stat3_value                      = 50
+-|static_stat4_id                         = active_skill_attack_speed_+%_final
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = skill_physical_damage_%_to_convert_to_lightning
+ |static_stat4_value                      = 50
+-|static_stat5_id                         = is_area_damage
+-|static_stat5_value                      = 1
++|static_stat5_id                         = active_skill_attack_speed_+%_final
++|static_stat5_value                      = 50
+ |stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>50% more Attack Speed
+ |level1                                  = True
+ |level1_level_requirement                = 0

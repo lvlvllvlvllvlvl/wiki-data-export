@@ -1,0 +1,33 @@
+--- Skill:HeistCultistLightningBolt
++++ Export
+@@ -8,18 +8,18 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 7
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 20
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = -40
+-|static_stat4_id                         = shock_art_variation
+-|static_stat4_value                      = 5
+-|static_stat5_id                         = spell_maximum_action_distance_+%
+-|static_stat5_value                      = -25
+-|static_stat6_id                         = is_area_damage
+-|static_stat6_value                      = 1
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -40
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = shock_art_variation
++|static_stat3_value                      = 5
++|static_stat4_id                         = spell_maximum_action_distance_+%
++|static_stat4_value                      = -25
++|static_stat5_id                         = spell_minimum_base_lightning_damage
++|static_stat5_value                      = 7
++|static_stat6_id                         = spell_maximum_base_lightning_damage
++|static_stat6_value                      = 20
+ |stat_text                               = Deals 7 to 20 Lightning Damage
+ |level1                                  = True
+ |level1_level_requirement                = 0

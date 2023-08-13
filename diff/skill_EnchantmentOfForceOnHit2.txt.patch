@@ -1,0 +1,19 @@
+--- Skill:EnchantmentOfForceOnHit2
++++ Export
+@@ -9,11 +9,11 @@
+ |static_damage_effectiveness             = 189
+ |static_damage_multiplier                = 189
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = attack_trigger_on_hit_%
+-|static_stat1_value                      = 100
+-|static_stat2_id                         = damage_cannot_be_reflected
+-|static_stat2_value                      = 1
+-|static_stat3_id                         = is_area_damage
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = attack_trigger_on_hit_%
++|static_stat2_value                      = 100
++|static_stat3_id                         = damage_cannot_be_reflected
+ |static_stat3_value                      = 1
+ |stat_text                               = Trigger this Skill when you Hit<br>Damage cannot be Reflected
+ |level1                                  = True

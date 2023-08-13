@@ -1,0 +1,34 @@
+--- Skill:TalismanMonkeyMoltenStrike
++++ Export
+@@ -1,5 +1,5 @@
+ {{Skill
+-|gem_description                         = Infuses your melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth from the enemies you hit, divided amongst all enemies hit by the strike. These will explode, causing AoE attack damage to enemies where they land.
++|gem_description                         = Infuses your melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth from the enemies you hit, divided amongst all enemies hit by the strike. These will deal area attack damage to enemies where they land.
+ |active_skill_name                       = Molten Strike
+ |item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff, Rune Dagger
+ |skill_id                                = TalismanMonkeyMoltenStrike
+@@ -8,15 +8,15 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_projectile_speed_+%
+-|static_stat1_value                      = -25
+-|static_stat2_id                         = active_skill_projectile_damage_+%_final
+-|static_stat2_value                      = -40
+-|static_stat3_id                         = active_skill_damage_+%_final
+-|static_stat3_value                      = 20
+-|static_stat4_id                         = skill_physical_damage_%_to_convert_to_fire
+-|static_stat4_value                      = 60
+-|stat_text                               = Fires (2-4) additional Projectiles<br>25% reduced Projectile Speed<br>Projectiles deal 40% less Damage<br>Deals 20% more Damage<br>60% of Physical Damage Converted to Fire Damage
++|static_stat1_id                         = active_skill_damage_+%_final
++|static_stat1_value                      = 20
++|static_stat2_id                         = base_projectile_speed_+%
++|static_stat2_value                      = -25
++|static_stat3_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat3_value                      = 60
++|static_stat4_id                         = active_skill_projectile_damage_+%_final
++|static_stat4_value                      = -40
++|stat_text                               = Deals 20% more Damage<br>25% reduced Projectile Speed<br>Fires (2-4) additional Projectiles<br>60% of Physical Damage Converted to Fire Damage<br>40% less Projectile Damage
+ |level1                                  = True
+ |level1_level_requirement                = 28
+ |level1_stat_text                        = Fires 2 additional Projectiles

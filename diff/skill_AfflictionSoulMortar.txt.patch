@@ -1,0 +1,39 @@
+--- Skill:AfflictionSoulMortar
++++ Export
+@@ -8,22 +8,22 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 4
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 6
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = -40
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -40
++|static_stat2_id                         = base_is_projectile
++|static_stat2_value                      = 1
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
+ |static_stat4_id                         = projectile_spread_radius
+ |static_stat4_value                      = 8
+-|static_stat5_id                         = skill_physical_damage_%_to_convert_to_cold
+-|static_stat5_value                      = 50
+-|static_stat6_id                         = base_is_projectile
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = is_area_damage
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = projectile_uses_contact_position
+-|static_stat8_value                      = 1
++|static_stat5_id                         = projectile_uses_contact_position
++|static_stat5_value                      = 1
++|static_stat6_id                         = spell_minimum_base_physical_damage
++|static_stat6_value                      = 4
++|static_stat7_id                         = spell_maximum_base_physical_damage
++|static_stat7_value                      = 6
++|static_stat8_id                         = skill_physical_damage_%_to_convert_to_cold
++|static_stat8_value                      = 50
+ |stat_text                               = Deals 4 to 6 Physical Damage<br>50% of Physical Damage Converted to Cold Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1

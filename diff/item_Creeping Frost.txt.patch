@@ -1,0 +1,21 @@
+--- Wiki
++++ Export
+@@ -39,12 +39,12 @@
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+ |static_duration                         = 5
+-|static_stat1_id                         = total_projectile_spread_angle_override
+-|static_stat1_value                      = 200
+-|static_stat2_id                         = active_skill_projectile_speed_+%_variation_final
+-|static_stat2_value                      = 60
+-|static_stat3_id                         = base_is_projectile
+-|static_stat3_value                      = 1
++|static_stat1_id                         = active_skill_projectile_speed_+%_variation_final
++|static_stat1_value                      = 60
++|static_stat2_id                         = base_is_projectile
++|static_stat2_value                      = 1
++|static_stat3_id                         = total_projectile_spread_angle_override
++|static_stat3_value                      = 200
+ |static_stat4_id                         = base_skill_effect_duration
+ |static_stat4_value                      = 5000
+ |static_stat5_id                         = spell_damage_modifiers_apply_to_skill_dot

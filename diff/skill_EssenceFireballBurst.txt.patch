@@ -1,0 +1,19 @@
+--- Skill:EssenceFireballBurst
++++ Export
+@@ -10,11 +10,11 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_cast_speed_+%
+-|static_stat1_value                      = 100
+-|static_stat2_id                         = base_is_projectile
+-|static_stat2_value                      = 1
+-|stat_text                               = Deals (6-545) to (9-818) Fire Damage<br>Skills Repeat an additional (0-2) Times<br>Fires (0-4) additional Projectiles<br>100% increased Cast Speed
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_cast_speed_+%
++|static_stat2_value                      = 100
++|stat_text                               = Deals (6-545) to (9-818) Fire Damage<br>Skills Repeat an additional (0-2) Times<br>100% increased Cast Speed<br>Fires (0-4) additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ |level1_cooldown                         = 5

@@ -1,0 +1,23 @@
+--- Skill:MeleeHalfDamageChaos
++++ Export
+@@ -7,14 +7,14 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 50
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = skill_physical_damage_%_to_convert_to_chaos
+-|static_stat1_value                      = 25
+-|static_stat2_id                         = skill_can_fire_arrows
++|static_stat1_id                         = skill_can_fire_arrows
++|static_stat1_value                      = 1
++|static_stat2_id                         = skill_can_fire_wand_projectiles
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = skill_can_fire_wand_projectiles
++|static_stat3_id                         = visual_hit_effect_chaos_is_green
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = visual_hit_effect_chaos_is_green
+-|static_stat4_value                      = 1
++|static_stat4_id                         = skill_physical_damage_%_to_convert_to_chaos
++|static_stat4_value                      = 25
+ |stat_text                               = 25% of Physical Damage Converted to Chaos Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1

@@ -1,0 +1,21 @@
+--- Skill:SkeletonProjectileLightning
++++ Export
+@@ -8,12 +8,12 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_maximum_action_distance_+%
+-|static_stat1_value                      = -60
+-|static_stat2_id                         = base_chance_to_shock_%
+-|static_stat2_value                      = 33
+-|static_stat3_id                         = base_is_projectile
+-|static_stat3_value                      = 1
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_maximum_action_distance_+%
++|static_stat2_value                      = -60
++|static_stat3_id                         = base_chance_to_shock_%
++|static_stat3_value                      = 33
+ |stat_text                               = Deals (8-677) to (23-2020) Lightning Damage<br>33% chance to Shock enemies
+ |level1                                  = True
+ |level1_level_requirement                = 4

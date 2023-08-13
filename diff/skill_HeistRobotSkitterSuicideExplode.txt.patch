@@ -1,0 +1,33 @@
+--- Skill:HeistRobotSkitterSuicideExplode
++++ Export
+@@ -7,18 +7,18 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 9
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 14
+-|static_stat3_id                         = skill_physical_damage_%_to_convert_to_lightning
+-|static_stat3_value                      = 25
+-|static_stat4_id                         = skill_physical_damage_%_to_convert_to_fire
+-|static_stat4_value                      = 25
+-|static_stat5_id                         = is_area_damage
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = grant_kill_to_target_when_exploding_self
+-|static_stat6_value                      = 1
++|static_stat1_id                         = grant_kill_to_target_when_exploding_self
++|static_stat1_value                      = 1
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_minimum_base_physical_damage
++|static_stat3_value                      = 9
++|static_stat4_id                         = spell_maximum_base_physical_damage
++|static_stat4_value                      = 14
++|static_stat5_id                         = skill_physical_damage_%_to_convert_to_lightning
++|static_stat5_value                      = 25
++|static_stat6_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat6_value                      = 25
+ |stat_text                               = Deals 9 to 14 Physical Damage<br>25% of Physical Damage Converted to Lightning Damage<br>25% of Physical Damage Converted to Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1

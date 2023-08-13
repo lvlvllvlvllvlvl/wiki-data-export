@@ -1,0 +1,19 @@
+--- Monster:Metadata/Monsters/LeagueCrucible/Lightning/IceElemental
++++ Export
+@@ -0,0 +1,16 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueCrucible/Lightning/IceElemental
++|monster_type_id                  = CrucibleIceElemental
++|tags                             = cannot_be_monolith, caster, cold_affinity, construct, fast_movement, hard_armour, hidden_monster, is_unarmed, melee, not_dex, not_str, physical_affinity, ranged, slashing_weapon
++|skill_ids                        = MeleeAtAnimationSpeedLightning, CrucibleIceElementalCyclone, EASCrucibleIceElementalCycloneBegin, MPSCrucibleIceElementalBarrageProjectile
++|name                             = Forged Shard Elemental
++|size                             = 3
++|minimum_attack_distance          = 6
++|maximum_attack_distance          = 10
++|model_size_multiplier            = 1.26
++|experience_multiplier            = 1.2
++|damage_multiplier                = 1.98
++|health_multiplier                = 1.44
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.65
++}}

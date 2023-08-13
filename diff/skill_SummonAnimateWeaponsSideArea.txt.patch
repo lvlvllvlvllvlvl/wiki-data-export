@@ -1,0 +1,50 @@
+--- Skill:SummonAnimateWeaponsSideArea
++++ Export
+@@ -7,9 +7,10 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 30
+ |static_stat1_id                         = base_skill_effect_duration
+ |static_stat1_value                      = 30000
+-|stat_text                               = (120-200)% more Cast Speed<br>(0-200)% increased Attack Speed<br>Deals (0-50)% more Damage<br>Base duration is 30 seconds
++|stat_text                               = Deals (0-50)% more Damage<br>Base duration is 30 seconds<br>(120-200)% more Cast Speed<br>(0-200)% increased Attack Speed
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ |level1_stored_uses                      = 1
+@@ -21,22 +22,20 @@
+ |level2_level_requirement                = 36
+ |level2_stored_uses                      = 1
+ |level2_cooldown                         = 2
+-|level2_stat_text                        = 150% more Cast Speed<br>100% increased Attack Speed<br>Deals 20% more Damage
+-|level2_stat1_id                         = active_skill_cast_speed_+%_final
+-|level2_stat1_value                      = 150
+-|level2_stat2_id                         = attack_speed_+%
+-|level2_stat2_value                      = 100
+-|level2_stat3_id                         = active_skill_damage_+%_final
+-|level2_stat3_value                      = 20
++|level2_stat_text                        = Deals 20% more Damage<br>150% more Cast Speed<br>100% increased Attack Speed
++|level2_stat1_id                         = active_skill_damage_+%_final
++|level2_stat1_value                      = 20
++|level2_stat2_id                         = active_skill_cast_speed_+%_final
++|level2_stat2_value                      = 150
++|level2_stat3_id                         = attack_speed_+%
++|level2_stat3_value                      = 100
+ |level3                                  = True
+ |level3_level_requirement                = 52
+-|level3_stored_uses                      = 0
+-|level3_cooldown                         = 0
+-|level3_stat_text                        = 200% more Cast Speed<br>200% increased Attack Speed<br>Deals 50% more Damage
+-|level3_stat1_id                         = active_skill_cast_speed_+%_final
+-|level3_stat1_value                      = 200
+-|level3_stat2_id                         = attack_speed_+%
++|level3_stat_text                        = Deals 50% more Damage<br>200% more Cast Speed<br>200% increased Attack Speed
++|level3_stat1_id                         = active_skill_damage_+%_final
++|level3_stat1_value                      = 50
++|level3_stat2_id                         = active_skill_cast_speed_+%_final
+ |level3_stat2_value                      = 200
+-|level3_stat3_id                         = active_skill_damage_+%_final
+-|level3_stat3_value                      = 50
++|level3_stat3_id                         = attack_speed_+%
++|level3_stat3_value                      = 200
+ }}

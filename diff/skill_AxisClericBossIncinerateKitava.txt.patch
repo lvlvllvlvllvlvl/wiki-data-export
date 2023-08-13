@@ -1,0 +1,36 @@
+--- Skill:AxisClericBossIncinerateKitava
++++ Export
+@@ -0,0 +1,33 @@
++{{Skill
++|gem_description                         = Launches a torrent of fire from your hand. The longer you repeatedly cast the spell from the same location, the larger and more damaging the flames become.
++|active_skill_name                       = Incinerate
++|skill_id                                = AxisClericBossIncinerateKitava
++|cast_time                               = 3.97
++|required_level                          = 3
++|static_stored_uses                      = 1
++|static_cooldown                         = 7
++|static_damage_effectiveness             = 30
++|static_damage_multiplier                = 100
++|static_attack_speed_multiplier          = 100
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_minimum_base_physical_damage
++|static_stat2_value                      = 2
++|static_stat3_id                         = spell_maximum_base_physical_damage
++|static_stat3_value                      = 2
++|static_stat4_id                         = cannot_stun
++|static_stat4_value                      = 1
++|static_stat5_id                         = always_pierce
++|static_stat5_value                      = 1
++|static_stat6_id                         = active_skill_physical_damage_+%_final
++|static_stat6_value                      = -50
++|static_stat7_id                         = base_projectile_speed_+%
++|static_stat7_value                      = -20
++|static_stat8_id                         = number_of_additional_projectiles
++|static_stat8_value                      = 4
++|static_stat9_id                         = flamethrower_damage_+%_per_stage_final
++|static_stat9_value                      = 25
++|stat_text                               = Deals 2 to 2 Physical Damage<br>Your Hits cannot Stun Enemies<br>Projectiles Pierce all Targets<br>Deals 50% less Physical Damage<br>20% reduced Projectile Speed<br>Fires 4 additional Projectiles<br>25% more Damage with Hits and Ailments for each stage
++|level1                                  = True
++|level1_level_requirement                = 3
++}}

@@ -1,0 +1,34 @@
+--- Skill:MaligaroVaalDetonateDead
++++ Export
+@@ -11,19 +11,19 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = secondary_minimum_base_fire_damage
+-|static_stat1_value                      = 42
+-|static_stat2_id                         = secondary_maximum_base_fire_damage
+-|static_stat2_value                      = 63
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = -18
+-|static_stat4_id                         = corpse_explosion_monster_life_%
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -18
++|static_stat2_id                         = detonate_dead_chain_explode
++|static_stat2_value                      = 1
++|static_stat3_id                         = display_skill_deals_secondary_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = is_area_damage
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = display_skill_deals_secondary_damage
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = detonate_dead_chain_explode
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = is_area_damage
++|static_stat5_id                         = secondary_minimum_base_fire_damage
++|static_stat5_value                      = 42
++|static_stat6_id                         = secondary_maximum_base_fire_damage
++|static_stat6_value                      = 63
++|static_stat7_id                         = corpse_explosion_monster_life_%
+ |static_stat7_value                      = 1
+ |stat_text                               = Deals 42 to 63 Fire Damage<br>Explosion deals base Fire Damage equal to 1% of the corpse's Maximum Life
+ |level1                                  = True

@@ -1,0 +1,43 @@
+--- Skill:VaalSaucerTurretFrontalFlamethrower
++++ Export
+@@ -7,23 +7,24 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_fire_damage
+-|static_stat1_value                      = 8
+-|static_stat2_id                         = spell_maximum_base_fire_damage
+-|static_stat2_value                      = 13
+-|static_stat3_id                         = active_skill_ignite_duration_+%_final
+-|static_stat3_value                      = -25
+-|static_stat4_id                         = active_skill_ignite_damage_+%_final
+-|static_stat4_value                      = 325
+-|static_stat5_id                         = base_skill_effect_duration
+-|static_stat5_value                      = 9000
+-|static_stat6_id                         = always_ignite
++|static_duration                         = 9
++|static_stat1_id                         = active_skill_ignite_duration_+%_final
++|static_stat1_value                      = -25
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_minimum_base_fire_damage
++|static_stat3_value                      = 8
++|static_stat4_id                         = spell_maximum_base_fire_damage
++|static_stat4_value                      = 13
++|static_stat5_id                         = always_ignite
++|static_stat5_value                      = 1
++|static_stat6_id                         = cannot_stun
+ |static_stat6_value                      = 1
+-|static_stat7_id                         = cannot_stun
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = is_area_damage
+-|static_stat8_value                      = 1
+-|stat_text                               = Deals 8 to 13 Fire Damage<br>325% more Damage with Ignite<br>Base duration is 9 seconds<br>Hits always Ignite<br>Your Hits cannot Stun Enemies
++|static_stat7_id                         = base_skill_effect_duration
++|static_stat7_value                      = 9000
++|static_stat8_id                         = active_skill_ignite_damage_+%_final
++|static_stat8_value                      = 325
++|stat_text                               = Deals 8 to 13 Fire Damage<br>Hits always Ignite<br>Your Hits cannot Stun Enemies<br>Base duration is 9 seconds<br>325% more Damage with Ignite
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

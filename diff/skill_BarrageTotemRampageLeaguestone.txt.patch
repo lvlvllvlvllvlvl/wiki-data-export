@@ -1,0 +1,54 @@
+--- Skill:BarrageTotemRampageLeaguestone
++++ Export
+@@ -1,5 +1,5 @@
+ {{Skill
+-|gem_description                         = After a short preparation time, you attack repeatedly with a ranged weapon. These attacks have a small randomised spread. Only works with Bows and Wands.
++|gem_description                         = After a short preparation time, you attack repeatedly with a ranged weapon. These attacks have a small randomised spread. Only works with Bows and Wands. This skill cannot be Triggered.
+ |active_skill_name                       = Barrage
+ |item_class_id_restriction               = Bow, Wand
+ |skill_id                                = BarrageTotemRampageLeaguestone
+@@ -8,29 +8,29 @@
+ |static_damage_effectiveness             = 60
+ |static_damage_multiplier                = 60
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = totem_art_variation
+-|static_stat1_value                      = 4
++|static_stat1_id                         = base_skill_is_totemified
++|static_stat1_value                      = 1
+ |static_stat2_id                         = base_totem_range
+ |static_stat2_value                      = 80
+ |static_stat3_id                         = monster_reverse_point_blank_damage_-%_at_minimum_range
+ |static_stat3_value                      = 40
+-|static_stat4_id                         = base_totem_duration
+-|static_stat4_value                      = 5000
+-|static_stat5_id                         = active_skill_attack_speed_+%_final
+-|static_stat5_value                      = -55
+-|static_stat6_id                         = number_of_additional_projectiles
+-|static_stat6_value                      = 7
+-|static_stat7_id                         = cannot_stun
+-|static_stat7_value                      = 1
++|static_stat4_id                         = skill_can_fire_arrows
++|static_stat4_value                      = 1
++|static_stat5_id                         = totem_art_variation
++|static_stat5_value                      = 4
++|static_stat6_id                         = cannot_stun
++|static_stat6_value                      = 1
++|static_stat7_id                         = base_totem_duration
++|static_stat7_value                      = 5000
+ |static_stat8_id                         = is_totem
+ |static_stat8_value                      = 1
+ |static_stat9_id                         = projectiles_barrage
+ |static_stat9_value                      = 1
+-|static_stat10_id                        = skill_can_fire_arrows
+-|static_stat10_value                     = 1
+-|static_stat11_id                        = base_skill_is_totemified
+-|static_stat11_value                     = 1
+-|stat_text                               = Totem lasts 5 seconds<br>55% less Attack Speed<br>Fires 7 additional Projectiles<br>Your Hits cannot Stun Enemies<br>Summons a Totem which uses this Skill<br>Fires Projectiles sequentially
++|static_stat10_id                        = number_of_additional_projectiles
++|static_stat10_value                     = 7
++|static_stat11_id                        = active_skill_attack_speed_+%_final
++|static_stat11_value                     = -55
++|stat_text                               = Your Hits cannot Stun Enemies<br>Totem lasts 5 seconds<br>Summons a Totem which uses this Skill<br>Fires Projectiles sequentially<br>Fires 7 additional Projectiles<br>55% less Attack Speed
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_stat1_id                         = base_active_skill_totem_level

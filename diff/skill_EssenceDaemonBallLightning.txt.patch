@@ -1,0 +1,29 @@
+--- Skill:EssenceDaemonBallLightning
++++ Export
+@@ -7,16 +7,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 2
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 4
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = -43
+-|static_stat4_id                         = base_projectile_speed_+%
+-|static_stat4_value                      = -80
+-|static_stat5_id                         = base_is_projectile
+-|static_stat5_value                      = 1
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -43
++|static_stat2_id                         = base_is_projectile
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_minimum_base_lightning_damage
++|static_stat3_value                      = 2
++|static_stat4_id                         = spell_maximum_base_lightning_damage
++|static_stat4_value                      = 4
++|static_stat5_id                         = base_projectile_speed_+%
++|static_stat5_value                      = -80
+ |stat_text                               = Deals 2 to 4 Lightning Damage<br>80% reduced Projectile Speed
+ |level1                                  = True
+ |level1_level_requirement                = 3

@@ -1,0 +1,28 @@
+--- Skill:MeleeEyrieBird
++++ Export
+@@ -11,17 +11,17 @@
+ |static_attack_speed_multiplier          = 62
+ |static_stat1_id                         = base_knockback_speed_+%
+ |static_stat1_value                      = 100
+-|static_stat2_id                         = skill_physical_damage_%_to_convert_to_cold
+-|static_stat2_value                      = 75
+-|static_stat3_id                         = global_knockback
++|static_stat2_id                         = determine_knockback_direction_from_melee_pattern
++|static_stat2_value                      = 1
++|static_stat3_id                         = skill_can_fire_arrows
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = skill_can_fire_arrows
++|static_stat4_id                         = skill_can_fire_wand_projectiles
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = skill_can_fire_wand_projectiles
++|static_stat5_id                         = global_knockback
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = determine_knockback_direction_from_melee_pattern
+-|static_stat6_value                      = 1
+-|stat_text                               = Deals (0-200)% more Damage<br>75% of Physical Damage Converted to Cold Damage<br>Knocks Enemies Back on Hit
++|static_stat6_id                         = skill_physical_damage_%_to_convert_to_cold
++|static_stat6_value                      = 75
++|stat_text                               = Knocks Enemies Back on Hit<br>Deals (0-200)% more Damage<br>75% of Physical Damage Converted to Cold Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level2                                  = True

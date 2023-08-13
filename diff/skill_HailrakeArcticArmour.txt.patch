@@ -1,0 +1,26 @@
+--- Skill:HailrakeArcticArmour
++++ Export
+@@ -7,15 +7,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_skill_effect_duration
+-|static_stat1_value                      = 2000
+-|static_stat2_id                         = new_arctic_armour_fire_damage_taken_when_hit_+%_final
+-|static_stat2_value                      = -5
++|static_duration                         = 2
++|static_stat1_id                         = chill_enemy_when_hit_duration_ms
++|static_stat1_value                      = 500
++|static_stat2_id                         = base_skill_effect_duration
++|static_stat2_value                      = 2000
+ |static_stat3_id                         = new_arctic_armour_physical_damage_taken_when_hit_+%_final
+ |static_stat3_value                      = -5
+-|static_stat4_id                         = chill_enemy_when_hit_duration_ms
+-|static_stat4_value                      = 500
+-|stat_text                               = Base duration is 2 seconds<br>Buff grants 5% less Fire Damage taken from Hits while stationary<br>Buff grants 5% less Physical Damage taken from Hits while stationary
++|static_stat4_id                         = new_arctic_armour_fire_damage_taken_when_hit_+%_final
++|static_stat4_value                      = -5
++|stat_text                               = Base duration is 2 seconds<br>Buff grants 5% less Physical Damage taken from Hits while stationary<br>Buff grants 5% less Fire Damage taken from Hits while stationary
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ }}

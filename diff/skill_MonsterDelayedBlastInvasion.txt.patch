@@ -1,0 +1,43 @@
+--- Skill:MonsterDelayedBlastInvasion
++++ Export
+@@ -9,11 +9,9 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = is_area_damage
+ |static_stat1_value                      = 1
+-|stat_text                               = Deals (5-199) to (7-299) Physical Damage<br>(0-80)% increased Cast Speed<br>Skills Repeat an additional (0-2) Times
++|stat_text                               = Deals (5-199) to (7-299) Physical Damage<br>Skills Repeat an additional (0-2) Times<br>(0-80)% increased Cast Speed
+ |level1                                  = True
+ |level1_level_requirement                = 3
+-|level1_stored_uses                      = 0
+-|level1_cooldown                         = 0
+ |level1_stat_text                        = Deals 5 to 7 Physical Damage
+ |level1_stat1_id                         = spell_minimum_base_physical_damage
+ |level1_stat1_value                      = 5
+@@ -21,8 +19,6 @@
+ |level1_stat2_value                      = 7
+ |level2                                  = True
+ |level2_level_requirement                = 36
+-|level2_stored_uses                      = 0
+-|level2_cooldown                         = 0
+ |level2_stat_text                        = Deals 60 to 90 Physical Damage<br>25% increased Cast Speed
+ |level2_stat1_id                         = spell_minimum_base_physical_damage
+ |level2_stat1_value                      = 60
+@@ -34,13 +30,13 @@
+ |level3_level_requirement                = 57
+ |level3_stored_uses                      = 1
+ |level3_cooldown                         = 4
+-|level3_stat_text                        = Deals 199 to 299 Physical Damage<br>80% increased Cast Speed<br>Skills Repeat an additional 2 Times
++|level3_stat_text                        = Deals 199 to 299 Physical Damage<br>Skills Repeat an additional 2 Times<br>80% increased Cast Speed
+ |level3_stat1_id                         = spell_minimum_base_physical_damage
+ |level3_stat1_value                      = 199
+ |level3_stat2_id                         = spell_maximum_base_physical_damage
+ |level3_stat2_value                      = 299
+-|level3_stat3_id                         = base_cast_speed_+%
+-|level3_stat3_value                      = 80
+-|level3_stat4_id                         = skill_repeat_count
+-|level3_stat4_value                      = 2
++|level3_stat3_id                         = skill_repeat_count
++|level3_stat3_value                      = 2
++|level3_stat4_id                         = base_cast_speed_+%
++|level3_stat4_value                      = 80
+ }}

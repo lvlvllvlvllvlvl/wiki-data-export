@@ -1,0 +1,23 @@
+--- Skill:GreustSpearThrow
++++ Export
+@@ -7,13 +7,13 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = monster_projectile_variation
+-|static_stat1_value                      = 18
+-|static_stat2_id                         = base_projectile_speed_+%
+-|static_stat2_value                      = 50
+-|static_stat3_id                         = global_bleed_on_hit
+-|static_stat3_value                      = 1
+-|static_stat4_id                         = base_is_projectile
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_projectile_variation
++|static_stat2_value                      = 18
++|static_stat3_id                         = base_projectile_speed_+%
++|static_stat3_value                      = 50
++|static_stat4_id                         = global_bleed_on_hit
+ |static_stat4_value                      = 1
+ |stat_text                               = 50% increased Projectile Speed<br>Causes Bleeding
+ |level1                                  = True

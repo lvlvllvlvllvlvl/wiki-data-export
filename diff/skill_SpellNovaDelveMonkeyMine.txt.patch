@@ -1,0 +1,16 @@
+--- Skill:SpellNovaDelveMonkeyMine
++++ Export
+@@ -8,11 +8,11 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = chill_effect_+%
++|static_stat1_id                         = active_skill_chill_effect_+%_final
+ |static_stat1_value                      = -67
+ |static_stat2_id                         = is_area_damage
+ |static_stat2_value                      = 1
+-|stat_text                               = Deals (9-21) to (13-32) Cold Damage<br>67% reduced Effect of Chill
++|stat_text                               = Deals (9-21) to (13-32) Cold Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_stat_text                        = Deals 9 to 13 Cold Damage

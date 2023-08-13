@@ -1,0 +1,23 @@
+--- Skill:ImpactingSteelReload
++++ Export
+@@ -7,13 +7,13 @@
+ |static_damage_effectiveness             = 130
+ |static_damage_multiplier                = 130
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = call_of_steel_reload_amount
+-|static_stat1_value                      = 4
+-|static_stat2_id                         = call_of_steel_reload_time
+-|static_stat2_value                      = 500
+-|static_stat3_id                         = skill_is_steel_skill_reload
+-|static_stat3_value                      = 1
+-|stat_text                               = Grants 4 Steel Shards every 0.5 seconds<br>Reflects Physical Damage around each Enemy equal to the Damage of removed Impales multiplied by the number of Hits they have left<br>Grants 1 Steel Shard for each Impale removed
++|static_stat1_id                         = skill_is_steel_skill_reload
++|static_stat1_value                      = 1
++|static_stat2_id                         = call_of_steel_reload_amount
++|static_stat2_value                      = 4
++|static_stat3_id                         = call_of_steel_reload_time
++|static_stat3_value                      = 500
++|stat_text                               = Reflects Physical Damage around each Enemy equal to the Damage of removed Impales multiplied by the number of Hits they have left<br>Grants 1 Steel Shard for each Impale removed<br>Grants 4 Steel Shards every 0.5 seconds
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

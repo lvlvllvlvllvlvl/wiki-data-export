@@ -1,0 +1,20 @@
+--- Wiki
++++ Export
+@@ -13,7 +13,6 @@
+ |skill_id                                = SupportCurseOnHitPlus
+ |support_gem_letter                      = &
+ |required_level                          = 72
+-|static_cost_multiplier                  = 130
+ |level1                                  = True
+ |level1_level_requirement                = 72
+ |level2                                  = True
+@@ -55,9 +54,6 @@
+ |level20                                 = True
+ |level20_level_requirement               = 100
+ |quality_type1_weight                    = 50
+-|quality_type1_stat_text                 = 0.5% increased Effect of Supported Curses
+-|quality_type1_stat1_id                  = curse_effect_+%
+-|quality_type1_stat1_value               = 500
+ |stat_text                               = Supported Skills apply supported Curses on Hit<br>You cannot Cast Supported Curse Spells<br>35% less Effect of Supported Curses<br>Supported Skills have (30-26)% reduced Curse Duration<br>Hexes applied by Supported Curse Skills have (10-18)% chance to affect Hexproof Enemies<br>+(0-1) to Level of Supported Curse Skill Gems
+ |static_stat1_id                         = apply_linked_curses_on_hit_%
+ |static_stat1_value                      = 100

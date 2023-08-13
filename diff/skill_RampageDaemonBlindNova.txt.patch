@@ -1,0 +1,43 @@
+--- Skill:RampageDaemonBlindNova
++++ Export
+@@ -8,23 +8,23 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 10
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 15
+-|static_stat3_id                         = monster_projectile_variation
+-|static_stat3_value                      = 3
+-|static_stat4_id                         = number_of_chains
+-|static_stat4_value                      = 3
+-|static_stat5_id                         = blind_duration_+%
+-|static_stat5_value                      = 150
+-|static_stat6_id                         = global_chance_to_blind_on_hit_%
+-|static_stat6_value                      = 100
+-|static_stat7_id                         = base_cast_speed_+%
+-|static_stat7_value                      = 300
+-|static_stat8_id                         = base_is_projectile
+-|static_stat8_value                      = 1
+-|stat_text                               = Deals 10 to 15 Physical Damage<br>Chains +3 Times<br>150% increased Blinding duration<br>100% chance to Blind enemies on hit<br>300% increased Cast Speed
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_projectile_variation
++|static_stat2_value                      = 3
++|static_stat3_id                         = spell_minimum_base_physical_damage
++|static_stat3_value                      = 10
++|static_stat4_id                         = spell_maximum_base_physical_damage
++|static_stat4_value                      = 15
++|static_stat5_id                         = base_cast_speed_+%
++|static_stat5_value                      = 300
++|static_stat6_id                         = number_of_chains
++|static_stat6_value                      = 3
++|static_stat7_id                         = global_chance_to_blind_on_hit_%
++|static_stat7_value                      = 100
++|static_stat8_id                         = blind_duration_+%
++|static_stat8_value                      = 150
++|stat_text                               = Deals 10 to 15 Physical Damage<br>300% increased Cast Speed<br>Chains +3 Times<br>Blind enemies on hit<br>150% increased Blinding duration
+ |level1                                  = True
+ |level1_level_requirement                = 2
+ }}

@@ -1,0 +1,45 @@
+--- Skill:DanaiVolatileExplode3
++++ Export
+@@ -8,25 +8,25 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 28
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 42
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = 100
+-|static_stat4_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat4_value                      = -50
+-|static_stat5_id                         = skill_physical_damage_%_to_convert_to_fire
+-|static_stat5_value                      = 50
+-|static_stat6_id                         = skill_physical_damage_%_to_convert_to_lightning
+-|static_stat6_value                      = 50
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = 100
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat3_value                      = -50
++|static_stat4_id                         = spell_minimum_base_physical_damage
++|static_stat4_value                      = 28
++|static_stat5_id                         = spell_maximum_base_physical_damage
++|static_stat5_value                      = 42
++|static_stat6_id                         = always_ignite
++|static_stat6_value                      = 1
+ |static_stat7_id                         = always_shock
+ |static_stat7_value                      = 1
+-|static_stat8_id                         = always_ignite
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = is_area_damage
+-|static_stat9_value                      = 1
+-|stat_text                               = Deals 28 to 42 Physical Damage<br>50% of Physical Damage Converted to Fire Damage<br>50% of Physical Damage Converted to Lightning Damage<br>Hits always Shock<br>Hits always Ignite
++|static_stat8_id                         = skill_physical_damage_%_to_convert_to_lightning
++|static_stat8_value                      = 50
++|static_stat9_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat9_value                      = 50
++|stat_text                               = Deals 28 to 42 Physical Damage<br>Hits always Ignite<br>Hits always Shock<br>50% of Physical Damage Converted to Lightning Damage<br>50% of Physical Damage Converted to Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

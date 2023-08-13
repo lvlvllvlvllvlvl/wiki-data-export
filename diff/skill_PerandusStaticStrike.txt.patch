@@ -1,0 +1,32 @@
+--- Skill:PerandusStaticStrike
++++ Export
+@@ -8,19 +8,20 @@
+ |static_damage_effectiveness             = 110
+ |static_damage_multiplier                = 110
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 0.75
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = -16
+ |static_stat2_id                         = base_attack_repeat_count
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = active_skill_attack_speed_+%_final
+-|static_stat3_value                      = 90
+-|static_stat4_id                         = static_strike_explosion_damage_+%_final
+-|static_stat4_value                      = -40
+-|static_stat5_id                         = base_skill_effect_duration
+-|static_stat5_value                      = 750
+-|static_stat6_id                         = skill_physical_damage_%_to_convert_to_lightning
+-|static_stat6_value                      = 60
+-|stat_text                               = 90% more Attack Speed<br>Explosion deals 40% less Damage with Hits and Ailments<br>Base duration is 0.75 seconds<br>60% of Physical Damage Converted to Lightning Damage
++|static_stat3_id                         = skill_physical_damage_%_to_convert_to_lightning
++|static_stat3_value                      = 60
++|static_stat4_id                         = base_skill_effect_duration
++|static_stat4_value                      = 750
++|static_stat5_id                         = active_skill_attack_speed_+%_final
++|static_stat5_value                      = 90
++|static_stat6_id                         = static_strike_explosion_damage_+%_final
++|static_stat6_value                      = -40
++|stat_text                               = 60% of Physical Damage Converted to Lightning Damage<br>Base duration is 0.75 seconds<br>90% more Attack Speed<br>Explosion deals 40% less Damage with Hits and Ailments
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

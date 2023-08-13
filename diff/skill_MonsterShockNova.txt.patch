@@ -1,0 +1,26 @@
+--- Skill:MonsterShockNova
++++ Export
+@@ -10,15 +10,15 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = 5
+-|static_stat2_id                         = shock_effect_+%
++|static_stat2_id                         = active_skill_shock_effect_+%_final
+ |static_stat2_value                      = 20
+-|static_stat3_id                         = base_chance_to_shock_%
+-|static_stat3_value                      = 50
+-|static_stat4_id                         = newshocknova_first_ring_damage_+%_final
+-|static_stat4_value                      = -50
+-|static_stat5_id                         = is_area_damage
+-|static_stat5_value                      = 1
+-|stat_text                               = Deals (3-377) to (10-1132) Lightning Damage<br>20% increased Effect of Shock<br>50% chance to Shock enemies<br>Ring deals 50% less Damage
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = base_chance_to_shock_%
++|static_stat4_value                      = 50
++|static_stat5_id                         = newshocknova_first_ring_damage_+%_final
++|static_stat5_value                      = -50
++|stat_text                               = Deals (3-377) to (10-1132) Lightning Damage<br>50% chance to Shock enemies<br>Ring deals 50% less Damage
+ |level1                                  = True
+ |level1_level_requirement                = 4
+ |level1_stat_text                        = Deals 3 to 10 Lightning Damage

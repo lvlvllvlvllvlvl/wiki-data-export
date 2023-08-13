@@ -1,0 +1,39 @@
+--- Skill:ExileCausticArrow
++++ Export
+@@ -8,25 +8,26 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 4
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = 10
+ |static_stat2_id                         = ground_caustic_art_variation
+ |static_stat2_value                      = 2
+ |static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+ |static_stat3_value                      = -25
+-|static_stat4_id                         = physical_damage_%_to_add_as_chaos
+-|static_stat4_value                      = 25
+-|static_stat5_id                         = base_skill_effect_duration
+-|static_stat5_value                      = 4000
+-|static_stat6_id                         = projectiles_return
+-|static_stat6_value                      = 1
++|static_stat4_id                         = skill_can_fire_arrows
++|static_stat4_value                      = 1
++|static_stat5_id                         = visual_hit_effect_chaos_is_green
++|static_stat5_value                      = 1
++|static_stat6_id                         = base_skill_effect_duration
++|static_stat6_value                      = 4000
+ |static_stat7_id                         = projectile_damage_modifiers_apply_to_skill_dot
+ |static_stat7_value                      = 1
+-|static_stat8_id                         = visual_hit_effect_chaos_is_green
++|static_stat8_id                         = projectiles_return
+ |static_stat8_value                      = 1
+-|static_stat9_id                         = skill_can_fire_arrows
+-|static_stat9_value                      = 1
+-|stat_text                               = Deals (0.9-241.3) Base Chaos Damage per second<br>Gain 25% of your Physical Damage as Extra Chaos Damage<br>Base duration is 4 seconds<br>Projectiles Return to you from final target<br>Modifiers to Projectile Damage apply to this Skill's Damage Over Time effect
++|static_stat9_id                         = physical_damage_%_to_add_as_chaos
++|static_stat9_value                      = 25
++|stat_text                               = Deals (0.9-241.3) Base Chaos Damage per second<br>Base duration is 4 seconds<br>Modifiers to Projectile Damage apply to this Skill's Damage Over Time effect<br>Projectiles Return to you<br>Gain 25% of your Physical Damage as Extra Chaos Damage
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ |level1_stat_text                        = Deals 0.9 Base Chaos Damage per second

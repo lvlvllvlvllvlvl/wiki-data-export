@@ -1,0 +1,19 @@
+--- Wiki
++++ Export
+@@ -32,12 +32,12 @@
+ |static_cost_amounts                     = 6
+ |static_cost_types                       = Mana
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = total_projectile_spread_angle_override
+-|static_stat1_value                      = 110
++|static_stat1_id                         = console_skill_dont_chase
++|static_stat1_value                      = 1
+ |static_stat2_id                         = show_number_of_projectiles
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = console_skill_dont_chase
+-|static_stat3_value                      = 1
++|static_stat3_id                         = total_projectile_spread_angle_override
++|static_stat3_value                      = 110
+ |static_stat4_id                         = skill_physical_damage_%_to_convert_to_cold
+ |static_stat4_value                      = 60
+ |stat_text                               = (2-75) to (3-113) Added Cold Damage<br>Fires (4-7) additional Projectiles<br>60% of Physical Damage Converted to Cold Damage<br>+(18-21) to Melee Strike Range

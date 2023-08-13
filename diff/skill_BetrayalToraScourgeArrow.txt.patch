@@ -1,0 +1,52 @@
+--- Skill:BetrayalToraScourgeArrow
++++ Export
+@@ -7,29 +7,29 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = skill_visual_scale_+%
+-|static_stat1_value                      = 100
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
+ |static_stat2_id                         = monster_projectile_variation
+ |static_stat2_value                      = 44
+-|static_stat3_id                         = base_poison_duration_+%
+-|static_stat3_value                      = 200
+-|static_stat4_id                         = active_skill_damage_+%_final
+-|static_stat4_value                      = 50
+-|static_stat5_id                         = active_skill_attack_speed_+%_final
+-|static_stat5_value                      = -50
+-|static_stat6_id                         = skill_physical_damage_%_to_convert_to_chaos
+-|static_stat6_value                      = 20
+-|static_stat7_id                         = always_pierce
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = global_poison_on_hit
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = base_is_projectile
+-|static_stat9_value                      = 1
+-|static_stat10_id                        = projectile_uses_contact_position
++|static_stat3_id                         = projectile_uses_contact_position
++|static_stat3_value                      = 1
++|static_stat4_id                         = skill_visual_scale_+%
++|static_stat4_value                      = 100
++|static_stat5_id                         = visual_hit_effect_chaos_is_green
++|static_stat5_value                      = 1
++|static_stat6_id                         = always_pierce
++|static_stat6_value                      = 1
++|static_stat7_id                         = active_skill_damage_+%_final
++|static_stat7_value                      = 50
++|static_stat8_id                         = skill_physical_damage_%_to_convert_to_chaos
++|static_stat8_value                      = 20
++|static_stat9_id                         = active_skill_attack_speed_+%_final
++|static_stat9_value                      = -50
++|static_stat10_id                        = global_poison_on_hit
+ |static_stat10_value                     = 1
+-|static_stat11_id                        = visual_hit_effect_chaos_is_green
+-|static_stat11_value                     = 1
+-|stat_text                               = 200% increased Poison Duration<br>Deals 50% more Damage<br>50% less Attack Speed<br>20% of Physical Damage Converted to Chaos Damage<br>Projectiles Pierce all Targets<br>Poisons Enemies on Hit
++|static_stat11_id                        = base_poison_duration_+%
++|static_stat11_value                     = 200
++|stat_text                               = Projectiles Pierce all Targets<br>Deals 50% more Damage<br>20% of Physical Damage Converted to Chaos Damage<br>50% less Attack Speed<br>Poisons Enemies on Hit<br>200% increased Poison Duration
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

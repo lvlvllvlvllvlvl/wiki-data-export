@@ -1,0 +1,22 @@
+--- Skill:UniqueDivStrongboxBoss
++++ Export
+@@ -9,13 +9,13 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = alternate_minion
+ |static_stat1_value                      = 296
+-|static_stat2_id                         = summoned_monster_rarity
+-|static_stat2_value                      = 3
+-|static_stat3_id                         = number_of_monsters_to_summon
++|static_stat2_id                         = number_of_monsters_to_summon
++|static_stat2_value                      = 1
++|static_stat3_id                         = summon_specific_monsters_cannot_fail
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = summoned_monsters_are_minions
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = summon_specific_monsters_cannot_fail
++|static_stat4_id                         = summoned_monster_rarity
++|static_stat4_value                      = 3
++|static_stat5_id                         = summoned_monsters_are_minions
+ |static_stat5_value                      = 1
+ |stat_text                               = 
+ |level1                                  = True

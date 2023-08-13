@@ -1,0 +1,29 @@
+--- Skill:WbAnimatedWeaponSnipe
++++ Export
+@@ -9,17 +9,17 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 109
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = fixed_projectile_spread
+-|static_stat1_value                      = 15
+-|static_stat2_id                         = number_of_additional_projectiles
+-|static_stat2_value                      = 2
+-|static_stat3_id                         = always_pierce
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = fixed_projectile_spread
++|static_stat2_value                      = 15
++|static_stat3_id                         = skill_can_fire_arrows
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = base_is_projectile
++|static_stat4_id                         = always_pierce
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = skill_can_fire_arrows
+-|static_stat5_value                      = 1
+-|stat_text                               = Fires 2 additional Projectiles<br>Projectiles Pierce all Targets
++|static_stat5_id                         = number_of_additional_projectiles
++|static_stat5_value                      = 2
++|stat_text                               = Projectiles Pierce all Targets<br>Fires 2 additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

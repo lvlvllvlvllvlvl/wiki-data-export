@@ -1,0 +1,59 @@
+--- Skill:MalachaiMortarWithDegen
++++ Export
+@@ -8,17 +8,18 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_maximum_action_distance_+%
+-|static_stat1_value                      = -33
+-|static_stat2_id                         = projectile_spread_radius
+-|static_stat2_value                      = 10
+-|static_stat3_id                         = base_skill_effect_duration
+-|static_stat3_value                      = 5000
+-|static_stat4_id                         = is_area_damage
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = base_is_projectile
+-|static_stat5_value                      = 1
+-|stat_text                               = Deals (76-456) to (114-676) Physical Damage<br>Base duration is 5 seconds<br>Deals (76.9-429.3) Base Physical Damage per second
++|static_duration                         = 5
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = projectile_spread_radius
++|static_stat3_value                      = 10
++|static_stat4_id                         = spell_maximum_action_distance_+%
++|static_stat4_value                      = -33
++|static_stat5_id                         = base_skill_effect_duration
++|static_stat5_value                      = 5000
++|stat_text                               = Deals (76-456) to (114-676) Physical Damage<br>Deals (76.9-429.3) Base Physical Damage per second<br>Base duration is 5 seconds
+ |level1                                  = True
+ |level1_level_requirement                = 40
+ |level1_stored_uses                      = 2
+@@ -32,8 +33,6 @@
+ |level1_stat3_value                      = 4616
+ |level2                                  = True
+ |level2_level_requirement                = 57
+-|level2_stored_uses                      = 0
+-|level2_cooldown                         = 0
+ |level2_stat_text                        = Deals 199 to 299 Physical Damage<br>Deals 201 Base Physical Damage per second
+ |level2_stat1_id                         = spell_minimum_base_physical_damage
+ |level2_stat1_value                      = 199
+@@ -43,8 +42,6 @@
+ |level2_stat3_value                      = 12062
+ |level3                                  = True
+ |level3_level_requirement                = 68
+-|level3_stored_uses                      = 0
+-|level3_cooldown                         = 0
+ |level3_stat_text                        = Deals 549 to 824 Physical Damage<br>Deals 515 Base Physical Damage per second
+ |level3_stat1_id                         = spell_minimum_base_physical_damage
+ |level3_stat1_value                      = 549
+@@ -54,8 +51,6 @@
+ |level3_stat3_value                      = 30897
+ |level4                                  = True
+ |level4_level_requirement                = 72
+-|level4_stored_uses                      = 0
+-|level4_cooldown                         = 0
+ |level4_stat_text                        = Deals 456 to 676 Physical Damage<br>Deals 429.3 Base Physical Damage per second
+ |level4_stat1_id                         = spell_minimum_base_physical_damage
+ |level4_stat1_value                      = 456

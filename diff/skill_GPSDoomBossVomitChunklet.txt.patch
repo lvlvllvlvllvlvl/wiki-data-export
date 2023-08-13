@@ -1,0 +1,51 @@
+--- Skill:GPSDoomBossVomitChunklet
++++ Export
+@@ -8,29 +8,29 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 293
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 439
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
+ |static_stat3_id                         = number_of_projectiles_override
+ |static_stat3_value                      = 2
+ |static_stat4_id                         = projectile_spread_radius
+ |static_stat4_value                      = 20
+-|static_stat5_id                         = base_chance_to_poison_on_hit_%
+-|static_stat5_value                      = 50
+-|static_stat6_id                         = skill_physical_damage_%_to_convert_to_chaos
+-|static_stat6_value                      = 15
+-|static_stat7_id                         = number_of_additional_projectiles
+-|static_stat7_value                      = 2
+-|static_stat8_id                         = is_area_damage
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = base_is_projectile
+-|static_stat9_value                      = 1
+-|static_stat10_id                        = projectile_uses_contact_position
+-|static_stat10_value                     = 1
+-|static_stat11_id                        = use_scaled_contact_offset
+-|static_stat11_value                     = 1
+-|stat_text                               = Deals 293 to 439 Physical Damage<br>50% chance to Poison on Hit<br>15% of Physical Damage Converted to Chaos Damage<br>Fires 2 additional Projectiles
++|static_stat5_id                         = projectile_uses_contact_position
++|static_stat5_value                      = 1
++|static_stat6_id                         = use_scaled_contact_offset
++|static_stat6_value                      = 1
++|static_stat7_id                         = spell_minimum_base_physical_damage
++|static_stat7_value                      = 293
++|static_stat8_id                         = spell_maximum_base_physical_damage
++|static_stat8_value                      = 439
++|static_stat9_id                         = number_of_additional_projectiles
++|static_stat9_value                      = 2
++|static_stat10_id                        = skill_physical_damage_%_to_convert_to_chaos
++|static_stat10_value                     = 15
++|static_stat11_id                        = base_chance_to_poison_on_hit_%
++|static_stat11_value                     = 50
++|stat_text                               = Deals 293 to 439 Physical Damage<br>Fires 2 additional Projectiles<br>15% of Physical Damage Converted to Chaos Damage<br>50% chance to Poison on Hit
+ |level1                                  = True
+ |level1_level_requirement                = 79
+ }}

@@ -1,0 +1,38 @@
+--- Skill:SynthesisSoulstealerBolt
++++ Export
+@@ -8,20 +8,21 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 2
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 3
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = -35
+-|static_stat4_id                         = spell_maximum_action_distance_+%
+-|static_stat4_value                      = -50
+-|static_stat5_id                         = skill_range_+%
+-|static_stat5_value                      = -75
+-|static_stat6_id                         = base_skill_effect_duration
+-|static_stat6_value                      = 260
+-|static_stat7_id                         = is_area_damage
+-|static_stat7_value                      = 1
++|static_duration                         = 0.26
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -35
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_maximum_action_distance_+%
++|static_stat3_value                      = -50
++|static_stat4_id                         = spell_minimum_base_lightning_damage
++|static_stat4_value                      = 2
++|static_stat5_id                         = spell_maximum_base_lightning_damage
++|static_stat5_value                      = 3
++|static_stat6_id                         = skill_range_+%
++|static_stat6_value                      = -75
++|static_stat7_id                         = base_skill_effect_duration
++|static_stat7_value                      = 260
+ |stat_text                               = Deals 2 to 3 Lightning Damage<br>75% reduced Skill Range<br>Base duration is 0.26 seconds
+ |level1                                  = True
+ |level1_level_requirement                = 1

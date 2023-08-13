@@ -1,0 +1,37 @@
+--- Skill:AbyssSummonAbyssCrystalPillar
++++ Export
+@@ -7,21 +7,21 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = summoned_monster_rarity
+-|static_stat1_value                      = 3
+-|static_stat2_id                         = summon_specific_monsters_radius_+%
+-|static_stat2_value                      = -50
+-|static_stat3_id                         = number_of_monsters_to_summon
++|static_stat1_id                         = alternate_minion
++|static_stat1_value                      = 311
++|static_stat2_id                         = number_of_monsters_to_summon
++|static_stat2_value                      = 1
++|static_stat3_id                         = skill_cannot_be_interrupted
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = alternate_minion
+-|static_stat4_value                      = 311
+-|static_stat5_id                         = summoned_monsters_are_minions
++|static_stat4_id                         = skill_cannot_be_knocked_back
++|static_stat4_value                      = 1
++|static_stat5_id                         = skill_cannot_be_stunned
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = skill_cannot_be_interrupted
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = skill_cannot_be_stunned
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = skill_cannot_be_knocked_back
++|static_stat6_id                         = summon_specific_monsters_radius_+%
++|static_stat6_value                      = -50
++|static_stat7_id                         = summoned_monster_rarity
++|static_stat7_value                      = 3
++|static_stat8_id                         = summoned_monsters_are_minions
+ |static_stat8_value                      = 1
+ |stat_text                               = 
+ |level1                                  = True

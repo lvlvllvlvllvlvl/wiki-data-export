@@ -1,0 +1,28 @@
+--- Skill:QuakeSlamDropBearBoss
++++ Export
+@@ -8,19 +8,18 @@
+ |static_stored_uses                      = 1
+ |static_cooldown                         = 6
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 1.5
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = -20
+-|static_stat2_id                         = quake_slam_fully_charged_explosion_damage_+%_final
+-|static_stat2_value                      = 75
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
+ |static_stat3_id                         = base_skill_effect_duration
+ |static_stat3_value                      = 1500
+-|static_stat4_id                         = is_area_damage
+-|static_stat4_value                      = 1
+-|stat_text                               = Aftershock deals 75% more Damage with Hits and Ailments<br>Base duration is 1.5 seconds
++|static_stat4_id                         = quake_slam_fully_charged_explosion_damage_+%_final
++|static_stat4_value                      = 75
++|stat_text                               = Base duration is 1.5 seconds<br>Aftershock deals 75% more Damage with Hits and Ailments
+ |level1                                  = True
+ |level1_level_requirement                = 1
+-|level1_damage_effectiveness             = 100
+-|level1_damage_multiplier                = 100
+ |level2                                  = True
+ |level2_level_requirement                = 68
+ |level2_damage_effectiveness             = 80

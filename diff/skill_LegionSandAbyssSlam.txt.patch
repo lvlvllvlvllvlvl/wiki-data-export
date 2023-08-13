@@ -1,0 +1,23 @@
+--- Skill:LegionSandAbyssSlam
++++ Export
+@@ -9,14 +9,14 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 75
+-|static_stat1_id                         = active_skill_damage_+%_final
+-|static_stat1_value                      = -50
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
+ |static_stat2_id                         = main_hand_base_maximum_attack_distance
+ |static_stat2_value                      = 50
+-|static_stat3_id                         = upheaval_number_of_spikes
+-|static_stat3_value                      = 8
+-|static_stat4_id                         = is_area_damage
+-|static_stat4_value                      = 1
++|static_stat3_id                         = active_skill_damage_+%_final
++|static_stat3_value                      = -50
++|static_stat4_id                         = upheaval_number_of_spikes
++|static_stat4_value                      = 8
+ |stat_text                               = Deals 50% less Damage<br>Causes 8 Bursts
+ |level1                                  = True
+ |level1_level_requirement                = 0

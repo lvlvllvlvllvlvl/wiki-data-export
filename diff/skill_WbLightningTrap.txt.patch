@@ -1,0 +1,36 @@
+--- Skill:WbLightningTrap
++++ Export
+@@ -10,21 +10,21 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = trap_variation
+-|static_stat1_value                      = 3
+-|static_stat2_id                         = number_of_additional_projectiles
+-|static_stat2_value                      = 8
+-|static_stat3_id                         = projectiles_nova
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_skill_is_trapped
++|static_stat2_value                      = 1
++|static_stat3_id                         = ignores_trap_and_mine_cooldown_limit
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = is_trap
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = base_skill_is_trapped
++|static_stat4_id                         = trap_variation
++|static_stat4_value                      = 3
++|static_stat5_id                         = is_trap
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = base_is_projectile
++|static_stat6_id                         = projectiles_nova
+ |static_stat6_value                      = 1
+-|static_stat7_id                         = ignores_trap_and_mine_cooldown_limit
+-|static_stat7_value                      = 1
+-|stat_text                               = Deals (5-47) to (15-140) Lightning Damage<br>Trap lasts (30-11) seconds<br>Throw up to (0-2) additional Traps<br>Fires 8 additional Projectiles<br>Fires Projectiles in a circle
++|static_stat7_id                         = number_of_additional_projectiles
++|static_stat7_value                      = 8
++|stat_text                               = Deals (5-47) to (15-140) Lightning Damage<br>Trap lasts (30-11) seconds<br>Fires Projectiles in a circle<br>Fires 8 additional Projectiles<br>Throw up to (0-2) additional Traps
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ |level1_stat_text                        = Deals 5 to 15 Lightning Damage<br>Trap lasts 30 seconds

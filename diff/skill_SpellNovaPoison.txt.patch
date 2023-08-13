@@ -1,0 +1,29 @@
+--- Skill:SpellNovaPoison
++++ Export
+@@ -7,16 +7,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_chaos_damage
+-|static_stat1_value                      = 1
+-|static_stat2_id                         = spell_maximum_base_chaos_damage
+-|static_stat2_value                      = 2
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = -20
+-|static_stat4_id                         = cast_on_death_%
+-|static_stat4_value                      = 100
+-|static_stat5_id                         = is_area_damage
+-|static_stat5_value                      = 1
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -20
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_minimum_base_chaos_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = spell_maximum_base_chaos_damage
++|static_stat4_value                      = 2
++|static_stat5_id                         = cast_on_death_%
++|static_stat5_value                      = 100
+ |stat_text                               = Deals 1 to 2 Chaos Damage<br>100% chance to Trigger this Spell on Death
+ |level1                                  = True
+ |level1_level_requirement                = 1

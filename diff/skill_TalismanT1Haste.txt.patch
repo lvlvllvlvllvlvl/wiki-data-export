@@ -1,0 +1,17 @@
+--- Skill:TalismanT1Haste
++++ Export
+@@ -13,11 +13,11 @@
+ |static_stat1_value                      = -50
+ |static_stat2_id                         = base_movement_velocity_+%
+ |static_stat2_value                      = 20
+-|static_stat3_id                         = cast_speed_+%_granted_from_skill
++|static_stat3_id                         = attack_speed_+%_granted_from_skill
+ |static_stat3_value                      = 30
+-|static_stat4_id                         = attack_speed_+%_granted_from_skill
++|static_stat4_id                         = cast_speed_+%_granted_from_skill
+ |static_stat4_value                      = 30
+-|stat_text                               = You and nearby allies gain 20% increased Movement Speed<br>You and nearby allies gain 30% increased Cast Speed<br>You and nearby allies gain 30% increased Attack Speed
++|stat_text                               = You and nearby allies gain 20% increased Movement Speed<br>You and nearby allies gain 30% increased Attack Speed<br>You and nearby allies gain 30% increased Cast Speed
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

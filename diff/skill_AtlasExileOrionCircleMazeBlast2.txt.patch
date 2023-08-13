@@ -1,0 +1,82 @@
+--- Skill:AtlasExileOrionCircleMazeBlast2
++++ Export
+@@ -10,27 +10,28 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat1_value                      = -50
+-|static_stat2_id                         = orion_circle_maze_number_of_circles
+-|static_stat2_value                      = 2
+-|static_stat3_id                         = skill_physical_damage_%_to_convert_to_chaos
+-|static_stat3_value                      = 25
+-|static_stat4_id                         = skill_physical_damage_%_to_convert_to_lightning
+-|static_stat4_value                      = 25
+-|static_stat5_id                         = skill_physical_damage_%_to_convert_to_fire
+-|static_stat5_value                      = 25
+-|static_stat6_id                         = base_secondary_skill_effect_duration
+-|static_stat6_value                      = 1000
+-|static_stat7_id                         = is_area_damage
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = skill_cannot_be_stunned
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = skill_cannot_be_knocked_back
+-|static_stat9_value                      = 1
+-|stat_text                               = Deals (27-30411) to (38-45617) Physical Damage<br>Base duration is (4-2) seconds<br>25% of Physical Damage Converted to Chaos Damage<br>25% of Physical Damage Converted to Lightning Damage<br>25% of Physical Damage Converted to Fire Damage<br>Base secondary duration is 1 seconds
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat2_value                      = -50
++|static_stat3_id                         = orion_circle_maze_number_of_circles
++|static_stat3_value                      = 2
++|static_stat4_id                         = skill_cannot_be_knocked_back
++|static_stat4_value                      = 1
++|static_stat5_id                         = skill_cannot_be_stunned
++|static_stat5_value                      = 1
++|static_stat6_id                         = skill_physical_damage_%_to_convert_to_lightning
++|static_stat6_value                      = 25
++|static_stat7_id                         = base_secondary_skill_effect_duration
++|static_stat7_value                      = 1000
++|static_stat8_id                         = skill_physical_damage_%_to_convert_to_chaos
++|static_stat8_value                      = 25
++|static_stat9_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat9_value                      = 25
++|stat_text                               = Deals (27-30411) to (38-45617) Physical Damage<br>25% of Physical Damage Converted to Lightning Damage<br>Base duration is (4-2) seconds<br>Base secondary duration is 1 seconds<br>25% of Physical Damage Converted to Chaos Damage<br>25% of Physical Damage Converted to Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
++|level1_duration                         = 4
+ |level1_stat_text                        = Deals 27 to 38 Physical Damage<br>Base duration is 4 seconds
+ |level1_stat1_id                         = spell_minimum_base_physical_damage
+ |level1_stat1_value                      = 27
+@@ -40,6 +41,7 @@
+ |level1_stat3_value                      = 4000
+ |level2                                  = True
+ |level2_level_requirement                = 82
++|level2_duration                         = 4
+ |level2_stat_text                        = Deals 14755 to 21500 Physical Damage<br>Base duration is 4 seconds
+ |level2_stat1_id                         = spell_minimum_base_physical_damage
+ |level2_stat1_value                      = 14755
+@@ -49,6 +51,7 @@
+ |level2_stat3_value                      = 4000
+ |level3                                  = True
+ |level3_level_requirement                = 83
++|level3_duration                         = 4
+ |level3_stat_text                        = Deals 16812 to 25106 Physical Damage<br>Base duration is 4 seconds
+ |level3_stat1_id                         = spell_minimum_base_physical_damage
+ |level3_stat1_value                      = 16812
+@@ -58,6 +61,7 @@
+ |level3_stat3_value                      = 4000
+ |level4                                  = True
+ |level4_level_requirement                = 84
++|level4_duration                         = 4
+ |level4_stat_text                        = Deals 19069 to 28603 Physical Damage<br>Base duration is 4 seconds
+ |level4_stat1_id                         = spell_minimum_base_physical_damage
+ |level4_stat1_value                      = 19069
+@@ -67,6 +71,7 @@
+ |level4_stat3_value                      = 4000
+ |level5                                  = True
+ |level5_level_requirement                = 85
++|level5_duration                         = 2
+ |level5_stat_text                        = Deals 30411 to 45617 Physical Damage<br>Base duration is 2 seconds
+ |level5_stat1_id                         = spell_minimum_base_physical_damage
+ |level5_stat1_value                      = 30411

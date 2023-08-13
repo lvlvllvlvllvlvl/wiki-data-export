@@ -1,0 +1,18 @@
+--- Royal Meeting Room
++++ Export
+@@ -1,13 +1,13 @@
+ {{Incursion room
+ |id                      = QueensChambersI
+ |name                    = Royal Meeting Room
+-|description             = Increases the number of magic monsters throughout the Temple.
++|description             = Increases the number of magic monsters throughout the Temple. 
+ |flavour_text            = A few beguile the rank and file.
+ |tier                    = 1
+ |upgrade_room_id         = QueensChambersII
+ |icon                    = QueensChambers
+ |min_level               = 68
+-|modifier_ids            = IncursionMonsterMagicPacks1
++|modifier_ids            = IncursionMonsterMagicPacks1, IncursionTempleFlaskVialChance1
+ |architect_metadata_id   = Metadata/Monsters/VaalArchitect/VaalArchitect6
+ |architect_name          = Xipocado, Royal Architect
+ }}

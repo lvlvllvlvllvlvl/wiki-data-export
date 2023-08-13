@@ -1,0 +1,42 @@
+--- Skill:AtlasFrostboltSpaceRuckus
++++ Export
+@@ -10,23 +10,23 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_cold_damage
+-|static_stat1_value                      = 3003
+-|static_stat2_id                         = spell_maximum_base_cold_damage
+-|static_stat2_value                      = 4505
+-|static_stat3_id                         = projectile_spiral_nova_time_ms
+-|static_stat3_value                      = 1200
+-|static_stat4_id                         = base_number_of_projectiles_in_spiral_nova
+-|static_stat4_value                      = 6
+-|static_stat5_id                         = projectile_spiral_nova_angle
+-|static_stat5_value                      = 100
+-|static_stat6_id                         = always_pierce
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = projectile_spiral_nova_both_directions
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = base_is_projectile
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = projectile_spiral_nova_time_ms
++|static_stat2_value                      = 1200
++|static_stat3_id                         = spell_minimum_base_cold_damage
++|static_stat3_value                      = 3003
++|static_stat4_id                         = spell_maximum_base_cold_damage
++|static_stat4_value                      = 4505
++|static_stat5_id                         = always_pierce
++|static_stat5_value                      = 1
++|static_stat6_id                         = base_number_of_projectiles_in_spiral_nova
++|static_stat6_value                      = 6
++|static_stat7_id                         = projectile_spiral_nova_angle
++|static_stat7_value                      = 100
++|static_stat8_id                         = projectile_spiral_nova_both_directions
+ |static_stat8_value                      = 1
+-|stat_text                               = Deals 3003 to 4505 Cold Damage<br>Fires 6 Projectiles in a spiral<br>Projectiles Pierce all Targets
++|stat_text                               = Deals 3003 to 4505 Cold Damage<br>Projectiles Pierce all Targets<br>Fires 6 Projectiles in a spiral
+ |level1                                  = True
+ |level1_level_requirement                = 82
+ }}

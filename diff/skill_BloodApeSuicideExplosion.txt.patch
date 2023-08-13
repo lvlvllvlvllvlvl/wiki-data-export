@@ -1,0 +1,25 @@
+--- Skill:BloodApeSuicideExplosion
++++ Export
+@@ -7,16 +7,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = skill_physical_damage_%_to_convert_to_fire
+-|static_stat1_value                      = 50
+-|static_stat2_id                         = is_area_damage
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = skill_cannot_be_interrupted
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = skill_cannot_be_interrupted
++|static_stat3_id                         = skill_cannot_be_knocked_back
+ |static_stat3_value                      = 1
+ |static_stat4_id                         = skill_cannot_be_stunned
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = skill_cannot_be_knocked_back
+-|static_stat5_value                      = 1
++|static_stat5_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat5_value                      = 50
+ |stat_text                               = Deals (7-714) to (11-1071) Physical Damage<br>Deals (-33-80)% more Damage<br>50% of Physical Damage Converted to Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1

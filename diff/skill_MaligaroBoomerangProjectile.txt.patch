@@ -1,0 +1,38 @@
+--- Skill:MaligaroBoomerangProjectile
++++ Export
+@@ -9,23 +9,23 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 279
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 418
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_projectile_variation
++|static_stat2_value                      = 31
+ |static_stat3_id                         = monster_reverse_point_blank_damage_-%_at_minimum_range
+ |static_stat3_value                      = 30
+-|static_stat4_id                         = monster_projectile_variation
+-|static_stat4_value                      = 31
+-|static_stat5_id                         = skill_physical_damage_%_to_convert_to_chaos
+-|static_stat5_value                      = 25
++|static_stat4_id                         = spell_minimum_base_physical_damage
++|static_stat4_value                      = 279
++|static_stat5_id                         = spell_maximum_base_physical_damage
++|static_stat5_value                      = 418
+ |static_stat6_id                         = always_pierce
+ |static_stat6_value                      = 1
+-|static_stat7_id                         = projectiles_return_if_no_hit_object
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = base_is_projectile
++|static_stat7_id                         = skill_physical_damage_%_to_convert_to_chaos
++|static_stat7_value                      = 25
++|static_stat8_id                         = projectiles_return
+ |static_stat8_value                      = 1
+-|stat_text                               = Deals 279 to 418 Physical Damage<br>25% of Physical Damage Converted to Chaos Damage<br>Projectiles Pierce all Targets<br>Projectiles Return to you at end of flight
++|stat_text                               = Deals 279 to 418 Physical Damage<br>Projectiles Pierce all Targets<br>25% of Physical Damage Converted to Chaos Damage<br>Projectiles Return to you
+ |level1                                  = True
+ |level1_level_requirement                = 64
+ }}

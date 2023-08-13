@@ -1,0 +1,43 @@
+--- Skill:TemplarSlaveDriverBossStormBurst
++++ Export
+@@ -10,23 +10,23 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 2
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 3
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = -75
+-|static_stat4_id                         = base_projectile_speed_+%
+-|static_stat4_value                      = -40
+-|static_stat5_id                         = base_cast_speed_+%
+-|static_stat5_value                      = -80
+-|static_stat6_id                         = active_skill_area_damage_+%_final
+-|static_stat6_value                      = 300
+-|static_stat7_id                         = base_is_projectile
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = projectile_uses_contact_position
+-|static_stat8_value                      = 1
+-|stat_text                               = Deals 2 to 3 Lightning Damage<br>40% reduced Projectile Speed<br>80% reduced Cast Speed<br>300% more Area Damage
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -75
++|static_stat2_id                         = base_is_projectile
++|static_stat2_value                      = 1
++|static_stat3_id                         = projectile_uses_contact_position
++|static_stat3_value                      = 1
++|static_stat4_id                         = spell_minimum_base_lightning_damage
++|static_stat4_value                      = 2
++|static_stat5_id                         = spell_maximum_base_lightning_damage
++|static_stat5_value                      = 3
++|static_stat6_id                         = base_cast_speed_+%
++|static_stat6_value                      = -80
++|static_stat7_id                         = base_projectile_speed_+%
++|static_stat7_value                      = -40
++|static_stat8_id                         = active_skill_area_damage_+%_final
++|static_stat8_value                      = 300
++|stat_text                               = Deals 2 to 3 Lightning Damage<br>80% reduced Cast Speed<br>40% reduced Projectile Speed<br>300% more Area Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

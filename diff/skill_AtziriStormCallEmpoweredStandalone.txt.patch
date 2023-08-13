@@ -1,0 +1,29 @@
+--- Skill:AtziriStormCallEmpoweredStandalone
++++ Export
+@@ -9,13 +9,14 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat1_value                      = -25
+-|static_stat2_id                         = is_area_damage
+-|static_stat2_value                      = 1
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat2_value                      = -25
+ |stat_text                               = Deals (5787-10813) to (17362-32438) Lightning Damage<br>Base duration is (3-2.5) seconds<br>(0-6)% more Cast Speed
+ |level1                                  = True
+ |level1_level_requirement                = 70
++|level1_duration                         = 3
+ |level1_stat_text                        = Deals 5787 to 17362 Lightning Damage<br>Base duration is 3 seconds
+ |level1_stat1_id                         = spell_minimum_base_lightning_damage
+ |level1_stat1_value                      = 5787
+@@ -25,6 +26,7 @@
+ |level1_stat3_value                      = 3000
+ |level2                                  = True
+ |level2_level_requirement                = 80
++|level2_duration                         = 2.5
+ |level2_stat_text                        = Deals 10813 to 32438 Lightning Damage<br>Base duration is 2.5 seconds<br>6% more Cast Speed
+ |level2_stat1_id                         = spell_minimum_base_lightning_damage
+ |level2_stat1_value                      = 10813

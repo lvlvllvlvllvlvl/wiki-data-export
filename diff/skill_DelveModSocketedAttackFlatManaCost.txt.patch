@@ -1,0 +1,24 @@
+--- Skill:DelveModSocketedAttackFlatManaCost
++++ Export
+@@ -2,10 +2,11 @@
+ |skill_id                                = DelveModSocketedAttackFlatManaCost
+ |support_gem_letter                      = d
+ |required_level                          = 0
++|static_cost_multiplier                  = 100
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|stat_text                               = -(15-20) to Total Mana Cost of Skills<br>Avoid Interruption from Stuns While Using Supported Skills
++|stat_text                               = -(15-20) to Total Mana Cost of Skills<br>Ignore Stuns while Using Supported Skills
+ |level1                                  = True
+ |level1_level_requirement                = 0
+ |level1_stat_text                        = -15 to Total Mana Cost of Skills
+@@ -13,7 +14,7 @@
+ |level1_stat1_value                      = -15
+ |level2                                  = True
+ |level2_level_requirement                = 0
+-|level2_stat_text                        = -20 to Total Mana Cost of Skills<br>Avoid Interruption from Stuns While Using Supported Skills
++|level2_stat_text                        = -20 to Total Mana Cost of Skills<br>Ignore Stuns while Using Supported Skills
+ |level2_stat1_id                         = skill_mana_cost_+
+ |level2_stat1_value                      = -20
+ |level2_stat2_id                         = avoid_interruption_while_using_this_skill_%

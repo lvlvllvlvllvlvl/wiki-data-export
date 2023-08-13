@@ -1,0 +1,43 @@
+--- Skill:WestGlacialCascadeDaemon
++++ Export
+@@ -9,23 +9,23 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 205
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 315
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = -8
+-|static_stat4_id                         = base_cast_speed_+%
+-|static_stat4_value                      = 20
+-|static_stat5_id                         = upheaval_number_of_spikes
+-|static_stat5_value                      = 16
+-|static_stat6_id                         = is_area_damage
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = spell_minimum_base_cold_damage
+-|static_stat7_value                      = 378
+-|static_stat8_id                         = spell_maximum_base_cold_damage
+-|static_stat8_value                      = 575
+-|stat_text                               = Deals 205 to 315 Physical Damage<br>20% increased Cast Speed<br>Causes 16 Bursts<br>Deals 378 to 575 Cold Damage
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -8
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_minimum_base_physical_damage
++|static_stat3_value                      = 205
++|static_stat4_id                         = spell_maximum_base_physical_damage
++|static_stat4_value                      = 315
++|static_stat5_id                         = spell_minimum_base_cold_damage
++|static_stat5_value                      = 378
++|static_stat6_id                         = spell_maximum_base_cold_damage
++|static_stat6_value                      = 575
++|static_stat7_id                         = base_cast_speed_+%
++|static_stat7_value                      = 20
++|static_stat8_id                         = upheaval_number_of_spikes
++|static_stat8_value                      = 16
++|stat_text                               = Deals 205 to 315 Physical Damage<br>Deals 378 to 575 Cold Damage<br>20% increased Cast Speed<br>Causes 16 Bursts
+ |level1                                  = True
+ |level1_level_requirement                = 79
+ }}

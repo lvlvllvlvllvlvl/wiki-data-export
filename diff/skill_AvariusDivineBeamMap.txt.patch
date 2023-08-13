@@ -1,0 +1,36 @@
+--- Skill:AvariusDivineBeamMap
++++ Export
+@@ -9,21 +9,22 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_fire_damage_to_deal_per_minute
+-|static_stat1_value                      = 389
++|static_duration                         = 5
++|static_stat1_id                         = fire_beam_prioritise_players_for_targeting
++|static_stat1_value                      = 1
+ |static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+ |static_stat2_value                      = -70
+-|static_stat3_id                         = fire_beam_length_+%
+-|static_stat3_value                      = 150
+-|static_stat4_id                         = base_secondary_skill_effect_duration
+-|static_stat4_value                      = 750
++|static_stat3_id                         = fire_damage_taken_+%
++|static_stat3_value                      = 10
++|static_stat4_id                         = base_fire_damage_to_deal_per_minute
++|static_stat4_value                      = 389
+ |static_stat5_id                         = base_skill_effect_duration
+ |static_stat5_value                      = 5000
+-|static_stat6_id                         = fire_damage_taken_+%
+-|static_stat6_value                      = 10
+-|static_stat7_id                         = fire_beam_prioritise_players_for_targeting
+-|static_stat7_value                      = 1
+-|stat_text                               = Deals 6.5 Base Fire Damage per second<br>150% increased beam length<br>Base secondary duration is 0.75 seconds<br>Base duration is 5 seconds<br>10% increased Fire Damage taken
++|static_stat6_id                         = base_secondary_skill_effect_duration
++|static_stat6_value                      = 750
++|static_stat7_id                         = fire_beam_length_+%
++|static_stat7_value                      = 150
++|stat_text                               = 10% increased Fire Damage taken<br>Deals 6.5 Base Fire Damage per second<br>Base duration is 5 seconds<br>Base secondary duration is 0.75 seconds<br>150% increased beam length
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

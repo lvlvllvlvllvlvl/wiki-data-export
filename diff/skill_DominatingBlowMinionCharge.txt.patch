@@ -1,0 +1,29 @@
+--- Skill:DominatingBlowMinionCharge
++++ Export
+@@ -12,17 +12,17 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = -40
+-|static_stat2_id                         = shield_charge_damage_+%_maximum
+-|static_stat2_value                      = 30
+-|static_stat3_id                         = base_movement_velocity_+%
+-|static_stat3_value                      = 400
++|static_stat2_id                         = ignores_proximity_shield
++|static_stat2_value                      = 1
++|static_stat3_id                         = global_cannot_crit
++|static_stat3_value                      = 1
+ |static_stat4_id                         = shield_charge_scaling_stun_threshold_reduction_+%_at_maximum_range
+ |static_stat4_value                      = 25
+-|static_stat5_id                         = global_cannot_crit
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = ignores_proximity_shield
+-|static_stat6_value                      = 1
+-|stat_text                               = 30% more Damage with Hits at Maximum Charge Distance<br>400% increased Movement Speed<br>25% increased Stun Threshold reduction on enemies at Maximum charge distance<br>Never deal Critical Strikes
++|static_stat5_id                         = shield_charge_damage_+%_maximum
++|static_stat5_value                      = 30
++|static_stat6_id                         = base_movement_velocity_+%
++|static_stat6_value                      = 400
++|stat_text                               = Never deal Critical Strikes<br>25% increased Stun Threshold reduction on enemies at Maximum charge distance<br>30% more Damage with Hits at Maximum Charge Distance<br>400% increased Movement Speed
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

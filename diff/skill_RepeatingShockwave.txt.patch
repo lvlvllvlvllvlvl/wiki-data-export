@@ -1,0 +1,42 @@
+--- Skill:RepeatingShockwave
++++ Export
+@@ -8,25 +8,25 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_chance_to_ignite_%
+-|static_stat1_value                      = 10
+-|static_stat2_id                         = spell_minimum_base_fire_damage
+-|static_stat2_value                      = 50
+-|static_stat3_id                         = spell_maximum_base_fire_damage
+-|static_stat3_value                      = 75
+-|static_stat4_id                         = cast_on_gain_skill
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = cannot_knockback
+-|static_stat5_value                      = 1
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = skill_can_add_multiple_charges_per_action
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_minimum_base_fire_damage
++|static_stat3_value                      = 50
++|static_stat4_id                         = spell_maximum_base_fire_damage
++|static_stat4_value                      = 75
++|static_stat5_id                         = base_chance_to_ignite_%
++|static_stat5_value                      = 10
+ |static_stat6_id                         = spell_uncastable_if_triggerable
+ |static_stat6_value                      = 1
+-|static_stat7_id                         = no_cost
++|static_stat7_id                         = cannot_knockback
+ |static_stat7_value                      = 1
+-|static_stat8_id                         = is_area_damage
++|static_stat8_id                         = cast_on_gain_skill
+ |static_stat8_value                      = 1
+-|static_stat9_id                         = skill_can_add_multiple_charges_per_action
++|static_stat9_id                         = no_cost
+ |static_stat9_value                      = 1
+-|stat_text                               = 10% chance to Ignite enemies<br>Deals 50 to 75 Fire Damage<br>This Spell is Triggered when Gained<br>This Skill cannot Knock Enemies Back<br>You cannot Cast this Spell directly<br>This Skill Costs nothing
++|stat_text                               = Deals 50 to 75 Fire Damage<br>10% chance to Ignite enemies<br>You cannot Cast this Spell directly<br>This Skill cannot Knock Enemies Back<br>This Spell is Triggered when Gained<br>This Skill Costs nothing
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

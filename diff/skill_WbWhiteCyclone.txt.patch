@@ -1,0 +1,67 @@
+--- Skill:WbWhiteCyclone
++++ Export
+@@ -0,0 +1,64 @@
++{{Skill
++|gem_description                         = Damage enemies around you, then perform a spinning series of attacks as you travel to a target location. Cannot be supported by Ruthless or Multistrike.
++|active_skill_name                       = Cyclone
++|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Unarmed, Warstaff, Rune Dagger
++|skill_id                                = WbWhiteCyclone
++|cast_time                               = 1.0
++|required_level                          = 10
++|static_damage_effectiveness             = 100
++|static_damage_multiplier                = 100
++|static_attack_speed_multiplier          = 100
++|static_stat1_id                         = cyclone_extra_distance
++|static_stat1_value                      = 15
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|stat_text                               = Gain (0-25)% of Physical Damage as Extra Cold Damage<br>Deals (55-70)% less Damage<br>(0-30)% increased Attack Speed<br>(12-24)% increased Physical Damage<br>(30-20)% less Movement Speed
++|level1                                  = True
++|level1_level_requirement                = 10
++|level1_stat_text                        = Deals 55% less Damage<br>12% increased Physical Damage<br>30% less Movement Speed
++|level1_stat1_id                         = active_skill_damage_+%_final
++|level1_stat1_value                      = -55
++|level1_stat2_id                         = physical_damage_+%
++|level1_stat2_value                      = 12
++|level1_stat3_id                         = cyclone_movement_speed_+%_final
++|level1_stat3_value                      = -30
++|level2                                  = True
++|level2_level_requirement                = 25
++|level2_stat_text                        = Gain 15% of Physical Damage as Extra Cold Damage<br>Deals 60% less Damage<br>10% increased Attack Speed<br>12% increased Physical Damage<br>30% less Movement Speed
++|level2_stat1_id                         = physical_damage_%_to_add_as_cold
++|level2_stat1_value                      = 15
++|level2_stat2_id                         = active_skill_damage_+%_final
++|level2_stat2_value                      = -60
++|level2_stat3_id                         = attack_speed_+%
++|level2_stat3_value                      = 10
++|level2_stat4_id                         = physical_damage_+%
++|level2_stat4_value                      = 12
++|level2_stat5_id                         = cyclone_movement_speed_+%_final
++|level2_stat5_value                      = -30
++|level3                                  = True
++|level3_level_requirement                = 40
++|level3_stat_text                        = Gain 20% of Physical Damage as Extra Cold Damage<br>Deals 65% less Damage<br>15% increased Attack Speed<br>24% increased Physical Damage<br>20% less Movement Speed
++|level3_stat1_id                         = physical_damage_%_to_add_as_cold
++|level3_stat1_value                      = 20
++|level3_stat2_id                         = active_skill_damage_+%_final
++|level3_stat2_value                      = -65
++|level3_stat3_id                         = attack_speed_+%
++|level3_stat3_value                      = 15
++|level3_stat4_id                         = physical_damage_+%
++|level3_stat4_value                      = 24
++|level3_stat5_id                         = cyclone_movement_speed_+%_final
++|level3_stat5_value                      = -20
++|level4                                  = True
++|level4_level_requirement                = 60
++|level4_stat_text                        = Gain 25% of Physical Damage as Extra Cold Damage<br>Deals 70% less Damage<br>30% increased Attack Speed<br>24% increased Physical Damage<br>20% less Movement Speed
++|level4_stat1_id                         = physical_damage_%_to_add_as_cold
++|level4_stat1_value                      = 25
++|level4_stat2_id                         = active_skill_damage_+%_final
++|level4_stat2_value                      = -70
++|level4_stat3_id                         = attack_speed_+%
++|level4_stat3_value                      = 30
++|level4_stat4_id                         = physical_damage_+%
++|level4_stat4_value                      = 24
++|level4_stat5_id                         = cyclone_movement_speed_+%_final
++|level4_stat5_value                      = -20
++}}

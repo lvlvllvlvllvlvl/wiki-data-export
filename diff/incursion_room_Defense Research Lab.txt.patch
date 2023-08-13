@@ -1,0 +1,16 @@
+--- Defense Research Lab
++++ Export
+@@ -1,11 +1,11 @@
+ {{Incursion room
+ |id                      = TrapRoomIII
+ |name                    = Defense Research Lab
+-|description             = Monsters throughout the Temple have increased area of effect.<br/>Adds traps throughout the Temple.<br />Contains a valuable item.
++|description             = Monsters throughout the Temple have increased area of effect.<br />Adds traps throughout the Temple.<br />Contains a valuable item.
+ |flavour_text            = Whirring blades and barricades.
+ |tier                    = 3
+ |icon                    = TrapRoom3
+-|modifier_ids            = IncursionMonsterAreaOfEffect3
++|modifier_ids            = IncursionMonsterAreaOfEffect3, IncursionTempleRoomBonus3, IncursionTempleTrapVialChance3
+ |architect_metadata_id   = Metadata/Monsters/VaalArchitect/VaalArchitect4
+ |architect_name          = Matatl, Architect of Fortifications
+ }}

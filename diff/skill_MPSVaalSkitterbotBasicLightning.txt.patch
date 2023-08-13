@@ -1,0 +1,35 @@
+--- Skill:MPSVaalSkitterbotBasicLightning
++++ Export
+@@ -9,20 +9,20 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 10
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 15
+-|static_stat3_id                         = monster_projectile_variation
+-|static_stat3_value                      = 181
+-|static_stat4_id                         = base_is_projectile
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_projectile_variation
++|static_stat2_value                      = 181
++|static_stat3_id                         = projectile_uses_contact_direction
++|static_stat3_value                      = 1
++|static_stat4_id                         = projectile_uses_contact_position
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = projectile_uses_contact_position
++|static_stat5_id                         = use_scaled_contact_offset
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = use_scaled_contact_offset
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = projectile_uses_contact_direction
+-|static_stat7_value                      = 1
++|static_stat6_id                         = spell_minimum_base_lightning_damage
++|static_stat6_value                      = 10
++|static_stat7_id                         = spell_maximum_base_lightning_damage
++|static_stat7_value                      = 15
+ |stat_text                               = Deals 10 to 15 Lightning Damage
+ |level1                                  = True
+ |level1_level_requirement                = 0

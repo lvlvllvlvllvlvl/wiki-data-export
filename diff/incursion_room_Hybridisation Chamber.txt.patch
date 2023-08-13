@@ -1,0 +1,16 @@
+--- Hybridisation Chamber
++++ Export
+@@ -1,11 +1,11 @@
+ {{Incursion room
+ |id                      = BossMinionsIII
+ |name                    = Hybridisation Chamber
+-|description             = Increases monster damage throughout the Temple.<br/>Adds additional Minion monster packs throughout the Temple.<br/>Augments the Omnitect with minions.<br />Contains a valuable item.
++|description             = Increases monster damage throughout the Temple.<br />Adds additional Minion monster packs throughout the Temple.<br />Augments the Omnitect with minions.<br />Contains a valuable item.
+ |flavour_text            = Caught between meat and machine.
+ |tier                    = 3
+ |icon                    = BossMinionRoom3
+-|modifier_ids            = IncursionMonsterDamageMap3
++|modifier_ids            = IncursionMonsterDamageMap3, IncursionTempleRoomBonus3, IncursionTempleMinionPacks3_, IncursionTempleMinionVialChance3
+ |architect_metadata_id   = Metadata/Monsters/VaalArchitect/VaalArchitect20
+ |architect_name          = Citaqualotl, Architect of the Swarm
+ }}

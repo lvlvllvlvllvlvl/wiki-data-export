@@ -1,0 +1,34 @@
+--- Skill:MonsterTornadoDelve
++++ Export
+@@ -7,19 +7,20 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_fire_damage
+-|static_stat1_value                      = 10
+-|static_stat2_id                         = spell_maximum_base_fire_damage
+-|static_stat2_value                      = 13
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = -50
+-|static_stat4_id                         = base_skill_area_of_effect_+%
+-|static_stat4_value                      = 100
++|static_duration                         = 12
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -50
++|static_stat2_id                         = spell_minimum_base_fire_damage
++|static_stat2_value                      = 10
++|static_stat3_id                         = spell_maximum_base_fire_damage
++|static_stat3_value                      = 13
++|static_stat4_id                         = cannot_stun
++|static_stat4_value                      = 1
+ |static_stat5_id                         = base_skill_effect_duration
+ |static_stat5_value                      = 12000
+-|static_stat6_id                         = cannot_stun
+-|static_stat6_value                      = 1
+-|stat_text                               = Deals 10 to 13 Fire Damage<br>100% increased Area of Effect<br>Base duration is 12 seconds<br>Your Hits cannot Stun Enemies
++|static_stat6_id                         = base_skill_area_of_effect_+%
++|static_stat6_value                      = 100
++|stat_text                               = Deals 10 to 13 Fire Damage<br>Your Hits cannot Stun Enemies<br>Base duration is 12 seconds<br>100% increased Area of Effect
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

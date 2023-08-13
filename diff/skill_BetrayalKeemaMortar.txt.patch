@@ -1,0 +1,33 @@
+--- Skill:BetrayalKeemaMortar
++++ Export
+@@ -7,21 +7,21 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = number_of_projectiles_override
++|static_stat1_id                         = base_is_projectile
+ |static_stat1_value                      = 1
+-|static_stat2_id                         = projectile_spread_radius
+-|static_stat2_value                      = 12
+-|static_stat3_id                         = cannot_stun
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = number_of_projectiles_override
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = is_area_damage
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = base_is_projectile
++|static_stat4_id                         = projectile_spread_radius
++|static_stat4_value                      = 12
++|static_stat5_id                         = projectile_uses_contact_direction
+ |static_stat5_value                      = 1
+ |static_stat6_id                         = projectile_uses_contact_position
+ |static_stat6_value                      = 1
+-|static_stat7_id                         = projectile_uses_contact_direction
++|static_stat7_id                         = cannot_stun
+ |static_stat7_value                      = 1
+-|stat_text                               = Deals (2-493) to (3-740) Fire Damage<br>Deals (65-0)% less Damage<br>Your Hits cannot Stun Enemies
++|stat_text                               = Deals (2-493) to (3-740) Fire Damage<br>Your Hits cannot Stun Enemies<br>Deals (65-0)% less Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_stat_text                        = Deals 2 to 3 Fire Damage<br>Deals 65% less Damage

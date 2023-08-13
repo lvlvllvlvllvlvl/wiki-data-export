@@ -1,0 +1,40 @@
+--- Skill:BetrayalToraDashArrow
++++ Export
+@@ -7,25 +7,25 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 60
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = number_of_projectiles_override
++|static_stat1_id                         = base_is_projectile
+ |static_stat1_value                      = 1
+ |static_stat2_id                         = monster_projectile_variation
+ |static_stat2_value                      = 47
+-|static_stat3_id                         = active_skill_attack_speed_+%_final
+-|static_stat3_value                      = -50
+-|static_stat4_id                         = skill_physical_damage_%_to_convert_to_chaos
+-|static_stat4_value                      = 20
+-|static_stat5_id                         = always_pierce
++|static_stat3_id                         = number_of_projectiles_override
++|static_stat3_value                      = 1
++|static_stat4_id                         = projectile_uses_contact_position
++|static_stat4_value                      = 1
++|static_stat5_id                         = visual_hit_effect_chaos_is_green
+ |static_stat5_value                      = 1
+ |static_stat6_id                         = cannot_stun
+ |static_stat6_value                      = 1
+-|static_stat7_id                         = base_is_projectile
++|static_stat7_id                         = always_pierce
+ |static_stat7_value                      = 1
+-|static_stat8_id                         = projectile_uses_contact_position
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = visual_hit_effect_chaos_is_green
+-|static_stat9_value                      = 1
+-|stat_text                               = 50% less Attack Speed<br>20% of Physical Damage Converted to Chaos Damage<br>Projectiles Pierce all Targets<br>Your Hits cannot Stun Enemies
++|static_stat8_id                         = skill_physical_damage_%_to_convert_to_chaos
++|static_stat8_value                      = 20
++|static_stat9_id                         = active_skill_attack_speed_+%_final
++|static_stat9_value                      = -50
++|stat_text                               = Your Hits cannot Stun Enemies<br>Projectiles Pierce all Targets<br>20% of Physical Damage Converted to Chaos Damage<br>50% less Attack Speed
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

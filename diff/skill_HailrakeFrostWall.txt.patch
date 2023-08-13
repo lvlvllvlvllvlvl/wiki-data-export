@@ -1,0 +1,26 @@
+--- Skill:HailrakeFrostWall
++++ Export
+@@ -10,17 +10,18 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 2.5
+ |static_stat1_id                         = spell_minimum_base_cold_damage
+ |static_stat1_value                      = 1
+ |static_stat2_id                         = spell_maximum_base_cold_damage
+ |static_stat2_value                      = 2
+-|static_stat3_id                         = wall_maximum_length
+-|static_stat3_value                      = 24
++|static_stat3_id                         = base_skill_effect_duration
++|static_stat3_value                      = 2500
+ |static_stat4_id                         = wall_expand_delay_ms
+ |static_stat4_value                      = 150
+-|static_stat5_id                         = base_skill_effect_duration
+-|static_stat5_value                      = 2500
+-|stat_text                               = Deals 1 to 2 Cold Damage<br>Wall will be 24 units long<br>0.15 seconds between appearance of Wall sections<br>Base duration is 2.5 seconds
++|static_stat5_id                         = wall_maximum_length
++|static_stat5_value                      = 24
++|stat_text                               = Deals 1 to 2 Cold Damage<br>Base duration is 2.5 seconds<br>0.15 seconds between appearance of Wall sections<br>Wall will be 24 units long
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

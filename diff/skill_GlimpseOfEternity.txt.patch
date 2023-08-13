@@ -1,0 +1,24 @@
+--- Skill:GlimpseOfEternity
++++ Export
+@@ -9,13 +9,14 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = action_speed_-%
+-|static_stat1_value                      = 40
+-|static_stat2_id                         = base_skill_effect_duration
+-|static_stat2_value                      = 10000
+-|static_stat3_id                         = cast_when_hit_%
+-|static_stat3_value                      = 100
+-|stat_text                               = Enemies have 40% reduced Action Speed<br>Base duration is 10 seconds<br>Trigger this Spell when you're Hit
++|static_duration                         = 10
++|static_stat1_id                         = base_skill_effect_duration
++|static_stat1_value                      = 10000
++|static_stat2_id                         = cast_when_hit_%
++|static_stat2_value                      = 100
++|static_stat3_id                         = action_speed_-%
++|static_stat3_value                      = 40
++|stat_text                               = Base duration is 10 seconds<br>Trigger this Spell when you're Hit<br>Enemies have 40% reduced Action Speed
+ |level1                                  = True
+ |level1_level_requirement                = 70
+ }}

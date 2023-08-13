@@ -1,0 +1,20 @@
+--- Monster:Metadata/Monsters/LeagueCrucible/Fire/ThraxiaBoss
++++ Export
+@@ -0,0 +1,17 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueCrucible/Fire/ThraxiaBoss
++|monster_type_id                  = CrucibleThraxiaBoss
++|mod_ids                          = MonsterCrucibleMapBoss, StunRepeatImmunityMapBoss_
++|tags                             = caster, demon, fast_movement, flesh_armour, is_unarmed, large_model, lightning_affinity, melee, non_unique_map_boss, not_int, not_str, physical_affinity, raises_dead, ranged, slashing_weapon, small_height
++|skill_ids                        = MeleeAtAnimationSpeedFireUnique, GACrucibleThraxiaComboFinalImpact, GTCrucibleThraxiaMortarBarrage, MMSCrucibleThraxiaMortar, SSMCrucibleThraxisSummonVolatile
++|name                             = Ataxia, Forged in the Fissure
++|size                             = 4
++|minimum_attack_distance          = 6
++|maximum_attack_distance          = 14
++|model_size_multiplier            = 1.25
++|experience_multiplier            = 2.0
++|damage_multiplier                = 2.5
++|health_multiplier                = 4.8
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.5
++}}

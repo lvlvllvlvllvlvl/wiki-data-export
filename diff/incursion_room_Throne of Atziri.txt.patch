@@ -1,0 +1,16 @@
+--- Throne of Atziri
++++ Export
+@@ -1,11 +1,11 @@
+ {{Incursion room
+ |id                      = QueensChambersIII
+ |name                    = Throne of Atziri
+-|description             = Contains Queen Atziri.
++|description             = Increases the number of magic monsters throughout the Temple.<br />Contains Queen Atziri.
+ |flavour_text            = A vision, sublime, untouched by time.
+ |tier                    = 3
+ |icon                    = QueensChambers3
+-|modifier_ids            = IncursionMonsterMagicPacks3
++|modifier_ids            = IncursionMonsterMagicPacks3, IncursionTempleFlaskVialChance3
+ |architect_metadata_id   = Metadata/Monsters/VaalArchitect/VaalArchitect6
+ |architect_name          = Xipocado, Royal Architect
+ }}

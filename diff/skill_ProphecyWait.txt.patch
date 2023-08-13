@@ -1,0 +1,28 @@
+--- Skill:ProphecyWait
++++ Export
+@@ -12,21 +12,25 @@
+ |stat_text                               = Base duration is (2.5-1.75) seconds
+ |level1                                  = True
+ |level1_level_requirement                = 10
++|level1_duration                         = 2.5
+ |level1_stat_text                        = Base duration is 2.5 seconds
+ |level1_stat1_id                         = base_skill_effect_duration
+ |level1_stat1_value                      = 2500
+ |level2                                  = True
+ |level2_level_requirement                = 30
++|level2_duration                         = 2.25
+ |level2_stat_text                        = Base duration is 2.25 seconds
+ |level2_stat1_id                         = base_skill_effect_duration
+ |level2_stat1_value                      = 2250
+ |level3                                  = True
+ |level3_level_requirement                = 50
++|level3_duration                         = 2
+ |level3_stat_text                        = Base duration is 2 seconds
+ |level3_stat1_id                         = base_skill_effect_duration
+ |level3_stat1_value                      = 2000
+ |level4                                  = True
+ |level4_level_requirement                = 70
++|level4_duration                         = 1.75
+ |level4_stat_text                        = Base duration is 1.75 seconds
+ |level4_stat1_id                         = base_skill_effect_duration
+ |level4_stat1_value                      = 1750

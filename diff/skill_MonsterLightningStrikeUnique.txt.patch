@@ -1,0 +1,39 @@
+--- Skill:MonsterLightningStrikeUnique
++++ Export
+@@ -8,21 +8,21 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 75
+-|static_stat1_id                         = total_projectile_spread_angle_override
+-|static_stat1_value                      = 70
+-|static_stat2_id                         = active_skill_damage_+%_final
+-|static_stat2_value                      = 20
+-|static_stat3_id                         = number_of_additional_projectiles
+-|static_stat3_value                      = 2
+-|static_stat4_id                         = active_skill_attack_damage_+%_final
+-|static_stat4_value                      = 30
+-|static_stat5_id                         = skill_physical_damage_%_to_convert_to_lightning
+-|static_stat5_value                      = 50
+-|static_stat6_id                         = action_attack_or_cast_time_uses_animation_length
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = show_number_of_projectiles
+-|static_stat7_value                      = 1
+-|stat_text                               = (7-21)% increased Physical Damage<br>Deals 20% more Damage<br>Fires 2 additional Projectiles<br>Deals 30% more Attack Damage<br>50% of Physical Damage Converted to Lightning Damage
++|static_stat1_id                         = action_attack_or_cast_time_uses_animation_length
++|static_stat1_value                      = 1
++|static_stat2_id                         = show_number_of_projectiles
++|static_stat2_value                      = 1
++|static_stat3_id                         = total_projectile_spread_angle_override
++|static_stat3_value                      = 70
++|static_stat4_id                         = skill_physical_damage_%_to_convert_to_lightning
++|static_stat4_value                      = 50
++|static_stat5_id                         = active_skill_attack_damage_+%_final
++|static_stat5_value                      = 30
++|static_stat6_id                         = active_skill_damage_+%_final
++|static_stat6_value                      = 20
++|static_stat7_id                         = number_of_additional_projectiles
++|static_stat7_value                      = 2
++|stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>Deals 30% more Attack Damage<br>Deals 20% more Damage<br>Fires 2 additional Projectiles<br>(7-21)% increased Physical Damage
+ |level1                                  = True
+ |level1_level_requirement                = 4
+ |level1_stat_text                        = 7% increased Physical Damage

@@ -1,0 +1,21 @@
+--- Area:MapWorldsFrozenCabins
++++ Export
+@@ -4,16 +4,15 @@
+ |act                              = 11
+ |area_level                       = 69
+ |area_type_tags                   = cave
+-|tags                             = map, no_echo, einharmaps, snow_area
++|tags                             = map, no_echo, einharmaps, snow_area, aqueduct_area
+ |loading_screen                   = Maps
+ |parent_area_id                   = 2_11_endgame_town
+ |boss_monster_ids                 = Metadata/Monsters/Skeletons/Pirate/BrutalPirateLordBoss
+ |entry_text                       = Icy fangs seek tender hulls to sink themselves into.
+ |entry_npc                        = The Shaper
+-|vaal_area_spawn_chance           = 8
+ |vaal_area_ids                    = MapSideAreaIceValley
+ |is_map_area                      = True
+-|flavour_text                     = The fleet lay stranded in the winter wastes,
++|flavour_text                     = The fleet lay stranded in the winter wastes,
+ those aboard to never again see the light of day.
+ |main_page                        = Frozen Cabins Map
+ }}

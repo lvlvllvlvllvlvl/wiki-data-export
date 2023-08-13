@@ -1,0 +1,21 @@
+--- Wiki
++++ Export
+@@ -32,12 +32,12 @@
+ |static_cost_types                       = Mana
+ |static_attack_speed_multiplier          = 120
+ |static_duration                         = 12
+-|static_stat1_id                         = projectile_speed_variation_+%
+-|static_stat1_value                      = 15
+-|static_stat2_id                         = snapping_adder_maximum_projectiles_released
+-|static_stat2_value                      = 30
+-|static_stat3_id                         = base_is_projectile
+-|static_stat3_value                      = 1
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = projectile_speed_variation_+%
++|static_stat2_value                      = 15
++|static_stat3_id                         = snapping_adder_maximum_projectiles_released
++|static_stat3_value                      = 30
+ |static_stat4_id                         = visual_hit_effect_chaos_is_green
+ |static_stat4_value                      = 1
+ |static_stat5_id                         = base_skill_effect_duration

@@ -1,0 +1,45 @@
+--- Skill:AfflictionDemonFlurryProjectileFireSmall
++++ Export
+@@ -8,25 +8,25 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_fire_damage
+-|static_stat1_value                      = 8
+-|static_stat2_id                         = spell_maximum_base_fire_damage
+-|static_stat2_value                      = 12
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_projectile_variation
++|static_stat2_value                      = 135
+ |static_stat3_id                         = projectile_spread_radius
+ |static_stat3_value                      = 25
+-|static_stat4_id                         = monster_projectile_variation
+-|static_stat4_value                      = 135
+-|static_stat5_id                         = number_of_additional_projectiles
+-|static_stat5_value                      = 2
+-|static_stat6_id                         = base_chance_to_ignite_%
+-|static_stat6_value                      = 50
+-|static_stat7_id                         = base_is_projectile
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = projectile_uses_contact_position
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = use_scaled_contact_offset
+-|static_stat9_value                      = 1
+-|stat_text                               = Deals 8 to 12 Fire Damage<br>Fires 2 additional Projectiles<br>50% chance to Ignite enemies
++|static_stat4_id                         = projectile_uses_contact_position
++|static_stat4_value                      = 1
++|static_stat5_id                         = use_scaled_contact_offset
++|static_stat5_value                      = 1
++|static_stat6_id                         = spell_minimum_base_fire_damage
++|static_stat6_value                      = 8
++|static_stat7_id                         = spell_maximum_base_fire_damage
++|static_stat7_value                      = 12
++|static_stat8_id                         = base_chance_to_ignite_%
++|static_stat8_value                      = 50
++|static_stat9_id                         = number_of_additional_projectiles
++|static_stat9_value                      = 2
++|stat_text                               = Deals 8 to 12 Fire Damage<br>50% chance to Ignite enemies<br>Fires 2 additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

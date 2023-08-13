@@ -1,0 +1,19 @@
+--- Monster:Metadata/Monsters/LeagueCrucible/Fire/CityStalkerCaster
++++ Export
+@@ -0,0 +1,16 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueCrucible/Fire/CityStalkerCaster
++|monster_type_id                  = CrucibleCityStalkerCaster
++|tags                             = caster, demon, fast_movement, humanoid, is_unarmed, lightning_affinity, not_dex, stone_armour, undying
++|skill_ids                        = MeleeAtAnimationSpeedFire, GSCrucibleUndyingFlameBreath
++|name                             = Forged Stalker
++|size                             = 3
++|minimum_attack_distance          = 6
++|maximum_attack_distance          = 10
++|model_size_multiplier            = 1.25
++|experience_multiplier            = 1.0
++|damage_multiplier                = 1.0
++|health_multiplier                = 1.5
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.5
++}}

@@ -1,0 +1,22 @@
+--- Skill:InvisibleFireRighteousFireDivine
++++ Export
+@@ -7,12 +7,13 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_fire_damage_to_deal_per_minute
+-|static_stat1_value                      = 193170
+-|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat2_value                      = 100
+-|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat3_value                      = -75
++|static_duration                         = 1.5
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = 100
++|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat2_value                      = -75
++|static_stat3_id                         = base_fire_damage_to_deal_per_minute
++|static_stat3_value                      = 193170
+ |static_stat4_id                         = base_skill_effect_duration
+ |static_stat4_value                      = 1500
+ |stat_text                               = Deals 3219.5 Base Fire Damage per second<br>Base duration is 1.5 seconds

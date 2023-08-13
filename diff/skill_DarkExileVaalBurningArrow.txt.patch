@@ -1,0 +1,39 @@
+--- Skill:DarkExileVaalBurningArrow
++++ Export
+@@ -12,23 +12,23 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = 200
+-|static_stat2_id                         = base_projectile_speed_+%
+-|static_stat2_value                      = -90
+-|static_stat3_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat2_id                         = skill_can_fire_arrows
++|static_stat2_value                      = 1
++|static_stat3_id                         = vaal_burning_arrow_explode_on_hit
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = physical_damage_+%
+-|static_stat4_value                      = 88
+-|static_stat5_id                         = burn_damage_+%
+-|static_stat5_value                      = 20
++|static_stat4_id                         = active_skill_damage_+%_final
++|static_stat4_value                      = 100
++|static_stat5_id                         = base_projectile_speed_+%
++|static_stat5_value                      = -90
+ |static_stat6_id                         = base_chance_to_ignite_%
+ |static_stat6_value                      = 100
+-|static_stat7_id                         = active_skill_damage_+%_final
+-|static_stat7_value                      = 100
+-|static_stat8_id                         = vaal_burning_arrow_explode_on_hit
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = skill_can_fire_arrows
++|static_stat7_id                         = burn_damage_+%
++|static_stat7_value                      = 20
++|static_stat8_id                         = physical_damage_+%
++|static_stat8_value                      = 88
++|static_stat9_id                         = skill_physical_damage_%_to_convert_to_fire
+ |static_stat9_value                      = 1
+-|stat_text                               = 90% reduced Projectile Speed<br>1% of Physical Damage Converted to Fire Damage<br>88% increased Physical Damage<br>20% increased Burning Damage<br>100% chance to Ignite enemies<br>Deals 100% more Damage
++|stat_text                               = Deals 100% more Damage<br>90% reduced Projectile Speed<br>100% chance to Ignite enemies<br>20% increased Burning Damage<br>88% increased Physical Damage<br>1% of Physical Damage Converted to Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 73
+ }}

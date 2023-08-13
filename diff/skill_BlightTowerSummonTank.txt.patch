@@ -1,0 +1,32 @@
+--- Skill:BlightTowerSummonTank
++++ Export
+@@ -9,19 +9,19 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = summon_specific_monsters_radius_+%
+-|static_stat1_value                      = -90
+-|static_stat2_id                         = alternate_minion
+-|static_stat2_value                      = 405
+-|static_stat3_id                         = number_of_monsters_to_summon
++|static_stat1_id                         = alternate_minion
++|static_stat1_value                      = 405
++|static_stat2_id                         = minion_dies_when_parent_deleted
++|static_stat2_value                      = 1
++|static_stat3_id                         = minion_dies_when_parent_dies
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = summoned_monsters_are_minions
++|static_stat4_id                         = number_of_monsters_to_summon
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = summoned_monsters_no_drops_or_experience
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = minion_dies_when_parent_dies
++|static_stat5_id                         = summon_specific_monsters_radius_+%
++|static_stat5_value                      = -90
++|static_stat6_id                         = summoned_monsters_are_minions
+ |static_stat6_value                      = 1
+-|static_stat7_id                         = minion_dies_when_parent_deleted
++|static_stat7_id                         = summoned_monsters_no_drops_or_experience
+ |static_stat7_value                      = 1
+ |stat_text                               = 
+ |level1                                  = True

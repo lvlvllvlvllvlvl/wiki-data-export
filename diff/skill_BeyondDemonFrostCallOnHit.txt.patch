@@ -1,0 +1,40 @@
+--- Skill:BeyondDemonFrostCallOnHit
++++ Export
+@@ -9,15 +9,16 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = -31
+-|static_stat2_id                         = monster_cast_spell_%_on_attack_hit
+-|static_stat2_value                      = 75
+-|static_stat3_id                         = spell_uncastable_if_triggerable
+-|static_stat3_value                      = 1
+-|static_stat4_id                         = is_area_damage
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = monster_cast_spell_%_on_attack_hit
++|static_stat3_value                      = 75
++|static_stat4_id                         = spell_uncastable_if_triggerable
+ |static_stat4_value                      = 1
+ |stat_text                               = Deals (6-1030) to (9-1546) Cold Damage<br>Base duration is (2-1.5) seconds<br>You cannot Cast this Spell directly
+ |level1                                  = True
+ |level1_level_requirement                = 3
++|level1_duration                         = 2
+ |level1_stat_text                        = Deals 6 to 9 Cold Damage<br>Base duration is 2 seconds
+ |level1_stat1_id                         = spell_minimum_base_cold_damage
+ |level1_stat1_value                      = 6
+@@ -27,6 +28,7 @@
+ |level1_stat3_value                      = 2000
+ |level2                                  = True
+ |level2_level_requirement                = 51
++|level2_duration                         = 1.75
+ |level2_stat_text                        = Deals 292 to 438 Cold Damage<br>Base duration is 1.75 seconds
+ |level2_stat1_id                         = spell_minimum_base_cold_damage
+ |level2_stat1_value                      = 292
+@@ -36,6 +38,7 @@
+ |level2_stat3_value                      = 1750
+ |level3                                  = True
+ |level3_level_requirement                = 71
++|level3_duration                         = 1.5
+ |level3_stat_text                        = Deals 1030 to 1546 Cold Damage<br>Base duration is 1.5 seconds
+ |level3_stat1_id                         = spell_minimum_base_cold_damage
+ |level3_stat1_value                      = 1030

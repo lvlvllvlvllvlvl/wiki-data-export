@@ -1,0 +1,29 @@
+--- Skill:MonsterSwordElementalSpear
++++ Export
+@@ -9,16 +9,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_cold_damage
+-|static_stat1_value                      = 6
+-|static_stat2_id                         = spell_maximum_base_cold_damage
+-|static_stat2_value                      = 9
+-|static_stat3_id                         = monster_projectile_variation
+-|static_stat3_value                      = 2
+-|static_stat4_id                         = monster_reverse_point_blank_damage_-%_at_minimum_range
+-|static_stat4_value                      = 25
+-|static_stat5_id                         = base_is_projectile
+-|static_stat5_value                      = 1
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_projectile_variation
++|static_stat2_value                      = 2
++|static_stat3_id                         = monster_reverse_point_blank_damage_-%_at_minimum_range
++|static_stat3_value                      = 25
++|static_stat4_id                         = spell_minimum_base_cold_damage
++|static_stat4_value                      = 6
++|static_stat5_id                         = spell_maximum_base_cold_damage
++|static_stat5_value                      = 9
+ |stat_text                               = Deals 6 to 9 Cold Damage
+ |level1                                  = True
+ |level1_level_requirement                = 3

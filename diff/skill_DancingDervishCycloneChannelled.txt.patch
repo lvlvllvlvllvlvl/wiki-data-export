@@ -1,0 +1,38 @@
+--- Skill:DancingDervishCycloneChannelled
++++ Export
+@@ -8,21 +8,21 @@
+ |static_damage_effectiveness             = 65
+ |static_damage_multiplier                = 65
+ |static_attack_speed_multiplier          = 300
+-|static_stat1_id                         = cyclone_area_of_effect_+%_per_additional_melee_range
+-|static_stat1_value                      = 8
+-|static_stat2_id                         = cyclone_max_number_of_stages
+-|static_stat2_value                      = 6
+-|static_stat3_id                         = cyclone_stage_decay_time_ms
+-|static_stat3_value                      = 330
+-|static_stat4_id                         = cyclone_melee_weapon_range_+_per_stage
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = cyclone_gain_stage_every_x_ms_while_channelling
+-|static_stat5_value                      = 170
+-|static_stat6_id                         = is_area_damage
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = skill_can_add_multiple_charges_per_action
++|static_stat2_value                      = 1
++|static_stat3_id                         = cyclone_area_of_effect_+%_per_additional_melee_range
++|static_stat3_value                      = 8
++|static_stat4_id                         = cyclone_gain_stage_every_x_ms_while_channelling
++|static_stat4_value                      = 170
++|static_stat5_id                         = cyclone_max_number_of_stages
++|static_stat5_value                      = 6
++|static_stat6_id                         = cyclone_melee_weapon_range_+_per_stage
+ |static_stat6_value                      = 1
+-|static_stat7_id                         = skill_can_add_multiple_charges_per_action
+-|static_stat7_value                      = 1
+-|stat_text                               = 8% increased Area of Effect per 1 additional Melee Strike Range<br>Maximum 6 Stages<br>Lose 1 Stage every 0.33 seconds while not Channelling<br>+1 to radius per Stage<br>Gains 1 Stage every 0.17 seconds while Channelling
++|static_stat7_id                         = cyclone_stage_decay_time_ms
++|static_stat7_value                      = 330
++|stat_text                               = 8% increased Area of Effect per 1 additional Melee Strike Range<br>Gains 1 Stage every 0.17 seconds while Channelling<br>Maximum 6 Stages<br>+1 to radius per Stage<br>Lose 1 Stage every 0.33 seconds while not Channelling
+ |level1                                  = True
+ |level1_level_requirement                = 0
+ }}

@@ -1,0 +1,30 @@
+--- Skill:TalismanFrostBomb
++++ Export
+@@ -9,17 +9,18 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 4
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = 50
+-|static_stat2_id                         = life_regeneration_rate_+%
+-|static_stat2_value                      = -50
+-|static_stat3_id                         = base_secondary_skill_effect_duration
+-|static_stat3_value                      = 2000
+-|static_stat4_id                         = base_skill_effect_duration
+-|static_stat4_value                      = 4000
+-|static_stat5_id                         = is_area_damage
+-|static_stat5_value                      = 1
+-|stat_text                               = Deals (13-1301) to (19-1951) Cold Damage<br>Cold Exposure applies -(20-30)% to Cold Resistance<br>50% reduced Life Regeneration rate<br>Base secondary duration is 2 seconds<br>Base duration is 4 seconds
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = base_skill_effect_duration
++|static_stat3_value                      = 4000
++|static_stat4_id                         = base_secondary_skill_effect_duration
++|static_stat4_value                      = 2000
++|static_stat5_id                         = life_regeneration_rate_+%
++|static_stat5_value                      = -50
++|stat_text                               = Deals (13-1301) to (19-1951) Cold Damage<br>Base duration is 4 seconds<br>Base secondary duration is 2 seconds<br>50% reduced Life Regeneration rate<br>Cold Exposure applies -(20-30)% to Cold Resistance
+ |level1                                  = True
+ |level1_level_requirement                = 2
+ |level1_cooldown                         = 3

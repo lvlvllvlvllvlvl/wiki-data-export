@@ -1,0 +1,38 @@
+--- Skill:GemlingEarthquake3
++++ Export
+@@ -9,21 +9,22 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 1.75
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = -60
+-|static_stat2_id                         = active_skill_damage_+%_final
+-|static_stat2_value                      = -40
+-|static_stat3_id                         = base_secondary_skill_effect_duration
+-|static_stat3_value                      = 250
+-|static_stat4_id                         = upheaval_number_of_spikes
+-|static_stat4_value                      = 3
+-|static_stat5_id                         = quake_slam_fully_charged_explosion_damage_+%_final
+-|static_stat5_value                      = 20
+-|static_stat6_id                         = base_skill_effect_duration
+-|static_stat6_value                      = 1750
+-|static_stat7_id                         = is_area_damage
+-|static_stat7_value                      = 1
+-|stat_text                               = Deals 40% less Damage<br>Base secondary duration is 0.25 seconds<br>Causes 3 Bursts<br>Aftershock deals 20% more Damage with Hits and Ailments<br>Base duration is 1.75 seconds
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = active_skill_damage_+%_final
++|static_stat3_value                      = -40
++|static_stat4_id                         = base_skill_effect_duration
++|static_stat4_value                      = 1750
++|static_stat5_id                         = base_secondary_skill_effect_duration
++|static_stat5_value                      = 250
++|static_stat6_id                         = quake_slam_fully_charged_explosion_damage_+%_final
++|static_stat6_value                      = 20
++|static_stat7_id                         = upheaval_number_of_spikes
++|static_stat7_value                      = 3
++|stat_text                               = Deals 40% less Damage<br>Base duration is 1.75 seconds<br>Base secondary duration is 0.25 seconds<br>Aftershock deals 20% more Damage with Hits and Ailments<br>Causes 3 Bursts
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

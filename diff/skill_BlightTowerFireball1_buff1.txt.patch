@@ -1,0 +1,32 @@
+--- Skill:BlightTowerFireball1~buff1
++++ Export
+@@ -8,19 +8,19 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_fire_damage
+-|static_stat1_value                      = 3
+-|static_stat2_id                         = spell_maximum_base_fire_damage
+-|static_stat2_value                      = 5
++|static_stat1_id                         = base_deal_no_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_is_projectile
++|static_stat2_value                      = 1
+ |static_stat3_id                         = monster_projectile_variation
+ |static_stat3_value                      = 115
+-|static_stat4_id                         = always_pierce
++|static_stat4_id                         = projectile_uses_contact_position
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = base_is_projectile
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = projectile_uses_contact_position
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = base_deal_no_damage
++|static_stat5_id                         = spell_minimum_base_fire_damage
++|static_stat5_value                      = 3
++|static_stat6_id                         = spell_maximum_base_fire_damage
++|static_stat6_value                      = 5
++|static_stat7_id                         = always_pierce
+ |static_stat7_value                      = 1
+ |stat_text                               = Deals 3 to 5 Fire Damage<br>Projectiles Pierce all Targets
+ |level1                                  = True

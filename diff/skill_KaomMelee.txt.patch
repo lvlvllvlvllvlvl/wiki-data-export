@@ -1,0 +1,25 @@
+--- Skill:KaomMelee
++++ Export
+@@ -7,15 +7,15 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = faster_burn_%
+-|static_stat1_value                      = 50
+-|static_stat2_id                         = base_chance_to_ignite_%
+-|static_stat2_value                      = 20
+-|static_stat3_id                         = active_skill_damage_+%_final
+-|static_stat3_value                      = 30
++|static_stat1_id                         = active_skill_damage_+%_final
++|static_stat1_value                      = 30
++|static_stat2_id                         = faster_burn_%
++|static_stat2_value                      = 50
++|static_stat3_id                         = base_chance_to_ignite_%
++|static_stat3_value                      = 20
+ |static_stat4_id                         = skill_physical_damage_%_to_convert_to_fire
+ |static_stat4_value                      = 60
+-|stat_text                               = Ignites you inflict deal Damage 50% faster<br>20% chance to Ignite enemies<br>Deals 30% more Damage<br>60% of Physical Damage Converted to Fire Damage
++|stat_text                               = Deals 30% more Damage<br>Ignites you inflict deal Damage 50% faster<br>20% chance to Ignite enemies<br>60% of Physical Damage Converted to Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

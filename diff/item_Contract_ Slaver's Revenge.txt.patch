@@ -1,0 +1,19 @@
+--- Wiki
++++ Export
+@@ -8,13 +8,12 @@
+ |tags                                    = default
+ |metadata_id                             = Metadata/Items/Heist/QuestContracts/HeistContractQuestWhakano1
+ |inventory_icon                          = Generic NPC Quest Contract
++|is_drop_restricted                      = true
++|release_version                         = 3.12.4
+ |implicit1_text                          = {{c|default|Client:}} {{c|value|Whakano}}
+-|implicit2_text                          = {{c|default|Heist Target:}} {{c|value|Rescue Hapihapi}} 
++|implicit2_text                          = {{c|default|Heist Target:}} {{c|value|Rescue Hapihapi}}
+ |implicit3_text                          = {{c|default|Area Level:}} {{c|value|#}}
+ |implicit4_text                          = {{c|default|Requires}} {{c|value|Brute Force}} {{c|default|(Level}} {{c|value|1}}{{c|default|)}}
+-|flavour_text                            ="When you stop viewing someone as a fellow human being,<br/>there's little you won't do to forward your agenda.<br/>That is what we're dealing with."
+-|release_version                         = 3.12.4
+-|is_drop_restricted                      = true
+ }}
+ 
+ '''Contract: Slaver's Revenge''' is a [[quest]] [[contract]]. The client is [[Whakano]]. The area level of this contract is depended on the area level of the Smuggler's Caches.

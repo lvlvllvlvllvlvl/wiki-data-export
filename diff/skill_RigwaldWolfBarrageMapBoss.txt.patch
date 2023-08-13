@@ -1,0 +1,43 @@
+--- Skill:RigwaldWolfBarrageMapBoss
++++ Export
+@@ -9,25 +9,25 @@
+ |static_damage_effectiveness             = 126
+ |static_damage_multiplier                = 126
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = projectile_speed_variation_+%
+-|static_stat1_value                      = 15
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
+ |static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+ |static_stat2_value                      = -75
+ |static_stat3_id                         = monster_reverse_point_blank_damage_-%_at_minimum_range
+ |static_stat3_value                      = 25
+-|static_stat4_id                         = base_damage_taken_+%
+-|static_stat4_value                      = -50
+-|static_stat5_id                         = accuracy_rating_+%
+-|static_stat5_value                      = 200
+-|static_stat6_id                         = number_of_additional_projectiles
+-|static_stat6_value                      = 2
+-|static_stat7_id                         = active_skill_attack_speed_+%_final
+-|static_stat7_value                      = -90
+-|static_stat8_id                         = cannot_stun
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = base_is_projectile
+-|static_stat9_value                      = 1
+-|stat_text                               = 50% reduced Damage taken<br>200% increased Accuracy Rating<br>Fires 2 additional Projectiles<br>90% less Attack Speed<br>Your Hits cannot Stun Enemies
++|static_stat4_id                         = projectile_speed_variation_+%
++|static_stat4_value                      = 15
++|static_stat5_id                         = cannot_stun
++|static_stat5_value                      = 1
++|static_stat6_id                         = accuracy_rating_+%
++|static_stat6_value                      = 200
++|static_stat7_id                         = number_of_additional_projectiles
++|static_stat7_value                      = 2
++|static_stat8_id                         = active_skill_attack_speed_+%_final
++|static_stat8_value                      = -90
++|static_stat9_id                         = base_damage_taken_+%
++|static_stat9_value                      = -50
++|stat_text                               = Your Hits cannot Stun Enemies<br>200% increased Accuracy Rating<br>Fires 2 additional Projectiles<br>90% less Attack Speed<br>50% reduced Damage taken
+ |level1                                  = True
+ |level1_level_requirement                = 68
+ }}

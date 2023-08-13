@@ -1,0 +1,17 @@
+--- Skill:EssenceDaemonFireNovaRepeat
++++ Export
+@@ -9,10 +9,10 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_cast_speed_+%
+-|static_stat1_value                      = 40
+-|static_stat2_id                         = is_area_damage
+-|static_stat2_value                      = 1
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_cast_speed_+%
++|static_stat2_value                      = 40
+ |stat_text                               = Deals (7-962) to (10-1444) Fire Damage<br>Spell Repeats (2-4) times<br>40% increased Cast Speed
+ |level1                                  = True
+ |level1_level_requirement                = 4

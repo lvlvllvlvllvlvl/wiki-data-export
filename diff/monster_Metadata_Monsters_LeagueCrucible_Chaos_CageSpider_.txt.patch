@@ -1,0 +1,19 @@
+--- Monster:Metadata/Monsters/LeagueCrucible/Chaos/CageSpider~
++++ Export
+@@ -0,0 +1,16 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueCrucible/Chaos/CageSpider_
++|monster_type_id                  = CrucibleCageSpider
++|tags                             = bones, flesh_armour, is_unarmed, large_height, medium_movement, melee, not_dex, not_int, physical_affinity, skeleton, slashing_weapon
++|skill_ids                        = MeleeAtAnimationSpeedChaos, CrucibleCageSpiderCycloneTriggerProjectiles, MPSCrucibleCageSpiderChaosProjectile
++|name                             = Forged Cage Mauler
++|size                             = 3
++|minimum_attack_distance          = 7
++|maximum_attack_distance          = 12
++|model_size_multiplier            = 1.0
++|experience_multiplier            = 1.6
++|damage_multiplier                = 1.09
++|health_multiplier                = 3.2
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.755
++}}

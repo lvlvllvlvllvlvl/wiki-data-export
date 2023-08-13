@@ -1,0 +1,29 @@
+--- Wiki
++++ Export
+@@ -37,12 +37,12 @@
+ |quality_type4_stat1_value               = 1000
+ |static_cost_types                       = Mana
+ |static_attack_speed_multiplier          = 50
+-|static_stat1_id                         = base_totem_range
+-|static_stat1_value                      = 80
+-|static_stat2_id                         = base_is_projectile
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_skill_is_totemified
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = base_skill_is_totemified
+-|static_stat3_value                      = 1
++|static_stat3_id                         = base_totem_range
++|static_stat3_value                      = 80
+ |static_stat4_id                         = skill_can_fire_arrows
+ |static_stat4_value                      = 1
+ |static_stat5_id                         = base_totem_duration
+@@ -55,8 +55,6 @@
+ |level1                                  = True
+ |level1_level_requirement                = 12
+ |level1_cost_amounts                     = 6
+-|level1_damage_effectiveness             = 100
+-|level1_damage_multiplier                = 100
+ |level1_stat_text                        = Arrows Pierce 6 additional Targets<br>+2 to maximum number of Summoned Totems
+ |level1_stat1_id                         = arrow_base_number_of_targets_to_pierce
+ |level1_stat1_value                      = 6

@@ -1,0 +1,17 @@
+--- Omnitect Reactor Plant
++++ Export
+@@ -1,12 +1,12 @@
+ {{Incursion room
+ |id                      = BossLightningII
+ |name                    = Omnitect Reactor Plant
+-|description             = Monsters throughout the Temple have additional lightning damage.<br/>Adds additional Lightning monster packs throughout the Temple<br/>Augments the Omnitect with lightning.
++|description             = Monsters throughout the Temple have additional lightning damage.<br />Adds additional Lightning monster packs throughout the Temple.<br />Augments the Omnitect with lightning.
+ |flavour_text            = Power flows to where no man goes.
+ |tier                    = 2
+ |upgrade_room_id         = BossLightningIII
+ |icon                    = BossLightningRoom2
+-|modifier_ids            = IncursionMonsterAddedAsLightning2
++|modifier_ids            = IncursionMonsterAddedAsLightning2, IncursionTempleRoomBonus2_, IncursionTempleLightningPacks2, IncursionTempleLightningVialChance2_
+ |architect_metadata_id   = Metadata/Monsters/VaalArchitect/VaalArchitect22
+ |architect_name          = Xopec, Architect of Power
+ }}

@@ -1,0 +1,24 @@
+--- Skill:MavenMapQuickGuardAlly
++++ Export
+@@ -9,13 +9,14 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_skill_effect_duration
+-|static_stat1_value                      = 3000
+-|static_stat2_id                         = quick_guard_damage_absorbed_%
+-|static_stat2_value                      = 75
+-|static_stat3_id                         = base_deal_no_damage
+-|static_stat3_value                      = 1
+-|stat_text                               = 0% of Damage from Hits is taken from the Buff before Life or Energy Shield<br>Buff can take (180-2895236) Damage<br>Base duration is 3 seconds<br>75% of Damage from Hits is taken from the Buff before Life or Energy Shield<br>Buff can take 0 Damage
++|static_duration                         = 3
++|static_stat1_id                         = base_deal_no_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_skill_effect_duration
++|static_stat2_value                      = 3000
++|static_stat3_id                         = quick_guard_damage_absorbed_%
++|static_stat3_value                      = 75
++|stat_text                               = Base duration is 3 seconds<br>0% of Damage from Hits is taken from the Buff before Life or Energy Shield<br>Buff can take (180-2895236) Damage<br>75% of Damage from Hits is taken from the Buff before Life or Energy Shield<br>Buff can take 0 Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_stat_text                        = 0% of Damage from Hits is taken from the Buff before Life or Energy Shield<br>Buff can take 180 Damage

@@ -1,0 +1,28 @@
+--- Skill:MeleeAtAnimationSpeedSanctumGuard
++++ Export
+@@ -0,0 +1,25 @@
++{{Skill
++|gem_description                         = Strike your foes down with a powerful blow.
++|active_skill_name                       = Default Attack
++|skill_id                                = MeleeAtAnimationSpeedSanctumGuard
++|cast_time                               = 1.0
++|required_level                          = 1
++|static_damage_effectiveness             = 100
++|static_damage_multiplier                = 100
++|static_attack_speed_multiplier          = 60
++|static_stat1_id                         = action_attack_or_cast_time_uses_animation_length
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_sanctum_damage
++|static_stat2_value                      = 15
++|static_stat3_id                         = projectile_uses_contact_position
++|static_stat3_value                      = 1
++|static_stat4_id                         = skill_can_fire_arrows
++|static_stat4_value                      = 1
++|static_stat5_id                         = skill_can_fire_wand_projectiles
++|static_stat5_value                      = 1
++|static_stat6_id                         = use_scaled_contact_offset
++|static_stat6_value                      = 1
++|stat_text                               = 
++|level1                                  = True
++|level1_level_requirement                = 1
++}}

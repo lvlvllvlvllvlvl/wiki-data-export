@@ -1,0 +1,35 @@
+--- Skill:HarvestRhexTailBolt
++++ Export
+@@ -9,19 +9,19 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 180
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_maximum_action_distance_+%
+-|static_stat1_value                      = -20
+-|static_stat2_id                         = monster_projectile_variation
+-|static_stat2_value                      = 109
+-|static_stat3_id                         = active_skill_attack_speed_+%_final
+-|static_stat3_value                      = -38
+-|static_stat4_id                         = skill_physical_damage_%_to_convert_to_lightning
+-|static_stat4_value                      = 50
+-|static_stat5_id                         = use_scaled_contact_offset
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = projectile_uses_contact_position
+-|static_stat6_value                      = 1
+-|stat_text                               = Deals (0-150)% more Damage<br>38% less Attack Speed<br>50% of Physical Damage Converted to Lightning Damage
++|static_stat1_id                         = monster_projectile_variation
++|static_stat1_value                      = 109
++|static_stat2_id                         = projectile_uses_contact_position
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_maximum_action_distance_+%
++|static_stat3_value                      = -20
++|static_stat4_id                         = use_scaled_contact_offset
++|static_stat4_value                      = 1
++|static_stat5_id                         = skill_physical_damage_%_to_convert_to_lightning
++|static_stat5_value                      = 50
++|static_stat6_id                         = active_skill_attack_speed_+%_final
++|static_stat6_value                      = -38
++|stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>Deals (0-150)% more Damage<br>38% less Attack Speed
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level2                                  = True

@@ -1,0 +1,39 @@
+--- Skill:ProphecyOversoulFreezingPulse
++++ Export
+@@ -8,21 +8,21 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_cold_damage
+-|static_stat1_value                      = 9
+-|static_stat2_id                         = spell_maximum_base_cold_damage
+-|static_stat2_value                      = 13
+-|static_stat3_id                         = skill_repeat_count
+-|static_stat3_value                      = 2
+-|static_stat4_id                         = base_cast_speed_+%
+-|static_stat4_value                      = -30
+-|static_stat5_id                         = base_projectile_speed_+%
+-|static_stat5_value                      = 120
+-|static_stat6_id                         = always_pierce
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = base_is_projectile
+-|static_stat7_value                      = 1
+-|stat_text                               = Deals 9 to 13 Cold Damage<br>Skills Repeat an additional 2 Times<br>30% reduced Cast Speed<br>120% increased Projectile Speed<br>Projectiles Pierce all Targets
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_minimum_base_cold_damage
++|static_stat2_value                      = 9
++|static_stat3_id                         = spell_maximum_base_cold_damage
++|static_stat3_value                      = 13
++|static_stat4_id                         = skill_repeat_count
++|static_stat4_value                      = 2
++|static_stat5_id                         = always_pierce
++|static_stat5_value                      = 1
++|static_stat6_id                         = base_cast_speed_+%
++|static_stat6_value                      = -30
++|static_stat7_id                         = base_projectile_speed_+%
++|static_stat7_value                      = 120
++|stat_text                               = Deals 9 to 13 Cold Damage<br>Skills Repeat an additional 2 Times<br>Projectiles Pierce all Targets<br>30% reduced Cast Speed<br>120% increased Projectile Speed
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ }}

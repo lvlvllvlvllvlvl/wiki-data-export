@@ -1,0 +1,32 @@
+--- Skill:GAHeistTemplarShieldBashMiniboss
++++ Export
+@@ -11,19 +11,19 @@
+ |static_stat1_value                      = 100
+ |static_stat2_id                         = base_knockback_speed_+%
+ |static_stat2_value                      = 100
+-|static_stat3_id                         = knockback_distance_+%
+-|static_stat3_value                      = 100
+-|static_stat4_id                         = skill_physical_damage_%_to_convert_to_fire
+-|static_stat4_value                      = 50
++|static_stat3_id                         = cast_time_overrides_attack_duration
++|static_stat3_value                      = 1
++|static_stat4_id                         = is_area_damage
++|static_stat4_value                      = 1
+ |static_stat5_id                         = global_knockback
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = always_stun
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = is_area_damage
++|static_stat6_id                         = knockback_distance_+%
++|static_stat6_value                      = 100
++|static_stat7_id                         = always_stun
+ |static_stat7_value                      = 1
+-|static_stat8_id                         = cast_time_overrides_attack_duration
+-|static_stat8_value                      = 1
+-|stat_text                               = 100% increased Knockback Distance<br>50% of Physical Damage Converted to Fire Damage<br>Knocks Enemies Back on Hit<br>Stuns Enemies
++|static_stat8_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat8_value                      = 50
++|stat_text                               = Knocks Enemies Back on Hit<br>100% increased Knockback Distance<br>Stuns Enemies<br>50% of Physical Damage Converted to Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 0
+ }}

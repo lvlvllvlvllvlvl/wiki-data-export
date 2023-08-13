@@ -1,0 +1,21 @@
+--- Skill:DelveQiongqiSlash
++++ Export
+@@ -9,13 +9,13 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 150
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = active_skill_attack_speed_+%_final
+-|static_stat1_value                      = -35
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
+ |static_stat2_id                         = skill_physical_damage_%_to_convert_to_fire
+ |static_stat2_value                      = 75
+-|static_stat3_id                         = is_area_damage
+-|static_stat3_value                      = 1
+-|stat_text                               = Deals (40-200)% more Damage<br>35% less Attack Speed<br>75% of Physical Damage Converted to Fire Damage
++|static_stat3_id                         = active_skill_attack_speed_+%_final
++|static_stat3_value                      = -35
++|stat_text                               = Deals (40-200)% more Damage<br>75% of Physical Damage Converted to Fire Damage<br>35% less Attack Speed
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_stat_text                        = Deals 40% more Damage

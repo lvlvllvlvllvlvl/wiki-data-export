@@ -1,0 +1,40 @@
+--- Skill:WbAnimatedItemChaosFireball
++++ Export
+@@ -10,22 +10,22 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = projectile_spiral_nova_time_ms
+-|static_stat1_value                      = 700
+-|static_stat2_id                         = active_skill_cast_speed_+%_final
+-|static_stat2_value                      = -60
+-|static_stat3_id                         = base_number_of_projectiles_in_spiral_nova
+-|static_stat3_value                      = 3
+-|static_stat4_id                         = projectile_spiral_nova_angle
+-|static_stat4_value                      = 20
+-|static_stat5_id                         = skill_fire_damage_%_to_convert_to_chaos
+-|static_stat5_value                      = 35
+-|static_stat6_id                         = projectile_spiral_nova_both_directions
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = base_is_projectile
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = projectile_spiral_nova_time_ms
++|static_stat2_value                      = 700
++|static_stat3_id                         = visual_hit_effect_chaos_is_green
++|static_stat3_value                      = 1
++|static_stat4_id                         = active_skill_cast_speed_+%_final
++|static_stat4_value                      = -60
++|static_stat5_id                         = base_number_of_projectiles_in_spiral_nova
++|static_stat5_value                      = 3
++|static_stat6_id                         = projectile_spiral_nova_angle
++|static_stat6_value                      = 20
++|static_stat7_id                         = projectile_spiral_nova_both_directions
+ |static_stat7_value                      = 1
+-|static_stat8_id                         = visual_hit_effect_chaos_is_green
+-|static_stat8_value                      = 1
++|static_stat8_id                         = skill_fire_damage_%_to_convert_to_chaos
++|static_stat8_value                      = 35
+ |stat_text                               = Deals (5-6) to (8-10) Fire Damage<br>60% less Cast Speed<br>Fires 3 Projectiles in a spiral<br>35% of Fire Damage Converted to Chaos Damage
+ |level1                                  = True
+ |level1_level_requirement                = 3

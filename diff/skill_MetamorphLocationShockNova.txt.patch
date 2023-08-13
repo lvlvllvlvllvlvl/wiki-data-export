@@ -1,0 +1,29 @@
+--- Skill:MetamorphLocationShockNova
++++ Export
+@@ -8,16 +8,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 2
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 7
+-|static_stat3_id                         = base_chance_to_shock_%
+-|static_stat3_value                      = 20
+-|static_stat4_id                         = newshocknova_first_ring_damage_+%_final
+-|static_stat4_value                      = -50
+-|static_stat5_id                         = is_area_damage
+-|static_stat5_value                      = 1
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_minimum_base_lightning_damage
++|static_stat2_value                      = 2
++|static_stat3_id                         = spell_maximum_base_lightning_damage
++|static_stat3_value                      = 7
++|static_stat4_id                         = base_chance_to_shock_%
++|static_stat4_value                      = 20
++|static_stat5_id                         = newshocknova_first_ring_damage_+%_final
++|static_stat5_value                      = -50
+ |stat_text                               = Deals 2 to 7 Lightning Damage<br>20% chance to Shock enemies<br>Ring deals 50% less Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1

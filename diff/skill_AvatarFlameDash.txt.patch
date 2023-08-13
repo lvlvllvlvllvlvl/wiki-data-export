@@ -1,0 +1,35 @@
+--- Skill:AvatarFlameDash
++++ Export
+@@ -8,19 +8,20 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = ground_fire_art_variation
+-|static_stat1_value                      = 5
+-|static_stat2_id                         = trigger_skill_restriction
+-|static_stat2_value                      = 2
+-|static_stat3_id                         = base_skill_effect_duration
+-|static_stat3_value                      = 8000
+-|static_stat4_id                         = is_area_damage
++|static_duration                         = 8
++|static_stat1_id                         = cast_on_trigger_cascade_event
++|static_stat1_value                      = 1
++|static_stat2_id                         = ground_fire_art_variation
++|static_stat2_value                      = 5
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = skill_unusable
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = cast_on_trigger_cascade_event
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = skill_unusable
+-|static_stat6_value                      = 1
+-|stat_text                               = Deals (2-283) to (3-425) Fire Damage<br>Base duration is 8 seconds<br>Deals (5.3-590.4) Base Fire Damage per second
++|static_stat5_id                         = trigger_skill_restriction
++|static_stat5_value                      = 2
++|static_stat6_id                         = base_skill_effect_duration
++|static_stat6_value                      = 8000
++|stat_text                               = Deals (2-283) to (3-425) Fire Damage<br>Deals (5.3-590.4) Base Fire Damage per second<br>Base duration is 8 seconds
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_stat_text                        = Deals 2 to 3 Fire Damage<br>Deals 5.3 Base Fire Damage per second

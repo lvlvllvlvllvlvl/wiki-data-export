@@ -1,0 +1,45 @@
+--- Skill:PhoenixFlameVortexStandalone4
++++ Export
+@@ -9,25 +9,26 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_fire_damage
+-|static_stat1_value                      = 1558
+-|static_stat2_id                         = spell_maximum_base_fire_damage
+-|static_stat2_value                      = 2337
++|static_duration                         = 4.5
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_projectile_variation
++|static_stat2_value                      = 2
+ |static_stat3_id                         = number_of_projectiles_override
+ |static_stat3_value                      = 4
+-|static_stat4_id                         = monster_projectile_variation
+-|static_stat4_value                      = 2
+-|static_stat5_id                         = base_projectile_speed_+%
+-|static_stat5_value                      = -80
+-|static_stat6_id                         = base_skill_effect_duration
+-|static_stat6_value                      = 4500
+-|static_stat7_id                         = projectiles_nova
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = base_is_projectile
++|static_stat4_id                         = projectiles_not_offset
++|static_stat4_value                      = 1
++|static_stat5_id                         = spell_minimum_base_fire_damage
++|static_stat5_value                      = 1558
++|static_stat6_id                         = spell_maximum_base_fire_damage
++|static_stat6_value                      = 2337
++|static_stat7_id                         = base_skill_effect_duration
++|static_stat7_value                      = 4500
++|static_stat8_id                         = projectiles_nova
+ |static_stat8_value                      = 1
+-|static_stat9_id                         = projectiles_not_offset
+-|static_stat9_value                      = 1
+-|stat_text                               = Deals 1558 to 2337 Fire Damage<br>80% reduced Projectile Speed<br>Base duration is 4.5 seconds<br>Fires Projectiles in a circle
++|static_stat9_id                         = base_projectile_speed_+%
++|static_stat9_value                      = -80
++|stat_text                               = Deals 1558 to 2337 Fire Damage<br>Base duration is 4.5 seconds<br>Fires Projectiles in a circle<br>80% reduced Projectile Speed
+ |level1                                  = True
+ |level1_level_requirement                = 83
+ }}

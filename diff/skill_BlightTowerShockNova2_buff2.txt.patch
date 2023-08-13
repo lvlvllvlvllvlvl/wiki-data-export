@@ -1,0 +1,46 @@
+--- Skill:BlightTowerShockNova2~buff2
++++ Export
+@@ -8,25 +8,26 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 8
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 23
+-|static_stat3_id                         = shock_nova_places_X_ground_lightning_patches
+-|static_stat3_value                      = 5
+-|static_stat4_id                         = base_skill_effect_duration
+-|static_stat4_value                      = 1000
+-|static_stat5_id                         = shocked_ground_base_magnitude_override
+-|static_stat5_value                      = 30
+-|static_stat6_id                         = shock_effect_+%
+-|static_stat6_value                      = 30
++|static_duration                         = 1
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = shock_nova_places_X_ground_lightning_patches
++|static_stat2_value                      = 5
++|static_stat3_id                         = spell_minimum_base_lightning_damage
++|static_stat3_value                      = 8
++|static_stat4_id                         = spell_maximum_base_lightning_damage
++|static_stat4_value                      = 23
++|static_stat5_id                         = cannot_stun
++|static_stat5_value                      = 1
++|static_stat6_id                         = base_skill_effect_duration
++|static_stat6_value                      = 1000
+ |static_stat7_id                         = base_chance_to_shock_%
+ |static_stat7_value                      = 20
+-|static_stat8_id                         = cannot_stun
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = is_area_damage
+-|static_stat9_value                      = 1
+-|stat_text                               = Deals 8 to 23 Lightning Damage<br>Base duration is 1 seconds<br>Shocked Ground causes 30% increased Damage taken<br>30% increased Effect of Shock<br>20% chance to Shock enemies<br>Your Hits cannot Stun Enemies
++|static_stat8_id                         = shock_effect_+%
++|static_stat8_value                      = 30
++|static_stat9_id                         = shocked_ground_base_magnitude_override
++|static_stat9_value                      = 30
++|stat_text                               = Deals 8 to 23 Lightning Damage<br>Your Hits cannot Stun Enemies<br>Base duration is 1 seconds<br>20% chance to Shock enemies<br>30% increased Effect of Shock<br>Shocked Ground causes 30% increased Damage taken
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

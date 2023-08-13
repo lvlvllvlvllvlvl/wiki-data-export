@@ -1,0 +1,22 @@
+--- Skill:CGEArchnemesisBurningGround
++++ Export
+@@ -7,12 +7,13 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_fire_damage_to_deal_per_minute
+-|static_stat1_value                      = 1133
+-|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat2_value                      = -30
+-|static_stat3_id                         = ground_fire_art_variation
+-|static_stat3_value                      = 19
++|static_duration                         = 3
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -30
++|static_stat2_id                         = ground_fire_art_variation
++|static_stat2_value                      = 19
++|static_stat3_id                         = base_fire_damage_to_deal_per_minute
++|static_stat3_value                      = 1133
+ |static_stat4_id                         = base_skill_effect_duration
+ |static_stat4_value                      = 3000
+ |stat_text                               = Deals 18.9 Base Fire Damage per second<br>Base duration is 3 seconds

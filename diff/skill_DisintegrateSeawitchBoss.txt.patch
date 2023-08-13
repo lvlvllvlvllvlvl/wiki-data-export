@@ -1,0 +1,42 @@
+--- Skill:DisintegrateSeawitchBoss
++++ Export
+@@ -8,23 +8,23 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 4
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 7
+-|static_stat3_id                         = spell_maximum_action_distance_+%
+-|static_stat3_value                      = -30
+-|static_stat4_id                         = disintegrate_damage_+%_final_per_intensity
+-|static_stat4_value                      = 40
+-|static_stat5_id                         = disintegrate_base_radius_+_per_intensify
+-|static_stat5_value                      = 2
+-|static_stat6_id                         = display_base_intensity_loss
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_maximum_action_distance_+%
++|static_stat2_value                      = -30
++|static_stat3_id                         = spell_minimum_base_lightning_damage
++|static_stat3_value                      = 4
++|static_stat4_id                         = spell_maximum_base_lightning_damage
++|static_stat4_value                      = 7
++|static_stat5_id                         = display_base_intensity_loss
++|static_stat5_value                      = 1
++|static_stat6_id                         = active_skill_display_does_intensity_stuff
+ |static_stat6_value                      = 1
+-|static_stat7_id                         = active_skill_display_does_intensity_stuff
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = is_area_damage
+-|static_stat8_value                      = 1
+-|stat_text                               = Deals 4 to 7 Lightning Damage<br>40% more Damage with Hits and Ailments per Intensity<br>+2 to Beam Width Per Intensity<br>33% less branching angle per Intensity<br>This Spell loses 1 Intensity every 0.25 seconds while moving, or immediately if you teleport<br>This Spell gains Intensity when you Cast it, to a maximum of 3
++|static_stat7_id                         = disintegrate_base_radius_+_per_intensify
++|static_stat7_value                      = 2
++|static_stat8_id                         = disintegrate_damage_+%_final_per_intensity
++|static_stat8_value                      = 40
++|stat_text                               = Deals 4 to 7 Lightning Damage<br>This Spell loses 1 Intensity every 0.25 seconds while moving, or immediately if you teleport<br>This Spell gains Intensity when you Cast it, to a maximum of 3<br>+2 to Beam Width Per Intensity<br>33% less branching angle per Intensity<br>40% more Damage with Hits and Ailments per Intensity
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

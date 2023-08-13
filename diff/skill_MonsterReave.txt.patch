@@ -1,0 +1,34 @@
+--- Skill:MonsterReave
++++ Export
+@@ -10,21 +10,21 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = 59
+-|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat2_value                      = -25
+-|static_stat3_id                         = support_multiple_attack_damage_+%_final
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+ |static_stat3_value                      = -25
+-|static_stat4_id                         = support_multiple_attacks_melee_attack_speed_+%_final
+-|static_stat4_value                      = 160
++|static_stat4_id                         = support_multiple_attack_damage_+%_final
++|static_stat4_value                      = -25
+ |static_stat5_id                         = base_melee_attack_repeat_count
+ |static_stat5_value                      = 2
+ |static_stat6_id                         = physical_damage_+%
+ |static_stat6_value                      = 20
+-|static_stat7_id                         = reave_area_of_effect_+%_final_per_stage
+-|static_stat7_value                      = 80
+-|static_stat8_id                         = is_area_damage
+-|static_stat8_value                      = 1
+-|stat_text                               = Supported Skills deal 25% less Attack Damage<br>160% more Melee Attack Speed<br>Supported Skills Repeat 2 additional times<br>20% increased Physical Damage<br>80% more Area of Effect for each stage
++|static_stat7_id                         = support_multiple_attacks_melee_attack_speed_+%_final
++|static_stat7_value                      = 160
++|static_stat8_id                         = reave_area_of_effect_+%_final_per_stage
++|static_stat8_value                      = 80
++|stat_text                               = Supported Skills deal 25% less Attack Damage<br>This Attack Repeats 2 additional times<br>20% increased Physical Damage<br>160% more Melee Attack Speed<br>80% more Area of Effect for each stage
+ |level1                                  = True
+ |level1_level_requirement                = 4
+ }}

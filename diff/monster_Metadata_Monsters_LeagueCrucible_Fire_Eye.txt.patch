@@ -1,0 +1,19 @@
+--- Monster:Metadata/Monsters/LeagueCrucible/Fire/Eye
++++ Export
+@@ -0,0 +1,16 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueCrucible/Fire/Eye
++|monster_type_id                  = CrucibleEye
++|tags                             = caster, cleaving_weapon, demon, flesh_armour, has_wand, lightning_affinity, medium_small_height, not_dex, not_str, physical_affinity, ranged, slow_movement
++|skill_ids                        = MeleeAtAnimationSpeedFire, MPSCrucibleEyeFireball
++|name                             = Forged Eye
++|size                             = 3
++|minimum_attack_distance          = 6
++|maximum_attack_distance          = 30
++|model_size_multiplier            = 1.08
++|experience_multiplier            = 0.6
++|damage_multiplier                = 0.96
++|health_multiplier                = 0.72
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.5
++}}

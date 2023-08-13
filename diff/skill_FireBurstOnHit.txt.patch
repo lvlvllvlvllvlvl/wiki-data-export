@@ -1,0 +1,21 @@
+--- Skill:FireBurstOnHit
++++ Export
+@@ -10,13 +10,13 @@
+ |static_damage_effectiveness             = 250
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = cast_on_hit_%
+-|static_stat1_value                      = 100
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
+ |static_stat2_id                         = spell_uncastable_if_triggerable
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = is_area_damage
+-|static_stat3_value                      = 1
+-|stat_text                               = Deals (8-3346) to (12-5019) Fire Damage<br>Trigger this Spell when you Hit<br>You cannot Cast this Spell directly
++|static_stat3_id                         = cast_on_hit_%
++|static_stat3_value                      = 100
++|stat_text                               = Deals (8-3346) to (12-5019) Fire Damage<br>You cannot Cast this Spell directly<br>Trigger this Spell when you Hit
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_stat_text                        = Deals 8 to 12 Fire Damage

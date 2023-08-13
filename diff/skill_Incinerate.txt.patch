@@ -1,0 +1,25 @@
+--- Skill:Incinerate
++++ Export
+@@ -8,15 +8,15 @@
+ |static_damage_effectiveness             = 30
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = flamethrower_damage_+%_per_stage_final
+-|static_stat1_value                      = 50
+-|static_stat2_id                         = always_pierce
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = skill_can_add_multiple_charges_per_action
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = base_is_projectile
++|static_stat3_id                         = always_pierce
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = skill_can_add_multiple_charges_per_action
+-|static_stat4_value                      = 1
+-|stat_text                               = Deals (6-483) to (9-724) Fire Damage<br>50% more Damage with Hits and Ailments for each stage<br>Projectiles Pierce all Targets
++|static_stat4_id                         = flamethrower_damage_+%_per_stage_final
++|static_stat4_value                      = 50
++|stat_text                               = Deals (6-483) to (9-724) Fire Damage<br>Projectiles Pierce all Targets<br>50% more Damage with Hits and Ailments for each stage
+ |level1                                  = True
+ |level1_level_requirement                = 12
+ |level1_cost_amounts                     = 6

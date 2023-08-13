@@ -1,0 +1,25 @@
+--- Skill:AtziriSpearThrow
++++ Export
+@@ -9,15 +9,15 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_bleeding_damage_+%_final
+ |static_stat1_value                      = -64
+-|static_stat2_id                         = base_bleed_duration_+%
+-|static_stat2_value                      = -20
+-|static_stat3_id                         = global_bleed_on_hit
++|static_stat2_id                         = base_is_projectile
++|static_stat2_value                      = 1
++|static_stat3_id                         = cast_time_overrides_attack_duration
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = cast_time_overrides_attack_duration
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = base_is_projectile
++|static_stat4_id                         = base_bleed_duration_+%
++|static_stat4_value                      = -20
++|static_stat5_id                         = global_bleed_on_hit
+ |static_stat5_value                      = 1
+-|stat_text                               = (100-150)% increased Projectile Speed<br>(0-30)% more Attack Speed<br>20% reduced Bleeding Duration<br>Causes Bleeding
++|stat_text                               = 20% reduced Bleeding Duration<br>(100-150)% increased Projectile Speed<br>(0-30)% more Attack Speed<br>Causes Bleeding
+ |level1                                  = True
+ |level1_level_requirement                = 70
+ |level1_stat_text                        = 100% increased Projectile Speed

@@ -1,0 +1,21 @@
+--- Skill:GSHellscapeDemonEliteBeamNuke
++++ Export
+@@ -10,12 +10,12 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_maximum_action_distance_+%
+-|static_stat1_value                      = -50
+-|static_stat2_id                         = skill_physical_damage_%_to_convert_to_fire
+-|static_stat2_value                      = 25
+-|static_stat3_id                         = is_area_damage
+-|static_stat3_value                      = 1
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_maximum_action_distance_+%
++|static_stat2_value                      = -50
++|static_stat3_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat3_value                      = 25
+ |stat_text                               = Deals (16-2082) to (23-3124) Physical Damage<br>Deals (-30-24)% more Damage<br>25% of Physical Damage Converted to Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1

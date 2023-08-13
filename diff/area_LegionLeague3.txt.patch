@@ -1,0 +1,17 @@
+--- Area:LegionLeague3
++++ Export
+@@ -1,11 +1,12 @@
+ {{Area
+ |id                               = LegionLeague3
+ |name                             = Domain of Timeless Conflict
+-|act                              = 1
++|act                              = 11
+ |area_level                       = 68
+ |tags                             = map, no_leaguestone, map_not_on_atlas
+ |loading_screen                   = Maps
+-|modifier_ids                     = MapRevealedMap, MapIsLegionEndgameMap
++|parent_area_id                   = 2_11_endgame_town
++|modifier_ids                     = MapRevealedMap, MapIsLegionEndgameMap, MapMaximumArchnemesisModsIsTwo
+ |monster_ids                      = Metadata/Monsters/Daemon/ElementalReflectMortarDaemonPreload, Metadata/Monsters/Daemon/PhysicalReflectMortarDaemonPreload, Metadata/Monsters/Daemon/NemesisDaemonVinesPreload, Metadata/Monsters/Daemon/NemesisDaemonGodmodeGhostPreload, Metadata/Monsters/Daemon/FireProjectileRetaliationDaemon, Metadata/Monsters/Daemon/PhysicalProjectileRetaliationDaemon, Metadata/Monsters/Daemon/ColdBeamRetaliationDaemon, Metadata/Monsters/Daemon/LightningCloneRetaliationDaemon, Metadata/Monsters/Daemon/NemesisDaemonSmokeDaemon, Metadata/Monsters/Daemon/NemesisDaemonLightningStorm
+ |is_map_area                      = True
+ |is_unique_map_area               = True

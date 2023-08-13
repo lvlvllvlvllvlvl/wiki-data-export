@@ -1,0 +1,17 @@
+--- Skill:AfflictionDemonColdIceGroundUnique
++++ Export
+@@ -9,11 +9,11 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = 35
+-|static_stat2_id                         = always_freeze
++|static_stat2_id                         = is_area_damage
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = is_area_damage
++|static_stat3_id                         = always_freeze
+ |static_stat3_value                      = 1
+-|stat_text                               = Deals (5-1000) to (7-1500) Cold Damage<br>(0-200)% increased Freeze Duration on enemies<br>Always Freezes enemies
++|stat_text                               = Deals (5-1000) to (7-1500) Cold Damage<br>Always Freezes enemies<br>(0-200)% increased Freeze Duration on enemies
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_stat_text                        = Deals 5 to 7 Cold Damage

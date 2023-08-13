@@ -1,0 +1,17 @@
+--- Skill:LegionKaruiSergeantRockExplode
++++ Export
+@@ -11,10 +11,10 @@
+ |static_stat1_value                      = 100
+ |static_stat2_id                         = generic_skill_trigger_id
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = skill_physical_damage_%_to_convert_to_fire
+-|static_stat3_value                      = 75
+-|static_stat4_id                         = is_area_damage
+-|static_stat4_value                      = 1
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat4_value                      = 75
+ |stat_text                               = Deals (0-200)% more Damage<br>75% of Physical Damage Converted to Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1

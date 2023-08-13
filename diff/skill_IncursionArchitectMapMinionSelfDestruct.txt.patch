@@ -1,0 +1,23 @@
+--- Skill:IncursionArchitectMapMinionSelfDestruct
++++ Export
+@@ -8,13 +8,13 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 1205
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 1807
+-|static_stat3_id                         = always_shock
+-|static_stat3_value                      = 1
+-|static_stat4_id                         = is_area_damage
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_minimum_base_lightning_damage
++|static_stat2_value                      = 1205
++|static_stat3_id                         = spell_maximum_base_lightning_damage
++|static_stat3_value                      = 1807
++|static_stat4_id                         = always_shock
+ |static_stat4_value                      = 1
+ |stat_text                               = Deals 1205 to 1807 Lightning Damage<br>Hits always Shock
+ |level1                                  = True

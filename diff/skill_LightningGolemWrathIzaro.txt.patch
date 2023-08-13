@@ -1,0 +1,32 @@
+--- Skill:LightningGolemWrathIzaro
++++ Export
+@@ -9,19 +9,20 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = attack_minimum_added_lightning_damage
+-|static_stat1_value                      = 2
+-|static_stat2_id                         = attack_maximum_added_lightning_damage
+-|static_stat2_value                      = 22
+-|static_stat3_id                         = base_skill_effect_duration
+-|static_stat3_value                      = 4000
+-|static_stat4_id                         = base_deal_no_damage
+-|static_stat4_value                      = 1
++|static_duration                         = 4
++|static_stat1_id                         = base_deal_no_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_skill_effect_duration
++|static_stat2_value                      = 4000
++|static_stat3_id                         = attack_minimum_added_lightning_damage
++|static_stat3_value                      = 2
++|static_stat4_id                         = attack_maximum_added_lightning_damage
++|static_stat4_value                      = 22
+ |static_stat5_id                         = spell_minimum_added_lightning_damage
+ |static_stat5_value                      = 1
+ |static_stat6_id                         = spell_maximum_added_lightning_damage
+ |static_stat6_value                      = 13
+-|stat_text                               = 2 to 22 Added Lightning Damage<br>Base duration is 4 seconds<br>Adds 1 to 13 Lightning Damage to Spells
++|stat_text                               = Base duration is 4 seconds<br>2 to 22 Added Lightning Damage<br>Adds 1 to 13 Lightning Damage to Spells
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ }}

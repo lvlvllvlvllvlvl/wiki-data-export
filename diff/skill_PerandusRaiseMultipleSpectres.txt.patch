@@ -1,0 +1,19 @@
+--- Skill:PerandusRaiseMultipleSpectres
++++ Export
+@@ -7,11 +7,11 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_cast_speed_+%
+-|static_stat1_value                      = 50
+-|static_stat2_id                         = active_skill_minion_life_+%_final
+-|static_stat2_value                      = -10
+-|stat_text                               = Maximum (8-11) Raised Spectres<br>Minions deal (10-25)% more Damage<br>This Spell and Minions have 50% increased Cast Speed<br>Minions have 10% less Maximum Life
++|static_stat1_id                         = active_skill_minion_life_+%_final
++|static_stat1_value                      = -10
++|static_stat2_id                         = base_cast_speed_+%
++|static_stat2_value                      = 50
++|stat_text                               = Maximum (8-11) Raised Spectres<br>Minions have 10% less Maximum Life<br>This Spell and Minions have 50% increased Cast Speed<br>Minions deal (10-25)% more Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_stat_text                        = Maximum 8 Raised Spectres<br>Minions deal 10% more Damage

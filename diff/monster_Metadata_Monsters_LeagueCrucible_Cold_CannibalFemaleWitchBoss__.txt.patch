@@ -1,0 +1,20 @@
+--- Monster:Metadata/Monsters/LeagueCrucible/Cold/CannibalFemaleWitchBoss~~
++++ Export
+@@ -0,0 +1,17 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueCrucible/Cold/CannibalFemaleWitchBoss__
++|monster_type_id                  = CrucibleCannibalFemaleWitchBoss
++|mod_ids                          = MonsterCrucibleMapBoss, StunRepeatImmunityMapBoss_
++|tags                             = bludgeoning_weapon, caster, fire_affinity, has_staff, has_two_handed_melee, human, humanoid, light_armour, medium_height, melee, not_int, not_str, summoner, very_fast_movement
++|skill_ids                        = MeleeAtAnimationSpeedColdUnique, GSCrucibleFuryColdCascade, EDSCrucibleFurySpriteFall, GTCrucibleFurySpriteFall
++|name                             = Agnosia, Arbiter of the Hollow
++|size                             = 4
++|minimum_attack_distance          = 4
++|maximum_attack_distance          = 13
++|model_size_multiplier            = 1.64
++|experience_multiplier            = 2.0
++|damage_multiplier                = 1.4
++|health_multiplier                = 4.8
++|critical_strike_chance           = 1.46
++|attack_speed                     = 1.995
++}}

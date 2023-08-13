@@ -1,0 +1,21 @@
+--- Skill:BloodlinesMudElementalGroundSlam
++++ Export
+@@ -12,13 +12,13 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = 200
+-|static_stat2_id                         = active_skill_attack_speed_+%_final
+-|static_stat2_value                      = -55
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
+ |static_stat3_id                         = active_skill_damage_+%_final
+ |static_stat3_value                      = 20
+-|static_stat4_id                         = is_area_damage
+-|static_stat4_value                      = 1
+-|stat_text                               = 55% less Attack Speed<br>Deals 20% more Damage
++|static_stat4_id                         = active_skill_attack_speed_+%_final
++|static_stat4_value                      = -55
++|stat_text                               = Deals 20% more Damage<br>55% less Attack Speed
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ }}

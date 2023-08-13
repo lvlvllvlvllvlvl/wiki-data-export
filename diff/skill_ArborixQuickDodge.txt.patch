@@ -1,0 +1,36 @@
+--- Skill:ArborixQuickDodge
++++ Export
+@@ -11,21 +11,21 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = skill_travel_distance_+%
+-|static_stat1_value                      = 87
+-|static_stat2_id                         = base_cooldown_speed_+%
+-|static_stat2_value                      = 87
+-|static_stat3_id                         = spell_cast_time_cannot_be_modified
++|static_stat1_id                         = base_deal_no_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = skill_cannot_be_interrupted
++|static_stat2_value                      = 1
++|static_stat3_id                         = skill_cannot_be_knocked_back
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = base_deal_no_damage
++|static_stat4_id                         = skill_cannot_be_stunned
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = skill_cannot_be_interrupted
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = skill_cannot_be_knocked_back
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = skill_cannot_be_stunned
++|static_stat5_id                         = base_cooldown_speed_+%
++|static_stat5_value                      = 87
++|static_stat6_id                         = skill_travel_distance_+%
++|static_stat6_value                      = 87
++|static_stat7_id                         = spell_cast_time_cannot_be_modified
+ |static_stat7_value                      = 1
+-|stat_text                               = 87% increased travel distance<br>87% increased Cooldown Recovery Rate<br>This Spell's Cast Speed cannot be modified
++|stat_text                               = 87% increased Cooldown Recovery Rate<br>87% increased travel distance<br>This Spell's Cast Speed cannot be modified
+ |level1                                  = True
+ |level1_level_requirement                = 90
+ }}

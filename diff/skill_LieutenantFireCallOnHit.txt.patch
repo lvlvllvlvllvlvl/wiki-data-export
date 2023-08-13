@@ -1,0 +1,40 @@
+--- Skill:LieutenantFireCallOnHit
++++ Export
+@@ -11,15 +11,16 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = -31
+-|static_stat2_id                         = monster_cast_spell_%_on_attack_hit
+-|static_stat2_value                      = 100
+-|static_stat3_id                         = spell_uncastable_if_triggerable
+-|static_stat3_value                      = 1
+-|static_stat4_id                         = is_area_damage
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = monster_cast_spell_%_on_attack_hit
++|static_stat3_value                      = 100
++|static_stat4_id                         = spell_uncastable_if_triggerable
+ |static_stat4_value                      = 1
+ |stat_text                               = Deals (10-173) to (16-259) Fire Damage<br>Base duration is (2.95-1.95) seconds<br>You cannot Cast this Spell directly
+ |level1                                  = True
+ |level1_level_requirement                = 8
++|level1_duration                         = 2.95
+ |level1_stat_text                        = Deals 10 to 16 Fire Damage<br>Base duration is 2.95 seconds
+ |level1_stat1_id                         = spell_minimum_base_fire_damage
+ |level1_stat1_value                      = 10
+@@ -29,6 +30,7 @@
+ |level1_stat3_value                      = 2950
+ |level2                                  = True
+ |level2_level_requirement                = 42
++|level2_duration                         = 2.45
+ |level2_stat_text                        = Deals 88 to 132 Fire Damage<br>Base duration is 2.45 seconds
+ |level2_stat1_id                         = spell_minimum_base_fire_damage
+ |level2_stat1_value                      = 88
+@@ -38,6 +40,7 @@
+ |level2_stat3_value                      = 2450
+ |level3                                  = True
+ |level3_level_requirement                = 56
++|level3_duration                         = 1.95
+ |level3_stat_text                        = Deals 173 to 259 Fire Damage<br>Base duration is 1.95 seconds
+ |level3_stat1_id                         = spell_minimum_base_fire_damage
+ |level3_stat1_value                      = 173

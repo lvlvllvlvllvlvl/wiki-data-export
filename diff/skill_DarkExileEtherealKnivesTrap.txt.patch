@@ -1,0 +1,55 @@
+--- Skill:DarkExileEtherealKnivesTrap
++++ Export
+@@ -8,29 +8,29 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 342
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 512
+-|static_stat3_id                         = trap_throwing_speed_+%
+-|static_stat3_value                      = 30
+-|static_stat4_id                         = number_of_additional_traps_to_throw
+-|static_stat4_value                      = 3
+-|static_stat5_id                         = base_trap_duration
+-|static_stat5_value                      = 7000
+-|static_stat6_id                         = skill_physical_damage_%_to_convert_to_chaos
+-|static_stat6_value                      = 50
+-|static_stat7_id                         = number_of_additional_projectiles
+-|static_stat7_value                      = 14
+-|static_stat8_id                         = is_trap
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = base_is_projectile
+-|static_stat9_value                      = 1
+-|static_stat10_id                        = ignores_trap_and_mine_cooldown_limit
+-|static_stat10_value                     = 1
+-|static_stat11_id                        = visual_hit_effect_chaos_is_green
+-|static_stat11_value                     = 1
+-|stat_text                               = Deals 342 to 512 Physical Damage<br>30% increased Trap Throwing Speed<br>Throw up to 3 additional Traps<br>Trap lasts 7 seconds<br>50% of Physical Damage Converted to Chaos Damage<br>Fires 14 additional Projectiles
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = ignores_trap_and_mine_cooldown_limit
++|static_stat2_value                      = 1
++|static_stat3_id                         = visual_hit_effect_chaos_is_green
++|static_stat3_value                      = 1
++|static_stat4_id                         = spell_minimum_base_physical_damage
++|static_stat4_value                      = 342
++|static_stat5_id                         = spell_maximum_base_physical_damage
++|static_stat5_value                      = 512
++|static_stat6_id                         = base_trap_duration
++|static_stat6_value                      = 7000
++|static_stat7_id                         = is_trap
++|static_stat7_value                      = 1
++|static_stat8_id                         = number_of_additional_projectiles
++|static_stat8_value                      = 14
++|static_stat9_id                         = number_of_additional_traps_to_throw
++|static_stat9_value                      = 3
++|static_stat10_id                        = skill_physical_damage_%_to_convert_to_chaos
++|static_stat10_value                     = 50
++|static_stat11_id                        = trap_throwing_speed_+%
++|static_stat11_value                     = 30
++|stat_text                               = Deals 342 to 512 Physical Damage<br>Trap lasts 7 seconds<br>Fires 14 additional Projectiles<br>Throw up to 3 additional Traps<br>50% of Physical Damage Converted to Chaos Damage<br>30% increased Trap Throwing Speed
+ |level1                                  = True
+ |level1_level_requirement                = 73
+ }}

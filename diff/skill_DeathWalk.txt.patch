@@ -1,0 +1,35 @@
+--- Skill:DeathWalk
++++ Export
+@@ -7,23 +7,23 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = corpse_explosion_monster_life_%
+-|static_stat1_value                      = 5
+-|static_stat2_id                         = cast_on_gain_skill
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = skill_can_add_multiple_charges_per_action
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = cannot_knockback
+-|static_stat3_value                      = 1
++|static_stat3_id                         = corpse_explosion_monster_life_%
++|static_stat3_value                      = 5
+ |static_stat4_id                         = spell_uncastable_if_triggerable
+ |static_stat4_value                      = 1
+ |static_stat5_id                         = damage_cannot_be_reflected
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = no_cost
++|static_stat6_id                         = cannot_knockback
+ |static_stat6_value                      = 1
+-|static_stat7_id                         = is_area_damage
++|static_stat7_id                         = cast_on_gain_skill
+ |static_stat7_value                      = 1
+-|static_stat8_id                         = skill_can_add_multiple_charges_per_action
++|static_stat8_id                         = no_cost
+ |static_stat8_value                      = 1
+-|stat_text                               = Explosion deals base Fire Damage equal to 5% of the corpse's Maximum Life<br>This Spell is Triggered when Gained<br>This Skill cannot Knock Enemies Back<br>You cannot Cast this Spell directly<br>Damage cannot be Reflected<br>This Skill Costs nothing
++|stat_text                               = Explosion deals base Fire Damage equal to 5% of the corpse's Maximum Life<br>You cannot Cast this Spell directly<br>Damage cannot be Reflected<br>This Skill cannot Knock Enemies Back<br>This Spell is Triggered when Gained<br>This Skill Costs nothing
+ |level1                                  = True
+ |level1_level_requirement                = 60
+ }}

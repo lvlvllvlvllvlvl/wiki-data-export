@@ -1,0 +1,20 @@
+--- Monster:Metadata/Monsters/LeagueCrucible/Chaos/ReaperBoss
++++ Export
+@@ -0,0 +1,17 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueCrucible/Chaos/ReaperBoss
++|monster_type_id                  = CrucibleReaperBoss
++|mod_ids                          = MonsterCrucibleMapBoss, CannotBeSlowedBelowValueBosses, StunRepeatImmunityMapBossSuper, MonsterSlowerAttacksRareUnique
++|tags                             = bones, has_dual_wield_melee, has_one_hand_sword, has_one_handed_melee, melee, metal_armour, physical_affinity, skeleton, slashing_weapon, slow_movement, undead, ward_armour
++|skill_ids                        = ExpeditionVoranaMelee, DTTExpeditionVorana, EAAExpeditionVoranaCyclone, EAAExpeditionVoranaDualStrike, GAExpeditionVoranaLacerate, GAVoranaComboLeftSlash, GAVoranaComboRightSlash, GAVoranaDash, GAVoranaDashImpactSlash, GAVoranaCycloneImpact, GAVoranaComboWhirl, EAAVoranaComboAttack, EASVoranaTeleport, EASVoranaTeleportFast
++|name                             = Exodos, the Lich Hunter
++|size                             = 4
++|minimum_attack_distance          = 8
++|maximum_attack_distance          = 20
++|model_size_multiplier            = 1.56
++|experience_multiplier            = 2.5
++|damage_multiplier                = 3.25
++|health_multiplier                = 15.0
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.455
++}}

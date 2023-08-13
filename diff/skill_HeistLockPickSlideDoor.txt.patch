@@ -1,0 +1,14 @@
+--- Skill:HeistLockPickSlideDoor
++++ Export
+@@ -7,9 +7,9 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = skill_cannot_be_stunned
++|static_stat1_id                         = skill_cannot_be_knocked_back
+ |static_stat1_value                      = 1
+-|static_stat2_id                         = skill_cannot_be_knocked_back
++|static_stat2_id                         = skill_cannot_be_stunned
+ |static_stat2_value                      = 1
+ |stat_text                               = 
+ |level1                                  = True

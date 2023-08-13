@@ -1,0 +1,44 @@
+--- Skill:StrMissionIcestormDaemon
++++ Export
+@@ -9,23 +9,24 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_cold_damage
+-|static_stat1_value                      = 1
+-|static_stat2_id                         = spell_maximum_base_cold_damage
+-|static_stat2_value                      = 2
+-|static_stat3_id                         = firestorm_drop_ground_ice_duration_ms
+-|static_stat3_value                      = 1000
+-|static_stat4_id                         = firestorm_base_area_of_effect_+%
+-|static_stat4_value                      = -96
+-|static_stat5_id                         = fire_storm_fireball_delay_ms
+-|static_stat5_value                      = 100
+-|static_stat6_id                         = base_skill_effect_duration
+-|static_stat6_value                      = 3000
+-|static_stat7_id                         = cannot_stun
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = is_area_damage
+-|static_stat8_value                      = 1
+-|stat_text                               = Deals 1 to 2 Cold Damage<br>One impact every 0.1 seconds<br>Base duration is 3 seconds<br>Your Hits cannot Stun Enemies
++|static_duration                         = 3
++|static_stat1_id                         = firestorm_base_area_of_effect_+%
++|static_stat1_value                      = -96
++|static_stat2_id                         = firestorm_drop_ground_ice_duration_ms
++|static_stat2_value                      = 1000
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = spell_minimum_base_cold_damage
++|static_stat4_value                      = 1
++|static_stat5_id                         = spell_maximum_base_cold_damage
++|static_stat5_value                      = 2
++|static_stat6_id                         = cannot_stun
++|static_stat6_value                      = 1
++|static_stat7_id                         = base_skill_effect_duration
++|static_stat7_value                      = 3000
++|static_stat8_id                         = fire_storm_fireball_delay_ms
++|static_stat8_value                      = 100
++|stat_text                               = Deals 1 to 2 Cold Damage<br>Your Hits cannot Stun Enemies<br>Base duration is 3 seconds<br>One impact every 0.1 seconds
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ }}

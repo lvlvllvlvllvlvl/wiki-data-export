@@ -1,0 +1,21 @@
+--- Skill:SabreSpiderDaemonCyclone
++++ Export
+@@ -0,0 +1,18 @@
++{{Skill
++|gem_description                         = Channel this skill to move towards a targeted location while spinning, building up stages while constantly attacking enemies in an area around you. While channelling this skill, you cannot be knocked back.
++|active_skill_name                       = Cyclone
++|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Unarmed, Warstaff, Rune Dagger
++|skill_id                                = SabreSpiderDaemonCyclone
++|cast_time                               = 1.0
++|required_level                          = 0
++|static_damage_effectiveness             = 22
++|static_damage_multiplier                = 22
++|static_attack_speed_multiplier          = 600
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = skill_can_add_multiple_charges_per_action
++|static_stat2_value                      = 1
++|stat_text                               = 
++|level1                                  = True
++|level1_level_requirement                = 0
++}}

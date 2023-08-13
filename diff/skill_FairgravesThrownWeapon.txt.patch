@@ -1,0 +1,50 @@
+--- Skill:FairgravesThrownWeapon
++++ Export
+@@ -10,7 +10,7 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = base_is_projectile
+ |static_stat1_value                      = 1
+-|stat_text                               = Deals (25-50)% less Damage<br>Fires (0-3) additional Projectiles<br>(0-50)% reduced Projectile Speed
++|stat_text                               = Deals (25-50)% less Damage<br>(0-50)% reduced Projectile Speed<br>Fires (0-3) additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 11
+ |level1_stat_text                        = Deals 25% less Damage
+@@ -18,24 +18,24 @@
+ |level1_stat1_value                      = -25
+ |level2                                  = True
+ |level2_level_requirement                = 43
+-|level2_stat_text                        = Deals 50% less Damage<br>Fires 2 additional Projectiles<br>50% reduced Projectile Speed
+-|level2_stat1_id                         = active_skill_damage_+%_final
+-|level2_stat1_value                      = -50
+-|level2_stat2_id                         = number_of_additional_projectiles
+-|level2_stat2_value                      = 2
++|level2_stat_text                        = Deals 50% less Damage<br>50% reduced Projectile Speed<br>Fires 2 additional Projectiles
++|level2_stat1_id                         = spectral_throw_deceleration_override
++|level2_stat1_value                      = 50
++|level2_stat2_id                         = active_skill_damage_+%_final
++|level2_stat2_value                      = -50
+ |level2_stat3_id                         = base_projectile_speed_+%
+ |level2_stat3_value                      = -50
+-|level2_stat4_id                         = spectral_throw_deceleration_override
+-|level2_stat4_value                      = 50
++|level2_stat4_id                         = number_of_additional_projectiles
++|level2_stat4_value                      = 2
+ |level3                                  = True
+ |level3_level_requirement                = 55
+-|level3_stat_text                        = Deals 50% less Damage<br>Fires 3 additional Projectiles<br>50% reduced Projectile Speed
+-|level3_stat1_id                         = active_skill_damage_+%_final
+-|level3_stat1_value                      = -50
+-|level3_stat2_id                         = number_of_additional_projectiles
+-|level3_stat2_value                      = 3
++|level3_stat_text                        = Deals 50% less Damage<br>50% reduced Projectile Speed<br>Fires 3 additional Projectiles
++|level3_stat1_id                         = spectral_throw_deceleration_override
++|level3_stat1_value                      = 50
++|level3_stat2_id                         = active_skill_damage_+%_final
++|level3_stat2_value                      = -50
+ |level3_stat3_id                         = base_projectile_speed_+%
+ |level3_stat3_value                      = -50
+-|level3_stat4_id                         = spectral_throw_deceleration_override
+-|level3_stat4_value                      = 50
++|level3_stat4_id                         = number_of_additional_projectiles
++|level3_stat4_value                      = 3
+ }}

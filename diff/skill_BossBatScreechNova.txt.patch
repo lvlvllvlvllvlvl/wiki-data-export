@@ -1,0 +1,16 @@
+--- Skill:BossBatScreechNova
++++ Export
+@@ -9,11 +9,12 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 2.5
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = 50
+ |static_stat2_id                         = base_skill_effect_duration
+ |static_stat2_value                      = 2500
+-|stat_text                               = (20-30)% reduced Movement Speed<br>Base duration is 2.5 seconds
++|stat_text                               = Base duration is 2.5 seconds<br>(20-30)% reduced Movement Speed
+ |level1                                  = True
+ |level1_level_requirement                = 35
+ |level1_stat_text                        = 20% reduced Movement Speed

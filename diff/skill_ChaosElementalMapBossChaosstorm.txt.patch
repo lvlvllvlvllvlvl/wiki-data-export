@@ -1,0 +1,36 @@
+--- Skill:ChaosElementalMapBossChaosstorm
++++ Export
+@@ -10,19 +10,20 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_maximum_action_distance_+%
+-|static_stat1_value                      = -50
+-|static_stat2_id                         = firestorm_base_area_of_effect_+%
+-|static_stat2_value                      = -49
+-|static_stat3_id                         = fire_storm_fireball_delay_ms
+-|static_stat3_value                      = 125
+-|static_stat4_id                         = base_skill_effect_duration
+-|static_stat4_value                      = 6000
+-|static_stat5_id                         = is_area_damage
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = firestorm_use_server_effects
+-|static_stat6_value                      = 1
+-|stat_text                               = Deals (78-117) to (117-176) Chaos Damage<br>One impact every 0.12 seconds<br>Base duration is 6 seconds
++|static_duration                         = 6
++|static_stat1_id                         = firestorm_base_area_of_effect_+%
++|static_stat1_value                      = -49
++|static_stat2_id                         = firestorm_use_server_effects
++|static_stat2_value                      = 1
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = spell_maximum_action_distance_+%
++|static_stat4_value                      = -50
++|static_stat5_id                         = base_skill_effect_duration
++|static_stat5_value                      = 6000
++|static_stat6_id                         = fire_storm_fireball_delay_ms
++|static_stat6_value                      = 125
++|stat_text                               = Deals (78-117) to (117-176) Chaos Damage<br>Base duration is 6 seconds<br>One impact every 0.12 seconds
+ |level1                                  = True
+ |level1_level_requirement                = 66
+ |level1_stat_text                        = Deals 78 to 117 Chaos Damage

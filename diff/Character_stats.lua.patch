@@ -1,0 +1,42 @@
+--- Module:Data tables/Character stats
++++ Export
+@@ -152,7 +152,7 @@
+ 		name = "Character", 
+ 		id = "inherent_block_while_dual_wielding_%", 
+ 		value = 15, 
+-		stat_text = "+15% Chance to [[Block]] [[Attack Damage]] while [[Dual Wield|Dual Wielding]]", 
++		stat_text = "", 
+ 	},
+ 	{
+ 		name = "Character", 
+@@ -378,6 +378,12 @@
+ 	},
+ 	{
+ 		name = "Character", 
++		id = "non_melee_hit_damage_stun_multiplier_+%_final", 
++		value = -25, 
++		stat_text = "", 
++	},
++	{
++		name = "Character", 
+ 		id = "object_inherent_melee_hit_stun_duration_+%_final", 
+ 		value = 50, 
+ 		stat_text = "Melee [[Hit|hits]] have 50% more Stun Duration", 
+@@ -459,5 +465,17 @@
+ 		id = "base_presence_radius", 
+ 		value = 80, 
+ 		stat_text = "", 
++	},
++	{
++		name = "Character", 
++		id = "mtx_max_killstreak_stacks", 
++		value = 1000, 
++		stat_text = "", 
++	},
++	{
++		name = "Character", 
++		id = "mtx_max_killcounter_stacks", 
++		value = 30000, 
++		stat_text = "", 
+ 	}}
+ return data

@@ -1,0 +1,57 @@
+--- Skill:ExpandingFireConeSeaWitch
++++ Export
+@@ -10,31 +10,31 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_fire_damage
+-|static_stat1_value                      = 3
+-|static_stat2_id                         = spell_maximum_base_fire_damage
+-|static_stat2_value                      = 5
+-|static_stat3_id                         = expanding_fire_cone_angle_+%_per_stage
+-|static_stat3_value                      = 100
+-|static_stat4_id                         = expanding_fire_cone_radius_+_per_stage
+-|static_stat4_value                      = 6
+-|static_stat5_id                         = expanding_fire_cone_radius_limit
+-|static_stat5_value                      = 24
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = skill_can_add_multiple_charges_per_action
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_minimum_base_fire_damage
++|static_stat3_value                      = 3
++|static_stat4_id                         = spell_maximum_base_fire_damage
++|static_stat4_value                      = 5
++|static_stat5_id                         = cannot_stun
++|static_stat5_value                      = 1
+ |static_stat6_id                         = flamethrower_damage_+%_per_stage_final
+ |static_stat6_value                      = 10
+-|static_stat7_id                         = expanding_fire_cone_release_hit_damage_+%_final
+-|static_stat7_value                      = 50
+-|static_stat8_id                         = grant_expanding_fire_cone_release_ignite_damage_+%_final
+-|static_stat8_value                      = 50
+-|static_stat9_id                         = expanding_fire_cone_maximum_number_of_stages
+-|static_stat9_value                      = 8
+-|static_stat10_id                        = cannot_stun
+-|static_stat10_value                     = 1
+-|static_stat11_id                        = is_area_damage
+-|static_stat11_value                     = 1
+-|static_stat12_id                        = skill_can_add_multiple_charges_per_action
+-|static_stat12_value                     = 1
+-|stat_text                               = Deals 3 to 5 Fire Damage<br>100% increased angle per stage, up to 300%<br>+6 to radius per stage, up to +24<br>10% more Damage with Hits and Ailments for each stage<br>Final wave deals 50% more Damage with Hits<br>Final wave deals 50% more Damage with Ignite<br>8 maximum stages<br>Your Hits cannot Stun Enemies
++|static_stat7_id                         = expanding_fire_cone_angle_+%_per_stage
++|static_stat7_value                      = 100
++|static_stat8_id                         = expanding_fire_cone_maximum_number_of_stages
++|static_stat8_value                      = 8
++|static_stat9_id                         = expanding_fire_cone_radius_+_per_stage
++|static_stat9_value                      = 6
++|static_stat10_id                        = expanding_fire_cone_radius_limit
++|static_stat10_value                     = 24
++|static_stat11_id                        = expanding_fire_cone_release_hit_damage_+%_final
++|static_stat11_value                     = 50
++|static_stat12_id                        = grant_expanding_fire_cone_release_ignite_damage_+%_final
++|static_stat12_value                     = 50
++|stat_text                               = Deals 3 to 5 Fire Damage<br>Your Hits cannot Stun Enemies<br>10% more Damage with Hits and Ailments for each stage<br>100% increased angle per stage, up to 300%<br>8 maximum stages<br>+6 to radius per stage, up to +24<br>Final wave deals 50% more Damage with Hits<br>Final wave deals 50% more Damage with Ignite
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

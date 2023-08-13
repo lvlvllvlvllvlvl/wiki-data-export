@@ -1,0 +1,21 @@
+--- Skill:HeistDoorSmash
++++ Export
+@@ -8,14 +8,14 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 75
+-|static_stat1_id                         = movement_speed_is_%_of_base
+-|static_stat1_value                      = 220
++|static_stat1_id                         = attack_is_melee_override
++|static_stat1_value                      = 1
+ |static_stat2_id                         = ignores_proximity_shield
+ |static_stat2_value                      = 1
+ |static_stat3_id                         = is_area_damage
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = attack_is_melee_override
+-|static_stat4_value                      = 1
++|static_stat4_id                         = movement_speed_is_%_of_base
++|static_stat4_value                      = 220
+ |stat_text                               = Your Movement Speed is 220% of its base value
+ |level1                                  = True
+ |level1_level_requirement                = 0

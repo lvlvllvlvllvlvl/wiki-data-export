@@ -1,0 +1,31 @@
+--- Skill:MonsterClusterBurst
++++ Export
+@@ -10,17 +10,17 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = -29
+-|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat2_value                      = -25
+-|static_stat3_id                         = active_skill_area_damage_+%_final
+-|static_stat3_value                      = -55
+-|static_stat4_id                         = cluster_burst_spawn_amount
+-|static_stat4_value                      = 4
+-|static_stat5_id                         = base_is_projectile
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = skill_can_fire_wand_projectiles
+-|static_stat6_value                      = 1
+-|stat_text                               = 55% less Area Damage<br>Creates 4 explosions
++|static_stat2_id                         = base_is_projectile
++|static_stat2_value                      = 1
++|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat3_value                      = -25
++|static_stat4_id                         = skill_can_fire_wand_projectiles
++|static_stat4_value                      = 1
++|static_stat5_id                         = cluster_burst_spawn_amount
++|static_stat5_value                      = 4
++|static_stat6_id                         = active_skill_area_damage_+%_final
++|static_stat6_value                      = -55
++|stat_text                               = Creates 4 explosions<br>55% less Area Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

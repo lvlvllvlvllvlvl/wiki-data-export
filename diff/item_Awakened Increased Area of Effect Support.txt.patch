@@ -1,0 +1,33 @@
+--- Wiki
++++ Export
+@@ -13,15 +13,15 @@
+ |skill_id                                = SupportIncreasedAreaOfEffectPlus
+ |support_gem_letter                      = E
+ |required_level                          = 72
++|quality_type1_weight                    = 50
++|quality_type1_stat_text                 = Supported Skills deal 0.5% increased Area Damage
++|quality_type1_stat1_id                  = area_damage_+%
++|quality_type1_stat1_value               = 500
+ |static_cost_multiplier                  = 130
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+ |stat_text                               = Supported Skills have (50-54)% increased Area of Effect<br>Supported Skills deal (10-14)% more Area Damage
+-|quality_type1_weight                    = 50
+-|quality_type1_stat_text                 = Supported Skills deal 0.5% increased Area Damage
+-|static_quality_stat1_id                 = area_damage_+%
+-|static_quality_stat1_value              = 0.5
+ |level1                                  = True
+ |level1_level_requirement                = 72
+ |level1_stat_text                        = Supported Skills have 50% increased Area of Effect<br>Supported Skills deal 10% more Area Damage
+@@ -174,9 +174,9 @@
+ |level5_intelligence_requirement         = 126
+ |level5_experience                       = 1889340172
+ |level6_intelligence_requirement         = 129
+-|release_version                         = 3.9.0
+ |drop_text                               = Can also drop from [[Uber Sirus]] with [[Atlas keystone]] [[The Perfect Storm]].
+ |drop_monsters                           = Metadata/Monsters/MavenBoss/TheMaven
++|release_version                         = 3.9.0
+ }}
+ 
+ '''Awakened Increased Area of Effect Support''' is the [[Awakened Support Skill Gems|awakened]] variant of {{il|Increased Area of Effect Support}} obtainable in [[maps]].

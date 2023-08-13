@@ -1,0 +1,39 @@
+--- Skill:OriathCivilianSoulExplosionBoss
++++ Export
+@@ -7,22 +7,22 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 230
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 345
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = -25
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -25
++|static_stat2_id                         = base_is_projectile
++|static_stat2_value                      = 1
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
+ |static_stat4_id                         = projectile_spread_radius
+ |static_stat4_value                      = 30
+-|static_stat5_id                         = number_of_additional_projectiles
+-|static_stat5_value                      = 5
+-|static_stat6_id                         = cast_on_death_%
+-|static_stat6_value                      = 100
+-|static_stat7_id                         = base_is_projectile
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = is_area_damage
+-|static_stat8_value                      = 1
++|static_stat5_id                         = spell_minimum_base_physical_damage
++|static_stat5_value                      = 230
++|static_stat6_id                         = spell_maximum_base_physical_damage
++|static_stat6_value                      = 345
++|static_stat7_id                         = number_of_additional_projectiles
++|static_stat7_value                      = 5
++|static_stat8_id                         = cast_on_death_%
++|static_stat8_value                      = 100
+ |stat_text                               = Deals 230 to 345 Physical Damage<br>Fires 5 additional Projectiles<br>100% chance to Trigger this Spell on Death
+ |level1                                  = True
+ |level1_level_requirement                = 45

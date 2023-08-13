@@ -1,0 +1,47 @@
+--- Skill:TangledMinionArc
++++ Export
+@@ -8,25 +8,25 @@
+ |static_damage_effectiveness             = 80
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 1
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 5
+-|static_stat3_id                         = arc_chain_distance
+-|static_stat3_value                      = 35
+-|static_stat4_id                         = arc_damage_+%_final_for_each_remaining_chain
+-|static_stat4_value                      = 15
+-|static_stat5_id                         = lightning_ailment_effect_+%
+-|static_stat5_value                      = 10
+-|static_stat6_id                         = number_of_chains
+-|static_stat6_value                      = 4
+-|static_stat7_id                         = base_chance_to_shock_%
+-|static_stat7_value                      = 10
+-|static_stat8_id                         = arc_enhanced_behaviour
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = disable_visual_hit_effect
+-|static_stat9_value                      = 1
+-|stat_text                               = Deals 1 to 5 Lightning Damage<br>15% more Damage for each remaining Chain<br>10% increased Effect of Lightning Ailments<br>Chains +4 Times<br>10% chance to Shock enemies
++|static_stat1_id                         = arc_chain_distance
++|static_stat1_value                      = 35
++|static_stat2_id                         = arc_enhanced_behaviour
++|static_stat2_value                      = 1
++|static_stat3_id                         = disable_visual_hit_effect
++|static_stat3_value                      = 1
++|static_stat4_id                         = spell_minimum_base_lightning_damage
++|static_stat4_value                      = 1
++|static_stat5_id                         = spell_maximum_base_lightning_damage
++|static_stat5_value                      = 5
++|static_stat6_id                         = base_chance_to_shock_%
++|static_stat6_value                      = 10
++|static_stat7_id                         = number_of_chains
++|static_stat7_value                      = 4
++|static_stat8_id                         = arc_damage_+%_final_for_each_remaining_chain
++|static_stat8_value                      = 15
++|static_stat9_id                         = lightning_ailment_effect_+%
++|static_stat9_value                      = 10
++|stat_text                               = Deals 1 to 5 Lightning Damage<br>10% chance to Shock enemies<br>Chains +4 Times<br>15% more Damage for each remaining Chain<br>10% increased Effect of Lightning Ailments
+ |level1                                  = True
+ |level1_level_requirement                = 0
+ }}

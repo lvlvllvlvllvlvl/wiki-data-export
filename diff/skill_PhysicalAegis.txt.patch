@@ -1,0 +1,24 @@
+--- Skill:PhysicalAegis
++++ Export
+@@ -11,15 +11,15 @@
+ |static_stat1_value                      = 10000
+ |static_stat2_id                         = aegis_unique_shield_max_value
+ |static_stat2_value                      = 1000
+-|static_stat3_id                         = active_skill_display_aegis_variation
+-|static_stat3_value                      = 4
+-|static_stat4_id                         = cast_on_gain_skill
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = spell_uncastable_if_triggerable
++|static_stat3_id                         = spell_uncastable_if_triggerable
++|static_stat3_value                      = 1
++|static_stat4_id                         = active_skill_display_aegis_variation
++|static_stat4_value                      = 4
++|static_stat5_id                         = cast_on_gain_skill
+ |static_stat5_value                      = 1
+ |static_stat6_id                         = no_cost
+ |static_stat6_value                      = 1
+-|stat_text                               = This Spell is Triggered when Gained<br>You cannot Cast this Spell directly<br>This Skill Costs nothing
++|stat_text                               = You cannot Cast this Spell directly<br>This Spell is Triggered when Gained<br>This Skill Costs nothing
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

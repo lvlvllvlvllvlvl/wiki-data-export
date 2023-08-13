@@ -1,0 +1,39 @@
+--- Skill:MetamorphosisShockNovaTargetLocation
++++ Export
+@@ -12,21 +12,21 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 2
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 6
+-|static_stat3_id                         = base_cast_speed_+%
+-|static_stat3_value                      = 50
+-|static_stat4_id                         = base_chance_to_shock_%
+-|static_stat4_value                      = 15
+-|static_stat5_id                         = newshocknova_first_ring_damage_+%_final
+-|static_stat5_value                      = -50
+-|static_stat6_id                         = nova_spells_cast_at_target_location
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = is_area_damage
+-|static_stat7_value                      = 1
+-|stat_text                               = Deals 2 to 6 Lightning Damage<br>50% increased Cast Speed<br>15% chance to Shock enemies<br>Ring deals 50% less Damage<br>Nova Spells deal 30% less Damage to Players<br>Nova Spells Cast at the targeted location instead of around you
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_minimum_base_lightning_damage
++|static_stat2_value                      = 2
++|static_stat3_id                         = spell_maximum_base_lightning_damage
++|static_stat3_value                      = 6
++|static_stat4_id                         = nova_spells_cast_at_target_location
++|static_stat4_value                      = 1
++|static_stat5_id                         = base_cast_speed_+%
++|static_stat5_value                      = 50
++|static_stat6_id                         = base_chance_to_shock_%
++|static_stat6_value                      = 15
++|static_stat7_id                         = newshocknova_first_ring_damage_+%_final
++|static_stat7_value                      = -50
++|stat_text                               = Deals 2 to 6 Lightning Damage<br>Nova Spells deal 30% less Damage to Players with Hits and Ailments<br>Nova Spells Cast at the targeted location instead of around you<br>50% increased Cast Speed<br>15% chance to Shock enemies<br>Ring deals 50% less Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

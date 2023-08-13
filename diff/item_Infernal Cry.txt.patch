@@ -1,0 +1,27 @@
+--- Wiki
++++ Export
+@@ -180,8 +180,6 @@
+ |level40_cost_amounts                    = 23
+ |level40_duration                        = 6.6
+ |item_class_id_restriction               = One Hand Sword, Thrusting One Hand Sword, Two Hand Sword, One Hand Axe, Two Hand Axe, One Hand Mace, Sceptre, Two Hand Mace, Staff, Unarmed, Warstaff
+-|level1_damage_effectiveness             = 100
+-|level1_damage_multiplier                = 100
+ |level2_damage_effectiveness             = 104
+ |level2_damage_multiplier                = 103.75
+ |level3_damage_effectiveness             = 108
+@@ -272,13 +270,12 @@
+ |quality_type4_stat1_id                  = dummy_stat_display_nothing
+ |quality_type4_stat1_value               = 0
+ |quality_type4_stat_text                 = 
+-|static_cost_types                       = Mana
+ |stat_text                               = Base duration is (5-5.9) seconds<br>(0-38)% increased Warcry Speed<br>Damage cannot be Reflected<br>Explosion deals Fire Damage equal to 8% of the Monster's maximum Life<br>Counts total Power of Enemies in Range<br>Covers Enemies in Ash, causing 3% increased Fire Damage taken per 5 Power, up to 20%<br>Exerts the next 6 Melee Attacks you perform<br>Exerted Attacks Trigger Combust the first time they deal a Melee Hit<br>60% of Physical Damage Converted to Fire Damage<br>This Skill is Triggered by Attacks Exerted by Infernal Cry
+ |static_stat1_id                         = base_skill_show_average_damage_instead_of_dps
+ |static_stat1_value                      = 1
+-|static_stat2_id                         = display_skill_deals_secondary_damage
++|static_stat2_id                         = cannot_cancel_skill_before_contact_point
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = cannot_cancel_skill_before_contact_point
++|static_stat3_id                         = display_skill_deals_secondary_damage
+ |static_stat3_value                      = 1
+ |static_stat4_id                         = damage_cannot_be_reflected
+ |static_stat4_value                      = 1

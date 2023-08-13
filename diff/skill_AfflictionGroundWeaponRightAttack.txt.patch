@@ -1,0 +1,14 @@
+--- Skill:AfflictionGroundWeaponRightAttack
++++ Export
+@@ -13,9 +13,9 @@
+ |static_stat2_value                      = 3000
+ |static_stat3_id                         = corrupted_blood_on_hit_num_stacks
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = cannot_stun
++|static_stat4_id                         = is_area_damage
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = is_area_damage
++|static_stat5_id                         = cannot_stun
+ |static_stat5_value                      = 1
+ |stat_text                               = Your Hits cannot Stun Enemies
+ |level1                                  = True

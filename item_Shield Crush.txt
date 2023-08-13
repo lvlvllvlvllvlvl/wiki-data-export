@@ -34,11 +34,11 @@
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
-|static_stat1_id                         = is_area_damage
+|static_stat1_id                         = attack_is_melee_override
 |static_stat1_value                      = 1
-|static_stat2_id                         = attack_is_melee_override
+|static_stat2_id                         = console_skill_dont_chase
 |static_stat2_value                      = 1
-|static_stat3_id                         = console_skill_dont_chase
+|static_stat3_id                         = is_area_damage
 |static_stat3_value                      = 1
 |stat_text                               = (4-172) to (6-258) Base Off Hand Physical Damage<br>(3-5) to (4-7) Added Physical Damage per 15 Armour or Evasion Rating on Shield<br>+(0-6) to radius
 |level1                                  = True

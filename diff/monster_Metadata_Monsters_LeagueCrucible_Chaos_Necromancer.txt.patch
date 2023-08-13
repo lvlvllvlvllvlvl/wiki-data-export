@@ -1,0 +1,20 @@
+--- Monster:Metadata/Monsters/LeagueCrucible/Chaos/Necromancer
++++ Export
+@@ -0,0 +1,17 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueCrucible/Chaos/Necromancer
++|monster_type_id                  = CrucibleNecromancer
++|mod_ids                          = MonsterRaisesUndeadText
++|tags                             = animal_claw_weapon, demon, flesh_armour, is_unarmed, medium_height, melee, not_dex, not_str, physical_affinity, raises_dead, very_slow_movement
++|skill_ids                        = MeleeAtAnimationSpeedChaos, NecromancerReviveSkeleton, GSReaperWraithFrontalBlastCrucible
++|name                             = Forged Necromancer
++|size                             = 3
++|minimum_attack_distance          = 4
++|maximum_attack_distance          = 12
++|model_size_multiplier            = 1.25
++|experience_multiplier            = 2.0
++|damage_multiplier                = 1.8
++|health_multiplier                = 3.2
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.17
++}}

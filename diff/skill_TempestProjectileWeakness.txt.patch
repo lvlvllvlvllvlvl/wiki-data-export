@@ -1,0 +1,14 @@
+--- Skill:TempestProjectileWeakness
++++ Export
+@@ -7,9 +7,10 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 12
+ |static_stat1_id                         = base_skill_effect_duration
+ |static_stat1_value                      = 12000
+-|stat_text                               = Cursed enemies take (32-34)% increased Damage from Projectile Hits<br>Base duration is 12 seconds
++|stat_text                               = Base duration is 12 seconds<br>Cursed enemies take (32-34)% increased Damage from Projectile Hits
+ |level1                                  = True
+ |level1_level_requirement                = 25
+ |level1_stat_text                        = Cursed enemies take 32% increased Damage from Projectile Hits

@@ -1,0 +1,25 @@
+--- Skill:DarkExileRainOfArrows
++++ Export
+@@ -12,14 +12,14 @@
+ |static_stat1_value                      = 39
+ |static_stat2_id                         = animation_effect_variation
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = active_skill_damage_+%_final
+-|static_stat3_value                      = -25
+-|static_stat4_id                         = physical_damage_+%
+-|static_stat4_value                      = 51
+-|static_stat5_id                         = base_is_projectile
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = is_area_damage
+-|static_stat6_value                      = 1
++|static_stat3_id                         = base_is_projectile
++|static_stat3_value                      = 1
++|static_stat4_id                         = is_area_damage
++|static_stat4_value                      = 1
++|static_stat5_id                         = active_skill_damage_+%_final
++|static_stat5_value                      = -25
++|static_stat6_id                         = physical_damage_+%
++|static_stat6_value                      = 51
+ |stat_text                               = Deals 25% less Damage<br>51% increased Physical Damage
+ |level1                                  = True
+ |level1_level_requirement                = 73

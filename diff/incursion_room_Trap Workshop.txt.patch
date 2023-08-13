@@ -1,0 +1,16 @@
+--- Trap Workshop
++++ Export
+@@ -1,11 +1,12 @@
+ {{Incursion room
+ |id                      = TrapRoomI
+ |name                    = Trap Workshop
+-|description             = Adds traps throughout the Temple.
++|description             = Monsters throughout the Temple have increased area of effect.<br />Adds traps throughout the Temple.
+ |flavour_text            = From the hollows, death soon follows.
+ |tier                    = 1
+ |upgrade_room_id         = TrapRoomII
+ |icon                    = TrapRoom
++|modifier_ids            = IncursionMonsterAreaOfEffect1, IncursionTempleRoomBonus1_, IncursionTempleTrapVialChance1
+ |architect_metadata_id   = Metadata/Monsters/VaalArchitect/VaalArchitect4
+ |architect_name          = Matatl, Architect of Fortifications
+ }}

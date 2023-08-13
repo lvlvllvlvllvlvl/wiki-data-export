@@ -1,0 +1,41 @@
+--- Skill:ExpandingPulse
++++ Export
+@@ -10,23 +10,23 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 14
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 21
+-|static_stat3_id                         = skill_physical_damage_%_to_convert_to_fire
+-|static_stat3_value                      = 60
+-|static_stat4_id                         = always_ignite
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = skill_cannot_be_interrupted
++|static_stat2_value                      = 1
++|static_stat3_id                         = skill_cannot_be_knocked_back
++|static_stat3_value                      = 1
++|static_stat4_id                         = skill_cannot_be_stunned
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = is_area_damage
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = skill_cannot_be_interrupted
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = skill_cannot_be_stunned
++|static_stat5_id                         = spell_minimum_base_physical_damage
++|static_stat5_value                      = 14
++|static_stat6_id                         = spell_maximum_base_physical_damage
++|static_stat6_value                      = 21
++|static_stat7_id                         = always_ignite
+ |static_stat7_value                      = 1
+-|static_stat8_id                         = skill_cannot_be_knocked_back
+-|static_stat8_value                      = 1
+-|stat_text                               = Deals 14 to 21 Physical Damage<br>60% of Physical Damage Converted to Fire Damage<br>Hits always Ignite
++|static_stat8_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat8_value                      = 60
++|stat_text                               = Deals 14 to 21 Physical Damage<br>Hits always Ignite<br>60% of Physical Damage Converted to Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

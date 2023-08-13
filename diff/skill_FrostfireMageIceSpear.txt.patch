@@ -1,0 +1,35 @@
+--- Skill:FrostfireMageIceSpear
++++ Export
+@@ -8,20 +8,20 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_cold_damage
+-|static_stat1_value                      = 8
+-|static_stat2_id                         = spell_maximum_base_cold_damage
+-|static_stat2_value                      = 11
++|static_stat1_id                         = active_skill_chill_duration_+%_final
++|static_stat1_value                      = 78
++|static_stat2_id                         = base_is_projectile
++|static_stat2_value                      = 1
+ |static_stat3_id                         = spell_maximum_action_distance_+%
+ |static_stat3_value                      = -25
+-|static_stat4_id                         = active_skill_chill_duration_+%_final
+-|static_stat4_value                      = 78
+-|static_stat5_id                         = number_of_additional_projectiles
+-|static_stat5_value                      = 2
+-|static_stat6_id                         = ice_spear_second_form_critical_strike_chance_+%
+-|static_stat6_value                      = 600
+-|static_stat7_id                         = base_is_projectile
+-|static_stat7_value                      = 1
++|static_stat4_id                         = spell_minimum_base_cold_damage
++|static_stat4_value                      = 8
++|static_stat5_id                         = spell_maximum_base_cold_damage
++|static_stat5_value                      = 11
++|static_stat6_id                         = number_of_additional_projectiles
++|static_stat6_value                      = 2
++|static_stat7_id                         = ice_spear_second_form_critical_strike_chance_+%
++|static_stat7_value                      = 600
+ |stat_text                               = Deals 8 to 11 Cold Damage<br>Fires 2 additional Projectiles<br>Second form has 600% increased Critical Strike Chance
+ |level1                                  = True
+ |level1_level_requirement                = 3

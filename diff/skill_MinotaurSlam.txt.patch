@@ -1,0 +1,32 @@
+--- Skill:MinotaurSlam
++++ Export
+@@ -9,17 +9,18 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat1_value                      = -50
+-|static_stat2_id                         = track_which_enemies_hit_index
+-|static_stat2_value                      = 21
+-|static_stat3_id                         = active_skill_damage_+%_final
+-|static_stat3_value                      = 50
+-|static_stat4_id                         = base_skill_effect_duration
+-|static_stat4_value                      = 35000
+-|static_stat5_id                         = always_stun
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = is_area_damage
++|static_duration                         = 35
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat2_value                      = -50
++|static_stat3_id                         = track_which_enemies_hit_index
++|static_stat3_value                      = 21
++|static_stat4_id                         = active_skill_damage_+%_final
++|static_stat4_value                      = 50
++|static_stat5_id                         = base_skill_effect_duration
++|static_stat5_value                      = 35000
++|static_stat6_id                         = always_stun
+ |static_stat6_value                      = 1
+ |stat_text                               = Deals 50% more Damage<br>Base duration is 35 seconds<br>Stuns Enemies
+ |level1                                  = True

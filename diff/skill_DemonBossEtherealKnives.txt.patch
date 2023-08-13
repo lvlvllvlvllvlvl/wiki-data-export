@@ -1,0 +1,46 @@
+--- Skill:DemonBossEtherealKnives
++++ Export
+@@ -10,16 +10,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = active_skill_cast_speed_+%_final
+-|static_stat1_value                      = -20
+-|static_stat2_id                         = base_cast_speed_+%
+-|static_stat2_value                      = 20
+-|static_stat3_id                         = base_projectile_speed_+%
+-|static_stat3_value                      = 120
+-|static_stat4_id                         = number_of_additional_projectiles
+-|static_stat4_value                      = 6
+-|static_stat5_id                         = base_is_projectile
+-|static_stat5_value                      = 1
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = active_skill_cast_speed_+%_final
++|static_stat2_value                      = -20
++|static_stat3_id                         = base_cast_speed_+%
++|static_stat3_value                      = 20
++|static_stat4_id                         = base_projectile_speed_+%
++|static_stat4_value                      = 120
++|static_stat5_id                         = number_of_additional_projectiles
++|static_stat5_value                      = 6
+ |stat_text                               = Deals (50-395) to (75-593) Physical Damage<br>20% less Cast Speed<br>20% increased Cast Speed<br>120% increased Projectile Speed<br>Fires 6 additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 33
+@@ -31,10 +31,10 @@
+ |level2                                  = True
+ |level2_level_requirement                = 68
+ |level2_stat_text                        = Deals 395 to 593 Physical Damage
+-|level2_stat1_id                         = spell_minimum_base_physical_damage
+-|level2_stat1_value                      = 395
+-|level2_stat2_id                         = spell_maximum_base_physical_damage
+-|level2_stat2_value                      = 593
+-|level2_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|level2_stat3_value                      = -35
++|level2_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|level2_stat1_value                      = -35
++|level2_stat2_id                         = spell_minimum_base_physical_damage
++|level2_stat2_value                      = 395
++|level2_stat3_id                         = spell_maximum_base_physical_damage
++|level2_stat3_value                      = 593
+ }}

@@ -1,0 +1,41 @@
+--- Skill:BloodlinesYellowElementalPyroFireball
++++ Export
+@@ -8,22 +8,22 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_chaos_damage
+-|static_stat1_value                      = 2
+-|static_stat2_id                         = spell_maximum_base_chaos_damage
+-|static_stat2_value                      = 3
+-|static_stat3_id                         = projectile_spiral_nova_starting_angle_offset
+-|static_stat3_value                      = -15
+-|static_stat4_id                         = projectile_spiral_nova_time_ms
+-|static_stat4_value                      = 800
+-|static_stat5_id                         = spell_maximum_action_distance_+%
+-|static_stat5_value                      = -50
+-|static_stat6_id                         = base_number_of_projectiles_in_spiral_nova
+-|static_stat6_value                      = 8
+-|static_stat7_id                         = projectile_spiral_nova_angle
+-|static_stat7_value                      = 30
+-|static_stat8_id                         = base_is_projectile
+-|static_stat8_value                      = 1
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = projectile_spiral_nova_starting_angle_offset
++|static_stat2_value                      = -15
++|static_stat3_id                         = projectile_spiral_nova_time_ms
++|static_stat3_value                      = 800
++|static_stat4_id                         = spell_maximum_action_distance_+%
++|static_stat4_value                      = -50
++|static_stat5_id                         = spell_minimum_base_chaos_damage
++|static_stat5_value                      = 2
++|static_stat6_id                         = spell_maximum_base_chaos_damage
++|static_stat6_value                      = 3
++|static_stat7_id                         = base_number_of_projectiles_in_spiral_nova
++|static_stat7_value                      = 8
++|static_stat8_id                         = projectile_spiral_nova_angle
++|static_stat8_value                      = 30
+ |stat_text                               = Deals 2 to 3 Chaos Damage<br>Fires 8 Projectiles in a spiral
+ |level1                                  = True
+ |level1_level_requirement                = 3

@@ -1,0 +1,27 @@
+--- Skill:BookMultiProjectile
++++ Export
+@@ -7,17 +7,17 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_maximum_action_distance_+%
+-|static_stat1_value                      = -30
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
+ |static_stat2_id                         = monster_projectile_variation
+ |static_stat2_value                      = 7
+-|static_stat3_id                         = number_of_additional_projectiles
+-|static_stat3_value                      = 4
++|static_stat3_id                         = spell_maximum_action_distance_+%
++|static_stat3_value                      = -30
+ |static_stat4_id                         = base_projectile_speed_+%
+ |static_stat4_value                      = 30
+-|static_stat5_id                         = base_is_projectile
+-|static_stat5_value                      = 1
+-|stat_text                               = Deals (15-40)% less Physical Damage<br>Fires 4 additional Projectiles<br>30% increased Projectile Speed
++|static_stat5_id                         = number_of_additional_projectiles
++|static_stat5_value                      = 4
++|stat_text                               = Deals (15-40)% less Physical Damage<br>30% increased Projectile Speed<br>Fires 4 additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_stat_text                        = Deals 15% less Physical Damage

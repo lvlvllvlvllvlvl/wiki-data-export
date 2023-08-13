@@ -1,0 +1,29 @@
+--- Skill:FireElementalFlameRedMaps
++++ Export
+@@ -7,17 +7,17 @@
+ |static_damage_effectiveness             = 20
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat1_value                      = -25
+-|static_stat2_id                         = spell_maximum_action_distance_+%
+-|static_stat2_value                      = -77
+-|static_stat3_id                         = active_skill_cast_speed_+%_final
+-|static_stat3_value                      = -89
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat2_value                      = -25
++|static_stat3_id                         = spell_maximum_action_distance_+%
++|static_stat3_value                      = -77
+ |static_stat4_id                         = always_pierce
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = base_is_projectile
+-|static_stat5_value                      = 1
+-|stat_text                               = Deals (2-288) to (4-432) Fire Damage<br>89% less Cast Speed<br>Projectiles Pierce all Targets
++|static_stat5_id                         = active_skill_cast_speed_+%_final
++|static_stat5_value                      = -89
++|stat_text                               = Deals (2-288) to (4-432) Fire Damage<br>Projectiles Pierce all Targets<br>89% less Cast Speed
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ |level1_stat_text                        = Deals 2 to 4 Fire Damage

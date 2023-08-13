@@ -1,0 +1,24 @@
+--- Skill:HeistTwinsGroundSlamTriggeredVin
++++ Export
+@@ -7,14 +7,15 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 450
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 2
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = 50
+-|static_stat2_id                         = base_skill_effect_duration
+-|static_stat2_value                      = 2000
+-|static_stat3_id                         = skill_physical_damage_%_to_convert_to_cold
+-|static_stat3_value                      = 50
+-|static_stat4_id                         = is_area_damage
+-|static_stat4_value                      = 1
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = base_skill_effect_duration
++|static_stat3_value                      = 2000
++|static_stat4_id                         = skill_physical_damage_%_to_convert_to_cold
++|static_stat4_value                      = 50
+ |stat_text                               = Base duration is 2 seconds<br>50% of Physical Damage Converted to Cold Damage
+ |level1                                  = True
+ |level1_level_requirement                = 0

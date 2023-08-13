@@ -1,0 +1,42 @@
+--- Skill:MonsterBurningArrowAtAnimationSpeed
++++ Export
+@@ -8,23 +8,24 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_skill_effect_duration
+-|static_stat1_value                      = 4000
+-|static_stat2_id                         = skill_physical_damage_%_to_convert_to_fire
+-|static_stat2_value                      = 100
+-|static_stat3_id                         = physical_damage_+%
+-|static_stat3_value                      = 25
+-|static_stat4_id                         = burn_damage_+%
+-|static_stat4_value                      = 50
++|static_duration                         = 4
++|static_stat1_id                         = action_attack_or_cast_time_uses_animation_length
++|static_stat1_value                      = 1
++|static_stat2_id                         = skill_can_fire_arrows
++|static_stat2_value                      = 1
++|static_stat3_id                         = active_skill_damage_+%_final
++|static_stat3_value                      = 35
++|static_stat4_id                         = base_skill_effect_duration
++|static_stat4_value                      = 4000
+ |static_stat5_id                         = base_chance_to_ignite_%
+ |static_stat5_value                      = 50
+-|static_stat6_id                         = active_skill_damage_+%_final
+-|static_stat6_value                      = 35
+-|static_stat7_id                         = skill_can_fire_arrows
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = action_attack_or_cast_time_uses_animation_length
+-|static_stat8_value                      = 1
+-|stat_text                               = Base duration is 4 seconds<br>100% of Physical Damage Converted to Fire Damage<br>25% increased Physical Damage<br>50% increased Burning Damage<br>50% chance to Ignite enemies<br>Deals 35% more Damage
++|static_stat6_id                         = burn_damage_+%
++|static_stat6_value                      = 50
++|static_stat7_id                         = physical_damage_+%
++|static_stat7_value                      = 25
++|static_stat8_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat8_value                      = 100
++|stat_text                               = Deals 35% more Damage<br>Base duration is 4 seconds<br>50% chance to Ignite enemies<br>50% increased Burning Damage<br>25% increased Physical Damage<br>100% of Physical Damage Converted to Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

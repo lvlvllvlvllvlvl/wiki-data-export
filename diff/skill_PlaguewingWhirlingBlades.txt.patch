@@ -1,0 +1,31 @@
+--- Skill:PlaguewingWhirlingBlades
++++ Export
+@@ -10,18 +10,19 @@
+ |static_damage_effectiveness             = 60
+ |static_damage_multiplier                = 60
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = whirling_blades_base_ground_chaos_damage_to_deal_per_minute
+-|static_stat1_value                      = 11206
++|static_duration                         = 6
++|static_stat1_id                         = cast_time_overrides_attack_duration
++|static_stat1_value                      = 1
+ |static_stat2_id                         = ground_caustic_art_variation
+ |static_stat2_value                      = 2
+-|static_stat3_id                         = monster_flurry
++|static_stat3_id                         = ignores_proximity_shield
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = base_skill_effect_duration
+-|static_stat4_value                      = 6000
+-|static_stat5_id                         = cast_time_overrides_attack_duration
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = ignores_proximity_shield
+-|static_stat6_value                      = 1
++|static_stat4_id                         = monster_flurry
++|static_stat4_value                      = 1
++|static_stat5_id                         = whirling_blades_base_ground_chaos_damage_to_deal_per_minute
++|static_stat5_value                      = 11206
++|static_stat6_id                         = base_skill_effect_duration
++|static_stat6_value                      = 6000
+ |stat_text                               = Base duration is 6 seconds
+ |level1                                  = True
+ |level1_level_requirement                = 68

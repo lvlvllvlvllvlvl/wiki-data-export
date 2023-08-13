@@ -1,0 +1,20 @@
+--- Wiki
++++ Export
+@@ -0,0 +1,17 @@
++{{Passive skill
++|id                                  = AscendancyElementalist7
++|int_id                              = 64588
++|name                                = Beacon of Ruin
++|ascendancy_class                    = Elementalist
++|is_notable                          = True
++|icon                                = MaliciousInspiration (Elementalist)
++|stat1_id                            = chill_minimum_slow_%
++|stat1_value                         = 10
++|stat2_id                            = shock_minimum_damage_taken_increase_%
++|stat2_value                         = 15
++|stat3_id                            = elementalist_ignite_damage_+%_final
++|stat3_value                         = 20
++|stat4_id                            = non_damaging_ailment_effect_+%
++|stat4_value                         = 30
++|stat_text                           = Chills from your [[Hit|Hits]] always reduce Action Speed by at least 10%<br>[[Shock|Shocks]] from your [[Hit|Hits]] always increase Damage taken by at least 15%<br>20% more Damage with [[Ignite]]<br>30% increased Effect of Non-Damaging Ailments
++}}

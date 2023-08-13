@@ -1,0 +1,37 @@
+--- Skill:DelveAbyssCultistFadingProjectileCooldown1
++++ Export
+@@ -9,23 +9,23 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 8
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 12
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_projectile_variation
++|static_stat2_value                      = 45
+ |static_stat3_id                         = monster_reverse_point_blank_damage_-%_at_minimum_range
+ |static_stat3_value                      = 50
+-|static_stat4_id                         = monster_projectile_variation
+-|static_stat4_value                      = 45
+-|static_stat5_id                         = number_of_additional_projectiles
+-|static_stat5_value                      = 6
++|static_stat4_id                         = spell_minimum_base_physical_damage
++|static_stat4_value                      = 8
++|static_stat5_id                         = spell_maximum_base_physical_damage
++|static_stat5_value                      = 12
+ |static_stat6_id                         = always_pierce
+ |static_stat6_value                      = 1
+ |static_stat7_id                         = projectiles_nova
+ |static_stat7_value                      = 1
+-|static_stat8_id                         = base_is_projectile
+-|static_stat8_value                      = 1
+-|stat_text                               = Deals 8 to 12 Physical Damage<br>Fires 6 additional Projectiles<br>Projectiles Pierce all Targets<br>Fires Projectiles in a circle
++|static_stat8_id                         = number_of_additional_projectiles
++|static_stat8_value                      = 6
++|stat_text                               = Deals 8 to 12 Physical Damage<br>Projectiles Pierce all Targets<br>Fires Projectiles in a circle<br>Fires 6 additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

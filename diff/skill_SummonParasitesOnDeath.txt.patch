@@ -1,0 +1,17 @@
+--- Skill:SummonParasitesOnDeath
++++ Export
+@@ -7,10 +7,10 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = number_of_monsters_to_summon
+-|static_stat1_value                      = 30
+-|static_stat2_id                         = alternate_minion
+-|static_stat2_value                      = 1
++|static_stat1_id                         = alternate_minion
++|static_stat1_value                      = 1
++|static_stat2_id                         = number_of_monsters_to_summon
++|static_stat2_value                      = 30
+ |static_stat3_id                         = cast_on_death_%
+ |static_stat3_value                      = 100
+ |stat_text                               = 100% chance to Trigger this Spell on Death

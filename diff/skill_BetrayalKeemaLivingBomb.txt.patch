@@ -1,0 +1,45 @@
+--- Skill:BetrayalKeemaLivingBomb
++++ Export
+@@ -13,29 +13,29 @@
+ |static_stat1_value                      = 100
+ |static_stat2_id                         = is_area_damage
+ |static_stat2_value                      = 1
+-|stat_text                               = Deals (16-17029) to (23-25543) Fire Damage<br>(100-134)% chance to Ignite enemies<br>Deals (20-55)% less Damage<br>(0-34)% increased Cast Speed
++|stat_text                               = Deals (16-17029) to (23-25543) Fire Damage<br>Deals (20-55)% less Damage<br>(0-34)% increased Cast Speed<br>(100-134)% chance to Ignite enemies
+ |level1                                  = True
+ |level1_level_requirement                = 1
+-|level1_stat_text                        = Deals 16 to 23 Fire Damage<br>100% chance to Ignite enemies<br>Deals 20% less Damage
++|level1_stat_text                        = Deals 16 to 23 Fire Damage<br>Deals 20% less Damage<br>100% chance to Ignite enemies
+ |level1_stat1_id                         = spell_minimum_base_fire_damage
+ |level1_stat1_value                      = 16
+ |level1_stat2_id                         = spell_maximum_base_fire_damage
+ |level1_stat2_value                      = 23
+-|level1_stat3_id                         = base_chance_to_ignite_%
+-|level1_stat3_value                      = 100
+-|level1_stat4_id                         = active_skill_damage_+%_final
+-|level1_stat4_value                      = -20
++|level1_stat3_id                         = active_skill_damage_+%_final
++|level1_stat3_value                      = -20
++|level1_stat4_id                         = base_chance_to_ignite_%
++|level1_stat4_value                      = 100
+ |level2                                  = True
+ |level2_level_requirement                = 84
+-|level2_stat_text                        = Deals 17029 to 25543 Fire Damage<br>134% chance to Ignite enemies<br>Deals 55% less Damage<br>34% increased Cast Speed
++|level2_stat_text                        = Deals 17029 to 25543 Fire Damage<br>Deals 55% less Damage<br>34% increased Cast Speed<br>134% chance to Ignite enemies
+ |level2_stat1_id                         = spell_minimum_base_fire_damage
+ |level2_stat1_value                      = 17029
+ |level2_stat2_id                         = spell_maximum_base_fire_damage
+ |level2_stat2_value                      = 25543
+-|level2_stat3_id                         = base_chance_to_ignite_%
+-|level2_stat3_value                      = 134
+-|level2_stat4_id                         = active_skill_damage_+%_final
+-|level2_stat4_value                      = -55
+-|level2_stat5_id                         = base_cast_speed_+%
+-|level2_stat5_value                      = 34
++|level2_stat3_id                         = active_skill_damage_+%_final
++|level2_stat3_value                      = -55
++|level2_stat4_id                         = base_cast_speed_+%
++|level2_stat4_value                      = 34
++|level2_stat5_id                         = base_chance_to_ignite_%
++|level2_stat5_value                      = 134
+ }}

@@ -1,0 +1,33 @@
+--- Skill:ElderGuardianArenaLightningWarp
++++ Export
+@@ -7,18 +7,18 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 3
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 10
+-|static_stat3_id                         = base_cast_speed_+%
+-|static_stat3_value                      = 100
+-|static_stat4_id                         = skill_effect_duration_+%
+-|static_stat4_value                      = -90
+-|static_stat5_id                         = is_area_damage
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = lightning_warp_use_non_screen_shake_effects
+-|static_stat6_value                      = 1
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = lightning_warp_use_non_screen_shake_effects
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_minimum_base_lightning_damage
++|static_stat3_value                      = 3
++|static_stat4_id                         = spell_maximum_base_lightning_damage
++|static_stat4_value                      = 10
++|static_stat5_id                         = base_cast_speed_+%
++|static_stat5_value                      = 100
++|static_stat6_id                         = skill_effect_duration_+%
++|static_stat6_value                      = -90
+ |stat_text                               = Deals 3 to 10 Lightning Damage<br>100% increased Cast Speed<br>90% reduced Duration
+ |level1                                  = True
+ |level1_level_requirement                = 1

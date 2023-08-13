@@ -1,0 +1,20 @@
+--- Area:MapWorldsAlleyways
++++ Export
+@@ -4,14 +4,15 @@
+ |act                              = 11
+ |area_level                       = 69
+ |area_type_tags                   = urban
+-|tags                             = map, area_with_water, einharmaps, marketplace_area, kitava_cultist_area, bridge_area
++|tags                             = map, area_with_water, einharmaps, marketplace_area, kitava_cultist_area, bridge_area, city_home_map
+ |loading_screen                   = Maps
+ |parent_area_id                   = 2_11_endgame_town
+ |boss_monster_ids                 = Metadata/Monsters/BlacksmithGolem/BlacksmithGolemMap
+ |entry_text                       = An unwashed gutter, where wretches cut purses and throats alike.
+ |entry_npc                        = The Shaper
+-|vaal_area_spawn_chance           = 8
+ |vaal_area_ids                    = MapSideArea5_3_2
+ |is_map_area                      = True
++|flavour_text                     = An unwashed gutter, where wretches
++cut purses and throats alike.
+ |main_page                        = Alleyways Map
+ }}

@@ -1,0 +1,25 @@
+--- Skill:DeceleratingProjectileRin
++++ Export
+@@ -7,16 +7,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = total_projectile_spread_angle_override
+-|static_stat1_value                      = 5
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
+ |static_stat2_id                         = decelerating_projectile_speed_variation_+%
+ |static_stat2_value                      = 100
+ |static_stat3_id                         = number_of_projectiles_override
+ |static_stat3_value                      = 2
+-|static_stat4_id                         = skill_physical_damage_%_to_convert_to_cold
+-|static_stat4_value                      = 75
+-|static_stat5_id                         = base_is_projectile
+-|static_stat5_value                      = 1
++|static_stat4_id                         = total_projectile_spread_angle_override
++|static_stat4_value                      = 5
++|static_stat5_id                         = skill_physical_damage_%_to_convert_to_cold
++|static_stat5_value                      = 75
+ |stat_text                               = Deals (0-200)% more Damage<br>75% of Physical Damage Converted to Cold Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1

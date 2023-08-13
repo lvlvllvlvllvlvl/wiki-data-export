@@ -1,0 +1,22 @@
+--- Skill:WbEnduringCry
++++ Export
+@@ -9,13 +9,14 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = life_regeneration_rate_per_minute_%
+-|static_stat1_value                      = 600
+-|static_stat2_id                         = base_skill_effect_duration
+-|static_stat2_value                      = 1000
++|static_duration                         = 1
++|static_stat1_id                         = base_skill_effect_duration
++|static_stat1_value                      = 1000
++|static_stat2_id                         = life_regeneration_rate_per_minute_%
++|static_stat2_value                      = 600
+ |static_stat3_id                         = enduring_cry_grants_x_additional_endurance_charges
+ |static_stat3_value                      = 2
+-|stat_text                               = Regenerate 10% of Life per second<br>Base duration is 1 seconds<br>Grants 2 additional Endurance Charges
++|stat_text                               = Base duration is 1 seconds<br>Regenerate 10% of Life per second<br>Grants 2 additional Endurance Charges
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ |level2                                  = True

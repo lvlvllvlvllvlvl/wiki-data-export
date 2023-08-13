@@ -1,0 +1,42 @@
+--- Skill:AfflictionDemonLightningGigaBallUnique
++++ Export
+@@ -8,23 +8,23 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 3
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 9
+-|static_stat3_id                         = active_skill_shock_duration_+%_final
+-|static_stat3_value                      = 100
+-|static_stat4_id                         = number_of_projectiles_override
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = projectile_minimum_range
+-|static_stat5_value                      = 30
+-|static_stat6_id                         = always_shock
++|static_stat1_id                         = active_skill_shock_duration_+%_final
++|static_stat1_value                      = 100
++|static_stat2_id                         = base_is_projectile
++|static_stat2_value                      = 1
++|static_stat3_id                         = number_of_projectiles_override
++|static_stat3_value                      = 1
++|static_stat4_id                         = projectile_minimum_range
++|static_stat4_value                      = 30
++|static_stat5_id                         = projectile_uses_contact_position
++|static_stat5_value                      = 1
++|static_stat6_id                         = use_scaled_contact_offset
+ |static_stat6_value                      = 1
+-|static_stat7_id                         = base_is_projectile
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = projectile_uses_contact_position
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = use_scaled_contact_offset
++|static_stat7_id                         = spell_minimum_base_lightning_damage
++|static_stat7_value                      = 3
++|static_stat8_id                         = spell_maximum_base_lightning_damage
++|static_stat8_value                      = 9
++|static_stat9_id                         = always_shock
+ |static_stat9_value                      = 1
+ |stat_text                               = Deals 3 to 9 Lightning Damage<br>Hits always Shock
+ |level1                                  = True

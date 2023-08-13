@@ -1,0 +1,21 @@
+--- Wiki
++++ Export
+@@ -34,12 +34,12 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_totem_range
+-|static_stat1_value                      = 60
+-|static_stat2_id                         = terrain_arrow_attachment_chance_reduction_+%
+-|static_stat2_value                      = 200
+-|static_stat3_id                         = base_skill_is_totemified
+-|static_stat3_value                      = 1
++|static_stat1_id                         = base_skill_is_totemified
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_totem_range
++|static_stat2_value                      = 60
++|static_stat3_id                         = terrain_arrow_attachment_chance_reduction_+%
++|static_stat3_value                      = 200
+ |static_stat4_id                         = disable_skill_if_melee_attack
+ |static_stat4_value                      = 1
+ |static_stat5_id                         = is_totem

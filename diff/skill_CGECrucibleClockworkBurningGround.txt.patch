@@ -1,0 +1,23 @@
+--- Skill:CGECrucibleClockworkBurningGround
++++ Export
+@@ -0,0 +1,20 @@
++{{Skill
++|gem_description                         = 
++|active_skill_name                       = 
++|skill_id                                = CGECrucibleClockworkBurningGround
++|cast_time                               = 1.0
++|required_level                          = 0
++|static_damage_effectiveness             = 100
++|static_damage_multiplier                = 100
++|static_attack_speed_multiplier          = 100
++|static_duration                         = 2
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -50
++|static_stat2_id                         = base_fire_damage_to_deal_per_minute
++|static_stat2_value                      = 405
++|static_stat3_id                         = base_skill_effect_duration
++|static_stat3_value                      = 2000
++|stat_text                               = Deals 6.8 Base Fire Damage per second<br>Base duration is 2 seconds
++|level1                                  = True
++|level1_level_requirement                = 0
++}}

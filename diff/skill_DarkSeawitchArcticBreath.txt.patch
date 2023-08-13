@@ -1,0 +1,40 @@
+--- Skill:DarkSeawitchArcticBreath
++++ Export
+@@ -10,21 +10,22 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_cold_damage
+-|static_stat1_value                      = 1550
+-|static_stat2_id                         = spell_maximum_base_cold_damage
+-|static_stat2_value                      = 2325
+-|static_stat3_id                         = number_of_additional_projectiles
+-|static_stat3_value                      = 8
+-|static_stat4_id                         = base_projectile_speed_+%
+-|static_stat4_value                      = -70
+-|static_stat5_id                         = base_skill_effect_duration
+-|static_stat5_value                      = 15000
+-|static_stat6_id                         = projectiles_nova
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = base_is_projectile
+-|static_stat7_value                      = 1
+-|stat_text                               = Deals 1550 to 2325 Cold Damage<br>Fires 8 additional Projectiles<br>70% reduced Projectile Speed<br>Base duration is 15 seconds<br>Fires Projectiles in a circle
++|static_duration                         = 15
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_minimum_base_cold_damage
++|static_stat2_value                      = 1550
++|static_stat3_id                         = spell_maximum_base_cold_damage
++|static_stat3_value                      = 2325
++|static_stat4_id                         = base_skill_effect_duration
++|static_stat4_value                      = 15000
++|static_stat5_id                         = projectiles_nova
++|static_stat5_value                      = 1
++|static_stat6_id                         = base_projectile_speed_+%
++|static_stat6_value                      = -70
++|static_stat7_id                         = number_of_additional_projectiles
++|static_stat7_value                      = 8
++|stat_text                               = Deals 1550 to 2325 Cold Damage<br>Base duration is 15 seconds<br>Fires Projectiles in a circle<br>70% reduced Projectile Speed<br>Fires 8 additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 73
+ }}

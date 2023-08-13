@@ -1,0 +1,15 @@
+--- Atlas of Worlds (incursion room)
++++ Export
+@@ -3,10 +3,11 @@
+ {{Incursion room
+ |id                      = CartographyRoomIII
+ |name                    = Atlas of Worlds
+-|description             = Contains chests full of maps.<br/>Architects drop Map-related Currency.
++|description             = Contains chests full of maps.<br />Architects drop Map-related Currency.
+ |flavour_text            = Devices baroque hide worlds bespoke.
+ |tier                    = 3
+ |icon                    = CartographyRoom3
++|modifier_ids            = IncursionArchitectMapCurrency1
+ |architect_metadata_id   = Metadata/Monsters/VaalArchitect/VaalArchitect5
+ |architect_name          = Uromoti, Architect of Expansion
+ }}

@@ -1,0 +1,42 @@
+--- Skill:CrucibleColdAbyssSlam
++++ Export
+@@ -0,0 +1,39 @@
++{{Skill
++|gem_description                         = 
++|active_skill_name                       = 
++|skill_id                                = CrucibleColdAbyssSlam
++|cast_time                               = 1.33
++|required_level                          = 0
++|static_damage_effectiveness             = 100
++|static_damage_multiplier                = 75
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = main_hand_base_maximum_attack_distance
++|static_stat2_value                      = 50
++|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat3_value                      = -50
++|static_stat4_id                         = active_skill_area_of_effect_+%_final
++|static_stat4_value                      = 60
++|static_stat5_id                         = skill_physical_damage_%_to_convert_to_cold
++|static_stat5_value                      = 50
++|static_stat6_id                         = upheaval_number_of_spikes
++|static_stat6_value                      = 8
++|stat_text                               = Deals 30% less Damage<br>60% more Area of Effect<br>50% of Physical Damage Converted to Cold Damage<br>Causes 8 Bursts
++|level1                                  = True
++|level1_level_requirement                = 0
++|level1_cost_multiplier                  = 100
++|level1_stored_uses                      = 1
++|level1_cooldown                         = 4
++|level1_stat_text                        = Deals 30% less Damage
++|level1_stat1_id                         = active_skill_damage_+%_final
++|level1_stat1_value                      = -30
++|level2                                  = True
++|level3                                  = True
++|level3_stat_text                        = Deals 1% more Damage
++|level3_stat1_id                         = active_skill_damage_+%_final
++|level3_stat1_value                      = 1
++|level4                                  = True
++|level4_stat_text                        = Deals 60% more Damage
++|level4_stat1_id                         = active_skill_damage_+%_final
++|level4_stat1_value                      = 60
++}}

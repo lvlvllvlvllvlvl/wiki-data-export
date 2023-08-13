@@ -1,0 +1,25 @@
+--- Skill:TotemBossTeamAAtoll~Wave
++++ Export
+@@ -16,14 +16,14 @@
+ |level1                                  = True
+ |level1_level_requirement                = 4
+ |level1_stat_text                        = Deals 6 to 10 Cold Damage<br>50% increased Projectile Speed
+-|level1_stat1_id                         = spell_minimum_base_cold_damage
+-|level1_stat1_value                      = 6
+-|level1_stat2_id                         = spell_maximum_base_cold_damage
+-|level1_stat2_value                      = 10
+-|level1_stat3_id                         = base_projectile_speed_+%
+-|level1_stat3_value                      = 50
+-|level1_stat4_id                         = active_skill_area_of_effect_radius_+%_final
+-|level1_stat4_value                      = 40
++|level1_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|level1_stat1_value                      = 40
++|level1_stat2_id                         = spell_minimum_base_cold_damage
++|level1_stat2_value                      = 6
++|level1_stat3_id                         = spell_maximum_base_cold_damage
++|level1_stat3_value                      = 10
++|level1_stat4_id                         = base_projectile_speed_+%
++|level1_stat4_value                      = 50
+ |level2                                  = True
+ |level2_level_requirement                = 6
+ |level2_stat_text                        = Deals 8 to 12 Cold Damage<br>50% increased Projectile Speed

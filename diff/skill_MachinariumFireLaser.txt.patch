@@ -1,0 +1,40 @@
+--- Skill:MachinariumFireLaser
++++ Export
+@@ -7,23 +7,24 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_fire_damage_to_deal_per_minute
+-|static_stat1_value                      = 408234
+-|static_stat2_id                         = fire_beam_charge_up_time_ms
+-|static_stat2_value                      = 700
++|static_duration                         = 3
++|static_stat1_id                         = fire_beam_charge_up_time_ms
++|static_stat1_value                      = 700
++|static_stat2_id                         = fire_beam_prioritise_players_for_targeting
++|static_stat2_value                      = 1
+ |static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+ |static_stat3_value                      = -70
+-|static_stat4_id                         = fire_beam_length_+%
+-|static_stat4_value                      = 300
+-|static_stat5_id                         = base_secondary_skill_effect_duration
+-|static_stat5_value                      = 750
++|static_stat4_id                         = fire_damage_taken_+%
++|static_stat4_value                      = 10
++|static_stat5_id                         = base_fire_damage_to_deal_per_minute
++|static_stat5_value                      = 408234
+ |static_stat6_id                         = base_skill_effect_duration
+ |static_stat6_value                      = 3000
+-|static_stat7_id                         = fire_damage_taken_+%
+-|static_stat7_value                      = 10
+-|static_stat8_id                         = fire_beam_prioritise_players_for_targeting
+-|static_stat8_value                      = 1
+-|stat_text                               = Deals 6803.9 Base Fire Damage per second<br>300% increased beam length<br>Base secondary duration is 0.75 seconds<br>Base duration is 3 seconds<br>10% increased Fire Damage taken
++|static_stat7_id                         = base_secondary_skill_effect_duration
++|static_stat7_value                      = 750
++|static_stat8_id                         = fire_beam_length_+%
++|static_stat8_value                      = 300
++|stat_text                               = 10% increased Fire Damage taken<br>Deals 6803.9 Base Fire Damage per second<br>Base duration is 3 seconds<br>Base secondary duration is 0.75 seconds<br>300% increased beam length
+ |level1                                  = True
+ |level1_level_requirement                = 80
+ }}

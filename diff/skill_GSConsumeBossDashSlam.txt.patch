@@ -1,0 +1,38 @@
+--- Skill:GSConsumeBossDashSlam
++++ Export
+@@ -7,13 +7,13 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = shock_minimum_damage_taken_increase_%
+-|static_stat1_value                      = 30
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
+ |static_stat2_id                         = always_shock
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = is_area_damage
+-|static_stat3_value                      = 1
+-|stat_text                               = Deals (10-21164) to (30-63491) Lightning Damage<br>Shocks from your Hits always increase Damage taken by at least 30%<br>Hits always Shock
++|static_stat3_id                         = shock_minimum_damage_taken_increase_%
++|static_stat3_value                      = 30
++|stat_text                               = Deals (10-21164) to (30-63491) Lightning Damage<br>Hits always Shock<br>Shocks from your Hits always increase Damage taken by at least 30%
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_stat_text                        = Deals 10 to 30 Lightning Damage
+@@ -24,10 +24,10 @@
+ |level2                                  = True
+ |level2_level_requirement                = 85
+ |level2_stat_text                        = Deals 21164 to 63491 Lightning Damage
+-|level2_stat1_id                         = spell_minimum_base_lightning_damage
+-|level2_stat1_value                      = 21164
+-|level2_stat2_id                         = spell_maximum_base_lightning_damage
+-|level2_stat2_value                      = 63491
+-|level2_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|level2_stat3_value                      = 100
++|level2_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|level2_stat1_value                      = 100
++|level2_stat2_id                         = spell_minimum_base_lightning_damage
++|level2_stat2_value                      = 21164
++|level2_stat3_id                         = spell_maximum_base_lightning_damage
++|level2_stat3_value                      = 63491
+ }}

@@ -1,0 +1,19 @@
+--- Wiki
++++ Export
+@@ -8,15 +8,9 @@
+ |drop_level                              = 75
+ |tags                                    = default
+ |metadata_id                             = Metadata/Items/Heist/QuestContracts/HeistContractQuestKurai2
+-|explicit1_text                          = {{c|default|Client:}} {{c|value|Kurai}}
+-|explicit2_text                          = {{c|default|Heist Target:}} {{c|value|Negotiate with the Client}}
+-|explicit3_text                          = {{c|default|Area Level:}} {{c|value|(75-?)}}
+-|explicit4_text                          = {{c|default|Requires}} {{c|value|Lockpicking}} {{c|default|(Level}} {{c|value|3}}{{c|default|)}}
+-|explicit5_text                          = {{c|default|Requires}} {{c|value|Kurai, the Administrator}}
+ |inventory_icon                          = Generic NPC Quest Contract
+-|flavour_text                            = "An unusual request."
++|is_drop_restricted                      = true
+ |release_version                         = 3.12.3
+-|is_drop_restricted = true
+ }}
+ '''Contract: The Negotiation''' is a quest contract. It is the second quest of [[Kurai]]'s personal storyline. It requires to hire Kurai herself as rogue.
+ 

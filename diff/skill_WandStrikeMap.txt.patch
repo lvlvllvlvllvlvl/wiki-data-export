@@ -1,0 +1,33 @@
+--- Skill:WandStrikeMap
++++ Export
+@@ -12,19 +12,19 @@
+ |static_stat1_value                      = -40
+ |static_stat2_id                         = additional_projectiles_fire_parallel_y_dist
+ |static_stat2_value                      = -100
+-|static_stat3_id                         = volley_additional_projectiles_fire_parallel_x_dist
+-|static_stat3_value                      = 100
+-|static_stat4_id                         = support_parallel_projectile_number_of_points_per_side
+-|static_stat4_value                      = 20
+-|static_stat5_id                         = number_of_additional_projectiles
+-|static_stat5_value                      = 2
++|static_stat3_id                         = base_is_projectile
++|static_stat3_value                      = 1
++|static_stat4_id                         = is_area_damage
++|static_stat4_value                      = 1
++|static_stat5_id                         = volley_additional_projectiles_fire_parallel_x_dist
++|static_stat5_value                      = 100
+ |static_stat6_id                         = always_pierce
+ |static_stat6_value                      = 1
+-|static_stat7_id                         = is_area_damage
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = base_is_projectile
+-|static_stat8_value                      = 1
+-|stat_text                               = Deals (425-780) to (638-1170) Physical Damage<br>Also fires Projectiles from up to 20 points on each side of you<br>Fires 2 additional Projectiles<br>Projectiles Pierce all Targets
++|static_stat7_id                         = number_of_additional_projectiles
++|static_stat7_value                      = 2
++|static_stat8_id                         = support_parallel_projectile_number_of_points_per_side
++|static_stat8_value                      = 20
++|stat_text                               = Deals (425-780) to (638-1170) Physical Damage<br>Projectiles Pierce all Targets<br>Fires 2 additional Projectiles<br>Also fires Projectiles from up to 20 points on each side of you
+ |level1                                  = True
+ |level1_level_requirement                = 68
+ |level1_stat_text                        = Deals 425 to 638 Physical Damage

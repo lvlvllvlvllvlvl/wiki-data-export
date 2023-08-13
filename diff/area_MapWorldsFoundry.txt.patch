@@ -1,0 +1,19 @@
+--- Area:MapWorldsFoundry
++++ Export
+@@ -4,13 +4,15 @@
+ |act                              = 11
+ |area_level                       = 82
+ |area_type_tags                   = urban, dungeon
+-|tags                             = indoors_area, map, delve_chest, einharmaps, thaumaturgy_area
++|tags                             = indoors_area, map, delve_chest, einharmaps, thaumaturgy_area, inventing_area, Forge_Area
+ |loading_screen                   = Maps
+ |parent_area_id                   = 2_11_endgame_town
+ |boss_monster_ids                 = Metadata/Monsters/LeagueMetamorphosis/MetamorphosisMapBoss, Metadata/Monsters/Thaumaturgy/ThaumaturgistBoss
+ |entry_text                       = Repetition. Convention. Duplication. Creation distilled to perfection.
+ |entry_npc                        = The Shaper
+ |is_map_area                      = True
++|flavour_text                     = Ever does man look to emulate his creator,
++only to match his indifference.
+ |main_page                        = Foundry Map
+ |screenshot_ext                   = png
+ }}

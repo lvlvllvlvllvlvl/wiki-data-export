@@ -1,0 +1,192 @@
+--- Module:Blight/blight crafting recipes
++++ Export
+@@ -319,6 +319,16 @@
+ 		type = "UniqueOrAmulet", 
+ 	},
+ 	{
++		id = "InverseWeighting30_4", 
++		passive_id = "warcry_notable3", 
++		type = "UniqueOrAmulet", 
++	},
++	{
++		id = "InverseWeighting31", 
++		passive_id = "link_generic_notable2280", 
++		type = "UniqueOrAmulet", 
++	},
++	{
+ 		id = "InverseWeighting32", 
+ 		passive_id = "blight_special_notable11", 
+ 		type = "UniqueOrAmulet", 
+@@ -379,11 +389,21 @@
+ 		type = "UniqueOrAmulet", 
+ 	},
+ 	{
++		id = "InverseWeighting37_4", 
++		passive_id = "link_generic_notable2281", 
++		type = "UniqueOrAmulet", 
++	},
++	{
+ 		id = "InverseWeighting38", 
+ 		passive_id = "sword_damage_accuracy_notable2500_", 
+ 		type = "UniqueOrAmulet", 
+ 	},
+ 	{
++		id = "InverseWeighting38_2", 
++		passive_id = "stun_recovery_notable354", 
++		type = "UniqueOrAmulet", 
++	},
++	{
+ 		id = "InverseWeighting40", 
+ 		passive_id = "two_hand_stun_notable2548", 
+ 		type = "UniqueOrAmulet", 
+@@ -414,11 +434,36 @@
+ 		type = "UniqueOrAmulet", 
+ 	},
+ 	{
++		id = "InverseWeighting42_4", 
++		passive_id = "melee_damage_notable2124", 
++		type = "UniqueOrAmulet", 
++	},
++	{
++		id = "InverseWeighting41", 
++		passive_id = "life_recoup_notable542", 
++		type = "UniqueOrAmulet", 
++	},
++	{
+ 		id = "InverseWeighting43", 
+ 		passive_id = "galvanic_hammer948", 
+ 		type = "UniqueOrAmulet", 
+ 	},
+ 	{
++		id = "InverseWeighting45_4", 
++		passive_id = "life_gain_on_hit_notable1305", 
++		type = "UniqueOrAmulet", 
++	},
++	{
++		id = "InverseWeighting44_2", 
++		passive_id = "life_regeneration_notable2415", 
++		type = "UniqueOrAmulet", 
++	},
++	{
++		id = "InverseWeighting46_3", 
++		passive_id = "life_regeneration_notable2465", 
++		type = "UniqueOrAmulet", 
++	},
++	{
+ 		id = "InverseWeighting44", 
+ 		passive_id = "precision843", 
+ 		type = "UniqueOrAmulet", 
+@@ -455,7 +500,7 @@
+ 	},
+ 	{
+ 		id = "InverseWeighting48", 
+-		passive_id = "deadly_draw680", 
++		passive_id = "bow_area_notable2586", 
+ 		type = "UniqueOrAmulet", 
+ 	},
+ 	{
+@@ -549,6 +594,11 @@
+ 		type = "UniqueOrAmulet", 
+ 	},
+ 	{
++		id = "InverseWeighting58_5", 
++		passive_id = "freeze_generic_notable2525", 
++		type = "UniqueOrAmulet", 
++	},
++	{
+ 		id = "InverseWeighting59", 
+ 		passive_id = "mark_generic_notable2814", 
+ 		type = "UniqueOrAmulet", 
+@@ -569,6 +619,11 @@
+ 		type = "UniqueOrAmulet", 
+ 	},
+ 	{
++		id = "InverseWeighting63_3", 
++		passive_id = "chill_generic_notable1582", 
++		type = "UniqueOrAmulet", 
++	},
++	{
+ 		id = "InverseWeighting66_3", 
+ 		passive_id = "impale_twohand_notable2766", 
+ 		type = "UniqueOrAmulet", 
+@@ -734,6 +789,11 @@
+ 		type = "UniqueOrAmulet", 
+ 	},
+ 	{
++		id = "InverseWeighting96_2", 
++		passive_id = "stance_generic_notable668", 
++		type = "UniqueOrAmulet", 
++	},
++	{
+ 		id = "InverseWeighting97", 
+ 		passive_id = "stances_notable2758_", 
+ 		type = "UniqueOrAmulet", 
+@@ -749,6 +809,11 @@
+ 		type = "UniqueOrAmulet", 
+ 	},
+ 	{
++		id = "InverseWeighting98_3", 
++		passive_id = "mark_generic_notable1226", 
++		type = "UniqueOrAmulet", 
++	},
++	{
+ 		id = "InverseWeighting100", 
+ 		passive_id = "shield_damage_elemental_notable2557", 
+ 		type = "UniqueOrAmulet", 
+@@ -764,6 +829,11 @@
+ 		type = "UniqueOrAmulet", 
+ 	},
+ 	{
++		id = "InverseWeighting102_2", 
++		passive_id = "stun_ignore_notable2412", 
++		type = "UniqueOrAmulet", 
++	},
++	{
+ 		id = "InverseWeighting103", 
+ 		passive_id = "deadeye590", 
+ 		type = "UniqueOrAmulet", 
+@@ -964,6 +1034,11 @@
+ 		type = "UniqueOrAmulet", 
+ 	},
+ 	{
++		id = "InverseWeighting139", 
++		passive_id = "stance_generic_notable1928", 
++		type = "UniqueOrAmulet", 
++	},
++	{
+ 		id = "InverseWeighting140", 
+ 		passive_id = "fire_damage_notable2802", 
+ 		type = "UniqueOrAmulet", 
+@@ -1104,6 +1179,11 @@
+ 		type = "UniqueOrAmulet", 
+ 	},
+ 	{
++		id = "InverseWeighting174_4", 
++		passive_id = "mark_generic_notable2391", 
++		type = "UniqueOrAmulet", 
++	},
++	{
+ 		id = "InverseWeighting182", 
+ 		passive_id = "arcing_blows210", 
+ 		type = "UniqueOrAmulet", 
+@@ -1330,7 +1410,7 @@
+ 	},
+ 	{
+ 		id = "InverseWeighting222", 
+-		passive_id = "bow_area_notable2586", 
++		passive_id = "deadly_draw680", 
+ 		type = "UniqueOrAmulet", 
+ 	},
+ 	{
+@@ -1586,6 +1666,11 @@
+ 	{
+ 		id = "InverseWeighting271_2", 
+ 		passive_id = "armour_crit_reduction_notable1944", 
++		type = "UniqueOrAmulet", 
++	},
++	{
++		id = "InverseWeighting271_3", 
++		passive_id = "attack_damage_notable2242", 
+ 		type = "UniqueOrAmulet", 
+ 	},
+ 	{

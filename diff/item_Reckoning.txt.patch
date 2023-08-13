@@ -1,0 +1,24 @@
+--- Wiki
++++ Export
+@@ -32,16 +32,15 @@
+ |quality_type4_stat_text                 = 1% increased Damage
+ |quality_type4_stat1_id                  = damage_+%
+ |quality_type4_stat1_value               = 1000
+-|static_cost_types                       = Mana
+ |static_stored_uses                      = 1
+ |static_cooldown                         = 0.4
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = shield_counterattack_aoe_range
+-|static_stat1_value                      = 35
+-|static_stat2_id                         = base_skill_show_average_damage_instead_of_dps
++|static_stat1_id                         = base_skill_show_average_damage_instead_of_dps
++|static_stat1_value                      = 1
++|static_stat2_id                         = is_area_damage
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = is_area_damage
+-|static_stat3_value                      = 1
++|static_stat3_id                         = shield_counterattack_aoe_range
++|static_stat3_value                      = 35
+ |static_stat4_id                         = melee_counterattack_trigger_on_block_%
+ |static_stat4_value                      = 100
+ |static_stat5_id                         = attack_unusable_if_triggerable

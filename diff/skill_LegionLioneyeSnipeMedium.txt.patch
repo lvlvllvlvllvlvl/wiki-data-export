@@ -1,0 +1,33 @@
+--- Skill:LegionLioneyeSnipeMedium
++++ Export
+@@ -7,19 +7,19 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = monster_projectile_variation
+-|static_stat1_value                      = 78
+-|static_stat2_id                         = skill_physical_damage_%_to_convert_to_fire
+-|static_stat2_value                      = 50
+-|static_stat3_id                         = always_pierce
+-|static_stat3_value                      = 1
+-|static_stat4_id                         = base_is_projectile
++|static_stat1_id                         = apply_attached_retract_arrow_on_hit
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_is_projectile
++|static_stat2_value                      = 1
++|static_stat3_id                         = monster_projectile_variation
++|static_stat3_value                      = 78
++|static_stat4_id                         = use_scaled_contact_offset
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = apply_attached_retract_arrow_on_hit
++|static_stat5_id                         = always_pierce
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = use_scaled_contact_offset
+-|static_stat6_value                      = 1
+-|stat_text                               = Deals (-30-140)% more Damage<br>50% of Physical Damage Converted to Fire Damage<br>Projectiles Pierce all Targets
++|static_stat6_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat6_value                      = 50
++|stat_text                               = Projectiles Pierce all Targets<br>Deals (-30-140)% more Damage<br>50% of Physical Damage Converted to Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_stat_text                        = Deals 30% less Damage

@@ -1,0 +1,31 @@
+--- Skill:GuardianReefArenaIceSpear
++++ Export
+@@ -7,17 +7,17 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_cold_damage
+-|static_stat1_value                      = 252
+-|static_stat2_id                         = spell_maximum_base_cold_damage
+-|static_stat2_value                      = 378
+-|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat3_value                      = -25
+-|static_stat4_id                         = base_projectile_speed_+%
+-|static_stat4_value                      = -70
+-|static_stat5_id                         = never_freeze
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = base_is_projectile
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat2_value                      = -25
++|static_stat3_id                         = spell_minimum_base_cold_damage
++|static_stat3_value                      = 252
++|static_stat4_id                         = spell_maximum_base_cold_damage
++|static_stat4_value                      = 378
++|static_stat5_id                         = base_projectile_speed_+%
++|static_stat5_value                      = -70
++|static_stat6_id                         = never_freeze
+ |static_stat6_value                      = 1
+ |stat_text                               = Deals 252 to 378 Cold Damage<br>70% reduced Projectile Speed<br>Cannot Freeze
+ |level1                                  = True

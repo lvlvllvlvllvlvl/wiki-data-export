@@ -1,0 +1,21 @@
+--- Skill:SkeletonProjectileCold
++++ Export
+@@ -8,12 +8,12 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_maximum_action_distance_+%
+-|static_stat1_value                      = -60
+-|static_stat2_id                         = base_chance_to_freeze_%
+-|static_stat2_value                      = 15
+-|static_stat3_id                         = base_is_projectile
+-|static_stat3_value                      = 1
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_maximum_action_distance_+%
++|static_stat2_value                      = -60
++|static_stat3_id                         = base_chance_to_freeze_%
++|static_stat3_value                      = 15
+ |stat_text                               = Deals (10-1535) to (15-2394) Cold Damage<br>15% chance to Freeze enemies
+ |level1                                  = True
+ |level1_level_requirement                = 4

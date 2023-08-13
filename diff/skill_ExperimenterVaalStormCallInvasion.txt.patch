@@ -1,0 +1,38 @@
+--- Skill:ExperimenterVaalStormCallInvasion
++++ Export
+@@ -10,14 +10,15 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = -13
+-|static_stat2_id                         = vaal_storm_call_base_delay_ms
+-|static_stat2_value                      = 250
+-|static_stat3_id                         = is_area_damage
+-|static_stat3_value                      = 1
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = vaal_storm_call_base_delay_ms
++|static_stat3_value                      = 250
+ |stat_text                               = Deals (6-236) to (11-439) Lightning Damage<br>Base duration is (4-10) seconds<br>(5-12)% chance to Shock enemies<br>Strikes an Enemy every 0.25 seconds
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ |level1_cooldown                         = 8
++|level1_duration                         = 4
+ |level1_stat_text                        = Deals 6 to 11 Lightning Damage<br>Base duration is 4 seconds<br>5% chance to Shock enemies
+ |level1_stat1_id                         = spell_minimum_base_lightning_damage
+ |level1_stat1_value                      = 6
+@@ -30,6 +31,7 @@
+ |level2                                  = True
+ |level2_level_requirement                = 34
+ |level2_cooldown                         = 7
++|level2_duration                         = 7
+ |level2_stat_text                        = Deals 63 to 117 Lightning Damage<br>Base duration is 7 seconds<br>8% chance to Shock enemies
+ |level2_stat1_id                         = spell_minimum_base_lightning_damage
+ |level2_stat1_value                      = 63
+@@ -42,6 +44,7 @@
+ |level3                                  = True
+ |level3_level_requirement                = 58
+ |level3_cooldown                         = 5
++|level3_duration                         = 10
+ |level3_stat_text                        = Deals 236 to 439 Lightning Damage<br>Base duration is 10 seconds<br>12% chance to Shock enemies
+ |level3_stat1_id                         = spell_minimum_base_lightning_damage
+ |level3_stat1_value                      = 236

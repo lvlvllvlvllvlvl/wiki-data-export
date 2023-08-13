@@ -1,0 +1,19 @@
+--- Monster:Metadata/Monsters/LeagueCrucible/Cold/Monkey
++++ Export
+@@ -0,0 +1,16 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueCrucible/Cold/Monkey
++|monster_type_id                  = CrucibleMonkey
++|tags                             = animal_claw_weapon, beast, flesh_armour, is_unarmed, mammal_beast, medium_movement, melee, not_int, not_str, physical_affinity, primate_beast, small_height
++|skill_ids                        = MeleeAtAnimationSpeedCold
++|name                             = Forged Monkey
++|size                             = 2
++|minimum_attack_distance          = 6
++|maximum_attack_distance          = 7
++|model_size_multiplier            = 0.9
++|experience_multiplier            = 0.6
++|damage_multiplier                = 0.72
++|health_multiplier                = 0.72
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.005
++}}

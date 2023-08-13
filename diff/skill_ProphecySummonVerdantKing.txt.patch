@@ -1,0 +1,21 @@
+--- Skill:ProphecySummonVerdantKing
++++ Export
+@@ -9,13 +9,13 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = number_of_monsters_to_summon
+-|static_stat1_value                      = 1
+-|static_stat2_id                         = alternate_minion
+-|static_stat2_value                      = 131
++|static_stat1_id                         = alternate_minion
++|static_stat1_value                      = 131
++|static_stat2_id                         = number_of_monsters_to_summon
++|static_stat2_value                      = 1
+ |static_stat3_id                         = avoid_interruption_while_casting_%
+ |static_stat3_value                      = 100
+-|stat_text                               = 100% chance to Avoid interruption from Stuns while Casting
++|stat_text                               = Ignore Stuns while Casting
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

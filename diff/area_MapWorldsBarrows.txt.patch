@@ -1,0 +1,21 @@
+--- Area:MapWorldsBarrows
++++ Export
+@@ -4,15 +4,16 @@
+ |act                              = 11
+ |area_level                       = 72
+ |area_type_tags                   = forest
+-|tags                             = map, area_with_water, no_echo, einharmaps, has_foxes_area, den_area, cemetery_map_area
++|tags                             = map, area_with_water, no_echo, einharmaps, has_foxes_area, den_area, cemetery_map_area, bear_boss_map
+ |loading_screen                   = Maps
+ |parent_area_id                   = 2_11_endgame_town
+ |boss_monster_ids                 = Metadata/Monsters/Beasts/MapBeastBossWhite
+ |entry_text                       = Man burrows for only the eternal hibernation.
+ |entry_npc                        = The Shaper
+-|vaal_area_spawn_chance           = 8
+ |vaal_area_ids                    = MapSideArea2_7
+ |is_map_area                      = True
++|flavour_text                     = Man burrows for only
++the eternal hibernation.
+ |main_page                        = Barrows Map
+ |screenshot_ext                   = png
+ }}

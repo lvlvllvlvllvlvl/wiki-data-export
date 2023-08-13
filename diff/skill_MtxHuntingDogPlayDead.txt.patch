@@ -1,0 +1,22 @@
+--- Skill:MtxHuntingDogPlayDead
++++ Export
+@@ -0,0 +1,19 @@
++{{Skill
++|gem_description                         = 
++|active_skill_name                       = Play Dead!
++|skill_id                                = MtxHuntingDogPlayDead
++|cast_time                               = 0.0
++|required_level                          = 0
++|static_stored_uses                      = 1
++|static_cooldown                         = 6
++|static_damage_effectiveness             = 100
++|static_damage_multiplier                = 100
++|static_attack_speed_multiplier          = 100
++|static_stat1_id                         = base_deal_no_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = skill_cooldown_time_override_ms
++|static_stat2_value                      = 6000
++|stat_text                               = 
++|level1                                  = True
++|level1_level_requirement                = 0
++}}

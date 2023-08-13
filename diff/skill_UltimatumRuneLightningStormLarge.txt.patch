@@ -1,0 +1,57 @@
+--- Skill:UltimatumRuneLightningStormLarge
++++ Export
+@@ -8,31 +8,32 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 6
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 9
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = 50
+-|static_stat4_id                         = firestorm_initial_hit_placement_radius_+%_final
+-|static_stat4_value                      = -100
++|static_duration                         = 3
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = 50
++|static_stat2_id                         = firestorm_initial_hit_placement_radius_+%_final
++|static_stat2_value                      = -100
++|static_stat3_id                         = firestorm_use_server_effects
++|static_stat3_value                      = 1
++|static_stat4_id                         = is_area_damage
++|static_stat4_value                      = 1
+ |static_stat5_id                         = skill_override_pvp_scaling_time_ms
+ |static_stat5_value                      = 350
+-|static_stat6_id                         = base_skill_effect_duration
+-|static_stat6_value                      = 3000
+-|static_stat7_id                         = firestorm_max_number_of_storms
+-|static_stat7_value                      = 3
+-|static_stat8_id                         = firestorm_initial_impact_area_of_effect_+%_final
+-|static_stat8_value                      = 150
+-|static_stat9_id                         = firestorm_initial_impact_damage_+%_final
+-|static_stat9_value                      = 250
+-|static_stat10_id                        = fire_storm_fireball_delay_ms
++|static_stat6_id                         = spell_minimum_base_lightning_damage
++|static_stat6_value                      = 6
++|static_stat7_id                         = spell_maximum_base_lightning_damage
++|static_stat7_value                      = 9
++|static_stat8_id                         = base_skill_effect_duration
++|static_stat8_value                      = 3000
++|static_stat9_id                         = fire_storm_fireball_delay_ms
++|static_stat9_value                      = 150
++|static_stat10_id                        = firestorm_initial_impact_area_of_effect_+%_final
+ |static_stat10_value                     = 150
+-|static_stat11_id                        = is_area_damage
+-|static_stat11_value                     = 1
+-|static_stat12_id                        = firestorm_use_server_effects
+-|static_stat12_value                     = 1
+-|stat_text                               = Deals 6 to 9 Lightning Damage<br>Base duration is 3 seconds<br>Maximum 3 Firestorms at a time<br>First Impact has 150% more Area of Effect<br>First Impact deals 250% more Damage with Hits and Ailments<br>One impact every 0.15 seconds
++|static_stat11_id                        = firestorm_initial_impact_damage_+%_final
++|static_stat11_value                     = 250
++|static_stat12_id                        = firestorm_max_number_of_storms
++|static_stat12_value                     = 3
++|stat_text                               = Deals 6 to 9 Lightning Damage<br>Base duration is 3 seconds<br>One impact every 0.15 seconds<br>First Impact has 150% more Area of Effect<br>First Impact deals 250% more Damage with Hits and Ailments<br>Maximum 3 Firestorms at a time
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

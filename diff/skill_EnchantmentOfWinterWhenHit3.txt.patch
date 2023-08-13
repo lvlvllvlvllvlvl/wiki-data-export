@@ -1,0 +1,31 @@
+--- Skill:EnchantmentOfWinterWhenHit3
++++ Export
+@@ -10,17 +10,17 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_cold_damage
+-|static_stat1_value                      = 557
+-|static_stat2_id                         = spell_maximum_base_cold_damage
+-|static_stat2_value                      = 836
+-|static_stat3_id                         = cast_when_hit_%
+-|static_stat3_value                      = 100
+-|static_stat4_id                         = damage_cannot_be_reflected
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = is_area_damage
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = base_is_projectile
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_minimum_base_cold_damage
++|static_stat3_value                      = 557
++|static_stat4_id                         = spell_maximum_base_cold_damage
++|static_stat4_value                      = 836
++|static_stat5_id                         = cast_when_hit_%
++|static_stat5_value                      = 100
++|static_stat6_id                         = damage_cannot_be_reflected
+ |static_stat6_value                      = 1
+ |stat_text                               = Deals 557 to 836 Cold Damage<br>Trigger this Spell when you're Hit<br>Damage cannot be Reflected
+ |level1                                  = True

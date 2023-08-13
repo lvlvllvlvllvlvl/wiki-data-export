@@ -1,0 +1,30 @@
+--- Skill:HarvestBearBossChargeFar
++++ Export
+@@ -10,17 +10,17 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 75
+-|static_stat1_id                         = shield_charge_damage_+%_maximum
+-|static_stat1_value                      = 50
+-|static_stat2_id                         = base_movement_velocity_+%
+-|static_stat2_value                      = 30
+-|static_stat3_id                         = cannot_knockback
++|static_stat1_id                         = base_deal_no_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = ignores_proximity_shield
++|static_stat2_value                      = 1
++|static_stat3_id                         = shield_charge_continue_past_target
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = ignores_proximity_shield
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = base_deal_no_damage
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = shield_charge_continue_past_target
++|static_stat4_id                         = shield_charge_damage_+%_maximum
++|static_stat4_value                      = 50
++|static_stat5_id                         = base_movement_velocity_+%
++|static_stat5_value                      = 30
++|static_stat6_id                         = cannot_knockback
+ |static_stat6_value                      = 1
+ |stat_text                               = 50% more Damage with Hits at Maximum Charge Distance<br>30% increased Movement Speed<br>This Skill cannot Knock Enemies Back
+ |level1                                  = True

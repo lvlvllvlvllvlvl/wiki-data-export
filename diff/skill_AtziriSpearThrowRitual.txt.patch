@@ -1,0 +1,51 @@
+--- Skill:AtziriSpearThrowRitual
++++ Export
+@@ -7,29 +7,29 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = projectile_minimum_range
+-|static_stat1_value                      = 15
+-|static_stat2_id                         = monster_projectile_variation
+-|static_stat2_value                      = 139
+-|static_stat3_id                         = active_skill_bleeding_damage_+%_final
+-|static_stat3_value                      = -64
+-|static_stat4_id                         = base_bleed_duration_+%
+-|static_stat4_value                      = -20
+-|static_stat5_id                         = base_projectile_speed_+%
+-|static_stat5_value                      = 50
+-|static_stat6_id                         = always_pierce
++|static_stat1_id                         = active_skill_bleeding_damage_+%_final
++|static_stat1_value                      = -64
++|static_stat2_id                         = base_is_projectile
++|static_stat2_value                      = 1
++|static_stat3_id                         = cast_time_overrides_attack_duration
++|static_stat3_value                      = 1
++|static_stat4_id                         = monster_projectile_variation
++|static_stat4_value                      = 139
++|static_stat5_id                         = projectile_minimum_range
++|static_stat5_value                      = 15
++|static_stat6_id                         = projectile_uses_contact_position
+ |static_stat6_value                      = 1
+-|static_stat7_id                         = global_bleed_on_hit
++|static_stat7_id                         = use_scaled_contact_offset
+ |static_stat7_value                      = 1
+-|static_stat8_id                         = cast_time_overrides_attack_duration
++|static_stat8_id                         = always_pierce
+ |static_stat8_value                      = 1
+-|static_stat9_id                         = base_is_projectile
+-|static_stat9_value                      = 1
+-|static_stat10_id                        = projectile_uses_contact_position
+-|static_stat10_value                     = 1
+-|static_stat11_id                        = use_scaled_contact_offset
++|static_stat9_id                         = base_bleed_duration_+%
++|static_stat9_value                      = -20
++|static_stat10_id                        = base_projectile_speed_+%
++|static_stat10_value                     = 50
++|static_stat11_id                        = global_bleed_on_hit
+ |static_stat11_value                     = 1
+-|stat_text                               = 20% reduced Bleeding Duration<br>50% increased Projectile Speed<br>Projectiles Pierce all Targets<br>Causes Bleeding
++|stat_text                               = Projectiles Pierce all Targets<br>20% reduced Bleeding Duration<br>50% increased Projectile Speed<br>Causes Bleeding
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

@@ -1,0 +1,37 @@
+--- Skill:UnholyTrioBladefall
++++ Export
+@@ -10,21 +10,21 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 6
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 9
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = 100
+-|static_stat4_id                         = bladefall_width_+%
+-|static_stat4_value                      = -40
+-|static_stat5_id                         = bladefall_number_of_volleys
+-|static_stat5_value                      = 5
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = 100
++|static_stat2_id                         = bladefall_width_+%
++|static_stat2_value                      = -40
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = spell_minimum_base_physical_damage
++|static_stat4_value                      = 6
++|static_stat5_id                         = spell_maximum_base_physical_damage
++|static_stat5_value                      = 9
+ |static_stat6_id                         = cannot_stun
+ |static_stat6_value                      = 1
+-|static_stat7_id                         = is_area_damage
+-|static_stat7_value                      = 1
+-|stat_text                               = Deals 6 to 9 Physical Damage<br>5 Volleys<br>Your Hits cannot Stun Enemies
++|static_stat7_id                         = bladefall_number_of_volleys
++|static_stat7_value                      = 5
++|stat_text                               = Deals 6 to 9 Physical Damage<br>Your Hits cannot Stun Enemies<br>5 Volleys
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

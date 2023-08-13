@@ -1,0 +1,296 @@
+--- Skill:ExileSpark
++++ Export
+@@ -10,9 +10,12 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = base_is_projectile
+ |static_stat1_value                      = 1
+-|stat_text                               = Deals (2-186) to (6-559) Lightning Damage<br>Base duration is (3.5-7) seconds<br>Fires (2-6) additional Projectiles
++|static_stat2_id                         = base_projectile_speed_+%
++|static_stat2_value                      = 25
++|stat_text                               = Deals (2-186) to (6-559) Lightning Damage<br>Base duration is (3.5-7) seconds<br>25% increased Projectile Speed<br>Fires (2-6) additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 4
++|level1_duration                         = 3.5
+ |level1_stat_text                        = Deals 2 to 6 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 2 additional Projectiles
+ |level1_stat1_id                         = spell_minimum_base_lightning_damage
+ |level1_stat1_value                      = 2
+@@ -24,6 +27,7 @@
+ |level1_stat4_value                      = 2
+ |level2                                  = True
+ |level2_level_requirement                = 8
++|level2_duration                         = 3.5
+ |level2_stat_text                        = Deals 3 to 10 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 2 additional Projectiles
+ |level2_stat1_id                         = spell_minimum_base_lightning_damage
+ |level2_stat1_value                      = 3
+@@ -35,6 +39,7 @@
+ |level2_stat4_value                      = 2
+ |level3                                  = True
+ |level3_level_requirement                = 11
++|level3_duration                         = 3.5
+ |level3_stat_text                        = Deals 4 to 12 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 2 additional Projectiles
+ |level3_stat1_id                         = spell_minimum_base_lightning_damage
+ |level3_stat1_value                      = 4
+@@ -46,6 +51,7 @@
+ |level3_stat4_value                      = 2
+ |level4                                  = True
+ |level4_level_requirement                = 15
++|level4_duration                         = 3.5
+ |level4_stat_text                        = Deals 6 to 17 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 2 additional Projectiles
+ |level4_stat1_id                         = spell_minimum_base_lightning_damage
+ |level4_stat1_value                      = 6
+@@ -57,6 +63,7 @@
+ |level4_stat4_value                      = 2
+ |level5                                  = True
+ |level5_level_requirement                = 20
++|level5_duration                         = 3.5
+ |level5_stat_text                        = Deals 8 to 24 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 2 additional Projectiles
+ |level5_stat1_id                         = spell_minimum_base_lightning_damage
+ |level5_stat1_value                      = 8
+@@ -68,6 +75,7 @@
+ |level5_stat4_value                      = 2
+ |level6                                  = True
+ |level6_level_requirement                = 28
++|level6_duration                         = 3.5
+ |level6_stat_text                        = Deals 13 to 39 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 2 additional Projectiles
+ |level6_stat1_id                         = spell_minimum_base_lightning_damage
+ |level6_stat1_value                      = 13
+@@ -79,6 +87,7 @@
+ |level6_stat4_value                      = 2
+ |level7                                  = True
+ |level7_level_requirement                = 29
++|level7_duration                         = 3.5
+ |level7_stat_text                        = Deals 14 to 41 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 2 additional Projectiles
+ |level7_stat1_id                         = spell_minimum_base_lightning_damage
+ |level7_stat1_value                      = 14
+@@ -90,6 +99,7 @@
+ |level7_stat4_value                      = 2
+ |level8                                  = True
+ |level8_level_requirement                = 31
++|level8_duration                         = 3.5
+ |level8_stat_text                        = Deals 16 to 47 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 2 additional Projectiles
+ |level8_stat1_id                         = spell_minimum_base_lightning_damage
+ |level8_stat1_value                      = 16
+@@ -101,6 +111,7 @@
+ |level8_stat4_value                      = 2
+ |level9                                  = True
+ |level9_level_requirement                = 32
++|level9_duration                         = 3.5
+ |level9_stat_text                        = Deals 16 to 49 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 4 additional Projectiles
+ |level9_stat1_id                         = spell_minimum_base_lightning_damage
+ |level9_stat1_value                      = 16
+@@ -112,6 +123,7 @@
+ |level9_stat4_value                      = 4
+ |level10                                 = True
+ |level10_level_requirement               = 34
++|level10_duration                        = 3.5
+ |level10_stat_text                       = Deals 18 to 55 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 4 additional Projectiles
+ |level10_stat1_id                        = spell_minimum_base_lightning_damage
+ |level10_stat1_value                     = 18
+@@ -123,6 +135,7 @@
+ |level10_stat4_value                     = 4
+ |level11                                 = True
+ |level11_level_requirement               = 37
++|level11_duration                        = 3.5
+ |level11_stat_text                       = Deals 22 to 65 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 4 additional Projectiles
+ |level11_stat1_id                        = spell_minimum_base_lightning_damage
+ |level11_stat1_value                     = 22
+@@ -134,6 +147,7 @@
+ |level11_stat4_value                     = 4
+ |level12                                 = True
+ |level12_level_requirement               = 40
++|level12_duration                        = 3.5
+ |level12_stat_text                       = Deals 25 to 76 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 4 additional Projectiles
+ |level12_stat1_id                        = spell_minimum_base_lightning_damage
+ |level12_stat1_value                     = 25
+@@ -145,6 +159,7 @@
+ |level12_stat4_value                     = 4
+ |level13                                 = True
+ |level13_level_requirement               = 42
++|level13_duration                        = 3.5
+ |level13_stat_text                       = Deals 28 to 85 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 4 additional Projectiles
+ |level13_stat1_id                        = spell_minimum_base_lightning_damage
+ |level13_stat1_value                     = 28
+@@ -156,6 +171,7 @@
+ |level13_stat4_value                     = 4
+ |level14                                 = True
+ |level14_level_requirement               = 44
++|level14_duration                        = 3.5
+ |level14_stat_text                       = Deals 31 to 94 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 4 additional Projectiles
+ |level14_stat1_id                        = spell_minimum_base_lightning_damage
+ |level14_stat1_value                     = 31
+@@ -167,6 +183,7 @@
+ |level14_stat4_value                     = 4
+ |level15                                 = True
+ |level15_level_requirement               = 50
++|level15_duration                        = 3.5
+ |level15_stat_text                       = Deals 42 to 127 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 4 additional Projectiles
+ |level15_stat1_id                        = spell_minimum_base_lightning_damage
+ |level15_stat1_value                     = 42
+@@ -178,6 +195,7 @@
+ |level15_stat4_value                     = 4
+ |level16                                 = True
+ |level16_level_requirement               = 51
++|level16_duration                        = 3.5
+ |level16_stat_text                       = Deals 45 to 134 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 4 additional Projectiles
+ |level16_stat1_id                        = spell_minimum_base_lightning_damage
+ |level16_stat1_value                     = 45
+@@ -189,6 +207,7 @@
+ |level16_stat4_value                     = 4
+ |level17                                 = True
+ |level17_level_requirement               = 52
++|level17_duration                        = 3.5
+ |level17_stat_text                       = Deals 47 to 140 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 4 additional Projectiles
+ |level17_stat1_id                        = spell_minimum_base_lightning_damage
+ |level17_stat1_value                     = 47
+@@ -200,6 +219,7 @@
+ |level17_stat4_value                     = 4
+ |level18                                 = True
+ |level18_level_requirement               = 63
++|level18_duration                        = 3.5
+ |level18_stat_text                       = Deals 79 to 237 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 4 additional Projectiles
+ |level18_stat1_id                        = spell_minimum_base_lightning_damage
+ |level18_stat1_value                     = 79
+@@ -211,6 +231,7 @@
+ |level18_stat4_value                     = 4
+ |level19                                 = True
+ |level19_level_requirement               = 65
++|level19_duration                        = 3.5
+ |level19_stat_text                       = Deals 87 to 261 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 6 additional Projectiles
+ |level19_stat1_id                        = spell_minimum_base_lightning_damage
+ |level19_stat1_value                     = 87
+@@ -222,6 +243,7 @@
+ |level19_stat4_value                     = 6
+ |level20                                 = True
+ |level20_level_requirement               = 66
++|level20_duration                        = 3.5
+ |level20_stat_text                       = Deals 91 to 273 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 6 additional Projectiles
+ |level20_stat1_id                        = spell_minimum_base_lightning_damage
+ |level20_stat1_value                     = 91
+@@ -233,6 +255,7 @@
+ |level20_stat4_value                     = 6
+ |level21                                 = True
+ |level21_level_requirement               = 67
++|level21_duration                        = 3.5
+ |level21_stat_text                       = Deals 95 to 286 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 6 additional Projectiles
+ |level21_stat1_id                        = spell_minimum_base_lightning_damage
+ |level21_stat1_value                     = 95
+@@ -244,6 +267,7 @@
+ |level21_stat4_value                     = 6
+ |level22                                 = True
+ |level22_level_requirement               = 68
++|level22_duration                        = 3.5
+ |level22_stat_text                       = Deals 100 to 299 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 6 additional Projectiles
+ |level22_stat1_id                        = spell_minimum_base_lightning_damage
+ |level22_stat1_value                     = 100
+@@ -255,6 +279,7 @@
+ |level22_stat4_value                     = 6
+ |level23                                 = True
+ |level23_level_requirement               = 69
++|level23_duration                        = 3.5
+ |level23_stat_text                       = Deals 104 to 313 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 6 additional Projectiles
+ |level23_stat1_id                        = spell_minimum_base_lightning_damage
+ |level23_stat1_value                     = 104
+@@ -266,6 +291,7 @@
+ |level23_stat4_value                     = 6
+ |level24                                 = True
+ |level24_level_requirement               = 70
++|level24_duration                        = 3.5
+ |level24_stat_text                       = Deals 109 to 328 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 6 additional Projectiles
+ |level24_stat1_id                        = spell_minimum_base_lightning_damage
+ |level24_stat1_value                     = 109
+@@ -277,6 +303,7 @@
+ |level24_stat4_value                     = 6
+ |level25                                 = True
+ |level25_level_requirement               = 71
++|level25_duration                        = 3.5
+ |level25_stat_text                       = Deals 114 to 343 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 6 additional Projectiles
+ |level25_stat1_id                        = spell_minimum_base_lightning_damage
+ |level25_stat1_value                     = 114
+@@ -288,6 +315,7 @@
+ |level25_stat4_value                     = 6
+ |level26                                 = True
+ |level26_level_requirement               = 72
++|level26_duration                        = 3.5
+ |level26_stat_text                       = Deals 120 to 359 Lightning Damage<br>Base duration is 3.5 seconds<br>Fires 6 additional Projectiles
+ |level26_stat1_id                        = spell_minimum_base_lightning_damage
+ |level26_stat1_value                     = 120
+@@ -299,6 +327,7 @@
+ |level26_stat4_value                     = 6
+ |level27                                 = True
+ |level27_level_requirement               = 73
++|level27_duration                        = 7
+ |level27_stat_text                       = Deals 125 to 375 Lightning Damage<br>Base duration is 7 seconds<br>Fires 6 additional Projectiles
+ |level27_stat1_id                        = spell_minimum_base_lightning_damage
+ |level27_stat1_value                     = 125
+@@ -310,6 +339,7 @@
+ |level27_stat4_value                     = 6
+ |level28                                 = True
+ |level28_level_requirement               = 74
++|level28_duration                        = 7
+ |level28_stat_text                       = Deals 131 to 392 Lightning Damage<br>Base duration is 7 seconds<br>Fires 6 additional Projectiles
+ |level28_stat1_id                        = spell_minimum_base_lightning_damage
+ |level28_stat1_value                     = 131
+@@ -321,6 +351,7 @@
+ |level28_stat4_value                     = 6
+ |level29                                 = True
+ |level29_level_requirement               = 75
++|level29_duration                        = 7
+ |level29_stat_text                       = Deals 137 to 410 Lightning Damage<br>Base duration is 7 seconds<br>Fires 6 additional Projectiles
+ |level29_stat1_id                        = spell_minimum_base_lightning_damage
+ |level29_stat1_value                     = 137
+@@ -332,6 +363,7 @@
+ |level29_stat4_value                     = 6
+ |level30                                 = True
+ |level30_level_requirement               = 76
++|level30_duration                        = 7
+ |level30_stat_text                       = Deals 143 to 429 Lightning Damage<br>Base duration is 7 seconds<br>Fires 6 additional Projectiles
+ |level30_stat1_id                        = spell_minimum_base_lightning_damage
+ |level30_stat1_value                     = 143
+@@ -343,6 +375,7 @@
+ |level30_stat4_value                     = 6
+ |level31                                 = True
+ |level31_level_requirement               = 77
++|level31_duration                        = 7
+ |level31_stat_text                       = Deals 150 to 449 Lightning Damage<br>Base duration is 7 seconds<br>Fires 6 additional Projectiles
+ |level31_stat1_id                        = spell_minimum_base_lightning_damage
+ |level31_stat1_value                     = 150
+@@ -354,6 +387,7 @@
+ |level31_stat4_value                     = 6
+ |level32                                 = True
+ |level32_level_requirement               = 78
++|level32_duration                        = 7
+ |level32_stat_text                       = Deals 156 to 469 Lightning Damage<br>Base duration is 7 seconds<br>Fires 6 additional Projectiles
+ |level32_stat1_id                        = spell_minimum_base_lightning_damage
+ |level32_stat1_value                     = 156
+@@ -365,6 +399,7 @@
+ |level32_stat4_value                     = 6
+ |level33                                 = True
+ |level33_level_requirement               = 79
++|level33_duration                        = 7
+ |level33_stat_text                       = Deals 163 to 490 Lightning Damage<br>Base duration is 7 seconds<br>Fires 6 additional Projectiles
+ |level33_stat1_id                        = spell_minimum_base_lightning_damage
+ |level33_stat1_value                     = 163
+@@ -376,6 +411,7 @@
+ |level33_stat4_value                     = 6
+ |level34                                 = True
+ |level34_level_requirement               = 80
++|level34_duration                        = 7
+ |level34_stat_text                       = Deals 171 to 512 Lightning Damage<br>Base duration is 7 seconds<br>Fires 6 additional Projectiles
+ |level34_stat1_id                        = spell_minimum_base_lightning_damage
+ |level34_stat1_value                     = 171
+@@ -387,6 +423,7 @@
+ |level34_stat4_value                     = 6
+ |level35                                 = True
+ |level35_level_requirement               = 81
++|level35_duration                        = 7
+ |level35_stat_text                       = Deals 178 to 535 Lightning Damage<br>Base duration is 7 seconds<br>Fires 6 additional Projectiles
+ |level35_stat1_id                        = spell_minimum_base_lightning_damage
+ |level35_stat1_value                     = 178
+@@ -398,6 +435,7 @@
+ |level35_stat4_value                     = 6
+ |level36                                 = True
+ |level36_level_requirement               = 82
++|level36_duration                        = 7
+ |level36_stat_text                       = Deals 186 to 559 Lightning Damage<br>Base duration is 7 seconds<br>Fires 6 additional Projectiles
+ |level36_stat1_id                        = spell_minimum_base_lightning_damage
+ |level36_stat1_value                     = 186

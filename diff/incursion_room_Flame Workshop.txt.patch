@@ -1,0 +1,17 @@
+--- Flame Workshop
++++ Export
+@@ -1,12 +1,12 @@
+ {{Incursion room
+ |id                      = BossFireI
+ |name                    = Flame Workshop
+-|description             = Monsters throughout the Temple have additional fire damage.<br/>Adds additional Fire monster packs throughout the Temple<br/>Augments the Omnitect with fire.
++|description             = Monsters throughout the Temple have additional fire damage.<br />Adds additional Fire monster packs throughout the Temple.<br />Augments the Omnitect with fire.
+ |flavour_text            = Beneath your feet flows sweltering heat.
+ |tier                    = 1
+ |upgrade_room_id         = BossFireII
+ |icon                    = BossFireRoom
+-|modifier_ids            = IncursionMonsterAddedAsFire1
++|modifier_ids            = IncursionMonsterAddedAsFire1, IncursionTempleRoomBonus1_, IncursionTempleFirePacks1, IncursionTempleFireVialChance1
+ |architect_metadata_id   = Metadata/Monsters/VaalArchitect/VaalArchitect21
+ |architect_name          = Puhuarte, Architect of the Forge
+ }}

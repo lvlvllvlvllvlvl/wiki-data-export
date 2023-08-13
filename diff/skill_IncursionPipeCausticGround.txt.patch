@@ -1,0 +1,22 @@
+--- Skill:IncursionPipeCausticGround
++++ Export
+@@ -7,12 +7,13 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_chaos_damage_to_deal_per_minute
+-|static_stat1_value                      = 35194
+-|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat2_value                      = -60
+-|static_stat3_id                         = ground_caustic_art_variation
+-|static_stat3_value                      = 6
++|static_duration                         = 4
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -60
++|static_stat2_id                         = ground_caustic_art_variation
++|static_stat2_value                      = 6
++|static_stat3_id                         = base_chaos_damage_to_deal_per_minute
++|static_stat3_value                      = 35194
+ |static_stat4_id                         = base_skill_effect_duration
+ |static_stat4_value                      = 4000
+ |stat_text                               = Deals 586.6 Base Chaos Damage per second<br>Base duration is 4 seconds

@@ -1,0 +1,19 @@
+--- Monster:Metadata/Monsters/LeagueCrucible/CriticalSpeed/VilentaBoss
++++ Export
+@@ -0,0 +1,16 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueCrucible/CriticalSpeed/VilentaBoss
++|monster_type_id                  = CrucibleVilentaBoss
++|mod_ids                          = MonsterCrucibleMapBoss, StunRepeatImmunityMapBoss_
++|tags                             = animal_claw_weapon, caster, demon, fire_affinity, has_claw, has_dual_wield_melee, has_one_handed_melee, light_armour, melee, not_dex, physical_affinity, ranged, very_fast_movement
++|skill_ids                        = VilentaReflection, VilentaGasMortar, VilentaHide, VilentaDash, VilentaGeometryAttackLeft, VilentaGeometryAttackRight, EmptyActionSpellVilentaGeometry, VilentaSlam, EmptyActionSpellVilentaCombo, VilentaXMortar, EmptyActionSpellVilentaSunder, VilentaSunder, VilentaGasMortarMulti, VilentaEnrageMelee, VilentaChangeToStance2, MeleeAtAnimationSpeedUnique
++|name                             = Therion, Beast of the Caverns
++|size                             = 4
++|minimum_attack_distance          = 6
++|maximum_attack_distance          = 15
++|model_size_multiplier            = 1.55
++|experience_multiplier            = 2.0
++|damage_multiplier                = 1.6
++|health_multiplier                = 5.4
++|attack_speed                     = 1.545
++}}

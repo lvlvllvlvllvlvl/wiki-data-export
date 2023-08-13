@@ -1,0 +1,43 @@
+--- Skill:ExileVaalThrownWeapon3
++++ Export
+@@ -10,23 +10,23 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = projectile_spiral_nova_starting_angle_offset
+-|static_stat1_value                      = -15
+-|static_stat2_id                         = projectile_spiral_nova_time_ms
+-|static_stat2_value                      = 1000
+-|static_stat3_id                         = active_skill_damage_+%_final
+-|static_stat3_value                      = -30
+-|static_stat4_id                         = base_number_of_projectiles_in_spiral_nova
+-|static_stat4_value                      = 4
+-|static_stat5_id                         = projectile_spiral_nova_angle
+-|static_stat5_value                      = 180
+-|static_stat6_id                         = projectile_spiral_nova_both_directions
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = base_is_projectile
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = projectiles_not_offset
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = cannot_cancel_skill_before_contact_point
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = cannot_cancel_skill_before_contact_point
++|static_stat2_value                      = 1
++|static_stat3_id                         = projectile_spiral_nova_starting_angle_offset
++|static_stat3_value                      = -15
++|static_stat4_id                         = projectile_spiral_nova_time_ms
++|static_stat4_value                      = 1000
++|static_stat5_id                         = projectiles_not_offset
++|static_stat5_value                      = 1
++|static_stat6_id                         = active_skill_damage_+%_final
++|static_stat6_value                      = -30
++|static_stat7_id                         = base_number_of_projectiles_in_spiral_nova
++|static_stat7_value                      = 4
++|static_stat8_id                         = projectile_spiral_nova_angle
++|static_stat8_value                      = 180
++|static_stat9_id                         = projectile_spiral_nova_both_directions
+ |static_stat9_value                      = 1
+ |stat_text                               = Deals 30% less Damage<br>Fires 4 Projectiles in a spiral
+ |level1                                  = True

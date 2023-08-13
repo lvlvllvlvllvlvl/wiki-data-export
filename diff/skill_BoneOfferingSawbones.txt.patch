@@ -1,0 +1,30 @@
+--- Skill:BoneOfferingSawbones
++++ Export
+@@ -11,9 +11,10 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = offering_skill_effect_duration_per_corpse
+ |static_stat1_value                      = 1500
+-|stat_text                               = Base duration is (3-7) seconds<br>Grants Minions +(33-75)% Chance to Block Attack Damage<br>Grants Minions +(33-75)% Chance to Block Spell Damage<br>Additional 1.5 seconds Base Duration per extra corpse Consumed
++|stat_text                               = Base duration is (3-7) seconds<br>Additional 1.5 seconds Base Duration per extra corpse Consumed<br>Grants Minions +(33-75)% Chance to Block Attack Damage<br>Grants Minions +(33-75)% Chance to Block Spell Damage
+ |level1                                  = True
+ |level1_level_requirement                = 9
++|level1_duration                         = 3
+ |level1_stat_text                        = Base duration is 3 seconds<br>Grants Minions +33% Chance to Block Attack Damage<br>Grants Minions +33% Chance to Block Spell Damage
+ |level1_stat1_id                         = base_skill_effect_duration
+ |level1_stat1_value                      = 3000
+@@ -23,6 +24,7 @@
+ |level1_stat3_value                      = 33
+ |level2                                  = True
+ |level2_level_requirement                = 43
++|level2_duration                         = 5
+ |level2_stat_text                        = Base duration is 5 seconds<br>Grants Minions +50% Chance to Block Attack Damage<br>Grants Minions +50% Chance to Block Spell Damage
+ |level2_stat1_id                         = base_skill_effect_duration
+ |level2_stat1_value                      = 5000
+@@ -32,6 +34,7 @@
+ |level2_stat3_value                      = 50
+ |level3                                  = True
+ |level3_level_requirement                = 57
++|level3_duration                         = 7
+ |level3_stat_text                        = Base duration is 7 seconds<br>Grants Minions +75% Chance to Block Attack Damage<br>Grants Minions +75% Chance to Block Spell Damage
+ |level3_stat1_id                         = base_skill_effect_duration
+ |level3_stat1_value                      = 7000

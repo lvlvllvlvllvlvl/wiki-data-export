@@ -1,0 +1,29 @@
+--- Skill:ChestSummonSandstormDaemon
++++ Export
+@@ -7,16 +7,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = summon_specific_monsters_radius_+%
+-|static_stat1_value                      = -95
+-|static_stat2_id                         = alternate_minion
+-|static_stat2_value                      = 136
+-|static_stat3_id                         = number_of_monsters_to_summon
+-|static_stat3_value                      = 3
+-|static_stat4_id                         = skill_repeat_count
+-|static_stat4_value                      = 5
+-|static_stat5_id                         = summon_specific_monsters_cannot_fail
+-|static_stat5_value                      = 1
++|static_stat1_id                         = alternate_minion
++|static_stat1_value                      = 136
++|static_stat2_id                         = number_of_monsters_to_summon
++|static_stat2_value                      = 3
++|static_stat3_id                         = summon_specific_monsters_cannot_fail
++|static_stat3_value                      = 1
++|static_stat4_id                         = summon_specific_monsters_radius_+%
++|static_stat4_value                      = -95
++|static_stat5_id                         = skill_repeat_count
++|static_stat5_value                      = 5
+ |stat_text                               = Skills Repeat an additional 5 Times
+ |level1                                  = True
+ |level1_level_requirement                = 1

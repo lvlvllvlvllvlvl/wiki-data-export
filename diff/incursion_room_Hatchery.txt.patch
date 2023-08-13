@@ -1,0 +1,17 @@
+--- Hatchery
++++ Export
+@@ -1,12 +1,12 @@
+ {{Incursion room
+ |id                      = BossMinionsI
+ |name                    = Hatchery
+-|description             = Increase monster damage throughout the Temple.<br/>Adds additional Minion monster packs throughout the Temple.<br/>Augments the Omnitect with minions.
++|description             = Increases monster damage throughout the Temple.<br />Adds additional Minion monster packs throughout the Temple.<br />Augments the Omnitect with minions.
+ |flavour_text            = Darkness blessed this vile nest.
+ |tier                    = 1
+ |upgrade_room_id         = BossMinionsII
+ |icon                    = BossMinionRoom
+-|modifier_ids            = IncursionMonsterDamageMap1
++|modifier_ids            = IncursionMonsterDamageMap1, IncursionTempleRoomBonus1_, IncursionTempleMinionPacks1, IncursionTempleMinionVialChance1
+ |architect_metadata_id   = Metadata/Monsters/VaalArchitect/VaalArchitect20
+ |architect_name          = Citaqualotl, Architect of the Swarm
+ }}

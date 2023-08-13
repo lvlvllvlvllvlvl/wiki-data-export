@@ -1,0 +1,41 @@
+--- Skill:FireNovaGraviciusDescent2
++++ Export
+@@ -9,23 +9,23 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_fire_damage
+-|static_stat1_value                      = 21
+-|static_stat2_id                         = spell_maximum_base_fire_damage
+-|static_stat2_value                      = 32
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = 200
+-|static_stat4_id                         = base_cast_speed_+%
+-|static_stat4_value                      = -40
+-|static_stat5_id                         = fire_nova_damage_+%_per_repeat_final
+-|static_stat5_value                      = 50
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = 200
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_minimum_base_fire_damage
++|static_stat3_value                      = 21
++|static_stat4_id                         = spell_maximum_base_fire_damage
++|static_stat4_value                      = 32
++|static_stat5_id                         = cannot_stun
++|static_stat5_value                      = 1
+ |static_stat6_id                         = skill_repeat_count
+ |static_stat6_value                      = 9
+-|static_stat7_id                         = cannot_stun
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = is_area_damage
+-|static_stat8_value                      = 1
+-|stat_text                               = Deals 21 to 32 Fire Damage<br>40% reduced Cast Speed<br>50% more Damage with Hits and Ailments per Repeat<br>Skills Repeat an additional 9 Times<br>Your Hits cannot Stun Enemies
++|static_stat7_id                         = base_cast_speed_+%
++|static_stat7_value                      = -40
++|static_stat8_id                         = fire_nova_damage_+%_per_repeat_final
++|static_stat8_value                      = 50
++|stat_text                               = Deals 21 to 32 Fire Damage<br>Your Hits cannot Stun Enemies<br>Skills Repeat an additional 9 Times<br>40% reduced Cast Speed<br>50% more Damage with Hits and Ailments per Repeat
+ |level1                                  = True
+ |level1_level_requirement                = 24
+ }}

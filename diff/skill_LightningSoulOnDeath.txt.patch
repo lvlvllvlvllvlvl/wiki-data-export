@@ -1,0 +1,47 @@
+--- Skill:LightningSoulOnDeath
++++ Export
+@@ -7,27 +7,27 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 3
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 6
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat2_value                      = -40
+ |static_stat3_id                         = monster_projectile_variation
+ |static_stat3_value                      = 21
+-|static_stat4_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat4_value                      = -40
+-|static_stat5_id                         = monster_reverse_point_blank_damage_-%_at_minimum_range
+-|static_stat5_value                      = 60
+-|static_stat6_id                         = cast_on_death_%
+-|static_stat6_value                      = 40
+-|static_stat7_id                         = base_chance_to_shock_%
+-|static_stat7_value                      = 5
++|static_stat4_id                         = monster_reverse_point_blank_damage_-%_at_minimum_range
++|static_stat4_value                      = 60
++|static_stat5_id                         = skill_unusable
++|static_stat5_value                      = 1
++|static_stat6_id                         = spell_minimum_base_lightning_damage
++|static_stat6_value                      = 3
++|static_stat7_id                         = spell_maximum_base_lightning_damage
++|static_stat7_value                      = 6
+ |static_stat8_id                         = always_pierce
+ |static_stat8_value                      = 1
+-|static_stat9_id                         = base_is_projectile
+-|static_stat9_value                      = 1
+-|static_stat10_id                        = skill_unusable
+-|static_stat10_value                     = 1
+-|stat_text                               = Deals 3 to 6 Lightning Damage<br>40% chance to Trigger this Spell on Death<br>5% chance to Shock enemies<br>Projectiles Pierce all Targets
++|static_stat9_id                         = base_chance_to_shock_%
++|static_stat9_value                      = 5
++|static_stat10_id                        = cast_on_death_%
++|static_stat10_value                     = 40
++|stat_text                               = Deals 3 to 6 Lightning Damage<br>Projectiles Pierce all Targets<br>5% chance to Shock enemies<br>40% chance to Trigger this Spell on Death
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

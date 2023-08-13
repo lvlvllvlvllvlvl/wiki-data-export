@@ -1,0 +1,37 @@
+--- Skill:HolyElderSpectralRuckusRight
++++ Export
+@@ -10,21 +10,21 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat1_value                      = -25
+-|static_stat2_id                         = base_projectile_speed_+%
+-|static_stat2_value                      = 100
+-|static_stat3_id                         = active_skill_damage_+%_final
+-|static_stat3_value                      = -59
+-|static_stat4_id                         = base_is_projectile
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = maintain_projectile_direction_when_using_contact_position
++|static_stat2_value                      = 1
++|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat3_value                      = -25
++|static_stat4_id                         = projectile_uses_contact_position
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = projectile_uses_contact_position
++|static_stat5_id                         = thrown_weapon_on_return_trigger_skills_with_id
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = maintain_projectile_direction_when_using_contact_position
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = thrown_weapon_on_return_trigger_skills_with_id
+-|static_stat7_value                      = 1
+-|stat_text                               = 100% increased Projectile Speed<br>Deals 59% less Damage
++|static_stat6_id                         = active_skill_damage_+%_final
++|static_stat6_value                      = -59
++|static_stat7_id                         = base_projectile_speed_+%
++|static_stat7_value                      = 100
++|stat_text                               = Deals 59% less Damage<br>100% increased Projectile Speed
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

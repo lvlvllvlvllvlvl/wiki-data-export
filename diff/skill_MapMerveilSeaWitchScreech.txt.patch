@@ -1,0 +1,26 @@
+--- Skill:MapMerveilSeaWitchScreech
++++ Export
+@@ -9,15 +9,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 2
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = 40
+-|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat2_value                      = -35
+-|static_stat3_id                         = base_skill_effect_duration
+-|static_stat3_value                      = 2000
+-|static_stat4_id                         = is_area_damage
+-|static_stat4_value                      = 1
+-|stat_text                               = Deals (230-336) to (346-503) Cold Damage<br>(5-8)% reduced Movement Speed<br>Base duration is 2 seconds
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat3_value                      = -35
++|static_stat4_id                         = base_skill_effect_duration
++|static_stat4_value                      = 2000
++|stat_text                               = Deals (230-336) to (346-503) Cold Damage<br>Base duration is 2 seconds<br>(5-8)% reduced Movement Speed
+ |level1                                  = True
+ |level1_level_requirement                = 66
+ |level1_stat_text                        = Deals 230 to 346 Cold Damage<br>5% reduced Movement Speed

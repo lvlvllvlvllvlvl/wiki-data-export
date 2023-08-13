@@ -1,0 +1,39 @@
+--- Skill:GAAtlasInvadersCleansingFodder2SlamBigUber
++++ Export
+@@ -7,23 +7,21 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 180
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = active_skill_damage_+%_final
+-|static_stat1_value                      = 120
+-|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat2_value                      = 100
+-|static_stat3_id                         = reduce_enemy_dodge_%
+-|static_stat3_value                      = 1000
+-|static_stat4_id                         = global_reduce_enemy_block_%
+-|static_stat4_value                      = 1000
+-|static_stat5_id                         = base_reduce_enemy_fire_resistance_%
+-|static_stat5_value                      = 15
+-|static_stat6_id                         = skill_physical_damage_%_to_convert_to_fire
+-|static_stat6_value                      = 75
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = 100
++|static_stat2_id                         = cannot_be_blocked_or_dodged_or_suppressed
++|static_stat2_value                      = 1
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = active_skill_damage_+%_final
++|static_stat4_value                      = 120
++|static_stat5_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat5_value                      = 75
++|static_stat6_id                         = base_reduce_enemy_fire_resistance_%
++|static_stat6_value                      = 15
+ |static_stat7_id                         = global_always_hit
+ |static_stat7_value                      = 1
+-|static_stat8_id                         = is_area_damage
+-|static_stat8_value                      = 1
+-|stat_text                               = Deals 120% more Damage<br>Enemies have 1000% reduced chance to Dodge Hits from this Skill<br>Enemy Block Chance reduced by 1000% against this Skill<br>Penetrates 15% Fire Resistance<br>75% of Physical Damage Converted to Fire Damage<br>Can't be Evaded
++|stat_text                               = Deals 120% more Damage<br>75% of Physical Damage Converted to Fire Damage<br>Penetrates 15% Fire Resistance<br>Can't be Evaded
+ |level1                                  = True
+ |level1_level_requirement                = 85
+ }}

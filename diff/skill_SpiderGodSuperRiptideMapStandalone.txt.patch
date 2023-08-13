@@ -1,0 +1,28 @@
+--- Skill:SpiderGodSuperRiptideMapStandalone
++++ Export
+@@ -9,16 +9,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 236
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 354
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -25
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+ |static_stat3_value                      = -25
+-|static_stat4_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat4_value                      = -25
+-|static_stat5_id                         = is_area_damage
+-|static_stat5_value                      = 1
++|static_stat4_id                         = spell_minimum_base_physical_damage
++|static_stat4_value                      = 236
++|static_stat5_id                         = spell_maximum_base_physical_damage
++|static_stat5_value                      = 354
+ |stat_text                               = Deals 236 to 354 Physical Damage
+ |level1                                  = True
+ |level1_level_requirement                = 68

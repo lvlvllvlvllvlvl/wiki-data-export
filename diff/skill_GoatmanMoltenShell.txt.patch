@@ -1,0 +1,30 @@
+--- Skill:GoatmanMoltenShell
++++ Export
+@@ -10,17 +10,18 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = molten_shell_expire_after_x_hits
+-|static_stat1_value                      = 1
+-|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat2_value                      = 54
+-|static_stat3_id                         = base_skill_effect_duration
+-|static_stat3_value                      = 5000
++|static_duration                         = 5
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = 54
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = molten_shell_expire_after_x_hits
++|static_stat3_value                      = 1
+ |static_stat4_id                         = always_ignite
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = is_area_damage
+-|static_stat5_value                      = 1
+-|stat_text                               = Deals (21-2903) to (32-4354) Fire Damage<br>Shields break after (20-4334) total Damage is prevented<br>(335-19399) additional Armour<br>Base duration is 5 seconds<br>Hits always Ignite
++|static_stat5_id                         = base_skill_effect_duration
++|static_stat5_value                      = 5000
++|stat_text                               = Deals (21-2903) to (32-4354) Fire Damage<br>Hits always Ignite<br>Base duration is 5 seconds<br>Shields break after (20-4334) total Damage is prevented<br>(335-19399) additional Armour
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ |level1_stat_text                        = Deals 21 to 32 Fire Damage<br>Shields break after 20 total Damage is prevented<br>335 additional Armour

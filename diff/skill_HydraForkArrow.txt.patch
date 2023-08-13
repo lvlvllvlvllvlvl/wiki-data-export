@@ -1,0 +1,21 @@
+--- Skill:HydraForkArrow
++++ Export
+@@ -10,13 +10,13 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = skill_physical_damage_%_to_convert_to_cold
+-|static_stat1_value                      = 50
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
+ |static_stat2_id                         = active_skill_damage_+%_final
+ |static_stat2_value                      = 200
+-|static_stat3_id                         = base_is_projectile
+-|static_stat3_value                      = 1
+-|stat_text                               = 50% of Physical Damage Converted to Cold Damage<br>Deals 200% more Damage
++|static_stat3_id                         = skill_physical_damage_%_to_convert_to_cold
++|static_stat3_value                      = 50
++|stat_text                               = Deals 200% more Damage<br>50% of Physical Damage Converted to Cold Damage
+ |level1                                  = True
+ |level1_level_requirement                = 83
+ }}

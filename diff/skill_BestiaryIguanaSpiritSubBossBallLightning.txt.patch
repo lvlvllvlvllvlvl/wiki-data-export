@@ -1,0 +1,25 @@
+--- Skill:BestiaryIguanaSpiritSubBossBallLightning
++++ Export
+@@ -7,14 +7,14 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 2
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 7
+-|static_stat3_id                         = base_projectile_speed_+%
+-|static_stat3_value                      = -99
+-|static_stat4_id                         = base_is_projectile
+-|static_stat4_value                      = 1
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_minimum_base_lightning_damage
++|static_stat2_value                      = 2
++|static_stat3_id                         = spell_maximum_base_lightning_damage
++|static_stat3_value                      = 7
++|static_stat4_id                         = base_projectile_speed_+%
++|static_stat4_value                      = -99
+ |stat_text                               = Deals 2 to 7 Lightning Damage<br>99% reduced Projectile Speed
+ |level1                                  = True
+ |level1_level_requirement                = 1

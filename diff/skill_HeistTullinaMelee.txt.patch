@@ -1,0 +1,40 @@
+--- Skill:HeistTullinaMelee
++++ Export
+@@ -7,15 +7,15 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 133
+-|static_stat1_id                         = base_chance_to_poison_on_hit_%
+-|static_stat1_value                      = 40
+-|static_stat2_id                         = skill_physical_damage_%_to_convert_to_chaos
+-|static_stat2_value                      = 80
+-|static_stat3_id                         = skill_can_fire_arrows
+-|static_stat3_value                      = 1
+-|static_stat4_id                         = skill_can_fire_wand_projectiles
+-|static_stat4_value                      = 1
+-|stat_text                               = Deals (-90-50)% more Damage<br>40% chance to Poison on Hit<br>80% of Physical Damage Converted to Chaos Damage
++|static_stat1_id                         = skill_can_fire_arrows
++|static_stat1_value                      = 1
++|static_stat2_id                         = skill_can_fire_wand_projectiles
++|static_stat2_value                      = 1
++|static_stat3_id                         = skill_physical_damage_%_to_convert_to_chaos
++|static_stat3_value                      = 80
++|static_stat4_id                         = base_chance_to_poison_on_hit_%
++|static_stat4_value                      = 40
++|stat_text                               = Deals (-90-50)% more Damage<br>80% of Physical Damage Converted to Chaos Damage<br>40% chance to Poison on Hit
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_stat_text                        = Deals 90% less Damage
+@@ -24,8 +24,8 @@
+ |level2                                  = True
+ |level2_level_requirement                = 100
+ |level2_stat_text                        = Deals 50% more Damage
+-|level2_stat1_id                         = active_skill_damage_+%_final
+-|level2_stat1_value                      = 50
+-|level2_stat2_id                         = active_skill_chaos_damage_+%_final
+-|level2_stat2_value                      = 2000
++|level2_stat1_id                         = active_skill_chaos_damage_+%_final
++|level2_stat1_value                      = 2000
++|level2_stat2_id                         = active_skill_damage_+%_final
++|level2_stat2_value                      = 50
+ }}

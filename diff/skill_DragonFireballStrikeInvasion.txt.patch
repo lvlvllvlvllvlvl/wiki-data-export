@@ -1,0 +1,28 @@
+--- Skill:DragonFireballStrikeInvasion
++++ Export
+@@ -9,16 +9,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = total_projectile_spread_angle_override
+-|static_stat1_value                      = 70
+-|static_stat2_id                         = monster_projectile_variation
++|static_stat1_id                         = monster_projectile_variation
++|static_stat1_value                      = 1
++|static_stat2_id                         = supress_weapon_surges
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = number_of_additional_projectiles
+-|static_stat3_value                      = 4
+-|static_stat4_id                         = skill_physical_damage_%_to_convert_to_fire
+-|static_stat4_value                      = 60
+-|static_stat5_id                         = supress_weapon_surges
+-|static_stat5_value                      = 1
++|static_stat3_id                         = total_projectile_spread_angle_override
++|static_stat3_value                      = 70
++|static_stat4_id                         = number_of_additional_projectiles
++|static_stat4_value                      = 4
++|static_stat5_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat5_value                      = 60
+ |stat_text                               = Deals (10-992) to (14-1488) Fire Damage<br>Deals (10-115)% more Attack Damage<br>Fires 4 additional Projectiles<br>60% of Physical Damage Converted to Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 3

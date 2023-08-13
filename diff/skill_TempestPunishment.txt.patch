@@ -1,0 +1,32 @@
+--- Skill:TempestPunishment
++++ Export
+@@ -1,5 +1,5 @@
+ {{Skill
+-|gem_description                         = Curses all targets in an area, causing them to be debilitated when they hit enemies and increasing damage they take while on low life. Some overkill damage from a killing blow on a cursed enemy will be reflected to surrounding targets.
++|gem_description                         = Curses all targets in an area, causing them to be debilitated when they hit enemies and increasing damage they take while on low life.
+ |active_skill_name                       = Punishment
+ |skill_id                                = TempestPunishment
+ |cast_time                               = 0.5
+@@ -7,15 +7,14 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = debilitate_self_for_x_milliseconds_on_hit
+-|static_stat1_value                      = 2000
++|static_duration                         = 12
++|static_stat1_id                         = base_skill_effect_duration
++|static_stat1_value                      = 12000
+ |static_stat2_id                         = damage_taken_+%_on_low_life
+-|static_stat2_value                      = 50
+-|static_stat3_id                         = punishment_reflect_%_overkill_damage_to_nearby_allies_on_death
+-|static_stat3_value                      = 10
+-|static_stat4_id                         = base_skill_effect_duration
+-|static_stat4_value                      = 12000
+-|stat_text                               = Cursed Enemies are Debilitated for 2 Seconds when they Hit<br>Cursed Enemies take 50% increased Damage while on Low Life<br>10% of Overkill Damage from Killing Blows on Cursed Enemies is Reflected to other Enemies as Physical Damage<br>Base duration is 12 seconds
++|static_stat2_value                      = 40
++|static_stat3_id                         = debilitate_self_for_x_milliseconds_on_hit
++|static_stat3_value                      = 2000
++|stat_text                               = Base duration is 12 seconds<br>Cursed Enemies take 40% increased Damage while on Low Life<br>Cursed Enemies are Debilitated for 2 Seconds when they Hit
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

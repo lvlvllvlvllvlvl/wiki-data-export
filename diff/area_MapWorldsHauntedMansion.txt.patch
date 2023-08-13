@@ -1,0 +1,20 @@
+--- Area:MapWorldsHauntedMansion
++++ Export
+@@ -4,16 +4,13 @@
+ |act                              = 11
+ |area_level                       = 72
+ |area_type_tags                   = urban
+-|tags                             = indoors_area, map, einharmaps, wealthy_area, kitava_cultist_area
++|tags                             = indoors_area, map, einharmaps, wealthy_area, kitava_cultist_area, blood_mage_boss_map, city_home_map
+ |loading_screen                   = Maps
+ |parent_area_id                   = 2_11_endgame_town
+ |boss_monster_ids                 = Metadata/Monsters/Axis/Cleric/BlackguardClericPureBossMap, Metadata/Monsters/Axis/Cleric/BlackguardClericPureBossXedMap
+ |entry_text                       = Forlorn and sorrowful, this once opulent ruin conceals the sins of a fallen line.
+ |entry_npc                        = The Shaper
+-|vaal_area_spawn_chance           = 8
+ |vaal_area_ids                    = MapSideArea5_3_1, MapSideArea5_4
+ |is_map_area                      = True
+-|flavour_text                     = Forlorn and sorrowful, this once opulent
+-ruin conceals the sins of a fallen line.
+ |main_page                        = Haunted Mansion Map
+ }}

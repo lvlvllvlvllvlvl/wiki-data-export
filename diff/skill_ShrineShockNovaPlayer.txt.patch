@@ -1,0 +1,23 @@
+--- Skill:ShrineShockNovaPlayer
++++ Export
+@@ -8,14 +8,15 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 4
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = -25
+-|static_stat2_id                         = shock_nova_places_X_ground_lightning_patches
++|static_stat2_id                         = is_area_damage
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = base_skill_effect_duration
+-|static_stat3_value                      = 4000
+-|static_stat4_id                         = is_area_damage
+-|static_stat4_value                      = 1
++|static_stat3_id                         = shock_nova_places_X_ground_lightning_patches
++|static_stat3_value                      = 1
++|static_stat4_id                         = base_skill_effect_duration
++|static_stat4_value                      = 4000
+ |stat_text                               = Deals (1-56) to (15-1066) Lightning Damage<br>Base duration is 4 seconds
+ |level1                                  = True
+ |level1_level_requirement                = 4

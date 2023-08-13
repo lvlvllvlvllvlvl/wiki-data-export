@@ -1,0 +1,19 @@
+--- Monster:Metadata/Monsters/LeagueCrucible/CriticalSpeed/Rage
++++ Export
+@@ -0,0 +1,16 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueCrucible/CriticalSpeed/Rage
++|monster_type_id                  = CrucibleRage
++|tags                             = demon, medium_movement, not_dex, not_int
++|skill_ids                        = MeleeAtAnimationSpeed
++|name                             = Forged Rage Demon
++|size                             = 3
++|minimum_attack_distance          = 6
++|maximum_attack_distance          = 10
++|model_size_multiplier            = 0.8
++|experience_multiplier            = 0.8
++|damage_multiplier                = 0.96
++|health_multiplier                = 1.12
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.665
++}}

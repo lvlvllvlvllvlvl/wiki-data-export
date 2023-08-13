@@ -1,0 +1,29 @@
+--- Skill:RampageDaemonVaalDetonateDead
++++ Export
+@@ -8,16 +8,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = secondary_minimum_base_fire_damage
+-|static_stat1_value                      = 4
+-|static_stat2_id                         = secondary_maximum_base_fire_damage
+-|static_stat2_value                      = 6
+-|static_stat3_id                         = corpse_explosion_monster_life_%
+-|static_stat3_value                      = 24
+-|static_stat4_id                         = detonate_dead_chain_explode
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = is_area_damage
+-|static_stat5_value                      = 1
++|static_stat1_id                         = detonate_dead_chain_explode
++|static_stat1_value                      = 1
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = secondary_minimum_base_fire_damage
++|static_stat3_value                      = 4
++|static_stat4_id                         = secondary_maximum_base_fire_damage
++|static_stat4_value                      = 6
++|static_stat5_id                         = corpse_explosion_monster_life_%
++|static_stat5_value                      = 24
+ |stat_text                               = Deals 4 to 6 Fire Damage<br>Explosion deals base Fire Damage equal to 24% of the corpse's Maximum Life
+ |level1                                  = True
+ |level1_level_requirement                = 2

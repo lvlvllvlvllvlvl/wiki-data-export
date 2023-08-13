@@ -1,0 +1,19 @@
+--- Skill:InsectSpawnerSpawnSideAreaBoss
++++ Export
+@@ -11,11 +11,11 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = number_of_insects_allowed
+ |static_stat1_value                      = 100
+-|static_stat2_id                         = base_cast_speed_+%
+-|static_stat2_value                      = 300
+-|static_stat3_id                         = skill_repeat_count
+-|static_stat3_value                      = 5
+-|stat_text                               = 300% increased Cast Speed<br>Skills Repeat an additional 5 Times
++|static_stat2_id                         = skill_repeat_count
++|static_stat2_value                      = 5
++|static_stat3_id                         = base_cast_speed_+%
++|static_stat3_value                      = 300
++|stat_text                               = Skills Repeat an additional 5 Times<br>300% increased Cast Speed
+ |level1                                  = True
+ |level1_level_requirement                = 0
+ }}

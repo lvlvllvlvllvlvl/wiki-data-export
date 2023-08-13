@@ -1,0 +1,17 @@
+--- Wiki
++++ Export
+@@ -39,11 +39,11 @@
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+ |static_duration                         = 1.5
+-|static_stat1_id                         = is_area_damage
++|static_stat1_id                         = base_skill_show_average_damage_instead_of_dps
+ |static_stat1_value                      = 1
+-|static_stat2_id                         = base_skill_show_average_damage_instead_of_dps
++|static_stat2_id                         = console_skill_dont_chase
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = console_skill_dont_chase
++|static_stat3_id                         = is_area_damage
+ |static_stat3_value                      = 1
+ |static_stat4_id                         = base_skill_effect_duration
+ |static_stat4_value                      = 1500

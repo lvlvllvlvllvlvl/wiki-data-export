@@ -1,0 +1,31 @@
+--- Skill:HeistRoboDogCharge
++++ Export
+@@ -10,17 +10,17 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = shield_charge_extra_distance
+-|static_stat1_value                      = 20
+-|static_stat2_id                         = shield_charge_stun_duration_+%_maximum
+-|static_stat2_value                      = 50
+-|static_stat3_id                         = base_movement_velocity_+%
+-|static_stat3_value                      = 104
+-|static_stat4_id                         = global_cannot_crit
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = ignores_proximity_shield
+-|static_stat5_value                      = 1
+-|stat_text                               = 50% increased Stun Duration on enemies at Maximum charge distance<br>104% increased Movement Speed<br>Never deal Critical Strikes
++|static_stat1_id                         = ignores_proximity_shield
++|static_stat1_value                      = 1
++|static_stat2_id                         = shield_charge_extra_distance
++|static_stat2_value                      = 20
++|static_stat3_id                         = global_cannot_crit
++|static_stat3_value                      = 1
++|static_stat4_id                         = shield_charge_stun_duration_+%_maximum
++|static_stat4_value                      = 50
++|static_stat5_id                         = base_movement_velocity_+%
++|static_stat5_value                      = 104
++|stat_text                               = Never deal Critical Strikes<br>50% increased Stun Duration on enemies at Maximum charge distance<br>104% increased Movement Speed
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

@@ -1,0 +1,48 @@
+--- Skill:HandFingerVaalThrownWeaponBoss
++++ Export
+@@ -10,27 +10,27 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_projectile_skill_dot_ground_fire_area_damage_per_minute
+-|static_stat1_value                      = 115
+-|static_stat2_id                         = ground_fire_art_variation
+-|static_stat2_value                      = 1
+-|static_stat3_id                         = base_projectile_ground_effect_duration
+-|static_stat3_value                      = 3000
+-|static_stat4_id                         = active_skill_attack_speed_+%_final
+-|static_stat4_value                      = 40
+-|static_stat5_id                         = skill_repeat_count
+-|static_stat5_value                      = 2
+-|static_stat6_id                         = projectiles_nova
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_projectile_ground_effect_duration
++|static_stat2_value                      = 3000
++|static_stat3_id                         = base_projectile_skill_dot_ground_fire_area_damage_per_minute
++|static_stat3_value                      = 115
++|static_stat4_id                         = ground_fire_art_variation
++|static_stat4_value                      = 1
++|static_stat5_id                         = projectiles_drop_ground_effects_on_client
++|static_stat5_value                      = 1
++|static_stat6_id                         = projectiles_drop_ground_fire
+ |static_stat6_value                      = 1
+-|static_stat7_id                         = base_is_projectile
++|static_stat7_id                         = projectiles_not_offset
+ |static_stat7_value                      = 1
+-|static_stat8_id                         = projectiles_drop_ground_fire
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = projectiles_drop_ground_effects_on_client
++|static_stat8_id                         = skill_repeat_count
++|static_stat8_value                      = 2
++|static_stat9_id                         = projectiles_nova
+ |static_stat9_value                      = 1
+-|static_stat10_id                        = projectiles_not_offset
+-|static_stat10_value                     = 1
+-|stat_text                               = 40% more Attack Speed<br>Skills Repeat an additional 2 Times<br>Fires Projectiles in a circle
++|static_stat10_id                        = active_skill_attack_speed_+%_final
++|static_stat10_value                     = 40
++|stat_text                               = Skills Repeat an additional 2 Times<br>Fires Projectiles in a circle<br>40% more Attack Speed
+ |level1                                  = True
+ |level1_level_requirement                = 2
+ }}

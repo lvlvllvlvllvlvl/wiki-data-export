@@ -1,0 +1,20 @@
+--- Monster:Metadata/Monsters/LeagueCrucible/Physical/BasiliskSnake
++++ Export
+@@ -0,0 +1,17 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueCrucible/Physical/BasiliskSnake
++|monster_type_id                  = CrucibleBasiliskSnake
++|mod_ids                          = MonsterImplicitCannotBeStunned1
++|tags                             = basilisk_monster, caster, chaos_affinity, extra_extra_large_height, ghost, ghost_armour, immobile, influence_monster, is_unarmed, no_final_gasp, no_forced_item_drops, no_fractured, reptile_beast
++|skill_ids                        = MeleeAtAnimationSpeedMaim, MMSCrucibleBasiliskBloodMortar, FaceLastTarget, CrucibleSnakeBurrow, CrucibleSnakeEmerge, EASCrucibleBasiliskTripleSpit, SSMCrucibleSummonBloodInsect
++|name                             = Forged Titan Snake
++|size                             = 3
++|minimum_attack_distance          = 6
++|maximum_attack_distance          = 26
++|model_size_multiplier            = 0.94
++|experience_multiplier            = 1.8
++|damage_multiplier                = 2.7
++|health_multiplier                = 2.52
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.005
++}}

@@ -1,0 +1,43 @@
+--- Skill:WbSupportSpark
++++ Export
+@@ -8,11 +8,14 @@
+ |static_damage_effectiveness             = 70
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_skill_effect_duration
+-|static_stat1_value                      = 3500
+-|static_stat2_id                         = base_is_projectile
+-|static_stat2_value                      = 1
+-|stat_text                               = Deals (2-83) to (7-249) Lightning Damage<br>Fires (1-4) additional Projectiles<br>Base duration is 3.5 seconds
++|static_duration                         = 3.5
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_skill_effect_duration
++|static_stat2_value                      = 3500
++|static_stat3_id                         = base_projectile_speed_+%
++|static_stat3_value                      = 25
++|stat_text                               = Deals (2-83) to (7-249) Lightning Damage<br>Base duration is 3.5 seconds<br>25% increased Projectile Speed<br>Fires (1-4) additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 4
+ |level1_cost_amounts                     = 20
+@@ -81,4 +84,20 @@
+ |level6_stat3_value                      = 3
+ |level7                                  = True
+ |level7_level_requirement                = 66
++|level7_stat_text                        = Deals 61 to 183 Lightning Damage<br>Fires 3 additional Projectiles
++|level7_stat1_id                         = spell_minimum_base_lightning_damage
++|level7_stat1_value                      = 61
++|level7_stat2_id                         = spell_maximum_base_lightning_damage
++|level7_stat2_value                      = 183
++|level7_stat3_id                         = number_of_additional_projectiles
++|level7_stat3_value                      = 3
++|level8                                  = True
++|level8_level_requirement                = 74
++|level8_stat_text                        = Deals 83 to 249 Lightning Damage<br>Fires 4 additional Projectiles
++|level8_stat1_id                         = spell_minimum_base_lightning_damage
++|level8_stat1_value                      = 83
++|level8_stat2_id                         = spell_maximum_base_lightning_damage
++|level8_stat2_value                      = 249
++|level8_stat3_id                         = number_of_additional_projectiles
++|level8_stat3_value                      = 4
+ }}

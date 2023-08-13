@@ -1,0 +1,29 @@
+--- Skill:MonsterIceSpearProphecyBossSummoned
++++ Export
+@@ -8,16 +8,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_cold_damage
+-|static_stat1_value                      = 14
+-|static_stat2_id                         = spell_maximum_base_cold_damage
+-|static_stat2_value                      = 22
+-|static_stat3_id                         = base_projectile_speed_+%
+-|static_stat3_value                      = -60
+-|static_stat4_id                         = ice_spear_second_form_critical_strike_chance_+%
+-|static_stat4_value                      = 500
+-|static_stat5_id                         = base_is_projectile
+-|static_stat5_value                      = 1
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_minimum_base_cold_damage
++|static_stat2_value                      = 14
++|static_stat3_id                         = spell_maximum_base_cold_damage
++|static_stat3_value                      = 22
++|static_stat4_id                         = base_projectile_speed_+%
++|static_stat4_value                      = -60
++|static_stat5_id                         = ice_spear_second_form_critical_strike_chance_+%
++|static_stat5_value                      = 500
+ |stat_text                               = Deals 14 to 22 Cold Damage<br>60% reduced Projectile Speed<br>Second form has 500% increased Critical Strike Chance
+ |level1                                  = True
+ |level1_level_requirement                = 3

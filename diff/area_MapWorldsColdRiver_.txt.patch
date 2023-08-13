@@ -1,0 +1,18 @@
+--- Area:MapWorldsColdRiver~
++++ Export
+@@ -7,13 +7,12 @@
+ |tags                             = map, area_with_water, einharmaps, snow_area, solaris_area, lunaris_area, god_boss_map_area
+ |loading_screen                   = Maps
+ |parent_area_id                   = 2_11_endgame_town
+-|boss_monster_ids                 = Metadata/Monsters/LunarisSolaris/LunarisMap, Metadata/Monsters/LunarisSolaris/SolarisMap
++|boss_monster_ids                 = Metadata/Monsters/LunarisSolaris/SolarisMap, Metadata/Monsters/LunarisSolaris/LunarisMap
+ |entry_text                       = Night's promises are dark, for even the stars must be harvested.
+ |entry_npc                        = The Shaper
+-|vaal_area_spawn_chance           = 8
+ |vaal_area_ids                    = MapSideAreaIceForest
+ |is_map_area                      = True
+-|flavour_text                     = Ice forges a fickle path,
++|flavour_text                     = Ice forges a fickle path,
+ as those beneath its veil can attest.
+ |main_page                        = Cold River Map
+ }}

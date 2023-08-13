@@ -1,0 +1,22 @@
+--- Skill:SupportUniqueMjolnerLightningSpellsCastOnHit
++++ Export
+@@ -1,16 +1,17 @@
+ {{Skill
+ |skill_id                                = SupportUniqueMjolnerLightningSpellsCastOnHit
+ |required_level                          = 0
++|static_cost_multiplier                  = 0
+ |static_stored_uses                      = 1
+ |static_cooldown                         = 0.25
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = no_cost
++|static_stat1_id                         = socketed_triggered_skills_use_weapon_attack_time_for_pvp_scaling
+ |static_stat1_value                      = 1
+ |static_stat2_id                         = unique_mjolner_lightning_spells_triggered
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = socketed_triggered_skills_use_weapon_attack_time_for_pvp_scaling
++|static_stat3_id                         = no_cost
+ |static_stat3_value                      = 1
+ |stat_text                               = Supported Skills Cost nothing
+ |level1                                  = True

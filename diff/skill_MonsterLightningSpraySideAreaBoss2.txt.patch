@@ -1,0 +1,52 @@
+--- Skill:MonsterLightningSpraySideAreaBoss2
++++ Export
+@@ -9,29 +9,29 @@
+ |static_damage_effectiveness             = 30
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 5
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 10
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = cast_on_damage_taken_also_tracks_dot
++|static_stat2_value                      = 1
+ |static_stat3_id                         = spell_maximum_action_distance_+%
+ |static_stat3_value                      = -75
+-|static_stat4_id                         = cast_on_damage_taken_%
+-|static_stat4_value                      = 25
+-|static_stat5_id                         = cast_on_damage_taken_threshold
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = base_projectile_speed_+%
+-|static_stat6_value                      = 30
+-|static_stat7_id                         = number_of_additional_projectiles
+-|static_stat7_value                      = 4
+-|static_stat8_id                         = projectiles_nova
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = always_pierce
+-|static_stat9_value                      = 1
+-|static_stat10_id                        = base_is_projectile
+-|static_stat10_value                     = 1
+-|static_stat11_id                        = cast_on_damage_taken_also_tracks_dot
++|static_stat4_id                         = spell_minimum_base_lightning_damage
++|static_stat4_value                      = 5
++|static_stat5_id                         = spell_maximum_base_lightning_damage
++|static_stat5_value                      = 10
++|static_stat6_id                         = always_pierce
++|static_stat6_value                      = 1
++|static_stat7_id                         = projectiles_nova
++|static_stat7_value                      = 1
++|static_stat8_id                         = base_projectile_speed_+%
++|static_stat8_value                      = 30
++|static_stat9_id                         = number_of_additional_projectiles
++|static_stat9_value                      = 4
++|static_stat10_id                        = cast_on_damage_taken_%
++|static_stat10_value                     = 25
++|static_stat11_id                        = cast_on_damage_taken_threshold
+ |static_stat11_value                     = 1
+-|stat_text                               = Deals 5 to 10 Lightning Damage<br>30% increased Projectile Speed<br>Fires 4 additional Projectiles<br>Fires Projectiles in a circle<br>Projectiles Pierce all Targets
++|stat_text                               = Deals 5 to 10 Lightning Damage<br>Projectiles Pierce all Targets<br>Fires Projectiles in a circle<br>30% increased Projectile Speed<br>Fires 4 additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ }}

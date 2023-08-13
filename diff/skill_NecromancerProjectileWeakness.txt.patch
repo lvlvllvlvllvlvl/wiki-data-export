@@ -1,0 +1,51 @@
+--- Skill:NecromancerProjectileWeakness
++++ Export
+@@ -9,30 +9,31 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = projectiles_hitting_self_split_into_x
+-|static_stat1_value                      = 3
+-|static_stat2_id                         = base_skill_effect_duration
+-|static_stat2_value                      = 6000
+-|stat_text                               = Cursed enemies take (22-24)% increased Damage from Projectile Hits<br>Projectiles which Hit Cursed Enemies Split towards 3 additional targets<br>Base duration is 6 seconds
++|static_duration                         = 6
++|static_stat1_id                         = base_skill_effect_duration
++|static_stat1_value                      = 6000
++|static_stat2_id                         = projectiles_hitting_self_split_into_x
++|static_stat2_value                      = 3
++|stat_text                               = Base duration is 6 seconds<br>Cursed enemies take (22-24)% increased Damage from Projectile Hits<br>Projectiles which Hit Cursed Enemies Split towards 3 additional targets
+ |level1                                  = True
+ |level1_level_requirement                = 25
+ |level1_stat_text                        = Cursed enemies take 22% increased Damage from Projectile Hits
+-|level1_stat1_id                         = projectile_damage_taken_+%
+-|level1_stat1_value                      = 22
+-|level1_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+-|level1_stat2_value                      = 24
++|level1_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|level1_stat1_value                      = 24
++|level1_stat2_id                         = projectile_damage_taken_+%
++|level1_stat2_value                      = 22
+ |level2                                  = True
+ |level2_level_requirement                = 55
+ |level2_stat_text                        = Cursed enemies take 24% increased Damage from Projectile Hits
+-|level2_stat1_id                         = projectile_damage_taken_+%
+-|level2_stat1_value                      = 24
+-|level2_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+-|level2_stat2_value                      = 42
++|level2_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|level2_stat1_value                      = 42
++|level2_stat2_id                         = projectile_damage_taken_+%
++|level2_stat2_value                      = 24
+ |level3                                  = True
+ |level3_level_requirement                = 60
+ |level3_stat_text                        = Cursed enemies take 24% increased Damage from Projectile Hits
+-|level3_stat1_id                         = projectile_damage_taken_+%
+-|level3_stat1_value                      = 24
+-|level3_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+-|level3_stat2_value                      = 42
++|level3_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|level3_stat1_value                      = 42
++|level3_stat2_id                         = projectile_damage_taken_+%
++|level3_stat2_value                      = 24
+ }}

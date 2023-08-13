@@ -1,0 +1,26 @@
+--- Skill:PerandusBoneOffering
++++ Export
+@@ -9,15 +9,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = offering_skill_effect_duration_per_corpse
+-|static_stat1_value                      = 1500
+-|static_stat2_id                         = base_spell_block_%
+-|static_stat2_value                      = 33
++|static_duration                         = 7
++|static_stat1_id                         = base_skill_effect_duration
++|static_stat1_value                      = 7000
++|static_stat2_id                         = offering_skill_effect_duration_per_corpse
++|static_stat2_value                      = 1500
+ |static_stat3_id                         = monster_base_block_%
+ |static_stat3_value                      = 33
+-|static_stat4_id                         = base_skill_effect_duration
+-|static_stat4_value                      = 7000
+-|stat_text                               = Additional 1.5 seconds Base Duration per extra corpse Consumed<br>Grants Minions +33% Chance to Block Spell Damage<br>Grants Minions +33% Chance to Block Attack Damage<br>Base duration is 7 seconds
++|static_stat4_id                         = base_spell_block_%
++|static_stat4_value                      = 33
++|stat_text                               = Base duration is 7 seconds<br>Additional 1.5 seconds Base Duration per extra corpse Consumed<br>Grants Minions +33% Chance to Block Attack Damage<br>Grants Minions +33% Chance to Block Spell Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

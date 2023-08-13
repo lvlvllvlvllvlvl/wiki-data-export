@@ -1,0 +1,21 @@
+--- Skill:DropBearAmbush
++++ Export
+@@ -7,13 +7,13 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = active_skill_damage_+%_final
+-|static_stat1_value                      = -50
++|static_stat1_id                         = drop_bear_fall_on_target
++|static_stat1_value                      = 1
+ |static_stat2_id                         = global_cannot_crit
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = drop_bear_fall_on_target
+-|static_stat3_value                      = 1
+-|stat_text                               = Deals 50% less Damage<br>Never deal Critical Strikes
++|static_stat3_id                         = active_skill_damage_+%_final
++|static_stat3_value                      = -50
++|stat_text                               = Never deal Critical Strikes<br>Deals 50% less Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

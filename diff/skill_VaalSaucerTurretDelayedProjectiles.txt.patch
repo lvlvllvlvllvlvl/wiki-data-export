@@ -1,0 +1,48 @@
+--- Skill:VaalSaucerTurretDelayedProjectiles
++++ Export
+@@ -8,27 +8,28 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_fire_damage
+-|static_stat1_value                      = 1527
+-|static_stat2_id                         = spell_maximum_base_fire_damage
+-|static_stat2_value                      = 2290
++|static_duration                         = 1.2
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = generic_skill_trigger_id
++|static_stat2_value                      = 1
+ |static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+ |static_stat3_value                      = -50
+-|static_stat4_id                         = generic_skill_trigger_id
++|static_stat4_id                         = projectiles_not_offset
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = base_skill_effect_duration
+-|static_stat5_value                      = 1200
+-|static_stat6_id                         = number_of_additional_projectiles
+-|static_stat6_value                      = 4
+-|static_stat7_id                         = projectiles_nova
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = skill_unusable
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = base_is_projectile
++|static_stat5_id                         = skill_unusable
++|static_stat5_value                      = 1
++|static_stat6_id                         = spell_minimum_base_fire_damage
++|static_stat6_value                      = 1527
++|static_stat7_id                         = spell_maximum_base_fire_damage
++|static_stat7_value                      = 2290
++|static_stat8_id                         = base_skill_effect_duration
++|static_stat8_value                      = 1200
++|static_stat9_id                         = projectiles_nova
+ |static_stat9_value                      = 1
+-|static_stat10_id                        = projectiles_not_offset
+-|static_stat10_value                     = 1
+-|stat_text                               = Deals 1527 to 2290 Fire Damage<br>Base duration is 1.2 seconds<br>Fires 4 additional Projectiles<br>Fires Projectiles in a circle
++|static_stat10_id                        = number_of_additional_projectiles
++|static_stat10_value                     = 4
++|stat_text                               = Deals 1527 to 2290 Fire Damage<br>Base duration is 1.2 seconds<br>Fires Projectiles in a circle<br>Fires 4 additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 80
+ }}

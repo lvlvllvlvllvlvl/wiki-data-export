@@ -1,0 +1,33 @@
+--- Skill:ChattersThrowShieldProjectileLake
++++ Export
+@@ -10,19 +10,19 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = thrown_shield_num_additional_projectiles
+-|static_stat1_value                      = 5
+-|static_stat2_id                         = active_skill_damage_+%_final
+-|static_stat2_value                      = -40
+-|static_stat3_id                         = always_pierce
+-|static_stat3_value                      = 1
+-|static_stat4_id                         = base_is_projectile
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = projectile_uses_contact_position
++|static_stat2_value                      = 1
++|static_stat3_id                         = thrown_shield_num_additional_projectiles
++|static_stat3_value                      = 5
++|static_stat4_id                         = use_scaled_contact_offset
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = projectile_uses_contact_position
++|static_stat5_id                         = always_pierce
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = use_scaled_contact_offset
+-|static_stat6_value                      = 1
+-|stat_text                               = Deals 40% less Damage<br>Projectiles Pierce all Targets
++|static_stat6_id                         = active_skill_damage_+%_final
++|static_stat6_value                      = -40
++|stat_text                               = Projectiles Pierce all Targets<br>Deals 40% less Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

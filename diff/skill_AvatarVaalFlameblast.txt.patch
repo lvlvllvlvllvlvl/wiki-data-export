@@ -1,0 +1,47 @@
+--- Skill:AvatarVaalFlameblast
++++ Export
+@@ -8,25 +8,25 @@
+ |static_damage_effectiveness             = 50
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_fire_damage
+-|static_stat1_value                      = 6
+-|static_stat2_id                         = spell_maximum_base_fire_damage
+-|static_stat2_value                      = 9
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = -50
+-|static_stat4_id                         = trigger_skill_restriction
+-|static_stat4_value                      = 6
+-|static_stat5_id                         = flameblast_ailment_damage_+%_final_per_stack
+-|static_stat5_value                      = 110
+-|static_stat6_id                         = charged_blast_spell_damage_+%_final_per_stack
+-|static_stat6_value                      = 110
+-|static_stat7_id                         = is_area_damage
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = cast_on_trigger_cascade_event
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = skill_unusable
+-|static_stat9_value                      = 1
+-|stat_text                               = Deals 6 to 9 Fire Damage<br>110% more Damage with Ailments for each stage<br>110% more Spell Damage for each stage
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -50
++|static_stat2_id                         = cast_on_trigger_cascade_event
++|static_stat2_value                      = 1
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = skill_unusable
++|static_stat4_value                      = 1
++|static_stat5_id                         = trigger_skill_restriction
++|static_stat5_value                      = 6
++|static_stat6_id                         = spell_minimum_base_fire_damage
++|static_stat6_value                      = 6
++|static_stat7_id                         = spell_maximum_base_fire_damage
++|static_stat7_value                      = 9
++|static_stat8_id                         = charged_blast_spell_damage_+%_final_per_stack
++|static_stat8_value                      = 110
++|static_stat9_id                         = flameblast_ailment_damage_+%_final_per_stack
++|static_stat9_value                      = 110
++|stat_text                               = Deals 6 to 9 Fire Damage<br>110% more Spell Damage for each stage<br>110% more Damage with Ailments for each stage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

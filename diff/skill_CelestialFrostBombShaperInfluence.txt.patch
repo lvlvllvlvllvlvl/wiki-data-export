@@ -1,0 +1,38 @@
+--- Skill:CelestialFrostBombShaperInfluence
++++ Export
+@@ -10,21 +10,22 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_cold_damage
+-|static_stat1_value                      = 14
+-|static_stat2_id                         = spell_maximum_base_cold_damage
+-|static_stat2_value                      = 20
+-|static_stat3_id                         = life_regeneration_rate_+%
+-|static_stat3_value                      = -50
+-|static_stat4_id                         = base_cold_damage_resistance_%
+-|static_stat4_value                      = -20
++|static_duration                         = 4
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_minimum_base_cold_damage
++|static_stat2_value                      = 14
++|static_stat3_id                         = spell_maximum_base_cold_damage
++|static_stat3_value                      = 20
++|static_stat4_id                         = base_skill_effect_duration
++|static_stat4_value                      = 4000
+ |static_stat5_id                         = base_secondary_skill_effect_duration
+ |static_stat5_value                      = 2000
+-|static_stat6_id                         = base_skill_effect_duration
+-|static_stat6_value                      = 4000
+-|static_stat7_id                         = is_area_damage
+-|static_stat7_value                      = 1
+-|stat_text                               = Deals 14 to 20 Cold Damage<br>50% reduced Life Regeneration rate<br>Cold Exposure applies -20% to Cold Resistance<br>Base secondary duration is 2 seconds<br>Base duration is 4 seconds
++|static_stat6_id                         = life_regeneration_rate_+%
++|static_stat6_value                      = -50
++|static_stat7_id                         = base_cold_damage_resistance_%
++|static_stat7_value                      = -20
++|stat_text                               = Deals 14 to 20 Cold Damage<br>Base duration is 4 seconds<br>Base secondary duration is 2 seconds<br>50% reduced Life Regeneration rate<br>Cold Exposure applies -20% to Cold Resistance
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

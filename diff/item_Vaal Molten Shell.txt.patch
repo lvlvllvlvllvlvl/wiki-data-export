@@ -1,0 +1,31 @@
+--- Wiki
++++ Export
+@@ -30,14 +30,14 @@
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+ |static_duration                         = 9
+-|static_stat1_id                         = skill_override_pvp_scaling_time_ms
+-|static_stat1_value                      = 1400
+-|static_stat2_id                         = base_skill_show_average_damage_instead_of_dps
++|static_stat1_id                         = base_skill_show_average_damage_instead_of_dps
++|static_stat1_value                      = 1
++|static_stat2_id                         = damage_originates_from_initiator_location
+ |static_stat2_value                      = 1
+ |static_stat3_id                         = molten_shell_explode_each_hit
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = damage_originates_from_initiator_location
+-|static_stat4_value                      = 1
++|static_stat4_id                         = skill_override_pvp_scaling_time_ms
++|static_stat4_value                      = 1400
+ |static_stat5_id                         = base_skill_effect_duration
+ |static_stat5_value                      = 9000
+ |static_stat6_id                         = modifiers_to_skill_effect_duration_also_affect_soul_prevention_duration
+@@ -48,7 +48,7 @@
+ |static_stat8_value                      = 10000
+ |static_stat9_id                         = display_vaal_molten_shell_alternate_description
+ |static_stat9_value                      = 1
+-|stat_text                               = Base duration is 9 seconds<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>Buff grants +(50-858) to Armour<br>(35-39)% of Damage from Hits is taken from the Buff before your Life or Energy Shield<br>Buff can take Damage equal to 0% of your Armour, up to a maximum of 0<br>0% of Damage from Hits is taken from the Buff before your Life or Energy Shield<br>Buff can take Damage equal to 20% of your Armour, up to a maximum of 10000<br>Reflects (300-9000)% of Damage taken from Buff as Fire Damage when Buff expires or is depleted<br>Reflects 0% of Damage taken from Buff as Fire Damage each second,<br>or when Buff expires or is depleted
++|stat_text                               = Base duration is 9 seconds<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>Buff grants +(50-858) to Armour<br>0% of Damage from Hits is taken from the Buff before your Life or Energy Shield<br>Buff can take Damage equal to 20% of your Armour, up to a maximum of 10000<br>(35-39)% of Damage from Hits is taken from the Buff before your Life or Energy Shield<br>Buff can take Damage equal to 0% of your Armour, up to a maximum of 0<br>Reflects 0% of Damage taken from Buff as Fire Damage each second,<br>or when Buff expires or is depleted<br>Reflects (300-9000)% of Damage taken from Buff as Fire Damage when Buff expires or is depleted
+ |level1                                  = True
+ |level1_level_requirement                = 4
+ |level1_stat_text                        = Buff grants +50 to Armour<br>35% of Damage from Hits is taken from the Buff before your Life or Energy Shield<br>Buff can take Damage equal to 0% of your Armour, up to a maximum of 0<br>Reflects 300% of Damage taken from Buff as Fire Damage when Buff expires or is depleted

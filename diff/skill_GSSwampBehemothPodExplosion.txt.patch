@@ -1,0 +1,21 @@
+--- Skill:GSSwampBehemothPodExplosion
++++ Export
+@@ -8,12 +8,12 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_chaos_damage
+-|static_stat1_value                      = 5
+-|static_stat2_id                         = spell_maximum_base_chaos_damage
+-|static_stat2_value                      = 8
+-|static_stat3_id                         = is_area_damage
+-|static_stat3_value                      = 1
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_minimum_base_chaos_damage
++|static_stat2_value                      = 5
++|static_stat3_id                         = spell_maximum_base_chaos_damage
++|static_stat3_value                      = 8
+ |stat_text                               = Deals 5 to 8 Chaos Damage
+ |level1                                  = True
+ |level1_level_requirement                = 0

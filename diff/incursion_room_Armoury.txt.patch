@@ -1,0 +1,17 @@
+--- Armoury (incursion room)
++++ Export
+@@ -3,12 +3,12 @@
+ {{Incursion room
+ |id                      = ArmourRoomII
+ |name                    = Armoury
+-|description             = Monsters throughout the Temple have increased resistance.<br />Contains chests full of armour.
++|description             = Monsters throughout the Temple have increased resistances.<br />Contains chests full of armour.
+ |flavour_text            = Fresh recruits drag iron suits.
+ |tier                    = 2
+ |upgrade_room_id         = ArmourRoomIII
+ |icon                    = ArmourRoom2
+-|modifier_ids            = 
++|modifier_ids            = IncursionMonsterResists2, IncursionTempleRoomBonus2_
+ |architect_metadata_id   = Metadata/Monsters/VaalArchitect/VaalArchitect10
+ |architect_name          = Atmohua, Architect of Iron
+ }}

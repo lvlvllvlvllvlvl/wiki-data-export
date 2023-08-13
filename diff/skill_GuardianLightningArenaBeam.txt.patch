@@ -1,0 +1,35 @@
+--- Skill:GuardianLightningArenaBeam
++++ Export
+@@ -7,19 +7,19 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 395
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 1185
+-|static_stat3_id                         = geometry_attack_width
+-|static_stat3_value                      = 7
+-|static_stat4_id                         = geometry_attack_shape
+-|static_stat4_value                      = 2
+-|static_stat5_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat5_value                      = -50
+-|static_stat6_id                         = cannot_stun
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = is_area_damage
++|static_stat1_id                         = geometry_attack_shape
++|static_stat1_value                      = 2
++|static_stat2_id                         = geometry_attack_width
++|static_stat2_value                      = 7
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat4_value                      = -50
++|static_stat5_id                         = spell_minimum_base_lightning_damage
++|static_stat5_value                      = 395
++|static_stat6_id                         = spell_maximum_base_lightning_damage
++|static_stat6_value                      = 1185
++|static_stat7_id                         = cannot_stun
+ |static_stat7_value                      = 1
+ |stat_text                               = Deals 395 to 1185 Lightning Damage<br>Your Hits cannot Stun Enemies
+ |level1                                  = True

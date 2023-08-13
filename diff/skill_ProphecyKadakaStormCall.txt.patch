@@ -1,0 +1,37 @@
+--- Skill:ProphecyKadakaStormCall
++++ Export
+@@ -12,13 +12,14 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = -31
+-|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat2_value                      = -25
+-|static_stat3_id                         = is_area_damage
+-|static_stat3_value                      = 1
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat3_value                      = -25
+ |stat_text                               = Deals (3-181) to (9-362) Lightning Damage<br>Base duration is (2.5-1.5) seconds<br>(0-35)% increased Cast Speed
+ |level1                                  = True
+ |level1_level_requirement                = 3
++|level1_duration                         = 2.5
+ |level1_stat_text                        = Deals 3 to 9 Lightning Damage<br>Base duration is 2.5 seconds
+ |level1_stat1_id                         = spell_minimum_base_lightning_damage
+ |level1_stat1_value                      = 3
+@@ -28,6 +29,7 @@
+ |level1_stat3_value                      = 2500
+ |level2                                  = True
+ |level2_level_requirement                = 34
++|level2_duration                         = 2
+ |level2_stat_text                        = Deals 28 to 83 Lightning Damage<br>Base duration is 2 seconds<br>20% increased Cast Speed
+ |level2_stat1_id                         = spell_minimum_base_lightning_damage
+ |level2_stat1_value                      = 28
+@@ -39,6 +41,7 @@
+ |level2_stat4_value                      = 20
+ |level3                                  = True
+ |level3_level_requirement                = 58
++|level3_duration                         = 1.5
+ |level3_stat_text                        = Deals 181 to 362 Lightning Damage<br>Base duration is 1.5 seconds<br>35% increased Cast Speed
+ |level3_stat1_id                         = spell_minimum_base_lightning_damage
+ |level3_stat1_value                      = 181

@@ -1,0 +1,19 @@
+--- Area:MapWorldsChateau
++++ Export
+@@ -4,14 +4,14 @@
+ |act                              = 11
+ |area_level                       = 71
+ |area_type_tags                   = urban, dungeon, temple
+-|tags                             = map, area_with_water, indoors_area, einharmaps, wealthy_area, scavenger_boss_area, labyrinth_tileset_area
++|tags                             = map, area_with_water, indoors_area, einharmaps, wealthy_area, scavenger_boss_area, labyrinth_tileset_area, city_home_map
+ |loading_screen                   = Maps
+ |parent_area_id                   = 2_11_endgame_town
+ |boss_monster_ids                 = Metadata/Monsters/GargoyleBoss/GargoyleMapBoss
+ |entry_text                       = Beauty and brutality in such close proximity.
+ |entry_npc                        = The Shaper
+-|vaal_area_spawn_chance           = 8
+ |vaal_area_ids                    = MapSideArea8_5
+ |is_map_area                      = True
++|flavour_text                     = Beauty and brutality in such close proximity.
+ |main_page                        = Chateau Map
+ }}

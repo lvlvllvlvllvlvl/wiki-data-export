@@ -1,0 +1,55 @@
+--- Skill:AbyssLichBossSummonMinionsFromMortar2
++++ Export
+@@ -7,31 +7,31 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_cold_damage
+-|static_stat1_value                      = 3
+-|static_stat2_id                         = spell_maximum_base_cold_damage
+-|static_stat2_value                      = 4
+-|static_stat3_id                         = projectile_spread_radius
+-|static_stat3_value                      = 30
+-|static_stat4_id                         = monster_projectile_variation
+-|static_stat4_value                      = 7
++|static_stat1_id                         = alternate_minion
++|static_stat1_value                      = 299
++|static_stat2_id                         = minion_dies_when_parent_dies
++|static_stat2_value                      = 1
++|static_stat3_id                         = monster_projectile_variation
++|static_stat3_value                      = 7
++|static_stat4_id                         = number_of_monsters_to_summon
++|static_stat4_value                      = 1
+ |static_stat5_id                         = projectile_minimum_range
+ |static_stat5_value                      = 15
+-|static_stat6_id                         = alternate_minion
+-|static_stat6_value                      = 299
+-|static_stat7_id                         = number_of_monsters_to_summon
++|static_stat6_id                         = projectile_spread_radius
++|static_stat6_value                      = 30
++|static_stat7_id                         = summoned_monsters_are_minions
+ |static_stat7_value                      = 1
+-|static_stat8_id                         = number_of_additional_projectiles
+-|static_stat8_value                      = 5
+-|static_stat9_id                         = projectiles_nova
+-|static_stat9_value                      = 1
+-|static_stat10_id                        = summoned_monsters_are_minions
+-|static_stat10_value                     = 1
+-|static_stat11_id                        = summoned_monsters_no_drops_or_experience
++|static_stat8_id                         = summoned_monsters_no_drops_or_experience
++|static_stat8_value                      = 1
++|static_stat9_id                         = spell_minimum_base_cold_damage
++|static_stat9_value                      = 3
++|static_stat10_id                        = spell_maximum_base_cold_damage
++|static_stat10_value                     = 4
++|static_stat11_id                        = projectiles_nova
+ |static_stat11_value                     = 1
+-|static_stat12_id                        = minion_dies_when_parent_dies
+-|static_stat12_value                     = 1
+-|stat_text                               = Deals 3 to 4 Cold Damage<br>Fires 5 additional Projectiles<br>Fires Projectiles in a circle
++|static_stat12_id                        = number_of_additional_projectiles
++|static_stat12_value                     = 5
++|stat_text                               = Deals 3 to 4 Cold Damage<br>Fires Projectiles in a circle<br>Fires 5 additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

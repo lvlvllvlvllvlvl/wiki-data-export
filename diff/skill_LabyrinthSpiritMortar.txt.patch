@@ -1,0 +1,34 @@
+--- Skill:LabyrinthSpiritMortar
++++ Export
+@@ -8,21 +8,20 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = ignite_art_variation
+-|static_stat1_value                      = 2
+-|static_stat2_id                         = projectile_minimum_range
+-|static_stat2_value                      = 15
+-|static_stat3_id                         = projectile_spread_radius
+-|static_stat3_value                      = 20
+-|static_stat4_id                         = is_area_damage
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = base_is_projectile
+-|static_stat5_value                      = 1
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = ignite_art_variation
++|static_stat2_value                      = 2
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = projectile_minimum_range
++|static_stat4_value                      = 15
++|static_stat5_id                         = projectile_spread_radius
++|static_stat5_value                      = 20
+ |stat_text                               = Deals (5-1724) to (9-2586) Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ |level1_cooldown                         = 3.5
+-|level1_critical_strike_chance           = 0
+ |level1_stat_text                        = Deals 5 to 9 Fire Damage
+ |level1_stat1_id                         = spell_minimum_base_fire_damage
+ |level1_stat1_value                      = 5

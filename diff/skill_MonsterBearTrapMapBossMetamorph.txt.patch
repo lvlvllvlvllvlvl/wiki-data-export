@@ -1,0 +1,48 @@
+--- Skill:MonsterBearTrapMapBossMetamorph
++++ Export
+@@ -10,27 +10,27 @@
+ |static_damage_effectiveness             = 150
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = secondary_minimum_base_physical_damage
++|static_stat1_id                         = base_skill_is_trapped
+ |static_stat1_value                      = 1
+-|static_stat2_id                         = secondary_maximum_base_physical_damage
+-|static_stat2_value                      = 34
++|static_stat2_id                         = ignores_trap_and_mine_cooldown_limit
++|static_stat2_value                      = 1
+ |static_stat3_id                         = trap_variation
+ |static_stat3_value                      = 12
+-|static_stat4_id                         = throw_traps_in_circle_radius
+-|static_stat4_value                      = 40
+-|static_stat5_id                         = number_of_additional_traps_allowed
+-|static_stat5_value                      = 10
+-|static_stat6_id                         = number_of_additional_traps_to_throw
+-|static_stat6_value                      = 9
+-|static_stat7_id                         = base_trap_duration
+-|static_stat7_value                      = 30000
+-|static_stat8_id                         = is_trap
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = base_skill_is_trapped
+-|static_stat9_value                      = 1
+-|static_stat10_id                        = ignores_trap_and_mine_cooldown_limit
+-|static_stat10_value                     = 1
+-|stat_text                               = Deals 1 to 34 Physical Damage<br>Traps are thrown randomly around targeted location<br>Can have up to 10 additional Traps placed at a time<br>Throw up to 9 additional Traps<br>Trap lasts 30 seconds
++|static_stat4_id                         = secondary_minimum_base_physical_damage
++|static_stat4_value                      = 1
++|static_stat5_id                         = secondary_maximum_base_physical_damage
++|static_stat5_value                      = 34
++|static_stat6_id                         = base_trap_duration
++|static_stat6_value                      = 30000
++|static_stat7_id                         = is_trap
++|static_stat7_value                      = 1
++|static_stat8_id                         = throw_traps_in_circle_radius
++|static_stat8_value                      = 40
++|static_stat9_id                         = number_of_additional_traps_allowed
++|static_stat9_value                      = 10
++|static_stat10_id                        = number_of_additional_traps_to_throw
++|static_stat10_value                     = 9
++|stat_text                               = Deals 1 to 34 Physical Damage<br>Trap lasts 30 seconds<br>Traps are thrown randomly around targeted location<br>Can have up to 10 additional Traps placed at a time<br>Throw up to 9 additional Traps
+ |level1                                  = True
+ |level1_level_requirement                = 15
+ }}

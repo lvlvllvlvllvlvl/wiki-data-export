@@ -1,0 +1,32 @@
+--- Skill:BrandDetonate
++++ Export
+@@ -12,19 +12,19 @@
+ |static_damage_effectiveness             = 510
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 2272
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 3408
+-|static_stat3_id                         = brand_detonate_faster_duration_%_per_second
+-|static_stat3_value                      = 150
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_minimum_base_physical_damage
++|static_stat2_value                      = 2272
++|static_stat3_id                         = spell_maximum_base_physical_damage
++|static_stat3_value                      = 3408
+ |static_stat4_id                         = brand_detonate_faster_activation_%_per_second
+ |static_stat4_value                      = 35
+-|static_stat5_id                         = display_brand_deonate_tag_conversion
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = is_area_damage
++|static_stat5_id                         = brand_detonate_faster_duration_%_per_second
++|static_stat5_value                      = 150
++|static_stat6_id                         = display_brand_deonate_tag_conversion
+ |static_stat6_value                      = 1
+-|stat_text                               = Deals 2272 to 3408 Physical Damage<br>Overcharged Brands expire 150% faster, +150% every 0.5 seconds<br>Overcharged Brands Activate 35% faster, +35% every 0.5 seconds<br>100% of Physical Damage Converted to other Damage Types matching the Brand Gem's Tags
++|stat_text                               = Deals 2272 to 3408 Physical Damage<br>Overcharged Brands Activate 35% faster, +35% every 0.5 seconds<br>Overcharged Brands expire 150% faster, +150% every 0.5 seconds<br>100% of Physical Damage Converted to other Damage Types matching the Brand Gem's Tags
+ |level1                                  = True
+ |level1_level_requirement                = 70
+ }}

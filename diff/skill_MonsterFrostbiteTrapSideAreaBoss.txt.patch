@@ -1,0 +1,53 @@
+--- Skill:MonsterFrostbiteTrapSideAreaBoss
++++ Export
+@@ -9,29 +9,30 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 11
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = 9
+-|static_stat2_id                         = trap_variation
+-|static_stat2_value                      = 9
+-|static_stat3_id                         = base_trap_duration
+-|static_stat3_value                      = 20000
+-|static_stat4_id                         = chance_to_be_frozen_%
+-|static_stat4_value                      = 25
+-|static_stat5_id                         = base_cold_damage_resistance_%
+-|static_stat5_value                      = -20
+-|static_stat6_id                         = base_skill_effect_duration
+-|static_stat6_value                      = 11000
+-|static_stat7_id                         = is_trap
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = traps_explode_on_timeout
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = base_skill_is_trapped
++|static_stat2_id                         = base_skill_is_trapped
++|static_stat2_value                      = 1
++|static_stat3_id                         = create_trap_at_target_location
++|static_stat3_value                      = 1
++|static_stat4_id                         = ignores_trap_and_mine_cooldown_limit
++|static_stat4_value                      = 1
++|static_stat5_id                         = trap_variation
++|static_stat5_value                      = 9
++|static_stat6_id                         = traps_explode_on_timeout
++|static_stat6_value                      = 1
++|static_stat7_id                         = base_trap_duration
++|static_stat7_value                      = 20000
++|static_stat8_id                         = base_skill_effect_duration
++|static_stat8_value                      = 11000
++|static_stat9_id                         = is_trap
+ |static_stat9_value                      = 1
+-|static_stat10_id                        = ignores_trap_and_mine_cooldown_limit
+-|static_stat10_value                     = 1
+-|static_stat11_id                        = create_trap_at_target_location
+-|static_stat11_value                     = 1
+-|stat_text                               = Trap lasts 20 seconds<br>Hits against Cursed Enemies have +25% chance to Freeze<br>Cursed enemies have -20% to Cold Resistance<br>Base duration is 11 seconds<br>Traps Trigger at the end of their Duration
++|static_stat10_id                        = base_cold_damage_resistance_%
++|static_stat10_value                     = -20
++|static_stat11_id                        = chance_to_be_frozen_%
++|static_stat11_value                     = 25
++|stat_text                               = Traps Trigger at the end of their Duration<br>Trap lasts 20 seconds<br>Base duration is 11 seconds<br>Cursed enemies have -20% to Cold Resistance<br>Hits against Cursed Enemies have +25% chance to Freeze
+ |level1                                  = True
+ |level1_level_requirement                = 60
+ }}

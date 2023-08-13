@@ -1,0 +1,16 @@
+--- Toxic Grove
++++ Export
+@@ -1,11 +1,11 @@
+ {{Incursion room
+ |id                      = PoisonRoomIII
+ |name                    = Toxic Grove
+-|description             = Spreads poisonous plants throughout the Temple.<br />Contains a valuable item.
++|description             = Spreads poisonous and parasitic plants throughout the Temple.<br />Contains a valuable item.
+ |flavour_text            = Toxins pave a verdant grave.
+ |tier                    = 3
+ |icon                    = PoisonRoom3
+-|modifier_ids            = IncursionTemplePoisonClusters3
++|modifier_ids            = IncursionTemplePoisonClusters3, IncursionTemplePoisonVialChance3
+ |architect_metadata_id   = Metadata/Monsters/VaalArchitect/VaalArchitect1
+ |architect_name          = Tacati, Architect of Toxins
+ }}

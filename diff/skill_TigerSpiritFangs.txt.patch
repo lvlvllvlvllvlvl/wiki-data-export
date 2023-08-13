@@ -1,0 +1,23 @@
+--- Skill:TigerSpiritFangs
++++ Export
+@@ -11,13 +11,13 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_bleeding_damage_+%_final
+ |static_stat1_value                      = 100
+-|static_stat2_id                         = active_skill_damage_+%_final
+-|static_stat2_value                      = 163
+-|static_stat3_id                         = active_skill_attack_speed_+%_final
+-|static_stat3_value                      = -60
+-|static_stat4_id                         = global_bleed_on_hit
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = is_area_damage
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = active_skill_damage_+%_final
++|static_stat3_value                      = 163
++|static_stat4_id                         = active_skill_attack_speed_+%_final
++|static_stat4_value                      = -60
++|static_stat5_id                         = global_bleed_on_hit
+ |static_stat5_value                      = 1
+ |stat_text                               = Deals 163% more Damage<br>60% less Attack Speed<br>Causes Bleeding
+ |level1                                  = True

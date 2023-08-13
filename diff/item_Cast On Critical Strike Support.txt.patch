@@ -1,0 +1,22 @@
+--- Wiki
++++ Export
+@@ -10,7 +10,6 @@
+ |help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+ |dexterity_percent                       = 60
+ |intelligence_percent                    = 40
+-|static_cost_multiplier                  = 120
+ |gem_tags                                = Critical, Support, Spell, Trigger
+ |skill_id                                = SupportCastOnCrit
+ |support_gem_letter                      = &
+@@ -110,9 +109,9 @@
+ |stat_text                               = Supported Attacks will Trigger a Supported Spell when you Crit an Enemy<br>Supported Skills deal (19-10)% less Spell Damage<br>You cannot Cast Supported Triggerable Spells directly
+ |static_stat1_id                         = cast_linked_spells_on_attack_crit_%
+ |static_stat1_value                      = 100
+-|static_stat2_id                         = triggered_skill_uses_main_hand_or_averaged_attack_time_for_pvp_scaling
++|static_stat2_id                         = cast_spell_on_linked_attack_crit
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = cast_spell_on_linked_attack_crit
++|static_stat3_id                         = triggered_skill_uses_main_hand_or_averaged_attack_time_for_pvp_scaling
+ |static_stat3_value                      = 1
+ |static_stat4_id                         = spell_uncastable_if_triggerable
+ |static_stat4_value                      = 1

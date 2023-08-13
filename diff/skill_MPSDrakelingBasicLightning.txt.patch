@@ -1,0 +1,36 @@
+--- Skill:MPSDrakelingBasicLightning
++++ Export
+@@ -9,20 +9,20 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 8
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 12
+-|static_stat3_id                         = spell_maximum_action_distance_+%
+-|static_stat3_value                      = -40
+-|static_stat4_id                         = monster_projectile_variation
+-|static_stat4_value                      = 185
+-|static_stat5_id                         = projectile_uses_contact_position
++|static_stat1_id                         = maintain_projectile_direction_when_using_contact_position
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_projectile_variation
++|static_stat2_value                      = 185
++|static_stat3_id                         = projectile_uses_contact_position
++|static_stat3_value                      = 1
++|static_stat4_id                         = spell_maximum_action_distance_+%
++|static_stat4_value                      = -40
++|static_stat5_id                         = use_scaled_contact_offset
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = use_scaled_contact_offset
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = maintain_projectile_direction_when_using_contact_position
+-|static_stat7_value                      = 1
++|static_stat6_id                         = spell_minimum_base_lightning_damage
++|static_stat6_value                      = 8
++|static_stat7_id                         = spell_maximum_base_lightning_damage
++|static_stat7_value                      = 12
+ |stat_text                               = Deals 8 to 12 Lightning Damage
+ |level1                                  = True
+ |level1_level_requirement                = 0

@@ -1,0 +1,37 @@
+--- Skill:AfflictionDemonProjectileSpammableLightning
++++ Export
+@@ -8,20 +8,20 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_lightning_damage
+-|static_stat1_value                      = 2
+-|static_stat2_id                         = spell_maximum_base_lightning_damage
+-|static_stat2_value                      = 7
+-|static_stat3_id                         = monster_projectile_variation
+-|static_stat3_value                      = 137
+-|static_stat4_id                         = base_chance_to_shock_%
+-|static_stat4_value                      = 50
+-|static_stat5_id                         = base_is_projectile
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = projectile_uses_contact_position
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = use_scaled_contact_offset
+-|static_stat7_value                      = 1
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_projectile_variation
++|static_stat2_value                      = 137
++|static_stat3_id                         = projectile_uses_contact_position
++|static_stat3_value                      = 1
++|static_stat4_id                         = use_scaled_contact_offset
++|static_stat4_value                      = 1
++|static_stat5_id                         = spell_minimum_base_lightning_damage
++|static_stat5_value                      = 2
++|static_stat6_id                         = spell_maximum_base_lightning_damage
++|static_stat6_value                      = 7
++|static_stat7_id                         = base_chance_to_shock_%
++|static_stat7_value                      = 50
+ |stat_text                               = Deals 2 to 7 Lightning Damage<br>50% chance to Shock enemies
+ |level1                                  = True
+ |level1_level_requirement                = 1

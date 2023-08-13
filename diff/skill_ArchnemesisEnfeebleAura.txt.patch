@@ -1,0 +1,25 @@
+--- Skill:ArchnemesisEnfeebleAura
++++ Export
+@@ -7,15 +7,15 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = enfeeble_damage_+%_vs_rare_or_unique_final
+-|static_stat1_value                      = -15
++|static_stat1_id                         = accuracy_rating_+%
++|static_stat1_value                      = -40
+ |static_stat2_id                         = enfeeble_damage_+%_final
+ |static_stat2_value                      = -40
+-|static_stat3_id                         = accuracy_rating_+%
+-|static_stat3_value                      = -40
+-|static_stat4_id                         = curse_apply_as_aura
+-|static_stat4_value                      = 1
+-|stat_text                               = Cursed Rare or Unique enemies deal 15% less Damage<br>Cursed Normal or Magic enemies deal 40% less Damage<br>Cursed enemies have 40% reduced Accuracy Rating<br>This Curse is Cast as an Aura applying to nearby Enemies
++|static_stat3_id                         = curse_apply_as_aura
++|static_stat3_value                      = 1
++|static_stat4_id                         = enfeeble_damage_+%_vs_rare_or_unique_final
++|static_stat4_value                      = -15
++|stat_text                               = Cursed enemies have 40% reduced Accuracy Rating<br>Cursed Normal or Magic enemies deal 40% less Damage<br>This Curse is Cast as an Aura applying to nearby Enemies<br>Cursed Rare or Unique enemies deal 15% less Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

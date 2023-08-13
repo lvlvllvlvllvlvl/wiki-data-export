@@ -1,0 +1,38 @@
+--- Skill:EtherealKnivesWbChaosLeader4Nova
++++ Export
+@@ -12,21 +12,21 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = projectile_spiral_nova_time_ms
+-|static_stat1_value                      = 4000
+-|static_stat2_id                         = base_number_of_projectiles_in_spiral_nova
+-|static_stat2_value                      = 80
+-|static_stat3_id                         = projectile_spiral_nova_angle
+-|static_stat3_value                      = 4000
+-|static_stat4_id                         = active_skill_cast_speed_+%_final
+-|static_stat4_value                      = 50
+-|static_stat5_id                         = number_of_additional_projectiles
+-|static_stat5_value                      = 20
+-|static_stat6_id                         = global_poison_on_hit
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = base_is_projectile
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = projectile_spiral_nova_time_ms
++|static_stat2_value                      = 4000
++|static_stat3_id                         = active_skill_cast_speed_+%_final
++|static_stat3_value                      = 50
++|static_stat4_id                         = base_number_of_projectiles_in_spiral_nova
++|static_stat4_value                      = 80
++|static_stat5_id                         = projectile_spiral_nova_angle
++|static_stat5_value                      = 4000
++|static_stat6_id                         = number_of_additional_projectiles
++|static_stat6_value                      = 20
++|static_stat7_id                         = global_poison_on_hit
+ |static_stat7_value                      = 1
+-|stat_text                               = Deals (3-4) to (5-6) Physical Damage<br>Fires 80 Projectiles in a spiral<br>50% more Cast Speed<br>Fires 20 additional Projectiles<br>Poisons Enemies on Hit
++|stat_text                               = Deals (3-4) to (5-6) Physical Damage<br>50% more Cast Speed<br>Fires 80 Projectiles in a spiral<br>Fires 20 additional Projectiles<br>Poisons Enemies on Hit
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ |level1_stat_text                        = Deals 3 to 5 Physical Damage

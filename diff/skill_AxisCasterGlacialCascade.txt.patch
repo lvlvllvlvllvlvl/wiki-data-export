@@ -1,0 +1,19 @@
+--- Skill:AxisCasterGlacialCascade
++++ Export
+@@ -10,11 +10,11 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = -34
+-|static_stat2_id                         = upheaval_number_of_spikes
+-|static_stat2_value                      = 6
+-|static_stat3_id                         = is_area_damage
+-|static_stat3_value                      = 1
+-|stat_text                               = Deals (2-78) to (3-120) Physical Damage<br>Causes 6 Bursts<br>Deals (4-144) to (6-218) Cold Damage
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = upheaval_number_of_spikes
++|static_stat3_value                      = 6
++|stat_text                               = Deals (2-78) to (3-120) Physical Damage<br>Deals (4-144) to (6-218) Cold Damage<br>Causes 6 Bursts
+ |level1                                  = True
+ |level1_level_requirement                = 4
+ |level1_stat_text                        = Deals 2 to 3 Physical Damage<br>Deals 4 to 6 Cold Damage

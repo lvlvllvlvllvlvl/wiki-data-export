@@ -1,0 +1,32 @@
+--- Skill:ArchnemesisPoachersMark
++++ Export
+@@ -9,19 +9,20 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 8.8
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = 24
+-|static_stat2_id                         = chance_to_grant_frenzy_charge_on_death_%
+-|static_stat2_value                      = 100
+-|static_stat3_id                         = mana_granted_when_hit_by_attacks
+-|static_stat3_value                      = 9
++|static_stat2_id                         = base_skill_effect_duration
++|static_stat2_value                      = 8800
++|static_stat3_id                         = chance_to_grant_frenzy_charge_on_death_%
++|static_stat3_value                      = 100
+ |static_stat4_id                         = life_granted_when_hit_by_attacks
+ |static_stat4_value                      = 9
+-|static_stat5_id                         = base_additional_physical_damage_reduction_%
+-|static_stat5_value                      = -20
+-|static_stat6_id                         = base_skill_effect_duration
+-|static_stat6_value                      = 8800
+-|stat_text                               = Cursed enemies have a 100% chance to grant a Frenzy Charge when slain<br>Cursed enemies grant 9 Mana when Hit by Attacks<br>Cursed enemies grant 9 Life when Hit by Attacks<br>Cursed enemies have -20% to Physical Damage Reduction<br>Base duration is 8.8 seconds
++|static_stat5_id                         = mana_granted_when_hit_by_attacks
++|static_stat5_value                      = 9
++|static_stat6_id                         = base_additional_physical_damage_reduction_%
++|static_stat6_value                      = -20
++|stat_text                               = Base duration is 8.8 seconds<br>Cursed enemies have a 100% chance to grant a Frenzy Charge when slain<br>Cursed enemies grant 9 Life when Hit by Attacks<br>Cursed enemies grant 9 Mana when Hit by Attacks<br>Cursed enemies have -20% to Physical Damage Reduction
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

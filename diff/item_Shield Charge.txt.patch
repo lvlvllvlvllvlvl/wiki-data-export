@@ -1,0 +1,20 @@
+--- Wiki
++++ Export
+@@ -34,13 +34,13 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = ignores_proximity_shield
++|static_stat1_id                         = attack_is_melee_override
+ |static_stat1_value                      = 1
+-|static_stat2_id                         = is_area_damage
++|static_stat2_id                         = ignores_proximity_shield
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = shield_charge_attack_time_+30%_if_no_charge
++|static_stat3_id                         = is_area_damage
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = attack_is_melee_override
++|static_stat4_id                         = shield_charge_attack_time_+30%_if_no_charge
+ |static_stat4_value                      = 1
+ |static_stat5_id                         = shield_charge_scaling_stun_threshold_reduction_+%_at_maximum_range
+ |static_stat5_value                      = 75

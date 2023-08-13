@@ -1,0 +1,27 @@
+--- Skill:DwellerGroundSlam
++++ Export
+@@ -12,15 +12,15 @@
+ |static_attack_speed_multiplier          = 54
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = -15
+-|static_stat2_id                         = groundslam_damage_to_close_targets_+%_final
+-|static_stat2_value                      = 25
+-|static_stat3_id                         = active_skill_base_radius_+
+-|static_stat3_value                      = 10
+-|static_stat4_id                         = base_stun_threshold_reduction_+%
+-|static_stat4_value                      = 15
+-|static_stat5_id                         = is_area_damage
+-|static_stat5_value                      = 1
+-|stat_text                               = Deals up to 25% more Damage to closer targets<br>+10 to radius<br>15% reduced Enemy Stun Threshold
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = base_stun_threshold_reduction_+%
++|static_stat3_value                      = 15
++|static_stat4_id                         = active_skill_base_radius_+
++|static_stat4_value                      = 10
++|static_stat5_id                         = groundslam_damage_to_close_targets_+%_final
++|static_stat5_value                      = 25
++|stat_text                               = 15% reduced Enemy Stun Threshold<br>+10 to radius<br>Deals up to 25% more Damage with Hits to closer targets
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

@@ -1,0 +1,21 @@
+--- Wiki
++++ Export
+@@ -35,13 +35,13 @@
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+ |static_mana_reservation_percent         = 35
+-|static_stat1_id                         = petrified_blood_%_life_loss_below_half_from_hit_to_prevent
+-|static_stat1_value                      = 40
+-|static_stat2_id                         = cannot_recover_above_low_life_except_flasks
+-|static_stat2_value                      = 1
++|static_stat1_id                         = cannot_recover_above_low_life_except_flasks
++|static_stat1_value                      = 1
++|static_stat2_id                         = petrified_blood_%_life_loss_below_half_from_hit_to_prevent
++|static_stat2_value                      = 40
+ |static_stat3_id                         = skill_grants_life_cost_%_mana_cost_while_not_on_low_life
+ |static_stat3_value                      = 40
+-|stat_text                               = +(100-81)% of Life loss prevented is lost over 4 seconds<br>When taking Damage from Hits, +40% of Life loss below half Life is Prevented<br>Skills gain a Base Life Cost equal to 40% of Base Mana Cost while not on Low Life
++|stat_text                               = When taking Damage from Hits, +40% of Life loss below half Life is Prevented<br>+(100-81)% of Life loss prevented is lost over 4 seconds<br>Skills gain a Base Life Cost equal to 40% of Base Mana Cost while not on Low Life
+ |level1                                  = True
+ |level1_level_requirement                = 24
+ |level1_stat_text                        = +100% of Life loss prevented is lost over 4 seconds

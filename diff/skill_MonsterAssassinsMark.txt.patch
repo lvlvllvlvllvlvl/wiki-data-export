@@ -1,0 +1,38 @@
+--- Skill:MonsterAssassinsMark
++++ Export
+@@ -9,21 +9,22 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 8.8
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = 24
+-|static_stat2_id                         = chance_to_grant_power_charge_on_death_%
+-|static_stat2_value                      = 100
+-|static_stat3_id                         = mana_granted_when_killed
+-|static_stat3_value                      = 22
+-|static_stat4_id                         = life_granted_when_killed
+-|static_stat4_value                      = 22
+-|static_stat5_id                         = enemy_additional_critical_strike_chance_against_self
+-|static_stat5_value                      = 150
+-|static_stat6_id                         = enemy_additional_critical_strike_multiplier_against_self
+-|static_stat6_value                      = 44
+-|static_stat7_id                         = base_skill_effect_duration
+-|static_stat7_value                      = 8800
+-|stat_text                               = Cursed enemies have a 100% chance to grant a Power Charge when slain<br>Cursed enemies grant 22 Mana when Killed<br>Cursed enemies grant 22 Life when Killed<br>Hits against Cursed Enemies have +1.5% to Critical Strike Chance<br>Hits against Cursed Enemies have +44% to Critical Strike Multiplier<br>Base duration is 8.8 seconds
++|static_stat2_id                         = base_skill_effect_duration
++|static_stat2_value                      = 8800
++|static_stat3_id                         = chance_to_grant_power_charge_on_death_%
++|static_stat3_value                      = 100
++|static_stat4_id                         = enemy_additional_critical_strike_chance_against_self
++|static_stat4_value                      = 150
++|static_stat5_id                         = enemy_additional_critical_strike_multiplier_against_self
++|static_stat5_value                      = 44
++|static_stat6_id                         = life_granted_when_killed
++|static_stat6_value                      = 22
++|static_stat7_id                         = mana_granted_when_killed
++|static_stat7_value                      = 22
++|stat_text                               = Base duration is 8.8 seconds<br>Cursed enemies have a 100% chance to grant a Power Charge when slain<br>Hits against Cursed Enemies have +1.5% to Critical Strike Chance<br>Hits against Cursed Enemies have +44% to Critical Strike Multiplier<br>Cursed enemies grant 22 Life when Killed<br>Cursed enemies grant 22 Mana when Killed
+ |level1                                  = True
+ |level1_level_requirement                = 4
+ }}

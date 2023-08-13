@@ -1,0 +1,25 @@
+--- Skill:IzaroFireElementalMortar
++++ Export
+@@ -10,14 +10,14 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_maximum_action_distance_+%
+-|static_stat1_value                      = -33
+-|static_stat2_id                         = projectile_spread_radius
+-|static_stat2_value                      = 15
+-|static_stat3_id                         = is_area_damage
+-|static_stat3_value                      = 1
+-|static_stat4_id                         = base_is_projectile
+-|static_stat4_value                      = 1
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = projectile_spread_radius
++|static_stat3_value                      = 15
++|static_stat4_id                         = spell_maximum_action_distance_+%
++|static_stat4_value                      = -33
+ |stat_text                               = Deals (9-670) to (14-1005) Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 2

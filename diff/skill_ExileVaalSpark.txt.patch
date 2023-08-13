@@ -1,0 +1,32 @@
+--- Skill:ExileVaalSpark
++++ Export
+@@ -8,17 +8,20 @@
+ |static_damage_effectiveness             = 50
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = monster_reverse_point_blank_damage_-%_at_minimum_range
+-|static_stat1_value                      = 40
+-|static_stat2_id                         = projectile_spiral_nova_time_ms
+-|static_stat2_value                      = 4500
+-|static_stat3_id                         = base_number_of_projectiles_in_spiral_nova
+-|static_stat3_value                      = 150
++|static_duration                         = 3.5
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_reverse_point_blank_damage_-%_at_minimum_range
++|static_stat2_value                      = 40
++|static_stat3_id                         = projectile_spiral_nova_time_ms
++|static_stat3_value                      = 4500
+ |static_stat4_id                         = base_skill_effect_duration
+ |static_stat4_value                      = 3500
+-|static_stat5_id                         = base_is_projectile
+-|static_stat5_value                      = 1
+-|stat_text                               = Deals (2-22) to (7-65) Lightning Damage<br>Fires Projectiles in random directions<br>Base duration is 3.5 seconds
++|static_stat5_id                         = base_number_of_projectiles_in_spiral_nova
++|static_stat5_value                      = 150
++|static_stat6_id                         = base_projectile_speed_+%
++|static_stat6_value                      = 25
++|stat_text                               = Deals (2-22) to (7-65) Lightning Damage<br>Base duration is 3.5 seconds<br>Fires Projectiles in random directions<br>25% increased Projectile Speed
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_cost_amounts                     = 200

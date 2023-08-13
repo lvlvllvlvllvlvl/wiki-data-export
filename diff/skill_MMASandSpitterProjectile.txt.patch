@@ -1,0 +1,45 @@
+--- Skill:MMASandSpitterProjectile
++++ Export
+@@ -7,26 +7,26 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = projectile_minimum_range
+-|static_stat1_value                      = 50
+-|static_stat2_id                         = projectile_spread_radius
+-|static_stat2_value                      = 3
+-|static_stat3_id                         = melee_range_+
+-|static_stat3_value                      = 15
+-|static_stat4_id                         = is_area_damage
++|static_stat1_id                         = action_should_face_away_from_target
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_is_projectile
++|static_stat2_value                      = 1
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = maintain_projectile_direction_when_using_contact_position
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = base_is_projectile
++|static_stat5_id                         = mortar_projectile_scale_animation_speed_instead_of_projectile_speed
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = projectile_uses_contact_position
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = use_scaled_contact_offset
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = action_should_face_away_from_target
++|static_stat6_id                         = projectile_minimum_range
++|static_stat6_value                      = 50
++|static_stat7_id                         = projectile_spread_radius
++|static_stat7_value                      = 3
++|static_stat8_id                         = projectile_uses_contact_position
+ |static_stat8_value                      = 1
+-|static_stat9_id                         = maintain_projectile_direction_when_using_contact_position
++|static_stat9_id                         = use_scaled_contact_offset
+ |static_stat9_value                      = 1
+-|static_stat10_id                        = mortar_projectile_scale_animation_speed_instead_of_projectile_speed
+-|static_stat10_value                     = 1
++|static_stat10_id                        = melee_range_+
++|static_stat10_value                     = 15
+ |stat_text                               = +15 to Melee Strike Range
+ |level1                                  = True
+ |level1_level_requirement                = 1

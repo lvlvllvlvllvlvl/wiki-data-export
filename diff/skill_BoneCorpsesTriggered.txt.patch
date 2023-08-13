@@ -1,0 +1,28 @@
+--- Skill:BoneCorpsesTriggered
++++ Export
+@@ -0,0 +1,25 @@
++{{Skill
++|gem_description                         = Spawns Bone Archer corpses around the targeted location.
++|active_skill_name                       = Bone Corpses
++|skill_id                                = BoneCorpsesTriggered
++|cast_time                               = 0.3
++|required_level                          = 70
++|static_cost_amounts                     = 10
++|static_cost_types                       = Mana
++|static_stored_uses                      = 1
++|static_cooldown                         = 1
++|static_damage_effectiveness             = 100
++|static_damage_multiplier                = 100
++|static_attack_speed_multiplier          = 100
++|static_stat1_id                         = unearth_base_corpse_level
++|static_stat1_value                      = 80
++|static_stat2_id                         = desecrate_number_of_corpses_to_create
++|static_stat2_value                      = 5
++|static_stat3_id                         = chance_to_trigger_level_20_bone_corpses_on_stun_with_heavy_strike_or_boneshatter_%
++|static_stat3_value                      = 100
++|static_stat4_id                         = desecrate_maximum_number_of_corpses
++|static_stat4_value                      = 10
++|stat_text                               = Spawns corpses with Level 80<br>Spawns 5 corpses<br>This Skill is Triggered when you Stun an Enemy with Heavy Strike or Boneshatter<br>Maximum of 10 corpses allowed
++|level1                                  = True
++|level1_level_requirement                = 70
++}}

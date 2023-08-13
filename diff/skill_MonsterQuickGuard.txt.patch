@@ -1,0 +1,26 @@
+--- Skill:MonsterQuickGuard
++++ Export
+@@ -9,15 +9,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_skill_effect_duration
+-|static_stat1_value                      = 2000
+-|static_stat2_id                         = display_this_skill_cooldown_does_not_recover_during_buff
++|static_duration                         = 2
++|static_stat1_id                         = base_deal_no_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_skill_is_instant
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = base_skill_is_instant
+-|static_stat3_value                      = 1
+-|static_stat4_id                         = base_deal_no_damage
++|static_stat3_id                         = base_skill_effect_duration
++|static_stat3_value                      = 2000
++|static_stat4_id                         = display_this_skill_cooldown_does_not_recover_during_buff
+ |static_stat4_value                      = 1
+-|stat_text                               = (50-70)% of Damage from Hits is taken from the Buff before Life or Energy Shield<br>Buff can take (180-495720) Damage<br>Base duration is 2 seconds<br>This Skill's Cooldown does not recover during its effect<br>Using Supported Skills is Instant
++|stat_text                               = Using Supported Skills is Instant<br>Base duration is 2 seconds<br>This Skill's Cooldown does not recover during its effect<br>(50-70)% of Damage from Hits is taken from the Buff before Life or Energy Shield<br>Buff can take (180-495720) Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_stat_text                        = 50% of Damage from Hits is taken from the Buff before Life or Energy Shield<br>Buff can take 180 Damage

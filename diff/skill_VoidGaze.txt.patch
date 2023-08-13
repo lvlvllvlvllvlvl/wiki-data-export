@@ -1,0 +1,28 @@
+--- Skill:VoidGaze
++++ Export
+@@ -9,15 +9,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = cast_on_skill_use_%
+-|static_stat1_value                      = 100
+-|static_stat2_id                         = base_skill_effect_duration
+-|static_stat2_value                      = 10000
+-|static_stat3_id                         = base_chaos_damage_resistance_%
+-|static_stat3_value                      = -20
+-|static_stat4_id                         = spell_uncastable_if_triggerable
+-|static_stat4_value                      = 1
+-|stat_text                               = Trigger this Spell when you Use a Skill<br>Base duration is 10 seconds<br>Enemies get -20% to Chaos Resistance<br>You cannot Cast this Spell directly
++|static_duration                         = 10
++|static_stat1_id                         = base_skill_effect_duration
++|static_stat1_value                      = 10000
++|static_stat2_id                         = spell_uncastable_if_triggerable
++|static_stat2_value                      = 1
++|static_stat3_id                         = cast_on_skill_use_%
++|static_stat3_value                      = 100
++|static_stat4_id                         = base_chaos_damage_resistance_%
++|static_stat4_value                      = -20
++|stat_text                               = Base duration is 10 seconds<br>You cannot Cast this Spell directly<br>Trigger this Spell when you Use a Skill<br>Enemies get -20% to Chaos Resistance
+ |level1                                  = True
+ |level1_level_requirement                = 40
+ |radius                                  = 39

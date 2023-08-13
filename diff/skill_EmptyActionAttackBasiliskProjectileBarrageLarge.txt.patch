@@ -1,0 +1,19 @@
+--- Skill:EmptyActionAttackBasiliskProjectileBarrageLarge
++++ Export
+@@ -9,11 +9,11 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = melee_range_+
+-|static_stat1_value                      = 100
+-|static_stat2_id                         = active_skill_attack_speed_+%_final
+-|static_stat2_value                      = -25
+-|stat_text                               = +100 to Melee Strike Range<br>25% less Attack Speed
++|static_stat1_id                         = active_skill_attack_speed_+%_final
++|static_stat1_value                      = -25
++|static_stat2_id                         = melee_range_+
++|static_stat2_value                      = 100
++|stat_text                               = 25% less Attack Speed<br>+100 to Melee Strike Range
+ |level1                                  = True
+ |level1_level_requirement                = 0
+ }}

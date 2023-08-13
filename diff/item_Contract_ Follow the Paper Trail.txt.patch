@@ -1,0 +1,17 @@
+--- Wiki
++++ Export
+@@ -8,13 +8,12 @@
+ |tags                                    = default
+ |metadata_id                             = Metadata/Items/Heist/QuestContracts/HeistContractQuestWhakano2
+ |inventory_icon                          = Generic NPC Quest Contract
++|is_drop_restricted                      = true
+ |release_version                         = 3.12.4
+ |implicit1_text                          = {{c|default|Client:}} {{c|value|Whakano}}
+ |implicit2_text                          = {{c|default|Heist Target:}} {{c|value|Slaver's Records}}
+ |implicit3_text                          = {{c|default|Area Level:}} {{c|value|#}}
+ |implicit4_text                          = {{c|default|Requires}} {{c|value|Lockpicking }} {{c|default|(Level}} {{c|value|2}}{{c|default|)}}
+-|flavour_text                            = "Selfishness and hate fuel these kidnappings.<br/>It's time we find who is leading them."
+-|is_drop_restricted = true
+ }}
+ 
+ '''Contract: Follow the Paper Trail''' is a [[quest]] [[contract]]. The client is [[Whakano]]. The area level of this contract is depended on the area level of the Smuggler's Caches.

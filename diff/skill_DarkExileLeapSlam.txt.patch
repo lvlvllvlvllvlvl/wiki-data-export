@@ -1,0 +1,27 @@
+--- Skill:DarkExileLeapSlam
++++ Export
+@@ -8,15 +8,15 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = physical_damage_+%
+-|static_stat1_value                      = 68
+-|static_stat2_id                         = base_global_chance_to_knockback_%
+-|static_stat2_value                      = 24
+-|static_stat3_id                         = is_area_damage
+-|static_stat3_value                      = 1
+-|static_stat4_id                         = cast_time_overrides_attack_duration
+-|static_stat4_value                      = 1
+-|stat_text                               = 68% increased Physical Damage<br>24% chance to Knock Enemies Back on hit
++|static_stat1_id                         = cast_time_overrides_attack_duration
++|static_stat1_value                      = 1
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = base_global_chance_to_knockback_%
++|static_stat3_value                      = 24
++|static_stat4_id                         = physical_damage_+%
++|static_stat4_value                      = 68
++|stat_text                               = 24% chance to Knock Enemies Back on hit<br>68% increased Physical Damage
+ |level1                                  = True
+ |level1_level_requirement                = 73
+ }}

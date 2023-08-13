@@ -1,0 +1,25 @@
+--- Skill:AxisGeneralMelee
++++ Export
+@@ -9,14 +9,14 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_ignite_duration_+%_final
+ |static_stat1_value                      = -50
+-|static_stat2_id                         = base_chance_to_ignite_%
+-|static_stat2_value                      = 50
+-|static_stat3_id                         = skill_physical_damage_%_to_convert_to_fire
+-|static_stat3_value                      = 25
+-|static_stat4_id                         = skill_can_fire_arrows
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = skill_can_fire_wand_projectiles
+-|static_stat5_value                      = 1
++|static_stat2_id                         = skill_can_fire_arrows
++|static_stat2_value                      = 1
++|static_stat3_id                         = skill_can_fire_wand_projectiles
++|static_stat3_value                      = 1
++|static_stat4_id                         = base_chance_to_ignite_%
++|static_stat4_value                      = 50
++|static_stat5_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat5_value                      = 25
+ |stat_text                               = 50% chance to Ignite enemies<br>25% of Physical Damage Converted to Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 28

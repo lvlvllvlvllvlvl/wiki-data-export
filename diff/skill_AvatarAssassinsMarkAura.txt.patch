@@ -1,0 +1,29 @@
+--- Skill:AvatarAssassinsMarkAura
++++ Export
+@@ -11,17 +11,17 @@
+ |static_stat1_value                      = 75
+ |static_stat2_id                         = chance_to_grant_power_charge_on_death_%
+ |static_stat2_value                      = 37
+-|static_stat3_id                         = mana_granted_when_killed
+-|static_stat3_value                      = 22
+-|static_stat4_id                         = life_granted_when_killed
+-|static_stat4_value                      = 22
+-|static_stat5_id                         = enemy_additional_critical_strike_chance_against_self
+-|static_stat5_value                      = 200
+-|static_stat6_id                         = base_self_critical_strike_multiplier_-%
+-|static_stat6_value                      = -44
++|static_stat3_id                         = enemy_additional_critical_strike_chance_against_self
++|static_stat3_value                      = 200
++|static_stat4_id                         = base_self_critical_strike_multiplier_-%
++|static_stat4_value                      = -44
++|static_stat5_id                         = life_granted_when_killed
++|static_stat5_value                      = 22
++|static_stat6_id                         = mana_granted_when_killed
++|static_stat6_value                      = 22
+ |static_stat7_id                         = curse_apply_as_aura
+ |static_stat7_value                      = 1
+-|stat_text                               = Cursed enemies have a 37% chance to grant a Power Charge when slain<br>Cursed enemies grant 22 Mana when Killed<br>Cursed enemies grant 22 Life when Killed<br>Hits against Cursed Enemies have +2% to Critical Strike Chance<br>Cursed enemies take 44% increased Extra Damage from Critical Strikes<br>This Curse is Cast as an Aura applying to nearby Enemies
++|stat_text                               = Cursed enemies have a 37% chance to grant a Power Charge when slain<br>Hits against Cursed Enemies have +2% to Critical Strike Chance<br>Cursed enemies take 44% increased Extra Damage from Critical Strikes<br>Cursed enemies grant 22 Life when Killed<br>Cursed enemies grant 22 Mana when Killed<br>This Curse is Cast as an Aura applying to nearby Enemies
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

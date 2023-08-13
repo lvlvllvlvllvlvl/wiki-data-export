@@ -1,0 +1,31 @@
+--- Skill:VaalSideAreaBossStoneProjectile
++++ Export
+@@ -7,19 +7,19 @@
+ |static_damage_effectiveness             = 120
+ |static_damage_multiplier                = 120
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_maximum_action_distance_+%
+-|static_stat1_value                      = -30
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
+ |static_stat2_id                         = monster_projectile_variation
+ |static_stat2_value                      = 118
+-|static_stat3_id                         = active_skill_damage_+%_final
+-|static_stat3_value                      = 20
+-|static_stat4_id                         = number_of_additional_projectiles
+-|static_stat4_value                      = 2
++|static_stat3_id                         = spell_maximum_action_distance_+%
++|static_stat3_value                      = -30
++|static_stat4_id                         = active_skill_damage_+%_final
++|static_stat4_value                      = 20
+ |static_stat5_id                         = active_skill_cast_speed_+%_final
+ |static_stat5_value                      = -20
+-|static_stat6_id                         = base_is_projectile
+-|static_stat6_value                      = 1
+-|stat_text                               = Deals 20% more Damage<br>Fires 2 additional Projectiles<br>20% less Cast Speed
++|static_stat6_id                         = number_of_additional_projectiles
++|static_stat6_value                      = 2
++|stat_text                               = Deals 20% more Damage<br>20% less Cast Speed<br>Fires 2 additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

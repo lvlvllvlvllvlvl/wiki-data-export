@@ -1,0 +1,34 @@
+--- Skill:MossMonsterBossChaosStorm
++++ Export
+@@ -8,19 +8,20 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_chaos_damage
+-|static_stat1_value                      = 121
+-|static_stat2_id                         = spell_maximum_base_chaos_damage
+-|static_stat2_value                      = 181
+-|static_stat3_id                         = firestorm_base_area_of_effect_+%
+-|static_stat3_value                      = -49
+-|static_stat4_id                         = fire_storm_fireball_delay_ms
+-|static_stat4_value                      = 75
++|static_duration                         = 3
++|static_stat1_id                         = firestorm_base_area_of_effect_+%
++|static_stat1_value                      = -49
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_minimum_base_chaos_damage
++|static_stat3_value                      = 121
++|static_stat4_id                         = spell_maximum_base_chaos_damage
++|static_stat4_value                      = 181
+ |static_stat5_id                         = base_skill_effect_duration
+ |static_stat5_value                      = 3000
+-|static_stat6_id                         = is_area_damage
+-|static_stat6_value                      = 1
+-|stat_text                               = Deals 121 to 181 Chaos Damage<br>One impact every 0.07 seconds<br>Base duration is 3 seconds
++|static_stat6_id                         = fire_storm_fireball_delay_ms
++|static_stat6_value                      = 75
++|stat_text                               = Deals 121 to 181 Chaos Damage<br>Base duration is 3 seconds<br>One impact every 0.07 seconds
+ |level1                                  = True
+ |level1_level_requirement                = 73
+ }}

@@ -1,0 +1,86 @@
+--- Skill:BestiaryPitbullSandStormSpark
++++ Export
+@@ -8,17 +8,18 @@
+ |static_damage_effectiveness             = 70
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_projectile_speed_+%
+-|static_stat1_value                      = -60
+-|static_stat2_id                         = number_of_additional_projectiles
+-|static_stat2_value                      = 6
+-|static_stat3_id                         = projectiles_nova
+-|static_stat3_value                      = 1
+-|static_stat4_id                         = base_is_projectile
+-|static_stat4_value                      = 1
+-|stat_text                               = Deals (5-270) to (8-404) Physical Damage<br>Base duration is (3.5-5) seconds<br>60% reduced Projectile Speed<br>Fires 6 additional Projectiles<br>Fires Projectiles in a circle
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = projectiles_nova
++|static_stat2_value                      = 1
++|static_stat3_id                         = base_projectile_speed_+%
++|static_stat3_value                      = -46
++|static_stat4_id                         = number_of_additional_projectiles
++|static_stat4_value                      = 6
++|stat_text                               = Deals (5-270) to (8-404) Physical Damage<br>Base duration is (3.5-5) seconds<br>Fires Projectiles in a circle<br>46% reduced Projectile Speed<br>Fires 6 additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 4
++|level1_duration                         = 3.5
+ |level1_stat_text                        = Deals 5 to 8 Physical Damage<br>Base duration is 3.5 seconds
+ |level1_stat1_id                         = spell_minimum_base_physical_damage
+ |level1_stat1_value                      = 5
+@@ -28,6 +29,7 @@
+ |level1_stat3_value                      = 3500
+ |level2                                  = True
+ |level2_level_requirement                = 8
++|level2_duration                         = 3.5
+ |level2_stat_text                        = Deals 8 to 12 Physical Damage<br>Base duration is 3.5 seconds
+ |level2_stat1_id                         = spell_minimum_base_physical_damage
+ |level2_stat1_value                      = 8
+@@ -37,6 +39,7 @@
+ |level2_stat3_value                      = 3500
+ |level3                                  = True
+ |level3_level_requirement                = 11
++|level3_duration                         = 3.5
+ |level3_stat_text                        = Deals 10 to 15 Physical Damage<br>Base duration is 3.5 seconds
+ |level3_stat1_id                         = spell_minimum_base_physical_damage
+ |level3_stat1_value                      = 10
+@@ -46,6 +49,7 @@
+ |level3_stat3_value                      = 3500
+ |level4                                  = True
+ |level4_level_requirement                = 25
++|level4_duration                         = 4
+ |level4_stat_text                        = Deals 27 to 41 Physical Damage<br>Base duration is 4 seconds
+ |level4_stat1_id                         = spell_minimum_base_physical_damage
+ |level4_stat1_value                      = 27
+@@ -55,6 +59,7 @@
+ |level4_stat3_value                      = 4000
+ |level5                                  = True
+ |level5_level_requirement                = 29
++|level5_duration                         = 4
+ |level5_stat_text                        = Deals 35 to 53 Physical Damage<br>Base duration is 4 seconds
+ |level5_stat1_id                         = spell_minimum_base_physical_damage
+ |level5_stat1_value                      = 35
+@@ -64,6 +69,7 @@
+ |level5_stat3_value                      = 4000
+ |level6                                  = True
+ |level6_level_requirement                = 31
++|level6_duration                         = 5
+ |level6_stat_text                        = Deals 40 to 59 Physical Damage<br>Base duration is 5 seconds
+ |level6_stat1_id                         = spell_minimum_base_physical_damage
+ |level6_stat1_value                      = 40
+@@ -73,6 +79,7 @@
+ |level6_stat3_value                      = 5000
+ |level7                                  = True
+ |level7_level_requirement                = 66
++|level7_duration                         = 5
+ |level7_stat_text                        = Deals 245 to 368 Physical Damage<br>Base duration is 5 seconds
+ |level7_stat1_id                         = spell_minimum_base_physical_damage
+ |level7_stat1_value                      = 245
+@@ -82,6 +89,7 @@
+ |level7_stat3_value                      = 5000
+ |level8                                  = True
+ |level8_level_requirement                = 68
++|level8_duration                         = 5
+ |level8_stat_text                        = Deals 270 to 404 Physical Damage<br>Base duration is 5 seconds
+ |level8_stat1_id                         = spell_minimum_base_physical_damage
+ |level8_stat1_value                      = 270

@@ -1,0 +1,20 @@
+--- Area:MapWorldsSprings
++++ Export
+@@ -4,14 +4,15 @@
+ |act                              = 11
+ |area_level                       = 70
+ |area_type_tags                   = forest
+-|tags                             = map, einharmaps, indoors_area, cave_area, bandit_area
++|tags                             = map, einharmaps, indoors_area, cave_area, bandit_area, peaceful_map
+ |loading_screen                   = Maps
+ |parent_area_id                   = 2_11_endgame_town
+ |boss_monster_ids                 = Metadata/Monsters/BanditLeaderStrDex/MapBanditLeaderOak2
+ |entry_text                       = The water brings life, the poison takes it away.
+ |entry_npc                        = The Shaper
+-|vaal_area_spawn_chance           = 8
+ |vaal_area_ids                    = MapSideArea2_3
+ |is_map_area                      = True
++|flavour_text                     = The water brings life,
++the poison takes it away.
+ |main_page                        = Fungal Hollow Map
+ }}

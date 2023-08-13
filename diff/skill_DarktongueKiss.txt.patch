@@ -1,0 +1,27 @@
+--- Skill:DarktongueKiss
++++ Export
+@@ -7,17 +7,18 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 5
+ |static_stat1_id                         = cast_when_cast_curse_%
+ |static_stat1_value                      = 100
+-|static_stat2_id                         = base_skill_effect_duration
+-|static_stat2_value                      = 5000
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
+ |static_stat3_id                         = base_chaos_damage_to_deal_per_minute
+ |static_stat3_value                      = 48000
+-|static_stat4_id                         = spell_damage_modifiers_apply_to_skill_dot
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = is_area_damage
++|static_stat4_id                         = base_skill_effect_duration
++|static_stat4_value                      = 5000
++|static_stat5_id                         = spell_damage_modifiers_apply_to_skill_dot
+ |static_stat5_value                      = 1
+-|stat_text                               = Base duration is 5 seconds<br>Deals 800 Base Chaos Damage per second<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect
++|stat_text                               = Deals 800 Base Chaos Damage per second<br>Base duration is 5 seconds<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect
+ |level1                                  = True
+ |level1_level_requirement                = 60
+ }}

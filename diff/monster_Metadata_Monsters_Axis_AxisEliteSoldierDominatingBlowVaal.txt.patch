@@ -1,0 +1,19 @@
+--- Monster:Metadata/Monsters/Axis/AxisEliteSoldierDominatingBlowVaal
++++ Export
+@@ -0,0 +1,16 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/Axis/AxisEliteSoldierDominatingBlowVaal
++|monster_type_id                  = DominatingBlowMinionVaal
++|tags                             = bludgeoning_weapon, has_one_hand_mace, has_one_handed_melee, human, humanoid, medium_height, melee, not_dex, not_int, physical_affinity, plate_armour, very_slow_movement
++|skill_ids                        = TeleportVaalDomination, GAVaalDominationTeleportSlam, VaalDominationSunderMelee, VaalDominationSunder, GAVaalDominationLargeSlam, VaalDominationMelee
++|name                             = Ascended Sentinel of Dominance
++|size                             = 3
++|minimum_attack_distance          = 6
++|maximum_attack_distance          = 28
++|model_size_multiplier            = 1.12
++|experience_multiplier            = 2.0
++|damage_multiplier                = 2.8
++|health_multiplier                = 4.0
++|critical_strike_chance           = 5.0
++|attack_speed                     = 0.83
++}}

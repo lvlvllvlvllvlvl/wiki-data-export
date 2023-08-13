@@ -1,0 +1,17 @@
+--- Skill:AvariusCleaveWickerman
++++ Export
+@@ -9,10 +9,10 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = active_skill_damage_+%_final
+-|static_stat1_value                      = 125
+-|static_stat2_id                         = is_area_damage
+-|static_stat2_value                      = 1
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = active_skill_damage_+%_final
++|static_stat2_value                      = 125
+ |stat_text                               = Deals 125% more Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1

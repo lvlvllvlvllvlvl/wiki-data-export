@@ -1,0 +1,20 @@
+--- Skill:EmptyActionSanctumLioneyeAttackRight
++++ Export
+@@ -0,0 +1,17 @@
++{{Skill
++|gem_description                         = 
++|active_skill_name                       = 
++|skill_id                                = EmptyActionSanctumLioneyeAttackRight
++|cast_time                               = 1.5
++|required_level                          = 0
++|static_stored_uses                      = 1
++|static_cooldown                         = 5
++|static_damage_effectiveness             = 100
++|static_damage_multiplier                = 100
++|static_attack_speed_multiplier          = 100
++|static_stat1_id                         = active_skill_attack_speed_+%_final
++|static_stat1_value                      = -25
++|stat_text                               = 25% less Attack Speed
++|level1                                  = True
++|level1_level_requirement                = 0
++}}

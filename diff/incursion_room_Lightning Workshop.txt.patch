@@ -1,0 +1,17 @@
+--- Lightning Workshop
++++ Export
+@@ -1,12 +1,12 @@
+ {{Incursion room
+ |id                      = BossLightningI
+ |name                    = Lightning Workshop
+-|description             = Monsters throughout the Temple have additional lightning damage.<br/>Adds additional Lightning monster packs throughout the Temple<br/>Augments the Omnitect with lightning.
++|description             = Monsters throughout the Temple have additional lightning damage.<br />Adds additional Lightning monster packs throughout the Temple.<br />Augments the Omnitect with lightning.
+ |flavour_text            = Sparks jump between arms of the machine.
+ |tier                    = 1
+ |upgrade_room_id         = BossLightningII
+ |icon                    = BossLightningRoom
+-|modifier_ids            = IncursionMonsterAddedAsLightning1
++|modifier_ids            = IncursionMonsterAddedAsLightning1, IncursionTempleRoomBonus1_, IncursionTempleLightningPacks1___, IncursionTempleLightningVialChance1_
+ |architect_metadata_id   = Metadata/Monsters/VaalArchitect/VaalArchitect22
+ |architect_name          = Xopec, Architect of Power
+ }}

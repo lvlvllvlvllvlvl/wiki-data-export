@@ -1,0 +1,29 @@
+--- Skill:MetamorphosisLancingSteel
++++ Export
+@@ -8,17 +8,17 @@
+ |static_damage_effectiveness             = 135
+ |static_damage_multiplier                = 135
+ |static_attack_speed_multiplier          = 80
+-|static_stat1_id                         = attacks_impale_on_hit_%_chance
+-|static_stat1_value                      = 30
+-|static_stat2_id                         = primary_projectile_impale_chance_%
+-|static_stat2_value                      = 100
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = projectile_uses_contact_position
++|static_stat2_value                      = 1
+ |static_stat3_id                         = number_of_additional_projectiles
+ |static_stat3_value                      = 4
+-|static_stat4_id                         = base_is_projectile
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = projectile_uses_contact_position
+-|static_stat5_value                      = 1
+-|stat_text                               = 30% chance to Impale Enemies on Hit<br>Primary Projectile Impales Enemies on Hit<br>Fires 4 additional Projectiles
++|static_stat4_id                         = attacks_impale_on_hit_%_chance
++|static_stat4_value                      = 30
++|static_stat5_id                         = primary_projectile_impale_chance_%
++|static_stat5_value                      = 100
++|stat_text                               = Fires 4 additional Projectiles<br>30% chance to Impale Enemies on Hit<br>Primary Projectile Impales Enemies on Hit
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

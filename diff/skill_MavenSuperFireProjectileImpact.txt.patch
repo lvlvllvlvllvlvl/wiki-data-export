@@ -1,0 +1,25 @@
+--- Skill:MavenSuperFireProjectileImpact
++++ Export
+@@ -10,15 +10,15 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = 50
+-|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat2_value                      = -40
+-|static_stat3_id                         = active_skill_ignite_damage_+%_final
+-|static_stat3_value                      = 100
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat3_value                      = -40
+ |static_stat4_id                         = always_ignite
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = is_area_damage
+-|static_stat5_value                      = 1
+-|stat_text                               = Deals (11-13165) to (16-19747) Fire Damage<br>Penetrates (0-30)% Fire Resistance<br>100% more Damage with Ignite<br>Hits always Ignite
++|static_stat5_id                         = active_skill_ignite_damage_+%_final
++|static_stat5_value                      = 100
++|stat_text                               = Deals (11-13165) to (16-19747) Fire Damage<br>Hits always Ignite<br>Penetrates (0-30)% Fire Resistance<br>100% more Damage with Ignite
+ |level1                                  = True
+ |level1_level_requirement                = 0
+ |level1_stat_text                        = Deals 11 to 16 Fire Damage

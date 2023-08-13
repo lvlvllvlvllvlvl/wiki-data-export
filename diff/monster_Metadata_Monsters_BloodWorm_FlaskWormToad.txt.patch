@@ -1,0 +1,19 @@
+--- Monster:Metadata/Monsters/BloodWorm/FlaskWormToad
++++ Export
+@@ -0,0 +1,16 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/BloodWorm/FlaskWormToad
++|monster_type_id                  = MtxBloodToad
++|mod_ids                          = MonsterNoDropsOrExperience, MonsterNoFlaskCharges, VariableEmergeSpeed, MonsterKillAndDeleteOnHit_, CannotBeAfflicted, WormBaseAilmentThreshold_
++|tags                             = animal_claw_weapon, demon, extra_extra_small_height, flesh_armour, insect, is_unarmed, non_attacking, red_blood, very_slow_movement
++|skill_ids                        = BloodWormWait
++|name                             = Wriggling Toad
++|minimum_attack_distance          = 6
++|maximum_attack_distance          = 6
++|model_size_multiplier            = 1.0
++|experience_multiplier            = 0.8
++|damage_multiplier                = 0.8
++|health_multiplier                = 0.8
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.5
++}}

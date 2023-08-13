@@ -1,0 +1,19 @@
+--- Skill:TauntTarget
++++ Export
+@@ -9,11 +9,11 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = taunted_enemies_damage_+%_final_vs_non_taunt_target
+-|static_stat1_value                      = -40
+-|static_stat2_id                         = taunt_duration_+%
+-|static_stat2_value                      = 100
+-|stat_text                               = Enemies Taunted by you deal 40% less Damage with Hits and<br>Ailments against other targets<br>100% increased Taunt Duration
++|static_stat1_id                         = taunt_duration_+%
++|static_stat1_value                      = 100
++|static_stat2_id                         = taunted_enemies_damage_+%_final_vs_non_taunt_target
++|static_stat2_value                      = -40
++|stat_text                               = 100% increased Taunt Duration<br>Enemies Taunted by you deal 40% less Damage with Hits and<br>Ailments against other targets
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

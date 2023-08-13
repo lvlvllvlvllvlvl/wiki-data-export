@@ -1,0 +1,52 @@
+--- Skill:GraspingPincers
++++ Export
+@@ -9,27 +9,28 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 1
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 2
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = 20
+-|static_stat4_id                         = cast_speed_+%_from_grasping_tentacles
+-|static_stat4_value                      = -20
+-|static_stat5_id                         = grasping_ornament_placement_radius
+-|static_stat5_value                      = 16
+-|static_stat6_id                         = number_of_grasping_ornaments
+-|static_stat6_value                      = 200
+-|static_stat7_id                         = base_movement_velocity_+%
+-|static_stat7_value                      = -20
+-|static_stat8_id                         = attack_speed_+%
+-|static_stat8_value                      = -20
+-|static_stat9_id                         = base_skill_effect_duration
+-|static_stat9_value                      = 3
+-|static_stat10_id                        = cannot_stun
+-|static_stat10_value                     = 1
+-|stat_text                               = Deals 1 to 2 Physical Damage<br>20% reduced Movement Speed<br>20% reduced Attack Speed<br>Base duration is 0 seconds<br>Your Hits cannot Stun Enemies
++|static_duration                         = 0.003
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = 20
++|static_stat2_id                         = cast_speed_+%_from_grasping_tentacles
++|static_stat2_value                      = -20
++|static_stat3_id                         = grasping_ornament_placement_radius
++|static_stat3_value                      = 16
++|static_stat4_id                         = number_of_grasping_ornaments
++|static_stat4_value                      = 200
++|static_stat5_id                         = spell_minimum_base_physical_damage
++|static_stat5_value                      = 1
++|static_stat6_id                         = spell_maximum_base_physical_damage
++|static_stat6_value                      = 2
++|static_stat7_id                         = cannot_stun
++|static_stat7_value                      = 1
++|static_stat8_id                         = base_skill_effect_duration
++|static_stat8_value                      = 3
++|static_stat9_id                         = attack_speed_+%
++|static_stat9_value                      = -20
++|static_stat10_id                        = base_movement_velocity_+%
++|static_stat10_value                     = -20
++|stat_text                               = Deals 1 to 2 Physical Damage<br>Your Hits cannot Stun Enemies<br>Base duration is 0 seconds<br>20% reduced Attack Speed<br>20% reduced Movement Speed
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

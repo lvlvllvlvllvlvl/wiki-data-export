@@ -1,0 +1,38 @@
+--- Skill:FireNovaMine
++++ Export
+@@ -9,21 +9,21 @@
+ |static_damage_effectiveness             = 40
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_mine_detonation_time_ms
+-|static_stat1_value                      = 250
+-|static_stat2_id                         = base_spell_repeat_count
+-|static_stat2_value                      = 3
+-|static_stat3_id                         = base_mine_duration
+-|static_stat3_value                      = 5000
+-|static_stat4_id                         = is_remote_mine
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = base_skill_is_mined
+-|static_stat5_value                      = 1
+-|static_stat6_id                         = base_skill_show_average_damage_instead_of_dps
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = is_area_damage
++|static_stat1_id                         = base_skill_is_mined
++|static_stat1_value                      = 1
++|static_stat2_id                         = base_skill_show_average_damage_instead_of_dps
++|static_stat2_value                      = 1
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = base_mine_duration
++|static_stat4_value                      = 5000
++|static_stat5_id                         = base_spell_repeat_count
++|static_stat5_value                      = 3
++|static_stat6_id                         = base_mine_detonation_time_ms
++|static_stat6_value                      = 250
++|static_stat7_id                         = is_remote_mine
+ |static_stat7_value                      = 1
+-|stat_text                               = Deals (7-559) to (11-838) Fire Damage<br>(20-37)% more Damage with Hits and Ailments per Repeat<br>Base Mine Detonation Time is 0.25 seconds<br>Spell Repeats 3 times<br>Mine lasts 5 seconds
++|stat_text                               = Deals (7-559) to (11-838) Fire Damage<br>Mine lasts 5 seconds<br>Spell Repeats 3 times<br>Base Mine Detonation Time is 0.25 seconds<br>(20-37)% more Damage with Hits and Ailments per Repeat
+ |level1                                  = True
+ |level1_level_requirement                = 12
+ |level1_cost_amounts                     = 4

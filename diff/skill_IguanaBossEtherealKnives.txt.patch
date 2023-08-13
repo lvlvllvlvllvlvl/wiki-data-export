@@ -1,0 +1,41 @@
+--- Skill:IguanaBossEtherealKnives
++++ Export
+@@ -10,22 +10,22 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 444
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 665
+-|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat3_value                      = -40
+-|static_stat4_id                         = active_skill_cast_speed_+%_final
+-|static_stat4_value                      = -20
+-|static_stat5_id                         = base_cast_speed_+%
+-|static_stat5_value                      = 40
+-|static_stat6_id                         = base_projectile_speed_+%
+-|static_stat6_value                      = 200
+-|static_stat7_id                         = number_of_additional_projectiles
+-|static_stat7_value                      = 6
+-|static_stat8_id                         = base_is_projectile
+-|static_stat8_value                      = 1
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat2_value                      = -40
++|static_stat3_id                         = spell_minimum_base_physical_damage
++|static_stat3_value                      = 444
++|static_stat4_id                         = spell_maximum_base_physical_damage
++|static_stat4_value                      = 665
++|static_stat5_id                         = active_skill_cast_speed_+%_final
++|static_stat5_value                      = -20
++|static_stat6_id                         = base_cast_speed_+%
++|static_stat6_value                      = 40
++|static_stat7_id                         = base_projectile_speed_+%
++|static_stat7_value                      = 200
++|static_stat8_id                         = number_of_additional_projectiles
++|static_stat8_value                      = 6
+ |stat_text                               = Deals 444 to 665 Physical Damage<br>20% less Cast Speed<br>40% increased Cast Speed<br>200% increased Projectile Speed<br>Fires 6 additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 74

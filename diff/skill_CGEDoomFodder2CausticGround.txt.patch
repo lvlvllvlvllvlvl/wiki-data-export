@@ -1,0 +1,22 @@
+--- Skill:CGEDoomFodder2CausticGround
++++ Export
+@@ -7,13 +7,14 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 3.5
+ |static_stat1_id                         = ground_caustic_art_variation
+ |static_stat1_value                      = 11
+-|static_stat2_id                         = base_skill_area_of_effect_+%
+-|static_stat2_value                      = -60
+-|static_stat3_id                         = base_skill_effect_duration
+-|static_stat3_value                      = 3500
+-|stat_text                               = Deals (7.3-753.5) Base Chaos Damage per second<br>60% reduced Area of Effect<br>Base duration is 3.5 seconds
++|static_stat2_id                         = base_skill_effect_duration
++|static_stat2_value                      = 3500
++|static_stat3_id                         = base_skill_area_of_effect_+%
++|static_stat3_value                      = -60
++|stat_text                               = Deals (7.3-753.5) Base Chaos Damage per second<br>Base duration is 3.5 seconds<br>60% reduced Area of Effect
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_stat_text                        = Deals 7.3 Base Chaos Damage per second

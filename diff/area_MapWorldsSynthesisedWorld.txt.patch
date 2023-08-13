@@ -1,0 +1,19 @@
+--- Area:MapWorldsSynthesisedWorld
++++ Export
+@@ -0,0 +1,16 @@
++{{Area
++|id                               = MapWorldsSynthesisedWorld
++|name                             = Synthesised World
++|act                              = 11
++|area_level                       = 78
++|area_type_tags                   = urban
++|tags                             = map, area_with_water, cannot_be_twinned, einharmaps, totem_boss_area, bridge_area, god_boss_map_area, city_home_map
++|loading_screen                   = Maps
++|parent_area_id                   = 2_11_endgame_town
++|boss_monster_ids                 = Metadata/Monsters/Tukohama/TukohamaMap
++|entry_text                       = No rest, no peace, no negotiation. Only War.
++|entry_npc                        = The Shaper
++|is_map_area                      = True
++|is_unique_map_area               = True
++|main_page                        = Synthesised Map
++}}

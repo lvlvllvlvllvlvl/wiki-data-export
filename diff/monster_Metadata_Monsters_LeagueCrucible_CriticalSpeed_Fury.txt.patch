@@ -1,0 +1,19 @@
+--- Monster:Metadata/Monsters/LeagueCrucible/CriticalSpeed/Fury
++++ Export
+@@ -0,0 +1,16 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueCrucible/CriticalSpeed/Fury
++|monster_type_id                  = CrucibleFury
++|tags                             = demon, flesh_armour, is_unarmed, medium_movement, melee, not_dex, not_int, physical_affinity
++|skill_ids                        = Melee, EmptyActionAttackAfflictionMinionTripleSlam, GACrucibleFurySlamImpact, GACrucibleFurySlamFinalImpact, AfflictionMinionPhysSlamCircleRectangle
++|name                             = Forged Berserker Beast
++|size                             = 3
++|minimum_attack_distance          = 6
++|maximum_attack_distance          = 14
++|model_size_multiplier            = 1.31
++|experience_multiplier            = 1.6
++|damage_multiplier                = 1.92
++|health_multiplier                = 2.24
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.17
++}}

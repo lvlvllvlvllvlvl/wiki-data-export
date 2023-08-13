@@ -1,0 +1,18 @@
+--- Wiki
++++ Export
+@@ -8,14 +8,13 @@
+ |tags                                    = default
+ |metadata_id                             = Metadata/Items/Heist/QuestContracts/HeistContractQuestKarst1
+ |inventory_icon                          = Generic NPC Quest Contract
++|is_drop_restricted                      = true
+ |release_version                         = 3.12.0
+ |implicit1_text                          = {{c|default|Client:}} {{c|value|Karst}}
+ |implicit2_text                          = {{c|default|Heist Target:}} {{c|value|Karst's Lockpicks}}
+ |implicit3_text                          = {{c|default|Area Level:}} {{c|value|#}}
+ |implicit4_text                          = {{c|default|Requires}} {{c|value|Lockpicking}} {{c|default|(Level}} {{c|value|1}}{{c|default|)}}
+ |implicit5_text                          = {{c|default|Requires}} {{c|value|Karst, the Lockpick}}
+-|flavour_text                            ="They were me granddaddy's.<br/>Could break into any house as quick and silent as a Cardinal's fart."
+-|is_drop_restricted                      = true
+ }}
+ 
+ '''Contract: Stolen Lockpicks''' is a [[quest]] [[contract]]. The client is [[Karst]]. The area level of this contract is depended on the area level of the Smuggler's Caches.

@@ -1,0 +1,21 @@
+--- Skill:OakSunder
++++ Export
+@@ -10,12 +10,12 @@
+ |static_damage_effectiveness             = 140
+ |static_damage_multiplier                = 140
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = active_skill_attack_speed_+%_final
+-|static_stat1_value                      = -15
+-|static_stat2_id                         = shockwave_slam_explosion_damage_+%_final
+-|static_stat2_value                      = -60
+-|static_stat3_id                         = is_area_damage
+-|static_stat3_value                      = 1
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = active_skill_attack_speed_+%_final
++|static_stat2_value                      = -15
++|static_stat3_id                         = shockwave_slam_explosion_damage_+%_final
++|static_stat3_value                      = -60
+ |stat_text                               = 15% less Attack Speed<br>Shockwaves deal 60% less Damage
+ |level1                                  = True
+ |level1_level_requirement                = 12

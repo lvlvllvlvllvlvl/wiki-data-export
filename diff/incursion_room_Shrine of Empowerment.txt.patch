@@ -1,0 +1,17 @@
+--- Shrine of Empowerment
++++ Export
+@@ -1,12 +1,12 @@
+ {{Incursion room
+ |id                      = EmpoweringRoomI
+ |name                    = Shrine of Empowerment
+-|description             = Increases the speed of monsters throughout the Temple.<br/>Upgrades one random adjacent and connected room by one Tier.
++|description             = Increases the speed of monsters throughout the Temple.<br />Upgrades one random adjacent and connected room by one Tier.
+ |flavour_text            = Energies bloom within the gloom.
+ |tier                    = 1
+ |upgrade_room_id         = EmpoweringRoomII
+ |icon                    = EmpoweringRoom
+-|modifier_ids            = IncursionTempleAttackCastSpeed1
++|modifier_ids            = IncursionTempleAttackCastSpeed1, IncursionTempleRoomBonus1_
+ |architect_metadata_id   = Metadata/Monsters/VaalArchitect/VaalArchitect18
+ |architect_name          = Quipolatl, Architect of the Nexus
+ }}

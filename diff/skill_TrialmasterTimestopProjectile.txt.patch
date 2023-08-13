@@ -1,0 +1,25 @@
+--- Skill:TrialmasterTimestopProjectile
++++ Export
+@@ -7,15 +7,15 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = leap_slam_minimum_distance
+-|static_stat1_value                      = 40
+-|static_stat2_id                         = active_skill_base_radius_+
+-|static_stat2_value                      = 80
++|static_stat1_id                         = base_deal_no_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = leap_slam_minimum_distance
++|static_stat2_value                      = 40
+ |static_stat3_id                         = base_spell_repeat_count
+ |static_stat3_value                      = 2
+-|static_stat4_id                         = base_deal_no_damage
+-|static_stat4_value                      = 1
+-|stat_text                               = +80 to radius<br>Spell Repeats 2 times
++|static_stat4_id                         = active_skill_base_radius_+
++|static_stat4_value                      = 80
++|stat_text                               = Spell Repeats 2 times<br>+80 to radius
+ |level1                                  = True
+ |level1_level_requirement                = 80
+ }}

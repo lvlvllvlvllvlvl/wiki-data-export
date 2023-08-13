@@ -1,0 +1,21 @@
+--- Skill:DanaiSweepCleave
++++ Export
+@@ -7,13 +7,13 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 160
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = skill_physical_damage_%_to_convert_to_fire
+-|static_stat1_value                      = 40
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
+ |static_stat2_id                         = skill_physical_damage_%_to_convert_to_lightning
+ |static_stat2_value                      = 40
+-|static_stat3_id                         = is_area_damage
+-|static_stat3_value                      = 1
+-|stat_text                               = Deals (0-250)% more Damage<br>40% of Physical Damage Converted to Fire Damage<br>40% of Physical Damage Converted to Lightning Damage
++|static_stat3_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat3_value                      = 40
++|stat_text                               = 40% of Physical Damage Converted to Lightning Damage<br>Deals (0-250)% more Damage<br>40% of Physical Damage Converted to Fire Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level2                                  = True

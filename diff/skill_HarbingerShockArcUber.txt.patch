@@ -1,0 +1,19 @@
+--- Skill:HarbingerShockArcUber
++++ Export
+@@ -11,11 +11,11 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_shock_duration_+%_final
+ |static_stat1_value                      = 100
+-|static_stat2_id                         = shock_effect_+%
+-|static_stat2_value                      = 40
+-|static_stat3_id                         = number_of_chains
+-|static_stat3_value                      = 10
+-|stat_text                               = 40% increased Effect of Shock<br>Chains +10 Times
++|static_stat2_id                         = number_of_chains
++|static_stat2_value                      = 10
++|static_stat3_id                         = shock_effect_+%
++|static_stat3_value                      = 40
++|stat_text                               = Chains +10 Times<br>40% increased Effect of Shock
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

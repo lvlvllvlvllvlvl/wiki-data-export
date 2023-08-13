@@ -1,0 +1,32 @@
+--- Wiki
++++ Export
+@@ -29,19 +29,19 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_totem_range
+-|static_stat1_value                      = 50
+-|static_stat2_id                         = ancestor_totem_parent_activiation_range
+-|static_stat2_value                      = 70
+-|static_stat3_id                         = support_skill_totem_type_override
+-|static_stat3_value                      = 20
+-|static_stat4_id                         = base_skill_is_totemified
++|static_stat1_id                         = ancestor_totem_parent_activiation_range
++|static_stat1_value                      = 70
++|static_stat2_id                         = base_skill_is_totemified
++|static_stat2_value                      = 1
++|static_stat3_id                         = base_totem_range
++|static_stat3_value                      = 50
++|static_stat4_id                         = force_lite_skill_effects
+ |static_stat4_value                      = 1
+ |static_stat5_id                         = leap_slam_no_epk
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = totem_targets_ignoring_action_distance
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = force_lite_skill_effects
++|static_stat6_id                         = support_skill_totem_type_override
++|static_stat6_value                      = 20
++|static_stat7_id                         = totem_targets_ignoring_action_distance
+ |static_stat7_value                      = 1
+ |static_stat8_id                         = is_totem
+ |static_stat8_value                      = 1

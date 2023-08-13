@@ -1,0 +1,21 @@
+--- Skill:MonsterAnger
++++ Export
+@@ -8,12 +8,12 @@
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+ |static_mana_reservation_percent         = 40
+-|static_stat1_id                         = attack_minimum_added_fire_damage
+-|static_stat1_value                      = 8
+-|static_stat2_id                         = attack_maximum_added_fire_damage
+-|static_stat2_value                      = 13
+-|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
+-|static_stat3_value                      = 33
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = 33
++|static_stat2_id                         = attack_minimum_added_fire_damage
++|static_stat2_value                      = 8
++|static_stat3_id                         = attack_maximum_added_fire_damage
++|static_stat3_value                      = 13
+ |stat_text                               = You and nearby allies deal 8 to 13 additional Fire Damage with Attacks
+ |level1                                  = True
+ |level1_level_requirement                = 15

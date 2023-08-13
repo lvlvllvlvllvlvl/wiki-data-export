@@ -1,0 +1,48 @@
+--- Skill:HeistRobotStormcallerShockRifleSingle
++++ Export
+@@ -9,25 +9,26 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 2
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 3
+-|static_stat3_id                         = spell_maximum_action_distance_+%
+-|static_stat3_value                      = -45
+-|static_stat4_id                         = spectral_throw_deceleration_override
+-|static_stat4_value                      = 100
+-|static_stat5_id                         = base_skill_effect_duration
+-|static_stat5_value                      = 200
+-|static_stat6_id                         = active_skill_projectile_damage_+%_final
+-|static_stat6_value                      = 300
+-|static_stat7_id                         = skill_physical_damage_%_to_convert_to_fire
+-|static_stat7_value                      = 50
+-|static_stat8_id                         = projectile_uses_contact_position
+-|static_stat8_value                      = 1
+-|static_stat9_id                         = is_area_damage
+-|static_stat9_value                      = 1
+-|stat_text                               = Deals 2 to 3 Physical Damage<br>Base duration is 0.2 seconds<br>Projectiles deal 300% more Damage<br>50% of Physical Damage Converted to Fire Damage
++|static_duration                         = 0.2
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = projectile_uses_contact_position
++|static_stat2_value                      = 1
++|static_stat3_id                         = spectral_throw_deceleration_override
++|static_stat3_value                      = 100
++|static_stat4_id                         = spell_maximum_action_distance_+%
++|static_stat4_value                      = -45
++|static_stat5_id                         = spell_minimum_base_physical_damage
++|static_stat5_value                      = 2
++|static_stat6_id                         = spell_maximum_base_physical_damage
++|static_stat6_value                      = 3
++|static_stat7_id                         = base_skill_effect_duration
++|static_stat7_value                      = 200
++|static_stat8_id                         = skill_physical_damage_%_to_convert_to_fire
++|static_stat8_value                      = 50
++|static_stat9_id                         = active_skill_projectile_damage_+%_final
++|static_stat9_value                      = 300
++|stat_text                               = Deals 2 to 3 Physical Damage<br>Base duration is 0.2 seconds<br>50% of Physical Damage Converted to Fire Damage<br>300% more Projectile Damage
+ |level1                                  = True
+ |level1_level_requirement                = 0
+ }}

@@ -1,0 +1,16 @@
+--- Temple Defense Workshop
++++ Export
+@@ -1,11 +1,12 @@
+ {{Incursion room
+ |id                      = TrapRoomII
+ |name                    = Temple Defense Workshop
+-|description             = Adds traps throughout the Temple.
++|description             = Monsters throughout the Temple have increased area of effect.<br />Adds traps throughout the Temple.
+ |flavour_text            = Sanguine wine sups steel spines.
+ |tier                    = 2
+ |upgrade_room_id         = TrapRoomIII
+ |icon                    = TrapRoom2
++|modifier_ids            = IncursionMonsterAreaOfEffect2, IncursionTempleRoomBonus2_, IncursionTempleTrapVialChance2
+ |architect_metadata_id   = Metadata/Monsters/VaalArchitect/VaalArchitect4
+ |architect_name          = Matatl, Architect of Fortifications
+ }}

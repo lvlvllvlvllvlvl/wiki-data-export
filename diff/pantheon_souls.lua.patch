@@ -1,0 +1,20 @@
+--- Module:Pantheon/pantheon souls
++++ Export
+@@ -76,7 +76,7 @@
+ 		name = "A Redblade Warlord", 
+ 		stat_text = "8% reduced [[Elemental Damage]] taken if you haven't<br>been [[Hit]] [[Recently]]", 
+ 		target_area_id = "MapWorldsLighthouse", 
+-		target_monster_id = "Metadata/Monsters/Wb/WbFireLeader4", 
++		target_monster_id = "Metadata/Monsters/Wb/WbFireLeader1", 
+ 		item_id = "Metadata/Items/PantheonSouls/PantheonSoulSolarisUpgrade1", 
+ 	},
+ 	{
+@@ -194,7 +194,7 @@
+ 		id = "Tukohama", 
+ 		ordinal = 1, 
+ 		name = "Soul of Tukohama", 
+-		stat_text = "While stationary, gain 3% additional [[Physical Damage]] Reduction every second, up to a maximum of 9%", 
++		stat_text = "3% additional [[Physical Damage]] Reduction per second you've been stationary, up to a maximum of 9%", 
+ 	},
+ 	{
+ 		id = "Tukohama", 

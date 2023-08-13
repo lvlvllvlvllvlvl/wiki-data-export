@@ -1,0 +1,23 @@
+--- Skill:SupportDarkRitual
++++ Export
+@@ -13,14 +13,17 @@
+ |quality_type3_stat_text                 = 
+ |quality_type3_stat1_id                  = dummy_stat_display_nothing
+ |quality_type3_stat1_value               = 0
++|static_cost_multiplier                  = 100
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = cannot_cast_curses
++|static_stat1_id                         = apply_linked_curses_with_dark_ritual
+ |static_stat1_value                      = 1
+-|static_stat2_id                         = apply_linked_curses_with_dark_ritual
++|static_stat2_id                         = cannot_cast_curses
+ |static_stat2_value                      = 1
+-|stat_text                               = This Gem can only Support Skill Gems requiring Level (24-100) or lower<br>You cannot Cast Supported Curse Spells
++|static_stat3_id                         = support_bane_curse_effect_+%_final
++|static_stat3_value                      = -25
++|stat_text                               = This Gem can only Support Skill Gems requiring Level (24-100) or lower<br>You cannot Cast Supported Curse Spells<br>25% less Effect of Supported Curses
+ |level1                                  = True
+ |level1_level_requirement                = 0
+ |level1_stat_text                        = This Gem can only Support Skill Gems requiring Level 24 or lower

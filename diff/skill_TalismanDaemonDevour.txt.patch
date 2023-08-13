@@ -1,0 +1,16 @@
+--- Skill:TalismanDaemonDevour
++++ Export
+@@ -8,11 +8,12 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 60
+ |static_stat1_id                         = alternate_minion
+ |static_stat1_value                      = 1
+ |static_stat2_id                         = base_skill_effect_duration
+ |static_stat2_value                      = 60000
+-|stat_text                               = Leeches (47-29198) Life to you for each corpse Consumed<br>Base duration is 60 seconds
++|stat_text                               = Base duration is 60 seconds<br>Leeches (47-29198) Life to you for each corpse Consumed
+ |level1                                  = True
+ |level1_level_requirement                = 4
+ |level1_cooldown                         = 4

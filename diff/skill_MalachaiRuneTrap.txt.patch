@@ -1,0 +1,33 @@
+--- Skill:MalachaiRuneTrap
++++ Export
+@@ -12,20 +12,20 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+ |static_stat1_value                      = 50
+-|static_stat2_id                         = trap_variation
+-|static_stat2_value                      = 6
+-|static_stat3_id                         = trap_throwing_speed_+%
+-|static_stat3_value                      = -60
+-|static_stat4_id                         = is_trap
++|static_stat2_id                         = base_skill_is_trapped
++|static_stat2_value                      = 1
++|static_stat3_id                         = create_trap_at_target_location
++|static_stat3_value                      = 1
++|static_stat4_id                         = ignores_trap_and_mine_cooldown_limit
+ |static_stat4_value                      = 1
+ |static_stat5_id                         = is_area_damage
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = base_skill_is_trapped
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = create_trap_at_target_location
++|static_stat6_id                         = trap_variation
++|static_stat6_value                      = 6
++|static_stat7_id                         = is_trap
+ |static_stat7_value                      = 1
+-|static_stat8_id                         = ignores_trap_and_mine_cooldown_limit
+-|static_stat8_value                      = 1
++|static_stat8_id                         = trap_throwing_speed_+%
++|static_stat8_value                      = -60
+ |stat_text                               = Deals (355-2027) to (532-3040) Fire Damage<br>Trap lasts (19-38) seconds<br>60% reduced Trap Throwing Speed
+ |level1                                  = True
+ |level1_level_requirement                = 40

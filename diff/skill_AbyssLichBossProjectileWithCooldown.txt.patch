@@ -1,0 +1,27 @@
+--- Skill:AbyssLichBossProjectileWithCooldown
++++ Export
+@@ -9,15 +9,15 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_physical_damage
+-|static_stat1_value                      = 4
+-|static_stat2_id                         = spell_maximum_base_physical_damage
+-|static_stat2_value                      = 7
+-|static_stat3_id                         = monster_projectile_variation
+-|static_stat3_value                      = 39
+-|static_stat4_id                         = always_pierce
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = base_is_projectile
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_projectile_variation
++|static_stat2_value                      = 39
++|static_stat3_id                         = spell_minimum_base_physical_damage
++|static_stat3_value                      = 4
++|static_stat4_id                         = spell_maximum_base_physical_damage
++|static_stat4_value                      = 7
++|static_stat5_id                         = always_pierce
+ |static_stat5_value                      = 1
+ |stat_text                               = Deals 4 to 7 Physical Damage<br>Projectiles Pierce all Targets
+ |level1                                  = True

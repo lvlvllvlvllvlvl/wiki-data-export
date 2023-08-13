@@ -1,0 +1,34 @@
+--- Skill:MotherOfFlamesMagmaOrb
++++ Export
+@@ -1,5 +1,5 @@
+ {{Skill
+-|gem_description                         = Lob a fiery orb that explodes as it hits the ground. The skill chains, releasing another fiery orb that repeats this effect.
++|gem_description                         = Lob a fiery orb that deals area damage as it hits the ground. The skill chains, bouncing forward to deal damage multiple times.
+ |active_skill_name                       = Rolling Magma
+ |skill_id                                = MotherOfFlamesMagmaOrb
+ |cast_time                               = 0.7
+@@ -10,15 +10,15 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = number_of_chains
+-|static_stat1_value                      = 2
+-|static_stat2_id                         = base_cast_speed_+%
+-|static_stat2_value                      = -66
+-|static_stat3_id                         = is_area_damage
+-|static_stat3_value                      = 1
+-|static_stat4_id                         = base_is_projectile
+-|static_stat4_value                      = 1
+-|stat_text                               = Deals (9-645) to (13-967) Fire Damage<br>Chains +2 Times<br>66% reduced Cast Speed
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = base_cast_speed_+%
++|static_stat3_value                      = -66
++|static_stat4_id                         = number_of_chains
++|static_stat4_value                      = 2
++|stat_text                               = Deals (9-645) to (13-967) Fire Damage<br>66% reduced Cast Speed<br>Chains +2 Times
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_stat_text                        = Deals 9 to 13 Fire Damage

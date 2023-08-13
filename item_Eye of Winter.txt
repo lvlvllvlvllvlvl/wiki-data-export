@@ -32,12 +32,12 @@
 |static_damage_effectiveness             = 55
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
-|static_stat1_id                         = projectile_firing_forward_distance_override
-|static_stat1_value                      = 100
-|static_stat2_id                         = base_is_projectile
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = console_skill_dont_chase
 |static_stat2_value                      = 1
-|static_stat3_id                         = console_skill_dont_chase
-|static_stat3_value                      = 1
+|static_stat3_id                         = projectile_firing_forward_distance_override
+|static_stat3_value                      = 100
 |static_stat4_id                         = single_primary_projectile
 |static_stat4_value                      = 1
 |static_stat5_id                         = eye_of_winter_base_explosion_shards

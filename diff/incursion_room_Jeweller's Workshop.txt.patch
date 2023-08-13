@@ -1,0 +1,16 @@
+--- Jeweller's Workshop
++++ Export
+@@ -1,11 +1,12 @@
+ {{Incursion room
+ |id                      = TrinketRoomI
+ |name                    = Jeweller's Workshop
+-|description             = Increases the rarity of items dropped in the Temple.<br/>Contains chests full of jewellery.
++|description             = Increases the rarity of items dropped in the Temple.<br />Contains chests full of jewellery.
+ |flavour_text            = Earth demolished, mined and polished.
+ |tier                    = 1
+ |upgrade_room_id         = TrinketRoomII
+ |icon                    = TrinketRoom
++|modifier_ids            = IncursionMonsterRarity1_, IncursionTempleJewelVialChance1
+ |architect_metadata_id   = Metadata/Monsters/VaalArchitect/VaalArchitect16_
+ |architect_name          = Azcapa, Architect of the Guild
+ }}

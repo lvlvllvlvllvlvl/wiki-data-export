@@ -1,0 +1,26 @@
+--- Skill:GACrucibleSabreSpiderDualStrike
++++ Export
+@@ -0,0 +1,23 @@
++{{Skill
++|gem_description                         = 
++|active_skill_name                       = 
++|skill_id                                = GACrucibleSabreSpiderDualStrike
++|cast_time                               = 1.87
++|required_level                          = 1
++|static_stored_uses                      = 1
++|static_cooldown                         = 4
++|static_damage_effectiveness             = 100
++|static_damage_multiplier                = 180
++|static_attack_speed_multiplier          = 100
++|static_stat1_id                         = cast_time_overrides_attack_duration
++|static_stat1_value                      = 1
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = melee_range_+
++|static_stat3_value                      = 6
++|static_stat4_id                         = global_bleed_on_hit
++|static_stat4_value                      = 1
++|stat_text                               = +6 to Melee Strike Range<br>Causes Bleeding
++|level1                                  = True
++|level1_level_requirement                = 1
++}}

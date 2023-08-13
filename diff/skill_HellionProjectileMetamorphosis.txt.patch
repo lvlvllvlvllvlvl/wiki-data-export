@@ -1,0 +1,17 @@
+--- Skill:HellionProjectileMetamorphosis
++++ Export
+@@ -7,10 +7,10 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = monster_projectile_variation
+-|static_stat1_value                      = 80
+-|static_stat2_id                         = base_is_projectile
+-|static_stat2_value                      = 1
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_projectile_variation
++|static_stat2_value                      = 80
+ |static_stat3_id                         = projectile_uses_contact_direction
+ |static_stat3_value                      = 1
+ |stat_text                               = 

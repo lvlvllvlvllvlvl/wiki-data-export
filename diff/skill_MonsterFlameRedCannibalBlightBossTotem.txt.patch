@@ -1,0 +1,37 @@
+--- Skill:MonsterFlameRedCannibalBlightBossTotem
++++ Export
+@@ -9,21 +9,21 @@
+ |static_damage_effectiveness             = 25
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat1_value                      = -25
+-|static_stat2_id                         = base_projectile_speed_+%
+-|static_stat2_value                      = 40
+-|static_stat3_id                         = number_of_additional_projectiles
+-|static_stat3_value                      = 2
+-|static_stat4_id                         = always_pierce
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat2_value                      = -25
++|static_stat3_id                         = projectile_uses_contact_position
++|static_stat3_value                      = 1
++|static_stat4_id                         = use_scaled_contact_offset
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = base_is_projectile
++|static_stat5_id                         = always_pierce
+ |static_stat5_value                      = 1
+-|static_stat6_id                         = projectile_uses_contact_position
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = use_scaled_contact_offset
+-|static_stat7_value                      = 1
+-|stat_text                               = Deals (2-316) to (3-473) Fire Damage<br>40% increased Projectile Speed<br>Fires 2 additional Projectiles<br>Projectiles Pierce all Targets
++|static_stat6_id                         = base_projectile_speed_+%
++|static_stat6_value                      = 40
++|static_stat7_id                         = number_of_additional_projectiles
++|static_stat7_value                      = 2
++|stat_text                               = Deals (2-316) to (3-473) Fire Damage<br>Projectiles Pierce all Targets<br>40% increased Projectile Speed<br>Fires 2 additional Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_stat_text                        = Deals 2 to 3 Fire Damage

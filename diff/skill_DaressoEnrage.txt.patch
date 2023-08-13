@@ -1,0 +1,14 @@
+--- Skill:DaressoEnrage
++++ Export
+@@ -7,9 +7,10 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
++|static_duration                         = 6
+ |static_stat1_id                         = base_skill_effect_duration
+ |static_stat1_value                      = 6000
+-|stat_text                               = (60-75)% increased Attack Speed<br>Base duration is 6 seconds
++|stat_text                               = Base duration is 6 seconds<br>(60-75)% increased Attack Speed
+ |level1                                  = True
+ |level1_level_requirement                = 0
+ |level1_stat_text                        = 60% increased Attack Speed

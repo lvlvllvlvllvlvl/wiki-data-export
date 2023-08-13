@@ -1,0 +1,51 @@
+--- Skill:KaomWarriorFireStorm
++++ Export
+@@ -11,16 +11,16 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = firestorm_base_area_of_effect_+%
+ |static_stat1_value                      = -49
+-|static_stat2_id                         = spell_maximum_action_distance_+%
+-|static_stat2_value                      = -50
+-|static_stat3_id                         = base_chance_to_ignite_%
+-|static_stat3_value                      = 25
+-|static_stat4_id                         = is_area_damage
+-|static_stat4_value                      = 1
+-|stat_text                               = Deals (2-243) to (3-365) Fire Damage<br>Base duration is (1.2-1.5) seconds<br>One impact every (0.15-0.12) seconds<br>25% chance to Ignite enemies
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_maximum_action_distance_+%
++|static_stat3_value                      = -50
++|static_stat4_id                         = base_chance_to_ignite_%
++|static_stat4_value                      = 25
++|stat_text                               = Deals (2-243) to (3-365) Fire Damage<br>Base duration is (1.2-1.5) seconds<br>25% chance to Ignite enemies<br>One impact every (0.15-0.12) seconds
+ |level1                                  = True
+ |level1_level_requirement                = 2
+-|level1_critical_strike_chance           = 0
++|level1_duration                         = 1.2
+ |level1_stat_text                        = Deals 2 to 3 Fire Damage<br>Base duration is 1.2 seconds<br>One impact every 0.15 seconds
+ |level1_stat1_id                         = spell_minimum_base_fire_damage
+ |level1_stat1_value                      = 2
+@@ -33,6 +33,7 @@
+ |level2                                  = True
+ |level2_level_requirement                = 32
+ |level2_critical_strike_chance           = 5
++|level2_duration                         = 1.5
+ |level2_stat_text                        = Deals 20 to 30 Fire Damage<br>Base duration is 1.5 seconds<br>One impact every 0.15 seconds
+ |level2_stat1_id                         = spell_minimum_base_fire_damage
+ |level2_stat1_value                      = 20
+@@ -45,6 +46,7 @@
+ |level3                                  = True
+ |level3_level_requirement                = 60
+ |level3_critical_strike_chance           = 5
++|level3_duration                         = 1.5
+ |level3_stat_text                        = Deals 84 to 126 Fire Damage<br>Base duration is 1.5 seconds<br>One impact every 0.12 seconds
+ |level3_stat1_id                         = spell_minimum_base_fire_damage
+ |level3_stat1_value                      = 84
+@@ -57,6 +59,7 @@
+ |level4                                  = True
+ |level4_level_requirement                = 68
+ |level4_critical_strike_chance           = 5
++|level4_duration                         = 1.5
+ |level4_stat_text                        = Deals 243 to 365 Fire Damage<br>Base duration is 1.5 seconds<br>One impact every 0.12 seconds
+ |level4_stat1_id                         = spell_minimum_base_fire_damage
+ |level4_stat1_value                      = 243

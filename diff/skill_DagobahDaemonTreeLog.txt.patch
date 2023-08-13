@@ -1,0 +1,22 @@
+--- Skill:DagobahDaemonTreeLog
++++ Export
+@@ -9,13 +9,13 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 34
+-|static_stat1_id                         = monster_projectile_variation
+-|static_stat1_value                      = 119
+-|static_stat2_id                         = always_pierce
+-|static_stat2_value                      = 1
+-|static_stat3_id                         = base_is_projectile
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = monster_projectile_variation
++|static_stat2_value                      = 119
++|static_stat3_id                         = projectile_uses_contact_position
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = projectile_uses_contact_position
++|static_stat4_id                         = always_pierce
+ |static_stat4_value                      = 1
+ |stat_text                               = Projectiles Pierce all Targets
+ |level1                                  = True

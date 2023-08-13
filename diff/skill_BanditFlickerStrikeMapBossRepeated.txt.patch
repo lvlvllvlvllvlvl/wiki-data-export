@@ -1,0 +1,37 @@
+--- Skill:BanditFlickerStrikeMapBossRepeated
++++ Export
+@@ -10,21 +10,21 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = skill_repeat_count
+-|static_stat1_value                      = 2
+-|static_stat2_id                         = active_skill_damage_+%_final
+-|static_stat2_value                      = 10
+-|static_stat3_id                         = physical_damage_+%
+-|static_stat3_value                      = 18
+-|static_stat4_id                         = base_attack_speed_+%_per_frenzy_charge
+-|static_stat4_value                      = 15
++|static_stat1_id                         = ignores_proximity_shield
++|static_stat1_value                      = 1
++|static_stat2_id                         = melee_defer_damage_prediction
++|static_stat2_value                      = 1
++|static_stat3_id                         = skill_repeat_count
++|static_stat3_value                      = 2
++|static_stat4_id                         = active_skill_damage_+%_final
++|static_stat4_value                      = 10
+ |static_stat5_id                         = attack_speed_+%
+ |static_stat5_value                      = 40
+-|static_stat6_id                         = ignores_proximity_shield
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = melee_defer_damage_prediction
+-|static_stat7_value                      = 1
+-|stat_text                               = Skills Repeat an additional 2 Times<br>Deals 10% more Damage<br>18% increased Physical Damage<br>15% increased Attack Speed per Frenzy Charge<br>40% increased Attack Speed
++|static_stat6_id                         = base_attack_speed_+%_per_frenzy_charge
++|static_stat6_value                      = 15
++|static_stat7_id                         = physical_damage_+%
++|static_stat7_value                      = 18
++|stat_text                               = Skills Repeat an additional 2 Times<br>Deals 10% more Damage<br>40% increased Attack Speed<br>15% increased Attack Speed per Frenzy Charge<br>18% increased Physical Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

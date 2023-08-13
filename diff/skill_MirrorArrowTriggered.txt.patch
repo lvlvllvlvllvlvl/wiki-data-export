@@ -1,0 +1,42 @@
+--- Skill:MirrorArrowTriggered
++++ Export
+@@ -0,0 +1,39 @@
++{{Skill
++|gem_description                         = Fires an arrow at the target destination. When the arrow lands, a clone is summoned. The clone is a minion that uses your bow and quiver.
++|active_skill_name                       = Mirror Arrow
++|item_class_id_restriction               = Bow
++|skill_id                                = MirrorArrowTriggered
++|cast_time                               = 1.0
++|required_level                          = 70
++|static_cost_amounts                     = 20
++|static_cost_types                       = Mana
++|static_stored_uses                      = 1
++|static_cooldown                         = 3
++|static_damage_effectiveness             = 100
++|static_damage_multiplier                = 100
++|static_attack_speed_multiplier          = 100
++|static_duration                         = 3
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
++|static_stat2_id                         = display_minion_monster_level
++|static_stat2_value                      = 68
++|static_stat3_id                         = display_minion_monster_type
++|static_stat3_value                      = 4
++|static_stat4_id                         = number_of_monsters_to_summon
++|static_stat4_value                      = 1
++|static_stat5_id                         = base_skill_effect_duration
++|static_stat5_value                      = 3000
++|static_stat6_id                         = minion_damage_+%
++|static_stat6_value                      = 114
++|static_stat7_id                         = minion_maximum_life_+%
++|static_stat7_value                      = 57
++|static_stat8_id                         = base_cooldown_speed_+%
++|static_stat8_value                      = 47
++|static_stat9_id                         = chance_to_trigger_level_20_mirror_arrow_on_attack_from_blink_arrow_%
++|static_stat9_value                      = 100
++|static_stat10_id                        = active_skill_minion_damage_+%_final
++|static_stat10_value                     = 75
++|stat_text                               = Base duration is 3 seconds<br>Minions deal 114% increased Damage<br>57% increased Minion Maximum Life<br>47% increased Cooldown Recovery Rate<br>This Skill is Triggered when you attack with Blink Arrow<br>Minions deal 75% more Damage
++|level1                                  = True
++|level1_level_requirement                = 70
++}}

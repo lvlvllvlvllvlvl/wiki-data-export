@@ -1,0 +1,20 @@
+--- Skill:ReviveAfterDurationPopUpMapMossMonsterBossOldFields2
++++ Export
+@@ -7,11 +7,12 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = cast_on_death_%
+-|static_stat1_value                      = 100
+-|static_stat2_id                         = base_skill_effect_duration
+-|static_stat2_value                      = 6000
+-|stat_text                               = 100% chance to Trigger this Spell on Death<br>Base duration is 6 seconds
++|static_duration                         = 6
++|static_stat1_id                         = base_skill_effect_duration
++|static_stat1_value                      = 6000
++|static_stat2_id                         = cast_on_death_%
++|static_stat2_value                      = 100
++|stat_text                               = Base duration is 6 seconds<br>100% chance to Trigger this Spell on Death
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

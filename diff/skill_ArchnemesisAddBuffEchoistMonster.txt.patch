@@ -1,0 +1,32 @@
+--- Skill:ArchnemesisAddBuffEchoistMonster
++++ Export
+@@ -7,19 +7,20 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = interrupt_for_X_ms_after_skill_use
+-|static_stat1_value                      = 1500
+-|static_stat2_id                         = base_skill_effect_duration
+-|static_stat2_value                      = 10000
++|static_duration                         = 10
++|static_stat1_id                         = disable_skill_repeats
++|static_stat1_value                      = 1
++|static_stat2_id                         = interrupt_for_X_ms_after_skill_use
++|static_stat2_value                      = 1500
+ |static_stat3_id                         = skill_repeat_count
+ |static_stat3_value                      = 2
+-|static_stat4_id                         = base_cast_speed_+%
+-|static_stat4_value                      = 200
++|static_stat4_id                         = base_skill_effect_duration
++|static_stat4_value                      = 10000
+ |static_stat5_id                         = attack_speed_+%
+ |static_stat5_value                      = 200
+-|static_stat6_id                         = disable_skill_repeats
+-|static_stat6_value                      = 1
+-|stat_text                               = Base duration is 10 seconds<br>Skills Repeat an additional 2 Times<br>200% increased Cast Speed<br>200% increased Attack Speed
++|static_stat6_id                         = base_cast_speed_+%
++|static_stat6_value                      = 200
++|stat_text                               = Skills Repeat an additional 2 Times<br>Base duration is 10 seconds<br>200% increased Attack Speed<br>200% increased Cast Speed
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

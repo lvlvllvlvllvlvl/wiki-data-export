@@ -1,0 +1,24 @@
+--- Skill:ArchnemesisTemporalChainsAura
++++ Export
+@@ -7,15 +7,15 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = temporal_chains_action_speed_+%_vs_rare_or_unique_final
++|static_stat1_id                         = temporal_chains_action_speed_+%_final
+ |static_stat1_value                      = -20
+ |static_stat2_id                         = buff_time_passed_+%_other_than_temporal_chains
+ |static_stat2_value                      = -40
+-|static_stat3_id                         = temporal_chains_action_speed_+%_final
+-|static_stat3_value                      = -20
+-|static_stat4_id                         = curse_apply_as_aura
+-|static_stat4_value                      = 1
+-|stat_text                               = Cursed Rare and Unique Enemies have 20% less Action Speed<br>Other effects on Cursed enemies expire 40% slower<br>Cursed Normal and Magic Enemies have 20% less Action Speed<br>This Curse is Cast as an Aura applying to nearby Enemies
++|static_stat3_id                         = curse_apply_as_aura
++|static_stat3_value                      = 1
++|static_stat4_id                         = temporal_chains_action_speed_+%_vs_rare_or_unique_final
++|static_stat4_value                      = -20
++|stat_text                               = Cursed Normal and Magic Enemies have 20% less Action Speed<br>Other effects on Cursed enemies expire 40% slower<br>This Curse is Cast as an Aura applying to nearby Enemies<br>Cursed Rare and Unique Enemies have 20% less Action Speed
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

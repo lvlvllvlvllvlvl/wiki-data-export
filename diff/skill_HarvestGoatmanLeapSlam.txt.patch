@@ -1,0 +1,21 @@
+--- Skill:HarvestGoatmanLeapSlam
++++ Export
+@@ -10,13 +10,13 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = skill_physical_damage_%_to_convert_to_lightning
+-|static_stat1_value                      = 50
++|static_stat1_id                         = cast_time_overrides_attack_duration
++|static_stat1_value                      = 1
+ |static_stat2_id                         = is_area_damage
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = cast_time_overrides_attack_duration
+-|static_stat3_value                      = 1
+-|stat_text                               = Deals (0-150)% more Damage<br>50% of Physical Damage Converted to Lightning Damage
++|static_stat3_id                         = skill_physical_damage_%_to_convert_to_lightning
++|static_stat3_value                      = 50
++|stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>Deals (0-150)% more Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level2                                  = True

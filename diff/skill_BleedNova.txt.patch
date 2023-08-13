@@ -1,0 +1,42 @@
+--- Skill:BleedNova
++++ Export
+@@ -9,25 +9,25 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+-|static_stat1_value                      = -75
+-|static_stat2_id                         = global_bleed_on_hit
++|static_stat1_id                         = ignore_defender_effective_level_modifiers
++|static_stat1_value                      = 1
++|static_stat2_id                         = is_area_damage
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = is_area_damage
+-|static_stat3_value                      = 1
+-|static_stat4_id                         = ignore_defender_effective_level_modifiers
++|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
++|static_stat3_value                      = -75
++|static_stat4_id                         = global_bleed_on_hit
+ |static_stat4_value                      = 1
+ |stat_text                               = Causes Bleeding
+ |level1                                  = True
+ |level1_level_requirement                = 1
+-|level1_stat1_id                         = %_of_life_to_deal_as_damage
+-|level1_stat1_value                      = 10
+-|level1_stat2_id                         = %_of_es_to_deal_as_damage
+-|level1_stat2_value                      = 6
++|level1_stat1_id                         = %_of_es_to_deal_as_damage
++|level1_stat1_value                      = 6
++|level1_stat2_id                         = %_of_life_to_deal_as_damage
++|level1_stat2_value                      = 10
+ |level2                                  = True
+ |level2_level_requirement                = 75
+-|level2_stat1_id                         = %_of_life_to_deal_as_damage
+-|level2_stat1_value                      = 20
+-|level2_stat2_id                         = %_of_es_to_deal_as_damage
+-|level2_stat2_value                      = 12
++|level2_stat1_id                         = %_of_es_to_deal_as_damage
++|level2_stat1_value                      = 12
++|level2_stat2_id                         = %_of_life_to_deal_as_damage
++|level2_stat2_value                      = 20
+ }}

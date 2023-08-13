@@ -1,0 +1,19 @@
+--- Monster:Metadata/Monsters/LeagueCrucible/Physical/Whipleg
++++ Export
+@@ -0,0 +1,16 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueCrucible/Physical/Whipleg
++|monster_type_id                  = CrucibleWhipleg
++|tags                             = animal_claw_weapon, beast, chaos_affinity, flesh_armour, is_unarmed, medium_movement, melee, physical_affinity, ranged, small_height, spider
++|skill_ids                        = MeleeAtAnimationSpeedMaim, MMSCrucibleBloodMortar, CGECrucibleBloodGround
++|name                             = Forged Whipleg
++|size                             = 3
++|minimum_attack_distance          = 6
++|maximum_attack_distance          = 20
++|model_size_multiplier            = 1.21
++|experience_multiplier            = 1.4
++|damage_multiplier                = 2.1
++|health_multiplier                = 1.96
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.5
++}}

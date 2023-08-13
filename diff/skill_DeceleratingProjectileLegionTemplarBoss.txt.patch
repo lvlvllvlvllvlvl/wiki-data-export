@@ -1,0 +1,44 @@
+--- Skill:DeceleratingProjectileLegionTemplarBoss
++++ Export
+@@ -8,27 +8,27 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = skill_visual_scale_+%
+-|static_stat1_value                      = 56
++|static_stat1_id                         = base_is_projectile
++|static_stat1_value                      = 1
+ |static_stat2_id                         = monster_projectile_variation
+ |static_stat2_value                      = 74
+ |static_stat3_id                         = projectile_distance_override
+ |static_stat3_value                      = 40
+-|static_stat4_id                         = skill_physical_damage_%_to_convert_to_lightning
+-|static_stat4_value                      = 75
+-|static_stat5_id                         = active_skill_attack_speed_+%_final
+-|static_stat5_value                      = -71
+-|static_stat6_id                         = always_pierce
++|static_stat4_id                         = projectile_uses_contact_position
++|static_stat4_value                      = 1
++|static_stat5_id                         = skill_visual_scale_+%
++|static_stat5_value                      = 56
++|static_stat6_id                         = use_scaled_contact_offset
+ |static_stat6_value                      = 1
+-|static_stat7_id                         = base_is_projectile
++|static_stat7_id                         = visual_hit_effect_elemental_is_holy
+ |static_stat7_value                      = 1
+-|static_stat8_id                         = visual_hit_effect_elemental_is_holy
++|static_stat8_id                         = always_pierce
+ |static_stat8_value                      = 1
+-|static_stat9_id                         = use_scaled_contact_offset
+-|static_stat9_value                      = 1
+-|static_stat10_id                        = projectile_uses_contact_position
+-|static_stat10_value                     = 1
+-|stat_text                               = Deals (0-200)% more Damage<br>75% of Physical Damage Converted to Lightning Damage<br>71% less Attack Speed<br>Projectiles Pierce all Targets
++|static_stat9_id                         = skill_physical_damage_%_to_convert_to_lightning
++|static_stat9_value                      = 75
++|static_stat10_id                        = active_skill_attack_speed_+%_final
++|static_stat10_value                     = -71
++|stat_text                               = Projectiles Pierce all Targets<br>75% of Physical Damage Converted to Lightning Damage<br>Deals (0-200)% more Damage<br>71% less Attack Speed
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_cooldown                         = 20

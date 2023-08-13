@@ -1,0 +1,35 @@
+--- Skill:GladiatorBossEliteVaalGroundSlam
++++ Export
+@@ -14,19 +14,19 @@
+ |static_stat1_value                      = 40
+ |static_stat2_id                         = animation_effect_variation
+ |static_stat2_value                      = -1
+-|static_stat3_id                         = knockback_distance_+%
+-|static_stat3_value                      = 200
+-|static_stat4_id                         = active_skill_damage_+%_final
+-|static_stat4_value                      = -20
+-|static_stat5_id                         = physical_damage_+%
+-|static_stat5_value                      = -15
+-|static_stat6_id                         = global_knockback
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = enemy_knockback_direction_is_reversed
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = is_area_damage
+-|static_stat8_value                      = 1
+-|stat_text                               = 200% increased Knockback Distance<br>Deals 20% less Damage<br>15% reduced Physical Damage<br>Knocks Enemies Back on Hit<br>Knockback direction is reversed
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = global_knockback
++|static_stat4_value                      = 1
++|static_stat5_id                         = enemy_knockback_direction_is_reversed
++|static_stat5_value                      = 1
++|static_stat6_id                         = active_skill_damage_+%_final
++|static_stat6_value                      = -20
++|static_stat7_id                         = knockback_distance_+%
++|static_stat7_value                      = 200
++|static_stat8_id                         = physical_damage_+%
++|static_stat8_value                      = -15
++|stat_text                               = Knocks Enemies Back on Hit<br>Knockback direction is reversed<br>Deals 20% less Damage<br>200% increased Knockback Distance<br>15% reduced Physical Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

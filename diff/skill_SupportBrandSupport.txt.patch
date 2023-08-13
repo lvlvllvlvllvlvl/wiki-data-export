@@ -1,0 +1,32 @@
+--- Skill:SupportBrandSupport
++++ Export
+@@ -17,20 +17,21 @@
+ |quality_type4_stat_text                 = Supported Skills have 1% increased Chaining range
+ |quality_type4_stat1_id                  = chaining_range_+%
+ |quality_type4_stat1_value               = 1000
++|static_cost_multiplier                  = 100
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = projectile_maximum_range_override
+-|static_stat1_value                      = 48
++|static_stat1_id                         = projectiles_not_offset
++|static_stat1_value                      = 1
+ |static_stat2_id                         = chaining_range_+%
+ |static_stat2_value                      = -40
+-|static_stat3_id                         = support_brand_area_of_effect_+%_final
+-|static_stat3_value                      = -40
+-|static_stat4_id                         = triggered_by_brand_support
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = projectiles_not_offset
++|static_stat3_id                         = projectile_maximum_range_override
++|static_stat3_value                      = 48
++|static_stat4_id                         = support_brand_area_of_effect_+%_final
++|static_stat4_value                      = -40
++|static_stat5_id                         = triggered_by_brand_support
+ |static_stat5_value                      = 1
+-|stat_text                               = Supported Skills deal (69-56)% less Damage<br>Supported Skills Deal (40-74)% more Damage with Hits against Branded Enemy<br>Supported Skills have limited Projectile Range<br>Supported Skills have 40% reduced Chaining range<br>Supported Skills have 40% less Area of Effect<br>Supported Skills are Triggered by Arcanist Brand, from the Brand's location
++|stat_text                               = Supported Skills have 40% reduced Chaining range<br>Supported Skills have limited Projectile Range<br>Supported Skills have 40% less Area of Effect<br>Supported Skills deal (69-56)% less Damage<br>Supported Skills Deal (40-74)% more Damage with Hits against Branded Enemy<br>Supported Skills are Triggered by Arcanist Brand, from the Brand's location
+ |level1                                  = True
+ |level1_level_requirement                = 38
+ |level1_stat_text                        = Supported Skills deal 69% less Damage<br>Supported Skills Deal 40% more Damage with Hits against Branded Enemy

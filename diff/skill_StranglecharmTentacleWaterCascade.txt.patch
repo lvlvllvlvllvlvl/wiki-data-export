@@ -1,0 +1,29 @@
+--- Skill:StranglecharmTentacleWaterCascade
++++ Export
+@@ -8,16 +8,16 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_cold_damage
+-|static_stat1_value                      = 4
+-|static_stat2_id                         = spell_maximum_base_cold_damage
+-|static_stat2_value                      = 7
+-|static_stat3_id                         = active_skill_area_of_effect_+%_final
+-|static_stat3_value                      = -80
+-|static_stat4_id                         = upheaval_number_of_spikes
+-|static_stat4_value                      = 13
+-|static_stat5_id                         = is_area_damage
+-|static_stat5_value                      = 1
++|static_stat1_id                         = is_area_damage
++|static_stat1_value                      = 1
++|static_stat2_id                         = spell_minimum_base_cold_damage
++|static_stat2_value                      = 4
++|static_stat3_id                         = spell_maximum_base_cold_damage
++|static_stat3_value                      = 7
++|static_stat4_id                         = active_skill_area_of_effect_+%_final
++|static_stat4_value                      = -80
++|static_stat5_id                         = upheaval_number_of_spikes
++|static_stat5_value                      = 13
+ |stat_text                               = Deals 4 to 7 Cold Damage<br>80% less Area of Effect<br>Causes 13 Bursts
+ |level1                                  = True
+ |level1_level_requirement                = 4

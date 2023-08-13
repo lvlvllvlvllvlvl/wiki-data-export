@@ -1,0 +1,57 @@
+--- Skill:PyroFireballInvasion
++++ Export
+@@ -14,12 +14,12 @@
+ |level1                                  = True
+ |level1_level_requirement                = 3
+ |level1_stat_text                        = Deals 5 to 7 Fire Damage
+-|level1_stat1_id                         = spell_minimum_base_fire_damage
+-|level1_stat1_value                      = 5
+-|level1_stat2_id                         = spell_maximum_base_fire_damage
+-|level1_stat2_value                      = 7
+-|level1_stat3_id                         = base_is_projectile
+-|level1_stat3_value                      = 1
++|level1_stat1_id                         = base_is_projectile
++|level1_stat1_value                      = 1
++|level1_stat2_id                         = spell_minimum_base_fire_damage
++|level1_stat2_value                      = 5
++|level1_stat3_id                         = spell_maximum_base_fire_damage
++|level1_stat3_value                      = 7
+ |level2                                  = True
+ |level2_level_requirement                = 24
+ |level2_stat_text                        = Deals 28 to 42 Fire Damage
+@@ -30,12 +30,12 @@
+ |level3                                  = True
+ |level3_level_requirement                = 27
+ |level3_stat_text                        = Deals 34 to 52 Fire Damage
+-|level3_stat1_id                         = spell_minimum_base_fire_damage
+-|level3_stat1_value                      = 34
+-|level3_stat2_id                         = spell_maximum_base_fire_damage
+-|level3_stat2_value                      = 52
+-|level3_stat3_id                         = base_is_projectile
+-|level3_stat3_value                      = 1
++|level3_stat1_id                         = base_is_projectile
++|level3_stat1_value                      = 1
++|level3_stat2_id                         = spell_minimum_base_fire_damage
++|level3_stat2_value                      = 34
++|level3_stat3_id                         = spell_maximum_base_fire_damage
++|level3_stat3_value                      = 52
+ |level4                                  = True
+ |level4_level_requirement                = 44
+ |level4_stat_text                        = Deals 97 to 146 Fire Damage
+@@ -46,10 +46,10 @@
+ |level5                                  = True
+ |level5_level_requirement                = 48
+ |level5_stat_text                        = Deals 122 to 183 Fire Damage
+-|level5_stat1_id                         = spell_minimum_base_fire_damage
+-|level5_stat1_value                      = 122
+-|level5_stat2_id                         = spell_maximum_base_fire_damage
+-|level5_stat2_value                      = 183
+-|level5_stat3_id                         = base_is_projectile
+-|level5_stat3_value                      = 1
++|level5_stat1_id                         = base_is_projectile
++|level5_stat1_value                      = 1
++|level5_stat2_id                         = spell_minimum_base_fire_damage
++|level5_stat2_value                      = 122
++|level5_stat3_id                         = spell_maximum_base_fire_damage
++|level5_stat3_value                      = 183
+ }}

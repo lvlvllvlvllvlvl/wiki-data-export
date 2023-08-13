@@ -1,0 +1,19 @@
+--- Skill:MonsterPunctureTalismanBoss
++++ Export
+@@ -12,11 +12,11 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = active_skill_bleeding_damage_+%_final
+ |static_stat1_value                      = 198
+-|static_stat2_id                         = attack_speed_+%
+-|static_stat2_value                      = -30
+-|static_stat3_id                         = global_bleed_on_hit
+-|static_stat3_value                      = 1
+-|static_stat4_id                         = skill_can_fire_arrows
++|static_stat2_id                         = skill_can_fire_arrows
++|static_stat2_value                      = 1
++|static_stat3_id                         = attack_speed_+%
++|static_stat3_value                      = -30
++|static_stat4_id                         = global_bleed_on_hit
+ |static_stat4_value                      = 1
+ |stat_text                               = 30% reduced Attack Speed<br>Causes Bleeding
+ |level1                                  = True

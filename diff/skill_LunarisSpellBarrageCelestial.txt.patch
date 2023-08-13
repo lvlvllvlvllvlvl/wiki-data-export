@@ -1,0 +1,42 @@
+--- Skill:LunarisSpellBarrageCelestial
++++ Export
+@@ -7,23 +7,24 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = spell_minimum_base_cold_damage
+-|static_stat1_value                      = 693
+-|static_stat2_id                         = spell_maximum_base_cold_damage
+-|static_stat2_value                      = 1039
++|static_duration                         = 0.1
++|static_stat1_id                         = cast_on_trigger_cascade_event_%
++|static_stat1_value                      = 100
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
+ |static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+ |static_stat3_value                      = -50
+-|static_stat4_id                         = cast_on_trigger_cascade_event_%
+-|static_stat4_value                      = 100
+-|static_stat5_id                         = fire_storm_fireball_delay_ms
+-|static_stat5_value                      = 300
+-|static_stat6_id                         = base_skill_effect_duration
+-|static_stat6_value                      = 100
+-|static_stat7_id                         = cannot_stun
+-|static_stat7_value                      = 1
+-|static_stat8_id                         = is_area_damage
+-|static_stat8_value                      = 1
+-|stat_text                               = Deals 693 to 1039 Cold Damage<br>One impact every 0.3 seconds<br>Base duration is 0.1 seconds<br>Your Hits cannot Stun Enemies
++|static_stat4_id                         = spell_minimum_base_cold_damage
++|static_stat4_value                      = 693
++|static_stat5_id                         = spell_maximum_base_cold_damage
++|static_stat5_value                      = 1039
++|static_stat6_id                         = cannot_stun
++|static_stat6_value                      = 1
++|static_stat7_id                         = base_skill_effect_duration
++|static_stat7_value                      = 100
++|static_stat8_id                         = fire_storm_fireball_delay_ms
++|static_stat8_value                      = 300
++|stat_text                               = Deals 693 to 1039 Cold Damage<br>Your Hits cannot Stun Enemies<br>Base duration is 0.1 seconds<br>One impact every 0.3 seconds
+ |level1                                  = True
+ |level1_level_requirement                = 61
+ }}

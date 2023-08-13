@@ -1,0 +1,17 @@
+--- Area:CrucibleLeagueAreaUber
++++ Export
+@@ -4,11 +4,11 @@
+ |act                              = 11
+ |area_level                       = 84
+ |area_type_tags                   = cave
+-|tags                             = cave, indoors_area
++|tags                             = indoors_area
+ |loading_screen                   = Maps
+ |parent_area_id                   = 2_11_endgame_town
+-|entry_text                       = 
+-|entry_npc                        = The Molten One
++|modifier_ids                     = CrucibleAreaGeodeDropChance
+ |is_map_area                      = True
++|is_unique_map_area               = True
+ |main_page                        = Forge of the Titans
+ }}

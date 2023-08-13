@@ -1,0 +1,20 @@
+--- Monster:Metadata/Monsters/LeagueCrucible/CriticalSpeed/DemonWhip
++++ Export
+@@ -0,0 +1,17 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueCrucible/CriticalSpeed/DemonWhip
++|monster_type_id                  = CrucibleDemonWhip
++|mod_ids                          = MonsterChanceToVulnerabilityOnHit2
++|tags                             = animal_claw_weapon, demon, fast_movement, flesh_armour, has_dagger, has_one_handed_melee, medium_height, melee, physical_affinity
++|skill_ids                        = MeleeAtAnimationSpeed, GACrucibleDemonWhip
++|name                             = Forged Whip Demon
++|size                             = 3
++|minimum_attack_distance          = 6
++|maximum_attack_distance          = 18
++|model_size_multiplier            = 0.95
++|experience_multiplier            = 1.2
++|damage_multiplier                = 0.96
++|health_multiplier                = 1.44
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.5
++}}

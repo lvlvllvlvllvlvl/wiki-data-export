@@ -1,0 +1,21 @@
+--- Skill:VampiricIcon
++++ Export
+@@ -10,13 +10,13 @@
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+ |static_life_reservation_percent         = 10
+-|static_stat1_id                         = vampiric_icon_bleeding_damage_+%_final
+-|static_stat1_value                      = 20
++|static_stat1_id                         = vampiric_icon_max_bleeding_beam_targets
++|static_stat1_value                      = 5
+ |static_stat2_id                         = skill_life_regeneration_per_minute_per_affected_enemy
+ |static_stat2_value                      = 24000
+-|static_stat3_id                         = vampiric_icon_max_bleeding_beam_targets
+-|static_stat3_value                      = 5
+-|stat_text                               = Grants 20% more Damage with Bleeding<br>Regenerate 400 Life per second for each affected Enemy<br>Applies beams to the closest 5 nearby Bleeding Enemies
++|static_stat3_id                         = vampiric_icon_bleeding_damage_+%_final
++|static_stat3_value                      = 20
++|stat_text                               = Applies beams to the closest 5 nearby Bleeding Enemies<br>Regenerate 400 Life per second for each affected Enemy<br>Grants 20% more Damage with Bleeding
+ |level1                                  = True
+ |level1_level_requirement                = 70
+ }}
