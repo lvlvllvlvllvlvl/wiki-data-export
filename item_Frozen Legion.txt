@@ -20,6 +20,12 @@
 |quality_type1_weight                    = 50
 |quality_type2_weight                    = 50
 |quality_type3_weight                    = 50
+|static_cost_types                       = Mana
+|static_stored_uses                      = 6
+|static_cooldown                         = 0.8
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |level1                                  = True
 |level1_level_requirement                = 34
 |level1_cost_amounts                     = 12
@@ -220,9 +226,9 @@
 |level39_damage_multiplier               = 365.7
 |level40_damage_effectiveness            = 369
 |level40_damage_multiplier               = 368.6
-|quality_type1_stat1_id                  = dummy_stat_display_nothing
-|quality_type1_stat1_value               = 0
-|quality_type1_stat_text                 = 
+|quality_type1_stat1_id                  = base_skill_area_of_effect_+%
+|quality_type1_stat1_value               = 500
+|quality_type1_stat_text                 = 0.5% increased Area of Effect
 |quality_type2_stat1_id                  = base_cooldown_speed_+%
 |quality_type2_stat1_value               = 500
 |quality_type2_stat_text                 = 0.5% increased Cooldown Recovery Rate

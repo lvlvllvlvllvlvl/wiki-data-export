@@ -19,6 +19,12 @@
 |quality_type2_weight                    = 100
 |quality_type3_weight                    = 50
 |quality_type4_weight                    = 10
+|static_cost_types                       = Mana
+|static_stored_uses                      = 1
+|static_cooldown                         = 8
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |level1                                  = True
 |level1_level_requirement                = 24
 |level1_cost_amounts                     = 15
@@ -267,9 +273,9 @@
 |quality_type3_stat1_id                  = warcry_grant_damage_+%_to_exerted_attacks
 |quality_type3_stat1_value               = 500
 |quality_type3_stat_text                 = Exerted Attacks deal 0.5% increased Damage
-|quality_type4_stat1_id                  = dummy_stat_display_nothing
-|quality_type4_stat1_value               = 0
-|quality_type4_stat_text                 = 
+|quality_type4_stat1_id                  = cover_in_ash_on_hit_%
+|quality_type4_stat1_value               = 1000
+|quality_type4_stat_text                 = 1% chance to Cover Enemies in Ash on Hit
 |stat_text                               = Base duration is (5-5.9) seconds<br>(0-38)% increased Warcry Speed<br>Damage cannot be Reflected<br>Explosion deals Fire Damage equal to 8% of the Monster's maximum Life<br>Counts total Power of Enemies in Range<br>Covers Enemies in Ash, causing 3% increased Fire Damage taken per 5 Power, up to 20%<br>Exerts the next 6 Melee Attacks you perform<br>Exerted Attacks Trigger Combust the first time they deal a Melee Hit<br>60% of Physical Damage Converted to Fire Damage<br>This Skill is Triggered by Attacks Exerted by Infernal Cry
 |static_stat1_id                         = base_skill_show_average_damage_instead_of_dps
 |static_stat1_value                      = 1
