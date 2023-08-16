@@ -11,12 +11,12 @@
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
 |static_duration                         = 5
-|static_stat1_id                         = projectile_spread_radius
-|static_stat1_value                      = 3
-|static_stat2_id                         = base_is_projectile
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = is_area_damage
 |static_stat2_value                      = 1
-|static_stat3_id                         = is_area_damage
-|static_stat3_value                      = 1
+|static_stat3_id                         = projectile_spread_radius
+|static_stat3_value                      = 3
 |static_stat4_id                         = spell_minimum_base_physical_damage
 |static_stat4_value                      = 1
 |static_stat5_id                         = spell_maximum_base_physical_damage

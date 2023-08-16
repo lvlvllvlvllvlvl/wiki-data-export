@@ -9,10 +9,10 @@
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
-|static_stat1_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
-|static_stat1_value                      = -50
-|static_stat2_id                         = is_area_damage
-|static_stat2_value                      = 1
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
+|static_stat2_value                      = -50
 |stat_text                               = Deals (200-400)% more Damage<br>(50-0)% less Attack Speed<br>Enemy Block Chance reduced by (0-1000)% against this Skill<br>Enemies have (0-1000)% reduced chance to Dodge Hits from this Skill
 |level1                                  = True
 |level1_level_requirement                = 84

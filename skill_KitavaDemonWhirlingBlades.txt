@@ -11,11 +11,11 @@
 |static_damage_multiplier                = 60
 |static_attack_speed_multiplier          = 100
 |static_duration                         = 6
-|static_stat1_id                         = monster_flurry
+|static_stat1_id                         = cast_time_overrides_attack_duration
 |static_stat1_value                      = 1
-|static_stat2_id                         = cast_time_overrides_attack_duration
+|static_stat2_id                         = ignores_proximity_shield
 |static_stat2_value                      = 1
-|static_stat3_id                         = ignores_proximity_shield
+|static_stat3_id                         = monster_flurry
 |static_stat3_value                      = 1
 |static_stat4_id                         = base_skill_effect_duration
 |static_stat4_value                      = 6000

@@ -16,14 +16,14 @@
 |stat_text                               = 
 |level1                                  = True
 |level1_level_requirement                = 1
-|level1_stat1_id                         = trigger_cascade_number_of_spikes
-|level1_stat1_value                      = 2
-|level1_stat2_id                         = trigger_cascade_ms_between_spikes
-|level1_stat2_value                      = 500
+|level1_stat1_id                         = trigger_cascade_ms_between_spikes
+|level1_stat1_value                      = 500
+|level1_stat2_id                         = trigger_cascade_number_of_spikes
+|level1_stat2_value                      = 2
 |level2                                  = True
 |level2_level_requirement                = 85
-|level2_stat1_id                         = trigger_cascade_number_of_spikes
-|level2_stat1_value                      = 5
-|level2_stat2_id                         = trigger_cascade_ms_between_spikes
-|level2_stat2_value                      = 200
+|level2_stat1_id                         = trigger_cascade_ms_between_spikes
+|level2_stat1_value                      = 200
+|level2_stat2_id                         = trigger_cascade_number_of_spikes
+|level2_stat2_value                      = 5
 }}

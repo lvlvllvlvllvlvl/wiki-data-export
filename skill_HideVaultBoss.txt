@@ -10,12 +10,12 @@
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
 |static_duration                         = 15
-|static_stat1_id                         = spell_maximum_action_distance_+%
-|static_stat1_value                      = -90
-|static_stat2_id                         = skill_cannot_be_interrupted
+|static_stat1_id                         = skill_cannot_be_interrupted
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_cannot_be_stunned
 |static_stat2_value                      = 1
-|static_stat3_id                         = skill_cannot_be_stunned
-|static_stat3_value                      = 1
+|static_stat3_id                         = spell_maximum_action_distance_+%
+|static_stat3_value                      = -90
 |static_stat4_id                         = base_skill_effect_duration
 |static_stat4_value                      = 15000
 |stat_text                               = Base duration is 15 seconds
