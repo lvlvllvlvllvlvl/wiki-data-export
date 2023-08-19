@@ -1,11 +1,15 @@
 --- Area:SanctumFoyerChain~3~2
 +++ Export
-@@ -0,0 +1,8 @@
+@@ -0,0 +1,12 @@
 +{{Area
 +|id                               = SanctumFoyerChain_3_2
 +|name                             = Sanctum Cathedral
 +|act                              = 11
 +|area_level                       = 1
-+|loading_screen                   = Maps
-+|modifier_ids                     = MapMonsterNoMapDrops
++|loading_screen                   = SanctumCathedral
++|modifier_ids                     = MapMonsterNoMapDrops, MapSanctumRareMonsterLifePenalty
++|spawn_weight1_tag                = sanctum_key
++|spawn_weight1_value              = 0
++|spawn_weight2_tag                = default
++|spawn_weight2_value              = 1000
 +}}

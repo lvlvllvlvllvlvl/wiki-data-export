@@ -1824,5 +1824,68 @@ local data = {	{
 	},
 	{
 		id = "CrucibleForge", 
+	},
+	{
+		id = "AncestralChieftainKiloava", 
+	},
+	{
+		id = "AncestralChieftainAkoya", 
+	},
+	{
+		id = "AncestralChieftainMaata", 
+	},
+	{
+		id = "AncestralChieftainRakiata", 
+	},
+	{
+		id = "AncestralChieftainKahuturoa", 
+	},
+	{
+		id = "AncestralChieftainAhuana", 
+	},
+	{
+		id = "AncestralChieftainKaom", 
+	},
+	{
+		id = "AncestralChieftainNavali", 
+	},
+	{
+		id = "AncestralChieftainUtula", 
+	},
+	{
+		id = "AncestralChieftainTawhanuku", 
+	},
+	{
+		id = "AncestralChieftainIkiaho", 
+	},
+	{
+		id = "AncestralArenaEntrance", 
+	},
+	{
+		id = "AncestralEnemyChieftainTotem", 
+	},
+	{
+		id = "AncestralAllyChieftainTotem", 
+	},
+	{
+		id = "AncestralAllyChieftainTotemAttacked", 
+	},
+	{
+		id = "AncestralFieldItem", 
+	},
+	{
+		id = "AncestralEnemyTotem", 
+	},
+	{
+		id = "AncestralAllyTotem", 
+	},
+	{
+		id = "AncesltralAllyTotemAttacked", 
+	},
+	{
+		id = "AncestralEnemyChieftainTotemAttacked", 
+	},
+	{
+		id = "AncesltralEnemyTotemAttacked", 
 	}}
 return data

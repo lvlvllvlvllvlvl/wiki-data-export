@@ -1,0 +1,22 @@
+--- Passive Skill:AscendancyGuardian1
++++ Export
+@@ -1,15 +1,15 @@
+ {{Passive skill
+ |id                                  = AscendancyGuardian1
+ |int_id                              = 32992
+-|name                                = Armour and Energy Shield, Block Chance
++|name                                = Armour and Energy Shield, Block Recovery
+ |ascendancy_class                    = Guardian
+ |icon                                = ArmourEnergyShieldStaves (Guardian)
+ |stat1_id                            = physical_damage_reduction_rating_+%
+ |stat1_value                         = 14
+ |stat2_id                            = maximum_energy_shield_+%
+ |stat2_value                         = 5
+-|stat3_id                            = additional_block_%
+-|stat3_value                         = 2
+-|stat_text                           = 14% increased [[Armour]]<br>5% increased maximum [[Energy Shield]]<br>+2% Chance to [[Block]] [[Attack Damage]]
++|stat3_id                            = block_recovery_+%
++|stat3_value                         = 30
++|stat_text                           = 14% increased [[Armour]]<br>5% increased maximum [[Energy Shield]]<br>30% increased [[Block]] Recovery
+ |connections                         = AscendancyGuardian4,AscendancyGuardian4,AscendancyGuardianStart
+ }}

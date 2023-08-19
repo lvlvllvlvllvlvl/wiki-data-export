@@ -2,14 +2,13 @@
 |id                                  = AscendancyChieftan8
 |int_id                              = 50692
 |name                                = Ngamahu, Flame's Advance
-|buff_id                             = chieftain_physical_as_fire_cycle
 |ascendancy_class                    = Chieftain
 |is_notable                          = True
 |icon                                = NgamahuFlamesAdvance (Chieftain)
-|stat1_id                            = base_physical_damage_%_to_convert_to_fire
-|stat1_value                         = 50
-|stat_text                           = 50% of [[Physical Damage]] Converted to [[Fire Damage]]<br>Every 10 seconds, gain 100% of Physical Damage<br />as Extra [[Fire Damage]] for 4 seconds
-|stat2_id                            = local_display_every_10_seconds_physical_damage_%_to_add_as_fire_for_3_seconds
-|stat2_value                         = 100
-|connections                         = AscendancyChieftan2,AscendancyChieftan4
+|stat1_id                            = display_additive_damage_modifiers_in_large_radius_of_non_unique_jewels_instead_apply_to_fire_damage
+|stat1_value                         = 1
+|stat2_id                            = display_passives_in_large_radius_of_non_unique_jewels_grant_additional_strength
+|stat2_value                         = 3
+|stat_text                           = Non-Unique Jewels cause Increases and Reductions to other Damage Types in a Large Radius to be Transformed to apply to [[Fire Damage]]<br>Non-Unique Jewels cause Small and Notable Passive [[Skill|Skills]] in a Large Radius to<br />also grant +3 to [[Strength]]
+|connections                         = AscendancyChieftan13
 }}

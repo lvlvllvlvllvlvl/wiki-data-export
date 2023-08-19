@@ -13,15 +13,15 @@
 |static_duration                         = 2
 |static_stat1_id                         = is_area_damage
 |static_stat1_value                      = 1
-|static_stat2_id                         = spell_minimum_base_fire_damage
-|static_stat2_value                      = 9
-|static_stat3_id                         = spell_maximum_base_fire_damage
-|static_stat3_value                      = 14
-|static_stat4_id                         = base_skill_effect_duration
-|static_stat4_value                      = 2000
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 2000
+|static_stat3_id                         = spell_minimum_base_fire_damage
+|static_stat3_value                      = 9
+|static_stat4_id                         = spell_maximum_base_fire_damage
+|static_stat4_value                      = 14
 |static_stat5_id                         = fire_storm_fireball_delay_ms
 |static_stat5_value                      = 100
-|stat_text                               = Deals 9 to 14 Fire Damage<br>Base duration is 2 seconds<br>One impact every 0.1 seconds
+|stat_text                               = Base duration is 2 seconds<br>Deals 9 to 14 Fire Damage<br>One impact every 0.1 seconds
 |level1                                  = True
 |level1_level_requirement                = 1
 }}

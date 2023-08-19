@@ -1,0 +1,34 @@
+--- Herald of Agony
++++ Export
+@@ -35,18 +35,20 @@
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+ |static_mana_reservation_percent         = 25
+-|static_stat1_id                         = base_number_of_herald_scorpions_allowed
++|static_stat1_id                         = infinite_minion_duration
+ |static_stat1_value                      = 1
+-|static_stat2_id                         = skill_buff_grants_chance_to_poison_%
+-|static_stat2_value                      = 20
+-|static_stat3_id                         = herald_of_agony_add_stack_on_poison
+-|static_stat3_value                      = 1
+-|static_stat4_id                         = herald_of_agony_poison_damage_+%_final
+-|static_stat4_value                      = 10
+-|static_stat5_id                         = maximum_virulence_stacks
+-|static_stat5_value                      = 40
+-|static_stat6_id                         = minions_cannot_taunt_enemies
+-|static_stat6_value                      = 1
++|static_stat2_id                         = base_number_of_herald_scorpions_allowed
++|static_stat2_value                      = 1
++|static_stat3_id                         = skill_buff_grants_chance_to_poison_%
++|static_stat3_value                      = 20
++|static_stat4_id                         = herald_of_agony_add_stack_on_poison
++|static_stat4_value                      = 1
++|static_stat5_id                         = herald_of_agony_poison_damage_+%_final
++|static_stat5_value                      = 10
++|static_stat6_id                         = maximum_virulence_stacks
++|static_stat6_value                      = 40
++|static_stat7_id                         = minions_cannot_taunt_enemies
++|static_stat7_value                      = 1
+ |stat_text                               = Maximum 1 Summoned Agony Crawler<br>Buff grants 20% chance to Poison on Hit<br>Grants Virulence when you Poison an Enemy<br>Buff grants 10% more Damage with Poison<br>Maximum 40 Virulence<br>Minions cannot Taunt Enemies<br>Agony Crawler has (2-4)% increased Attack Speed per Virulence you have<br>Agony Crawler deals (5-9)% increased Physical Damage per Virulence you have<br>Agony Crawler has (1-45) to (3-84) Added Physical Damage per Virulence you have
+ |level1                                  = True
+ |level1_level_requirement                = 16

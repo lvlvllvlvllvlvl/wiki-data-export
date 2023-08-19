@@ -1,0 +1,13 @@
+--- Passive Skill:Fire~damage~with~attacks2863
++++ Export
+@@ -0,0 +1,10 @@
++{{Passive skill
++|id                                  = fire_damage_with_attacks2863
++|int_id                              = 34750
++|name                                = Weapon Fire Damage
++|icon                                = firedamagestr
++|stat1_id                            = fire_damage_with_attack_skills_+%
++|stat1_value                         = 12
++|stat_text                           = 12% increased [[Fire Damage]] with [[Attack]] [[Skill|Skills]]
++|connections                         = weapon_fire_damage1713,attack_ignite_chance2866,weapon_fire_damage1713,strength775
++}}

@@ -1,0 +1,19 @@
+--- Monster:Metadata/Monsters/Miner/MinerBreachColdSpectre
++++ Export
+@@ -1,6 +1,6 @@
+ {{Monster
+ |metadata_id                      = Metadata/Monsters/Miner/MinerBreachColdSpectre
+-|monster_type_id                  = BreachMinerCold
++|monster_type_id                  = BreachMinerColdMapSpectre
+ |mod_ids                          = BreachReducedBeyondPortalChance
+ |part1_mod_ids                    = MonsterPhysicalAddedAsColdBreach
+ |part2_mod_ids                    = MonsterPhysicalAddedAsColdBreach2_
+@@ -14,7 +14,7 @@
+ |model_size_multiplier            = 1.15
+ |experience_multiplier            = 1.0
+ |damage_multiplier                = 1.4
+-|health_multiplier                = 1.7
++|health_multiplier                = 3.6
+ |critical_strike_chance           = 5.0
+ |attack_speed                     = 1.395
+ }}

@@ -1,0 +1,17 @@
+--- Passive Skill:Melee~ignite~notable2874
++++ Export
+@@ -0,0 +1,14 @@
++{{Passive skill
++|id                                  = melee_ignite_notable2874
++|int_id                              = 55194
++|name                                = Settling Ash
++|buff_id                             = cover_in_ash_while_not_moving
++|is_notable                          = True
++|icon                                = IgniteAshNotable
++|stat1_id                            = display_cover_nearby_enemies_in_ash_if_havent_moved_in_past_X_seconds
++|stat1_value                         = 2
++|stat_text                           = Nearby Enemies are Covered in Ash if you haven't moved in the past 2 seconds<br>
++|stat2_id                            = cover_nearby_enemies_in_ash_if_havent_moved_in_past_X_seconds
++|stat2_value                         = 2
++|connections                         = stun_threshold2870,mastery_fire122,attack_ignite_chance2869,stun_threshold2870
++}}

@@ -1,6 +1,6 @@
 --- Skill:VilentaXMortarMap
 +++ Export
-@@ -7,27 +7,27 @@
+@@ -7,29 +7,29 @@
  |static_damage_effectiveness             = 100
  |static_damage_multiplier                = 100
  |static_attack_speed_multiplier          = 100
@@ -34,15 +34,18 @@
 +|static_stat8_id                         = triggered_skill_use_animation_event
  |static_stat8_value                      = 1
 -|static_stat9_id                         = is_area_damage
--|static_stat9_value                      = 1
++|static_stat9_id                         = cannot_stun
+ |static_stat9_value                      = 1
 -|static_stat10_id                        = projectile_uses_contact_position
 -|static_stat10_value                     = 1
 -|static_stat11_id                        = triggered_skill_use_animation_event
-+|static_stat9_id                         = spell_minimum_base_fire_damage
-+|static_stat9_value                      = 3
-+|static_stat10_id                        = spell_maximum_base_fire_damage
-+|static_stat10_value                     = 4
-+|static_stat11_id                        = cannot_stun
- |static_stat11_value                     = 1
- |stat_text                               = Deals 3 to 4 Fire Damage<br>Your Hits cannot Stun Enemies
+-|static_stat11_value                     = 1
+-|stat_text                               = Deals 3 to 4 Fire Damage<br>Your Hits cannot Stun Enemies
++|static_stat10_id                        = spell_minimum_base_fire_damage
++|static_stat10_value                     = 3
++|static_stat11_id                        = spell_maximum_base_fire_damage
++|static_stat11_value                     = 4
++|stat_text                               = Your Hits cannot Stun Enemies<br>Deals 3 to 4 Fire Damage
  |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

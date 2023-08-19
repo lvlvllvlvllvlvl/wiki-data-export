@@ -7,12 +7,16 @@
 |drop_level                              = 72
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemCurseOnHitPlus
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |intelligence_percent                    = 100
 |gem_tags                                = Support, Hex, Trigger
 |skill_id                                = SupportCurseOnHitPlus
 |support_gem_letter                      = &
 |required_level                          = 72
+|static_cost_multiplier                  = 130
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |level1                                  = True
 |level1_level_requirement                = 72
 |level2                                  = True
@@ -54,6 +58,9 @@
 |level20                                 = True
 |level20_level_requirement               = 100
 |quality_type1_weight                    = 50
+|quality_type1_stat1_id                  = base_curse_duration_+%
+|quality_type1_stat1_value               = 500
+|quality_type1_stat_text                 = Supported Skills have 0.5% increased Curse Duration
 |stat_text                               = Supported Skills apply supported Curses on Hit<br>You cannot Cast Supported Curse Spells<br>35% less Effect of Supported Curses<br>Supported Skills have (30-26)% reduced Curse Duration<br>Hexes applied by Supported Curse Skills have (10-18)% chance to affect Hexproof Enemies<br>+(0-1) to Level of Supported Curse Skill Gems
 |static_stat1_id                         = apply_linked_curses_on_hit_%
 |static_stat1_value                      = 100

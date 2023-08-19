@@ -1,0 +1,19 @@
+--- Passive Skill:AscendancyChieftan9
++++ Export
+@@ -5,12 +5,8 @@
+ |ascendancy_class                    = Chieftain
+ |is_notable                          = True
+ |icon                                = HinekoraDeathsFury (Chieftain)
+-|stat1_id                            = base_life_leech_from_fire_damage_permyriad
+-|stat1_value                         = 100
+-|stat2_id                            = strength_+%
+-|stat2_value                         = 10
+-|stat3_id                            = apply_covered_in_ash_to_attacker_on_hit_%_vs_rare_or_unique_enemy
+-|stat3_value                         = 100
+-|stat_text                           = 1% of [[Fire Damage]] Leeched as [[Life]]<br>10% increased [[Strength]]<br>Cover Rare or Unique Enemies in Ash for 10 Seconds on [[Hit]]
+-|connections                         = AscendancyChieftan13,AscendancyChieftan2
++|stat1_id                            = explode_enemies_for_500%_life_as_fire_on_kill_%_chance
++|stat1_value                         = 5
++|stat_text                           = Enemies you [[Kill]] have 5% chance to Explode, dealing 500% of their maximum [[Life]] as [[Fire Damage]]
++|connections                         = AscendancyChieftan4
+ }}

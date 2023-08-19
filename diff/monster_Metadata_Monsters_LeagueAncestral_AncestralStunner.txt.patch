@@ -1,0 +1,20 @@
+--- Monster:Metadata/Monsters/LeagueAncestral/AncestralStunner
++++ Export
+@@ -0,0 +1,17 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueAncestral/AncestralStunner
++|monster_type_id                  = AncestralStunner
++|mod_ids                          = AncestralTrialMonsterInterruptDurationStunner, AncestralTrialMonsterOverwhelmRongokurai, CannotBeSlowedBelowValueBosses, AncestralTrialMonsterIntermediateFleeAndDamage
++|tags                             = fast_movement, human, humanoid, karui, not_dex, not_int, red_blood
++|skill_ids                        = AncestralMeleeKnockbackStun, GAAncestralVaalGroundSlam, AncestralStunnerEarthquake
++|name                             = Goliath of Night
++|size                             = 3
++|minimum_attack_distance          = 5
++|maximum_attack_distance          = 13
++|model_size_multiplier            = 1.0
++|experience_multiplier            = 1.0
++|damage_multiplier                = 2.0
++|health_multiplier                = 2.5
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.5
++}}

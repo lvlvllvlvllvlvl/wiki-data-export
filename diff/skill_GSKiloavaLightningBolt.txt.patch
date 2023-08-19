@@ -1,0 +1,31 @@
+--- Skill:GSKiloavaLightningBolt
++++ Export
+@@ -0,0 +1,28 @@
++{{Skill
++|gem_description                         = 
++|active_skill_name                       = 
++|skill_id                                = GSKiloavaLightningBolt
++|cast_time                               = 1.0
++|required_level                          = 0
++|static_stored_uses                      = 1
++|static_cooldown                         = 5
++|static_critical_strike_chance           = 5
++|static_damage_effectiveness             = 100
++|static_damage_multiplier                = 100
++|static_attack_speed_multiplier          = 100
++|static_stat1_id                         = action_attack_or_cast_time_uses_animation_length
++|static_stat1_value                      = 1
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_maximum_action_distance_+%
++|static_stat3_value                      = -70
++|static_stat4_id                         = spell_minimum_base_lightning_damage
++|static_stat4_value                      = 4
++|static_stat5_id                         = spell_maximum_base_lightning_damage
++|static_stat5_value                      = 13
++|static_stat6_id                         = base_chance_to_shock_%
++|static_stat6_value                      = 100
++|stat_text                               = Deals 4 to 13 Lightning Damage<br>100% chance to Shock enemies
++|level1                                  = True
++|level1_level_requirement                = 0
++}}

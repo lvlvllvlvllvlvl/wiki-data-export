@@ -50,12 +50,12 @@
 +|static_stat7_value                      = 1
 +|static_stat8_id                         = base_fire_damage_to_deal_per_minute
 +|static_stat8_value                      = 173
-+|static_stat9_id                         = base_cold_damage_to_deal_per_minute
-+|static_stat9_value                      = 173
-+|static_stat10_id                        = skill_physical_damage_%_to_convert_to_lightning
-+|static_stat10_value                     = 100
-+|static_stat11_id                        = base_skill_effect_duration
-+|static_stat11_value                     = 12000
++|static_stat9_id                         = skill_physical_damage_%_to_convert_to_lightning
++|static_stat9_value                      = 100
++|static_stat10_id                        = base_skill_effect_duration
++|static_stat10_value                     = 12000
++|static_stat11_id                        = base_cold_damage_to_deal_per_minute
++|static_stat11_value                     = 173
 +|static_stat12_id                        = always_freeze
 +|static_stat12_value                     = 1
 +|static_stat13_id                        = skill_physical_damage_%_to_convert_to_cold
@@ -64,7 +64,7 @@
 +|static_stat14_value                     = 100
 +|static_stat15_id                        = upheaval_number_of_spikes
 +|static_stat15_value                     = 5
-+|stat_text                               = Deals 33 to 50 Physical Damage<br>Hits always Ignite<br>Hits always Shock<br>Deals 2.9 Base Fire Damage per second<br>Deals 2.9 Base Cold Damage per second<br>100% of Physical Damage Converted to Lightning Damage<br>Base duration is 12 seconds<br>Always Freezes enemies<br>100% of Physical Damage Converted to Cold Damage<br>100% of Physical Damage Converted to Fire Damage<br>Causes 5 Bursts
++|stat_text                               = Deals 33 to 50 Physical Damage<br>Hits always Ignite<br>Hits always Shock<br>Deals 2.9 Base Fire Damage per second<br>100% of Physical Damage Converted to Lightning Damage<br>Base duration is 12 seconds<br>Deals 2.9 Base Cold Damage per second<br>Always Freezes enemies<br>100% of Physical Damage Converted to Cold Damage<br>100% of Physical Damage Converted to Fire Damage<br>Causes 5 Bursts
  |level1                                  = True
  |level1_level_requirement                = 0
  }}

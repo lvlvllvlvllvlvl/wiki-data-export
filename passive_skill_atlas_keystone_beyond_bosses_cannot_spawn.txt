@@ -1,0 +1,16 @@
+{{Passive skill
+|id                                  = atlas_keystone_beyond_bosses_cannot_spawn
+|int_id                              = 58043
+|name                                = Endless Tide
+|flavour_text                        = You fight on, muscles burning, limbs leaden,
+hoping for that singular moment of victory that
+might finally bring relief... but it never comes.
+|is_keystone                         = True
+|is_atlas_passive                    = True
+|icon                                = EndlessTide (AtlasTrees)
+|stat1_id                            = map_beyond_bosses_cannot_spawn
+|stat1_value                         = 1
+|stat2_id                            = map_beyond_portal_search_radius_+%_final
+|stat2_value                         = -50
+|stat_text                           = Beyond Portals in your Maps cannot spawn Unique Bosses<br>Beyond Portals in your Maps have 50% less Merging Radius
+}}

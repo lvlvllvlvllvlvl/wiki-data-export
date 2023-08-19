@@ -1,6 +1,6 @@
 --- Skill:KaomVolcanoMortarElder
 +++ Export
-@@ -7,22 +7,22 @@
+@@ -7,23 +7,23 @@
  |static_damage_effectiveness             = 100
  |static_damage_multiplier                = 100
  |static_attack_speed_multiplier          = 100
@@ -24,14 +24,16 @@
 -|static_stat7_value                      = 1
 -|static_stat8_id                         = projectiles_not_offset
 -|static_stat8_value                      = 1
+-|stat_text                               = Deals 155 to 233 Fire Damage<br>50% reduced Skill Range
 +|static_stat5_id                         = projectiles_not_offset
 +|static_stat5_value                      = 1
-+|static_stat6_id                         = spell_minimum_base_fire_damage
-+|static_stat6_value                      = 155
-+|static_stat7_id                         = spell_maximum_base_fire_damage
-+|static_stat7_value                      = 233
-+|static_stat8_id                         = skill_range_+%
-+|static_stat8_value                      = -50
- |stat_text                               = Deals 155 to 233 Fire Damage<br>50% reduced Skill Range
++|static_stat6_id                         = skill_range_+%
++|static_stat6_value                      = -50
++|static_stat7_id                         = spell_minimum_base_fire_damage
++|static_stat7_value                      = 155
++|static_stat8_id                         = spell_maximum_base_fire_damage
++|static_stat8_value                      = 233
++|stat_text                               = 50% reduced Skill Range<br>Deals 155 to 233 Fire Damage
  |level1                                  = True
  |level1_level_requirement                = 38
+ }}

@@ -355,7 +355,7 @@ local data = {	{
 	{
 		id = "EinharMasterCraftMemoryLine7", 
 		header = 3, 
-		subheader = "Vaal Temple Map", 
+		subheader = "Synthesis Unique Map", 
 	},
 	{
 		id = "EinharMasterCraftMemoryLine8", 

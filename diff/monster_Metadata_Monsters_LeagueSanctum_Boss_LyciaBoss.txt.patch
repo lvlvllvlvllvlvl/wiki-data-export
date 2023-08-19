@@ -1,0 +1,20 @@
+--- Monster:Metadata/Monsters/LeagueSanctum/Boss/LyciaBoss
++++ Export
+@@ -2,7 +2,7 @@
+ |metadata_id                      = Metadata/Monsters/LeagueSanctum/Boss/LyciaBoss
+ |monster_type_id                  = SanctumLyciaBoss
+ |mod_ids                          = MonsterMapBoss, CannotBeSlowedBelowValueBosses, StunRepeatImmunityMapBossSuper
+-|tags                             = human, humanoid, not_int, red_blood, very_fast_movement
++|tags                             = human, humanoid, not_int, red_blood, sanctum_monster, very_fast_movement
+ |skill_ids                        = MeleeAtAnimationSpeedUniqueSanctum, EGSanctumLyciaActivateStatues, EAASanctumLyciaOverheadSlash, EAASanctumLyciaDoubleSpin, EAASanctumLyciaTeleportSlam, EASTrackingBeam, GASanctumLyciaOverheadSlashTriggered, GASanctumLyciaTeleportSlamImpact, GSSanctumLyciaTrackingBeamImpact, TBSanctumLyciaTrackingBeam, DTTSanctumLyciaDash, EAASanctumLyciaDash, GSSanctumLyciaTrackingBeamFinalImpact, EDSSanctumLyciaTeleportImpact, GASanctumLyciaDoubleSlashImpact, GASanctumLyciaDoubleSlashFinalImpact
+ |name                             = Lycia, Unholy Heretic
+ |size                             = 3
+@@ -11,7 +11,7 @@
+ |model_size_multiplier            = 1.15
+ |experience_multiplier            = 3.0
+ |damage_multiplier                = 1.05
+-|health_multiplier                = 8.4
++|health_multiplier                = 15.0
+ |critical_strike_chance           = 5.0
+ |attack_speed                     = 1.665
+ }}

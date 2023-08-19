@@ -1,11 +1,18 @@
 --- Area:MapWorldsDesertSpring
 +++ Export
-@@ -11,7 +11,7 @@
+@@ -4,14 +4,12 @@
+ |act                              = 11
+ |area_level                       = 80
+ |area_type_tags                   = urban
+-|tags                             = map, cannot_be_twinned, einharmaps, desert_area, god_boss_map_area, desert_map_area
++|tags                             = map, cannot_be_twinned, einharmaps, desert_area, god_boss_map_area, desert_map_area, sun_nature_area
+ |loading_screen                   = Maps
+ |parent_area_id                   = 2_11_endgame_town
+ |boss_monster_ids                 = Metadata/Monsters/Shakari/ShakariMap, Metadata/Monsters/Shakari/Shakari2Map
  |entry_text                       = As mirage becomes reality, hardship is briefly quenched.
  |entry_npc                        = The Shaper
  |is_map_area                      = True
 -|flavour_text                     = As mirage becomes reality,
-+|flavour_text                     = As mirage becomes reality,
- hardship is briefly quenched.
+-hardship is briefly quenched.
  |main_page                        = Desert Spring Map
  }}

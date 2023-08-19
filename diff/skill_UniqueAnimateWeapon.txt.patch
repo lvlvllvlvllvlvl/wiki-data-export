@@ -1,30 +1,34 @@
 --- Skill:UniqueAnimateWeapon
 +++ Export
-@@ -9,19 +9,19 @@
+@@ -9,19 +9,21 @@
  |static_damage_effectiveness             = 100
  |static_damage_multiplier                = 100
  |static_attack_speed_multiplier          = 100
 -|static_stat1_id                         = minion_grants_rampage_kill_to_parent_on_hitting_rare_or_unique_enemy_%
 -|static_stat1_value                      = 25
-+|static_stat1_id                         = disable_weapons
-+|static_stat1_value                      = 1
- |static_stat2_id                         = minion_movement_speed_+%
- |static_stat2_value                      = 30
- |static_stat3_id                         = chance_to_cast_on_rampage_tier_%
- |static_stat3_value                      = 100
+-|static_stat2_id                         = minion_movement_speed_+%
+-|static_stat2_value                      = 30
+-|static_stat3_id                         = chance_to_cast_on_rampage_tier_%
+-|static_stat3_value                      = 100
 -|static_stat4_id                         = attack_damage_+%
 -|static_stat4_value                      = 110
--|static_stat5_id                         = attack_speed_+%
--|static_stat5_value                      = 25
++|static_stat1_id                         = disable_weapons
++|static_stat1_value                      = 1
++|static_stat2_id                         = infinite_minion_duration
++|static_stat2_value                      = 1
++|static_stat3_id                         = minion_movement_speed_+%
++|static_stat3_value                      = 30
++|static_stat4_id                         = chance_to_cast_on_rampage_tier_%
++|static_stat4_value                      = 100
+ |static_stat5_id                         = attack_speed_+%
+ |static_stat5_value                      = 25
 -|static_stat6_id                         = disable_weapons
 -|static_stat6_value                      = 1
 -|stat_text                               = 25% chance to gain a Rampage Kill when Minions Hit a Rare or Unique Enemy<br>30% increased Minion Movement Speed<br>100% chance to Trigger this Spell when you Rampage<br>Minions deal 110% increased Attack Damage<br>Minions have 25% increased Attack Speed
-+|static_stat4_id                         = attack_speed_+%
-+|static_stat4_value                      = 25
-+|static_stat5_id                         = attack_damage_+%
-+|static_stat5_value                      = 110
-+|static_stat6_id                         = minion_grants_rampage_kill_to_parent_on_hitting_rare_or_unique_enemy_%
-+|static_stat6_value                      = 25
++|static_stat6_id                         = attack_damage_+%
++|static_stat6_value                      = 110
++|static_stat7_id                         = minion_grants_rampage_kill_to_parent_on_hitting_rare_or_unique_enemy_%
++|static_stat7_value                      = 25
 +|stat_text                               = 30% increased Minion Movement Speed<br>100% chance to Trigger this Spell when you Rampage<br>Minions have 25% increased Attack Speed<br>Minions deal 110% increased Attack Damage<br>25% chance to gain a Rampage Kill when Minions Hit a Rare or Unique Enemy
  |level1                                  = True
  |level1_level_requirement                = 1

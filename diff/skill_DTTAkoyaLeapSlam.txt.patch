@@ -1,0 +1,28 @@
+--- Skill:DTTAkoyaLeapSlam
++++ Export
+@@ -0,0 +1,25 @@
++{{Skill
++|gem_description                         = 
++|active_skill_name                       = 
++|skill_id                                = DTTAkoyaLeapSlam
++|cast_time                               = 1.0
++|required_level                          = 0
++|static_stored_uses                      = 1
++|static_cooldown                         = 6
++|static_damage_effectiveness             = 100
++|static_damage_multiplier                = 100
++|static_attack_speed_multiplier          = 100
++|static_stat1_id                         = action_attack_or_cast_time_uses_animation_length
++|static_stat1_value                      = 1
++|static_stat2_id                         = leap_slam_minimum_distance
++|static_stat2_value                      = 20
++|static_stat3_id                         = skill_maximum_travel_distance
++|static_stat3_value                      = 80
++|static_stat4_id                         = spell_maximum_action_distance_+%
++|static_stat4_value                      = -40
++|static_stat5_id                         = walk_emerge_extra_distance
++|static_stat5_value                      = -15
++|stat_text                               = 
++|level1                                  = True
++|level1_level_requirement                = 0
++}}

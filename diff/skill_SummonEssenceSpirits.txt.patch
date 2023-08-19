@@ -1,6 +1,6 @@
 --- Skill:SummonEssenceSpirits
 +++ Export
-@@ -7,23 +7,23 @@
+@@ -7,23 +7,25 @@
  |static_damage_effectiveness             = 100
  |static_damage_multiplier                = 100
  |static_attack_speed_multiplier          = 100
@@ -9,28 +9,32 @@
 -|static_stat2_id                         = active_skill_minion_added_damage_+%_final
 -|static_stat2_value                      = -15
 -|static_stat3_id                         = cast_on_gain_skill
-+|static_stat1_id                         = minion_dies_when_parent_dies
+-|static_stat3_value                      = 1
+-|static_stat4_id                         = spell_uncastable_if_triggerable
++|static_stat1_id                         = infinite_minion_duration
 +|static_stat1_value                      = 1
-+|static_stat2_id                         = number_of_monsters_to_summon
-+|static_stat2_value                      = 3
-+|static_stat3_id                         = take_no_actions_while_parent_dead
- |static_stat3_value                      = 1
- |static_stat4_id                         = spell_uncastable_if_triggerable
++|static_stat2_id                         = minion_dies_when_parent_dies
++|static_stat2_value                      = 1
++|static_stat3_id                         = number_of_monsters_to_summon
++|static_stat3_value                      = 3
++|static_stat4_id                         = take_no_actions_while_parent_dead
  |static_stat4_value                      = 1
 -|static_stat5_id                         = minions_cannot_taunt_enemies
-+|static_stat5_id                         = cast_on_gain_skill
++|static_stat5_id                         = spell_uncastable_if_triggerable
  |static_stat5_value                      = 1
 -|static_stat6_id                         = no_cost
--|static_stat6_value                      = 1
++|static_stat6_id                         = cast_on_gain_skill
+ |static_stat6_value                      = 1
 -|static_stat7_id                         = take_no_actions_while_parent_dead
-+|static_stat6_id                         = active_skill_minion_added_damage_+%_final
-+|static_stat6_value                      = -15
-+|static_stat7_id                         = no_cost
- |static_stat7_value                      = 1
+-|static_stat7_value                      = 1
 -|static_stat8_id                         = minion_dies_when_parent_dies
-+|static_stat8_id                         = minions_cannot_taunt_enemies
++|static_stat7_id                         = active_skill_minion_added_damage_+%_final
++|static_stat7_value                      = -15
++|static_stat8_id                         = no_cost
  |static_stat8_value                      = 1
 -|stat_text                               = Minions gain 15% less Added Damage<br>This Spell is Triggered when Gained<br>You cannot Cast this Spell directly<br>Minions cannot Taunt Enemies<br>This Skill Costs nothing
++|static_stat9_id                         = minions_cannot_taunt_enemies
++|static_stat9_value                      = 1
 +|stat_text                               = You cannot Cast this Spell directly<br>This Spell is Triggered when Gained<br>Minions gain 15% less Added Damage<br>This Skill Costs nothing<br>Minions cannot Taunt Enemies
  |level1                                  = True
  |level1_level_requirement                = 1

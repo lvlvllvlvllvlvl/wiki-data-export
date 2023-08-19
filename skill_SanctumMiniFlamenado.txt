@@ -18,17 +18,17 @@
 |static_stat4_value                      = 1
 |static_stat5_id                         = skill_visual_scale_+%
 |static_stat5_value                      = -50
-|static_stat6_id                         = spell_minimum_base_fire_damage
-|static_stat6_value                      = 1
-|static_stat7_id                         = spell_maximum_base_fire_damage
+|static_stat6_id                         = base_skill_effect_duration
+|static_stat6_value                      = 3000
+|static_stat7_id                         = spell_minimum_base_fire_damage
 |static_stat7_value                      = 1
-|static_stat8_id                         = base_skill_effect_duration
-|static_stat8_value                      = 3000
+|static_stat8_id                         = spell_maximum_base_fire_damage
+|static_stat8_value                      = 1
 |static_stat9_id                         = base_projectile_speed_+%
 |static_stat9_value                      = -60
 |static_stat10_id                        = number_of_additional_projectiles
 |static_stat10_value                     = 10
-|stat_text                               = Deals 1 to 1 Fire Damage<br>Base duration is 3 seconds<br>60% reduced Projectile Speed<br>Fires 10 additional Projectiles
+|stat_text                               = Base duration is 3 seconds<br>Deals 1 to 1 Fire Damage<br>60% reduced Projectile Speed<br>Fires 10 additional Projectiles
 |level1                                  = True
 |level1_level_requirement                = 1
 }}

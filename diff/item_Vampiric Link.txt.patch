@@ -1,0 +1,20 @@
+--- Vampiric Link
++++ Export
+@@ -32,14 +32,12 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_deal_no_damage
++|static_stat1_id                         = skill_cost_over_time_is_not_removed_with_skill
+ |static_stat1_value                      = 1
+-|static_stat2_id                         = skill_cost_over_time_is_not_removed_with_skill
++|static_stat2_id                         = life_leech_is_applied_to_remora_link_targets_instead
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = life_leech_is_applied_to_remora_link_targets_instead
++|static_stat3_id                         = display_link_stuff
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = display_link_stuff
+-|static_stat4_value                      = 1
+ |stat_text                               = Base duration is (8-9.9) seconds<br>Life Leech effects are not removed at Full Life<br>Life Leech effects apply Recovery Linked Target instead of you<br>Linked target's Maximum total Life Recovery per second from Leech is equal to yours<br>Buff grants +(2-5.8)% to Maximum total Life Recovery per second from Leech<br>Link breaks if target leaves range or line of sight for 4 seconds<br>Maximum 1 Link from any source per target<br>You die if Linked target dies
+ |level1                                  = True
+ |level1_level_requirement                = 34

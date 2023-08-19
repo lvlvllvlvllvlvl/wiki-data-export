@@ -1,6 +1,36 @@
 --- Module:Data tables/Monster stats
 +++ Export
-@@ -109,20 +109,32 @@
+@@ -36,27 +36,9 @@
+ 	},
+ 	{
+ 		name = "Monster", 
+-		id = "base_maximum_fire_damage_resistance_%", 
++		id = "base_maximum_all_resistances_%", 
+ 		value = 75, 
+-		stat_text = "+75% to maximum [[Fire Resistance]]", 
+-	},
+-	{
+-		name = "Monster", 
+-		id = "base_maximum_cold_damage_resistance_%", 
+-		value = 75, 
+-		stat_text = "+75% to maximum [[Cold Resistance]]", 
+-	},
+-	{
+-		name = "Monster", 
+-		id = "base_maximum_lightning_damage_resistance_%", 
+-		value = 75, 
+-		stat_text = "+75% to maximum [[Lightning Resistance]]", 
+-	},
+-	{
+-		name = "Monster", 
+-		id = "base_maximum_chaos_damage_resistance_%", 
+-		value = 75, 
+-		stat_text = "+75% to maximum [[Chaos Resistance]]", 
++		stat_text = "", 
+ 	},
+ 	{
+ 		name = "Monster", 
+@@ -109,20 +91,32 @@
  	{
  		name = "Monster", 
  		id = "base_attack_speed_+%_per_frenzy_charge", 
@@ -42,7 +72,7 @@
  	},
  	{
  		name = "Monster", 
-@@ -133,20 +145,38 @@
+@@ -133,20 +127,38 @@
  	{
  		name = "Monster", 
  		id = "physical_damage_reduction_%_per_endurance_charge", 

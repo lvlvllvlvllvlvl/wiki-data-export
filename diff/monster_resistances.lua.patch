@@ -1,0 +1,24 @@
+--- Module:Monster/monster resistances
++++ Export
+@@ -341,6 +341,21 @@
+ 		maps_fire = 52, 
+ 		maps_cold = 52, 
+ 		maps_lightning = 0, 
++		maps_chaos = 0, 
++	},
++	{
++		id = "ColdLightning2", 
++		part1_fire = 0, 
++		part1_cold = 15, 
++		part1_lightning = 15, 
++		part1_chaos = 0, 
++		part2_fire = 0, 
++		part2_cold = 34, 
++		part2_lightning = 34, 
++		part2_chaos = 0, 
++		maps_fire = 0, 
++		maps_cold = 52, 
++		maps_lightning = 52, 
+ 		maps_chaos = 0, 
+ 	},
+ 	{

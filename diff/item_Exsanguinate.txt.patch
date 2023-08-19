@@ -1,0 +1,367 @@
+--- Exsanguinate
++++ Export
+@@ -40,11 +40,11 @@
+ |static_stat2_value                      = 1
+ |static_stat3_id                         = quality_display_exsanguinate_beam_targets_is_gem
+ |static_stat3_value                      = 1
+-|stat_text                               = Deals (17-1193) to (25-1789) Physical Damage<br>Deals (23.4-1121) Base Physical Damage per second<br>Base duration is 1 seconds<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>Fires tendrils at up to +(7-9) Targets<br>Fires tendrils at up to 0 Targets
++|stat_text                               = Deals (17-1193) to (25-1789) Physical Damage<br>Deals (23.4-1121) Base Physical Damage per second<br>Base duration is 1 seconds<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>Fires tendrils at up to (7-9) Targets
+ |level1                                  = True
+ |level1_level_requirement                = 12
+ |level1_cost_amounts                     = 16
+-|level1_stat_text                        = Deals 17 to 25 Physical Damage<br>Deals 23.4 Base Physical Damage per second<br>Fires tendrils at up to +7 Targets
++|level1_stat_text                        = Deals 17 to 25 Physical Damage<br>Deals 23.4 Base Physical Damage per second<br>Fires tendrils at up to 7 Targets
+ |level1_stat1_id                         = spell_minimum_base_physical_damage
+ |level1_stat1_value                      = 17
+ |level1_stat2_id                         = spell_maximum_base_physical_damage
+@@ -56,7 +56,7 @@
+ |level2                                  = True
+ |level2_level_requirement                = 15
+ |level2_cost_amounts                     = 18
+-|level2_stat_text                        = Deals 22 to 33 Physical Damage<br>Deals 30.4 Base Physical Damage per second<br>Fires tendrils at up to +7 Targets
++|level2_stat_text                        = Deals 22 to 33 Physical Damage<br>Deals 30.4 Base Physical Damage per second<br>Fires tendrils at up to 7 Targets
+ |level2_stat1_id                         = spell_minimum_base_physical_damage
+ |level2_stat1_value                      = 22
+ |level2_stat2_id                         = spell_maximum_base_physical_damage
+@@ -68,7 +68,7 @@
+ |level3                                  = True
+ |level3_level_requirement                = 19
+ |level3_cost_amounts                     = 21
+-|level3_stat_text                        = Deals 32 to 47 Physical Damage<br>Deals 42.2 Base Physical Damage per second<br>Fires tendrils at up to +7 Targets
++|level3_stat_text                        = Deals 32 to 47 Physical Damage<br>Deals 42.2 Base Physical Damage per second<br>Fires tendrils at up to 7 Targets
+ |level3_stat1_id                         = spell_minimum_base_physical_damage
+ |level3_stat1_value                      = 32
+ |level3_stat2_id                         = spell_maximum_base_physical_damage
+@@ -80,7 +80,7 @@
+ |level4                                  = True
+ |level4_level_requirement                = 23
+ |level4_cost_amounts                     = 23
+-|level4_stat_text                        = Deals 44 to 66 Physical Damage<br>Deals 57.4 Base Physical Damage per second<br>Fires tendrils at up to +7 Targets
++|level4_stat_text                        = Deals 44 to 66 Physical Damage<br>Deals 57.4 Base Physical Damage per second<br>Fires tendrils at up to 7 Targets
+ |level4_stat1_id                         = spell_minimum_base_physical_damage
+ |level4_stat1_value                      = 44
+ |level4_stat2_id                         = spell_maximum_base_physical_damage
+@@ -92,7 +92,7 @@
+ |level5                                  = True
+ |level5_level_requirement                = 27
+ |level5_cost_amounts                     = 25
+-|level5_stat_text                        = Deals 61 to 91 Physical Damage<br>Deals 76.9 Base Physical Damage per second<br>Fires tendrils at up to +7 Targets
++|level5_stat_text                        = Deals 61 to 91 Physical Damage<br>Deals 76.9 Base Physical Damage per second<br>Fires tendrils at up to 7 Targets
+ |level5_stat1_id                         = spell_minimum_base_physical_damage
+ |level5_stat1_value                      = 61
+ |level5_stat2_id                         = spell_maximum_base_physical_damage
+@@ -104,7 +104,7 @@
+ |level6                                  = True
+ |level6_level_requirement                = 31
+ |level6_cost_amounts                     = 26
+-|level6_stat_text                        = Deals 83 to 124 Physical Damage<br>Deals 101.8 Base Physical Damage per second<br>Fires tendrils at up to +7 Targets
++|level6_stat_text                        = Deals 83 to 124 Physical Damage<br>Deals 101.8 Base Physical Damage per second<br>Fires tendrils at up to 7 Targets
+ |level6_stat1_id                         = spell_minimum_base_physical_damage
+ |level6_stat1_value                      = 83
+ |level6_stat2_id                         = spell_maximum_base_physical_damage
+@@ -116,7 +116,7 @@
+ |level7                                  = True
+ |level7_level_requirement                = 35
+ |level7_cost_amounts                     = 28
+-|level7_stat_text                        = Deals 112 to 168 Physical Damage<br>Deals 133.5 Base Physical Damage per second<br>Fires tendrils at up to +7 Targets
++|level7_stat_text                        = Deals 112 to 168 Physical Damage<br>Deals 133.5 Base Physical Damage per second<br>Fires tendrils at up to 7 Targets
+ |level7_stat1_id                         = spell_minimum_base_physical_damage
+ |level7_stat1_value                      = 112
+ |level7_stat2_id                         = spell_maximum_base_physical_damage
+@@ -128,7 +128,7 @@
+ |level8                                  = True
+ |level8_level_requirement                = 38
+ |level8_cost_amounts                     = 30
+-|level8_stat_text                        = Deals 139 to 208 Physical Damage<br>Deals 162.7 Base Physical Damage per second<br>Fires tendrils at up to +8 Targets
++|level8_stat_text                        = Deals 139 to 208 Physical Damage<br>Deals 162.7 Base Physical Damage per second<br>Fires tendrils at up to 8 Targets
+ |level8_stat1_id                         = spell_minimum_base_physical_damage
+ |level8_stat1_value                      = 139
+ |level8_stat2_id                         = spell_maximum_base_physical_damage
+@@ -140,7 +140,7 @@
+ |level9                                  = True
+ |level9_level_requirement                = 41
+ |level9_cost_amounts                     = 32
+-|level9_stat_text                        = Deals 172 to 258 Physical Damage<br>Deals 197.4 Base Physical Damage per second<br>Fires tendrils at up to +8 Targets
++|level9_stat_text                        = Deals 172 to 258 Physical Damage<br>Deals 197.4 Base Physical Damage per second<br>Fires tendrils at up to 8 Targets
+ |level9_stat1_id                         = spell_minimum_base_physical_damage
+ |level9_stat1_value                      = 172
+ |level9_stat2_id                         = spell_maximum_base_physical_damage
+@@ -152,7 +152,7 @@
+ |level10                                 = True
+ |level10_level_requirement               = 44
+ |level10_cost_amounts                    = 33
+-|level10_stat_text                       = Deals 213 to 319 Physical Damage<br>Deals 238.8 Base Physical Damage per second<br>Fires tendrils at up to +8 Targets
++|level10_stat_text                       = Deals 213 to 319 Physical Damage<br>Deals 238.8 Base Physical Damage per second<br>Fires tendrils at up to 8 Targets
+ |level10_stat1_id                        = spell_minimum_base_physical_damage
+ |level10_stat1_value                     = 213
+ |level10_stat2_id                        = spell_maximum_base_physical_damage
+@@ -164,7 +164,7 @@
+ |level11                                 = True
+ |level11_level_requirement               = 47
+ |level11_cost_amounts                    = 34
+-|level11_stat_text                       = Deals 262 to 393 Physical Damage<br>Deals 288 Base Physical Damage per second<br>Fires tendrils at up to +8 Targets
++|level11_stat_text                       = Deals 262 to 393 Physical Damage<br>Deals 288 Base Physical Damage per second<br>Fires tendrils at up to 8 Targets
+ |level11_stat1_id                        = spell_minimum_base_physical_damage
+ |level11_stat1_value                     = 262
+ |level11_stat2_id                        = spell_maximum_base_physical_damage
+@@ -176,7 +176,7 @@
+ |level12                                 = True
+ |level12_level_requirement               = 50
+ |level12_cost_amounts                    = 35
+-|level12_stat_text                       = Deals 321 to 482 Physical Damage<br>Deals 346.3 Base Physical Damage per second<br>Fires tendrils at up to +8 Targets
++|level12_stat_text                       = Deals 321 to 482 Physical Damage<br>Deals 346.3 Base Physical Damage per second<br>Fires tendrils at up to 8 Targets
+ |level12_stat1_id                        = spell_minimum_base_physical_damage
+ |level12_stat1_value                     = 321
+ |level12_stat2_id                        = spell_maximum_base_physical_damage
+@@ -188,7 +188,7 @@
+ |level13                                 = True
+ |level13_level_requirement               = 53
+ |level13_cost_amounts                    = 37
+-|level13_stat_text                       = Deals 393 to 590 Physical Damage<br>Deals 415.4 Base Physical Damage per second<br>Fires tendrils at up to +8 Targets
++|level13_stat_text                       = Deals 393 to 590 Physical Damage<br>Deals 415.4 Base Physical Damage per second<br>Fires tendrils at up to 8 Targets
+ |level13_stat1_id                        = spell_minimum_base_physical_damage
+ |level13_stat1_value                     = 393
+ |level13_stat2_id                        = spell_maximum_base_physical_damage
+@@ -200,7 +200,7 @@
+ |level14                                 = True
+ |level14_level_requirement               = 56
+ |level14_cost_amounts                    = 39
+-|level14_stat_text                       = Deals 481 to 721 Physical Damage<br>Deals 497.1 Base Physical Damage per second<br>Fires tendrils at up to +8 Targets
++|level14_stat_text                       = Deals 481 to 721 Physical Damage<br>Deals 497.1 Base Physical Damage per second<br>Fires tendrils at up to 8 Targets
+ |level14_stat1_id                        = spell_minimum_base_physical_damage
+ |level14_stat1_value                     = 481
+ |level14_stat2_id                        = spell_maximum_base_physical_damage
+@@ -212,7 +212,7 @@
+ |level15                                 = True
+ |level15_level_requirement               = 59
+ |level15_cost_amounts                    = 40
+-|level15_stat_text                       = Deals 586 to 879 Physical Damage<br>Deals 593.7 Base Physical Damage per second<br>Fires tendrils at up to +9 Targets
++|level15_stat_text                       = Deals 586 to 879 Physical Damage<br>Deals 593.7 Base Physical Damage per second<br>Fires tendrils at up to 9 Targets
+ |level15_stat1_id                        = spell_minimum_base_physical_damage
+ |level15_stat1_value                     = 586
+ |level15_stat2_id                        = spell_maximum_base_physical_damage
+@@ -224,7 +224,7 @@
+ |level16                                 = True
+ |level16_level_requirement               = 62
+ |level16_cost_amounts                    = 42
+-|level16_stat_text                       = Deals 713 to 1069 Physical Damage<br>Deals 707.6 Base Physical Damage per second<br>Fires tendrils at up to +9 Targets
++|level16_stat_text                       = Deals 713 to 1069 Physical Damage<br>Deals 707.6 Base Physical Damage per second<br>Fires tendrils at up to 9 Targets
+ |level16_stat1_id                        = spell_minimum_base_physical_damage
+ |level16_stat1_value                     = 713
+ |level16_stat2_id                        = spell_maximum_base_physical_damage
+@@ -236,7 +236,7 @@
+ |level17                                 = True
+ |level17_level_requirement               = 64
+ |level17_cost_amounts                    = 43
+-|level17_stat_text                       = Deals 812 to 1217 Physical Damage<br>Deals 794.7 Base Physical Damage per second<br>Fires tendrils at up to +9 Targets
++|level17_stat_text                       = Deals 812 to 1217 Physical Damage<br>Deals 794.7 Base Physical Damage per second<br>Fires tendrils at up to 9 Targets
+ |level17_stat1_id                        = spell_minimum_base_physical_damage
+ |level17_stat1_value                     = 812
+ |level17_stat2_id                        = spell_maximum_base_physical_damage
+@@ -248,7 +248,7 @@
+ |level18                                 = True
+ |level18_level_requirement               = 66
+ |level18_cost_amounts                    = 44
+-|level18_stat_text                       = Deals 923 to 1385 Physical Damage<br>Deals 891.9 Base Physical Damage per second<br>Fires tendrils at up to +9 Targets
++|level18_stat_text                       = Deals 923 to 1385 Physical Damage<br>Deals 891.9 Base Physical Damage per second<br>Fires tendrils at up to 9 Targets
+ |level18_stat1_id                        = spell_minimum_base_physical_damage
+ |level18_stat1_value                     = 923
+ |level18_stat2_id                        = spell_maximum_base_physical_damage
+@@ -260,7 +260,7 @@
+ |level19                                 = True
+ |level19_level_requirement               = 68
+ |level19_cost_amounts                    = 45
+-|level19_stat_text                       = Deals 1050 to 1575 Physical Damage<br>Deals 1000.2 Base Physical Damage per second<br>Fires tendrils at up to +9 Targets
++|level19_stat_text                       = Deals 1050 to 1575 Physical Damage<br>Deals 1000.2 Base Physical Damage per second<br>Fires tendrils at up to 9 Targets
+ |level19_stat1_id                        = spell_minimum_base_physical_damage
+ |level19_stat1_value                     = 1050
+ |level19_stat2_id                        = spell_maximum_base_physical_damage
+@@ -272,7 +272,7 @@
+ |level20                                 = True
+ |level20_level_requirement               = 70
+ |level20_cost_amounts                    = 46
+-|level20_stat_text                       = Deals 1193 to 1789 Physical Damage<br>Deals 1121 Base Physical Damage per second<br>Fires tendrils at up to +9 Targets
++|level20_stat_text                       = Deals 1193 to 1789 Physical Damage<br>Deals 1121 Base Physical Damage per second<br>Fires tendrils at up to 9 Targets
+ |level20_stat1_id                        = spell_minimum_base_physical_damage
+ |level20_stat1_value                     = 1193
+ |level20_stat2_id                        = spell_maximum_base_physical_damage
+@@ -284,7 +284,7 @@
+ |level21                                 = True
+ |level21_level_requirement               = 72
+ |level21_cost_amounts                    = 47
+-|level21_stat_text                       = Deals 1355 to 2032 Physical Damage<br>Deals 1255.6 Base Physical Damage per second<br>Fires tendrils at up to +9 Targets
++|level21_stat_text                       = Deals 1355 to 2032 Physical Damage<br>Deals 1255.6 Base Physical Damage per second<br>Fires tendrils at up to 9 Targets
+ |level21_stat1_id                        = spell_minimum_base_physical_damage
+ |level21_stat1_value                     = 1355
+ |level21_stat2_id                        = spell_maximum_base_physical_damage
+@@ -296,7 +296,7 @@
+ |level22                                 = True
+ |level22_level_requirement               = 74
+ |level22_cost_amounts                    = 48
+-|level22_stat_text                       = Deals 1537 to 2306 Physical Damage<br>Deals 1405.5 Base Physical Damage per second<br>Fires tendrils at up to +10 Targets
++|level22_stat_text                       = Deals 1537 to 2306 Physical Damage<br>Deals 1405.5 Base Physical Damage per second<br>Fires tendrils at up to 10 Targets
+ |level22_stat1_id                        = spell_minimum_base_physical_damage
+ |level22_stat1_value                     = 1537
+ |level22_stat2_id                        = spell_maximum_base_physical_damage
+@@ -308,7 +308,7 @@
+ |level23                                 = True
+ |level23_level_requirement               = 76
+ |level23_cost_amounts                    = 49
+-|level23_stat_text                       = Deals 1744 to 2615 Physical Damage<br>Deals 1572.4 Base Physical Damage per second<br>Fires tendrils at up to +10 Targets
++|level23_stat_text                       = Deals 1744 to 2615 Physical Damage<br>Deals 1572.4 Base Physical Damage per second<br>Fires tendrils at up to 10 Targets
+ |level23_stat1_id                        = spell_minimum_base_physical_damage
+ |level23_stat1_value                     = 1744
+ |level23_stat2_id                        = spell_maximum_base_physical_damage
+@@ -320,7 +320,7 @@
+ |level24                                 = True
+ |level24_level_requirement               = 78
+ |level24_cost_amounts                    = 50
+-|level24_stat_text                       = Deals 1977 to 2965 Physical Damage<br>Deals 1758.1 Base Physical Damage per second<br>Fires tendrils at up to +10 Targets
++|level24_stat_text                       = Deals 1977 to 2965 Physical Damage<br>Deals 1758.1 Base Physical Damage per second<br>Fires tendrils at up to 10 Targets
+ |level24_stat1_id                        = spell_minimum_base_physical_damage
+ |level24_stat1_value                     = 1977
+ |level24_stat2_id                        = spell_maximum_base_physical_damage
+@@ -332,7 +332,7 @@
+ |level25                                 = True
+ |level25_level_requirement               = 80
+ |level25_cost_amounts                    = 51
+-|level25_stat_text                       = Deals 2239 to 3359 Physical Damage<br>Deals 1964.8 Base Physical Damage per second<br>Fires tendrils at up to +10 Targets
++|level25_stat_text                       = Deals 2239 to 3359 Physical Damage<br>Deals 1964.8 Base Physical Damage per second<br>Fires tendrils at up to 10 Targets
+ |level25_stat1_id                        = spell_minimum_base_physical_damage
+ |level25_stat1_value                     = 2239
+ |level25_stat2_id                        = spell_maximum_base_physical_damage
+@@ -344,7 +344,7 @@
+ |level26                                 = True
+ |level26_level_requirement               = 82
+ |level26_cost_amounts                    = 52
+-|level26_stat_text                       = Deals 2536 to 3804 Physical Damage<br>Deals 2194.6 Base Physical Damage per second<br>Fires tendrils at up to +10 Targets
++|level26_stat_text                       = Deals 2536 to 3804 Physical Damage<br>Deals 2194.6 Base Physical Damage per second<br>Fires tendrils at up to 10 Targets
+ |level26_stat1_id                        = spell_minimum_base_physical_damage
+ |level26_stat1_value                     = 2536
+ |level26_stat2_id                        = spell_maximum_base_physical_damage
+@@ -356,7 +356,7 @@
+ |level27                                 = True
+ |level27_level_requirement               = 84
+ |level27_cost_amounts                    = 53
+-|level27_stat_text                       = Deals 2870 to 4306 Physical Damage<br>Deals 2450.3 Base Physical Damage per second<br>Fires tendrils at up to +10 Targets
++|level27_stat_text                       = Deals 2870 to 4306 Physical Damage<br>Deals 2450.3 Base Physical Damage per second<br>Fires tendrils at up to 10 Targets
+ |level27_stat1_id                        = spell_minimum_base_physical_damage
+ |level27_stat1_value                     = 2870
+ |level27_stat2_id                        = spell_maximum_base_physical_damage
+@@ -368,7 +368,7 @@
+ |level28                                 = True
+ |level28_level_requirement               = 86
+ |level28_cost_amounts                    = 54
+-|level28_stat_text                       = Deals 3248 to 4871 Physical Damage<br>Deals 2734.3 Base Physical Damage per second<br>Fires tendrils at up to +10 Targets
++|level28_stat_text                       = Deals 3248 to 4871 Physical Damage<br>Deals 2734.3 Base Physical Damage per second<br>Fires tendrils at up to 10 Targets
+ |level28_stat1_id                        = spell_minimum_base_physical_damage
+ |level28_stat1_value                     = 3248
+ |level28_stat2_id                        = spell_maximum_base_physical_damage
+@@ -380,7 +380,7 @@
+ |level29                                 = True
+ |level29_level_requirement               = 88
+ |level29_cost_amounts                    = 55
+-|level29_stat_text                       = Deals 3673 to 5509 Physical Damage<br>Deals 3050.1 Base Physical Damage per second<br>Fires tendrils at up to +11 Targets
++|level29_stat_text                       = Deals 3673 to 5509 Physical Damage<br>Deals 3050.1 Base Physical Damage per second<br>Fires tendrils at up to 11 Targets
+ |level29_stat1_id                        = spell_minimum_base_physical_damage
+ |level29_stat1_value                     = 3673
+ |level29_stat2_id                        = spell_maximum_base_physical_damage
+@@ -392,7 +392,7 @@
+ |level30                                 = True
+ |level30_level_requirement               = 90
+ |level30_cost_amounts                    = 56
+-|level30_stat_text                       = Deals 4152 to 6227 Physical Damage<br>Deals 3400.9 Base Physical Damage per second<br>Fires tendrils at up to +11 Targets
++|level30_stat_text                       = Deals 4152 to 6227 Physical Damage<br>Deals 3400.9 Base Physical Damage per second<br>Fires tendrils at up to 11 Targets
+ |level30_stat1_id                        = spell_minimum_base_physical_damage
+ |level30_stat1_value                     = 4152
+ |level30_stat2_id                        = spell_maximum_base_physical_damage
+@@ -404,7 +404,7 @@
+ |level31                                 = True
+ |level31_level_requirement               = 91
+ |level31_cost_amounts                    = 57
+-|level31_stat_text                       = Deals 4413 to 6620 Physical Damage<br>Deals 3590.5 Base Physical Damage per second<br>Fires tendrils at up to +11 Targets
++|level31_stat_text                       = Deals 4413 to 6620 Physical Damage<br>Deals 3590.5 Base Physical Damage per second<br>Fires tendrils at up to 11 Targets
+ |level31_stat1_id                        = spell_minimum_base_physical_damage
+ |level31_stat1_value                     = 4413
+ |level31_stat2_id                        = spell_maximum_base_physical_damage
+@@ -416,7 +416,7 @@
+ |level32                                 = True
+ |level32_level_requirement               = 92
+ |level32_cost_amounts                    = 58
+-|level32_stat_text                       = Deals 4691 to 7037 Physical Damage<br>Deals 3790.4 Base Physical Damage per second<br>Fires tendrils at up to +11 Targets
++|level32_stat_text                       = Deals 4691 to 7037 Physical Damage<br>Deals 3790.4 Base Physical Damage per second<br>Fires tendrils at up to 11 Targets
+ |level32_stat1_id                        = spell_minimum_base_physical_damage
+ |level32_stat1_value                     = 4691
+ |level32_stat2_id                        = spell_maximum_base_physical_damage
+@@ -428,7 +428,7 @@
+ |level33                                 = True
+ |level33_level_requirement               = 93
+ |level33_cost_amounts                    = 58
+-|level33_stat_text                       = Deals 4986 to 7479 Physical Damage<br>Deals 4001.1 Base Physical Damage per second<br>Fires tendrils at up to +11 Targets
++|level33_stat_text                       = Deals 4986 to 7479 Physical Damage<br>Deals 4001.1 Base Physical Damage per second<br>Fires tendrils at up to 11 Targets
+ |level33_stat1_id                        = spell_minimum_base_physical_damage
+ |level33_stat1_value                     = 4986
+ |level33_stat2_id                        = spell_maximum_base_physical_damage
+@@ -440,7 +440,7 @@
+ |level34                                 = True
+ |level34_level_requirement               = 94
+ |level34_cost_amounts                    = 59
+-|level34_stat_text                       = Deals 5299 to 7948 Physical Damage<br>Deals 4223.1 Base Physical Damage per second<br>Fires tendrils at up to +11 Targets
++|level34_stat_text                       = Deals 5299 to 7948 Physical Damage<br>Deals 4223.1 Base Physical Damage per second<br>Fires tendrils at up to 11 Targets
+ |level34_stat1_id                        = spell_minimum_base_physical_damage
+ |level34_stat1_value                     = 5299
+ |level34_stat2_id                        = spell_maximum_base_physical_damage
+@@ -452,7 +452,7 @@
+ |level35                                 = True
+ |level35_level_requirement               = 95
+ |level35_cost_amounts                    = 59
+-|level35_stat_text                       = Deals 5631 to 8446 Physical Damage<br>Deals 4456.9 Base Physical Damage per second<br>Fires tendrils at up to +11 Targets
++|level35_stat_text                       = Deals 5631 to 8446 Physical Damage<br>Deals 4456.9 Base Physical Damage per second<br>Fires tendrils at up to 11 Targets
+ |level35_stat1_id                        = spell_minimum_base_physical_damage
+ |level35_stat1_value                     = 5631
+ |level35_stat2_id                        = spell_maximum_base_physical_damage
+@@ -464,7 +464,7 @@
+ |level36                                 = True
+ |level36_level_requirement               = 96
+ |level36_cost_amounts                    = 60
+-|level36_stat_text                       = Deals 5983 to 8974 Physical Damage<br>Deals 4703.2 Base Physical Damage per second<br>Fires tendrils at up to +11 Targets
++|level36_stat_text                       = Deals 5983 to 8974 Physical Damage<br>Deals 4703.2 Base Physical Damage per second<br>Fires tendrils at up to 11 Targets
+ |level36_stat1_id                        = spell_minimum_base_physical_damage
+ |level36_stat1_value                     = 5983
+ |level36_stat2_id                        = spell_maximum_base_physical_damage
+@@ -476,7 +476,7 @@
+ |level37                                 = True
+ |level37_level_requirement               = 97
+ |level37_cost_amounts                    = 60
+-|level37_stat_text                       = Deals 6357 to 9535 Physical Damage<br>Deals 4962.8 Base Physical Damage per second<br>Fires tendrils at up to +11 Targets
++|level37_stat_text                       = Deals 6357 to 9535 Physical Damage<br>Deals 4962.8 Base Physical Damage per second<br>Fires tendrils at up to 11 Targets
+ |level37_stat1_id                        = spell_minimum_base_physical_damage
+ |level37_stat1_value                     = 6357
+ |level37_stat2_id                        = spell_maximum_base_physical_damage
+@@ -488,7 +488,7 @@
+ |level38                                 = True
+ |level38_level_requirement               = 98
+ |level38_cost_amounts                    = 60
+-|level38_stat_text                       = Deals 6753 to 10129 Physical Damage<br>Deals 5236.1 Base Physical Damage per second<br>Fires tendrils at up to +11 Targets
++|level38_stat_text                       = Deals 6753 to 10129 Physical Damage<br>Deals 5236.1 Base Physical Damage per second<br>Fires tendrils at up to 11 Targets
+ |level38_stat1_id                        = spell_minimum_base_physical_damage
+ |level38_stat1_value                     = 6753
+ |level38_stat2_id                        = spell_maximum_base_physical_damage
+@@ -500,7 +500,7 @@
+ |level39                                 = True
+ |level39_level_requirement               = 99
+ |level39_cost_amounts                    = 61
+-|level39_stat_text                       = Deals 7173 to 10760 Physical Damage<br>Deals 5524 Base Physical Damage per second<br>Fires tendrils at up to +11 Targets
++|level39_stat_text                       = Deals 7173 to 10760 Physical Damage<br>Deals 5524 Base Physical Damage per second<br>Fires tendrils at up to 11 Targets
+ |level39_stat1_id                        = spell_minimum_base_physical_damage
+ |level39_stat1_value                     = 7173
+ |level39_stat2_id                        = spell_maximum_base_physical_damage
+@@ -512,7 +512,7 @@
+ |level40                                 = True
+ |level40_level_requirement               = 100
+ |level40_cost_amounts                    = 61
+-|level40_stat_text                       = Deals 7619 to 11429 Physical Damage<br>Deals 5827.5 Base Physical Damage per second<br>Fires tendrils at up to +11 Targets
++|level40_stat_text                       = Deals 7619 to 11429 Physical Damage<br>Deals 5827.5 Base Physical Damage per second<br>Fires tendrils at up to 11 Targets
+ |level40_stat1_id                        = spell_minimum_base_physical_damage
+ |level40_stat1_value                     = 7619
+ |level40_stat2_id                        = spell_maximum_base_physical_damage

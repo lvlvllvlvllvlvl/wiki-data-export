@@ -1,15 +1,129 @@
 --- Module:Pantheon/pantheon souls
 +++ Export
-@@ -76,7 +76,7 @@
+@@ -16,10 +16,10 @@
+ 	{
+ 		id = "TheBrineKing", 
+ 		ordinal = 3, 
+-		name = "Captain Tanner Lightfoot", 
++		name = "Fragment of Winter", 
+ 		stat_text = "100% chance to Avoid being [[Freeze|Frozen]]", 
+-		target_area_id = "MapWorldsCoralRuins", 
+-		target_monster_id = "Metadata/Monsters/GemlingLegionnaire/GemlingLegionnaireCaptainMap", 
++		target_area_id = "MapWorldsWaterways", 
++		target_monster_id = "Metadata/Monsters/IceElemental/IceElementalMapBoss", 
+ 		item_id = "Metadata/Items/PantheonSouls/PantheonSoulBrineKingUpgrade2", 
+ 	},
+ 	{
+@@ -58,10 +58,10 @@
+ 	{
+ 		id = "Arakaali", 
+ 		ordinal = 4, 
+-		name = "Queen of the Great Tangle", 
++		name = "Armala, the Widow", 
+ 		stat_text = "+40% [[Chaos Resistance]] against Damage Over Time", 
+-		target_area_id = "MapWorldsJungleValley", 
+-		target_monster_id = "Metadata/Monsters/Spiders/MapSpiderBossWeaverSimplified", 
++		target_area_id = "MapWorldsSunkenCity", 
++		target_monster_id = "Metadata/Monsters/VaalSpiderGod/ArakaaliMap", 
+ 		item_id = "Metadata/Items/PantheonSouls/PantheonSoulArakaaliUpgrade3", 
+ 	},
+ 	{
+@@ -75,17 +75,17 @@
+ 		ordinal = 2, 
  		name = "A Redblade Warlord", 
  		stat_text = "8% reduced [[Elemental Damage]] taken if you haven't<br>been [[Hit]] [[Recently]]", 
- 		target_area_id = "MapWorldsLighthouse", 
+-		target_area_id = "MapWorldsLighthouse", 
 -		target_monster_id = "Metadata/Monsters/Wb/WbFireLeader4", 
-+		target_monster_id = "Metadata/Monsters/Wb/WbFireLeader1", 
++		target_area_id = "MapWorldsVolcano", 
++		target_monster_id = "Metadata/Monsters/Totems/PuiTotemMapBoss_", 
  		item_id = "Metadata/Items/PantheonSouls/PantheonSoulSolarisUpgrade1", 
  	},
  	{
-@@ -194,7 +194,7 @@
+ 		id = "Solaris", 
+ 		ordinal = 3, 
+-		name = "The Infernal King", 
++		name = "Fire and Fury", 
+ 		stat_text = "Take no Extra Damage from Critical Strikes if you have taken a [[Critical Strike]] [[Recently]]", 
+-		target_area_id = "MapWorldsCaldera", 
+-		target_monster_id = "Metadata/Monsters/Kaom/KaomMapBoss", 
++		target_area_id = "MapWorldsLavaChamber", 
++		target_monster_id = "Metadata/Monsters/Seawitch/MapSeaWitchBossFirestorm", 
+ 		item_id = "Metadata/Items/PantheonSouls/PantheonSoulSolarisUpgrade2", 
+ 	},
+ 	{
+@@ -106,28 +106,28 @@
+ 	{
+ 		id = "Lunaris", 
+ 		ordinal = 2, 
+-		name = "Sebbert, Crescent's Point", 
++		name = "Khor, Sister of Shadows", 
+ 		stat_text = "10% chance to avoid Projectiles", 
+-		target_area_id = "MapWorldsMoonTemple", 
+-		target_monster_id = "Metadata/Monsters/GuardianOfLunaris/GuardianOfLunarisMap", 
+-		item_id = "Metadata/Items/PantheonSouls/PantheonSoulLunarisUpgrade1", 
+-	},
+-	{
+-		id = "Lunaris", 
+-		ordinal = 3, 
+-		name = "Khor, Sister of Shadows", 
+-		stat_text = "6% reduced [[Elemental Damage]] taken if you have been [[Hit]] [[Recently]]", 
+ 		target_area_id = "MapWorldsColdRiver_", 
+ 		target_monster_id = "Metadata/Monsters/LunarisSolaris/LunarisMap", 
+-		item_id = "Metadata/Items/PantheonSouls/PantheonSoulLunarisUpgrade2", 
+-	},
+-	{
+-		id = "Lunaris", 
+-		ordinal = 4, 
++		item_id = "Metadata/Items/PantheonSouls/PantheonSoulLunarisUpgrade1", 
++	},
++	{
++		id = "Lunaris", 
++		ordinal = 3, 
+ 		name = "Captain Clayborne, The Accursed", 
+-		stat_text = "Avoid Projectiles that have Chained", 
++		stat_text = "6% reduced [[Elemental Damage]] taken if you have been [[Hit]] [[Recently]]", 
+ 		target_area_id = "MapWorldsFrozenCabins", 
+ 		target_monster_id = "Metadata/Monsters/Skeletons/Pirate/BrutalPirateLordBoss", 
++		item_id = "Metadata/Items/PantheonSouls/PantheonSoulLunarisUpgrade2", 
++	},
++	{
++		id = "Lunaris", 
++		ordinal = 4, 
++		name = "The Winged Death", 
++		stat_text = "Avoid Projectiles that have Chained", 
++		target_area_id = "MapWorldsChannel", 
++		target_monster_id = "Metadata/Monsters/VultureParasite/VultureParasiteMapBoss", 
+ 		item_id = "Metadata/Items/PantheonSouls/PantheonSoulLunarisUpgrade3", 
+ 	},
+ 	{
+@@ -139,10 +139,10 @@
+ 	{
+ 		id = "Abberath", 
+ 		ordinal = 2, 
+-		name = "Megaera", 
++		name = "Mephod, the Earth Scorcher", 
+ 		stat_text = "Unaffected by Burning Ground<br>10% increased [[Movement Speed]] while on Burning Ground", 
+-		target_area_id = "MapWorldsTribunal", 
+-		target_monster_id = "Metadata/Monsters/Scavengers/MapScavengerBossWitch", 
++		target_area_id = "MapWorldsSummit", 
++		target_monster_id = "Metadata/Monsters/Abberath/Abberath2Map", 
+ 		item_id = "Metadata/Items/PantheonSouls/PantheonSoulAbberathUpgrade1", 
+ 	},
+ 	{
+@@ -184,17 +184,17 @@
+ 	{
+ 		id = "Shakari", 
+ 		ordinal = 2, 
+-		name = "Terror of the Infinite Drifts", 
++		name = "Avatar of Undoing", 
+ 		stat_text = "5% reduced [[Chaos Damage]] taken<br>25% reduced [[Chaos Damage]] over Time taken while on Caustic Ground", 
+-		target_area_id = "MapWorldsDesertSpring", 
+-		target_monster_id = "Metadata/Monsters/Shakari/Shakari2Map", 
++		target_area_id = "MapWorldsGeode", 
++		target_monster_id = "Metadata/Monsters/ChaosElemental/ChaosElementalMapBoss2", 
+ 		item_id = "Metadata/Items/PantheonSouls/PantheonSoulShakariUpgrade1", 
+ 	},
+ 	{
  		id = "Tukohama", 
  		ordinal = 1, 
  		name = "Soul of Tukohama", 
@@ -18,3 +132,31 @@
  	},
  	{
  		id = "Tukohama", 
+@@ -214,10 +214,10 @@
+ 	{
+ 		id = "Ralakesh", 
+ 		ordinal = 2, 
+-		name = "Drek, Apex Hunter", 
++		name = "The Hollow Lady", 
+ 		stat_text = "[[Corrupted Blood]] cannot be inflicted on you if you have at least 5 [[Corrupted Blood]] Debuffs on you", 
+-		target_area_id = "MapWorldsFields", 
+-		target_monster_id = "Metadata/Monsters/Ralakesh/Greust/GreustMap", 
++		target_area_id = "MapWorldsVaalPyramid", 
++		target_monster_id = "Metadata/Monsters/DemonModular/DemonFemaleRangedMapBoss1", 
+ 		item_id = "Metadata/Items/PantheonSouls/PantheonSoulRalakeshUpgrade1", 
+ 	},
+ 	{
+@@ -229,10 +229,10 @@
+ 	{
+ 		id = "Garukhan", 
+ 		ordinal = 2, 
+-		name = "Stalker of the Endless Dunes", 
++		name = "The Blacksmith", 
+ 		stat_text = "Cannot be Blinded<br>You cannot be Maimed", 
+-		target_area_id = "MapWorldsDig", 
+-		target_monster_id = "Metadata/Monsters/Garukhan/GarukhanMap", 
++		target_area_id = "MapWorldsDunes", 
++		target_monster_id = "Metadata/Monsters/ZombieBoss/MapZombieBossHillock", 
+ 		item_id = "Metadata/Items/PantheonSouls/PantheonSoulGarukhanUpgrade1", 
+ 	},
+ 	{

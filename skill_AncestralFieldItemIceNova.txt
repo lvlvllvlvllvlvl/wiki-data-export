@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = A chilling circle of ice expands from the caster. If the caster targets near their Frostbolt projectiles, it will expand from a number of those projectiles instead. If this skill would repeat when cast this way, it will instead expand again from the same projectiles after a short delay.
+|active_skill_name                       = Ice Nova
+|skill_id                                = AncestralFieldItemIceNova
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_cold_damage
+|static_stat2_value                      = 6
+|static_stat3_id                         = spell_maximum_base_cold_damage
+|static_stat3_value                      = 9
+|static_stat4_id                         = always_freeze
+|static_stat4_value                      = 1
+|static_stat5_id                         = freeze_duration_+%
+|static_stat5_value                      = 500
+|stat_text                               = Deals 6 to 9 Cold Damage<br>Always Freezes enemies<br>500% increased Freeze Duration on enemies
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

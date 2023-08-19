@@ -1,5 +1,12 @@
 --- Skill:PerandusVaalSummonSkeletons
 +++ Export
+@@ -1,5 +1,5 @@
+ {{Skill
+-|gem_description                         = Summons an army of skeletal warriors, archers and mages, led by a powerful general.
++|gem_description                         = Summons an army of skeletal soldiers, archers and mages, led by a powerful general.
+ |active_skill_name                       = Vaal Summon Skeletons
+ |skill_id                                = PerandusVaalSummonSkeletons
+ |cast_time                               = 1.0
 @@ -9,522 +9,523 @@
  |static_damage_effectiveness             = 100
  |static_damage_multiplier                = 100
@@ -25,7 +32,7 @@
 -|level1_stat4_id                         = display_minion_monster_level
 -|level1_stat4_value                      = 3
 +|level1_stat_text                        = Maximum 29 Summoned Skeletons<br>Summons 11 Skeleton Warriors<br>Summons 1 Skeleton Archer
-+|level1_stat1_id                         = display_minion_monster_level
++|level1_stat1_id                         = base_display_minion_actor_level
 +|level1_stat1_value                      = 3
 +|level1_stat2_id                         = base_number_of_skeletons_allowed
 +|level1_stat2_value                      = 29
@@ -45,7 +52,7 @@
 -|level2_stat4_id                         = display_minion_monster_level
 -|level2_stat4_value                      = 5
 +|level2_stat_text                        = Maximum 30 Summoned Skeletons<br>Summons 12 Skeleton Warriors<br>Summons 1 Skeleton Archer
-+|level2_stat1_id                         = display_minion_monster_level
++|level2_stat1_id                         = base_display_minion_actor_level
 +|level2_stat1_value                      = 5
 +|level2_stat2_id                         = base_number_of_skeletons_allowed
 +|level2_stat2_value                      = 30
@@ -65,7 +72,7 @@
 -|level3_stat4_id                         = display_minion_monster_level
 -|level3_stat4_value                      = 8
 +|level3_stat_text                        = Maximum 31 Summoned Skeletons<br>Summons 13 Skeleton Warriors<br>Summons 1 Skeleton Archer
-+|level3_stat1_id                         = display_minion_monster_level
++|level3_stat1_id                         = base_display_minion_actor_level
 +|level3_stat1_value                      = 8
 +|level3_stat2_id                         = base_number_of_skeletons_allowed
 +|level3_stat2_value                      = 31
@@ -85,7 +92,7 @@
 -|level4_stat4_id                         = display_minion_monster_level
 -|level4_stat4_value                      = 10
 +|level4_stat_text                        = Maximum 32 Summoned Skeletons<br>Summons 14 Skeleton Warriors<br>Summons 2 Skeleton Archers
-+|level4_stat1_id                         = display_minion_monster_level
++|level4_stat1_id                         = base_display_minion_actor_level
 +|level4_stat1_value                      = 10
 +|level4_stat2_id                         = base_number_of_skeletons_allowed
 +|level4_stat2_value                      = 32
@@ -105,7 +112,7 @@
 -|level5_stat4_id                         = display_minion_monster_level
 -|level5_stat4_value                      = 13
 +|level5_stat_text                        = Maximum 33 Summoned Skeletons<br>Summons 15 Skeleton Warriors<br>Summons 2 Skeleton Archers
-+|level5_stat1_id                         = display_minion_monster_level
++|level5_stat1_id                         = base_display_minion_actor_level
 +|level5_stat1_value                      = 13
 +|level5_stat2_id                         = base_number_of_skeletons_allowed
 +|level5_stat2_value                      = 33
@@ -125,7 +132,7 @@
 -|level6_stat4_id                         = display_minion_monster_level
 -|level6_stat4_value                      = 16
 +|level6_stat_text                        = Maximum 34 Summoned Skeletons<br>Summons 15 Skeleton Warriors<br>Summons 3 Skeleton Archers
-+|level6_stat1_id                         = display_minion_monster_level
++|level6_stat1_id                         = base_display_minion_actor_level
 +|level6_stat1_value                      = 16
 +|level6_stat2_id                         = base_number_of_skeletons_allowed
 +|level6_stat2_value                      = 34
@@ -145,7 +152,7 @@
 -|level7_stat4_id                         = display_minion_monster_level
 -|level7_stat4_value                      = 19
 +|level7_stat_text                        = Maximum 35 Summoned Skeletons<br>Summons 16 Skeleton Warriors<br>Summons 3 Skeleton Archers
-+|level7_stat1_id                         = display_minion_monster_level
++|level7_stat1_id                         = base_display_minion_actor_level
 +|level7_stat1_value                      = 19
 +|level7_stat2_id                         = base_number_of_skeletons_allowed
 +|level7_stat2_value                      = 35
@@ -165,7 +172,7 @@
 -|level8_stat4_id                         = display_minion_monster_level
 -|level8_stat4_value                      = 22
 +|level8_stat_text                        = Maximum 36 Summoned Skeletons<br>Summons 16 Skeleton Warriors<br>Summons 4 Skeleton Archers
-+|level8_stat1_id                         = display_minion_monster_level
++|level8_stat1_id                         = base_display_minion_actor_level
 +|level8_stat1_value                      = 22
 +|level8_stat2_id                         = base_number_of_skeletons_allowed
 +|level8_stat2_value                      = 36
@@ -185,7 +192,7 @@
 -|level9_stat4_id                         = display_minion_monster_level
 -|level9_stat4_value                      = 25
 +|level9_stat_text                        = Maximum 37 Summoned Skeletons<br>Summons 17 Skeleton Warriors<br>Summons 4 Skeleton Archers
-+|level9_stat1_id                         = display_minion_monster_level
++|level9_stat1_id                         = base_display_minion_actor_level
 +|level9_stat1_value                      = 25
 +|level9_stat2_id                         = base_number_of_skeletons_allowed
 +|level9_stat2_value                      = 37
@@ -205,7 +212,7 @@
 -|level10_stat4_id                        = display_minion_monster_level
 -|level10_stat4_value                     = 28
 +|level10_stat_text                       = Maximum 38 Summoned Skeletons<br>Summons 17 Skeleton Warriors<br>Summons 5 Skeleton Archers
-+|level10_stat1_id                        = display_minion_monster_level
++|level10_stat1_id                        = base_display_minion_actor_level
 +|level10_stat1_value                     = 28
 +|level10_stat2_id                        = base_number_of_skeletons_allowed
 +|level10_stat2_value                     = 38
@@ -225,7 +232,7 @@
 -|level11_stat4_id                        = display_minion_monster_level
 -|level11_stat4_value                     = 32
 +|level11_stat_text                       = Maximum 39 Summoned Skeletons<br>Summons 18 Skeleton Warriors<br>Summons 5 Skeleton Archers
-+|level11_stat1_id                        = display_minion_monster_level
++|level11_stat1_id                        = base_display_minion_actor_level
 +|level11_stat1_value                     = 32
 +|level11_stat2_id                        = base_number_of_skeletons_allowed
 +|level11_stat2_value                     = 39
@@ -245,7 +252,7 @@
 -|level12_stat4_id                        = display_minion_monster_level
 -|level12_stat4_value                     = 36
 +|level12_stat_text                       = Maximum 40 Summoned Skeletons<br>Summons 18 Skeleton Warriors<br>Summons 5 Skeleton Archers<br>Summons 1 Skeleton Mage
-+|level12_stat1_id                        = display_minion_monster_level
++|level12_stat1_id                        = base_display_minion_actor_level
 +|level12_stat1_value                     = 36
 +|level12_stat2_id                        = base_number_of_skeletons_allowed
 +|level12_stat2_value                     = 40
@@ -267,7 +274,7 @@
 -|level13_stat4_id                        = display_minion_monster_level
 -|level13_stat4_value                     = 40
 +|level13_stat_text                       = Maximum 41 Summoned Skeletons<br>Summons 18 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 1 Skeleton Mage
-+|level13_stat1_id                        = display_minion_monster_level
++|level13_stat1_id                        = base_display_minion_actor_level
 +|level13_stat1_value                     = 40
 +|level13_stat2_id                        = base_number_of_skeletons_allowed
 +|level13_stat2_value                     = 41
@@ -289,7 +296,7 @@
 -|level14_stat4_id                        = display_minion_monster_level
 -|level14_stat4_value                     = 44
 +|level14_stat_text                       = Maximum 42 Summoned Skeletons<br>Summons 18 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 2 Skeleton Mages
-+|level14_stat1_id                        = display_minion_monster_level
++|level14_stat1_id                        = base_display_minion_actor_level
 +|level14_stat1_value                     = 44
 +|level14_stat2_id                        = base_number_of_skeletons_allowed
 +|level14_stat2_value                     = 42
@@ -311,7 +318,7 @@
 -|level15_stat4_id                        = display_minion_monster_level
 -|level15_stat4_value                     = 47
 +|level15_stat_text                       = Maximum 43 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 2 Skeleton Mages
-+|level15_stat1_id                        = display_minion_monster_level
++|level15_stat1_id                        = base_display_minion_actor_level
 +|level15_stat1_value                     = 47
 +|level15_stat2_id                        = base_number_of_skeletons_allowed
 +|level15_stat2_value                     = 43
@@ -333,7 +340,7 @@
 -|level16_stat4_id                        = display_minion_monster_level
 -|level16_stat4_value                     = 50
 +|level16_stat_text                       = Maximum 44 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level16_stat1_id                        = display_minion_monster_level
++|level16_stat1_id                        = base_display_minion_actor_level
 +|level16_stat1_value                     = 50
 +|level16_stat2_id                        = base_number_of_skeletons_allowed
 +|level16_stat2_value                     = 44
@@ -355,7 +362,7 @@
 -|level17_stat4_id                        = display_minion_monster_level
 -|level17_stat4_value                     = 53
 +|level17_stat_text                       = Maximum 45 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level17_stat1_id                        = display_minion_monster_level
++|level17_stat1_id                        = base_display_minion_actor_level
 +|level17_stat1_value                     = 53
 +|level17_stat2_id                        = base_number_of_skeletons_allowed
 +|level17_stat2_value                     = 45
@@ -377,7 +384,7 @@
 -|level18_stat4_id                        = display_minion_monster_level
 -|level18_stat4_value                     = 56
 +|level18_stat_text                       = Maximum 46 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level18_stat1_id                        = display_minion_monster_level
++|level18_stat1_id                        = base_display_minion_actor_level
 +|level18_stat1_value                     = 56
 +|level18_stat2_id                        = base_number_of_skeletons_allowed
 +|level18_stat2_value                     = 46
@@ -399,7 +406,7 @@
 -|level19_stat4_id                        = display_minion_monster_level
 -|level19_stat4_value                     = 59
 +|level19_stat_text                       = Maximum 47 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level19_stat1_id                        = display_minion_monster_level
++|level19_stat1_id                        = base_display_minion_actor_level
 +|level19_stat1_value                     = 59
 +|level19_stat2_id                        = base_number_of_skeletons_allowed
 +|level19_stat2_value                     = 47
@@ -421,7 +428,7 @@
 -|level20_stat4_id                        = display_minion_monster_level
 -|level20_stat4_value                     = 62
 +|level20_stat_text                       = Maximum 48 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level20_stat1_id                        = display_minion_monster_level
++|level20_stat1_id                        = base_display_minion_actor_level
 +|level20_stat1_value                     = 62
 +|level20_stat2_id                        = base_number_of_skeletons_allowed
 +|level20_stat2_value                     = 48
@@ -443,7 +450,7 @@
 -|level21_stat4_id                        = display_minion_monster_level
 -|level21_stat4_value                     = 64
 +|level21_stat_text                       = Maximum 49 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level21_stat1_id                        = display_minion_monster_level
++|level21_stat1_id                        = base_display_minion_actor_level
 +|level21_stat1_value                     = 64
 +|level21_stat2_id                        = base_number_of_skeletons_allowed
 +|level21_stat2_value                     = 49
@@ -465,7 +472,7 @@
 -|level22_stat4_id                        = display_minion_monster_level
 -|level22_stat4_value                     = 66
 +|level22_stat_text                       = Maximum 50 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level22_stat1_id                        = display_minion_monster_level
++|level22_stat1_id                        = base_display_minion_actor_level
 +|level22_stat1_value                     = 66
 +|level22_stat2_id                        = base_number_of_skeletons_allowed
 +|level22_stat2_value                     = 50
@@ -487,7 +494,7 @@
 -|level23_stat4_id                        = display_minion_monster_level
 -|level23_stat4_value                     = 67
 +|level23_stat_text                       = Maximum 50 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level23_stat1_id                        = display_minion_monster_level
++|level23_stat1_id                        = base_display_minion_actor_level
 +|level23_stat1_value                     = 67
 +|level23_stat2_id                        = base_number_of_skeletons_allowed
 +|level23_stat2_value                     = 50
@@ -509,7 +516,7 @@
 -|level24_stat4_id                        = display_minion_monster_level
 -|level24_stat4_value                     = 68
 +|level24_stat_text                       = Maximum 50 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level24_stat1_id                        = display_minion_monster_level
++|level24_stat1_id                        = base_display_minion_actor_level
 +|level24_stat1_value                     = 68
 +|level24_stat2_id                        = base_number_of_skeletons_allowed
 +|level24_stat2_value                     = 50
@@ -531,7 +538,7 @@
 -|level25_stat4_id                        = display_minion_monster_level
 -|level25_stat4_value                     = 69
 +|level25_stat_text                       = Maximum 50 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level25_stat1_id                        = display_minion_monster_level
++|level25_stat1_id                        = base_display_minion_actor_level
 +|level25_stat1_value                     = 69
 +|level25_stat2_id                        = base_number_of_skeletons_allowed
 +|level25_stat2_value                     = 50
@@ -553,7 +560,7 @@
 -|level26_stat4_id                        = display_minion_monster_level
 -|level26_stat4_value                     = 70
 +|level26_stat_text                       = Maximum 50 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level26_stat1_id                        = display_minion_monster_level
++|level26_stat1_id                        = base_display_minion_actor_level
 +|level26_stat1_value                     = 70
 +|level26_stat2_id                        = base_number_of_skeletons_allowed
 +|level26_stat2_value                     = 50
@@ -575,7 +582,7 @@
 -|level27_stat4_id                        = display_minion_monster_level
 -|level27_stat4_value                     = 71
 +|level27_stat_text                       = Maximum 50 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level27_stat1_id                        = display_minion_monster_level
++|level27_stat1_id                        = base_display_minion_actor_level
 +|level27_stat1_value                     = 71
 +|level27_stat2_id                        = base_number_of_skeletons_allowed
 +|level27_stat2_value                     = 50
@@ -597,7 +604,7 @@
 -|level28_stat4_id                        = display_minion_monster_level
 -|level28_stat4_value                     = 72
 +|level28_stat_text                       = Maximum 50 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level28_stat1_id                        = display_minion_monster_level
++|level28_stat1_id                        = base_display_minion_actor_level
 +|level28_stat1_value                     = 72
 +|level28_stat2_id                        = base_number_of_skeletons_allowed
 +|level28_stat2_value                     = 50
@@ -619,7 +626,7 @@
 -|level29_stat4_id                        = display_minion_monster_level
 -|level29_stat4_value                     = 73
 +|level29_stat_text                       = Maximum 50 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level29_stat1_id                        = display_minion_monster_level
++|level29_stat1_id                        = base_display_minion_actor_level
 +|level29_stat1_value                     = 73
 +|level29_stat2_id                        = base_number_of_skeletons_allowed
 +|level29_stat2_value                     = 50
@@ -641,7 +648,7 @@
 -|level30_stat4_id                        = display_minion_monster_level
 -|level30_stat4_value                     = 74
 +|level30_stat_text                       = Maximum 50 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level30_stat1_id                        = display_minion_monster_level
++|level30_stat1_id                        = base_display_minion_actor_level
 +|level30_stat1_value                     = 74
 +|level30_stat2_id                        = base_number_of_skeletons_allowed
 +|level30_stat2_value                     = 50
@@ -663,7 +670,7 @@
 -|level31_stat4_id                        = display_minion_monster_level
 -|level31_stat4_value                     = 75
 +|level31_stat_text                       = Maximum 50 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level31_stat1_id                        = display_minion_monster_level
++|level31_stat1_id                        = base_display_minion_actor_level
 +|level31_stat1_value                     = 75
 +|level31_stat2_id                        = base_number_of_skeletons_allowed
 +|level31_stat2_value                     = 50
@@ -685,7 +692,7 @@
 -|level32_stat4_id                        = display_minion_monster_level
 -|level32_stat4_value                     = 76
 +|level32_stat_text                       = Maximum 50 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level32_stat1_id                        = display_minion_monster_level
++|level32_stat1_id                        = base_display_minion_actor_level
 +|level32_stat1_value                     = 76
 +|level32_stat2_id                        = base_number_of_skeletons_allowed
 +|level32_stat2_value                     = 50
@@ -707,7 +714,7 @@
 -|level33_stat4_id                        = display_minion_monster_level
 -|level33_stat4_value                     = 77
 +|level33_stat_text                       = Maximum 50 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level33_stat1_id                        = display_minion_monster_level
++|level33_stat1_id                        = base_display_minion_actor_level
 +|level33_stat1_value                     = 77
 +|level33_stat2_id                        = base_number_of_skeletons_allowed
 +|level33_stat2_value                     = 50
@@ -729,7 +736,7 @@
 -|level34_stat4_id                        = display_minion_monster_level
 -|level34_stat4_value                     = 78
 +|level34_stat_text                       = Maximum 50 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level34_stat1_id                        = display_minion_monster_level
++|level34_stat1_id                        = base_display_minion_actor_level
 +|level34_stat1_value                     = 78
 +|level34_stat2_id                        = base_number_of_skeletons_allowed
 +|level34_stat2_value                     = 50
@@ -751,7 +758,7 @@
 -|level35_stat4_id                        = display_minion_monster_level
 -|level35_stat4_value                     = 79
 +|level35_stat_text                       = Maximum 50 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level35_stat1_id                        = display_minion_monster_level
++|level35_stat1_id                        = base_display_minion_actor_level
 +|level35_stat1_value                     = 79
 +|level35_stat2_id                        = base_number_of_skeletons_allowed
 +|level35_stat2_value                     = 50
@@ -773,7 +780,7 @@
 -|level36_stat4_id                        = display_minion_monster_level
 -|level36_stat4_value                     = 80
 +|level36_stat_text                       = Maximum 50 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level36_stat1_id                        = display_minion_monster_level
++|level36_stat1_id                        = base_display_minion_actor_level
 +|level36_stat1_value                     = 80
 +|level36_stat2_id                        = base_number_of_skeletons_allowed
 +|level36_stat2_value                     = 50
@@ -795,7 +802,7 @@
 -|level37_stat4_id                        = display_minion_monster_level
 -|level37_stat4_value                     = 81
 +|level37_stat_text                       = Maximum 50 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level37_stat1_id                        = display_minion_monster_level
++|level37_stat1_id                        = base_display_minion_actor_level
 +|level37_stat1_value                     = 81
 +|level37_stat2_id                        = base_number_of_skeletons_allowed
 +|level37_stat2_value                     = 50
@@ -817,7 +824,7 @@
 -|level38_stat4_id                        = display_minion_monster_level
 -|level38_stat4_value                     = 82
 +|level38_stat_text                       = Maximum 50 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level38_stat1_id                        = display_minion_monster_level
++|level38_stat1_id                        = base_display_minion_actor_level
 +|level38_stat1_value                     = 82
 +|level38_stat2_id                        = base_number_of_skeletons_allowed
 +|level38_stat2_value                     = 50
@@ -839,7 +846,7 @@
 -|level39_stat4_id                        = display_minion_monster_level
 -|level39_stat4_value                     = 84
 +|level39_stat_text                       = Maximum 50 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level39_stat1_id                        = display_minion_monster_level
++|level39_stat1_id                        = base_display_minion_actor_level
 +|level39_stat1_value                     = 84
 +|level39_stat2_id                        = base_number_of_skeletons_allowed
 +|level39_stat2_value                     = 50
@@ -861,7 +868,7 @@
 -|level40_stat4_id                        = display_minion_monster_level
 -|level40_stat4_value                     = 86
 +|level40_stat_text                       = Maximum 50 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level40_stat1_id                        = display_minion_monster_level
++|level40_stat1_id                        = base_display_minion_actor_level
 +|level40_stat1_value                     = 86
 +|level40_stat2_id                        = base_number_of_skeletons_allowed
 +|level40_stat2_value                     = 50
@@ -883,7 +890,7 @@
 -|level41_stat4_id                        = display_minion_monster_level
 -|level41_stat4_value                     = 88
 +|level41_stat_text                       = Maximum 50 Summoned Skeletons<br>Summons 19 Skeleton Warriors<br>Summons 6 Skeleton Archers<br>Summons 3 Skeleton Mages
-+|level41_stat1_id                        = display_minion_monster_level
++|level41_stat1_id                        = base_display_minion_actor_level
 +|level41_stat1_value                     = 88
 +|level41_stat2_id                        = base_number_of_skeletons_allowed
 +|level41_stat2_value                     = 50

@@ -13,12 +13,10 @@
 |stat2_value                         = 1
 |stat3_id                            = base_cannot_be_frozen
 |stat3_value                         = 1
-|stat_text                           = 15% more [[Cold Damage]]<br>Cannot be Chilled<br>Cannot be [[Freeze|Frozen]]<br>Every 4 seconds, [[Freeze]] nearby Chilled Non-Unique Enemies for 0.6 seconds<br>Every 4 seconds, 33% chance to [[Freeze]] nearby Chilled Unique Enemies for 0.6 seconds<br>Nearby Chilled Enemies deal 10% reduced Damage with [[Hit|Hits]]
-|stat4_id                            = every_4_seconds_freeze_chilled_non_unique_enemies_for_X_ms
-|stat4_value                         = 600
-|stat5_id                            = every_4_seconds_33%_chance_freeze_chilled_unique_enemies_for_X_ms
-|stat5_value                         = 600
-|stat6_id                            = hit_damage_+%_while_chilled
-|stat6_value                         = -10
+|stat_text                           = 15% more [[Cold Damage]]<br>Cannot be Chilled<br>Cannot be [[Freeze|Frozen]]<br>Every 4 seconds, 50% chance to [[Freeze]] nearby Non-Frozen Enemies for 0.4 seconds<br>Nearby Chilled Enemies deal 10% reduced Damage with [[Hit|Hits]]
+|stat4_id                            = every_4_seconds_%_chance_freeze_non_frozen_enemies_for_300ms
+|stat4_value                         = 50
+|stat5_id                            = hit_damage_+%_while_chilled
+|stat5_value                         = -10
 |connections                         = AscendancyOccultist14
 }}

@@ -1,0 +1,375 @@
+--- Summon Holy Relic
++++ Export
+@@ -36,16 +36,18 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = display_minion_monster_type
+ |static_stat1_value                      = 16
+-|static_stat2_id                         = base_number_of_relics_allowed
++|static_stat2_id                         = infinite_minion_duration
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = minions_cannot_taunt_enemies
++|static_stat3_id                         = base_number_of_relics_allowed
+ |static_stat3_value                      = 1
++|static_stat4_id                         = minions_cannot_taunt_enemies
++|static_stat4_value                      = 1
+ |stat_text                               = Maximum 1 Summoned Holy Relic<br>(0-76)% more Minion Movement Speed<br>Holy Relic's Nova Skill grants (5.2-154.6) Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants (9-464) Life regenerated per second to Minions<br>Minions cannot Taunt Enemies
+ |level1                                  = True
+ |level1_level_requirement                = 4
+ |level1_cost_amounts                     = 11
+ |level1_stat_text                        = Holy Relic's Nova Skill grants 5.2 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 9 Life regenerated per second to Minions
+-|level1_stat1_id                         = display_minion_monster_level
++|level1_stat1_id                         = base_display_minion_actor_level
+ |level1_stat1_value                      = 4
+ |level1_stat2_id                         = holy_relic_nova_life_regeneration_rate_per_minute
+ |level1_stat2_value                      = 314
+@@ -55,7 +57,7 @@
+ |level2_level_requirement                = 6
+ |level2_cost_amounts                     = 12
+ |level2_stat_text                        = 4% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 6.2 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 12 Life regenerated per second to Minions
+-|level2_stat1_id                         = display_minion_monster_level
++|level2_stat1_id                         = base_display_minion_actor_level
+ |level2_stat1_value                      = 6
+ |level2_stat2_id                         = active_skill_minion_movement_velocity_+%_final
+ |level2_stat2_value                      = 4
+@@ -67,7 +69,7 @@
+ |level3_level_requirement                = 9
+ |level3_cost_amounts                     = 13
+ |level3_stat_text                        = 8% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 7.9 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 17 Life regenerated per second to Minions
+-|level3_stat1_id                         = display_minion_monster_level
++|level3_stat1_id                         = base_display_minion_actor_level
+ |level3_stat1_value                      = 9
+ |level3_stat2_id                         = active_skill_minion_movement_velocity_+%_final
+ |level3_stat2_value                      = 8
+@@ -79,7 +81,7 @@
+ |level4_level_requirement                = 12
+ |level4_cost_amounts                     = 14
+ |level4_stat_text                        = 12% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 10 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 21 Life regenerated per second to Minions
+-|level4_stat1_id                         = display_minion_monster_level
++|level4_stat1_id                         = base_display_minion_actor_level
+ |level4_stat1_value                      = 12
+ |level4_stat2_id                         = active_skill_minion_movement_velocity_+%_final
+ |level4_stat2_value                      = 12
+@@ -91,7 +93,7 @@
+ |level5_level_requirement                = 16
+ |level5_cost_amounts                     = 15
+ |level5_stat_text                        = 16% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 13.3 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 27 Life regenerated per second to Minions
+-|level5_stat1_id                         = display_minion_monster_level
++|level5_stat1_id                         = base_display_minion_actor_level
+ |level5_stat1_value                      = 16
+ |level5_stat2_id                         = active_skill_minion_movement_velocity_+%_final
+ |level5_stat2_value                      = 16
+@@ -103,7 +105,7 @@
+ |level6_level_requirement                = 20
+ |level6_cost_amounts                     = 16
+ |level6_stat_text                        = 20% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 17.4 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 38 Life regenerated per second to Minions
+-|level6_stat1_id                         = display_minion_monster_level
++|level6_stat1_id                         = base_display_minion_actor_level
+ |level6_stat1_value                      = 20
+ |level6_stat2_id                         = active_skill_minion_movement_velocity_+%_final
+ |level6_stat2_value                      = 20
+@@ -115,7 +117,7 @@
+ |level7_level_requirement                = 24
+ |level7_cost_amounts                     = 17
+ |level7_stat_text                        = 24% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 22.3 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 50 Life regenerated per second to Minions
+-|level7_stat1_id                         = display_minion_monster_level
++|level7_stat1_id                         = base_display_minion_actor_level
+ |level7_stat1_value                      = 24
+ |level7_stat2_id                         = active_skill_minion_movement_velocity_+%_final
+ |level7_stat2_value                      = 24
+@@ -127,7 +129,7 @@
+ |level8_level_requirement                = 28
+ |level8_cost_amounts                     = 18
+ |level8_stat_text                        = 28% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 28 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 65 Life regenerated per second to Minions
+-|level8_stat1_id                         = display_minion_monster_level
++|level8_stat1_id                         = base_display_minion_actor_level
+ |level8_stat1_value                      = 28
+ |level8_stat2_id                         = active_skill_minion_movement_velocity_+%_final
+ |level8_stat2_value                      = 28
+@@ -139,7 +141,7 @@
+ |level9_level_requirement                = 32
+ |level9_cost_amounts                     = 19
+ |level9_stat_text                        = 32% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 34.5 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 81 Life regenerated per second to Minions
+-|level9_stat1_id                         = display_minion_monster_level
++|level9_stat1_id                         = base_display_minion_actor_level
+ |level9_stat1_value                      = 32
+ |level9_stat2_id                         = active_skill_minion_movement_velocity_+%_final
+ |level9_stat2_value                      = 32
+@@ -151,7 +153,7 @@
+ |level10_level_requirement               = 36
+ |level10_cost_amounts                    = 20
+ |level10_stat_text                       = 36% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 42 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 101 Life regenerated per second to Minions
+-|level10_stat1_id                        = display_minion_monster_level
++|level10_stat1_id                        = base_display_minion_actor_level
+ |level10_stat1_value                     = 36
+ |level10_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level10_stat2_value                     = 36
+@@ -163,7 +165,7 @@
+ |level11_level_requirement               = 40
+ |level11_cost_amounts                    = 21
+ |level11_stat_text                       = 40% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 50.5 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 125 Life regenerated per second to Minions
+-|level11_stat1_id                        = display_minion_monster_level
++|level11_stat1_id                        = base_display_minion_actor_level
+ |level11_stat1_value                     = 40
+ |level11_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level11_stat2_value                     = 40
+@@ -175,7 +177,7 @@
+ |level12_level_requirement               = 44
+ |level12_cost_amounts                    = 22
+ |level12_stat_text                       = 44% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 60 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 150 Life regenerated per second to Minions
+-|level12_stat1_id                        = display_minion_monster_level
++|level12_stat1_id                        = base_display_minion_actor_level
+ |level12_stat1_value                     = 44
+ |level12_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level12_stat2_value                     = 44
+@@ -187,7 +189,7 @@
+ |level13_level_requirement               = 48
+ |level13_cost_amounts                    = 23
+ |level13_stat_text                       = 48% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 70.5 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 182 Life regenerated per second to Minions
+-|level13_stat1_id                        = display_minion_monster_level
++|level13_stat1_id                        = base_display_minion_actor_level
+ |level13_stat1_value                     = 48
+ |level13_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level13_stat2_value                     = 48
+@@ -199,7 +201,7 @@
+ |level14_level_requirement               = 52
+ |level14_cost_amounts                    = 24
+ |level14_stat_text                       = 52% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 82.2 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 216 Life regenerated per second to Minions
+-|level14_stat1_id                        = display_minion_monster_level
++|level14_stat1_id                        = base_display_minion_actor_level
+ |level14_stat1_value                     = 52
+ |level14_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level14_stat2_value                     = 52
+@@ -211,7 +213,7 @@
+ |level15_level_requirement               = 55
+ |level15_cost_amounts                    = 25
+ |level15_stat_text                       = 56% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 92.2 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 251 Life regenerated per second to Minions
+-|level15_stat1_id                        = display_minion_monster_level
++|level15_stat1_id                        = base_display_minion_actor_level
+ |level15_stat1_value                     = 55
+ |level15_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level15_stat2_value                     = 56
+@@ -223,7 +225,7 @@
+ |level16_level_requirement               = 58
+ |level16_cost_amounts                    = 26
+ |level16_stat_text                       = 60% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 103 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 285 Life regenerated per second to Minions
+-|level16_stat1_id                        = display_minion_monster_level
++|level16_stat1_id                        = base_display_minion_actor_level
+ |level16_stat1_value                     = 58
+ |level16_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level16_stat2_value                     = 60
+@@ -235,7 +237,7 @@
+ |level17_level_requirement               = 61
+ |level17_cost_amounts                    = 26
+ |level17_stat_text                       = 64% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 114.7 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 323 Life regenerated per second to Minions
+-|level17_stat1_id                        = display_minion_monster_level
++|level17_stat1_id                        = base_display_minion_actor_level
+ |level17_stat1_value                     = 61
+ |level17_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level17_stat2_value                     = 64
+@@ -247,7 +249,7 @@
+ |level18_level_requirement               = 64
+ |level18_cost_amounts                    = 27
+ |level18_stat_text                       = 68% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 127.1 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 366 Life regenerated per second to Minions
+-|level18_stat1_id                        = display_minion_monster_level
++|level18_stat1_id                        = base_display_minion_actor_level
+ |level18_stat1_value                     = 64
+ |level18_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level18_stat2_value                     = 68
+@@ -259,7 +261,7 @@
+ |level19_level_requirement               = 67
+ |level19_cost_amounts                    = 27
+ |level19_stat_text                       = 72% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 140.4 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 413 Life regenerated per second to Minions
+-|level19_stat1_id                        = display_minion_monster_level
++|level19_stat1_id                        = base_display_minion_actor_level
+ |level19_stat1_value                     = 67
+ |level19_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level19_stat2_value                     = 72
+@@ -271,7 +273,7 @@
+ |level20_level_requirement               = 70
+ |level20_cost_amounts                    = 28
+ |level20_stat_text                       = 76% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 154.6 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 464 Life regenerated per second to Minions
+-|level20_stat1_id                        = display_minion_monster_level
++|level20_stat1_id                        = base_display_minion_actor_level
+ |level20_stat1_value                     = 70
+ |level20_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level20_stat2_value                     = 76
+@@ -283,7 +285,7 @@
+ |level21_level_requirement               = 72
+ |level21_cost_amounts                    = 28
+ |level21_stat_text                       = 80% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 165.6 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 497 Life regenerated per second to Minions
+-|level21_stat1_id                        = display_minion_monster_level
++|level21_stat1_id                        = base_display_minion_actor_level
+ |level21_stat1_value                     = 72
+ |level21_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level21_stat2_value                     = 80
+@@ -295,7 +297,7 @@
+ |level22_level_requirement               = 74
+ |level22_cost_amounts                    = 29
+ |level22_stat_text                       = 84% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 173.7 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 521 Life regenerated per second to Minions
+-|level22_stat1_id                        = display_minion_monster_level
++|level22_stat1_id                        = base_display_minion_actor_level
+ |level22_stat1_value                     = 74
+ |level22_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level22_stat2_value                     = 84
+@@ -307,7 +309,7 @@
+ |level23_level_requirement               = 76
+ |level23_cost_amounts                    = 29
+ |level23_stat_text                       = 88% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 182 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 546 Life regenerated per second to Minions
+-|level23_stat1_id                        = display_minion_monster_level
++|level23_stat1_id                        = base_display_minion_actor_level
+ |level23_stat1_value                     = 76
+ |level23_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level23_stat2_value                     = 88
+@@ -319,7 +321,7 @@
+ |level24_level_requirement               = 78
+ |level24_cost_amounts                    = 30
+ |level24_stat_text                       = 92% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 190.5 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 572 Life regenerated per second to Minions
+-|level24_stat1_id                        = display_minion_monster_level
++|level24_stat1_id                        = base_display_minion_actor_level
+ |level24_stat1_value                     = 78
+ |level24_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level24_stat2_value                     = 92
+@@ -331,7 +333,7 @@
+ |level25_level_requirement               = 80
+ |level25_cost_amounts                    = 30
+ |level25_stat_text                       = 96% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 199.2 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 597 Life regenerated per second to Minions
+-|level25_stat1_id                        = display_minion_monster_level
++|level25_stat1_id                        = base_display_minion_actor_level
+ |level25_stat1_value                     = 80
+ |level25_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level25_stat2_value                     = 96
+@@ -343,7 +345,7 @@
+ |level26_level_requirement               = 82
+ |level26_cost_amounts                    = 30
+ |level26_stat_text                       = 100% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 208.1 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 624 Life regenerated per second to Minions
+-|level26_stat1_id                        = display_minion_monster_level
++|level26_stat1_id                        = base_display_minion_actor_level
+ |level26_stat1_value                     = 82
+ |level26_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level26_stat2_value                     = 100
+@@ -355,7 +357,7 @@
+ |level27_level_requirement               = 84
+ |level27_cost_amounts                    = 30
+ |level27_stat_text                       = 104% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 217.2 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 651 Life regenerated per second to Minions
+-|level27_stat1_id                        = display_minion_monster_level
++|level27_stat1_id                        = base_display_minion_actor_level
+ |level27_stat1_value                     = 84
+ |level27_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level27_stat2_value                     = 104
+@@ -367,7 +369,7 @@
+ |level28_level_requirement               = 86
+ |level28_cost_amounts                    = 31
+ |level28_stat_text                       = 108% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 226.5 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 680 Life regenerated per second to Minions
+-|level28_stat1_id                        = display_minion_monster_level
++|level28_stat1_id                        = base_display_minion_actor_level
+ |level28_stat1_value                     = 86
+ |level28_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level28_stat2_value                     = 108
+@@ -379,7 +381,7 @@
+ |level29_level_requirement               = 88
+ |level29_cost_amounts                    = 31
+ |level29_stat_text                       = 112% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 236 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 708 Life regenerated per second to Minions
+-|level29_stat1_id                        = display_minion_monster_level
++|level29_stat1_id                        = base_display_minion_actor_level
+ |level29_stat1_value                     = 88
+ |level29_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level29_stat2_value                     = 112
+@@ -391,7 +393,7 @@
+ |level30_level_requirement               = 90
+ |level30_cost_amounts                    = 32
+ |level30_stat_text                       = 116% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 245.7 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 737 Life regenerated per second to Minions
+-|level30_stat1_id                        = display_minion_monster_level
++|level30_stat1_id                        = base_display_minion_actor_level
+ |level30_stat1_value                     = 90
+ |level30_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level30_stat2_value                     = 116
+@@ -403,7 +405,7 @@
+ |level31_level_requirement               = 91
+ |level31_cost_amounts                    = 33
+ |level31_stat_text                       = 118% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 248.2 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 744 Life regenerated per second to Minions
+-|level31_stat1_id                        = display_minion_monster_level
++|level31_stat1_id                        = base_display_minion_actor_level
+ |level31_stat1_value                     = 91
+ |level31_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level31_stat2_value                     = 118
+@@ -415,7 +417,7 @@
+ |level32_level_requirement               = 92
+ |level32_cost_amounts                    = 33
+ |level32_stat_text                       = 120% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 250.7 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 752 Life regenerated per second to Minions
+-|level32_stat1_id                        = display_minion_monster_level
++|level32_stat1_id                        = base_display_minion_actor_level
+ |level32_stat1_value                     = 92
+ |level32_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level32_stat2_value                     = 120
+@@ -427,7 +429,7 @@
+ |level33_level_requirement               = 93
+ |level33_cost_amounts                    = 33
+ |level33_stat_text                       = 122% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 253.2 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 759 Life regenerated per second to Minions
+-|level33_stat1_id                        = display_minion_monster_level
++|level33_stat1_id                        = base_display_minion_actor_level
+ |level33_stat1_value                     = 93
+ |level33_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level33_stat2_value                     = 122
+@@ -439,7 +441,7 @@
+ |level34_level_requirement               = 94
+ |level34_cost_amounts                    = 33
+ |level34_stat_text                       = 124% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 255.7 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 767 Life regenerated per second to Minions
+-|level34_stat1_id                        = display_minion_monster_level
++|level34_stat1_id                        = base_display_minion_actor_level
+ |level34_stat1_value                     = 94
+ |level34_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level34_stat2_value                     = 124
+@@ -451,7 +453,7 @@
+ |level35_level_requirement               = 95
+ |level35_cost_amounts                    = 34
+ |level35_stat_text                       = 126% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 258.3 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 774 Life regenerated per second to Minions
+-|level35_stat1_id                        = display_minion_monster_level
++|level35_stat1_id                        = base_display_minion_actor_level
+ |level35_stat1_value                     = 95
+ |level35_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level35_stat2_value                     = 126
+@@ -463,7 +465,7 @@
+ |level36_level_requirement               = 96
+ |level36_cost_amounts                    = 34
+ |level36_stat_text                       = 128% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 260.9 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 782 Life regenerated per second to Minions
+-|level36_stat1_id                        = display_minion_monster_level
++|level36_stat1_id                        = base_display_minion_actor_level
+ |level36_stat1_value                     = 96
+ |level36_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level36_stat2_value                     = 128
+@@ -475,7 +477,7 @@
+ |level37_level_requirement               = 97
+ |level37_cost_amounts                    = 34
+ |level37_stat_text                       = 130% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 263.5 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 791 Life regenerated per second to Minions
+-|level37_stat1_id                        = display_minion_monster_level
++|level37_stat1_id                        = base_display_minion_actor_level
+ |level37_stat1_value                     = 97
+ |level37_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level37_stat2_value                     = 130
+@@ -487,7 +489,7 @@
+ |level38_level_requirement               = 98
+ |level38_cost_amounts                    = 34
+ |level38_stat_text                       = 132% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 266.1 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 798 Life regenerated per second to Minions
+-|level38_stat1_id                        = display_minion_monster_level
++|level38_stat1_id                        = base_display_minion_actor_level
+ |level38_stat1_value                     = 98
+ |level38_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level38_stat2_value                     = 132
+@@ -499,7 +501,7 @@
+ |level39_level_requirement               = 99
+ |level39_cost_amounts                    = 35
+ |level39_stat_text                       = 134% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 268.9 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 807 Life regenerated per second to Minions
+-|level39_stat1_id                        = display_minion_monster_level
++|level39_stat1_id                        = base_display_minion_actor_level
+ |level39_stat1_value                     = 99
+ |level39_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level39_stat2_value                     = 134
+@@ -511,7 +513,7 @@
+ |level40_level_requirement               = 100
+ |level40_cost_amounts                    = 35
+ |level40_stat_text                       = 136% more Minion Movement Speed<br>Holy Relic's Nova Skill grants 271.6 Life regenerated per second to Allies<br>Holy Relic's Nova Skill grants 815 Life regenerated per second to Minions
+-|level40_stat1_id                        = display_minion_monster_level
++|level40_stat1_id                        = base_display_minion_actor_level
+ |level40_stat1_value                     = 100
+ |level40_stat2_id                        = active_skill_minion_movement_velocity_+%_final
+ |level40_stat2_value                     = 136

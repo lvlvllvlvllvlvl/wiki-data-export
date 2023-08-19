@@ -18,12 +18,12 @@
 +|static_stat1_value                      = 1
 +|static_stat2_id                         = skill_can_add_multiple_charges_per_action
 +|static_stat2_value                      = 1
-+|static_stat3_id                         = spell_minimum_base_fire_damage
-+|static_stat3_value                      = 3
-+|static_stat4_id                         = spell_maximum_base_fire_damage
-+|static_stat4_value                      = 5
-+|static_stat5_id                         = cannot_stun
-+|static_stat5_value                      = 1
++|static_stat3_id                         = cannot_stun
++|static_stat3_value                      = 1
++|static_stat4_id                         = spell_minimum_base_fire_damage
++|static_stat4_value                      = 3
++|static_stat5_id                         = spell_maximum_base_fire_damage
++|static_stat5_value                      = 5
  |static_stat6_id                         = flamethrower_damage_+%_per_stage_final
  |static_stat6_value                      = 10
 -|static_stat7_id                         = expanding_fire_cone_release_hit_damage_+%_final
@@ -51,7 +51,7 @@
 +|static_stat11_value                     = 50
 +|static_stat12_id                        = grant_expanding_fire_cone_release_ignite_damage_+%_final
 +|static_stat12_value                     = 50
-+|stat_text                               = Deals 3 to 5 Fire Damage<br>Your Hits cannot Stun Enemies<br>10% more Damage with Hits and Ailments for each stage<br>100% increased angle per stage, up to 300%<br>8 maximum stages<br>+6 to radius per stage, up to +24<br>Final wave deals 50% more Damage with Hits<br>Final wave deals 50% more Damage with Ignite
++|stat_text                               = Your Hits cannot Stun Enemies<br>Deals 3 to 5 Fire Damage<br>10% more Damage with Hits and Ailments for each stage<br>100% increased angle per stage, up to 300%<br>8 maximum stages<br>+6 to radius per stage, up to +24<br>Final wave deals 50% more Damage with Hits<br>Final wave deals 50% more Damage with Ignite
  |level1                                  = True
  |level1_level_requirement                = 1
  }}

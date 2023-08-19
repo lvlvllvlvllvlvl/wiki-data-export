@@ -1,6 +1,6 @@
 --- Skill:EssenceDaemonFrostBoltNova
 +++ Export
-@@ -7,21 +7,22 @@
+@@ -7,18 +7,19 @@
  |static_damage_effectiveness             = 100
  |static_damage_multiplier                = 100
  |static_attack_speed_multiplier          = 100
@@ -16,9 +16,6 @@
 -|static_stat5_value                      = 4750
 -|static_stat6_id                         = is_area_damage
 -|static_stat6_value                      = 1
--|static_stat7_id                         = base_cold_damage_to_deal_per_minute
--|static_stat7_value                      = 352
--|stat_text                               = Deals 7 to 11 Cold Damage<br>Base duration is 4.75 seconds<br>Deals 5.9 Base Cold Damage per second
 +|static_duration                         = 4.75
 +|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 +|static_stat1_value                      = -17
@@ -30,11 +27,8 @@
 +|static_stat4_value                      = 7
 +|static_stat5_id                         = spell_maximum_base_cold_damage
 +|static_stat5_value                      = 11
-+|static_stat6_id                         = base_cold_damage_to_deal_per_minute
-+|static_stat6_value                      = 352
-+|static_stat7_id                         = base_skill_effect_duration
-+|static_stat7_value                      = 4750
-+|stat_text                               = Deals 7 to 11 Cold Damage<br>Deals 5.9 Base Cold Damage per second<br>Base duration is 4.75 seconds
- |level1                                  = True
- |level1_level_requirement                = 3
- }}
++|static_stat6_id                         = base_skill_effect_duration
++|static_stat6_value                      = 4750
+ |static_stat7_id                         = base_cold_damage_to_deal_per_minute
+ |static_stat7_value                      = 352
+ |stat_text                               = Deals 7 to 11 Cold Damage<br>Base duration is 4.75 seconds<br>Deals 5.9 Base Cold Damage per second

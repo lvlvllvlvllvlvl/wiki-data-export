@@ -1,0 +1,13 @@
+--- Passive Skill:Stun~threshold2870
++++ Export
+@@ -0,0 +1,10 @@
++{{Passive skill
++|id                                  = stun_threshold2870
++|int_id                              = 61351
++|name                                = Stun Threshold Reduction
++|icon                                = stunstr
++|stat1_id                            = base_stun_threshold_reduction_+%
++|stat1_value                         = 10
++|stat_text                           = 10% reduced Enemy Stun Threshold
++|connections                         = melee_ignite_notable2875,melee_ignite_notable2874
++}}

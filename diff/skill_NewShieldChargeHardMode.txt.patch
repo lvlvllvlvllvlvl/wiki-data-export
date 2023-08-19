@@ -1,6 +1,6 @@
 --- Skill:NewShieldChargeHardMode
 +++ Export
-@@ -0,0 +1,549 @@
+@@ -0,0 +1,550 @@
 +{{Skill
 +|gem_description                         = Charges at a targeted location or enemy, pushing away enemies in your path and repeatedly dealing off-hand damage in a small area in front of you. You deal damage in a larger area when you reach the target. The further you travel, the more damage you deal, and the greater your chance of stunning enemies. Cannot be supported by Multistrike.
 +|active_skill_name                       = Shield Charge
@@ -16,6 +16,7 @@
 +|static_damage_effectiveness             = 100
 +|static_damage_multiplier                = 100
 +|static_attack_speed_multiplier          = 100
++|static_attack_time                      = 0.5
 +|static_stat1_id                         = attack_is_melee_override
 +|static_stat1_value                      = 1
 +|static_stat2_id                         = ignores_proximity_shield

@@ -1,0 +1,20 @@
+--- Monster:Metadata/Monsters/LeagueAncestral/AncestralKaruiMooncaster
++++ Export
+@@ -0,0 +1,17 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueAncestral/AncestralKaruiMooncaster
++|monster_type_id                  = AncestralKaruiMooncaster
++|mod_ids                          = AncestralTrialMonsterBasicFleeAndDamage
++|tags                             = human, humanoid, karui, medium_movement, not_str, red_blood
++|skill_ids                        = MeleeAtAnimationSpeed, MPSAncestralMoonCasterProjectile, GPSAncestralMoonWave, GSAncestralMooncasterWave
++|name                             = Tidecaller
++|size                             = 3
++|minimum_attack_distance          = 5
++|maximum_attack_distance          = 14
++|model_size_multiplier            = 1.0
++|experience_multiplier            = 1.0
++|damage_multiplier                = 1.5
++|health_multiplier                = 2.5
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.5
++}}

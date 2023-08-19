@@ -1,0 +1,11 @@
+--- Monster:Metadata/Monsters/LeagueIncursion/VaalSaucerBoss
++++ Export
+@@ -1,7 +1,7 @@
+ {{Monster
+ |metadata_id                      = Metadata/Monsters/LeagueIncursion/VaalSaucerBoss
+ |monster_type_id                  = VaalSaucerBoss
+-|mod_ids                          = CannotBeSlowedBelowValueBosses, ElderNoEnergyShieldRecharge, ElderEnergyShieldStartsAtZero, MonsterChaosTakenOnES, MonsterImplicitCannotBeStunned1, MonsterIncursionBoss
++|mod_ids                          = CannotBeSlowedBelowValueBosses, ElderNoEnergyShieldRecharge, ElderEnergyShieldStartsAtZero, MonsterChaosTakenOnES, MonsterIncursionBoss, StunRepeatImmunityMapBoss_
+ |tags                             = bludgeoning_weapon, caster, construct, fire_affinity, incursion_temple_boss, is_unarmed, medium_height, not_dex, stone_armour, unique_map_boss, very_slow_movement
+ |skill_ids                        = EmptyActionCommandTurrets1, EmptyActionCommandTurrets2, EmptyActionCommandTurrets3, IncursionSaucerFlying, VaalSaucerTranslateRotate1, VaalSaucerTranslateRotate2, VaalSaucerTranslateRotate3, VaalSaucerTranslateRotate4, VaalSaucerTranslateRotate5, VaalSaucerTranslateRotate6, VaalSaucerTranslateRotate7, VaalSaucerTranslateRotate8, IncursionSaucerWait, VaalSaucerTranslateRotate9, VaalSaucerTranslateRotate10, VaalSaucerTranslateRotate11, VaalSaucerTranslateRotate12, VaalSaucerTranslateRotate13, VaalSaucerTranslateRotate14, VaalSaucerTranslateRotate15, VaalSaucerTranslateRotate16, VaalSaucerTranslateToMiddle, VaalSaucerTranslateRotateFlamethrower, VaalSaucerTranslateRotateDamageWave
+ |name                             = The Vaal Omnitect

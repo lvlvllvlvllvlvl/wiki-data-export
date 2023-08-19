@@ -1,6 +1,6 @@
 --- Module:Crafting bench/crafting bench options costs
 +++ Export
-@@ -164,134 +164,119 @@
+@@ -164,1459 +164,1444 @@
  		amount = 15, 
  	},
  	{
@@ -26,15 +26,35 @@
 +	{
 +		option_id = 56, 
 +		name = "Chaos Orb", 
-+		amount = 3, 
++		amount = 2, 
 +	},
 +	{
 +		option_id = 57, 
 +		name = "Chaos Orb", 
-+		amount = 4, 
++		amount = 3, 
 +	},
 +	{
 +		option_id = 58, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 59, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 60, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 61, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 62, 
 +		name = "Chaos Orb", 
  		amount = 5, 
  	},
@@ -45,12 +65,37 @@
 -	},
 -	{
 -		option_id = 57, 
-+		option_id = 59, 
++		option_id = 63, 
 +		name = "Chaos Orb", 
 +		amount = 6, 
 +	},
 +	{
-+		option_id = 60, 
++		option_id = 64, 
++		name = "Chaos Orb", 
++		amount = 6, 
++	},
++	{
++		option_id = 65, 
++		name = "Chaos Orb", 
++		amount = 6, 
++	},
++	{
++		option_id = 66, 
++		name = "Chaos Orb", 
++		amount = 6, 
++	},
++	{
++		option_id = 67, 
++		name = "Chaos Orb", 
++		amount = 6, 
++	},
++	{
++		option_id = 68, 
++		name = "Chaos Orb", 
++		amount = 8, 
++	},
++	{
++		option_id = 69, 
  		name = "Chaos Orb", 
  		amount = 10, 
  	},
@@ -70,26 +115,11 @@
 -		amount = 4, 
 -	},
 -	{
- 		option_id = 61, 
- 		name = "Chaos Orb", 
-+		amount = 12, 
-+	},
-+	{
-+		option_id = 62, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
-+	},
-+	{
-+		option_id = 63, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 64, 
-+		name = "Chaos Orb", 
- 		amount = 5, 
- 	},
- 	{
+-		option_id = 61, 
+-		name = "Chaos Orb", 
+-		amount = 5, 
+-	},
+-	{
 -		option_id = 62, 
 -		name = "Chaos Orb", 
 -		amount = 2, 
@@ -105,32 +135,342 @@
 -		amount = 2, 
 -	},
 -	{
- 		option_id = 65, 
- 		name = "Chaos Orb", 
+-		option_id = 65, 
+-		name = "Chaos Orb", 
 -		amount = 4, 
+-	},
+-	{
+-		option_id = 66, 
++		option_id = 70, 
++		name = "Chaos Orb", 
++		amount = 10, 
++	},
++	{
++		option_id = 71, 
++		name = "Chaos Orb", 
++		amount = 12, 
++	},
++	{
++		option_id = 72, 
++		name = "Orb of Alteration", 
++		amount = 1, 
++	},
++	{
++		option_id = 73, 
++		name = "Orb of Transmutation", 
++		amount = 1, 
++	},
++	{
++		option_id = 74, 
++		name = "Orb of Transmutation", 
++		amount = 1, 
++	},
++	{
++		option_id = 75, 
++		name = "Orb of Transmutation", 
++		amount = 1, 
++	},
++	{
++		option_id = 76, 
++		name = "Orb of Augmentation", 
++		amount = 1, 
++	},
++	{
++		option_id = 77, 
++		name = "Orb of Augmentation", 
++		amount = 1, 
++	},
++	{
++		option_id = 78, 
++		name = "Orb of Augmentation", 
++		amount = 1, 
++	},
++	{
++		option_id = 79, 
++		name = "Orb of Scouring", 
++		amount = 1, 
++	},
++	{
++		option_id = 80, 
++		name = "Orb of Alchemy", 
++		amount = 1, 
++	},
++	{
++		option_id = 81, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 82, 
++		name = "Orb of Alchemy", 
++		amount = 1, 
++	},
++	{
++		option_id = 83, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 84, 
++		name = "Orb of Alchemy", 
++		amount = 1, 
++	},
++	{
++		option_id = 85, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 86, 
++		name = "Orb of Transmutation", 
++		amount = 6, 
++	},
++	{
++		option_id = 87, 
++		name = "Orb of Alchemy", 
++		amount = 1, 
++	},
++	{
++		option_id = 88, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 89, 
++		name = "Orb of Transmutation", 
++		amount = 6, 
++	},
++	{
++		option_id = 90, 
++		name = "Orb of Alchemy", 
++		amount = 1, 
++	},
++	{
++		option_id = 91, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 92, 
++		name = "Orb of Transmutation", 
++		amount = 6, 
++	},
++	{
++		option_id = 93, 
++		name = "Orb of Alchemy", 
++		amount = 1, 
++	},
++	{
++		option_id = 94, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 95, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 96, 
++		name = "Chaos Orb", 
++		amount = 1, 
++	},
++	{
++		option_id = 97, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 98, 
++		name = "Chaos Orb", 
++		amount = 1, 
++	},
++	{
++		option_id = 99, 
++		name = "Orb of Alchemy", 
 +		amount = 2, 
- 	},
- 	{
- 		option_id = 66, 
++	},
++	{
++		option_id = 100, 
 +		name = "Chaos Orb", 
 +		amount = 2, 
 +	},
 +	{
-+		option_id = 67, 
++		option_id = 101, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 102, 
 +		name = "Chaos Orb", 
 +		amount = 2, 
 +	},
 +	{
-+		option_id = 68, 
++		option_id = 103, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 104, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 105, 
++		name = "Orb of Chance", 
++		amount = 3, 
++	},
++	{
++		option_id = 106, 
++		name = "Orb of Chance", 
++		amount = 6, 
++	},
++	{
++		option_id = 107, 
++		name = "Orb of Augmentation", 
++		amount = 3, 
++	},
++	{
++		option_id = 108, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 109, 
 +		name = "Chaos Orb", 
 +		amount = 4, 
 +	},
 +	{
-+		option_id = 69, 
++		option_id = 110, 
++		name = "Orb of Transmutation", 
++		amount = 6, 
++	},
++	{
++		option_id = 111, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 112, 
++		name = "Orb of Alchemy", 
++		amount = 4, 
++	},
++	{
++		option_id = 113, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 114, 
++		name = "Orb of Chance", 
++		amount = 3, 
++	},
++	{
++		option_id = 115, 
++		name = "Orb of Chance", 
++		amount = 4, 
++	},
++	{
++		option_id = 116, 
++		name = "Orb of Chance", 
++		amount = 3, 
++	},
++	{
++		option_id = 117, 
++		name = "Orb of Chance", 
++		amount = 4, 
++	},
++	{
++		option_id = 118, 
++		name = "Regal Orb", 
++		amount = 1, 
++	},
++	{
++		option_id = 119, 
++		name = "Orb of Augmentation", 
++		amount = 3, 
++	},
++	{
++		option_id = 120, 
++		name = "Orb of Augmentation", 
++		amount = 6, 
++	},
++	{
++		option_id = 121, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 122, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 123, 
++		name = "Orb of Augmentation", 
++		amount = 3, 
++	},
++	{
++		option_id = 124, 
++		name = "Orb of Augmentation", 
++		amount = 6, 
++	},
++	{
++		option_id = 125, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 126, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 127, 
++		name = "Orb of Augmentation", 
++		amount = 3, 
++	},
++	{
++		option_id = 128, 
++		name = "Orb of Augmentation", 
++		amount = 6, 
++	},
++	{
++		option_id = 129, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 130, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 131, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 132, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 133, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 134, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 135, 
  		name = "Exalted Orb", 
- 		amount = 3, 
- 	},
- 	{
+-		amount = 3, 
+-	},
+-	{
 -		option_id = 67, 
 -		name = "Chaos Orb", 
 -		amount = 6, 
@@ -142,43 +482,25 @@
 -	},
 -	{
 -		option_id = 69, 
-+		option_id = 70, 
-+		name = "Chaos Orb", 
-+		amount = 6, 
-+	},
-+	{
-+		option_id = 71, 
-+		name = "Chaos Orb", 
-+		amount = 6, 
-+	},
-+	{
-+		option_id = 72, 
- 		name = "Chaos Orb", 
- 		amount = 5, 
- 	},
- 	{
+-		name = "Chaos Orb", 
+-		amount = 5, 
+-	},
+-	{
 -		option_id = 70, 
-+		option_id = 73, 
- 		name = "Chaos Orb", 
- 		amount = 12, 
- 	},
- 	{
+-		name = "Chaos Orb", 
+-		amount = 12, 
+-	},
+-	{
 -		option_id = 71, 
 -		name = "Chaos Orb", 
 -		amount = 2, 
 -	},
 -	{
 -		option_id = 72, 
-+		option_id = 74, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
-+	},
-+	{
-+		option_id = 75, 
- 		name = "Chaos Orb", 
- 		amount = 12, 
- 	},
- 	{
+-		name = "Chaos Orb", 
+-		amount = 12, 
+-	},
+-	{
 -		option_id = 73, 
 -		name = "Chaos Orb", 
 -		amount = 3, 
@@ -194,128 +516,1068 @@
 -		amount = 2, 
 -	},
 -	{
- 		option_id = 76, 
- 		name = "Chaos Orb", 
+-		option_id = 76, 
+-		name = "Chaos Orb", 
 -		amount = 2, 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 77, 
- 		name = "Chaos Orb", 
+-	},
+-	{
+-		option_id = 77, 
+-		name = "Chaos Orb", 
 -		amount = 2, 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 78, 
-@@ -321,112 +306,112 @@
- 	{
- 		option_id = 83, 
- 		name = "Chaos Orb", 
--		amount = 6, 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 84, 
- 		name = "Chaos Orb", 
--		amount = 6, 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 85, 
- 		name = "Chaos Orb", 
--		amount = 6, 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 86, 
- 		name = "Chaos Orb", 
+-	},
+-	{
+-		option_id = 78, 
+-		name = "Chaos Orb", 
 -		amount = 2, 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 87, 
- 		name = "Chaos Orb", 
+-	},
+-	{
+-		option_id = 79, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 80, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 81, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 82, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 83, 
+-		name = "Chaos Orb", 
+-		amount = 6, 
+-	},
+-	{
+-		option_id = 84, 
+-		name = "Chaos Orb", 
+-		amount = 6, 
+-	},
+-	{
+-		option_id = 85, 
+-		name = "Chaos Orb", 
+-		amount = 6, 
+-	},
+-	{
+-		option_id = 86, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 87, 
+-		name = "Chaos Orb", 
 -		amount = 3, 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 88, 
- 		name = "Chaos Orb", 
+-	},
+-	{
+-		option_id = 88, 
+-		name = "Chaos Orb", 
 -		amount = 3, 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 89, 
- 		name = "Chaos Orb", 
+-	},
+-	{
+-		option_id = 89, 
+-		name = "Chaos Orb", 
 -		amount = 3, 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 90, 
+-	},
+-	{
+-		option_id = 90, 
 -		name = "Orb of Alteration", 
 -		amount = 1, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 91, 
+-	},
+-	{
+-		option_id = 91, 
 -		name = "Orb of Transmutation", 
 -		amount = 1, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 92, 
+-	},
+-	{
+-		option_id = 92, 
 -		name = "Orb of Transmutation", 
 -		amount = 1, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 93, 
+-	},
+-	{
+-		option_id = 93, 
 -		name = "Orb of Transmutation", 
+-		amount = 1, 
+-	},
+-	{
+-		option_id = 94, 
++		amount = 1, 
++	},
++	{
++		option_id = 136, 
 +		name = "Orb of Alteration", 
- 		amount = 1, 
- 	},
- 	{
- 		option_id = 94, 
-+		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 137, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 138, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 139, 
++		name = "Exalted Orb", 
 +		amount = 1, 
 +	},
 +	{
-+		option_id = 95, 
-+		name = "Orb of Transmutation", 
++		option_id = 140, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 141, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 142, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 143, 
++		name = "Exalted Orb", 
 +		amount = 1, 
 +	},
 +	{
-+		option_id = 96, 
-+		name = "Orb of Transmutation", 
++		option_id = 144, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 145, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 146, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 147, 
++		name = "Orb of Alchemy", 
++		amount = 4, 
++	},
++	{
++		option_id = 148, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 149, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 150, 
++		name = "Exalted Orb", 
 +		amount = 1, 
 +	},
 +	{
-+		option_id = 97, 
++		option_id = 151, 
++		name = "Exalted Orb", 
++		amount = 1, 
++	},
++	{
++		option_id = 152, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 153, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 154, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 155, 
++		name = "Exalted Orb", 
++		amount = 1, 
++	},
++	{
++		option_id = 156, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 157, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 158, 
++		name = "Exalted Orb", 
++		amount = 1, 
++	},
++	{
++		option_id = 159, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 160, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 161, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 162, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 163, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 164, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 165, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 166, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 167, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 168, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 169, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 170, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 171, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 172, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 173, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 174, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 175, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 176, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 177, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 178, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 179, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 180, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 181, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 182, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 183, 
++		name = "Orb of Chance", 
++		amount = 2, 
++	},
++	{
++		option_id = 184, 
++		name = "Orb of Chance", 
++		amount = 4, 
++	},
++	{
++		option_id = 185, 
++		name = "Regal Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 186, 
++		name = "Orb of Chance", 
++		amount = 2, 
++	},
++	{
++		option_id = 187, 
++		name = "Orb of Chance", 
++		amount = 4, 
++	},
++	{
++		option_id = 188, 
++		name = "Regal Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 189, 
++		name = "Orb of Chance", 
++		amount = 3, 
++	},
++	{
++		option_id = 190, 
++		name = "Orb of Alchemy", 
++		amount = 3, 
++	},
++	{
++		option_id = 191, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 192, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 193, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 194, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 195, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 196, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 197, 
++		name = "Orb of Chance", 
++		amount = 3, 
++	},
++	{
++		option_id = 198, 
++		name = "Orb of Alchemy", 
++		amount = 3, 
++	},
++	{
++		option_id = 199, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 200, 
++		name = "Orb of Alchemy", 
++		amount = 1, 
++	},
++	{
++		option_id = 201, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 202, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 203, 
++		name = "Orb of Alchemy", 
++		amount = 1, 
++	},
++	{
++		option_id = 204, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 205, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 206, 
++		name = "Orb of Alchemy", 
++		amount = 1, 
++	},
++	{
++		option_id = 207, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 208, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 209, 
++		name = "Orb of Alchemy", 
++		amount = 1, 
++	},
++	{
++		option_id = 210, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 211, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 212, 
++		name = "Orb of Alchemy", 
++		amount = 1, 
++	},
++	{
++		option_id = 213, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 214, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 215, 
++		name = "Orb of Alchemy", 
++		amount = 1, 
++	},
++	{
++		option_id = 216, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 217, 
++		name = "Chaos Orb", 
++		amount = 1, 
++	},
++	{
++		option_id = 218, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 219, 
++		name = "Orb of Alchemy", 
++		amount = 1, 
++	},
++	{
++		option_id = 220, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 221, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 222, 
++		name = "Orb of Alchemy", 
++		amount = 1, 
++	},
++	{
++		option_id = 223, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 224, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 225, 
++		name = "Orb of Alchemy", 
++		amount = 1, 
++	},
++	{
++		option_id = 226, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 227, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 228, 
++		name = "Orb of Alchemy", 
++		amount = 1, 
++	},
++	{
++		option_id = 229, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 230, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 231, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 232, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 233, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 234, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 235, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 236, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 237, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 238, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 239, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 240, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 241, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 242, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 243, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 244, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 245, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 246, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 247, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 248, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 249, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 250, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 251, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 252, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 253, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 254, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 255, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 256, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 257, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 258, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 259, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 260, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 261, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 262, 
++		name = "Orb of Transmutation", 
++		amount = 6, 
++	},
++	{
++		option_id = 263, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 264, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 265, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 266, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 267, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 268, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 269, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 270, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 271, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 272, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 273, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 274, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 275, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 276, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 277, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 278, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 279, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 280, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 281, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 282, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 283, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 284, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 285, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 286, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 287, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 288, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 289, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 290, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 291, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 292, 
++		name = "Orb of Alteration", 
++		amount = 9, 
++	},
++	{
++		option_id = 293, 
++		name = "Chaos Orb", 
++		amount = 1, 
++	},
++	{
++		option_id = 294, 
++		name = "Glassblower's Bauble", 
++		amount = 2, 
++	},
++	{
++		option_id = 295, 
++		name = "Glassblower's Bauble", 
++		amount = 4, 
++	},
++	{
++		option_id = 296, 
++		name = "Regal Orb", 
++		amount = 1, 
++	},
++	{
++		option_id = 297, 
++		name = "Regal Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 298, 
++		name = "Chaos Orb", 
++		amount = 1, 
++	},
++	{
++		option_id = 299, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 300, 
++		name = "Chaos Orb", 
++		amount = 1, 
++	},
++	{
++		option_id = 301, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 302, 
++		name = "Orb of Alteration", 
++		amount = 9, 
++	},
++	{
++		option_id = 303, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 304, 
++		name = "Orb of Chance", 
++		amount = 4, 
++	},
++	{
++		option_id = 305, 
++		name = "Regal Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 306, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 307, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 308, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 309, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 310, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 311, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 312, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 313, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 314, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 315, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 316, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 317, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 318, 
++		name = "Regal Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 319, 
++		name = "Chaos Orb", 
++		amount = 1, 
++	},
++	{
++		option_id = 320, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 321, 
  		name = "Orb of Augmentation", 
- 		amount = 1, 
- 	},
- 	{
+-		amount = 1, 
+-	},
+-	{
 -		option_id = 95, 
-+		option_id = 98, 
++		amount = 4, 
++	},
++	{
++		option_id = 322, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 323, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 324, 
  		name = "Orb of Augmentation", 
- 		amount = 1, 
- 	},
- 	{
+-		amount = 1, 
+-	},
+-	{
 -		option_id = 96, 
-+		option_id = 99, 
++		amount = 4, 
++	},
++	{
++		option_id = 325, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 326, 
  		name = "Orb of Augmentation", 
- 		amount = 1, 
- 	},
- 	{
+-		amount = 1, 
+-	},
+-	{
 -		option_id = 97, 
-+		option_id = 100, 
- 		name = "Orb of Scouring", 
- 		amount = 1, 
- 	},
- 	{
+-		name = "Orb of Scouring", 
+-		amount = 1, 
+-	},
+-	{
 -		option_id = 98, 
 -		name = "Orb of Alchemy", 
 -		amount = 1, 
@@ -331,135 +1593,145 @@
 -		amount = 1, 
 -	},
 -	{
- 		option_id = 101, 
+-		option_id = 101, 
 -		name = "Chaos Orb", 
 -		amount = 3, 
-+		name = "Orb of Alchemy", 
-+		amount = 1, 
- 	},
- 	{
- 		option_id = 102, 
+-	},
+-	{
+-		option_id = 102, 
 -		name = "Orb of Alchemy", 
 -		amount = 1, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 103, 
+-	},
+-	{
+-		option_id = 103, 
 -		name = "Chaos Orb", 
 -		amount = 3, 
-+		name = "Orb of Alchemy", 
-+		amount = 1, 
- 	},
- 	{
- 		option_id = 104, 
+-	},
+-	{
+-		option_id = 104, 
 -		name = "Orb of Transmutation", 
 -		amount = 6, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 105, 
-@@ -470,308 +455,308 @@
- 	},
- 	{
- 		option_id = 113, 
--		name = "Orb of Alteration", 
-+		name = "Orb of Transmutation", 
- 		amount = 6, 
- 	},
- 	{
- 		option_id = 114, 
+-	},
+-	{
+-		option_id = 105, 
+-		name = "Orb of Alchemy", 
+-		amount = 1, 
+-	},
+-	{
+-		option_id = 106, 
 -		name = "Chaos Orb", 
-+		name = "Orb of Alchemy", 
- 		amount = 1, 
- 	},
- 	{
- 		option_id = 115, 
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 107, 
+-		name = "Orb of Transmutation", 
+-		amount = 6, 
+-	},
+-	{
+-		option_id = 108, 
+-		name = "Orb of Alchemy", 
+-		amount = 1, 
+-	},
+-	{
+-		option_id = 109, 
+-		name = "Chaos Orb", 
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 110, 
+-		name = "Orb of Transmutation", 
+-		amount = 6, 
+-	},
+-	{
+-		option_id = 111, 
+-		name = "Orb of Alchemy", 
+-		amount = 1, 
+-	},
+-	{
+-		option_id = 112, 
+-		name = "Chaos Orb", 
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 113, 
 -		name = "Orb of Alteration", 
 -		amount = 6, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 116, 
+-	},
+-	{
+-		option_id = 114, 
 -		name = "Chaos Orb", 
 -		amount = 1, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 117, 
+-	},
+-	{
+-		option_id = 115, 
+-		name = "Orb of Alteration", 
+-		amount = 6, 
+-	},
+-	{
+-		option_id = 116, 
+-		name = "Chaos Orb", 
+-		amount = 1, 
+-	},
+-	{
+-		option_id = 117, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Chaos Orb", 
-+		amount = 1, 
- 	},
- 	{
- 		option_id = 118, 
+-	},
+-	{
+-		option_id = 118, 
 -		name = "Chaos Orb", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 119, 
+-	},
+-	{
+-		option_id = 119, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Chaos Orb", 
-+		amount = 1, 
- 	},
- 	{
- 		option_id = 120, 
+-	},
+-	{
+-		option_id = 120, 
 -		name = "Chaos Orb", 
-+		name = "Orb of Alchemy", 
- 		amount = 2, 
- 	},
- 	{
- 		option_id = 121, 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 121, 
 -		name = "Orb of Alchemy", 
-+		name = "Chaos Orb", 
- 		amount = 2, 
- 	},
- 	{
- 		option_id = 122, 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 122, 
 -		name = "Chaos Orb", 
-+		name = "Orb of Alchemy", 
- 		amount = 2, 
- 	},
- 	{
- 		option_id = 123, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
-+	},
-+	{
-+		option_id = 124, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
-+	},
-+	{
-+		option_id = 125, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
-+	},
-+	{
-+		option_id = 126, 
- 		name = "Orb of Chance", 
- 		amount = 3, 
- 	},
- 	{
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 123, 
+-		name = "Orb of Chance", 
+-		amount = 3, 
+-	},
+-	{
 -		option_id = 124, 
-+		option_id = 127, 
- 		name = "Orb of Chance", 
- 		amount = 6, 
- 	},
- 	{
+-		name = "Orb of Chance", 
+-		amount = 6, 
+-	},
+-	{
 -		option_id = 125, 
-+		option_id = 128, 
++		amount = 4, 
++	},
++	{
++		option_id = 327, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 328, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 329, 
  		name = "Orb of Augmentation", 
- 		amount = 3, 
- 	},
- 	{
+-		amount = 3, 
+-	},
+-	{
 -		option_id = 126, 
 -		name = "Chaos Orb", 
 -		amount = 2, 
@@ -475,75 +1747,103 @@
 -		amount = 6, 
 -	},
 -	{
- 		option_id = 129, 
+-		option_id = 129, 
 -		name = "Orb of Alchemy", 
-+		name = "Chaos Orb", 
- 		amount = 2, 
- 	},
- 	{
- 		option_id = 130, 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 130, 
 -		name = "Orb of Alchemy", 
-+		name = "Chaos Orb", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 131, 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 131, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Transmutation", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 132, 
+-	},
+-	{
+-		option_id = 132, 
 -		name = "Orb of Chance", 
 -		amount = 3, 
+-	},
+-	{
+-		option_id = 133, 
+-		name = "Orb of Chance", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 134, 
+-		name = "Orb of Chance", 
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 135, 
+-		name = "Orb of Chance", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 136, 
+-		name = "Regal Orb", 
+-		amount = 1, 
+-	},
+-	{
+-		option_id = 137, 
++		amount = 4, 
++	},
++	{
++		option_id = 330, 
 +		name = "Orb of Alchemy", 
 +		amount = 2, 
- 	},
- 	{
- 		option_id = 133, 
--		name = "Orb of Chance", 
-+		name = "Orb of Alchemy", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 134, 
--		name = "Orb of Chance", 
--		amount = 3, 
++	},
++	{
++		option_id = 331, 
 +		name = "Chaos Orb", 
 +		amount = 4, 
- 	},
- 	{
- 		option_id = 135, 
- 		name = "Orb of Chance", 
--		amount = 4, 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 136, 
-+		name = "Orb of Chance", 
++	},
++	{
++		option_id = 332, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 333, 
++		name = "Chaos Orb", 
 +		amount = 4, 
 +	},
 +	{
-+		option_id = 137, 
-+		name = "Orb of Chance", 
-+		amount = 3, 
++		option_id = 334, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
 +	},
 +	{
-+		option_id = 138, 
-+		name = "Orb of Chance", 
++		option_id = 335, 
++		name = "Chaos Orb", 
 +		amount = 4, 
 +	},
 +	{
-+		option_id = 139, 
- 		name = "Regal Orb", 
- 		amount = 1, 
- 	},
- 	{
--		option_id = 137, 
-+		option_id = 140, 
++		option_id = 336, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 337, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 338, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 339, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 340, 
  		name = "Orb of Augmentation", 
- 		amount = 3, 
+-		amount = 3, 
 -	},
 -	{
 -		option_id = 138, 
@@ -559,26 +1859,15 @@
 -		option_id = 140, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
- 	},
- 	{
- 		option_id = 141, 
- 		name = "Orb of Augmentation", 
+-	},
+-	{
+-		option_id = 141, 
+-		name = "Orb of Augmentation", 
 -		amount = 3, 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 142, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
-+	},
-+	{
-+		option_id = 143, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 144, 
- 		name = "Orb of Augmentation", 
+-	},
+-	{
+-		option_id = 142, 
+-		name = "Orb of Augmentation", 
 -		amount = 6, 
 -	},
 -	{
@@ -590,27 +1879,15 @@
 -		option_id = 144, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 145, 
- 		name = "Orb of Augmentation", 
+-	},
+-	{
+-		option_id = 145, 
+-		name = "Orb of Augmentation", 
 -		amount = 3, 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 146, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
-+	},
-+	{
-+		option_id = 147, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 148, 
- 		name = "Orb of Augmentation", 
+-	},
+-	{
+-		option_id = 146, 
+-		name = "Orb of Augmentation", 
 -		amount = 6, 
 -	},
 -	{
@@ -622,56 +1899,33 @@
 -		option_id = 148, 
 -		name = "Orb of Alteration", 
 -		amount = 6, 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 149, 
+-	},
+-	{
+-		option_id = 149, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Augmentation", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 150, 
+-	},
+-	{
+-		option_id = 150, 
 -		name = "Orb of Alteration", 
 -		amount = 4, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 151, 
- 		name = "Orb of Alteration", 
+-	},
+-	{
+-		option_id = 151, 
+-		name = "Orb of Alteration", 
 -		amount = 8, 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 152, 
+-	},
+-	{
+-		option_id = 152, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 153, 
-+		name = "Orb of Alteration", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 154, 
-+		name = "Orb of Alteration", 
-+		amount = 8, 
-+	},
-+	{
-+		option_id = 155, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 156, 
- 		name = "Exalted Orb", 
- 		amount = 1, 
- 	},
- 	{
+-	},
+-	{
+-		option_id = 153, 
+-		name = "Exalted Orb", 
+-		amount = 1, 
+-	},
+-	{
 -		option_id = 154, 
 -		name = "Orb of Alteration", 
 -		amount = 4, 
@@ -687,26 +1941,11 @@
 -		amount = 4, 
 -	},
 -	{
- 		option_id = 157, 
-+		name = "Orb of Alteration", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 158, 
-+		name = "Orb of Alteration", 
-+		amount = 8, 
-+	},
-+	{
-+		option_id = 159, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 160, 
- 		name = "Exalted Orb", 
- 		amount = 1, 
- 	},
- 	{
+-		option_id = 157, 
+-		name = "Exalted Orb", 
+-		amount = 1, 
+-	},
+-	{
 -		option_id = 158, 
 -		name = "Orb of Alteration", 
 -		amount = 4, 
@@ -722,26 +1961,11 @@
 -		amount = 4, 
 -	},
 -	{
- 		option_id = 161, 
-+		name = "Orb of Alteration", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 162, 
-+		name = "Orb of Alteration", 
-+		amount = 8, 
-+	},
-+	{
-+		option_id = 163, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 164, 
- 		name = "Exalted Orb", 
- 		amount = 1, 
- 	},
- 	{
+-		option_id = 161, 
+-		name = "Exalted Orb", 
+-		amount = 1, 
+-	},
+-	{
 -		option_id = 162, 
 -		name = "Orb of Alteration", 
 -		amount = 6, 
@@ -757,53 +1981,31 @@
 -		amount = 6, 
 -	},
 -	{
- 		option_id = 165, 
+-		option_id = 165, 
 -		name = "Orb of Alchemy", 
 -		amount = 4, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 166, 
+-	},
+-	{
+-		option_id = 166, 
 -		name = "Orb of Alteration", 
 -		amount = 6, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 167, 
+-	},
+-	{
+-		option_id = 167, 
 -		name = "Chaos Orb", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 168, 
-+		name = "Orb of Alchemy", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 169, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
-+	},
-+	{
-+		option_id = 170, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
-+	},
-+	{
-+		option_id = 171, 
- 		name = "Exalted Orb", 
- 		amount = 1, 
- 	},
- 	{
+-	},
+-	{
+-		option_id = 168, 
+-		name = "Exalted Orb", 
+-		amount = 1, 
+-	},
+-	{
 -		option_id = 169, 
-+		option_id = 172, 
- 		name = "Exalted Orb", 
- 		amount = 1, 
- 	},
- 	{
+-		name = "Exalted Orb", 
+-		amount = 1, 
+-	},
+-	{
 -		option_id = 170, 
 -		name = "Chaos Orb", 
 -		amount = 2, 
@@ -819,208 +2021,221 @@
 -		amount = 2, 
 -	},
 -	{
- 		option_id = 173, 
+-		option_id = 173, 
 -		name = "Exalted Orb", 
 -		amount = 1, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 174, 
-@@ -791,17 +776,17 @@
- 	{
- 		option_id = 177, 
- 		name = "Orb of Alteration", 
+-	},
+-	{
+-		option_id = 174, 
+-		name = "Orb of Alteration", 
+-		amount = 6, 
+-	},
+-	{
+-		option_id = 175, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 176, 
+-		name = "Exalted Orb", 
+-		amount = 1, 
+-	},
+-	{
+-		option_id = 177, 
+-		name = "Orb of Alteration", 
 -		amount = 4, 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 178, 
+-	},
+-	{
+-		option_id = 178, 
 -		name = "Orb of Alteration", 
 -		amount = 8, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 179, 
+-	},
+-	{
+-		option_id = 179, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Exalted Orb", 
-+		amount = 1, 
- 	},
- 	{
- 		option_id = 180, 
-@@ -820,28 +805,28 @@
- 	},
- 	{
- 		option_id = 183, 
--		name = "Orb of Transmutation", 
-+		name = "Orb of Alteration", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 184, 
--		name = "Orb of Alchemy", 
--		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 185, 
+-	},
+-	{
+-		option_id = 180, 
 -		name = "Orb of Alteration", 
-+		name = "Chaos Orb", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 186, 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 181, 
 -		name = "Orb of Alteration", 
 -		amount = 8, 
-+		name = "Orb of Transmutation", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 187, 
+-	},
+-	{
+-		option_id = 182, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 188, 
-@@ -860,28 +845,28 @@
- 	},
- 	{
- 		option_id = 191, 
+-	},
+-	{
+-		option_id = 183, 
 -		name = "Orb of Transmutation", 
-+		name = "Orb of Alteration", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 192, 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 184, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 193, 
+-	},
+-	{
+-		option_id = 185, 
 -		name = "Orb of Alteration", 
-+		name = "Chaos Orb", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 194, 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 186, 
 -		name = "Orb of Alteration", 
 -		amount = 8, 
-+		name = "Orb of Transmutation", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 195, 
+-	},
+-	{
+-		option_id = 187, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 196, 
-@@ -900,28 +885,28 @@
- 	},
- 	{
- 		option_id = 199, 
+-	},
+-	{
+-		option_id = 188, 
+-		name = "Orb of Alteration", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 189, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 190, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 191, 
 -		name = "Orb of Transmutation", 
-+		name = "Orb of Alteration", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 200, 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 192, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 201, 
+-	},
+-	{
+-		option_id = 193, 
+-		name = "Orb of Alteration", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 194, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 195, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 196, 
+-		name = "Orb of Alteration", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 197, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 198, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 199, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 200, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 201, 
 -		name = "Orb of Chance", 
 -		amount = 2, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 202, 
+-	},
+-	{
+-		option_id = 202, 
 -		name = "Orb of Chance", 
-+		name = "Orb of Transmutation", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 203, 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 203, 
 -		name = "Regal Orb", 
 -		amount = 3, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 204, 
-@@ -941,27 +926,27 @@
- 	{
- 		option_id = 207, 
- 		name = "Orb of Chance", 
+-	},
+-	{
+-		option_id = 204, 
+-		name = "Orb of Chance", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 205, 
+-		name = "Orb of Chance", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 206, 
+-		name = "Regal Orb", 
 -		amount = 3, 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 208, 
+-	},
+-	{
+-		option_id = 207, 
+-		name = "Orb of Chance", 
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 208, 
 -		name = "Orb of Alchemy", 
 -		amount = 3, 
-+		name = "Orb of Chance", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 209, 
+-	},
+-	{
+-		option_id = 209, 
 -		name = "Orb of Transmutation", 
 -		amount = 4, 
-+		name = "Regal Orb", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 210, 
+-	},
+-	{
+-		option_id = 210, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Chance", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 211, 
+-	},
+-	{
+-		option_id = 211, 
 -		name = "Chaos Orb", 
 -		amount = 2, 
-+		name = "Orb of Alchemy", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 212, 
-@@ -980,28 +965,28 @@
- 	},
- 	{
- 		option_id = 215, 
-+		name = "Orb of Transmutation", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 216, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
-+	},
-+	{
-+		option_id = 217, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
-+	},
-+	{
-+		option_id = 218, 
- 		name = "Orb of Chance", 
- 		amount = 3, 
- 	},
- 	{
+-	},
+-	{
+-		option_id = 212, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 213, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 214, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 215, 
+-		name = "Orb of Chance", 
+-		amount = 3, 
+-	},
+-	{
 -		option_id = 216, 
 -		name = "Orb of Alchemy", 
 -		amount = 3, 
@@ -1036,272 +2251,491 @@
 -		amount = 1, 
 -	},
 -	{
- 		option_id = 219, 
+-		option_id = 219, 
 -		name = "Chaos Orb", 
 -		amount = 2, 
-+		name = "Orb of Alchemy", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 220, 
-@@ -1080,28 +1065,28 @@
- 	},
- 	{
- 		option_id = 235, 
--		name = "Chaos Orb", 
--		amount = 1, 
-+		name = "Orb of Transmutation", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 236, 
--		name = "Chaos Orb", 
--		amount = 2, 
-+		name = "Orb of Alchemy", 
-+		amount = 1, 
- 	},
- 	{
- 		option_id = 237, 
+-	},
+-	{
+-		option_id = 220, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 221, 
 -		name = "Orb of Alchemy", 
 -		amount = 1, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 238, 
- 		name = "Chaos Orb", 
+-	},
+-	{
+-		option_id = 222, 
+-		name = "Chaos Orb", 
 -		amount = 2, 
-+		amount = 1, 
- 	},
- 	{
- 		option_id = 239, 
+-	},
+-	{
+-		option_id = 223, 
 -		name = "Orb of Transmutation", 
 -		amount = 4, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 240, 
-@@ -1151,12 +1136,12 @@
- 	{
- 		option_id = 249, 
- 		name = "Orb of Alchemy", 
+-	},
+-	{
+-		option_id = 224, 
+-		name = "Orb of Alchemy", 
+-		amount = 1, 
+-	},
+-	{
+-		option_id = 225, 
+-		name = "Chaos Orb", 
 -		amount = 2, 
-+		amount = 1, 
- 	},
- 	{
- 		option_id = 250, 
- 		name = "Chaos Orb", 
--		amount = 4, 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 251, 
-@@ -1185,18 +1170,18 @@
- 	},
- 	{
- 		option_id = 256, 
+-	},
+-	{
+-		option_id = 226, 
 -		name = "Orb of Transmutation", 
-+		name = "Chaos Orb", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 257, 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 227, 
+-		name = "Orb of Alchemy", 
+-		amount = 1, 
+-	},
+-	{
+-		option_id = 228, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 229, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 230, 
+-		name = "Orb of Alchemy", 
+-		amount = 1, 
+-	},
+-	{
+-		option_id = 231, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 232, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 233, 
+-		name = "Orb of Alchemy", 
+-		amount = 1, 
+-	},
+-	{
+-		option_id = 234, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 235, 
+-		name = "Chaos Orb", 
+-		amount = 1, 
+-	},
+-	{
+-		option_id = 236, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 237, 
+-		name = "Orb of Alchemy", 
+-		amount = 1, 
+-	},
+-	{
+-		option_id = 238, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 239, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 240, 
+-		name = "Orb of Alchemy", 
+-		amount = 1, 
+-	},
+-	{
+-		option_id = 241, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 242, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 243, 
+-		name = "Orb of Alchemy", 
+-		amount = 1, 
+-	},
+-	{
+-		option_id = 244, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 245, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 246, 
+-		name = "Orb of Alchemy", 
+-		amount = 1, 
+-	},
+-	{
+-		option_id = 247, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 248, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 249, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Transmutation", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 258, 
+-	},
+-	{
+-		option_id = 250, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 259, 
-@@ -1225,18 +1210,18 @@
- 	},
- 	{
- 		option_id = 264, 
+-	},
+-	{
+-		option_id = 251, 
 -		name = "Orb of Transmutation", 
-+		name = "Chaos Orb", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 265, 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 252, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Transmutation", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 266, 
+-	},
+-	{
+-		option_id = 253, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 267, 
-@@ -1265,18 +1250,18 @@
- 	},
- 	{
- 		option_id = 272, 
+-	},
+-	{
+-		option_id = 254, 
 -		name = "Orb of Transmutation", 
-+		name = "Chaos Orb", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 273, 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 255, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Transmutation", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 274, 
+-	},
+-	{
+-		option_id = 256, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 257, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 258, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 275, 
-@@ -1300,33 +1285,33 @@
- 	},
- 	{
- 		option_id = 279, 
+-	},
+-	{
+-		option_id = 259, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 260, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 261, 
 -		name = "Chaos Orb", 
-+		name = "Orb of Alchemy", 
- 		amount = 2, 
- 	},
- 	{
- 		option_id = 280, 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 262, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 263, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 264, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 265, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 266, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 267, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 268, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 269, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 270, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 271, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 272, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 273, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 274, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 275, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 276, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 277, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 278, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 279, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 280, 
 -		name = "Orb of Transmutation", 
 -		amount = 6, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 281, 
+-	},
+-	{
+-		option_id = 281, 
 -		name = "Chaos Orb", 
 -		amount = 2, 
-+		name = "Orb of Transmutation", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 282, 
+-	},
+-	{
+-		option_id = 282, 
 -		name = "Orb of Transmutation", 
 -		amount = 4, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 283, 
+-	},
+-	{
+-		option_id = 283, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Transmutation", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 284, 
- 		name = "Chaos Orb", 
+-	},
+-	{
+-		option_id = 284, 
+-		name = "Chaos Orb", 
 -		amount = 4, 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 285, 
-@@ -1405,8 +1390,8 @@
- 	},
- 	{
- 		option_id = 300, 
+-	},
+-	{
+-		option_id = 285, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 286, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 287, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 288, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 289, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 290, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 291, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 292, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 293, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 294, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 295, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 296, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 297, 
+-		name = "Orb of Transmutation", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 298, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 299, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 300, 
 -		name = "Orb of Alteration", 
 -		amount = 6, 
-+		name = "Orb of Transmutation", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 301, 
-@@ -1440,178 +1425,178 @@
- 	},
- 	{
- 		option_id = 307, 
+-	},
+-	{
+-		option_id = 301, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 302, 
 -		name = "Chaos Orb", 
--		amount = 3, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 308, 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 303, 
 -		name = "Orb of Alteration", 
 -		amount = 6, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 309, 
+-	},
+-	{
+-		option_id = 304, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 305, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 306, 
+-		name = "Orb of Alteration", 
+-		amount = 6, 
+-	},
+-	{
+-		option_id = 307, 
 -		name = "Chaos Orb", 
 -		amount = 3, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 310, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
-+	},
-+	{
-+		option_id = 311, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
-+	},
-+	{
-+		option_id = 312, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
-+	},
-+	{
-+		option_id = 313, 
- 		name = "Orb of Alteration", 
- 		amount = 9, 
- 	},
- 	{
+-	},
+-	{
+-		option_id = 308, 
+-		name = "Orb of Alteration", 
+-		amount = 6, 
+-	},
+-	{
+-		option_id = 309, 
+-		name = "Chaos Orb", 
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 310, 
+-		name = "Orb of Alteration", 
+-		amount = 9, 
+-	},
+-	{
 -		option_id = 311, 
 -		name = "Chaos Orb", 
 -		amount = 1, 
 -	},
 -	{
 -		option_id = 312, 
-+		option_id = 314, 
-+		name = "Chaos Orb", 
-+		amount = 1, 
-+	},
-+	{
-+		option_id = 315, 
- 		name = "Glassblower's Bauble", 
- 		amount = 2, 
- 	},
- 	{
+-		name = "Glassblower's Bauble", 
+-		amount = 2, 
+-	},
+-	{
 -		option_id = 313, 
-+		option_id = 316, 
- 		name = "Glassblower's Bauble", 
- 		amount = 4, 
- 	},
- 	{
+-		name = "Glassblower's Bauble", 
+-		amount = 4, 
+-	},
+-	{
 -		option_id = 314, 
-+		option_id = 317, 
- 		name = "Regal Orb", 
- 		amount = 1, 
- 	},
- 	{
+-		name = "Regal Orb", 
+-		amount = 1, 
+-	},
+-	{
 -		option_id = 315, 
-+		option_id = 318, 
- 		name = "Regal Orb", 
- 		amount = 2, 
- 	},
- 	{
+-		name = "Regal Orb", 
+-		amount = 2, 
+-	},
+-	{
 -		option_id = 316, 
 -		name = "Chaos Orb", 
 -		amount = 1, 
@@ -1317,54 +2751,31 @@
 -		amount = 1, 
 -	},
 -	{
- 		option_id = 319, 
- 		name = "Chaos Orb", 
+-		option_id = 319, 
+-		name = "Chaos Orb", 
 -		amount = 2, 
-+		amount = 1, 
- 	},
- 	{
- 		option_id = 320, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
-+	},
-+	{
-+		option_id = 321, 
-+		name = "Chaos Orb", 
-+		amount = 1, 
-+	},
-+	{
-+		option_id = 322, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
-+	},
-+	{
-+		option_id = 323, 
- 		name = "Orb of Alteration", 
- 		amount = 9, 
- 	},
- 	{
+-	},
+-	{
+-		option_id = 320, 
+-		name = "Orb of Alteration", 
+-		amount = 9, 
+-	},
+-	{
 -		option_id = 321, 
 -		name = "Chaos Orb", 
 -		amount = 3, 
 -	},
 -	{
 -		option_id = 322, 
-+		option_id = 324, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
-+	},
-+	{
-+		option_id = 325, 
- 		name = "Orb of Chance", 
- 		amount = 4, 
- 	},
- 	{
+-		name = "Orb of Chance", 
+-		amount = 4, 
+-	},
+-	{
 -		option_id = 323, 
-+		option_id = 326, 
- 		name = "Regal Orb", 
- 		amount = 3, 
- 	},
- 	{
+-		name = "Regal Orb", 
+-		amount = 3, 
+-	},
+-	{
 -		option_id = 324, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
@@ -1380,89 +2791,56 @@
 -		amount = 2, 
 -	},
 -	{
- 		option_id = 327, 
+-		option_id = 327, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 328, 
+-	},
+-	{
+-		option_id = 328, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 329, 
+-	},
+-	{
+-		option_id = 329, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 330, 
+-	},
+-	{
+-		option_id = 330, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 331, 
+-	},
+-	{
+-		option_id = 331, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 332, 
+-	},
+-	{
+-		option_id = 332, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 333, 
+-	},
+-	{
+-		option_id = 333, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 334, 
+-	},
+-	{
+-		option_id = 334, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 335, 
+-	},
+-	{
+-		option_id = 335, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 336, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 337, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
-+	},
-+	{
-+		option_id = 338, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 339, 
- 		name = "Regal Orb", 
- 		amount = 2, 
- 	},
- 	{
+-	},
+-	{
+-		option_id = 336, 
+-		name = "Regal Orb", 
+-		amount = 2, 
+-	},
+-	{
 -		option_id = 337, 
 -		name = "Chaos Orb", 
 -		amount = 1, 
@@ -1478,173 +2856,142 @@
 -		amount = 4, 
 -	},
 -	{
- 		option_id = 340, 
+-		option_id = 340, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Chaos Orb", 
-+		amount = 1, 
++		amount = 6, 
  	},
  	{
  		option_id = 341, 
- 		name = "Chaos Orb", 
+-		name = "Chaos Orb", 
 -		amount = 3, 
-+		amount = 4, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
  	},
  	{
  		option_id = 342, 
-@@ -1625,18 +1610,18 @@
+ 		name = "Orb of Augmentation", 
+-		amount = 4, 
++		amount = 6, 
  	},
+ 	{
+ 		option_id = 343, 
+@@ -1626,7 +1611,7 @@
  	{
  		option_id = 344, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
-+	},
-+	{
-+		option_id = 345, 
  		name = "Orb of Augmentation", 
- 		amount = 4, 
+-		amount = 4, 
++		amount = 6, 
  	},
  	{
--		option_id = 345, 
--		name = "Orb of Alchemy", 
--		amount = 2, 
--	},
--	{
+ 		option_id = 345, 
+@@ -1635,13 +1620,13 @@
+ 	},
+ 	{
  		option_id = 346, 
 -		name = "Chaos Orb", 
+-		amount = 4, 
++		name = "Orb of Augmentation", 
++		amount = 6, 
+ 	},
+ 	{
+ 		option_id = 347, 
+-		name = "Orb of Augmentation", 
 -		amount = 4, 
 +		name = "Orb of Alchemy", 
 +		amount = 2, 
  	},
  	{
- 		option_id = 347, 
-@@ -1655,133 +1640,118 @@
+ 		option_id = 348, 
+@@ -1650,368 +1635,368 @@
+ 	},
+ 	{
+ 		option_id = 349, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
++		name = "Orb of Alteration", 
++		amount = 6, 
  	},
  	{
  		option_id = 350, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Augmentation", 
-+		amount = 4, 
++		name = "Orb of Alteration", 
++		amount = 6, 
  	},
  	{
  		option_id = 351, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
 +		name = "Orb of Alchemy", 
-+		amount = 2, 
++		amount = 1, 
  	},
  	{
  		option_id = 352, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 353, 
+-	},
+-	{
+-		option_id = 353, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 354, 
+-	},
+-	{
+-		option_id = 354, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 355, 
+-	},
+-	{
+-		option_id = 355, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 356, 
+-	},
+-	{
+-		option_id = 356, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 357, 
+-	},
+-	{
+-		option_id = 357, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 358, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 359, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
-+	},
-+	{
-+		option_id = 360, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 361, 
- 		name = "Orb of Augmentation", 
- 		amount = 6, 
- 	},
- 	{
+-	},
+-	{
+-		option_id = 358, 
+-		name = "Orb of Augmentation", 
+-		amount = 6, 
+-	},
+-	{
 -		option_id = 359, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
 -	},
 -	{
 -		option_id = 360, 
-+		option_id = 362, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
-+	},
-+	{
-+		option_id = 363, 
- 		name = "Orb of Augmentation", 
- 		amount = 6, 
- 	},
- 	{
+-		name = "Orb of Augmentation", 
+-		amount = 6, 
+-	},
+-	{
 -		option_id = 361, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
 -	},
 -	{
 -		option_id = 362, 
-+		option_id = 364, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
-+	},
-+	{
-+		option_id = 365, 
- 		name = "Orb of Augmentation", 
- 		amount = 6, 
- 	},
- 	{
+-		name = "Orb of Augmentation", 
+-		amount = 6, 
+-	},
+-	{
 -		option_id = 363, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
 -	},
 -	{
 -		option_id = 364, 
-+		option_id = 366, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
-+	},
-+	{
-+		option_id = 367, 
- 		name = "Orb of Augmentation", 
- 		amount = 6, 
- 	},
- 	{
+-		name = "Orb of Augmentation", 
+-		amount = 6, 
+-	},
+-	{
 -		option_id = 365, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
@@ -1660,369 +3007,1331 @@
 -		amount = 6, 
 -	},
 -	{
- 		option_id = 368, 
+-		option_id = 368, 
 -		name = "Orb of Alteration", 
 -		amount = 6, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 369, 
- 		name = "Orb of Alchemy", 
+-	},
+-	{
+-		option_id = 369, 
+-		name = "Orb of Alchemy", 
 -		amount = 1, 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 370, 
--		name = "Instilling Orb", 
--		amount = 5, 
 -	},
 -	{
 -		option_id = 370, 
--		name = "Glassblower's Bauble", 
--		amount = 5, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
+ 		name = "Instilling Orb", 
+ 		amount = 5, 
  	},
  	{
- 		option_id = 371, 
--		name = "Instilling Orb", 
--		amount = 5, 
--	},
--	{
+-		option_id = 370, 
++		option_id = 352, 
+ 		name = "Glassblower's Bauble", 
+ 		amount = 5, 
+ 	},
+ 	{
 -		option_id = 371, 
--		name = "Glassblower's Bauble", 
--		amount = 5, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
++		option_id = 353, 
+ 		name = "Instilling Orb", 
+ 		amount = 5, 
  	},
  	{
- 		option_id = 372, 
--		name = "Instilling Orb", 
--		amount = 5, 
--	},
--	{
+-		option_id = 371, 
++		option_id = 353, 
+ 		name = "Glassblower's Bauble", 
+ 		amount = 5, 
+ 	},
+ 	{
 -		option_id = 372, 
--		name = "Glassblower's Bauble", 
--		amount = 5, 
++		option_id = 354, 
+ 		name = "Instilling Orb", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 372, 
++		option_id = 354, 
+ 		name = "Glassblower's Bauble", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 373, 
++		option_id = 355, 
+ 		name = "Instilling Orb", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 373, 
++		option_id = 355, 
+ 		name = "Glassblower's Bauble", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 374, 
++		option_id = 356, 
+ 		name = "Instilling Orb", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 374, 
++		option_id = 356, 
+ 		name = "Glassblower's Bauble", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 375, 
++		option_id = 357, 
+ 		name = "Instilling Orb", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 375, 
++		option_id = 357, 
+ 		name = "Glassblower's Bauble", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 376, 
++		option_id = 358, 
+ 		name = "Instilling Orb", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 376, 
++		option_id = 358, 
+ 		name = "Glassblower's Bauble", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 377, 
++		option_id = 359, 
+ 		name = "Instilling Orb", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 377, 
++		option_id = 359, 
+ 		name = "Glassblower's Bauble", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 378, 
++		option_id = 360, 
+ 		name = "Instilling Orb", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 378, 
++		option_id = 360, 
+ 		name = "Glassblower's Bauble", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 379, 
++		option_id = 361, 
+ 		name = "Instilling Orb", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 379, 
++		option_id = 361, 
+ 		name = "Glassblower's Bauble", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 380, 
++		option_id = 362, 
+ 		name = "Instilling Orb", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 380, 
++		option_id = 362, 
+ 		name = "Glassblower's Bauble", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 381, 
++		option_id = 363, 
+ 		name = "Instilling Orb", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 381, 
++		option_id = 363, 
+ 		name = "Glassblower's Bauble", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 382, 
++		option_id = 364, 
+ 		name = "Instilling Orb", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 382, 
++		option_id = 364, 
+ 		name = "Glassblower's Bauble", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 383, 
++		option_id = 365, 
+ 		name = "Instilling Orb", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 383, 
++		option_id = 365, 
+ 		name = "Glassblower's Bauble", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 384, 
++		option_id = 366, 
+ 		name = "Instilling Orb", 
+ 		amount = 5, 
+ 	},
+ 	{
+-		option_id = 384, 
++		option_id = 366, 
+ 		name = "Glassblower's Bauble", 
+ 		amount = 5, 
+ 	},
+ 	{
++		option_id = 367, 
++		name = "Orb of Scouring", 
++		amount = 3, 
++	},
++	{
++		option_id = 368, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 369, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 370, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 371, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 372, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 373, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 374, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 375, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 376, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 377, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 378, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 379, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 380, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 381, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 382, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 383, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
++	},
++	{
++		option_id = 384, 
 +		name = "Orb of Alchemy", 
-+		amount = 1, 
- 	},
- 	{
- 		option_id = 373, 
-@@ -1905,128 +1875,143 @@
- 	},
- 	{
++		amount = 2, 
++	},
++	{
  		option_id = 385, 
-+		name = "Instilling Orb", 
-+		amount = 5, 
-+	},
-+	{
-+		option_id = 385, 
-+		name = "Glassblower's Bauble", 
-+		amount = 5, 
-+	},
-+	{
-+		option_id = 386, 
-+		name = "Instilling Orb", 
-+		amount = 5, 
-+	},
-+	{
-+		option_id = 386, 
-+		name = "Glassblower's Bauble", 
-+		amount = 5, 
-+	},
-+	{
-+		option_id = 387, 
-+		name = "Instilling Orb", 
-+		amount = 5, 
-+	},
-+	{
-+		option_id = 387, 
-+		name = "Glassblower's Bauble", 
-+		amount = 5, 
-+	},
-+	{
-+		option_id = 388, 
- 		name = "Orb of Scouring", 
- 		amount = 3, 
+-		name = "Orb of Scouring", 
+-		amount = 3, 
++		name = "Orb of Transmutation", 
++		amount = 4, 
  	},
  	{
--		option_id = 386, 
+ 		option_id = 386, 
 -		name = "Chaos Orb", 
--		amount = 2, 
--	},
--	{
--		option_id = 387, 
++		name = "Orb of Alchemy", 
+ 		amount = 2, 
+ 	},
+ 	{
+ 		option_id = 387, 
 -		name = "Orb of Alteration", 
--		amount = 4, 
--	},
--	{
--		option_id = 388, 
++		name = "Orb of Transmutation", 
+ 		amount = 4, 
+ 	},
+ 	{
+ 		option_id = 388, 
 -		name = "Chaos Orb", 
--		amount = 2, 
--	},
--	{
++		name = "Orb of Alchemy", 
+ 		amount = 2, 
+ 	},
+ 	{
  		option_id = 389, 
 -		name = "Orb of Alteration", 
 -		amount = 4, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
++		name = "Orb of Alchemy", 
++		amount = 3, 
  	},
  	{
  		option_id = 390, 
--		name = "Chaos Orb", 
+ 		name = "Chaos Orb", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 4, 
++		amount = 3, 
  	},
  	{
  		option_id = 391, 
 -		name = "Orb of Alteration", 
 -		amount = 4, 
 +		name = "Chaos Orb", 
-+		amount = 2, 
++		amount = 8, 
  	},
  	{
  		option_id = 392, 
 -		name = "Chaos Orb", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 4, 
++		name = "Orb of Alchemy", 
++		amount = 3, 
  	},
  	{
  		option_id = 393, 
 -		name = "Orb of Alteration", 
 -		amount = 4, 
 +		name = "Chaos Orb", 
-+		amount = 2, 
++		amount = 3, 
  	},
  	{
  		option_id = 394, 
--		name = "Chaos Orb", 
+ 		name = "Chaos Orb", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 4, 
++		amount = 8, 
  	},
  	{
  		option_id = 395, 
 -		name = "Orb of Alteration", 
 -		amount = 4, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
++		name = "Orb of Alchemy", 
++		amount = 3, 
  	},
  	{
  		option_id = 396, 
--		name = "Chaos Orb", 
+ 		name = "Chaos Orb", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 4, 
++		amount = 3, 
  	},
  	{
  		option_id = 397, 
 -		name = "Orb of Alteration", 
 -		amount = 4, 
 +		name = "Chaos Orb", 
-+		amount = 2, 
++		amount = 8, 
  	},
  	{
  		option_id = 398, 
 -		name = "Chaos Orb", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 4, 
++		name = "Orb of Alchemy", 
++		amount = 3, 
  	},
  	{
  		option_id = 399, 
 -		name = "Orb of Alteration", 
 -		amount = 4, 
 +		name = "Chaos Orb", 
-+		amount = 2, 
++		amount = 3, 
  	},
  	{
  		option_id = 400, 
--		name = "Chaos Orb", 
+ 		name = "Chaos Orb", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 4, 
++		amount = 8, 
  	},
  	{
  		option_id = 401, 
 -		name = "Orb of Transmutation", 
 -		amount = 4, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
++		name = "Orb of Alchemy", 
++		amount = 3, 
  	},
  	{
  		option_id = 402, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 4, 
++		name = "Chaos Orb", 
++		amount = 3, 
  	},
  	{
  		option_id = 403, 
 -		name = "Orb of Transmutation", 
 -		amount = 4, 
 +		name = "Chaos Orb", 
-+		amount = 2, 
++		amount = 8, 
  	},
  	{
  		option_id = 404, 
--		name = "Orb of Alchemy", 
+ 		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Transmutation", 
-+		amount = 4, 
++		amount = 3, 
  	},
  	{
  		option_id = 405, 
 -		name = "Orb of Transmutation", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
++		name = "Chaos Orb", 
++		amount = 3, 
  	},
  	{
  		option_id = 406, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Transmutation", 
-+		amount = 4, 
++		name = "Chaos Orb", 
++		amount = 8, 
  	},
  	{
  		option_id = 407, 
- 		name = "Orb of Alchemy", 
+@@ -2105,708 +2090,708 @@
+ 	},
+ 	{
+ 		option_id = 425, 
+-		name = "Orb of Alchemy", 
+-		amount = 3, 
++		name = "Orb of Transmutation", 
++		amount = 8, 
+ 	},
+ 	{
+ 		option_id = 426, 
+ 		name = "Chaos Orb", 
 -		amount = 3, 
 +		amount = 2, 
  	},
  	{
- 		option_id = 408, 
--		name = "Chaos Orb", 
+ 		option_id = 427, 
+ 		name = "Chaos Orb", 
+-		amount = 8, 
++		amount = 6, 
+ 	},
+ 	{
+ 		option_id = 428, 
+-		name = "Orb of Alchemy", 
 -		amount = 3, 
 +		name = "Orb of Transmutation", 
++		amount = 8, 
+ 	},
+ 	{
+ 		option_id = 429, 
+ 		name = "Chaos Orb", 
+-		amount = 3, 
++		amount = 2, 
+ 	},
+ 	{
+ 		option_id = 430, 
+ 		name = "Chaos Orb", 
+-		amount = 8, 
++		amount = 6, 
+ 	},
+ 	{
+ 		option_id = 431, 
+-		name = "Orb of Alchemy", 
+-		amount = 3, 
++		name = "Chaos Orb", 
++		amount = 1, 
+ 	},
+ 	{
+ 		option_id = 432, 
+ 		name = "Chaos Orb", 
+-		amount = 3, 
 +		amount = 4, 
  	},
  	{
- 		option_id = 409, 
+ 		option_id = 433, 
 -		name = "Chaos Orb", 
 -		amount = 8, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
++		name = "Exalted Orb", 
++		amount = 1, 
  	},
  	{
- 		option_id = 410, 
-@@ -2195,18 +2180,18 @@
+ 		option_id = 434, 
+-		name = "Orb of Alchemy", 
+-		amount = 3, 
++		name = "Chaos Orb", 
++		amount = 1, 
+ 	},
+ 	{
+ 		option_id = 435, 
+ 		name = "Chaos Orb", 
+-		amount = 3, 
++		amount = 4, 
+ 	},
+ 	{
+ 		option_id = 436, 
+-		name = "Chaos Orb", 
+-		amount = 8, 
++		name = "Exalted Orb", 
++		amount = 1, 
+ 	},
+ 	{
+ 		option_id = 437, 
+-		name = "Orb of Alchemy", 
+-		amount = 3, 
++		name = "Orb of Alteration", 
++		amount = 8, 
+ 	},
+ 	{
+ 		option_id = 438, 
+-		name = "Chaos Orb", 
+-		amount = 3, 
++		name = "Orb of Alchemy", 
++		amount = 4, 
+ 	},
+ 	{
+ 		option_id = 439, 
+ 		name = "Chaos Orb", 
+-		amount = 8, 
++		amount = 4, 
+ 	},
+ 	{
+ 		option_id = 440, 
+-		name = "Orb of Alchemy", 
+-		amount = 3, 
++		name = "Orb of Alteration", 
++		amount = 8, 
+ 	},
+ 	{
+ 		option_id = 441, 
+-		name = "Chaos Orb", 
+-		amount = 3, 
++		name = "Orb of Alchemy", 
++		amount = 4, 
+ 	},
+ 	{
+ 		option_id = 442, 
+ 		name = "Chaos Orb", 
+-		amount = 8, 
++		amount = 4, 
  	},
  	{
  		option_id = 443, 
 -		name = "Orb of Transmutation", 
--		amount = 8, 
-+		name = "Orb of Alchemy", 
-+		amount = 3, 
++		name = "Orb of Alteration", 
+ 		amount = 8, 
  	},
  	{
  		option_id = 444, 
- 		name = "Chaos Orb", 
--		amount = 2, 
-+		amount = 3, 
+-		name = "Chaos Orb", 
++		name = "Orb of Alchemy", 
+ 		amount = 2, 
  	},
  	{
  		option_id = 445, 
  		name = "Chaos Orb", 
 -		amount = 6, 
-+		amount = 8, 
++		amount = 4, 
  	},
  	{
  		option_id = 446, 
-@@ -2225,18 +2210,18 @@
+-		name = "Orb of Transmutation", 
++		name = "Orb of Alteration", 
+ 		amount = 8, 
+ 	},
+ 	{
+ 		option_id = 447, 
+-		name = "Chaos Orb", 
++		name = "Orb of Alchemy", 
+ 		amount = 2, 
+ 	},
+ 	{
+ 		option_id = 448, 
+ 		name = "Chaos Orb", 
+-		amount = 6, 
++		amount = 4, 
  	},
  	{
  		option_id = 449, 
 -		name = "Chaos Orb", 
 -		amount = 1, 
-+		name = "Orb of Transmutation", 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 450, 
- 		name = "Chaos Orb", 
--		amount = 4, 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 451, 
--		name = "Exalted Orb", 
--		amount = 1, 
-+		name = "Chaos Orb", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 452, 
-@@ -2255,18 +2240,18 @@
- 	},
- 	{
- 		option_id = 455, 
--		name = "Orb of Alteration", 
--		amount = 8, 
-+		name = "Chaos Orb", 
-+		amount = 1, 
- 	},
- 	{
- 		option_id = 456, 
--		name = "Orb of Alchemy", 
-+		name = "Chaos Orb", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 457, 
--		name = "Chaos Orb", 
--		amount = 4, 
-+		name = "Exalted Orb", 
-+		amount = 1, 
- 	},
- 	{
- 		option_id = 458, 
-@@ -2291,7 +2276,7 @@
- 	{
- 		option_id = 462, 
- 		name = "Orb of Alchemy", 
--		amount = 2, 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 463, 
-@@ -2435,68 +2420,68 @@
- 	},
- 	{
- 		option_id = 491, 
--		name = "Orb of Alchemy", 
--		amount = 4, 
 +		name = "Orb of Alteration", 
 +		amount = 8, 
  	},
  	{
- 		option_id = 492, 
+ 		option_id = 450, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
 +		name = "Orb of Alchemy", 
 +		amount = 2, 
  	},
  	{
- 		option_id = 493, 
+ 		option_id = 451, 
 +		name = "Chaos Orb", 
 +		amount = 4, 
 +	},
 +	{
-+		option_id = 494, 
++		option_id = 452, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 453, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 454, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 455, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 456, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 457, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 458, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 459, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 460, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 461, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 462, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 463, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 464, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 465, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 466, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 467, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 468, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 469, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 470, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 471, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 472, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 473, 
 +		name = "Orb of Alchemy", 
 +		amount = 4, 
 +	},
 +	{
-+		option_id = 495, 
++		option_id = 474, 
 +		name = "Chaos Orb", 
 +		amount = 4, 
 +	},
 +	{
++		option_id = 475, 
+ 		name = "Exalted Orb", 
+ 		amount = 1, 
+ 	},
+ 	{
+-		option_id = 452, 
+-		name = "Chaos Orb", 
+-		amount = 1, 
+-	},
+-	{
+-		option_id = 453, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 454, 
++		option_id = 476, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 477, 
++		name = "Orb of Alchemy", 
++		amount = 4, 
++	},
++	{
++		option_id = 478, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 479, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 480, 
++		name = "Chaos Orb", 
++		amount = 8, 
++	},
++	{
++		option_id = 481, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 482, 
++		name = "Chaos Orb", 
++		amount = 8, 
++	},
++	{
++		option_id = 483, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 484, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 485, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 486, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 487, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 488, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 489, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 490, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 491, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 492, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 493, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 494, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 495, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
 +		option_id = 496, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 497, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 498, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 499, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 500, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 501, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 502, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 503, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 504, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 505, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 506, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 507, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 508, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 509, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 510, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 511, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 512, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 513, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 514, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 515, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 516, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 517, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 518, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 519, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 520, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 521, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 522, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 523, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 524, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 525, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 526, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 527, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 528, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 529, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 530, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 531, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 532, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 533, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 534, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 535, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 536, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 537, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 538, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 539, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 540, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 541, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 542, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 543, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 544, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 545, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 546, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 547, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 548, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 549, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 550, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 551, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 552, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 553, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 554, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 555, 
+ 		name = "Exalted Orb", 
+ 		amount = 1, 
+ 	},
+ 	{
+-		option_id = 455, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 456, 
+-		name = "Orb of Alchemy", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 457, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 458, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 459, 
+-		name = "Orb of Alchemy", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 460, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 461, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 462, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 463, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 464, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 465, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 466, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 467, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 468, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 469, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 470, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 471, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 472, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 473, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 474, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 475, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 476, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 477, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 478, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 479, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 480, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 481, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 482, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 483, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 484, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 485, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 486, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 487, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 488, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 489, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 490, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 491, 
+-		name = "Orb of Alchemy", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 492, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 493, 
++		option_id = 556, 
  		name = "Exalted Orb", 
  		amount = 1, 
  	},
@@ -2042,80 +4351,409 @@
 -		amount = 4, 
 -	},
 -	{
- 		option_id = 497, 
+-		option_id = 497, 
 -		name = "Chaos Orb", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 498, 
+-	},
+-	{
+-		option_id = 498, 
 -		name = "Chaos Orb", 
 -		amount = 8, 
-+		name = "Orb of Alchemy", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 499, 
- 		name = "Chaos Orb", 
+-	},
+-	{
+-		option_id = 499, 
+-		name = "Chaos Orb", 
 -		amount = 2, 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 500, 
- 		name = "Chaos Orb", 
+-	},
+-	{
+-		option_id = 500, 
+-		name = "Chaos Orb", 
 -		amount = 8, 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 501, 
+-	},
+-	{
+-		option_id = 501, 
 -		name = "Orb of Alteration", 
-+		name = "Chaos Orb", 
- 		amount = 8, 
- 	},
- 	{
- 		option_id = 502, 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 502, 
 -		name = "Orb of Alchemy", 
-+		name = "Chaos Orb", 
- 		amount = 2, 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 503, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 504, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 505, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 506, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 507, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 508, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 509, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 510, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 511, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 512, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 513, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 514, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 515, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 516, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 517, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 518, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 519, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 520, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 521, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 522, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 523, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 524, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 525, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 526, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 527, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 528, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 529, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 530, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 531, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 532, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 533, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 534, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 535, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 536, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 537, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 538, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 539, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 540, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 541, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 542, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 543, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 544, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 545, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 546, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 547, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 548, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 549, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 550, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 551, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 552, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 553, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 554, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 555, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 556, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+ 		option_id = 557, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
++		name = "Exalted Orb", 
++		amount = 1, 
  	},
  	{
- 		option_id = 503, 
+ 		option_id = 558, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
++		name = "Orb of Augmentation", 
++		amount = 6, 
+ 	},
+ 	{
+ 		option_id = 559, 
+ 		name = "Orb of Alchemy", 
+-		amount = 2, 
++		amount = 4, 
+ 	},
+ 	{
+ 		option_id = 560, 
  		name = "Chaos Orb", 
 -		amount = 2, 
-+		amount = 8, 
++		amount = 4, 
  	},
  	{
- 		option_id = 504, 
-@@ -2801,7 +2786,7 @@
+ 		option_id = 561, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
++		name = "Orb of Augmentation", 
++		amount = 6, 
+ 	},
+ 	{
+ 		option_id = 562, 
+ 		name = "Orb of Alchemy", 
+-		amount = 2, 
++		amount = 4, 
+ 	},
+ 	{
+ 		option_id = 563, 
+ 		name = "Chaos Orb", 
+-		amount = 2, 
++		amount = 4, 
+ 	},
  	{
  		option_id = 564, 
+-		name = "Orb of Alteration", 
++		name = "Orb of Augmentation", 
+ 		amount = 6, 
+ 	},
+ 	{
+ 		option_id = 565, 
+ 		name = "Orb of Alchemy", 
+-		amount = 2, 
++		amount = 4, 
+ 	},
+ 	{
+ 		option_id = 566, 
+@@ -2816,27 +2801,27 @@
+ 	{
+ 		option_id = 567, 
  		name = "Orb of Alteration", 
 -		amount = 6, 
 +		amount = 8, 
  	},
  	{
- 		option_id = 565, 
-@@ -2811,7 +2796,7 @@
- 	{
- 		option_id = 566, 
- 		name = "Chaos Orb", 
--		amount = 4, 
-+		amount = 2, 
+ 		option_id = 568, 
+ 		name = "Orb of Alchemy", 
+-		amount = 2, 
++		amount = 4, 
  	},
  	{
- 		option_id = 567, 
-@@ -2845,33 +2830,33 @@
+ 		option_id = 569, 
+ 		name = "Chaos Orb", 
+-		amount = 4, 
++		amount = 3, 
+ 	},
+ 	{
+ 		option_id = 570, 
+-		name = "Orb of Alteration", 
+-		amount = 6, 
++		name = "Orb of Chance", 
++		amount = 4, 
+ 	},
+ 	{
+ 		option_id = 571, 
+ 		name = "Orb of Alchemy", 
+-		amount = 2, 
++		amount = 4, 
+ 	},
+ 	{
+ 		option_id = 572, 
+@@ -2845,938 +2830,938 @@
  	},
  	{
  		option_id = 573, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
++		name = "Orb of Chance", 
++		amount = 4, 
 +	},
 +	{
 +		option_id = 574, 
 +		name = "Orb of Alchemy", 
-+		amount = 2, 
++		amount = 4, 
 +	},
 +	{
 +		option_id = 575, 
@@ -2124,27 +4762,373 @@
 +	},
 +	{
 +		option_id = 576, 
++		name = "Orb of Chance", 
++		amount = 4, 
++	},
++	{
++		option_id = 577, 
++		name = "Orb of Alchemy", 
++		amount = 4, 
++	},
++	{
++		option_id = 578, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 579, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 580, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 581, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 582, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 583, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 584, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 585, 
++		name = "Orb of Alteration", 
++		amount = 8, 
++	},
++	{
++		option_id = 586, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 587, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 588, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 589, 
  		name = "Exalted Orb", 
  		amount = 1, 
  	},
  	{
 -		option_id = 574, 
-+		option_id = 577, 
++		option_id = 590, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 591, 
  		name = "Exalted Orb", 
  		amount = 1, 
  	},
  	{
 -		option_id = 575, 
-+		option_id = 578, 
++		option_id = 592, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 593, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 594, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 595, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 596, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 597, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 598, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 599, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 600, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 601, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 602, 
++		name = "Orb of Chance", 
++		amount = 2, 
++	},
++	{
++		option_id = 603, 
++		name = "Regal Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 604, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 605, 
  		name = "Exalted Orb", 
  		amount = 1, 
--	},
--	{
+ 	},
+ 	{
 -		option_id = 576, 
--		name = "Orb of Augmentation", 
--		amount = 6, 
--	},
--	{
++		option_id = 606, 
++		name = "Vaal Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 607, 
++		name = "Vaal Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 608, 
++		name = "Vaal Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 609, 
++		name = "Vaal Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 610, 
++		name = "Vaal Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 611, 
++		name = "Vaal Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 612, 
++		name = "Vaal Orb", 
++		amount = 1, 
++	},
++	{
++		option_id = 613, 
++		name = "Vaal Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 614, 
++		name = "Vaal Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 615, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 616, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 617, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 618, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 619, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 620, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 621, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 622, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 623, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 624, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 625, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 626, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 627, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 628, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 629, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 630, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 631, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 632, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 633, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 634, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 635, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 636, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 637, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 638, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 639, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 640, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 641, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 642, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 643, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 644, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 645, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 646, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 647, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 648, 
+ 		name = "Orb of Augmentation", 
+ 		amount = 6, 
+ 	},
+ 	{
 -		option_id = 577, 
 -		name = "Orb of Alchemy", 
 -		amount = 4, 
@@ -2153,91 +5137,688 @@
 -		option_id = 578, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
- 	},
- 	{
- 		option_id = 579, 
-@@ -2905,8 +2890,8 @@
- 	},
- 	{
- 		option_id = 585, 
+-	},
+-	{
+-		option_id = 579, 
+-		name = "Orb of Augmentation", 
+-		amount = 6, 
+-	},
+-	{
+-		option_id = 580, 
+-		name = "Orb of Alchemy", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 581, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 582, 
+-		name = "Orb of Augmentation", 
+-		amount = 6, 
+-	},
+-	{
+-		option_id = 583, 
+-		name = "Orb of Alchemy", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 584, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 585, 
 -		name = "Orb of Alteration", 
 -		amount = 8, 
-+		name = "Orb of Augmentation", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 586, 
-@@ -2916,12 +2901,12 @@
- 	{
- 		option_id = 587, 
- 		name = "Chaos Orb", 
--		amount = 3, 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 588, 
--		name = "Orb of Chance", 
+-	},
+-	{
+-		option_id = 586, 
+-		name = "Orb of Alchemy", 
 -		amount = 4, 
-+		name = "Orb of Alteration", 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 589, 
-@@ -2931,7 +2916,7 @@
- 	{
- 		option_id = 590, 
- 		name = "Chaos Orb", 
--		amount = 4, 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 591, 
-@@ -2965,13 +2950,13 @@
- 	},
- 	{
- 		option_id = 597, 
--		name = "Orb of Alteration", 
--		amount = 8, 
-+		name = "Orb of Chance", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 598, 
- 		name = "Orb of Alchemy", 
--		amount = 2, 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 599, 
-@@ -3010,40 +2995,40 @@
- 	},
- 	{
- 		option_id = 606, 
--		name = "Glassblower's Bauble", 
--		amount = 3, 
-+		name = "Orb of Alteration", 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 607, 
+-	},
+-	{
+-		option_id = 587, 
 -		name = "Chaos Orb", 
 -		amount = 3, 
+-	},
+-	{
+-		option_id = 588, 
++		option_id = 649, 
++		name = "Orb of Alchemy", 
++		amount = 3, 
++	},
++	{
++		option_id = 650, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 651, 
++		name = "Orb of Transmutation", 
++		amount = 8, 
++	},
++	{
++		option_id = 652, 
++		name = "Orb of Alchemy", 
++		amount = 3, 
++	},
++	{
++		option_id = 653, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 654, 
++		name = "Orb of Transmutation", 
++		amount = 8, 
++	},
++	{
++		option_id = 655, 
++		name = "Orb of Alchemy", 
++		amount = 3, 
++	},
++	{
++		option_id = 656, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 657, 
++		name = "Orb of Transmutation", 
++		amount = 8, 
++	},
++	{
++		option_id = 658, 
++		name = "Orb of Alchemy", 
++		amount = 3, 
++	},
++	{
++		option_id = 659, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 660, 
++		name = "Orb of Alteration", 
++		amount = 9, 
++	},
++	{
++		option_id = 661, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 662, 
 +		name = "Orb of Alchemy", 
 +		amount = 2, 
- 	},
- 	{
- 		option_id = 608, 
- 		name = "Chaos Orb", 
--		amount = 2, 
++	},
++	{
++		option_id = 663, 
++		name = "Chaos Orb", 
 +		amount = 4, 
- 	},
- 	{
- 		option_id = 609, 
++	},
++	{
++		option_id = 664, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 665, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 666, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 667, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 668, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 669, 
 +		name = "Chaos Orb", 
 +		amount = 2, 
 +	},
 +	{
-+		option_id = 610, 
++		option_id = 670, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 671, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 672, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 673, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 674, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 675, 
++		name = "Orb of Alchemy", 
++		amount = 8, 
++	},
++	{
++		option_id = 676, 
++		name = "Chaos Orb", 
++		amount = 8, 
++	},
++	{
++		option_id = 677, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 678, 
++		name = "Orb of Alchemy", 
++		amount = 8, 
++	},
++	{
++		option_id = 679, 
++		name = "Chaos Orb", 
++		amount = 8, 
++	},
++	{
++		option_id = 680, 
++		name = "Orb of Alteration", 
++		amount = 6, 
++	},
++	{
++		option_id = 681, 
++		name = "Orb of Alchemy", 
++		amount = 3, 
++	},
++	{
++		option_id = 682, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 683, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 684, 
++		name = "Orb of Alchemy", 
++		amount = 4, 
++	},
++	{
++		option_id = 685, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 686, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 687, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 688, 
++		name = "Orb of Alteration", 
++		amount = 4, 
++	},
++	{
++		option_id = 689, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 690, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 691, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 692, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 693, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 694, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 695, 
++		name = "Exalted Orb", 
++		amount = 1, 
++	},
++	{
++		option_id = 696, 
++		name = "Chaos Orb", 
++		amount = 8, 
++	},
++	{
++		option_id = 697, 
++		name = "Exalted Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 698, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 699, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 700, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 701, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 702, 
++		name = "Chaos Orb", 
++		amount = 2, 
++	},
++	{
++		option_id = 703, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 704, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 705, 
++		name = "Exalted Orb", 
++		amount = 1, 
++	},
++	{
++		option_id = 706, 
++		name = "Gemcutter's Prism", 
++		amount = 8, 
++	},
++	{
++		option_id = 707, 
++		name = "Exalted Orb", 
++		amount = 1, 
++	},
++	{
++		option_id = 708, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 709, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 710, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 711, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 712, 
++		name = "Exalted Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 713, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 714, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 715, 
+ 		name = "Orb of Chance", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 589, 
+-		name = "Orb of Alchemy", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 590, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 591, 
+-		name = "Orb of Chance", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 592, 
+-		name = "Orb of Alchemy", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 593, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 594, 
+-		name = "Orb of Chance", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 595, 
+-		name = "Orb of Alchemy", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 596, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 597, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 598, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 599, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 600, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 601, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 602, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 603, 
+-		name = "Orb of Alteration", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 604, 
+-		name = "Orb of Alchemy", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 605, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 606, 
++		amount = 8, 
++	},
++	{
++		option_id = 716, 
++		name = "Regal Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 717, 
++		name = "Vaal Orb", 
++		amount = 6, 
++	},
++	{
++		option_id = 718, 
++		name = "Vaal Orb", 
++		amount = 8, 
++	},
++	{
++		option_id = 719, 
++		name = "Vaal Orb", 
++		amount = 6, 
++	},
++	{
++		option_id = 720, 
++		name = "Vaal Orb", 
++		amount = 8, 
++	},
++	{
++		option_id = 721, 
++		name = "Vaal Orb", 
++		amount = 6, 
++	},
++	{
++		option_id = 722, 
++		name = "Vaal Orb", 
++		amount = 8, 
++	},
++	{
++		option_id = 723, 
++		name = "Vaal Orb", 
++		amount = 6, 
++	},
++	{
++		option_id = 724, 
++		name = "Vaal Orb", 
++		amount = 8, 
++	},
++	{
++		option_id = 725, 
++		name = "Vaal Orb", 
++		amount = 6, 
++	},
++	{
++		option_id = 726, 
++		name = "Vaal Orb", 
++		amount = 8, 
++	},
++	{
++		option_id = 727, 
++		name = "Vaal Orb", 
++		amount = 6, 
++	},
++	{
++		option_id = 728, 
++		name = "Vaal Orb", 
++		amount = 8, 
++	},
++	{
++		option_id = 729, 
++		name = "Vaal Orb", 
++		amount = 6, 
++	},
++	{
++		option_id = 730, 
++		name = "Vaal Orb", 
++		amount = 8, 
++	},
++	{
++		option_id = 731, 
++		name = "Vaal Orb", 
++		amount = 6, 
++	},
++	{
++		option_id = 732, 
++		name = "Vaal Orb", 
++		amount = 8, 
++	},
++	{
++		option_id = 733, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 734, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 735, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 736, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 737, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 738, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 739, 
++		name = "Exalted Orb", 
++		amount = 1, 
++	},
++	{
++		option_id = 740, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 741, 
++		name = "Exalted Orb", 
++		amount = 1, 
++	},
++	{
++		option_id = 742, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 743, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 744, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 745, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 746, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 747, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 748, 
+ 		name = "Glassblower's Bauble", 
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 607, 
+-		name = "Chaos Orb", 
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 608, 
+-		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 609, 
++		amount = 6, 
++	},
++	{
++		option_id = 749, 
++		name = "Glassblower's Bauble", 
++		amount = 6, 
++	},
++	{
++		option_id = 750, 
++		name = "Glassblower's Bauble", 
++		amount = 6, 
++	},
++	{
++		option_id = 751, 
++		name = "Glassblower's Bauble", 
++		amount = 6, 
++	},
++	{
++		option_id = 752, 
++		name = "Glassblower's Bauble", 
++		amount = 6, 
++	},
++	{
++		option_id = 753, 
++		name = "Glassblower's Bauble", 
++		amount = 6, 
++	},
++	{
++		option_id = 754, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 755, 
  		name = "Exalted Orb", 
  		amount = 1, 
  	},
@@ -2247,12 +5828,13 @@
 -		amount = 2, 
 -	},
 -	{
- 		option_id = 611, 
+-		option_id = 611, 
++		option_id = 756, 
 +		name = "Chaos Orb", 
 +		amount = 2, 
 +	},
 +	{
-+		option_id = 612, 
++		option_id = 757, 
  		name = "Exalted Orb", 
  		amount = 1, 
  	},
@@ -2262,947 +5844,759 @@
 -		amount = 3, 
 -	},
 -	{
- 		option_id = 613, 
- 		name = "Chaos Orb", 
- 		amount = 3, 
-@@ -3071,7 +3056,7 @@
- 	{
- 		option_id = 618, 
- 		name = "Chaos Orb", 
+-		option_id = 613, 
+-		name = "Chaos Orb", 
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 614, 
+-		name = "Chaos Orb", 
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 615, 
+-		name = "Chaos Orb", 
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 616, 
+-		name = "Chaos Orb", 
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 617, 
+-		name = "Chaos Orb", 
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 618, 
+-		name = "Chaos Orb", 
 -		amount = 4, 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 619, 
-@@ -3090,72 +3075,72 @@
- 	},
- 	{
- 		option_id = 622, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 623, 
- 		name = "Orb of Chance", 
- 		amount = 2, 
- 	},
- 	{
+-	},
+-	{
+-		option_id = 619, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 620, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 621, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 622, 
+-		name = "Orb of Chance", 
+-		amount = 2, 
+-	},
+-	{
 -		option_id = 623, 
-+		option_id = 624, 
- 		name = "Regal Orb", 
- 		amount = 2, 
- 	},
- 	{
+-		name = "Regal Orb", 
+-		amount = 2, 
+-	},
+-	{
 -		option_id = 624, 
 -		name = "Chaos Orb", 
 -		amount = 2, 
 -	},
 -	{
- 		option_id = 625, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
-+	},
-+	{
-+		option_id = 626, 
- 		name = "Exalted Orb", 
- 		amount = 1, 
+-		option_id = 625, 
+-		name = "Exalted Orb", 
+-		amount = 1, 
 -	},
 -	{
 -		option_id = 626, 
 -		name = "Vaal Orb", 
 -		amount = 2, 
- 	},
- 	{
- 		option_id = 627, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 627, 
+-		name = "Vaal Orb", 
 -		amount = 4, 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 628, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 628, 
+-		name = "Vaal Orb", 
 -		amount = 2, 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 629, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 629, 
+-		name = "Vaal Orb", 
 -		amount = 3, 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 630, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 630, 
+-		name = "Vaal Orb", 
 -		amount = 4, 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 631, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 631, 
+-		name = "Vaal Orb", 
 -		amount = 3, 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 632, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 632, 
+-		name = "Vaal Orb", 
 -		amount = 1, 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 633, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 633, 
+-		name = "Vaal Orb", 
 -		amount = 2, 
-+		amount = 1, 
- 	},
- 	{
- 		option_id = 634, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 634, 
+-		name = "Vaal Orb", 
 -		amount = 4, 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 635, 
+-	},
+-	{
+-		option_id = 635, 
 -		name = "Chaos Orb", 
-+		name = "Vaal Orb", 
- 		amount = 4, 
- 	},
- 	{
-@@ -3170,348 +3155,348 @@
- 	},
- 	{
- 		option_id = 638, 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 636, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 637, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 638, 
 -		name = "Orb of Alteration", 
 -		amount = 6, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 639, 
+-	},
+-	{
+-		option_id = 639, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 640, 
+-	},
+-	{
+-		option_id = 640, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 641, 
+-	},
+-	{
+-		option_id = 641, 
 -		name = "Orb of Alteration", 
 -		amount = 6, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 642, 
+-	},
+-	{
+-		option_id = 642, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 643, 
+-	},
+-	{
+-		option_id = 643, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 644, 
+-	},
+-	{
+-		option_id = 644, 
 -		name = "Orb of Alteration", 
 -		amount = 6, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 645, 
+-	},
+-	{
+-		option_id = 645, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 646, 
+-	},
+-	{
+-		option_id = 646, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 647, 
+-	},
+-	{
+-		option_id = 647, 
 -		name = "Orb of Alteration", 
 -		amount = 6, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 648, 
+-	},
+-	{
+-		option_id = 648, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 649, 
+-	},
+-	{
+-		option_id = 649, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 650, 
+-	},
+-	{
+-		option_id = 650, 
 -		name = "Orb of Alteration", 
 -		amount = 6, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 651, 
+-	},
+-	{
+-		option_id = 651, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 652, 
+-	},
+-	{
+-		option_id = 652, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 653, 
+-	},
+-	{
+-		option_id = 653, 
 -		name = "Orb of Alteration", 
 -		amount = 6, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 654, 
+-	},
+-	{
+-		option_id = 654, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 655, 
+-	},
+-	{
+-		option_id = 655, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 656, 
+-	},
+-	{
+-		option_id = 656, 
 -		name = "Orb of Alteration", 
 -		amount = 6, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 657, 
+-	},
+-	{
+-		option_id = 657, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 658, 
+-	},
+-	{
+-		option_id = 658, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 659, 
+-	},
+-	{
+-		option_id = 659, 
 -		name = "Orb of Alteration", 
 -		amount = 6, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 660, 
+-	},
+-	{
+-		option_id = 660, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 661, 
+-	},
+-	{
+-		option_id = 661, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 662, 
+-	},
+-	{
+-		option_id = 662, 
 -		name = "Orb of Alteration", 
 -		amount = 6, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 663, 
+-	},
+-	{
+-		option_id = 663, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 664, 
+-	},
+-	{
+-		option_id = 664, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 665, 
+-	},
+-	{
+-		option_id = 665, 
 -		name = "Orb of Alteration", 
 -		amount = 6, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 666, 
+-	},
+-	{
+-		option_id = 666, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 667, 
+-	},
+-	{
+-		option_id = 667, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 668, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 669, 
- 		name = "Orb of Augmentation", 
- 		amount = 6, 
- 	},
- 	{
+-	},
+-	{
+-		option_id = 668, 
+-		name = "Orb of Augmentation", 
+-		amount = 6, 
+-	},
+-	{
 -		option_id = 669, 
 -		name = "Orb of Alchemy", 
 -		amount = 3, 
 -	},
 -	{
- 		option_id = 670, 
+-		option_id = 670, 
 -		name = "Chaos Orb", 
-+		name = "Orb of Alchemy", 
- 		amount = 3, 
- 	},
- 	{
- 		option_id = 671, 
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 671, 
 -		name = "Orb of Transmutation", 
 -		amount = 8, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 672, 
+-	},
+-	{
+-		option_id = 672, 
 -		name = "Orb of Alchemy", 
 -		amount = 3, 
-+		name = "Orb of Transmutation", 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 673, 
+-	},
+-	{
+-		option_id = 673, 
 -		name = "Chaos Orb", 
-+		name = "Orb of Alchemy", 
- 		amount = 3, 
- 	},
- 	{
- 		option_id = 674, 
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 674, 
 -		name = "Orb of Transmutation", 
 -		amount = 8, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 675, 
+-	},
+-	{
+-		option_id = 675, 
 -		name = "Orb of Alchemy", 
 -		amount = 3, 
-+		name = "Orb of Transmutation", 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 676, 
+-	},
+-	{
+-		option_id = 676, 
 -		name = "Chaos Orb", 
-+		name = "Orb of Alchemy", 
- 		amount = 3, 
- 	},
- 	{
- 		option_id = 677, 
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 677, 
 -		name = "Orb of Transmutation", 
 -		amount = 8, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 678, 
+-	},
+-	{
+-		option_id = 678, 
 -		name = "Orb of Alchemy", 
 -		amount = 3, 
-+		name = "Orb of Transmutation", 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 679, 
+-	},
+-	{
+-		option_id = 679, 
 -		name = "Chaos Orb", 
-+		name = "Orb of Alchemy", 
- 		amount = 3, 
- 	},
- 	{
- 		option_id = 680, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
-+	},
-+	{
-+		option_id = 681, 
- 		name = "Orb of Alteration", 
- 		amount = 9, 
- 	},
- 	{
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 680, 
+-		name = "Orb of Alteration", 
+-		amount = 9, 
+-	},
+-	{
 -		option_id = 681, 
 -		name = "Orb of Alteration", 
 -		amount = 4, 
 -	},
 -	{
- 		option_id = 682, 
+-		option_id = 682, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 683, 
+-	},
+-	{
+-		option_id = 683, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 684, 
+-	},
+-	{
+-		option_id = 684, 
 -		name = "Orb of Alteration", 
-+		name = "Chaos Orb", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 685, 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 685, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 686, 
+-	},
+-	{
+-		option_id = 686, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 687, 
+-	},
+-	{
+-		option_id = 687, 
 -		name = "Orb of Alteration", 
-+		name = "Chaos Orb", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 688, 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 688, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 689, 
+-	},
+-	{
+-		option_id = 689, 
 -		name = "Chaos Orb", 
-+		name = "Orb of Alchemy", 
- 		amount = 2, 
- 	},
- 	{
- 		option_id = 690, 
- 		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 690, 
+-		name = "Chaos Orb", 
 -		amount = 3, 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 691, 
+-	},
+-	{
+-		option_id = 691, 
 -		name = "Orb of Alteration", 
 -		amount = 6, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 692, 
+-	},
+-	{
+-		option_id = 692, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 693, 
+-	},
+-	{
+-		option_id = 693, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 694, 
--		name = "Orb of Alteration", 
-+		name = "Chaos Orb", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 695, 
--		name = "Orb of Alchemy", 
--		amount = 8, 
-+		name = "Orb of Alteration", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 696, 
--		name = "Chaos Orb", 
-+		name = "Orb of Alchemy", 
- 		amount = 8, 
- 	},
- 	{
- 		option_id = 697, 
+-	},
+-	{
+-		option_id = 694, 
 -		name = "Orb of Alteration", 
 -		amount = 4, 
-+		name = "Chaos Orb", 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 698, 
+-	},
+-	{
+-		option_id = 695, 
 -		name = "Orb of Alchemy", 
 -		amount = 8, 
-+		name = "Orb of Alteration", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 699, 
+-	},
+-	{
+-		option_id = 696, 
 -		name = "Chaos Orb", 
-+		name = "Orb of Alchemy", 
- 		amount = 8, 
- 	},
- 	{
- 		option_id = 700, 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 697, 
+-		name = "Orb of Alteration", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 698, 
+-		name = "Orb of Alchemy", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 699, 
+-		name = "Chaos Orb", 
+-		amount = 8, 
+-	},
+-	{
+-		option_id = 700, 
 -		name = "Orb of Alteration", 
 -		amount = 6, 
-+		name = "Chaos Orb", 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 701, 
+-	},
+-	{
+-		option_id = 701, 
 -		name = "Orb of Alchemy", 
 -		amount = 3, 
-+		name = "Orb of Alteration", 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 702, 
+-	},
+-	{
+-		option_id = 702, 
 -		name = "Chaos Orb", 
 -		amount = 2, 
-+		name = "Orb of Alchemy", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 703, 
+-	},
+-	{
+-		option_id = 703, 
 -		name = "Orb of Alteration", 
 -		amount = 4, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 704, 
+-	},
+-	{
+-		option_id = 704, 
 -		name = "Orb of Alchemy", 
-+		name = "Orb of Alteration", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 705, 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 705, 
 -		name = "Chaos Orb", 
-+		name = "Orb of Alchemy", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 706, 
- 		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 706, 
+-		name = "Chaos Orb", 
 -		amount = 3, 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 707, 
-@@ -3520,23 +3505,23 @@
- 	},
- 	{
- 		option_id = 708, 
+-	},
+-	{
+-		option_id = 707, 
+-		name = "Chaos Orb", 
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 708, 
 -		name = "Orb of Alteration", 
 -		amount = 4, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 709, 
+-	},
+-	{
+-		option_id = 709, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Alteration", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 710, 
+-	},
+-	{
+-		option_id = 710, 
 -		name = "Chaos Orb", 
-+		name = "Orb of Alchemy", 
- 		amount = 2, 
- 	},
- 	{
- 		option_id = 711, 
- 		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 711, 
+-		name = "Chaos Orb", 
 -		amount = 3, 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 712, 
-@@ -3551,277 +3536,277 @@
- 	{
- 		option_id = 714, 
- 		name = "Chaos Orb", 
+-	},
+-	{
+-		option_id = 712, 
+-		name = "Chaos Orb", 
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 713, 
+-		name = "Chaos Orb", 
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 714, 
+-		name = "Chaos Orb", 
 -		amount = 4, 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 715, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 716, 
- 		name = "Exalted Orb", 
- 		amount = 1, 
- 	},
- 	{
+-	},
+-	{
+-		option_id = 715, 
+-		name = "Exalted Orb", 
+-		amount = 1, 
+-	},
+-	{
 -		option_id = 716, 
 -		name = "Chaos Orb", 
 -		amount = 8, 
 -	},
 -	{
- 		option_id = 717, 
-+		name = "Chaos Orb", 
-+		amount = 8, 
-+	},
-+	{
-+		option_id = 718, 
- 		name = "Exalted Orb", 
- 		amount = 2, 
- 	},
- 	{
+-		option_id = 717, 
+-		name = "Exalted Orb", 
+-		amount = 2, 
+-	},
+-	{
 -		option_id = 718, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
 -	},
 -	{
- 		option_id = 719, 
+-		option_id = 719, 
 -		name = "Chaos Orb", 
-+		name = "Orb of Alchemy", 
- 		amount = 2, 
- 	},
- 	{
- 		option_id = 720, 
- 		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 720, 
+-		name = "Chaos Orb", 
 -		amount = 4, 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 721, 
+-	},
+-	{
+-		option_id = 721, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 722, 
+-	},
+-	{
+-		option_id = 722, 
 -		name = "Chaos Orb", 
-+		name = "Orb of Alchemy", 
- 		amount = 2, 
- 	},
- 	{
- 		option_id = 723, 
- 		name = "Chaos Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 723, 
+-		name = "Chaos Orb", 
 -		amount = 4, 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 724, 
- 		name = "Chaos Orb", 
+-	},
+-	{
+-		option_id = 724, 
+-		name = "Chaos Orb", 
 -		amount = 3, 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 725, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
-+	},
-+	{
-+		option_id = 726, 
- 		name = "Exalted Orb", 
- 		amount = 1, 
- 	},
- 	{
+-	},
+-	{
+-		option_id = 725, 
+-		name = "Exalted Orb", 
+-		amount = 1, 
+-	},
+-	{
 -		option_id = 726, 
-+		option_id = 727, 
- 		name = "Gemcutter's Prism", 
- 		amount = 8, 
- 	},
- 	{
+-		name = "Gemcutter's Prism", 
+-		amount = 8, 
+-	},
+-	{
 -		option_id = 727, 
-+		option_id = 728, 
- 		name = "Exalted Orb", 
- 		amount = 1, 
- 	},
- 	{
+-		name = "Exalted Orb", 
+-		amount = 1, 
+-	},
+-	{
 -		option_id = 728, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
 -	},
 -	{
- 		option_id = 729, 
+-		option_id = 729, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 730, 
+-	},
+-	{
+-		option_id = 730, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 731, 
+-	},
+-	{
+-		option_id = 731, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 732, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 733, 
- 		name = "Exalted Orb", 
- 		amount = 3, 
- 	},
- 	{
+-	},
+-	{
+-		option_id = 732, 
+-		name = "Exalted Orb", 
+-		amount = 3, 
+-	},
+-	{
 -		option_id = 733, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
 -	},
 -	{
- 		option_id = 734, 
+-		option_id = 734, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 735, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 736, 
- 		name = "Orb of Chance", 
- 		amount = 8, 
- 	},
- 	{
+-	},
+-	{
+-		option_id = 735, 
+-		name = "Orb of Chance", 
+-		amount = 8, 
+-	},
+-	{
 -		option_id = 736, 
-+		option_id = 737, 
- 		name = "Regal Orb", 
- 		amount = 4, 
+-		name = "Regal Orb", 
+-		amount = 4, 
 -	},
 -	{
 -		option_id = 737, 
 -		name = "Vaal Orb", 
 -		amount = 6, 
- 	},
- 	{
- 		option_id = 738, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 738, 
+-		name = "Vaal Orb", 
 -		amount = 8, 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 739, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 739, 
+-		name = "Vaal Orb", 
 -		amount = 6, 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 740, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 740, 
+-		name = "Vaal Orb", 
 -		amount = 8, 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 741, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 741, 
+-		name = "Vaal Orb", 
 -		amount = 6, 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 742, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 742, 
+-		name = "Vaal Orb", 
 -		amount = 8, 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 743, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 743, 
+-		name = "Vaal Orb", 
 -		amount = 6, 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 744, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 744, 
+-		name = "Vaal Orb", 
 -		amount = 8, 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 745, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 745, 
+-		name = "Vaal Orb", 
 -		amount = 6, 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 746, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 746, 
+-		name = "Vaal Orb", 
 -		amount = 8, 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 747, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 747, 
+-		name = "Vaal Orb", 
 -		amount = 6, 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 748, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 748, 
+-		name = "Vaal Orb", 
 -		amount = 8, 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 749, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 749, 
+-		name = "Vaal Orb", 
 -		amount = 6, 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 750, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 750, 
+-		name = "Vaal Orb", 
 -		amount = 8, 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 751, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 751, 
+-		name = "Vaal Orb", 
 -		amount = 6, 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 752, 
- 		name = "Vaal Orb", 
+-	},
+-	{
+-		option_id = 752, 
+-		name = "Vaal Orb", 
 -		amount = 8, 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 753, 
+-	},
+-	{
+-		option_id = 753, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Vaal Orb", 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 754, 
+-	},
+-	{
+-		option_id = 754, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 755, 
+-	},
+-	{
+-		option_id = 755, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 756, 
+-	},
+-	{
+-		option_id = 756, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 757, 
- 		name = "Chaos Orb", 
+-	},
+-	{
+-		option_id = 757, 
+-		name = "Chaos Orb", 
 -		amount = 3, 
-+		amount = 4, 
- 	},
- 	{
+-	},
+-	{
  		option_id = 758, 
- 		name = "Chaos Orb", 
--		amount = 4, 
-+		amount = 3, 
+-		name = "Chaos Orb", 
++		name = "Orb of Alteration", 
+ 		amount = 4, 
  	},
  	{
  		option_id = 759, 
-+		name = "Chaos Orb", 
+-		name = "Exalted Orb", 
+-		amount = 1, 
++		name = "Orb of Alchemy", 
 +		amount = 4, 
-+	},
-+	{
-+		option_id = 760, 
- 		name = "Exalted Orb", 
- 		amount = 1, 
  	},
  	{
--		option_id = 760, 
--		name = "Chaos Orb", 
--		amount = 4, 
--	},
--	{
- 		option_id = 761, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 762, 
- 		name = "Exalted Orb", 
- 		amount = 1, 
+ 		option_id = 760, 
+@@ -3790,28 +3775,28 @@
  	},
  	{
--		option_id = 762, 
+ 		option_id = 762, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
--	},
--	{
++		name = "Orb of Alteration", 
++		amount = 4, 
+ 	},
+ 	{
  		option_id = 763, 
 -		name = "Chaos Orb", 
--		amount = 4, 
 +		name = "Orb of Alchemy", 
-+		amount = 2, 
+ 		amount = 4, 
  	},
  	{
  		option_id = 764, 
@@ -3214,49 +6608,204 @@
  	{
  		option_id = 765, 
 -		name = "Chaos Orb", 
--		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
++		name = "Orb of Alteration", 
+ 		amount = 4, 
  	},
  	{
  		option_id = 766, 
--		name = "Orb of Alchemy", 
+ 		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Chaos Orb", 
 +		amount = 4, 
  	},
  	{
  		option_id = 767, 
--		name = "Chaos Orb", 
--		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
+@@ -3820,336 +3805,236 @@
  	},
  	{
  		option_id = 768, 
 -		name = "Glassblower's Bauble", 
 -		amount = 6, 
 +		name = "Chaos Orb", 
-+		amount = 4, 
++		amount = 3, 
  	},
  	{
  		option_id = 769, 
-@@ -3850,223 +3835,223 @@
+-		name = "Glassblower's Bauble", 
+-		amount = 6, 
++		name = "Orb of Transmutation", 
++		amount = 8, 
+ 	},
+ 	{
+ 		option_id = 770, 
+-		name = "Glassblower's Bauble", 
+-		amount = 6, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
+ 	},
+ 	{
+ 		option_id = 771, 
+-		name = "Glassblower's Bauble", 
+-		amount = 6, 
++		name = "Chaos Orb", 
++		amount = 3, 
+ 	},
+ 	{
+ 		option_id = 772, 
+-		name = "Glassblower's Bauble", 
+-		amount = 6, 
++		name = "Orb of Transmutation", 
++		amount = 8, 
+ 	},
+ 	{
+ 		option_id = 773, 
+-		name = "Glassblower's Bauble", 
+-		amount = 6, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
  	},
  	{
  		option_id = 774, 
--		name = "Chaos Orb", 
+ 		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Glassblower's Bauble", 
-+		amount = 6, 
++		amount = 3, 
  	},
  	{
  		option_id = 775, 
++		name = "Orb of Transmutation", 
++		amount = 8, 
++	},
++	{
++		option_id = 776, 
++		name = "Orb of Alchemy", 
++		amount = 2, 
++	},
++	{
++		option_id = 777, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 778, 
++		name = "Armourer's Scrap", 
++		amount = 8, 
++	},
++	{
++		option_id = 779, 
++		name = "Orb of Alchemy", 
++		amount = 3, 
++	},
++	{
++		option_id = 780, 
 +		name = "Chaos Orb", 
 +		amount = 4, 
 +	},
 +	{
-+		option_id = 776, 
++		option_id = 781, 
++		name = "Armourer's Scrap", 
++		amount = 8, 
++	},
++	{
++		option_id = 782, 
++		name = "Orb of Alchemy", 
++		amount = 3, 
++	},
++	{
++		option_id = 783, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 784, 
++		name = "Armourer's Scrap", 
++		amount = 8, 
++	},
++	{
++		option_id = 785, 
++		name = "Orb of Alchemy", 
++		amount = 3, 
++	},
++	{
++		option_id = 786, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 787, 
++		name = "Orb of Augmentation", 
++		amount = 6, 
++	},
++	{
++		option_id = 788, 
++		name = "Orb of Alchemy", 
++		amount = 3, 
++	},
++	{
++		option_id = 789, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 790, 
++		name = "Orb of Augmentation", 
++		amount = 6, 
++	},
++	{
++		option_id = 791, 
++		name = "Orb of Alchemy", 
++		amount = 3, 
++	},
++	{
++		option_id = 792, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 793, 
++		name = "Orb of Augmentation", 
++		amount = 6, 
++	},
++	{
++		option_id = 794, 
++		name = "Orb of Alchemy", 
++		amount = 3, 
++	},
++	{
++		option_id = 795, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 796, 
++		name = "Chaos Orb", 
++		amount = 6, 
++	},
++	{
++		option_id = 797, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 798, 
++		name = "Chaos Orb", 
++		amount = 4, 
++	},
++	{
++		option_id = 799, 
++		name = "Orb of Alchemy", 
++		amount = 6, 
++	},
++	{
++		option_id = 800, 
++		name = "Orb of Alchemy", 
++		amount = 3, 
++	},
++	{
++		option_id = 801, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 802, 
  		name = "Exalted Orb", 
  		amount = 1, 
  	},
@@ -3266,12 +6815,18 @@
 -		amount = 2, 
 -	},
 -	{
- 		option_id = 777, 
-+		name = "Chaos Orb", 
-+		amount = 2, 
+-		option_id = 777, 
++		option_id = 803, 
++		name = "Orb of Alchemy", 
++		amount = 3, 
 +	},
 +	{
-+		option_id = 778, 
++		option_id = 804, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 805, 
  		name = "Exalted Orb", 
  		amount = 1, 
  	},
@@ -3281,24 +6836,28 @@
 -		amount = 4, 
 -	},
 -	{
- 		option_id = 779, 
+-		option_id = 779, 
 -		name = "Orb of Alchemy", 
-+		name = "Orb of Alteration", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 780, 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 780, 
 -		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 781, 
++		option_id = 806, 
 +		name = "Orb of Alchemy", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 781, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
++		amount = 3, 
 +	},
 +	{
-+		option_id = 782, 
++		option_id = 807, 
++		name = "Chaos Orb", 
++		amount = 3, 
++	},
++	{
++		option_id = 808, 
  		name = "Exalted Orb", 
  		amount = 1, 
  	},
@@ -3308,352 +6867,271 @@
 -		amount = 4, 
 -	},
 -	{
- 		option_id = 783, 
+-		option_id = 783, 
 -		name = "Orb of Alchemy", 
-+		name = "Orb of Alteration", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 784, 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 784, 
 -		name = "Chaos Orb", 
-+		name = "Orb of Alchemy", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 785, 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 785, 
 -		name = "Orb of Alteration", 
-+		name = "Chaos Orb", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 786, 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 786, 
 -		name = "Orb of Alchemy", 
-+		name = "Orb of Alteration", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 787, 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 787, 
 -		name = "Chaos Orb", 
-+		name = "Orb of Alchemy", 
- 		amount = 4, 
- 	},
- 	{
- 		option_id = 788, 
- 		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 788, 
+-		name = "Chaos Orb", 
 -		amount = 3, 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 789, 
+-	},
+-	{
+-		option_id = 789, 
 -		name = "Orb of Transmutation", 
 -		amount = 8, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 790, 
+-	},
+-	{
+-		option_id = 790, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Transmutation", 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 791, 
+-	},
+-	{
+-		option_id = 791, 
 -		name = "Chaos Orb", 
 -		amount = 3, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 792, 
+-	},
+-	{
+-		option_id = 792, 
 -		name = "Orb of Transmutation", 
 -		amount = 8, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 793, 
+-	},
+-	{
+-		option_id = 793, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Transmutation", 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 794, 
+-	},
+-	{
+-		option_id = 794, 
 -		name = "Chaos Orb", 
 -		amount = 3, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 795, 
+-	},
+-	{
+-		option_id = 795, 
 -		name = "Orb of Transmutation", 
 -		amount = 8, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 796, 
+-	},
+-	{
+-		option_id = 796, 
 -		name = "Orb of Alchemy", 
 -		amount = 2, 
-+		name = "Orb of Transmutation", 
-+		amount = 8, 
- 	},
- 	{
- 		option_id = 797, 
+-	},
+-	{
+-		option_id = 797, 
 -		name = "Chaos Orb", 
 -		amount = 3, 
-+		name = "Orb of Alchemy", 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 798, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
-+	},
-+	{
-+		option_id = 799, 
- 		name = "Armourer's Scrap", 
- 		amount = 8, 
- 	},
- 	{
+-	},
+-	{
+-		option_id = 798, 
+-		name = "Armourer's Scrap", 
+-		amount = 8, 
+-	},
+-	{
 -		option_id = 799, 
 -		name = "Orb of Alchemy", 
 -		amount = 3, 
 -	},
 -	{
- 		option_id = 800, 
+-		option_id = 800, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 801, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 802, 
- 		name = "Armourer's Scrap", 
- 		amount = 8, 
- 	},
- 	{
+-	},
+-	{
+-		option_id = 801, 
+-		name = "Armourer's Scrap", 
+-		amount = 8, 
+-	},
+-	{
 -		option_id = 802, 
 -		name = "Orb of Alchemy", 
 -		amount = 3, 
 -	},
 -	{
- 		option_id = 803, 
+-		option_id = 803, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 804, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 805, 
- 		name = "Armourer's Scrap", 
- 		amount = 8, 
- 	},
- 	{
+-	},
+-	{
+-		option_id = 804, 
+-		name = "Armourer's Scrap", 
+-		amount = 8, 
+-	},
+-	{
 -		option_id = 805, 
 -		name = "Orb of Alchemy", 
 -		amount = 3, 
 -	},
 -	{
- 		option_id = 806, 
+-		option_id = 806, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 807, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 808, 
- 		name = "Orb of Augmentation", 
- 		amount = 6, 
- 	},
- 	{
+-	},
+-	{
+-		option_id = 807, 
+-		name = "Orb of Augmentation", 
+-		amount = 6, 
+-	},
+-	{
 -		option_id = 808, 
 -		name = "Orb of Alchemy", 
 -		amount = 3, 
 -	},
 -	{
  		option_id = 809, 
--		name = "Chaos Orb", 
+ 		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
 +		amount = 3, 
  	},
  	{
  		option_id = 810, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 811, 
- 		name = "Orb of Augmentation", 
- 		amount = 6, 
+-		name = "Orb of Augmentation", 
+-		amount = 6, 
++		name = "Divine Orb", 
++		amount = 2, 
  	},
  	{
--		option_id = 811, 
+ 		option_id = 811, 
 -		name = "Orb of Alchemy", 
 -		amount = 3, 
--	},
--	{
++		name = "Divine Orb", 
++		amount = 2, 
+ 	},
+ 	{
  		option_id = 812, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 3, 
++		name = "Divine Orb", 
++		amount = 2, 
  	},
  	{
  		option_id = 813, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
-+	},
-+	{
-+		option_id = 814, 
- 		name = "Orb of Augmentation", 
- 		amount = 6, 
+-		name = "Orb of Augmentation", 
+-		amount = 6, 
++		name = "Divine Orb", 
++		amount = 1, 
  	},
  	{
--		option_id = 814, 
+ 		option_id = 814, 
 -		name = "Orb of Alchemy", 
 -		amount = 3, 
 -	},
 -	{
- 		option_id = 815, 
+-		option_id = 815, 
 -		name = "Chaos Orb", 
 -		amount = 4, 
-+		name = "Orb of Alchemy", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 816, 
- 		name = "Chaos Orb", 
+-	},
+-	{
+-		option_id = 816, 
+-		name = "Chaos Orb", 
 -		amount = 6, 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 817, 
- 		name = "Chaos Orb", 
+-	},
+-	{
+-		option_id = 817, 
+-		name = "Chaos Orb", 
 -		amount = 4, 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 818, 
-@@ -4075,63 +4060,63 @@
- 	},
- 	{
- 		option_id = 819, 
+-	},
+-	{
+-		option_id = 818, 
+-		name = "Chaos Orb", 
+-		amount = 4, 
+-	},
+-	{
+-		option_id = 819, 
 -		name = "Orb of Alchemy", 
 -		amount = 6, 
-+		name = "Chaos Orb", 
-+		amount = 4, 
- 	},
- 	{
- 		option_id = 820, 
- 		name = "Orb of Alchemy", 
+-	},
+-	{
+-		option_id = 820, 
+-		name = "Orb of Alchemy", 
 -		amount = 3, 
-+		amount = 6, 
- 	},
- 	{
- 		option_id = 821, 
+-	},
+-	{
+-		option_id = 821, 
 -		name = "Chaos Orb", 
-+		name = "Orb of Alchemy", 
- 		amount = 3, 
- 	},
- 	{
- 		option_id = 822, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
-+	},
-+	{
-+		option_id = 823, 
- 		name = "Exalted Orb", 
- 		amount = 1, 
- 	},
- 	{
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 822, 
+-		name = "Exalted Orb", 
+-		amount = 1, 
+-	},
+-	{
 -		option_id = 823, 
 -		name = "Orb of Alchemy", 
 -		amount = 3, 
 -	},
 -	{
- 		option_id = 824, 
+-		option_id = 824, 
 -		name = "Chaos Orb", 
-+		name = "Orb of Alchemy", 
- 		amount = 3, 
- 	},
- 	{
- 		option_id = 825, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
-+	},
-+	{
-+		option_id = 826, 
- 		name = "Exalted Orb", 
- 		amount = 1, 
- 	},
- 	{
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 825, 
+-		name = "Exalted Orb", 
+-		amount = 1, 
+-	},
+-	{
 -		option_id = 826, 
 -		name = "Orb of Alchemy", 
 -		amount = 3, 
 -	},
 -	{
- 		option_id = 827, 
+-		option_id = 827, 
 -		name = "Chaos Orb", 
-+		name = "Orb of Alchemy", 
- 		amount = 3, 
- 	},
- 	{
- 		option_id = 828, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
-+	},
-+	{
-+		option_id = 829, 
- 		name = "Exalted Orb", 
- 		amount = 1, 
- 	},
- 	{
+-		amount = 3, 
+-	},
+-	{
+-		option_id = 828, 
+-		name = "Exalted Orb", 
+-		amount = 1, 
+-	},
+-	{
 -		option_id = 829, 
 -		name = "Chaos Orb", 
 -		amount = 3, 
 -	},
 -	{
- 		option_id = 830, 
+-		option_id = 830, 
 -		name = "Divine Orb", 
 -		amount = 2, 
-+		name = "Chaos Orb", 
-+		amount = 3, 
- 	},
- 	{
- 		option_id = 831, 
-@@ -4146,11 +4131,16 @@
- 	{
- 		option_id = 833, 
- 		name = "Divine Orb", 
+-	},
+-	{
+-		option_id = 831, 
+-		name = "Divine Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 832, 
+-		name = "Divine Orb", 
+-		amount = 2, 
+-	},
+-	{
+-		option_id = 833, 
+-		name = "Divine Orb", 
 -		amount = 1, 
-+		amount = 2, 
- 	},
- 	{
- 		option_id = 834, 
+-	},
+-	{
+-		option_id = 834, 
  		name = "Divine Orb", 
  		amount = 1, 
-+	},
-+	{
-+		option_id = 835, 
-+		name = "Divine Orb", 
-+		amount = 1, 
  	}}
- return data

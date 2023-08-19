@@ -1,6 +1,6 @@
---- Wiki
+--- Whirling Blades
 +++ Export
-@@ -34,17 +34,15 @@
+@@ -34,17 +34,19 @@
  |static_attack_speed_multiplier          = 100
  |static_stat1_id                         = animation_effect_variation
  |static_stat1_value                      = -1
@@ -10,9 +10,15 @@
 -|static_stat3_id                         = base_skill_show_average_damage_instead_of_dps
 +|static_stat3_id                         = ignores_proximity_shield
  |static_stat3_value                      = 1
- |static_stat4_id                         = additional_weapon_base_attack_time_ms
- |static_stat4_value                      = 600
- |stat_text                               = +0.6 seconds to Attack Time
+-|static_stat4_id                         = additional_weapon_base_attack_time_ms
+-|static_stat4_value                      = 600
++|static_stat4_id                         = skill_double_hits_when_dual_wielding
++|static_stat4_value                      = 1
++|static_stat5_id                         = active_skill_merged_damage_+%_final_while_dual_wielding
++|static_stat5_value                      = -25
++|static_stat6_id                         = additional_weapon_base_attack_time_ms
++|static_stat6_value                      = 600
+ |stat_text                               = When Dual Wielding, Deals 75% Damage from each Weapon combined<br>+0.6 seconds to Attack Time
  |level1                                  = True
  |level1_level_requirement                = 10
 -|level1_damage_effectiveness             = 100

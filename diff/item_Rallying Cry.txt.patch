@@ -1,0 +1,57 @@
+--- Rallying Cry
++++ Export
+@@ -15,7 +15,6 @@
+ |active_skill_name                       = Rallying Cry
+ |skill_id                                = RallyingCry
+ |cast_time                               = 0.8
+-|radius                                  = 60
+ |required_level                          = 24
+ |quality_type1_weight                    = 50
+ |quality_type1_stat_text                 = 1% increased Area of Effect
+@@ -39,22 +38,26 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_deal_no_damage
++|static_stat1_id                         = base_deal_no_attack_damage
+ |static_stat1_value                      = 1
+-|static_stat2_id                         = cannot_cancel_skill_before_contact_point
++|static_stat2_id                         = base_deal_no_secondary_damage
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = warcry_count_power_from_enemies
++|static_stat3_id                         = base_deal_no_spell_damage
+ |static_stat3_value                      = 1
+-|static_stat4_id                         = warcry_gain_mp_from_allies
++|static_stat4_id                         = cannot_cancel_skill_before_contact_point
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = rallying_cry_weapon_damage_%_for_allies_per_5_monster_power
+-|static_stat5_value                      = 3
+-|static_stat6_id                         = rallying_cry_buff_effect_on_minions_+%_final
+-|static_stat6_value                      = 100
+-|static_stat7_id                         = skill_empowers_next_x_melee_attacks
+-|static_stat7_value                      = 5
+-|static_stat8_id                         = rallying_cry_damage_+%_final_from_osm_per_nearby_ally
+-|static_stat8_value                      = 5
++|static_stat5_id                         = warcry_count_power_from_enemies
++|static_stat5_value                      = 1
++|static_stat6_id                         = warcry_gain_mp_from_allies
++|static_stat6_value                      = 1
++|static_stat7_id                         = rallying_cry_weapon_damage_%_for_allies_per_5_monster_power
++|static_stat7_value                      = 3
++|static_stat8_id                         = rallying_cry_buff_effect_on_minions_+%_final
++|static_stat8_value                      = 100
++|static_stat9_id                         = skill_empowers_next_x_melee_attacks
++|static_stat9_value                      = 5
++|static_stat10_id                        = rallying_cry_damage_+%_final_from_osm_per_nearby_ally
++|static_stat10_value                     = 5
+ |stat_text                               = Base duration is (5-5.9) seconds<br>(0-38)% increased Warcry Speed<br>Counts total Power of Enemies and Allies in Range<br>Buff grants Added Attack Damage equal to 3% of the Damage of your Main<br>Hand Weapon per 5 Power, up to a maximum of 20%<br>Buff has 100% more Effect on your Minions<br>Exerts the next 5 Melee Attacks you perform<br>Exerted Attacks deal 5% more Damage per affected Ally, to a maximum of 25%
+ |level1                                  = True
+ |level1_level_requirement                = 24
+@@ -476,6 +479,7 @@
+ |level20_experience                      = 341331311
+ |level21_strength_requirement            = 100
+ |level21_dexterity_requirement           = 70
++|radius                                  = 60
+ |release_version                         = 2.0.0
+ |quest_reward1_type                      = quest
+ |quest_reward1_quest                     = Lost in Love

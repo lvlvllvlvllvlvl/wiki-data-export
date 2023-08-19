@@ -1,6 +1,6 @@
 --- Skill:LightningCloneSuicideExplosion
 +++ Export
-@@ -9,14 +9,15 @@
+@@ -9,14 +9,17 @@
  |static_damage_effectiveness             = 100
  |static_damage_multiplier                = 100
  |static_attack_speed_multiplier          = 100
@@ -13,14 +13,16 @@
 -|static_stat4_id                         = is_area_damage
 -|static_stat4_value                      = 1
 +|static_duration                         = 2.5
-+|static_stat1_id                         = is_area_damage
-+|static_stat1_value                      = 1
-+|static_stat2_id                         = secondary_minimum_base_lightning_damage
-+|static_stat2_value                      = 7
-+|static_stat3_id                         = secondary_maximum_base_lightning_damage
-+|static_stat3_value                      = 13
-+|static_stat4_id                         = base_skill_effect_duration
-+|static_stat4_value                      = 2500
++|static_stat1_id                         = base_sanctum_damage
++|static_stat1_value                      = 40
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = secondary_minimum_base_lightning_damage
++|static_stat3_value                      = 7
++|static_stat4_id                         = secondary_maximum_base_lightning_damage
++|static_stat4_value                      = 13
++|static_stat5_id                         = base_skill_effect_duration
++|static_stat5_value                      = 2500
  |stat_text                               = Deals 7 to 13 Lightning Damage<br>Base duration is 2.5 seconds
  |level1                                  = True
  |level1_level_requirement                = 1

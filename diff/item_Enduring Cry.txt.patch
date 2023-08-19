@@ -1,0 +1,39 @@
+--- Enduring Cry
++++ Export
+@@ -36,20 +36,24 @@
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+ |static_duration                         = 2
+-|static_stat1_id                         = base_deal_no_damage
++|static_stat1_id                         = base_deal_no_attack_damage
+ |static_stat1_value                      = 1
+-|static_stat2_id                         = cannot_cancel_skill_before_contact_point
++|static_stat2_id                         = base_deal_no_secondary_damage
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = base_skill_effect_duration
+-|static_stat3_value                      = 2000
+-|static_stat4_id                         = physical_damage_reduction_%_per_endurance_charge
+-|static_stat4_value                      = 2
+-|static_stat5_id                         = resist_all_elements_%_per_endurance_charge
+-|static_stat5_value                      = 2
+-|static_stat6_id                         = warcry_count_power_from_enemies
+-|static_stat6_value                      = 1
+-|static_stat7_id                         = endurance_charge_granted_per_X_monster_power_during_endurance_warcry
+-|static_stat7_value                      = 5
++|static_stat3_id                         = base_deal_no_spell_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = cannot_cancel_skill_before_contact_point
++|static_stat4_value                      = 1
++|static_stat5_id                         = base_skill_effect_duration
++|static_stat5_value                      = 2000
++|static_stat6_id                         = physical_damage_reduction_%_per_endurance_charge
++|static_stat6_value                      = 2
++|static_stat7_id                         = resist_all_elements_%_per_endurance_charge
++|static_stat7_value                      = 2
++|static_stat8_id                         = warcry_count_power_from_enemies
++|static_stat8_value                      = 1
++|static_stat9_id                         = endurance_charge_granted_per_X_monster_power_during_endurance_warcry
++|static_stat9_value                      = 5
+ |stat_text                               = Base duration is 2 seconds<br>Regenerate (120-1976) Life over 1 second<br>(0-38)% increased Warcry Speed<br>Buff grants 2% additional Physical Damage Reduction per Endurance Charge<br>Buff grants +2% to all Elemental Resistances per Endurance Charge<br>Counts total Power of Enemies in Range<br>Gain 1 Endurance Charge per 5 Power
+ |level1                                  = True
+ |level1_level_requirement                = 10

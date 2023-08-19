@@ -15,16 +15,14 @@
 +|static_stat2_value                      = 100
  |static_stat3_id                         = ground_maelstrom_art_variation
  |static_stat3_value                      = 15
--|static_stat4_id                         = base_skill_effect_duration
--|static_stat4_value                      = 5000
+ |static_stat4_id                         = base_skill_effect_duration
+ |static_stat4_value                      = 5000
 -|static_stat5_id                         = chill_effect_+%
 -|static_stat5_value                      = 100
 -|stat_text                               = Deals 7.4 Base Cold Damage per second<br>Base duration is 5 seconds<br>100% increased Effect of Chill
-+|static_stat4_id                         = base_cold_damage_to_deal_per_minute
-+|static_stat4_value                      = 445
-+|static_stat5_id                         = base_skill_effect_duration
-+|static_stat5_value                      = 5000
-+|stat_text                               = Deals 7.4 Base Cold Damage per second<br>Base duration is 5 seconds
++|static_stat5_id                         = base_cold_damage_to_deal_per_minute
++|static_stat5_value                      = 445
++|stat_text                               = Base duration is 5 seconds<br>Deals 7.4 Base Cold Damage per second
  |level1                                  = True
  |level1_level_requirement                = 1
  }}

@@ -22,12 +22,12 @@
 +|static_stat2_value                      = -25
 +|static_stat3_id                         = projectile_spiral_nova_time_ms
 +|static_stat3_value                      = 1500
-+|static_stat4_id                         = spell_minimum_base_fire_damage
-+|static_stat4_value                      = 4
-+|static_stat5_id                         = spell_maximum_base_fire_damage
-+|static_stat5_value                      = 6
-+|static_stat6_id                         = always_pierce
-+|static_stat6_value                      = 1
++|static_stat4_id                         = always_pierce
++|static_stat4_value                      = 1
++|static_stat5_id                         = spell_minimum_base_fire_damage
++|static_stat5_value                      = 4
++|static_stat6_id                         = spell_maximum_base_fire_damage
++|static_stat6_value                      = 6
  |static_stat7_id                         = active_skill_cast_speed_+%_final
  |static_stat7_value                      = -20
 -|static_stat8_id                         = projectile_spiral_nova_both_directions
@@ -45,7 +45,7 @@
 +|static_stat11_id                        = projectiles_nova
  |static_stat11_value                     = 1
 -|stat_text                               = Deals 4 to 6 Fire Damage<br>Fires 36 Projectiles in a spiral<br>20% less Cast Speed<br>Projectiles Pierce all Targets
-+|stat_text                               = Deals 4 to 6 Fire Damage<br>Projectiles Pierce all Targets<br>20% less Cast Speed<br>Fires 36 Projectiles in a spiral
++|stat_text                               = Projectiles Pierce all Targets<br>Deals 4 to 6 Fire Damage<br>20% less Cast Speed<br>Fires 36 Projectiles in a spiral
  |level1                                  = True
  |level1_level_requirement                = 8
  }}

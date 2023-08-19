@@ -1,6 +1,50 @@
 --- Module:Blight/blight crafting recipes items
 +++ Export
-@@ -960,6 +960,36 @@
+@@ -615,6 +615,21 @@
+ 	},
+ 	{
+ 		ordinal = 1, 
++		recipe_id = "InverseWeighting22_4", 
++		item_id = "Metadata/Items/Currency/Mushrune2", 
++	},
++	{
++		ordinal = 2, 
++		recipe_id = "InverseWeighting22_4", 
++		item_id = "Metadata/Items/Currency/Mushrune2", 
++	},
++	{
++		ordinal = 3, 
++		recipe_id = "InverseWeighting22_4", 
++		item_id = "Metadata/Items/Currency/Mushrune6b", 
++	},
++	{
++		ordinal = 1, 
+ 		recipe_id = "InverseWeighting23", 
+ 		item_id = "Metadata/Items/Currency/Mushrune1", 
+ 	},
+@@ -855,6 +870,21 @@
+ 	},
+ 	{
+ 		ordinal = 1, 
++		recipe_id = "InverseWeighting28_2", 
++		item_id = "Metadata/Items/Currency/Mushrune1", 
++	},
++	{
++		ordinal = 2, 
++		recipe_id = "InverseWeighting28_2", 
++		item_id = "Metadata/Items/Currency/Mushrune5", 
++	},
++	{
++		ordinal = 3, 
++		recipe_id = "InverseWeighting28_2", 
++		item_id = "Metadata/Items/Currency/Mushrune6b", 
++	},
++	{
++		ordinal = 1, 
+ 		recipe_id = "InverseWeighting29", 
+ 		item_id = "Metadata/Items/Currency/Mushrune1", 
+ 	},
+@@ -960,6 +990,36 @@
  	},
  	{
  		ordinal = 1, 
@@ -37,7 +81,7 @@
  		recipe_id = "InverseWeighting32", 
  		item_id = "Metadata/Items/Currency/Mushrune1", 
  	},
-@@ -1140,6 +1170,21 @@
+@@ -1140,6 +1200,21 @@
  	},
  	{
  		ordinal = 1, 
@@ -59,7 +103,7 @@
  		recipe_id = "InverseWeighting38", 
  		item_id = "Metadata/Items/Currency/Mushrune2", 
  	},
-@@ -1155,6 +1200,21 @@
+@@ -1155,6 +1230,21 @@
  	},
  	{
  		ordinal = 1, 
@@ -81,7 +125,7 @@
  		recipe_id = "InverseWeighting40", 
  		item_id = "Metadata/Items/Currency/Mushrune3", 
  	},
-@@ -1245,6 +1305,36 @@
+@@ -1245,6 +1335,36 @@
  	},
  	{
  		ordinal = 1, 
@@ -118,7 +162,7 @@
  		recipe_id = "InverseWeighting43", 
  		item_id = "Metadata/Items/Currency/Mushrune1", 
  	},
-@@ -1260,6 +1350,51 @@
+@@ -1260,6 +1380,51 @@
  	},
  	{
  		ordinal = 1, 
@@ -170,7 +214,7 @@
  		recipe_id = "InverseWeighting44", 
  		item_id = "Metadata/Items/Currency/Mushrune2", 
  	},
-@@ -1650,6 +1785,21 @@
+@@ -1650,6 +1815,21 @@
  	},
  	{
  		ordinal = 1, 
@@ -192,7 +236,7 @@
  		recipe_id = "InverseWeighting59", 
  		item_id = "Metadata/Items/Currency/Mushrune2", 
  	},
-@@ -1710,6 +1860,21 @@
+@@ -1710,6 +1890,21 @@
  	},
  	{
  		ordinal = 1, 
@@ -214,7 +258,7 @@
  		recipe_id = "InverseWeighting66_3", 
  		item_id = "Metadata/Items/Currency/Mushrune5", 
  	},
-@@ -2205,6 +2370,21 @@
+@@ -2205,6 +2400,21 @@
  	},
  	{
  		ordinal = 1, 
@@ -236,7 +280,7 @@
  		recipe_id = "InverseWeighting97", 
  		item_id = "Metadata/Items/Currency/Mushrune1", 
  	},
-@@ -2250,6 +2430,21 @@
+@@ -2250,6 +2460,21 @@
  	},
  	{
  		ordinal = 1, 
@@ -258,7 +302,7 @@
  		recipe_id = "InverseWeighting100", 
  		item_id = "Metadata/Items/Currency/Mushrune4", 
  	},
-@@ -2295,6 +2490,21 @@
+@@ -2295,6 +2520,21 @@
  	},
  	{
  		ordinal = 1, 
@@ -280,7 +324,7 @@
  		recipe_id = "InverseWeighting103", 
  		item_id = "Metadata/Items/Currency/Mushrune1", 
  	},
-@@ -2895,6 +3105,21 @@
+@@ -2895,6 +3135,21 @@
  	},
  	{
  		ordinal = 1, 
@@ -302,7 +346,7 @@
  		recipe_id = "InverseWeighting140", 
  		item_id = "Metadata/Items/Currency/Mushrune4", 
  	},
-@@ -3315,6 +3540,21 @@
+@@ -3315,6 +3570,21 @@
  	},
  	{
  		ordinal = 1, 
@@ -324,7 +368,51 @@
  		recipe_id = "InverseWeighting182", 
  		item_id = "Metadata/Items/Currency/Mushrune1", 
  	},
-@@ -4767,6 +5007,21 @@
+@@ -3750,6 +4020,21 @@
+ 	},
+ 	{
+ 		ordinal = 1, 
++		recipe_id = "InverseWeighting202_2", 
++		item_id = "Metadata/Items/Currency/Mushrune5", 
++	},
++	{
++		ordinal = 2, 
++		recipe_id = "InverseWeighting202_2", 
++		item_id = "Metadata/Items/Currency/Mushrune6b", 
++	},
++	{
++		ordinal = 3, 
++		recipe_id = "InverseWeighting202_2", 
++		item_id = "Metadata/Items/Currency/Mushrune11", 
++	},
++	{
++		ordinal = 1, 
+ 		recipe_id = "InverseWeighting203", 
+ 		item_id = "Metadata/Items/Currency/Mushrune1", 
+ 	},
+@@ -4425,6 +4710,21 @@
+ 	},
+ 	{
+ 		ordinal = 1, 
++		recipe_id = "InverseWeighting255_2", 
++		item_id = "Metadata/Items/Currency/Mushrune1", 
++	},
++	{
++		ordinal = 2, 
++		recipe_id = "InverseWeighting255_2", 
++		item_id = "Metadata/Items/Currency/Mushrune6b", 
++	},
++	{
++		ordinal = 3, 
++		recipe_id = "InverseWeighting255_2", 
++		item_id = "Metadata/Items/Currency/Mushrune12", 
++	},
++	{
++		ordinal = 1, 
+ 		recipe_id = "InverseWeighting256", 
+ 		item_id = "Metadata/Items/Currency/Mushrune3", 
+ 	},
+@@ -4767,6 +5067,21 @@
  		ordinal = 3, 
  		recipe_id = "InverseWeighting271_2", 
  		item_id = "Metadata/Items/Currency/Mushrune12", 

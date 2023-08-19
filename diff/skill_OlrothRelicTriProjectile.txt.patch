@@ -1,6 +1,6 @@
 --- Skill:OlrothRelicTriProjectile
 +++ Export
-@@ -7,19 +7,19 @@
+@@ -7,21 +7,21 @@
  |static_damage_effectiveness             = 100
  |static_damage_multiplier                = 100
  |static_attack_speed_multiplier          = 100
@@ -19,15 +19,18 @@
 +|static_stat4_id                         = use_scaled_contact_offset
  |static_stat4_value                      = 1
 -|static_stat5_id                         = projectile_uses_contact_position
--|static_stat5_value                      = 1
++|static_stat5_id                         = fire_damage_cannot_ignite
+ |static_stat5_value                      = 1
 -|static_stat6_id                         = use_scaled_contact_offset
 -|static_stat6_value                      = 1
 -|static_stat7_id                         = projectiles_fire_at_ground
-+|static_stat5_id                         = spell_minimum_base_fire_damage
-+|static_stat5_value                      = 4
-+|static_stat6_id                         = spell_maximum_base_fire_damage
-+|static_stat6_value                      = 6
-+|static_stat7_id                         = fire_damage_cannot_ignite
- |static_stat7_value                      = 1
- |stat_text                               = Deals 4 to 6 Fire Damage<br>Your Fire Damage cannot Ignite
+-|static_stat7_value                      = 1
+-|stat_text                               = Deals 4 to 6 Fire Damage<br>Your Fire Damage cannot Ignite
++|static_stat6_id                         = spell_minimum_base_fire_damage
++|static_stat6_value                      = 4
++|static_stat7_id                         = spell_maximum_base_fire_damage
++|static_stat7_value                      = 6
++|stat_text                               = Your Fire Damage cannot Ignite<br>Deals 4 to 6 Fire Damage
  |level1                                  = True
+ |level1_level_requirement                = 0
+ }}

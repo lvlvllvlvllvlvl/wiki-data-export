@@ -1,4 +1,4 @@
---- Wiki
+--- Flamethrower Trap
 +++ Export
 @@ -38,11 +38,11 @@
  |static_damage_multiplier                = 100
@@ -15,3 +15,12 @@
  |static_stat3_value                      = 1
  |static_stat4_id                         = base_trap_duration
  |static_stat4_value                      = 4000
+@@ -54,7 +54,7 @@
+ |static_stat7_value                      = 4
+ |static_stat8_id                         = flamethrower_trap_damage_+%_final_vs_burning_enemies
+ |static_stat8_value                      = 25
+-|stat_text                               = Deals (6-243) to (9-366) Fire Damage<br>Trap lasts 4 seconds<br>Base duration is 3.5 seconds<br>Has 4 Flames<br>25% more Damage with Hits and Ailments against Burning Enemies
++|stat_text                               = Trap lasts 4 seconds<br>Base duration is 3.5 seconds<br>Deals (6-243) to (9-366) Fire Damage<br>Has 4 Flames<br>25% more Damage with Hits and Ailments against Burning Enemies
+ |level1                                  = True
+ |level1_level_requirement                = 28
+ |level1_cost_amounts                     = 13

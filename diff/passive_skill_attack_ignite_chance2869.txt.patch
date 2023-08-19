@@ -1,0 +1,13 @@
+--- Passive Skill:Attack~ignite~chance2869
++++ Export
+@@ -0,0 +1,10 @@
++{{Passive skill
++|id                                  = attack_ignite_chance2869
++|int_id                              = 53630
++|name                                = Attack Ignite Chance
++|icon                                = firedamagestr
++|stat1_id                            = attack_ignite_chance_%
++|stat1_value                         = 15
++|stat_text                           = [[Attack|Attacks]] have 15% chance to [[Ignite]]
++|connections                         = melee_ignite_notable2874,attack_ignite_chance2866,melee_ignite_notable2874
++}}

@@ -1,0 +1,11 @@
+--- Monster:Metadata/Monsters/AtlasBosses/MinotaurBoss
++++ Export
+@@ -1,7 +1,7 @@
+ {{Monster
+ |metadata_id                      = Metadata/Monsters/AtlasBosses/MinotaurBoss
+ |monster_type_id                  = AtlasBossMinotaur
+-|mod_ids                          = MonsterMapBoss, CannotBeSlowedBelowValueBosses, MonsterImplicitCannotBeStunned1, StunRepeatImmunityMapBossSuper, MonsterDroppedItemsInfluenceShaper
++|mod_ids                          = MonsterMapBoss, CannotBeSlowedBelowValueBosses, StunRepeatImmunityMapBossSuper, MonsterDroppedItemsInfluenceShaper
+ |tags                             = bludgeoning_weapon, fast_movement, flesh_armour, has_two_hand_mace, has_two_handed_melee, human, humanoid, large_height, lightning_affinity, melee, non_unique_map_boss, not_dex, not_int, physical_affinity, red_blood, shaper_guardian_boss
+ |skill_ids                        = MinotaurMelee, MinotaurSlam, MinotaurBurrow, MinotaurSweep
+ |name                             = Guardian of the Minotaur

@@ -1,0 +1,20 @@
+--- Monster:Metadata/Monsters/Axis/AxisEliteSoldierRadiance
++++ Export
+@@ -0,0 +1,17 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/Axis/AxisEliteSoldierRadiance
++|monster_type_id                  = RadianceSentinel
++|mod_ids                          = MonsterEnemiesTaunted1
++|tags                             = bludgeoning_weapon, has_one_hand_mace, has_one_handed_melee, human, humanoid, medium_height, melee, not_dex, not_int, physical_affinity, plate_armour, very_slow_movement
++|skill_ids                        = TeleportVaalDomination, VaalDominationMelee
++|name                             = Sentinel of Radiance
++|size                             = 3
++|minimum_attack_distance          = 6
++|maximum_attack_distance          = 17
++|model_size_multiplier            = 0.7
++|experience_multiplier            = 2.0
++|damage_multiplier                = 20.0
++|health_multiplier                = 12.0
++|critical_strike_chance           = 5.0
++|attack_speed                     = 0.83
++}}

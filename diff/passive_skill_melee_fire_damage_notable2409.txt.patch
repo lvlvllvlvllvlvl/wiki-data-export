@@ -1,0 +1,15 @@
+--- Passive Skill:Melee~fire~damage~notable2409
++++ Export
+@@ -2,10 +2,11 @@
+ |id                                  = melee_fire_damage_notable2409
+ |int_id                              = 5430
+ |name                                = Magmatic Strikes
++|buff_id                             = chieftain_physical_as_fire_cycle
+ |is_notable                          = True
+ |icon                                = MeleeFireNotable
+ |stat1_id                            = local_display_every_10_seconds_physical_damage_%_to_add_as_fire_for_3_seconds
+ |stat1_value                         = 30
+-|stat_text                           = Every 10 seconds, gain 30% of [[Physical Damage]] as Extra [[Fire Damage]] for 4 seconds
++|stat_text                           = Every 10 seconds, gain 30% of Physical Damage<br />as Extra [[Fire Damage]] for 4 seconds<br>
+ |connections                         = mastery_fire117,fire_damage337,melee_fire_damage2406
+ }}

@@ -1,6 +1,6 @@
 --- Skill:IzaroTemporalChainsPylonOnDeath
 +++ Export
-@@ -7,6 +7,7 @@
+@@ -7,10 +7,11 @@
  |static_damage_effectiveness             = 100
  |static_damage_multiplier                = 100
  |static_attack_speed_multiplier          = 100
@@ -8,3 +8,8 @@
  |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
  |static_stat1_value                      = 100
  |static_stat2_id                         = buff_time_passed_+%_other_than_temporal_chains
+-|static_stat2_value                      = -40
++|static_stat2_value                      = -25
+ |static_stat3_id                         = temporal_chains_action_speed_+%_final
+ |static_stat3_value                      = -60
+ |static_stat4_id                         = base_skill_effect_duration

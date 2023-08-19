@@ -1,10 +1,13 @@
---- Wiki
+--- Passive Skill:AscendancyGuardian3
 +++ Export
-@@ -9,6 +9,6 @@
+@@ -7,8 +7,8 @@
+ |icon                                = RadientFaith (Guardian)
+ |stat1_id                            = guardian_reserved_mana_%_given_to_you_and_nearby_allies_as_base_maximum_energy_shield
  |stat1_value                         = 10
- |stat2_id                            = guardian_reserved_life_granted_to_you_and_allies_as_armour_%
- |stat2_value                         = 160
--|stat_text                           = Grants maximum [[Energy Shield]] equal to 10% of your Reserved [[Mana]] to<br />you and nearby Allies<br>Grants [[Armour]] equal to 25% of your Reserved [[Mana]] to you and nearby Allies
-+|stat_text                           = Grants maximum [[Energy Shield]] equal to 10% of your Reserved [[Mana]] to<br />you and nearby Allies<br>Grants [[Armour]] equal to 160% of your Reserved [[Life]] to you and nearby Allies
+-|stat2_id                            = guardian_reserved_life_granted_to_you_and_allies_as_armour_%
+-|stat2_value                         = 160
++|stat2_id                            = guardian_reserved_mana_granted_to_you_and_allies_as_armour_%
++|stat2_value                         = 25
+ |stat_text                           = Grants maximum [[Energy Shield]] equal to 10% of your Reserved [[Mana]] to<br />you and nearby Allies<br>Grants [[Armour]] equal to 25% of your Reserved [[Mana]] to you and nearby Allies
  |connections                         = AscendancyGuardian9,AscendancyGuardian6,AscendancyGuardian9
  }}

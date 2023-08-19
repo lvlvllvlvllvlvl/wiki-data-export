@@ -1,8 +1,26 @@
---- Wiki
+--- Stormbind
 +++ Export
-@@ -154,16 +154,13 @@
+@@ -19,6 +19,12 @@
+ |quality_type2_weight                    = 100
+ |quality_type3_weight                    = 100
+ |quality_type4_weight                    = 100
++|static_cost_types                       = Mana
++|static_critical_strike_chance           = 6
++|static_damage_effectiveness             = 160
++|static_damage_multiplier                = 100
++|static_attack_speed_multiplier          = 100
++|static_duration                         = 12
+ |level1                                  = True
+ |level1_level_requirement                = 28
+ |level1_cost_amounts                     = 3
+@@ -150,20 +156,17 @@
+ |quality_type3_stat_text                 = Runes have 0.5% increased Area of Effect for each time they've been Improved
+ |quality_type4_stat1_id                  = active_skill_quality_damage_+%_final
+ |quality_type4_stat1_value               = 1000
+-|quality_type4_stat_text                 = 1% more Damage<br>Runes deal -3% more Damage with Hits and Ailments for each time they have been Improved
  |quality_type4_stat2_id                  = rune_paint_damage_+%_final_per_rune_level
  |quality_type4_stat2_value               = -3000
++|quality_type4_stat_text                 = 1% more Damage<br>Runes deal -3% more Damage with Hits and Ailments for each time they have been Improved
  |stat_text                               = Deals (36-444) to (107-1332) Lightning Damage<br>Base duration is 12 seconds<br>50% reduced Movement Speed<br>Runes have 30% more Area of Effect for each time they have been Improved<br>Runes deal 100% more Damage with Hits and Ailments for each time they have been Improved<br>A Rune is Improved for each (5-24) Mana Spent<br>Runes can be improved 3 times
 -|static_cost_types                       = Mana
 -|static_critical_strike_chance           = 6
@@ -21,7 +39,7 @@
  |static_stat4_value                      = 1
  |static_stat5_id                         = base_skill_effect_duration
  |static_stat5_value                      = 12000
-@@ -171,10 +168,10 @@
+@@ -171,10 +174,10 @@
  |static_stat6_value                      = -50
  |static_stat7_id                         = rune_paint_area_of_effect_+%_final_per_rune_level
  |static_stat7_value                      = 30

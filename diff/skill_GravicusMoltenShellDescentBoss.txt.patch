@@ -19,12 +19,12 @@
 +|static_stat1_value                      = 50
 +|static_stat2_id                         = is_area_damage
 +|static_stat2_value                      = 1
-+|static_stat3_id                         = spell_minimum_base_fire_damage
-+|static_stat3_value                      = 117
-+|static_stat4_id                         = spell_maximum_base_fire_damage
-+|static_stat4_value                      = 175
-+|static_stat5_id                         = base_skill_effect_duration
-+|static_stat5_value                      = 10000
++|static_stat3_id                         = base_skill_effect_duration
++|static_stat3_value                      = 10000
++|static_stat4_id                         = spell_minimum_base_fire_damage
++|static_stat4_value                      = 117
++|static_stat5_id                         = spell_maximum_base_fire_damage
++|static_stat5_value                      = 175
  |static_stat6_id                         = fire_shield_damage_threshold
  |static_stat6_value                      = 180
 -|static_stat7_id                         = is_area_damage
@@ -32,7 +32,7 @@
 -|stat_text                               = Deals 117 to 175 Fire Damage<br>Base duration is 10 seconds<br>4000 additional Armour<br>Shields break after 180 total Damage is prevented
 +|static_stat7_id                         = base_physical_damage_reduction_rating
 +|static_stat7_value                      = 4000
-+|stat_text                               = Deals 117 to 175 Fire Damage<br>Base duration is 10 seconds<br>Shields break after 180 total Damage is prevented<br>4000 additional Armour
++|stat_text                               = Base duration is 10 seconds<br>Deals 117 to 175 Fire Damage<br>Shields break after 180 total Damage is prevented<br>4000 additional Armour
  |level1                                  = True
  |level1_level_requirement                = 26
  }}

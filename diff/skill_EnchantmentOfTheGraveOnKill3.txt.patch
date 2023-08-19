@@ -6,11 +6,13 @@
  |static_attack_speed_multiplier          = 100
 -|static_stat1_id                         = minions_explode_on_death_for_%_max_life_at_end_of_duration
 -|static_stat1_value                      = 20
+-|static_stat2_id                         = display_minion_monster_level
+-|static_stat2_value                      = 66
 +|static_duration                         = 5
-+|static_stat1_id                         = chance_to_cast_on_owned_kill_%
-+|static_stat1_value                      = 100
- |static_stat2_id                         = display_minion_monster_level
- |static_stat2_value                      = 66
++|static_stat1_id                         = base_display_minion_actor_level
++|static_stat1_value                      = 66
++|static_stat2_id                         = chance_to_cast_on_owned_kill_%
++|static_stat2_value                      = 100
  |static_stat3_id                         = display_minion_monster_type
  |static_stat3_value                      = 10
 -|static_stat4_id                         = number_of_monsters_to_summon

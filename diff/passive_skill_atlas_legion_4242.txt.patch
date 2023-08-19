@@ -1,0 +1,19 @@
+--- Passive Skill:Atlas~legion~4242
++++ Export
+@@ -1,10 +1,12 @@
+ {{Passive skill
+ |id                                  = atlas_legion_4242
+ |int_id                              = 56599
+-|name                                = Legion Monolith Chance
++|name                                = Legion Sergeant Reward Chance and Duration
+ |is_atlas_passive                    = True
+ |icon                                = LegionNode1 (AtlasTrees)
+-|stat1_id                            = map_legion_encounter_additional_chance_%
+-|stat1_value                         = 4
+-|stat_text                           = Your Maps have +4% chance to contain a Legion Encounter
++|stat1_id                            = map_legion_duration_+%
++|stat1_value                         = 10
++|stat2_id                            = map_legion_sergeants_reward_additional_chance_%
++|stat2_value                         = 3
++|stat_text                           = Legion Encounters in your Maps have 10% increased Duration<br>Legion Sergeants in your Maps have 3% additional chance to have Rewards
+ }}

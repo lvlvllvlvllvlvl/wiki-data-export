@@ -1,0 +1,16 @@
+{{Passive skill
+|id                                  = atlas_keystone_ritual_single_shop_window
+|int_id                              = 36064
+|name                                = Immutable Dogma
+|flavour_text                        = Do not doubt. Do not question.
+This is the way it has always been.
+This is the way it shall always be.
+|is_keystone                         = True
+|is_atlas_passive                    = True
+|icon                                = ImmutableDogma (AtlasTrees)
+|stat1_id                            = map_ritual_cannot_reroll_rewards
+|stat1_value                         = 1
+|stat2_id                            = map_ritual_tribute_+%_final_from_atlas_keystone
+|stat2_value                         = 100
+|stat_text                           = Cannot Reroll Favours at Ritual Altars in your Maps<br>Monsters Sacrificed at Ritual Altars in your Maps grant 100% more Tribute
+}}

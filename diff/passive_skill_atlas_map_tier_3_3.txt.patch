@@ -1,0 +1,21 @@
+--- Passive Skill:Atlas~map~tier~3~3
++++ Export
+@@ -1,13 +1,13 @@
+ {{Passive skill
+ |id                                  = atlas_map_tier_3_3
+ |int_id                              = 61358
+-|name                                = Shaping the Seas
++|name                                = Shaping the World
+ |is_notable                          = True
+ |is_atlas_passive                    = True
+ |icon                                = Mapnotable3 (AtlasTrees)
+ |stat1_id                            = map_tier_bonus_permillage
+-|stat1_value                         = 150
+-|stat2_id                            = map_maps_drop_with_special_implicit_chance_permillage
+-|stat2_value                         = 30
+-|stat_text                           = Maps found have 15% chance to be 1 tier higher<br>Maps found in your Maps have 3% chance to have a special Implicit Modifier
++|stat1_value                         = 100
++|stat2_id                            = map_boss_additional_chance_to_drop_adjacent_map_permyriad
++|stat2_value                         = 500
++|stat_text                           = Maps found have 10% chance to be 1 tier higher<br>Final Map Boss in each Map has 5% chance to drop an additional connected Map
+ }}

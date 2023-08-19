@@ -30,6 +30,8 @@
 -|static_stat10_id                        = always_ignite
 -|static_stat10_value                     = 1
 -|static_stat11_id                        = base_is_projectile
+-|static_stat11_value                     = 1
+-|stat_text                               = Deals 6700 to 10049 Fire Damage<br>Spell Repeats 12 times<br>Hits always Ignite
 +|static_stat4_id                         = cleansing_fire_maven_projectiles_to_destroy
 +|static_stat4_value                      = 7
 +|static_stat5_id                         = cleansing_fire_projectile_move_delay_ms
@@ -40,16 +42,15 @@
 +|static_stat7_value                      = 1500
 +|static_stat8_id                         = trigger_spawners_time_between_min_ms
 +|static_stat8_value                      = 500
-+|static_stat9_id                         = spell_minimum_base_fire_damage
-+|static_stat9_value                      = 6700
-+|static_stat10_id                        = spell_maximum_base_fire_damage
-+|static_stat10_value                     = 10049
-+|static_stat11_id                        = always_ignite
- |static_stat11_value                     = 1
--|stat_text                               = Deals 6700 to 10049 Fire Damage<br>Spell Repeats 12 times<br>Hits always Ignite
-+|static_stat12_id                        = base_spell_repeat_count
-+|static_stat12_value                     = 12
-+|stat_text                               = Deals 6700 to 10049 Fire Damage<br>Hits always Ignite<br>Spell Repeats 12 times
++|static_stat9_id                         = always_ignite
++|static_stat9_value                      = 1
++|static_stat10_id                        = base_spell_repeat_count
++|static_stat10_value                     = 12
++|static_stat11_id                        = spell_minimum_base_fire_damage
++|static_stat11_value                     = 6700
++|static_stat12_id                        = spell_maximum_base_fire_damage
++|static_stat12_value                     = 10049
++|stat_text                               = Hits always Ignite<br>Spell Repeats 12 times<br>Deals 6700 to 10049 Fire Damage
  |level1                                  = True
  |level1_level_requirement                = 83
  }}

@@ -2,18 +2,12 @@
 |id                                  = AscendancyGuardian16
 |int_id                              = 19641
 |name                                = Unwavering Crusade
-|buff_id                             = guardian_damage_speed_area_intimidate
+|buff_id                             = trigger_allied_guardian_relic_on_kill
 |ascendancy_class                    = Guardian
 |is_notable                          = True
 |icon                                = Unwavering Crusade (Guardian)
-|stat_text                           = Nearby Allies have 20% increased Attack, Cast and [[Movement Speed]]<br>Nearby Allies have 30% increased Area of Effect<br>Nearby Allies Intimidate Enemies for 4 seconds on [[Hit]]<br>Nearby Allies Unnerve Enemies for 4 seconds on [[Hit]]
-|stat1_id                            = attack_cast_movement_speed_+%
-|stat1_value                         = 20
-|stat2_id                            = base_skill_area_of_effect_+%
-|stat2_value                         = 30
-|stat3_id                            = chance_to_intimidate_on_hit_%
-|stat3_value                         = 100
-|stat4_id                            = chance_to_unnerve_on_hit_%
-|stat4_value                         = 100
+|stat_text                           = 25% chance to Trigger [[Level]] 20 Summon Elemental Relic when you or a nearby Ally [[Kill]] an Enemy, or [[Hit]] a Rare or Unique Enemy
+|stat1_id                            = can_trigger_summon_elemental_relic_on_nearby_ally_kill_or_on_hit_rare_or_unique
+|stat1_value                         = 25
 |connections                         = AscendancyGuardian13
 }}

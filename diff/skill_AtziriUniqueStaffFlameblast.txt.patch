@@ -8,8 +8,13 @@
 -|static_stat1_value                      = 3870
 -|static_stat2_id                         = spell_maximum_base_fire_damage
 -|static_stat2_value                      = 5805
--|static_stat3_id                         = base_skill_effect_duration
--|static_stat3_value                      = 2000
++|static_duration                         = 2
++|static_stat1_id                         = base_skill_show_average_damage_instead_of_dps
++|static_stat1_value                      = 1
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
+ |static_stat3_id                         = base_skill_effect_duration
+ |static_stat3_value                      = 2000
 -|static_stat4_id                         = base_reduce_enemy_fire_resistance_%
 -|static_stat4_value                      = 25
 -|static_stat5_id                         = base_chance_to_ignite_%
@@ -19,17 +24,10 @@
 -|static_stat7_id                         = is_area_damage
 -|static_stat7_value                      = 1
 -|static_stat8_id                         = base_skill_show_average_damage_instead_of_dps
-+|static_duration                         = 2
-+|static_stat1_id                         = base_skill_show_average_damage_instead_of_dps
-+|static_stat1_value                      = 1
-+|static_stat2_id                         = is_area_damage
-+|static_stat2_value                      = 1
-+|static_stat3_id                         = spell_minimum_base_fire_damage
-+|static_stat3_value                      = 3870
-+|static_stat4_id                         = spell_maximum_base_fire_damage
-+|static_stat4_value                      = 5805
-+|static_stat5_id                         = base_skill_effect_duration
-+|static_stat5_value                      = 2000
++|static_stat4_id                         = spell_minimum_base_fire_damage
++|static_stat4_value                      = 3870
++|static_stat5_id                         = spell_maximum_base_fire_damage
++|static_stat5_value                      = 5805
 +|static_stat6_id                         = base_chance_to_ignite_%
 +|static_stat6_value                      = 50
 +|static_stat7_id                         = base_reduce_enemy_fire_resistance_%
@@ -37,7 +35,7 @@
 +|static_stat8_id                         = skill_has_trigger_from_unique_item
  |static_stat8_value                      = 1
 -|stat_text                               = Deals 3870 to 5805 Fire Damage<br>Base duration is 2 seconds<br>Penetrates 25% Fire Resistance<br>50% chance to Ignite enemies<br>This Skill is Triggered by a Unique Item
-+|stat_text                               = Deals 3870 to 5805 Fire Damage<br>Base duration is 2 seconds<br>50% chance to Ignite enemies<br>Penetrates 25% Fire Resistance<br>This Skill is Triggered by a Unique Item
++|stat_text                               = Base duration is 2 seconds<br>Deals 3870 to 5805 Fire Damage<br>50% chance to Ignite enemies<br>Penetrates 25% Fire Resistance<br>This Skill is Triggered by a Unique Item
  |level1                                  = True
  |level1_level_requirement                = 70
  }}

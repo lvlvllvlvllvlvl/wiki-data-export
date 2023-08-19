@@ -1,10 +1,11 @@
---- Wiki
+--- Passive Skill:AscendancyChieftan12
 +++ Export
 @@ -7,6 +7,6 @@
  |icon                                = TawhoaForestsStrength (Chieftain)
  |stat1_id                            = local_display_grants_skill_mirage_chieftain
  |stat1_value                         = 20
 -|stat_text                           = Trigger [[Level]] 20 Tawhoa's Chosen when you [[Attack]] with a Non-Vaal [[Slam]] or [[Strike]] [[Skill]] near an Enemy
-+|stat_text                           = Trigger [[Level]] 20 Tawhoa's Chosen when you [[Attack]] with a Non-Vaal Slam [[Skill]] near an Enemy
- |connections                         = AscendancyChieftan3
+-|connections                         = AscendancyChieftan3
++|stat_text                           = Trigger [[Level]] 20 Tawhoa's Chosen when you [[Attack]] with<br />a Non-Vaal Slam or Strike [[Skill]] near an Enemy
++|connections                         = AscendancyChieftan1,AscendancyChieftan3
  }}

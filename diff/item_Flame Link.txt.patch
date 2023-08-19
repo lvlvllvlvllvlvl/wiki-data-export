@@ -1,0 +1,22 @@
+--- Flame Link
++++ Export
+@@ -31,14 +31,12 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = base_deal_no_damage
++|static_stat1_id                         = skill_cost_over_time_is_not_removed_with_skill
+ |static_stat1_value                      = 1
+-|static_stat2_id                         = skill_cost_over_time_is_not_removed_with_skill
+-|static_stat2_value                      = 1
+-|static_stat3_id                         = flame_link_added_fire_damage_from_life_%
+-|static_stat3_value                      = 5
+-|static_stat4_id                         = display_link_stuff
+-|static_stat4_value                      = 1
++|static_stat2_id                         = flame_link_added_fire_damage_from_life_%
++|static_stat2_value                      = 5
++|static_stat3_id                         = display_link_stuff
++|static_stat3_value                      = 1
+ |stat_text                               = Base duration is (8-9.9) seconds<br>Linked target gains (23-169) to (35-254) Added Fire Damage<br>Linked target gains Added Fire Damage equal to 5% of your Maximum Life<br>Link breaks if target leaves range or line of sight for 4 seconds<br>Maximum 1 Link from any source per target<br>You die if Linked target dies
+ |level1                                  = True
+ |level1_level_requirement                = 34

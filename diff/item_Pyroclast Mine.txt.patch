@@ -1,4 +1,4 @@
---- Wiki
+--- Pyroclast Mine
 +++ Export
 @@ -39,13 +39,13 @@
  |static_damage_effectiveness             = 80
@@ -18,3 +18,12 @@
  |static_stat4_value                      = 1
  |static_stat5_id                         = projectile_behaviour_only_explode
  |static_stat5_value                      = 1
+@@ -59,7 +59,7 @@
+ |static_stat9_value                      = 2
+ |static_stat10_id                        = display_additional_projectile_per_4_mines_in_detonation_sequence
+ |static_stat10_value                     = 1
+-|stat_text                               = Deals (26-240) to (39-361) Fire Damage<br>Mine lasts 5 seconds<br>Base Mine Detonation Time is 0.35 seconds<br>Fires 2 additional Projectiles<br>Fires an additional Projectile for every 4 prior Mines in Detonation Sequence<br>Each Mine Adds (1-12) to (2-18) Fire Damage to Hits against Enemies near it, up<br>to a maximum of (64-601) to (96-901)
++|stat_text                               = Mine lasts 5 seconds<br>Deals (26-240) to (39-361) Fire Damage<br>Base Mine Detonation Time is 0.35 seconds<br>Fires 2 additional Projectiles<br>Fires an additional Projectile for every 4 prior Mines in Detonation Sequence<br>Each Mine Adds (1-12) to (2-18) Fire Damage to Hits against Enemies near it, up<br>to a maximum of (64-601) to (96-901)
+ |level1                                  = True
+ |level1_level_requirement                = 28
+ |level1_cost_amounts                     = 4

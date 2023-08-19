@@ -1,0 +1,21 @@
+--- Passive Skill:Atlas~keystone~expedition~single~explosive
++++ Export
+@@ -0,0 +1,18 @@
++{{Passive skill
++|id                                  = atlas_keystone_expedition_single_explosive
++|int_id                              = 13802
++|name                                = Extreme Archaeology
++|flavour_text                        = Verisium is often found in a recent crater. Properly refined, it can easily make another.
++|is_keystone                         = True
++|is_atlas_passive                    = True
++|icon                                = ExtremeArchaeology (AtlasTrees)
++|stat1_id                            = map_expedition_only_one_explosive
++|stat1_value                         = 1
++|stat2_id                            = map_expedition_explosion_radius_+%
++|stat2_value                         = 200
++|stat3_id                            = map_expedition_monster_spawn_additional_missing_life_%
++|stat3_value                         = 10
++|stat4_id                            = map_expedition_maximum_placement_distance_+%
++|stat4_value                         = 100
++|stat_text                           = Number of Explosives is one<br>200% increased Explosive Radius in your Maps<br>Expedition Monsters in your Maps spawn with an additional 10% of [[Life]] missing<br>100% increased Explosive Placement Range in your Maps
++}}

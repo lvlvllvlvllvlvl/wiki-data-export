@@ -1,0 +1,20 @@
+--- Monster:Metadata/Monsters/LeagueAncestral/AncestralDeathcaster
++++ Export
+@@ -0,0 +1,17 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueAncestral/AncestralDeathcaster
++|monster_type_id                  = AncestralDeathcaster
++|mod_ids                          = AncestralItemSlainEnemiesHaveExtraRespawnTimer, AncestralTrialMonsterCurseEffectHinekora, AncestralTrialMonsterChampionFleeAndDamage
++|tags                             = human, humanoid, karui, medium_movement, not_str, red_blood
++|skill_ids                        = MeleeAtAnimationSpeed, EASReviveAlly, MPSAncestralDeathCasterProjectile, AncestralDeathcasterTotemAura
++|name                             = Death's Guide
++|size                             = 3
++|minimum_attack_distance          = 5
++|maximum_attack_distance          = 14
++|model_size_multiplier            = 1.0
++|experience_multiplier            = 1.0
++|damage_multiplier                = 2.25
++|health_multiplier                = 5.75
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.5
++}}

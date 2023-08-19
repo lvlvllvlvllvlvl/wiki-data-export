@@ -1,14 +1,7 @@
 --- Skill:LightningSpell
 +++ Export
-@@ -5,226 +5,226 @@
- |cast_time                               = 1.0
- |required_level                          = 1
- |static_stored_uses                      = 1
--|static_cooldown                         = 0.2
-+|static_cooldown                         = 0.5
- |static_critical_strike_chance           = 7.5
--|static_damage_effectiveness             = 200
-+|static_damage_effectiveness             = 440
+@@ -10,221 +10,221 @@
+ |static_damage_effectiveness             = 440
  |static_damage_multiplier                = 100
  |static_attack_speed_multiplier          = 100
 -|static_stat1_id                         = cast_on_crit_%
@@ -19,7 +12,7 @@
  |static_stat2_value                      = 1
 -|static_stat3_id                         = is_area_damage
 -|static_stat3_value                      = 1
--|stat_text                               = Deals 1248 to 3743 Lightning Damage<br>Trigger this Spell when you Crit an Enemy<br>You cannot Cast this Spell directly
+-|stat_text                               = Deals 614 to 11673 Lightning Damage<br>Trigger this Spell when you Crit an Enemy<br>You cannot Cast this Spell directly
 +|static_stat3_id                         = cast_on_crit_%
 +|static_stat3_value                      = 100
 +|stat_text                               = Deals (3-614) to (59-11673) Lightning Damage<br>You cannot Cast this Spell directly<br>Trigger this Spell when you Crit an Enemy

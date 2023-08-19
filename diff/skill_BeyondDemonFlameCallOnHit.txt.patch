@@ -1,6 +1,6 @@
 --- Skill:BeyondDemonFlameCallOnHit
 +++ Export
-@@ -9,15 +9,16 @@
+@@ -9,38 +9,41 @@
  |static_attack_speed_multiplier          = 100
  |static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
  |static_stat1_value                      = -31
@@ -15,26 +15,57 @@
 +|static_stat3_value                      = 75
 +|static_stat4_id                         = spell_uncastable_if_triggerable
  |static_stat4_value                      = 1
- |stat_text                               = Deals (7-1259) to (11-1889) Fire Damage<br>Base duration is (2-1.5) seconds<br>You cannot Cast this Spell directly
+-|stat_text                               = Deals (7-1259) to (11-1889) Fire Damage<br>Base duration is (2-1.5) seconds<br>You cannot Cast this Spell directly
++|stat_text                               = Base duration is (2-1.5) seconds<br>Deals (7-1259) to (11-1889) Fire Damage<br>You cannot Cast this Spell directly
  |level1                                  = True
  |level1_level_requirement                = 3
+-|level1_stat_text                        = Deals 7 to 11 Fire Damage<br>Base duration is 2 seconds
+-|level1_stat1_id                         = spell_minimum_base_fire_damage
+-|level1_stat1_value                      = 7
+-|level1_stat2_id                         = spell_maximum_base_fire_damage
+-|level1_stat2_value                      = 11
+-|level1_stat3_id                         = base_skill_effect_duration
+-|level1_stat3_value                      = 2000
 +|level1_duration                         = 2
- |level1_stat_text                        = Deals 7 to 11 Fire Damage<br>Base duration is 2 seconds
- |level1_stat1_id                         = spell_minimum_base_fire_damage
- |level1_stat1_value                      = 7
-@@ -27,6 +28,7 @@
- |level1_stat3_value                      = 2000
++|level1_stat_text                        = Base duration is 2 seconds<br>Deals 7 to 11 Fire Damage
++|level1_stat1_id                         = base_skill_effect_duration
++|level1_stat1_value                      = 2000
++|level1_stat2_id                         = spell_minimum_base_fire_damage
++|level1_stat2_value                      = 7
++|level1_stat3_id                         = spell_maximum_base_fire_damage
++|level1_stat3_value                      = 11
  |level2                                  = True
  |level2_level_requirement                = 51
+-|level2_stat_text                        = Deals 357 to 536 Fire Damage<br>Base duration is 1.75 seconds
+-|level2_stat1_id                         = spell_minimum_base_fire_damage
+-|level2_stat1_value                      = 357
+-|level2_stat2_id                         = spell_maximum_base_fire_damage
+-|level2_stat2_value                      = 536
+-|level2_stat3_id                         = base_skill_effect_duration
+-|level2_stat3_value                      = 1750
 +|level2_duration                         = 1.75
- |level2_stat_text                        = Deals 357 to 536 Fire Damage<br>Base duration is 1.75 seconds
- |level2_stat1_id                         = spell_minimum_base_fire_damage
- |level2_stat1_value                      = 357
-@@ -36,6 +38,7 @@
- |level2_stat3_value                      = 1750
++|level2_stat_text                        = Base duration is 1.75 seconds<br>Deals 357 to 536 Fire Damage
++|level2_stat1_id                         = base_skill_effect_duration
++|level2_stat1_value                      = 1750
++|level2_stat2_id                         = spell_minimum_base_fire_damage
++|level2_stat2_value                      = 357
++|level2_stat3_id                         = spell_maximum_base_fire_damage
++|level2_stat3_value                      = 536
  |level3                                  = True
  |level3_level_requirement                = 71
+-|level3_stat_text                        = Deals 1259 to 1889 Fire Damage<br>Base duration is 1.5 seconds
+-|level3_stat1_id                         = spell_minimum_base_fire_damage
+-|level3_stat1_value                      = 1259
+-|level3_stat2_id                         = spell_maximum_base_fire_damage
+-|level3_stat2_value                      = 1889
+-|level3_stat3_id                         = base_skill_effect_duration
+-|level3_stat3_value                      = 1500
 +|level3_duration                         = 1.5
- |level3_stat_text                        = Deals 1259 to 1889 Fire Damage<br>Base duration is 1.5 seconds
- |level3_stat1_id                         = spell_minimum_base_fire_damage
- |level3_stat1_value                      = 1259
++|level3_stat_text                        = Base duration is 1.5 seconds<br>Deals 1259 to 1889 Fire Damage
++|level3_stat1_id                         = base_skill_effect_duration
++|level3_stat1_value                      = 1500
++|level3_stat2_id                         = spell_minimum_base_fire_damage
++|level3_stat2_value                      = 1259
++|level3_stat3_id                         = spell_maximum_base_fire_damage
++|level3_stat3_value                      = 1889
+ }}

@@ -1,11 +1,21 @@
 --- Area:MapWorldsMesa
 +++ Export
-@@ -11,8 +11,5 @@
+@@ -4,15 +4,15 @@
+ |act                              = 11
+ |area_level                       = 78
+ |area_type_tags                   = mountain
+-|tags                             = map, einharmaps, windy_area, bandit_area
++|tags                             = map, einharmaps, windy_area, bandit_area, sun_nature_area
+ |loading_screen                   = Maps
+ |parent_area_id                   = 2_11_endgame_town
+ |boss_monster_ids                 = Metadata/Monsters/BanditLeaderStrDex/MapBanditLeaderOak
  |entry_text                       = Barren and sun-bleached. Emptiness as far as the eye can reach.
  |entry_npc                        = The Shaper
  |is_map_area                      = True
 -|flavour_text                     = Barren and sun-bleached.
 -Emptiness as far as
--the eye can reach.
++|flavour_text                     = Barren and sun-bleached.
++Emptiness as far as
+ the eye can reach.
  |main_page                        = Mesa Map
  }}

@@ -1,6 +1,6 @@
 --- Skill:MalachaiElementalCone
 +++ Export
-@@ -9,41 +9,41 @@
+@@ -9,41 +9,37 @@
  |static_damage_effectiveness             = 100
  |static_damage_multiplier                = 100
  |static_attack_speed_multiplier          = 100
@@ -32,8 +32,6 @@
 +|level1_stat1_value                      = 189
 +|level1_stat2_id                         = malachai_elemental_cone_spell_minimum_damage
 +|level1_stat2_value                      = 126
-+|level1_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
-+|level1_stat3_value                      = -50
  |level2                                  = True
  |level2_level_requirement                = 57
 -|level2_stat1_id                         = malachai_elemental_cone_spell_minimum_damage
@@ -46,8 +44,6 @@
 +|level2_stat1_value                      = 592
 +|level2_stat2_id                         = malachai_elemental_cone_spell_minimum_damage
 +|level2_stat2_value                      = 394
-+|level2_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
-+|level2_stat3_value                      = -20
  |level3                                  = True
  |level3_level_requirement                = 68
 -|level3_stat1_id                         = malachai_elemental_cone_spell_minimum_damage

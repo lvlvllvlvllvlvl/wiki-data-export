@@ -1,0 +1,16 @@
+--- Passive Skill:Atlas~keystone~rollable~vaal~side~areas
++++ Export
+@@ -0,0 +1,13 @@
++{{Passive skill
++|id                                  = atlas_keystone_rollable_vaal_side_areas
++|int_id                              = 43160
++|name                                = Lucid Dreams
++|flavour_text                        = Shattered fragments of reality float through the void,
++waiting to be shaped by your mind's desire.
++|is_keystone                         = True
++|is_atlas_passive                    = True
++|icon                                = LucidDreams (AtlasTrees)
++|stat1_id                            = map_vaal_side_areas_are_normal_and_can_be_modified
++|stat1_value                         = 1
++|stat_text                           = Vaal Side Areas in your Maps are no longer Corrupted
++}}

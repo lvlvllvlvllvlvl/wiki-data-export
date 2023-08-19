@@ -19,10 +19,10 @@
 |static_stat5_value                      = 8000
 |static_stat6_id                         = is_totem
 |static_stat6_value                      = 1
-|stat_text                               = +2 to maximum number of Summoned Totems<br>Totem lasts 8 seconds<br>Deals (12.3-1882.3) Base Fire Damage per second<br>Summons a Totem which uses this Skill<br>(50-575)% increased totem life
+|stat_text                               = +2 to maximum number of Summoned Totems<br>Totem lasts 8 seconds<br>Deals (12.3-1882.3) Base Fire Damage per second<br>Supported Skills have (50-575)% increased Totem Life<br>Summons a Totem which uses this Skill
 |level1                                  = True
 |level1_level_requirement                = 3
-|level1_stat_text                        = Deals 12.3 Base Fire Damage per second<br>50% increased totem life
+|level1_stat_text                        = Deals 12.3 Base Fire Damage per second<br>Supported Skills have 50% increased Totem Life
 |level1_stat1_id                         = base_active_skill_totem_level
 |level1_stat1_value                      = 3
 |level1_stat2_id                         = base_fire_damage_to_deal_per_minute
@@ -31,7 +31,7 @@
 |level1_stat3_value                      = 50
 |level2                                  = True
 |level2_level_requirement                = 5
-|level2_stat_text                        = Deals 15.3 Base Fire Damage per second<br>60% increased totem life
+|level2_stat_text                        = Deals 15.3 Base Fire Damage per second<br>Supported Skills have 60% increased Totem Life
 |level2_stat1_id                         = base_active_skill_totem_level
 |level2_stat1_value                      = 5
 |level2_stat2_id                         = base_fire_damage_to_deal_per_minute
@@ -40,7 +40,7 @@
 |level2_stat3_value                      = 60
 |level3                                  = True
 |level3_level_requirement                = 6
-|level3_stat_text                        = Deals 17 Base Fire Damage per second<br>70% increased totem life
+|level3_stat_text                        = Deals 17 Base Fire Damage per second<br>Supported Skills have 70% increased Totem Life
 |level3_stat1_id                         = base_active_skill_totem_level
 |level3_stat1_value                      = 8
 |level3_stat2_id                         = base_fire_damage_to_deal_per_minute
@@ -49,7 +49,7 @@
 |level3_stat3_value                      = 70
 |level4                                  = True
 |level4_level_requirement                = 8
-|level4_stat_text                        = Deals 20.8 Base Fire Damage per second<br>80% increased totem life
+|level4_stat_text                        = Deals 20.8 Base Fire Damage per second<br>Supported Skills have 80% increased Totem Life
 |level4_stat1_id                         = base_active_skill_totem_level
 |level4_stat1_value                      = 12
 |level4_stat2_id                         = base_fire_damage_to_deal_per_minute
@@ -58,7 +58,7 @@
 |level4_stat3_value                      = 80
 |level5                                  = True
 |level5_level_requirement                = 10
-|level5_stat_text                        = Deals 24.9 Base Fire Damage per second<br>90% increased totem life
+|level5_stat_text                        = Deals 24.9 Base Fire Damage per second<br>Supported Skills have 90% increased Totem Life
 |level5_stat1_id                         = base_active_skill_totem_level
 |level5_stat1_value                      = 15
 |level5_stat2_id                         = base_fire_damage_to_deal_per_minute
@@ -67,7 +67,7 @@
 |level5_stat3_value                      = 90
 |level6                                  = True
 |level6_level_requirement                = 13
-|level6_stat_text                        = Deals 32.3 Base Fire Damage per second<br>100% increased totem life
+|level6_stat_text                        = Deals 32.3 Base Fire Damage per second<br>Supported Skills have 100% increased Totem Life
 |level6_stat1_id                         = base_active_skill_totem_level
 |level6_stat1_value                      = 19
 |level6_stat2_id                         = base_fire_damage_to_deal_per_minute
@@ -76,7 +76,7 @@
 |level6_stat3_value                      = 100
 |level7                                  = True
 |level7_level_requirement                = 17
-|level7_stat_text                        = Deals 44.3 Base Fire Damage per second<br>110% increased totem life
+|level7_stat_text                        = Deals 44.3 Base Fire Damage per second<br>Supported Skills have 110% increased Totem Life
 |level7_stat1_id                         = base_active_skill_totem_level
 |level7_stat1_value                      = 20
 |level7_stat2_id                         = base_fire_damage_to_deal_per_minute
@@ -85,7 +85,7 @@
 |level7_stat3_value                      = 110
 |level8                                  = True
 |level8_level_requirement                = 20
-|level8_stat_text                        = Deals 55.3 Base Fire Damage per second<br>120% increased totem life
+|level8_stat_text                        = Deals 55.3 Base Fire Damage per second<br>Supported Skills have 120% increased Totem Life
 |level8_stat1_id                         = base_active_skill_totem_level
 |level8_stat1_value                      = 21
 |level8_stat2_id                         = base_fire_damage_to_deal_per_minute
@@ -94,7 +94,7 @@
 |level8_stat3_value                      = 120
 |level9                                  = True
 |level9_level_requirement                = 24
-|level9_stat_text                        = Deals 73.2 Base Fire Damage per second<br>130% increased totem life
+|level9_stat_text                        = Deals 73.2 Base Fire Damage per second<br>Supported Skills have 130% increased Totem Life
 |level9_stat1_id                         = base_active_skill_totem_level
 |level9_stat1_value                      = 26
 |level9_stat2_id                         = base_fire_damage_to_deal_per_minute
@@ -103,7 +103,7 @@
 |level9_stat3_value                      = 130
 |level10                                 = True
 |level10_level_requirement               = 27
-|level10_stat_text                       = Deals 89.6 Base Fire Damage per second<br>140% increased totem life
+|level10_stat_text                       = Deals 89.6 Base Fire Damage per second<br>Supported Skills have 140% increased Totem Life
 |level10_stat1_id                        = base_active_skill_totem_level
 |level10_stat1_value                     = 30
 |level10_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -112,7 +112,7 @@
 |level10_stat3_value                     = 140
 |level11                                 = True
 |level11_level_requirement               = 29
-|level11_stat_text                       = Deals 102.1 Base Fire Damage per second<br>150% increased totem life
+|level11_stat_text                       = Deals 102.1 Base Fire Damage per second<br>Supported Skills have 150% increased Totem Life
 |level11_stat1_id                        = base_active_skill_totem_level
 |level11_stat1_value                     = 34
 |level11_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -121,7 +121,7 @@
 |level11_stat3_value                     = 150
 |level12                                 = True
 |level12_level_requirement               = 35
-|level12_stat_text                       = Deals 148.7 Base Fire Damage per second<br>160% increased totem life
+|level12_stat_text                       = Deals 148.7 Base Fire Damage per second<br>Supported Skills have 160% increased Totem Life
 |level12_stat1_id                        = base_active_skill_totem_level
 |level12_stat1_value                     = 38
 |level12_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -130,7 +130,7 @@
 |level12_stat3_value                     = 160
 |level13                                 = True
 |level13_level_requirement               = 42
-|level13_stat_text                       = Deals 225.5 Base Fire Damage per second<br>170% increased totem life
+|level13_stat_text                       = Deals 225.5 Base Fire Damage per second<br>Supported Skills have 170% increased Totem Life
 |level13_stat1_id                        = base_active_skill_totem_level
 |level13_stat1_value                     = 43
 |level13_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -139,7 +139,7 @@
 |level13_stat3_value                     = 170
 |level14                                 = True
 |level14_level_requirement               = 49
-|level14_stat_text                       = Deals 335.7 Base Fire Damage per second<br>180% increased totem life
+|level14_stat_text                       = Deals 335.7 Base Fire Damage per second<br>Supported Skills have 180% increased Totem Life
 |level14_stat1_id                        = base_active_skill_totem_level
 |level14_stat1_value                     = 45
 |level14_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -148,7 +148,7 @@
 |level14_stat3_value                     = 180
 |level15                                 = True
 |level15_level_requirement               = 51
-|level15_stat_text                       = Deals 375.1 Base Fire Damage per second<br>190% increased totem life
+|level15_stat_text                       = Deals 375.1 Base Fire Damage per second<br>Supported Skills have 190% increased Totem Life
 |level15_stat1_id                        = base_active_skill_totem_level
 |level15_stat1_value                     = 53
 |level15_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -157,7 +157,7 @@
 |level15_stat3_value                     = 190
 |level16                                 = True
 |level16_level_requirement               = 58
-|level16_stat_text                       = Deals 548.6 Base Fire Damage per second<br>200% increased totem life
+|level16_stat_text                       = Deals 548.6 Base Fire Damage per second<br>Supported Skills have 200% increased Totem Life
 |level16_stat1_id                        = base_active_skill_totem_level
 |level16_stat1_value                     = 58
 |level16_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -166,7 +166,7 @@
 |level16_stat3_value                     = 200
 |level17                                 = True
 |level17_level_requirement               = 64
-|level17_stat_text                       = Deals 753.5 Base Fire Damage per second<br>215% increased totem life
+|level17_stat_text                       = Deals 753.5 Base Fire Damage per second<br>Supported Skills have 215% increased Totem Life
 |level17_stat1_id                        = base_active_skill_totem_level
 |level17_stat1_value                     = 62
 |level17_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -175,7 +175,7 @@
 |level17_stat3_value                     = 215
 |level18                                 = True
 |level18_level_requirement               = 65
-|level18_stat_text                       = Deals 793.8 Base Fire Damage per second<br>230% increased totem life
+|level18_stat_text                       = Deals 793.8 Base Fire Damage per second<br>Supported Skills have 230% increased Totem Life
 |level18_stat1_id                        = base_active_skill_totem_level
 |level18_stat1_value                     = 63
 |level18_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -184,7 +184,7 @@
 |level18_stat3_value                     = 230
 |level19                                 = True
 |level19_level_requirement               = 66
-|level19_stat_text                       = Deals 836.2 Base Fire Damage per second<br>245% increased totem life
+|level19_stat_text                       = Deals 836.2 Base Fire Damage per second<br>Supported Skills have 245% increased Totem Life
 |level19_stat1_id                        = base_active_skill_totem_level
 |level19_stat1_value                     = 66
 |level19_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -193,7 +193,7 @@
 |level19_stat3_value                     = 245
 |level20                                 = True
 |level20_level_requirement               = 67
-|level20_stat_text                       = Deals 880.7 Base Fire Damage per second<br>260% increased totem life
+|level20_stat_text                       = Deals 880.7 Base Fire Damage per second<br>Supported Skills have 260% increased Totem Life
 |level20_stat1_id                        = base_active_skill_totem_level
 |level20_stat1_value                     = 67
 |level20_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -202,7 +202,7 @@
 |level20_stat3_value                     = 260
 |level21                                 = True
 |level21_level_requirement               = 68
-|level21_stat_text                       = Deals 927.4 Base Fire Damage per second<br>275% increased totem life
+|level21_stat_text                       = Deals 927.4 Base Fire Damage per second<br>Supported Skills have 275% increased Totem Life
 |level21_stat1_id                        = base_active_skill_totem_level
 |level21_stat1_value                     = 68
 |level21_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -211,7 +211,7 @@
 |level21_stat3_value                     = 275
 |level22                                 = True
 |level22_level_requirement               = 69
-|level22_stat_text                       = Deals 976.5 Base Fire Damage per second<br>290% increased totem life
+|level22_stat_text                       = Deals 976.5 Base Fire Damage per second<br>Supported Skills have 290% increased Totem Life
 |level22_stat1_id                        = base_active_skill_totem_level
 |level22_stat1_value                     = 69
 |level22_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -220,7 +220,7 @@
 |level22_stat3_value                     = 290
 |level23                                 = True
 |level23_level_requirement               = 70
-|level23_stat_text                       = Deals 1027.9 Base Fire Damage per second<br>305% increased totem life
+|level23_stat_text                       = Deals 1027.9 Base Fire Damage per second<br>Supported Skills have 305% increased Totem Life
 |level23_stat1_id                        = base_active_skill_totem_level
 |level23_stat1_value                     = 70
 |level23_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -229,7 +229,7 @@
 |level23_stat3_value                     = 305
 |level24                                 = True
 |level24_level_requirement               = 71
-|level24_stat_text                       = Deals 1081.9 Base Fire Damage per second<br>320% increased totem life
+|level24_stat_text                       = Deals 1081.9 Base Fire Damage per second<br>Supported Skills have 320% increased Totem Life
 |level24_stat1_id                        = base_active_skill_totem_level
 |level24_stat1_value                     = 71
 |level24_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -238,7 +238,7 @@
 |level24_stat3_value                     = 320
 |level25                                 = True
 |level25_level_requirement               = 72
-|level25_stat_text                       = Deals 1138.6 Base Fire Damage per second<br>335% increased totem life
+|level25_stat_text                       = Deals 1138.6 Base Fire Damage per second<br>Supported Skills have 335% increased Totem Life
 |level25_stat1_id                        = base_active_skill_totem_level
 |level25_stat1_value                     = 72
 |level25_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -247,7 +247,7 @@
 |level25_stat3_value                     = 335
 |level26                                 = True
 |level26_level_requirement               = 73
-|level26_stat_text                       = Deals 1198 Base Fire Damage per second<br>350% increased totem life
+|level26_stat_text                       = Deals 1198 Base Fire Damage per second<br>Supported Skills have 350% increased Totem Life
 |level26_stat1_id                        = base_active_skill_totem_level
 |level26_stat1_value                     = 73
 |level26_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -256,7 +256,7 @@
 |level26_stat3_value                     = 350
 |level27                                 = True
 |level27_level_requirement               = 74
-|level27_stat_text                       = Deals 1260.4 Base Fire Damage per second<br>365% increased totem life
+|level27_stat_text                       = Deals 1260.4 Base Fire Damage per second<br>Supported Skills have 365% increased Totem Life
 |level27_stat1_id                        = base_active_skill_totem_level
 |level27_stat1_value                     = 74
 |level27_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -265,7 +265,7 @@
 |level27_stat3_value                     = 365
 |level28                                 = True
 |level28_level_requirement               = 75
-|level28_stat_text                       = Deals 1325.8 Base Fire Damage per second<br>380% increased totem life
+|level28_stat_text                       = Deals 1325.8 Base Fire Damage per second<br>Supported Skills have 380% increased Totem Life
 |level28_stat1_id                        = base_active_skill_totem_level
 |level28_stat1_value                     = 75
 |level28_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -274,7 +274,7 @@
 |level28_stat3_value                     = 380
 |level29                                 = True
 |level29_level_requirement               = 76
-|level29_stat_text                       = Deals 1394.4 Base Fire Damage per second<br>395% increased totem life
+|level29_stat_text                       = Deals 1394.4 Base Fire Damage per second<br>Supported Skills have 395% increased Totem Life
 |level29_stat1_id                        = base_active_skill_totem_level
 |level29_stat1_value                     = 76
 |level29_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -283,7 +283,7 @@
 |level29_stat3_value                     = 395
 |level30                                 = True
 |level30_level_requirement               = 77
-|level30_stat_text                       = Deals 1466.4 Base Fire Damage per second<br>425% increased totem life
+|level30_stat_text                       = Deals 1466.4 Base Fire Damage per second<br>Supported Skills have 425% increased Totem Life
 |level30_stat1_id                        = base_active_skill_totem_level
 |level30_stat1_value                     = 77
 |level30_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -292,7 +292,7 @@
 |level30_stat3_value                     = 425
 |level31                                 = True
 |level31_level_requirement               = 78
-|level31_stat_text                       = Deals 1541.9 Base Fire Damage per second<br>455% increased totem life
+|level31_stat_text                       = Deals 1541.9 Base Fire Damage per second<br>Supported Skills have 455% increased Totem Life
 |level31_stat1_id                        = base_active_skill_totem_level
 |level31_stat1_value                     = 78
 |level31_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -301,7 +301,7 @@
 |level31_stat3_value                     = 455
 |level32                                 = True
 |level32_level_requirement               = 79
-|level32_stat_text                       = Deals 1621 Base Fire Damage per second<br>485% increased totem life
+|level32_stat_text                       = Deals 1621 Base Fire Damage per second<br>Supported Skills have 485% increased Totem Life
 |level32_stat1_id                        = base_active_skill_totem_level
 |level32_stat1_value                     = 79
 |level32_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -310,7 +310,7 @@
 |level32_stat3_value                     = 485
 |level33                                 = True
 |level33_level_requirement               = 80
-|level33_stat_text                       = Deals 1704 Base Fire Damage per second<br>515% increased totem life
+|level33_stat_text                       = Deals 1704 Base Fire Damage per second<br>Supported Skills have 515% increased Totem Life
 |level33_stat1_id                        = base_active_skill_totem_level
 |level33_stat1_value                     = 80
 |level33_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -319,7 +319,7 @@
 |level33_stat3_value                     = 515
 |level34                                 = True
 |level34_level_requirement               = 81
-|level34_stat_text                       = Deals 1791.1 Base Fire Damage per second<br>545% increased totem life
+|level34_stat_text                       = Deals 1791.1 Base Fire Damage per second<br>Supported Skills have 545% increased Totem Life
 |level34_stat1_id                        = base_active_skill_totem_level
 |level34_stat1_value                     = 81
 |level34_stat2_id                        = base_fire_damage_to_deal_per_minute
@@ -328,7 +328,7 @@
 |level34_stat3_value                     = 545
 |level35                                 = True
 |level35_level_requirement               = 82
-|level35_stat_text                       = Deals 1882.3 Base Fire Damage per second<br>575% increased totem life
+|level35_stat_text                       = Deals 1882.3 Base Fire Damage per second<br>Supported Skills have 575% increased Totem Life
 |level35_stat1_id                        = base_active_skill_totem_level
 |level35_stat1_value                     = 82
 |level35_stat2_id                        = base_fire_damage_to_deal_per_minute

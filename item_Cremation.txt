@@ -10,7 +10,7 @@
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
 |dexterity_percent                       = 60
 |intelligence_percent                    = 40
-|gem_tags                                = Spell, AoE, Fire, Duration, Projectile
+|gem_tags                                = Spell, AoE, Fire, Duration, Projectile, Orb
 |gem_description                         = A targeted corpse explodes, dealing area damage and turning into a volcanic geyser, which will repeatedly unleash exploding projectiles sequentially over the surrounding area for a duration. The explosion of the corpse is not affected by modifiers to spell damage, and cannot be reflected.
 |active_skill_name                       = Cremation
 |skill_id                                = CorpseEruption
@@ -56,7 +56,7 @@
 |static_stat8_value                      = 3
 |static_stat9_id                         = number_of_additional_projectiles
 |static_stat9_value                      = 3
-|stat_text                               = Deals (49-434) to (74-651) Fire Damage<br>Fires Projectiles every 1 seconds<br>Base duration is 8 seconds<br>Explosion deals base Fire Damage equal to (4-5)% of the corpse's Maximum Life<br>Maximum of 3 Geysers at a time<br>+(0-3) to radius<br>Fires 3 additional Projectiles
+|stat_text                               = Fires Projectiles every 1 seconds<br>Base duration is 8 seconds<br>Deals (49-434) to (74-651) Fire Damage<br>Explosion deals base Fire Damage equal to (4-5)% of the corpse's Maximum Life<br>Maximum of 3 Geysers at a time<br>+(0-3) to radius<br>Fires 3 additional Projectiles
 |level1                                  = True
 |level1_level_requirement                = 28
 |level1_cost_amounts                     = 11

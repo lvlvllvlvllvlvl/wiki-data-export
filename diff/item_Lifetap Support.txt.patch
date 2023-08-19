@@ -1,5 +1,14 @@
---- Wiki
+--- Lifetap Support
 +++ Export
+@@ -7,7 +7,7 @@
+ |drop_level                              = 8
+ |tags                                    = support_gem, gem, default
+ |metadata_id                             = Metadata/Items/Gems/SupportGemLifetap
+-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
++|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
+ |strength_percent                        = 100
+ |gem_tags                                = Support, Duration
+ |skill_id                                = SupportLifetap
 @@ -31,11 +31,11 @@
  |static_attack_speed_multiplier          = 100
  |static_stat1_id                         = base_skill_cost_life_instead_of_mana

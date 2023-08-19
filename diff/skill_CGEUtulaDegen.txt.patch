@@ -1,0 +1,27 @@
+--- Skill:CGEUtulaDegen
++++ Export
+@@ -0,0 +1,24 @@
++{{Skill
++|gem_description                         = 
++|active_skill_name                       = 
++|skill_id                                = CGEUtulaDegen
++|cast_time                               = 1.0
++|required_level                          = 0
++|static_damage_effectiveness             = 100
++|static_damage_multiplier                = 100
++|static_attack_speed_multiplier          = 100
++|static_duration                         = 10
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = -50
++|static_stat2_id                         = life_recovery_rate_+%
++|static_stat2_value                      = -50
++|static_stat3_id                         = base_fire_damage_to_deal_per_minute
++|static_stat3_value                      = 17
++|static_stat4_id                         = base_physical_damage_to_deal_per_minute
++|static_stat4_value                      = 17
++|static_stat5_id                         = base_skill_effect_duration
++|static_stat5_value                      = 10000
++|stat_text                               = 50% reduced Life Recovery rate<br>Deals 0.3 Base Fire Damage per second<br>Deals 0.3 Base Physical Damage per second<br>Base duration is 10 seconds
++|level1                                  = True
++|level1_level_requirement                = 0
++}}

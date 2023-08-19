@@ -1,11 +1,11 @@
 {{Monster
 |metadata_id                      = Metadata/Monsters/HalfSkeleton/HalfSkeletonBreachChaosSpectre
-|monster_type_id                  = BreachHalfSkeletonChaos
+|monster_type_id                  = BreachHalfSkeletonRangedChaosMapSpectre
 |mod_ids                          = BreachReducedBeyondPortalChance
 |part1_mod_ids                    = MonsterPhysicalAddedAsChaosBreach
 |part2_mod_ids                    = MonsterPhysicalAddedAsChaosBreach
 |endgame_mod_ids                  = MonsterPhysicalAddedAsChaosBreachMaps
-|tags                             = chaos_affinity, demon, flesh_armour, has_two_hand_sword, has_two_handed_melee, humanoid, medium_movement, melee, no_bloodlines, not_dex, not_int, physical_affinity, red_blood, slashing_weapon
+|tags                             = chaos_affinity, demon, flesh_armour, has_two_hand_sword, has_two_handed_melee, humanoid, medium_movement, melee, no_bloodlines, not_int, not_str, physical_affinity, red_blood, slashing_weapon
 |skill_ids                        = Melee, HalfSkeletonPuncture, BreachSweep
 |name                             = Chayula's Ideal
 |size                             = 3
@@ -13,8 +13,8 @@
 |maximum_attack_distance          = 13
 |model_size_multiplier            = 1.0
 |experience_multiplier            = 1.0
-|damage_multiplier                = 1.0
-|health_multiplier                = 1.7
+|damage_multiplier                = 1.5
+|health_multiplier                = 3.6
 |critical_strike_chance           = 5.0
 |attack_speed                     = 1.5
 }}

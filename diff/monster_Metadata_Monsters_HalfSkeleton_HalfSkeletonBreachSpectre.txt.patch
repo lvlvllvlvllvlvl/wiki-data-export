@@ -1,0 +1,19 @@
+--- Monster:Metadata/Monsters/HalfSkeleton/HalfSkeletonBreachSpectre
++++ Export
+@@ -1,6 +1,6 @@
+ {{Monster
+ |metadata_id                      = Metadata/Monsters/HalfSkeleton/HalfSkeletonBreachSpectre
+-|monster_type_id                  = BreachHalfSkeleton
++|monster_type_id                  = BreachHalfSkeletonMapSpectre
+ |mod_ids                          = MonsterCastsPunctureText, BreachReducedBeyondPortalChance
+ |tags                             = demon, flesh_armour, has_dagger, has_one_handed_melee, humanoid, medium_movement, melee, no_bloodlines, not_dex, not_int, physical_affinity, puncturing_weapon, red_blood
+ |skill_ids                        = Melee, HalfSkeletonPuncture
+@@ -11,7 +11,7 @@
+ |model_size_multiplier            = 1.0
+ |experience_multiplier            = 1.0
+ |damage_multiplier                = 1.0
+-|health_multiplier                = 1.7
++|health_multiplier                = 3.6
+ |critical_strike_chance           = 5.0
+ |attack_speed                     = 1.5
+ }}

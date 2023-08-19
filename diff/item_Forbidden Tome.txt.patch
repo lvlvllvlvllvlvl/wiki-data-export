@@ -1,0 +1,24 @@
+--- Forbidden Tome
++++ Export
+@@ -1,15 +1,15 @@
+ {{Base item
+ |rarity_id                               = normal
+ |name                                    = Forbidden Tome
+-|class_id                                = MiscMapItem
++|class_id                                = ItemisedSanctum
+ |size_x                                  = 1
+ |size_y                                  = 1
+-|flavour_text                            = Mundus noster cecidit. Daemones ubique sunt. Librum hunc in sacrarium conicio, ut forte alius viam inveniat...
++|flavour_text                            = Mundus noster cecidit. Daemones ubique sunt. Librum<br>hunc in sacrarium conicio, ut forte alius viam inveniat...
+ |drop_level                              = 68
+-|area_level = 1
+-|tags                                    = default
+-|metadata_id                             = Metadata/Items/Sanctum/ForbiddenTome
+-|help_text                               = Take this Forbidden Tome to Divinia.
++|drop_rarities_ids                       = normal
++|tags                                    = not_for_sale, sanctum_key, default
++|metadata_id                             = Metadata/Items/Sanctum/SanctumKey
++|help_text                               = Take this item to the Relic Altar in the Forbidden Sanctum to enter.
+ |frame_type                              = currency
+ |release_version                         = 3.22.0
+ }}

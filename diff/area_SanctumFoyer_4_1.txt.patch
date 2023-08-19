@@ -1,11 +1,15 @@
 --- Area:SanctumFoyer~4~1
 +++ Export
-@@ -0,0 +1,8 @@
+@@ -0,0 +1,12 @@
 +{{Area
 +|id                               = SanctumFoyer_4_1
 +|name                             = Sanctum Mausoleum
 +|act                              = 11
 +|area_level                       = 1
-+|loading_screen                   = Maps
-+|modifier_ids                     = MapMonsterNoMapDrops
++|loading_screen                   = SanctumMausoleum
++|modifier_ids                     = MapMonsterNoMapDrops, MapSanctumRareMonsterLifePenalty
++|spawn_weight1_tag                = sanctum_key
++|spawn_weight1_value              = 0
++|spawn_weight2_tag                = default
++|spawn_weight2_value              = 1000
 +}}

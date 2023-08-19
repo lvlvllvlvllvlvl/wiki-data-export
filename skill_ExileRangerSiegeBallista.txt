@@ -25,13 +25,13 @@
 |static_stat8_value                      = 1
 |static_stat9_id                         = active_skill_attack_speed_+%_final
 |static_stat9_value                      = -33
-|stat_text                               = Projectiles Pierce all Targets<br>Totem lasts 12 seconds<br>Summons a Totem which uses this Skill<br>(30-100)% increased totem life<br>33% less Attack Speed
+|stat_text                               = Projectiles Pierce all Targets<br>Totem lasts 12 seconds<br>Supported Skills have (30-100)% increased Totem Life<br>Summons a Totem which uses this Skill<br>33% less Attack Speed
 |level1                                  = True
 |level1_level_requirement                = 2
 |level1_cooldown                         = 3
 |level1_damage_effectiveness             = 68
 |level1_damage_multiplier                = 68.3
-|level1_stat_text                        = 30% increased totem life
+|level1_stat_text                        = Supported Skills have 30% increased Totem Life
 |level1_stat1_id                         = base_active_skill_totem_level
 |level1_stat1_value                      = 2
 |level1_stat2_id                         = totem_life_+%
@@ -41,7 +41,7 @@
 |level2_cooldown                         = 3
 |level2_damage_effectiveness             = 69
 |level2_damage_multiplier                = 69.25
-|level2_stat_text                        = 40% increased totem life
+|level2_stat_text                        = Supported Skills have 40% increased Totem Life
 |level2_stat1_id                         = base_active_skill_totem_level
 |level2_stat1_value                      = 5
 |level2_stat2_id                         = totem_life_+%
@@ -51,7 +51,7 @@
 |level3_cooldown                         = 3
 |level3_damage_effectiveness             = 70
 |level3_damage_multiplier                = 70.2
-|level3_stat_text                        = 50% increased totem life
+|level3_stat_text                        = Supported Skills have 50% increased Totem Life
 |level3_stat1_id                         = base_active_skill_totem_level
 |level3_stat1_value                      = 8
 |level3_stat2_id                         = totem_life_+%
@@ -61,7 +61,7 @@
 |level4_cooldown                         = 3
 |level4_damage_effectiveness             = 71
 |level4_damage_multiplier                = 71.16
-|level4_stat_text                        = 60% increased totem life
+|level4_stat_text                        = Supported Skills have 60% increased Totem Life
 |level4_stat1_id                         = base_active_skill_totem_level
 |level4_stat1_value                      = 12
 |level4_stat2_id                         = totem_life_+%
@@ -71,7 +71,7 @@
 |level5_cooldown                         = 3
 |level5_damage_effectiveness             = 72
 |level5_damage_multiplier                = 72.11
-|level5_stat_text                        = 70% increased totem life
+|level5_stat_text                        = Supported Skills have 70% increased Totem Life
 |level5_stat1_id                         = base_active_skill_totem_level
 |level5_stat1_value                      = 16
 |level5_stat2_id                         = totem_life_+%
@@ -81,7 +81,7 @@
 |level6_cooldown                         = 3
 |level6_damage_effectiveness             = 73
 |level6_damage_multiplier                = 73.06
-|level6_stat_text                        = 80% increased totem life
+|level6_stat_text                        = Supported Skills have 80% increased Totem Life
 |level6_stat1_id                         = base_active_skill_totem_level
 |level6_stat1_value                      = 20
 |level6_stat2_id                         = totem_life_+%
@@ -91,7 +91,7 @@
 |level7_cooldown                         = 3
 |level7_damage_effectiveness             = 74
 |level7_damage_multiplier                = 74.01
-|level7_stat_text                        = 90% increased totem life
+|level7_stat_text                        = Supported Skills have 90% increased Totem Life
 |level7_stat1_id                         = base_active_skill_totem_level
 |level7_stat1_value                      = 24
 |level7_stat2_id                         = totem_life_+%
@@ -101,7 +101,7 @@
 |level8_cooldown                         = 3
 |level8_damage_effectiveness             = 75
 |level8_damage_multiplier                = 74.96
-|level8_stat_text                        = 100% increased totem life
+|level8_stat_text                        = Supported Skills have 100% increased Totem Life
 |level8_stat1_id                         = base_active_skill_totem_level
 |level8_stat1_value                      = 28
 |level8_stat2_id                         = totem_life_+%
@@ -111,7 +111,7 @@
 |level9_cooldown                         = 3
 |level9_damage_effectiveness             = 76
 |level9_damage_multiplier                = 75.92
-|level9_stat_text                        = 100% increased totem life
+|level9_stat_text                        = Supported Skills have 100% increased Totem Life
 |level9_stat1_id                         = base_active_skill_totem_level
 |level9_stat1_value                      = 32
 |level9_stat2_id                         = totem_life_+%
@@ -121,7 +121,7 @@
 |level10_cooldown                        = 2
 |level10_damage_effectiveness            = 77
 |level10_damage_multiplier               = 76.87
-|level10_stat_text                       = 100% increased totem life
+|level10_stat_text                       = Supported Skills have 100% increased Totem Life
 |level10_stat1_id                        = base_active_skill_totem_level
 |level10_stat1_value                     = 36
 |level10_stat2_id                        = totem_life_+%
@@ -131,7 +131,7 @@
 |level11_cooldown                        = 2
 |level11_damage_effectiveness            = 78
 |level11_damage_multiplier               = 77.82
-|level11_stat_text                       = 100% increased totem life
+|level11_stat_text                       = Supported Skills have 100% increased Totem Life
 |level11_stat1_id                        = base_active_skill_totem_level
 |level11_stat1_value                     = 40
 |level11_stat2_id                        = totem_life_+%
@@ -141,7 +141,7 @@
 |level12_cooldown                        = 2
 |level12_damage_effectiveness            = 79
 |level12_damage_multiplier               = 78.77
-|level12_stat_text                       = 100% increased totem life
+|level12_stat_text                       = Supported Skills have 100% increased Totem Life
 |level12_stat1_id                        = base_active_skill_totem_level
 |level12_stat1_value                     = 44
 |level12_stat2_id                        = totem_life_+%
@@ -151,7 +151,7 @@
 |level13_cooldown                        = 2
 |level13_damage_effectiveness            = 80
 |level13_damage_multiplier               = 79.72
-|level13_stat_text                       = 100% increased totem life
+|level13_stat_text                       = Supported Skills have 100% increased Totem Life
 |level13_stat1_id                        = base_active_skill_totem_level
 |level13_stat1_value                     = 48
 |level13_stat2_id                        = totem_life_+%
@@ -161,7 +161,7 @@
 |level14_cooldown                        = 2
 |level14_damage_effectiveness            = 81
 |level14_damage_multiplier               = 80.68
-|level14_stat_text                       = 100% increased totem life
+|level14_stat_text                       = Supported Skills have 100% increased Totem Life
 |level14_stat1_id                        = base_active_skill_totem_level
 |level14_stat1_value                     = 52
 |level14_stat2_id                        = totem_life_+%
@@ -171,7 +171,7 @@
 |level15_cooldown                        = 2
 |level15_damage_effectiveness            = 82
 |level15_damage_multiplier               = 81.63
-|level15_stat_text                       = 100% increased totem life
+|level15_stat_text                       = Supported Skills have 100% increased Totem Life
 |level15_stat1_id                        = base_active_skill_totem_level
 |level15_stat1_value                     = 55
 |level15_stat2_id                        = totem_life_+%
@@ -181,7 +181,7 @@
 |level16_cooldown                        = 2
 |level16_damage_effectiveness            = 83
 |level16_damage_multiplier               = 82.58
-|level16_stat_text                       = 100% increased totem life
+|level16_stat_text                       = Supported Skills have 100% increased Totem Life
 |level16_stat1_id                        = base_active_skill_totem_level
 |level16_stat1_value                     = 58
 |level16_stat2_id                        = totem_life_+%
@@ -191,7 +191,7 @@
 |level17_cooldown                        = 2
 |level17_damage_effectiveness            = 84
 |level17_damage_multiplier               = 83.53
-|level17_stat_text                       = 100% increased totem life
+|level17_stat_text                       = Supported Skills have 100% increased Totem Life
 |level17_stat1_id                        = base_active_skill_totem_level
 |level17_stat1_value                     = 61
 |level17_stat2_id                        = totem_life_+%
@@ -201,7 +201,7 @@
 |level18_cooldown                        = 1.5
 |level18_damage_effectiveness            = 84
 |level18_damage_multiplier               = 84.48
-|level18_stat_text                       = 100% increased totem life
+|level18_stat_text                       = Supported Skills have 100% increased Totem Life
 |level18_stat1_id                        = base_active_skill_totem_level
 |level18_stat1_value                     = 64
 |level18_stat2_id                        = totem_life_+%
@@ -211,7 +211,7 @@
 |level19_cooldown                        = 1.5
 |level19_damage_effectiveness            = 85
 |level19_damage_multiplier               = 85.44
-|level19_stat_text                       = 100% increased totem life
+|level19_stat_text                       = Supported Skills have 100% increased Totem Life
 |level19_stat1_id                        = base_active_skill_totem_level
 |level19_stat1_value                     = 67
 |level19_stat2_id                        = totem_life_+%
@@ -221,7 +221,7 @@
 |level20_cooldown                        = 1.5
 |level20_damage_effectiveness            = 86
 |level20_damage_multiplier               = 86.39
-|level20_stat_text                       = 100% increased totem life
+|level20_stat_text                       = Supported Skills have 100% increased Totem Life
 |level20_stat1_id                        = base_active_skill_totem_level
 |level20_stat1_value                     = 70
 |level20_stat2_id                        = totem_life_+%
@@ -231,7 +231,7 @@
 |level21_cooldown                        = 1.5
 |level21_damage_effectiveness            = 87
 |level21_damage_multiplier               = 87.34
-|level21_stat_text                       = 100% increased totem life
+|level21_stat_text                       = Supported Skills have 100% increased Totem Life
 |level21_stat1_id                        = base_active_skill_totem_level
 |level21_stat1_value                     = 72
 |level21_stat2_id                        = totem_life_+%
@@ -241,7 +241,7 @@
 |level22_cooldown                        = 1.5
 |level22_damage_effectiveness            = 88
 |level22_damage_multiplier               = 88.29
-|level22_stat_text                       = 100% increased totem life
+|level22_stat_text                       = Supported Skills have 100% increased Totem Life
 |level22_stat1_id                        = base_active_skill_totem_level
 |level22_stat1_value                     = 74
 |level22_stat2_id                        = totem_life_+%
@@ -251,7 +251,7 @@
 |level23_cooldown                        = 1.5
 |level23_damage_effectiveness            = 89
 |level23_damage_multiplier               = 89.24
-|level23_stat_text                       = 100% increased totem life
+|level23_stat_text                       = Supported Skills have 100% increased Totem Life
 |level23_stat1_id                        = base_active_skill_totem_level
 |level23_stat1_value                     = 76
 |level23_stat2_id                        = totem_life_+%
@@ -261,7 +261,7 @@
 |level24_cooldown                        = 1.5
 |level24_damage_effectiveness            = 90
 |level24_damage_multiplier               = 90.2
-|level24_stat_text                       = 100% increased totem life
+|level24_stat_text                       = Supported Skills have 100% increased Totem Life
 |level24_stat1_id                        = base_active_skill_totem_level
 |level24_stat1_value                     = 78
 |level24_stat2_id                        = totem_life_+%
@@ -271,7 +271,7 @@
 |level25_cooldown                        = 1.5
 |level25_damage_effectiveness            = 91
 |level25_damage_multiplier               = 91.15
-|level25_stat_text                       = 100% increased totem life
+|level25_stat_text                       = Supported Skills have 100% increased Totem Life
 |level25_stat1_id                        = base_active_skill_totem_level
 |level25_stat1_value                     = 80
 |level25_stat2_id                        = totem_life_+%
@@ -281,7 +281,7 @@
 |level26_cooldown                        = 1.5
 |level26_damage_effectiveness            = 92
 |level26_damage_multiplier               = 92.1
-|level26_stat_text                       = 100% increased totem life
+|level26_stat_text                       = Supported Skills have 100% increased Totem Life
 |level26_stat1_id                        = base_active_skill_totem_level
 |level26_stat1_value                     = 82
 |level26_stat2_id                        = totem_life_+%
@@ -291,7 +291,7 @@
 |level27_cooldown                        = 1.5
 |level27_damage_effectiveness            = 93
 |level27_damage_multiplier               = 93.05
-|level27_stat_text                       = 100% increased totem life
+|level27_stat_text                       = Supported Skills have 100% increased Totem Life
 |level27_stat1_id                        = base_active_skill_totem_level
 |level27_stat1_value                     = 84
 |level27_stat2_id                        = totem_life_+%
@@ -301,7 +301,7 @@
 |level28_cooldown                        = 1.5
 |level28_damage_effectiveness            = 94
 |level28_damage_multiplier               = 94
-|level28_stat_text                       = 100% increased totem life
+|level28_stat_text                       = Supported Skills have 100% increased Totem Life
 |level28_stat1_id                        = base_active_skill_totem_level
 |level28_stat1_value                     = 86
 |level28_stat2_id                        = totem_life_+%
@@ -311,7 +311,7 @@
 |level29_cooldown                        = 1.5
 |level29_damage_effectiveness            = 95
 |level29_damage_multiplier               = 94.96
-|level29_stat_text                       = 100% increased totem life
+|level29_stat_text                       = Supported Skills have 100% increased Totem Life
 |level29_stat1_id                        = base_active_skill_totem_level
 |level29_stat1_value                     = 88
 |level29_stat2_id                        = totem_life_+%
@@ -321,7 +321,7 @@
 |level30_cooldown                        = 1.5
 |level30_damage_effectiveness            = 96
 |level30_damage_multiplier               = 95.91
-|level30_stat_text                       = 100% increased totem life
+|level30_stat_text                       = Supported Skills have 100% increased Totem Life
 |level30_stat1_id                        = base_active_skill_totem_level
 |level30_stat1_value                     = 90
 |level30_stat2_id                        = totem_life_+%

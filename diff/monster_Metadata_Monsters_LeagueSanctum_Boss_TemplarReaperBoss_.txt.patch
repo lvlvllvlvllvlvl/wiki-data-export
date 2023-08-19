@@ -1,0 +1,20 @@
+--- Monster:Metadata/Monsters/LeagueSanctum/Boss/TemplarReaperBoss~
++++ Export
+@@ -2,7 +2,7 @@
+ |metadata_id                      = Metadata/Monsters/LeagueSanctum/Boss/TemplarReaperBoss_
+ |monster_type_id                  = SanctumTemplarReaperBoss
+ |mod_ids                          = MonsterMapBoss, CannotBeSlowedBelowValueBosses, StunRepeatImmunityMapBossSuper
+-|tags                             = bones, has_dual_wield_melee, has_one_hand_sword, has_one_handed_melee, melee, metal_armour, physical_affinity, skeleton, slashing_weapon, undead, very_slow_movement
++|tags                             = bones, has_dual_wield_melee, has_one_hand_sword, has_one_handed_melee, melee, metal_armour, not_str, physical_affinity, sanctum_monster, skeleton, slashing_weapon, undead, very_slow_movement
+ |skill_ids                        = MeleeAtAnimationSpeedWithDirectionalKnockbackSanctumUnarmedSentinel, EAASanctumReaperComboAttack, GASanctumReaperComboLeftSlash, GASanctumReaperComboRightSlash, DTTSanctumReaper, GASanctumReaperDash, GASanctumReaperDashImpactSlash, GASanctumReaperCycloneImpact, GASanctumReaperLacerate, EAASanctumReaperCyclone, EAASanctumReaperDualStrike, GTSanctumReaperSummonDivineFlares, SSMSanctumReaperSummonDivineFlare, MPSSanctumReaperAvariusProjectile
+ |name                             = Xenathar, Templar Reaper
+ |size                             = 3
+@@ -11,7 +11,7 @@
+ |model_size_multiplier            = 1.3
+ |experience_multiplier            = 3.0
+ |damage_multiplier                = 1.05
+-|health_multiplier                = 8.4
++|health_multiplier                = 15.0
+ |critical_strike_chance           = 5.0
+ |attack_speed                     = 1.455
+ }}

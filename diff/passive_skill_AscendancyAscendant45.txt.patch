@@ -1,0 +1,27 @@
+--- Passive Skill:AscendancyAscendant45
++++ Export
+@@ -6,16 +6,14 @@
+ |ascendancy_class                    = Ascendant
+ |is_multiple_choice_option           = True
+ |icon                                = Guardian (Ascendants)
+-|stat1_id                            = guardian_nearby_allies_share_charges
+-|stat1_value                         = 1
++|stat1_id                            = auras_grant_life_mana_es_recovery_rate_+%_to_you_and_your_allies
++|stat1_value                         = 3
+ |stat2_id                            = guardian_gain_life_regeneration_per_minute_%_for_1_second_every_10_seconds
+-|stat2_value                         = 1200
+-|stat3_id                            = auras_grant_additional_physical_damage_reduction_%_to_you_and_your_allies
+-|stat3_value                         = 1
+-|stat4_id                            = curse_effect_on_self_+%
+-|stat4_value                         = -25
+-|stat5_id                            = guardian_with_5_nearby_allies_you_and_allies_have_onslaught
+-|stat5_value                         = 1
+-|stat_text                           = You and nearby Party Members Share Power, [[Frenzy]] and [[Endurance Charge|Endurance Charges]] with each other<br>Every 4 seconds, Regenerate 20% of [[Life]] over one second<br>Auras from your [[Skill|Skills]] grant +1% [[Physical Damage]] Reduction to you and Allies<br>25% reduced Effect of [[Curse|Curses]] on you<br>While there are at least five nearby Allies, you and nearby Allies have Onslaught
++|stat2_value                         = 3000
++|stat3_id                            = you_and_allies_additional_block_%_if_have_attacked_recently
++|stat3_value                         = 10
++|stat4_id                            = you_and_allies_additional_spell_block_%_if_cast_spell_recently
++|stat4_value                         = 10
++|stat_text                           = Auras from your [[Skill|Skills]] grant 3% increased Recovery Rate of Life,<br />Mana and [[Energy Shield]] to you and Allies<br>Every 4 seconds, Regenerate 50% of [[Life]] over one second<br>If you've Attacked Recently, you and nearby Allies have +10% Chance to [[Block]] [[Attack Damage]]<br>If you've Cast a [[Spell]] Recently, you and nearby Allies have +10% Chance to [[Block]] [[Spell Damage]]
+ |connections                         = AscendancyAscendant29
+ }}

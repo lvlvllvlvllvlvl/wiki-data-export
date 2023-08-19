@@ -1,0 +1,13 @@
+--- Passive Skill:Atlas~path~30~1
++++ Export
+@@ -0,0 +1,10 @@
++{{Passive skill
++|id                                  = atlas_path_30_1
++|int_id                              = 63608
++|name                                = Adjacent Map Drop Chance
++|is_atlas_passive                    = True
++|icon                                = BossMapDrops (AtlasTrees)
++|stat1_id                            = map_contains_adjacent_map_item_chance_permyriad
++|stat1_value                         = 200
++|stat_text                           = 2% chance for one Monster in each of your Maps to drop an additional connected Map
++}}

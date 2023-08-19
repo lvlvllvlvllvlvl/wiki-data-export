@@ -1,0 +1,38 @@
+--- Skill:AncestralIkiahoIceStorm
++++ Export
+@@ -0,0 +1,35 @@
++{{Skill
++|gem_description                         = Flaming bolts rain down over the targeted area. They explode when landing, dealing damage to nearby enemies.
++|active_skill_name                       = Firestorm
++|skill_id                                = AncestralIkiahoIceStorm
++|cast_time                               = 1.0
++|required_level                          = 0
++|static_critical_strike_chance           = 5
++|static_damage_effectiveness             = 100
++|static_damage_multiplier                = 100
++|static_attack_speed_multiplier          = 100
++|static_duration                         = 0.25
++|static_stat1_id                         = action_attack_or_cast_time_uses_animation_length
++|static_stat1_value                      = 1
++|static_stat2_id                         = firestorm_base_area_of_effect_+%
++|static_stat2_value                      = -90
++|static_stat3_id                         = is_area_damage
++|static_stat3_value                      = 1
++|static_stat4_id                         = removes_%_mana_on_hit
++|static_stat4_value                      = 10
++|static_stat5_id                         = spell_maximum_action_distance_+%
++|static_stat5_value                      = -45
++|static_stat6_id                         = spell_minimum_base_cold_damage
++|static_stat6_value                      = 14
++|static_stat7_id                         = spell_maximum_base_cold_damage
++|static_stat7_value                      = 20
++|static_stat8_id                         = base_skill_effect_duration
++|static_stat8_value                      = 250
++|static_stat9_id                         = fire_storm_fireball_delay_ms
++|static_stat9_value                      = 500
++|static_stat10_id                        = firestorm_initial_impact_area_of_effect_+%_final
++|static_stat10_value                     = 100
++|stat_text                               = Deals 14 to 20 Cold Damage<br>Base duration is 0.25 seconds<br>One impact every 0.5 seconds<br>First Impact has 100% more Area of Effect
++|level1                                  = True
++|level1_level_requirement                = 0
++}}

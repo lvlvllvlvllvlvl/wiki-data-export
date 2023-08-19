@@ -1,0 +1,16 @@
+--- Passive Skill:Attack~ignite~notable2876
++++ Export
+@@ -0,0 +1,13 @@
++{{Passive skill
++|id                                  = attack_ignite_notable2876
++|int_id                              = 22133
++|name                                = Invigorating Blaze
++|is_notable                          = True
++|icon                                = IgniteAttackNotable
++|stat1_id                            = fire_damage_over_time_multiplier_+_with_attacks
++|stat1_value                         = 10
++|stat2_id                            = recover_%_life_when_you_ignite_a_non_ignited_enemy
++|stat2_value                         = 2
++|stat_text                           = +10% to [[Fire Damage]] over Time Multiplier with [[Attack]] [[Skill|Skills]]<br>Recover 2% of [[Life]] when you [[Ignite]] a non-Ignited Enemy
++|connections                         = mastery_fire1221,fire_dot_multi_with_attacks2865,attack_ignite_chance2867,fire_dot_multi_with_attacks2865,mastery_fire1221
++}}

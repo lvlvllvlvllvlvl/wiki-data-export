@@ -1,0 +1,31 @@
+--- Sanctum Cathedral Research
++++ Export
+@@ -1,19 +1,20 @@
+ {{Base item
+ |rarity_id                               = normal
+ |name                                    = Sanctum Cathedral Research
+-|class_id                                = MiscMapItem
++|class_id                                = ItemisedSanctum
+ |size_x                                  = 1
+ |size_y                                  = 1
+-|implicit1_text = {{c|stat|Area Level: }}{{c|normal|(68-83)}}<br>{{c|stat|Resolve: }}{{c|normal|#}}{{c|stat|/}}{{c|normal|300}}<br>{{c|stat|Inspiration: }}{{c|normal|#}}<br>{{c|stat|Aureus: }}{{c|normal|#}}<br>{{c|stat|Minor Boons: }}{{c|craftingdefences|<Minor Boons>}}<br>{{c|stat|Minor Afflictions: }}{{c|prophecy|<Minor Afflictions>}}
+-|explicit1_text = <Modifiers from Relics>
+-|is_unmodifiable = true
+-|flavour_text                            = <to be updated>
+-|tags                                    = default
+-|metadata_id                             = Metadata/Items/Sanctum/SanctumCathedralResearch
++|flavour_text                            = This was the first cathedral that Innocence ever built,<br>made to honour himself. It is gilded with stolen wealth.
++|drop_level                              = 68
++|drop_rarities_ids                       = normal
++|tags                                    = not_for_sale, default
++|metadata_id                             = Metadata/Items/Sanctum/SanctumFloor3
+ |help_text                               = Right click this item to view details of the Sanctum in progress. Take this item to the Relic Altar in the Forbidden Sanctum to enter.
+-|is_drop_restricted                               = true
+ |drop_text                               = Obtained by completing the Sanctum Vaults floor in [[the Forbidden Sanctum]].
++|is_drop_restricted                      = true
++|is_unmodifiable                         = true
+ |release_version                         = 3.22.0
++|implicit1_text                          = {{c|stat|Area Level: }}{{c|normal|(68-83)}}<br>{{c|stat|Resolve: }}{{c|normal|#}}{{c|stat|/}}{{c|normal|300}}<br>{{c|stat|Inspiration: }}{{c|normal|#}}<br>{{c|stat|Aureus: }}{{c|normal|#}}<br>{{c|stat|Minor Boons: }}{{c|craftingdefences|<Minor Boons>}}<br>{{c|stat|Minor Afflictions: }}{{c|prophecy|<Minor Afflictions>}}
+ }}
+ 
+ '''Sanctum Cathedral Research''' is a [[sanctum research]] item. It can be inserted into the Relic Altar to access the Sanctum Necropolis floor of [[the Forbidden Sanctum]].

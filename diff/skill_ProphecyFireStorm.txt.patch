@@ -1,6 +1,6 @@
 --- Skill:ProphecyFireStorm
 +++ Export
-@@ -11,16 +11,16 @@
+@@ -11,47 +11,49 @@
  |static_attack_speed_multiplier          = 100
  |static_stat1_id                         = firestorm_base_area_of_effect_+%
  |static_stat1_value                      = -49
@@ -17,27 +17,65 @@
 +|static_stat3_value                      = -50
 +|static_stat4_id                         = base_chance_to_ignite_%
 +|static_stat4_value                      = 25
-+|stat_text                               = Deals (2-84) to (3-126) Fire Damage<br>Base duration is (1.2-1.5) seconds<br>25% chance to Ignite enemies<br>One impact every (0.12-0.1) seconds
++|stat_text                               = Base duration is (1.2-1.5) seconds<br>Deals (2-84) to (3-126) Fire Damage<br>25% chance to Ignite enemies<br>One impact every (0.12-0.1) seconds
  |level1                                  = True
  |level1_level_requirement                = 2
 -|level1_critical_strike_chance           = 0
+-|level1_stat_text                        = Deals 2 to 3 Fire Damage<br>Base duration is 1.2 seconds<br>One impact every 0.12 seconds
+-|level1_stat1_id                         = spell_minimum_base_fire_damage
+-|level1_stat1_value                      = 2
+-|level1_stat2_id                         = spell_maximum_base_fire_damage
+-|level1_stat2_value                      = 3
+-|level1_stat3_id                         = base_skill_effect_duration
+-|level1_stat3_value                      = 1200
 +|level1_duration                         = 1.2
- |level1_stat_text                        = Deals 2 to 3 Fire Damage<br>Base duration is 1.2 seconds<br>One impact every 0.12 seconds
- |level1_stat1_id                         = spell_minimum_base_fire_damage
- |level1_stat1_value                      = 2
-@@ -33,6 +33,7 @@
++|level1_stat_text                        = Base duration is 1.2 seconds<br>Deals 2 to 3 Fire Damage<br>One impact every 0.12 seconds
++|level1_stat1_id                         = base_skill_effect_duration
++|level1_stat1_value                      = 1200
++|level1_stat2_id                         = spell_minimum_base_fire_damage
++|level1_stat2_value                      = 2
++|level1_stat3_id                         = spell_maximum_base_fire_damage
++|level1_stat3_value                      = 3
+ |level1_stat4_id                         = fire_storm_fireball_delay_ms
+ |level1_stat4_value                      = 125
  |level2                                  = True
  |level2_level_requirement                = 32
  |level2_critical_strike_chance           = 5
+-|level2_stat_text                        = Deals 20 to 30 Fire Damage<br>Base duration is 1.5 seconds<br>One impact every 0.12 seconds
+-|level2_stat1_id                         = spell_minimum_base_fire_damage
+-|level2_stat1_value                      = 20
+-|level2_stat2_id                         = spell_maximum_base_fire_damage
+-|level2_stat2_value                      = 30
+-|level2_stat3_id                         = base_skill_effect_duration
+-|level2_stat3_value                      = 1500
 +|level2_duration                         = 1.5
- |level2_stat_text                        = Deals 20 to 30 Fire Damage<br>Base duration is 1.5 seconds<br>One impact every 0.12 seconds
- |level2_stat1_id                         = spell_minimum_base_fire_damage
- |level2_stat1_value                      = 20
-@@ -45,6 +46,7 @@
++|level2_stat_text                        = Base duration is 1.5 seconds<br>Deals 20 to 30 Fire Damage<br>One impact every 0.12 seconds
++|level2_stat1_id                         = base_skill_effect_duration
++|level2_stat1_value                      = 1500
++|level2_stat2_id                         = spell_minimum_base_fire_damage
++|level2_stat2_value                      = 20
++|level2_stat3_id                         = spell_maximum_base_fire_damage
++|level2_stat3_value                      = 30
+ |level2_stat4_id                         = fire_storm_fireball_delay_ms
+ |level2_stat4_value                      = 125
  |level3                                  = True
  |level3_level_requirement                = 60
  |level3_critical_strike_chance           = 5
+-|level3_stat_text                        = Deals 84 to 126 Fire Damage<br>Base duration is 1.5 seconds<br>One impact every 0.1 seconds
+-|level3_stat1_id                         = spell_minimum_base_fire_damage
+-|level3_stat1_value                      = 84
+-|level3_stat2_id                         = spell_maximum_base_fire_damage
+-|level3_stat2_value                      = 126
+-|level3_stat3_id                         = base_skill_effect_duration
+-|level3_stat3_value                      = 1500
 +|level3_duration                         = 1.5
- |level3_stat_text                        = Deals 84 to 126 Fire Damage<br>Base duration is 1.5 seconds<br>One impact every 0.1 seconds
- |level3_stat1_id                         = spell_minimum_base_fire_damage
- |level3_stat1_value                      = 84
++|level3_stat_text                        = Base duration is 1.5 seconds<br>Deals 84 to 126 Fire Damage<br>One impact every 0.1 seconds
++|level3_stat1_id                         = base_skill_effect_duration
++|level3_stat1_value                      = 1500
++|level3_stat2_id                         = spell_minimum_base_fire_damage
++|level3_stat2_value                      = 84
++|level3_stat3_id                         = spell_maximum_base_fire_damage
++|level3_stat3_value                      = 126
+ |level3_stat4_id                         = fire_storm_fireball_delay_ms
+ |level3_stat4_value                      = 100
+ }}

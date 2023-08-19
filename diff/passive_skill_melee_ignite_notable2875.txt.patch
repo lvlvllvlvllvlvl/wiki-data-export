@@ -1,0 +1,16 @@
+--- Passive Skill:Melee~ignite~notable2875
++++ Export
+@@ -0,0 +1,13 @@
++{{Passive skill
++|id                                  = melee_ignite_notable2875
++|int_id                              = 19794
++|name                                = Concussive Force
++|is_notable                          = True
++|icon                                = IgniteStunNotable
++|stat1_id                            = passive_skill_ignites_from_stunning_melee_hits_deal_damage_+%_final
++|stat1_value                         = 20
++|stat2_id                            = passive_skill_hits_stun_as_if_dealing_melee_fire_damage_+%_final
++|stat2_value                         = 50
++|stat_text                           = [[Ignite|Ignites]] from Stunning Melee [[Hit|Hits]] deal 20% more Damage<br>[[Hit|Hits]] Stun as though dealing 50% more Melee [[Fire Damage]]
++|connections                         = stun_threshold2871,mastery_fire122,stun_threshold2870,stun_threshold2871
++}}

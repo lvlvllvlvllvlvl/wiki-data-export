@@ -1,6 +1,6 @@
 --- Skill:TempestDaemonGroundFireSelf
 +++ Export
-@@ -7,15 +7,16 @@
+@@ -7,40 +7,41 @@
  |static_damage_effectiveness             = 100
  |static_damage_multiplier                = 100
  |static_attack_speed_multiplier          = 100
@@ -18,7 +18,53 @@
 -|stat_text                               = Deals (8-833) to (11-1041) Fire Damage<br>200% increased Cast Speed<br>Base duration is 20 seconds<br>Deals (5.3-404.9) Base Fire Damage per second
 +|static_stat4_id                         = base_cast_speed_+%
 +|static_stat4_value                      = 200
-+|stat_text                               = Deals (8-833) to (11-1041) Fire Damage<br>Deals (5.3-404.9) Base Fire Damage per second<br>Base duration is 20 seconds<br>200% increased Cast Speed
++|stat_text                               = Deals (5.3-404.9) Base Fire Damage per second<br>Base duration is 20 seconds<br>Deals (8-833) to (11-1041) Fire Damage<br>200% increased Cast Speed
  |level1                                  = True
  |level1_level_requirement                = 4
- |level1_stat_text                        = Deals 8 to 11 Fire Damage<br>Deals 5.3 Base Fire Damage per second
+-|level1_stat_text                        = Deals 8 to 11 Fire Damage<br>Deals 5.3 Base Fire Damage per second
+-|level1_stat1_id                         = spell_minimum_base_fire_damage
+-|level1_stat1_value                      = 8
+-|level1_stat2_id                         = spell_maximum_base_fire_damage
+-|level1_stat2_value                      = 11
+-|level1_stat3_id                         = base_fire_damage_to_deal_per_minute
+-|level1_stat3_value                      = 318
++|level1_stat_text                        = Deals 5.3 Base Fire Damage per second<br>Deals 8 to 11 Fire Damage
++|level1_stat1_id                         = base_fire_damage_to_deal_per_minute
++|level1_stat1_value                      = 318
++|level1_stat2_id                         = spell_minimum_base_fire_damage
++|level1_stat2_value                      = 8
++|level1_stat3_id                         = spell_maximum_base_fire_damage
++|level1_stat3_value                      = 11
+ |level2                                  = True
+ |level2_level_requirement                = 36
+-|level2_stat_text                        = Deals 170 to 227 Fire Damage<br>Deals 94.6 Base Fire Damage per second
+-|level2_stat1_id                         = spell_minimum_base_fire_damage
+-|level2_stat1_value                      = 170
+-|level2_stat2_id                         = spell_maximum_base_fire_damage
+-|level2_stat2_value                      = 227
+-|level2_stat3_id                         = base_fire_damage_to_deal_per_minute
+-|level2_stat3_value                      = 5674
++|level2_stat_text                        = Deals 94.6 Base Fire Damage per second<br>Deals 170 to 227 Fire Damage
++|level2_stat1_id                         = base_fire_damage_to_deal_per_minute
++|level2_stat1_value                      = 5674
++|level2_stat2_id                         = spell_minimum_base_fire_damage
++|level2_stat2_value                      = 170
++|level2_stat3_id                         = spell_maximum_base_fire_damage
++|level2_stat3_value                      = 227
+ |level3                                  = True
+ |level3_level_requirement                = 56
+-|level3_stat_text                        = Deals 833 to 1041 Fire Damage<br>Deals 404.9 Base Fire Damage per second
+-|level3_stat1_id                         = spell_minimum_base_fire_damage
+-|level3_stat1_value                      = 833
+-|level3_stat2_id                         = spell_maximum_base_fire_damage
+-|level3_stat2_value                      = 1041
+-|level3_stat3_id                         = base_fire_damage_to_deal_per_minute
+-|level3_stat3_value                      = 24291
++|level3_stat_text                        = Deals 404.9 Base Fire Damage per second<br>Deals 833 to 1041 Fire Damage
++|level3_stat1_id                         = base_fire_damage_to_deal_per_minute
++|level3_stat1_value                      = 24291
++|level3_stat2_id                         = spell_minimum_base_fire_damage
++|level3_stat2_value                      = 833
++|level3_stat3_id                         = spell_maximum_base_fire_damage
++|level3_stat3_value                      = 1041
+ }}

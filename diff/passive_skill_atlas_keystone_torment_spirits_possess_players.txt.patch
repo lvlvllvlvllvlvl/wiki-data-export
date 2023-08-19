@@ -1,0 +1,16 @@
+--- Passive Skill:Atlas~keystone~torment~spirits~possess~players
++++ Export
+@@ -0,0 +1,13 @@
++{{Passive skill
++|id                                  = atlas_keystone_torment_spirits_possess_players
++|int_id                              = 62654
++|name                                = Speaker of the Dead
++|flavour_text                        = For nine hundred years, they have had no voice, no hope.
++Finally, they have found a kindred soul... in you.
++|is_keystone                         = True
++|is_atlas_passive                    = True
++|icon                                = SpeakeroftheDead (AtlasTrees)
++|stat1_id                            = map_tormented_spirits_possess_players_instead_of_monsters
++|stat1_value                         = 1
++|stat_text                           = Tormented Spirits in your Maps can Possess Players for 20 seconds<br />Tormented Spirits in your Maps cannot Possess Monsters
++}}

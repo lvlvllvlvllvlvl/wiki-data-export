@@ -14,9 +14,6 @@
 -|static_stat4_value                      = 5000
 -|static_stat5_id                         = is_area_damage
 -|static_stat5_value                      = 1
--|static_stat6_id                         = base_cold_damage_to_deal_per_minute
--|static_stat6_value                      = 648
--|stat_text                               = Deals 16 to 23 Cold Damage<br>1% increased Effect of Chill<br>Base duration is 5 seconds<br>Deals 10.8 Base Cold Damage per second
 +|static_duration                         = 5
 +|static_stat1_id                         = active_skill_chill_effect_+%_final
 +|static_stat1_value                      = 1
@@ -26,11 +23,12 @@
 +|static_stat3_value                      = 16
 +|static_stat4_id                         = spell_maximum_base_cold_damage
 +|static_stat4_value                      = 23
-+|static_stat5_id                         = base_cold_damage_to_deal_per_minute
-+|static_stat5_value                      = 648
-+|static_stat6_id                         = base_skill_effect_duration
-+|static_stat6_value                      = 5000
-+|stat_text                               = Deals 16 to 23 Cold Damage<br>Deals 10.8 Base Cold Damage per second<br>Base duration is 5 seconds
++|static_stat5_id                         = base_skill_effect_duration
++|static_stat5_value                      = 5000
+ |static_stat6_id                         = base_cold_damage_to_deal_per_minute
+ |static_stat6_value                      = 648
+-|stat_text                               = Deals 16 to 23 Cold Damage<br>1% increased Effect of Chill<br>Base duration is 5 seconds<br>Deals 10.8 Base Cold Damage per second
++|stat_text                               = Deals 16 to 23 Cold Damage<br>Base duration is 5 seconds<br>Deals 10.8 Base Cold Damage per second
  |level1                                  = True
  |level1_level_requirement                = 1
  }}

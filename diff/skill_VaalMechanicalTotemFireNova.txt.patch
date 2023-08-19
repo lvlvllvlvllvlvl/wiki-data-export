@@ -1,6 +1,6 @@
 --- Skill:VaalMechanicalTotemFireNova
 +++ Export
-@@ -10,16 +10,16 @@
+@@ -10,17 +10,17 @@
  |static_damage_effectiveness             = 100
  |static_damage_multiplier                = 100
  |static_attack_speed_multiplier          = 100
@@ -14,16 +14,18 @@
 -|static_stat4_value                      = 40
 -|static_stat5_id                         = is_area_damage
 -|static_stat5_value                      = 1
+-|stat_text                               = Deals 6 to 8 Fire Damage<br>Spell Repeats 2 times<br>40% increased Cast Speed
 +|static_stat1_id                         = is_area_damage
 +|static_stat1_value                      = 1
-+|static_stat2_id                         = spell_minimum_base_fire_damage
-+|static_stat2_value                      = 6
-+|static_stat3_id                         = spell_maximum_base_fire_damage
-+|static_stat3_value                      = 8
-+|static_stat4_id                         = base_spell_repeat_count
-+|static_stat4_value                      = 2
++|static_stat2_id                         = base_spell_repeat_count
++|static_stat2_value                      = 2
++|static_stat3_id                         = spell_minimum_base_fire_damage
++|static_stat3_value                      = 6
++|static_stat4_id                         = spell_maximum_base_fire_damage
++|static_stat4_value                      = 8
 +|static_stat5_id                         = base_cast_speed_+%
 +|static_stat5_value                      = 40
- |stat_text                               = Deals 6 to 8 Fire Damage<br>Spell Repeats 2 times<br>40% increased Cast Speed
++|stat_text                               = Spell Repeats 2 times<br>Deals 6 to 8 Fire Damage<br>40% increased Cast Speed
  |level1                                  = True
  |level1_level_requirement                = 4
+ }}

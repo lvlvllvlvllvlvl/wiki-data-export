@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = Summons a Sentinel of Radiance which follows you and attacks enemies in melee, while burning enemies around it and taking a portion of damage from hits for you. You can only have one Sentinel of Radiance.
+|active_skill_name                       = Summon Sentinel of Radiance
+|skill_id                                = SummonRadiantSentinel
+|cast_time                               = 0.75
+|required_level                          = 12
+|static_cost_amounts                     = 40
+|static_cost_types                       = Mana
+|static_critical_strike_chance           = 6
+|static_damage_effectiveness             = 200
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 20
+|static_stat1_id                         = display_minion_monster_type
+|static_stat1_value                      = 23
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 20000
+|static_stat3_id                         = minion_actor_level_is_user_level_up_to_maximum
+|static_stat3_value                      = 85
+|static_stat4_id                         = radiant_sentinel_minion_fire_%_of_life_to_deal_nearby_per_minute
+|static_stat4_value                      = 1800
+|static_stat5_id                         = radiant_sentinel_minion_burning_effect_radius
+|static_stat5_value                      = 45
+|stat_text                               = Base duration is 20 seconds<br>Minion's Level is equal to yours, up to a maximum of 85<br>Minion deals Fire Damage equal to 30% of its maximum Life per Second to Enemies in a Base radius of 45
+|level1                                  = True
+|level1_level_requirement                = 12
+}}

@@ -1,6 +1,16 @@
 --- Skill:SummonMirageChieftain
 +++ Export
-@@ -9,13 +9,14 @@
+@@ -1,29 +1,24 @@
+ {{Skill
+-|gem_description                         = This skill is triggered when you use a Slam skill, and summons a Mirage Chieftain who will use that Slam skill once before dissipating.
++|gem_description                         = This skill is triggered when you use a Slam or Strike skill, and summons a Mirage Chieftain who will use that Slam or Strike skill once before dissipating.
+ |active_skill_name                       = Tawhoa's Chosen
+ |skill_id                                = SummonMirageChieftain
+ |cast_time                               = 0.0
+ |required_level                          = 1
+ |static_stored_uses                      = 1
+-|static_cooldown                         = 2
++|static_cooldown                         = 1
  |static_damage_effectiveness             = 100
  |static_damage_multiplier                = 100
  |static_attack_speed_multiplier          = 100
@@ -14,9 +24,17 @@
 -|stat_text                               = Skills used by Mirage Chieftains deal (-40-100)% more Damage<br>Skills used by Mirage Chieftains cannot Repeat<br>Base duration is 3 seconds<br>Trigger this Spell when you Attack with a Non-Vaal Slam Skill near an Enemy<br>You cannot Cast this Spell directly
 +|static_stat2_id                         = spell_uncastable_if_triggerable
 +|static_stat2_value                      = 1
-+|static_stat3_id                         = trigger_on_slam_%_chance
++|static_stat3_id                         = trigger_on_slam_or_strike_%_chance
 +|static_stat3_value                      = 100
-+|stat_text                               = Base duration is 3 seconds<br>You cannot Cast this Spell directly<br>Skills used by Mirage Chieftains deal (-40-100)% more Damage<br>Skills used by Mirage Chieftains cannot Repeat<br>Trigger this Spell when you Attack with a Non-Vaal Slam Skill near an Enemy
++|stat_text                               = Base duration is 3 seconds<br>You cannot Cast this Spell directly<br>Trigger this Spell when you Attack with a Non-Vaal Slam or Strike Skill near an Enemy
  |level1                                  = True
  |level1_level_requirement                = 1
- |level1_stat_text                        = Skills used by Mirage Chieftains deal 40% less Damage<br>Skills used by Mirage Chieftains cannot Repeat
+-|level1_stat_text                        = Skills used by Mirage Chieftains deal 40% less Damage<br>Skills used by Mirage Chieftains cannot Repeat
+-|level1_stat1_id                         = skill_used_by_mirage_chieftain_damage_+%_final
+-|level1_stat1_value                      = -40
+ |level2                                  = True
+ |level2_level_requirement                = 1
+-|level2_stat_text                        = Skills used by Mirage Chieftains deal 100% more Damage<br>Skills used by Mirage Chieftains cannot Repeat
+-|level2_stat1_id                         = skill_used_by_mirage_chieftain_damage_+%_final
+-|level2_stat1_value                      = 100
+ }}

@@ -1,0 +1,380 @@
+--- Summon Carrion Golem
++++ Export
+@@ -35,18 +35,20 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = display_minion_monster_type
+ |static_stat1_value                      = 7
+-|static_stat2_id                         = base_number_of_golems_allowed
++|static_stat2_id                         = infinite_minion_duration
+ |static_stat2_value                      = 1
+-|static_stat3_id                         = bone_golem_damage_+%_final_per_non_golem_minion_nearby
+-|static_stat3_value                      = 5
+-|static_stat4_id                         = bone_golem_damage_per_non_golem_minion_nearby_maximum_%
+-|static_stat4_value                      = 50
++|static_stat3_id                         = base_number_of_golems_allowed
++|static_stat3_value                      = 1
++|static_stat4_id                         = bone_golem_damage_+%_final_per_non_golem_minion_nearby
++|static_stat4_value                      = 5
++|static_stat5_id                         = bone_golem_damage_per_non_golem_minion_nearby_maximum_%
++|static_stat5_value                      = 50
+ |stat_text                               = (0-10)% increased Character Size<br>Maximum 1 Summoned Golem<br>(0-38)% increased Minion Maximum Life<br>Golems deal 5% more Damage per Non-Golem Minion near them, up to 50%<br>Golems grant (7-27) to (11-41) additional Physical Damage for Non-Golem Minions
+ |level1                                  = True
+ |level1_level_requirement                = 34
+ |level1_cost_amounts                     = 30
+ |level1_stat_text                        = Golems grant 7 to 11 additional Physical Damage for Non-Golem Minions
+-|level1_stat1_id                         = display_minion_monster_level
++|level1_stat1_id                         = base_display_minion_actor_level
+ |level1_stat1_value                      = 34
+ |level1_stat2_id                         = bone_golem_grants_minion_minimum_added_physical_damage
+ |level1_stat2_value                      = 7
+@@ -56,7 +58,7 @@
+ |level2_level_requirement                = 36
+ |level2_cost_amounts                     = 32
+ |level2_stat_text                        = 1% increased Character Size<br>2% increased Minion Maximum Life<br>Golems grant 8 to 11 additional Physical Damage for Non-Golem Minions
+-|level2_stat1_id                         = display_minion_monster_level
++|level2_stat1_id                         = base_display_minion_actor_level
+ |level2_stat1_value                      = 36
+ |level2_stat2_id                         = base_actor_scale_+%
+ |level2_stat2_value                      = 1
+@@ -70,7 +72,7 @@
+ |level3_level_requirement                = 38
+ |level3_cost_amounts                     = 34
+ |level3_stat_text                        = 1% increased Character Size<br>4% increased Minion Maximum Life<br>Golems grant 8 to 12 additional Physical Damage for Non-Golem Minions
+-|level3_stat1_id                         = display_minion_monster_level
++|level3_stat1_id                         = base_display_minion_actor_level
+ |level3_stat1_value                      = 38
+ |level3_stat2_id                         = base_actor_scale_+%
+ |level3_stat2_value                      = 1
+@@ -84,7 +86,7 @@
+ |level4_level_requirement                = 40
+ |level4_cost_amounts                     = 36
+ |level4_stat_text                        = 2% increased Character Size<br>6% increased Minion Maximum Life<br>Golems grant 9 to 14 additional Physical Damage for Non-Golem Minions
+-|level4_stat1_id                         = display_minion_monster_level
++|level4_stat1_id                         = base_display_minion_actor_level
+ |level4_stat1_value                      = 40
+ |level4_stat2_id                         = base_actor_scale_+%
+ |level4_stat2_value                      = 2
+@@ -98,7 +100,7 @@
+ |level5_level_requirement                = 42
+ |level5_cost_amounts                     = 38
+ |level5_stat_text                        = 2% increased Character Size<br>8% increased Minion Maximum Life<br>Golems grant 10 to 15 additional Physical Damage for Non-Golem Minions
+-|level5_stat1_id                         = display_minion_monster_level
++|level5_stat1_id                         = base_display_minion_actor_level
+ |level5_stat1_value                      = 42
+ |level5_stat2_id                         = base_actor_scale_+%
+ |level5_stat2_value                      = 2
+@@ -112,7 +114,7 @@
+ |level6_level_requirement                = 44
+ |level6_cost_amounts                     = 40
+ |level6_stat_text                        = 3% increased Character Size<br>10% increased Minion Maximum Life<br>Golems grant 11 to 16 additional Physical Damage for Non-Golem Minions
+-|level6_stat1_id                         = display_minion_monster_level
++|level6_stat1_id                         = base_display_minion_actor_level
+ |level6_stat1_value                      = 44
+ |level6_stat2_id                         = base_actor_scale_+%
+ |level6_stat2_value                      = 3
+@@ -126,7 +128,7 @@
+ |level7_level_requirement                = 46
+ |level7_cost_amounts                     = 42
+ |level7_stat_text                        = 3% increased Character Size<br>12% increased Minion Maximum Life<br>Golems grant 11 to 17 additional Physical Damage for Non-Golem Minions
+-|level7_stat1_id                         = display_minion_monster_level
++|level7_stat1_id                         = base_display_minion_actor_level
+ |level7_stat1_value                      = 46
+ |level7_stat2_id                         = base_actor_scale_+%
+ |level7_stat2_value                      = 3
+@@ -140,7 +142,7 @@
+ |level8_level_requirement                = 48
+ |level8_cost_amounts                     = 44
+ |level8_stat_text                        = 4% increased Character Size<br>14% increased Minion Maximum Life<br>Golems grant 12 to 19 additional Physical Damage for Non-Golem Minions
+-|level8_stat1_id                         = display_minion_monster_level
++|level8_stat1_id                         = base_display_minion_actor_level
+ |level8_stat1_value                      = 48
+ |level8_stat2_id                         = base_actor_scale_+%
+ |level8_stat2_value                      = 4
+@@ -154,7 +156,7 @@
+ |level9_level_requirement                = 50
+ |level9_cost_amounts                     = 44
+ |level9_stat_text                        = 4% increased Character Size<br>16% increased Minion Maximum Life<br>Golems grant 13 to 20 additional Physical Damage for Non-Golem Minions
+-|level9_stat1_id                         = display_minion_monster_level
++|level9_stat1_id                         = base_display_minion_actor_level
+ |level9_stat1_value                      = 50
+ |level9_stat2_id                         = base_actor_scale_+%
+ |level9_stat2_value                      = 4
+@@ -168,7 +170,7 @@
+ |level10_level_requirement               = 52
+ |level10_cost_amounts                    = 46
+ |level10_stat_text                       = 5% increased Character Size<br>18% increased Minion Maximum Life<br>Golems grant 14 to 22 additional Physical Damage for Non-Golem Minions
+-|level10_stat1_id                        = display_minion_monster_level
++|level10_stat1_id                        = base_display_minion_actor_level
+ |level10_stat1_value                     = 52
+ |level10_stat2_id                        = base_actor_scale_+%
+ |level10_stat2_value                     = 5
+@@ -182,7 +184,7 @@
+ |level11_level_requirement               = 54
+ |level11_cost_amounts                    = 48
+ |level11_stat_text                       = 5% increased Character Size<br>20% increased Minion Maximum Life<br>Golems grant 15 to 23 additional Physical Damage for Non-Golem Minions
+-|level11_stat1_id                        = display_minion_monster_level
++|level11_stat1_id                        = base_display_minion_actor_level
+ |level11_stat1_value                     = 54
+ |level11_stat2_id                        = base_actor_scale_+%
+ |level11_stat2_value                     = 5
+@@ -196,7 +198,7 @@
+ |level12_level_requirement               = 56
+ |level12_cost_amounts                    = 48
+ |level12_stat_text                       = 6% increased Character Size<br>22% increased Minion Maximum Life<br>Golems grant 17 to 25 additional Physical Damage for Non-Golem Minions
+-|level12_stat1_id                        = display_minion_monster_level
++|level12_stat1_id                        = base_display_minion_actor_level
+ |level12_stat1_value                     = 56
+ |level12_stat2_id                        = base_actor_scale_+%
+ |level12_stat2_value                     = 6
+@@ -210,7 +212,7 @@
+ |level13_level_requirement               = 58
+ |level13_cost_amounts                    = 50
+ |level13_stat_text                       = 6% increased Character Size<br>24% increased Minion Maximum Life<br>Golems grant 18 to 27 additional Physical Damage for Non-Golem Minions
+-|level13_stat1_id                        = display_minion_monster_level
++|level13_stat1_id                        = base_display_minion_actor_level
+ |level13_stat1_value                     = 58
+ |level13_stat2_id                        = base_actor_scale_+%
+ |level13_stat2_value                     = 6
+@@ -224,7 +226,7 @@
+ |level14_level_requirement               = 60
+ |level14_cost_amounts                    = 50
+ |level14_stat_text                       = 7% increased Character Size<br>26% increased Minion Maximum Life<br>Golems grant 19 to 29 additional Physical Damage for Non-Golem Minions
+-|level14_stat1_id                        = display_minion_monster_level
++|level14_stat1_id                        = base_display_minion_actor_level
+ |level14_stat1_value                     = 60
+ |level14_stat2_id                        = base_actor_scale_+%
+ |level14_stat2_value                     = 7
+@@ -238,7 +240,7 @@
+ |level15_level_requirement               = 62
+ |level15_cost_amounts                    = 52
+ |level15_stat_text                       = 7% increased Character Size<br>28% increased Minion Maximum Life<br>Golems grant 21 to 31 additional Physical Damage for Non-Golem Minions
+-|level15_stat1_id                        = display_minion_monster_level
++|level15_stat1_id                        = base_display_minion_actor_level
+ |level15_stat1_value                     = 62
+ |level15_stat2_id                        = base_actor_scale_+%
+ |level15_stat2_value                     = 7
+@@ -252,7 +254,7 @@
+ |level16_level_requirement               = 64
+ |level16_cost_amounts                    = 52
+ |level16_stat_text                       = 8% increased Character Size<br>30% increased Minion Maximum Life<br>Golems grant 22 to 33 additional Physical Damage for Non-Golem Minions
+-|level16_stat1_id                        = display_minion_monster_level
++|level16_stat1_id                        = base_display_minion_actor_level
+ |level16_stat1_value                     = 64
+ |level16_stat2_id                        = base_actor_scale_+%
+ |level16_stat2_value                     = 8
+@@ -266,7 +268,7 @@
+ |level17_level_requirement               = 66
+ |level17_cost_amounts                    = 52
+ |level17_stat_text                       = 8% increased Character Size<br>32% increased Minion Maximum Life<br>Golems grant 24 to 35 additional Physical Damage for Non-Golem Minions
+-|level17_stat1_id                        = display_minion_monster_level
++|level17_stat1_id                        = base_display_minion_actor_level
+ |level17_stat1_value                     = 66
+ |level17_stat2_id                        = base_actor_scale_+%
+ |level17_stat2_value                     = 8
+@@ -280,7 +282,7 @@
+ |level18_level_requirement               = 68
+ |level18_cost_amounts                    = 52
+ |level18_stat_text                       = 9% increased Character Size<br>34% increased Minion Maximum Life<br>Golems grant 25 to 38 additional Physical Damage for Non-Golem Minions
+-|level18_stat1_id                        = display_minion_monster_level
++|level18_stat1_id                        = base_display_minion_actor_level
+ |level18_stat1_value                     = 68
+ |level18_stat2_id                        = base_actor_scale_+%
+ |level18_stat2_value                     = 9
+@@ -294,7 +296,7 @@
+ |level19_level_requirement               = 69
+ |level19_cost_amounts                    = 54
+ |level19_stat_text                       = 9% increased Character Size<br>36% increased Minion Maximum Life<br>Golems grant 26 to 39 additional Physical Damage for Non-Golem Minions
+-|level19_stat1_id                        = display_minion_monster_level
++|level19_stat1_id                        = base_display_minion_actor_level
+ |level19_stat1_value                     = 69
+ |level19_stat2_id                        = base_actor_scale_+%
+ |level19_stat2_value                     = 9
+@@ -308,7 +310,7 @@
+ |level20_level_requirement               = 70
+ |level20_cost_amounts                    = 54
+ |level20_stat_text                       = 10% increased Character Size<br>38% increased Minion Maximum Life<br>Golems grant 27 to 41 additional Physical Damage for Non-Golem Minions
+-|level20_stat1_id                        = display_minion_monster_level
++|level20_stat1_id                        = base_display_minion_actor_level
+ |level20_stat1_value                     = 70
+ |level20_stat2_id                        = base_actor_scale_+%
+ |level20_stat2_value                     = 10
+@@ -322,7 +324,7 @@
+ |level21_level_requirement               = 72
+ |level21_cost_amounts                    = 56
+ |level21_stat_text                       = 10% increased Character Size<br>40% increased Minion Maximum Life<br>Golems grant 29 to 43 additional Physical Damage for Non-Golem Minions
+-|level21_stat1_id                        = display_minion_monster_level
++|level21_stat1_id                        = base_display_minion_actor_level
+ |level21_stat1_value                     = 72
+ |level21_stat2_id                        = base_actor_scale_+%
+ |level21_stat2_value                     = 10
+@@ -336,7 +338,7 @@
+ |level22_level_requirement               = 74
+ |level22_cost_amounts                    = 56
+ |level22_stat_text                       = 11% increased Character Size<br>42% increased Minion Maximum Life<br>Golems grant 31 to 46 additional Physical Damage for Non-Golem Minions
+-|level22_stat1_id                        = display_minion_monster_level
++|level22_stat1_id                        = base_display_minion_actor_level
+ |level22_stat1_value                     = 74
+ |level22_stat2_id                        = base_actor_scale_+%
+ |level22_stat2_value                     = 11
+@@ -350,7 +352,7 @@
+ |level23_level_requirement               = 76
+ |level23_cost_amounts                    = 58
+ |level23_stat_text                       = 11% increased Character Size<br>44% increased Minion Maximum Life<br>Golems grant 33 to 49 additional Physical Damage for Non-Golem Minions
+-|level23_stat1_id                        = display_minion_monster_level
++|level23_stat1_id                        = base_display_minion_actor_level
+ |level23_stat1_value                     = 76
+ |level23_stat2_id                        = base_actor_scale_+%
+ |level23_stat2_value                     = 11
+@@ -364,7 +366,7 @@
+ |level24_level_requirement               = 78
+ |level24_cost_amounts                    = 58
+ |level24_stat_text                       = 12% increased Character Size<br>46% increased Minion Maximum Life<br>Golems grant 35 to 53 additional Physical Damage for Non-Golem Minions
+-|level24_stat1_id                        = display_minion_monster_level
++|level24_stat1_id                        = base_display_minion_actor_level
+ |level24_stat1_value                     = 78
+ |level24_stat2_id                        = base_actor_scale_+%
+ |level24_stat2_value                     = 12
+@@ -378,7 +380,7 @@
+ |level25_level_requirement               = 80
+ |level25_cost_amounts                    = 60
+ |level25_stat_text                       = 12% increased Character Size<br>48% increased Minion Maximum Life<br>Golems grant 37 to 56 additional Physical Damage for Non-Golem Minions
+-|level25_stat1_id                        = display_minion_monster_level
++|level25_stat1_id                        = base_display_minion_actor_level
+ |level25_stat1_value                     = 80
+ |level25_stat2_id                        = base_actor_scale_+%
+ |level25_stat2_value                     = 12
+@@ -392,7 +394,7 @@
+ |level26_level_requirement               = 82
+ |level26_cost_amounts                    = 60
+ |level26_stat_text                       = 13% increased Character Size<br>50% increased Minion Maximum Life<br>Golems grant 40 to 60 additional Physical Damage for Non-Golem Minions
+-|level26_stat1_id                        = display_minion_monster_level
++|level26_stat1_id                        = base_display_minion_actor_level
+ |level26_stat1_value                     = 82
+ |level26_stat2_id                        = base_actor_scale_+%
+ |level26_stat2_value                     = 13
+@@ -406,7 +408,7 @@
+ |level27_level_requirement               = 84
+ |level27_cost_amounts                    = 60
+ |level27_stat_text                       = 13% increased Character Size<br>52% increased Minion Maximum Life<br>Golems grant 42 to 64 additional Physical Damage for Non-Golem Minions
+-|level27_stat1_id                        = display_minion_monster_level
++|level27_stat1_id                        = base_display_minion_actor_level
+ |level27_stat1_value                     = 84
+ |level27_stat2_id                        = base_actor_scale_+%
+ |level27_stat2_value                     = 13
+@@ -420,7 +422,7 @@
+ |level28_level_requirement               = 86
+ |level28_cost_amounts                    = 60
+ |level28_stat_text                       = 14% increased Character Size<br>54% increased Minion Maximum Life<br>Golems grant 45 to 68 additional Physical Damage for Non-Golem Minions
+-|level28_stat1_id                        = display_minion_monster_level
++|level28_stat1_id                        = base_display_minion_actor_level
+ |level28_stat1_value                     = 86
+ |level28_stat2_id                        = base_actor_scale_+%
+ |level28_stat2_value                     = 14
+@@ -434,7 +436,7 @@
+ |level29_level_requirement               = 88
+ |level29_cost_amounts                    = 62
+ |level29_stat_text                       = 14% increased Character Size<br>56% increased Minion Maximum Life<br>Golems grant 48 to 72 additional Physical Damage for Non-Golem Minions
+-|level29_stat1_id                        = display_minion_monster_level
++|level29_stat1_id                        = base_display_minion_actor_level
+ |level29_stat1_value                     = 88
+ |level29_stat2_id                        = base_actor_scale_+%
+ |level29_stat2_value                     = 14
+@@ -448,7 +450,7 @@
+ |level30_level_requirement               = 90
+ |level30_cost_amounts                    = 62
+ |level30_stat_text                       = 15% increased Character Size<br>58% increased Minion Maximum Life<br>Golems grant 51 to 77 additional Physical Damage for Non-Golem Minions
+-|level30_stat1_id                        = display_minion_monster_level
++|level30_stat1_id                        = base_display_minion_actor_level
+ |level30_stat1_value                     = 90
+ |level30_stat2_id                        = base_actor_scale_+%
+ |level30_stat2_value                     = 15
+@@ -462,7 +464,7 @@
+ |level31_level_requirement               = 91
+ |level31_cost_amounts                    = 62
+ |level31_stat_text                       = 15% increased Character Size<br>59% increased Minion Maximum Life<br>Golems grant 53 to 79 additional Physical Damage for Non-Golem Minions
+-|level31_stat1_id                        = display_minion_monster_level
++|level31_stat1_id                        = base_display_minion_actor_level
+ |level31_stat1_value                     = 91
+ |level31_stat2_id                        = base_actor_scale_+%
+ |level31_stat2_value                     = 15
+@@ -476,7 +478,7 @@
+ |level32_level_requirement               = 92
+ |level32_cost_amounts                    = 63
+ |level32_stat_text                       = 15% increased Character Size<br>60% increased Minion Maximum Life<br>Golems grant 54 to 82 additional Physical Damage for Non-Golem Minions
+-|level32_stat1_id                        = display_minion_monster_level
++|level32_stat1_id                        = base_display_minion_actor_level
+ |level32_stat1_value                     = 92
+ |level32_stat2_id                        = base_actor_scale_+%
+ |level32_stat2_value                     = 15
+@@ -490,7 +492,7 @@
+ |level33_level_requirement               = 93
+ |level33_cost_amounts                    = 63
+ |level33_stat_text                       = 15% increased Character Size<br>61% increased Minion Maximum Life<br>Golems grant 56 to 84 additional Physical Damage for Non-Golem Minions
+-|level33_stat1_id                        = display_minion_monster_level
++|level33_stat1_id                        = base_display_minion_actor_level
+ |level33_stat1_value                     = 93
+ |level33_stat2_id                        = base_actor_scale_+%
+ |level33_stat2_value                     = 15
+@@ -504,7 +506,7 @@
+ |level34_level_requirement               = 94
+ |level34_cost_amounts                    = 63
+ |level34_stat_text                       = 16% increased Character Size<br>62% increased Minion Maximum Life<br>Golems grant 58 to 87 additional Physical Damage for Non-Golem Minions
+-|level34_stat1_id                        = display_minion_monster_level
++|level34_stat1_id                        = base_display_minion_actor_level
+ |level34_stat1_value                     = 94
+ |level34_stat2_id                        = base_actor_scale_+%
+ |level34_stat2_value                     = 16
+@@ -518,7 +520,7 @@
+ |level35_level_requirement               = 95
+ |level35_cost_amounts                    = 63
+ |level35_stat_text                       = 16% increased Character Size<br>63% increased Minion Maximum Life<br>Golems grant 60 to 89 additional Physical Damage for Non-Golem Minions
+-|level35_stat1_id                        = display_minion_monster_level
++|level35_stat1_id                        = base_display_minion_actor_level
+ |level35_stat1_value                     = 95
+ |level35_stat2_id                        = base_actor_scale_+%
+ |level35_stat2_value                     = 16
+@@ -532,7 +534,7 @@
+ |level36_level_requirement               = 96
+ |level36_cost_amounts                    = 64
+ |level36_stat_text                       = 16% increased Character Size<br>64% increased Minion Maximum Life<br>Golems grant 61 to 92 additional Physical Damage for Non-Golem Minions
+-|level36_stat1_id                        = display_minion_monster_level
++|level36_stat1_id                        = base_display_minion_actor_level
+ |level36_stat1_value                     = 96
+ |level36_stat2_id                        = base_actor_scale_+%
+ |level36_stat2_value                     = 16
+@@ -546,7 +548,7 @@
+ |level37_level_requirement               = 97
+ |level37_cost_amounts                    = 64
+ |level37_stat_text                       = 16% increased Character Size<br>65% increased Minion Maximum Life<br>Golems grant 63 to 95 additional Physical Damage for Non-Golem Minions
+-|level37_stat1_id                        = display_minion_monster_level
++|level37_stat1_id                        = base_display_minion_actor_level
+ |level37_stat1_value                     = 97
+ |level37_stat2_id                        = base_actor_scale_+%
+ |level37_stat2_value                     = 16
+@@ -560,7 +562,7 @@
+ |level38_level_requirement               = 98
+ |level38_cost_amounts                    = 64
+ |level38_stat_text                       = 17% increased Character Size<br>66% increased Minion Maximum Life<br>Golems grant 65 to 98 additional Physical Damage for Non-Golem Minions
+-|level38_stat1_id                        = display_minion_monster_level
++|level38_stat1_id                        = base_display_minion_actor_level
+ |level38_stat1_value                     = 98
+ |level38_stat2_id                        = base_actor_scale_+%
+ |level38_stat2_value                     = 17
+@@ -574,7 +576,7 @@
+ |level39_level_requirement               = 99
+ |level39_cost_amounts                    = 64
+ |level39_stat_text                       = 17% increased Character Size<br>67% increased Minion Maximum Life<br>Golems grant 67 to 101 additional Physical Damage for Non-Golem Minions
+-|level39_stat1_id                        = display_minion_monster_level
++|level39_stat1_id                        = base_display_minion_actor_level
+ |level39_stat1_value                     = 99
+ |level39_stat2_id                        = base_actor_scale_+%
+ |level39_stat2_value                     = 17
+@@ -588,7 +590,7 @@
+ |level40_level_requirement               = 100
+ |level40_cost_amounts                    = 64
+ |level40_stat_text                       = 17% increased Character Size<br>68% increased Minion Maximum Life<br>Golems grant 69 to 104 additional Physical Damage for Non-Golem Minions
+-|level40_stat1_id                        = display_minion_monster_level
++|level40_stat1_id                        = base_display_minion_actor_level
+ |level40_stat1_value                     = 100
+ |level40_stat2_id                        = base_actor_scale_+%
+ |level40_stat2_value                     = 17

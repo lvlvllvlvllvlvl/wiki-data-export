@@ -1,0 +1,20 @@
+--- Minion Life Support
++++ Export
+@@ -7,7 +7,7 @@
+ |drop_level                              = 18
+ |tags                                    = support_gem, gem, default
+ |metadata_id                             = Metadata/Items/Gems/SupportGemMinionLife
+-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
++|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
+ |intelligence_percent                    = 100
+ |gem_tags                                = Support, Minion
+ |skill_id                                = SupportMinionLife
+@@ -18,7 +18,7 @@
+ |quality_type1_stat1_id                  = minion_maximum_life_+%
+ |quality_type1_stat1_value               = 750
+ |quality_type2_weight                    = 20
+-|quality_type2_stat_text                 = Minions Regenerate 0.1% of Life per second
++|quality_type2_stat_text                 = Minions from Supported Skills Regenerate 0.1% of Life per second
+ |quality_type2_stat1_id                  = minion_life_regeneration_rate_per_minute_%
+ |quality_type2_stat1_value               = 3000
+ |quality_type3_weight                    = 100

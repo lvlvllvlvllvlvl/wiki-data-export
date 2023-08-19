@@ -36,27 +36,9 @@ local data = {	{
 	},
 	{
 		name = "Monster", 
-		id = "base_maximum_fire_damage_resistance_%", 
+		id = "base_maximum_all_resistances_%", 
 		value = 75, 
-		stat_text = "+75% to maximum [[Fire Resistance]]", 
-	},
-	{
-		name = "Monster", 
-		id = "base_maximum_cold_damage_resistance_%", 
-		value = 75, 
-		stat_text = "+75% to maximum [[Cold Resistance]]", 
-	},
-	{
-		name = "Monster", 
-		id = "base_maximum_lightning_damage_resistance_%", 
-		value = 75, 
-		stat_text = "+75% to maximum [[Lightning Resistance]]", 
-	},
-	{
-		name = "Monster", 
-		id = "base_maximum_chaos_damage_resistance_%", 
-		value = 75, 
-		stat_text = "+75% to maximum [[Chaos Resistance]]", 
+		stat_text = "", 
 	},
 	{
 		name = "Monster", 

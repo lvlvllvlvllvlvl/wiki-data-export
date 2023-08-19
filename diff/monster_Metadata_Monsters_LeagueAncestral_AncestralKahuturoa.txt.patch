@@ -1,0 +1,20 @@
+--- Monster:Metadata/Monsters/LeagueAncestral/AncestralKahuturoa
++++ Export
+@@ -0,0 +1,17 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueAncestral/AncestralKahuturoa
++|monster_type_id                  = AncestralKahuturoa
++|mod_ids                          = AncestralTrialMonsterOverwhelmRongokurai, CannotBeSlowedBelowValueBosses, AncestralTrialChieftainBalance
++|tags                             = fast_movement, human, humanoid, not_dex, not_int, red_blood
++|skill_ids                        = KahuturoaMelee, DTTKahuturoaLeapSlam, GAKahuturoaLeapSlamImpact, GAKahuturoaGroundSlam, GAKahuturoaGroundSlamFinal, EAAKahuturoaTripleSlam, MeleeKahuturoaGroundSlam, MeleeKahuturoaTripleGroundSlam, GAKahuturoaForwardMelee, GAKahuturoaLeapSlamWeaponSwing, GAKahuturoaSlamCircle
++|name                             = Kahuturoa
++|size                             = 3
++|minimum_attack_distance          = 5
++|maximum_attack_distance          = 24
++|model_size_multiplier            = 1.0
++|experience_multiplier            = 1.0
++|damage_multiplier                = 1.6
++|health_multiplier                = 1.2
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.5
++}}

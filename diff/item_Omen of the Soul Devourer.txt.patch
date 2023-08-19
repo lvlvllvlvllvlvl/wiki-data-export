@@ -1,0 +1,20 @@
+--- Omen of the Soul Devourer
++++ Export
+@@ -6,13 +6,13 @@
+ |size_y                                  = 1
+ |drop_level                              = 1
+ |tags                                    = currency, default
+-|metadata_id                             = Metadata/Items/Currency/OmenOfTheSoulDevourer
+-|description                             = On Levelling up, this Omen is consumed and you gain Soul Eater
++|metadata_id                             = Metadata/Items/Currency/AncestralOmenOnLevelingUpGainSoulEater
++|stack_size                              = 1
++|description                             = Will be Consumed when you level up<br>to grant Soul Eater
+ |help_text                               = Each player can only consume one Omen in each combat area.
+-|stack_size_currency_tab                 = 5000
++|drop_text                               = Can be obtained as a reward from [[Hinekora]] for completing a tournament in the [[Trial of the Ancestors]].
+ |is_drop_restricted                      = true
+ |release_version                         = 3.22.0
+-|drop_text = Can be obtained as a reward from [[Hinekora]] for completing a tournament in the [[Trial of the Ancestors]].
+ }}
+ 
+ '''Omen of the Soul Devourer''' is an [[Omen]] item. When consumed, it grants {{stl|Soul Eater}}. The duration of the Soul Eater buff is unknown.

@@ -5,12 +5,10 @@
 |ascendancy_class                    = Guardian
 |is_notable                          = True
 |icon                                = Radient Crusade (Guardian)
-|stat1_id                            = guardian_with_nearby_ally_damage_+%_final_for_you_and_allies
-|stat1_value                         = 10
-|stat2_id                            = guardian_with_5_nearby_allies_you_and_allies_have_onslaught
-|stat2_value                         = 1
-|stat3_id                            = base_resist_all_elements_%
-|stat3_value                         = 20
-|stat_text                           = While there is at least one nearby Ally, you and nearby Allies deal 10% more Damage<br>While there are at least five nearby Allies, you and nearby Allies have Onslaught<br>+20% to all [[Elemental Resistance|Elemental Resistances]]
+|stat1_id                            = local_display_grants_skill_summon_radiant_sentinel
+|stat1_value                         = 20
+|stat2_id                            = damage_removed_from_radiant_sentinel_before_life_or_es_%
+|stat2_value                         = 20
+|stat_text                           = Grants [[Level]] 20 Summon Sentinel of Radiance [[Skill]]<br>20% of Damage from [[Hit|Hits]] is taken from your Sentinel of Radiance's [[Life]] before you
 |connections                         = AscendancyGuardian13,AscendancyGuardian15
 }}

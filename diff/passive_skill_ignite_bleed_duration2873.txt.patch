@@ -1,0 +1,15 @@
+--- Passive Skill:Ignite~bleed~duration2873
++++ Export
+@@ -0,0 +1,12 @@
++{{Passive skill
++|id                                  = ignite_bleed_duration2873
++|int_id                              = 49652
++|name                                = Ignite and Bleed Duration
++|icon                                = IgniteBleedNode
++|stat1_id                            = ignite_duration_+%
++|stat1_value                         = 25
++|stat2_id                            = base_bleed_duration_+%
++|stat2_value                         = 25
++|stat_text                           = 25% increased [[Ignite]] Duration on Enemies<br>25% increased Bleeding Duration
++|connections                         = ignite_bleed_duration2872,ignite_bleed_notable2878
++}}

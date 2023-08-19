@@ -1,6 +1,6 @@
 --- Skill:AvatarFlameDash
 +++ Export
-@@ -8,19 +8,20 @@
+@@ -8,44 +8,45 @@
  |static_damage_effectiveness             = 100
  |static_damage_multiplier                = 100
  |static_attack_speed_multiplier          = 100
@@ -29,7 +29,53 @@
 +|static_stat5_value                      = 2
 +|static_stat6_id                         = base_skill_effect_duration
 +|static_stat6_value                      = 8000
-+|stat_text                               = Deals (2-283) to (3-425) Fire Damage<br>Deals (5.3-590.4) Base Fire Damage per second<br>Base duration is 8 seconds
++|stat_text                               = Deals (5.3-590.4) Base Fire Damage per second<br>Base duration is 8 seconds<br>Deals (2-283) to (3-425) Fire Damage
  |level1                                  = True
  |level1_level_requirement                = 1
- |level1_stat_text                        = Deals 2 to 3 Fire Damage<br>Deals 5.3 Base Fire Damage per second
+-|level1_stat_text                        = Deals 2 to 3 Fire Damage<br>Deals 5.3 Base Fire Damage per second
+-|level1_stat1_id                         = spell_minimum_base_fire_damage
+-|level1_stat1_value                      = 2
+-|level1_stat2_id                         = spell_maximum_base_fire_damage
+-|level1_stat2_value                      = 3
+-|level1_stat3_id                         = base_fire_damage_to_deal_per_minute
+-|level1_stat3_value                      = 317
++|level1_stat_text                        = Deals 5.3 Base Fire Damage per second<br>Deals 2 to 3 Fire Damage
++|level1_stat1_id                         = base_fire_damage_to_deal_per_minute
++|level1_stat1_value                      = 317
++|level1_stat2_id                         = spell_minimum_base_fire_damage
++|level1_stat2_value                      = 2
++|level1_stat3_id                         = spell_maximum_base_fire_damage
++|level1_stat3_value                      = 3
+ |level2                                  = True
+ |level2_level_requirement                = 35
+-|level2_stat_text                        = Deals 35 to 52 Fire Damage<br>Deals 84.2 Base Fire Damage per second
+-|level2_stat1_id                         = spell_minimum_base_fire_damage
+-|level2_stat1_value                      = 35
+-|level2_stat2_id                         = spell_maximum_base_fire_damage
+-|level2_stat2_value                      = 52
+-|level2_stat3_id                         = base_fire_damage_to_deal_per_minute
+-|level2_stat3_value                      = 5054
++|level2_stat_text                        = Deals 84.2 Base Fire Damage per second<br>Deals 35 to 52 Fire Damage
++|level2_stat1_id                         = base_fire_damage_to_deal_per_minute
++|level2_stat1_value                      = 5054
++|level2_stat2_id                         = spell_minimum_base_fire_damage
++|level2_stat2_value                      = 35
++|level2_stat3_id                         = spell_maximum_base_fire_damage
++|level2_stat3_value                      = 52
+ |level3                                  = True
+ |level3_level_requirement                = 70
+-|level3_stat_text                        = Deals 283 to 425 Fire Damage<br>Deals 590.4 Base Fire Damage per second
+-|level3_stat1_id                         = spell_minimum_base_fire_damage
+-|level3_stat1_value                      = 283
+-|level3_stat2_id                         = spell_maximum_base_fire_damage
+-|level3_stat2_value                      = 425
+-|level3_stat3_id                         = base_fire_damage_to_deal_per_minute
+-|level3_stat3_value                      = 35425
++|level3_stat_text                        = Deals 590.4 Base Fire Damage per second<br>Deals 283 to 425 Fire Damage
++|level3_stat1_id                         = base_fire_damage_to_deal_per_minute
++|level3_stat1_value                      = 35425
++|level3_stat2_id                         = spell_minimum_base_fire_damage
++|level3_stat2_value                      = 283
++|level3_stat3_id                         = spell_maximum_base_fire_damage
++|level3_stat3_value                      = 425
+ }}

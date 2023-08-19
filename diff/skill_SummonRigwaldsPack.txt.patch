@@ -1,13 +1,15 @@
 --- Skill:SummonRigwaldsPack
 +++ Export
-@@ -7,6 +7,7 @@
+@@ -7,7 +7,8 @@
  |static_damage_effectiveness             = 100
  |static_damage_multiplier                = 100
  |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = display_minion_monster_level
 +|static_duration                         = 30
- |static_stat1_id                         = display_minion_monster_level
++|static_stat1_id                         = base_display_minion_actor_level
  |static_stat1_value                      = 65
  |static_stat2_id                         = display_minion_monster_type
+ |static_stat2_value                      = 8
 @@ -21,7 +22,7 @@
  |static_stat6_value                      = 1
  |static_stat7_id                         = modifiers_to_claw_critical_strike_multiplier_apply_minion_critical_strike_multiplier

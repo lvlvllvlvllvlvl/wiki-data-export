@@ -1,6 +1,6 @@
 --- Skill:EssenceDaemonFireNovaRepeat
 +++ Export
-@@ -9,10 +9,10 @@
+@@ -9,36 +9,36 @@
  |static_damage_effectiveness             = 100
  |static_damage_multiplier                = 100
  |static_attack_speed_multiplier          = 100
@@ -8,10 +8,58 @@
 -|static_stat1_value                      = 40
 -|static_stat2_id                         = is_area_damage
 -|static_stat2_value                      = 1
+-|stat_text                               = Deals (7-962) to (10-1444) Fire Damage<br>Spell Repeats (2-4) times<br>40% increased Cast Speed
 +|static_stat1_id                         = is_area_damage
 +|static_stat1_value                      = 1
 +|static_stat2_id                         = base_cast_speed_+%
 +|static_stat2_value                      = 40
- |stat_text                               = Deals (7-962) to (10-1444) Fire Damage<br>Spell Repeats (2-4) times<br>40% increased Cast Speed
++|stat_text                               = Spell Repeats (2-4) times<br>Deals (7-962) to (10-1444) Fire Damage<br>40% increased Cast Speed
  |level1                                  = True
  |level1_level_requirement                = 4
+-|level1_stat_text                        = Deals 7 to 10 Fire Damage<br>Spell Repeats 2 times
+-|level1_stat1_id                         = spell_minimum_base_fire_damage
+-|level1_stat1_value                      = 7
+-|level1_stat2_id                         = spell_maximum_base_fire_damage
+-|level1_stat2_value                      = 10
+-|level1_stat3_id                         = base_spell_repeat_count
+-|level1_stat3_value                      = 2
++|level1_stat_text                        = Spell Repeats 2 times<br>Deals 7 to 10 Fire Damage
++|level1_stat1_id                         = base_spell_repeat_count
++|level1_stat1_value                      = 2
++|level1_stat2_id                         = spell_minimum_base_fire_damage
++|level1_stat2_value                      = 7
++|level1_stat3_id                         = spell_maximum_base_fire_damage
++|level1_stat3_value                      = 10
+ |level2                                  = True
+ |level2_level_requirement                = 44
+-|level2_stat_text                        = Deals 182 to 274 Fire Damage<br>Spell Repeats 3 times
+-|level2_stat1_id                         = spell_minimum_base_fire_damage
+-|level2_stat1_value                      = 182
+-|level2_stat2_id                         = spell_maximum_base_fire_damage
+-|level2_stat2_value                      = 274
+-|level2_stat3_id                         = base_spell_repeat_count
+-|level2_stat3_value                      = 3
++|level2_stat_text                        = Spell Repeats 3 times<br>Deals 182 to 274 Fire Damage
++|level2_stat1_id                         = base_spell_repeat_count
++|level2_stat1_value                      = 3
++|level2_stat2_id                         = spell_minimum_base_fire_damage
++|level2_stat2_value                      = 182
++|level2_stat3_id                         = spell_maximum_base_fire_damage
++|level2_stat3_value                      = 274
+ |level3                                  = True
+ |level3_level_requirement                = 70
+-|level3_stat_text                        = Deals 962 to 1444 Fire Damage<br>Spell Repeats 4 times
+-|level3_stat1_id                         = spell_minimum_base_fire_damage
+-|level3_stat1_value                      = 962
+-|level3_stat2_id                         = spell_maximum_base_fire_damage
+-|level3_stat2_value                      = 1444
+-|level3_stat3_id                         = base_spell_repeat_count
+-|level3_stat3_value                      = 4
++|level3_stat_text                        = Spell Repeats 4 times<br>Deals 962 to 1444 Fire Damage
++|level3_stat1_id                         = base_spell_repeat_count
++|level3_stat1_value                      = 4
++|level3_stat2_id                         = spell_minimum_base_fire_damage
++|level3_stat2_value                      = 962
++|level3_stat3_id                         = spell_maximum_base_fire_damage
++|level3_stat3_value                      = 1444
+ }}

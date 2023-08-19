@@ -1,0 +1,360 @@
+--- Summon Raging Spirit
++++ Export
+@@ -48,13 +48,13 @@
+ |level1                                  = True
+ |level1_level_requirement                = 4
+ |level1_cost_amounts                     = 4
+-|level1_stat1_id                         = display_minion_monster_level
++|level1_stat1_id                         = base_display_minion_actor_level
+ |level1_stat1_value                      = 4
+ |level2                                  = True
+ |level2_level_requirement                = 6
+ |level2_cost_amounts                     = 5
+ |level2_stat_text                        = Minions deal 2% more Damage
+-|level2_stat1_id                         = display_minion_monster_level
++|level2_stat1_id                         = base_display_minion_actor_level
+ |level2_stat1_value                      = 6
+ |level2_stat2_id                         = active_skill_minion_damage_+%_final
+ |level2_stat2_value                      = 2
+@@ -62,7 +62,7 @@
+ |level3_level_requirement                = 9
+ |level3_cost_amounts                     = 5
+ |level3_stat_text                        = Minions deal 4% more Damage
+-|level3_stat1_id                         = display_minion_monster_level
++|level3_stat1_id                         = base_display_minion_actor_level
+ |level3_stat1_value                      = 9
+ |level3_stat2_id                         = active_skill_minion_damage_+%_final
+ |level3_stat2_value                      = 4
+@@ -70,7 +70,7 @@
+ |level4_level_requirement                = 12
+ |level4_cost_amounts                     = 6
+ |level4_stat_text                        = Minions deal 6% more Damage
+-|level4_stat1_id                         = display_minion_monster_level
++|level4_stat1_id                         = base_display_minion_actor_level
+ |level4_stat1_value                      = 12
+ |level4_stat2_id                         = active_skill_minion_damage_+%_final
+ |level4_stat2_value                      = 6
+@@ -78,7 +78,7 @@
+ |level5_level_requirement                = 16
+ |level5_cost_amounts                     = 7
+ |level5_stat_text                        = Minions deal 8% more Damage
+-|level5_stat1_id                         = display_minion_monster_level
++|level5_stat1_id                         = base_display_minion_actor_level
+ |level5_stat1_value                      = 16
+ |level5_stat2_id                         = active_skill_minion_damage_+%_final
+ |level5_stat2_value                      = 8
+@@ -86,7 +86,7 @@
+ |level6_level_requirement                = 20
+ |level6_cost_amounts                     = 7
+ |level6_stat_text                        = Minions deal 10% more Damage
+-|level6_stat1_id                         = display_minion_monster_level
++|level6_stat1_id                         = base_display_minion_actor_level
+ |level6_stat1_value                      = 20
+ |level6_stat2_id                         = active_skill_minion_damage_+%_final
+ |level6_stat2_value                      = 10
+@@ -94,7 +94,7 @@
+ |level7_level_requirement                = 24
+ |level7_cost_amounts                     = 8
+ |level7_stat_text                        = Minions deal 12% more Damage
+-|level7_stat1_id                         = display_minion_monster_level
++|level7_stat1_id                         = base_display_minion_actor_level
+ |level7_stat1_value                      = 24
+ |level7_stat2_id                         = active_skill_minion_damage_+%_final
+ |level7_stat2_value                      = 12
+@@ -102,7 +102,7 @@
+ |level8_level_requirement                = 28
+ |level8_cost_amounts                     = 8
+ |level8_stat_text                        = Minions deal 14% more Damage
+-|level8_stat1_id                         = display_minion_monster_level
++|level8_stat1_id                         = base_display_minion_actor_level
+ |level8_stat1_value                      = 28
+ |level8_stat2_id                         = active_skill_minion_damage_+%_final
+ |level8_stat2_value                      = 14
+@@ -110,7 +110,7 @@
+ |level9_level_requirement                = 32
+ |level9_cost_amounts                     = 9
+ |level9_stat_text                        = Minions deal 16% more Damage
+-|level9_stat1_id                         = display_minion_monster_level
++|level9_stat1_id                         = base_display_minion_actor_level
+ |level9_stat1_value                      = 32
+ |level9_stat2_id                         = active_skill_minion_damage_+%_final
+ |level9_stat2_value                      = 16
+@@ -118,7 +118,7 @@
+ |level10_level_requirement               = 36
+ |level10_cost_amounts                    = 10
+ |level10_stat_text                       = Minions deal 18% more Damage
+-|level10_stat1_id                        = display_minion_monster_level
++|level10_stat1_id                        = base_display_minion_actor_level
+ |level10_stat1_value                     = 36
+ |level10_stat2_id                        = active_skill_minion_damage_+%_final
+ |level10_stat2_value                     = 18
+@@ -126,7 +126,7 @@
+ |level11_level_requirement               = 40
+ |level11_cost_amounts                    = 10
+ |level11_stat_text                       = Minions deal 20% more Damage
+-|level11_stat1_id                        = display_minion_monster_level
++|level11_stat1_id                        = base_display_minion_actor_level
+ |level11_stat1_value                     = 40
+ |level11_stat2_id                        = active_skill_minion_damage_+%_final
+ |level11_stat2_value                     = 20
+@@ -134,7 +134,7 @@
+ |level12_level_requirement               = 44
+ |level12_cost_amounts                    = 11
+ |level12_stat_text                       = Minions deal 22% more Damage
+-|level12_stat1_id                        = display_minion_monster_level
++|level12_stat1_id                        = base_display_minion_actor_level
+ |level12_stat1_value                     = 44
+ |level12_stat2_id                        = active_skill_minion_damage_+%_final
+ |level12_stat2_value                     = 22
+@@ -142,7 +142,7 @@
+ |level13_level_requirement               = 48
+ |level13_cost_amounts                    = 12
+ |level13_stat_text                       = Minions deal 24% more Damage
+-|level13_stat1_id                        = display_minion_monster_level
++|level13_stat1_id                        = base_display_minion_actor_level
+ |level13_stat1_value                     = 48
+ |level13_stat2_id                        = active_skill_minion_damage_+%_final
+ |level13_stat2_value                     = 24
+@@ -150,7 +150,7 @@
+ |level14_level_requirement               = 52
+ |level14_cost_amounts                    = 12
+ |level14_stat_text                       = Minions deal 26% more Damage
+-|level14_stat1_id                        = display_minion_monster_level
++|level14_stat1_id                        = base_display_minion_actor_level
+ |level14_stat1_value                     = 52
+ |level14_stat2_id                        = active_skill_minion_damage_+%_final
+ |level14_stat2_value                     = 26
+@@ -158,7 +158,7 @@
+ |level15_level_requirement               = 55
+ |level15_cost_amounts                    = 13
+ |level15_stat_text                       = Minions deal 28% more Damage
+-|level15_stat1_id                        = display_minion_monster_level
++|level15_stat1_id                        = base_display_minion_actor_level
+ |level15_stat1_value                     = 55
+ |level15_stat2_id                        = active_skill_minion_damage_+%_final
+ |level15_stat2_value                     = 28
+@@ -166,7 +166,7 @@
+ |level16_level_requirement               = 58
+ |level16_cost_amounts                    = 13
+ |level16_stat_text                       = Minions deal 30% more Damage
+-|level16_stat1_id                        = display_minion_monster_level
++|level16_stat1_id                        = base_display_minion_actor_level
+ |level16_stat1_value                     = 58
+ |level16_stat2_id                        = active_skill_minion_damage_+%_final
+ |level16_stat2_value                     = 30
+@@ -174,7 +174,7 @@
+ |level17_level_requirement               = 61
+ |level17_cost_amounts                    = 14
+ |level17_stat_text                       = Minions deal 32% more Damage
+-|level17_stat1_id                        = display_minion_monster_level
++|level17_stat1_id                        = base_display_minion_actor_level
+ |level17_stat1_value                     = 61
+ |level17_stat2_id                        = active_skill_minion_damage_+%_final
+ |level17_stat2_value                     = 32
+@@ -182,7 +182,7 @@
+ |level18_level_requirement               = 64
+ |level18_cost_amounts                    = 15
+ |level18_stat_text                       = Minions deal 34% more Damage
+-|level18_stat1_id                        = display_minion_monster_level
++|level18_stat1_id                        = base_display_minion_actor_level
+ |level18_stat1_value                     = 64
+ |level18_stat2_id                        = active_skill_minion_damage_+%_final
+ |level18_stat2_value                     = 34
+@@ -190,7 +190,7 @@
+ |level19_level_requirement               = 67
+ |level19_cost_amounts                    = 15
+ |level19_stat_text                       = Minions deal 36% more Damage
+-|level19_stat1_id                        = display_minion_monster_level
++|level19_stat1_id                        = base_display_minion_actor_level
+ |level19_stat1_value                     = 67
+ |level19_stat2_id                        = active_skill_minion_damage_+%_final
+ |level19_stat2_value                     = 36
+@@ -198,7 +198,7 @@
+ |level20_level_requirement               = 70
+ |level20_cost_amounts                    = 16
+ |level20_stat_text                       = Minions deal 38% more Damage
+-|level20_stat1_id                        = display_minion_monster_level
++|level20_stat1_id                        = base_display_minion_actor_level
+ |level20_stat1_value                     = 70
+ |level20_stat2_id                        = active_skill_minion_damage_+%_final
+ |level20_stat2_value                     = 38
+@@ -206,7 +206,7 @@
+ |level21_level_requirement               = 72
+ |level21_cost_amounts                    = 17
+ |level21_stat_text                       = Minions deal 40% more Damage
+-|level21_stat1_id                        = display_minion_monster_level
++|level21_stat1_id                        = base_display_minion_actor_level
+ |level21_stat1_value                     = 72
+ |level21_stat2_id                        = active_skill_minion_damage_+%_final
+ |level21_stat2_value                     = 40
+@@ -214,7 +214,7 @@
+ |level22_level_requirement               = 74
+ |level22_cost_amounts                    = 17
+ |level22_stat_text                       = Minions deal 42% more Damage
+-|level22_stat1_id                        = display_minion_monster_level
++|level22_stat1_id                        = base_display_minion_actor_level
+ |level22_stat1_value                     = 74
+ |level22_stat2_id                        = active_skill_minion_damage_+%_final
+ |level22_stat2_value                     = 42
+@@ -222,7 +222,7 @@
+ |level23_level_requirement               = 76
+ |level23_cost_amounts                    = 18
+ |level23_stat_text                       = Minions deal 44% more Damage
+-|level23_stat1_id                        = display_minion_monster_level
++|level23_stat1_id                        = base_display_minion_actor_level
+ |level23_stat1_value                     = 76
+ |level23_stat2_id                        = active_skill_minion_damage_+%_final
+ |level23_stat2_value                     = 44
+@@ -230,7 +230,7 @@
+ |level24_level_requirement               = 78
+ |level24_cost_amounts                    = 19
+ |level24_stat_text                       = Minions deal 46% more Damage
+-|level24_stat1_id                        = display_minion_monster_level
++|level24_stat1_id                        = base_display_minion_actor_level
+ |level24_stat1_value                     = 78
+ |level24_stat2_id                        = active_skill_minion_damage_+%_final
+ |level24_stat2_value                     = 46
+@@ -238,7 +238,7 @@
+ |level25_level_requirement               = 80
+ |level25_cost_amounts                    = 19
+ |level25_stat_text                       = Minions deal 48% more Damage
+-|level25_stat1_id                        = display_minion_monster_level
++|level25_stat1_id                        = base_display_minion_actor_level
+ |level25_stat1_value                     = 80
+ |level25_stat2_id                        = active_skill_minion_damage_+%_final
+ |level25_stat2_value                     = 48
+@@ -246,7 +246,7 @@
+ |level26_level_requirement               = 82
+ |level26_cost_amounts                    = 20
+ |level26_stat_text                       = Minions deal 50% more Damage
+-|level26_stat1_id                        = display_minion_monster_level
++|level26_stat1_id                        = base_display_minion_actor_level
+ |level26_stat1_value                     = 82
+ |level26_stat2_id                        = active_skill_minion_damage_+%_final
+ |level26_stat2_value                     = 50
+@@ -254,7 +254,7 @@
+ |level27_level_requirement               = 84
+ |level27_cost_amounts                    = 20
+ |level27_stat_text                       = Minions deal 52% more Damage
+-|level27_stat1_id                        = display_minion_monster_level
++|level27_stat1_id                        = base_display_minion_actor_level
+ |level27_stat1_value                     = 84
+ |level27_stat2_id                        = active_skill_minion_damage_+%_final
+ |level27_stat2_value                     = 52
+@@ -262,7 +262,7 @@
+ |level28_level_requirement               = 86
+ |level28_cost_amounts                    = 21
+ |level28_stat_text                       = Minions deal 54% more Damage
+-|level28_stat1_id                        = display_minion_monster_level
++|level28_stat1_id                        = base_display_minion_actor_level
+ |level28_stat1_value                     = 86
+ |level28_stat2_id                        = active_skill_minion_damage_+%_final
+ |level28_stat2_value                     = 54
+@@ -270,7 +270,7 @@
+ |level29_level_requirement               = 88
+ |level29_cost_amounts                    = 22
+ |level29_stat_text                       = Minions deal 56% more Damage
+-|level29_stat1_id                        = display_minion_monster_level
++|level29_stat1_id                        = base_display_minion_actor_level
+ |level29_stat1_value                     = 88
+ |level29_stat2_id                        = active_skill_minion_damage_+%_final
+ |level29_stat2_value                     = 56
+@@ -278,7 +278,7 @@
+ |level30_level_requirement               = 90
+ |level30_cost_amounts                    = 22
+ |level30_stat_text                       = Minions deal 58% more Damage
+-|level30_stat1_id                        = display_minion_monster_level
++|level30_stat1_id                        = base_display_minion_actor_level
+ |level30_stat1_value                     = 90
+ |level30_stat2_id                        = active_skill_minion_damage_+%_final
+ |level30_stat2_value                     = 58
+@@ -286,7 +286,7 @@
+ |level31_level_requirement               = 91
+ |level31_cost_amounts                    = 23
+ |level31_stat_text                       = Minions deal 59% more Damage
+-|level31_stat1_id                        = display_minion_monster_level
++|level31_stat1_id                        = base_display_minion_actor_level
+ |level31_stat1_value                     = 91
+ |level31_stat2_id                        = active_skill_minion_damage_+%_final
+ |level31_stat2_value                     = 59
+@@ -294,7 +294,7 @@
+ |level32_level_requirement               = 92
+ |level32_cost_amounts                    = 23
+ |level32_stat_text                       = Minions deal 60% more Damage
+-|level32_stat1_id                        = display_minion_monster_level
++|level32_stat1_id                        = base_display_minion_actor_level
+ |level32_stat1_value                     = 92
+ |level32_stat2_id                        = active_skill_minion_damage_+%_final
+ |level32_stat2_value                     = 60
+@@ -302,7 +302,7 @@
+ |level33_level_requirement               = 93
+ |level33_cost_amounts                    = 23
+ |level33_stat_text                       = Minions deal 61% more Damage
+-|level33_stat1_id                        = display_minion_monster_level
++|level33_stat1_id                        = base_display_minion_actor_level
+ |level33_stat1_value                     = 93
+ |level33_stat2_id                        = active_skill_minion_damage_+%_final
+ |level33_stat2_value                     = 61
+@@ -310,7 +310,7 @@
+ |level34_level_requirement               = 94
+ |level34_cost_amounts                    = 24
+ |level34_stat_text                       = Minions deal 62% more Damage
+-|level34_stat1_id                        = display_minion_monster_level
++|level34_stat1_id                        = base_display_minion_actor_level
+ |level34_stat1_value                     = 94
+ |level34_stat2_id                        = active_skill_minion_damage_+%_final
+ |level34_stat2_value                     = 62
+@@ -318,7 +318,7 @@
+ |level35_level_requirement               = 95
+ |level35_cost_amounts                    = 24
+ |level35_stat_text                       = Minions deal 63% more Damage
+-|level35_stat1_id                        = display_minion_monster_level
++|level35_stat1_id                        = base_display_minion_actor_level
+ |level35_stat1_value                     = 95
+ |level35_stat2_id                        = active_skill_minion_damage_+%_final
+ |level35_stat2_value                     = 63
+@@ -326,7 +326,7 @@
+ |level36_level_requirement               = 96
+ |level36_cost_amounts                    = 24
+ |level36_stat_text                       = Minions deal 64% more Damage
+-|level36_stat1_id                        = display_minion_monster_level
++|level36_stat1_id                        = base_display_minion_actor_level
+ |level36_stat1_value                     = 96
+ |level36_stat2_id                        = active_skill_minion_damage_+%_final
+ |level36_stat2_value                     = 64
+@@ -334,7 +334,7 @@
+ |level37_level_requirement               = 97
+ |level37_cost_amounts                    = 25
+ |level37_stat_text                       = Minions deal 65% more Damage
+-|level37_stat1_id                        = display_minion_monster_level
++|level37_stat1_id                        = base_display_minion_actor_level
+ |level37_stat1_value                     = 97
+ |level37_stat2_id                        = active_skill_minion_damage_+%_final
+ |level37_stat2_value                     = 65
+@@ -342,7 +342,7 @@
+ |level38_level_requirement               = 98
+ |level38_cost_amounts                    = 25
+ |level38_stat_text                       = Minions deal 66% more Damage
+-|level38_stat1_id                        = display_minion_monster_level
++|level38_stat1_id                        = base_display_minion_actor_level
+ |level38_stat1_value                     = 98
+ |level38_stat2_id                        = active_skill_minion_damage_+%_final
+ |level38_stat2_value                     = 66
+@@ -350,7 +350,7 @@
+ |level39_level_requirement               = 99
+ |level39_cost_amounts                    = 25
+ |level39_stat_text                       = Minions deal 67% more Damage
+-|level39_stat1_id                        = display_minion_monster_level
++|level39_stat1_id                        = base_display_minion_actor_level
+ |level39_stat1_value                     = 99
+ |level39_stat2_id                        = active_skill_minion_damage_+%_final
+ |level39_stat2_value                     = 67
+@@ -358,7 +358,7 @@
+ |level40_level_requirement               = 100
+ |level40_cost_amounts                    = 25
+ |level40_stat_text                       = Minions deal 68% more Damage
+-|level40_stat1_id                        = display_minion_monster_level
++|level40_stat1_id                        = base_display_minion_actor_level
+ |level40_stat1_value                     = 100
+ |level40_stat2_id                        = active_skill_minion_damage_+%_final
+ |level40_stat2_value                     = 68

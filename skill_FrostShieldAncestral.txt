@@ -1,0 +1,30 @@
+{{Skill
+|gem_description                         = Place a Frost Shield that drains your energy shield for one second or until you run out, gaining stages while this drain occurs. The Frost Shield takes some damage from hits in place of you and allies while in its area. Enemies in the area are Chilled. You can only have one Frost Shield active at once.
+|active_skill_name                       = Frost Shield
+|skill_id                                = FrostShieldAncestral
+|cast_time                               = 1.0
+|required_level                          = 0
+|static_stored_uses                      = 1
+|static_cooldown                         = 10
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 10
+|static_stat1_id                         = base_skill_effect_duration
+|static_stat1_value                      = 10000
+|static_stat2_id                         = frost_globe_absorb_damage_%_enemy_in_bubble
+|static_stat2_value                      = 20
+|static_stat3_id                         = frost_globe_absorb_damage_%_enemy_outside_bubble
+|static_stat3_value                      = 60
+|static_stat4_id                         = frost_globe_health_per_stage
+|static_stat4_value                      = 3
+|static_stat5_id                         = frost_globe_max_stages
+|static_stat5_value                      = 4
+|static_stat6_id                         = frost_globe_stage_gain_interval_ms
+|static_stat6_value                      = 300
+|static_stat7_id                         = energy_shield_lost_per_minute
+|static_stat7_value                      = 1
+|stat_text                               = Base duration is 10 seconds<br>20% of Damage dealt to you or Allies in Area with Hits by Enemies in Area is taken from Frost Shield's Life before your Life or Energy Shield<br>60% of Damage dealt to you or Allies in Area with Hits by Enemies outside Area is taken from Frost Shield's Life before your Life or Energy Shield<br>Frost Shield has 3 maximum Life per Stage<br>Maximum 4 Stages<br>Gains 1 Stage every 0.3 seconds while you are losing Energy Shield<br>You lose 0 Energy Shield per second
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

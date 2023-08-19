@@ -1,9 +1,17 @@
---- Wiki
+--- Passive Skill:Blight~special~notable5
 +++ Export
-@@ -10,5 +10,5 @@
- |stat2_value                         = 1
- |stat3_id                            = returning_projectiles_always_pierce
- |stat3_value                         = 1
+@@ -4,11 +4,7 @@
+ |name                                = Vengeant Cascade
+ |is_notable                          = True
+ |icon                                = Boomerang
+-|stat1_id                            = base_projectile_speed_+%
+-|stat1_value                         = 15
+-|stat2_id                            = attack_projectiles_return
+-|stat2_value                         = 1
+-|stat3_id                            = returning_projectiles_always_pierce
+-|stat3_value                         = 1
 -|stat_text                           = [[Return]]ing Projectiles have 150% increased Speed
-+|stat_text                           = 15% increased Projectile Speed<br>[[Attack]] Projectiles Return to you<br>Returning Projectiles Pierce all Targets
++|stat1_id                            = returned_projectile_speed_+%
++|stat1_value                         = 150
++|stat_text                           = Returning Projectiles have 150% increased Speed
  }}

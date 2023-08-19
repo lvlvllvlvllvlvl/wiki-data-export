@@ -1,11 +1,18 @@
 --- Area:MapWorldsDrySea
 +++ Export
-@@ -11,7 +11,7 @@
+@@ -4,14 +4,12 @@
+ |act                              = 11
+ |area_level                       = 75
+ |area_type_tags                   = desert_map_area, desert_area
+-|tags                             = map, einharmaps, desert_area, desert_map_area
++|tags                             = map, einharmaps, desert_area, desert_map_area, sun_nature_area
+ |loading_screen                   = Maps
+ |parent_area_id                   = 2_11_endgame_town
+ |boss_monster_ids                 = Metadata/Monsters/Spiker/SpikerBull/SpikerBullBoss
  |entry_text                       = Heat. Dust. Wind. These are what forge strong minds and bodies.
  |entry_npc                        = The Shaper
  |is_map_area                      = True
 -|flavour_text                     = Where once waves crashed with crushing force,
-+|flavour_text                     = Where once waves crashed with crushing force,
- brittle wooden bones tell tall tales.
+-brittle wooden bones tell tall tales.
  |main_page                        = Dry Sea Map
  }}

@@ -7,7 +7,7 @@
 |drop_level                              = 31
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemFocusedBallista
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |dexterity_percent                       = 100
 |gem_tags                                = Projectile, Support, Totem
 |skill_id                                = SupportFocusedBallista
@@ -22,7 +22,7 @@
 |quality_type2_stat1_id                  = base_skill_area_of_effect_+%
 |quality_type2_stat1_value               = 500
 |quality_type3_weight                    = 50
-|quality_type3_stat_text                 = 0.5% increased Totem Life
+|quality_type3_stat_text                 = Supported Skills have 0.5% increased Totem Life
 |quality_type3_stat1_id                  = totem_life_+%
 |quality_type3_stat1_value               = 500
 |static_cost_multiplier                  = 140

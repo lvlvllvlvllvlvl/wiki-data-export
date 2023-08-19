@@ -1,6 +1,6 @@
 --- Skill:IzaroDaemonFiretrap
 +++ Export
-@@ -10,25 +10,26 @@
+@@ -10,41 +10,42 @@
  |static_damage_effectiveness             = 100
  |static_damage_multiplier                = 100
  |static_attack_speed_multiplier          = 100
@@ -39,7 +39,37 @@
 +|static_stat8_value                      = 20
 +|static_stat9_id                         = number_of_additional_traps_to_throw
 +|static_stat9_value                      = 2
-+|stat_text                               = Deals 3 to (4-5) Fire Damage<br>Trap lasts 30 seconds<br>Deals (2.8-3.2) Base Fire Damage per second<br>Base duration is 6 seconds<br>Traps are thrown randomly around targeted location<br>Throw up to 2 additional Traps
++|stat_text                               = Trap lasts 30 seconds<br>Deals (2.8-3.2) Base Fire Damage per second<br>Base duration is 6 seconds<br>Deals 3 to (4-5) Fire Damage<br>Traps are thrown randomly around targeted location<br>Throw up to 2 additional Traps
  |level1                                  = True
  |level1_level_requirement                = 1
- |level1_stat_text                        = Deals 3 to 4 Fire Damage<br>Deals 2.8 Base Fire Damage per second
+-|level1_stat_text                        = Deals 3 to 4 Fire Damage<br>Deals 2.8 Base Fire Damage per second
+-|level1_stat1_id                         = spell_minimum_base_fire_damage
+-|level1_stat1_value                      = 3
+-|level1_stat2_id                         = spell_maximum_base_fire_damage
+-|level1_stat2_value                      = 4
+-|level1_stat3_id                         = base_fire_damage_to_deal_per_minute
+-|level1_stat3_value                      = 167
++|level1_stat_text                        = Deals 2.8 Base Fire Damage per second<br>Deals 3 to 4 Fire Damage
++|level1_stat1_id                         = base_fire_damage_to_deal_per_minute
++|level1_stat1_value                      = 167
++|level1_stat2_id                         = spell_minimum_base_fire_damage
++|level1_stat2_value                      = 3
++|level1_stat3_id                         = spell_maximum_base_fire_damage
++|level1_stat3_value                      = 4
+ |level2                                  = True
+ |level2_level_requirement                = 2
+-|level2_stat_text                        = Deals 3 to 5 Fire Damage<br>Deals 3.2 Base Fire Damage per second
+-|level2_stat1_id                         = spell_minimum_base_fire_damage
+-|level2_stat1_value                      = 3
+-|level2_stat2_id                         = spell_maximum_base_fire_damage
+-|level2_stat2_value                      = 5
+-|level2_stat3_id                         = base_fire_damage_to_deal_per_minute
+-|level2_stat3_value                      = 192
++|level2_stat_text                        = Deals 3.2 Base Fire Damage per second<br>Deals 3 to 5 Fire Damage
++|level2_stat1_id                         = base_fire_damage_to_deal_per_minute
++|level2_stat1_value                      = 192
++|level2_stat2_id                         = spell_minimum_base_fire_damage
++|level2_stat2_value                      = 3
++|level2_stat3_id                         = spell_maximum_base_fire_damage
++|level2_stat3_value                      = 5
+ }}

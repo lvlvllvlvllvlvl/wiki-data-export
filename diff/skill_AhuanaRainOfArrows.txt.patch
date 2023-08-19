@@ -1,0 +1,37 @@
+--- Skill:AhuanaRainOfArrows
++++ Export
+@@ -0,0 +1,34 @@
++{{Skill
++|gem_description                         = Fires multiple arrows into the air, to land in sequence after a delay, starting at the targeted location and spreading outwards in all directions. Each arrow deals damage in an area around it. Half of the arrows will land directly on targets if there are targets in their range.
++|active_skill_name                       = Rain of Arrows
++|item_class_id_restriction               = Bow
++|skill_id                                = AhuanaRainOfArrows
++|cast_time                               = 1.0
++|required_level                          = 0
++|static_stored_uses                      = 1
++|static_cooldown                         = 15
++|static_damage_effectiveness             = 100
++|static_damage_multiplier                = 100
++|static_attack_speed_multiplier          = 75
++|static_stat1_id                         = action_attack_or_cast_time_uses_animation_length
++|static_stat1_value                      = 1
++|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat2_value                      = 50
++|static_stat3_id                         = base_is_projectile
++|static_stat3_value                      = 1
++|static_stat4_id                         = cannot_pierce
++|static_stat4_value                      = 1
++|static_stat5_id                         = is_area_damage
++|static_stat5_value                      = 1
++|static_stat6_id                         = skill_can_fire_arrows
++|static_stat6_value                      = 1
++|static_stat7_id                         = base_number_of_additional_arrows
++|static_stat7_value                      = 30
++|static_stat8_id                         = rain_of_arrows_additional_sequences
++|static_stat8_value                      = 2
++|static_stat9_id                         = skill_physical_damage_%_to_convert_to_cold
++|static_stat9_value                      = 60
++|stat_text                               = Fires 30 additional Arrows<br>Fires 2 additional sequences of arrows<br>60% of Physical Damage Converted to Cold Damage
++|level1                                  = True
++|level1_level_requirement                = 0
++}}

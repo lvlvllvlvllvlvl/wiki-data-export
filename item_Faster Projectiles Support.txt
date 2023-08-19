@@ -7,7 +7,7 @@
 |drop_level                              = 31
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemFasterProjectiles
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |dexterity_percent                       = 100
 |gem_tags                                = Support, Projectile
 |skill_id                                = SupportFasterProjectiles
@@ -17,11 +17,11 @@
 |quality_type1_stat_text                 = Supported Skills have 0.5% increased Projectile Speed
 |quality_type1_stat1_id                  = base_projectile_speed_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Projectiles from Supported Skills have 3% chance to Return to you
+|quality_type2_weight                    = 10
+|quality_type2_stat_text                 = Projectiles from Supported Skills have 0.5% chance to Return to you
 |quality_type2_stat1_id                  = projectile_return_%_chance
-|quality_type2_stat1_value               = 3000
-|quality_type3_weight                    = 100
+|quality_type2_stat1_value               = 500
+|quality_type3_weight                    = 50
 |quality_type3_stat_text                 = Supported Skills deal 0.5% increased Projectile Damage
 |quality_type3_stat1_id                  = projectile_damage_+%
 |quality_type3_stat1_value               = 500

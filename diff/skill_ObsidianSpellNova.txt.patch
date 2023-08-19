@@ -1,6 +1,6 @@
 --- Skill:ObsidianSpellNova
 +++ Export
-@@ -8,17 +8,17 @@
+@@ -8,19 +8,19 @@
  |static_damage_effectiveness             = 100
  |static_damage_multiplier                = 100
  |static_attack_speed_multiplier          = 100
@@ -15,17 +15,21 @@
 -|static_stat5_id                         = always_ignite
 -|static_stat5_value                      = 1
 -|static_stat6_id                         = is_area_damage
+-|static_stat6_value                      = 1
+-|stat_text                               = Deals 13 to 20 Fire Damage<br>Hits always Ignite
 +|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 +|static_stat1_value                      = -67
 +|static_stat2_id                         = is_area_damage
 +|static_stat2_value                      = 1
 +|static_stat3_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
 +|static_stat3_value                      = -40
-+|static_stat4_id                         = spell_minimum_base_fire_damage
-+|static_stat4_value                      = 13
-+|static_stat5_id                         = spell_maximum_base_fire_damage
-+|static_stat5_value                      = 20
-+|static_stat6_id                         = always_ignite
- |static_stat6_value                      = 1
- |stat_text                               = Deals 13 to 20 Fire Damage<br>Hits always Ignite
++|static_stat4_id                         = always_ignite
++|static_stat4_value                      = 1
++|static_stat5_id                         = spell_minimum_base_fire_damage
++|static_stat5_value                      = 13
++|static_stat6_id                         = spell_maximum_base_fire_damage
++|static_stat6_value                      = 20
++|stat_text                               = Hits always Ignite<br>Deals 13 to 20 Fire Damage
  |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

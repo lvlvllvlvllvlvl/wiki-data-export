@@ -1,0 +1,20 @@
+--- Monster:Metadata/Monsters/LeagueAncestral/AncestralDruid
++++ Export
+@@ -0,0 +1,17 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueAncestral/AncestralDruid
++|monster_type_id                  = AncestralDruid
++|mod_ids                          = AncestralTrailMonsterAilmentResistanceTawhoa, AncestralTrialMonsterChampionFleeAndDamage
++|tags                             = bludgeoning_weapon, has_one_hand_mace, has_one_handed_melee, human, humanoid, karui, light_armour, medium_height, medium_movement, melee, not_str, physical_affinity, red_blood
++|skill_ids                        = MeleeAtAnimationSpeed, MPSAncestralDruidFlask, GSAncestralDruidFlaskExplode, EASAncestralHealTotem, EASAncestralHealAlly, GSAncestralDruidTotemChannelHeal
++|name                             = Tawhoa Shaman
++|size                             = 3
++|minimum_attack_distance          = 5
++|maximum_attack_distance          = 10
++|model_size_multiplier            = 1.0
++|experience_multiplier            = 1.0
++|damage_multiplier                = 2.25
++|health_multiplier                = 5.5
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.5
++}}

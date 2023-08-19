@@ -1,6 +1,6 @@
 --- Skill:ArchnemesisToxicVolatileSuicideExplosion
 +++ Export
-@@ -7,16 +7,16 @@
+@@ -7,16 +7,18 @@
  |static_damage_effectiveness             = 100
  |static_damage_multiplier                = 100
  |static_attack_speed_multiplier          = 100
@@ -11,19 +11,20 @@
 -|static_stat3_id                         = active_skill_area_of_effect_radius_+%_final
 -|static_stat3_value                      = -10
 -|static_stat4_id                         = is_area_damage
--|static_stat4_value                      = 1
--|static_stat5_id                         = visual_hit_effect_chaos_is_green
--|static_stat5_value                      = 1
 +|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 +|static_stat1_value                      = -10
-+|static_stat2_id                         = is_area_damage
-+|static_stat2_value                      = 1
-+|static_stat3_id                         = visual_hit_effect_chaos_is_green
++|static_stat2_id                         = base_sanctum_damage
++|static_stat2_value                      = 20
++|static_stat3_id                         = is_area_damage
 +|static_stat3_value                      = 1
-+|static_stat4_id                         = spell_minimum_base_chaos_damage
-+|static_stat4_value                      = 4
-+|static_stat5_id                         = spell_maximum_base_chaos_damage
-+|static_stat5_value                      = 6
++|static_stat4_id                         = visual_hit_effect_chaos_is_green
+ |static_stat4_value                      = 1
+-|static_stat5_id                         = visual_hit_effect_chaos_is_green
+-|static_stat5_value                      = 1
++|static_stat5_id                         = spell_minimum_base_chaos_damage
++|static_stat5_value                      = 4
++|static_stat6_id                         = spell_maximum_base_chaos_damage
++|static_stat6_value                      = 6
  |stat_text                               = Deals 4 to 6 Chaos Damage
  |level1                                  = True
  |level1_level_requirement                = 1

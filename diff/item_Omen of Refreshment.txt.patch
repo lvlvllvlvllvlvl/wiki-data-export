@@ -1,0 +1,20 @@
+--- Omen of Refreshment
++++ Export
+@@ -6,13 +6,13 @@
+ |size_y                                  = 1
+ |drop_level                              = 1
+ |tags                                    = currency, default
+-|metadata_id                             = Metadata/Items/Currency/OmenOfRefreshment
+-|description                             = Upon reaching 25% Life, this Omen is consumed and Flasks recover all Charges
++|metadata_id                             = Metadata/Items/Currency/AncestralOmenOnCriticalLifeRecoverFlaskCharges
++|stack_size                              = 1
++|description                             = Will be Consumed when you reach 25% of Life<br>to Refill all Flasks
+ |help_text                               = Each player can only consume one Omen in each combat area.
+-|stack_size_currency_tab                 = 5000
++|drop_text                               = Can be obtained as a reward from [[Hinekora]] for completing a tournament in the [[Trial of the Ancestors]].
+ |is_drop_restricted                      = true
+ |release_version                         = 3.22.0
+-|drop_text = Can be obtained as a reward from [[Hinekora]] for completing a tournament in the [[Trial of the Ancestors]].
+ }}
+ 
+ '''Omen of Refreshment''' is an [[Omen]] item. When consumed, it recovers all [[flask]] charges to flasks that can gain charges (excludes flasks with an {{il|Enkindling Orb}} enchant or {{il|The Overflowing Chalice}} during their flask effect).

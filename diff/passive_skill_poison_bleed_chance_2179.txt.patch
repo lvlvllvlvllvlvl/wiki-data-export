@@ -1,0 +1,17 @@
+--- Passive Skill:Poison~bleed~chance~2179
++++ Export
+@@ -1,10 +1,10 @@
+ {{Passive skill
+ |id                                  = poison_bleed_chance_2179
+ |int_id                              = 11364
+-|name                                = Ailment Damage
++|name                                = Faster Ailments
+ |icon                                = DamageOverTime
+-|stat1_id                            = base_ailment_damage_+%
+-|stat1_value                         = 15
+-|stat_text                           = 15% increased Damage with Ailments
++|stat1_id                            = damaging_ailments_deal_damage_+%_faster
++|stat1_value                         = 5
++|stat_text                           = Damaging Ailments deal damage 5% faster
+ |connections                         = dexterity840,poison_bleed_duration_2180,dexterity840
+ }}

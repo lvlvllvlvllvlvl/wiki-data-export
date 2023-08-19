@@ -1,4 +1,4 @@
---- Wiki
+--- Vortex
 +++ Export
 @@ -41,10 +41,10 @@
  |static_damage_multiplier                = 100
@@ -15,3 +15,12 @@
  |static_stat3_id                         = base_skill_effect_duration
  |static_stat3_value                      = 3000
  |static_stat4_id                         = spell_damage_modifiers_apply_to_skill_dot
+@@ -53,7 +53,7 @@
+ |static_stat5_value                      = -20
+ |static_stat6_id                         = frost_bolt_nova_number_of_frost_bolts_to_detonate
+ |static_stat6_value                      = 5
+-|stat_text                               = Deals (41-1209) to (62-1813) Cold Damage<br>Deals (116-2317.2) Base Cold Damage per second<br>Base duration is 3 seconds<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>20% less Area of Effect when Cast on Frostbolt<br>(0-76)% increased Cooldown Recovery Rate<br>Can explode from up to 5 Frostbolt Projectiles
++|stat_text                               = Deals (41-1209) to (62-1813) Cold Damage<br>Base duration is 3 seconds<br>Deals (116-2317.2) Base Cold Damage per second<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>20% less Area of Effect when Cast on Frostbolt<br>(0-76)% increased Cooldown Recovery Rate<br>Can explode from up to 5 Frostbolt Projectiles
+ |level1                                  = True
+ |level1_level_requirement                = 28
+ |level1_cost_amounts                     = 11

@@ -1,0 +1,20 @@
+--- Monster:Metadata/Monsters/LeagueAncestral/AncestralTawhanuku
++++ Export
+@@ -0,0 +1,17 @@
++{{Monster
++|metadata_id                      = Metadata/Monsters/LeagueAncestral/AncestralTawhanuku
++|monster_type_id                  = AncestralTawhanuku
++|mod_ids                          = AncestralTrialMonsterCurseEffectHinekora, AncestralTrialChieftainBalance
++|tags                             = human, humanoid, medium_movement, not_dex, not_str, red_blood
++|skill_ids                        = GSAncestralTawhanukuWave, GSAncestralTawhanukuMeteor, EASTawhanukuTripleMeteor, AncestralTawhanukuSoulRend, GTTawhanukuMultiSoulrend
++|name                             = Tawhanuku
++|size                             = 3
++|minimum_attack_distance          = 5
++|maximum_attack_distance          = 10
++|model_size_multiplier            = 1.0
++|experience_multiplier            = 1.0
++|damage_multiplier                = 1.2
++|health_multiplier                = 1.75
++|critical_strike_chance           = 5.0
++|attack_speed                     = 1.5
++}}
