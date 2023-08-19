@@ -1,6 +1,6 @@
 --- Tattoo of the Tawhoa Herbalist
 +++ Export
-@@ -6,14 +6,13 @@
+@@ -6,14 +6,16 @@
  |size_y                                  = 1
  |drop_level                              = 1
  |tags                                    = currency, default
@@ -10,6 +10,9 @@
 -|description                             = Replaces a Small Dexterity Passive Skill<br>Grants "6% increased Flask Effect Duration"
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
++|tattoo_target                           = Small Dexterity
++|tattoo_stat_text                        = 6% increased Flask Effect Duration
++|description                             = Replaces a Small Dexterity Passive Skill<br>Grants "6% increased Flask Effect Duration"
 +|drop_text                               = Can be obtained as a reward for defeating the [[Tawhoa]] tribe in the [[Trial of the Ancestors]].
  |is_drop_restricted                      = true
  |release_version                         = 3.22.0

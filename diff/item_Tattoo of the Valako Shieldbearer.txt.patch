@@ -1,6 +1,6 @@
 --- Tattoo of the Valako Shieldbearer
 +++ Export
-@@ -0,0 +1,13 @@
+@@ -0,0 +1,16 @@
 +{{Base item
 +|rarity_id                               = normal
 +|name                                    = Tattoo of the Valako Shieldbearer
@@ -13,4 +13,7 @@
 +|stack_size                              = 10
 +|help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
 +|stack_size_currency_tab                 = 5000
++|tattoo_target                           = Small Strength
++|tattoo_stat_text                        = +1% Chance to [[Block]] [[Attack Damage]]
++|description                             = Replaces a Small Strength Passive Skill<br>Grants "+1% Chance to [[Block]] [[Attack Damage]]"
 +}}

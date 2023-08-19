@@ -1,6 +1,6 @@
 --- Honoured Tattoo of the Storm
 +++ Export
-@@ -0,0 +1,13 @@
+@@ -0,0 +1,17 @@
 +{{Base item
 +|rarity_id                               = normal
 +|name                                    = Honoured Tattoo of the Storm
@@ -13,4 +13,8 @@
 +|stack_size                              = 10
 +|help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
 +|stack_size_currency_tab                 = 5000
++|tattoo_target                           = +30 to Intelligence Notable
++|tattoo_stat_text                        = +1% to maximum [[Lightning Resistance]]<br>+1 to Maximum [[Power Charge|Power Charges]]
++|tattoo_limit                            = 1 Attribute Notable Tattoo
++|description                             = Replaces a +30 to Intelligence Notable Passive Skill<br>Grants "+1% to maximum [[Lightning Resistance]]<br>+1 to Maximum [[Power Charge|Power Charges]]"<br>Limit 1 Attribute Notable Tattoo
 +}}

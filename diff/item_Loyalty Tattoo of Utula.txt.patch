@@ -1,6 +1,6 @@
 --- Loyalty Tattoo of Utula
 +++ Export
-@@ -6,14 +6,13 @@
+@@ -6,14 +6,17 @@
  |size_y                                  = 1
  |drop_level                              = 1
  |tags                                    = currency, default
@@ -10,6 +10,10 @@
 -|description                             = Replaces a Small Strength Passive Skill<br>Grants "Trigger Level 20 Summon Spirit of Utula Skill on taking a Savage Hit from a Unique Enemy"<br>Limit 1 Loyalty Tattoo
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
++|tattoo_target                           = Small Strength
++|tattoo_stat_text                        = Trigger Summon Spirit of Utula [[Skill]] on taking a Savage [[Hit]] from a Unique Enemy
++|tattoo_limit                            = 1 Loyalty Tattoo
++|description                             = Replaces a Small Strength Passive Skill<br>Grants "Trigger Summon Spirit of Utula [[Skill]] on taking a Savage [[Hit]] from a Unique Enemy"<br>Limit 1 Loyalty Tattoo
 +|drop_text                               = Can be obtained as a reward for defeating the [[Kitava]] tribe in the [[Trial of the Ancestors]].
  |is_drop_restricted                      = true
  |release_version                         = 3.22.0

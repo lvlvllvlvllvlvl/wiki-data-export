@@ -1,6 +1,6 @@
 --- Loyalty Tattoo of Ikiaho
 +++ Export
-@@ -0,0 +1,13 @@
+@@ -0,0 +1,19 @@
 +{{Base item
 +|rarity_id                               = normal
 +|name                                    = Loyalty Tattoo of Ikiaho
@@ -13,4 +13,10 @@
 +|stack_size                              = 10
 +|help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
 +|stack_size_currency_tab                 = 5000
++|tattoo_target                           = Small Dexterity
++|tattoo_stat_text                        = Trigger Summon Spirit of Ikiaho [[Skill]] when you use a Travel
++Skill while a Unique Enemy is in your Presence
++|tattoo_limit                            = 1 Loyalty Tattoo
++|description                             = Replaces a Small Dexterity Passive Skill<br>Grants "Trigger Summon Spirit of Ikiaho [[Skill]] when you use a Travel
++Skill while a Unique Enemy is in your Presence"<br>Limit 1 Loyalty Tattoo
 +}}
