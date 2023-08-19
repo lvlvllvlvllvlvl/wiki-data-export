@@ -1,6 +1,6 @@
 --- Sanctum Necropolis Research
 +++ Export
-@@ -1,19 +1,20 @@
+@@ -1,20 +1,20 @@
  {{Base item
  |rarity_id                               = normal
  |name                                    = Sanctum Necropolis Research
@@ -12,14 +12,14 @@
 -|explicit1_text = <Modifiers from Relics>
 -|is_unmodifiable = true
  |flavour_text                            = The Necropolis holds the darkest secrets of our religion,<br>lies that were never meant to be unearthed.
--|tags                                    = default
--|metadata_id                             = Metadata/Items/Sanctum/SanctumNecropolisResearch
+-|tags                                    = not_for_sale
 +|drop_level                              = 68
 +|drop_rarities_ids                       = normal
 +|tags                                    = not_for_sale, default
-+|metadata_id                             = Metadata/Items/Sanctum/SanctumFloor4
+ |metadata_id                             = Metadata/Items/Sanctum/SanctumFloor4
  |help_text                               = Right click this item to view details of the Sanctum in progress. Take this item to the Relic Altar in the Forbidden Sanctum to enter.
 -|is_drop_restricted                               = true
+-|drop_level                               = 68
  |drop_text                               = Obtained by completing the Sanctum Cathedral floor in [[the Forbidden Sanctum]].
 +|is_drop_restricted                      = true
 +|is_unmodifiable                         = true

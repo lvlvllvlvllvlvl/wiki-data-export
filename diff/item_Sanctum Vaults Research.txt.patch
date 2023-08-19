@@ -1,6 +1,6 @@
 --- Sanctum Vaults Research
 +++ Export
-@@ -1,19 +1,20 @@
+@@ -1,20 +1,20 @@
  {{Base item
  |rarity_id                               = normal
  |name                                    = Sanctum Vaults Research
@@ -12,14 +12,14 @@
 -|explicit1_text = <Modifiers from Relics>
 -|is_unmodifiable = true
  |flavour_text                            = The treasures within are tainted by a black spirit.
--|tags                                    = default
--|metadata_id                             = Metadata/Items/Sanctum/SanctumVaultsResearch
+-|tags                                    = not_for_sale
 +|drop_level                              = 68
 +|drop_rarities_ids                       = normal
 +|tags                                    = not_for_sale, default
-+|metadata_id                             = Metadata/Items/Sanctum/SanctumFloor2
+ |metadata_id                             = Metadata/Items/Sanctum/SanctumFloor2
  |help_text                               = Right click this item to view details of the Sanctum in progress. Take this item to the Relic Altar in the Forbidden Sanctum to enter.
 -|is_drop_restricted                               = true
+-|drop_level                               = 68
  |drop_text                               = Obtained by completing the Sanctum Archives floor in [[the Forbidden Sanctum]].
 +|is_drop_restricted                      = true
 +|is_unmodifiable                         = true
