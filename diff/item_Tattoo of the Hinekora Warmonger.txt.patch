@@ -1,19 +1,12 @@
 --- Tattoo of the Hinekora Warmonger
 +++ Export
-@@ -0,0 +1,16 @@
-+{{Base item
-+|rarity_id                               = normal
-+|name                                    = Tattoo of the Hinekora Warmonger
-+|class_id                                = StackableCurrency
-+|size_x                                  = 1
-+|size_y                                  = 1
-+|drop_level                              = 1
-+|tags                                    = currency, default
-+|metadata_id                             = Metadata/Items/Currency/AncestralTattooHinekora5
-+|stack_size                              = 10
-+|help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
-+|stack_size_currency_tab                 = 5000
-+|tattoo_target                           = Small Intelligence
-+|tattoo_stat_text                        = [[Minion|Minions]] have 6% increased maximum [[Life]]
-+|description                             = Replaces a Small Intelligence Passive Skill<br>Grants "[[Minion|Minions]] have 6% increased maximum [[Life]]"
-+}}
+@@ -10,7 +10,6 @@
+ |stack_size                              = 10
+ |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
+ |stack_size_currency_tab                 = 5000
+-|tattoo_target                           = Small Intelligence
+-|tattoo_stat_text                        = [[Minion|Minions]] have 6% increased maximum [[Life]]
+-|description                             = Replaces a Small Intelligence Passive Skill<br>Grants "[[Minion|Minions]] have 6% increased maximum [[Life]]"
++|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Intelligence}} {{c|default|Passive Skill}}
++|description                             = Grants "[[Minion|Minions]] have 6% increased maximum [[Life]]"
+ }}

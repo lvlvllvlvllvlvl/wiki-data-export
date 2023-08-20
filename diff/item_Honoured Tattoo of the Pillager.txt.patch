@@ -1,19 +1,12 @@
 --- Honoured Tattoo of the Pillager
 +++ Export
-@@ -0,0 +1,16 @@
-+{{Base item
-+|rarity_id                               = normal
-+|name                                    = Honoured Tattoo of the Pillager
-+|class_id                                = StackableCurrency
-+|size_x                                  = 1
-+|size_y                                  = 1
-+|drop_level                              = 1
-+|tags                                    = currency, default
-+|metadata_id                             = Metadata/Items/Currency/AncestralTattooSpecialSmallNode4
-+|stack_size                              = 10
-+|help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
-+|stack_size_currency_tab                 = 5000
-+|tattoo_target                           = Small Attribute
-+|tattoo_stat_text                        = 3% increased Rarity of Items found
-+|description                             = Replaces a Small Attribute Passive Skill<br>Grants "3% increased Rarity of Items found"
-+}}
+@@ -10,7 +10,6 @@
+ |stack_size                              = 10
+ |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
+ |stack_size_currency_tab                 = 5000
+-|tattoo_target                           = Small Attribute
+-|tattoo_stat_text                        = 3% increased Rarity of Items found
+-|description                             = Replaces a Small Attribute Passive Skill<br>Grants "3% increased Rarity of Items found"
++|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Attribute}} {{c|default|Passive Skill}}
++|description                             = Grants "3% increased Rarity of Items found"
+ }}

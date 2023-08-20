@@ -1,19 +1,12 @@
 --- Tattoo of the Ngamahu Warmonger
 +++ Export
-@@ -0,0 +1,16 @@
-+{{Base item
-+|rarity_id                               = normal
-+|name                                    = Tattoo of the Ngamahu Warmonger
-+|class_id                                = StackableCurrency
-+|size_x                                  = 1
-+|size_y                                  = 1
-+|drop_level                              = 1
-+|tags                                    = currency, default
-+|metadata_id                             = Metadata/Items/Currency/AncestralTattooNgamahu4
-+|stack_size                              = 10
-+|help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
-+|stack_size_currency_tab                 = 5000
-+|tattoo_target                           = Small Strength
-+|tattoo_stat_text                        = Enemies you [[Kill]] have a 2% chance to Explode, dealing a tenth of their maximum [[Life]] as [[Fire Damage]]
-+|description                             = Replaces a Small Strength Passive Skill<br>Grants "Enemies you [[Kill]] have a 2% chance to Explode, dealing a tenth of their maximum [[Life]] as [[Fire Damage]]"
-+}}
+@@ -10,7 +10,6 @@
+ |stack_size                              = 10
+ |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
+ |stack_size_currency_tab                 = 5000
+-|tattoo_target                           = Small Strength
+-|tattoo_stat_text                        = Enemies you [[Kill]] have a 2% chance to Explode, dealing a tenth of their maximum [[Life]] as [[Fire Damage]]
+-|description                             = Replaces a Small Strength Passive Skill<br>Grants "Enemies you [[Kill]] have a 2% chance to Explode, dealing a tenth of their maximum [[Life]] as [[Fire Damage]]"
++|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Strength}} {{c|default|Passive Skill}}
++|description                             = Grants "Enemies you [[Kill]] have a 2% chance to Explode, dealing a tenth of their maximum [[Life]] as [[Fire Damage]]"
+ }}

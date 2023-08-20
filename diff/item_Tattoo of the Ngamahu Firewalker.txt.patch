@@ -1,22 +1,14 @@
 --- Tattoo of the Ngamahu Firewalker
 +++ Export
-@@ -6,14 +6,16 @@
- |size_y                                  = 1
- |drop_level                              = 1
- |tags                                    = currency, default
--|metadata_id                             = Metadata/Items/Currency/TattoooftheNgamahuFirewalker
-+|metadata_id                             = Metadata/Items/Currency/AncestralTattooNgamahu1
+@@ -10,9 +10,8 @@
  |stack_size                              = 10
--|description                             = Replaces a Small Strength Passive Skill<br>Grants "+8% to Fire Resistance"
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
-+|tattoo_target                           = Small Strength
-+|tattoo_stat_text                        = +8% to [[Fire Resistance]]
-+|description                             = Replaces a Small Strength Passive Skill<br>Grants "+8% to [[Fire Resistance]]"
-+|drop_text                               = Can be obtained as a reward for defeating the [[Ngamahu]] tribe in the [[Trial of the Ancestors]].
+-|tattoo_target                           = Small Strength
+-|tattoo_stat_text                        = +8% to [[Fire Resistance]]
+-|description                             = Replaces a Small Strength Passive Skill<br>Grants "+8% to [[Fire Resistance]]"
++|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Strength}} {{c|default|Passive Skill}}
++|description                             = Grants "+8% to [[Fire Resistance]]"
+ |drop_text                               = Can be obtained as a reward for defeating the [[Ngamahu]] tribe in the [[Trial of the Ancestors]].
  |is_drop_restricted                      = true
  |release_version                         = 3.22.0
--|drop_text = Can be obtained as a reward for defeating the [[Ngamahu]] tribe in the [[Trial of the Ancestors]].
- }}
- 
- '''Tattoo of the Ngamahu Firewalker''' is a [[currency]] item. It replaces the stat of a single passive node with a new stat.

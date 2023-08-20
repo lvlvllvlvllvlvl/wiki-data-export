@@ -1,19 +1,12 @@
 --- Tattoo of the Hinekora Shaman
 +++ Export
-@@ -0,0 +1,16 @@
-+{{Base item
-+|rarity_id                               = normal
-+|name                                    = Tattoo of the Hinekora Shaman
-+|class_id                                = StackableCurrency
-+|size_x                                  = 1
-+|size_y                                  = 1
-+|drop_level                              = 1
-+|tags                                    = currency, default
-+|metadata_id                             = Metadata/Items/Currency/AncestralTattooHinekora3
-+|stack_size                              = 10
-+|help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
-+|stack_size_currency_tab                 = 5000
-+|tattoo_target                           = Small Intelligence
-+|tattoo_stat_text                        = Regenerate 3 [[Mana]] per second
-+|description                             = Replaces a Small Intelligence Passive Skill<br>Grants "Regenerate 3 [[Mana]] per second"
-+}}
+@@ -10,7 +10,6 @@
+ |stack_size                              = 10
+ |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
+ |stack_size_currency_tab                 = 5000
+-|tattoo_target                           = Small Intelligence
+-|tattoo_stat_text                        = Regenerate 3 [[Mana]] per second
+-|description                             = Replaces a Small Intelligence Passive Skill<br>Grants "Regenerate 3 [[Mana]] per second"
++|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Intelligence}} {{c|default|Passive Skill}}
++|description                             = Grants "Regenerate 3 [[Mana]] per second"
+ }}

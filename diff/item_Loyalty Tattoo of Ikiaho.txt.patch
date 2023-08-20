@@ -1,22 +1,17 @@
 --- Loyalty Tattoo of Ikiaho
 +++ Export
-@@ -0,0 +1,19 @@
-+{{Base item
-+|rarity_id                               = normal
-+|name                                    = Loyalty Tattoo of Ikiaho
-+|class_id                                = StackableCurrency
-+|size_x                                  = 1
-+|size_y                                  = 1
-+|drop_level                              = 1
-+|tags                                    = currency, default
-+|metadata_id                             = Metadata/Items/Currency/AncestralTattooArohongui6
-+|stack_size                              = 10
-+|help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
-+|stack_size_currency_tab                 = 5000
-+|tattoo_target                           = Small Dexterity
-+|tattoo_stat_text                        = Trigger Summon Spirit of Ikiaho [[Skill]] when you use a Travel
-+Skill while a Unique Enemy is in your Presence
-+|tattoo_limit                            = 1 Loyalty Tattoo
-+|description                             = Replaces a Small Dexterity Passive Skill<br>Grants "Trigger Summon Spirit of Ikiaho [[Skill]] when you use a Travel
-+Skill while a Unique Enemy is in your Presence"<br>Limit 1 Loyalty Tattoo
-+}}
+@@ -10,10 +10,8 @@
+ |stack_size                              = 10
+ |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
+ |stack_size_currency_tab                 = 5000
+-|tattoo_target                           = Small Dexterity
+-|tattoo_stat_text                        = Trigger Summon Spirit of Ikiaho [[Skill]] when you use a Travel
+-Skill while a Unique Enemy is in your Presence
+-|tattoo_limit                            = 1 Loyalty Tattoo
+-|description                             = Replaces a Small Dexterity Passive Skill<br>Grants "Trigger Summon Spirit of Ikiaho [[Skill]] when you use a Travel
+-Skill while a Unique Enemy is in your Presence"<br>Limit 1 Loyalty Tattoo
++|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Dexterity}} {{c|default|Passive Skill}}
++|implicit2_text                          = {{c|default|Limit}} {{c|value|1 Loyalty Tattoo}}
++|description                             = Grants "Trigger [[Skill:TriggerSummonedAncestorIkiaho|Summon Spirit of Ikiaho]] [[Skill]] when you use a Travel
++Skill while a Unique Enemy is in your Presence"
+ }}

@@ -1,22 +1,14 @@
 --- Tattoo of the Hinekora Deathwarden
 +++ Export
-@@ -6,14 +6,16 @@
- |size_y                                  = 1
- |drop_level                              = 1
- |tags                                    = currency, default
--|metadata_id                             = Metadata/Items/Currency/TattoooftheHinekoraDeathwarden
-+|metadata_id                             = Metadata/Items/Currency/AncestralTattooHinekora2
+@@ -10,9 +10,8 @@
  |stack_size                              = 10
--|description                             = Replaces a Small Intelligence Passive Skill<br>Grants "6% reduced Effect of Curses on you"
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
-+|tattoo_target                           = Small Intelligence
-+|tattoo_stat_text                        = 6% reduced Effect of [[Curse|Curses]] on you
-+|description                             = Replaces a Small Intelligence Passive Skill<br>Grants "6% reduced Effect of [[Curse|Curses]] on you"
-+|drop_text                               = Can be obtained as a reward for defeating the [[Hinekora]] tribe in the [[Trial of the Ancestors]].
+-|tattoo_target                           = Small Intelligence
+-|tattoo_stat_text                        = 6% reduced Effect of [[Curse|Curses]] on you
+-|description                             = Replaces a Small Intelligence Passive Skill<br>Grants "6% reduced Effect of [[Curse|Curses]] on you"
++|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Intelligence}} {{c|default|Passive Skill}}
++|description                             = Grants "6% reduced Effect of [[Curse|Curses]] on you"
+ |drop_text                               = Can be obtained as a reward for defeating the [[Hinekora]] tribe in the [[Trial of the Ancestors]].
  |is_drop_restricted                      = true
  |release_version                         = 3.22.0
--|drop_text = Can be obtained as a reward for defeating the [[Hinekora]] tribe in the [[Trial of the Ancestors]].
- }}
- 
- '''Tattoo of the Hinekora Deathwarden''' is a [[currency]] item. It replaces the stat of a single passive node with a new stat.

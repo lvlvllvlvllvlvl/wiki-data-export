@@ -1,6 +1,6 @@
 --- Rain Tempter
 +++ Export
-@@ -6,11 +6,10 @@
+@@ -6,7 +6,6 @@
  |size_y                                  = 1
  |flavour_text                            = Be like water, friend.
  |drop_level                              = 58
@@ -8,8 +8,11 @@
  |tags                                    = maps_divination, divination_card, default
  |metadata_id                             = Metadata/Items/DivinationCards/DivinationCardRainTempter
  |stack_size                              = 9
--|description                             = {{c|white|Map}}<br>{{c|default|Map Tier:}} {{c|normal|6}}
-+|description                             = {{c|white|[[Map]]}}<br>{{c|default|Map Tier:}} {{c|normal|6}}
- |stack_size_currency_tab                 = 5000
+@@ -15,6 +14,7 @@
  |help_text                               = Shift click to unstack.
  |drop_areas                              = MapWorldsTerrace, MapWorldsGardens, MapWorldsCourtyard, MapWorldsOrchard, 2_8_4
+ |drop_text                               = Has a {{Tooltip|maximum drop level restriction of 80|Equivalent to T13 maps,<br>{{c|magic|Magic}} monsters in T12 maps,<br>or {{c|rare|Rare}}/{{c|unique|Unique}} monsters in T11 maps.}}.
++|drop_level_maximum                      = 80
+ |release_version                         = 2.2.2c
+ }}
+ 

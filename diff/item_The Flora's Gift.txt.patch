@@ -8,3 +8,11 @@
  |tags                                    = weapon_divination, divination_card, default
  |metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheFlorasGift
  |stack_size                              = 5
+@@ -15,6 +14,7 @@
+ |help_text                               = Shift click to unstack.
+ |drop_areas                              = MapAtlasJungleValley, MapAtlasTropicalIsland, MapWorldsJungleValley, MapWorldsTropicalIsland, MapWorldsAshenWood, MapWorldsSpiderForest, MapWorldsBrambleValley, MapWorldsDarkForest, MapWorldsLair, MapWorldsRamparts, MapWorldsForbiddenWoods
+ |drop_text                               = Has a {{Tooltip|maximum drop level restriction of 74-75|Equivalent to T8 maps,<br>{{c|magic|Magic}} monsters in T7 maps,<br>or {{c|rare|Rare}}/{{c|unique|Unique}} monsters in T6 maps.}}.{{confirm}}
++|drop_level_maximum                      = 75
+ |release_version                         = 2.0.1b
+ }}
+ 

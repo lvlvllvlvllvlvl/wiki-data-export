@@ -1,15 +1,18 @@
 --- The Trial
 +++ Export
-@@ -6,11 +6,10 @@
+@@ -6,7 +6,6 @@
  |size_y                                  = 1
  |flavour_text                            = You cannot journey to new lands until you have the courage to leave the safety of home.
  |drop_level                              = 73
--|drop_level_maximum             = 77
+-|drop_level_maximum                      = 77
  |tags                                    = maps_divination, corrupted_divination, divination_card, default
  |metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheTrial
  |stack_size                              = 7
--|description                             = {{c|rare|Map}}<br>{{c|default|Map Tier:}} {{c|normal|15}}<br>{{c|corrupted|[[Corrupted]]}}
-+|description                             = {{c|rare|[[Map]]}}<br>{{c|default|Map Tier:}} {{c|normal|15}}<br>{{c|corrupted|[[Corrupted]]}}
- |stack_size_currency_tab                 = 5000
+@@ -15,6 +14,7 @@
  |help_text                               = Shift click to unstack.
  |drop_areas                              = MapWorldsAcademy, <!--Acid Caverns--> MapWorldsAcidLakes,  MapWorldsAlleyways,  MapWorldsAncientCity, MapWorldsArachnidNest, MapWorldsArachnidTomb,  MapWorldsArcade,  MapWorldsArena,  MapWorldsAridLake,  MapWorldsArmoury,  MapWorldsArsenal,  MapWorldsAshenWood,  MapWorldsAtoll,   MapWorldsBarrows,  MapWorldsBasilica,  MapWorldsBazaar,  MapWorldsBeach,  MapWorldsBelfry,  MapWorldsBog,  MapWorldsBoneCrypt, MapWorldsBrambleValley, MapWorldsBurialChambers,  MapWorldsCage,  MapWorldsCaldera,  MapWorldsCanyon, MapWorldsCarcass, MapWorldsCastleRuins,  MapWorldsCells,  MapWorldsCemetery, MapWorldsChannel,  MapWorldsChateau, MapWorldsCitySquare,  MapWorldsColdRiver_, MapWorldsColonnade,  MapWorldsColosseum,  MapWorldsConservatory,  MapWorldsCoralRuins,  MapWorldsCore, MapWorldsCourthouse, MapWorldsCourtyard, MapWorldsCoves, <!--Crater--> MapWorldsTribunal, MapWorldsCrimsonTemple,  MapWorldsCrimsonTownship, MapWorldsCrystalOre,  MapWorldsCursedCrypt,   MapWorldsDarkForest,  MapWorldsDefiledCathedral,  MapWorldsDesert,  MapWorldsDesertSpring,  MapWorldsDig,  MapWorldsDrySea, MapWorldsDunes,  MapWorldsDungeon,  MapWorldsEstuary,  MapWorldsExcavation,  MapWorldsFactory, MapWorldsFields,  MapWorldsFloodedMine, MapWorldsForbiddenWoods, MapWorldsForkingRiver, MapWorldsFoundry, MapWorldsFrozenCabins, <!--Fungal Hollow--> MapWorldsSprings, MapWorldsGardens,  MapWorldsGeode,  MapWorldsGhetto,  <!--Glacier--> MapWorldsGorge, MapWorldsGraveTrough, MapWorldsGraveyard,  MapWorldsGrotto,  MapWorldsHauntedMansion,  MapWorldsIceberg,  MapWorldsInfestedValley,  MapWorldsIvoryTemple,  MapWorldsJungleValley,  MapWorldsLaboratory,  MapWorldsLair,  MapWorldsLavaChamber,  MapWorldsLavaLake, MapWorldsLeyline,  MapWorldsLighthouse,  MapWorldsLookout, MapWorldsMalformation, MapWorldsMarshes,  MapWorldsMausoleum,  MapWorldsMaze,  MapWorldsMesa, MapWorldsMineralPools,  MapWorldsMoonTemple,  MapWorldsMudGeyser,  MapWorldsMuseum,  MapWorldsNecropolis,  MapWorldsOrchard,  MapWorldsOvergrownRuin,  MapWorldsOvergrownShrine, MapWorldsPalace,  MapWorldsPark,  MapWorldsPen,  MapWorldsPeninsula,  MapWorldsPhantasmagoria,  MapWorldsPier,  MapWorldsPit,  MapWorldsPlateau,  MapWorldsPlaza,  MapWorldsPort,  MapWorldsPrecinct, <!--Primordial Blocks--> MapWorldsTortureChamber, MapWorldsPrimordialPool,  MapWorldsPromenade,  MapWorldsRacecourse_,  MapWorldsRamparts,  MapWorldsReef,  MapWorldsRelicChambers,  MapWorldsResidence,  MapWorldsScriptorium,  MapWorldsSepulchre,  MapWorldsShipyard,  MapWorldsShore, MapWorldsShrine, MapWorldsSiege, MapWorldsSilo, MapWorldsSpiderForest, MapWorldsSpiderLair,  MapWorldsStagnation, MapWorldsStrand,  MapWorldsSulphurVents,  MapWorldsSummit,  MapWorldsSunkenCity,  MapWorldsTemple,  MapWorldsTerrace,  MapWorldsThicket, MapWorldsTower,  MapWorldsToxicSewer,  MapWorldsTropicalIsland,  MapWorldsUndergroundRiver,  MapWorldsUndergroundSea,  MapWorldsVaalPyramid, MapWorldsVaalTemple, MapWorldsVault,  MapWorldsVilla,  MapWorldsVolcano,  MapWorldsWastePool, MapWorldsWasteland,  MapWorldsWaterways,  MapWorldsWharf, MapWorldsPhoenix, MapWorldsMinotaur, MapWorldsHydra, MapWorldsChimera
+ |drop_text                               = Drops from any map area. Has a {{Tooltip|minimum drop level restriction of 73|Equivalent to T6 maps,<br>{{c|magic|Magic}} monsters in T5 maps,<br>or {{c|rare|Rare}}/{{c|unique|Unique}} monsters in T4 maps.}} and a {{Tooltip|maximum drop level restriction of 77|Equivalent to T10 maps,<br>{{c|magic|Magic}} monsters in T9 maps,<br>or {{c|rare|Rare}}/{{c|unique|Unique}} monsters in T8 maps.}}.
++|drop_level_maximum                      = 77
+ |release_version                         = 2.0.3
+ }}
+ 

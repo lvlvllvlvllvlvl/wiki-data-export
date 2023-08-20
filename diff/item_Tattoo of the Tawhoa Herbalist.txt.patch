@@ -1,22 +1,14 @@
 --- Tattoo of the Tawhoa Herbalist
 +++ Export
-@@ -6,14 +6,16 @@
- |size_y                                  = 1
- |drop_level                              = 1
- |tags                                    = currency, default
--|metadata_id                             = Metadata/Items/Currency/TattoooftheTawhoaHerbalist
-+|metadata_id                             = Metadata/Items/Currency/AncestralTattooTawhoa4
+@@ -10,9 +10,8 @@
  |stack_size                              = 10
--|description                             = Replaces a Small Dexterity Passive Skill<br>Grants "6% increased Flask Effect Duration"
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
-+|tattoo_target                           = Small Dexterity
-+|tattoo_stat_text                        = 6% increased Flask Effect Duration
-+|description                             = Replaces a Small Dexterity Passive Skill<br>Grants "6% increased Flask Effect Duration"
-+|drop_text                               = Can be obtained as a reward for defeating the [[Tawhoa]] tribe in the [[Trial of the Ancestors]].
+-|tattoo_target                           = Small Dexterity
+-|tattoo_stat_text                        = 6% increased Flask Effect Duration
+-|description                             = Replaces a Small Dexterity Passive Skill<br>Grants "6% increased Flask Effect Duration"
++|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Dexterity}} {{c|default|Passive Skill}}
++|description                             = Grants "6% increased Flask Effect Duration"
+ |drop_text                               = Can be obtained as a reward for defeating the [[Tawhoa]] tribe in the [[Trial of the Ancestors]].
  |is_drop_restricted                      = true
  |release_version                         = 3.22.0
--|drop_text = Can be obtained as a reward for defeating the [[Tawhoa]] tribe in the [[Trial of the Ancestors]].
- }}
- 
- '''Tattoo of the Tawhoa Herbalist''' is a [[currency]] item. It replaces the stat of a single passive node with a new stat.
