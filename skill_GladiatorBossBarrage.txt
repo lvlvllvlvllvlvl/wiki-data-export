@@ -23,13 +23,19 @@
 |stat_text                               = Deals 60% less Damage<br>Fires Projectiles sequentially<br>Fires 4 additional Projectiles<br>(0-68)% increased Physical Damage<br>(0-44)% more Attack Speed
 |level1                                  = True
 |level1_level_requirement                = 3
+|level1_damage_effectiveness             = 100
+|level1_damage_multiplier                = 100
 |level2                                  = True
 |level2_level_requirement                = 10
+|level2_damage_effectiveness             = 100
+|level2_damage_multiplier                = 100
 |level2_stat_text                        = 1% more Attack Speed
 |level2_stat1_id                         = active_skill_attack_speed_+%_final
 |level2_stat1_value                      = 1
 |level3                                  = True
 |level3_level_requirement                = 13
+|level3_damage_effectiveness             = 100
+|level3_damage_multiplier                = 100
 |level3_stat_text                        = 2% increased Physical Damage<br>2% more Attack Speed
 |level3_stat1_id                         = physical_damage_+%
 |level3_stat1_value                      = 2
@@ -37,6 +43,8 @@
 |level3_stat2_value                      = 2
 |level4                                  = True
 |level4_level_requirement                = 16
+|level4_damage_effectiveness             = 100
+|level4_damage_multiplier                = 100
 |level4_stat_text                        = 5% increased Physical Damage<br>4% more Attack Speed
 |level4_stat1_id                         = physical_damage_+%
 |level4_stat1_value                      = 5
@@ -44,6 +52,8 @@
 |level4_stat2_value                      = 4
 |level5                                  = True
 |level5_level_requirement                = 19
+|level5_damage_effectiveness             = 100
+|level5_damage_multiplier                = 100
 |level5_stat_text                        = 7% increased Physical Damage<br>5% more Attack Speed
 |level5_stat1_id                         = physical_damage_+%
 |level5_stat1_value                      = 7
@@ -51,6 +61,8 @@
 |level5_stat2_value                      = 5
 |level6                                  = True
 |level6_level_requirement                = 22
+|level6_damage_effectiveness             = 100
+|level6_damage_multiplier                = 100
 |level6_stat_text                        = 9% increased Physical Damage<br>7% more Attack Speed
 |level6_stat1_id                         = physical_damage_+%
 |level6_stat1_value                      = 9
@@ -58,6 +70,8 @@
 |level6_stat2_value                      = 7
 |level7                                  = True
 |level7_level_requirement                = 25
+|level7_damage_effectiveness             = 100
+|level7_damage_multiplier                = 100
 |level7_stat_text                        = 12% increased Physical Damage<br>8% more Attack Speed
 |level7_stat1_id                         = physical_damage_+%
 |level7_stat1_value                      = 12
@@ -65,6 +79,8 @@
 |level7_stat2_value                      = 8
 |level8                                  = True
 |level8_level_requirement                = 28
+|level8_damage_effectiveness             = 100
+|level8_damage_multiplier                = 100
 |level8_stat_text                        = 14% increased Physical Damage<br>10% more Attack Speed
 |level8_stat1_id                         = physical_damage_+%
 |level8_stat1_value                      = 14
@@ -72,6 +88,8 @@
 |level8_stat2_value                      = 10
 |level9                                  = True
 |level9_level_requirement                = 32
+|level9_damage_effectiveness             = 100
+|level9_damage_multiplier                = 100
 |level9_stat_text                        = 16% increased Physical Damage<br>11% more Attack Speed
 |level9_stat1_id                         = physical_damage_+%
 |level9_stat1_value                      = 16
@@ -79,6 +97,8 @@
 |level9_stat2_value                      = 11
 |level10                                 = True
 |level10_level_requirement               = 36
+|level10_damage_effectiveness            = 100
+|level10_damage_multiplier               = 100
 |level10_stat_text                       = 19% increased Physical Damage<br>13% more Attack Speed
 |level10_stat1_id                        = physical_damage_+%
 |level10_stat1_value                     = 19
@@ -86,6 +106,8 @@
 |level10_stat2_value                     = 13
 |level11                                 = True
 |level11_level_requirement               = 40
+|level11_damage_effectiveness            = 100
+|level11_damage_multiplier               = 100
 |level11_stat_text                       = 21% increased Physical Damage<br>14% more Attack Speed
 |level11_stat1_id                        = physical_damage_+%
 |level11_stat1_value                     = 21
@@ -93,6 +115,8 @@
 |level11_stat2_value                     = 14
 |level12                                 = True
 |level12_level_requirement               = 44
+|level12_damage_effectiveness            = 100
+|level12_damage_multiplier               = 100
 |level12_stat_text                       = 24% increased Physical Damage<br>16% more Attack Speed
 |level12_stat1_id                        = physical_damage_+%
 |level12_stat1_value                     = 24
@@ -100,6 +124,8 @@
 |level12_stat2_value                     = 16
 |level13                                 = True
 |level13_level_requirement               = 47
+|level13_damage_effectiveness            = 100
+|level13_damage_multiplier               = 100
 |level13_stat_text                       = 26% increased Physical Damage<br>17% more Attack Speed
 |level13_stat1_id                        = physical_damage_+%
 |level13_stat1_value                     = 26
@@ -107,6 +133,8 @@
 |level13_stat2_value                     = 17
 |level14                                 = True
 |level14_level_requirement               = 50
+|level14_damage_effectiveness            = 100
+|level14_damage_multiplier               = 100
 |level14_stat_text                       = 28% increased Physical Damage<br>19% more Attack Speed
 |level14_stat1_id                        = physical_damage_+%
 |level14_stat1_value                     = 28
@@ -114,6 +142,8 @@
 |level14_stat2_value                     = 19
 |level15                                 = True
 |level15_level_requirement               = 53
+|level15_damage_effectiveness            = 100
+|level15_damage_multiplier               = 100
 |level15_stat_text                       = 31% increased Physical Damage<br>20% more Attack Speed
 |level15_stat1_id                        = physical_damage_+%
 |level15_stat1_value                     = 31

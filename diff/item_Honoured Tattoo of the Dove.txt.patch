@@ -1,12 +1,12 @@
 --- Honoured Tattoo of the Dove
 +++ Export
-@@ -10,7 +10,6 @@
- |stack_size                              = 10
+@@ -11,6 +11,7 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
--|tattoo_target                           = Small Attribute
+ |tattoo_target                           = Small Attribute
 -|tattoo_stat_text                        = +4% to [[Chaos Resistance]]
 -|description                             = Replaces a Small Attribute Passive Skill<br>Grants "+4% to [[Chaos Resistance]]"
 +|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Attribute}} {{c|default|Passive Skill}}
++|tattoo_stat_text                        = +4% to Chaos Resistance
 +|description                             = Grants "+4% to [[Chaos Resistance]]"
  }}

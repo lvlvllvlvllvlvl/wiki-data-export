@@ -1,14 +1,14 @@
 --- Journey Tattoo of the Shadow
 +++ Export
-@@ -10,8 +10,7 @@
- |stack_size                              = 10
+@@ -11,7 +11,9 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
--|tattoo_target                           = +30 to Intelligence Notable
+ |tattoo_target                           = +30 to Intelligence Notable
 -|tattoo_stat_text                        = Gain Arcane Surge on [[Hit]] with [[Spell|Spells]]
--|tattoo_limit                            = 1 Attribute Notable Tattoo
--|description                             = Replaces a +30 to Intelligence Notable Passive Skill<br>Grants "Gain Arcane Surge on [[Hit]] with [[Spell|Spells]]"<br>Limit 1 Attribute Notable Tattoo
 +|implicit1_text                          = {{c|default|Replaces a}} {{c|value|+30 to Intelligence Notable}} {{c|default|Passive Skill}}
+ |tattoo_limit                            = 1 Attribute Notable Tattoo
+-|description                             = Replaces a +30 to Intelligence Notable Passive Skill<br>Grants "Gain Arcane Surge on [[Hit]] with [[Spell|Spells]]"<br>Limit 1 Attribute Notable Tattoo
 +|implicit2_text                          = {{c|default|Limit}} {{c|value|1 Attribute Notable Tattoo}}
++|tattoo_stat_text                        = Gain Arcane Surge on Hit with Spells
 +|description                             = Grants "Gain Arcane Surge on [[Hit]] with [[Spell|Spells]]"
  }}

@@ -1,12 +1,12 @@
 --- Tattoo of the Ngamahu Warmonger
 +++ Export
-@@ -10,7 +10,6 @@
- |stack_size                              = 10
+@@ -11,6 +11,7 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
--|tattoo_target                           = Small Strength
+ |tattoo_target                           = Small Strength
 -|tattoo_stat_text                        = Enemies you [[Kill]] have a 2% chance to Explode, dealing a tenth of their maximum [[Life]] as [[Fire Damage]]
 -|description                             = Replaces a Small Strength Passive Skill<br>Grants "Enemies you [[Kill]] have a 2% chance to Explode, dealing a tenth of their maximum [[Life]] as [[Fire Damage]]"
 +|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Strength}} {{c|default|Passive Skill}}
++|tattoo_stat_text                        = Enemies you Kill have a 2% chance to Explode, dealing a tenth of their maximum Life as Fire Damage
 +|description                             = Grants "Enemies you [[Kill]] have a 2% chance to Explode, dealing a tenth of their maximum [[Life]] as [[Fire Damage]]"
  }}

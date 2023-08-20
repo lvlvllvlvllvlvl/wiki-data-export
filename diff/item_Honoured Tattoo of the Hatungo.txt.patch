@@ -1,13 +1,13 @@
 --- Honoured Tattoo of the Hatungo
 +++ Export
-@@ -10,9 +10,8 @@
- |stack_size                              = 10
+@@ -11,8 +11,9 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
--|tattoo_target                           = Small Attribute
+ |tattoo_target                           = Small Attribute
 -|tattoo_stat_text                        = 1% increased Reservation Efficiency of [[Skill|Skills]]
 -|description                             = Replaces a Small Attribute Passive Skill<br>Grants "1% increased Reservation Efficiency of [[Skill|Skills]]"
 +|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Attribute}} {{c|default|Passive Skill}}
++|tattoo_stat_text                        = 1% increased Reservation Efficiency of Skills
 +|description                             = Grants "1% increased Reservation Efficiency of [[Skill|Skills]]"
  |drop_text                               = Can be obtained as a reward from [[Hinekora]] for completing a tournament in the [[Trial of the Ancestors]].
  |is_drop_restricted                      = true

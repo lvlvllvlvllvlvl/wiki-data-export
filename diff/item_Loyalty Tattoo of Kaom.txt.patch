@@ -1,17 +1,19 @@
 --- Loyalty Tattoo of Kaom
 +++ Export
-@@ -10,10 +10,8 @@
- |stack_size                              = 10
+@@ -11,9 +11,12 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
--|tattoo_target                           = Small Strength
+ |tattoo_target                           = Small Strength
 -|tattoo_stat_text                        = Trigger Summon Spirit of Kaom [[Skill]] when a [[Totem]] dies while
--a Unique Enemy is in your Presence
++|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Strength}} {{c|default|Passive Skill}}
++|tattoo_limit                            = 1 Loyalty Tattoo
++|implicit2_text                          = {{c|default|Limit}} {{c|value|1 Loyalty Tattoo}}
++|tattoo_stat_text                        = Trigger Summon Spirit of Kaom Skill when a Totem dies while
+ a Unique Enemy is in your Presence
 -|tattoo_limit                            = 1 Loyalty Tattoo
 -|description                             = Replaces a Small Strength Passive Skill<br>Grants "Trigger Summon Spirit of Kaom [[Skill]] when a [[Totem]] dies while
 -a Unique Enemy is in your Presence"<br>Limit 1 Loyalty Tattoo
-+|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Strength}} {{c|default|Passive Skill}}
-+|implicit2_text                          = {{c|default|Limit}} {{c|value|1 Loyalty Tattoo}}
++|tattoo_skill_id                         = TriggerSummonedAncestorKaom
 +|description                             = Grants "Trigger [[Skill:TriggerSummonedAncestorKaom|Summon Spirit of Kaom]] [[Skill]] when a [[Totem]] dies while
 +a Unique Enemy is in your Presence"
  }}

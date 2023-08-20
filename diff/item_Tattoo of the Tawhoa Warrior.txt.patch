@@ -1,12 +1,12 @@
 --- Tattoo of the Tawhoa Warrior
 +++ Export
-@@ -10,7 +10,6 @@
- |stack_size                              = 10
+@@ -11,6 +11,7 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
--|tattoo_target                           = Small Intelligence
+ |tattoo_target                           = Small Intelligence
 -|tattoo_stat_text                        = Adds 2 to 3 [[Chaos Damage]]
 -|description                             = Replaces a Small Intelligence Passive Skill<br>Grants "Adds 2 to 3 [[Chaos Damage]]"
 +|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Intelligence}} {{c|default|Passive Skill}}
++|tattoo_stat_text                        = Adds 2 to 3 Chaos Damage
 +|description                             = Grants "Adds 2 to 3 [[Chaos Damage]]"
  }}

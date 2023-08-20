@@ -1,13 +1,13 @@
 --- Tattoo of the Hinekora Deathwarden
 +++ Export
-@@ -10,9 +10,8 @@
- |stack_size                              = 10
+@@ -11,8 +11,9 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
--|tattoo_target                           = Small Intelligence
+ |tattoo_target                           = Small Intelligence
 -|tattoo_stat_text                        = 6% reduced Effect of [[Curse|Curses]] on you
 -|description                             = Replaces a Small Intelligence Passive Skill<br>Grants "6% reduced Effect of [[Curse|Curses]] on you"
 +|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Intelligence}} {{c|default|Passive Skill}}
++|tattoo_stat_text                        = 6% reduced Effect of Curses on you
 +|description                             = Grants "6% reduced Effect of [[Curse|Curses]] on you"
  |drop_text                               = Can be obtained as a reward for defeating the [[Hinekora]] tribe in the [[Trial of the Ancestors]].
  |is_drop_restricted                      = true

@@ -1,13 +1,13 @@
 --- Tattoo of the Ngamahu Firewalker
 +++ Export
-@@ -10,9 +10,8 @@
- |stack_size                              = 10
+@@ -11,8 +11,9 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
--|tattoo_target                           = Small Strength
+ |tattoo_target                           = Small Strength
 -|tattoo_stat_text                        = +8% to [[Fire Resistance]]
 -|description                             = Replaces a Small Strength Passive Skill<br>Grants "+8% to [[Fire Resistance]]"
 +|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Strength}} {{c|default|Passive Skill}}
++|tattoo_stat_text                        = +8% to Fire Resistance
 +|description                             = Grants "+8% to [[Fire Resistance]]"
  |drop_text                               = Can be obtained as a reward for defeating the [[Ngamahu]] tribe in the [[Trial of the Ancestors]].
  |is_drop_restricted                      = true
