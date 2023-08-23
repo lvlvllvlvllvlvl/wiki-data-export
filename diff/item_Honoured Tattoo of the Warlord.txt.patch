@@ -1,6 +1,6 @@
 --- Honoured Tattoo of the Warlord
 +++ Export
-@@ -11,7 +11,9 @@
+@@ -11,9 +11,11 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
  |tattoo_target                           = +30 to Strength Notable
@@ -11,4 +11,6 @@
 +|implicit2_text                          = {{c|default|Limit}} {{c|value|1 Attribute Notable Tattoo}}
 +|tattoo_stat_text                        = +1 to Level of all Strength Skill Gems
 +|description                             = Grants "+1 to [[Level]] of all [[Strength]] [[Skill]] Gems"
- }}
+ |inventory_icon                          = Honoured tattoo strength
+ |drop_text                               = Can be obtained as a reward from [[Hinekora]] for completing a tournament in the [[Trial of the Ancestors]].
+ |is_drop_restricted                      = true

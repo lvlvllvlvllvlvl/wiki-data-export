@@ -1,6 +1,6 @@
 --- Tattoo of the Tukohama Warmonger
 +++ Export
-@@ -11,6 +11,7 @@
+@@ -11,8 +11,9 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
  |tattoo_target                           = Small Strength
@@ -8,4 +8,6 @@
  |tattoo_stat_text                        = +1 to Melee Strike Range
 -|description                             = Replaces a Small Strength Passive Skill<br>Grants "+1 to Melee Strike Range"
 +|description                             = Grants "+1 to Melee Strike Range"
- }}
+ |inventory_icon                          = Tattoo strength 1
+ |drop_text                               = Can be obtained as a reward for defeating the [[Tukohama]] tribe in the [[Trial of the Ancestors]].
+ |is_drop_restricted                      = true

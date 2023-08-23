@@ -1,0 +1,16 @@
+--- Passive Skill:AscendancyAscendant35
++++ Export
+@@ -13,10 +13,8 @@
+ |stat2_value                         = 1
+ |stat3_id                            = mark_skills_curse_effect_+%
+ |stat3_value                         = 25
+-|stat_text                           = Projectiles gain Damage as they travel farther, dealing up<br />to 50% increased Damage with [[Hit|Hits]] to targets<br>[[Skill|Skills]] fire an additional Projectile<br>25% increased Effect of your Marks<br>8% increased Action Speed<br>You and nearby Allies have Tailwind
+-|stat4_id                            = action_speed_-%
+-|stat4_value                         = -8
+-|stat5_id                            = has_tailwind
+-|stat5_value                         = 1
++|stat_text                           = Projectiles gain Damage as they travel farther, dealing up<br />to 50% increased Damage with [[Hit|Hits]] to targets<br>[[Skill|Skills]] fire an additional Projectile<br>25% increased Effect of your Marks<br>You and nearby Allies have Tailwind
++|stat4_id                            = has_tailwind
++|stat4_value                         = 1
+ |connections                         = AscendancyAscendant26
+ }}

@@ -1,6 +1,6 @@
 --- Tattoo of the Ngamahu Warmonger
 +++ Export
-@@ -11,6 +11,7 @@
+@@ -11,8 +11,9 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
  |tattoo_target                           = Small Strength
@@ -9,4 +9,6 @@
 +|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Strength}} {{c|default|Passive Skill}}
 +|tattoo_stat_text                        = Enemies you Kill have a 2% chance to Explode, dealing a tenth of their maximum Life as Fire Damage
 +|description                             = Grants "Enemies you [[Kill]] have a 2% chance to Explode, dealing a tenth of their maximum [[Life]] as [[Fire Damage]]"
- }}
+ |inventory_icon                          = Tattoo strength 1
+ |drop_text                               = Can be obtained as a reward for defeating the [[Ngamahu]] tribe in the [[Trial of the Ancestors]].
+ |is_drop_restricted                      = true

@@ -1,13 +1,16 @@
 --- Tattoo of the Tasalio Makanga
 +++ Export
-@@ -11,6 +11,9 @@
+@@ -11,9 +11,11 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
  |tattoo_target                           = Small Intelligence
-+|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Intelligence}} {{c|default|Passive Skill}}
++|implicit1_text                          = {{c|default|Requires}} {{c|value|7}} {{c|default|adjacent Passive Skills Allocated}}
 +|tattoo_min_adjacent                     = 7
 +|implicit2_text                          = {{c|default|Requires}} {{c|value|7}} {{c|default|adjacent Passive Skills Allocated}}
  |tattoo_stat_text                        = 8% increased Cooldown Recovery Rate
 -|description                             = Replaces a Small Intelligence Passive Skill<br>Grants "8% increased Cooldown Recovery Rate"
+-|implicit1_text                          = {{c|default|Requires}} {{c|value|7}} {{c|default|adjacent Passive Skills Allocated}}
 +|description                             = Grants "8% increased Cooldown Recovery Rate"
- }}
+ |inventory_icon                          = Tattoo intelligence 2
+ |drop_text                               = Can be obtained as a reward for defeating the [[Tasalio]] tribe in the [[Trial of the Ancestors]].
+ |is_drop_restricted                      = true

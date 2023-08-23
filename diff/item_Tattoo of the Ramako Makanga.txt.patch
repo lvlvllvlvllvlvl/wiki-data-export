@@ -1,14 +1,16 @@
 --- Tattoo of the Ramako Makanga
 +++ Export
-@@ -11,6 +11,9 @@
+@@ -11,9 +11,11 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
  |tattoo_target                           = Small Dexterity
 -|tattoo_stat_text                        = [[Skill|Skills]] fire an additional Projectile
 -|description                             = Replaces a Small Dexterity Passive Skill<br>Grants "[[Skill|Skills]] fire an additional Projectile"
-+|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Dexterity}} {{c|default|Passive Skill}}
+ |implicit1_text                          = {{c|default|Requires}} {{c|value|7}} {{c|default|adjacent Passive Skills Allocated}}
 +|tattoo_min_adjacent                     = 7
 +|implicit2_text                          = {{c|default|Requires}} {{c|value|7}} {{c|default|adjacent Passive Skills Allocated}}
 +|tattoo_stat_text                        = Skills fire an additional Projectile
 +|description                             = Grants "[[Skill|Skills]] fire an additional Projectile"
- }}
+ |inventory_icon                          = Tattoo dexterity 2
+ |drop_text                               = Can be obtained as a reward for defeating the [[Ramako]] tribe in the [[Trial of the Ancestors]].
+ |is_drop_restricted                      = true

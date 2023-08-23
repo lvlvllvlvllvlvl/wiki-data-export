@@ -1,6 +1,6 @@
 --- Tattoo of the Arohongui Scout
 +++ Export
-@@ -11,6 +11,8 @@
+@@ -11,8 +11,10 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
  |tattoo_target                           = Small Dexterity
@@ -10,4 +10,6 @@
 +|tattoo_stat_text                        = 15% chance to Avoid being Chilled
 +15% chance to Avoid being Frozen
 +|description                             = Grants "15% chance to Avoid being Chilled<br>15% chance to Avoid being [[Freeze|Frozen]]"
- }}
+ |inventory_icon                          = Tattoo dexterity 1
+ |drop_text                               = Can be obtained as a reward for defeating the [[Arohongui]] tribe in the [[Trial of the Ancestors]].
+ |is_drop_restricted                      = true

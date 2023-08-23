@@ -1,13 +1,19 @@
 --- Tattoo of the Tawhoa Makanga
 +++ Export
-@@ -11,6 +11,9 @@
+@@ -11,11 +11,13 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
  |tattoo_target                           = Small Dexterity
-+|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Dexterity}} {{c|default|Passive Skill}}
++|implicit1_text                          = {{c|default|Requires}} {{c|value|7}} {{c|default|adjacent Passive Skills Allocated}}
 +|tattoo_min_adjacent                     = 7
 +|implicit2_text                          = {{c|default|Requires}} {{c|value|7}} {{c|default|adjacent Passive Skills Allocated}}
  |tattoo_stat_text                        = Flasks applied to you have 8% increased Effect
 -|description                             = Replaces a Small Dexterity Passive Skill<br>Grants "Flasks applied to you have 8% increased Effect"
+-|implicit1_text                          = {{c|default|Requires}} {{c|value|7}} {{c|default|adjacent Passive Skills Allocated}}
 +|description                             = Grants "Flasks applied to you have 8% increased Effect"
+ |inventory_icon                          = Tattoo dexterity 2
+-|drop_text                               =  Can be obtained as a reward for defeating the [[Tawhoa]] tribe in the [[Trial of the Ancestors]].
++|drop_text                               = Can be obtained as a reward for defeating the [[Tawhoa]] tribe in the [[Trial of the Ancestors]].
+ |is_drop_restricted                      = true
+ |release_version                         = 3.22.0
  }}

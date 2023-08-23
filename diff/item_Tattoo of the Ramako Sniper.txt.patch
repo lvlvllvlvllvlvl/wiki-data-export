@@ -1,6 +1,6 @@
 --- Tattoo of the Ramako Sniper
 +++ Export
-@@ -11,6 +11,7 @@
+@@ -11,8 +11,9 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
  |tattoo_target                           = Small Dexterity
@@ -8,4 +8,6 @@
  |tattoo_stat_text                        = 8% increased Projectile Speed
 -|description                             = Replaces a Small Dexterity Passive Skill<br>Grants "8% increased Projectile Speed"
 +|description                             = Grants "8% increased Projectile Speed"
- }}
+ |inventory_icon                          = Tattoo dexterity 1
+ |drop_text                               = Can be obtained as a reward for defeating the [[Ramako]] tribe in the [[Trial of the Ancestors]].
+ |is_drop_restricted                      = true

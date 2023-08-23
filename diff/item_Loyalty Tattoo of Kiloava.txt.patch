@@ -1,6 +1,6 @@
 --- Loyalty Tattoo of Kiloava
 +++ Export
-@@ -11,7 +11,10 @@
+@@ -11,9 +11,12 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
  |tattoo_target                           = Small Intelligence
@@ -12,4 +12,6 @@
 +|tattoo_stat_text                        = Trigger Summon Spirit of Kiloava Skill when you Block Damage from a Unique Enemy
 +|tattoo_skill_id                         = TriggerSummonedAncestorKiloava
 +|description                             = Grants "Trigger [[Skill:TriggerSummonedAncestorKiloava|Summon Spirit of Kiloava]] [[Skill]] when you [[Block]] Damage from a Unique Enemy"
- }}
+ |inventory_icon                          = Tattoo intelligence 2
+ |drop_text                               = Can be obtained as a reward for defeating the [[Valako]] tribe in the [[Trial of the Ancestors]].
+ |is_drop_restricted                      = true

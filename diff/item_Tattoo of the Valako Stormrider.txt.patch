@@ -1,6 +1,6 @@
 --- Tattoo of the Valako Stormrider
 +++ Export
-@@ -11,6 +11,7 @@
+@@ -11,10 +11,11 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
  |tattoo_target                           = Small Intelligence
@@ -9,4 +9,9 @@
 +|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Intelligence}} {{c|default|Passive Skill}}
 +|tattoo_stat_text                        = +8% to Lightning Resistance
 +|description                             = Grants "+8% to [[Lightning Resistance]]"
+ |inventory_icon                          = Tattoo intelligence 1
+-|drop_text                               =  Can be obtained as a reward for defeating the [[Valako]] tribe in the [[Trial of the Ancestors]].
++|drop_text                               = Can be obtained as a reward for defeating the [[Valako]] tribe in the [[Trial of the Ancestors]].
+ |is_drop_restricted                      = true
+ |release_version                         = 3.22.0
  }}

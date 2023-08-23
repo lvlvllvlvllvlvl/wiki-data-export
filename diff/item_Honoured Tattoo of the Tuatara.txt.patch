@@ -1,6 +1,6 @@
 --- Honoured Tattoo of the Tuatara
 +++ Export
-@@ -11,6 +11,7 @@
+@@ -11,8 +11,9 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
  |tattoo_target                           = Small Attribute
@@ -8,4 +8,6 @@
  |tattoo_stat_text                        = +4 to all Attributes
 -|description                             = Replaces a Small Attribute Passive Skill<br>Grants "+4 to all Attributes"
 +|description                             = Grants "+4 to all Attributes"
- }}
+ |inventory_icon                          = Honoured tattoo any attribute
+ |drop_text                               = Can be obtained as a reward from [[Hinekora]] for completing a tournament in the [[Trial of the Ancestors]].
+ |is_drop_restricted                      = true

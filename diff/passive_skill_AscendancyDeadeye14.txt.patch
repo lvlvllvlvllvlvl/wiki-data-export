@@ -1,0 +1,16 @@
+--- Passive Skill:AscendancyDeadeye14
++++ Export
+@@ -8,10 +8,8 @@
+ |icon                                = GatherWinds (DeadEye)
+ |stat1_id                            = tailwind_effect_on_self_+%_per_gale_force
+ |stat1_value                         = 15
+-|stat_text                           = Gain 1 Gale Force when you use a Skill<br />15% increased Effect of Tailwind on you per Gale Force<br>8% increased Action Speed<br>You and nearby Allies have Tailwind
+-|stat2_id                            = action_speed_-%
+-|stat2_value                         = -8
+-|stat3_id                            = has_tailwind
+-|stat3_value                         = 1
++|stat_text                           = Gain 1 Gale Force when you use a Skill<br />15% increased Effect of Tailwind on you per Gale Force<br>You and nearby Allies have Tailwind
++|stat2_id                            = has_tailwind
++|stat2_value                         = 1
+ |connections                         = AscendancyDeadeye19,AscendancyDeadeye19,AscendancyDeadeye3
+ }}

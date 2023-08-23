@@ -1,0 +1,25 @@
+--- Tattoo of the Ramako Archer
++++ Export
+@@ -6,15 +6,18 @@
+ |size_y                                  = 1
+ |drop_level                              = 1
+ |tags                                    = currency, default
+-|metadata_id                             = Metadata/Items/Currency/TattoooftheRamakoArcher
++|metadata_id                             = Metadata/Items/Currency/AncestralTattooRamako2
+ |stack_size                              = 10
+-|description                             = Replaces a Small Intelligence Passive Skill<br>Grants "5% increased Global Accuracy Rating"
+-|inventory_icon                          = Tattoo dexterity 1
+ |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
+ |stack_size_currency_tab                 = 5000
++|tattoo_target                           = Small Dexterity
++|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Dexterity}} {{c|default|Passive Skill}}
++|tattoo_stat_text                        = 5% increased Global Accuracy Rating
++|description                             = Grants "5% increased Global [[Accuracy Rating]]"
++|inventory_icon                          = Tattoo dexterity 1
++|drop_text                               = Can be obtained as a reward for defeating the [[Ramako]] tribe in the [[Trial of the Ancestors]].
+ |is_drop_restricted                      = true
+ |release_version                         = 3.22.0
+-|drop_text = Can be obtained as a reward for defeating the [[Ramako]] tribe in the [[Trial of the Ancestors]].
+ }}
+ 
+ '''Tattoo of the Ramako Archer''' is a [[currency]] item. It replaces the stat of a single passive node with a new stat.

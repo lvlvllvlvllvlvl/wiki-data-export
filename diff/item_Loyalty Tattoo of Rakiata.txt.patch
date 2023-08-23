@@ -1,6 +1,6 @@
 --- Loyalty Tattoo of Rakiata
 +++ Export
-@@ -11,7 +11,10 @@
+@@ -11,9 +11,12 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
  |tattoo_target                           = Small Dexterity
@@ -12,4 +12,6 @@
 +|tattoo_stat_text                        = Trigger Summon Spirit of Rakiata Skill on Critical Strike against Marked Unique Enemy
 +|tattoo_skill_id                         = TriggerSummonedAncestorRakiata
 +|description                             = Grants "Trigger [[Skill:TriggerSummonedAncestorRakiata|Summon Spirit of Rakiata]] [[Skill]] on [[Critical Strike]] against Marked Unique Enemy"
- }}
+ |inventory_icon                          = Tattoo dexterity 2
+ |drop_text                               = Can be obtained as a reward for defeating the [[Tasalio]] tribe in the [[Trial of the Ancestors]].
+ |is_drop_restricted                      = true
