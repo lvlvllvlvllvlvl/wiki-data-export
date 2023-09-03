@@ -1,0 +1,20 @@
+{{Mod
+|id                               = LocalIncreasedEvasionRatingPercent7
+|mod_groups                       = DefencesPercent
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 84
+|name                             = Mirage's
+|mod_type                         = LocalEvasionRatingIncreasePercent
+|stat_text                        = (92-100)% increased [[Evasion Rating]]
+|stat1_id                         = local_evasion_rating_+%
+|stat1_min                        = 92
+|stat1_max                        = 100
+|spawn_weight1_tag                = dex_armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = defences, evasion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

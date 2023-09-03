@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeDownsideReservationEfficiency3
+|mod_groups                       = ReducedManaReservationsCost
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 68
+|mod_type                         = ManaReservationEfficiency
+|stat_text                        = (24-18)% reduced [[Mana Reservation]] Efficiency of [[Skill|Skills]]
+|stat1_id                         = base_mana_reservation_efficiency_+%
+|stat1_min                        = -24
+|stat1_max                        = -18
+|spawn_weight1_tag                = amulet
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, mana
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AddPowerChargeOnCritInfluence1
+|mod_groups                       = PowerChargeOnCriticalStrikeChance
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of the Crusade
+|mod_type                         = PowerChargeOnCriticalStrikeChance
+|stat_text                        = 15% chance to gain a [[Power Charge]] on [[Critical Strike]]
+|stat1_id                         = add_power_charge_on_critical_strike_%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = body_armour_crusader
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = power_charge, critical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

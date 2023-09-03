@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MaximumEnergyShieldOnKillPercentUber2
+|mod_groups                       = MaximumEnergyShieldOnKillPercent
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Shaping
+|mod_type                         = MaximumEnergyShieldOnKillPercent
+|stat_text                        = Recover (5-6)% of [[Energy Shield]] on [[Kill]]
+|stat1_id                         = recover_energy_shield_%_on_kill
+|stat1_min                        = 5
+|stat1_max                        = 6
+|spawn_weight1_tag                = body_armour_shaper
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = defences, energy_shield
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

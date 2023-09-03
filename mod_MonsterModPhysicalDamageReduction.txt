@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MonsterModPhysicalDamageReduction
+|mod_groups                       = MonsterModPhysicalDamageReduction
+|domain                           = 3
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Carapaced
+|mod_type                         = MonsterModPhysicalDamageReduction
+|stat_text                        = 50% additional [[Physical Damage]] Reduction (Hidden)
+|stat1_id                         = base_additional_physical_damage_reduction_%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|spawn_weight1_tag                = not_str
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 5000
+}}

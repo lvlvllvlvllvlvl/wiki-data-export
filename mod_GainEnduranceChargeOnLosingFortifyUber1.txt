@@ -1,0 +1,19 @@
+{{Mod
+|id                               = GainEnduranceChargeOnLosingFortifyUber1
+|mod_groups                       = GainEnduranceChargeOnLosingFortify
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = GainEnduranceChargeOnLosingFortify
+|stat_text                        = Gain an [[Endurance Charge]] when you stop being Fortified
+|stat1_id                         = gain_endurance_charge_%_chance_when_you_lose_fortify
+|stat1_min                        = 100
+|stat1_max                        = 100
+|spawn_weight1_tag                = mace_shaper
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = endurance_charge
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

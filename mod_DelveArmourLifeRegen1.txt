@@ -1,0 +1,34 @@
+{{Mod
+|id                               = DelveArmourLifeRegen1
+|mod_groups                       = LifeRegenerationRatePercentage
+|domain                           = 16
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Underground
+|mod_type                         = LifeRegenerationRatePercentage
+|stat_text                        = Regenerate 1% of [[Life]] per second
+|stat1_id                         = life_regeneration_rate_per_minute_%
+|stat1_min                        = 60
+|stat1_max                        = 60
+|spawn_weight1_tag                = abyss_jewel
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = jewel
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = quiver
+|spawn_weight3_value              = 2000
+|spawn_weight4_tag                = shield
+|spawn_weight4_value              = 2000
+|spawn_weight5_tag                = body_armour
+|spawn_weight5_value              = 2000
+|spawn_weight6_tag                = helmet
+|spawn_weight6_value              = 2000
+|spawn_weight7_tag                = gloves
+|spawn_weight7_value              = 2000
+|spawn_weight8_tag                = boots
+|spawn_weight8_value              = 2000
+|spawn_weight9_tag                = default
+|spawn_weight9_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

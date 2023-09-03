@@ -1,0 +1,22 @@
+{{Mod
+|id                               = DualWieldingAttackSpeedJewel
+|mod_groups                       = MeleeTypeSpeed
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Harmonic
+|mod_type                         = AttackSpeedWhileDualWieldingForJewel
+|stat_text                        = (4-6)% increased [[Attack Speed]] while [[Dual Wield|Dual Wielding]]
+|stat1_id                         = attack_speed_while_dual_wielding_+%
+|stat1_min                        = 4
+|stat1_max                        = 6
+|spawn_weight1_tag                = shield_mod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = two_handed_mod
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 500
+|tags                             = attack, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

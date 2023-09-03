@@ -1,0 +1,23 @@
+{{Mod
+|id                               = CrucibleMapMonsterOverwhelmPhysicalDamageReduction
+|mod_groups                       = CrucibleMapMonsterOverwhelmPhysicalDamageReduction
+|domain                           = 33
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Battering
+|mod_type                         = CrucibleMapMonsterOverwhelmPhysicalDamageReduction
+|stat_text                        = Monsters Overwhelm 50% [[Physical Damage]] Reduction
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 14
+|stat1_max                        = 14
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 8
+|stat2_max                        = 8
+|stat3_id                         = map_monsters_enemy_phys_reduction_%_penalty_vs_hit
+|stat3_min                        = 50
+|stat3_max                        = 50
+|spawn_weight1_tag                = crucible_map_low
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

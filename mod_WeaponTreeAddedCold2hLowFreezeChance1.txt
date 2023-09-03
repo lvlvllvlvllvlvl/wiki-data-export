@@ -1,0 +1,22 @@
+{{Mod
+|id                               = WeaponTreeAddedCold2hLowFreezeChance1
+|mod_groups                       = ColdDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeLocalColdDamageAndFreezeChance
+|stat_text                        = Adds 4 to 6 [[Cold Damage]]<br>20% chance to [[Freeze]]
+|stat1_id                         = local_minimum_added_cold_damage
+|stat1_min                        = 4
+|stat1_max                        = 4
+|stat2_id                         = local_maximum_added_cold_damage
+|stat2_min                        = 6
+|stat2_max                        = 6
+|stat3_id                         = base_chance_to_freeze_%
+|stat3_min                        = 20
+|stat3_max                        = 20
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

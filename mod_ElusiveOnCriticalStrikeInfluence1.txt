@@ -1,0 +1,20 @@
+{{Mod
+|id                               = ElusiveOnCriticalStrikeInfluence1
+|mod_groups                       = ElusiveOnCriticalStrike
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Redeemer's
+|mod_type                         = ElusiveOnCriticalStrike
+|stat_text                        = (5-10)% chance to gain Elusive on [[Critical Strike]]
+|stat1_id                         = gain_elusive_on_crit_%_chance
+|stat1_min                        = 5
+|stat1_max                        = 10
+|spawn_weight1_tag                = boots_eyrie
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

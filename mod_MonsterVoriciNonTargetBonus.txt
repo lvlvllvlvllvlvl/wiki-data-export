@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MonsterVoriciNonTargetBonus
+|mod_groups                       = MonsterVoriciNonTargetBonus
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterVoriciNonTargetBonus
+|stat_text                        = 100% increased maximum [[Life]] (Hidden)<br>Regenerate 2% of [[Life]] per second (Hidden)<br>50% reduced Visibility to Enemies (Hidden)
+|stat1_id                         = maximum_life_+%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = life_regeneration_rate_per_minute_%
+|stat2_min                        = 120
+|stat2_max                        = 120
+|stat3_id                         = enemy_aggro_radius_+%
+|stat3_min                        = -50
+|stat3_max                        = -50
+|tags                             = resource, life
+}}

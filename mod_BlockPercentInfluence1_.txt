@@ -1,0 +1,20 @@
+{{Mod
+|id                               = BlockPercentInfluence1_
+|mod_groups                       = BlockPercent
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Conquest
+|mod_type                         = BlockPercent
+|stat_text                        = (2-3)% Chance to [[Block]] [[Attack Damage]]
+|stat1_id                         = monster_base_block_%
+|stat1_min                        = 2
+|stat1_max                        = 3
+|spawn_weight1_tag                = gloves_adjudicator
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = block
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

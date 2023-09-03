@@ -1,0 +1,30 @@
+{{Mod
+|id                               = LocalIncreasedAttackSpeedRangedFasterAttacksUber1
+|mod_groups                       = IncreasedAttackSpeed
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Shaping
+|granted_skill                    = SupportFasterAttack
+|mod_type                         = LocalIncreasedAttackSpeedFasterAttacks
+|stat_text                        = (8-10)% increased [[Attack Speed]]<br>[[Item socket|Socketed]] Gems are Supported by [[Faster Attacks Support|Level 18 Faster Attacks]]
+|stat1_id                         = local_attack_speed_+%
+|stat1_min                        = 8
+|stat1_max                        = 10
+|stat2_id                         = local_display_socketed_gems_get_faster_attacks_level
+|stat2_min                        = 18
+|stat2_max                        = 18
+|spawn_weight1_tag                = wand_shaper
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|generation_weight1_tag           = has_attack_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_caster_mod
+|generation_weight2_value         = 65
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = support, attack, speed, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

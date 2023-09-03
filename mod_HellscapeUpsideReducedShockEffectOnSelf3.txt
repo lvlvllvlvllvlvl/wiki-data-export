@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideReducedShockEffectOnSelf3
+|mod_groups                       = ShockEffect
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = ReducedShockEffectOnSelf
+|stat_text                        = (35-31)% reduced Effect of [[Shock]] on you
+|stat1_id                         = shocked_effect_on_self_+%
+|stat1_min                        = -35
+|stat1_max                        = -31
+|spawn_weight1_tag                = ring
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, lightning, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

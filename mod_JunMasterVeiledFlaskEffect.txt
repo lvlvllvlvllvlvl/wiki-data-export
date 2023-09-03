@@ -1,0 +1,20 @@
+{{Mod
+|id                               = JunMasterVeiledFlaskEffect
+|mod_groups                       = FlaskEffect
+|domain                           = 28
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Chosen
+|mod_type                         = FlaskEffect
+|stat_text                        = Flasks applied to you have (9-10)% increased Effect
+|stat1_id                         = flask_effect_+%
+|stat1_min                        = 9
+|stat1_max                        = 10
+|spawn_weight1_tag                = belt
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, unveiled_mod
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

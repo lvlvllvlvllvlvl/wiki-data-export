@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialAllFireDamageCanShock
+|mod_groups                       = FireShocks
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 84
+|name                             = Rapturous
+|mod_type                         = AllFireDamageCanShock
+|stat_text                        = Your [[Fire Damage]] can [[Shock]]
+|stat1_id                         = fire_damage_can_shock
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 50
+|tags                             = elemental, fire, lightning, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

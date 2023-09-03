@@ -1,0 +1,25 @@
+{{Mod
+|id                               = AbyssCooldownRecoverySpeed1_
+|mod_groups                       = CooldownRecovery
+|domain                           = 13
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Facilitating
+|mod_type                         = GlobalCooldownRecovery
+|stat_text                        = 2% increased Cooldown Recovery Rate
+|stat1_id                         = base_cooldown_speed_+%
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 300
+|spawn_weight2_tag                = abyss_jewel_ranged
+|spawn_weight2_value              = 300
+|spawn_weight3_tag                = abyss_jewel_caster
+|spawn_weight3_value              = 100
+|spawn_weight4_tag                = abyss_jewel_summoner
+|spawn_weight4_value              = 100
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

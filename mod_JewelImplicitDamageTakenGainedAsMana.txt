@@ -1,0 +1,17 @@
+{{Mod
+|id                               = JewelImplicitDamageTakenGainedAsMana
+|mod_groups                       = JewelImplicitDamageTakenGainedAsMana
+|domain                           = 10
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = JewelImplicitDamageTakenGainedAsMana
+|stat_text                        = 1% of Damage taken Recouped as [[Mana]]
+|stat1_id                         = damage_taken_goes_to_mana_%
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = jewel
+|spawn_weight1_value              = 1
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life, mana
+}}

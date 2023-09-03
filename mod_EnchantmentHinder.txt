@@ -1,0 +1,19 @@
+{{Mod
+|id                               = EnchantmentHinder
+|mod_groups                       = BuffEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 83
+|mod_type                         = EnchantmentHinder
+|stat_text                        = Enemies Hindered by you have 50% reduced [[Life]] Regeneration rate
+|stat1_id                         = enemies_you_hinder_have_life_regeneration_rate_+%
+|stat1_min                        = -50
+|stat1_max                        = -50
+|spawn_weight1_tag                = belt
+|spawn_weight1_value              = 1
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

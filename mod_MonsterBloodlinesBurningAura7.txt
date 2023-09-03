@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MonsterBloodlinesBurningAura7
+|mod_groups                       = Bloodlines
+|domain                           = 3
+|generation_type                  = 6
+|required_level                   = 1
+|name                             = Cult of the Elements
+|granted_buff_id                  = monster_aura_burning
+|granted_buff_value               = 30
+|mod_type                         = MonsterBloodlinesBurningAura
+|stat_text                        = Takes 11 of Maximum Life and Maximum Energy Shield as Fire Damage per second (Hidden)
+|stat1_id                         = base_fire_damage_%_of_maximum_life_plus_maximum_ES_taken_per_minute
+|stat1_min                        = 660
+|stat1_max                        = 660
+|tags                             = elemental_damage, damage, elemental, fire
+}}

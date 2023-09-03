@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SpellsDoubleDamageChanceTwoHandInfluence2
+|mod_groups                       = DoubleDamage
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of Redemption
+|mod_type                         = SpellsDoubleDamageChance
+|stat_text                        = [[Spell|Spells]] have a (12-14)% chance to deal Double Damage
+|stat1_id                         = spell_chance_to_deal_double_damage_%
+|stat1_min                        = 12
+|stat1_max                        = 14
+|spawn_weight1_tag                = staff_eyrie
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster_damage, damage, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

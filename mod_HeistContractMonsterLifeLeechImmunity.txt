@@ -1,0 +1,30 @@
+{{Mod
+|id                               = HeistContractMonsterLifeLeechImmunity
+|mod_groups                       = MapMonsterLifeLeechImmunity
+|domain                           = 22
+|generation_type                  = 2
+|required_level                   = 78
+|name                             = of Congealment
+|mod_type                         = HeistContractMonsterLifeLeechImmunity
+|stat_text                        = Cannot [[Leech]] from Monsters
+|stat1_id                         = map_monsters_cannot_be_leeched_from
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = dummy_stat_display_nothing
+|stat2_min                        = 100
+|stat2_max                        = 100
+|stat3_id                         = map_item_drop_quantity_+%
+|stat3_min                        = 16
+|stat3_max                        = 16
+|stat4_id                         = map_item_drop_rarity_+%
+|stat4_min                        = 9
+|stat4_max                        = 9
+|stat5_id                         = heist_monster_spawner_alive_limit_+%
+|stat5_min                        = 6
+|stat5_max                        = 6
+|stat6_id                         = heist_contract_alert_level_+%_final
+|stat6_min                        = -6
+|stat6_max                        = -6
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 300
+}}

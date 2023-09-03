@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideMinionLife3
+|mod_groups                       = MinionLife
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = MinionLife
+|stat_text                        = [[Minion|Minions]] have (12-13)% increased maximum [[Life]]
+|stat1_id                         = minion_maximum_life_+%
+|stat1_min                        = 12
+|stat1_max                        = 13
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life, minion
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapLeaguestoneShrinesGrantAnAdditionalShrineEffect_
+|mod_groups                       = MapLeaguestoneShrinesGrantAnAdditionalShrineEffect
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Wondrous
+|mod_type                         = MapLeaguestoneShrinesGrantAnAdditionalShrineEffect
+|stat_text                        = Shrines in next Area will grant a random additional Shrine Effect
+|stat1_id                         = map_shrines_grant_a_random_additional_effect
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = domination_leaguestone
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

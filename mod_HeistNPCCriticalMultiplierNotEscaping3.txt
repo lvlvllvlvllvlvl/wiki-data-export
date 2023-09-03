@@ -1,0 +1,20 @@
+{{Mod
+|id                               = HeistNPCCriticalMultiplierNotEscaping3
+|mod_groups                       = CriticalStrikeMultiplier
+|domain                           = 23
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Control
+|mod_type                         = HeistNPCCriticalMultiplierNotEscaping
+|stat_text                        = +(20-22)% to [[Critical Strike Multiplier]] while area is not in Lockdown<br />Players have +(20-22)% to [[Critical Strike Multiplier]] while area is not in Lockdown
+|stat1_id                         = critical_strike_multiplier_+_while_not_escaping_heist
+|stat1_min                        = 20
+|stat1_max                        = 22
+|spawn_weight1_tag                = heist_equipment_utility
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

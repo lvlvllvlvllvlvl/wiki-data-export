@@ -1,0 +1,20 @@
+{{Mod
+|id                               = JunMaster2AvoidFreeze1
+|mod_groups                       = AvoidFreeze
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Rin's
+|mod_type                         = AvoidFreeze
+|stat_text                        = 60% chance to Avoid being [[Freeze|Frozen]]
+|stat1_id                         = base_avoid_freeze_%
+|stat1_min                        = 60
+|stat1_max                        = 60
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = unveiled_mod, elemental, cold, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

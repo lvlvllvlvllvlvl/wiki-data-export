@@ -1,0 +1,18 @@
+{{Mod
+|id                               = NotablesGrantMinionDamageTakenUnique__1_
+|mod_groups                       = NotablesGrantDifferentBonus
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = NotablesGrantMinionDamageTaken
+|stat_text                        = Notable Passive [[Skill|Skills]] in Radius are Transformed to<br />instead grant: [[Minion|Minions]] take 20% increased Damage
+|stat1_id                         = local_unique_jewel_notable_passives_in_radius_instead_grant_minion_damage_taken_+%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = local_jewel_effect_base_radius
+|stat2_min                        = 1200
+|stat2_max                        = 1200
+|tags                             = minion
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

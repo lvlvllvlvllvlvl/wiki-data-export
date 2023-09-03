@@ -1,0 +1,21 @@
+{{Mod
+|id                               = ColdAndPhysicalNodesInRadiusSwapPropertiesUniqueJewel48_
+|mod_groups                       = PassiveJewelGrantsRadius
+|domain                           = 10
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = ColdAndPhysicalNodesInRadiusSwapProperties
+|stat_text                        = Increases and Reductions to [[Physical Damage]] in Radius are Transformed to apply to [[Cold Damage]]<br>Increases and Reductions to [[Cold Damage]] in Radius are Transformed to apply to [[Physical Damage]]
+|stat1_id                         = local_unique_jewel_physical_damage_increases_applies_to_cold_damage
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_unique_jewel_cold_damage_increases_applies_to_physical_damage
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = local_jewel_effect_base_radius
+|stat3_min                        = 1500
+|stat3_max                        = 1500
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, cold
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

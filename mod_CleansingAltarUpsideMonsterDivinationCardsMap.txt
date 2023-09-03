@@ -1,0 +1,18 @@
+{{Mod
+|id                               = CleansingAltarUpsideMonsterDivinationCardsMap
+|mod_groups                       = CleansingAltarUpsideMonsterDivinationCardsMap
+|domain                           = 29
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = CleansingAltarUpsideMonsterDivinationCardsMap
+|stat_text                        = (1.6-3.2)% chance to drop an additional Divination Card which rewards a Map
+|stat1_id                         = chance_%_to_drop_additional_divination_cards_map
+|stat1_min                        = 16
+|stat1_max                        = 32
+|spawn_weight1_tag                = primordial_altar_downside
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = cleansing_fire_altar
+|spawn_weight2_value              = 20315
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

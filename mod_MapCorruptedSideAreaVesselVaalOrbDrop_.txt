@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapCorruptedSideAreaVesselVaalOrbDrop_
+|mod_groups                       = MapVesselVaalOrbDrop
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 69
+|name                             = of Experimentation
+|mod_type                         = MapCorruptedSideAreaVesselVaalOrbDrop
+|stat_text                        = Vaal Vessel contains (1-3) additional Vaal Orbs
+|stat1_id                         = map_vaal_vessel_drop_X_vaal_orbs
+|stat1_min                        = 1
+|stat1_max                        = 3
+|spawn_weight1_tag                = map_device
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = secret_area
+|spawn_weight2_value              = 800
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

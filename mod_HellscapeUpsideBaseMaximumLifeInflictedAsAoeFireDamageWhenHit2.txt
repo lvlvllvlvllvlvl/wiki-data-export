@@ -1,0 +1,17 @@
+{{Mod
+|id                               = HellscapeUpsideBaseMaximumLifeInflictedAsAoeFireDamageWhenHit2
+|mod_groups                       = BaseMaximumLifeInflictedAsAoeFireDamageWhenHit
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 45
+|mod_type                         = BaseMaximumLifeInflictedAsAoeFireDamageWhenHit
+|stat_text                        = Deal (8-11)% of your maximum [[Life]] as [[Fire Damage]] to nearby Enemies when [[Hit]]
+|stat1_id                         = base_%_maximum_life_inflicted_as_aoe_fire_damage_when_hit
+|stat1_min                        = 8
+|stat1_max                        = 11
+|spawn_weight1_tag                = body_armour
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire
+}}

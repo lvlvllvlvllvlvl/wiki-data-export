@@ -1,0 +1,23 @@
+{{Mod
+|id                               = AdditionalCurseOnEnemiesInfluenceMaven_
+|mod_groups                       = AdditionalCurseOnEnemies
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 92
+|name                             = Elevated Hunter's
+|mod_type                         = OLDAdditionalCurseOnEnemiesMaven
+|stat_text                        = You can apply an additional [[Curse]]<br>20% increased [[Mana Reservation]] Efficiency of [[Curse]] Aura [[Skill|Skills]]
+|stat1_id                         = number_of_additional_curses_allowed
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = curse_aura_skills_mana_reservation_efficiency_-2%_per_1
+|stat2_min                        = -10
+|stat2_max                        = -10
+|spawn_weight1_tag                = body_armour_basilisk
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, mana, caster, aura, curse
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

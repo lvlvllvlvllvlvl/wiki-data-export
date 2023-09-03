@@ -1,0 +1,30 @@
+{{Mod
+|id                               = DelveArmourAvoidBleeding1
+|mod_groups                       = ChanceToAvoidBleeding
+|domain                           = 16
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Underground
+|mod_type                         = ChanceToAvoidBleeding
+|stat_text                        = 50% chance to Avoid Bleeding
+|stat1_id                         = base_avoid_bleed_%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|spawn_weight1_tag                = abyss_jewel
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = jewel
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = shield
+|spawn_weight3_value              = 1600
+|spawn_weight4_tag                = helmet
+|spawn_weight4_value              = 1600
+|spawn_weight5_tag                = boots
+|spawn_weight5_value              = 1600
+|spawn_weight6_tag                = body_armour
+|spawn_weight6_value              = 1600
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+|tags                             = bleed, physical, attack, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = EnchantmentBerserkRageLoss1__
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Berserk Rage Loss 1
+|mod_type                         = EnchantmentBerserkRageLoss
+|stat_text                        = Berserk has 25% reduced Rage loss per second
+|stat1_id                         = berserk_rage_loss_+%
+|stat1_min                        = -25
+|stat1_max                        = -25
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

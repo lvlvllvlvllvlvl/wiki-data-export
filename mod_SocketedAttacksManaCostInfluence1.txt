@@ -1,0 +1,21 @@
+{{Mod
+|id                               = SocketedAttacksManaCostInfluence1
+|mod_groups                       = SocketedAttacksManaCost
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 85
+|name                             = of the Conquest
+|granted_skill                    = DelveModSocketedAttackFlatManaCost
+|mod_type                         = SocketedAttacksManaCost
+|stat_text                        = [[Item socket|Socketed]] [[Attack|Attacks]] have -15 to Total [[Mana]] Cost
+|stat1_id                         = local_display_socketed_attacks_mana_cost_+
+|stat1_min                        = -15
+|stat1_max                        = -15
+|spawn_weight1_tag                = body_armour_adjudicator
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = skill, resource, mana, attack, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

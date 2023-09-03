@@ -1,0 +1,19 @@
+{{Mod
+|id                               = V2ReducedChaosDamageTakenCorrupted
+|mod_groups                       = ChaosDamageTakenPercentage
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 45
+|mod_type                         = ChaosDamageTakenPercentage
+|stat_text                        = (6-4)% reduced [[Chaos Damage]] taken
+|stat1_id                         = chaos_damage_taken_+%
+|stat1_min                        = -6
+|stat1_max                        = -4
+|spawn_weight1_tag                = body_armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = chaos
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

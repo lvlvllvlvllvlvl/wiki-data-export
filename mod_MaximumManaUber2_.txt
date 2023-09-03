@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MaximumManaUber2_
+|mod_groups                       = MaximumManaIncreasePercent
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = The Elder's
+|mod_type                         = MaximumManaIncreasePercent
+|stat_text                        = (12-15)% increased maximum [[Mana]]
+|stat1_id                         = maximum_mana_+%
+|stat1_min                        = 12
+|stat1_max                        = 15
+|spawn_weight1_tag                = helmet_elder
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, mana
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

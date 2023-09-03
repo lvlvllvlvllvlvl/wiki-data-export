@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HeistNPCIncreasedCoins1_
+|mod_groups                       = HeistNPCIncreasedCoins
+|domain                           = 23
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Rookie's
+|mod_type                         = HeistNPCIncreasedCoins
+|stat_text                        = Monsters have (7-8)% chance to Duplicate dropped Rogue's Marker
+|stat1_id                         = heist_coins_dropped_by_monsters_double_%
+|stat1_min                        = 7
+|stat1_max                        = 8
+|spawn_weight1_tag                = heist_equipment_reward
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

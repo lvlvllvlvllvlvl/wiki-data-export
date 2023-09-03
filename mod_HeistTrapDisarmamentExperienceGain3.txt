@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HeistTrapDisarmamentExperienceGain3
+|mod_groups                       = HeistNPCSpecificJobExperience
+|domain                           = 23
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Complex
+|mod_type                         = HeistTrapDisarmamentExperienceGain
+|stat_text                        = (7-8)% increased [[Trap]] Disarmament Experience gained
+|stat1_id                         = heist_contract_npc_trap_disarmament_experience_gain_+%
+|stat1_min                        = 7
+|stat1_max                        = 8
+|spawn_weight1_tag                = heist_equipment_trapdisarmament
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

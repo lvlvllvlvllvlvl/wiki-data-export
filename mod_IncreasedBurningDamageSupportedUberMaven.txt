@@ -1,0 +1,24 @@
+{{Mod
+|id                               = IncreasedBurningDamageSupportedUberMaven
+|mod_groups                       = HelmetAilmentUber
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 92
+|name                             = of the Elevated Elder
+|granted_skill                    = SupportIncreasedBurningDamage
+|mod_type                         = BurningDamageSupported
+|stat_text                        = (31-35)% increased Burning Damage<br>[[Item socket|Socketed]] Gems are Supported by [[Burning Damage Support|Level 25 Burning Damage]]
+|stat1_id                         = burn_damage_+%
+|stat1_min                        = 31
+|stat1_max                        = 35
+|stat2_id                         = local_display_socketed_gems_supported_by_level_x_increased_burning_damage
+|stat2_min                        = 25
+|stat2_max                        = 25
+|spawn_weight1_tag                = helmet_elder
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, elemental_damage, damage, elemental, fire, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

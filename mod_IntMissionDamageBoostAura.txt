@@ -1,0 +1,15 @@
+{{Mod
+|id                               = IntMissionDamageBoostAura
+|mod_groups                       = MonsterAura
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = int_mission_dying_breath_aura
+|granted_buff_value               = 50
+|mod_type                         = MonsterAuraLargeDamageAll
+|stat_text                        = 35% increased Damage (Hidden)
+|stat1_id                         = damage_+%
+|stat1_min                        = 35
+|stat1_max                        = 35
+|tags                             = damage
+}}

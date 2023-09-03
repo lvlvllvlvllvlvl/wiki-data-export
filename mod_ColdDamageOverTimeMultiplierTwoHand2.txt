@@ -1,0 +1,28 @@
+{{Mod
+|id                               = ColdDamageOverTimeMultiplierTwoHand2
+|mod_groups                       = DamageOverTimeMultiplier
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 12
+|name                             = of the Bleak
+|mod_type                         = ColdDamageOverTimeMultiplier
+|stat_text                        = +(36-45)% to [[Cold Damage]] over Time Multiplier
+|stat1_id                         = cold_dot_multiplier_+
+|stat1_min                        = 36
+|stat1_max                        = 45
+|spawn_weight1_tag                = attack_staff
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = staff
+|spawn_weight2_value              = 300
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|generation_weight1_tag           = has_caster_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_attack_mod
+|generation_weight2_value         = 50
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = dot_multi, elemental_damage, damage, elemental, cold
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

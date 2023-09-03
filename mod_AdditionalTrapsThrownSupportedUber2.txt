@@ -1,0 +1,24 @@
+{{Mod
+|id                               = AdditionalTrapsThrownSupportedUber2
+|mod_groups                       = TrapSupported
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Shaping
+|granted_skill                    = SupportTrap
+|mod_type                         = AdditionalTrapsThrownSupported
+|stat_text                        = [[Skill|Skills]] which Throw [[Trap|Traps]] throw up to 1 additional [[Trap]]<br>[[Item socket|Socketed]] Gems are Supported by [[Trap Support|Level 20 Trap]]
+|stat1_id                         = number_of_additional_traps_to_throw
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_display_socketed_gems_get_trap_level
+|stat2_min                        = 20
+|stat2_max                        = 20
+|spawn_weight1_tag                = gloves_shaper
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

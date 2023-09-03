@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MapLeaguestoneAreaContainsChayulaBreach
+|mod_groups                       = MapLeaguestoneAreaContainsChayulaBreach
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Dreaming
+|mod_type                         = MapLeaguestoneAreaContainsChayulaBreach
+|stat_text                        = Next Area will contain a Chayula Breach
+|stat1_id                         = map_contains_chayula_breach
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = leaguestone_prefix_minimum_area_level
+|stat2_min                        = 68
+|stat2_max                        = 68
+|spawn_weight1_tag                = breach_leaguestone
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

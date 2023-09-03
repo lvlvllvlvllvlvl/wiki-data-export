@@ -1,0 +1,22 @@
+{{Mod
+|id                               = EnemiesExplodeOnDeathDealingFireUber1
+|mod_groups                       = EnemiesExplodeOnDeath
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Shaping
+|mod_type                         = EnemiesExplodeOnDeath
+|stat_text                        = Enemies Killed with [[Attack]] or [[Spell]] [[Hit|Hits]] Explode, dealing 5% of their [[Life]] as [[Fire Damage]]
+|stat1_id                         = explode_on_kill_%_fire_damage_to_deal
+|stat1_min                        = 5
+|stat1_max                        = 5
+|spawn_weight1_tag                = 2h_mace_shaper
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = mace_shaper
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

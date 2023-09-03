@@ -1,0 +1,23 @@
+{{Mod
+|id                               = BleedDamageAndDurationInfluence1__
+|mod_groups                       = BleedingDamage
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Conquest
+|mod_type                         = BleedDamageAndDuration
+|stat_text                        = (8-12)% increased Damage with Bleeding<br>(5-6)% increased Bleeding Duration
+|stat1_id                         = bleeding_damage_+%
+|stat1_min                        = 8
+|stat1_max                        = 12
+|stat2_id                         = base_bleed_duration_+%
+|stat2_min                        = 5
+|stat2_max                        = 6
+|spawn_weight1_tag                = ring_adjudicator
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical_damage, bleed, damage, physical, attack, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

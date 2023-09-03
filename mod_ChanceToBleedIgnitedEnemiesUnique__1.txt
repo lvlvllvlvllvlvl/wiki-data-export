@@ -1,0 +1,15 @@
+{{Mod
+|id                               = ChanceToBleedIgnitedEnemiesUnique__1
+|mod_groups                       = ChanceToBleed
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = ChanceToBleedIgnitedEnemies
+|stat_text                        = [[Attack|Attacks]] with this Weapon have 25% chance to inflict Bleeding against Ignited Enemies
+|stat1_id                         = local_chance_bleed_on_hit_%_vs_ignited_enemies
+|stat1_min                        = 25
+|stat1_max                        = 25
+|tags                             = bleed, physical, attack, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

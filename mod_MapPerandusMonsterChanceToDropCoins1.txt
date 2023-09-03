@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapPerandusMonsterChanceToDropCoins1
+|mod_groups                       = MapPerandusMonsterChanceToDropCoins
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Highwayman's
+|mod_type                         = MapPerandusMonsterChanceToDropCoins
+|stat_text                        = Perandus Monsters in the next Area will have a (15-20)% chance to drop Perandus Coins
+|stat1_id                         = map_perandus_monsters_drop_perandus_coin_stack_%
+|stat1_min                        = 15
+|stat1_max                        = 20
+|spawn_weight1_tag                = perandus_leaguestone
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

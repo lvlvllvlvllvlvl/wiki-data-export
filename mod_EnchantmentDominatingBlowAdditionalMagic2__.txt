@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentDominatingBlowAdditionalMagic2__
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Dominating Blow Additional Magic 2
+|mod_type                         = EnchantmentDominatingBlowAdditionalMagic
+|stat_text                        = [[Dominating Blow]] can summon 3 additional Magic Sentinels of Dominance
+|stat1_id                         = additional_max_number_of_dominated_magic_monsters
+|stat1_min                        = 3
+|stat1_max                        = 3
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, minion
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

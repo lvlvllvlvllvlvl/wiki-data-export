@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MonsterArchnemesisMinionFlameTouched_
+|mod_groups                       = MonsterArchnemesis
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterArchnemesisFlameTouchedMinion
+|stat_text                        = 25% of [[Physical Damage]] Converted to [[Fire Damage]] (Hidden)<br>50% increased [[Fire Damage]] (Hidden)<br>+50% to [[Fire Resistance]] (Hidden)
+|stat1_id                         = base_physical_damage_%_to_convert_to_fire
+|stat1_min                        = 25
+|stat1_max                        = 25
+|stat2_id                         = fire_damage_+%
+|stat2_min                        = 50
+|stat2_max                        = 50
+|stat3_id                         = base_fire_damage_resistance_%
+|stat3_min                        = 50
+|stat3_max                        = 50
+}}

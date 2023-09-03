@@ -1,0 +1,24 @@
+{{Mod
+|id                               = HellscapeDownsideNearbyEnemiesTakeReducedColdDamage3_
+|mod_groups                       = LocalDisplayNearbyEnemyColdDamageResistance
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 68
+|granted_buff_id                  = reduced_enemy_cold_resistance_from_hellscape_item
+|granted_buff_value               = 60
+|mod_type                         = NearbyEnemyColdDamageResistance
+|stat_text                        = Nearby Enemies have +9% to [[Cold Resistance]]<br>+9% to [[Cold Resistance]]
+|stat1_id                         = local_display_nearby_enemy_cold_damage_resistance_%
+|stat1_min                        = 9
+|stat1_max                        = 9
+|stat2_id                         = base_cold_damage_resistance_%
+|stat2_min                        = 9
+|stat2_max                        = 9
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, cold, resistance
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

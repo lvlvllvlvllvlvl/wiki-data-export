@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentLifeAndManaLeechOnKill2_
+|mod_groups                       = ConditionalBuffEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Leech 2
+|mod_type                         = EnchantmentLifeAndManaLeechOnKill
+|stat_text                        = 0.5% of Damage Leeched as [[Life]] if you've Killed [[Recently]]
+|stat1_id                         = enchantment_boots_life_leech_on_kill_permyriad
+|stat1_min                        = 50
+|stat1_max                        = 50
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

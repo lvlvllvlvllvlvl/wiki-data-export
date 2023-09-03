@@ -1,0 +1,18 @@
+{{Mod
+|id                               = CleansingAltarUpsideMonsterChaosOrb
+|mod_groups                       = CleansingAltarUpsideMonsterChaosOrb
+|domain                           = 29
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = CleansingAltarUpsideMonsterChaosOrb
+|stat_text                        = (1.6-3.2)% chance to drop an additional Chaos Orb
+|stat1_id                         = chance_%_to_drop_additional_chaos_orb
+|stat1_min                        = 16
+|stat1_max                        = 32
+|spawn_weight1_tag                = primordial_altar_downside
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = cleansing_fire_altar
+|spawn_weight2_value              = 48000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

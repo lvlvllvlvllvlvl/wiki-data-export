@@ -1,0 +1,23 @@
+{{Mod
+|id                               = ReducedPhysicalReflectTakenUberMaven
+|mod_groups                       = ReflectedDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 85
+|name                             = Elevated Elder's
+|mod_type                         = ReducedPhysicalReflectTakenMaven
+|stat_text                        = You and your [[Minion|Minions]] take 100% reduced Reflected [[Physical Damage]]<br>(5-3)% reduced [[Physical Damage]] taken
+|stat1_id                         = physical_reflect_damage_taken_and_minion_physical_reflect_damage_taken_+%
+|stat1_min                        = -100
+|stat1_max                        = -100
+|stat2_id                         = physical_damage_taken_+%
+|stat2_min                        = -5
+|stat2_max                        = -3
+|spawn_weight1_tag                = body_armour_elder
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

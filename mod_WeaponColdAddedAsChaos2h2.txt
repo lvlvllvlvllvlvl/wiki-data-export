@@ -1,0 +1,18 @@
+{{Mod
+|id                               = WeaponColdAddedAsChaos2h2
+|mod_groups                       = NonChaosAddedAsChaos
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 72
+|name                             = Festering
+|mod_type                         = ColdAddedAsChaos
+|stat_text                        = Gain (15-20)% of [[Cold Damage]] as Extra [[Chaos Damage]]
+|stat1_id                         = cold_damage_%_to_add_as_chaos
+|stat1_min                        = 15
+|stat1_max                        = 20
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, chaos_damage, damage, elemental, cold, chaos
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

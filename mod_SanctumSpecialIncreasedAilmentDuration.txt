@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialIncreasedAilmentDuration
+|mod_groups                       = IncreasedAilmentDuration
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Prolonged Suffering
+|mod_type                         = IncreasedAilmentDuration
+|stat_text                        = (20-30)% increased Duration of Ailments on Enemies
+|stat1_id                         = base_all_ailment_duration_+%
+|stat1_min                        = 20
+|stat1_max                        = 30
+|spawn_weight1_tag                = dex_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

@@ -1,0 +1,30 @@
+{{Mod
+|id                               = MapDesecratedGround2Map2Tier
+|mod_groups                       = MapGroundEffect
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Desecration
+|mod_type                         = MapDesecratedGroundMap2Tier
+|stat_text                        = 12% increased Quantity of Items found in this Area<br>6% increased Rarity of Items found in this Area<br>Area has patches of desecrated ground<br>24 patches with Ground Effect per 100 tiles (Hidden)<br>Ground Effect has a radius of 16 (Hidden)
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 12
+|stat1_max                        = 12
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 6
+|stat2_max                        = 6
+|stat3_id                         = map_base_ground_desecration_damage_to_deal_per_minute
+|stat3_min                        = 12000
+|stat3_max                        = 12000
+|stat4_id                         = map_ground_effect_patches_per_100_tiles
+|stat4_min                        = 24
+|stat4_max                        = 24
+|stat5_id                         = map_ground_effect_radius
+|stat5_min                        = 16
+|stat5_max                        = 16
+|spawn_weight1_tag                = mid_tier_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = chaos_damage, damage, chaos
+}}

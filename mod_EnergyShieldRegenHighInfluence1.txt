@@ -1,0 +1,22 @@
+{{Mod
+|id                               = EnergyShieldRegenHighInfluence1
+|mod_groups                       = EnergyShieldRegeneration
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Crusade
+|mod_type                         = EnergyShieldRegenerationPerMinute
+|stat_text                        = Regenerate (1.5-2.5)% of [[Energy Shield]] per second
+|stat1_id                         = base_energy_shield_regeneration_rate_per_minute_%
+|stat1_min                        = 90
+|stat1_max                        = 150
+|spawn_weight1_tag                = shield_crusader
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = amulet_crusader
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = defences, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

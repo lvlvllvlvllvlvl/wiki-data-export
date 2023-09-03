@@ -1,0 +1,18 @@
+{{Mod
+|id                               = AddsPhysicalDamagePer3PlayerLevelsUnique__1_
+|mod_groups                       = AddsPhysicalDamagePer3PlayerLevels
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = AddsPhysicalDamagePer3PlayerLevels
+|stat_text                        = Adds 3 to 5 [[Physical Damage]] to [[Attack|Attacks]] with this Weapon per 3 Player Levels
+|stat1_id                         = local_attack_minimum_added_physical_damage_per_3_levels
+|stat1_min                        = 3
+|stat1_max                        = 3
+|stat2_id                         = local_attack_maximum_added_physical_damage_per_3_levels
+|stat2_min                        = 5
+|stat2_max                        = 5
+|tags                             = physical_damage, damage, physical, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

@@ -1,0 +1,22 @@
+{{Mod
+|id                               = WeaponTreeSpellCriticalStrikeChance2h3
+|mod_groups                       = AdditionalCriticalStrikeChanceWithSpells
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 60
+|mod_type                         = WeaponTreeAdditionalCriticalStrikeChanceWithSpells
+|stat_text                        = +1% to [[Spell]] [[Critical Strike Chance]]
+|stat1_id                         = spell_additional_critical_strike_chance_permyriad
+|stat1_min                        = 100
+|stat1_max                        = 100
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = attack_staff
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = staff
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+}}

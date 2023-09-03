@@ -1,0 +1,36 @@
+{{Mod
+|id                               = MonsterArchnemesisBonebreakerMagic
+|mod_groups                       = MonsterArchnemesisBonebreaker
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 24
+|name                             = of Stunning
+|mod_type                         = MonsterArchnemesisBonebreakerMagic
+|stat_text                        = 50% reduced Enemy Stun Threshold (Hidden)<br>25% chance to double Stun Duration (Hidden)<br>60% increased Global [[Physical Damage]] (Hidden)<br>40% reduced [[Attack]] and [[Cast Speed]] (Hidden)<br>100% increased Global [[Accuracy Rating]] (Hidden)<br>250% increased Stun Threshold (Hidden)
+|stat1_id                         = base_stun_threshold_reduction_+%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = chance_to_double_stun_duration_%
+|stat2_min                        = 25
+|stat2_max                        = 25
+|stat3_id                         = physical_damage_+%
+|stat3_min                        = 60
+|stat3_max                        = 60
+|stat4_id                         = attack_and_cast_speed_+%
+|stat4_min                        = -40
+|stat4_max                        = -40
+|stat5_id                         = accuracy_rating_+%
+|stat5_min                        = 100
+|stat5_max                        = 100
+|stat6_id                         = stun_threshold_+%
+|stat6_min                        = 250
+|stat6_max                        = 250
+|spawn_weight1_tag                = no_common_monster_mods
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = rare
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 3000
+}}

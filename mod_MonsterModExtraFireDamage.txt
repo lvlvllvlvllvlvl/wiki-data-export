@@ -1,0 +1,22 @@
+{{Mod
+|id                               = MonsterModExtraFireDamage
+|mod_groups                       = MonsterModExtraFireDamage
+|domain                           = 3
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Flames
+|mod_type                         = MonsterModExtraFireDamage
+|stat_text                        = Gain 50% of [[Physical Damage]] as Extra [[Fire Damage]] (Hidden)<br>Inflict Fire Exposure on Hit, applying -25% to [[Fire Resistance]] (Hidden)
+|stat1_id                         = physical_damage_%_to_add_as_fire
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = fire_exposure_on_hit_magnitude
+|stat2_min                        = -25
+|stat2_max                        = -25
+|spawn_weight1_tag                = cold_affinity
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = lightning_affinity
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 5000
+}}

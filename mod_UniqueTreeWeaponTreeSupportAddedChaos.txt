@@ -1,0 +1,17 @@
+{{Mod
+|id                               = UniqueTreeWeaponTreeSupportAddedChaos
+|mod_groups                       = WeaponTreeSupportAddedChaos
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|granted_skill                    = SupportAddedChaosDamage
+|mod_type                         = WeaponTreeSupportAddedChaos
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Added Chaos Damage Support|Level 30 Added Chaos Damage]]
+|stat1_id                         = local_display_socketed_gems_get_added_chaos_damage_level
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = crucible_unique_staff
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,16 @@
+{{Mod
+|id                               = LocalIncreasedEnergyShieldPercentAndStunRecoveryUniqueHelmetInt2
+|mod_groups                       = IncreasedEnergyShieldAndStunRecovery
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = IncreasedEnergyShieldAndStunRecovery
+|stat_text                        = +(30-50) to maximum [[Energy Shield]]<br>(10-15)% increased Stun and [[Block]] Recovery
+|stat1_id                         = local_energy_shield
+|stat1_min                        = 30
+|stat1_max                        = 50
+|stat2_id                         = base_stun_recovery_+%
+|stat2_min                        = 10
+|stat2_max                        = 15
+|tags                             = defences, energy_shield
+}}

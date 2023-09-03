@@ -1,0 +1,32 @@
+{{Mod
+|id                               = HellscapeDownsideDexterityRequirement2_
+|mod_groups                       = HellscapeDownsideDexterityRequirement
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 45
+|mod_type                         = HellscapeDownsideDexterityRequirement
+|stat_text                        = +(75-125) [[Dexterity]] Requirement
+|stat1_id                         = local_dexterity_requirement_+
+|stat1_min                        = 75
+|stat1_max                        = 125
+|spawn_weight1_tag                = dex_armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = dex_int_armour
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = str_dex_armour
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = str_dex_int_armour
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = bow
+|spawn_weight5_value              = 1000
+|spawn_weight6_tag                = sword
+|spawn_weight6_value              = 1000
+|spawn_weight7_tag                = axe
+|spawn_weight7_value              = 1000
+|spawn_weight8_tag                = claw
+|spawn_weight8_value              = 1000
+|spawn_weight9_tag                = dagger
+|spawn_weight9_value              = 1000
+|spawn_weight10_tag               = default
+|spawn_weight10_value             = 0
+}}

@@ -1,0 +1,26 @@
+{{Mod
+|id                               = MapTempestUberPoison
+|mod_groups                       = MapEclipse
+|domain                           = 5
+|generation_type                  = 8
+|required_level                   = 1
+|name                             = of Contamination
+|mod_type                         = MapTempestPoison
+|stat_text                        = Area has patches of desecrated ground<br>20 patches with a Tempest Ground Effect per 100 tiles (Hidden)<br>Tempest Ground Effect has a radius of 14 (Hidden)<br>Monsters Poison on Hit (Hidden)<br>Monsters deal 10% extra Damage as Chaos (Hidden)
+|stat1_id                         = map_tempest_base_ground_desecration_damage_to_deal_per_minute
+|stat1_min                        = 10000
+|stat1_max                        = 10000
+|stat2_id                         = map_tempest_ground_effect_patches_per_100_tiles
+|stat2_min                        = 20
+|stat2_max                        = 20
+|stat3_id                         = map_tempest_ground_effect_radius
+|stat3_min                        = 14
+|stat3_max                        = 14
+|stat4_id                         = map_hidden_monsters_poison_on_hit
+|stat4_min                        = 1
+|stat4_max                        = 1
+|stat5_id                         = map_hidden_monsters_%_physical_damage_to_add_as_chaos
+|stat5_min                        = 10
+|stat5_max                        = 10
+|tags                             = physical_damage, chaos_damage, damage, physical, chaos
+}}

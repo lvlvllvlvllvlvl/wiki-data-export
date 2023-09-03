@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SublimeVisionGrace
+|mod_groups                       = AuraBonus
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = SublimeVisionGrace
+|stat_text                        = +1 to Maximum [[Frenzy Charge|Frenzy Charges]] while affected by [[Grace]]<br>Aura [[Skill|Skills]] other than [[Grace]] are Disabled<br>Auras from your [[Skill|Skills]] have (20-40)% increased Effect on you
+|stat1_id                         = maximum_frenzy_charges_+_while_affected_by_grace
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = your_auras_except_grace_are_disabled
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = aura_effect_on_self_from_your_skills_+%
+|stat3_min                        = 20
+|stat3_max                        = 40
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

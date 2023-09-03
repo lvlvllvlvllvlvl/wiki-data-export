@@ -1,0 +1,20 @@
+{{Mod
+|id                               = LightningDamageInfluence1__
+|mod_groups                       = LightningDamagePercentagePrefix
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Crusader's
+|mod_type                         = LightningDamagePercentagePrefix
+|stat_text                        = (16-20)% increased [[Lightning Damage]]
+|stat1_id                         = lightning_damage_+%
+|stat1_min                        = 16
+|stat1_max                        = 20
+|spawn_weight1_tag                = belt_crusader
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, lightning
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

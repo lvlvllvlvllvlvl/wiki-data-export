@@ -1,0 +1,19 @@
+{{Mod
+|id                               = ChanceToDodgeUberMaven
+|mod_groups                       = ChanceToSuppressSpells
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 94
+|name                             = of Elevated Shaping
+|mod_type                         = ChanceToSuppressSpellsMavenOld
+|stat_text                        = +(16.5-18)% chance to Suppress [[Spell Damage]]
+|stat1_id                         = base_spell_suppression_chance_150%_of_value
+|stat1_min                        = 11
+|stat1_max                        = 12
+|spawn_weight1_tag                = boots_shaper
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

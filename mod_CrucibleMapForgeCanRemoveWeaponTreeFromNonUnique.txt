@@ -1,0 +1,17 @@
+{{Mod
+|id                               = CrucibleMapForgeCanRemoveWeaponTreeFromNonUnique
+|mod_groups                       = CrucibleMapRareUniqueForgeCanApplyWeaponTreeToUnique
+|domain                           = 33
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Quenching
+|mod_type                         = CrucibleMapForgeCanRemoveWeaponTreeFromNonUnique
+|stat_text                        = Contains a Furnace that removes a Crucible Passive [[Skill]] Tree from a Non-Unique Item
+|stat1_id                         = map_crucible_contains_forge_that_can_remove_weapon_tree
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = crucible_map
+|spawn_weight1_value              = 5000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

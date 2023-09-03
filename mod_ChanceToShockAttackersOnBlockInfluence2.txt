@@ -1,0 +1,24 @@
+{{Mod
+|id                               = ChanceToShockAttackersOnBlockInfluence2
+|mod_groups                       = ChanceToShockAttackersOnBlock
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Crusade
+|mod_type                         = ChanceToShockAttackersOnBlock
+|stat_text                        = (41-50)% chance to [[Shock]] Attackers for 4 seconds on [[Block]]
+|stat1_id                         = shock_attackers_for_4_seconds_on_block_%_chance
+|stat1_min                        = 41
+|stat1_max                        = 50
+|spawn_weight1_tag                = shield_crusader
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = staff_crusader
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = warstaff_crusader
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = block, elemental, lightning, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HeistNPCPrimaryTargetValue4_
+|mod_groups                       = HeistNPCPrimaryTargetValue
+|domain                           = 23
+|generation_type                  = 1
+|required_level                   = 82
+|name                             = Sponsor's
+|mod_type                         = HeistNPCPrimaryTargetValue
+|stat_text                        = (23-25)% increased Rogue's Marker value of primary Heist Target
+|stat1_id                         = heist_contract_primary_target_value_+%
+|stat1_min                        = 23
+|stat1_max                        = 25
+|spawn_weight1_tag                = heist_equipment_reward
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentRiposteCooldownSpeed1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Riposte Cooldown Speed 1
+|mod_type                         = EnchantmentRiposteCooldownSpeed
+|stat_text                        = [[Riposte]] has 20% increased Cooldown Recovery Rate
+|stat1_id                         = riposte_cooldown_speed_+%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

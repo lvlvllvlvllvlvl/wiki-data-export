@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MapCorruptedSideAreaMonstersAvoidAilments
+|mod_groups                       = MapCorruptedSideAreaMonstersAvoidAilments
+|domain                           = 5
+|generation_type                  = 1
+|required_level                   = 69
+|name                             = Insulating
+|mod_type                         = MapCorruptedSideAreaMonstersAvoidAilments
+|stat_text                        = 16% increased Quantity of Items found in this Area<br>Found Items have 2% chance to drop Corrupted in Area<br>Monsters have (70-80)% chance to Avoid Ailments
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 16
+|stat1_max                        = 16
+|stat2_id                         = map_items_drop_corrupted_%
+|stat2_min                        = 2
+|stat2_max                        = 2
+|stat3_id                         = map_monsters_avoid_ailments_%
+|stat3_min                        = 70
+|stat3_max                        = 80
+|spawn_weight1_tag                = secret_area
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = ailment
+}}

@@ -1,0 +1,23 @@
+{{Mod
+|id                               = AbyssSpellAddedLightningDamageJewel2
+|mod_groups                       = SpellAddedLightningSuffix
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 43
+|name                             = of Electricity
+|mod_type                         = SpellAddedLightningSuffix
+|stat_text                        = Adds (1-3) to (20-24) [[Lightning Damage]] to [[Spell|Spells]]
+|stat1_id                         = spell_minimum_added_lightning_damage
+|stat1_min                        = 1
+|stat1_max                        = 3
+|stat2_id                         = spell_maximum_added_lightning_damage
+|stat2_min                        = 20
+|stat2_max                        = 24
+|spawn_weight1_tag                = abyss_jewel_caster
+|spawn_weight1_value              = 700
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, lightning, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = ColdCritChanceJewel
+|mod_groups                       = ColdCritChance
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Avalanching
+|mod_type                         = ColdCritChanceForJewel
+|stat_text                        = (14-18)% increased [[Critical Strike Chance]] with Cold [[Skill|Skills]]
+|stat1_id                         = cold_critical_strike_chance_+%
+|stat1_min                        = 14
+|stat1_max                        = 18
+|spawn_weight1_tag                = not_dex
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 250
+|tags                             = elemental, cold, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

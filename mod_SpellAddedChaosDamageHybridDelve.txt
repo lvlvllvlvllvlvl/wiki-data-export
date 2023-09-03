@@ -1,0 +1,24 @@
+{{Mod
+|id                               = SpellAddedChaosDamageHybridDelve
+|mod_groups                       = SpellAddedChaosDamageHybrid
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Subterranean
+|mod_type                         = SpellAddedChaosDamageHybrid
+|stat_text                        = Adds (11-15) to (23-26) [[Chaos Damage]] to [[Spell|Spells]]<br>(15-30)% increased [[Chaos Damage]]
+|stat1_id                         = spell_minimum_added_chaos_damage
+|stat1_min                        = 11
+|stat1_max                        = 15
+|stat2_id                         = spell_maximum_added_chaos_damage
+|stat2_min                        = 23
+|stat2_max                        = 26
+|stat3_id                         = chaos_damage_+%
+|stat3_min                        = 15
+|stat3_max                        = 30
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = caster_damage, chaos_damage, damage, chaos, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

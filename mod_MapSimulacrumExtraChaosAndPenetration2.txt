@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MapSimulacrumExtraChaosAndPenetration2
+|mod_groups                       = MapSimulacrumMonsterChaos
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSimulacrumExtraChaosAndPenetration
+|stat_text                        = Monsters deal (20-24)% extra [[Physical Damage]] as Chaos<br>Monster Damage penetrates 7% of [[Chaos Resistance]]
+|stat1_id                         = map_monsters_%_physical_damage_to_add_as_chaos
+|stat1_min                        = 20
+|stat1_max                        = 24
+|stat2_id                         = map_monsters_reduce_enemy_chaos_resistance_%
+|stat2_min                        = 7
+|stat2_max                        = 7
+|tags                             = physical_damage, chaos_damage, damage, physical, chaos
+}}

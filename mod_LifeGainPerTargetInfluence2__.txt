@@ -1,0 +1,20 @@
+{{Mod
+|id                               = LifeGainPerTargetInfluence2__
+|mod_groups                       = LifeGainPerTarget
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Hunter's
+|mod_type                         = LifeGainPerTarget
+|stat_text                        = Gain (16-20) [[Life]] per Enemy [[Hit]] with [[Attack|Attacks]]
+|stat1_id                         = base_life_gain_per_target
+|stat1_min                        = 16
+|stat1_max                        = 20
+|spawn_weight1_tag                = ring_basilisk
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

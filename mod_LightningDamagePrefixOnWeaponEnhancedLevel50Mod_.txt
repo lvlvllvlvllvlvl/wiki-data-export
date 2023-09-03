@@ -1,0 +1,24 @@
+{{Mod
+|id                               = LightningDamagePrefixOnWeaponEnhancedLevel50Mod_
+|mod_groups                       = WeaponCasterDamagePrefix
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 50
+|name                             = Topotante's
+|mod_type                         = LightningDamageWeaponPrefixAndFlat
+|stat_text                        = (75-79)% increased [[Lightning Damage]]<br>Adds (1-4) to (53-56) [[Lightning Damage]] to [[Spell|Spells]]
+|stat1_id                         = lightning_damage_+%
+|stat1_min                        = 75
+|stat1_max                        = 79
+|stat2_id                         = spell_minimum_added_lightning_damage
+|stat2_min                        = 1
+|stat2_max                        = 4
+|stat3_id                         = spell_maximum_added_lightning_damage
+|stat3_min                        = 53
+|stat3_max                        = 56
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, lightning, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,21 @@
+{{Mod
+|id                               = IncreasedEnergyShieldEnhancedLevel50ModRegen
+|mod_groups                       = IncreasedEnergyShield
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 50
+|name                             = Guatelitzi's
+|mod_type                         = EnergyShieldAndRegen
+|stat_text                        = +(44-47) to maximum [[Energy Shield]]<br>Regenerate 0.4% of [[Energy Shield]] per second
+|stat1_id                         = base_maximum_energy_shield
+|stat1_min                        = 44
+|stat1_max                        = 47
+|stat2_id                         = base_energy_shield_regeneration_rate_per_minute_%
+|stat2_min                        = 24
+|stat2_max                        = 24
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = defences, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

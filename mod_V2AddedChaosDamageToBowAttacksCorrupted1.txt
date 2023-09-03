@@ -1,0 +1,20 @@
+{{Mod
+|id                               = V2AddedChaosDamageToBowAttacksCorrupted1
+|mod_groups                       = AddedChaosDamageToBowAttacksCorrupted
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 81
+|mod_type                         = AddedChaosDamageToBowAttacksCorrupted
+|stat_text                        = (23-29) to (37-43) Added [[Chaos Damage]] with [[Bow]] [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_chaos_damage_with_bows
+|stat1_min                        = 23
+|stat1_max                        = 29
+|stat2_id                         = attack_maximum_added_chaos_damage_with_bows
+|stat2_min                        = 37
+|stat2_max                        = 43
+|spawn_weight1_tag                = quiver
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = chaos_damage, damage, chaos, attack
+}}

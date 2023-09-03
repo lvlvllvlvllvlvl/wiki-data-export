@@ -1,0 +1,17 @@
+{{Mod
+|id                               = SocketedGemsApplyExposureReducedResistsImplicitR3___
+|mod_groups                       = SocketedGemsApplyExposureReducedResists
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 75
+|granted_skill                    = SupportedSkillsApplyElementalExposuresOnHit
+|mod_type                         = SocketedGemsApplyExposureReducedResists
+|stat_text                        = -10% to all [[Elemental Resistance|Elemental Resistances]]<br>[[Item socket|Socketed]] [[Skill|Skills]] apply Fire, Cold and Lightning Exposure on [[Hit]]
+|stat1_id                         = base_resist_all_elements_%
+|stat1_min                        = -10
+|stat1_max                        = -10
+|stat2_id                         = local_display_socketed_gems_exposure_on_hit
+|stat2_min                        = 1
+|stat2_max                        = 1
+|tags                             = elemental, resistance
+}}

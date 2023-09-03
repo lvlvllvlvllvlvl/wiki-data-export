@@ -1,0 +1,17 @@
+{{Mod
+|id                               = WeaponTreeSupportDecay2H
+|mod_groups                       = WeaponTreeSupportDecay
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 38
+|granted_skill                    = SupportDecay
+|mod_type                         = WeaponTreeSupportDecay
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Decay Support|Level 15 Decay]]
+|stat1_id                         = local_display_socketed_gems_supported_by_level_x_decay
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

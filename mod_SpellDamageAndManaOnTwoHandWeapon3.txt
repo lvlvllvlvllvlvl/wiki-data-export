@@ -1,0 +1,31 @@
+{{Mod
+|id                               = SpellDamageAndManaOnTwoHandWeapon3
+|mod_groups                       = SpellDamageAndMana
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 23
+|name                             = Wizard's
+|mod_type                         = TwoHandWeaponSpellDamageAndMana
+|stat_text                        = (23-29)% increased [[Spell Damage]]<br>+(36-41) to maximum [[Mana]]
+|stat1_id                         = spell_damage_+%
+|stat1_min                        = 23
+|stat1_max                        = 29
+|stat2_id                         = base_maximum_mana
+|stat2_min                        = 36
+|stat2_max                        = 41
+|spawn_weight1_tag                = attack_staff
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = staff
+|spawn_weight2_value              = 1500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|generation_weight1_tag           = has_caster_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_attack_mod
+|generation_weight2_value         = 50
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = caster_damage, resource, mana, damage, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

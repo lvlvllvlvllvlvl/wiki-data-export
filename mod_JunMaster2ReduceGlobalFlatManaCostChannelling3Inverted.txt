@@ -1,0 +1,18 @@
+{{Mod
+|id                               = JunMaster2ReduceGlobalFlatManaCostChannelling3Inverted
+|mod_groups                       = IncreaseFlatManaCost
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 81
+|name                             = Elreon's
+|mod_type                         = ManaCostBaseChannelled
+|stat_text                        = Channelling [[Skill|Skills]] Cost -3 [[Mana]]
+|stat1_id                         = base_mana_cost_+_with_channelling_skills
+|stat1_min                        = -3
+|stat1_max                        = -3
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = resource, unveiled_mod, mana
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

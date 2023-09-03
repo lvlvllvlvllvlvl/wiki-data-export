@@ -1,0 +1,19 @@
+{{Mod
+|id                               = ChestDropsAdditionalMapCurrency
+|mod_groups                       = ChestDropsAdditionalMapCurrency
+|domain                           = 4
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Cartography
+|mod_type                         = ChestDropsAdditionalMapCurrency
+|stat_text                        = Contains (3-9) additional Map Currency Items
+|stat1_id                         = chest_drop_additional_map_currency
+|stat1_min                        = 3
+|stat1_max                        = 9
+|spawn_weight1_tag                = scarab
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = limited_strongbox_benefits
+|spawn_weight2_value              = 400
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

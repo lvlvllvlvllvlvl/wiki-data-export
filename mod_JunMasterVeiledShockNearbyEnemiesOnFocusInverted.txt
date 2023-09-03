@@ -1,0 +1,24 @@
+{{Mod
+|id                               = JunMasterVeiledShockNearbyEnemiesOnFocusInverted
+|mod_groups                       = ShockNearbyEnemiesOnFocus
+|domain                           = 28
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of the Order
+|mod_type                         = ShockYourselfOnFocusCDR
+|stat_text                        = [[Shock]] yourself for 4 Seconds when you Focus<br>Focus has (8-5)% reduced Cooldown Recovery Rate
+|stat1_id                         = shock_self_for_x_ms_when_you_focus
+|stat1_min                        = 4000
+|stat1_max                        = 4000
+|stat2_id                         = grant_focus_skill
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = focus_cooldown_speed_+%
+|stat3_min                        = -8
+|stat3_max                        = -5
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = unveiled_mod, elemental, lightning, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,24 @@
+{{Mod
+|id                               = IgniteDurationSupportedUber3
+|mod_groups                       = HelmetAilmentUber
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of the Elder
+|granted_skill                    = SupportImmolation
+|mod_type                         = IgniteDurationSupported
+|stat_text                        = (17-20)% increased [[Ignite]] Duration on Enemies<br>[[Item socket|Socketed]] Gems are Supported by [[Immolate Support|Level 20 Immolate]]
+|stat1_id                         = ignite_duration_+%
+|stat1_min                        = 17
+|stat1_max                        = 20
+|stat2_id                         = local_display_socketed_gems_supported_by_level_x_immolate
+|stat2_min                        = 20
+|stat2_max                        = 20
+|spawn_weight1_tag                = helmet_elder
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, elemental, fire, ailment, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

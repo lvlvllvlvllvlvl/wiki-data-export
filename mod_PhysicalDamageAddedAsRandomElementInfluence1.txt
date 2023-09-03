@@ -1,0 +1,20 @@
+{{Mod
+|id                               = PhysicalDamageAddedAsRandomElementInfluence1
+|mod_groups                       = PhysicalDamageAddedAsRandomElement
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Crusade
+|mod_type                         = PhysicalDamageAddedAsRandomElement
+|stat_text                        = Gain (7-8)% of [[Physical Damage]] as Extra Damage of a random Element
+|stat1_id                         = physical_damage_%_to_add_as_random_element
+|stat1_min                        = 7
+|stat1_max                        = 8
+|spawn_weight1_tag                = bow_crusader
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

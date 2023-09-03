@@ -1,0 +1,28 @@
+{{Mod
+|id                               = MonsterArchnemesisFlaskDrain__
+|mod_groups                       = MonsterArchnemesisFlaskDrain
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 46
+|name                             = of Drought
+|granted_buff_id                  = archnemesis_flask_drain
+|granted_buff_value               = 50
+|mod_type                         = MonsterArchnemesisFlaskDrain
+|stat_text                        = Flasks gain -6 [[Charge|Charges]] every 3 seconds (Hidden)<br>Regenerate 1.5% of [[Life]] per second (Hidden)
+|stat1_id                         = flask_charges_recovered_per_3_seconds
+|stat1_min                        = -6
+|stat1_max                        = -6
+|stat2_id                         = remove_enemy_flask_charge_on_hit_%_chance
+|stat2_min                        = 100
+|stat2_max                        = 100
+|stat3_id                         = life_regeneration_rate_per_minute_%
+|stat3_min                        = 90
+|stat3_max                        = 90
+|stat4_id                         = dropped_items_are_converted_to_utility_flasks
+|stat4_min                        = 1
+|stat4_max                        = 1
+|spawn_weight1_tag                = magic
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 200
+}}

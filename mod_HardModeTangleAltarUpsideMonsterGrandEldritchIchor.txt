@@ -1,0 +1,18 @@
+{{Mod
+|id                               = HardModeTangleAltarUpsideMonsterGrandEldritchIchor
+|mod_groups                       = TangleAltarUpsideMonsterGrandEldritchIchor
+|domain                           = 29
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = TangleAltarUpsideMonsterGrandEldritchIchor
+|stat_text                        = (1.2-2.4)% chance to drop an additional Grand Eldritch Ichor
+|stat1_id                         = chance_%_to_drop_additional_grand_eldritch_ichor
+|stat1_min                        = 12
+|stat1_max                        = 24
+|spawn_weight1_tag                = primordial_altar_downside
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = tangle_altar
+|spawn_weight2_value              = 165
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = GainAccuracyEqualToStrengthInfluence1
+|mod_groups                       = GainAccuracyEqualToStrength
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Conquest
+|mod_type                         = GainAccuracyEqualToStrength
+|stat_text                        = Gain [[Accuracy Rating]] equal to your [[Strength]]
+|stat1_id                         = gain_accuracy_rating_equal_to_strength
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = helmet_adjudicator
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

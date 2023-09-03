@@ -1,0 +1,22 @@
+{{Mod
+|id                               = GainEnduranceChargeWhileStationaryUber1
+|mod_groups                       = GainEnduranceChargeWhileStationary
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Elder
+|mod_type                         = GainEnduranceChargeWhileStationary
+|stat_text                        = Gain an [[Endurance Charge]] every 4 seconds while Stationary
+|stat1_id                         = number_of_endurance_charges_to_gain_every_4_seconds_while_stationary
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = 2h_sword_elder
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = sword_elder
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = endurance_charge
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

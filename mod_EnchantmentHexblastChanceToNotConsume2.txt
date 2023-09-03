@@ -1,0 +1,19 @@
+{{Mod
+|id                               = EnchantmentHexblastChanceToNotConsume2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Hexblast Chance to not Consume Hex 2
+|mod_type                         = EnchantmentHexblastChanceToNotConsume
+|stat_text                        = Hexblast has 15% chance to not remove a Hex
+|stat1_id                         = hexblast_%_chance_to_not_consume_hex
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

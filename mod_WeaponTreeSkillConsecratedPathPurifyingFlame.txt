@@ -1,0 +1,31 @@
+{{Mod
+|id                               = WeaponTreeSkillConsecratedPathPurifyingFlame
+|mod_groups                       = WeaponTreeSkillConsecratedPathPurifyingFlame
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSkillConsecratedPathPurifyingFlame
+|stat_text                        = Consecrated Path and Purifying Flame create Profane Ground instead of Consecrated Ground<br>100% of Consecrated Path and Purifying Flame [[Fire Damage]] Converted to [[Chaos Damage]]
+|stat1_id                         = consecrated_path_and_purifying_flame_create_profane_ground_instead_of_consecrated_ground
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = consecrated_path_and_purifying_flame_skill_fire_damage_%_to_convert_to_chaos
+|stat2_min                        = 100
+|stat2_max                        = 100
+|spawn_weight1_tag                = caster_unique_weapon
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = bow
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = claw
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = weapon_can_roll_minion_modifiers
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = attack_dagger
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = shield
+|spawn_weight6_value              = 500
+|spawn_weight7_tag                = weapon
+|spawn_weight7_value              = 1000
+|spawn_weight8_tag                = default
+|spawn_weight8_value              = 0
+}}

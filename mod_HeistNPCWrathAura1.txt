@@ -1,0 +1,20 @@
+{{Mod
+|id                               = HeistNPCWrathAura1
+|mod_groups                       = HeistNPCGrantedAura
+|domain                           = 23
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of Aid
+|mod_type                         = HeistNPCWrathAura
+|stat_text                        = Grants [[Level]] 5 [[Wrath]] [[Skill]]
+|stat1_id                         = heist_npc_uses_level_x_wrath_aura
+|stat1_min                        = 5
+|stat1_max                        = 5
+|spawn_weight1_tag                = heist_equipment_caster
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = aura
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

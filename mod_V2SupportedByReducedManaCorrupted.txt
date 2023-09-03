@@ -1,0 +1,24 @@
+{{Mod
+|id                               = V2SupportedByReducedManaCorrupted
+|mod_groups                       = SupportedByReducedMana
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|granted_skill                    = SupportReducedMana
+|mod_type                         = SupportedByReducedMana
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Level]] 10 Inspiration
+|stat1_id                         = local_display_socketed_gems_get_reduced_mana_cost_level
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = sword
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = bow
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = staff
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = two_hand_weapon
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = support, gem
+}}

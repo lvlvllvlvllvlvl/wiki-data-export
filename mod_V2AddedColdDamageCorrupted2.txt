@@ -1,0 +1,22 @@
+{{Mod
+|id                               = V2AddedColdDamageCorrupted2
+|mod_groups                       = AddedColdDamageToSpellsAndAttacks
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 31
+|mod_type                         = AddedColdDamageToSpellsAndAttacks
+|stat_text                        = Adds (6-9) to (13-16) [[Cold Damage]] to [[Spell|Spells]] and [[Attack|Attacks]]
+|stat1_id                         = spell_and_attack_minimum_added_cold_damage
+|stat1_min                        = 6
+|stat1_max                        = 9
+|stat2_id                         = spell_and_attack_maximum_added_cold_damage
+|stat2_min                        = 13
+|stat2_max                        = 16
+|spawn_weight1_tag                = ring
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, cold, attack, caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

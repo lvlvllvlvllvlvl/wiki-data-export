@@ -1,0 +1,20 @@
+{{Mod
+|id                               = RemoveIgniteOnFlaskUseUber1
+|mod_groups                       = RemoveAilmentOnFlaskUse
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Elder
+|mod_type                         = RemoveIgniteOnFlaskUse
+|stat_text                        = Remove [[Ignite]] and Burning when you use a Flask
+|stat1_id                         = remove_ignite_and_burning_on_flask_use
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = belt_elder
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, elemental, fire, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

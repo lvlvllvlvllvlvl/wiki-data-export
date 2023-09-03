@@ -1,0 +1,14 @@
+{{Mod
+|id                               = ExpeditionRelicModifierLightningPenetration
+|mod_groups                       = ExpeditionRelicModifierLightningPenetration
+|domain                           = 27
+|generation_type                  = 1
+|required_level                   = 1
+|mod_type                         = ExpeditionRelicModifierLightningPenetration
+|stat_text                        = Damage Penetrates 15% [[Lightning Resistance]]
+|stat1_id                         = base_reduce_enemy_lightning_resistance_%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+}}

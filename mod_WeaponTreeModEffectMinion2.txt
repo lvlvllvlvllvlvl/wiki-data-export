@@ -1,0 +1,18 @@
+{{Mod
+|id                               = WeaponTreeModEffectMinion2
+|mod_groups                       = WeaponTreeModEffectMinion
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 65
+|mod_type                         = WeaponTreeModEffectMinion
+|stat_text                        = 15% increased Explicit [[Minion]] Modifier magnitudes
+|stat1_id                         = local_explicit_minion_mod_effect_+%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = minion_unique_weapon
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = weapon_can_roll_minion_modifiers
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantLifeRegenSmall2_
+|mod_groups                       = AfflictionJewelSmallPassivesGrantLifeRegen
+|domain                           = 21
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Lizard
+|mod_type                         = AfflictionJewelSmallPassivesGrantLifeRegen
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: Regenerate 0.15% of [[Life]] per Second
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_%_life_regeneration_per_minute
+|stat1_min                        = 9
+|stat1_max                        = 9
+|spawn_weight1_tag                = expansion_jewel_small
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

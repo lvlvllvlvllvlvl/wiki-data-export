@@ -1,0 +1,27 @@
+{{Mod
+|id                               = SupportedByCastWhileChannellingUber1_
+|mod_groups                       = WeaponSupportUber
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = The Shaper's
+|granted_skill                    = SupportCastWhileChannelling, SupportCastWhileChannellingTriggered
+|mod_type                         = SupportedByCastWhileChannellingWeapon
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Level]] 18 Cast While Channelling
+|stat1_id                         = local_display_socketed_gems_supported_by_level_x_cast_while_channelling
+|stat1_min                        = 18
+|stat1_max                        = 18
+|spawn_weight1_tag                = grants_2h_support
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = attack_staff
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = staff_shaper
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = warstaff_shaper
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = support, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

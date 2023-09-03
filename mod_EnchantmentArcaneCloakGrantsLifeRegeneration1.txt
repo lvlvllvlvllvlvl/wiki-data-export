@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentArcaneCloakGrantsLifeRegeneration1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Arcane Cloak Grants Life Regeneration 1
+|mod_type                         = EnchantmentArcaneCloakGrantsLifeRegeneration
+|stat_text                        = Arcane Cloak grants [[Life]] Regeneration equal to 15% of [[Mana]] Spent per Second
+|stat1_id                         = arcane_cloak_gain_%_of_consumed_mana_as_life_regenerated_per_second
+|stat1_min                        = 900
+|stat1_max                        = 900
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

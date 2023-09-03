@@ -1,0 +1,21 @@
+{{Mod
+|id                               = SupportedByCastOnDamageTakenUber1
+|mod_groups                       = SupportedByTrigger
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Elder
+|granted_skill                    = SupportCastOnDamageTaken
+|mod_type                         = SupportedByCastOnDamageTaken
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Cast when Damage Taken Support|Level 5 Cast when Damage Taken]]
+|stat1_id                         = local_display_socketed_gems_supported_by_level_x_cast_on_damage_taken
+|stat1_min                        = 5
+|stat1_max                        = 5
+|spawn_weight1_tag                = shield_elder
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

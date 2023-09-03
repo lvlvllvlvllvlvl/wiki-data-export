@@ -1,0 +1,23 @@
+{{Mod
+|id                               = SanctumSpecialFireDamageToAttacksPerStrength
+|mod_groups                       = GlobalAddedDamagePerAttribute
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 84
+|name                             = Forceful
+|mod_type                         = FireDamageToAttacksPerStrength
+|stat_text                        = Adds 2 to 3 [[Fire Damage]] to [[Attack|Attacks]] per 10 [[Strength]]
+|stat1_id                         = minimum_added_fire_damage_to_attacks_per_10_strength
+|stat1_min                        = 2
+|stat1_max                        = 2
+|stat2_id                         = maximum_added_fire_damage_to_attacks_per_10_strength
+|stat2_min                        = 3
+|stat2_max                        = 3
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 50
+|tags                             = elemental, fire, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

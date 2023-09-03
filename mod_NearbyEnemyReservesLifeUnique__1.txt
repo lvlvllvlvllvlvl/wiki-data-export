@@ -1,0 +1,19 @@
+{{Mod
+|id                               = NearbyEnemyReservesLifeUnique__1
+|mod_groups                       = ReservesLife
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = unique_life_reservation_aura
+|granted_buff_value               = 30
+|mod_type                         = NearbyEnemyReservesLife
+|stat_text                        = Nearby Enemy Monsters have at least 8% of [[Life]] Reserved<br>Reserves 8% of [[Life]]
+|stat1_id                         = local_display_nearby_enemy_life_reserved_by_stat_%
+|stat1_min                        = 8
+|stat1_max                        = 8
+|stat2_id                         = life_reserved_by_stat_%
+|stat2_min                        = 8
+|stat2_max                        = 8
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

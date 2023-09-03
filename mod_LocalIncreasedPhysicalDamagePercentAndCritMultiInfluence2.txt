@@ -1,0 +1,27 @@
+{{Mod
+|id                               = LocalIncreasedPhysicalDamagePercentAndCritMultiInfluence2
+|mod_groups                       = LocalIncreasedPhysicalDamagePercentAndAccuracyRating
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 71
+|name                             = Warlord's
+|mod_type                         = LocalIncreasedPhysicalDamagePercentAndCritMulti
+|stat_text                        = (35-44)% increased [[Physical Damage]]<br>+(10-15)% to Global [[Critical Strike Multiplier]]
+|stat1_id                         = local_physical_damage_+%
+|stat1_min                        = 35
+|stat1_max                        = 44
+|stat2_id                         = base_critical_strike_multiplier_+
+|stat2_min                        = 10
+|stat2_max                        = 15
+|spawn_weight1_tag                = claw_adjudicator
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = dagger_adjudicator
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = rune_dagger_adjudicator
+|spawn_weight3_value              = 250
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = physical_damage, damage, physical, attack, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

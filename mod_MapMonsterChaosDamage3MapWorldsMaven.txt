@@ -1,0 +1,31 @@
+{{Mod
+|id                               = MapMonsterChaosDamage3MapWorldsMaven
+|mod_groups                       = MapMonsterChaosDamage
+|domain                           = 5
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Profane
+|mod_type                         = MapMonsterChaosDamage2MapWorlds
+|stat_text                        = 16% increased Quantity of Items found in this Area<br>9% increased Rarity of Items found in this Area<br>Monsters deal (31-35)% extra [[Physical Damage]] as Chaos<br>Monsters Inflict Withered for 2 seconds on [[Hit]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 16
+|stat1_max                        = 16
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 9
+|stat2_max                        = 9
+|stat3_id                         = map_monsters_%_physical_damage_to_add_as_chaos
+|stat3_min                        = 31
+|stat3_max                        = 35
+|stat4_id                         = map_monsters_withered_on_hit_for_2_seconds_%_chance
+|stat4_min                        = 100
+|stat4_max                        = 100
+|spawn_weight1_tag                = top_tier_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = maven_map
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = primordial_map
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = physical_damage, chaos_damage, damage, physical, chaos
+}}

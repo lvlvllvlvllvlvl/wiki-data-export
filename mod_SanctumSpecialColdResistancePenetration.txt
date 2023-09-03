@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialColdResistancePenetration
+|mod_groups                       = ColdResistancePenetration
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Biting
+|mod_type                         = ColdResistancePenetration
+|stat_text                        = Damage Penetrates (5-8)% [[Cold Resistance]]
+|stat1_id                         = base_reduce_enemy_cold_resistance_%
+|stat1_min                        = 5
+|stat1_max                        = 8
+|spawn_weight1_tag                = dex_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = elemental_damage, damage, elemental, cold
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

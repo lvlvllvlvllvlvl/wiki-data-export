@@ -1,0 +1,24 @@
+{{Mod
+|id                               = LocalBaseArmourAndEnergyShieldAndLife4_
+|mod_groups                       = BaseLocalDefencesAndLife
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 78
+|name                             = Whale's
+|mod_type                         = LocalBaseArmourEnergyShieldAndLife
+|stat_text                        = +(49-60) to [[Armour]]<br>+(13-15) to maximum [[Energy Shield]]<br>+(34-38) to maximum [[Life]]
+|stat1_id                         = local_base_physical_damage_reduction_rating
+|stat1_min                        = 49
+|stat1_max                        = 60
+|stat2_id                         = local_energy_shield
+|stat2_min                        = 13
+|stat2_max                        = 15
+|stat3_id                         = base_maximum_life
+|stat3_min                        = 34
+|stat3_max                        = 38
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = resource, life, defences, armour, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

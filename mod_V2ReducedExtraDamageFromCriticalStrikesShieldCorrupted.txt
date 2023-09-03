@@ -1,0 +1,19 @@
+{{Mod
+|id                               = V2ReducedExtraDamageFromCriticalStrikesShieldCorrupted
+|mod_groups                       = ReducedExtraDamageFromCrits
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 20
+|mod_type                         = ReducedExtraDamageFromCrits
+|stat_text                        = You take (20-30)% reduced Extra Damage from Critical Strikes
+|stat1_id                         = base_self_critical_strike_multiplier_-%
+|stat1_min                        = 20
+|stat1_max                        = 30
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

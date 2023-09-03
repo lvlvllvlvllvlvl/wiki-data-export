@@ -1,0 +1,23 @@
+{{Mod
+|id                               = LocalBaseWardAndLife1__
+|mod_groups                       = BaseLocalDefencesAndLife
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 30
+|name                             = Annest's
+|mod_type                         = LocalBaseWardAndLife
+|stat_text                        = +(15-20) to Ward<br>+(18-23) to maximum [[Life]]
+|stat1_id                         = local_ward
+|stat1_min                        = 15
+|stat1_max                        = 20
+|stat2_id                         = base_maximum_life
+|stat2_min                        = 18
+|stat2_max                        = 23
+|spawn_weight1_tag                = ward_armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life, defences
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

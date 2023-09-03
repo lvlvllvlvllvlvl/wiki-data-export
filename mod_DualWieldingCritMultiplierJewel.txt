@@ -1,0 +1,24 @@
+{{Mod
+|id                               = DualWieldingCritMultiplierJewel
+|mod_groups                       = MeleeTypeCritMultiplier
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Puncturing
+|mod_type                         = DualWieldingCritMultiplierForJewel
+|stat_text                        = +(15-18)% to [[Critical Strike Multiplier]] while [[Dual Wield|Dual Wielding]]
+|stat1_id                         = global_critical_strike_multiplier_while_dual_wielding_+
+|stat1_min                        = 15
+|stat1_max                        = 18
+|spawn_weight1_tag                = shield_mod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = two_handed_mod
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = not_int
+|spawn_weight3_value              = 250
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = damage, attack, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

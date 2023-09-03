@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentPlagueBearerStoredPoisonDamageToDealPerSecond2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Plague Bearer Stored Poison Damage To Deal Per Second 2
+|mod_type                         = EnchantmentPlagueBearerStoredPoisonDamageToDealPerSecond
+|stat_text                        = Plague Bearer deals Damage based on an additional 5% of Plague Value
+|stat1_id                         = corrosive_shroud_%_of_stored_poison_damage_to_deal_per_second
+|stat1_min                        = 5
+|stat1_max                        = 5
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = chaos_damage, poison, damage, chaos, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,23 @@
+{{Mod
+|id                               = ReducedShockEffectInfluenceMaven
+|mod_groups                       = ShockEffect
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 85
+|name                             = of the Elevated Crusade
+|mod_type                         = ReducedShockEffectOnSelfMaven
+|stat_text                        = (60-51)% reduced Effect of [[Shock]] on you<br>(45-75)% increased [[Critical Strike Chance]] if you've been [[Shock|Shocked]] [[Recently]]
+|stat1_id                         = shocked_effect_on_self_+%
+|stat1_min                        = -60
+|stat1_max                        = -51
+|stat2_id                         = critical_strike_chance_+%_if_have_been_shocked_recently
+|stat2_min                        = 45
+|stat2_max                        = 75
+|spawn_weight1_tag                = helmet_crusader
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, lightning, critical, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

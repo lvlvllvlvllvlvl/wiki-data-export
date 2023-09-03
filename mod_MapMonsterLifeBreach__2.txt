@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapMonsterLifeBreach__2
+|mod_groups                       = MapMonsterLife
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapMonsterLifeMap2Tier
+|stat_text                        = 100% increased Quantity of Items found in this Area<br>75% increased Rarity of Items found in this Area<br>175% more Monster [[Life]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 75
+|stat2_max                        = 75
+|stat3_id                         = map_monsters_life_+%
+|stat3_min                        = 175
+|stat3_max                        = 175
+|tags                             = resource, life
+}}

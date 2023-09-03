@@ -1,0 +1,27 @@
+{{Mod
+|id                               = DualWieldBlockCorruption
+|mod_groups                       = BlockWhileDualWielding
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = BlockWhileDualWielding
+|stat_text                        = +(3-6)% Chance to [[Block]] [[Attack Damage]] while [[Dual Wield|Dual Wielding]]
+|stat1_id                         = block_while_dual_wielding_%
+|stat1_min                        = 3
+|stat1_max                        = 6
+|spawn_weight1_tag                = sceptre
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = axe
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = mace
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = wand
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = one_hand_weapon
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = block
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

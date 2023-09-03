@@ -1,0 +1,25 @@
+{{Mod
+|id                               = WatchstoneShrineDuration2___
+|mod_groups                       = WatchstoneShrineDuration
+|domain                           = 25
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Sustained
+|mod_type                         = WatchstoneShrineDuration
+|stat_text                        = (36-50)% increased Duration of Shrine Effects on Players
+|stat1_id                         = map_player_shrine_effect_duration_+%
+|stat1_min                        = 36
+|stat1_max                        = 50
+|spawn_weight1_tag                = watchstone_item
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = watchstone_environment
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = unique_map
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = no_monster_packs
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 28
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

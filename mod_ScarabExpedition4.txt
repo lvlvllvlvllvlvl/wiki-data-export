@@ -1,0 +1,24 @@
+{{Mod
+|id                               = ScarabExpedition4
+|mod_groups                       = ScarabMod
+|domain                           = 14
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = ScarabModExpedition
+|stat_text                        = Contains an additional Expedition Encounter<br>20% increased number of Explosives<br>Area contains 50% increased number of Runic Monster Markers<br>Remnants have an additional Suffix Modifier<br>Area contains an Expedition Encounter
+|stat1_id                         = map_expedition_encounter_additional_chance_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = map_expedition_explosives_+%
+|stat2_min                        = 20
+|stat2_max                        = 20
+|stat3_id                         = map_expedition_elite_marker_count_+%
+|stat3_min                        = 50
+|stat3_max                        = 50
+|stat4_id                         = map_expedition_x_extra_relic_suffixes
+|stat4_min                        = 1
+|stat4_max                        = 1
+|stat5_id                         = map_expedition_league
+|stat5_min                        = 1
+|stat5_max                        = 1
+}}

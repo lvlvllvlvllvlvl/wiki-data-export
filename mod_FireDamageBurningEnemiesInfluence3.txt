@@ -1,0 +1,23 @@
+{{Mod
+|id                               = FireDamageBurningEnemiesInfluence3
+|mod_groups                       = AddedFireDamageToBurningEnemies
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 80
+|name                             = Warlord's
+|mod_type                         = AddedFireBurningEnemies
+|stat_text                        = (33-39) to (52-55) added [[Fire Damage]] against Burning Enemies
+|stat1_id                         = global_minimum_added_fire_damage_vs_burning_enemies
+|stat1_min                        = 33
+|stat1_max                        = 39
+|stat2_id                         = global_maximum_added_fire_damage_vs_burning_enemies
+|stat2_min                        = 52
+|stat2_max                        = 55
+|spawn_weight1_tag                = belt_adjudicator
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

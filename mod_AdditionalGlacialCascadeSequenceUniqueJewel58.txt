@@ -1,0 +1,24 @@
+{{Mod
+|id                               = AdditionalGlacialCascadeSequenceUniqueJewel58
+|mod_groups                       = PassiveJewelGrantsRadius
+|domain                           = 10
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = AdditionalGlacialCascadeSequenceJewel
+|stat_text                        = [[Cold Damage]] is increased by 1% per 8 [[Intelligence]] from Allocated Passives in Radius<br>[[Physical Damage]] is increased by 1% per 8 [[Intelligence]] from Allocated Passives in Radius<br>[[Glacial Cascade]] gains an additional Burst with 60 [[Intelligence]] from Passives in Radius
+|stat1_id                         = local_unique_jewel_cold_damage_+1%_per_x_int_in_radius
+|stat1_min                        = 8
+|stat1_max                        = 8
+|stat2_id                         = local_unique_jewel_physical_damage_+1%_per_int_in_radius
+|stat2_min                        = 8
+|stat2_max                        = 8
+|stat3_id                         = local_jewel_effect_base_radius
+|stat3_min                        = 1200
+|stat3_max                        = 1200
+|stat4_id                         = local_unique_jewel_glacial_cascade_additional_sequence_with_x_int_in_radius
+|stat4_min                        = 60
+|stat4_max                        = 60
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, cold
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

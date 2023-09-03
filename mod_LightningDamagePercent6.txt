@@ -1,0 +1,24 @@
+{{Mod
+|id                               = LightningDamagePercent6
+|mod_groups                       = LightningDamagePercentage
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 76
+|name                             = of Arcing
+|mod_type                         = LightningDamagePercentage
+|stat_text                        = (27-30)% increased [[Lightning Damage]]
+|stat1_id                         = lightning_damage_+%
+|stat1_min                        = 27
+|stat1_max                        = 30
+|spawn_weight1_tag                = wand
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = staff
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = sceptre
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = elemental_damage, damage, elemental, lightning
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,25 @@
+{{Mod
+|id                               = PercentageDexterityBodyInfluenceMaven_
+|mod_groups                       = PercentageDexterity
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 85
+|name                             = of Elevated Redemption
+|mod_type                         = PercentageDexterityMaven
+|stat_text                        = (9-12)% increased [[Dexterity]]<br>+1 to [[Level]] of [[Item socket|Socketed]] [[Dexterity]] Gems
+|stat1_id                         = dexterity_+%
+|stat1_min                        = 9
+|stat1_max                        = 12
+|stat2_id                         = local_socketed_dexterity_gem_level_+
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = body_armour_eyrie
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = amulet_eyrie
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = attribute, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

@@ -1,0 +1,23 @@
+{{Mod
+|id                               = JunMaster2CriticalChanceAndGainFrenzyChargeOnCriticalStrikePercent3
+|mod_groups                       = CriticalStrikeChanceIncrease
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 81
+|name                             = of the Order
+|mod_type                         = CriticalChanceAndGainFrenzyChargeOnCriticalStrikePercent
+|stat_text                        = 5% chance to gain a [[Frenzy Charge]] on [[Critical Strike]]<br>(13-14)% increased Global [[Critical Strike Chance]]
+|stat1_id                         = gain_frenzy_charge_on_critical_strike_%
+|stat1_min                        = 5
+|stat1_max                        = 5
+|stat2_id                         = critical_strike_chance_+%
+|stat2_min                        = 13
+|stat2_max                        = 14
+|spawn_weight1_tag                = quiver
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = frenzy_charge, unveiled_mod, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

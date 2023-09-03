@@ -1,0 +1,20 @@
+{{Mod
+|id                               = IncreasedEvasionRating5
+|mod_groups                       = IncreasedEvasionRating
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 58
+|name                             = Blurred
+|mod_type                         = EvasionRating
+|stat_text                        = +(81-120) to [[Evasion Rating]]
+|stat1_id                         = base_evasion_rating
+|stat1_min                        = 81
+|stat1_max                        = 120
+|spawn_weight1_tag                = ring
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = defences, evasion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

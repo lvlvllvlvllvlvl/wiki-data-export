@@ -1,0 +1,20 @@
+{{Mod
+|id                               = ElementalAilmentsOnYouInsteadOfAlliesUnique__1
+|mod_groups                       = ElementalAilmentsOnYouInsteadOfAllies
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = elemental_ailments_go_to_owner
+|granted_buff_value               = 60
+|mod_type                         = ElementalAilmentsOnYouInsteadOfAllies
+|stat_text                        = Enemies inflict Elemental Ailments on you instead of nearby Allies
+|stat1_id                         = redirect_elemental_ailments_to_aura_owner
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_display_you_get_elemental_ailments_instead_of_allies
+|stat2_min                        = 1
+|stat2_max                        = 1
+|tags                             = elemental, fire, cold, lightning, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

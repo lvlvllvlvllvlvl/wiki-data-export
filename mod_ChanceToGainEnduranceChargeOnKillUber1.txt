@@ -1,0 +1,30 @@
+{{Mod
+|id                               = ChanceToGainEnduranceChargeOnKillUber1
+|mod_groups                       = EnduranceChargeOnKillChance
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = The Elder's
+|mod_type                         = EnduranceChargeOnKillChance
+|stat_text                        = (4-6)% chance to gain an [[Endurance Charge]] on [[Kill]]
+|stat1_id                         = endurance_charge_on_kill_%
+|stat1_min                        = 4
+|stat1_max                        = 6
+|spawn_weight1_tag                = 2h_axe_elder
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = 2h_mace_elder
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = 2h_sword_elder
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = staff_elder
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = warstaff_elder
+|spawn_weight5_value              = 500
+|spawn_weight6_tag                = boots_elder
+|spawn_weight6_value              = 500
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+|tags                             = endurance_charge
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

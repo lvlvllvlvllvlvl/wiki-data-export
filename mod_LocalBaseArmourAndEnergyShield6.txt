@@ -1,0 +1,31 @@
+{{Mod
+|id                               = LocalBaseArmourAndEnergyShield6
+|mod_groups                       = BaseLocalDefences
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 58
+|name                             = Consecrated
+|mod_type                         = LocalBaseArmourAndEnergyShield
+|stat_text                        = +(146-220) to [[Armour]]<br>+(49-60) to maximum [[Energy Shield]]
+|stat1_id                         = local_base_physical_damage_reduction_rating
+|stat1_min                        = 146
+|stat1_max                        = 220
+|stat2_id                         = local_energy_shield
+|stat2_min                        = 49
+|stat2_max                        = 60
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = gloves
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = helmet
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = str_int_armour
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = str_dex_int_armour
+|spawn_weight5_value              = 166
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = defences, armour, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

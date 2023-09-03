@@ -1,0 +1,18 @@
+{{Mod
+|id                               = PoisonDurationOnYouJewel
+|mod_groups                       = ReducedPoisonDuration
+|domain                           = 10
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Neutralisation
+|mod_type                         = ReducedPoisonDuration
+|stat_text                        = (35-30)% reduced [[Poison]] Duration on you
+|stat1_id                         = self_poison_duration_+%
+|stat1_min                        = -35
+|stat1_max                        = -30
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 250
+|tags                             = poison, chaos, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = JunMaster2LocalFlaskReducedReflectDuringEffect
+|mod_groups                       = FlaskReflectReductionDuringFlaskEffect
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of the Order
+|mod_type                         = FlaskReflectReductionDuringFlaskEffect
+|stat_text                        = (55-45)% reduced Reflected Damage taken during Effect
+|stat1_id                         = local_flask_reflect_damage_taken_+%_during_flask_effect
+|stat1_min                        = -55
+|stat1_max                        = -45
+|spawn_weight1_tag                = flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, unveiled_mod
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

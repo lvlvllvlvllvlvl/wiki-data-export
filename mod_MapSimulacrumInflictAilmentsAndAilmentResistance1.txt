@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MapSimulacrumInflictAilmentsAndAilmentResistance1
+|mod_groups                       = MapSimulacrumMonsterAilmentsPlus
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSimulacrumInflictAilmentsAndAilmentResistance
+|stat_text                        = Monsters have a 15% chance to cause Elemental Ailments on [[Hit]]<br>33% reduced Effect of Non-Damaging Ailments on Monsters
+|stat1_id                         = map_monsters_%_chance_to_inflict_status_ailments
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = map_monster_non_damaging_ailment_effect_+%_on_self
+|stat2_min                        = -33
+|stat2_max                        = -33
+|tags                             = ailment
+}}

@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapLeaguestoneExtraInvasionBoss2
+|mod_groups                       = MapLeaguestoneAdditionalInvasionBoss
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Terrifying
+|mod_type                         = MapLeaguestoneAdditionalInvasionBoss
+|stat_text                        = Next Area will contain 3 additional Invasion Bosses
+|stat1_id                         = map_leaguestone_additional_invasion_bosses
+|stat1_min                        = 3
+|stat1_max                        = 3
+|spawn_weight1_tag                = invasion_leaguestone
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

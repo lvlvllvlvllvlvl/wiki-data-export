@@ -1,0 +1,17 @@
+{{Mod
+|id                               = TormentSpiritCharlatanDegenerationAura
+|mod_groups                       = Torment
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = monster_aura_physical_degen
+|granted_buff_value               = 40
+|mod_type                         = TormentSpiritCharlatanDegenerationAura
+|stat_text                        = Takes 4 of Maximum Life as Physical Damage per second (Hidden)
+|stat1_id                         = base_physical_damage_%_of_maximum_life_taken_per_minute
+|stat1_min                        = 240
+|stat1_max                        = 240
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+|tags                             = physical_damage, damage, physical
+}}

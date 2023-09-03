@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MeleeDamageDuringFlaskEffectInfluence2
+|mod_groups                       = DamageDuringFlaskEffect
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Conquest
+|mod_type                         = MeleeDamageDuringFlaskEffect
+|stat_text                        = (26-30)% increased Melee Damage during any Flask Effect
+|stat1_id                         = melee_damage_+%_during_flask_effect
+|stat1_min                        = 26
+|stat1_max                        = 30
+|spawn_weight1_tag                = belt_adjudicator
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, damage, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

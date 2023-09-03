@@ -1,0 +1,19 @@
+{{Mod
+|id                               = PoisonDamageAgainstBleedingEnemiesUber1
+|mod_groups                       = PoisonDamageAgainstBleedingEnemies
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = PoisonDamageAgainstBleedingEnemies
+|stat_text                        = 50% increased Damage with [[Poison]] inflicted on Bleeding Enemies
+|stat1_id                         = poison_damage_+%_vs_bleeding_enemies
+|stat1_min                        = 50
+|stat1_max                        = 50
+|spawn_weight1_tag                = dagger_elder
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = chaos_damage, poison, damage, chaos, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

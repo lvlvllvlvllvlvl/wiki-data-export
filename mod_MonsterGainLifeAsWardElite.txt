@@ -1,0 +1,15 @@
+{{Mod
+|id                               = MonsterGainLifeAsWardElite
+|mod_groups                       = MonsterGainLifeAsWard
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterGainLifeAsWard
+|stat_text                        = Removes all [[Energy Shield]] (Hidden)
+|stat1_id                         = monster_gain_base_ward_equal_to_total_maximum_life_%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = no_energy_shield
+|stat2_min                        = 1
+|stat2_max                        = 1
+}}

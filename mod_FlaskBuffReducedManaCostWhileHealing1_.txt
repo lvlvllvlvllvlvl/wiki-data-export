@@ -1,0 +1,22 @@
+{{Mod
+|id                               = FlaskBuffReducedManaCostWhileHealing1_
+|mod_groups                       = LocalFlaskSkillManaCostDuringFlaskEffect
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 12
+|name                             = of the Pupil
+|mod_type                         = LocalFlaskSkillManaCostDuringFlaskEffect
+|stat_text                        = (14-11)% reduced [[Mana]] Cost of [[Skill|Skills]] during Effect
+|stat1_id                         = local_flask_skill_mana_cost_+%_during_flask_effect
+|stat1_min                        = -14
+|stat1_max                        = -11
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = life_flask
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 600
+|tags                             = flask, resource, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

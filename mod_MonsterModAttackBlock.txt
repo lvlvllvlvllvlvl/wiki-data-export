@@ -1,0 +1,15 @@
+{{Mod
+|id                               = MonsterModAttackBlock
+|mod_groups                       = MonsterModAttackBlock
+|domain                           = 3
+|generation_type                  = 1
+|required_level                   = 12
+|name                             = Stalwart
+|mod_type                         = MonsterModAttackBlock
+|stat_text                        = 50% Chance to [[Block]] [[Attack Damage]] (Hidden)
+|stat1_id                         = monster_base_block_%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+}}

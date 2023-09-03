@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MapTempestCommonStorms
+|mod_groups                       = MapEclipse
+|domain                           = 5
+|generation_type                  = 8
+|required_level                   = 1
+|name                             = of Intensity
+|mod_type                         = MapTempestStormDelayAndBuffDuration
+|stat_text                        = Tempests have 50% less Delay (Hidden)<br>Buffs applied by Tempests have 25% reduced Duration (Hidden)
+|stat1_id                         = map_storm_delay_+%_final
+|stat1_min                        = -50
+|stat1_max                        = -50
+|stat2_id                         = map_storm_buff_duration_+%
+|stat2_min                        = -25
+|stat2_max                        = -25
+}}

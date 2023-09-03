@@ -1,0 +1,20 @@
+{{Mod
+|id                               = LocalLifeFlaskAdditionalLifeRecovery1
+|mod_groups                       = LocalLifeFlaskAdditionalLifeRecovery
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 25
+|name                             = of Abundance
+|mod_type                         = LocalLifeFlaskAdditionalLifeRecovery
+|stat_text                        = Recover an additional (11-16)% of Flask's [[Life]] Recovery Amount over 10 seconds if used while not on [[Full Life]]
+|stat1_id                         = local_flask_additional_x%_life_recovery_per_second_over_10_seconds_if_not_on_full_life
+|stat1_min                        = 11
+|stat1_max                        = 16
+|spawn_weight1_tag                = life_flask
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

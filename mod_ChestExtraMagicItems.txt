@@ -1,0 +1,19 @@
+{{Mod
+|id                               = ChestExtraMagicItems
+|mod_groups                       = ChestExtraMagicItems
+|domain                           = 4
+|generation_type                  = 2
+|required_level                   = 4
+|name                             = of Curiosities
+|mod_type                         = ChestExtraMagicItems
+|stat_text                        = Contains (1-5) additional Magic Items
+|stat1_id                         = chest_drop_additional_magic_items_up_to
+|stat1_min                        = 1
+|stat1_max                        = 5
+|spawn_weight1_tag                = drops_no_mods
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = limited_strongbox_benefits
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 800
+}}

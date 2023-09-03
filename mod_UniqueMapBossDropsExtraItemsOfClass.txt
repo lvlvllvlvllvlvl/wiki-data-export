@@ -1,0 +1,15 @@
+{{Mod
+|id                               = UniqueMapBossDropsExtraItemsOfClass
+|mod_groups                       = MapBossExtraDrops
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = UniqueMapBossExtraDropsOfItemClass
+|stat_text                        = Unique Boss drops (10-15) additional Rare (Life Flasks-Boots)
+|stat1_id                         = unique_map_boss_number_of_rare_items_to_drop
+|stat1_min                        = 10
+|stat1_max                        = 15
+|stat2_id                         = unique_map_boss_class_of_rare_items_to_drop
+|stat2_min                        = 0
+|stat2_max                        = 23
+}}

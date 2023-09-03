@@ -1,0 +1,23 @@
+{{Mod
+|id                               = AddedPhysicalDamageQuiver6
+|mod_groups                       = PhysicalDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 44
+|name                             = Annealed
+|mod_type                         = PhysicalDamage
+|stat_text                        = Adds (10-13) to (19-23) [[Physical Damage]] to [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_physical_damage
+|stat1_min                        = 10
+|stat1_max                        = 13
+|stat2_id                         = attack_maximum_added_physical_damage
+|stat2_min                        = 19
+|stat2_max                        = 23
+|spawn_weight1_tag                = quiver
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical_damage, damage, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = FlaskBuffFreezeShockIgniteChanceWhileHealing1_
+|mod_groups                       = FlaskBuffWhileHealing
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 12
+|name                             = of Foisting
+|mod_type                         = FlaskBuffFreezeShockIgniteChanceWhileHealing
+|stat_text                        = (19-22)% chance to Freeze, [[Shock]] and [[Ignite]] during Effect
+|stat1_id                         = local_flask_chance_to_freeze_shock_ignite_%_while_healing
+|stat1_min                        = 19
+|stat1_max                        = 22
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 750
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, elemental, fire, cold, lightning, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MonsterArchnemesisCorpseExploder_
+|mod_groups                       = MonsterArchnemesisCorpseExploder
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 34
+|name                             = of Detonation
+|mod_type                         = MonsterArchnemesisCorpseExploder
+|stat_text                        = +40% to [[Fire Resistance]] (Hidden)
+|stat1_id                         = base_fire_damage_resistance_%
+|stat1_min                        = 40
+|stat1_max                        = 40
+|stat2_id                         = dropped_items_are_converted_to_rings
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = magic
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 200
+}}

@@ -1,0 +1,22 @@
+{{Mod
+|id                               = MaximumPowerChargeUber1
+|mod_groups                       = IncreasedMaximumPowerCharges
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 84
+|name                             = of Shaping
+|mod_type                         = IncreasedMaximumPowerCharges
+|stat_text                        = +1 to Maximum [[Power Charge|Power Charges]]
+|stat1_id                         = max_power_charges
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = staff_shaper
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = warstaff_shaper
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = power_charge
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

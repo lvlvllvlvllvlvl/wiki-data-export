@@ -1,0 +1,23 @@
+{{Mod
+|id                               = JunMasterVeiledLocalAccuracyRatingStrengthDexterity_
+|mod_groups                       = IncreasedAccuracy, Strength, Dexterity
+|domain                           = 28
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of the Order
+|mod_type                         = LocalAccuracyRatingStrengthDexterity
+|stat_text                        = +(311-350) to [[Accuracy Rating]]<br>+(25-28) to [[Strength]] and [[Dexterity]]
+|stat1_id                         = local_accuracy_rating
+|stat1_min                        = 311
+|stat1_max                        = 350
+|stat2_id                         = additional_strength_and_dexterity
+|stat2_min                        = 25
+|stat2_max                        = 28
+|spawn_weight1_tag                = weapon
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = unveiled_mod, attack, attribute
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

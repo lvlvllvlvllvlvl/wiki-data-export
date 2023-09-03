@@ -1,0 +1,20 @@
+{{Mod
+|id                               = ProjectileDamagePerEnemyPiercedInfluence2_
+|mod_groups                       = ProjectileDamagePerEnemyPierced
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 70
+|name                             = of the Crusade
+|mod_type                         = ProjectileDamagePerEnemyPierced
+|stat_text                        = Projectiles deal (21-25)% increased Damage with [[Hit|Hits]] and Ailments for each Enemy Pierced
+|stat1_id                         = projectile_damage_+%_per_pierced_enemy
+|stat1_min                        = 21
+|stat1_max                        = 25
+|spawn_weight1_tag                = bow_crusader
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

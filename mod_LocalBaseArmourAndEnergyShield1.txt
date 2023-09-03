@@ -1,0 +1,25 @@
+{{Mod
+|id                               = LocalBaseArmourAndEnergyShield1
+|mod_groups                       = BaseLocalDefences
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Blessed
+|mod_type                         = LocalBaseArmourAndEnergyShield
+|stat_text                        = +(5-9) to [[Armour]]<br>+(3-4) to maximum [[Energy Shield]]
+|stat1_id                         = local_base_physical_damage_reduction_rating
+|stat1_min                        = 5
+|stat1_max                        = 9
+|stat2_id                         = local_energy_shield
+|stat2_min                        = 3
+|stat2_max                        = 4
+|spawn_weight1_tag                = str_int_armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = str_dex_int_armour
+|spawn_weight2_value              = 166
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = defences, armour, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

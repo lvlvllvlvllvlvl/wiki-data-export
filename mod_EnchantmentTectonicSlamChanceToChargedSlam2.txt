@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentTectonicSlamChanceToChargedSlam2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Tectonic Slam Chance For Side Crack 2
+|mod_type                         = EnchantmentTectonicSlamSideCrackChance
+|stat_text                        = Tectonic Slam has +20% fissure branching chance
+|stat1_id                         = tectonic_slam_side_crack_additional_chance_%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

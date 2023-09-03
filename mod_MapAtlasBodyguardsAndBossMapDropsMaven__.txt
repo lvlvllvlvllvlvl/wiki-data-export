@@ -1,0 +1,22 @@
+{{Mod
+|id                               = MapAtlasBodyguardsAndBossMapDropsMaven__
+|mod_groups                       = MapAtlasBodyguardsAndBossMapDrops
+|domain                           = 11
+|generation_type                  = 1
+|required_level                   = 1
+|mod_type                         = MapAtlasBodyguardsAndBossMapDrops
+|stat_text                        = 15 uses remaining<br>Map Bosses are accompanied by Bodyguards<br>2 additional Maps drop on Completing your Maps
+|stat1_id                         = sextant_uses_remaining
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = map_boss_accompanied_by_bodyguards
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = map_on_complete_drop_x_additional_maps
+|stat3_min                        = 2
+|stat3_max                        = 2
+|spawn_weight1_tag                = no_boss
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 250
+}}

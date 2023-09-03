@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AddedColdDamage4Inverted
+|mod_groups                       = ColdDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 29
+|name                             = Frigid
+|mod_type                         = SelfColdDamageTaken
+|stat_text                        = Adds (6-9) to (13-16) [[Cold Damage]] to [[Attack|Attacks]] against you
+|stat1_id                         = from_self_minimum_added_attack_cold_damage_taken
+|stat1_min                        = 6
+|stat1_max                        = 9
+|stat2_id                         = from_self_maximum_added_attack_cold_damage_taken
+|stat2_min                        = 13
+|stat2_max                        = 16
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, cold, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

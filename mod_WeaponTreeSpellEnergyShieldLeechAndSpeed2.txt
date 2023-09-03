@@ -1,0 +1,29 @@
+{{Mod
+|id                               = WeaponTreeSpellEnergyShieldLeechAndSpeed2
+|mod_groups                       = WeaponTreeSpellEnergyShieldLeechAndSpeed
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 64
+|mod_type                         = WeaponTreeSpellEnergyShieldLeechAndSpeed
+|stat_text                        = 0.8% of [[Spell Damage]] Leeched as [[Energy Shield]]<br>30% increased total Recovery per second from [[Energy Shield]] [[Leech]]
+|stat1_id                         = base_energy_shield_leech_from_spell_damage_permyriad
+|stat1_min                        = 80
+|stat1_max                        = 80
+|stat2_id                         = energy_shield_leech_speed_+%
+|stat2_min                        = 30
+|stat2_max                        = 30
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = attack_dagger
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = wand
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = sceptre
+|spawn_weight5_value              = 500
+|spawn_weight6_tag                = dagger
+|spawn_weight6_value              = 500
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+}}

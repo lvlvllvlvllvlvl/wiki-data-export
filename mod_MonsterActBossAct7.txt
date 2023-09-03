@@ -1,0 +1,15 @@
+{{Mod
+|id                               = MonsterActBossAct7
+|mod_groups                       = MonsterActBoss
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterActBoss
+|stat_text                        = Monster gives 250% increased Experience on death (Hidden)<br>13000% increased Rarity of Items dropped by this Monster (Hidden)
+|stat1_id                         = monster_slain_experience_+%
+|stat1_min                        = 250
+|stat1_max                        = 250
+|stat2_id                         = monster_dropped_item_rarity_+%
+|stat2_min                        = 13000
+|stat2_max                        = 13000
+}}

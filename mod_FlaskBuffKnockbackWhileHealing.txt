@@ -1,0 +1,18 @@
+{{Mod
+|id                               = FlaskBuffKnockbackWhileHealing
+|mod_groups                       = FlaskBuffWhileHealing
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 9
+|name                             = of Fending
+|mod_type                         = FlaskBuffKnockbackWhileHealing
+|stat_text                        = Adds Knockback to Melee [[Attack|Attacks]] during Effect
+|stat1_id                         = local_flask_adds_knockback_while_healing
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = flask, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

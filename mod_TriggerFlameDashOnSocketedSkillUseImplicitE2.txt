@@ -1,0 +1,16 @@
+{{Mod
+|id                               = TriggerFlameDashOnSocketedSkillUseImplicitE2
+|mod_groups                       = GrantedSkill
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|granted_skill                    = FlameDash, ModSocketedSkillsTriggerGrantedSkill
+|mod_type                         = TriggerFlameDashOnSocketedSkillUse
+|stat_text                        = Trigger [[Level]] 20 [[Flame Dash]] when you use a [[Item socket|Socketed]] [[Skill]]
+|stat1_id                         = local_display_trigger_level_x_flame_dash_when_you_use_a_socketed_skill
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = local_skills_granted_by_item_are_supported_by_level_x_unique_trigger_support
+|stat2_min                        = 2
+|stat2_max                        = 2
+}}

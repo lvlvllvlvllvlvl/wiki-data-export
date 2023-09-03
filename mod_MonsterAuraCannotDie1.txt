@@ -1,0 +1,29 @@
+{{Mod
+|id                               = MonsterAuraCannotDie1
+|mod_groups                       = MonsterAura
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 12
+|name                             = Cannot Die Aura
+|granted_buff_id                  = monster_aura_cannot_die
+|granted_buff_value               = 50
+|mod_type                         = MonsterAuraCannotDie
+|stat_text                        = Can not die (Hidden)
+|stat1_id                         = cannot_die
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = no_cannot_die_aura
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = abyssal
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = immobile
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = breach_commander
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = magic
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = legion_monster
+|spawn_weight6_value              = 0
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+}}

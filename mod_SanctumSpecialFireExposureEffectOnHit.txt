@@ -1,0 +1,17 @@
+{{Mod
+|id                               = SanctumSpecialFireExposureEffectOnHit
+|mod_groups                       = ExposureOnHit
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 82
+|name                             = of Dehydration
+|mod_type                         = FireExposureEffectOnHit
+|stat_text                        = Inflict Fire Exposure on Hit, applying -15% to [[Fire Resistance]]
+|stat1_id                         = fire_exposure_on_hit_magnitude
+|stat1_min                        = -15
+|stat1_max                        = -15
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 50
+}}

@@ -1,0 +1,23 @@
+{{Mod
+|id                               = MovementVelocityEldritchImplicit6
+|mod_groups                       = MovementVelocity
+|domain                           = 1
+|generation_type                  = 28
+|required_level                   = 75
+|mod_type                         = MovementVelocity
+|stat_text                        = 10% increased [[Movement Speed]]
+|stat1_id                         = base_movement_velocity_+%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = no_tier_1_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = boots
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = amulet
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

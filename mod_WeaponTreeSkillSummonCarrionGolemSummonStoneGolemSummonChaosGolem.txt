@@ -1,0 +1,26 @@
+{{Mod
+|id                               = WeaponTreeSkillSummonCarrionGolemSummonStoneGolemSummonChaosGolem
+|mod_groups                       = WeaponTreeSkillSummonCarrionGolemSummonStoneGolemSummonChaosGolem
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSkillSummonCarrionGolemSummonStoneGolemSummonChaosGolem
+|stat_text                        = Summoned [[Summon Chaos Golem|Chaos Golems]] Impale on [[Hit]] if you have the same number of them as Summoned [[Summon Stone Golem|Stone Golems]]<br>Summoned Carrion Golems Impale on [[Hit]] if you have the same number of them as Summoned [[Summon Chaos Golem|Chaos Golems]]<br>Summoned [[Summon Stone Golem|Stone Golems]] Impale on [[Hit]] if you have the same number of them as Summoned Carrion Golems
+|stat1_id                         = chaos_golem_impale_on_hit_if_same_number_of_summoned_stone_golems
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = carrion_golem_impale_on_hit_if_same_number_of_summoned_chaos_golems
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = stone_golem_impale_on_hit_if_same_number_of_summoned_carrion_golems
+|stat3_min                        = 1
+|stat3_max                        = 1
+|spawn_weight1_tag                = minion_unique_weapon
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = weapon_can_roll_minion_modifiers
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = focus_can_roll_minion_modifiers
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+}}

@@ -1,0 +1,22 @@
+{{Mod
+|id                               = ChanceToFreeze1
+|mod_groups                       = ChanceToFreeze
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 15
+|name                             = of Freezing
+|mod_type                         = ChanceToFreeze
+|stat_text                        = 10% chance to [[Freeze]]
+|stat1_id                         = base_chance_to_freeze_%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = sceptre
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = wand
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental, cold, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

@@ -1,0 +1,18 @@
+{{Mod
+|id                               = HellscapeUpsideOnslaughtWhenHitForDuration2
+|mod_groups                       = OnslaughtWhenHitChance
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 45
+|mod_type                         = OnslaughtWhenHitForDuration
+|stat_text                        = You gain Onslaught for 2 seconds when [[Hit]]
+|stat1_id                         = unique_gain_onslaught_when_hit_duration_ms
+|stat1_min                        = 2000
+|stat1_max                        = 2000
+|spawn_weight1_tag                = body_armour
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

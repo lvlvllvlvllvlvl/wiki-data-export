@@ -1,0 +1,23 @@
+{{Mod
+|id                               = CriticalMultiplierSupportedTwoHandedUber2
+|mod_groups                       = CriticalStrikeMultiplier
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Shaping
+|mod_type                         = CriticalMultiplierSupportedTwoHanded
+|stat_text                        = +(26-29)% to Global [[Critical Strike Multiplier]]<br>(9-10)% chance to gain a [[Power Charge]] on [[Critical Strike]]
+|stat1_id                         = base_critical_strike_multiplier_+
+|stat1_min                        = 26
+|stat1_max                        = 29
+|stat2_id                         = add_power_charge_on_critical_strike_%
+|stat2_min                        = 9
+|stat2_max                        = 10
+|spawn_weight1_tag                = bow_shaper
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = power_charge, damage, attack, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

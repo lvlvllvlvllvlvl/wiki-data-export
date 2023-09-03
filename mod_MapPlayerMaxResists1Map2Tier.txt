@@ -1,0 +1,27 @@
+{{Mod
+|id                               = MapPlayerMaxResists1Map2Tier
+|mod_groups                       = MapPlayerMaxResists
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Exposure
+|mod_type                         = MapPlayerMaxResistsMap2Tier
+|stat_text                        = 18% increased Quantity of Items found in this Area<br>9% increased Rarity of Items found in this Area<br>-(8-5)% maximum Player Resistances<br>16% increased Pack size
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 18
+|stat1_max                        = 18
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 9
+|stat2_max                        = 9
+|stat3_id                         = map_additional_player_maximum_resistances_%
+|stat3_min                        = -8
+|stat3_max                        = -5
+|stat4_id                         = map_pack_size_+%
+|stat4_min                        = 16
+|stat4_max                        = 16
+|spawn_weight1_tag                = mid_tier_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, resistance
+}}

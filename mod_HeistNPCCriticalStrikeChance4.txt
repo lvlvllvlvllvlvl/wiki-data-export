@@ -1,0 +1,20 @@
+{{Mod
+|id                               = HeistNPCCriticalStrikeChance4
+|mod_groups                       = CriticalStrikeChanceIncrease
+|domain                           = 23
+|generation_type                  = 2
+|required_level                   = 82
+|name                             = of Rupturing
+|mod_type                         = CriticalStrikeChance
+|stat_text                        = (91-100)% increased [[Critical Strike Chance]]
+|stat1_id                         = critical_strike_chance_+%
+|stat1_min                        = 91
+|stat1_max                        = 100
+|spawn_weight1_tag                = heist_equipment_weapon
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MonsterImplicitAuraAccuracyAndCritsSextant
+|mod_groups                       = MonsterAura
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|name                             = Accuracy and Crits Aura
+|granted_buff_id                  = monster_aura_accuracy_and_crits
+|granted_buff_value               = 140
+|mod_type                         = MonsterAuraAccuracyAndCrit
+|stat_text                        = 45% increased Global [[Accuracy Rating]] (Hidden)<br>100% increased Global [[Critical Strike Chance]] (Hidden)
+|stat1_id                         = accuracy_rating_+%
+|stat1_min                        = 45
+|stat1_max                        = 45
+|stat2_id                         = critical_strike_chance_+%
+|stat2_min                        = 100
+|stat2_max                        = 100
+|tags                             = attack, critical
+}}

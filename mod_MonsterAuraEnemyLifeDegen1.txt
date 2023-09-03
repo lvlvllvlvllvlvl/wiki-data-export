@@ -1,0 +1,15 @@
+{{Mod
+|id                               = MonsterAuraEnemyLifeDegen1
+|mod_groups                       = MonsterAura
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = monster_aura_pus_puke_degen
+|granted_buff_value               = 50
+|mod_type                         = MonsterAuraEnemyLifeDegen
+|stat_text                        = 4% of Maximum [[Life]] taken per second as [[Chaos Damage]] (Hidden)
+|stat1_id                         = base_chaos_damage_%_of_maximum_life_taken_per_minute
+|stat1_min                        = 240
+|stat1_max                        = 240
+|tags                             = chaos_damage, damage, chaos
+}}

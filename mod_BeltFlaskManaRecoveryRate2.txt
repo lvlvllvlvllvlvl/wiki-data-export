@@ -1,0 +1,20 @@
+{{Mod
+|id                               = BeltFlaskManaRecoveryRate2
+|mod_groups                       = BeltFlaskRecoveryRate
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 21
+|name                             = Stirring
+|mod_type                         = BeltFlaskManaRecoveryRate
+|stat_text                        = (11-16)% increased Flask [[Mana]] Recovery rate
+|stat1_id                         = flask_mana_recovery_rate_+%
+|stat1_min                        = 11
+|stat1_max                        = 16
+|spawn_weight1_tag                = belt
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, resource, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MeleeWeaponRangeIfKilledRecentlyUber1
+|mod_groups                       = MeleeWeaponRangeIfKilledRecently
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Elder
+|mod_type                         = MeleeWeaponRangeIfKilledRecently
+|stat_text                        = +(1-2) to Melee Strike Range if you have Killed [[Recently]]
+|stat1_id                         = melee_weapon_range_+_if_you_have_killed_recently
+|stat1_min                        = 1
+|stat1_max                        = 2
+|spawn_weight1_tag                = 2h_sword_elder
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

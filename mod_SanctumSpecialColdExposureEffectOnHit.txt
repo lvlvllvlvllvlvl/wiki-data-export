@@ -1,0 +1,17 @@
+{{Mod
+|id                               = SanctumSpecialColdExposureEffectOnHit
+|mod_groups                       = ExposureOnHit
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 82
+|name                             = of Hypothermia
+|mod_type                         = ColdExposureEffectOnHit
+|stat_text                        = Inflict Cold Exposure on Hit, applying -15% to [[Cold Resistance]]
+|stat1_id                         = cold_exposure_on_hit_magnitude
+|stat1_min                        = -15
+|stat1_max                        = -15
+|spawn_weight1_tag                = dex_special_relic
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 50
+}}

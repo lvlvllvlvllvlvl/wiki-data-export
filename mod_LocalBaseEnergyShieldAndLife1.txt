@@ -1,0 +1,29 @@
+{{Mod
+|id                               = LocalBaseEnergyShieldAndLife1
+|mod_groups                       = BaseLocalDefencesAndLife
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 30
+|name                             = Monk's
+|mod_type                         = LocalBaseEnergyShieldAndLife
+|stat_text                        = +(8-10) to maximum [[Energy Shield]]<br>+(18-23) to maximum [[Life]]
+|stat1_id                         = local_energy_shield
+|stat1_min                        = 8
+|stat1_max                        = 10
+|stat2_id                         = base_maximum_life
+|stat2_min                        = 18
+|stat2_max                        = 23
+|spawn_weight1_tag                = int_armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = str_int_armour
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = dex_int_armour
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = str_dex_int_armour
+|spawn_weight4_value              = 333
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = resource, life, defences, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

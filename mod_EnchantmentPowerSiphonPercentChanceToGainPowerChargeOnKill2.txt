@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentPowerSiphonPercentChanceToGainPowerChargeOnKill2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Power Siphon Percent Chance To Gain Power Charge On Kill 2
+|mod_type                         = EnchantmentPowerSiphonPercentChanceToGainPowerChargeOnKill
+|stat_text                        = 45% Chance to gain an additional [[Power Charge]] on [[Kill]] with [[Power Siphon]]
+|stat1_id                         = power_siphon_%_chance_to_gain_power_charge_on_kill
+|stat1_min                        = 45
+|stat1_max                        = 45
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 75
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = power_charge, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

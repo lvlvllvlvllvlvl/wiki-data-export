@@ -1,0 +1,20 @@
+{{Mod
+|id                               = GainRandomChargeOnBlockUber1__
+|mod_groups                       = GainRandomChargeOnBlock
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Shaping
+|mod_type                         = GainRandomChargeOnBlock
+|stat_text                        = Gain an Endurance, [[Frenzy]] or [[Power Charge|Power charge]] when you [[Block]]
+|stat1_id                         = gain_random_charge_on_block
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = shield_shaper
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = block, endurance_charge, frenzy_charge, power_charge
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

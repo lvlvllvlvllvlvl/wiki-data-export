@@ -1,0 +1,15 @@
+{{Mod
+|id                               = PhysicalDamageOnSkillUseUniqueHelmetInt8
+|mod_groups                       = PhysicalDamageOnSkillUse
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = PhysicalDamageOnSkillUse
+|stat_text                        = Your [[Skill|Skills]] deal you 400% of [[Mana]] Spent on Upfront [[Skill]] [[Mana]] Costs as [[Physical Damage]]
+|stat1_id                         = self_physical_damage_on_skill_use_%_mana_cost
+|stat1_min                        = 400
+|stat1_max                        = 400
+|tags                             = physical_damage, damage, physical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

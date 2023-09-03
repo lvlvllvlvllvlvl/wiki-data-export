@@ -1,0 +1,18 @@
+{{Mod
+|id                               = HellscapeDownsideFishingPoolConsumption
+|mod_groups                       = FishingPoolConsumption
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 45
+|mod_type                         = FishingPoolConsumption
+|stat_text                        = (50-100)% increased Fishing Pool Consumption
+|stat1_id                         = fishing_pool_consumption_+%
+|stat1_min                        = 50
+|stat1_max                        = 100
+|spawn_weight1_tag                = fishing_rod
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

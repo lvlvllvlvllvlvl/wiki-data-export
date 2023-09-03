@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentManaCostsWhenHit3
+|mod_groups                       = ConditionalBuffEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Mana Cost 3
+|mod_type                         = EnchantmentManaCostsWhenHit
+|stat_text                        = 18% reduced [[Mana]] Cost of [[Skill|Skills]] if you've been [[Hit]] [[Recently]]
+|stat1_id                         = enchantment_boots_mana_costs_when_hit_+%
+|stat1_min                        = -18
+|stat1_max                        = -18
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, mana
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,21 @@
+{{Mod
+|id                               = ChanceToAvoidStunUberMaven
+|mod_groups                       = AvoidStun
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 92
+|name                             = of the Elevated Elder
+|mod_type                         = AvoidStun
+|stat_text                        = (36-50)% chance to Avoid being Stunned
+|stat1_id                         = base_avoid_stun_%
+|stat1_min                        = 36
+|stat1_max                        = 50
+|spawn_weight1_tag                = boots_elder
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = quiver_elder
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

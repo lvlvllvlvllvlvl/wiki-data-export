@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentBladeBlastDetonationArea1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Blade Blast Detonation Area 1
+|mod_type                         = EnchantmentBladeBlastDetonationArea
+|stat_text                        = Blade Blast detonates other Lingering Blades within an 50% increased Area
+|stat1_id                         = blade_blast_trigger_detonation_area_of_effect_+%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

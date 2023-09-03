@@ -1,0 +1,19 @@
+{{Mod
+|id                               = EssenceDaemonAlternatingBuffsDamage6
+|mod_groups                       = EssenceDaemonAlternatingBuffsDamage
+|domain                           = 3
+|generation_type                  = 11
+|required_level                   = 1
+|name                             = Shrieking Essence of Loathing
+|granted_buff_id                  = essence_alternating_buffs_damage_alternator
+|granted_buff_value               = 0
+|mod_type                         = EssenceDaemonAlternatingBuffsDamage
+|stat_text                        = 25% reduced Damage taken (Hidden)
+|stat1_id                         = active_skill_damage_+%_final
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = base_damage_taken_+%
+|stat2_min                        = -25
+|stat2_max                        = -25
+|tags                             = damage
+}}

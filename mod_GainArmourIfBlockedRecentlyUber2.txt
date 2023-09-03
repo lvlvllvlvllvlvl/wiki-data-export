@@ -1,0 +1,20 @@
+{{Mod
+|id                               = GainArmourIfBlockedRecentlyUber2
+|mod_groups                       = GainArmourIfBlockedRecently
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = The Elder's
+|mod_type                         = GainArmourIfBlockedRecently
+|stat_text                        = +(651-800) [[Armour]] if you've Blocked [[Recently]]
+|stat1_id                         = X_armour_if_you_have_blocked_recently
+|stat1_min                        = 651
+|stat1_max                        = 800
+|spawn_weight1_tag                = shield_elder
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = defences, armour
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

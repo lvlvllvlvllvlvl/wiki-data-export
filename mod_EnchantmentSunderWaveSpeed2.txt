@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentSunderWaveSpeed2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Sunder Wave Speed 2
+|mod_type                         = EnchantmentSunderWaveSpeed
+|stat_text                        = [[Sunder]] has 20% reduced delay between Areas in the Wave
+|stat1_id                         = sunder_wave_delay_+%
+|stat1_min                        = -20
+|stat1_max                        = -20
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

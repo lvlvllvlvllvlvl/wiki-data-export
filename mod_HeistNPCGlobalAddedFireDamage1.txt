@@ -1,0 +1,23 @@
+{{Mod
+|id                               = HeistNPCGlobalAddedFireDamage1
+|mod_groups                       = AddedFireDamage
+|domain                           = 23
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Heated
+|mod_type                         = HeistNPCGlobalAddedFireDamage
+|stat_text                        = (11-15) to (18-21) added Fire Damage<br />Players and their [[Minion|Minions]] have (11-15) to (18-21) added [[Fire Damage]]
+|stat1_id                         = player_and_minion_global_minimum_added_fire_damage
+|stat1_min                        = 11
+|stat1_max                        = 15
+|stat2_id                         = player_and_minion_global_maximum_added_fire_damage
+|stat2_min                        = 18
+|stat2_max                        = 21
+|spawn_weight1_tag                = heist_equipment_weapon
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

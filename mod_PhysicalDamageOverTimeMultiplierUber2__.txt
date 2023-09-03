@@ -1,0 +1,22 @@
+{{Mod
+|id                               = PhysicalDamageOverTimeMultiplierUber2__
+|mod_groups                       = DamageOverTimeMultiplier
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of the Elder
+|mod_type                         = PhysicalDamageOverTimeMultiplier
+|stat_text                        = +(16-20)% to [[Physical Damage]] over Time Multiplier
+|stat1_id                         = physical_dot_multiplier_+
+|stat1_min                        = 16
+|stat1_max                        = 20
+|spawn_weight1_tag                = gloves_elder
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = amulet_elder
+|spawn_weight2_value              = 400
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = dot_multi, physical_damage, damage, physical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

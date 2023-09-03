@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SentinelSentinelAdrenalineOnUse1
+|mod_groups                       = SentinelAdrenalineOnUse
+|domain                           = 30
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of Adrenaline
+|mod_type                         = SentinelAdrenalineOnUse
+|stat_text                        = Character Gains Adrenaline for 20 seconds on deployment
+|stat1_id                         = sentinel_drone_player_gains_adrenaline_on_summon_ms
+|stat1_min                        = 20000
+|stat1_max                        = 20000
+|spawn_weight1_tag                = special_sentinel_mod
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

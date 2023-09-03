@@ -1,0 +1,22 @@
+{{Mod
+|id                               = AbyssAttacksBlindOnHitChanceJewel2___
+|mod_groups                       = BlindOnHit
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 65
+|name                             = of Blinding
+|mod_type                         = AttacksBlindOnHitChance
+|stat_text                        = (5-6)% chance to Blind Enemies on [[Hit]] with [[Attack|Attacks]]
+|stat1_id                         = attacks_chance_to_blind_on_hit_%
+|stat1_min                        = 5
+|stat1_max                        = 6
+|spawn_weight1_tag                = abyss_jewel_ranged
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = abyss_jewel_melee
+|spawn_weight2_value              = 400
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

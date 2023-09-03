@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AvoidInterruptionWhileCastingInfluence3
+|mod_groups                       = AvoidInterruptionWhileCasting
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Crusade
+|mod_type                         = AvoidInterruptionWhileCasting
+|stat_text                        = (31-35)% chance to Ignore Stuns while Casting
+|stat1_id                         = avoid_interruption_while_casting_%
+|stat1_min                        = 31
+|stat1_max                        = 35
+|spawn_weight1_tag                = gloves_crusader
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

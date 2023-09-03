@@ -1,0 +1,20 @@
+{{Mod
+|id                               = IncreasedLifeLeechRateInfluence3
+|mod_groups                       = IncreasedLifeLeechRate
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 80
+|name                             = Crusader's
+|mod_type                         = IncreasedLifeLeechRate
+|stat_text                        = (46-50)% increased total Recovery per second from [[Life]] [[Leech]]
+|stat1_id                         = life_leech_speed_+%
+|stat1_min                        = 46
+|stat1_max                        = 50
+|spawn_weight1_tag                = ring_crusader
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

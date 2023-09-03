@@ -1,0 +1,25 @@
+{{Mod
+|id                               = MonsterArchnemesisSplitting_
+|mod_groups                       = MonsterArchnemesisSplitting
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 68
+|name                             = Splitting
+|granted_buff_id                  = archnemesis_split
+|granted_buff_value               = 0
+|mod_type                         = MonsterArchnemesisSplitting
+|stat_text                        = 30% increased [[Movement Speed]] (Hidden)<br>20% reduced [[Character Size]] (Hidden)
+|stat1_id                         = max_life_+%_final_for_minion
+|stat1_min                        = -30
+|stat1_max                        = -30
+|stat2_id                         = base_movement_velocity_+%
+|stat2_min                        = 30
+|stat2_max                        = 30
+|stat3_id                         = base_actor_scale_+%
+|stat3_min                        = -20
+|stat3_max                        = -20
+|spawn_weight1_tag                = magic
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

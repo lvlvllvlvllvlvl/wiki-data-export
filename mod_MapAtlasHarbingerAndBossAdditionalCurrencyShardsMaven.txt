@@ -1,0 +1,28 @@
+{{Mod
+|id                               = MapAtlasHarbingerAndBossAdditionalCurrencyShardsMaven
+|mod_groups                       = MapAtlasHarbinger
+|domain                           = 11
+|generation_type                  = 1
+|required_level                   = 1
+|mod_type                         = MapAtlasHarbingerAndBossAdditionalCurrencyShards
+|stat_text                        = 15 uses remaining<br>Map Bosses drop additional Currency Shards<br>Harbingers in your Maps drop additional Currency Shards<br>Map Bosses are accompanied by a mysterious Harbinger
+|stat1_id                         = sextant_uses_remaining
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = map_boss_drops_additional_currency_shards
+|stat2_min                        = 76
+|stat2_max                        = 76
+|stat3_id                         = map_harbingers_drops_additional_currency_shards
+|stat3_min                        = 38
+|stat3_max                        = 38
+|stat4_id                         = map_boss_accompanied_by_harbinger
+|stat4_min                        = 1
+|stat4_max                        = 1
+|stat5_id                         = map_extra_content_weighting
+|stat5_min                        = 1
+|stat5_max                        = 1
+|spawn_weight1_tag                = no_boss
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 250
+}}

@@ -1,0 +1,18 @@
+{{Mod
+|id                               = HellscapeUpsideTotemPhysicalDamageReduction2___
+|mod_groups                       = TotemPhysicalDamageReduction
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 45
+|mod_type                         = TotemPhysicalDamageReduction
+|stat_text                        = [[Totem|Totems]] have (11-15)% additional [[Physical Damage]] Reduction
+|stat1_id                         = totem_additional_physical_damage_reduction_%
+|stat1_min                        = 11
+|stat1_max                        = 15
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = amulet
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

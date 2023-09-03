@@ -1,0 +1,24 @@
+{{Mod
+|id                               = DelveQuiverFrenzyChargeOnHittingRareOrUnique1
+|mod_groups                       = FrenzyChargeOnHittingRareOrUnique
+|domain                           = 16
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Underground
+|mod_type                         = FrenzyChargeOnHittingRareOrUnique
+|stat_text                        = (3-5)% chance to gain a [[Frenzy Charge]] when you [[Hit]] a Rare or Unique Enemy
+|stat1_id                         = gain_frenzy_charge_on_hitting_rare_or_unique_enemy_%
+|stat1_min                        = 3
+|stat1_max                        = 5
+|spawn_weight1_tag                = abyss_jewel
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = jewel
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = quiver
+|spawn_weight3_value              = 2000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = frenzy_charge
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,28 @@
+{{Mod
+|id                               = CrucibleMapMonsterUnaffectedByCurses
+|mod_groups                       = CrucibleMapMonsterUnaffectedByCurses
+|domain                           = 33
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Hexwarding
+|mod_type                         = CrucibleMapMonsterUnaffectedByCurses
+|stat_text                        = Monsters are Unaffected by [[Curse|Curses]]<br>Monsters Reflect Hexes
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 16
+|stat1_max                        = 16
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 9
+|stat2_max                        = 9
+|stat3_id                         = map_monsters_unaffected_by_curses
+|stat3_min                        = 1
+|stat3_max                        = 1
+|stat4_id                         = map_monsters_reflect_curses
+|stat4_min                        = 1
+|stat4_max                        = 1
+|spawn_weight1_tag                = crucible_map_low
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = crucible_map_high
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = HungryLoopSupportedByAwakenedAncestralCall
+|mod_groups                       = HungryLoop
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|granted_skill                    = SupportAncestralCallPlus
+|mod_type                         = HungryLoopSupportedByAwakenedAncestralCall
+|stat_text                        = Has Consumed 1 Gem<br>[[Item socket|Socketed]] Gems are Supported by [[Level]] 5 Awakened Ancestral Call
+|stat1_id                         = local_unique_hungry_loop_number_of_gems_to_consume
+|stat1_min                        = -1
+|stat1_max                        = -1
+|stat2_id                         = local_unique_hungry_loop_has_consumed_gem
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = local_display_supported_by_level_x_awakened_ancestral_call
+|stat3_min                        = 5
+|stat3_max                        = 5
+|tags                             = support, gem
+}}

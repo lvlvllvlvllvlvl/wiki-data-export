@@ -1,0 +1,21 @@
+{{Mod
+|id                               = ChanceToAvoidStunUber1
+|mod_groups                       = AvoidStun
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Elder
+|mod_type                         = AvoidStun
+|stat_text                        = (15-22)% chance to Avoid being Stunned
+|stat1_id                         = base_avoid_stun_%
+|stat1_min                        = 15
+|stat1_max                        = 22
+|spawn_weight1_tag                = boots_elder
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = quiver_elder
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

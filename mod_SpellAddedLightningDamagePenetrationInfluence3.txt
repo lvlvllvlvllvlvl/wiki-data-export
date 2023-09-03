@@ -1,0 +1,30 @@
+{{Mod
+|id                               = SpellAddedLightningDamagePenetrationInfluence3
+|mod_groups                       = SpellAddedLightningDamageHybrid
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 74
+|name                             = Crusader's
+|mod_type                         = SpellAddedLightningDamagePenetrationHybrid
+|stat_text                        = Adds (1-4) to (46-49) [[Lightning Damage]] to [[Spell|Spells]]<br>Damage Penetrates 4% [[Lightning Resistance]]
+|stat1_id                         = spell_minimum_added_lightning_damage
+|stat1_min                        = 1
+|stat1_max                        = 4
+|stat2_id                         = spell_maximum_added_lightning_damage
+|stat2_min                        = 46
+|stat2_max                        = 49
+|stat3_id                         = base_reduce_enemy_lightning_resistance_%
+|stat3_min                        = 4
+|stat3_max                        = 4
+|spawn_weight1_tag                = sceptre_crusader
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = rune_dagger_crusader
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = wand_crusader
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, lightning, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

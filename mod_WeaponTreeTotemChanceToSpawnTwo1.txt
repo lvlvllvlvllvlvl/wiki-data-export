@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeTotemChanceToSpawnTwo1
+|mod_groups                       = WeaponTreeTotemChanceToSpawnTwo
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 4
+|mod_type                         = WeaponTreeTotemChanceToSpawnTwo
+|stat_text                        = [[Skill|Skills]] that would Summon a [[Totem]] have 25% chance to Summon two [[Totem|Totems]] instead<br>15% reduced [[Totem]] Placement speed
+|stat1_id                         = chance_to_summon_two_totems_%
+|stat1_min                        = 25
+|stat1_max                        = 25
+|stat2_id                         = summon_totem_cast_speed_+%
+|stat2_min                        = -15
+|stat2_max                        = -15
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

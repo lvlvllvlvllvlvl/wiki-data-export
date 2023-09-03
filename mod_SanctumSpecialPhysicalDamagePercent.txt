@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialPhysicalDamagePercent
+|mod_groups                       = PhysicalDamagePercent
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Tyrant's
+|mod_type                         = PhysicalDamagePercent
+|stat_text                        = (20-30)% increased Global [[Physical Damage]]
+|stat1_id                         = physical_damage_+%
+|stat1_min                        = 20
+|stat1_max                        = 30
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 250
+|tags                             = physical_damage, damage, physical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

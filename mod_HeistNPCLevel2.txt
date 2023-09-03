@@ -1,0 +1,21 @@
+{{Mod
+|id                               = HeistNPCLevel2
+|mod_groups                       = HeistNPCLevel
+|domain                           = 23
+|generation_type                  = 1
+|required_level                   = 45
+|name                             = Experienced
+|mod_type                         = HeistContractNPCLevel
+|stat_text                        = +2 to Character [[Level]]
+|stat1_id                         = heist_contract_npc_level_+
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = heist_equipment_utility
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = heist_equipment_tool
+|spawn_weight2_value              = 800
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

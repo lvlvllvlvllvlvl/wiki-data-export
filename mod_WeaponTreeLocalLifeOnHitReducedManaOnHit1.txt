@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeLocalLifeOnHitReducedManaOnHit1
+|mod_groups                       = WeaponTreeLocalLifeOnHitReducedManaOnHit
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 5
+|mod_type                         = WeaponTreeLocalLifeOnHitReducedManaOnHit
+|stat_text                        = Grants 15 [[Life]] per Enemy [[Hit]]<br>Removes 2 of your [[Mana]] per Enemy [[Hit]]
+|stat1_id                         = local_life_gain_per_target
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = local_mana_gain_per_target
+|stat2_min                        = -2
+|stat2_max                        = -2
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

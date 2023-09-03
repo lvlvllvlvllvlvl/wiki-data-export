@@ -1,0 +1,35 @@
+{{Mod
+|id                               = SpellDamageAndManaOnWeapon4
+|mod_groups                       = SpellDamageAndMana
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 35
+|name                             = Warlock's
+|mod_type                         = WeaponSpellDamageAndMana
+|stat_text                        = (20-24)% increased [[Spell Damage]]<br>+(29-33) to maximum [[Mana]]
+|stat1_id                         = spell_damage_+%
+|stat1_min                        = 20
+|stat1_max                        = 24
+|stat2_id                         = base_maximum_mana
+|stat2_min                        = 29
+|stat2_max                        = 33
+|spawn_weight1_tag                = attack_dagger
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = wand
+|spawn_weight2_value              = 800
+|spawn_weight3_tag                = sceptre
+|spawn_weight3_value              = 600
+|spawn_weight4_tag                = dagger
+|spawn_weight4_value              = 600
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|generation_weight1_tag           = has_caster_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_attack_mod
+|generation_weight2_value         = 50
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = caster_damage, resource, mana, damage, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

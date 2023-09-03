@@ -1,0 +1,30 @@
+{{Mod
+|id                               = MapAtlasGloomShrineEffectAndDurationMaven_
+|mod_groups                       = MapAtlasDomination
+|domain                           = 11
+|generation_type                  = 1
+|required_level                   = 1
+|mod_type                         = MapAtlasGloomShrineEffectAndDuration
+|stat_text                        = 15 uses remaining<br>50% increased Duration of Shrine Effects on Players in your Maps<br>Your Maps contain an additional Shrine<br>Your Maps contain an additional Gloom Shrine
+|stat1_id                         = sextant_uses_remaining
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = map_player_shrine_effect_duration_+%
+|stat2_min                        = 50
+|stat2_max                        = 50
+|stat3_id                         = map_num_extra_shrines
+|stat3_min                        = 1
+|stat3_max                        = 1
+|stat4_id                         = map_num_extra_gloom_shrines
+|stat4_min                        = 1
+|stat4_max                        = 1
+|stat5_id                         = map_extra_content_weighting
+|stat5_min                        = 1
+|stat5_max                        = 1
+|spawn_weight1_tag                = unique_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = no_monster_packs
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 1000
+}}

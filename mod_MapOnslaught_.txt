@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MapOnslaught_
+|mod_groups                       = MapOnslaught
+|domain                           = 5
+|generation_type                  = 3
+|mod_type                         = MapOnslaught
+|stat_text                        = Monsters have Onslaught<br>20% increased Quantity of Items found in this Area<br>20% increased Monster [[Attack Speed]]<br>20% increased Monster [[Cast Speed]]<br>20% increased Monster [[Movement Speed]]
+|stat1_id                         = map_monsters_have_onslaught
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_item_drop_quantity_+%
+|stat2_min                        = 20
+|stat2_max                        = 20
+|stat3_id                         = map_monsters_attack_speed_+%
+|stat3_min                        = 20
+|stat3_max                        = 20
+|stat4_id                         = map_monsters_cast_speed_+%
+|stat4_min                        = 20
+|stat4_max                        = 20
+|stat5_id                         = map_monsters_movement_speed_+%
+|stat5_min                        = 20
+|stat5_max                        = 20
+|tags                             = attack, caster, speed
+}}

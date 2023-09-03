@@ -1,0 +1,23 @@
+{{Mod
+|id                               = AdditionalChanceToEvadeInfluenceMaven
+|mod_groups                       = AdditionalChanceToEvade
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 85
+|name                             = of Elevated Redemption
+|mod_type                         = AdditionalChanceToEvadeMaven
+|stat_text                        = +(2-4)% chance to Evade [[Attack]] [[Hit|Hits]]<br>(7-12)% increased [[Attack]] and [[Cast Speed]] if you haven't been [[Hit]] [[Recently]]
+|stat1_id                         = chance_to_evade_attacks_%
+|stat1_min                        = 2
+|stat1_max                        = 4
+|stat2_id                         = attack_and_cast_speed_+%_if_havent_been_hit_recently
+|stat2_min                        = 7
+|stat2_max                        = 12
+|spawn_weight1_tag                = gloves_eyrie
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = defences, evasion, attack, caster, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

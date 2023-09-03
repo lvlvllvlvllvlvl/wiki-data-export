@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsidePhysicalDamageLeechedAsLife4____
+|mod_groups                       = PhysicalDamageLifeLeech
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = PhysicalDamageLifeLeechPermyriad
+|stat_text                        = (0.41-0.5)% of [[Physical Damage]] Leeched as [[Life]]
+|stat1_id                         = base_life_leech_from_physical_damage_permyriad
+|stat1_min                        = 41
+|stat1_max                        = 50
+|spawn_weight1_tag                = amulet
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life, physical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

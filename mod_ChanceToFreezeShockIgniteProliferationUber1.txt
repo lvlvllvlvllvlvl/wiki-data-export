@@ -1,0 +1,24 @@
+{{Mod
+|id                               = ChanceToFreezeShockIgniteProliferationUber1
+|mod_groups                       = ChanceToFreezeShockIgnite
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Shaping
+|granted_skill                    = SupportElementalProliferation
+|mod_type                         = ChanceToFreezeShockIgniteProliferation
+|stat_text                        = (5-7)% chance to Freeze, [[Shock]] and [[Ignite]]<br>[[Item socket|Socketed]] Gems are Supported by [[Elemental Proliferation Support|Level 18 Elemental Proliferation]]
+|stat1_id                         = chance_to_freeze_shock_ignite_%
+|stat1_min                        = 5
+|stat1_max                        = 7
+|stat2_id                         = local_display_socketed_gems_get_elemental_proliferation_level
+|stat2_min                        = 18
+|stat2_max                        = 18
+|spawn_weight1_tag                = sceptre_shaper
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, elemental, fire, cold, lightning, ailment, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

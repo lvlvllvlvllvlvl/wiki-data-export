@@ -1,0 +1,36 @@
+{{Mod
+|id                               = SpellCriticalStrikeChance6_
+|mod_groups                       = SpellCriticalStrikeChanceIncrease
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 76
+|name                             = of Unmaking
+|mod_type                         = SpellCriticalStrikeChance
+|stat_text                        = (100-109)% increased [[Critical Strike Chance]] for [[Spell|Spells]]
+|stat1_id                         = spell_critical_strike_chance_+%
+|stat1_min                        = 100
+|stat1_max                        = 109
+|spawn_weight1_tag                = attack_dagger
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = attack_staff
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = focus
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = str_int_shield
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = dex_int_shield
+|spawn_weight5_value              = 1000
+|spawn_weight6_tag                = wand
+|spawn_weight6_value              = 1000
+|spawn_weight7_tag                = staff
+|spawn_weight7_value              = 1000
+|spawn_weight8_tag                = sceptre
+|spawn_weight8_value              = 1000
+|spawn_weight9_tag                = dagger
+|spawn_weight9_value              = 1000
+|spawn_weight10_tag               = default
+|spawn_weight10_value             = 0
+|tags                             = caster, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

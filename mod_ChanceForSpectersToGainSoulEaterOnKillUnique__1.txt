@@ -1,0 +1,18 @@
+{{Mod
+|id                               = ChanceForSpectersToGainSoulEaterOnKillUnique__1
+|mod_groups                       = PassiveJewelGrantsRadius
+|domain                           = 10
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = ChanceForSpectersToGainSoulEaterOnKill
+|stat_text                        = With at least 40 [[Intelligence]] in Radius, Raised Spectres have a 50% chance to gain Soul Eater for 20 seconds on [[Kill]]
+|stat1_id                         = local_unique_jewel_spectres_gain_soul_eater_on_kill_%_chance_with_50_int_in_radius
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = local_jewel_effect_base_radius
+|stat2_min                        = 1200
+|stat2_max                        = 1200
+|tags                             = minion
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

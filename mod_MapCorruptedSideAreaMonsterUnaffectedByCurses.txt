@@ -1,0 +1,27 @@
+{{Mod
+|id                               = MapCorruptedSideAreaMonsterUnaffectedByCurses
+|mod_groups                       = MapCorruptedSideAreaMonsterUnaffectedByCurses
+|domain                           = 5
+|generation_type                  = 1
+|required_level                   = 69
+|name                             = Hexwarded
+|mod_type                         = MapCorruptedSideAreaMonsterUnaffectedByCurses
+|stat_text                        = 18% increased Quantity of Items found in this Area<br>Found Items have 2% chance to drop Corrupted in Area<br>Monsters are Unaffected by [[Curse|Curses]]<br>Monsters Reflect Hexes
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 18
+|stat1_max                        = 18
+|stat2_id                         = map_items_drop_corrupted_%
+|stat2_min                        = 2
+|stat2_max                        = 2
+|stat3_id                         = map_monsters_unaffected_by_curses
+|stat3_min                        = 1
+|stat3_max                        = 1
+|stat4_id                         = map_monsters_reflect_curses
+|stat4_min                        = 1
+|stat4_max                        = 1
+|spawn_weight1_tag                = secret_area
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = curse
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HitsCantBeEvadedIfBlockedRecentlyUber1_
+|mod_groups                       = AlwaysHits
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = HitsCantBeEvadedIfBlockedRecently
+|stat_text                        = [[Hit|Hits]] with this Weapon can't be Evaded if you have Blocked [[Recently]]
+|stat1_id                         = local_hits_with_this_weapon_always_hit_if_have_blocked_recently
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = sword_elder
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

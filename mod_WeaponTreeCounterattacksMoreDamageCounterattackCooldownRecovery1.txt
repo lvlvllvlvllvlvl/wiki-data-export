@@ -1,0 +1,21 @@
+{{Mod
+|id                               = WeaponTreeCounterattacksMoreDamageCounterattackCooldownRecovery1
+|mod_groups                       = WeaponTreeCounterattacksMoreDamageCounterattackCooldownRecovery
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 28
+|mod_type                         = WeaponTreeCounterattacksMoreDamageCounterattackCooldownRecovery
+|stat_text                        = Your Counterattacks deal 45% more Damage<br>Your Counterattacks have 30% reduced Cooldown Recovery Rate
+|stat1_id                         = weapon_tree_counterattacks_damage_+%_final
+|stat1_min                        = 45
+|stat1_max                        = 45
+|stat2_id                         = counterattacks_cooldown_recovery_+%
+|stat2_min                        = -30
+|stat2_max                        = -30
+|spawn_weight1_tag                = crucible_unique_helmet
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = shield
+|spawn_weight2_value              = 400
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

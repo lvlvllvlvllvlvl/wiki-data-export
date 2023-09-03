@@ -1,0 +1,24 @@
+{{Mod
+|id                               = ProjectileSpeedUber3_
+|mod_groups                       = ProjectileSpeed
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 82
+|name                             = The Elder's
+|granted_skill                    = SupportFasterProjectiles
+|mod_type                         = ProjectileSpeedSupported
+|stat_text                        = (26-30)% increased Projectile Speed<br>[[Item socket|Socketed]] Gems are supported by [[Faster Projectiles Support|Level 20 Faster Projectiles]]
+|stat1_id                         = base_projectile_speed_+%
+|stat1_min                        = 26
+|stat1_max                        = 30
+|stat2_id                         = local_display_socketed_gems_get_faster_projectiles_level
+|stat2_min                        = 20
+|stat2_max                        = 20
+|spawn_weight1_tag                = gloves_elder
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, speed, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

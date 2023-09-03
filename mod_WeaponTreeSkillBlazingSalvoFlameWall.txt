@@ -1,0 +1,32 @@
+{{Mod
+|id                               = WeaponTreeSkillBlazingSalvoFlameWall
+|mod_groups                       = WeaponTreeSkillBlazingSalvoFlameWall
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSkillBlazingSalvoFlameWall
+|stat_text                        = Blazing Salvo Projectiles Fork when they pass through a Flame Wall
+|stat1_id                         = blazing_salvo_projectiles_fork_when_passing_a_flame_wall
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = caster_unique_weapon
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = attack_staff
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = attack_dagger
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = weapon_can_roll_minion_modifiers
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = wand
+|spawn_weight5_value              = 1000
+|spawn_weight6_tag                = staff
+|spawn_weight6_value              = 1000
+|spawn_weight7_tag                = dagger
+|spawn_weight7_value              = 1000
+|spawn_weight8_tag                = sceptre
+|spawn_weight8_value              = 1000
+|spawn_weight9_tag                = shield
+|spawn_weight9_value              = 500
+|spawn_weight10_tag               = default
+|spawn_weight10_value             = 0
+}}

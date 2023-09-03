@@ -1,0 +1,16 @@
+{{Mod
+|id                               = FireTrapThresholdJewel1
+|mod_groups                       = PassiveJewelGrantsRadius
+|domain                           = 10
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = FireTrapThresholdJewel
+|stat_text                        = With at least 40 [[Dexterity]] in Radius, [[Fire Trap]] throws up to 1 additional [[Trap]]
+|stat1_id                         = local_unique_jewel_fire_trap_number_of_additional_traps_to_throw_with_40_dex_in_radius
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_jewel_effect_base_radius
+|stat2_min                        = 1200
+|stat2_max                        = 1200
+|tags                             = caster
+}}

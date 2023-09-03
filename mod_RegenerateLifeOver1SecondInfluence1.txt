@@ -1,0 +1,20 @@
+{{Mod
+|id                               = RegenerateLifeOver1SecondInfluence1
+|mod_groups                       = RegenerateLifeOver1Second
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 80
+|name                             = Hunter's
+|mod_type                         = RegenerateLifeOver1Second
+|stat_text                        = Every 4 seconds, Regenerate 15% of [[Life]] over one second
+|stat1_id                         = guardian_gain_life_regeneration_per_minute_%_for_1_second_every_10_seconds
+|stat1_min                        = 900
+|stat1_max                        = 900
+|spawn_weight1_tag                = body_armour_basilisk
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

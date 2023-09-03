@@ -1,0 +1,16 @@
+{{Mod
+|id                               = ArmourEnchantmentHeistDefenceEffectAttributeRequirementsPenalty1_
+|mod_groups                       = EnchantmentHeistArmour
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 69
+|name                             = Enchantment Defence Modifier Effect and Attribute Requirements Penalty
+|mod_type                         = ArmourEnchantmentHeistDefenceModifierEffectAttributeRequirementsPenalty
+|stat_text                        = 15% increased Explicit Defence Modifier magnitudes<br>200% increased Attribute Requirements
+|stat1_id                         = heist_enchantment_defence_mod_effect_+%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = local_attribute_requirements_+%
+|stat2_min                        = 200
+|stat2_max                        = 200
+}}

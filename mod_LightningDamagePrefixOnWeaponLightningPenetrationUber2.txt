@@ -1,0 +1,28 @@
+{{Mod
+|id                               = LightningDamagePrefixOnWeaponLightningPenetrationUber2
+|mod_groups                       = WeaponCasterDamagePrefix
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = The Shaper's
+|granted_skill                    = SupportLightningPenetration
+|mod_type                         = LightningDamagePrefixLightningPenetration
+|stat_text                        = (53-56)% increased [[Lightning Damage]]<br>[[Item socket|Socketed]] Gems are Supported by [[Lightning Penetration Support|Level 18 Lightning Penetration]]
+|stat1_id                         = lightning_damage_+%
+|stat1_min                        = 53
+|stat1_max                        = 56
+|stat2_id                         = local_display_socketed_gems_supported_by_level_x_lightning_penetration
+|stat2_min                        = 18
+|stat2_max                        = 18
+|spawn_weight1_tag                = sceptre_shaper
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = rune_dagger_shaper
+|spawn_weight2_value              = 200
+|spawn_weight3_tag                = wand_shaper
+|spawn_weight3_value              = 200
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = support, elemental_damage, damage, elemental, lightning, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

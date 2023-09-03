@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeIncreasedLifeReducedDamage3
+|mod_groups                       = IncreasedLife
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 70
+|mod_type                         = WeaponTreeIncreasedLifeReducedDamage
+|stat_text                        = +80 to maximum [[Life]]<br>20% reduced Damage
+|stat1_id                         = base_maximum_life
+|stat1_min                        = 80
+|stat1_max                        = 80
+|stat2_id                         = damage_+%
+|stat2_min                        = -20
+|stat2_max                        = -20
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

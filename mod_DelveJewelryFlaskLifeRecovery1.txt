@@ -1,0 +1,28 @@
+{{Mod
+|id                               = DelveJewelryFlaskLifeRecovery1
+|mod_groups                       = FlaskLifeRecovery
+|domain                           = 16
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Underground
+|mod_type                         = GlobalFlaskLifeRecovery
+|stat_text                        = (20-30)% increased [[Life]] Recovery from Flasks
+|stat1_id                         = flask_life_to_recover_+%
+|stat1_min                        = 20
+|stat1_max                        = 30
+|spawn_weight1_tag                = abyss_jewel
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = jewel
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = ring
+|spawn_weight3_value              = 2000
+|spawn_weight4_tag                = amulet
+|spawn_weight4_value              = 2000
+|spawn_weight5_tag                = belt
+|spawn_weight5_value              = 2000
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = flask, resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

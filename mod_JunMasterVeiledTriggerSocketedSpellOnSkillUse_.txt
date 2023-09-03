@@ -1,0 +1,21 @@
+{{Mod
+|id                               = JunMasterVeiledTriggerSocketedSpellOnSkillUse_
+|mod_groups                       = SupportedByTrigger
+|domain                           = 28
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of the Order
+|granted_skill                    = SupportTriggerSpellOnSkillUse
+|mod_type                         = TriggerSocketedSpellOnSkillUseFourSeconds
+|stat_text                        = Trigger a [[Item socket|Socketed]] [[Spell]] on Using a Skill, with a 4 second Cooldown<br />Spells Triggered this way have 150% more Cost
+|stat1_id                         = local_weapon_trigger_socketed_spell_on_skill_use_display_cooldown_ms
+|stat1_min                        = 4000
+|stat1_max                        = 4000
+|spawn_weight1_tag                = weapon
+|spawn_weight1_value              = 1500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = skill, unveiled_mod, caster, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

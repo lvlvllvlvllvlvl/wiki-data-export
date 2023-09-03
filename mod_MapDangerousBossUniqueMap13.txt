@@ -1,0 +1,21 @@
+{{Mod
+|id                               = MapDangerousBossUniqueMap13
+|mod_groups                       = MapDangerousBoss
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapDangerousBoss
+|stat_text                        = 150% increased Quantity of Items found in this Area<br>Unique Boss deals (30-35)% increased Damage<br>Unique Boss has (25-30)% increased [[Attack]] and [[Cast Speed]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 150
+|stat1_max                        = 150
+|stat2_id                         = map_boss_damage_+%
+|stat2_min                        = 30
+|stat2_max                        = 35
+|stat3_id                         = map_boss_attack_and_cast_speed_+%
+|stat3_min                        = 25
+|stat3_max                        = 30
+|tags                             = attack, caster, speed
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

@@ -1,0 +1,24 @@
+{{Mod
+|id                               = AreaOfEffectSupportedUberMaven
+|mod_groups                       = AreaOfEffect
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 93
+|name                             = Elevated Shaper's
+|granted_skill                    = SupportIncreasedAreaOfEffect
+|mod_type                         = AreaOfEffectSupported
+|stat_text                        = (13-15)% increased Area of Effect<br>[[Item socket|Socketed]] Gems are Supported by [[Increased Area of Effect Support|Level 25 Increased Area of Effect]]
+|stat1_id                         = base_skill_area_of_effect_+%
+|stat1_min                        = 13
+|stat1_max                        = 15
+|stat2_id                         = local_display_socketed_gems_get_increased_area_level
+|stat2_min                        = 25
+|stat2_max                        = 25
+|spawn_weight1_tag                = helmet_shaper
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

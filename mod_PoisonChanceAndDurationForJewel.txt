@@ -1,0 +1,23 @@
+{{Mod
+|id                               = PoisonChanceAndDurationForJewel
+|mod_groups                       = AilmentChanceAndDuration
+|domain                           = 10
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Poisoning
+|mod_type                         = PoisonChanceAndDurationForJewel
+|stat_text                        = (3-5)% chance to [[Poison]] on [[Hit]]<br>(6-8)% increased [[Poison]] Duration
+|stat1_id                         = base_chance_to_poison_on_hit_%
+|stat1_min                        = 3
+|stat1_max                        = 5
+|stat2_id                         = base_poison_duration_+%
+|stat2_min                        = 6
+|stat2_max                        = 8
+|spawn_weight1_tag                = not_dex
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 350
+|tags                             = poison, chaos, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

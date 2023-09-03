@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentIceSiphonTrapDamageTaken1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Ice Siphon Trap Damage Taken 1
+|mod_type                         = EnchantmentIceSiphonTrapDamageTaken
+|stat_text                        = Siphoning Trap's beam to you grants 1% reduced Damage taken for each other beam
+|stat1_id                         = ice_siphon_trap_damage_taken_+%_per_beam
+|stat1_min                        = -1
+|stat1_max                        = -1
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 67
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster_damage, damage, caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,26 @@
+{{Mod
+|id                               = ElementalDamagePercentAddedAsChaosUber2
+|mod_groups                       = ElementalDamagePercentAddedAsChaos
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 85
+|name                             = The Shaper's
+|mod_type                         = ElementalDamagePercentAddedAsChaos
+|stat_text                        = Gain (7-8)% of [[Elemental Damage]] as Extra [[Chaos Damage]]
+|stat1_id                         = elemental_damage_%_to_add_as_chaos
+|stat1_min                        = 7
+|stat1_max                        = 8
+|spawn_weight1_tag                = sceptre_shaper
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = dagger_shaper
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = rune_dagger_shaper
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = wand_shaper
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = elemental_damage, chaos_damage, damage, elemental, chaos
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = ImpaleChanceForJewel_
+|mod_groups                       = ImpaleOnHit
+|domain                           = 10
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Impaling
+|mod_type                         = ImpaleChanceForJewel
+|stat_text                        = (5-7)% chance to Impale Enemies on [[Hit]] with [[Attack|Attacks]]
+|stat1_id                         = attacks_impale_on_hit_%_chance
+|stat1_min                        = 5
+|stat1_max                        = 7
+|spawn_weight1_tag                = not_str
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 350
+|tags                             = physical, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

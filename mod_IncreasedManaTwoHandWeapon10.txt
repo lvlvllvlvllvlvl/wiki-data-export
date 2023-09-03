@@ -1,0 +1,20 @@
+{{Mod
+|id                               = IncreasedManaTwoHandWeapon10
+|mod_groups                       = IncreasedMana
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 69
+|name                             = Mazarine
+|mod_type                         = IncreasedMana
+|stat_text                        = +(160-179) to maximum [[Mana]]
+|stat1_id                         = base_maximum_mana
+|stat1_min                        = 160
+|stat1_max                        = 179
+|spawn_weight1_tag                = staff
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

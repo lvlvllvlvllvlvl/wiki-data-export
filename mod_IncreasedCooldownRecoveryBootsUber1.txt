@@ -1,0 +1,19 @@
+{{Mod
+|id                               = IncreasedCooldownRecoveryBootsUber1
+|mod_groups                       = CooldownRecovery
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of Shaping
+|mod_type                         = GlobalCooldownRecovery
+|stat_text                        = (10-15)% increased Cooldown Recovery Rate
+|stat1_id                         = base_cooldown_speed_+%
+|stat1_min                        = 10
+|stat1_max                        = 15
+|spawn_weight1_tag                = boots_shaper
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

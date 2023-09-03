@@ -1,0 +1,23 @@
+{{Mod
+|id                               = JunMasterFlaskEffectAndFlaskChargesGained2
+|mod_groups                       = FlaskEffect
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 38
+|name                             = Chosen
+|mod_type                         = FlaskEffectAndFlaskChargesGained
+|stat_text                        = Flasks applied to you have (11-14)% increased Effect<br>33% reduced Flask [[Charge|Charges]] gained
+|stat1_id                         = flask_effect_+%
+|stat1_min                        = 11
+|stat1_max                        = 14
+|stat2_id                         = charges_gained_+%
+|stat2_min                        = -33
+|stat2_max                        = -33
+|spawn_weight1_tag                = belt
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, unveiled_mod
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,21 @@
+{{Mod
+|id                               = SocketedSpellCriticalStrikeChanceUber3
+|mod_groups                       = SocketedCriticalStrikeChance
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 84
+|name                             = of Shaping
+|granted_skill                    = ModSupportSocketedSpellsCriticalStrikeChance
+|mod_type                         = SocketedSpellCriticalStrikeChance
+|stat_text                        = [[Item socket|Socketed]] [[Spell|Spells]] have +3% to [[Critical Strike Chance]]
+|stat1_id                         = local_display_socketed_spells_additional_critical_strike_chance
+|stat1_min                        = 300
+|stat1_max                        = 300
+|spawn_weight1_tag                = helmet_shaper
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = skill, caster, critical, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

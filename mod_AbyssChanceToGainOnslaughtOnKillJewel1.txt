@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AbyssChanceToGainOnslaughtOnKillJewel1
+|mod_groups                       = ChanceToGainOnslaughtOnKill
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 50
+|name                             = of Onslaught
+|mod_type                         = ChanceToGainOnslaughtOnKill
+|stat_text                        = (3-5)% chance to gain Onslaught for 4 seconds on [[Kill]]
+|stat1_id                         = chance_to_gain_onslaught_on_kill_%
+|stat1_min                        = 3
+|stat1_max                        = 5
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = abyss_jewel_ranged
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

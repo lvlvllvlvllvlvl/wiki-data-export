@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentDoubleStrikeDoubleDamageVsBleeding1___
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Double Strike Double Damage Vs Bleeding 1
+|mod_type                         = EnchantmentDoubleStrikeDoubleDamageVsBleeding
+|stat_text                        = [[Double Strike]] has a 10% chance to deal Double Damage to Bleeding Enemies
+|stat1_id                         = double_strike_chance_to_deal_double_damage_%_vs_bleeding_enemies
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 75
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

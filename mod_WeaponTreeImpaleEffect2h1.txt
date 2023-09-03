@@ -1,0 +1,21 @@
+{{Mod
+|id                               = WeaponTreeImpaleEffect2h1
+|mod_groups                       = WeaponTreeImpaleEffect
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeImpaleEffect
+|stat_text                        = 18% increased Impale Effect<br>[[Attack]] [[Hit|Hits]] against you have 30% chance to Impale
+|stat1_id                         = impale_debuff_effect_+%
+|stat1_min                        = 18
+|stat1_max                        = 18
+|stat2_id                         = received_attack_hits_have_impale_chance_%
+|stat2_min                        = 30
+|stat2_max                        = 30
+|spawn_weight1_tag                = staff
+|spawn_weight1_value              = 75
+|spawn_weight2_tag                = two_hand_weapon
+|spawn_weight2_value              = 300
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

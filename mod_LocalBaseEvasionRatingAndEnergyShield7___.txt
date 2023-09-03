@@ -1,0 +1,31 @@
+{{Mod
+|id                               = LocalBaseEvasionRatingAndEnergyShield7___
+|mod_groups                       = BaseLocalDefences
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 69
+|name                             = Apparition's
+|mod_type                         = LocalBaseEvasionRatingAndEnergyShield
+|stat_text                        = +(221-300) to [[Evasion Rating]]<br>+(61-72) to maximum [[Energy Shield]]
+|stat1_id                         = local_base_evasion_rating
+|stat1_min                        = 221
+|stat1_max                        = 300
+|stat2_id                         = local_energy_shield
+|stat2_min                        = 61
+|stat2_max                        = 72
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = gloves
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = helmet
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = dex_int_armour
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = str_dex_int_armour
+|spawn_weight5_value              = 166
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = defences, evasion, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

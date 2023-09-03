@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AdditionalBlockWith5NearbyEnemiesUber1
+|mod_groups                       = AdditionalBlockWith5NearbyEnemies
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Elder
+|mod_type                         = AdditionalBlockWith5NearbyEnemies
+|stat_text                        = +(2-3)% Chance to [[Block]] [[Attack Damage]] if there are at least 5 nearby Enemies
+|stat1_id                         = additional_block_%_with_5_or_more_nearby_enemies
+|stat1_min                        = 2
+|stat1_max                        = 3
+|spawn_weight1_tag                = shield_elder
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = block
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

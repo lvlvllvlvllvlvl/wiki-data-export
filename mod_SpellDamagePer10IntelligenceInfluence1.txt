@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SpellDamagePer10IntelligenceInfluence1
+|mod_groups                       = SpellDamagePerIntelligence
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Hunter's
+|mod_type                         = SpellDamagePer10Intelligence
+|stat_text                        = 1% increased [[Spell Damage]] per 10 [[Intelligence]]
+|stat1_id                         = spell_damage_+%_per_10_int
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = staff_basilisk
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster_damage, damage, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

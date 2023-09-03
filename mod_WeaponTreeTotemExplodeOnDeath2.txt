@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeTotemExplodeOnDeath2
+|mod_groups                       = WeaponTreeTotemExplodeOnDeath
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 60
+|mod_type                         = WeaponTreeTotemExplodeOnDeath
+|stat_text                        = [[Totem|Totems]] Explode on Death, dealing 15% of their [[Life]] as [[Physical Damage]]<br>15% reduced [[Totem]] [[Life]]
+|stat1_id                         = totems_explode_on_death_for_%_life_as_physical_divide_20
+|stat1_min                        = 300
+|stat1_max                        = 300
+|stat2_id                         = totem_life_+%
+|stat2_min                        = -15
+|stat2_max                        = -15
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

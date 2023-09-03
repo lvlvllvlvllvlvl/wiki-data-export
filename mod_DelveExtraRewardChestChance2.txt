@@ -1,0 +1,25 @@
+{{Mod
+|id                               = DelveExtraRewardChestChance2
+|mod_groups                       = DelveExtraRewardChestChance
+|domain                           = 17
+|generation_type                  = 14
+|required_level                   = 52
+|mod_type                         = DelveExtraRewardChestChance
+|stat_text                        = 10% increased Quantity of Items found in this Area<br>6% increased Rarity of Items found in this Area<br>4% increased Pack size<br>Encounters have (16-20)% chance to contain an extra Reward Chest
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 6
+|stat2_max                        = 6
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 4
+|stat3_max                        = 4
+|stat4_id                         = delve_biome_encounters_extra_reward_chest_%_chance
+|stat4_min                        = 16
+|stat4_max                        = 20
+|spawn_weight1_tag                = delve_city_biome
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 250
+}}

@@ -1,0 +1,23 @@
+{{Mod
+|id                               = HeistNPCGlobalAddedLightningDamage2
+|mod_groups                       = AddedLightningDamage
+|domain                           = 23
+|generation_type                  = 1
+|required_level                   = 45
+|name                             = Buzzing
+|mod_type                         = HeistNPCGlobalAddedLightningDamage
+|stat_text                        = 1 to (41-47) added Lightning Damage<br />Players and their [[Minion|Minions]] have 1 to (41-47) added [[Lightning Damage]]
+|stat1_id                         = player_and_minion_global_minimum_added_lightning_damage
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = player_and_minion_global_maximum_added_lightning_damage
+|stat2_min                        = 41
+|stat2_max                        = 47
+|spawn_weight1_tag                = heist_equipment_weapon
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, lightning
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

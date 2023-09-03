@@ -1,0 +1,24 @@
+{{Mod
+|id                               = AddedChaosDamageEldritchImplicit1
+|mod_groups                       = ChaosDamage
+|domain                           = 1
+|generation_type                  = 28
+|required_level                   = 75
+|mod_type                         = ChaosDamage
+|stat_text                        = Adds (5-6) to (10-11) [[Chaos Damage]] to [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_chaos_damage
+|stat1_min                        = 5
+|stat1_max                        = 6
+|stat2_id                         = attack_maximum_added_chaos_damage
+|stat2_min                        = 10
+|stat2_max                        = 11
+|spawn_weight1_tag                = no_tier_6_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = gloves
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = chaos_damage, damage, chaos, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

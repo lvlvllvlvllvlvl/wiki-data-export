@@ -1,0 +1,26 @@
+{{Mod
+|id                               = SentinelTagUniqueDroneMapBossUnique1
+|mod_groups                       = MonsterTagging
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = sentinel_tag_visual_gold
+|granted_buff_value               = 0
+|mod_type                         = MonsterTaggingSpecificMapBoss
+|stat_text                        = 25% increased [[Character Size]] (Hidden)
+|stat1_id                         = base_actor_scale_+%
+|stat1_min                        = 25
+|stat1_max                        = 25
+|stat2_id                         = tagged_by_sentinel
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = tagged_by_sentinel_unique
+|stat3_min                        = 1
+|stat3_max                        = 1
+|stat4_id                         = monster_sentinel_experience_+%
+|stat4_min                        = 500
+|stat4_max                        = 500
+|stat5_id                         = archnemesis_monster_life_+%_final
+|stat5_min                        = 150
+|stat5_max                        = 150
+}}

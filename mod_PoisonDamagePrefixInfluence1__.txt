@@ -1,0 +1,28 @@
+{{Mod
+|id                               = PoisonDamagePrefixInfluence1__
+|mod_groups                       = WeaponCasterDamagePrefix
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Hunter's
+|mod_type                         = ChaosDamageOverTimePrefix
+|stat_text                        = (60-69)% increased [[Chaos Damage]] over Time
+|stat1_id                         = chaos_damage_over_time_+%
+|stat1_min                        = 60
+|stat1_max                        = 69
+|spawn_weight1_tag                = sword_basilisk
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = claw_basilisk
+|spawn_weight2_value              = 400
+|spawn_weight3_tag                = dagger_basilisk
+|spawn_weight3_value              = 400
+|spawn_weight4_tag                = rune_dagger_basilisk
+|spawn_weight4_value              = 400
+|spawn_weight5_tag                = bow_basilisk
+|spawn_weight5_value              = 400
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = chaos_damage, poison, damage, chaos, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeAllExposureOnHit
+|mod_groups                       = WeaponTreeAllExposureOnHit
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 75
+|mod_type                         = WeaponTreeAllExposureOnHit
+|stat_text                        = Inflict Fire, Cold, and Lightning Exposure on [[Hit]]<br>25% chance to be inflicted with a random Exposure when you take [[Elemental Damage]] from a [[Hit]]
+|stat1_id                         = inflict_all_exposure_on_hit
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = inflicted_with_random_exposure_on_taking_damage_from_elemental_hit_chance_%
+|stat2_min                        = 25
+|stat2_max                        = 25
+|spawn_weight1_tag                = weapon
+|spawn_weight1_value              = 300
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,22 @@
+{{Mod
+|id                               = CriticalStrikeMultiplierAgainstEnemiesOnFullLifeUber1
+|mod_groups                       = CriticalStrikeMultiplierAgainstEnemiesOnFullLife
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Shaping
+|mod_type                         = CriticalStrikeMultiplierAgainstEnemiesOnFullLife
+|stat_text                        = +(50-60)% to [[Critical Strike Multiplier]] against Enemies that are on [[Full Life]]
+|stat1_id                         = critical_strike_multiplier_vs_enemies_on_full_life_+
+|stat1_min                        = 50
+|stat1_max                        = 60
+|spawn_weight1_tag                = dagger_shaper
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = rune_dagger_shaper
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = damage, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

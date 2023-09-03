@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeDownsideMinusLocalEvasionArmourEnergyShieldPercent3
+|mod_groups                       = DefencesPercent
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 68
+|mod_type                         = LocalArmourAndEvasionAndEnergyShield
+|stat_text                        = (60-51)% reduced Armour, [[Evasion]] and [[Energy Shield]]
+|stat1_id                         = local_armour_and_evasion_and_energy_shield_+%
+|stat1_min                        = -60
+|stat1_max                        = -51
+|spawn_weight1_tag                = armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = defences, armour, evasion, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeIgniteDuration2h2
+|mod_groups                       = WeaponTreeIgniteDuration
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 45
+|mod_type                         = WeaponTreeIgniteDuration
+|stat_text                        = 50% increased [[Ignite]] Duration on Enemies<br>40% increased [[Ignite]] Duration on you
+|stat1_id                         = ignite_duration_+%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = base_self_ignite_duration_-%
+|stat2_min                        = -40
+|stat2_max                        = -40
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 300
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

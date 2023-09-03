@@ -1,0 +1,20 @@
+{{Mod
+|id                               = GlobalDamageOverTimeMultiplierWithAttacks1h3
+|mod_groups                       = GlobalDamageOverTimeMultiplier
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Liquefaction
+|mod_type                         = GlobalDamageOverTimeMultiplierWithAttacks
+|stat_text                        = +(16-19)% to Damage over Time Multiplier with [[Attack]] [[Skill|Skills]]
+|stat1_id                         = damage_over_time_multiplier_+_with_attacks
+|stat1_min                        = 16
+|stat1_max                        = 19
+|spawn_weight1_tag                = quiver
+|spawn_weight1_value              = 300
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = dot_multi, damage, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

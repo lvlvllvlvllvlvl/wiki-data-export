@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialAvoidFreeze
+|mod_groups                       = AvoidFreeze
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Guiltless
+|mod_type                         = AvoidFreeze
+|stat_text                        = (40-50)% chance to Avoid being [[Freeze|Frozen]]
+|stat1_id                         = base_avoid_freeze_%
+|stat1_min                        = 40
+|stat1_max                        = 50
+|spawn_weight1_tag                = dex_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = elemental, cold, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

@@ -1,0 +1,26 @@
+{{Mod
+|id                               = AbyssMovementSpeedIfNotDamagedRecentlyJewel1
+|mod_groups                       = MovementSpeedIfNotDamagedRecently
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Momentum
+|mod_type                         = MovementSpeedIfNotDamagedRecently
+|stat_text                        = (3-4)% increased [[Movement Speed]] if you haven't taken Damage [[Recently]]
+|stat1_id                         = movement_speed_+%_if_have_not_taken_damage_recently
+|stat1_min                        = 3
+|stat1_max                        = 4
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = abyss_jewel_ranged
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = abyss_jewel_caster
+|spawn_weight3_value              = 250
+|spawn_weight4_tag                = abyss_jewel_summoner
+|spawn_weight4_value              = 250
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

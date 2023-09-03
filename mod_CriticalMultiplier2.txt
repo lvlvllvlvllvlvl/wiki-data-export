@@ -1,0 +1,22 @@
+{{Mod
+|id                               = CriticalMultiplier2
+|mod_groups                       = CriticalStrikeMultiplier
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 21
+|name                             = of Anger
+|mod_type                         = CriticalStrikeMultiplier
+|stat_text                        = +(13-19)% to Global [[Critical Strike Multiplier]]
+|stat1_id                         = base_critical_strike_multiplier_+
+|stat1_min                        = 13
+|stat1_max                        = 19
+|spawn_weight1_tag                = weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = amulet
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = damage, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

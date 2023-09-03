@@ -1,0 +1,15 @@
+{{Mod
+|id                               = MonsterAuraAddedFireDamageSkeletonArmy
+|mod_groups                       = MonsterAura
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = monster_aura_fire_damage
+|granted_buff_value               = 50
+|mod_type                         = MonsterAuraAddedFireDamage
+|stat_text                        = Gain 10% of [[Physical Damage]] as Extra [[Fire Damage]] (Hidden)
+|stat1_id                         = physical_damage_%_to_add_as_fire
+|stat1_min                        = 10
+|stat1_max                        = 10
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, fire
+}}

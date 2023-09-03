@@ -1,0 +1,13 @@
+{{Mod
+|id                               = SynthesisImplicitFirePenetrationWeapon1
+|mod_groups                       = FireResistancePenetration
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 60
+|mod_type                         = FirePenetrationWeapon
+|stat_text                        = Damage with Weapons Penetrates (4-6)% [[Fire Resistance]]
+|stat1_id                         = reduce_enemy_fire_resistance_with_weapons_%
+|stat1_min                        = 4
+|stat1_max                        = 6
+|tags                             = elemental_damage, damage, elemental, fire, attack
+}}

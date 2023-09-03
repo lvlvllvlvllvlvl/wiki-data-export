@@ -1,0 +1,15 @@
+{{Mod
+|id                               = MonsterAuraAddedLightningDamage
+|mod_groups                       = MonsterAura
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = monster_aura_lightning_damage
+|granted_buff_value               = 50
+|mod_type                         = MonsterAuraAddedLightningDamage
+|stat_text                        = Gain 25% of [[Physical Damage]] as Extra [[Lightning Damage]] (Hidden)
+|stat1_id                         = physical_damage_%_to_add_as_lightning
+|stat1_min                        = 25
+|stat1_max                        = 25
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, lightning
+}}

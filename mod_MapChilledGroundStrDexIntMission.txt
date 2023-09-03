@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MapChilledGroundStrDexIntMission
+|mod_groups                       = MapGroundEffect
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapChilledGroundMap2Tier
+|stat_text                        = (30-40)% increased Quantity of Items found in this Area<br>(30-40)% increased Rarity of Items found in this Area<br>Area has patches of Chilled Ground<br>20 patches with Ground Effect per 100 tiles (Hidden)<br>Ground Effect has a radius of 14 (Hidden)
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 30
+|stat1_max                        = 40
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 30
+|stat2_max                        = 40
+|stat3_id                         = map_ground_ice
+|stat3_min                        = 1
+|stat3_max                        = 1
+|stat4_id                         = map_ground_effect_patches_per_100_tiles
+|stat4_min                        = 20
+|stat4_max                        = 20
+|stat5_id                         = map_ground_effect_radius
+|stat5_min                        = 14
+|stat5_max                        = 14
+}}

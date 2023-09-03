@@ -1,0 +1,21 @@
+{{Mod
+|id                               = JunMasterVeiledMinimumFrenzyChargesInverted
+|mod_groups                       = MinimumFrenzyCharges
+|domain                           = 28
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of the Order
+|mod_type                         = MinimumFrenzyChargesAndOnKillLose
+|stat_text                        = +1 to Minimum [[Frenzy Charge|Frenzy Charges]]<br>(3-4)% chance to lose a [[Frenzy Charge]] on [[Kill]]
+|stat1_id                         = base_minimum_frenzy_charges
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = lose_frenzy_charge_on_kill_%
+|stat2_min                        = 3
+|stat2_max                        = 4
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = frenzy_charge, unveiled_mod
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

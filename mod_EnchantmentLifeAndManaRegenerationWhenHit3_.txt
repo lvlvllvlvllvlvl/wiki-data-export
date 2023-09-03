@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentLifeAndManaRegenerationWhenHit3_
+|mod_groups                       = ConditionalBuffEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Regeneration 3
+|mod_type                         = LifeAndManaRegenerationWhenHit
+|stat_text                        = Regenerate 2% of [[Life]] per second if you were [[Hit]] [[Recently]]
+|stat1_id                         = enchantment_boots_life_regen_per_minute_%_for_4_seconds_when_hit
+|stat1_min                        = 120
+|stat1_max                        = 120
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

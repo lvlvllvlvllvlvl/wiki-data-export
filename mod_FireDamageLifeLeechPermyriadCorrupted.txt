@@ -1,0 +1,25 @@
+{{Mod
+|id                               = FireDamageLifeLeechPermyriadCorrupted
+|mod_groups                       = FireDamageLifeLeech
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 50
+|mod_type                         = FireDamageLifeLeechPermyriad
+|stat_text                        = 0.2% of [[Fire Damage]] Leeched as [[Life]]
+|stat1_id                         = base_life_leech_from_fire_damage_permyriad
+|stat1_min                        = 20
+|stat1_max                        = 20
+|spawn_weight1_tag                = amulet
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = quiver
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = two_hand_weapon
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = weapon
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = resource, life, elemental, fire
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

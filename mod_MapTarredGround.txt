@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MapTarredGround
+|mod_groups                       = MapGroundEffect
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapTarredGround
+|stat_text                        = Area has patches of tar<br>20 patches with Ground Effect per 100 tiles (Hidden)<br>Ground Effect has a radius of 14 (Hidden)
+|stat1_id                         = map_ground_tar_movement_speed_+%
+|stat1_min                        = -50
+|stat1_max                        = -50
+|stat2_id                         = map_ground_effect_patches_per_100_tiles
+|stat2_min                        = 20
+|stat2_max                        = 20
+|stat3_id                         = map_ground_effect_radius
+|stat3_min                        = 14
+|stat3_max                        = 14
+}}

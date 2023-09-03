@@ -1,0 +1,23 @@
+{{Mod
+|id                               = AddedColdDamagePerFrenzyChargeInfluence1
+|mod_groups                       = AddedColdDamagePerFrenzyCharge
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Redeemer's
+|mod_type                         = AddedColdDamagePerFrenzyCharge
+|stat_text                        = (2-3) to (4-5) Added [[Cold Damage]] per [[Frenzy Charge]]
+|stat1_id                         = minimum_added_cold_damage_per_frenzy_charge
+|stat1_min                        = 2
+|stat1_max                        = 3
+|stat2_id                         = maximum_added_cold_damage_per_frenzy_charge
+|stat2_min                        = 4
+|stat2_max                        = 5
+|spawn_weight1_tag                = ring_eyrie
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, cold
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,23 @@
+{{Mod
+|id                               = IncreasedMeleeWeaponRangeAndMeleeDamageUber1
+|mod_groups                       = MeleeRangeAndMeleeDamage
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of the Elder
+|mod_type                         = MeleeDamageAndMeleeRange
+|stat_text                        = (13-16)% increased Melee Damage<br>+2 to Melee Strike Range
+|stat1_id                         = melee_damage_+%
+|stat1_min                        = 13
+|stat1_max                        = 16
+|stat2_id                         = melee_range_+
+|stat2_min                        = 2
+|stat2_max                        = 2
+|spawn_weight1_tag                = gloves_elder
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

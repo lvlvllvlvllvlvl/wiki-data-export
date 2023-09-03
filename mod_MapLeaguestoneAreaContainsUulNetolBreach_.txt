@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MapLeaguestoneAreaContainsUulNetolBreach_
+|mod_groups                       = MapLeaguestoneAreaContainsUulNetolBreach
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 40
+|name                             = Unburdened
+|mod_type                         = MapLeaguestoneAreaContainsUulNetolBreach
+|stat_text                        = Next Area will contain an Uul-Netol Breach
+|stat1_id                         = map_contains_uul_netol_breach
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = leaguestone_prefix_minimum_area_level
+|stat2_min                        = 40
+|stat2_max                        = 40
+|spawn_weight1_tag                = breach_leaguestone
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

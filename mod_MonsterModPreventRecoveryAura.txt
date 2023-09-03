@@ -1,0 +1,21 @@
+{{Mod
+|id                               = MonsterModPreventRecoveryAura
+|mod_groups                       = MonsterModSpecialAura
+|domain                           = 3
+|generation_type                  = 2
+|required_level                   = 34
+|name                             = of the Executioner
+|granted_buff_id                  = archnemesis_executioner
+|granted_buff_value               = 30
+|mod_type                         = MonsterModPreventRecoveryAura
+|stat_text                        = Cannot Recover [[Life]] or [[Energy Shield]] to above 50% (Hidden)
+|stat1_id                         = cannot_recover_life_or_energy_shield_above_%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|spawn_weight1_tag                = magic
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 1000
+}}

@@ -1,0 +1,25 @@
+{{Mod
+|id                               = MapAtlasBeyondAndExtraBeyondDemonChance
+|mod_groups                       = MapAtlasBeyond
+|domain                           = 11
+|generation_type                  = 1
+|required_level                   = 1
+|mod_type                         = MapAtlasBeyondAndExtraBeyondDemon
+|stat_text                        = 3 uses remaining<br>Slaying Enemies close together can attract monsters from Beyond this realm<br>25% increased Beyond Demon Pack Size in your Maps
+|stat1_id                         = sextant_uses_remaining
+|stat1_min                        = 3
+|stat1_max                        = 3
+|stat2_id                         = map_beyond_rules
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = map_beyond_demon_pack_size_+%
+|stat3_min                        = 25
+|stat3_max                        = 25
+|stat4_id                         = map_extra_content_weighting
+|stat4_min                        = 1
+|stat4_max                        = 1
+|spawn_weight1_tag                = unique_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 250
+}}

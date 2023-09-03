@@ -1,0 +1,20 @@
+{{Mod
+|id                               = ChaosDamageOverTimeMultiplierQuiverInfluence1__
+|mod_groups                       = DamageOverTimeMultiplier
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Hunt
+|mod_type                         = ChaosDamageOverTimeMultiplierWithAttacks
+|stat_text                        = +(16-20)% to [[Chaos Damage]] over Time Multiplier with [[Attack]] [[Skill|Skills]]
+|stat1_id                         = chaos_damage_over_time_multiplier_+_with_attacks
+|stat1_min                        = 16
+|stat1_max                        = 20
+|spawn_weight1_tag                = quiver_basilisk
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = dot_multi, chaos_damage, damage, chaos, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

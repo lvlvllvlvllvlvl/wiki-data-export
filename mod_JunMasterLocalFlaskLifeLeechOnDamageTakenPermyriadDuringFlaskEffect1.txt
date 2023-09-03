@@ -1,0 +1,20 @@
+{{Mod
+|id                               = JunMasterLocalFlaskLifeLeechOnDamageTakenPermyriadDuringFlaskEffect1
+|mod_groups                       = LocalFlaskLifeLeechOnDamageTakenPermyriadDuringFlaskEffect
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Order
+|mod_type                         = LocalFlaskLifeLeechOnDamageTakenPermyriadDuringFlaskEffect
+|stat_text                        = 15% of Damage Taken from [[Hit|Hits]] is Leeched as [[Life]] during Effect
+|stat1_id                         = local_flask_life_leech_on_damage_taken_%_permyriad_during_flask_effect
+|stat1_min                        = 1500
+|stat1_max                        = 1500
+|spawn_weight1_tag                = flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, resource, unveiled_mod, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

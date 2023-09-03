@@ -1,0 +1,19 @@
+{{Mod
+|id                               = DualStrikeThresholdJewel_1
+|mod_groups                       = PassiveJewelGrantsRadius
+|domain                           = 10
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = DualStrikeThresholdJewel
+|stat_text                        = With at least 40 [[Dexterity]] in Radius, [[Dual Strike]] deals Off-Hand Splash Damage<br />to surrounding targets<br>With at least 40 [[Dexterity]] in Radius, [[Dual Strike]] has a 20% chance<br />to deal Double Damage with the Main-Hand Weapon
+|stat1_id                         = local_unique_jewel_dual_strike_melee_splash_with_off_hand_weapon_with_50_dex_in_radius
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_jewel_effect_base_radius
+|stat2_min                        = 1200
+|stat2_max                        = 1200
+|stat3_id                         = local_unique_jewel_dual_strike_main_hand_deals_double_damage_%_with_40_dex_in_radius
+|stat3_min                        = 20
+|stat3_max                        = 20
+|tags                             = damage, attack
+}}

@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MapCorruptedSideAreaLightningDamage_
+|mod_groups                       = MapMonsterElementalDamage
+|domain                           = 5
+|generation_type                  = 1
+|required_level                   = 69
+|name                             = Shocking
+|mod_type                         = MapCorruptedSideAreaMonsterLightningDamage
+|stat_text                        = 18% increased Quantity of Items found in this Area<br>Found Items have 2% chance to drop Corrupted in Area<br>Monsters deal (120-160)% extra [[Physical Damage]] as Lightning
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 18
+|stat1_max                        = 18
+|stat2_id                         = map_items_drop_corrupted_%
+|stat2_min                        = 2
+|stat2_max                        = 2
+|stat3_id                         = map_monsters_%_physical_damage_to_add_as_lightning
+|stat3_min                        = 120
+|stat3_max                        = 160
+|spawn_weight1_tag                = secret_area
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, lightning, vaal
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AbyssMinionDamageIfMinionSkillUsedRecentlyJewel1
+|mod_groups                       = MinionDamageIfMinionSkillUsedRecently
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Authority
+|mod_type                         = MinionDamageIfMinionSkillUsedRecently
+|stat_text                        = [[Minion|Minions]] deal (15-20)% increased Damage if you've used a [[Minion Skills|Minion Skill]] [[Recently]]
+|stat1_id                         = minion_damage_+%_if_have_used_a_minion_skill_recently
+|stat1_min                        = 15
+|stat1_max                        = 20
+|spawn_weight1_tag                = abyss_jewel_summoner
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

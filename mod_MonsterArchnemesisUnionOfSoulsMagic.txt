@@ -1,0 +1,31 @@
+{{Mod
+|id                               = MonsterArchnemesisUnionOfSoulsMagic
+|mod_groups                       = MonsterArchnemesisUnionOfSoulsMagic
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 24
+|name                             = Empowering
+|mod_type                         = MonsterArchnemesisUnionOfSoulsMagic
+|stat_text                        = 15% increased [[Character Size]] (Hidden)<br>20% increased Area of Effect (Hidden)<br>30% increased maximum [[Life]] (Hidden)<br>Grants 10% increased Character Size to Pack Members on death (Hidden)<br>Grants 40% increased Maximum Life to Pack Members on death (Hidden)
+|stat1_id                         = actor_scale_+%_granted_to_pack_members_on_death
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = maximum_life_+%_granted_to_pack_members_on_death
+|stat2_min                        = 40
+|stat2_max                        = 40
+|stat3_id                         = base_actor_scale_+%
+|stat3_min                        = 15
+|stat3_max                        = 15
+|stat4_id                         = base_skill_area_of_effect_+%
+|stat4_min                        = 20
+|stat4_max                        = 20
+|stat5_id                         = maximum_life_+%
+|stat5_min                        = 30
+|stat5_max                        = 30
+|spawn_weight1_tag                = not_part_of_pack
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = rare
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 1000
+}}

@@ -1,0 +1,23 @@
+{{Mod
+|id                               = FlaskBuffChillFreezeDuration1
+|mod_groups                       = FlaskBuffWhileHealing
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 4
+|name                             = of the Rabbit
+|mod_type                         = FlaskBuffChillFreezeDuration
+|stat_text                        = (41-36)% reduced Effect of Chill on you during Effect<br>(41-36)% reduced [[Freeze]] Duration on you during Effect
+|stat1_id                         = local_self_chill_effect_+%_during_flask_effect
+|stat1_min                        = -41
+|stat1_max                        = -36
+|stat2_id                         = local_self_freeze_duration_+%_during_flask_effect
+|stat2_min                        = -41
+|stat2_max                        = -36
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

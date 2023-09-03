@@ -1,0 +1,25 @@
+{{Mod
+|id                               = WatchstoneRitualTribute1_
+|mod_groups                       = WatchstoneRitualTribute
+|domain                           = 25
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Pledged
+|mod_type                         = WatchstoneRitualTribute
+|stat_text                        = Monsters Sacrificed at Ritual Altars in Area grant (3-4)% increased Tribute
+|stat1_id                         = map_ritual_tribute_+%
+|stat1_min                        = 3
+|stat1_max                        = 4
+|spawn_weight1_tag                = watchstone_item
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = watchstone_environment
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = unique_map
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = no_monster_packs
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 210
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

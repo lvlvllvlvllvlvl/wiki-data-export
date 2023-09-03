@@ -1,0 +1,23 @@
+{{Mod
+|id                               = EnduranceChargeIfHitRecentlyInfluenceMaven
+|mod_groups                       = EnduranceChargeIfHitRecently
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 90
+|name                             = of the Elevated Conquest
+|mod_type                         = EnduranceChargeIfHitRecentlyMaven
+|stat_text                        = Gain 1 [[Endurance Charge]] every second if you've been [[Hit]] [[Recently]]<br>3% increased Area of Effect per [[Endurance Charge]]
+|stat1_id                         = gain_endurance_charge_per_second_if_have_been_hit_recently
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = area_of_effect_+%_per_endurance_charge
+|stat2_min                        = 3
+|stat2_max                        = 3
+|spawn_weight1_tag                = body_armour_adjudicator
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = endurance_charge
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

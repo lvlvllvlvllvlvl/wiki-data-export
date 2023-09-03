@@ -1,0 +1,24 @@
+{{Mod
+|id                               = BaseManaRegenerationInfluence2
+|mod_groups                       = BaseManaRegeneration
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 73
+|name                             = of the Conquest
+|mod_type                         = BaseManaRegeneration
+|stat_text                        = Regenerate 0.4% of [[Mana]] per second
+|stat1_id                         = mana_regeneration_rate_per_minute_%
+|stat1_min                        = 24
+|stat1_max                        = 24
+|spawn_weight1_tag                = sceptre_adjudicator
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = rune_dagger_adjudicator
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = wand_adjudicator
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = resource, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

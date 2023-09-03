@@ -1,0 +1,23 @@
+{{Mod
+|id                               = FlaskBleedingAndCorruptedBloodImmunityDuringEffect2_
+|mod_groups                       = FlaskBleedingAndCorruptedBloodImmunityDuringEffect
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 42
+|name                             = of the Skink
+|mod_type                         = FlaskBleedingAndCorruptedBloodImmunityDuringEffect
+|stat_text                        = Immunity to Bleeding and [[Corrupted Blood]] during Effect<br>(44-40)% less Duration
+|stat1_id                         = local_flask_immune_to_bleeding_and_corrupted_blood_during_flask_effect
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_flask_duration_+%_final
+|stat2_min                        = -44
+|stat2_max                        = -40
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

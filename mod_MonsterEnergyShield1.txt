@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MonsterEnergyShield1
+|mod_groups                       = EnergyShieldPercent
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|name                             = Shimmering
+|mod_type                         = MonsterEnergyShieldPercent
+|stat_text                        = 100% increased maximum [[Energy Shield]] (Hidden)
+|stat1_id                         = maximum_energy_shield_+%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|spawn_weight1_tag                = not_int
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = ward_armour
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 1000
+|tags                             = defences, energy_shield
+}}

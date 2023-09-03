@@ -1,0 +1,31 @@
+{{Mod
+|id                               = HeistContractMonsterAccuracyPlayersUnlockyDodge4
+|mod_groups                       = MapMonsterAccuracyPlayersUnlockyDodge
+|domain                           = 22
+|generation_type                  = 2
+|required_level                   = 78
+|name                             = of Miring
+|mod_type                         = HeistContractMonsterAccuracyPlayersUnlockyDodge
+|stat_text                        = Players have -20% to amount of Suppressed [[Spell Damage]] Prevented<br>Monsters have 50% increased [[Accuracy Rating]]
+|stat1_id                         = map_players_spell_damage_%_suppressed
+|stat1_min                        = -20
+|stat1_max                        = -20
+|stat2_id                         = map_monsters_accuracy_rating_+%
+|stat2_min                        = 50
+|stat2_max                        = 50
+|stat3_id                         = map_item_drop_quantity_+%
+|stat3_min                        = 13
+|stat3_max                        = 13
+|stat4_id                         = map_item_drop_rarity_+%
+|stat4_min                        = 8
+|stat4_max                        = 8
+|stat5_id                         = heist_monster_spawner_alive_limit_+%
+|stat5_min                        = 5
+|stat5_max                        = 5
+|stat6_id                         = heist_contract_alert_level_+%_final
+|stat6_min                        = -5
+|stat6_max                        = -5
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 800
+|tags                             = green_herring, attack
+}}

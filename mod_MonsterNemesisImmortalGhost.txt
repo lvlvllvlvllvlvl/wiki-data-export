@@ -1,0 +1,35 @@
+{{Mod
+|id                               = MonsterNemesisImmortalGhost
+|mod_groups                       = MonsterNemesis
+|domain                           = 3
+|generation_type                  = 4
+|required_level                   = 40
+|name                             = Final Gasp
+|mod_type                         = MonsterNemesisImmortalGhost
+|stat_text                        = Corpse can not be destroyed (Hidden)<br>Can not be dominated (Hidden)
+|stat1_id                         = retaliation_godmode_ghost_duration_ms
+|stat1_min                        = 4000
+|stat1_max                        = 4000
+|stat2_id                         = corpse_cannot_be_destroyed
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = cannot_be_dominated
+|stat3_min                        = 1
+|stat3_max                        = 1
+|spawn_weight1_tag                = abyssal
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = rare_minion
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = unusable_corpse
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = undeletable_corpse
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = legion_monster
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = no_final_gasp
+|spawn_weight6_value              = 0
+|spawn_weight7_tag                = rare
+|spawn_weight7_value              = 400
+|spawn_weight8_tag                = default
+|spawn_weight8_value              = 0
+}}

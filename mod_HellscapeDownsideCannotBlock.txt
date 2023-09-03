@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeDownsideCannotBlock
+|mod_groups                       = HellscapeDownsideCannotBlock
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 45
+|mod_type                         = HellscapeDownsideCannotBlock
+|stat_text                        = Cannot [[Block]] [[Attack Damage]]<br>Cannot [[Block]] [[Spell Damage]]
+|stat1_id                         = cannot_block_attacks
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = cannot_block_spells
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = gloves
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

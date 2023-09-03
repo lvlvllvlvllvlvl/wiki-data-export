@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentLightningArrowExtraTargets2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Lightning Arrow Extra Targets 2
+|mod_type                         = EnchantmentLightningArrowExtraTargets
+|stat_text                        = [[Lightning Arrow]] [[Hit|hits]] 2 additional Enemies
+|stat1_id                         = lightning_arrow_maximum_number_of_extra_targets
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

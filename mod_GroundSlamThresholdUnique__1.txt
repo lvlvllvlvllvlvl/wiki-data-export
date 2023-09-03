@@ -1,0 +1,18 @@
+{{Mod
+|id                               = GroundSlamThresholdUnique__1
+|mod_groups                       = PassiveJewelGrantsRadius
+|domain                           = 10
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = GroundSlamThreshold
+|stat_text                        = With at least 40 [[Strength]] in Radius, Ground Slam<br />has a 50% increased angle
+|stat1_id                         = local_unique_jewel_ground_slam_angle_+%_with_50_str_in_radius
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = local_jewel_effect_base_radius
+|stat2_min                        = 1200
+|stat2_max                        = 1200
+|tags                             = attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

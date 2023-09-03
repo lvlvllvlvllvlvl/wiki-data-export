@@ -1,0 +1,21 @@
+{{Mod
+|id                               = DexMasterAddedFireDamageCrafted1
+|mod_groups                       = FireDamage
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 20
+|name                             = Smoking
+|mod_type                         = LocalFireDamage
+|stat_text                        = Adds (10-13) to (20-23) [[Fire Damage]]
+|stat1_id                         = local_minimum_added_fire_damage
+|stat1_min                        = 10
+|stat1_max                        = 13
+|stat2_id                         = local_maximum_added_fire_damage
+|stat2_min                        = 20
+|stat2_max                        = 23
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = GlobalPhysicalGemLevel1_
+|mod_groups                       = GlobalDamageTypeGemLevel
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Behemoth's
+|mod_type                         = GlobalPhysicalGemLevel
+|stat_text                        = +1 to [[Level]] of all Physical [[Skill]] Gems
+|stat1_id                         = physical_skill_gem_level_+
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = amulet
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

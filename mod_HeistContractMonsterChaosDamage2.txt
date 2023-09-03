@@ -1,0 +1,30 @@
+{{Mod
+|id                               = HeistContractMonsterChaosDamage2
+|mod_groups                       = MapMonsterChaosDamage
+|domain                           = 22
+|generation_type                  = 1
+|required_level                   = 78
+|name                             = Profane
+|mod_type                         = HeistContractMonsterChaosDamage
+|stat_text                        = Monsters deal (31-35)% extra [[Physical Damage]] as Chaos<br>Monsters Inflict Withered for 2 seconds on [[Hit]]
+|stat1_id                         = map_monsters_%_physical_damage_to_add_as_chaos
+|stat1_min                        = 31
+|stat1_max                        = 35
+|stat2_id                         = map_monsters_withered_on_hit_for_2_seconds_%_chance
+|stat2_min                        = 100
+|stat2_max                        = 100
+|stat3_id                         = map_item_drop_quantity_+%
+|stat3_min                        = 16
+|stat3_max                        = 16
+|stat4_id                         = map_item_drop_rarity_+%
+|stat4_min                        = 9
+|stat4_max                        = 9
+|stat5_id                         = heist_monster_spawner_alive_limit_+%
+|stat5_min                        = 6
+|stat5_max                        = 6
+|stat6_id                         = heist_contract_alert_level_+%_final
+|stat6_min                        = -6
+|stat6_max                        = -6
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 500
+}}

@@ -1,0 +1,30 @@
+{{Mod
+|id                               = PhysicalDamageWhileDualWieldingInfluence2_
+|mod_groups                       = DualWieldingPhysicalDamage
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 70
+|name                             = of the Conquest
+|mod_type                         = DualWieldingPhysicalDamage
+|stat_text                        = (28-32)% increased Physical [[Attack Damage]] while [[Dual Wield|Dual Wielding]]
+|stat1_id                         = physical_damage_while_dual_wielding_+%
+|stat1_min                        = 28
+|stat1_max                        = 32
+|spawn_weight1_tag                = sword_adjudicator
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = axe_adjudicator
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = claw_adjudicator
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = dagger_adjudicator
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = rune_dagger_adjudicator
+|spawn_weight5_value              = 500
+|spawn_weight6_tag                = mace_adjudicator
+|spawn_weight6_value              = 500
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+|tags                             = physical_damage, damage, physical, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

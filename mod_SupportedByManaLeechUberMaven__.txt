@@ -1,0 +1,24 @@
+{{Mod
+|id                               = SupportedByManaLeechUberMaven__
+|mod_groups                       = Supported
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 78
+|name                             = Elevated Shaper's
+|granted_skill                    = SupportManaLeech
+|mod_type                         = DisplaySupportedByManaLeechMaven
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Mana Leech Support|Level 20 Mana Leech]]<br>(20-30)% increased Maximum total [[Mana]] Recovery per second from [[Leech]]
+|stat1_id                         = local_display_socketed_gems_supported_by_x_mana_leech
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = maximum_mana_leech_rate_+%
+|stat2_min                        = 20
+|stat2_max                        = 30
+|spawn_weight1_tag                = gloves_shaper
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, resource, mana, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

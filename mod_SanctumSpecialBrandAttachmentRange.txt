@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialBrandAttachmentRange
+|mod_groups                       = BrandAttachmentRange
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Accusation
+|mod_type                         = BrandAttachmentRange
+|stat_text                        = (10-20)% increased Brand Attachment range
+|stat1_id                         = sigil_target_search_range_+%
+|stat1_min                        = 10
+|stat1_max                        = 20
+|spawn_weight1_tag                = int_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

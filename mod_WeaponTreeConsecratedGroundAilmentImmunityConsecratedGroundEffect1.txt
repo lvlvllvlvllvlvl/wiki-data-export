@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeConsecratedGroundAilmentImmunityConsecratedGroundEffect1
+|mod_groups                       = WeaponTreeConsecratedGroundAilmentImmunityConsecratedGroundEffect
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 40
+|mod_type                         = WeaponTreeConsecratedGroundAilmentImmunityConsecratedGroundEffect
+|stat_text                        = 100% chance to Avoid Elemental Ailments while on Consecrated Ground<br>50% reduced Effect of Consecrated Ground you create
+|stat1_id                         = avoid_ailments_%_on_consecrated_ground
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = consecrated_ground_effect_+%
+|stat2_min                        = -50
+|stat2_max                        = -50
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

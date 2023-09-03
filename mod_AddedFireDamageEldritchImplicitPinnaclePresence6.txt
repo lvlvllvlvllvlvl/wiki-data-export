@@ -1,0 +1,27 @@
+{{Mod
+|id                               = AddedFireDamageEldritchImplicitPinnaclePresence6
+|mod_groups                       = FireDamage
+|domain                           = 1
+|generation_type                  = 28
+|required_level                   = 75
+|granted_buff_id                  = influence_stat_condition_presence_celestial_boss
+|granted_buff_value               = 0
+|mod_type                         = FireDamagePinnaclePresence
+|stat_text                        = Adds (21-27) to (42-49) [[Fire Damage]] to [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_fire_damage
+|stat1_min                        = 21
+|stat1_max                        = 27
+|stat2_id                         = attack_maximum_added_fire_damage
+|stat2_min                        = 42
+|stat2_max                        = 49
+|stat3_id                         = local_influence_mod_requires_celestial_boss_presence
+|stat3_min                        = 1
+|stat3_max                        = 1
+|spawn_weight1_tag                = no_tier_1_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = gloves
+|spawn_weight2_value              = 200
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire
+}}

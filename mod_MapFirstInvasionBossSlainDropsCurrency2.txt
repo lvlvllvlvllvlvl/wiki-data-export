@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapFirstInvasionBossSlainDropsCurrency2
+|mod_groups                       = MapFirstInvasionBossSlainDropsCurrency
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Wealthy
+|mod_type                         = MapFirstInvasionBossSlainDropsCurrency
+|stat_text                        = 3 additional Basic Currency Items will drop when the first Invasion Boss is slain in next Area
+|stat1_id                         = map_first_invasion_boss_killed_drops_x_additional_currency
+|stat1_min                        = 3
+|stat1_max                        = 3
+|spawn_weight1_tag                = invasion_leaguestone
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

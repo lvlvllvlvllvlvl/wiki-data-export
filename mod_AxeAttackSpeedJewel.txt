@@ -1,0 +1,24 @@
+{{Mod
+|id                               = AxeAttackSpeedJewel
+|mod_groups                       = SpecificWeaponSpeed
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Cleaving
+|mod_type                         = AxeAttackSpeedForJewel
+|stat_text                        = (6-8)% increased [[Attack Speed]] with [[Axe|Axes]]
+|stat1_id                         = axe_attack_speed_+%
+|stat1_min                        = 6
+|stat1_max                        = 8
+|spawn_weight1_tag                = axe
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = specific_weapon
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = not_int
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = attack, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

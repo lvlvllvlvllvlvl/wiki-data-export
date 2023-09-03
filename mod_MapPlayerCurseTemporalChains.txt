@@ -1,0 +1,23 @@
+{{Mod
+|id                               = MapPlayerCurseTemporalChains
+|mod_groups                       = MapPlayerCurse
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Temporal Chains
+|mod_type                         = MapPlayerCurseTemporalChains
+|stat_text                        = 27% increased Quantity of Items found in this Area<br>Players are Cursed with [[Temporal Chains]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 27
+|stat1_max                        = 27
+|stat2_id                         = map_player_has_level_X_temporal_chains
+|stat2_min                        = 15
+|stat2_max                        = 15
+|spawn_weight1_tag                = secret_area
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = old_map
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = caster, curse
+}}

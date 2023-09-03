@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapCorruptedSideAreaVaalTempleDrop
+|mod_groups                       = MapVesselVaalTempleDrop
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of the Pyramid
+|mod_type                         = MapCorruptedSideAreaVaalTempleDrop
+|stat_text                        = Vaal Vessel contains an additional Vaal Temple Map
+|stat1_id                         = map_vaal_vessel_drop_X_vaal_temple_maps
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = map_device
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = secret_area
+|spawn_weight2_value              = 20
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

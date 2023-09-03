@@ -1,0 +1,17 @@
+{{Mod
+|id                               = SanctumSpecialWitherExpireSpeed
+|mod_groups                       = WitherOnHitChance
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 82
+|name                             = of Withering
+|mod_type                         = WitherExpireSpeed
+|stat_text                        = Withered you Inflict expires (25-20)% slower
+|stat1_id                         = wither_expire_speed_+%
+|stat1_min                        = -25
+|stat1_max                        = -20
+|spawn_weight1_tag                = int_special_relic
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 50
+}}

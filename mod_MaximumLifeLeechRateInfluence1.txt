@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MaximumLifeLeechRateInfluence1
+|mod_groups                       = MaximumLeechRate
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Crusader's
+|mod_type                         = MaximumLifeLeechRate
+|stat_text                        = 10% increased Maximum total [[Life]] Recovery per second from [[Leech]]
+|stat1_id                         = maximum_life_leech_rate_+%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = gloves_crusader
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

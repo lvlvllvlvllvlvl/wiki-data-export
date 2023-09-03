@@ -1,0 +1,21 @@
+{{Mod
+|id                               = IntMasterChillAndFreezeDurationCrafted
+|mod_groups                       = ChillAndFreezeDuration
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 40
+|name                             = of Permafreeze
+|mod_type                         = ChillAndFreezeDuration
+|stat_text                        = (10-20)% increased [[Freeze]] Duration on Enemies<br>(10-20)% increased Chill Duration on Enemies
+|stat1_id                         = freeze_duration_+%
+|stat1_min                        = 10
+|stat1_max                        = 20
+|stat2_id                         = chill_duration_+%
+|stat2_min                        = 10
+|stat2_max                        = 20
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental, cold, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

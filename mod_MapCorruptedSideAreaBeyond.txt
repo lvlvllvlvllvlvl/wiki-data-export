@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MapCorruptedSideAreaBeyond
+|mod_groups                       = MapCorruptedSideAreaBeyond
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 69
+|name                             = of the Scourge
+|mod_type                         = MapCorruptedSideAreaBeyond
+|stat_text                        = Slaying Enemies close together can attract monsters from Beyond this realm<br>Slaying Enemies has a 100% increased chance to spawn a Beyond [[Portal]]
+|stat1_id                         = map_beyond_rules
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_beyond_portal_chance_+%
+|stat2_min                        = 100
+|stat2_max                        = 100
+|spawn_weight1_tag                = secret_area
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

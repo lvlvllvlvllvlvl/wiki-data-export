@@ -1,0 +1,21 @@
+{{Mod
+|id                               = WeaponTreeSkillElementalHitWildStrike
+|mod_groups                       = WeaponTreeSkillElementalHitWildStrike
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSkillElementalHitWildStrike
+|stat_text                        = Always inflict Scorch, Brittle and Sapped with [[Elemental Hit]] and [[Wild Strike]] [[Hit|Hits]]<br>Cannot Ignite, Chill, [[Freeze]] or [[Shock]]
+|stat1_id                         = elemental_hit_and_wild_strike_chance_to_inflict_scorch_brittle_sap_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = never_ignite_chill_freeze_shock
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = weapon
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeFireResistanceReducedColdResistance3
+|mod_groups                       = WeaponTreeFireResistance
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 70
+|mod_type                         = WeaponTreeFireResistanceReducedColdResistance
+|stat_text                        = +42% to [[Fire Resistance]]<br>-20% to [[Cold Resistance]]
+|stat1_id                         = base_fire_damage_resistance_%
+|stat1_min                        = 42
+|stat1_max                        = 42
+|stat2_id                         = base_cold_damage_resistance_%
+|stat2_min                        = -20
+|stat2_max                        = -20
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 300
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,24 @@
+{{Mod
+|id                               = TrapDamageCooldownUber2
+|mod_groups                       = TrapSupported
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Shaping
+|granted_skill                    = SupportTrapCooldown
+|mod_type                         = TrapDamageCooldownSupported
+|stat_text                        = (26-30)% increased [[Trap]] Damage<br>[[Item socket|Socketed]] Gems are Supported by [[Level]] 18 Advanced [[Trap|Traps]]
+|stat1_id                         = trap_damage_+%
+|stat1_min                        = 26
+|stat1_max                        = 30
+|stat2_id                         = local_display_socketed_gems_supported_by_level_x_trap_cooldown
+|stat2_min                        = 18
+|stat2_max                        = 18
+|spawn_weight1_tag                = gloves_shaper
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, damage, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

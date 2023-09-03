@@ -1,0 +1,19 @@
+{{Mod
+|id                               = EnchantmentSpellDodgeWhenHitBySpells2
+|mod_groups                       = ConditionalBuffEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Spell Dodge 2
+|mod_type                         = EnchantmentSpellDodgeWhenHitBySpells
+|stat_text                        = +6% chance to Suppress [[Spell Damage]] if you've<br />taken [[Spell Damage]] [[Recently]]
+|stat1_id                         = spell_suppression_chance_%_if_taken_spell_damage_recently
+|stat1_min                        = 6
+|stat1_max                        = 6
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

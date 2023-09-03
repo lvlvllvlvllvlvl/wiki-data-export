@@ -1,0 +1,20 @@
+{{Mod
+|id                               = DaggerBonus1
+|mod_groups                       = SpecificWeaponBonuses
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 7
+|name                             = Assassin's
+|mod_type                         = DaggerBonuses
+|stat_text                        = 5% increased [[Physical Damage]] with [[Dagger|Daggers]]<br>2% increased [[Attack Speed]] with [[Dagger|Daggers]]<br>3% increased [[Accuracy Rating]] with [[Dagger|Daggers]]
+|stat1_id                         = physical_dagger_damage_+%
+|stat1_min                        = 5
+|stat1_max                        = 5
+|stat2_id                         = dagger_attack_speed_+%
+|stat2_min                        = 2
+|stat2_max                        = 2
+|stat3_id                         = dagger_accuracy_rating_+%
+|stat3_min                        = 3
+|stat3_max                        = 3
+|tags                             = physical_damage, damage, physical, attack, speed
+}}

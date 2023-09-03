@@ -1,0 +1,20 @@
+{{Mod
+|id                               = FlaskEffectInfluence1
+|mod_groups                       = FlaskEffect
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Redeemer's
+|mod_type                         = FlaskEffect
+|stat_text                        = Flasks applied to you have (4-7)% increased Effect
+|stat1_id                         = flask_effect_+%
+|stat1_min                        = 4
+|stat1_max                        = 7
+|spawn_weight1_tag                = belt_eyrie
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

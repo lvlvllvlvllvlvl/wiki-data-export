@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MonsterModCannotBeSlowed
+|mod_groups                       = MonsterModCannotBeSlowed
+|domain                           = 3
+|generation_type                  = 1
+|required_level                   = 24
+|name                             = Unstoppable
+|mod_type                         = MonsterModCannotBeSlowed
+|stat_text                        = <abbr title="Cannot be Slowed">Action Speed cannot be modified to below base value</abbr><br>[[Movement Speed]] cannot be modified to below base value (Hidden)
+|stat1_id                         = action_speed_cannot_be_reduced_below_base
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = movement_speed_cannot_be_reduced_below_base
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 2000
+}}

@@ -1,0 +1,18 @@
+{{Mod
+|id                               = FlaskDispellsChill1
+|mod_groups                       = FlaskDispellChill
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 4
+|name                             = of Heat
+|mod_type                         = FlaskDispellsChill
+|stat_text                        = Grants Immunity to Chill for 4 seconds if used while Chilled<br />Grants Immunity to [[Freeze]] for 4 seconds if used while [[Freeze|Frozen]]
+|stat1_id                         = local_flask_chill_or_freeze_immunity_if_chilled_or_frozen
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = flask, elemental, cold, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

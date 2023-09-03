@@ -1,0 +1,20 @@
+{{Mod
+|id                               = BleedDamageForJewel
+|mod_groups                       = BleedingDamage
+|domain                           = 10
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Haemophilia
+|mod_type                         = BleedDamageForJewel
+|stat_text                        = (16-20)% increased Damage with Bleeding
+|stat1_id                         = bleeding_damage_+%
+|stat1_min                        = 16
+|stat1_max                        = 20
+|spawn_weight1_tag                = not_str
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 500
+|tags                             = physical_damage, bleed, damage, physical, attack, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

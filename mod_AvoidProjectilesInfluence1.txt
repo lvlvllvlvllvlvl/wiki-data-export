@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AvoidProjectilesInfluence1
+|mod_groups                       = ChanceToAvoidProjectiles
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Redemption
+|mod_type                         = ChanceToAvoidProjectiles
+|stat_text                        = (6-9)% chance to avoid Projectiles
+|stat1_id                         = base_avoid_projectiles_%_chance
+|stat1_min                        = 6
+|stat1_max                        = 9
+|spawn_weight1_tag                = boots_eyrie
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MonsterModAdditionalChain
+|mod_groups                       = MonsterModAdditionalChain
+|domain                           = 3
+|generation_type                  = 1
+|required_level                   = 34
+|name                             = Chaining
+|mod_type                         = MonsterModAdditionalChain
+|stat_text                        = [[Skill|Skills]] Chain +2 times (Hidden)<br>Projectiles have 25% chance to be able to Chain when colliding with terrain (Hidden)
+|stat1_id                         = number_of_chains
+|stat1_min                        = 2
+|stat1_max                        = 2
+|stat2_id                         = projectile_chain_from_terrain_chance_%
+|stat2_min                        = 25
+|stat2_max                        = 25
+|spawn_weight1_tag                = ranged
+|spawn_weight1_value              = 1500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

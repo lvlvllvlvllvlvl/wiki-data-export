@@ -1,0 +1,19 @@
+{{Mod
+|id                               = GlacialCascadeThresholdJewel1
+|mod_groups                       = PassiveJewelGrantsRadius
+|domain                           = 10
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = GlacialCascadeThresholdJewel
+|stat_text                        = With 40 [[Intelligence]] in Radius, [[Glacial Cascade]] has an additional Burst<br>With 40 [[Intelligence]] in Radius, 20% of [[Glacial Cascade]] Physical Damage<br />Converted to [[Cold Damage]]
+|stat1_id                         = local_unique_jewel_glacial_cascade_number_of_additional_bursts_with_40_int_in_radius
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_jewel_effect_base_radius
+|stat2_min                        = 1200
+|stat2_max                        = 1200
+|stat3_id                         = local_unique_jewel_glacial_cascade_physical_damage_%_to_convert_to_cold_with_40_int_in_radius
+|stat3_min                        = 20
+|stat3_max                        = 20
+|tags                             = caster
+}}

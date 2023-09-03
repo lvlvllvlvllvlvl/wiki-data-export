@@ -1,0 +1,23 @@
+{{Mod
+|id                               = BleedOnHitDamageInfluence2_
+|mod_groups                       = BleedingDamage
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Conquest
+|mod_type                         = BleedOnHitAndDamage
+|stat_text                        = [[Attack|Attacks]] have 15% chance to cause Bleeding<br>(26-30)% increased Damage with Bleeding
+|stat1_id                         = bleed_on_hit_with_attacks_%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = bleeding_damage_+%
+|stat2_min                        = 26
+|stat2_max                        = 30
+|spawn_weight1_tag                = quiver_adjudicator
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical_damage, bleed, damage, physical, attack, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

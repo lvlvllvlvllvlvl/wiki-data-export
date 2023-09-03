@@ -1,0 +1,21 @@
+{{Mod
+|id                               = WeaponTreeFrenzyOnHittingMarkedEnemyReducedMarkEffect2h1
+|mod_groups                       = WeaponTreeFrenzyOnHittingMarkedEnemyReducedMarkEffect
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 24
+|mod_type                         = WeaponTreeFrenzyOnHittingMarkedEnemyReducedMarkEffect
+|stat_text                        = 12% chance to gain a [[Frenzy Charge]] when you [[Hit]] your Marked Enemy<br>20% reduced Effect of your Marks
+|stat1_id                         = gain_frenzy_charge_on_hitting_marked_enemy_%
+|stat1_min                        = 12
+|stat1_max                        = 12
+|stat2_id                         = mark_skills_curse_effect_+%
+|stat2_min                        = -20
+|stat2_max                        = -20
+|spawn_weight1_tag                = staff
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = two_hand_weapon
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

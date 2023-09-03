@@ -1,0 +1,21 @@
+{{Mod
+|id                               = MapAtlasRitual
+|mod_groups                       = MapAtlasRitual
+|domain                           = 11
+|generation_type                  = 1
+|required_level                   = 1
+|mod_type                         = MapAtlasRitual
+|stat_text                        = 3 uses remaining<br>Your Maps contain Ritual Altars
+|stat1_id                         = sextant_uses_remaining
+|stat1_min                        = 3
+|stat1_max                        = 3
+|stat2_id                         = map_area_contains_rituals
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = no_monster_packs
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = unique_map
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 100
+}}

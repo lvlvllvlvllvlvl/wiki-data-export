@@ -1,0 +1,24 @@
+{{Mod
+|id                               = ScarabBlight3
+|mod_groups                       = ScarabMod
+|domain                           = 14
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = ScarabModBlight
+|stat_text                        = Area contains a [[Blight]] Encounter<br>[[Blight]] Encounters contain up to 1 additional [[Blight]] Boss<br>50% chance for [[Blight]] Chests to contain an additional Reward
+|stat1_id                         = map_blight_league
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_num_extra_blights_
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = map_blight_up_to_X_additional_bosses
+|stat3_min                        = 1
+|stat3_max                        = 1
+|stat4_id                         = map_blight_chest_%_chance_for_additional_drop
+|stat4_min                        = 50
+|stat4_max                        = 50
+|stat5_id                         = map_extra_content_weighting
+|stat5_min                        = 1
+|stat5_max                        = 1
+}}

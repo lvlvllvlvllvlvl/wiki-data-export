@@ -1,0 +1,21 @@
+{{Mod
+|id                               = PvPMasterDamageReflectedOnBlock2Crafted
+|mod_groups                       = ReflectDamageToAttackersOnBlock
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 40
+|name                             = Punishing
+|mod_type                         = ReflectDamageToAttackersOnBlock
+|stat_text                        = Reflects (150-200) to (350-450) [[Physical Damage]] to Attackers on [[Block]]
+|stat1_id                         = minimum_physical_damage_to_return_on_block
+|stat1_min                        = 150
+|stat1_max                        = 200
+|stat2_id                         = maximum_physical_damage_to_return_on_block
+|stat2_min                        = 350
+|stat2_max                        = 450
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = block, physical_damage, damage, physical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

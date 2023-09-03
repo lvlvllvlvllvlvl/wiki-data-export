@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MonsterModApplyBleed
+|mod_groups                       = MonsterModApplyBleed
+|domain                           = 3
+|generation_type                  = 2
+|required_level                   = 34
+|name                             = of Bloodletting
+|mod_type                         = MonsterModApplyBleed
+|stat_text                        = [[Attack|Attacks]] cause Bleeding (Hidden)
+|stat1_id                         = global_bleed_on_hit
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = caster
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 2500
+}}

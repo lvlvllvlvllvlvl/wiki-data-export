@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MapTempestReducedStormAoE
+|mod_groups                       = MapEclipse
+|domain                           = 5
+|generation_type                  = 8
+|required_level                   = 1
+|name                             = of Precision
+|mod_type                         = MapTempestStormAoE
+|stat_text                        = Tempest Effects have 30% reduced Area of Effect<br>Tempests have 25% less Delay (Hidden)
+|stat1_id                         = map_storm_area_of_effect_+%
+|stat1_min                        = -30
+|stat1_max                        = -30
+|stat2_id                         = map_storm_delay_+%_final
+|stat2_min                        = -25
+|stat2_max                        = -25
+}}

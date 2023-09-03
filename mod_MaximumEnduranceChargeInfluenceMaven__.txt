@@ -1,0 +1,23 @@
+{{Mod
+|id                               = MaximumEnduranceChargeInfluenceMaven__
+|mod_groups                       = MaximumEnduranceCharges
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 85
+|name                             = Elevated Warlord's
+|mod_type                         = MaximumEnduranceChargesMaven
+|stat_text                        = +1 to Maximum [[Endurance Charge|Endurance Charges]]<br>10% chance that if you would gain Endurance Charges, you instead gain up to maximum [[Endurance Charge|Endurance Charges]]
+|stat1_id                         = max_endurance_charges
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = gain_maximum_endurance_charges_on_endurance_charge_gained_%_chance
+|stat2_min                        = 10
+|stat2_max                        = 10
+|spawn_weight1_tag                = boots_adjudicator
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = endurance_charge
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

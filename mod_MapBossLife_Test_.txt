@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MapBossLife_Test_
+|mod_groups                       = MapBossLife
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapBossLife
+|stat_text                        = 30% increased Quantity of Items found in this Area<br>Unique Boss has 10000% increased [[Life]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 30
+|stat1_max                        = 30
+|stat2_id                         = map_boss_maximum_life_+%
+|stat2_min                        = 10000
+|stat2_max                        = 10000
+|tags                             = resource, life
+}}

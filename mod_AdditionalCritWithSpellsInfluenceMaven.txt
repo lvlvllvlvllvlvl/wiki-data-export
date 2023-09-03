@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AdditionalCritWithSpellsInfluenceMaven
+|mod_groups                       = AdditionalCriticalStrikeChanceWithSpells
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 94
+|name                             = of the Elevated Hunt
+|mod_type                         = AdditionalCriticalStrikeChanceWithSpells
+|stat_text                        = +(1.6-2)% to [[Spell]] [[Critical Strike Chance]]
+|stat1_id                         = spell_additional_critical_strike_chance_permyriad
+|stat1_min                        = 160
+|stat1_max                        = 200
+|spawn_weight1_tag                = body_armour_basilisk
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

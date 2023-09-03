@@ -1,0 +1,31 @@
+{{Mod
+|id                               = AddedColdDamagePerDexterityTwoHandedUber1
+|mod_groups                       = AddedColdDamagePerDexterity
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = The Shaper's
+|mod_type                         = AddedColdDamagePerDexterity
+|stat_text                        = Adds (2-3) to (4-5) [[Cold Damage]] to [[Attack|Attacks]] with this Weapon per 10 [[Dexterity]]
+|stat1_id                         = attacks_with_this_weapon_minimum_added_cold_damage_per_10_dexterity
+|stat1_min                        = 2
+|stat1_max                        = 3
+|stat2_id                         = attacks_with_this_weapon_maximum_added_cold_damage_per_10_dexterity
+|stat2_min                        = 4
+|stat2_max                        = 5
+|spawn_weight1_tag                = 2h_sword_shaper
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = 2h_axe_shaper
+|spawn_weight2_value              = 200
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|generation_weight1_tag           = has_attack_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_caster_mod
+|generation_weight2_value         = 65
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = elemental_damage, damage, elemental, cold, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

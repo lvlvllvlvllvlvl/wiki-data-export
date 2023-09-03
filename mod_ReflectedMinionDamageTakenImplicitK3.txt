@@ -1,0 +1,16 @@
+{{Mod
+|id                               = ReflectedMinionDamageTakenImplicitK3
+|mod_groups                       = ReflectedMinionDamageTaken
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 30
+|mod_type                         = ReflectedMinionDamageTaken
+|stat_text                        = Left ring slot: [[Minion|Minions]] take 15% reduced Damage<br>Right ring slot: [[Minion|Minions]] take 15% increased Damage
+|stat1_id                         = local_left_ring_slot_minion_damage_taken_+%
+|stat1_min                        = -15
+|stat1_max                        = -15
+|stat2_id                         = local_right_ring_slot_minion_damage_taken_+%
+|stat2_min                        = 15
+|stat2_max                        = 15
+|tags                             = minion
+}}

@@ -1,0 +1,21 @@
+{{Mod
+|id                               = MonsterSextantLifeQualityQuantity
+|mod_groups                       = MonsterSextantLifeQualityQuantity
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterSextantLifeQualityQuantity
+|stat_text                        = 75% more maximum [[Life]] (Hidden)<br>1000% increased Quantity of Items dropped by this Monster (Hidden)<br>1000% increased Rarity of Items dropped by this Monster (Hidden)<br>Monster gives 300% increased Experience on death (Hidden)
+|stat1_id                         = monster_life_+%_final_from_rarity
+|stat1_min                        = 75
+|stat1_max                        = 75
+|stat2_id                         = monster_dropped_item_quantity_+%
+|stat2_min                        = 1000
+|stat2_max                        = 1000
+|stat3_id                         = monster_dropped_item_rarity_+%
+|stat3_min                        = 1000
+|stat3_max                        = 1000
+|stat4_id                         = monster_slain_experience_+%
+|stat4_min                        = 300
+|stat4_max                        = 300
+}}

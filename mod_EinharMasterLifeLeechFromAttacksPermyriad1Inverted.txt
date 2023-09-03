@@ -1,0 +1,18 @@
+{{Mod
+|id                               = EinharMasterLifeLeechFromAttacksPermyriad1Inverted
+|mod_groups                       = LifeLeech
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 30
+|name                             = Upgraded
+|mod_type                         = EnemyLifeLeechPermyriad
+|stat_text                        = (0.3-0.5)% of Physical [[Attack Damage]] Leeched by Enemy as [[Life]]
+|stat1_id                         = enemy_life_leech_from_physical_attack_damage_permyriad
+|stat1_min                        = 30
+|stat1_max                        = 50
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = resource, life, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

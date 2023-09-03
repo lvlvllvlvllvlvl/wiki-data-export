@@ -1,0 +1,20 @@
+{{Mod
+|id                               = CastSpeedDuringFlaskEffectInfluence1
+|mod_groups                       = SpeedDuringFlaskEffect
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Hunt
+|mod_type                         = CastSpeedDuringFlaskEffect
+|stat_text                        = (8-14)% increased [[Cast Speed]] during any Flask Effect
+|stat1_id                         = cast_speed_+%_during_flask_effect
+|stat1_min                        = 8
+|stat1_max                        = 14
+|spawn_weight1_tag                = belt_basilisk
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, caster, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

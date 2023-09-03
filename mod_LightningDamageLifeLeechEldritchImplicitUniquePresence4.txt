@@ -1,0 +1,23 @@
+{{Mod
+|id                               = LightningDamageLifeLeechEldritchImplicitUniquePresence4
+|mod_groups                       = LightningDamageLifeLeech
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|granted_buff_id                  = influence_stat_condition_presence_unique_monster
+|granted_buff_value               = 0
+|mod_type                         = LightningDamageLifeLeechUniquePresence
+|stat_text                        = 0.7% of [[Lightning Damage]] Leeched as [[Life]]
+|stat1_id                         = horrible_ugly_life_leech_from_lightning_damage_perhundredthousand
+|stat1_min                        = 700
+|stat1_max                        = 700
+|stat2_id                         = local_influence_mod_requires_unique_monster_presence
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = no_tier_3_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = gloves
+|spawn_weight2_value              = 200
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentDodgeChanceWhenCrit3
+|mod_groups                       = ConditionalBuffEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Attack Dodge 3
+|mod_type                         = EnchantmentDodgeChanceWhenCriticallyHit
+|stat_text                        = You take 10% reduced Extra Damage from Critical Strikes if you've taken a [[Critical Strike]] [[Recently]]
+|stat1_id                         = extra_damage_taken_from_crit_-%_if_taken_critical_strike_recently
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = critical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

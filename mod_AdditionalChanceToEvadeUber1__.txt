@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AdditionalChanceToEvadeUber1__
+|mod_groups                       = AdditionalChanceToEvade
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Elder
+|mod_type                         = AdditionalChanceToEvade
+|stat_text                        = +(2-3)% chance to Evade [[Attack]] [[Hit|Hits]]
+|stat1_id                         = chance_to_evade_attacks_%
+|stat1_min                        = 2
+|stat1_max                        = 3
+|spawn_weight1_tag                = ring_elder
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = defences, evasion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

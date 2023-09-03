@@ -1,0 +1,30 @@
+{{Mod
+|id                               = DelveJewelryChanceToEvade
+|mod_groups                       = AdditionalChanceToEvade
+|domain                           = 16
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Underground
+|mod_type                         = AdditionalChanceToEvade
+|stat_text                        = +(1-2)% chance to Evade [[Attack]] [[Hit|Hits]]
+|stat1_id                         = chance_to_evade_attacks_%
+|stat1_min                        = 1
+|stat1_max                        = 2
+|spawn_weight1_tag                = abyss_jewel
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = jewel
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = quiver
+|spawn_weight3_value              = 1600
+|spawn_weight4_tag                = ring
+|spawn_weight4_value              = 1600
+|spawn_weight5_tag                = amulet
+|spawn_weight5_value              = 1600
+|spawn_weight6_tag                = belt
+|spawn_weight6_value              = 1600
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+|tags                             = defences, evasion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

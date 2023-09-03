@@ -1,0 +1,21 @@
+{{Mod
+|id                               = WeaponTreeMovementSpeedPerFrenzyCharge
+|mod_groups                       = WeaponTreeMovementSpeedPerFrenzyCharge
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 50
+|mod_type                         = WeaponTreeMovementSpeedPerFrenzyCharge
+|stat_text                        = 4% increased [[Movement Speed]] per [[Frenzy Charge]]<br>-1 to Maximum [[Frenzy Charge|Frenzy Charges]]
+|stat1_id                         = movement_velocity_+%_per_frenzy_charge
+|stat1_min                        = 4
+|stat1_max                        = 4
+|stat2_id                         = max_frenzy_charges
+|stat2_min                        = -1
+|stat2_max                        = -1
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 150
+|spawn_weight2_tag                = shield
+|spawn_weight2_value              = 150
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

@@ -1,0 +1,25 @@
+{{Mod
+|id                               = MapAtlasBossDropsShaperGuardianMap
+|mod_groups                       = MapAtlasBossDropsGuardianMap
+|domain                           = 11
+|generation_type                  = 1
+|required_level                   = 1
+|mod_type                         = MapAtlasBossDropsShaperGuardianMap
+|stat_text                        = 3 uses remaining<br>An additional Shaper Guardian Map drops on Completing your Maps (Tier 14+)<br>Map Bosses have 200% more [[Life]]<br>Map Bosses deal 100% more Damage
+|stat1_id                         = sextant_uses_remaining
+|stat1_min                        = 3
+|stat1_max                        = 3
+|stat2_id                         = map_on_complete_drop_additional_shaper_guardian_map
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = map_boss_life_+%_final_from_boss_drops_guardian_map_sextant
+|stat3_min                        = 200
+|stat3_max                        = 200
+|stat4_id                         = map_boss_damage_+%_final_from_boss_drops_guardian_map_sextant
+|stat4_min                        = 100
+|stat4_max                        = 100
+|spawn_weight1_tag                = no_boss
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 50
+}}

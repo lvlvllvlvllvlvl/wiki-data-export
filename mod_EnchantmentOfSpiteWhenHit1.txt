@@ -1,0 +1,21 @@
+{{Mod
+|id                               = EnchantmentOfSpiteWhenHit1
+|mod_groups                       = TriggerEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 32
+|name                             = Enchantment Word of Spite
+|granted_skill                    = EnchantmentOfSpiteWhenHit
+|mod_type                         = EnchantmentOfSpiteWhenHit
+|stat_text                        = Trigger [[Word of Spite]] when [[Hit]]
+|stat1_id                         = display_attack_with_word_of_spite_when_hit_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|spawn_weight1_tag                = gloves
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = skill
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

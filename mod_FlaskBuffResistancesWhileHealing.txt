@@ -1,0 +1,20 @@
+{{Mod
+|id                               = FlaskBuffResistancesWhileHealing
+|mod_groups                       = FlaskBuffWhileHealing
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Crystal
+|mod_type                         = FlaskBuffResistancesWhileHealing
+|stat_text                        = (21-24)% additional [[Elemental Resistance|Elemental Resistances]] during Effect
+|stat1_id                         = local_flask_resistances_+%_while_healing
+|stat1_min                        = 21
+|stat1_max                        = 24
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, elemental, resistance
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

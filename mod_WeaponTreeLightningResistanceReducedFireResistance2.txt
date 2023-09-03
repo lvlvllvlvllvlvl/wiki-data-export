@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeLightningResistanceReducedFireResistance2
+|mod_groups                       = WeaponTreeLightningResistance
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 35
+|mod_type                         = WeaponTreeLightningResistanceReducedFireResistance
+|stat_text                        = +36% to [[Lightning Resistance]]<br>-20% to [[Fire Resistance]]
+|stat1_id                         = base_lightning_damage_resistance_%
+|stat1_min                        = 36
+|stat1_max                        = 36
+|stat2_id                         = base_fire_damage_resistance_%
+|stat2_min                        = -20
+|stat2_max                        = -20
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 300
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

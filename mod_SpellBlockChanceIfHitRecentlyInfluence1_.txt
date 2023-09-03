@@ -1,0 +1,22 @@
+{{Mod
+|id                               = SpellBlockChanceIfHitRecentlyInfluence1_
+|mod_groups                       = SpellBlockChanceIfHitRecently
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Redemption
+|mod_type                         = SpellBlockChanceIfHitRecently
+|stat_text                        = +(10-12)% Chance to [[Block]] [[Spell Damage]] if you were Damaged by a [[Hit]] [[Recently]]
+|stat1_id                         = chance_to_block_spells_%_if_damaged_by_a_hit_recently
+|stat1_min                        = 10
+|stat1_max                        = 12
+|spawn_weight1_tag                = staff_eyrie
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = warstaff_eyrie
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = block
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

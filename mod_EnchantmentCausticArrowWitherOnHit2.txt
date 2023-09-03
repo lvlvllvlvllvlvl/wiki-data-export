@@ -1,0 +1,23 @@
+{{Mod
+|id                               = EnchantmentCausticArrowWitherOnHit2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Caustic Arrow Wither On Hit 2
+|mod_type                         = EnchantmentCausticArrowWitherOnHit
+|stat_text                        = [[Caustic Arrow]] has 20% chance to inflict Withered on [[Hit]] for 2 seconds base Duration
+|stat1_id                         = caustic_arrow_withered_base_duration_ms
+|stat1_min                        = 2000
+|stat1_max                        = 2000
+|stat2_id                         = caustic_arrow_withered_on_hit_%
+|stat2_min                        = 20
+|stat2_max                        = 20
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 75
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

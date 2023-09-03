@@ -1,0 +1,20 @@
+{{Mod
+|id                               = LocalIncreaseSocketedGemUnsetRing2
+|mod_groups                       = IncreaseSocketedGemLevel
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 50
+|name                             = Quintessential
+|mod_type                         = LocalIncreaseSocketedGemLevel
+|stat_text                        = +2 to [[Level]] of [[Item socket|Socketed]] Gems
+|stat1_id                         = local_socketed_gem_level_+
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = unset_ring
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

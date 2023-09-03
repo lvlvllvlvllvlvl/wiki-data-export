@@ -1,0 +1,20 @@
+{{Mod
+|id                               = ReducedCriticalStrikeDamageTakenInfluence2_
+|mod_groups                       = ReducedCriticalStrikeDamageTaken
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Warlord's
+|mod_type                         = ReducedCriticalStrikeDamageTaken
+|stat_text                        = You take (21-30)% reduced Extra Damage from Critical Strikes
+|stat1_id                         = base_self_critical_strike_multiplier_-%
+|stat1_min                        = 21
+|stat1_max                        = 30
+|spawn_weight1_tag                = belt_adjudicator
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage, critical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

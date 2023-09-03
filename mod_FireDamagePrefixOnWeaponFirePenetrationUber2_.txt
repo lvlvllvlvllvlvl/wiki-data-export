@@ -1,0 +1,26 @@
+{{Mod
+|id                               = FireDamagePrefixOnWeaponFirePenetrationUber2_
+|mod_groups                       = WeaponCasterDamagePrefix
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = The Elder's
+|granted_skill                    = SupportFirePenetration
+|mod_type                         = FireDamagePrefixFirePenetration
+|stat_text                        = (53-56)% increased [[Fire Damage]]<br>[[Item socket|Socketed]] Gems are Supported by [[Fire Penetration Support|Level 18 Fire Penetration]]
+|stat1_id                         = fire_damage_+%
+|stat1_min                        = 53
+|stat1_max                        = 56
+|stat2_id                         = local_display_socketed_gems_supported_by_level_x_fire_penetration
+|stat2_min                        = 18
+|stat2_max                        = 18
+|spawn_weight1_tag                = sceptre_elder
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = wand_elder
+|spawn_weight2_value              = 200
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = support, elemental_damage, damage, elemental, fire, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

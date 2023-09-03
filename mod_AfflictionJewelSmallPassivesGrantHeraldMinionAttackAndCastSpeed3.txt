@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantHeraldMinionAttackAndCastSpeed3
+|mod_groups                       = AfflictionJewelSmallPassivesGrantHeraldMinionAttackAndCastSpeed
+|domain                           = 21
+|generation_type                  = 2
+|required_level                   = 84
+|name                             = of the Canon
+|mod_type                         = AfflictionJewelSmallPassivesGrantHeraldMinionAttackAndCastSpeed
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: [[Minion|Minions]] have 3% increased [[Attack]] and [[Cast Speed]] while you are affected by a Herald
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_minion_attack_and_cast_speed_+%_while_you_are_affected_by_a_herald
+|stat1_min                        = 3
+|stat1_max                        = 3
+|spawn_weight1_tag                = affliction_minion_damage_while_you_have_a_herald
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, caster, speed, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

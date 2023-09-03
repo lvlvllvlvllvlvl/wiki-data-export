@@ -1,0 +1,22 @@
+{{Mod
+|id                               = FlaskHealsMinions2
+|mod_groups                       = FlaskHealsOthers
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 28
+|name                             = of the Acolyte
+|mod_type                         = FlaskHealsMinions
+|stat_text                        = Grants (120-139)% of [[Life]] Recovery to [[Minion|Minions]]
+|stat1_id                         = local_flask_minion_heal_%
+|stat1_min                        = 120
+|stat1_max                        = 139
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = mana_flask
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 600
+|tags                             = flask, resource, life, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

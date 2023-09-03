@@ -1,0 +1,20 @@
+{{Mod
+|id                               = RecoverEnergyShieldPercentOnBlockInfluence1
+|mod_groups                       = RecoverEnergyShieldPercentOnBlock
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Crusade
+|mod_type                         = RecoverEnergyShieldPercentOnBlock
+|stat_text                        = Recover (3-5)% of [[Energy Shield]] when you [[Block]]
+|stat1_id                         = energy_shield_%_gained_on_block
+|stat1_min                        = 3
+|stat1_max                        = 5
+|spawn_weight1_tag                = shield_crusader
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = block, defences, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

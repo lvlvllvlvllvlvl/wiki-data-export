@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MaimOnHitInfluence1
+|mod_groups                       = GlobalMaimOnHit
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Conquest
+|mod_type                         = GlobalMaimOnHit
+|stat_text                        = [[Attack|Attacks]] have 15% chance to Maim on [[Hit]]
+|stat1_id                         = maim_on_hit_%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = quiver_adjudicator
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

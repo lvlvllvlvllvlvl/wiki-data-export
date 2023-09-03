@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapLeaguestoneEssenceMonsterItemRarity2
+|mod_groups                       = MapLeaguestoneEssenceMonsterItemRarity
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Refined
+|mod_type                         = MapLeaguestoneEssenceMonsterItemRarity
+|stat_text                        = (40-50)% more Rarity of Items Dropped by Imprisoned Monsters in next Area
+|stat1_id                         = map_leaguestone_imprisoned_monsters_item_rarity_+%_final
+|stat1_min                        = 40
+|stat1_max                        = 50
+|spawn_weight1_tag                = essence_leaguestone
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

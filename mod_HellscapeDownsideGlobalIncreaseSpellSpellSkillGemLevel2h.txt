@@ -1,0 +1,21 @@
+{{Mod
+|id                               = HellscapeDownsideGlobalIncreaseSpellSpellSkillGemLevel2h
+|mod_groups                       = IncreaseSocketedGemLevel
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 68
+|mod_type                         = GlobalIncreaseSpellSkillGemLevel
+|stat_text                        = -4 to [[Level]] of all [[Spell]] [[Skill]] Gems
+|stat1_id                         = spell_skill_gem_level_+
+|stat1_min                        = -4
+|stat1_max                        = -4
+|spawn_weight1_tag                = attack_staff
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = staff
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = caster, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

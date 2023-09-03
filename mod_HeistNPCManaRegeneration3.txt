@@ -1,0 +1,20 @@
+{{Mod
+|id                               = HeistNPCManaRegeneration3
+|mod_groups                       = ManaRegeneration
+|domain                           = 23
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Elation
+|mod_type                         = HeistNPCManaRegeneration
+|stat_text                        = Players and their [[Minion|Minions]] have (31-35)% increased [[Mana]] Regeneration Rate
+|stat1_id                         = player_and_minion_mana_regeneration_rate_+%
+|stat1_min                        = 31
+|stat1_max                        = 35
+|spawn_weight1_tag                = heist_equipment_caster
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

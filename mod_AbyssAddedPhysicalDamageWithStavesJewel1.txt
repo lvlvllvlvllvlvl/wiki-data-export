@@ -1,0 +1,29 @@
+{{Mod
+|id                               = AbyssAddedPhysicalDamageWithStavesJewel1
+|mod_groups                       = SpecificWeaponPhysicalDamage
+|domain                           = 13
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Glinting
+|mod_type                         = AddedPhysicalDamageWithStaves
+|stat_text                        = 2 to 3 Added [[Physical Damage]] with [[Staff]] [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_physical_damage_with_staves
+|stat1_min                        = 2
+|stat1_max                        = 2
+|stat2_id                         = attack_maximum_added_physical_damage_with_staves
+|stat2_min                        = 3
+|stat2_max                        = 3
+|spawn_weight1_tag                = staff
+|spawn_weight1_value              = 2000
+|spawn_weight2_tag                = one_handed_mod
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = specific_weapon
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = abyss_jewel_melee
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = physical_damage, damage, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

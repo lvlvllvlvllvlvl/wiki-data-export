@@ -1,0 +1,20 @@
+{{Mod
+|id                               = ReducedCurseEffectUber2
+|mod_groups                       = ReducedCurseEffect
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Shaping
+|mod_type                         = ReducedCurseEffect
+|stat_text                        = (40-35)% reduced Effect of [[Curse|Curses]] on you
+|stat1_id                         = curse_effect_on_self_+%
+|stat1_min                        = -40
+|stat1_max                        = -35
+|spawn_weight1_tag                = ring_shaper
+|spawn_weight1_value              = 1600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster, curse
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

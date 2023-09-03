@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AttackBlockIfBlockedAttacksInfluence1
+|mod_groups                       = AttackBlockIfBlockedAttackRecently
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Conquest
+|mod_type                         = AttackBlockIfBlockedAttackRecently
+|stat_text                        = +(5-6)% Chance to [[Block]] [[Attack Damage]] if you have Blocked [[Attack Damage]] [[Recently]]
+|stat1_id                         = block_%_if_blocked_an_attack_recently
+|stat1_min                        = 5
+|stat1_max                        = 6
+|spawn_weight1_tag                = shield_adjudicator
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = block
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

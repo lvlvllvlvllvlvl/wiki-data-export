@@ -1,0 +1,28 @@
+{{Mod
+|id                               = MapDangerousBoss
+|mod_groups                       = MapDangerousBoss
+|domain                           = 5
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Overlord's
+|mod_type                         = MapDangerousBoss
+|stat_text                        = 11% increased Quantity of Items found in this Area<br>Unique Boss deals 20% increased Damage<br>Unique Boss has 25% increased [[Attack]] and [[Cast Speed]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 11
+|stat1_max                        = 11
+|stat2_id                         = map_boss_damage_+%
+|stat2_min                        = 20
+|stat2_max                        = 20
+|stat3_id                         = map_boss_attack_and_cast_speed_+%
+|stat3_min                        = 25
+|stat3_max                        = 25
+|spawn_weight1_tag                = secret_area
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = old_map
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = attack, caster, speed
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

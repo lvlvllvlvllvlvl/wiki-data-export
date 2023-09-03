@@ -1,0 +1,24 @@
+{{Mod
+|id                               = ChanceToIgniteEldritchImplicitUniquePresence4
+|mod_groups                       = ChanceToIgnite
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|granted_buff_id                  = influence_stat_condition_presence_unique_monster
+|granted_buff_value               = 0
+|mod_type                         = ChanceToIgniteUniquePresence
+|stat_text                        = 30% chance to [[Ignite]]
+|stat1_id                         = base_chance_to_ignite_%
+|stat1_min                        = 30
+|stat1_max                        = 30
+|stat2_id                         = local_influence_mod_requires_unique_monster_presence
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = no_tier_3_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = helmet
+|spawn_weight2_value              = 350
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental, fire, ailment
+}}

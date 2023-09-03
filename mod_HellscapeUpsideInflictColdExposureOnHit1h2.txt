@@ -1,0 +1,24 @@
+{{Mod
+|id                               = HellscapeUpsideInflictColdExposureOnHit1h2
+|mod_groups                       = ExposureOnHit
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 45
+|mod_type                         = ColdExposureOnHit
+|stat_text                        = (7-8)% chance to inflict Cold Exposure on [[Hit]]
+|stat1_id                         = base_inflict_cold_exposure_on_hit_%_chance
+|stat1_min                        = 7
+|stat1_max                        = 8
+|spawn_weight1_tag                = attack_dagger
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = sceptre
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = dagger
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = wand
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

@@ -1,0 +1,27 @@
+{{Mod
+|id                               = MapMonstersAllResistancesDelve2
+|mod_groups                       = MapMonstersAllResistances
+|domain                           = 17
+|generation_type                  = 14
+|required_level                   = 52
+|mod_type                         = MapMonstersAllResistancesMapWorlds
+|stat_text                        = 13% increased Quantity of Items found in this Area<br>8% increased Rarity of Items found in this Area<br>5% increased Pack size<br>+20% Monster [[Chaos Resistance]]<br>+30% Monster [[Elemental Resistance|Elemental Resistances]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 13
+|stat1_max                        = 13
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 8
+|stat2_max                        = 8
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 5
+|stat3_max                        = 5
+|stat4_id                         = map_monsters_additional_chaos_resistance
+|stat4_min                        = 20
+|stat4_max                        = 20
+|stat5_id                         = map_monsters_additional_elemental_resistance
+|stat5_min                        = 30
+|stat5_max                        = 30
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+|tags                             = elemental, chaos, resistance
+}}

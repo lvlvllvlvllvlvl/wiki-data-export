@@ -1,0 +1,17 @@
+{{Mod
+|id                               = TalismanT2Deathscape
+|mod_groups                       = TalismanMonster
+|domain                           = 3
+|generation_type                  = 9
+|required_level                   = 1
+|name                             = Clutching Talisman
+|mod_type                         = MonsterPoisonAndEnergyShieldTalisman
+|stat_text                        = [[Poison]] on [[Hit]] (Hidden)<br>10% of Maximum Life is added to Maximum Energy Shield (Hidden)
+|stat1_id                         = global_poison_on_hit
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = maximum_life_%_to_add_to_maximum_energy_shield
+|stat2_min                        = 10
+|stat2_max                        = 10
+|tags                             = poison, defences, energy_shield, chaos, ailment
+}}

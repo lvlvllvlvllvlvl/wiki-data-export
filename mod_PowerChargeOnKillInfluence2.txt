@@ -1,0 +1,34 @@
+{{Mod
+|id                               = PowerChargeOnKillInfluence2
+|mod_groups                       = PowerChargeOnKillChance
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 80
+|name                             = Redeemer's
+|mod_type                         = PowerChargeOnKillChance
+|stat_text                        = (7-10)% chance to gain a [[Power Charge]] on [[Kill]]
+|stat1_id                         = add_power_charge_on_kill_%_chance
+|stat1_min                        = 7
+|stat1_max                        = 10
+|spawn_weight1_tag                = helmet_eyrie
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = claw_eyrie
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = dagger_eyrie
+|spawn_weight3_value              = 250
+|spawn_weight4_tag                = rune_dagger_eyrie
+|spawn_weight4_value              = 250
+|spawn_weight5_tag                = sceptre_eyrie
+|spawn_weight5_value              = 250
+|spawn_weight6_tag                = wand_eyrie
+|spawn_weight6_value              = 250
+|spawn_weight7_tag                = staff_eyrie
+|spawn_weight7_value              = 250
+|spawn_weight8_tag                = warstaff_eyrie
+|spawn_weight8_value              = 250
+|spawn_weight9_tag                = default
+|spawn_weight9_value              = 0
+|tags                             = power_charge
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

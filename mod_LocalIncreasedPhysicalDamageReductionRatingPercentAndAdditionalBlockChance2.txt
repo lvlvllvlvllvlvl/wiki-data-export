@@ -1,0 +1,21 @@
+{{Mod
+|id                               = LocalIncreasedPhysicalDamageReductionRatingPercentAndAdditionalBlockChance2
+|mod_groups                       = DefencesPercentAndStunRecovery
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 78
+|name                             = Unfailing
+|mod_type                         = LocalPhysicalDamageReductionRatingPercentAndBlockChance
+|stat_text                        = (31-36)% increased [[Armour]]<br>+3% Chance to [[Block]]
+|stat1_id                         = local_physical_damage_reduction_rating_+%
+|stat1_min                        = 31
+|stat1_max                        = 36
+|stat2_id                         = local_additional_block_chance_%
+|stat2_min                        = 3
+|stat2_max                        = 3
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = block, defences, armour
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SupportedByForkCorrupted
+|mod_groups                       = SupportedByFork
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 6
+|granted_skill                    = SupportFork
+|mod_type                         = SupportedByFork
+|stat_text                        = [[Item socket|Socketed]] Gems are supported by [[Fork Support|Level 1 Fork]]
+|stat1_id                         = local_display_socketed_gems_get_fork_level
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = bow
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

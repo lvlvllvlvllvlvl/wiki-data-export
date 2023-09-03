@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MapCorruptedSideAreaRareAndUniqueMonstersArePossessed
+|mod_groups                       = MapBossIsPossessed
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 69
+|name                             = of Possession
+|mod_type                         = MapCorruptedSideAreaRareAndUniqueMonstersArePossessed
+|stat_text                        = Unique Bosses are Possessed
+|stat1_id                         = map_boss_is_possessed
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_rare_monsters_possessed_with_touched_minions_num
+|stat2_min                        = 5
+|stat2_max                        = 5
+|spawn_weight1_tag                = secret_area
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

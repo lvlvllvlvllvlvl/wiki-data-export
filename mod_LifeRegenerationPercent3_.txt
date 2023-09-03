@@ -1,0 +1,18 @@
+{{Mod
+|id                               = LifeRegenerationPercent3_
+|mod_groups                       = LifeRegenerationRatePercentage
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of Longevity
+|mod_type                         = LifeRegenerationRatePercentage
+|stat_text                        = Regenerate (0.8-0.9)% of [[Life]] per second
+|stat1_id                         = life_regeneration_rate_per_minute_%
+|stat1_min                        = 48
+|stat1_max                        = 54
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

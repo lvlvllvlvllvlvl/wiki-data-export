@@ -1,0 +1,20 @@
+{{Mod
+|id                               = CriticalStrikeChanceIfKilledRecentlyUber1
+|mod_groups                       = CriticalStrikeChanceIfKilledRecently
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Shaping
+|mod_type                         = CriticalStrikeChanceIfKilledRecently
+|stat_text                        = (80-100)% increased [[Critical Strike Chance]] if you have Killed [[Recently]]
+|stat1_id                         = critical_strike_chance_+%_if_enemy_killed_recently
+|stat1_min                        = 80
+|stat1_max                        = 100
+|spawn_weight1_tag                = axe_shaper
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

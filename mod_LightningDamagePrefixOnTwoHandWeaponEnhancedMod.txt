@@ -1,0 +1,24 @@
+{{Mod
+|id                               = LightningDamagePrefixOnTwoHandWeaponEnhancedMod
+|mod_groups                       = WeaponCasterDamagePrefix
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Topotante's
+|mod_type                         = TwoHandLightningDamageWeaponPrefixAndFlat
+|stat_text                        = (111-115)% increased [[Lightning Damage]]<br>Adds (2-6) to (79-84) [[Lightning Damage]] to [[Spell|Spells]]
+|stat1_id                         = lightning_damage_+%
+|stat1_min                        = 111
+|stat1_max                        = 115
+|stat2_id                         = spell_minimum_added_lightning_damage
+|stat2_min                        = 2
+|stat2_max                        = 6
+|stat3_id                         = spell_maximum_added_lightning_damage
+|stat3_min                        = 79
+|stat3_max                        = 84
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, lightning, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

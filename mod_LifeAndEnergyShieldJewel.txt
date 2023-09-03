@@ -1,0 +1,21 @@
+{{Mod
+|id                               = LifeAndEnergyShieldJewel
+|mod_groups                       = IncreasedLifeAndEnergyShield
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Faithful
+|mod_type                         = LifeAndEnergyShieldForJewel
+|stat_text                        = (2-4)% increased maximum [[Life]]<br>(2-4)% increased maximum [[Energy Shield]]
+|stat1_id                         = maximum_life_+%
+|stat1_min                        = 2
+|stat1_max                        = 4
+|stat2_id                         = maximum_energy_shield_+%
+|stat2_min                        = 2
+|stat2_max                        = 4
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = resource, life, defences, energy_shield
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

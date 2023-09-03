@@ -1,0 +1,19 @@
+{{Mod
+|id                               = TailwindOnCriticalStrikeInfluence1
+|mod_groups                       = TailwindOnCriticalStrike
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Hunt
+|mod_type                         = TailwindOnCriticalStrike
+|stat_text                        = You have Tailwind if you have dealt a [[Critical Strike]] [[Recently]]
+|stat1_id                         = tailwind_if_have_crit_recently
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = boots_basilisk
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = V2IncreasedLifeRegenerationPerSecondCorrupted
+|mod_groups                       = LifeRegenerationRatePercentage
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = LifeRegenerationRatePercentage
+|stat_text                        = Regenerate (1.6-2)% of [[Life]] per second
+|stat1_id                         = life_regeneration_rate_per_minute_%
+|stat1_min                        = 96
+|stat1_max                        = 120
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

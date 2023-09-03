@@ -1,0 +1,25 @@
+{{Mod
+|id                               = MapPlayersLessCooldownRecovery3MapWorldsMaven
+|mod_groups                       = MapPlayerCooldownRecovery
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Fatigue
+|mod_type                         = MapPlayersLessCooldownRecovery
+|stat_text                        = 13% increased Quantity of Items found in this Area<br>8% increased Rarity of Items found in this Area<br>Players have 40% less Cooldown Recovery Rate
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 13
+|stat1_max                        = 13
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 8
+|stat2_max                        = 8
+|stat3_id                         = map_player_cooldown_speed_+%_final
+|stat3_min                        = -40
+|stat3_max                        = -40
+|spawn_weight1_tag                = maven_map
+|spawn_weight1_value              = 650
+|spawn_weight2_tag                = primordial_map
+|spawn_weight2_value              = 650
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

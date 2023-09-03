@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialBlockPercent
+|mod_groups                       = BlockPercent
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Parrying
+|mod_type                         = BlockPercent
+|stat_text                        = (5-8)% Chance to [[Block]] [[Attack Damage]]
+|stat1_id                         = monster_base_block_%
+|stat1_min                        = 5
+|stat1_max                        = 8
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = block
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

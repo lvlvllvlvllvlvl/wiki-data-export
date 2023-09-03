@@ -1,0 +1,27 @@
+{{Mod
+|id                               = JunMaster2AddedFireAndColdDamage2Inverted
+|mod_groups                       = AddedFireAndColdDamage
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 72
+|name                             = Chosen
+|mod_type                         = SelfFireAndColdDamageTaken
+|stat_text                        = Adds (8-9) to (11-13) [[Fire Damage]] to [[Hit|Hits]] against you<br>Adds (8-9) to (11-13) [[Cold Damage]] to [[Hit|Hits]] against you
+|stat1_id                         = from_self_minimum_added_fire_damage_taken
+|stat1_min                        = 8
+|stat1_max                        = 9
+|stat2_id                         = from_self_maximum_added_fire_damage_taken
+|stat2_min                        = 11
+|stat2_max                        = 13
+|stat3_id                         = from_self_minimum_added_cold_damage_taken
+|stat3_min                        = 8
+|stat3_max                        = 9
+|stat4_id                         = from_self_maximum_added_cold_damage_taken
+|stat4_min                        = 11
+|stat4_max                        = 13
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, unveiled_mod, damage, elemental, fire, cold
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

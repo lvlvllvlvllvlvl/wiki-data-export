@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeExposureImmunityChanceToBeMaimed1
+|mod_groups                       = WeaponTreeExposureImmunityChanceToBeMaimed
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 40
+|mod_type                         = WeaponTreeExposureImmunityChanceToBeMaimed
+|stat_text                        = Immune to Exposure<br>[[Attack]] [[Hit|Hits]] have 20% chance to Maim you for 4 seconds
+|stat1_id                         = immune_to_exposure
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = chance_to_be_maimed_when_hit_%
+|stat2_min                        = 20
+|stat2_max                        = 20
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 750
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

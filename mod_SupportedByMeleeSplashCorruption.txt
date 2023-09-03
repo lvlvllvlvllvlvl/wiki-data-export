@@ -1,0 +1,22 @@
+{{Mod
+|id                               = SupportedByMeleeSplashCorruption
+|mod_groups                       = SupportedByMelee
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 20
+|granted_skill                    = SupportMeleeSplash
+|mod_type                         = SupportedByMeleeSplash
+|stat_text                        = [[Item socket|Socketed]] Gems are supported by [[Melee Splash Support|Level 10 Melee Splash]]
+|stat1_id                         = local_display_socketed_gems_get_melee_splash_level
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = wand
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = one_hand_weapon
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = support, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

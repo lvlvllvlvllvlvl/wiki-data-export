@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AxeBonus1
+|mod_groups                       = SpecificWeaponBonuses
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 6
+|name                             = Butcher's
+|mod_type                         = AxeBonuses
+|stat_text                        = 5% increased [[Physical Damage]] with [[Axe|Axes]]<br>2% increased [[Attack Speed]] with [[Axe|Axes]]<br>3% increased [[Accuracy Rating]] with [[Axe|Axes]]
+|stat1_id                         = physical_axe_damage_+%
+|stat1_min                        = 5
+|stat1_max                        = 5
+|stat2_id                         = axe_attack_speed_+%
+|stat2_min                        = 2
+|stat2_max                        = 2
+|stat3_id                         = axe_accuracy_rating_+%
+|stat3_min                        = 3
+|stat3_max                        = 3
+|tags                             = physical_damage, damage, physical, attack, speed
+}}

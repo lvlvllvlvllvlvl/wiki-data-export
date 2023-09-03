@@ -1,0 +1,23 @@
+{{Mod
+|id                               = DamageRemovedFromManaBeforeLifeEldritchImplicitPinnaclePresence6
+|mod_groups                       = DamageRemovedFromManaBeforeLife
+|domain                           = 1
+|generation_type                  = 28
+|required_level                   = 75
+|granted_buff_id                  = influence_stat_condition_presence_celestial_boss
+|granted_buff_value               = 0
+|mod_type                         = DamageRemovedFromManaBeforeLifePinnaclePresence
+|stat_text                        = 14% of Damage is taken from [[Mana]] before [[Life]]
+|stat1_id                         = base_damage_removed_from_mana_before_life_%
+|stat1_min                        = 14
+|stat1_max                        = 14
+|stat2_id                         = local_influence_mod_requires_celestial_boss_presence
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = no_tier_1_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = body_armour
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

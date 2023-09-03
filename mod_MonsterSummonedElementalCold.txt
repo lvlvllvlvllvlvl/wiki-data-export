@@ -1,0 +1,13 @@
+{{Mod
+|id                               = MonsterSummonedElementalCold
+|mod_groups                       = ColdDamageAsPortionOfDamage
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterConvertPhysicalDamageToCold
+|stat_text                        = 50% of [[Physical Damage]] Converted to [[Cold Damage]] (Hidden)
+|stat1_id                         = base_physical_damage_%_to_convert_to_cold
+|stat1_min                        = 50
+|stat1_max                        = 50
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, cold
+}}

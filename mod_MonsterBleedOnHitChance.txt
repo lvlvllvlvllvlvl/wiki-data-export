@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MonsterBleedOnHitChance
+|mod_groups                       = CausesBleeding
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterBleedOnHitChance
+|stat_text                        = [[Attack|Attacks]] have 25% chance to cause Bleeding (Hidden)
+|stat1_id                         = bleed_on_hit_with_attacks_%
+|stat1_min                        = 25
+|stat1_max                        = 25
+|stat2_id                         = display_monster_may_inflict_bleeding
+|stat2_min                        = 1
+|stat2_max                        = 1
+|tags                             = bleed, physical, attack, ailment
+}}

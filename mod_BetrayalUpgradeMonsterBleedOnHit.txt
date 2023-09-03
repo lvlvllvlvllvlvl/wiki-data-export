@@ -1,0 +1,13 @@
+{{Mod
+|id                               = BetrayalUpgradeMonsterBleedOnHit
+|mod_groups                       = CausesBleeding
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterBleedOnHitChance
+|stat_text                        = [[Attack|Attacks]] cause Bleeding (Hidden)
+|stat1_id                         = bleed_on_hit_with_attacks_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|tags                             = bleed, physical, attack, ailment
+}}

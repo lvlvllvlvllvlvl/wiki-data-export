@@ -1,0 +1,31 @@
+{{Mod
+|id                               = HeistContractBurningGround4
+|mod_groups                       = MapGroundEffect
+|domain                           = 22
+|generation_type                  = 2
+|required_level                   = 78
+|name                             = of Flames
+|mod_type                         = HeistContractBurningGround
+|stat_text                        = Area has patches of Burning Ground<br>28 patches with Ground Effect per 100 tiles (Hidden)<br>Ground Effect has a radius of 18 (Hidden)
+|stat1_id                         = map_base_ground_fire_damage_to_deal_per_10_seconds
+|stat1_min                        = 16000
+|stat1_max                        = 16000
+|stat2_id                         = map_ground_effect_patches_per_100_tiles
+|stat2_min                        = 28
+|stat2_max                        = 28
+|stat3_id                         = map_ground_effect_radius
+|stat3_min                        = 18
+|stat3_max                        = 18
+|stat4_id                         = map_item_drop_quantity_+%
+|stat4_min                        = 10
+|stat4_max                        = 10
+|stat5_id                         = map_item_drop_rarity_+%
+|stat5_min                        = 6
+|stat5_max                        = 6
+|stat6_id                         = heist_monster_spawner_alive_limit_+%
+|stat6_min                        = 4
+|stat6_max                        = 4
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 250
+|tags                             = elemental_damage, damage, elemental, fire
+}}

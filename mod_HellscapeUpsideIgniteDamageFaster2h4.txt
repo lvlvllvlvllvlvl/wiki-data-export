@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideIgniteDamageFaster2h4
+|mod_groups                       = FasterDamageAilments
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = FasterIgniteDamage
+|stat_text                        = [[Ignite|Ignites]] you inflict deal Damage (12-13)% faster
+|stat1_id                         = faster_burn_%
+|stat1_min                        = 12
+|stat1_max                        = 13
+|spawn_weight1_tag                = staff
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

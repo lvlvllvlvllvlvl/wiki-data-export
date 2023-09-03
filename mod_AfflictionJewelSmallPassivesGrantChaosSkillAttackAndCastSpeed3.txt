@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantChaosSkillAttackAndCastSpeed3
+|mod_groups                       = AfflictionJewelSmallPassivesGrantChaosSkillAttackAndCastSpeed
+|domain                           = 21
+|generation_type                  = 2
+|required_level                   = 84
+|name                             = of the Eclipse
+|mod_type                         = AfflictionJewelSmallPassivesGrantChaosSkillAttackAndCastSpeed
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: 3% increased [[Attack]] and [[Cast Speed]] with Chaos [[Skill|Skills]]
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_attack_and_cast_speed_+%_with_chaos_skills
+|stat1_min                        = 3
+|stat1_max                        = 3
+|spawn_weight1_tag                = affliction_chaos_damage
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = chaos, attack, caster, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

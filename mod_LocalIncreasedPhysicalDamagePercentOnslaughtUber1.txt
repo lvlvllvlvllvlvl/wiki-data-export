@@ -1,0 +1,34 @@
+{{Mod
+|id                               = LocalIncreasedPhysicalDamagePercentOnslaughtUber1
+|mod_groups                       = LocalPhysicalDamagePercent
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = The Elder's
+|granted_skill                    = SupportMomentum
+|mod_type                         = LocalPhysicalDamagePercentOnslaught
+|stat_text                        = (101-115)% increased [[Physical Damage]]<br>[[Item socket|Socketed]] Gems are Supported by [[Level]] 16 Momentum
+|stat1_id                         = local_physical_damage_+%
+|stat1_min                        = 101
+|stat1_max                        = 115
+|stat2_id                         = local_display_socketed_gems_supported_by_level_x_onslaught
+|stat2_min                        = 16
+|stat2_max                        = 16
+|spawn_weight1_tag                = grants_2h_support
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = 2h_sword_elder
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = 2h_axe_elder
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|generation_weight1_tag           = has_attack_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_caster_mod
+|generation_weight2_value         = 65
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = support, physical_damage, damage, physical, attack, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

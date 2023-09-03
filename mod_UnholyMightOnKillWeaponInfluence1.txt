@@ -1,0 +1,25 @@
+{{Mod
+|id                               = UnholyMightOnKillWeaponInfluence1
+|mod_groups                       = UnholyMightOnKillPercentChance
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Conquest
+|mod_type                         = UnholyMightOnKillPercentChance
+|stat_text                        = (15-18)% chance to gain Unholy Might for 3 seconds on [[Kill]]
+|stat1_id                         = chance_to_gain_unholy_might_on_kill_for_3_seconds_%
+|stat1_min                        = 15
+|stat1_max                        = 18
+|spawn_weight1_tag                = wand_adjudicator
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = claw_adjudicator
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = staff_adjudicator
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = warstaff_adjudicator
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

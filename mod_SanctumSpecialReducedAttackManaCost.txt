@@ -1,0 +1,17 @@
+{{Mod
+|id                               = SanctumSpecialReducedAttackManaCost
+|mod_groups                       = ManaCostReduction
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Efficient
+|mod_type                         = ReducedAttackManaCost
+|stat_text                        = (25-20)% reduced [[Mana]] Cost of [[Attack|Attacks]]
+|stat1_id                         = attack_mana_cost_+%
+|stat1_min                        = -25
+|stat1_max                        = -20
+|spawn_weight1_tag                = int_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+}}

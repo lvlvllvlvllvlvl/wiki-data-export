@@ -1,0 +1,18 @@
+{{Mod
+|id                               = FlaskChanceRechargeOnCrit3___
+|mod_groups                       = FlaskRechargeRate
+|domain                           = 2
+|generation_type                  = 1
+|required_level                   = 44
+|name                             = Doctor's
+|mod_type                         = FlaskChanceRechargeOnCrit
+|stat_text                        = (21-25)% chance to gain a Flask [[Charge]] when you deal a [[Critical Strike]]
+|stat1_id                         = local_recharge_on_crit_%
+|stat1_min                        = 21
+|stat1_max                        = 25
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 600
+|tags                             = flask, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,27 @@
+{{Mod
+|id                               = AbyssAddedFireDamageWithMacesJewel4
+|mod_groups                       = SpecificWeaponFireDamage
+|domain                           = 13
+|generation_type                  = 1
+|required_level                   = 62
+|name                             = Incinerating
+|mod_type                         = AddedFireDamageWithMaces
+|stat_text                        = (12-13) to (20-22) Added [[Fire Damage]] with [[Mace]] or Sceptre [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_fire_damage_with_maces
+|stat1_min                        = 12
+|stat1_max                        = 13
+|stat2_id                         = attack_maximum_added_fire_damage_with_maces
+|stat2_min                        = 20
+|stat2_max                        = 22
+|spawn_weight1_tag                = mace
+|spawn_weight1_value              = 2000
+|spawn_weight2_tag                = specific_weapon
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = abyss_jewel_melee
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

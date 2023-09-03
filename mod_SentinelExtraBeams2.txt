@@ -1,0 +1,21 @@
+{{Mod
+|id                               = SentinelExtraBeams2
+|mod_groups                       = SentinelDroneExtraBeams
+|domain                           = 30
+|generation_type                  = 1
+|required_level                   = 45
+|name                             = Splitting
+|mod_type                         = SentinelDroneExtraBeams
+|stat_text                        = Fires 2 additional Beams
+|stat1_id                         = sentinel_tag_beam_number_of_beams
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = special_sentinel_mod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = sentinel_c
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 500
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

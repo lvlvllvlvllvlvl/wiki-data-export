@@ -1,0 +1,24 @@
+{{Mod
+|id                               = SentinelDroneMetamorphosisRewardChance1
+|mod_groups                       = SentinelDroneMetamorphosisRewardChance
+|domain                           = 30
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Metamorphosis
+|mod_type                         = SentinelDroneMetamorphosisRewardChance
+|stat_text                        = (1-1.5)% chance for Empowered Enemies to have a Metamorphosis Reward
+|stat1_id                         = sentinel_tag_metamorphosis_reward_chance_permillage
+|stat1_min                        = 10
+|stat1_max                        = 15
+|stat2_id                         = local_sentinel_drone_difficulty_+
+|stat2_min                        = 4
+|stat2_max                        = 4
+|spawn_weight1_tag                = special_sentinel_mod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = sentinel_c
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 45
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

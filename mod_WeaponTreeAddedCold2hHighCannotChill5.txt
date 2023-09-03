@@ -1,0 +1,22 @@
+{{Mod
+|id                               = WeaponTreeAddedCold2hHighCannotChill5
+|mod_groups                       = ColdDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 82
+|mod_type                         = WeaponTreeLocalColdDamageAndCannotChill
+|stat_text                        = Adds 95 to 144 [[Cold Damage]]<br>Your [[Cold Damage]] cannot Chill
+|stat1_id                         = local_minimum_added_cold_damage
+|stat1_min                        = 95
+|stat1_max                        = 95
+|stat2_id                         = local_maximum_added_cold_damage
+|stat2_min                        = 144
+|stat2_max                        = 144
+|stat3_id                         = cold_damage_cannot_chill
+|stat3_min                        = 1
+|stat3_max                        = 1
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 125
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

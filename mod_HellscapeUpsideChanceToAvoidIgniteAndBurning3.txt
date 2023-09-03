@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideChanceToAvoidIgniteAndBurning3
+|mod_groups                       = AvoidIgnite
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = AvoidIgnite
+|stat_text                        = (31-35)% chance to Avoid being Ignited
+|stat1_id                         = base_avoid_ignite_%
+|stat1_min                        = 31
+|stat1_max                        = 35
+|spawn_weight1_tag                = ring
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, fire, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

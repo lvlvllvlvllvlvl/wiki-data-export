@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentBearTrapDamageTaken1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Bear Trap Damage Taken 1
+|mod_type                         = EnchantmentBearTrapDamageTaken
+|stat_text                        = Enemies affected by [[Bear Trap]] take 5% increased Damage from [[Trap]] or [[Mine]] [[Hit|Hits]]
+|stat1_id                         = bear_trap_additional_damage_taken_+%_from_traps_and_mines
+|stat1_min                        = 5
+|stat1_max                        = 5
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

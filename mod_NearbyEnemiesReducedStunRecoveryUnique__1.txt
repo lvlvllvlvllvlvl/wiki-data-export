@@ -1,0 +1,19 @@
+{{Mod
+|id                               = NearbyEnemiesReducedStunRecoveryUnique__1
+|mod_groups                       = NearbyEnemiesBonuses
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = unique_nearby_enemies_reduced_stun_recovery
+|granted_buff_value               = 60
+|mod_type                         = NearbyEnemiesReducedStunRecovery
+|stat_text                        = 10% reduced Stun and [[Block]] Recovery<br>Nearby Enemies have 10% reduced Stun and [[Block]] Recovery
+|stat1_id                         = base_stun_recovery_+%
+|stat1_min                        = -10
+|stat1_max                        = -10
+|stat2_id                         = local_display_nearby_enemies_stun_and_block_recovery_+%
+|stat2_min                        = -10
+|stat2_max                        = -10
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

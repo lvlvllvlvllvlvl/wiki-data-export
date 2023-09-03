@@ -1,0 +1,20 @@
+{{Mod
+|id                               = WeaponTreeAdditionalPierce2h1
+|mod_groups                       = WeaponTreeAdditionalPierce
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 16
+|mod_type                         = WeaponTreeAdditionalPierce
+|stat_text                        = Projectiles Pierce an additional Target
+|stat1_id                         = projectile_base_number_of_targets_to_pierce
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = ranged
+|spawn_weight2_value              = 300
+|spawn_weight3_tag                = two_hand_weapon
+|spawn_weight3_value              = 75
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+}}

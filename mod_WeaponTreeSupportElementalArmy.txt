@@ -1,0 +1,23 @@
+{{Mod
+|id                               = WeaponTreeSupportElementalArmy
+|mod_groups                       = WeaponTreeSupportElementalArmy
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 38
+|granted_skill                    = SupportSummonElementalResistances
+|mod_type                         = WeaponTreeSupportElementalArmy
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Level]] 10 Elemental Army Support
+|stat1_id                         = local_display_socketed_gems_supported_by_level_x_summon_elemental_resistance
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = minion_unique_weapon
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = weapon_can_roll_minion_modifiers
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = focus_can_roll_minion_modifiers
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+}}

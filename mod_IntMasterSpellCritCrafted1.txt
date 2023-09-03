@@ -1,0 +1,18 @@
+{{Mod
+|id                               = IntMasterSpellCritCrafted1
+|mod_groups                       = SpellCriticalStrikeChanceIncrease
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 20
+|name                             = of Havoc
+|mod_type                         = SpellCriticalStrikeChance
+|stat_text                        = (30-49)% increased [[Critical Strike Chance]] for [[Spell|Spells]]
+|stat1_id                         = spell_critical_strike_chance_+%
+|stat1_min                        = 30
+|stat1_max                        = 49
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = caster, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

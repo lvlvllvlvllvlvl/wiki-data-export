@@ -1,0 +1,26 @@
+{{Mod
+|id                               = AbyssHinderedEnemiesLifeRegenerationRateJewel1
+|mod_groups                       = BuffEnchantment
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 84
+|name                             = of Enervation
+|mod_type                         = EnchantmentHinder
+|stat_text                        = Enemies Hindered by you have (20-15)% reduced [[Life]] Regeneration rate
+|stat1_id                         = enemies_you_hinder_have_life_regeneration_rate_+%
+|stat1_min                        = -20
+|stat1_max                        = -15
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = abyss_jewel_ranged
+|spawn_weight2_value              = 100
+|spawn_weight3_tag                = abyss_jewel_caster
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = abyss_jewel_summoner
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

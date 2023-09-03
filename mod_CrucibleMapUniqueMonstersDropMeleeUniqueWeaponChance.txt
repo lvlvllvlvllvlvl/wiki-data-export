@@ -1,0 +1,17 @@
+{{Mod
+|id                               = CrucibleMapUniqueMonstersDropMeleeUniqueWeaponChance
+|mod_groups                       = CrucibleMapUniqueMonstersDropMeleeUniqueWeaponChance
+|domain                           = 33
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Warrior's
+|mod_type                         = CrucibleMapUniqueMonstersDropMeleeUniqueWeaponChance
+|stat_text                        = Unique Crucible Monsters have 25% chance to drop a Unique Melee Weapon
+|stat1_id                         = map_crucible_unique_monster_drop_unique_melee_weapon_%_chance
+|stat1_min                        = 25
+|stat1_max                        = 25
+|spawn_weight1_tag                = crucible_map_low
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

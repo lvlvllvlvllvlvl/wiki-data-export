@@ -1,0 +1,26 @@
+{{Mod
+|id                               = ChanceToBleed2_
+|mod_groups                       = LocalChanceToBleed
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 55
+|name                             = of Flaying
+|mod_type                         = LocalChanceToBleed
+|stat_text                        = 15% chance to cause Bleeding on [[Hit]]
+|stat1_id                         = local_chance_to_bleed_on_hit_%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = bow
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = sword
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = axe
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = mace
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = bleed, physical, attack, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

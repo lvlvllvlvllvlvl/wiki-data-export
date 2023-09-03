@@ -1,0 +1,23 @@
+{{Mod
+|id                               = WeaponTreeIntelligenceAndNoInherentBonusFromIntelligence1
+|mod_groups                       = WeaponTreeIntelligenceAndNoInherentBonusFromIntelligence
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeIntelligenceAndNoInherentBonusFromIntelligence
+|stat_text                        = +60 to [[Intelligence]]<br>Gain no inherent bonuses from [[Intelligence]]
+|stat1_id                         = additional_intelligence
+|stat1_min                        = 60
+|stat1_max                        = 60
+|stat2_id                         = gain_no_inherent_bonus_from_intelligence
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = wand
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = one_hand_weapon
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = shield
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+}}

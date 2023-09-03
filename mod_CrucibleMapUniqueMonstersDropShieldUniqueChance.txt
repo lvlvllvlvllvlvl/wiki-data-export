@@ -1,0 +1,17 @@
+{{Mod
+|id                               = CrucibleMapUniqueMonstersDropShieldUniqueChance
+|mod_groups                       = CrucibleMapUniqueMonstersDropShieldUniqueChance
+|domain                           = 33
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Defender's
+|mod_type                         = CrucibleMapUniqueMonstersDropShieldUniqueChance
+|stat_text                        = Unique Crucible Monsters have 25% chance to drop a Unique [[Shield]]
+|stat1_id                         = map_crucible_unique_monster_drop_unique_shield_%_chance
+|stat1_min                        = 25
+|stat1_max                        = 25
+|spawn_weight1_tag                = crucible_map_low
+|spawn_weight1_value              = 120
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

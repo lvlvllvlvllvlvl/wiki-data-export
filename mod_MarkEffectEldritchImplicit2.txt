@@ -1,0 +1,21 @@
+{{Mod
+|id                               = MarkEffectEldritchImplicit2
+|mod_groups                       = CurseEffectiveness
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|mod_type                         = MarkEffect
+|stat_text                        = (8-9)% increased Effect of your Marks
+|stat1_id                         = mark_skills_curse_effect_+%
+|stat1_min                        = 8
+|stat1_max                        = 9
+|spawn_weight1_tag                = no_tier_5_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = gloves
+|spawn_weight2_value              = 400
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = caster, curse
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

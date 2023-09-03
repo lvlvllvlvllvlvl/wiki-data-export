@@ -1,0 +1,35 @@
+{{Mod
+|id                               = WeaponSocketedAttacksDamageFinalUber1_
+|mod_groups                       = SocketedAttacksDamageFinal
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 83
+|name                             = The Shaper's
+|granted_skill                    = DelveModSocketedAttackDamageFinal1h
+|mod_type                         = SocketedAttacksDamageFinal
+|stat_text                        = [[Item socket|Socketed]] [[Skill|Skills]] deal 40% more [[Attack Damage]]
+|stat1_id                         = local_display_socketed_attack_damage_+%_final
+|stat1_min                        = 40
+|stat1_max                        = 40
+|spawn_weight1_tag                = sword_shaper
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = axe_shaper
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = mace_shaper
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = claw_shaper
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = sceptre_shaper
+|spawn_weight5_value              = 500
+|spawn_weight6_tag                = dagger_shaper
+|spawn_weight6_value              = 500
+|spawn_weight7_tag                = rune_dagger_shaper
+|spawn_weight7_value              = 500
+|spawn_weight8_tag                = wand_shaper
+|spawn_weight8_value              = 500
+|spawn_weight9_tag                = default
+|spawn_weight9_value              = 0
+|tags                             = skill, damage, attack, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

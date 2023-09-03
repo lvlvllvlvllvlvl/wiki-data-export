@@ -1,0 +1,26 @@
+{{Mod
+|id                               = MonsterArchnemesisGraspingVines
+|mod_groups                       = MonsterArchnemesisGraspingVines
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 18
+|name                             = Entangling
+|mod_type                         = MonsterArchnemesisGraspingVines
+|stat_text                        = [[Poison]] on [[Hit]] (Hidden)<br>All Damage from [[Hit|Hits]] can [[Poison]] (Hidden)<br>+25% to [[Chaos Resistance]] (Hidden)
+|stat1_id                         = global_poison_on_hit
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = all_damage_can_poison
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = base_chaos_damage_resistance_%
+|stat3_min                        = 25
+|stat3_max                        = 25
+|stat4_id                         = dropped_items_are_converted_to_jewels
+|stat4_min                        = 1
+|stat4_max                        = 1
+|spawn_weight1_tag                = magic
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 200
+}}

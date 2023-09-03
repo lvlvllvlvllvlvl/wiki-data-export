@@ -1,0 +1,22 @@
+{{Mod
+|id                               = TormentHauntedMonsterPoisoner
+|mod_groups                       = Torment
+|domain                           = 3
+|generation_type                  = 7
+|required_level                   = 1
+|name                             = Alchemist's Grip
+|mod_type                         = TormentHauntedMonsterPoisoner
+|stat_text                        = 35% of [[Physical Damage]] Converted to [[Chaos Damage]] (Hidden)<br>[[Poison]] on [[Hit]] (Hidden)<br>+30% to [[Chaos Resistance]] (Hidden)
+|stat1_id                         = base_physical_damage_%_to_convert_to_chaos
+|stat1_min                        = 35
+|stat1_max                        = 35
+|stat2_id                         = global_poison_on_hit
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = base_chaos_damage_resistance_%
+|stat3_min                        = 30
+|stat3_max                        = 30
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+|tags                             = physical_damage, chaos_damage, bleed, poison, damage, physical, chaos, resistance, ailment
+}}

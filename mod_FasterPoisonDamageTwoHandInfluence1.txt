@@ -1,0 +1,22 @@
+{{Mod
+|id                               = FasterPoisonDamageTwoHandInfluence1
+|mod_groups                       = FasterDamageAilments
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Hunt
+|mod_type                         = FasterPoisonDamage
+|stat_text                        = [[Poison|Poisons]] you inflict deal Damage (18-21)% faster
+|stat1_id                         = faster_poison_%
+|stat1_min                        = 18
+|stat1_max                        = 21
+|spawn_weight1_tag                = 2h_sword_basilisk
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = bow_basilisk
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = chaos_damage, poison, damage, chaos, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

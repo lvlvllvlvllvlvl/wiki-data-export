@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialPhysicalAddedAsCold
+|mod_groups                       = PhysicalAddedAsCold
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Benumbing
+|mod_type                         = PhysicalAddedAsCold
+|stat_text                        = Gain (5-8)% of [[Physical Damage]] as Extra [[Cold Damage]]
+|stat1_id                         = physical_damage_%_to_add_as_cold
+|stat1_min                        = 5
+|stat1_max                        = 8
+|spawn_weight1_tag                = dex_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, cold
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = HeistNPCDamageFullLife3
+|mod_groups                       = AllDamage
+|domain                           = 23
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Ambusher's
+|mod_type                         = HeistNPCDamageFullLife
+|stat_text                        = (33-36)% increased Damage with [[Hit|Hits]] against Enemies on Full Life<br />Players deal (33-36)% increased Damage with [[Hit|Hits]] against Enemies on [[Full Life]]
+|stat1_id                         = damage_vs_enemies_on_full_life_+%
+|stat1_min                        = 33
+|stat1_max                        = 36
+|spawn_weight1_tag                = heist_equipment_utility
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

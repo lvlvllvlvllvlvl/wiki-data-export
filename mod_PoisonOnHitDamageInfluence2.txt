@@ -1,0 +1,23 @@
+{{Mod
+|id                               = PoisonOnHitDamageInfluence2
+|mod_groups                       = PoisonDamage
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Hunt
+|mod_type                         = PoisonOnHitAndDamage
+|stat_text                        = 20% chance to [[Poison]] on [[Hit]]<br>(26-30)% increased Damage with [[Poison]]
+|stat1_id                         = base_chance_to_poison_on_hit_%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = base_poison_damage_+%
+|stat2_min                        = 26
+|stat2_max                        = 30
+|spawn_weight1_tag                = quiver_basilisk
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = chaos_damage, poison, damage, chaos, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

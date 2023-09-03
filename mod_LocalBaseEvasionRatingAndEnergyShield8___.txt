@@ -1,0 +1,33 @@
+{{Mod
+|id                               = LocalBaseEvasionRatingAndEnergyShield8___
+|mod_groups                       = BaseLocalDefences
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 79
+|name                             = Phantasm's
+|mod_type                         = LocalBaseEvasionRatingAndEnergyShield
+|stat_text                        = +(301-375) to [[Evasion Rating]]<br>+(73-80) to maximum [[Energy Shield]]
+|stat1_id                         = local_base_evasion_rating
+|stat1_min                        = 301
+|stat1_max                        = 375
+|stat2_id                         = local_energy_shield
+|stat2_min                        = 73
+|stat2_max                        = 80
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = boots
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = gloves
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = helmet
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = dex_int_armour
+|spawn_weight5_value              = 1000
+|spawn_weight6_tag                = str_dex_int_armour
+|spawn_weight6_value              = 166
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+|tags                             = defences, evasion, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MinionElementalResistancesJewel
+|mod_groups                       = MinionElementalResistances
+|domain                           = 10
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Resilience
+|mod_type                         = MinionElementalResistancesForJewel
+|stat_text                        = [[Minion|Minions]] have +(11-15)% to all [[Elemental Resistance|Elemental Resistances]]
+|stat1_id                         = minion_elemental_resistance_%
+|stat1_min                        = 11
+|stat1_max                        = 15
+|spawn_weight1_tag                = not_int
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 350
+|tags                             = elemental, resistance, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

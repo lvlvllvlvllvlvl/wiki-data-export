@@ -1,0 +1,17 @@
+{{Mod
+|id                               = CrucibleMapWeaponAndShieldDropFullyLinkedChance
+|mod_groups                       = CrucibleMapWeaponAndShieldDropFullyLinkedChance
+|domain                           = 33
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Geomancer's
+|mod_type                         = CrucibleMapWeaponAndShieldDropFullyLinkedChance
+|stat_text                        = Weapons and [[Shield|Shields]] found have 10% chance to be fully Linked
+|stat1_id                         = map_weapon_and_shields_drop_fully_linked_%_chance
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = crucible_map_low
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,22 @@
+{{Mod
+|id                               = AvoidFireDamageInfluence2__
+|mod_groups                       = FireDamageAvoidance
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of the Conquest
+|mod_type                         = FireDamageAvoidance
+|stat_text                        = (8-10)% chance to Avoid [[Fire Damage]] from [[Hit|Hits]]
+|stat1_id                         = avoid_fire_damage_%
+|stat1_min                        = 8
+|stat1_max                        = 10
+|spawn_weight1_tag                = boots_adjudicator
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = shield_adjudicator
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental, fire
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

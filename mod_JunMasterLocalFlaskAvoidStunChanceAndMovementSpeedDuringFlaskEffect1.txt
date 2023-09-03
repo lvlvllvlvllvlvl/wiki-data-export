@@ -1,0 +1,20 @@
+{{Mod
+|id                               = JunMasterLocalFlaskAvoidStunChanceAndMovementSpeedDuringFlaskEffect1
+|mod_groups                       = LocalFlaskAvoidStunChanceAndMovementSpeedDuringFlaskEffect
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Order
+|mod_type                         = LocalFlaskAvoidStunChanceAndMovementSpeedDuringFlaskEffect
+|stat_text                        = 50% Chance to Avoid being Stunned during Effect
+|stat1_id                         = local_flask_avoid_stun_chance_%_during_flask_effect
+|stat1_min                        = 50
+|stat1_max                        = 50
+|spawn_weight1_tag                = flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, unveiled_mod, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

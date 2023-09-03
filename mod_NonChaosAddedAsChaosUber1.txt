@@ -1,0 +1,20 @@
+{{Mod
+|id                               = NonChaosAddedAsChaosUber1
+|mod_groups                       = NonChaosAddedAsChaos
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 81
+|name                             = The Elder's
+|mod_type                         = NonChaosAddedAsChaos
+|stat_text                        = Gain (3-5)% of Non-Chaos Damage as extra [[Chaos Damage]]
+|stat1_id                         = non_chaos_damage_to_add_as_chaos_damage_%
+|stat1_min                        = 3
+|stat1_max                        = 5
+|spawn_weight1_tag                = amulet_elder
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = chaos_damage, damage, chaos
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

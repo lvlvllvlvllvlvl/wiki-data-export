@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AddedColdDamageEssenceQuiverGloves4
+|mod_groups                       = ColdDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 42
+|name                             = Essences
+|mod_type                         = ColdDamage
+|stat_text                        = Adds (6-7) to (11-14) [[Cold Damage]] to [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_cold_damage
+|stat1_min                        = 6
+|stat1_max                        = 7
+|stat2_id                         = attack_maximum_added_cold_damage
+|stat2_min                        = 11
+|stat2_max                        = 14
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, cold, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

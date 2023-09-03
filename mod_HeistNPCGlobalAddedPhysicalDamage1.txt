@@ -1,0 +1,23 @@
+{{Mod
+|id                               = HeistNPCGlobalAddedPhysicalDamage1
+|mod_groups                       = AddedPhysicalDamage
+|domain                           = 23
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Glinting
+|mod_type                         = HeistNPCGlobalAddedPhysicalDamage
+|stat_text                        = (2-3) to (4-5) added Physical Damage<br />Players and their [[Minion|Minions]] have (2-3) to (4-5) added [[Physical Damage]]
+|stat1_id                         = player_and_minion_global_minimum_added_physical_damage
+|stat1_min                        = 2
+|stat1_max                        = 3
+|stat2_id                         = player_and_minion_global_maximum_added_physical_damage
+|stat2_min                        = 4
+|stat2_max                        = 5
+|spawn_weight1_tag                = heist_equipment_weapon
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical_damage, damage, physical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

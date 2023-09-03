@@ -1,0 +1,20 @@
+{{Mod
+|id                               = WeaponTreeSkillAnimateWeapon2H
+|mod_groups                       = WeaponTreeSkillAnimateWeapon
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSkillAnimateWeapon
+|stat_text                        = Animated Lingering Blades have +2.5% to [[Critical Strike Chance]]
+|stat1_id                         = animated_ethereal_blades_have_additional_critical_strike_chance
+|stat1_min                        = 250
+|stat1_max                        = 250
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = minion_unique_weapon
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = weapon_can_roll_minion_modifiers
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeSupportEnlighten
+|mod_groups                       = WeaponTreeSupportEnlighten
+|domain                           = 1
+|generation_type                  = 32
+|required_level                   = 38
+|granted_skill                    = SupportAdditionalXP
+|mod_type                         = WeaponTreeSupportEnlighten
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Enlighten Support|Level 3 Enlighten]]
+|stat1_id                         = local_display_socketed_gems_supported_by_level_x_enlighten
+|stat1_min                        = 3
+|stat1_max                        = 3
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = shield
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

@@ -1,0 +1,26 @@
+{{Mod
+|id                               = MapMonstersStealChargesOnHitMapWorldsExpedition
+|mod_groups                       = MapMonstersStealChargesOnHit
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Enervation
+|mod_type                         = MapMonstersStealChargesOnHit
+|stat_text                        = 10% increased Quantity of Items found in this Area<br>6% increased Rarity of Items found in this Area<br>4% increased Pack size<br>Monsters steal Power, [[Frenzy]] and [[Endurance Charge|Endurance charges]] on [[Hit]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 6
+|stat2_max                        = 6
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 4
+|stat3_max                        = 4
+|stat4_id                         = map_monsters_steal_charges
+|stat4_min                        = 100
+|stat4_max                        = 100
+|spawn_weight1_tag                = expedition_logbook
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

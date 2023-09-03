@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideChaosDamageLeechedAsLife3
+|mod_groups                       = ChaosDamageLifeLeech
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = ChaosDamageLifeLeechPermyriad
+|stat_text                        = (0.31-0.4)% of [[Chaos Damage]] Leeched as [[Life]]
+|stat1_id                         = base_life_leech_from_chaos_damage_permyriad
+|stat1_min                        = 31
+|stat1_max                        = 40
+|spawn_weight1_tag                = amulet
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life, chaos
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

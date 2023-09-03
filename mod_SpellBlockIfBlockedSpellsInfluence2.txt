@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SpellBlockIfBlockedSpellsInfluence2
+|mod_groups                       = SpellBlockIfBlockedSpellRecently
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Crusade
+|mod_type                         = SpellBlockIfBlockedSpellRecently
+|stat_text                        = +(10-12)% Chance to [[Block]] [[Spell Damage]] if you have Blocked [[Spell Damage]] [[Recently]]
+|stat1_id                         = spell_block_%_if_blocked_a_spell_recently
+|stat1_min                        = 10
+|stat1_max                        = 12
+|spawn_weight1_tag                = shield_crusader
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = block
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

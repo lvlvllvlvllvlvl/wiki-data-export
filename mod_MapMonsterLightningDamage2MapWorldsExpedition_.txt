@@ -1,0 +1,29 @@
+{{Mod
+|id                               = MapMonsterLightningDamage2MapWorldsExpedition_
+|mod_groups                       = MapMonsterLightningDamage
+|domain                           = 5
+|generation_type                  = 1
+|required_level                   = 73
+|name                             = Shocking
+|mod_type                         = MapMonsterLightningDamage2MapWorlds
+|stat_text                        = 16% increased Quantity of Items found in this Area<br>9% increased Rarity of Items found in this Area<br>6% increased Pack size<br>Monsters deal (70-89)% extra [[Physical Damage]] as Lightning
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 16
+|stat1_max                        = 16
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 9
+|stat2_max                        = 9
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 6
+|stat3_max                        = 6
+|stat4_id                         = map_monsters_%_physical_damage_to_add_as_lightning
+|stat4_min                        = 70
+|stat4_max                        = 89
+|spawn_weight1_tag                = top_tier_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = expedition_logbook
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, lightning
+}}

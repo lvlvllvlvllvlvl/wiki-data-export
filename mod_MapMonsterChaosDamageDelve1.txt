@@ -1,0 +1,27 @@
+{{Mod
+|id                               = MapMonsterChaosDamageDelve1
+|mod_groups                       = MapMonsterChaosDamage
+|domain                           = 17
+|generation_type                  = 14
+|required_level                   = 92
+|mod_type                         = MapMonsterChaosDamage2MapWorlds
+|stat_text                        = 16% increased Quantity of Items found in this Area<br>9% increased Rarity of Items found in this Area<br>6% increased Pack size<br>Monsters deal (21-25)% extra [[Physical Damage]] as Chaos<br>Monsters Inflict Withered for 2 seconds on [[Hit]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 16
+|stat1_max                        = 16
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 9
+|stat2_max                        = 9
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 6
+|stat3_max                        = 6
+|stat4_id                         = map_monsters_%_physical_damage_to_add_as_chaos
+|stat4_min                        = 21
+|stat4_max                        = 25
+|stat5_id                         = map_monsters_withered_on_hit_for_2_seconds_%_chance
+|stat5_min                        = 100
+|stat5_max                        = 100
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 500
+|tags                             = physical_damage, chaos_damage, damage, physical, chaos
+}}

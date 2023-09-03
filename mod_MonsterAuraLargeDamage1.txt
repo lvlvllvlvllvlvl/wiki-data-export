@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MonsterAuraLargeDamage1
+|mod_groups                       = MonsterAura
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 8
+|name                             = Large Physical Damage Aura
+|granted_buff_id                  = monster_aura_large_physical_damage
+|granted_buff_value               = 50
+|mod_type                         = MonsterAuraLargeDamage
+|stat_text                        = 50% increased Global [[Physical Damage]] (Hidden)
+|stat1_id                         = physical_damage_+%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|spawn_weight1_tag                = magic
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 500
+|tags                             = physical_damage, damage, physical
+}}

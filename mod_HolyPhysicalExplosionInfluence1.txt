@@ -1,0 +1,20 @@
+{{Mod
+|id                               = HolyPhysicalExplosionInfluence1
+|mod_groups                       = EnemiesExplodeOnDeath
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 85
+|name                             = Crusader's
+|mod_type                         = EnemiesExplodeOnDeathPhysical
+|stat_text                        = Enemies you [[Kill]] Explode, dealing 3% of their [[Life]] as [[Physical Damage]]
+|stat1_id                         = enemies_explode_for_%_life_as_physical_damage
+|stat1_min                        = 3
+|stat1_max                        = 3
+|spawn_weight1_tag                = body_armour_crusader
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical_damage, damage, physical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 7
+}}

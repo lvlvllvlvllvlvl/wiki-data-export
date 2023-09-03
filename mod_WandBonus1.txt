@@ -1,0 +1,20 @@
+{{Mod
+|id                               = WandBonus1
+|mod_groups                       = SpecificWeaponBonuses
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 4
+|name                             = Magician's
+|mod_type                         = WandBonuses
+|stat_text                        = 5% increased [[Physical Damage]] with [[Axe|Wands]]<br>2% increased [[Attack Speed]] with [[Axe|Wands]]<br>3% increased [[Accuracy Rating]] with [[Axe|Wands]]
+|stat1_id                         = physical_wand_damage_+%
+|stat1_min                        = 5
+|stat1_max                        = 5
+|stat2_id                         = wand_attack_speed_+%
+|stat2_min                        = 2
+|stat2_max                        = 2
+|stat3_id                         = wand_accuracy_rating_+%
+|stat3_min                        = 3
+|stat3_max                        = 3
+|tags                             = physical_damage, damage, physical, attack, speed
+}}

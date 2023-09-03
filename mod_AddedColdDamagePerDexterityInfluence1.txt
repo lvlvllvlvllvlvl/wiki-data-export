@@ -1,0 +1,33 @@
+{{Mod
+|id                               = AddedColdDamagePerDexterityInfluence1
+|mod_groups                       = AddedColdDamagePerDexterity
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Hunter's
+|mod_type                         = AddedColdDamagePerDexterity
+|stat_text                        = Adds (1-2) to (3-4) [[Cold Damage]] to [[Attack|Attacks]] with this Weapon per 10 [[Dexterity]]
+|stat1_id                         = attacks_with_this_weapon_minimum_added_cold_damage_per_10_dexterity
+|stat1_min                        = 1
+|stat1_max                        = 2
+|stat2_id                         = attacks_with_this_weapon_maximum_added_cold_damage_per_10_dexterity
+|stat2_min                        = 3
+|stat2_max                        = 4
+|spawn_weight1_tag                = sword_basilisk
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = axe_basilisk
+|spawn_weight2_value              = 200
+|spawn_weight3_tag                = claw_basilisk
+|spawn_weight3_value              = 200
+|spawn_weight4_tag                = dagger_basilisk
+|spawn_weight4_value              = 200
+|spawn_weight5_tag                = rune_dagger_basilisk
+|spawn_weight5_value              = 200
+|spawn_weight6_tag                = bow_basilisk
+|spawn_weight6_value              = 200
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+|tags                             = elemental_damage, damage, elemental, cold, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

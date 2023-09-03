@@ -1,0 +1,20 @@
+{{Mod
+|id                               = HeistNPCIncreasedFlaskChargesGained4
+|mod_groups                       = BeltFlaskCharges
+|domain                           = 23
+|generation_type                  = 2
+|required_level                   = 82
+|name                             = of Plenty
+|mod_type                         = BeltIncreasedFlaskChargesGained
+|stat_text                        = Players have (26-30)% increased Flask [[Charge|Charges]] gained
+|stat1_id                         = charges_gained_+%
+|stat1_min                        = 26
+|stat1_max                        = 30
+|spawn_weight1_tag                = heist_equipment_ranged
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

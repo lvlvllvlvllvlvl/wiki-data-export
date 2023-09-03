@@ -1,0 +1,17 @@
+{{Mod
+|id                               = CrucibleMapUniqueMonstersDropRangedUniqueWeaponChanceUber
+|mod_groups                       = CrucibleMapUniqueMonstersDropRangedUniqueWeaponChance
+|domain                           = 33
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Archer's
+|mod_type                         = CrucibleMapUniqueMonstersDropRangedUniqueWeaponChance
+|stat_text                        = Unique Crucible Monsters have 50% chance to drop a Unique Ranged Weapon
+|stat1_id                         = map_crucible_unique_monster_drop_unique_ranged_weapon_%_chance
+|stat1_min                        = 50
+|stat1_max                        = 50
+|spawn_weight1_tag                = crucible_map_high
+|spawn_weight1_value              = 120
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,13 @@
+{{Mod
+|id                               = UniqueTriggerSocketedWarcriesOnEnduranceChargeExpireOrUse
+|mod_groups                       = UniqueTriggerSocketedWarcriesOnEnduranceChargeExpireOrUse
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|granted_skill                    = SupportUniqueTriggerWarcryFromEnduranceChargeLost
+|mod_type                         = UniqueTriggerSocketedWarcriesOnEnduranceChargeExpireOrUse
+|stat_text                        = Trigger a [[Item socket|Socketed]] Warcry [[Skill]] on losing Endurance Charges, with a 0.25 second Cooldown
+|stat1_id                         = trigger_socketed_warcry_when_endurance_charge_expires_or_consumed_%_chance
+|stat1_min                        = 100
+|stat1_max                        = 100
+}}

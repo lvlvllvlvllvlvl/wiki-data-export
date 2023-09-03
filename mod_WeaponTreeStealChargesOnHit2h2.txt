@@ -1,0 +1,16 @@
+{{Mod
+|id                               = WeaponTreeStealChargesOnHit2h2
+|mod_groups                       = StealCharges
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 55
+|mod_type                         = WeaponTreeStealChargesOnHitPercent
+|stat_text                        = 20% chance to Steal Power, Frenzy, and [[Endurance Charge|Endurance Charges]] on [[Hit]]
+|stat1_id                         = base_steal_power_frenzy_endurance_charges_on_hit_%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 300
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,22 @@
+{{Mod
+|id                               = MinionAttackAndCastSpeed7
+|mod_groups                       = MinionAttackSpeedAndCastSpeed
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 83
+|name                             = of Infuriation
+|mod_type                         = MinionAttackSpeedAndCastSpeed
+|stat_text                        = [[Minion|Minions]] have (23-25)% increased [[Attack]] and [[Cast Speed]]
+|stat1_id                         = minion_attack_and_cast_speed_+%
+|stat1_min                        = 23
+|stat1_max                        = 25
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = weapon_can_roll_minion_modifiers
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = attack, caster, speed, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

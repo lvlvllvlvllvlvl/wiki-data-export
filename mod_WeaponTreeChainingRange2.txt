@@ -1,0 +1,20 @@
+{{Mod
+|id                               = WeaponTreeChainingRange2
+|mod_groups                       = WeaponTreeChainingRange
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 78
+|mod_type                         = WeaponTreeChainingRange
+|stat_text                        = 30% increased Chaining range
+|stat1_id                         = chaining_range_+%
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = ranged
+|spawn_weight2_value              = 200
+|spawn_weight3_tag                = one_hand_weapon
+|spawn_weight3_value              = 50
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+}}

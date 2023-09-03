@@ -1,0 +1,20 @@
+{{Mod
+|id                               = FortifyEffectCrushed1
+|mod_groups                       = FortifyEffectCrushed
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 15
+|granted_buff_id                  = crushed
+|granted_buff_value               = 0
+|mod_type                         = FortifyEffectCrushed
+|stat_text                        = +(2-3) to maximum Fortification<br>You are Crushed<br>-15% additional [[Physical Damage]] Reduction
+|stat1_id                         = max_fortification_+1_per_5
+|stat1_min                        = 10
+|stat1_max                        = 15
+|stat2_id                         = local_display_self_crushed
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = base_additional_physical_damage_reduction_%
+|stat3_min                        = -15
+|stat3_max                        = -15
+}}

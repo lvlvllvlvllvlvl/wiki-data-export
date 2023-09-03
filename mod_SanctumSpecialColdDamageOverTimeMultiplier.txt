@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialColdDamageOverTimeMultiplier
+|mod_groups                       = DamageOverTimeMultiplier
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Chilling
+|mod_type                         = ColdDamageOverTimeMultiplier
+|stat_text                        = +(15-20)% to [[Cold Damage]] over Time Multiplier
+|stat1_id                         = cold_dot_multiplier_+
+|stat1_min                        = 15
+|stat1_max                        = 20
+|spawn_weight1_tag                = int_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = dot_multi, elemental_damage, damage, elemental, cold
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

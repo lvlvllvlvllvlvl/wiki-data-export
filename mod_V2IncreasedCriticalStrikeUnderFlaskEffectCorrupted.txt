@@ -1,0 +1,17 @@
+{{Mod
+|id                               = V2IncreasedCriticalStrikeUnderFlaskEffectCorrupted
+|mod_groups                       = IncreasedCriticalStrikeUnderFlaskEffect
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = IncreasedCriticalStrikeUnderFlaskEffect
+|stat_text                        = (35-40)% increased [[Critical Strike Chance]] during any Flask Effect
+|stat1_id                         = critical_strike_chance_+%_during_any_flask_effect
+|stat1_min                        = 35
+|stat1_max                        = 40
+|spawn_weight1_tag                = belt
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, critical
+}}

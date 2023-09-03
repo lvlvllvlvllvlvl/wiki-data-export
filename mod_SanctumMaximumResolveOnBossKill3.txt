@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SanctumMaximumResolveOnBossKill3
+|mod_groups                       = SanctumMaximumResolveOnBossKill
+|domain                           = 7
+|generation_type                  = 2
+|required_level                   = 85
+|name                             = of Victory
+|mod_type                         = SanctumMaximumResolveOnBossKill
+|stat_text                        = Gain (40-49) Maximum Resolve when you [[Kill|kill]] a Boss
+|stat1_id                         = sanctum_gain_max_resolve_on_boss_kill
+|stat1_min                        = 40
+|stat1_max                        = 49
+|spawn_weight1_tag                = large_sanctum_relic
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

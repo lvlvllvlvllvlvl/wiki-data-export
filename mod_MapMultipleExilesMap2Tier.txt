@@ -1,0 +1,31 @@
+{{Mod
+|id                               = MapMultipleExilesMap2Tier
+|mod_groups                       = MapMultipleExiles
+|domain                           = 5
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Anarchic
+|mod_type                         = MapMultipleExilesMap2Tier
+|stat_text                        = 15% increased Quantity of Items found in this Area<br>8% increased Rarity of Items found in this Area<br>Area is inhabited by 2 additional Rogue Exiles
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 8
+|stat2_max                        = 8
+|stat3_id                         = map_spawn_extra_exiles
+|stat3_min                        = 2
+|stat3_max                        = 2
+|stat4_id                         = map_ignore_rogue_exile_rarity_bias
+|stat4_min                        = 1
+|stat4_max                        = 1
+|stat5_id                         = map_extra_content_weighting
+|stat5_min                        = 1
+|stat5_max                        = 1
+|spawn_weight1_tag                = secret_area
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = old_map
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

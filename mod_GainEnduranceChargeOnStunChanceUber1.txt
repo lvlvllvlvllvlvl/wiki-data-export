@@ -1,0 +1,19 @@
+{{Mod
+|id                               = GainEnduranceChargeOnStunChanceUber1
+|mod_groups                       = GainEnduranceChargeOnStunChance
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = GainEnduranceChargeOnStunChance
+|stat_text                        = 25% chance to gain an [[Endurance Charge]] when you Stun an Enemy
+|stat1_id                         = chance_to_gain_endurance_charge_when_you_stun_enemy_%
+|stat1_min                        = 25
+|stat1_max                        = 25
+|spawn_weight1_tag                = 2h_mace_shaper
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = endurance_charge
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

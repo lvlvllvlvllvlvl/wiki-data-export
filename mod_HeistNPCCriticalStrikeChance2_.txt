@@ -1,0 +1,20 @@
+{{Mod
+|id                               = HeistNPCCriticalStrikeChance2_
+|mod_groups                       = CriticalStrikeChanceIncrease
+|domain                           = 23
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of Stinging
+|mod_type                         = CriticalStrikeChance
+|stat_text                        = (71-80)% increased [[Critical Strike Chance]]
+|stat1_id                         = critical_strike_chance_+%
+|stat1_min                        = 71
+|stat1_max                        = 80
+|spawn_weight1_tag                = heist_equipment_weapon
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,21 @@
+{{Mod
+|id                               = CleansingAltarDownsideBossPenetrateElementalResist
+|mod_groups                       = CleansingAltarDownsideBossPenetrateElementalResist
+|domain                           = 29
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = CleansingAltarDownsideBossPenetrateElementalResist
+|stat_text                        = Damage Penetrates (15-25)% of Enemy [[Elemental Resistance|Elemental Resistances]]<br>Gain (50-80)% of [[Physical Damage]] as Extra Damage of a random Element
+|stat1_id                         = base_penetrate_elemental_resistances_%
+|stat1_min                        = 15
+|stat1_max                        = 25
+|stat2_id                         = physical_damage_%_to_add_as_random_element
+|stat2_min                        = 50
+|stat2_max                        = 80
+|spawn_weight1_tag                = primordial_altar_upside
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = cleansing_fire_altar
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

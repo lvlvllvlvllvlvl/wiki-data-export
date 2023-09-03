@@ -1,0 +1,13 @@
+{{Mod
+|id                               = MapMonsterLethalRemoveCold
+|mod_groups                       = MapMonsterLethal
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapMonsterLethal
+|stat_text                        = Monsters deal -50% extra [[Physical Damage]] as Cold
+|stat1_id                         = map_monsters_%_physical_damage_to_add_as_cold
+|stat1_min                        = -50
+|stat1_max                        = -50
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, fire, cold, lightning
+}}

@@ -1,0 +1,24 @@
+{{Mod
+|id                               = LocalChaosDamageHybridDelve
+|mod_groups                       = LocalChaosDamageHybrid
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Subterranean
+|mod_type                         = LocalChaosDamageHybrid
+|stat_text                        = Adds (18-28) to (39-49) [[Chaos Damage]]<br>(15-30)% increased [[Chaos Damage]]
+|stat1_id                         = local_minimum_added_chaos_damage
+|stat1_min                        = 18
+|stat1_max                        = 28
+|stat2_id                         = local_maximum_added_chaos_damage
+|stat2_min                        = 39
+|stat2_max                        = 49
+|stat3_id                         = chaos_damage_+%
+|stat3_min                        = 15
+|stat3_max                        = 30
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = chaos_damage, damage, chaos, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

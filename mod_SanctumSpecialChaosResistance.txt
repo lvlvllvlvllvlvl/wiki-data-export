@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialChaosResistance
+|mod_groups                       = ChaosResistance
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Purity
+|mod_type                         = ChaosResistance
+|stat_text                        = +(10-20)% to [[Chaos Resistance]]
+|stat1_id                         = base_chaos_damage_resistance_%
+|stat1_min                        = 10
+|stat1_max                        = 20
+|spawn_weight1_tag                = int_special_relic
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 250
+|tags                             = chaos, resistance
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

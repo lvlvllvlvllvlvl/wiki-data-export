@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideChanceToShock2h2
+|mod_groups                       = ChanceToShock
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 45
+|mod_type                         = ChanceToShock
+|stat_text                        = (7-9)% chance to [[Shock]]
+|stat1_id                         = base_chance_to_shock_%
+|stat1_min                        = 7
+|stat1_max                        = 9
+|spawn_weight1_tag                = staff
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, lightning, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

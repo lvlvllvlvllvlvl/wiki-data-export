@@ -1,0 +1,20 @@
+{{Mod
+|id                               = FlaskBuffAccuracyWhileHealing1__
+|mod_groups                       = FlaskBuffWhileHealing
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 12
+|name                             = of the Monkey
+|mod_type                         = FlaskBuffAccuracyWhileHealing
+|stat_text                        = (15-25)% increased [[Accuracy Rating]] during Effect
+|stat1_id                         = local_flask_accuracy_rating_+%_during_effect
+|stat1_min                        = 15
+|stat1_max                        = 25
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

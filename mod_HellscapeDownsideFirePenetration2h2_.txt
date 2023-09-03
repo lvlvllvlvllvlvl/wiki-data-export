@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeDownsideFirePenetration2h2_
+|mod_groups                       = FireResistancePenetration
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 45
+|mod_type                         = FireResistancePenetration
+|stat_text                        = Your [[Hit|Hits]] treat [[Fire Resistance]] as 16% higher than actual value
+|stat1_id                         = base_reduce_enemy_fire_resistance_%
+|stat1_min                        = -16
+|stat1_max                        = -16
+|spawn_weight1_tag                = staff
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = FireLightningResistanceJewel
+|mod_groups                       = FireAndLightningResistance
+|domain                           = 10
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Insulation
+|mod_type                         = FireLightningResistanceForJewel
+|stat_text                        = +(10-12)% to Fire and [[Lightning Resistance|Lightning Resistances]]
+|stat1_id                         = fire_and_lightning_damage_resistance_%
+|stat1_min                        = 10
+|stat1_max                        = 12
+|spawn_weight1_tag                = not_dex
+|spawn_weight1_value              = 450
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 250
+|tags                             = elemental, fire, lightning, resistance
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

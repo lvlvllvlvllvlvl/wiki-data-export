@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapRogueExileDropsAreCorrupted
+|mod_groups                       = MapRogueExileDropsAreCorrupted
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Twisted
+|mod_type                         = MapRogueExileDropsAreCorrupted
+|stat_text                        = Items dropped by Rogue Exiles in next Area will be Corrupted
+|stat1_id                         = map_rogue_exiles_dropped_items_are_corrupted
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = anarchy_leaguestone
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

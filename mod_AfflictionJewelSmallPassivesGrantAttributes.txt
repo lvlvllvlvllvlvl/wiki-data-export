@@ -1,0 +1,22 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantAttributes
+|mod_groups                       = AfflictionJewelSmallPassivesGrantAttributes
+|domain                           = 21
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Cloud
+|mod_type                         = AfflictionJewelSmallPassivesGrantAttributes
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: +2 to All Attributes
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_all_attributes
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = expansion_jewel_large
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = expansion_jewel_medium
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = attribute
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

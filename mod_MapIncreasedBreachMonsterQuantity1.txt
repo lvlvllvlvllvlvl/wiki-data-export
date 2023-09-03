@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapIncreasedBreachMonsterQuantity1
+|mod_groups                       = MapIncreasedBreachMonsterQuantity
+|domain                           = 12
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Swarming
+|mod_type                         = MapIncreasedBreachMonsterQuantity
+|stat_text                        = Breaches in the next Area will have (15-25)% increased Monster density
+|stat1_id                         = map_breach_monster_quantity_+%
+|stat1_min                        = 15
+|stat1_max                        = 25
+|spawn_weight1_tag                = breach_leaguestone
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

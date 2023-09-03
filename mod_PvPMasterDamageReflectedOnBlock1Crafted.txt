@@ -1,0 +1,21 @@
+{{Mod
+|id                               = PvPMasterDamageReflectedOnBlock1Crafted
+|mod_groups                       = ReflectDamageToAttackersOnBlock
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 20
+|name                             = Chastising
+|mod_type                         = ReflectDamageToAttackersOnBlock
+|stat_text                        = Reflects (30-40) to (70-80) [[Physical Damage]] to Attackers on [[Block]]
+|stat1_id                         = minimum_physical_damage_to_return_on_block
+|stat1_min                        = 30
+|stat1_max                        = 40
+|stat2_id                         = maximum_physical_damage_to_return_on_block
+|stat2_min                        = 70
+|stat2_max                        = 80
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = block, physical_damage, damage, physical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

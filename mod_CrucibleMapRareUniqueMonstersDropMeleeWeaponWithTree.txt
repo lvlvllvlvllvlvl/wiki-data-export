@@ -1,0 +1,17 @@
+{{Mod
+|id                               = CrucibleMapRareUniqueMonstersDropMeleeWeaponWithTree
+|mod_groups                       = CrucibleMapRareUniqueMonstersDropMeleeWeaponWithTree
+|domain                           = 33
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Swordsmith's
+|mod_type                         = CrucibleMapRareUniqueMonstersDropMeleeWeaponWithTree
+|stat_text                        = Rare and Unique Crucible Monsters have 40% chance to drop a Melee Weapon with<br />a Crucible Passive [[Skill]] Tree
+|stat1_id                         = map_crucible_rare_unique_monster_drop_melee_weapon_with_tree_%_chance
+|stat1_min                        = 40
+|stat1_max                        = 40
+|spawn_weight1_tag                = crucible_map_low
+|spawn_weight1_value              = 2000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

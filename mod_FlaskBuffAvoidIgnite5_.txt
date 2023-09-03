@@ -1,0 +1,20 @@
+{{Mod
+|id                               = FlaskBuffAvoidIgnite5_
+|mod_groups                       = FlaskBuffWhileHealing
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 82
+|name                             = of the Sunfish
+|mod_type                         = FlaskBuffAvoidIgnite
+|stat_text                        = (51-55)% chance to Avoid being Ignited during Effect
+|stat1_id                         = local_avoid_ignite_%_during_flask_effect
+|stat1_min                        = 51
+|stat1_max                        = 55
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

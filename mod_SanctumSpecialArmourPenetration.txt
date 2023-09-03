@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialArmourPenetration
+|mod_groups                       = ArmourPenetration
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 82
+|name                             = of Overwhelming
+|mod_type                         = ArmourPenetration
+|stat_text                        = Overwhelm (15-20)% [[Physical Damage]] Reduction
+|stat1_id                         = enemy_phys_reduction_%_penalty_vs_hit
+|stat1_min                        = 15
+|stat1_max                        = 20
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 50
+|tags                             = physical_damage, damage, physical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

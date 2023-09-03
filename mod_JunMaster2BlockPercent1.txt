@@ -1,0 +1,20 @@
+{{Mod
+|id                               = JunMaster2BlockPercent1
+|mod_groups                       = BlockPercent
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Chosen
+|mod_type                         = BlockPercent
+|stat_text                        = (5-7)% Chance to [[Block]] [[Attack Damage]]
+|stat1_id                         = monster_base_block_%
+|stat1_min                        = 5
+|stat1_max                        = 7
+|spawn_weight1_tag                = body_armour
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = block, unveiled_mod
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

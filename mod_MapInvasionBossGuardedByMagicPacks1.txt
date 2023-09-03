@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapInvasionBossGuardedByMagicPacks1
+|mod_groups                       = MapInvasionBossGuardedByMagicPacks
+|domain                           = 12
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Many
+|mod_type                         = MapInvasionBossGuardedByMagicPacks
+|stat_text                        = Invasion Bosses in next Area will be guarded by 2 Magic Packs
+|stat1_id                         = map_invasion_monsters_guarded_by_x_magic_packs
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = invasion_leaguestone
+|spawn_weight1_value              = 1500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

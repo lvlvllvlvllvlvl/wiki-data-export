@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AddedFireDamageIfBlockedRecentlyEssence1
+|mod_groups                       = AddedFireDamageIfBlockedRecently
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 63
+|name                             = of the Essence
+|mod_type                         = AddedFireDamageIfBlockedRecently
+|stat_text                        = Adds 60 to 100 [[Fire Damage]] if you've Blocked [[Recently]]
+|stat1_id                         = minimum_added_fire_damage_if_blocked_recently
+|stat1_min                        = 60
+|stat1_max                        = 60
+|stat2_id                         = maximum_added_fire_damage_if_blocked_recently
+|stat2_min                        = 100
+|stat2_max                        = 100
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

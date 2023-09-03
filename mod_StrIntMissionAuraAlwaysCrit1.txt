@@ -1,0 +1,15 @@
+{{Mod
+|id                               = StrIntMissionAuraAlwaysCrit1
+|mod_groups                       = MonsterAura
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = monster_aura_always_crit
+|granted_buff_value               = 30
+|mod_type                         = MonsterAuraAlwaysCrit
+|stat_text                        = All [[Hit|hits]] are Critical Strikes (Hidden)
+|stat1_id                         = always_crit
+|stat1_min                        = 1
+|stat1_max                        = 1
+|tags                             = critical
+}}

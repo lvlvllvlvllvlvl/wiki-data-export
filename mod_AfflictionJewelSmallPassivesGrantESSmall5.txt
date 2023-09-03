@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantESSmall5
+|mod_groups                       = AfflictionJewelSmallPassivesGrantES
+|domain                           = 21
+|generation_type                  = 1
+|required_level                   = 84
+|name                             = Pulsing
+|mod_type                         = AfflictionJewelSmallPassivesGrantES
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: +(17-20) to Maximum [[Energy Shield]]
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_maximum_energy_shield
+|stat1_min                        = 17
+|stat1_max                        = 20
+|spawn_weight1_tag                = expansion_jewel_small
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = defences, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

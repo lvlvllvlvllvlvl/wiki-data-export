@@ -1,0 +1,25 @@
+{{Mod
+|id                               = AllResistancesInfluenceMaven____
+|mod_groups                       = AllResistances
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 85
+|name                             = of the Elevated Conquest
+|mod_type                         = AllResistancesMaven
+|stat_text                        = +(19-22)% to all [[Elemental Resistance|Elemental Resistances]]<br>+1% to all maximum [[Elemental Resistance|Elemental Resistances]]
+|stat1_id                         = base_resist_all_elements_%
+|stat1_min                        = 19
+|stat1_max                        = 22
+|stat2_id                         = additional_maximum_all_elemental_resistances_%
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = body_armour_adjudicator
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = belt_adjudicator
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental, resistance
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

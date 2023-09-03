@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MaximumSpellDodgeChanceInfluence1
+|mod_groups                       = SpellDamageSuppressed
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Redemption
+|mod_type                         = SpellDamageSuppressed
+|stat_text                        = Prevent +2% of Suppressed [[Spell Damage]]
+|stat1_id                         = base_spell_damage_%_suppressed
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = amulet_eyrie
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

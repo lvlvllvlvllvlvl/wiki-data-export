@@ -1,0 +1,22 @@
+{{Mod
+|id                               = LifeRegenerationRatePercentUber2
+|mod_groups                       = LifeRegenerationRatePercentage
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Elder
+|mod_type                         = LifeRegenerationRatePercentage
+|stat_text                        = Regenerate (1.6-2)% of [[Life]] per second
+|stat1_id                         = life_regeneration_rate_per_minute_%
+|stat1_min                        = 96
+|stat1_max                        = 120
+|spawn_weight1_tag                = body_armour_elder
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = amulet_elder
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

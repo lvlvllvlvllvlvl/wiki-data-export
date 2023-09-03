@@ -1,0 +1,29 @@
+{{Mod
+|id                               = MapPlayerNoRegenMap2Tier
+|mod_groups                       = MapPlayerReducedRegen
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Stasis
+|mod_type                         = MapPlayerNoRegenMap2Tier
+|stat_text                        = 20% increased Quantity of Items found in this Area<br>10% increased Rarity of Items found in this Area<br>Players have no [[Life]] or [[Mana]] Regeneration<br>12% increased Pack size
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 10
+|stat2_max                        = 10
+|stat3_id                         = map_player_no_regeneration
+|stat3_min                        = 1
+|stat3_max                        = 1
+|stat4_id                         = map_pack_size_+%
+|stat4_min                        = 12
+|stat4_max                        = 12
+|spawn_weight1_tag                = mid_tier_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = top_tier_map
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = resource, life, mana
+}}

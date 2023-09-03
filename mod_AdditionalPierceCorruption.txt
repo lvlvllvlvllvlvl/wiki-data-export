@@ -1,0 +1,17 @@
+{{Mod
+|id                               = AdditionalPierceCorruption
+|mod_groups                       = ArrowPierce
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = AdditionalArrowPierce
+|stat_text                        = Arrows Pierce an additional Target
+|stat1_id                         = arrow_base_number_of_targets_to_pierce
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = bow
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack
+}}

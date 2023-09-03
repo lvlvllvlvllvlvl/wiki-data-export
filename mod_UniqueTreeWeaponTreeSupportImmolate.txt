@@ -1,0 +1,17 @@
+{{Mod
+|id                               = UniqueTreeWeaponTreeSupportImmolate
+|mod_groups                       = WeaponTreeSupportImmolate
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|granted_skill                    = SupportImmolation
+|mod_type                         = WeaponTreeSupportImmolate
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Immolate Support|Level 30 Immolate]]
+|stat1_id                         = local_display_socketed_gems_supported_by_level_x_immolate
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = crucible_unique_staff
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

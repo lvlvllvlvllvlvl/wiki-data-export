@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HeistLockpickExperienceGain1
+|mod_groups                       = HeistNPCSpecificJobExperience
+|domain                           = 23
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Simple
+|mod_type                         = HeistLockpickExperienceGain
+|stat_text                        = (3-4)% increased Lockpicking Experience gained
+|stat1_id                         = heist_contract_npc_lockpicking_experience_gain_+%
+|stat1_min                        = 3
+|stat1_max                        = 4
+|spawn_weight1_tag                = heist_equipment_lockpick
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

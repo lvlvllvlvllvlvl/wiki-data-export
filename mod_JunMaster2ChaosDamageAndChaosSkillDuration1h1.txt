@@ -1,0 +1,31 @@
+{{Mod
+|id                               = JunMaster2ChaosDamageAndChaosSkillDuration1h1
+|mod_groups                       = WeaponCasterDamagePrefix
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Chosen
+|mod_type                         = ChaosDamageAndChaosSkillDuration
+|stat_text                        = (35-39)% increased [[Chaos Damage]]<br>Chaos [[Skill|Skills]] have (7-8)% increased [[Skill]] Effect Duration
+|stat1_id                         = chaos_damage_+%
+|stat1_min                        = 35
+|stat1_max                        = 39
+|stat2_id                         = chaos_skill_effect_duration_+%
+|stat2_min                        = 7
+|stat2_max                        = 8
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = wand
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = dagger
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = sceptre
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = weapon
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = chaos_damage, unveiled_mod, damage, chaos
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

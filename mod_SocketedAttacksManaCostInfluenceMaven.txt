@@ -1,0 +1,24 @@
+{{Mod
+|id                               = SocketedAttacksManaCostInfluenceMaven
+|mod_groups                       = SocketedAttacksManaCost
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 95
+|name                             = of the Elevated Conquest
+|granted_skill                    = DelveModSocketedAttackFlatManaCost
+|mod_type                         = SocketedAttacksManaCostMaven
+|stat_text                        = [[Item socket|Socketed]] [[Attack|Attacks]] have -20 to Total [[Mana]] Cost<br>Ignore Stuns while using [[Item socket|Socketed]] [[Attack]] [[Skill|Skills]]
+|stat1_id                         = local_display_socketed_attacks_mana_cost_+
+|stat1_min                        = -20
+|stat1_max                        = -20
+|stat2_id                         = local_display_avoid_interruption_%_while_using_socketed_attack_skills
+|stat2_min                        = 100
+|stat2_max                        = 100
+|spawn_weight1_tag                = body_armour_adjudicator
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = skill, resource, mana, attack, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

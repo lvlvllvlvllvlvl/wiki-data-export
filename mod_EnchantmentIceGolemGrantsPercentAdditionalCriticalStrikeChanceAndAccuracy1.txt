@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentIceGolemGrantsPercentAdditionalCriticalStrikeChanceAndAccuracy1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Ice Golem Grants Percent Additional Critical Strike Chance And Accuracy 1
+|mod_type                         = EnchantmentIceGolemGrantedBuffEffect
+|stat_text                        = 100% increased Effect of the Buff granted by your [[Summon Ice Golem|Ice Golems]]
+|stat1_id                         = base_ice_golem_granted_buff_effect_+%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = minion
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

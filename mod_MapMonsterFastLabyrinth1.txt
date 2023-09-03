@@ -1,0 +1,25 @@
+{{Mod
+|id                               = MapMonsterFastLabyrinth1
+|mod_groups                       = MapMonsterFast
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapMonsterFastMap2Tier
+|stat_text                        = 12% increased Quantity of Items found in this Area<br>25% increased Rarity of Items found in this Area<br>18% increased Monster [[Movement Speed]]<br>23% increased Monster [[Attack Speed]]<br>23% increased Monster [[Cast Speed]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 12
+|stat1_max                        = 12
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 25
+|stat2_max                        = 25
+|stat3_id                         = map_monsters_movement_speed_+%
+|stat3_min                        = 18
+|stat3_max                        = 18
+|stat4_id                         = map_monsters_attack_speed_+%
+|stat4_min                        = 23
+|stat4_max                        = 23
+|stat5_id                         = map_monsters_cast_speed_+%
+|stat5_min                        = 23
+|stat5_max                        = 23
+|tags                             = attack, caster, speed
+}}

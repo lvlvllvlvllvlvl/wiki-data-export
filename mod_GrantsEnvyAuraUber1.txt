@@ -1,0 +1,21 @@
+{{Mod
+|id                               = GrantsEnvyAuraUber1
+|mod_groups                       = GrantedSkill
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 85
+|name                             = of the Elder
+|granted_skill                    = Envy
+|mod_type                         = GrantsEnvy
+|stat_text                        = Grants [[Level]] 15 Envy [[Skill]]
+|stat1_id                         = local_display_grants_level_X_envy
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = amulet_elder
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = skill
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

@@ -1,0 +1,17 @@
+{{Mod
+|id                               = UniqueTreeWeaponTreeSupportArcaneSurge
+|mod_groups                       = WeaponTreeSupportArcaneSurge
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|granted_skill                    = SupportArcaneSurge
+|mod_type                         = WeaponTreeSupportArcaneSurge
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Arcane Surge Support|Level 30 Arcane Surge]]
+|stat1_id                         = local_display_socketed_gems_supported_by_level_x_arcane_surge
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = crucible_unique_staff
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

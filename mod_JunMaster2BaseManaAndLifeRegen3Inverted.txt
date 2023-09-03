@@ -1,0 +1,21 @@
+{{Mod
+|id                               = JunMaster2BaseManaAndLifeRegen3Inverted
+|mod_groups                       = IncreasedMana
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 81
+|name                             = Chosen
+|mod_type                         = BaseManaAndLifeDegenGracePeriod
+|stat_text                        = +(41-45) to maximum [[Mana]]<br>Lose 25 [[Life]] per second
+|stat1_id                         = base_maximum_mana
+|stat1_min                        = 41
+|stat1_max                        = 45
+|stat2_id                         = life_degeneration_per_minute_not_in_grace
+|stat2_min                        = 1500
+|stat2_max                        = 1500
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = resource, unveiled_mod, life, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,18 @@
+{{Mod
+|id                               = WeaponTreeSkillSpectralHelixSpectralThrow
+|mod_groups                       = WeaponTreeSkillSpectralHelixSpectralThrow
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSkillSpectralHelixSpectralThrow
+|stat_text                        = Each Projectile from Spectral Helix or [[Spectral Throw]] has<br />between 40% more and 40% less Projectile Speed at random
+|stat1_id                         = spectral_throw_an_spectral_helix_active_skill_projectile_speed_+%_variation_final
+|stat1_min                        = 80
+|stat1_max                        = 80
+|spawn_weight1_tag                = ranged
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = one_hand_weapon
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

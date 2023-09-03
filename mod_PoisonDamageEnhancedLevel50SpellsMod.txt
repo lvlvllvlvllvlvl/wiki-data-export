@@ -1,0 +1,24 @@
+{{Mod
+|id                               = PoisonDamageEnhancedLevel50SpellsMod
+|mod_groups                       = PoisonDamage
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 50
+|name                             = of Tacati
+|mod_type                         = PoisonDamageAddedChaosToSpells
+|stat_text                        = (31-35)% increased Damage with [[Poison]]<br>Adds (17-24) to (36-40) [[Chaos Damage]] to [[Spell|Spells]]
+|stat1_id                         = base_poison_damage_+%
+|stat1_min                        = 31
+|stat1_max                        = 35
+|stat2_id                         = spell_minimum_added_chaos_damage
+|stat2_min                        = 17
+|stat2_max                        = 24
+|stat3_id                         = spell_maximum_added_chaos_damage
+|stat3_min                        = 36
+|stat3_max                        = 40
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = caster_damage, chaos_damage, poison, damage, chaos, caster, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,24 @@
+{{Mod
+|id                               = FortifyOnMeleeHitEldritchImplicitUniquePresence4
+|mod_groups                       = FortifyOnMeleeHit
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|granted_buff_id                  = influence_stat_condition_presence_unique_monster
+|granted_buff_value               = 0
+|mod_type                         = FortifyOnMeleeHitUniquePresence
+|stat_text                        = Melee [[Hit|Hits]] have (18-19)% chance to Fortify
+|stat1_id                         = chance_to_fortify_on_melee_hit_+%
+|stat1_min                        = 18
+|stat1_max                        = 19
+|stat2_id                         = local_influence_mod_requires_unique_monster_presence
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = no_tier_3_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = body_armour
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = attack
+}}

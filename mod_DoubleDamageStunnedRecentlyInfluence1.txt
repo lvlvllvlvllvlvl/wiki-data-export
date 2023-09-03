@@ -1,0 +1,20 @@
+{{Mod
+|id                               = DoubleDamageStunnedRecentlyInfluence1
+|mod_groups                       = DoubleDamage
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Redemption
+|mod_type                         = DoubleDamageStunnedRecently
+|stat_text                        = (5-7)% chance to deal Double Damage if you have Stunned an Enemy [[Recently]]
+|stat1_id                         = chance_to_deal_double_damage_%_if_have_stunned_an_enemy_recently
+|stat1_min                        = 5
+|stat1_max                        = 7
+|spawn_weight1_tag                = amulet_eyrie
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

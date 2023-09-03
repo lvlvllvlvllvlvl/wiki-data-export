@@ -1,0 +1,27 @@
+{{Mod
+|id                               = SpellAddedColdDamageEldritchImplicitUniquePresence2
+|mod_groups                       = SpellAddedElementalDamage
+|domain                           = 1
+|generation_type                  = 28
+|required_level                   = 75
+|granted_buff_id                  = influence_stat_condition_presence_unique_monster
+|granted_buff_value               = 0
+|mod_type                         = SpellAddedColdDamageUniquePresence
+|stat_text                        = Adds (13-16) to (25-30) [[Cold Damage]] to [[Spell|Spells]]
+|stat1_id                         = spell_minimum_added_cold_damage
+|stat1_min                        = 13
+|stat1_max                        = 16
+|stat2_id                         = spell_maximum_added_cold_damage
+|stat2_min                        = 25
+|stat2_max                        = 30
+|stat3_id                         = local_influence_mod_requires_unique_monster_presence
+|stat3_min                        = 1
+|stat3_max                        = 1
+|spawn_weight1_tag                = no_tier_5_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = helmet
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, cold, caster
+}}

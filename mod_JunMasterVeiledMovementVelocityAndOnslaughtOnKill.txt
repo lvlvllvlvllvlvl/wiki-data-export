@@ -1,0 +1,23 @@
+{{Mod
+|id                               = JunMasterVeiledMovementVelocityAndOnslaughtOnKill
+|mod_groups                       = MovementVelocity
+|domain                           = 28
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Chosen
+|mod_type                         = MovementVelocityAndOnslaughtOnKill
+|stat_text                        = (25-30)% increased [[Movement Speed]]<br>(13-16)% chance to gain Onslaught for 4 seconds on [[Kill]]
+|stat1_id                         = base_movement_velocity_+%
+|stat1_min                        = 25
+|stat1_max                        = 30
+|stat2_id                         = chance_to_gain_onslaught_on_kill_%
+|stat2_min                        = 13
+|stat2_max                        = 16
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 1500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = unveiled_mod, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

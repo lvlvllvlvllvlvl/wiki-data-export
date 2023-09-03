@@ -1,0 +1,18 @@
+{{Mod
+|id                               = EnchantmentFrostBoltFreezeChance1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Frost Bolt Freeze Chance 1
+|mod_type                         = EnchantmentFrostBoltFreezeChance
+|stat_text                        = [[Frostbolt]] has +10% chance to [[Freeze]]
+|stat1_id                         = frost_bolt_freeze_chance_%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, cold, caster, ailment
+}}

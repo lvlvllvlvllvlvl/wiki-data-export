@@ -1,0 +1,23 @@
+{{Mod
+|id                               = HellscapeDownsideExtraDamageTakenFromCriticalStrikes3
+|mod_groups                       = ReducedExtraDamageFromCrits
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 68
+|mod_type                         = ReducedExtraDamageFromCrits
+|stat_text                        = You take (40-32)% increased Extra Damage from Critical Strikes
+|stat1_id                         = base_self_critical_strike_multiplier_-%
+|stat1_min                        = -40
+|stat1_max                        = -32
+|spawn_weight1_tag                = str_shield
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = str_dex_shield
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = str_int_shield
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = damage, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

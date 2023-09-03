@@ -1,0 +1,21 @@
+{{Mod
+|id                               = EinharMasterAddedLightningDamage1Inverted
+|mod_groups                       = LightningDamage
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 20
+|name                             = Upgraded
+|mod_type                         = SelfLightningDamageTaken
+|stat_text                        = Adds (1-4) to (32-36) [[Lightning Damage]] to [[Attack|Attacks]] against you
+|stat1_id                         = from_self_minimum_added_attack_lightning_damage_taken
+|stat1_min                        = 1
+|stat1_max                        = 4
+|stat2_id                         = from_self_maximum_added_attack_lightning_damage_taken
+|stat2_min                        = 32
+|stat2_max                        = 36
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, lightning, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

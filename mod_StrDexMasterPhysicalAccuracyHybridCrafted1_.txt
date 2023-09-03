@@ -1,0 +1,21 @@
+{{Mod
+|id                               = StrDexMasterPhysicalAccuracyHybridCrafted1_
+|mod_groups                       = LocalIncreasedPhysicalDamagePercentAndAccuracyRating
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 20
+|name                             = Journeyman's
+|mod_type                         = LocalIncreasedPhysicalDamagePercentAndAccuracyRating
+|stat_text                        = (30-39)% increased [[Physical Damage]]<br>+(15-40) to [[Accuracy Rating]]
+|stat1_id                         = local_physical_damage_+%
+|stat1_min                        = 30
+|stat1_max                        = 39
+|stat2_id                         = local_accuracy_rating
+|stat2_min                        = 15
+|stat2_max                        = 40
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = physical_damage, damage, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

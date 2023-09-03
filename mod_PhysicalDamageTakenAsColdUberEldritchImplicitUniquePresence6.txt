@@ -1,0 +1,24 @@
+{{Mod
+|id                               = PhysicalDamageTakenAsColdUberEldritchImplicitUniquePresence6
+|mod_groups                       = PhysicalDamageTakenAsElement
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|granted_buff_id                  = influence_stat_condition_presence_unique_monster
+|granted_buff_value               = 0
+|mod_type                         = PhysicalDamageTakenAsColdUberUniquePresence
+|stat_text                        = 10% of [[Physical Damage]] from [[Hit|Hits]] taken as [[Cold Damage]]
+|stat1_id                         = physical_damage_taken_%_as_cold
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = local_influence_mod_requires_unique_monster_presence
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = no_tier_1_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = helmet
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = physical, elemental, cold
+}}

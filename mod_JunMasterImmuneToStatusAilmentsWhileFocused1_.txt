@@ -1,0 +1,23 @@
+{{Mod
+|id                               = JunMasterImmuneToStatusAilmentsWhileFocused1_
+|mod_groups                       = ImmuneToStatusAilmentsWhileFocused
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Order
+|mod_type                         = ImmuneToStatusAilmentsWhileFocused
+|stat_text                        = You are Immune to Ailments while Focused
+|stat1_id                         = immune_to_status_ailments_while_focused
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = grant_focus_skill
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = unveiled_mod, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = IncreasedAilmentEffectOnEnemiesInfluence1
+|mod_groups                       = IncreasedAilmentEffectOnEnemies
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Redemption
+|mod_type                         = IncreasedAilmentEffectOnEnemies
+|stat_text                        = (30-34)% increased Effect of Non-Damaging Ailments
+|stat1_id                         = non_damaging_ailment_effect_+%
+|stat1_min                        = 30
+|stat1_max                        = 34
+|spawn_weight1_tag                = boots_eyrie
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

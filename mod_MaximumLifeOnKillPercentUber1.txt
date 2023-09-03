@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MaximumLifeOnKillPercentUber1
+|mod_groups                       = MaximumLifeOnKillPercent
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Elder
+|mod_type                         = MaximumLifeOnKillPercent
+|stat_text                        = Recover (3-4)% of [[Life]] on [[Kill]]
+|stat1_id                         = recover_%_maximum_life_on_kill
+|stat1_min                        = 3
+|stat1_max                        = 4
+|spawn_weight1_tag                = body_armour_elder
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

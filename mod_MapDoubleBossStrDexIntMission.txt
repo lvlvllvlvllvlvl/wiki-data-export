@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MapDoubleBossStrDexIntMission
+|mod_groups                       = MapTwoBosses
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapTwoBossesMap2Tier
+|stat_text                        = 40% increased Quantity of Items found in this Area<br>20% increased Rarity of Items found in this Area<br>Area contains two Unique Bosses
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 40
+|stat1_max                        = 40
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 20
+|stat2_max                        = 20
+|stat3_id                         = map_spawn_two_bosses
+|stat3_min                        = 1
+|stat3_max                        = 1
+}}

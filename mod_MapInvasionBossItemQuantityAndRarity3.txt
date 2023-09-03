@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapInvasionBossItemQuantityAndRarity3
+|mod_groups                       = MapInvasionBossItemQuantityAndRarity
+|domain                           = 12
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Abundance
+|mod_type                         = MapInvasionBossItemQuantityAndRarity
+|stat_text                        = Invasion Bosses in next Area will have (51-60)% more Quantity and Rarity of dropped Items
+|stat1_id                         = map_leaguestone_invasion_boss_item_quantity_and_rarity_+%_final
+|stat1_min                        = 51
+|stat1_max                        = 60
+|spawn_weight1_tag                = invasion_leaguestone
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,18 @@
+{{Mod
+|id                               = StrMasterDamageReflection
+|mod_groups                       = AttackerTakesDamageNoRange
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 30
+|name                             = Spiny
+|mod_type                         = AttackerTakesDamageNoRange
+|stat_text                        = Reflects (8-17) [[Physical Damage]] to Melee Attackers
+|stat1_id                         = physical_damage_to_return_to_melee_attacker
+|stat1_min                        = 8
+|stat1_max                        = 17
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = physical_damage, damage, physical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

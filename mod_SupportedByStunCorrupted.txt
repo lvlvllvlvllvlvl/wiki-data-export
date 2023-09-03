@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SupportedByStunCorrupted
+|mod_groups                       = SupportedByStun
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 38
+|granted_skill                    = SupportStun
+|mod_type                         = SupportedByStun
+|stat_text                        = [[Item socket|Socketed]] Gems are supported by [[Stun Support|Level 6 Stun]]
+|stat1_id                         = local_display_socketed_gems_get_stun_level
+|stat1_min                        = 6
+|stat1_max                        = 6
+|spawn_weight1_tag                = mace
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

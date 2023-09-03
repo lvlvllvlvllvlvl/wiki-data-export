@@ -1,0 +1,20 @@
+{{Mod
+|id                               = WeaponElementalDamageInfluence3_
+|mod_groups                       = IncreasedWeaponElementalDamagePercent
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 80
+|name                             = Redeemer's
+|mod_type                         = IncreasedWeaponElementalDamagePercent
+|stat_text                        = (36-40)% increased [[Elemental Damage]] with [[Attack]] [[Skill|Skills]]
+|stat1_id                         = elemental_damage_with_attack_skills_+%
+|stat1_min                        = 36
+|stat1_max                        = 40
+|spawn_weight1_tag                = shield_eyrie
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

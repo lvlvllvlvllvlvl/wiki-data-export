@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapCorruptedSideAreaVesselDivinationCardDrop
+|mod_groups                       = MapVesselDivinationCardDrop
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 69
+|name                             = of Divination
+|mod_type                         = MapCorruptedSideAreaVesselDivinationCardDrop
+|stat_text                        = Vaal Vessel contains (1-3) additional Divination Cards that give Corrupted Items
+|stat1_id                         = map_vaal_vessel_drop_X_divination_cards
+|stat1_min                        = 1
+|stat1_max                        = 3
+|spawn_weight1_tag                = map_device
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = secret_area
+|spawn_weight2_value              = 100
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

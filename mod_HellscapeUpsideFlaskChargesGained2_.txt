@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideFlaskChargesGained2_
+|mod_groups                       = BeltFlaskCharges
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 45
+|mod_type                         = BeltIncreasedFlaskChargesGained
+|stat_text                        = (13-15)% increased Flask [[Charge|Charges]] gained
+|stat1_id                         = charges_gained_+%
+|stat1_min                        = 13
+|stat1_max                        = 15
+|spawn_weight1_tag                = belt
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

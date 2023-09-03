@@ -1,0 +1,22 @@
+{{Mod
+|id                               = MonsterHasTalismanNormal
+|mod_groups                       = TalismanBonus
+|domain                           = 3
+|generation_type                  = 9
+|required_level                   = 1
+|mod_type                         = MonsterTalismanDifficultyBonus
+|stat_text                        = 30% increased [[Character Size]] (Hidden)<br>450% more maximum [[Life]] (Hidden)<br>20% increased [[Attack]] and [[Cast Speed]] (Hidden)<br>10% increased [[Movement Speed]] (Hidden)
+|stat1_id                         = base_actor_scale_+%
+|stat1_min                        = 30
+|stat1_max                        = 30
+|stat2_id                         = monster_life_+%_final_from_rarity
+|stat2_min                        = 450
+|stat2_max                        = 450
+|stat3_id                         = attack_and_cast_speed_+%
+|stat3_min                        = 20
+|stat3_max                        = 20
+|stat4_id                         = base_movement_velocity_+%
+|stat4_min                        = 10
+|stat4_max                        = 10
+|tags                             = resource, life, speed
+}}

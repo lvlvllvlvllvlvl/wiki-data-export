@@ -1,0 +1,21 @@
+{{Mod
+|id                               = SentinelIncreasedlTags4
+|mod_groups                       = SentinelDroneTagLimitPercentage
+|domain                           = 30
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Invigorating
+|mod_type                         = SentinelDroneTagLimitPercentage
+|stat_text                        = (31-35)% increased number of Empowered Enemies
+|stat1_id                         = local_sentinel_tag_limit_+%
+|stat1_min                        = 31
+|stat1_max                        = 35
+|spawn_weight1_tag                = special_sentinel_mod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = sentinel_c
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 1000
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

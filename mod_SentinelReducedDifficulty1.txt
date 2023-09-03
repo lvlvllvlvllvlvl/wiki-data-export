@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SentinelReducedDifficulty1
+|mod_groups                       = SentinelDroneDifficulty
+|domain                           = 30
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Reprieve
+|mod_type                         = SentinelDroneReducedDifficulty
+|stat_text                        = (19-10)% reduced Empowerment
+|stat1_id                         = local_sentinel_drone_difficulty_+%
+|stat1_min                        = -19
+|stat1_max                        = -10
+|spawn_weight1_tag                = special_sentinel_mod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

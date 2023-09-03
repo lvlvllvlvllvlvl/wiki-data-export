@@ -1,0 +1,18 @@
+{{Mod
+|id                               = WeaponTreeSkillBarrageFrenzy2H
+|mod_groups                       = WeaponTreeSkillBarrageFrenzy
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSkillBarrageFrenzy
+|stat_text                        = [[Barrage]] and [[Frenzy]] have 40% increased [[Critical Strike Chance]] per [[Endurance Charge]]
+|stat1_id                         = barrage_and_frenzy_critical_strike_chance_+%_per_endurance_charge
+|stat1_min                        = 40
+|stat1_max                        = 40
+|spawn_weight1_tag                = ranged
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = two_hand_weapon
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

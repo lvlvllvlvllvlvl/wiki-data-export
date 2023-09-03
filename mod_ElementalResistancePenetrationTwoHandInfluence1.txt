@@ -1,0 +1,20 @@
+{{Mod
+|id                               = ElementalResistancePenetrationTwoHandInfluence1
+|mod_groups                       = ElementalPenetration
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Hunter's
+|mod_type                         = ElementalPenetration
+|stat_text                        = Damage Penetrates (7-8)% [[Elemental Resistance|Elemental Resistances]]
+|stat1_id                         = reduce_enemy_elemental_resistance_%
+|stat1_min                        = 7
+|stat1_max                        = 8
+|spawn_weight1_tag                = staff_basilisk
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

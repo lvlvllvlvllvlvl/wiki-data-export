@@ -1,0 +1,31 @@
+{{Mod
+|id                               = HeistContractMonstersBaseSelfCriticalMultiplier2_
+|mod_groups                       = MapMonstersBaseSelfCriticalMultiplier
+|domain                           = 22
+|generation_type                  = 2
+|required_level                   = 46
+|name                             = of Toughness
+|mod_type                         = HeistContractMonstersBaseSelfCriticalMultiplier
+|stat_text                        = Monsters take (20-24)% reduced Extra Damage from Critical Strikes
+|stat1_id                         = map_monsters_base_self_critical_strike_multiplier_-%
+|stat1_min                        = 20
+|stat1_max                        = 24
+|stat2_id                         = map_item_drop_quantity_+%
+|stat2_min                        = 10
+|stat2_max                        = 10
+|stat3_id                         = map_item_drop_rarity_+%
+|stat3_min                        = 6
+|stat3_max                        = 6
+|stat4_id                         = heist_monster_spawner_alive_limit_+%
+|stat4_min                        = 4
+|stat4_max                        = 4
+|stat5_id                         = heist_contract_alert_level_+%_final
+|stat5_min                        = -4
+|stat5_max                        = -4
+|stat6_id                         = heist_contract_lockdown_timer_+%
+|stat6_min                        = 4
+|stat6_max                        = 4
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 800
+|tags                             = damage, critical
+}}

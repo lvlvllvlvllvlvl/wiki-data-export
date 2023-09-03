@@ -1,0 +1,27 @@
+{{Mod
+|id                               = MonsterDexMissionSoulEater
+|mod_groups                       = MonsterNemesis
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = soul_eater_aura
+|granted_buff_value               = 50
+|mod_type                         = MonsterNemesisSoulEater
+|stat_text                        = Grants 1% increased Character Size to aura owner on death (Hidden)<br>Grants 5% increased Attack Speed to aura owner on death (Hidden)<br>Grants 5% increased Cast Speed to aura owner on death (Hidden)<br>Grants 1% increased Damage Reduction to aura owner on death (Hidden)<br>Soul is consumed on death (Hidden)
+|stat1_id                         = grant_actor_scale_+%_to_aura_owner_on_death
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = grant_attack_speed_+%_to_aura_owner_on_death
+|stat2_min                        = 5
+|stat2_max                        = 5
+|stat3_id                         = grant_cast_speed_+%_to_aura_owner_on_death
+|stat3_min                        = 5
+|stat3_max                        = 5
+|stat4_id                         = grant_damage_reduction_%_to_aura_owner_on_death
+|stat4_min                        = 1
+|stat4_max                        = 1
+|stat5_id                         = soul_is_consumed_on_death
+|stat5_min                        = 1
+|stat5_max                        = 1
+|tags                             = attack, caster, speed, aura
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SanctumMonstersIncreasedDamageTaken3
+|mod_groups                       = SanctumMonstersIncreasedDamageTaken
+|domain                           = 7
+|generation_type                  = 1
+|required_level                   = 85
+|name                             = Annihilating
+|mod_type                         = SanctumMonstersIncreasedDamageTaken
+|stat_text                        = Monsters take (11-15)% increased Damage
+|stat1_id                         = map_sanctum_monster_damage_taken_+%
+|stat1_min                        = 11
+|stat1_max                        = 15
+|spawn_weight1_tag                = large_sanctum_relic
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

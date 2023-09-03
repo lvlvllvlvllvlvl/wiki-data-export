@@ -1,0 +1,23 @@
+{{Mod
+|id                               = PercentageStrengthUberMaven__
+|mod_groups                       = PercentageStrength
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 93
+|name                             = of the Elevated Elder
+|mod_type                         = PercentageStrengthMaven
+|stat_text                        = (9-12)% increased [[Strength]]<br>+1 to [[Level]] of [[Item socket|Socketed]] [[Strength]] Gems
+|stat1_id                         = strength_+%
+|stat1_min                        = 9
+|stat1_max                        = 12
+|stat2_id                         = local_socketed_strength_gem_level_+
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = body_armour_elder
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attribute, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

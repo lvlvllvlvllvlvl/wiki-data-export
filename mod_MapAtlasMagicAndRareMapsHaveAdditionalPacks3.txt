@@ -1,0 +1,27 @@
+{{Mod
+|id                               = MapAtlasMagicAndRareMapsHaveAdditionalPacks3
+|mod_groups                       = MapAtlasMagicAndRareMapsHaveAdditionalPacks
+|domain                           = 11
+|generation_type                  = 1
+|required_level                   = 1
+|mod_type                         = MapAtlasMagicAndRareMapsHaveAdditionalPacks
+|stat_text                        = 3 uses remaining<br>Your Magic Maps contain 4 additional packs of Magic Monsters<br>Your Rare Maps contain 4 additional Rare Monster packs<br>Your Normal Maps contain 4 additional packs of Normal Monsters
+|stat1_id                         = sextant_uses_remaining
+|stat1_min                        = 3
+|stat1_max                        = 3
+|stat2_id                         = map_contains_x_additional_magic_packs_if_magic
+|stat2_min                        = 4
+|stat2_max                        = 4
+|stat3_id                         = map_contains_x_additional_rare_packs_if_rare
+|stat3_min                        = 4
+|stat3_max                        = 4
+|stat4_id                         = map_contains_x_additional_normal_packs_if_normal
+|stat4_min                        = 4
+|stat4_max                        = 4
+|spawn_weight1_tag                = unique_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = no_monster_packs
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 1000
+}}

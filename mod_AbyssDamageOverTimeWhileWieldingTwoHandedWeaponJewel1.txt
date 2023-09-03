@@ -1,0 +1,24 @@
+{{Mod
+|id                               = AbyssDamageOverTimeWhileWieldingTwoHandedWeaponJewel1
+|mod_groups                       = DamageOverTimeWhileWieldingTwoHandedWeapon
+|domain                           = 13
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Degenerative
+|mod_type                         = DamageOverTimeWhileWieldingTwoHandedWeapon
+|stat_text                        = (10-14)% increased Damage over Time while wielding a Two Handed Weapon
+|stat1_id                         = damage_over_time_+%_while_wielding_two_handed_weapon
+|stat1_min                        = 10
+|stat1_max                        = 14
+|spawn_weight1_tag                = abyss_jewel_summoner
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = one_handed_mod
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = abyss_jewel_caster
+|spawn_weight3_value              = 900
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 450
+|tags                             = damage
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

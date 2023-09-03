@@ -1,0 +1,21 @@
+{{Mod
+|id                               = BetrayalBannerAuraMod
+|mod_groups                       = Nothing
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = betrayal_banner_aura
+|granted_buff_value               = 24
+|mod_type                         = BetrayalBannerAuraMod
+|stat_text                        = 25% increased Damage (Hidden)<br>Regenerate 5% of [[Life]] per second (Hidden)<br>50% reduced Damage taken (Hidden)
+|stat1_id                         = damage_+%
+|stat1_min                        = 25
+|stat1_max                        = 25
+|stat2_id                         = life_regeneration_rate_per_minute_%
+|stat2_min                        = 300
+|stat2_max                        = 300
+|stat3_id                         = base_damage_taken_+%
+|stat3_min                        = -50
+|stat3_max                        = -50
+|tags                             = resource, life, damage
+}}

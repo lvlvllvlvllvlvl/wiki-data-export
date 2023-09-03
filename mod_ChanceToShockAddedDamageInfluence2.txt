@@ -1,0 +1,23 @@
+{{Mod
+|id                               = ChanceToShockAddedDamageInfluence2
+|mod_groups                       = AilmentChanceAddedDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Crusader's
+|mod_type                         = ChanceToShockAddedDamage
+|stat_text                        = Adds (4-8) to (82-86) [[Lightning Damage]] against [[Shock|Shocked]] Enemies
+|stat1_id                         = global_minimum_added_lightning_damage_vs_shocked_enemies
+|stat1_min                        = 4
+|stat1_max                        = 8
+|stat2_id                         = global_maximum_added_lightning_damage_vs_shocked_enemies
+|stat2_min                        = 82
+|stat2_max                        = 86
+|spawn_weight1_tag                = ring_crusader
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, lightning, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

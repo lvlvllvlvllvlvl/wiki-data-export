@@ -1,0 +1,15 @@
+{{Mod
+|id                               = ChargeBonusChanceToGainMaximumEnduranceCharges
+|mod_groups                       = ChanceToGainMaximumEnduranceCharges
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = ChanceToGainMaximumEnduranceCharges
+|stat_text                        = 15% chance that if you would gain Endurance Charges, you instead gain up to maximum [[Endurance Charge|Endurance Charges]]
+|stat1_id                         = gain_maximum_endurance_charges_on_endurance_charge_gained_%_chance
+|stat1_min                        = 15
+|stat1_max                        = 15
+|tags                             = endurance_charge
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

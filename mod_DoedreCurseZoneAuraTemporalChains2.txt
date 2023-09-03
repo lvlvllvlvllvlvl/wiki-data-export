@@ -1,0 +1,21 @@
+{{Mod
+|id                               = DoedreCurseZoneAuraTemporalChains2
+|mod_groups                       = MonsterAura
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = curse_temporal_chains
+|granted_buff_value               = 52
+|mod_type                         = DoedreCurseZoneAuraTemporalChains
+|stat_text                        = 
+|stat1_id                         = curse_count
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = temporal_chains_action_speed_+%_final
+|stat2_min                        = -30
+|stat2_max                        = -30
+|stat3_id                         = buff_time_passed_+%_other_than_temporal_chains
+|stat3_min                        = -30
+|stat3_max                        = -30
+|tags                             = caster, curse
+}}

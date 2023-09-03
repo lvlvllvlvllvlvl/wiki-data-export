@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantManaRegenSmall5
+|mod_groups                       = AfflictionJewelSmallPassivesGrantManaRegen
+|domain                           = 21
+|generation_type                  = 2
+|required_level                   = 84
+|name                             = of Euphoria
+|mod_type                         = AfflictionJewelSmallPassivesGrantManaRegen
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: (9-10)% increased [[Mana]] Regeneration Rate
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_mana_regeneration_+%
+|stat1_min                        = 9
+|stat1_max                        = 10
+|spawn_weight1_tag                = expansion_jewel_small
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

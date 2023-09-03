@@ -1,0 +1,14 @@
+{{Mod
+|id                               = ExpeditionRelicModifierCullingStrikeTwentyPercent
+|mod_groups                       = ExpeditionRelicModifierCullingStrikeTwentyPercent
+|domain                           = 27
+|generation_type                  = 1
+|required_level                   = 1
+|mod_type                         = ExpeditionRelicModifierCullingStrikeTwentyPercent
+|stat_text                        = [[Kill]] Enemies that have 20% or lower [[Life]] when [[Hit]] by your [[Skill|Skills]]
+|stat1_id                         = kill_enemy_on_hit_if_under_20%_life
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+}}

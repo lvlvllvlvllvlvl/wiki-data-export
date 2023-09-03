@@ -1,0 +1,21 @@
+{{Mod
+|id                               = WeaponTreeLocalDefencesReducedLocalBlock3
+|mod_groups                       = WeaponTreeLocalDefences
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 70
+|mod_type                         = WeaponTreeLocalDefencesReducedLocalBlock
+|stat_text                        = 60% increased Armour, [[Evasion]] and [[Energy Shield]]<br>-5% Chance to [[Block]]
+|stat1_id                         = local_armour_and_evasion_and_energy_shield_+%
+|stat1_min                        = 60
+|stat1_max                        = 60
+|stat2_id                         = local_additional_block_chance_%
+|stat2_min                        = -5
+|stat2_max                        = -5
+|spawn_weight1_tag                = crucible_unique_helmet
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = shield
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

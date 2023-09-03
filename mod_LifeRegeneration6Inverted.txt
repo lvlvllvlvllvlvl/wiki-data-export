@@ -1,0 +1,18 @@
+{{Mod
+|id                               = LifeRegeneration6Inverted
+|mod_groups                       = LifeRegeneration
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 55
+|name                             = of the Troll
+|mod_type                         = LifeDegenerationGracePeriod
+|stat_text                        = Lose (32.1-48) [[Life]] per second
+|stat1_id                         = life_degeneration_per_minute_not_in_grace
+|stat1_min                        = 1926
+|stat1_max                        = 2880
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = flat_life_regen, resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

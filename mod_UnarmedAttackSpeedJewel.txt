@@ -1,0 +1,20 @@
+{{Mod
+|id                               = UnarmedAttackSpeedJewel
+|mod_groups                       = MeleeTypeSpeed
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Furious
+|mod_type                         = AttackSpeedWhileUnarmedForJewel
+|stat_text                        = (6-8)% increased Unarmed [[Attack Speed]] with Melee [[Skill|Skills]]
+|stat1_id                         = unarmed_melee_attack_speed_+%
+|stat1_min                        = 6
+|stat1_max                        = 8
+|spawn_weight1_tag                = not_int
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

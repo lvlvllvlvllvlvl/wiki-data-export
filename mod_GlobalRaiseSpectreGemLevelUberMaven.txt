@@ -1,0 +1,20 @@
+{{Mod
+|id                               = GlobalRaiseSpectreGemLevelUberMaven
+|mod_groups                       = MinionGlobalSkillLevel
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 85
+|name                             = of the Elevated Elder
+|mod_type                         = MinionGlobalSkillLevel
+|stat_text                        = +2 to [[Level]] of all [[Raise Spectre]] Gems
+|stat1_id                         = raise_spectre_gem_level_+
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = boots_elder
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = skill, minion, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

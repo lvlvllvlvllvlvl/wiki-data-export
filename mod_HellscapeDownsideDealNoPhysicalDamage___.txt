@@ -1,0 +1,21 @@
+{{Mod
+|id                               = HellscapeDownsideDealNoPhysicalDamage___
+|mod_groups                       = DealNoPhysicalDamage
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 1
+|mod_type                         = DealNoPhysicalDamage
+|stat_text                        = Deal no [[Physical Damage]]
+|stat1_id                         = base_deal_no_physical_damage
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = weapon
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = quiver
+|spawn_weight2_value              = 200
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = physical_damage, damage, physical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

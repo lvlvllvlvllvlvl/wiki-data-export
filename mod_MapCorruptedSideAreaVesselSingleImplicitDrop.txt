@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapCorruptedSideAreaVesselSingleImplicitDrop
+|mod_groups                       = MapVesselUniqueDrop
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 69
+|name                             = of Dark Blessings
+|mod_type                         = MapCorruptedSideAreaVesselSingleImplicitDrop
+|stat_text                        = Vaal Vessel contains (1-2) additional Corrupted Unique Items with an Implicit Modifier
+|stat1_id                         = map_vaal_vessel_drop_x_single_implicit_corrupted_uniques
+|stat1_min                        = 1
+|stat1_max                        = 2
+|spawn_weight1_tag                = map_device
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = secret_area
+|spawn_weight2_value              = 100
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SocketedSkillAlwaysIgniteEssence1
+|mod_groups                       = DisplaySupportedSkillsHaveAChanceToIgnite
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 63
+|name                             = of the Essence
+|granted_skill                    = SupportChanceToIgniteEssence1
+|mod_type                         = DisplaySupportedSkillsHaveAChanceToIgnite
+|stat_text                        = [[Item socket|Socketed]] Gems have 50% chance to [[Ignite]]
+|stat1_id                         = local_display_socketed_gems_have_%_chance_to_ignite_with_fire_damage
+|stat1_min                        = 50
+|stat1_max                        = 50
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental, fire, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

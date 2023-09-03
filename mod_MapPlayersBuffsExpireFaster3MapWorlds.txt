@@ -1,0 +1,28 @@
+{{Mod
+|id                               = MapPlayersBuffsExpireFaster3MapWorlds
+|mod_groups                       = MapPlayerBuffsExpireFaster
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Transience
+|mod_type                         = MapPlayersBuffsExpireFaster
+|stat_text                        = 10% increased Quantity of Items found in this Area<br>6% increased Rarity of Items found in this Area<br>4% increased Pack size<br>Buffs on Players expire 70% faster
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 6
+|stat2_max                        = 6
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 4
+|stat3_max                        = 4
+|stat4_id                         = map_player_buff_time_passed_+%_only_buff_category
+|stat4_min                        = 70
+|stat4_max                        = 70
+|spawn_weight1_tag                = primordial_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = top_tier_map
+|spawn_weight2_value              = 650
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

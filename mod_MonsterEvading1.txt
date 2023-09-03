@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MonsterEvading1
+|mod_groups                       = EvasionRatingPercent
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|name                             = Evasive
+|mod_type                         = MonsterEvasionRatingPercent
+|stat_text                        = 40% increased [[Evasion Rating]] (Hidden)
+|stat1_id                         = evasion_rating_+%
+|stat1_min                        = 40
+|stat1_max                        = 40
+|spawn_weight1_tag                = not_dex
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = ward_armour
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 1000
+|tags                             = defences, evasion
+}}

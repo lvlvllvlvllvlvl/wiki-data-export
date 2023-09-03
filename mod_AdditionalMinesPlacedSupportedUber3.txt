@@ -1,0 +1,24 @@
+{{Mod
+|id                               = AdditionalMinesPlacedSupportedUber3
+|mod_groups                       = MineSupported
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 85
+|name                             = of Shaping
+|granted_skill                    = SupportRemoteMine
+|mod_type                         = AdditionalMinesPlacedSupported
+|stat_text                        = Throw an additional [[Mine]]<br>[[Item socket|Socketed]] Gems are Supported by [[Level]] 22 Blastchain [[Mine]]
+|stat1_id                         = number_of_additional_mines_to_place
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_display_socketed_gems_get_remote_mine_level
+|stat2_min                        = 22
+|stat2_max                        = 22
+|spawn_weight1_tag                = helmet_shaper
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

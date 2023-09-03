@@ -1,0 +1,16 @@
+{{Mod
+|id                               = ExertedDamageWarcryCooldown2
+|mod_groups                       = ExertedDamageWarcryCooldown
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 40
+|mod_type                         = ExertedDamageWarcryCooldown
+|stat_text                        = Exerted [[Attack|Attacks]] deal (30-40)% increased Damage<br>Warcry [[Skill|Skills]] have +2 seconds to Cooldown
+|stat1_id                         = empowered_attack_damage_+%
+|stat1_min                        = 30
+|stat1_max                        = 40
+|stat2_id                         = warcry_cooldown_modifier_ms
+|stat2_min                        = 2000
+|stat2_max                        = 2000
+|tags                             = attack
+}}

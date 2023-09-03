@@ -1,0 +1,25 @@
+{{Mod
+|id                               = CriticalStrikeMultiplierIfBlockedRecentlyUber1_
+|mod_groups                       = CriticalStrikeMultiplierIfBlockedRecently
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Shaping
+|mod_type                         = CriticalStrikeMultiplierIfBlockedRecentlyUber
+|stat_text                        = +(35-45)% to [[Critical Strike Multiplier]] if you have Blocked [[Recently]]<br>+5% Chance to [[Block]] [[Attack Damage]] while wielding a [[Staff]]
+|stat1_id                         = critical_strike_multiplier_+_if_you_have_blocked_recently
+|stat1_min                        = 35
+|stat1_max                        = 45
+|stat2_id                         = staff_block_%
+|stat2_min                        = 5
+|stat2_max                        = 5
+|spawn_weight1_tag                = staff_shaper
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = warstaff_shaper
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = block, damage, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

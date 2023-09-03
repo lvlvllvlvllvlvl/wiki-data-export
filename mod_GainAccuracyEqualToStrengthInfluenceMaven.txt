@@ -1,0 +1,23 @@
+{{Mod
+|id                               = GainAccuracyEqualToStrengthInfluenceMaven
+|mod_groups                       = GainAccuracyEqualToStrength
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 85
+|name                             = of the Elevated Conquest
+|mod_type                         = GainAccuracyEqualToStrengthMaven
+|stat_text                        = Gain [[Accuracy Rating]] equal to your [[Strength]]<br>1% increased [[Critical Strike Chance]] per 10 [[Strength]]
+|stat1_id                         = gain_accuracy_rating_equal_to_strength
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = critical_strike_chance_+%_per_10_strength
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = helmet_adjudicator
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

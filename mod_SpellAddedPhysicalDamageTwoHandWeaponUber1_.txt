@@ -1,0 +1,31 @@
+{{Mod
+|id                               = SpellAddedPhysicalDamageTwoHandWeaponUber1_
+|mod_groups                       = SpellAddedPhysicalDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = The Elder's
+|mod_type                         = SpellAddedPhysicalDamage
+|stat_text                        = Adds (37-49) to (75-86) [[Physical Damage]] to [[Spell|Spells]]
+|stat1_id                         = spell_minimum_added_physical_damage
+|stat1_min                        = 37
+|stat1_max                        = 49
+|stat2_id                         = spell_maximum_added_physical_damage
+|stat2_min                        = 75
+|stat2_max                        = 86
+|spawn_weight1_tag                = attack_staff
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = staff_elder
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|generation_weight1_tag           = has_caster_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_attack_mod
+|generation_weight2_value         = 50
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = physical_damage, caster_damage, damage, physical, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

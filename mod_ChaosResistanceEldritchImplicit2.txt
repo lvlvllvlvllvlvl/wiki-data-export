@@ -1,0 +1,21 @@
+{{Mod
+|id                               = ChaosResistanceEldritchImplicit2
+|mod_groups                       = ChaosResistance
+|domain                           = 1
+|generation_type                  = 28
+|required_level                   = 75
+|mod_type                         = ChaosResistance
+|stat_text                        = +(8-9)% to [[Chaos Resistance]]
+|stat1_id                         = base_chaos_damage_resistance_%
+|stat1_min                        = 8
+|stat1_max                        = 9
+|spawn_weight1_tag                = no_tier_5_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = boots
+|spawn_weight2_value              = 700
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = chaos, resistance
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

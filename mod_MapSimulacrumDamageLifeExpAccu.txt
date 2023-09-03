@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MapSimulacrumDamageLifeExpAccu
+|mod_groups                       = Nothing
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSimulacrumDamageLifeExpAccu
+|stat_text                        = +(0-9) to [[Level]] of dropped Reward Items<br>(0-300)% increased Experience gain<br>(0-249)% more Maximum Life (Hidden)
+|stat1_id                         = map_simulacrum_reward_level_+
+|stat1_min                        = 0
+|stat1_max                        = 9
+|stat2_id                         = map_hidden_monster_life_+%_final
+|stat2_min                        = 0
+|stat2_max                        = 249
+|stat3_id                         = map_hidden_monster_damage_+%_final
+|stat3_min                        = 0
+|stat3_max                        = 60
+|stat4_id                         = map_experience_gain_+%
+|stat4_min                        = 0
+|stat4_max                        = 300
+|stat5_id                         = map_monsters_accuracy_rating_+%_hidden
+|stat5_min                        = 0
+|stat5_max                        = 41
+}}

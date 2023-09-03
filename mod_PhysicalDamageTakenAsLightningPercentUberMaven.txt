@@ -1,0 +1,23 @@
+{{Mod
+|id                               = PhysicalDamageTakenAsLightningPercentUberMaven
+|mod_groups                       = PhysicalDamageTakenAsElement
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 92
+|name                             = Elevated Shaper's
+|mod_type                         = PhysicalDamageTakenAsLightningUberMaven
+|stat_text                        = (16-18)% of [[Physical Damage]] from [[Hit|Hits]] taken as [[Lightning Damage]]<br>(7-10)% of [[Lightning Damage]] taken Recouped as [[Life]]
+|stat1_id                         = physical_damage_taken_%_as_lightning
+|stat1_min                        = 16
+|stat1_max                        = 18
+|stat2_id                         = lightning_damage_taken_goes_to_life_over_4_seconds_%
+|stat2_min                        = 7
+|stat2_max                        = 10
+|spawn_weight1_tag                = body_armour_shaper
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life, physical, elemental, lightning
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

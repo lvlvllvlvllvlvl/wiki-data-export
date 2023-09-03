@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentToxicRainPhysicalAddedAsChaos1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Toxic Rain Physical Added As Chaos 1
+|mod_type                         = EnchantmentToxicRainPhysicalAddedAsChaos
+|stat_text                        = Toxic Rain gains 6% of [[Physical Damage]] as Extra [[Chaos Damage]]
+|stat1_id                         = toxic_rain_physical_damage_%_to_add_as_chaos
+|stat1_min                        = 6
+|stat1_max                        = 6
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical_damage, chaos_damage, damage, physical, chaos, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

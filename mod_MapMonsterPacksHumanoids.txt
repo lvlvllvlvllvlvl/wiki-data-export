@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MapMonsterPacksHumanoids
+|mod_groups                       = MapMonsterPacks
+|domain                           = 5
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Bipedal
+|mod_type                         = MapMonsterPacksHumanoids
+|stat_text                        = 12% increased Quantity of Items found in this Area<br>Area is inhabited by Humanoids
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 12
+|stat1_max                        = 12
+|stat2_id                         = map_packs_are_humanoids
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = secret_area
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = unique_map
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = old_map
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+}}

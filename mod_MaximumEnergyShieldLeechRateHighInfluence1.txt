@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MaximumEnergyShieldLeechRateHighInfluence1
+|mod_groups                       = MaximumLeechRate
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Crusader's
+|mod_type                         = MaximumEnergyShieldLeechRate
+|stat_text                        = (15-25)% increased Maximum total [[Energy Shield]] Recovery per second from [[Leech]]
+|stat1_id                         = maximum_energy_shield_leech_rate_+%
+|stat1_min                        = 15
+|stat1_max                        = 25
+|spawn_weight1_tag                = amulet_crusader
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = defences, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

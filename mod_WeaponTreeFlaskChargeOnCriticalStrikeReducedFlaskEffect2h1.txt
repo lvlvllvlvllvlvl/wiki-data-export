@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeFlaskChargeOnCriticalStrikeReducedFlaskEffect2h1
+|mod_groups                       = WeaponTreeFlaskChargeOnCriticalStrikeReducedFlaskEffect
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 25
+|mod_type                         = WeaponTreeFlaskChargeOnCriticalStrikeReducedFlaskEffect
+|stat_text                        = 80% chance to gain a Flask [[Charge]] when you deal a [[Critical Strike]]<br>Flasks applied to you have 10% reduced Effect
+|stat1_id                         = gain_flask_chance_on_crit_%
+|stat1_min                        = 80
+|stat1_max                        = 80
+|stat2_id                         = flask_effect_+%
+|stat2_min                        = -10
+|stat2_max                        = -10
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 300
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

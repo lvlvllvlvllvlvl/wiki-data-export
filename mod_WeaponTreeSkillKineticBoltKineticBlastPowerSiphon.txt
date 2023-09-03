@@ -1,0 +1,21 @@
+{{Mod
+|id                               = WeaponTreeSkillKineticBoltKineticBlastPowerSiphon
+|mod_groups                       = WeaponTreeSkillKineticBoltKineticBlastPowerSiphon
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSkillKineticBoltKineticBlastPowerSiphon
+|stat_text                        = Kinetic Bolt, [[Kinetic Blast]] and [[Power Siphon]] have 20% reduced Enemy Stun Threshold<br>100% chance for Kinetic Bolt, [[Kinetic Blast]] and [[Power Siphon]] to double Stun Duration
+|stat1_id                         = kinetic_bolt_blast_and_power_siphon_base_stun_threshold_reduction_+%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = kinetic_bolt_blast_and_power_siphon_chance_to_double_stun_duration_%
+|stat2_min                        = 100
+|stat2_max                        = 100
+|spawn_weight1_tag                = wand
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = shield
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

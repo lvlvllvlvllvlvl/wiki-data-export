@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialReducedFreezeDuration
+|mod_groups                       = ReducedFreezeDuration
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Melting
+|mod_type                         = ReducedFreezeDuration
+|stat_text                        = (40-50)% reduced [[Freeze]] Duration on you
+|stat1_id                         = base_self_freeze_duration_-%
+|stat1_min                        = 40
+|stat1_max                        = 50
+|spawn_weight1_tag                = dex_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = elemental, cold, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

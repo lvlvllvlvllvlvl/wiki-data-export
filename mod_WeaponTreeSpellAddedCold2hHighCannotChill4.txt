@@ -1,0 +1,28 @@
+{{Mod
+|id                               = WeaponTreeSpellAddedCold2hHighCannotChill4
+|mod_groups                       = SpellAddedElementalDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 62
+|mod_type                         = WeaponTreeSpellAddedColdDamageAndCannotChill
+|stat_text                        = Adds 34 to 52 [[Cold Damage]] to [[Spell|Spells]]<br>Your [[Cold Damage]] cannot Chill
+|stat1_id                         = spell_minimum_added_cold_damage
+|stat1_min                        = 34
+|stat1_max                        = 34
+|stat2_id                         = spell_maximum_added_cold_damage
+|stat2_min                        = 52
+|stat2_max                        = 52
+|stat3_id                         = cold_damage_cannot_chill
+|stat3_min                        = 1
+|stat3_max                        = 1
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 125
+|spawn_weight3_tag                = attack_staff
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = staff
+|spawn_weight4_value              = 125
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+}}

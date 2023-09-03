@@ -1,0 +1,22 @@
+{{Mod
+|id                               = BurningDamagePrefixTwoHandInfluence1
+|mod_groups                       = WeaponCasterDamagePrefix
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Warlord's
+|mod_type                         = BurnDamagePrefix
+|stat_text                        = (100-109)% increased Burning Damage
+|stat1_id                         = burn_damage_+%
+|stat1_min                        = 100
+|stat1_max                        = 109
+|spawn_weight1_tag                = staff_adjudicator
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = warstaff_adjudicator
+|spawn_weight2_value              = 400
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

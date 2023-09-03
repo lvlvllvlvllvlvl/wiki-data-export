@@ -1,0 +1,26 @@
+{{Mod
+|id                               = GlobalSpellGemsLevel1
+|mod_groups                       = IncreaseSocketedGemLevel
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 55
+|name                             = Magister's
+|mod_type                         = GlobalIncreaseSpellSkillGemLevel
+|stat_text                        = +1 to [[Level]] of all [[Spell]] [[Skill]] Gems
+|stat1_id                         = spell_skill_gem_level_+
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = attack_dagger
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = wand
+|spawn_weight2_value              = 50
+|spawn_weight3_tag                = sceptre
+|spawn_weight3_value              = 50
+|spawn_weight4_tag                = dagger
+|spawn_weight4_value              = 50
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = caster, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

@@ -1,0 +1,18 @@
+{{Mod
+|id                               = FlaskFullInstantRecoveryUnique__1
+|mod_groups                       = FlaskBuffWhileHealing
+|domain                           = 2
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = FlaskFullInstantRecovery
+|stat_text                        = Instant Recovery<br>(75-65)% reduced Amount Recovered
+|stat1_id                         = local_flask_recovers_instantly
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_flask_amount_to_recover_+%
+|stat2_min                        = -75
+|stat2_max                        = -65
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

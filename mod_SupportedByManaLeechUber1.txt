@@ -1,0 +1,21 @@
+{{Mod
+|id                               = SupportedByManaLeechUber1
+|mod_groups                       = Supported
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = The Shaper's
+|granted_skill                    = SupportManaLeech
+|mod_type                         = DisplaySupportedByManaLeech
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Mana Leech Support|Level 15 Mana Leech]]
+|stat1_id                         = local_display_socketed_gems_supported_by_x_mana_leech
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = gloves_shaper
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

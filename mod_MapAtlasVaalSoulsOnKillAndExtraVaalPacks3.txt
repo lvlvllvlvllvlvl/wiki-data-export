@@ -1,0 +1,23 @@
+{{Mod
+|id                               = MapAtlasVaalSoulsOnKillAndExtraVaalPacks3
+|mod_groups                       = MapAtlasVaalPacks
+|domain                           = 11
+|generation_type                  = 1
+|required_level                   = 1
+|mod_type                         = MapAtlasVaalSoulsOnKillAndExtraVaalPacks
+|stat_text                        = 3 uses remaining<br>Your Maps contain 6 additional packs of Corrupted Vaal Monsters<br>Players gain an additional Vaal Soul on [[Kill]]
+|stat1_id                         = sextant_uses_remaining
+|stat1_min                        = 3
+|stat1_max                        = 3
+|stat2_id                         = map_contains_additional_packs_of_vaal_monsters
+|stat2_min                        = 6
+|stat2_max                        = 6
+|stat3_id                         = map_player_chance_to_gain_vaal_soul_on_kill_%
+|stat3_min                        = 100
+|stat3_max                        = 100
+|spawn_weight1_tag                = no_monster_packs
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 500
+|tags                             = vaal
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = JunMasterVeiledLocalFlaskSkillManaCostDuringFlaskEffect
+|mod_groups                       = LocalFlaskSkillManaCostDuringFlaskEffect
+|domain                           = 28
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of the Order
+|mod_type                         = LocalFlaskSkillManaCostDuringFlaskEffect
+|stat_text                        = (25-20)% reduced [[Mana]] Cost of [[Skill|Skills]] during Effect
+|stat1_id                         = local_flask_skill_mana_cost_+%_during_flask_effect
+|stat1_min                        = -25
+|stat1_max                        = -20
+|spawn_weight1_tag                = flask
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, resource, unveiled_mod, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

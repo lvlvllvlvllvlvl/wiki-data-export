@@ -1,0 +1,28 @@
+{{Mod
+|id                               = WeaponTreeSpellAddedFire2hLowImplicitEffect4
+|mod_groups                       = SpellAddedElementalDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 66
+|mod_type                         = WeaponTreeSpellAddedFireDamageAndImplicitEffect
+|stat_text                        = Adds 16 to 26 [[Fire Damage]] to [[Spell|Spells]]<br>25% increased Implicit Modifier magnitudes
+|stat1_id                         = spell_minimum_added_fire_damage
+|stat1_min                        = 16
+|stat1_max                        = 16
+|stat2_id                         = spell_maximum_added_fire_damage
+|stat2_min                        = 26
+|stat2_max                        = 26
+|stat3_id                         = local_implicit_stat_magnitude_+%
+|stat3_min                        = 25
+|stat3_max                        = 25
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 125
+|spawn_weight3_tag                = attack_staff
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = staff
+|spawn_weight4_value              = 125
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+}}

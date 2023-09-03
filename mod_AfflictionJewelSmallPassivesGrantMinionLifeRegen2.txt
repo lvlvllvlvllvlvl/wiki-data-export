@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantMinionLifeRegen2
+|mod_groups                       = AfflictionJewelSmallPassivesGrantMinionLifeRegen
+|domain                           = 21
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Nurturing
+|mod_type                         = AfflictionJewelSmallPassivesGrantMinionLifeRegen
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: [[Minion|Minions]] Regenerate 0.15% of [[Life]] per Second
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_minion_life_regeneration_rate_per_minute_%
+|stat1_min                        = 9
+|stat1_max                        = 9
+|spawn_weight1_tag                = affliction_minion_life
+|spawn_weight1_value              = 350
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

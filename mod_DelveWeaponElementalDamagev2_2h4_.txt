@@ -1,0 +1,24 @@
+{{Mod
+|id                               = DelveWeaponElementalDamagev2_2h4_
+|mod_groups                       = ElementalDamagePercent
+|domain                           = 16
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Subterranean
+|mod_type                         = ElementalDamagePercent
+|stat_text                        = (80-94)% increased [[Elemental Damage]]
+|stat1_id                         = elemental_damage_+%
+|stat1_min                        = 80
+|stat1_max                        = 94
+|spawn_weight1_tag                = abyss_jewel
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = jewel
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = two_hand_weapon
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = elemental_damage, damage, elemental
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

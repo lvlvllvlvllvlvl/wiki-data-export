@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeMinimumAllCharges2H
+|mod_groups                       = WeaponTreeAllMinimumCharges
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 30
+|mod_type                         = WeaponTreeAllMinimumCharges
+|stat_text                        = +2 to Minimum Endurance, [[Frenzy]] and [[Power Charge|Power Charges]]<br>-1 to Maximum Endurance, [[Frenzy]] and [[Power Charge|Power Charges]]
+|stat1_id                         = minimum_frenzy_power_endurance_charges
+|stat1_min                        = 2
+|stat1_max                        = 2
+|stat2_id                         = maximum_frenzy_power_endurance_charges
+|stat2_min                        = -1
+|stat2_max                        = -1
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 150
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

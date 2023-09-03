@@ -1,0 +1,20 @@
+{{Mod
+|id                               = HeistNPCIncreasedFlaskChargesGained2__
+|mod_groups                       = BeltFlaskCharges
+|domain                           = 23
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of Brimming
+|mod_type                         = BeltIncreasedFlaskChargesGained
+|stat_text                        = Players have (16-20)% increased Flask [[Charge|Charges]] gained
+|stat1_id                         = charges_gained_+%
+|stat1_min                        = 16
+|stat1_max                        = 20
+|spawn_weight1_tag                = heist_equipment_ranged
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

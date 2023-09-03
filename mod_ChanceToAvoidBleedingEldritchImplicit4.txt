@@ -1,0 +1,21 @@
+{{Mod
+|id                               = ChanceToAvoidBleedingEldritchImplicit4
+|mod_groups                       = ChanceToAvoidBleeding
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|mod_type                         = ChanceToAvoidBleeding
+|stat_text                        = (42-44)% chance to Avoid Bleeding
+|stat1_id                         = base_avoid_bleed_%
+|stat1_min                        = 42
+|stat1_max                        = 44
+|spawn_weight1_tag                = no_tier_3_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = boots
+|spawn_weight2_value              = 700
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = bleed, physical, attack, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

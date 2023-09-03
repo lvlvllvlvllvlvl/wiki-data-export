@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialGlobalMaimOnHit
+|mod_groups                       = GlobalMaimOnHit
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Maiming
+|mod_type                         = GlobalMaimOnHit
+|stat_text                        = [[Attack|Attacks]] have (30-35)% chance to Maim on [[Hit]]
+|stat1_id                         = maim_on_hit_%
+|stat1_min                        = 30
+|stat1_max                        = 35
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = HungryLoopSupportedByAddedChaosDamage
+|mod_groups                       = HungryLoop
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|granted_skill                    = SupportAddedChaosDamage
+|mod_type                         = HungryLoopSupportedByAddedChaosDamage
+|stat_text                        = Has Consumed 1 Gem<br>[[Item socket|Socketed]] Gems are Supported by [[Added Chaos Damage Support|Level 20 Added Chaos Damage]]
+|stat1_id                         = local_unique_hungry_loop_number_of_gems_to_consume
+|stat1_min                        = -1
+|stat1_max                        = -1
+|stat2_id                         = local_unique_hungry_loop_has_consumed_gem
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = local_display_socketed_gems_get_added_chaos_damage_level
+|stat3_min                        = 20
+|stat3_max                        = 20
+|tags                             = support, gem
+}}

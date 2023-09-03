@@ -1,0 +1,22 @@
+{{Mod
+|id                               = AvoidPhysicalDamageInfluence2
+|mod_groups                       = PhysicalDamageAvoidance
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of Redemption
+|mod_type                         = PhysicalDamageAvoidance
+|stat_text                        = (8-10)% chance to Avoid [[Physical Damage]] from [[Hit|Hits]]
+|stat1_id                         = avoid_physical_damage_%
+|stat1_min                        = 8
+|stat1_max                        = 10
+|spawn_weight1_tag                = shield_eyrie
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = quiver_eyrie
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = physical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

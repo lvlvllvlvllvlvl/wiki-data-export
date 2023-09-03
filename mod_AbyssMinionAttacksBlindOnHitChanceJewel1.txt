@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AbyssMinionAttacksBlindOnHitChanceJewel1
+|mod_groups                       = BlindOnHit
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 32
+|name                             = of Stifling
+|mod_type                         = MinionAttacksBlindOnHitChance
+|stat_text                        = [[Minion|Minions]] have (3-4)% chance to Blind on [[Hit]] with [[Attack|Attacks]]
+|stat1_id                         = minion_attacks_chance_to_blind_on_hit_%
+|stat1_min                        = 3
+|stat1_max                        = 4
+|spawn_weight1_tag                = abyss_jewel_summoner
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

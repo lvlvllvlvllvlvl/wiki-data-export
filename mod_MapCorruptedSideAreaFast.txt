@@ -1,0 +1,30 @@
+{{Mod
+|id                               = MapCorruptedSideAreaFast
+|mod_groups                       = MapMonsterFast
+|domain                           = 5
+|generation_type                  = 1
+|required_level                   = 69
+|name                             = Fleet
+|mod_type                         = MapCorruptedSideAreaMonsterFast
+|stat_text                        = 20% increased Quantity of Items found in this Area<br>Found Items have 3% chance to drop Corrupted in Area<br>(30-35)% increased Monster [[Movement Speed]]<br>(40-45)% increased Monster [[Attack Speed]]<br>(40-45)% increased Monster [[Cast Speed]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = map_items_drop_corrupted_%
+|stat2_min                        = 3
+|stat2_max                        = 3
+|stat3_id                         = map_monsters_movement_speed_+%
+|stat3_min                        = 30
+|stat3_max                        = 35
+|stat4_id                         = map_monsters_attack_speed_+%
+|stat4_min                        = 40
+|stat4_max                        = 45
+|stat5_id                         = map_monsters_cast_speed_+%
+|stat5_min                        = 40
+|stat5_max                        = 45
+|spawn_weight1_tag                = secret_area
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, caster, speed, vaal
+}}

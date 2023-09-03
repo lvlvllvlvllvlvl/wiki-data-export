@@ -1,0 +1,23 @@
+{{Mod
+|id                               = JunMasterLocalAccuracyRatingAndLocalItemQuality3_
+|mod_groups                       = IncreasedAccuracy, IncreasedQuality
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 50
+|name                             = of the Order
+|mod_type                         = LocalAccuracyRatingAndLocalItemQuality
+|stat_text                        = +(101-160) to [[Accuracy Rating]]<br>+(13-15)% to Quality
+|stat1_id                         = local_accuracy_rating
+|stat1_min                        = 101
+|stat1_max                        = 160
+|stat2_id                         = local_item_quality_+
+|stat2_min                        = 13
+|stat2_max                        = 15
+|spawn_weight1_tag                = weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = unveiled_mod, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

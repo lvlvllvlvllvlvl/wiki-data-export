@@ -1,0 +1,35 @@
+{{Mod
+|id                               = MapDesecratedGroundMapWorldsExpedition
+|mod_groups                       = MapGroundEffect
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Desecration
+|mod_type                         = MapDesecratedGroundMapWorlds
+|stat_text                        = 10% increased Quantity of Items found in this Area<br>6% increased Rarity of Items found in this Area<br>4% increased Pack size<br>Area has patches of desecrated ground<br>16 patches with Ground Effect per 100 tiles (Hidden)<br>Ground Effect has a radius of 12 (Hidden)
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 6
+|stat2_max                        = 6
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 4
+|stat3_max                        = 4
+|stat4_id                         = map_base_ground_desecration_damage_to_deal_per_minute
+|stat4_min                        = 8000
+|stat4_max                        = 8000
+|stat5_id                         = map_ground_effect_patches_per_100_tiles
+|stat5_min                        = 16
+|stat5_max                        = 16
+|stat6_id                         = map_ground_effect_radius
+|stat6_min                        = 12
+|stat6_max                        = 12
+|spawn_weight1_tag                = top_tier_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = expedition_logbook
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = chaos_damage, damage, chaos
+}}

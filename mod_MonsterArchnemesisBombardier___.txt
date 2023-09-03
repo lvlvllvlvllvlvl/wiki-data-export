@@ -1,0 +1,30 @@
+{{Mod
+|id                               = MonsterArchnemesisBombardier___
+|mod_groups                       = MonsterArchnemesisBombardier
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 34
+|name                             = of Bombardment
+|mod_type                         = MonsterArchnemesisBombardier
+|stat_text                        = [[Skill|Skills]] fire 2 additional Projectiles (Hidden)<br>[[Skill|Skills]] Chain +2 times (Hidden)<br>Projectiles have 20% chance to be able to Chain when colliding with terrain (Hidden)<br>Projectiles gain Damage as they travel farther, dealing up<br />to 60% increased Damage with [[Hit|Hits]] to targets (Hidden)
+|stat1_id                         = number_of_additional_projectiles
+|stat1_min                        = 2
+|stat1_max                        = 2
+|stat2_id                         = number_of_chains
+|stat2_min                        = 2
+|stat2_max                        = 2
+|stat3_id                         = projectile_chain_from_terrain_chance_%
+|stat3_min                        = 20
+|stat3_max                        = 20
+|stat4_id                         = projectile_damage_+%_max_as_distance_travelled_increases
+|stat4_min                        = 60
+|stat4_max                        = 60
+|spawn_weight1_tag                = no_common_monster_mods
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = magic
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = ranged
+|spawn_weight3_value              = 800
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+}}

@@ -1,0 +1,24 @@
+{{Mod
+|id                               = SupportedByItemRarityUber2
+|mod_groups                       = Supported
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 85
+|name                             = of Shaping
+|granted_skill                    = SupportItemRarity
+|mod_type                         = SupportedByItemRarityUnique
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Item Rarity Support|Level 15 Item Rarity]]<br>(13-18)% increased Rarity of Items found from Slain Unique Enemies
+|stat1_id                         = local_display_socketed_gems_supported_by_level_x_item_rarity
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = unique_monster_dropped_item_rarity_+%
+|stat2_min                        = 13
+|stat2_max                        = 18
+|spawn_weight1_tag                = body_armour_shaper
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

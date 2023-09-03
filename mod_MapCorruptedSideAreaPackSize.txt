@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapCorruptedSideAreaPackSize
+|mod_groups                       = MapPackSize
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 69
+|name                             = of Hordes
+|mod_type                         = MapCorruptedSideAreaPackSize
+|stat_text                        = (30-60)% increased Pack size
+|stat1_id                         = map_pack_size_+%
+|stat1_min                        = 30
+|stat1_max                        = 60
+|spawn_weight1_tag                = secret_area
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

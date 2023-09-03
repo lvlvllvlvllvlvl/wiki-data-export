@@ -1,0 +1,23 @@
+{{Mod
+|id                               = MapBreachContainsBoss
+|mod_groups                       = MapBreachContainsBoss
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Fearsome
+|mod_type                         = MapBreachContainsBoss
+|stat_text                        = Breaches in the next Area will each contain a Breachlord<br>-3 to Maximum [[Charge|Charges]]
+|stat1_id                         = map_breach_has_boss
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = leaguestone_prefix_minimum_area_level
+|stat2_min                        = 68
+|stat2_max                        = 68
+|stat3_id                         = local_extra_max_charges
+|stat3_min                        = -3
+|stat3_max                        = -3
+|spawn_weight1_tag                = breach_leaguestone
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

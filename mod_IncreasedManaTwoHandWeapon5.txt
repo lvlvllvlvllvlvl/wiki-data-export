@@ -1,0 +1,20 @@
+{{Mod
+|id                               = IncreasedManaTwoHandWeapon5
+|mod_groups                       = IncreasedMana
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 29
+|name                             = Cerulean
+|mod_type                         = IncreasedMana
+|stat_text                        = +(80-89) to maximum [[Mana]]
+|stat1_id                         = base_maximum_mana
+|stat1_min                        = 80
+|stat1_max                        = 89
+|spawn_weight1_tag                = staff
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

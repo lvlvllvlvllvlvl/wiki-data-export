@@ -1,0 +1,23 @@
+{{Mod
+|id                               = AdditionalPierceInfluence1
+|mod_groups                       = Pierce
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Hunter's
+|mod_type                         = AdditionalPierce
+|stat_text                        = Projectiles Pierce an additional Target
+|stat1_id                         = projectile_base_number_of_targets_to_pierce
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = boots_basilisk
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = quiver_basilisk
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = amulet_basilisk
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

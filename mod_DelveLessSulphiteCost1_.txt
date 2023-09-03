@@ -1,0 +1,23 @@
+{{Mod
+|id                               = DelveLessSulphiteCost1_
+|mod_groups                       = DelveLessSulphiteCost
+|domain                           = 17
+|generation_type                  = 14
+|required_level                   = 1
+|mod_type                         = DelveLessSulphiteCost
+|stat_text                        = 10% increased Quantity of Items found in this Area<br>6% increased Rarity of Items found in this Area<br>4% increased Pack size<br>Crawler consumes (30-20)% reduced Sulphite
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 6
+|stat2_max                        = 6
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 4
+|stat3_max                        = 4
+|stat4_id                         = delve_biome_sulphite_cost_+%_final
+|stat4_min                        = -30
+|stat4_max                        = -20
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 250
+}}

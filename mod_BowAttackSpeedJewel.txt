@@ -1,0 +1,32 @@
+{{Mod
+|id                               = BowAttackSpeedJewel
+|mod_groups                       = SpecificWeaponSpeed
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Volleying
+|mod_type                         = BowAttackSpeedForJewel
+|stat_text                        = (6-8)% increased [[Attack Speed]] with [[Bow|Bows]]
+|stat1_id                         = bow_attack_speed_+%
+|stat1_min                        = 6
+|stat1_max                        = 8
+|spawn_weight1_tag                = one_handed_mod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = melee_mod
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = dual_wielding_mod
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = shield_mod
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = bow
+|spawn_weight5_value              = 500
+|spawn_weight6_tag                = specific_weapon
+|spawn_weight6_value              = 0
+|spawn_weight7_tag                = not_dex
+|spawn_weight7_value              = 0
+|spawn_weight8_tag                = default
+|spawn_weight8_value              = 500
+|tags                             = attack, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

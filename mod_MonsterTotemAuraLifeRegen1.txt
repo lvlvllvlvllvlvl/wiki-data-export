@@ -1,0 +1,15 @@
+{{Mod
+|id                               = MonsterTotemAuraLifeRegen1
+|mod_groups                       = MonsterAura
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 4
+|granted_buff_id                  = monster_aura_life_regen
+|granted_buff_value               = 60
+|mod_type                         = MonsterAuraLifeRegen
+|stat_text                        = Regenerate 2.5% of [[Life]] per second (Hidden)
+|stat1_id                         = life_regeneration_rate_per_minute_%
+|stat1_min                        = 150
+|stat1_max                        = 150
+|tags                             = resource, life
+}}

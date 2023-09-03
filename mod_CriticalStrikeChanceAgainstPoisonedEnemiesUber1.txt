@@ -1,0 +1,22 @@
+{{Mod
+|id                               = CriticalStrikeChanceAgainstPoisonedEnemiesUber1
+|mod_groups                       = CriticalStrikeChanceAgainstPoisonedEnemies
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Elder
+|mod_type                         = CriticalStrikeChanceAgainstPoisonedEnemies
+|stat_text                        = (80-100)% increased [[Critical Strike Chance]] against [[Poison|Poisoned]] Enemies
+|stat1_id                         = critical_strike_chance_+%_vs_poisoned_enemies
+|stat1_min                        = 80
+|stat1_max                        = 100
+|spawn_weight1_tag                = dagger_elder
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = rune_dagger_elder
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

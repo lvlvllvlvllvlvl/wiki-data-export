@@ -1,0 +1,23 @@
+{{Mod
+|id                               = AvoidBleedAndPoisonInfluenceMaven
+|mod_groups                       = AvoidBleedAndPoison
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 85
+|name                             = of the Elevated Hunt
+|mod_type                         = AvoidBleedAndPoison
+|stat_text                        = (61-70)% chance to Avoid Bleeding<br>(61-70)% chance to Avoid being [[Poison|Poisoned]]
+|stat1_id                         = base_avoid_bleed_%
+|stat1_min                        = 61
+|stat1_max                        = 70
+|stat2_id                         = base_avoid_poison_%
+|stat2_min                        = 61
+|stat2_max                        = 70
+|spawn_weight1_tag                = boots_basilisk
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = bleed, poison, physical, chaos, attack, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

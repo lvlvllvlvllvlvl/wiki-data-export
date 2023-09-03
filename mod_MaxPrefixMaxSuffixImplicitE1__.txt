@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MaxPrefixMaxSuffixImplicitE1__
+|mod_groups                       = MaxPrefixMaxSuffix
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 30
+|mod_type                         = MaxPrefixMaxSuffixImplicit
+|stat_text                        = -1 Prefix Modifier allowed<br>+1 Suffix Modifier allowed<br>Implicit Modifiers Cannot Be Changed
+|stat1_id                         = local_maximum_prefixes_allowed_+
+|stat1_min                        = -1
+|stat1_max                        = -1
+|stat2_id                         = local_maximum_suffixes_allowed_+
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = local_implicit_mod_cannot_be_changed
+|stat3_min                        = 1
+|stat3_max                        = 1
+}}

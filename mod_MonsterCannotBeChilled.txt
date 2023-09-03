@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MonsterCannotBeChilled
+|mod_groups                       = ChanceToAvoidFreezeAndChill
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = ChanceToAvoidFreezeAndChill
+|stat_text                        = <abbr title="Cannot be Chilled">100% chance to Avoid being Chilled</abbr><br><abbr title="Cannot be Frozen">100% chance to Avoid being [[Freeze|Frozen]]</abbr>
+|stat1_id                         = base_avoid_chill_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = base_avoid_freeze_%
+|stat2_min                        = 100
+|stat2_max                        = 100
+|tags                             = elemental, cold, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

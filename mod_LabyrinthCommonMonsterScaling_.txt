@@ -1,0 +1,19 @@
+{{Mod
+|id                               = LabyrinthCommonMonsterScaling_
+|mod_groups                       = Nothing
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = LabyrinthCommonMonsterScaling
+|stat_text                        = Labyrinth Monsters have 200% increased maximum [[Life]]<br>Labyrinth Monsters deal 50% increased Damage<br>Labyrinth Monsters have 30% increased Attack, Cast, and [[Movement Speed]]
+|stat1_id                         = map_labyrinth_monsters_life_+%
+|stat1_min                        = 200
+|stat1_max                        = 200
+|stat2_id                         = map_labyrinth_monsters_damage_+%
+|stat2_min                        = 50
+|stat2_max                        = 50
+|stat3_id                         = map_labyrinth_monsters_attack_cast_and_movement_speed_+%
+|stat3_min                        = 30
+|stat3_max                        = 30
+|tags                             = caster_damage, resource, life, damage, attack, caster, speed
+}}

@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AddedFireDamageEssenceGlovesQuiver5
+|mod_groups                       = FireDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 58
+|name                             = Essences
+|mod_type                         = FireDamage
+|stat_text                        = Adds (6-8) to (13-17) [[Fire Damage]] to [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_fire_damage
+|stat1_min                        = 6
+|stat1_max                        = 8
+|stat2_id                         = attack_maximum_added_fire_damage
+|stat2_min                        = 13
+|stat2_max                        = 17
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

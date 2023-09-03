@@ -1,0 +1,26 @@
+{{Mod
+|id                               = IncreasedAilmentEffectLowInfluence2_
+|mod_groups                       = IncreasedAilmentEffectOnEnemies
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Redemption
+|mod_type                         = IncreasedAilmentEffectOnEnemies
+|stat_text                        = (21-25)% increased Effect of Non-Damaging Ailments
+|stat1_id                         = non_damaging_ailment_effect_+%
+|stat1_min                        = 21
+|stat1_max                        = 25
+|spawn_weight1_tag                = shield_eyrie
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = quiver_eyrie
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = ring_eyrie
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = amulet_eyrie
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

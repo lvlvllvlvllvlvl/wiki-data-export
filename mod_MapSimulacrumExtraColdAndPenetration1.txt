@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MapSimulacrumExtraColdAndPenetration1
+|mod_groups                       = MapSimulacrumMonsterElements
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSimulacrumExtraColdAndPenetration
+|stat_text                        = Monsters deal (60-69)% extra [[Physical Damage]] as Cold<br>Monster Damage penetrates 5% of [[Cold Resistance]]
+|stat1_id                         = map_monsters_%_physical_damage_to_add_as_cold
+|stat1_min                        = 60
+|stat1_max                        = 69
+|stat2_id                         = map_monsters_reduce_enemy_cold_resistance_%
+|stat2_min                        = 5
+|stat2_max                        = 5
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, cold
+}}

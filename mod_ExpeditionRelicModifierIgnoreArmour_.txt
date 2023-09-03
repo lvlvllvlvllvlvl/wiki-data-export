@@ -1,0 +1,14 @@
+{{Mod
+|id                               = ExpeditionRelicModifierIgnoreArmour_
+|mod_groups                       = ExpeditionRelicModifierIgnoreArmour
+|domain                           = 27
+|generation_type                  = 1
+|required_level                   = 1
+|mod_type                         = ExpeditionRelicModifierIgnoreArmour
+|stat_text                        = Overwhelm 100% [[Physical Damage]] Reduction
+|stat1_id                         = enemy_phys_reduction_%_penalty_vs_hit
+|stat1_min                        = 100
+|stat1_max                        = 100
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+}}

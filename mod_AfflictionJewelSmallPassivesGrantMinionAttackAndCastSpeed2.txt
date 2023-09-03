@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantMinionAttackAndCastSpeed2
+|mod_groups                       = AfflictionJewelSmallPassivesGrantMinionAttackAndCastSpeed
+|domain                           = 21
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Ravaging
+|mod_type                         = AfflictionJewelSmallPassivesGrantMinionAttackAndCastSpeed
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: [[Minion|Minions]] have 2% increased [[Attack]] and [[Cast Speed]]
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_minion_attack_and_cast_speed_+%
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = affliction_minion_damage
+|spawn_weight1_value              = 350
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, caster, speed, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

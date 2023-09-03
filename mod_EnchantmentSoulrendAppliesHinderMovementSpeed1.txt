@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentSoulrendAppliesHinderMovementSpeed1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Soulrend Applies Hinder Movement Speed 1
+|mod_type                         = EnchantmentSoulrendAppliesHinderMovementSpeed
+|stat_text                        = Soulrend also Hinders Enemies, with 25% reduced [[Movement Speed]]
+|stat1_id                         = soulrend_applies_hinder_movement_speed_+%
+|stat1_min                        = -25
+|stat1_max                        = -25
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

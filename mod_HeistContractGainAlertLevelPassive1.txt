@@ -1,0 +1,24 @@
+{{Mod
+|id                               = HeistContractGainAlertLevelPassive1
+|mod_groups                       = HeistContractGainAlertLevelPassive
+|domain                           = 22
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Paranoia
+|mod_type                         = HeistContractGainAlertLevelPassive
+|stat_text                        = Alert [[Level]] increases by 0.2% per second
+|stat1_id                         = heist_alert_level_gained_per_10_sec
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = heist_contract_lockdown_timer_+%
+|stat2_min                        = 15
+|stat2_max                        = 15
+|stat3_id                         = map_item_drop_quantity_+%
+|stat3_min                        = 13
+|stat3_max                        = 13
+|stat4_id                         = map_item_drop_rarity_+%
+|stat4_min                        = 8
+|stat4_max                        = 8
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 500
+}}

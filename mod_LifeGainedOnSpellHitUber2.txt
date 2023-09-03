@@ -1,0 +1,20 @@
+{{Mod
+|id                               = LifeGainedOnSpellHitUber2
+|mod_groups                       = LifeGainedOnSpellHit
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = The Shaper's
+|mod_type                         = LifeGainedOnSpellHit
+|stat_text                        = Gain (13-15) [[Life]] per Enemy [[Hit]] with [[Spell|Spells]]
+|stat1_id                         = base_life_gained_on_spell_hit
+|stat1_min                        = 13
+|stat1_max                        = 15
+|spawn_weight1_tag                = ring_shaper
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life, caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

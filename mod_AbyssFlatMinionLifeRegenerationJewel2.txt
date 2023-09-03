@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AbyssFlatMinionLifeRegenerationJewel2
+|mod_groups                       = MinionLifeRegeneration
+|domain                           = 13
+|generation_type                  = 1
+|required_level                   = 30
+|name                             = Lively
+|mod_type                         = FlatMinionLifeRegeneration
+|stat_text                        = [[Minion|Minions]] Regenerate (32-40) [[Life]] per second
+|stat1_id                         = minion_life_regeneration_rate_per_second
+|stat1_min                        = 32
+|stat1_max                        = 40
+|spawn_weight1_tag                = abyss_jewel_summoner
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,28 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantDamageOverTime
+|mod_groups                       = AfflictionJewelSmallPassivesGrantDamageOverTime
+|domain                           = 21
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Decline
+|mod_type                         = AfflictionJewelSmallPassivesGrantDamageOverTime
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: 1% increased Damage over Time
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_damage_over_time_+%
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = affliction_fire_damage_over_time_multiplier
+|spawn_weight1_value              = 350
+|spawn_weight2_tag                = affliction_chaos_damage_over_time_multiplier
+|spawn_weight2_value              = 350
+|spawn_weight3_tag                = affliction_physical_damage_over_time_multiplier
+|spawn_weight3_value              = 350
+|spawn_weight4_tag                = affliction_cold_damage_over_time_multiplier
+|spawn_weight4_value              = 350
+|spawn_weight5_tag                = affliction_damage_over_time_multiplier
+|spawn_weight5_value              = 350
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = damage
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

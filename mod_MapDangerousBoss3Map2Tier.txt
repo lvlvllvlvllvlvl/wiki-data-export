@@ -1,0 +1,29 @@
+{{Mod
+|id                               = MapDangerousBoss3Map2Tier
+|mod_groups                       = MapDangerousBoss
+|domain                           = 5
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Overlord's
+|mod_type                         = MapDangerousBoss2Map2Tier
+|stat_text                        = 10% increased Quantity of Items found in this Area<br>5% increased Rarity of Items found in this Area<br>Unique Boss deals 35% increased Damage<br>Unique Boss has 25% increased [[Attack]] and [[Cast Speed]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 5
+|stat2_max                        = 5
+|stat3_id                         = map_boss_damage_+%
+|stat3_min                        = 35
+|stat3_max                        = 35
+|stat4_id                         = map_boss_attack_and_cast_speed_+%
+|stat4_min                        = 25
+|stat4_max                        = 25
+|spawn_weight1_tag                = top_tier_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = no_boss
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = attack, caster, speed
+}}

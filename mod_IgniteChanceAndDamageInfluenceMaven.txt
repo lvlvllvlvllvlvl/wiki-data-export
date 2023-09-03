@@ -1,0 +1,23 @@
+{{Mod
+|id                               = IgniteChanceAndDamageInfluenceMaven
+|mod_groups                       = ChanceToIgnite
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 85
+|name                             = of Elevated Redemption
+|mod_type                         = IgniteChanceAndDamageMaven
+|stat_text                        = (10-15)% chance to [[Ignite]]<br>[[Ignite|Ignites]] you inflict deal Damage (10-15)% faster
+|stat1_id                         = base_chance_to_ignite_%
+|stat1_min                        = 10
+|stat1_max                        = 15
+|stat2_id                         = faster_burn_%
+|stat2_min                        = 10
+|stat2_max                        = 15
+|spawn_weight1_tag                = helmet_eyrie
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

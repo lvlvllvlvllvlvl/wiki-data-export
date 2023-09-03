@@ -1,0 +1,20 @@
+{{Mod
+|id                               = NoExtraDamageFromBleedMovingInfluence1
+|mod_groups                       = NoExtraDamageFromBleedMoving
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Hunt
+|mod_type                         = NoExtraDamageFromBleedMoving
+|stat_text                        = Moving while Bleeding doesn't cause you to take extra Damage
+|stat1_id                         = no_extra_bleed_damage_while_moving
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = shield_basilisk
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = bleed, physical, attack, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,18 @@
+{{Mod
+|id                               = TangledAltarDownsidePlayerTaintedEndurance
+|mod_groups                       = TangledAltarDownsidePlayerTaintedEndurance
+|domain                           = 29
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = TangledAltarDownsidePlayerTaintedEndurance
+|stat_text                        = (20-10)% reduced Recovery Rate of Life, [[Mana]] and [[Energy Shield]] per [[Endurance Charge]]
+|stat1_id                         = life_mana_es_recovery_rate_+%_per_endurance_charge
+|stat1_min                        = -20
+|stat1_max                        = -10
+|spawn_weight1_tag                = primordial_altar_upside
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = tangle_altar
+|spawn_weight2_value              = 400
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

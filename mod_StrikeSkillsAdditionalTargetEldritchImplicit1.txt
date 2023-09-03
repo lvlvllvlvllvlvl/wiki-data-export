@@ -1,0 +1,21 @@
+{{Mod
+|id                               = StrikeSkillsAdditionalTargetEldritchImplicit1
+|mod_groups                       = StrikeSkillsAdditionalTarget
+|domain                           = 1
+|generation_type                  = 28
+|required_level                   = 75
+|mod_type                         = StrikeSkillsAdditionalTarget
+|stat_text                        = Non-Vaal Strike [[Skill|Skills]] target 1 additional nearby Enemy
+|stat1_id                         = melee_attack_number_of_spirit_strikes
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = no_tier_6_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = gloves
+|spawn_weight2_value              = 400
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,30 @@
+{{Mod
+|id                               = AfflictionNotableClarityofPurpose
+|mod_groups                       = AfflictionNotableClarityofPurpose
+|domain                           = 21
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Notable
+|mod_type                         = AfflictionNotableClarityofPurpose
+|stat_text                        = 1 Added Passive [[Skill]] is [[Clarity]] of Purpose
+|stat1_id                         = local_affliction_notable_clarity_of_purpose
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = affliction_maximum_mana
+|spawn_weight1_value              = 932
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|generation_weight1_tag           = expansion_jewel_large
+|generation_weight1_value         = 100
+|generation_weight2_tag           = expansion_jewel_medium
+|generation_weight2_value         = 100
+|generation_weight3_tag           = has_affliction_notable
+|generation_weight3_value         = 0
+|generation_weight4_tag           = expansion_jewel_small
+|generation_weight4_value         = 100
+|generation_weight5_tag           = default
+|generation_weight5_value         = 0
+|tags                             = resource, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,27 @@
+{{Mod
+|id                               = FlaskExtraLifeCostsMana1
+|mod_groups                       = FlaskRecoveryAmount
+|domain                           = 2
+|generation_type                  = 1
+|required_level                   = 13
+|name                             = Impairing
+|mod_type                         = FlaskExtraLifeCostsMana
+|stat_text                        = (35-39)% increased [[Life]] Recovered<br>Removes 10% of [[Life]] Recovered from [[Mana]] when used
+|stat1_id                         = local_flask_life_to_recover_+%
+|stat1_min                        = 35
+|stat1_max                        = 39
+|stat2_id                         = local_flask_removes_%_of_life_recovery_from_mana_on_use
+|stat2_min                        = 10
+|stat2_max                        = 10
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = mana_flask
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = hybrid_flask
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 600
+|tags                             = flask, resource, life, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

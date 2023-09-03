@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeEnemyCritChanceAgainstSelfIncreasedDamageFromCrits1
+|mod_groups                       = WeaponTreeEnemyCritChanceAgainstSelfIncreasedDamageFromCrits
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeEnemyCritChanceAgainstSelfIncreasedDamageFromCrits
+|stat_text                        = [[Hit|Hits]] have 50% reduced [[Critical Strike Chance]] against you<br>You take 20% increased Extra Damage from Critical Strikes
+|stat1_id                         = base_enemy_critical_strike_chance_+%_against_self
+|stat1_min                        = -50
+|stat1_max                        = -50
+|stat2_id                         = base_self_critical_strike_multiplier_-%
+|stat2_min                        = -20
+|stat2_max                        = -20
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

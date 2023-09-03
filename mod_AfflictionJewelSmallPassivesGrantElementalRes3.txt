@@ -1,0 +1,22 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantElementalRes3
+|mod_groups                       = AfflictionJewelSmallPassivesGrantElementalRes
+|domain                           = 21
+|generation_type                  = 2
+|required_level                   = 84
+|name                             = of the Kaleidoscope
+|mod_type                         = AfflictionJewelSmallPassivesGrantElementalRes
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: +4% to all [[Elemental Resistance|Elemental Resistances]]
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_elemental_resistance_%
+|stat1_min                        = 4
+|stat1_max                        = 4
+|spawn_weight1_tag                = expansion_jewel_large
+|spawn_weight1_value              = 300
+|spawn_weight2_tag                = expansion_jewel_medium
+|spawn_weight2_value              = 300
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental, resistance
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

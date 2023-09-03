@@ -1,0 +1,13 @@
+{{Mod
+|id                               = MonsterConvertToChaos1
+|mod_groups                       = ChaosDamageAsPortionOfDamage
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterConvertPhysicalDamageToChaos
+|stat_text                        = 50% of [[Physical Damage]] Converted to [[Chaos Damage]] (Hidden)
+|stat1_id                         = base_physical_damage_%_to_convert_to_chaos
+|stat1_min                        = 50
+|stat1_max                        = 50
+|tags                             = physical_damage, chaos_damage, damage, physical, chaos
+}}

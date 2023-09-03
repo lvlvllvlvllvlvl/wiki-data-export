@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AddedFireDamageEssence7Inverted
+|mod_groups                       = FireDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 82
+|name                             = Essences
+|mod_type                         = SelfFireDamageTaken
+|stat_text                        = Adds (23-27) to (43-48) [[Fire Damage]] to [[Attack|Attacks]] against you
+|stat1_id                         = from_self_minimum_added_attack_fire_damage_taken
+|stat1_min                        = 23
+|stat1_max                        = 27
+|stat2_id                         = from_self_maximum_added_attack_fire_damage_taken
+|stat2_min                        = 43
+|stat2_max                        = 48
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

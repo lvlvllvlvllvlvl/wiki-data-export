@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HeistNPCAgilityCost2_
+|mod_groups                       = HeistNPCJobSpecificCost
+|domain                           = 23
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of Reduction
+|mod_type                         = HeistNPCAgilityCost
+|stat_text                        = (9-8)% reduced Hiring Fee for Agility Jobs
+|stat1_id                         = heist_contract_npc_agility_cost_+%
+|stat1_min                        = -9
+|stat1_max                        = -8
+|spawn_weight1_tag                = heist_equipment_agility
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

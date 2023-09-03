@@ -1,0 +1,20 @@
+{{Mod
+|id                               = GainEnduranceChargeOnTauntingEnemiesUber1_
+|mod_groups                       = GainEnduranceChargeOnTauntingEnemies
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Shaping
+|mod_type                         = GainEnduranceChargeOnTauntingEnemies
+|stat_text                        = (15-30)% chance to gain an [[Endurance Charge]] when you Taunt an Enemy
+|stat1_id                         = chance_to_gain_endurance_charge_when_you_taunt_enemy_%
+|stat1_min                        = 15
+|stat1_max                        = 30
+|spawn_weight1_tag                = 2h_axe_shaper
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = endurance_charge
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

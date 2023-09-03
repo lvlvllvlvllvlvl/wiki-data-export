@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MinionLifeSupportedUber1
+|mod_groups                       = MinionLife
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = The Elder's
+|granted_skill                    = SupportMinionLife
+|mod_type                         = MinionLifeSupported
+|stat_text                        = [[Minion|Minions]] have (15-18)% increased maximum [[Life]]<br>[[Item socket|Socketed]] Gems are Supported by [[Minion Life Support|Level 16 Minion Life]]
+|stat1_id                         = minion_maximum_life_+%
+|stat1_min                        = 15
+|stat1_max                        = 18
+|stat2_id                         = local_display_socketed_gems_supported_by_x_increased_minion_life_level
+|stat2_min                        = 16
+|stat2_max                        = 16
+|spawn_weight1_tag                = helmet_elder
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, resource, life, minion, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideChanceToBleed3_
+|mod_groups                       = ChanceToBleed
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = ChanceToBleed
+|stat_text                        = [[Attack|Attacks]] have (15-17)% chance to cause Bleeding
+|stat1_id                         = bleed_on_hit_with_attacks_%
+|stat1_min                        = 15
+|stat1_max                        = 17
+|spawn_weight1_tag                = gloves
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = bleed, physical, attack, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

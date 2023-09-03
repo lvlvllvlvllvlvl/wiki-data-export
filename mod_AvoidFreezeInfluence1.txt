@@ -1,0 +1,22 @@
+{{Mod
+|id                               = AvoidFreezeInfluence1
+|mod_groups                       = AvoidFreeze
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Crusade
+|mod_type                         = AvoidFreeze
+|stat_text                        = (31-35)% chance to Avoid being [[Freeze|Frozen]]
+|stat1_id                         = base_avoid_freeze_%
+|stat1_min                        = 31
+|stat1_max                        = 35
+|spawn_weight1_tag                = boots_crusader
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = quiver_crusader
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental, cold, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

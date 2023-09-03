@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MeleeDamageRingInfluence3
+|mod_groups                       = MeleeDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 80
+|name                             = Warlord's
+|mod_type                         = MeleeDamage
+|stat_text                        = (22-25)% increased Melee Damage
+|stat1_id                         = melee_damage_+%
+|stat1_min                        = 22
+|stat1_max                        = 25
+|spawn_weight1_tag                = ring_adjudicator
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

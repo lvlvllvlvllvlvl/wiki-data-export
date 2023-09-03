@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeIncreasedLifeReducedLocalDefences2
+|mod_groups                       = IncreasedLife
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 45
+|mod_type                         = WeaponTreeIncreasedLifeReducedLocalDefences
+|stat_text                        = +75 to maximum [[Life]]<br>50% reduced Armour, [[Evasion]] and [[Energy Shield]]
+|stat1_id                         = base_maximum_life
+|stat1_min                        = 75
+|stat1_max                        = 75
+|stat2_id                         = local_armour_and_evasion_and_energy_shield_+%
+|stat2_min                        = -50
+|stat2_max                        = -50
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,22 @@
+{{Mod
+|id                               = MapMonsterFastStrDexIntMission
+|mod_groups                       = MapMonsterFast
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapMonsterFast
+|stat_text                        = 40% increased Quantity of Items found in this Area<br>60% increased Monster [[Movement Speed]]<br>60% increased Monster [[Attack Speed]]<br>60% increased Monster [[Cast Speed]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 40
+|stat1_max                        = 40
+|stat2_id                         = map_monsters_movement_speed_+%
+|stat2_min                        = 60
+|stat2_max                        = 60
+|stat3_id                         = map_monsters_attack_speed_+%
+|stat3_min                        = 60
+|stat3_max                        = 60
+|stat4_id                         = map_monsters_cast_speed_+%
+|stat4_min                        = 60
+|stat4_max                        = 60
+|tags                             = attack, caster, speed
+}}

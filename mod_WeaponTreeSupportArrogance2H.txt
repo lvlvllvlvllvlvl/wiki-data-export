@@ -1,0 +1,17 @@
+{{Mod
+|id                               = WeaponTreeSupportArrogance2H
+|mod_groups                       = WeaponTreeSupportArrogance
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 38
+|granted_skill                    = SupportBloodMagic
+|mod_type                         = WeaponTreeSupportArrogance
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Level]] 25 Arrogance
+|stat1_id                         = local_display_socketed_gems_get_blood_magic_level
+|stat1_min                        = 25
+|stat1_max                        = 25
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

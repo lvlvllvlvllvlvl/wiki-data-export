@@ -1,0 +1,31 @@
+{{Mod
+|id                               = WeaponSocketedAttacksDamageFinalTwoHandUber1
+|mod_groups                       = SocketedAttacksDamageFinal
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 83
+|name                             = The Shaper's
+|granted_skill                    = DelveModSocketedAttackDamageFinal2h
+|mod_type                         = SocketedAttacksDamageFinal
+|stat_text                        = [[Item socket|Socketed]] [[Skill|Skills]] deal 20% more [[Attack Damage]]
+|stat1_id                         = local_display_socketed_attack_damage_+%_final
+|stat1_min                        = 20
+|stat1_max                        = 20
+|spawn_weight1_tag                = 2h_sword_shaper
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = 2h_axe_shaper
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = 2h_mace_shaper
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = bow_shaper
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = staff_shaper
+|spawn_weight5_value              = 500
+|spawn_weight6_tag                = warstaff_shaper
+|spawn_weight6_value              = 500
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+|tags                             = skill, damage, attack, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

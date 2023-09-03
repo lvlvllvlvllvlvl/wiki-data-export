@@ -1,0 +1,21 @@
+{{Mod
+|id                               = PhysicalDamageAddedAsChaosEldritchImplicit1
+|mod_groups                       = PhysicalDamageAddedAsChaos
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|mod_type                         = PhysicalDamageAddedAsChaos
+|stat_text                        = Gain 4% of [[Physical Damage]] as Extra [[Chaos Damage]]
+|stat1_id                         = physical_damage_%_to_add_as_chaos
+|stat1_min                        = 4
+|stat1_max                        = 4
+|spawn_weight1_tag                = no_tier_6_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = boots
+|spawn_weight2_value              = 600
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = physical_damage, chaos_damage, damage, physical, chaos
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

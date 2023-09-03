@@ -1,0 +1,22 @@
+{{Mod
+|id                               = PowerChargeOnManaSpentUber1
+|mod_groups                       = PowerChargeOnManaSpent
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Shaping
+|granted_buff_id                  = power_charge_on_mana_spent
+|granted_buff_value               = 0
+|mod_type                         = PowerChargeOnManaSpent
+|stat_text                        = Gain a [[Power Charge]] after Spending a total of 200 [[Mana]]
+|stat1_id                         = local_display_gain_power_charge_on_spending_mana
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = wand_shaper
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = power_charge
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

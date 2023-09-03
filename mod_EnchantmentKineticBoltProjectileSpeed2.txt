@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentKineticBoltProjectileSpeed2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Kinetic Bolt Projectile Speed 2
+|mod_type                         = EnchantmentKineticBoltProjectileSpeed
+|stat_text                        = Kinetic Bolt has 30% increased Projectile Speed
+|stat1_id                         = kinetic_bolt_projectile_speed_+%
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, speed
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,16 @@
+{{Mod
+|id                               = BeastHeartLessLifeAtLevel
+|mod_groups                       = LifePerDifficulty
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterLessLifeNormalCruel
+|stat_text                        = 56% less Maximum Life between level 1 and 40 (Hidden)<br>45% less Maximum Life between level 41 and 57 (Hidden)
+|stat1_id                         = level_1_to_40_life_+%_final
+|stat1_min                        = -56
+|stat1_max                        = -56
+|stat2_id                         = level_41_to_57_life_+%_final
+|stat2_min                        = -45
+|stat2_max                        = -45
+|tags                             = resource, life
+}}

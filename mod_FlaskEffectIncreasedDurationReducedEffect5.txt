@@ -1,0 +1,25 @@
+{{Mod
+|id                               = FlaskEffectIncreasedDurationReducedEffect5
+|mod_groups                       = FlaskRecoverySpeed
+|domain                           = 2
+|generation_type                  = 3
+|required_level                   = 84
+|name                             = [UNUSED]
+|mod_type                         = FlaskEffectReducedDuration
+|stat_text                        = (56-66)% increased Duration<br>25% reduced effect
+|stat1_id                         = local_flask_duration_+%
+|stat1_min                        = 56
+|stat1_max                        = 66
+|stat2_id                         = local_flask_effect_+%
+|stat2_min                        = -25
+|stat2_max                        = -25
+|spawn_weight1_tag                = no_effect_flask_mod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = utility_flask
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

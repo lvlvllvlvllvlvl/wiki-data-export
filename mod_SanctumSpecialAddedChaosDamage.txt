@@ -1,0 +1,23 @@
+{{Mod
+|id                               = SanctumSpecialAddedChaosDamage
+|mod_groups                       = ChaosDamage
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Malicious
+|mod_type                         = ChaosDamage
+|stat_text                        = Adds (7-9) to (14-17) [[Chaos Damage]] to [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_chaos_damage
+|stat1_min                        = 7
+|stat1_max                        = 9
+|stat2_id                         = attack_maximum_added_chaos_damage
+|stat2_min                        = 14
+|stat2_max                        = 17
+|spawn_weight1_tag                = dex_special_relic
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 250
+|tags                             = chaos_damage, damage, chaos, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

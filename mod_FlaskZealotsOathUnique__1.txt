@@ -1,0 +1,18 @@
+{{Mod
+|id                               = FlaskZealotsOathUnique__1
+|mod_groups                       = FlaskBuffWhileHealing
+|domain                           = 2
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = FlaskZealotsOath
+|stat_text                        = Zealot's Oath during Effect<br>[[Life]] Recovery from Flasks also applies to [[Energy Shield]] during Effect
+|stat1_id                         = local_flask_zealots_oath
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_flask_life_recovery_from_flasks_also_recovers_energy_shield
+|stat2_min                        = 1
+|stat2_max                        = 1
+|tags                             = flask, resource, life, defences, energy_shield
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

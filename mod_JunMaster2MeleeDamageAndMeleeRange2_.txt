@@ -1,0 +1,23 @@
+{{Mod
+|id                               = JunMaster2MeleeDamageAndMeleeRange2_
+|mod_groups                       = MeleeRangeAndMeleeDamage
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 72
+|name                             = Chosen
+|mod_type                         = MeleeDamageAndMeleeRange
+|stat_text                        = (11-13)% increased Melee Damage<br>+1 to Melee Strike Range
+|stat1_id                         = melee_damage_+%
+|stat1_min                        = 11
+|stat1_max                        = 13
+|stat2_id                         = melee_range_+
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = amulet
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = unveiled_mod, damage, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

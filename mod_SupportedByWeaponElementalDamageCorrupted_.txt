@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SupportedByWeaponElementalDamageCorrupted_
+|mod_groups                       = SupportedByWeaponElementalDamage
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 24
+|granted_skill                    = SupportWeaponElementalDamage
+|mod_type                         = SupportedByWeaponElementalDamage
+|stat_text                        = [[Item socket|Socketed]] Gems are supported by [[Elemental Damage with Attacks Support|Level 12 Elemental Damage with Attacks]]
+|stat1_id                         = local_display_socketed_gems_get_weapon_elemental_damage_level
+|stat1_min                        = 12
+|stat1_max                        = 12
+|spawn_weight1_tag                = sceptre
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

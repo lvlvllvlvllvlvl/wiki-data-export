@@ -1,0 +1,26 @@
+{{Mod
+|id                               = LocalIncreasedPhysicalDamagePercent1
+|mod_groups                       = LocalPhysicalDamagePercent
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Heavy
+|mod_type                         = LocalPhysicalDamagePercent
+|stat_text                        = (40-49)% increased [[Physical Damage]]
+|stat1_id                         = local_physical_damage_+%
+|stat1_min                        = 40
+|stat1_max                        = 49
+|spawn_weight1_tag                = weapon
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|generation_weight1_tag           = has_attack_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_caster_mod
+|generation_weight2_value         = 65
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = physical_damage, damage, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MonsterBloodlinesUnionOfSouls
+|mod_groups                       = Bloodlines
+|domain                           = 3
+|generation_type                  = 6
+|required_level                   = 1
+|name                             = Union of Souls
+|mod_type                         = MonsterBloodlinesUnionOfSouls
+|stat_text                        = Grants 10% increased Character Size to Pack Members on death (Hidden)<br>Grants 30% increased Maximum Life to Pack Members on death (Hidden)
+|stat1_id                         = actor_scale_+%_granted_to_pack_members_on_death
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = maximum_life_+%_granted_to_pack_members_on_death
+|stat2_min                        = 30
+|stat2_max                        = 30
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+|tags                             = resource, life
+}}

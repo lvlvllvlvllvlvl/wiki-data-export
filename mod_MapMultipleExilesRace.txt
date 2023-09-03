@@ -1,0 +1,21 @@
+{{Mod
+|id                               = MapMultipleExilesRace
+|mod_groups                       = MapMultipleExilesRace
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapMultipleExilesRace
+|stat_text                        = Area is inhabited by 10 additional Rogue Exiles
+|stat1_id                         = map_spawn_extra_exiles
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = map_ignore_rogue_exile_rarity_bias
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = map_override_rogue_exile_min_level
+|stat3_min                        = 2
+|stat3_max                        = 2
+|stat4_id                         = map_extra_content_weighting
+|stat4_min                        = 1
+|stat4_max                        = 1
+}}

@@ -1,0 +1,16 @@
+{{Mod
+|id                               = WeaponEnchantmentHeistAilmentEffectSocketPenalty1__
+|mod_groups                       = EnchantmentHeistWeapon
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 69
+|name                             = Enchantment Ailment Modifier Effect and Socket Penalty
+|mod_type                         = WeaponEnchantmentHeistAilmentModifierEffectSocketPenalty
+|stat_text                        = 15% increased Explicit Ailment Modifier magnitudes<br>-3 to maximum [[Item socket|Sockets]]
+|stat1_id                         = heist_enchantment_ailment_mod_effect_+%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = local_maximum_sockets_+
+|stat2_min                        = -3
+|stat2_max                        = -3
+}}

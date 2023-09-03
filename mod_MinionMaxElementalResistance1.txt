@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MinionMaxElementalResistance1
+|mod_groups                       = MinionMaxElementalResistance
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Impermeability
+|mod_type                         = MinionMaxElementalResistance
+|stat_text                        = [[Minion|Minions]] have +(3-4)% to all maximum [[Elemental Resistance|Elemental Resistances]]
+|stat1_id                         = minion_maximum_all_elemental_resistances_%
+|stat1_min                        = 3
+|stat1_max                        = 4
+|spawn_weight1_tag                = focus_can_roll_minion_modifiers
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

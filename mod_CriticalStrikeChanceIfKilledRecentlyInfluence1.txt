@@ -1,0 +1,24 @@
+{{Mod
+|id                               = CriticalStrikeChanceIfKilledRecentlyInfluence1
+|mod_groups                       = CriticalStrikeChanceIfKilledRecently
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Crusade
+|mod_type                         = CriticalStrikeChanceIfKilledRecently
+|stat_text                        = (31-40)% increased [[Critical Strike Chance]] if you have Killed [[Recently]]
+|stat1_id                         = critical_strike_chance_+%_if_enemy_killed_recently
+|stat1_min                        = 31
+|stat1_max                        = 40
+|spawn_weight1_tag                = claw_crusader
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = dagger_crusader
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = rune_dagger_crusader
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

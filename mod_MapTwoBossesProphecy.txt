@@ -1,0 +1,23 @@
+{{Mod
+|id                               = MapTwoBossesProphecy
+|mod_groups                       = MapTwoBosses
+|domain                           = 5
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Twinned
+|mod_type                         = MapTwoBosses
+|stat_text                        = Area contains two Unique Bosses
+|stat1_id                         = map_spawn_two_bosses
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = cannot_be_twinned
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = unique_map
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = secret_area
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = old_map
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+}}

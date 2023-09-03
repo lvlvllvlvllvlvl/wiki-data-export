@@ -1,0 +1,24 @@
+{{Mod
+|id                               = HellscapeDownsideNearbyEnemiesTakeReducedFireDamage3_
+|mod_groups                       = LocalDisplayNearbyEnemyFireDamageResistance
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 68
+|granted_buff_id                  = reduced_enemy_fire_resistance_from_hellscape_item
+|granted_buff_value               = 60
+|mod_type                         = NearbyEnemyFireDamageResistance
+|stat_text                        = Nearby Enemies have +9% to [[Fire Resistance]]<br>+9% to [[Fire Resistance]]
+|stat1_id                         = local_display_nearby_enemy_fire_damage_resistance_%
+|stat1_min                        = 9
+|stat1_max                        = 9
+|stat2_id                         = base_fire_damage_resistance_%
+|stat2_min                        = 9
+|stat2_max                        = 9
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, resistance
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

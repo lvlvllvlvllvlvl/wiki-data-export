@@ -1,0 +1,18 @@
+{{Mod
+|id                               = ChaosNonAilmentDamageOverTimeMultiplier2h4
+|mod_groups                       = DamageOverTimeMultiplier
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 64
+|name                             = Atrophying
+|mod_type                         = ChaosDamageOverTimeMultiplier
+|stat_text                        = +(56-65)% to [[Chaos Damage]] over Time Multiplier
+|stat1_id                         = chaos_dot_multiplier_+
+|stat1_min                        = 56
+|stat1_max                        = 65
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = dot_multi, chaos_damage, damage, chaos
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

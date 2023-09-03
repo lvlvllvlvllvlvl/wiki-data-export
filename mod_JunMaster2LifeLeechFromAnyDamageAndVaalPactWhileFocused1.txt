@@ -1,0 +1,26 @@
+{{Mod
+|id                               = JunMaster2LifeLeechFromAnyDamageAndVaalPactWhileFocused1
+|mod_groups                       = LifeLeechFromAnyDamagePermyriadWhileFocused
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of the Order
+|mod_type                         = LifeLeechFromAnyDamagePermyriadWhileFocusedAndVaalPact
+|stat_text                        = 10% of Damage Leeched as [[Life]] while Focused<br>You have Vaal Pact while Focused
+|stat1_id                         = life_leech_from_any_damage_permyriad_while_focused
+|stat1_min                        = 1000
+|stat1_max                        = 1000
+|stat2_id                         = grant_focus_skill
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = gain_vaal_pact_while_focused
+|stat3_min                        = 1
+|stat3_max                        = 1
+|spawn_weight1_tag                = amulet
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, unveiled_mod, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

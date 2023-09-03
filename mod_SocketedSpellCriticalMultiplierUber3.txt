@@ -1,0 +1,21 @@
+{{Mod
+|id                               = SocketedSpellCriticalMultiplierUber3
+|mod_groups                       = SocketedCriticalMultiplier
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 83
+|name                             = of Shaping
+|granted_skill                    = ModSupportSocketedSpellsCriticalStrikeMultiplier
+|mod_type                         = SocketedSpellCriticalMultiplier
+|stat_text                        = [[Item socket|Socketed]] [[Spell|Spells]] have +70% to [[Critical Strike Multiplier]]
+|stat1_id                         = local_display_socketed_spells_critical_strike_multiplier_+
+|stat1_min                        = 70
+|stat1_max                        = 70
+|spawn_weight1_tag                = gloves_shaper
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = skill, caster_damage, damage, caster, critical, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

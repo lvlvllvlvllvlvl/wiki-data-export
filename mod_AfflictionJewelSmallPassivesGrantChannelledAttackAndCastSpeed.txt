@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantChannelledAttackAndCastSpeed
+|mod_groups                       = AfflictionJewelSmallPassivesGrantChannelledAttackAndCastSpeed
+|domain                           = 21
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Attention
+|mod_type                         = AfflictionJewelSmallPassivesGrantChannelledAttackAndCastSpeed
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: Channelling [[Skill|Skills]] have 1% increased [[Attack]] and [[Cast Speed]]
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_attack_and_cast_speed_+%_with_channelling_skills
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = affliction_channelling_skill_damage
+|spawn_weight1_value              = 350
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, caster, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

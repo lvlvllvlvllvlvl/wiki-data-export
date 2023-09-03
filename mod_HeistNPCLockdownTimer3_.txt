@@ -1,0 +1,17 @@
+{{Mod
+|id                               = HeistNPCLockdownTimer3_
+|mod_groups                       = HeistContractLockdownTimer
+|domain                           = 23
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Delaying
+|mod_type                         = HeistNPCLockdownTimerHalved
+|stat_text                        = (7-8)% increased time before Lockdown
+|stat1_id                         = heist_contract_lockdown_timer_+%_halved
+|stat1_min                        = 15
+|stat1_max                        = 17
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 600
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

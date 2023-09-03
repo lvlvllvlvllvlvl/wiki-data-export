@@ -1,0 +1,26 @@
+{{Mod
+|id                               = AbyssCriticalStrikeMultiplierIfEnemySlainRecentlyJewel1
+|mod_groups                       = CriticalStrikeMultiplierIfEnemySlainRecently
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 25
+|name                             = of the Assassin
+|mod_type                         = CriticalStrikeMultiplierIfEnemySlainRecently
+|stat_text                        = +(8-14)% to [[Critical Strike Multiplier]] if you've Killed [[Recently]]
+|stat1_id                         = critical_strike_multiplier_+_if_enemy_killed_recently
+|stat1_min                        = 8
+|stat1_max                        = 14
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = abyss_jewel_ranged
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = abyss_jewel_caster
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = abyss_jewel_summoner
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = damage, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

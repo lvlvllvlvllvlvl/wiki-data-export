@@ -1,0 +1,33 @@
+{{Mod
+|id                               = CriticalStrikeChanceTwoHandedCritChanceRecentlyUber1_
+|mod_groups                       = CriticalStrikeChanceIncrease
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Shaping
+|mod_type                         = CriticalStrikeChanceTwoHandedCritChanceRecently
+|stat_text                        = (22-25)% increased [[Critical Strike Chance]]<br>50% increased [[Critical Strike Chance]] if you have Killed [[Recently]]
+|stat1_id                         = local_critical_strike_chance_+%
+|stat1_min                        = 22
+|stat1_max                        = 25
+|stat2_id                         = critical_strike_chance_+%_if_enemy_killed_recently
+|stat2_min                        = 50
+|stat2_max                        = 50
+|spawn_weight1_tag                = 2h_sword_shaper
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = 2h_axe_shaper
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = 2h_mace_shaper
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = staff_shaper
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = warstaff_shaper
+|spawn_weight5_value              = 1000
+|spawn_weight6_tag                = bow_shaper
+|spawn_weight6_value              = 1000
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+|tags                             = attack, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

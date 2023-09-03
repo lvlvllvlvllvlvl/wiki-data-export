@@ -1,0 +1,22 @@
+{{Mod
+|id                               = AllResistancesInfluence1
+|mod_groups                       = AllResistances
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Conquest
+|mod_type                         = AllResistances
+|stat_text                        = +(10-12)% to all [[Elemental Resistance|Elemental Resistances]]
+|stat1_id                         = base_resist_all_elements_%
+|stat1_min                        = 10
+|stat1_max                        = 12
+|spawn_weight1_tag                = body_armour_adjudicator
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = belt_adjudicator
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental, resistance
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

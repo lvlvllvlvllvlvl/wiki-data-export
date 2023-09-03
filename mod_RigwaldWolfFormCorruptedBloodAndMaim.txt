@@ -1,0 +1,21 @@
+{{Mod
+|id                               = RigwaldWolfFormCorruptedBloodAndMaim
+|mod_groups                       = CausesBleeding
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = CorruptedBloodAndMaimOnHit
+|stat_text                        = 
+|stat1_id                         = corrupted_blood_on_hit_%_average_damage_to_deal_per_minute_per_stack
+|stat1_min                        = 600
+|stat1_max                        = 600
+|stat2_id                         = maim_on_hit_%_with_at_least_3_stacks_of_corrupted_blood
+|stat2_min                        = 100
+|stat2_max                        = 100
+|stat3_id                         = corrupted_blood_on_hit_duration
+|stat3_min                        = 4000
+|stat3_max                        = 4000
+|tags                             = physical_damage, bleed, damage, physical, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentArcaneCloakAdditionalManaSpent2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Arcane Cloak Additional Mana Spent 2
+|mod_type                         = EnchantmentArcaneCloakAdditionalManaSpent
+|stat_text                        = Arcane Cloak Spends an additional 15% of current [[Mana]]
+|stat1_id                         = arcane_cloak_consume_%_of_mana
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, mana
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

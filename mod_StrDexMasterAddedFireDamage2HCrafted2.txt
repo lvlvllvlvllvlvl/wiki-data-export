@@ -1,0 +1,21 @@
+{{Mod
+|id                               = StrDexMasterAddedFireDamage2HCrafted2
+|mod_groups                       = FireDamage
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 30
+|name                             = Burning
+|mod_type                         = LocalFireDamageTwoHand
+|stat_text                        = Adds (22-29) to (43-51) [[Fire Damage]]
+|stat1_id                         = local_minimum_added_fire_damage
+|stat1_min                        = 22
+|stat1_max                        = 29
+|stat2_id                         = local_maximum_added_fire_damage
+|stat2_min                        = 43
+|stat2_max                        = 51
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

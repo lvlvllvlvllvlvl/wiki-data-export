@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MapLeaguestoneWarbandsExtraSupports
+|mod_groups                       = MapLeaguestoneWarbandsExtraSupports
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 10
+|name                             = Scout's
+|mod_type                         = MapLeaguestoneWarbandsExtraSupports
+|stat_text                        = Warbands in the next Area will have 2 additional Support Members
+|stat1_id                         = map_warbands_packs_have_additional_supports
+|stat1_min                        = 2
+|stat1_max                        = 2
+|stat2_id                         = leaguestone_prefix_minimum_area_level
+|stat2_min                        = 10
+|stat2_max                        = 10
+|spawn_weight1_tag                = warbands_leaguestone
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,28 @@
+{{Mod
+|id                               = MonsterModKitavaTouched
+|mod_groups                       = MonsterModKitavaTouched
+|domain                           = 3
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Kitava-touched
+|mod_type                         = MonsterModKitavaTouched
+|stat_text                        = 50% increased Damage (Hidden)<br>+40% to all [[Elemental Resistance|Elemental Resistances]] (Hidden)<br>+25% to [[Chaos Resistance]] (Hidden)<br>15% additional [[Physical Damage]] Reduction (Hidden)
+|stat1_id                         = damage_+%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = base_resist_all_elements_%
+|stat2_min                        = 40
+|stat2_max                        = 40
+|stat3_id                         = base_chaos_damage_resistance_%
+|stat3_min                        = 25
+|stat3_max                        = 25
+|stat4_id                         = base_additional_physical_damage_reduction_%
+|stat4_min                        = 15
+|stat4_max                        = 15
+|spawn_weight1_tag                = sanctum_monster
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = magic
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 30
+}}

@@ -1,0 +1,29 @@
+{{Mod
+|id                               = LocalIncreasedPhysicalDamagePercentAndLeechInfluence1
+|mod_groups                       = LocalIncreasedPhysicalDamagePercentAndAccuracyRating
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Crusader's
+|mod_type                         = LocalIncreasedPhysicalDamagePercentAndLeech
+|stat_text                        = (25-34)% increased [[Physical Damage]]<br>0.6% of Physical [[Attack Damage]] Leeched as [[Life]]
+|stat1_id                         = local_physical_damage_+%
+|stat1_min                        = 25
+|stat1_max                        = 34
+|stat2_id                         = local_life_leech_from_physical_damage_permyriad
+|stat2_min                        = 60
+|stat2_max                        = 60
+|spawn_weight1_tag                = sword_crusader
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = axe_crusader
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = 2h_sword_crusader
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = 2h_axe_crusader
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = physical_damage, resource, life, damage, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,23 @@
+{{Mod
+|id                               = AdditionalSpellBlockChanceUberMaven
+|mod_groups                       = SpellBlockPercentage
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 90
+|name                             = of the Elevated Elder
+|mod_type                         = SpellBlockPercentageMaven
+|stat_text                        = (5-6)% Chance to [[Block]] [[Spell Damage]]<br>+1% to maximum Chance to [[Block]] [[Spell Damage]]
+|stat1_id                         = base_spell_block_%
+|stat1_min                        = 5
+|stat1_max                        = 6
+|stat2_id                         = base_maximum_spell_block_%
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = helmet_elder
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = block
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

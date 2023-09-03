@@ -1,0 +1,25 @@
+{{Mod
+|id                               = EnemyLightningResistanceAuraInfluence1_
+|mod_groups                       = LocalDisplayNearbyEnemyLightningDamageResistance
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 85
+|name                             = of the Crusade
+|granted_buff_id                  = reduced_enemy_lightning_resistance_from_item
+|granted_buff_value               = 60
+|mod_type                         = NearbyEnemyLightningDamageResistance
+|stat_text                        = Nearby Enemies have -9% to [[Lightning Resistance]]<br>-9% to [[Lightning Resistance]]
+|stat1_id                         = local_display_nearby_enemy_lightning_damage_resistance_%
+|stat1_min                        = -9
+|stat1_max                        = -9
+|stat2_id                         = base_lightning_damage_resistance_%
+|stat2_min                        = -9
+|stat2_max                        = -9
+|spawn_weight1_tag                = helmet_crusader
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, lightning, resistance
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

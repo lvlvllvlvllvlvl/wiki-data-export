@@ -1,0 +1,35 @@
+{{Mod
+|id                               = SpellAddedFireDamage9
+|mod_groups                       = SpellAddedElementalDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 74
+|name                             = Cremating
+|mod_type                         = SpellAddedFireDamage
+|stat_text                        = Adds (49-66) to (98-115) [[Fire Damage]] to [[Spell|Spells]]
+|stat1_id                         = spell_minimum_added_fire_damage
+|stat1_min                        = 49
+|stat1_max                        = 66
+|stat2_id                         = spell_maximum_added_fire_damage
+|stat2_min                        = 98
+|stat2_max                        = 115
+|spawn_weight1_tag                = attack_dagger
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = wand
+|spawn_weight2_value              = 800
+|spawn_weight3_tag                = sceptre
+|spawn_weight3_value              = 800
+|spawn_weight4_tag                = dagger
+|spawn_weight4_value              = 800
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|generation_weight1_tag           = has_caster_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_attack_mod
+|generation_weight2_value         = 50
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = elemental_damage, caster_damage, damage, elemental, fire, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

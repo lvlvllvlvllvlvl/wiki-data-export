@@ -1,0 +1,28 @@
+{{Mod
+|id                               = TwoHandedCritChanceJewel
+|mod_groups                       = MeleeTypeCritChance
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Sundering
+|mod_type                         = TwoHandedCritChanceForJewel
+|stat_text                        = (14-18)% increased [[Critical Strike Chance]] with [[Two Handed Melee Weapons]]
+|stat1_id                         = two_handed_melee_critical_strike_chance_+%
+|stat1_min                        = 14
+|stat1_max                        = 18
+|spawn_weight1_tag                = bow
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = one_handed_mod
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = shield_mod
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = dual_wielding_mod
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = not_int
+|spawn_weight5_value              = 250
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = attack, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

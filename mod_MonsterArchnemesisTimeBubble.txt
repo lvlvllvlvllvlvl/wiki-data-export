@@ -1,0 +1,31 @@
+{{Mod
+|id                               = MonsterArchnemesisTimeBubble
+|mod_groups                       = MonsterArchnemesisTimeBubble
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 34
+|name                             = Temporal
+|granted_buff_id                  = archnemesis_time_bubble
+|granted_buff_value               = 32
+|mod_type                         = MonsterArchnemesisTimeBubble
+|stat_text                        = 25% reduced Action Speed (Hidden)<br>Debuffs on you expire 40% slower (Hidden)<br>60% reduced Cooldown Recovery Rate (Hidden)
+|stat1_id                         = action_speed_-%
+|stat1_min                        = 25
+|stat1_max                        = 25
+|stat2_id                         = debuff_time_passed_+%
+|stat2_min                        = -40
+|stat2_max                        = -40
+|stat3_id                         = base_cooldown_speed_+%
+|stat3_min                        = -60
+|stat3_max                        = -60
+|stat4_id                         = cannot_be_damaged_by_things_outside_radius
+|stat4_min                        = 32
+|stat4_max                        = 32
+|stat5_id                         = dropped_items_are_fully_linked
+|stat5_min                        = 1
+|stat5_max                        = 1
+|spawn_weight1_tag                = magic
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 200
+}}

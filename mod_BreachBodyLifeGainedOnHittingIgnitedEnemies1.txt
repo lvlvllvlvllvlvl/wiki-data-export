@@ -1,0 +1,18 @@
+{{Mod
+|id                               = BreachBodyLifeGainedOnHittingIgnitedEnemies1
+|mod_groups                       = LifeGainOnHitVsIgnitedEnemies
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Xoph
+|mod_type                         = LifeGainOnHitVsIgnitedEnemies
+|stat_text                        = Gain (20-30) [[Life]] for each Ignited Enemy [[Hit|hit]] with [[Attack|Attacks]]
+|stat1_id                         = life_gain_on_ignited_enemy_hit
+|stat1_min                        = 20
+|stat1_max                        = 30
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

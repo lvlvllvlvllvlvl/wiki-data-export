@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialFireResistance
+|mod_groups                       = FireResistance
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Pyre
+|mod_type                         = FireResistance
+|stat_text                        = +(20-30)% to [[Fire Resistance]]
+|stat1_id                         = base_fire_damage_resistance_%
+|stat1_min                        = 20
+|stat1_max                        = 30
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 250
+|tags                             = elemental, fire, resistance
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

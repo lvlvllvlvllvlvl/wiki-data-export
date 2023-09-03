@@ -1,0 +1,26 @@
+{{Mod
+|id                               = AbyssDamageIfEnemySlainRecentlyJewel1
+|mod_groups                       = DamageIfEnemySlainRecently
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Slayer
+|mod_type                         = DamageIfEnemySlainRecently
+|stat_text                        = (15-20)% increased Damage if you've Killed [[Recently]]
+|stat1_id                         = damage_+%_if_enemy_killed_recently
+|stat1_min                        = 15
+|stat1_max                        = 20
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = abyss_jewel_ranged
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = abyss_jewel_caster
+|spawn_weight3_value              = 250
+|spawn_weight4_tag                = abyss_jewel_summoner
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = damage
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AbyssAttacksTauntOnHitChanceJewel2
+|mod_groups                       = TauntOnHit
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 65
+|name                             = of Taunting
+|mod_type                         = AttacksTauntOnHitChance
+|stat_text                        = (6-8)% chance to Taunt Enemies on [[Hit]] with [[Attack|Attacks]]
+|stat1_id                         = attacks_chance_to_taunt_on_hit_%
+|stat1_min                        = 6
+|stat1_max                        = 8
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

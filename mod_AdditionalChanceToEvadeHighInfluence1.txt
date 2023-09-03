@@ -1,0 +1,22 @@
+{{Mod
+|id                               = AdditionalChanceToEvadeHighInfluence1
+|mod_groups                       = AdditionalChanceToEvade
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Redemption
+|mod_type                         = AdditionalChanceToEvade
+|stat_text                        = +(3-5)% chance to Evade [[Attack]] [[Hit|Hits]]
+|stat1_id                         = chance_to_evade_attacks_%
+|stat1_min                        = 3
+|stat1_max                        = 5
+|spawn_weight1_tag                = shield_eyrie
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = amulet_eyrie
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = defences, evasion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

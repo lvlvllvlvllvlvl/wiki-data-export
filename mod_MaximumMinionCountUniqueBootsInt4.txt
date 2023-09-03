@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MaximumMinionCountUniqueBootsInt4
+|mod_groups                       = MinionGlobalSkillLevel
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MinionGlobalSkillLevel
+|stat_text                        = +1 to [[Level]] of all [[Raise Zombie]] Gems<br>+1 to [[Level]] of all [[Raise Spectre]] Gems
+|stat1_id                         = raise_zombie_gem_level_+
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = raise_spectre_gem_level_+
+|stat2_min                        = 1
+|stat2_max                        = 1
+|tags                             = skill, minion, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

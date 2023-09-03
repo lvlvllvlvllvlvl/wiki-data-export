@@ -1,0 +1,15 @@
+{{Mod
+|id                               = MonsterModOverwhelmPDR
+|mod_groups                       = MonsterModOverwhelmPDR
+|domain                           = 3
+|generation_type                  = 1
+|required_level                   = 6
+|name                             = Overwhelming
+|mod_type                         = MonsterModOverwhelmPDR
+|stat_text                        = Overwhelm 30% [[Physical Damage]] Reduction (Hidden)
+|stat1_id                         = enemy_phys_reduction_%_penalty_vs_hit
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 5000
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideManaRegenFlat1c
+|mod_groups                       = ManaRegeneration
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 25
+|mod_type                         = AddedManaRegeneration
+|stat_text                        = Regenerate (2.6-2.8) [[Mana]] per second
+|stat1_id                         = base_mana_regeneration_rate_per_minute
+|stat1_min                        = 155
+|stat1_max                        = 170
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, mana
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

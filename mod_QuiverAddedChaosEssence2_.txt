@@ -1,0 +1,21 @@
+{{Mod
+|id                               = QuiverAddedChaosEssence2_
+|mod_groups                       = ChaosDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 74
+|name                             = Essences
+|mod_type                         = ChaosDamage
+|stat_text                        = Adds (17-21) to (37-43) [[Chaos Damage]] to [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_chaos_damage
+|stat1_min                        = 17
+|stat1_max                        = 21
+|stat2_id                         = attack_maximum_added_chaos_damage
+|stat2_min                        = 37
+|stat2_max                        = 43
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = chaos_damage, damage, chaos, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

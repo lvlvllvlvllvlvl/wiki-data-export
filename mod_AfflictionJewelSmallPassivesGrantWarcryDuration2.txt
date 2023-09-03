@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantWarcryDuration2
+|mod_groups                       = AfflictionJewelSmallPassivesGrantWarcryDuration
+|domain                           = 21
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Shouting
+|mod_type                         = AfflictionJewelSmallPassivesGrantWarcryDuration
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: 3% increased Warcry Duration
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_warcry_duration_+%
+|stat1_min                        = 3
+|stat1_max                        = 3
+|spawn_weight1_tag                = affliction_warcry_buff_effect
+|spawn_weight1_value              = 350
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialStrikeSkillsAdditionalTarget
+|mod_groups                       = StrikeSkillsAdditionalTarget
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 82
+|name                             = Ancestral
+|mod_type                         = StrikeSkillsAdditionalTarget
+|stat_text                        = Non-Vaal Strike [[Skill|Skills]] target (1-2) additional nearby Enemies
+|stat1_id                         = melee_attack_number_of_spirit_strikes
+|stat1_min                        = 1
+|stat1_max                        = 2
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 50
+|tags                             = attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

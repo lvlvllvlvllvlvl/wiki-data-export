@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideLifeGainOnHitWithAttacks2_
+|mod_groups                       = LifeGainPerTarget
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 45
+|mod_type                         = LifeGainPerTarget
+|stat_text                        = Gain (3-4) [[Life]] per Enemy [[Hit]] with [[Attack|Attacks]]
+|stat1_id                         = base_life_gain_per_target
+|stat1_min                        = 3
+|stat1_max                        = 4
+|spawn_weight1_tag                = gloves
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

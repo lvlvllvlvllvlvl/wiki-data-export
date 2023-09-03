@@ -1,0 +1,23 @@
+{{Mod
+|id                               = WeaponTreeSkillAnimateGuardian
+|mod_groups                       = WeaponTreeSkillAnimateGuardian
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSkillAnimateGuardian
+|stat_text                        = Link [[Skill|Skills]] can target [[Animate Guardian|Animated Guardian]]<br>50% increased Effect of Link Buffs on [[Animate Guardian|Animated Guardian]]
+|stat1_id                         = link_skills_can_target_animate_guardian
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = link_buff_effect_+%_on_animate_guardian
+|stat2_min                        = 50
+|stat2_max                        = 50
+|spawn_weight1_tag                = minion_unique_weapon
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = weapon_can_roll_minion_modifiers
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = focus_can_roll_minion_modifiers
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+}}

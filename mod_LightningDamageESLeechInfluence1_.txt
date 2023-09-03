@@ -1,0 +1,20 @@
+{{Mod
+|id                               = LightningDamageESLeechInfluence1_
+|mod_groups                       = LightningDamageLifeLeech
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Crusader's
+|mod_type                         = LightningDamageESLeech
+|stat_text                        = (0.2-0.4)% of [[Lightning Damage]] Leeched as [[Energy Shield]]
+|stat1_id                         = base_energy_shield_leech_from_lightning_damage_permyriad
+|stat1_min                        = 20
+|stat1_max                        = 40
+|spawn_weight1_tag                = amulet_crusader
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = defences, energy_shield, elemental, lightning
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

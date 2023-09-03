@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentExplosiveConcoctionCharges1_
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Explosive Concoction Flask Charges 1
+|mod_type                         = EnchantmentExplosiveConcoctionCharges
+|stat_text                        = Explosive Concoction uses 8% reduced Flask [[Charge|Charges]]
+|stat1_id                         = explosive_concoction_flask_charges_consumed_+%
+|stat1_min                        = -8
+|stat1_max                        = -8
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

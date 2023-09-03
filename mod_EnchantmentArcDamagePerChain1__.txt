@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentArcDamagePerChain1__
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Arc Damage Per Chain 1
+|mod_type                         = EnchantmentArcDamagePerChain
+|stat_text                        = Arc deals 8% increased Damage for each time it has Chained
+|stat1_id                         = arc_damage_+%_per_chain
+|stat1_min                        = 8
+|stat1_max                        = 8
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster_damage, damage, caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

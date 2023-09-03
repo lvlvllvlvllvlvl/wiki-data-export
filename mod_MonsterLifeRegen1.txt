@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MonsterLifeRegen1
+|mod_groups                       = LifeRegenerationRatePercentage
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 8
+|name                             = Sanguine
+|mod_type                         = MonsterLifeRegenerationRatePercentage
+|stat_text                        = Regenerate 0.67% of [[Life]] per second (Hidden)
+|stat1_id                         = life_regeneration_rate_per_minute_%
+|stat1_min                        = 40
+|stat1_max                        = 40
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+|tags                             = resource, life
+}}

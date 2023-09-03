@@ -1,0 +1,22 @@
+{{Mod
+|id                               = TauntOnHitWeaponInfluence3
+|mod_groups                       = TauntOnHit
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 73
+|name                             = of the Crusade
+|mod_type                         = AttacksTauntOnHitChance
+|stat_text                        = (9-10)% chance to Taunt Enemies on [[Hit]] with [[Attack|Attacks]]
+|stat1_id                         = attacks_chance_to_taunt_on_hit_%
+|stat1_min                        = 9
+|stat1_max                        = 10
+|spawn_weight1_tag                = axe_crusader
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = 2h_axe_crusader
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,29 @@
+{{Mod
+|id                               = WeaponTreeSpellCriticalStrikeChanceCriticalsDealNoExtraDamage3
+|mod_groups                       = AdditionalCriticalStrikeChanceWithSpells
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 80
+|mod_type                         = WeaponTreeAdditionalCriticalStrikeChanceWithSpellsAndNoExtraDamageWithCrits
+|stat_text                        = +6% to [[Spell]] [[Critical Strike Chance]]<br>Your Critical Strikes do not deal extra Damage
+|stat1_id                         = spell_additional_critical_strike_chance_permyriad
+|stat1_min                        = 600
+|stat1_max                        = 600
+|stat2_id                         = no_critical_strike_multiplier
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = attack_dagger
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = wand
+|spawn_weight4_value              = 250
+|spawn_weight5_tag                = sceptre
+|spawn_weight5_value              = 250
+|spawn_weight6_tag                = dagger
+|spawn_weight6_value              = 250
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+}}

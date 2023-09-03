@@ -1,0 +1,21 @@
+{{Mod
+|id                               = WeaponTreePoisonDuration1
+|mod_groups                       = WeaponTreePoisonDuration
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreePoisonDuration
+|stat_text                        = 10% increased [[Poison]] Duration<br>15% increased [[Poison]] Duration on you
+|stat1_id                         = base_poison_duration_+%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = self_poison_duration_+%
+|stat2_min                        = 15
+|stat2_max                        = 15
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 300
+|spawn_weight2_tag                = shield
+|spawn_weight2_value              = 300
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

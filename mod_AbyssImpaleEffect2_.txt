@@ -1,0 +1,26 @@
+{{Mod
+|id                               = AbyssImpaleEffect2_
+|mod_groups                       = ImpaleEffect
+|domain                           = 13
+|generation_type                  = 1
+|required_level                   = 86
+|name                             = Lancing
+|mod_type                         = ImpaleEffect
+|stat_text                        = (5-6)% increased Impale Effect
+|stat1_id                         = impale_debuff_effect_+%
+|stat1_min                        = 5
+|stat1_max                        = 6
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 300
+|spawn_weight2_tag                = abyss_jewel_ranged
+|spawn_weight2_value              = 300
+|spawn_weight3_tag                = abyss_jewel_caster
+|spawn_weight3_value              = 100
+|spawn_weight4_tag                = abyss_jewel_summoner
+|spawn_weight4_value              = 100
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = physical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

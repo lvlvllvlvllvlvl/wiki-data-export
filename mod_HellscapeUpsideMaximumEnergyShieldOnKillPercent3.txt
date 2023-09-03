@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideMaximumEnergyShieldOnKillPercent3
+|mod_groups                       = MaximumEnergyShieldOnKillPercent
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = MaximumEnergyShieldOnKillPercent
+|stat_text                        = Recover 3% of [[Energy Shield]] on [[Kill]]
+|stat1_id                         = recover_energy_shield_%_on_kill
+|stat1_min                        = 3
+|stat1_max                        = 3
+|spawn_weight1_tag                = body_armour
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = defences, energy_shield
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

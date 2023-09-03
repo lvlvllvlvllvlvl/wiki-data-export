@@ -1,0 +1,16 @@
+{{Mod
+|id                               = TriggerSocketedCurseSkillsOnCurseUnique__1_
+|mod_groups                       = SupportedByTrigger
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|granted_skill                    = SupportUniqueCastCurseOnCurse
+|mod_type                         = TriggerCurseOnCurse
+|stat_text                        = Trigger [[Item socket|Socketed]] [[Curse]] [[Spell]] when you Cast a [[Curse]] Spell, with a 0.25 second Cooldown
+|stat1_id                         = local_display_trigger_socketed_curses_on_casting_curse_%_chance
+|stat1_min                        = 100
+|stat1_max                        = 100
+|tags                             = skill, caster, gem, curse
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

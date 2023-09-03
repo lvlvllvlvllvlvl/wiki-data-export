@@ -1,0 +1,19 @@
+{{Mod
+|id                               = EnchantmentTaunt
+|mod_groups                       = BuffEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 83
+|mod_type                         = EnchantmentTaunt
+|stat_text                        = Enemies Taunted by you deal 5% less Area Damage
+|stat1_id                         = belt_enchant_enemies_you_taunt_have_area_damage_+%_final
+|stat1_min                        = -5
+|stat1_max                        = -5
+|spawn_weight1_tag                = belt
+|spawn_weight1_value              = 1
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

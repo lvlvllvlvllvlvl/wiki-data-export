@@ -1,0 +1,30 @@
+{{Mod
+|id                               = DamageFromAurasTwoHandWeaponInfluence1
+|mod_groups                       = IncreasedDamageFromAuras
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 82
+|name                             = of Redemption
+|mod_type                         = IncreasedDamageFromAuras
+|stat_text                        = Auras from your [[Skill|Skills]] grant 4% increased Damage to you and Allies
+|stat1_id                         = auras_grant_damage_+%_to_you_and_your_allies
+|stat1_min                        = 4
+|stat1_max                        = 4
+|spawn_weight1_tag                = 2h_sword_eyrie
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = 2h_axe_eyrie
+|spawn_weight2_value              = 400
+|spawn_weight3_tag                = 2h_mace_eyrie
+|spawn_weight3_value              = 400
+|spawn_weight4_tag                = staff_eyrie
+|spawn_weight4_value              = 400
+|spawn_weight5_tag                = warstaff_eyrie
+|spawn_weight5_value              = 400
+|spawn_weight6_tag                = bow_eyrie
+|spawn_weight6_value              = 400
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+|tags                             = damage, aura
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

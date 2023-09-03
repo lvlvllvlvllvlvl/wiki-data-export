@@ -1,0 +1,18 @@
+{{Mod
+|id                               = ScorchedGroundWhileMovingEldritchImplicit1
+|mod_groups                       = ItemGrantsBuff
+|domain                           = 1
+|generation_type                  = 28
+|required_level                   = 75
+|mod_type                         = ScorchedGroundMovingImplicit
+|stat_text                        = Drops Scorched Ground while moving, lasting 2 seconds
+|stat1_id                         = boots_implicit_ground_scorched_duration_ms
+|stat1_min                        = 2000
+|stat1_max                        = 2000
+|spawn_weight1_tag                = no_tier_6_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = boots
+|spawn_weight2_value              = 600
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

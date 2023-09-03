@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapAtlasMagicPackSize3
+|mod_groups                       = MapAtlasMagicPackSize
+|domain                           = 11
+|generation_type                  = 1
+|required_level                   = 1
+|mod_type                         = MapAtlasMagicPackSize
+|stat_text                        = 3 uses remaining<br>25% increased Magic Pack Size
+|stat1_id                         = sextant_uses_remaining
+|stat1_min                        = 3
+|stat1_max                        = 3
+|stat2_id                         = map_magic_pack_size_+%
+|stat2_min                        = 25
+|stat2_max                        = 25
+|spawn_weight1_tag                = no_monster_packs
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 500
+}}

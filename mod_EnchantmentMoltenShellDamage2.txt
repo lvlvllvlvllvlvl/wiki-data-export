@@ -1,0 +1,19 @@
+{{Mod
+|id                               = EnchantmentMoltenShellDamage2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Molten Shell Duration 2
+|mod_type                         = EnchantmentMoltenShellDuration
+|stat_text                        = [[Molten Shell]] has 40% increased [[Skill]] Effect Duration
+|stat1_id                         = molten_shell_duration_+%
+|stat1_min                        = 40
+|stat1_max                        = 40
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = JunMaster2LocalFlaskCriticalStrikeChanceDuringFlaskEffect1
+|mod_groups                       = LocalFlaskCriticalStrikeChanceDuringFlaskEffect
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of the Order
+|mod_type                         = LocalFlaskCriticalStrikeChanceDuringFlaskEffect
+|stat_text                        = (40-60)% increased [[Critical Strike Chance]] during Effect
+|stat1_id                         = local_flask_critical_strike_chance_+%_during_flask_effect
+|stat1_min                        = 40
+|stat1_max                        = 60
+|spawn_weight1_tag                = flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, unveiled_mod, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

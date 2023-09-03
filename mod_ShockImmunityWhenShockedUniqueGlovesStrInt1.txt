@@ -1,0 +1,15 @@
+{{Mod
+|id                               = ShockImmunityWhenShockedUniqueGlovesStrInt1
+|mod_groups                       = TriggeredStatusImmunity
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = ShockImmunityWhenShocked
+|stat_text                        = You cannot be [[Shock|Shocked]] for 3 seconds after being [[Shock|Shocked]]
+|stat1_id                         = shock_prevention_ms_when_shocked
+|stat1_min                        = 3000
+|stat1_max                        = 3000
+|tags                             = elemental, lightning, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

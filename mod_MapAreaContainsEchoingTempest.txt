@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapAreaContainsEchoingTempest
+|mod_groups                       = MapAreaContainsSpecificTempest
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Hollow
+|mod_type                         = MapAreaContainsSpecificTempest
+|stat_text                        = Next Area will be affected by an Echoing Tempest
+|stat1_id                         = map_leaguestone_explicit_tempest_type_override
+|stat1_min                        = 5
+|stat1_max                        = 5
+|spawn_weight1_tag                = tempest_leaguestone
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

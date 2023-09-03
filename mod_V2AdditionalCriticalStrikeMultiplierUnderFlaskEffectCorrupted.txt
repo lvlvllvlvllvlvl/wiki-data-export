@@ -1,0 +1,17 @@
+{{Mod
+|id                               = V2AdditionalCriticalStrikeMultiplierUnderFlaskEffectCorrupted
+|mod_groups                       = AdditionalCriticalStrikeMultiplierUnderFlaskEffect
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 60
+|mod_type                         = AdditionalCriticalStrikeMultiplierUnderFlaskEffect
+|stat_text                        = +(20-25)% to [[Critical Strike Multiplier]] during any Flask Effect
+|stat1_id                         = critical_strike_multiplier_+_during_any_flask_effect
+|stat1_min                        = 20
+|stat1_max                        = 25
+|spawn_weight1_tag                = belt
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, damage, critical
+}}

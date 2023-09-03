@@ -1,0 +1,26 @@
+{{Mod
+|id                               = ColdDamageOverTimeMultiplierEldritchImplicitUniquePresence4
+|mod_groups                       = DamageOverTimeMultiplier
+|domain                           = 1
+|generation_type                  = 28
+|required_level                   = 75
+|granted_buff_id                  = influence_stat_condition_presence_unique_monster
+|granted_buff_value               = 0
+|mod_type                         = ColdDamageOverTimeMultiplierUniquePresence
+|stat_text                        = +(23-25)% to [[Cold Damage]] over Time Multiplier
+|stat1_id                         = cold_dot_multiplier_+
+|stat1_min                        = 23
+|stat1_max                        = 25
+|stat2_id                         = local_influence_mod_requires_unique_monster_presence
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = no_tier_3_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = gloves
+|spawn_weight2_value              = 300
+|spawn_weight3_tag                = amulet
+|spawn_weight3_value              = 300
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = dot_multi, elemental_damage, damage, elemental, cold
+}}

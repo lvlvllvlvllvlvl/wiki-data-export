@@ -1,0 +1,24 @@
+{{Mod
+|id                               = IncreasedChillEffectSupportedUber3
+|mod_groups                       = HelmetAilmentUber
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of Shaping
+|granted_skill                    = SupportDamageAgainstChilled
+|mod_type                         = ChillEffectSupported
+|stat_text                        = (17-20)% increased Effect of Cold Ailments<br>[[Item socket|Socketed]] Gems are Supported by [[Hypothermia Support|Level 20 Hypothermia]]
+|stat1_id                         = cold_ailment_effect_+%
+|stat1_min                        = 17
+|stat1_max                        = 20
+|stat2_id                         = local_display_socketed_gems_supported_by_x_hypothermia
+|stat2_min                        = 20
+|stat2_max                        = 20
+|spawn_weight1_tag                = helmet_shaper
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, elemental, cold, ailment, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

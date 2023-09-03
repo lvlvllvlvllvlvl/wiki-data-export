@@ -1,0 +1,22 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantEvasion2__
+|mod_groups                       = AfflictionJewelSmallPassivesGrantEvasion
+|domain                           = 21
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Dancer's
+|mod_type                         = AfflictionJewelSmallPassivesGrantEvasion
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: +(21-30) to [[Evasion]]
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_evasion
+|stat1_min                        = 21
+|stat1_max                        = 30
+|spawn_weight1_tag                = expansion_jewel_large
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = expansion_jewel_medium
+|spawn_weight2_value              = 400
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = defences, evasion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

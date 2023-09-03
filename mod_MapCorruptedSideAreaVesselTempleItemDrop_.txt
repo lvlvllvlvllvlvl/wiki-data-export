@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapCorruptedSideAreaVesselTempleItemDrop_
+|mod_groups                       = MapVesselTempleItemDrop
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 69
+|name                             = of Atzoatl
+|mod_type                         = MapCorruptedSideAreaVesselTempleItemDrop
+|stat_text                        = Vaal Vessel contains (1-2) additional Corrupted Rare Items with an Incursion Modifier
+|stat1_id                         = map_vaal_vessel_drop_X_rare_temple_items
+|stat1_min                        = 1
+|stat1_max                        = 2
+|spawn_weight1_tag                = map_device
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = secret_area
+|spawn_weight2_value              = 100
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

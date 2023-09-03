@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MonsterModCorruptedBlood
+|mod_groups                       = MonsterModCorruptedBlood
+|domain                           = 3
+|generation_type                  = 1
+|required_level                   = 46
+|name                             = Corrupting
+|mod_type                         = MonsterModCorruptedBlood
+|stat_text                        = 
+|stat1_id                         = base_corrupt_blood_when_hit_%_average_damage_to_deal_per_minute_per_stack
+|stat1_min                        = 60
+|stat1_max                        = 60
+|stat2_id                         = corrupted_blood_on_hit_%_average_damage_to_deal_per_minute_per_stack
+|stat2_min                        = 120
+|stat2_max                        = 120
+|stat3_id                         = corrupted_blood_on_hit_duration
+|stat3_min                        = 4000
+|stat3_max                        = 4000
+|stat4_id                         = corrupted_blood_on_hit_num_stacks
+|stat4_min                        = 1
+|stat4_max                        = 1
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 500
+}}

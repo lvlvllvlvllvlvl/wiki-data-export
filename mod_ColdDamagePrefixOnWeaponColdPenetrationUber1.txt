@@ -1,0 +1,26 @@
+{{Mod
+|id                               = ColdDamagePrefixOnWeaponColdPenetrationUber1
+|mod_groups                       = WeaponCasterDamagePrefix
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = The Shaper's
+|granted_skill                    = SupportColdPenetration
+|mod_type                         = ColdDamagePrefixColdPenetration
+|stat_text                        = (45-52)% increased [[Cold Damage]]<br>[[Item socket|Socketed]] Gems are Supported by [[Cold Penetration Support|Level 16 Cold Penetration]]
+|stat1_id                         = cold_damage_+%
+|stat1_min                        = 45
+|stat1_max                        = 52
+|stat2_id                         = local_display_socketed_gems_supported_by_x_cold_penetration
+|stat2_min                        = 16
+|stat2_max                        = 16
+|spawn_weight1_tag                = rune_dagger_shaper
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = wand_shaper
+|spawn_weight2_value              = 400
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = support, elemental_damage, damage, elemental, cold, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

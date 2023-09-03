@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MonsterArchnemesisMinionVampiric
+|mod_groups                       = MonsterArchnemesis
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterArchnemesisVampiricMinion
+|stat_text                        = 100% of Damage Leeched as [[Life]] (Hidden)<br><abbr title="Cannot be Life-Leeched">Enemies Cannot [[Leech]] [[Life]] From you</abbr><br>Enemies Cannot [[Leech]] [[Energy Shield]] From you (Hidden)
+|stat1_id                         = life_leech_from_any_damage_permyriad
+|stat1_min                        = 10000
+|stat1_max                        = 10000
+|stat2_id                         = cannot_have_life_leeched_from
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = cannot_have_energy_shield_leeched_from
+|stat3_min                        = 1
+|stat3_max                        = 1
+}}

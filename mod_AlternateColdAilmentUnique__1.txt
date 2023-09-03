@@ -1,0 +1,18 @@
+{{Mod
+|id                               = AlternateColdAilmentUnique__1
+|mod_groups                       = AlternateAilment
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = AlternateColdAilment
+|stat_text                        = (25-50)% chance to inflict Brittle<br>Cannot inflict [[Freeze]] or Chill
+|stat1_id                         = chance_to_inflict_frostburn_%
+|stat1_min                        = 25
+|stat1_max                        = 50
+|stat2_id                         = never_freeze_or_chill
+|stat2_min                        = 1
+|stat2_max                        = 1
+|tags                             = elemental, cold, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

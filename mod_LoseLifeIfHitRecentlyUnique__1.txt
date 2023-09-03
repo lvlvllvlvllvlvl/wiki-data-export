@@ -1,0 +1,13 @@
+{{Mod
+|id                               = LoseLifeIfHitRecentlyUnique__1
+|mod_groups                       = LoseLife
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = LoseLifeIfHitRecently
+|stat_text                        = Lose 2% of [[Life]] per second if you have been [[Hit]] [[Recently]]
+|stat1_id                         = life_loss_%_per_minute_if_have_been_hit_recently
+|stat1_min                        = 120
+|stat1_max                        = 120
+|tags                             = resource, life
+}}

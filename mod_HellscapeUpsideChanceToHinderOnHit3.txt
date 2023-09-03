@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideChanceToHinderOnHit3
+|mod_groups                       = HinderOnHit
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = SpellsHinderOnHitChance
+|stat_text                        = (9-10)% chance to Hinder Enemies on [[Hit]] with [[Spell|Spells]]
+|stat1_id                         = spells_chance_to_hinder_on_hit_%
+|stat1_min                        = 9
+|stat1_max                        = 10
+|spawn_weight1_tag                = body_armour
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

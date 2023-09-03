@@ -1,0 +1,16 @@
+{{Mod
+|id                               = TriggerBowSkillsOnBowAttackUnique__1
+|mod_groups                       = SupportedByTrigger
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|granted_skill                    = SupportTriggerBowSkillOnBowAttack
+|mod_type                         = TriggerBowSkillsOnBowAttack
+|stat_text                        = Trigger a [[Item socket|Socketed]] [[Bow Skills|Bow Skill]] when you [[Attack]] with a Bow, with a 1 second Cooldown
+|stat1_id                         = chance_to_trigger_socketed_bow_skill_on_bow_attack_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|tags                             = skill, attack, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

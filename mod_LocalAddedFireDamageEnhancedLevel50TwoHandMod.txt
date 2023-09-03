@@ -1,0 +1,24 @@
+{{Mod
+|id                               = LocalAddedFireDamageEnhancedLevel50TwoHandMod
+|mod_groups                       = FireDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 50
+|name                             = Topotante's
+|mod_type                         = LocalFireDamageTwoHandAndPen
+|stat_text                        = Adds (79-106) to (159-186) [[Fire Damage]]<br>[[Attack|Attacks]] with this Weapon Penetrate (5-7)% [[Fire Resistance]]
+|stat1_id                         = local_minimum_added_fire_damage
+|stat1_min                        = 79
+|stat1_max                        = 106
+|stat2_id                         = local_maximum_added_fire_damage
+|stat2_min                        = 159
+|stat2_max                        = 186
+|stat3_id                         = local_fire_penetration_%
+|stat3_min                        = 5
+|stat3_max                        = 7
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

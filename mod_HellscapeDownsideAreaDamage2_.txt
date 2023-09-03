@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeDownsideAreaDamage2_
+|mod_groups                       = AreaDamage
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 45
+|mod_type                         = AreaDamage
+|stat_text                        = (60-48)% reduced Area Damage
+|stat1_id                         = area_damage_+%
+|stat1_min                        = -60
+|stat1_max                        = -48
+|spawn_weight1_tag                = amulet
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

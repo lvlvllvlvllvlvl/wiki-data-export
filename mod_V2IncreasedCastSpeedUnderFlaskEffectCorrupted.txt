@@ -1,0 +1,19 @@
+{{Mod
+|id                               = V2IncreasedCastSpeedUnderFlaskEffectCorrupted
+|mod_groups                       = SpeedDuringFlaskEffect
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 60
+|mod_type                         = CastSpeedDuringFlaskEffect
+|stat_text                        = (8-12)% increased [[Cast Speed]] during any Flask Effect
+|stat1_id                         = cast_speed_+%_during_flask_effect
+|stat1_min                        = 8
+|stat1_max                        = 12
+|spawn_weight1_tag                = belt
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, caster, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

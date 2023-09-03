@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapMonstersDropAdditionalSilverCoins2
+|mod_groups                       = MapMonstersDropAdditionalSilverCoins
+|domain                           = 12
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Silver
+|mod_type                         = MapMonstersDropAdditionalSilverCoins
+|stat_text                        = Monsters with Silver Coins in next Area will drop 2 additional Silver Coins
+|stat1_id                         = map_monsters_that_drop_silver_coin_drop_x_additional_silver_coins
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = prophecy_leaguestone
+|spawn_weight1_value              = 150
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = FlaskBuffShockEffect5
+|mod_groups                       = FlaskBuffWhileHealing
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 82
+|name                             = of the Heron
+|mod_type                         = FlaskBuffShockEffect
+|stat_text                        = (65-60)% reduced Effect of [[Shock]] on you during Effect
+|stat1_id                         = local_self_shock_effect_+%_during_flask_effect
+|stat1_min                        = -65
+|stat1_max                        = -60
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

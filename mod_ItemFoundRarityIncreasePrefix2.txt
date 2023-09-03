@@ -1,0 +1,27 @@
+{{Mod
+|id                               = ItemFoundRarityIncreasePrefix2
+|mod_groups                       = ItemFoundRarityIncreasePrefix
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 39
+|name                             = Pirate's
+|mod_type                         = ItemFoundRarityIncreasePrefix
+|stat_text                        = (13-18)% increased Rarity of Items found
+|stat1_id                         = base_item_found_rarity_+%
+|stat1_min                        = 13
+|stat1_max                        = 18
+|spawn_weight1_tag                = ring
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = amulet
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = gloves
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = boots
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = helmet
+|spawn_weight5_value              = 1000
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

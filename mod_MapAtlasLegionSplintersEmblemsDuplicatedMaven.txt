@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MapAtlasLegionSplintersEmblemsDuplicatedMaven
+|mod_groups                       = MapAtlasLegionSplintersEmblemsDuplicated
+|domain                           = 11
+|generation_type                  = 1
+|required_level                   = 1
+|mod_type                         = MapAtlasLegionSplintersEmblemsDuplicated
+|stat_text                        = 15 uses remaining<br>Splinters and Emblems dropped by Legion Monsters in your Maps are duplicated<br>Legion Monsters in your Maps have 100% more [[Life]]
+|stat1_id                         = sextant_uses_remaining
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = map_legion_monster_splinter_emblem_drops_duplicated
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = map_legion_monster_life_+%_final_from_sextant
+|stat3_min                        = 100
+|stat3_max                        = 100
+|spawn_weight1_tag                = unique_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = no_monster_packs
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 50
+}}

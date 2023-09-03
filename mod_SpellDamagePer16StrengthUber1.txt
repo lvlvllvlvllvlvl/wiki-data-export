@@ -1,0 +1,26 @@
+{{Mod
+|id                               = SpellDamagePer16StrengthUber1
+|mod_groups                       = SpellDamagePerStrength
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = The Elder's
+|mod_type                         = SpellDamagePer16Strength
+|stat_text                        = 1% increased [[Spell Damage]] per 16 [[Strength]]
+|stat1_id                         = spell_damage_+%_per_16_strength
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = sceptre_elder
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|generation_weight1_tag           = has_caster_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_attack_mod
+|generation_weight2_value         = 50
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = caster_damage, damage, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

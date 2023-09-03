@@ -1,0 +1,15 @@
+{{Mod
+|id                               = StrDexMissionAddedFireDamage
+|mod_groups                       = MonsterElementalEffects
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = strdex_mission_fire_damage
+|granted_buff_value               = 0
+|mod_type                         = MonsterAddedFireDamage
+|stat_text                        = Gain 50% of [[Physical Damage]] as Extra [[Fire Damage]] (Hidden)
+|stat1_id                         = physical_damage_%_to_add_as_fire
+|stat1_min                        = 50
+|stat1_max                        = 50
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, fire
+}}

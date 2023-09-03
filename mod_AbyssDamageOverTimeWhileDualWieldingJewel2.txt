@@ -1,0 +1,26 @@
+{{Mod
+|id                               = AbyssDamageOverTimeWhileDualWieldingJewel2
+|mod_groups                       = DamageOverTimeWhileDualWielding
+|domain                           = 13
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Deleterious
+|mod_type                         = DamageOverTimeWhileDualWielding
+|stat_text                        = (15-18)% increased Damage over Time while [[Dual Wield|Dual Wielding]]
+|stat1_id                         = damage_over_time_+%_while_dual_wielding
+|stat1_min                        = 15
+|stat1_max                        = 18
+|spawn_weight1_tag                = abyss_jewel_summoner
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = two_handed_mod
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = shield_mod
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = abyss_jewel_caster
+|spawn_weight4_value              = 200
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 100
+|tags                             = damage
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

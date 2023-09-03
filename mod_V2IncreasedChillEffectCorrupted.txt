@@ -1,0 +1,19 @@
+{{Mod
+|id                               = V2IncreasedChillEffectCorrupted
+|mod_groups                       = ChillEffect
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 40
+|mod_type                         = ChillEffect
+|stat_text                        = (25-30)% increased Effect of Cold Ailments
+|stat1_id                         = cold_ailment_effect_+%
+|stat1_min                        = 25
+|stat1_max                        = 30
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, cold, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

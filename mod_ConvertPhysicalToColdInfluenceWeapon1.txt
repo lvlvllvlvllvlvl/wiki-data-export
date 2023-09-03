@@ -1,0 +1,34 @@
+{{Mod
+|id                               = ConvertPhysicalToColdInfluenceWeapon1
+|mod_groups                       = ConvertPhysicalToCold
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Crusade
+|mod_type                         = ConvertPhysicalToCold
+|stat_text                        = (23-26)% of [[Physical Damage]] Converted to [[Cold Damage]]
+|stat1_id                         = base_physical_damage_%_to_convert_to_cold
+|stat1_min                        = 23
+|stat1_max                        = 26
+|spawn_weight1_tag                = sword_crusader
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = axe_crusader
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = claw_crusader
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = dagger_crusader
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = rune_dagger_crusader
+|spawn_weight5_value              = 500
+|spawn_weight6_tag                = sceptre_crusader
+|spawn_weight6_value              = 500
+|spawn_weight7_tag                = 2h_sword_crusader
+|spawn_weight7_value              = 500
+|spawn_weight8_tag                = 2h_axe_crusader
+|spawn_weight8_value              = 500
+|spawn_weight9_tag                = default
+|spawn_weight9_value              = 0
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, cold
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

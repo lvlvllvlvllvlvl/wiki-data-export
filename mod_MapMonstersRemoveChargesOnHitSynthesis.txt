@@ -1,0 +1,23 @@
+{{Mod
+|id                               = MapMonstersRemoveChargesOnHitSynthesis
+|mod_groups                       = MapMonstersRemoveCharges
+|domain                           = 18
+|generation_type                  = 15
+|required_level                   = 1
+|mod_type                         = MapMonstersRemoveCharges
+|stat_text                        = Monsters have 10% chance to steal Power, [[Frenzy]] and [[Endurance Charge|Endurance charges]] on [[Hit]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 16
+|stat1_max                        = 16
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 9
+|stat2_max                        = 9
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 6
+|stat3_max                        = 6
+|stat4_id                         = map_monsters_steal_charges
+|stat4_min                        = 10
+|stat4_max                        = 10
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 250
+}}

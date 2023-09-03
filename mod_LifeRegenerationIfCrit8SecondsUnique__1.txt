@@ -1,0 +1,15 @@
+{{Mod
+|id                               = LifeRegenerationIfCrit8SecondsUnique__1
+|mod_groups                       = LifeRegenerationRatePercentage
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = LifeRegenerationIfCrit8Seconds
+|stat_text                        = (2-2.5)% of [[Life]] Regenerated per Second if you've dealt a [[Critical Strike]] in the past 8 seconds
+|stat1_id                         = life_regeneration_rate_per_minute_%_if_crit_in_past_8_seconds
+|stat1_min                        = 120
+|stat1_max                        = 150
+|tags                             = resource, life, critical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

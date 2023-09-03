@@ -1,0 +1,21 @@
+{{Mod
+|id                               = MapGainOnslaughtFor4SecondsOnKill
+|mod_groups                       = MapGainOnslaughtFor4SecondsOnKill
+|domain                           = 12
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Slaying
+|mod_type                         = MapGainOnslaughtFor4SecondsOnKill
+|stat_text                        = Players in next Area will have a 20% chance to gain Onslaught on [[Kill]] For 4 seconds<br>Players in next Area will have 20% increased Attack, Cast and [[Movement Speed]] while they have Onslaught
+|stat1_id                         = map_player_onslaught_on_kill_%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = map_player_attack_cast_and_movement_speed_+%_during_onslaught
+|stat2_min                        = 20
+|stat2_max                        = 20
+|spawn_weight1_tag                = onslaught_leaguestone
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, caster, speed
+}}

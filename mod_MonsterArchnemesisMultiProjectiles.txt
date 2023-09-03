@@ -1,0 +1,25 @@
+{{Mod
+|id                               = MonsterArchnemesisMultiProjectiles
+|mod_groups                       = MonsterArchnemesisMultiProjectiles
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 6
+|name                             = of Splitting
+|mod_type                         = MonsterArchnemesisMultiProjectiles
+|stat_text                        = [[Skill|Skills]] fire 4 additional Projectiles (Hidden)<br>30% increased Projectile Damage (Hidden)<br>30% chance to avoid Projectiles (Hidden)
+|stat1_id                         = number_of_additional_projectiles
+|stat1_min                        = 4
+|stat1_max                        = 4
+|stat2_id                         = projectile_damage_+%
+|stat2_min                        = 30
+|stat2_max                        = 30
+|stat3_id                         = base_avoid_projectiles_%_chance
+|stat3_min                        = 30
+|stat3_max                        = 30
+|spawn_weight1_tag                = no_common_monster_mods
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = ranged
+|spawn_weight2_value              = 5000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

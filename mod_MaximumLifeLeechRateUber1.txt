@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MaximumLifeLeechRateUber1
+|mod_groups                       = MaximumLeechRate
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = The Elder's
+|mod_type                         = MaximumLifeLeechRateOldFix
+|stat_text                        = (15-25)% increased Maximum total [[Life]] Recovery per second from [[Leech]]
+|stat1_id                         = maximum_life_leech_rate_+1%_per_12_stat_value
+|stat1_min                        = 180
+|stat1_max                        = 300
+|spawn_weight1_tag                = amulet_elder
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,22 @@
+{{Mod
+|id                               = WeaponTreeAddedFireHighReducedAttackSpeed3
+|mod_groups                       = FireDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 42
+|mod_type                         = WeaponTreeLocalFireDamageAndAttackSpeed
+|stat_text                        = Adds 16 to 26 [[Fire Damage]]<br>6% reduced [[Attack Speed]]
+|stat1_id                         = local_minimum_added_fire_damage
+|stat1_min                        = 16
+|stat1_max                        = 16
+|stat2_id                         = local_maximum_added_fire_damage
+|stat2_min                        = 26
+|stat2_max                        = 26
+|stat3_id                         = local_attack_speed_+%
+|stat3_min                        = -6
+|stat3_max                        = -6
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = FlaskChillFreezeImmunity4
+|mod_groups                       = FlaskDispellChill
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 76
+|name                             = of Thawing
+|mod_type                         = FlaskChillFreezeImmunity
+|stat_text                        = Grants Immunity to Chill for (15-17) seconds if used while Chilled<br />Grants Immunity to [[Freeze]] for (15-17) seconds if used while [[Freeze|Frozen]]
+|stat1_id                         = local_flask_chill_or_freeze_immunity_if_chilled_or_frozen_s
+|stat1_min                        = 15
+|stat1_max                        = 17
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 750
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

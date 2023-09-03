@@ -1,0 +1,20 @@
+{{Mod
+|id                               = LocalCriticalStrikeChance1
+|mod_groups                       = CriticalStrikeChanceIncrease
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Needling
+|mod_type                         = LocalCriticalStrikeChance
+|stat_text                        = (10-14)% increased [[Critical Strike Chance]]
+|stat1_id                         = local_critical_strike_chance_+%
+|stat1_min                        = 10
+|stat1_max                        = 14
+|spawn_weight1_tag                = weapon
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

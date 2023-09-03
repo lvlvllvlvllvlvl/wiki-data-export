@@ -1,0 +1,20 @@
+{{Mod
+|id                               = HungryLoopSupportedByAddedFireDamage
+|mod_groups                       = HungryLoop
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|granted_skill                    = SupportAddedFireDamage
+|mod_type                         = HungryLoopSupportedByAddedFireDamage
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Added Fire Damage Support|Level 20 Added Fire Damage]]<br>Has Consumed 1 Gem
+|stat1_id                         = local_display_socketed_gems_get_added_fire_damage_level
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = local_unique_hungry_loop_number_of_gems_to_consume
+|stat2_min                        = -1
+|stat2_max                        = -1
+|stat3_id                         = local_unique_hungry_loop_has_consumed_gem
+|stat3_min                        = 1
+|stat3_max                        = 1
+|tags                             = support, gem
+}}

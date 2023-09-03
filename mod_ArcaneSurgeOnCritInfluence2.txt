@@ -1,0 +1,20 @@
+{{Mod
+|id                               = ArcaneSurgeOnCritInfluence2
+|mod_groups                       = ArcaneSurgeOnCrit
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of the Crusade
+|mod_type                         = GainArcaneSurgeOnCrit
+|stat_text                        = (21-30)% chance to Gain Arcane Surge when you deal a [[Critical Strike]]
+|stat1_id                         = gain_arcane_surge_on_crit_%_chance
+|stat1_min                        = 21
+|stat1_max                        = 30
+|spawn_weight1_tag                = wand_crusader
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = critical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

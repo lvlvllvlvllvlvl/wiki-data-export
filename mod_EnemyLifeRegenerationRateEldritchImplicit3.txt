@@ -1,0 +1,18 @@
+{{Mod
+|id                               = EnemyLifeRegenerationRateEldritchImplicit3
+|mod_groups                       = EnemyLifeRegenerationRate
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|mod_type                         = EnemyLifeRegenerationRate
+|stat_text                        = Enemies you've [[Hit]] [[Recently]] have (73-71)% reduced [[Life]] Regeneration rate
+|stat1_id                         = enemy_life_regeneration_rate_+%_for_4_seconds_on_hit
+|stat1_min                        = -73
+|stat1_max                        = -71
+|spawn_weight1_tag                = no_tier_4_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = helmet
+|spawn_weight2_value              = 700
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

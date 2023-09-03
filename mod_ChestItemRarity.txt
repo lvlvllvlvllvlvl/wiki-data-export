@@ -1,0 +1,17 @@
+{{Mod
+|id                               = ChestItemRarity
+|mod_groups                       = ChestItemRarity
+|domain                           = 4
+|generation_type                  = 2
+|required_level                   = 4
+|name                             = of Treasures
+|mod_type                         = ChestItemRarityMultiplicative
+|stat_text                        = (100-250)% more Rarity of Contained Items
+|stat1_id                         = chest_item_rarity_+%_final_from_mod
+|stat1_min                        = 100
+|stat1_max                        = 250
+|spawn_weight1_tag                = drops_no_mods
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 800
+}}

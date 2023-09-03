@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MinionReflectedDamageEldritchImplicit2
+|mod_groups                       = ReflectedDamage
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|mod_type                         = MinionReflectedDamage
+|stat_text                        = [[Minion|Minions]] take 50% reduced Reflected Damage
+|stat1_id                         = minions_reflected_damage_taken_+%
+|stat1_min                        = -50
+|stat1_max                        = -50
+|spawn_weight1_tag                = no_tier_5_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = body_armour
+|spawn_weight2_value              = 700
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

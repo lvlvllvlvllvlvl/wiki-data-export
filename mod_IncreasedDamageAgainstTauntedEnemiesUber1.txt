@@ -1,0 +1,19 @@
+{{Mod
+|id                               = IncreasedDamageAgainstTauntedEnemiesUber1
+|mod_groups                       = IncreasedDamageAgainstTauntedEnemies
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = IncreasedDamageAgainstTauntedEnemies
+|stat_text                        = 50% increased Damage with [[Hit|Hits]] and Ailments against Taunted Enemies
+|stat1_id                         = damage_+%_vs_taunted_enemies
+|stat1_min                        = 50
+|stat1_max                        = 50
+|spawn_weight1_tag                = 2h_axe_shaper
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

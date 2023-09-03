@@ -1,0 +1,22 @@
+{{Mod
+|id                               = WeaponTreeAddedPhysicalLowChaosConvert1
+|mod_groups                       = PhysicalDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 13
+|mod_type                         = WeaponTreeLocalPhysicalDamageAndChaosConversion
+|stat_text                        = Adds 1 to 3 [[Physical Damage]]<br>15% of [[Physical Damage]] Converted to [[Chaos Damage]]
+|stat1_id                         = local_minimum_added_physical_damage
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_maximum_added_physical_damage
+|stat2_min                        = 3
+|stat2_max                        = 3
+|stat3_id                         = base_physical_damage_%_to_convert_to_chaos
+|stat3_min                        = 15
+|stat3_max                        = 15
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

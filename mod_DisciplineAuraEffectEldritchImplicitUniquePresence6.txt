@@ -1,0 +1,23 @@
+{{Mod
+|id                               = DisciplineAuraEffectEldritchImplicitUniquePresence6
+|mod_groups                       = AuraEffect
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|granted_buff_id                  = influence_stat_condition_presence_unique_monster
+|granted_buff_value               = 0
+|mod_type                         = DisciplineAuraEffectUniquePresence
+|stat_text                        = [[Discipline]] has (46-48)% increased Aura Effect
+|stat1_id                         = discipline_aura_effect_+%
+|stat1_min                        = 46
+|stat1_max                        = 48
+|stat2_id                         = local_influence_mod_requires_unique_monster_presence
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = no_tier_1_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = body_armour
+|spawn_weight2_value              = 150
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

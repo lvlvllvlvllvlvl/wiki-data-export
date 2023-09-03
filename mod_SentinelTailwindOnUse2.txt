@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SentinelTailwindOnUse2
+|mod_groups                       = SentinelDronePlayerTailwindOnSummon
+|domain                           = 30
+|generation_type                  = 2
+|required_level                   = 50
+|name                             = of Tailwind
+|mod_type                         = SentinelDronePlayerTailwindOnSummon
+|stat_text                        = Character Gains Tailwind for 15 seconds on deployment
+|stat1_id                         = sentinel_drone_player_gains_tailwind_on_summon_ms
+|stat1_min                        = 15000
+|stat1_max                        = 15000
+|spawn_weight1_tag                = special_sentinel_mod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 200
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

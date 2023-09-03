@@ -1,0 +1,15 @@
+{{Mod
+|id                               = MonsterModEnduranceChargeGain
+|mod_groups                       = MonsterModEnduranceChargeGain
+|domain                           = 3
+|generation_type                  = 2
+|required_level                   = 24
+|name                             = of Endurance
+|mod_type                         = MonsterModEnduranceChargeGain
+|stat_text                        = Gain 1 [[Endurance Charge]] every second if you've been [[Hit]] [[Recently]] (Hidden)
+|stat1_id                         = gain_endurance_charge_per_second_if_have_been_hit_recently
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 2000
+}}

@@ -1,0 +1,24 @@
+{{Mod
+|id                               = LocalLightningDamageHybridTwoHandDelve
+|mod_groups                       = LocalLightningDamageHybrid
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Subterranean
+|mod_type                         = LocalLightningDamageHybrid
+|stat_text                        = Adds (2-9) to (110-116) [[Lightning Damage]]<br>(20-40)% increased [[Lightning Damage]]
+|stat1_id                         = local_minimum_added_lightning_damage
+|stat1_min                        = 2
+|stat1_max                        = 9
+|stat2_id                         = local_maximum_added_lightning_damage
+|stat2_min                        = 110
+|stat2_max                        = 116
+|stat3_id                         = lightning_damage_+%
+|stat3_min                        = 20
+|stat3_max                        = 40
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, lightning, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

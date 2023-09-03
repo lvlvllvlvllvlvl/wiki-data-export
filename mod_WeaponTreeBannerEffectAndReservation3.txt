@@ -1,0 +1,23 @@
+{{Mod
+|id                               = WeaponTreeBannerEffectAndReservation3
+|mod_groups                       = WeaponTreeBannerEffectAndReservation
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 82
+|mod_type                         = WeaponTreeBannerEffectAndReservation
+|stat_text                        = Banner [[Skill|Skills]] have 30% increased Aura Effect<br>25% increased Reservation of Banner [[Skill|Skills]]
+|stat1_id                         = banner_aura_effect_+%
+|stat1_min                        = 30
+|stat1_max                        = 30
+|stat2_id                         = banner_mana_reservation_+%
+|stat2_min                        = 25
+|stat2_max                        = 25
+|spawn_weight1_tag                = ranged
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = one_hand_weapon
+|spawn_weight2_value              = 150
+|spawn_weight3_tag                = shield
+|spawn_weight3_value              = 150
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+}}

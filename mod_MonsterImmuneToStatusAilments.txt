@@ -1,0 +1,22 @@
+{{Mod
+|id                               = MonsterImmuneToStatusAilments
+|mod_groups                       = AvoidStatusAilments
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterImmuneToStatusAilments
+|stat_text                        = <abbr title="Cannot be Chilled">100% chance to Avoid being Chilled</abbr><br><abbr title="Cannot be Frozen">100% chance to Avoid being [[Freeze|Frozen]]</abbr><br><abbr title="Cannot be Ignited">100% chance to Avoid being Ignited</abbr><br>Unaffected by [[Shock]] (Hidden)
+|stat1_id                         = base_avoid_chill_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = base_avoid_freeze_%
+|stat2_min                        = 100
+|stat2_max                        = 100
+|stat3_id                         = base_avoid_ignite_%
+|stat3_min                        = 100
+|stat3_max                        = 100
+|stat4_id                         = unaffected_by_shock
+|stat4_min                        = 1
+|stat4_max                        = 1
+|tags                             = elemental, fire, cold, lightning, ailment
+}}

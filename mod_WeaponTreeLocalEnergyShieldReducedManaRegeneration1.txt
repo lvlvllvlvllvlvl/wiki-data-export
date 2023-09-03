@@ -1,0 +1,25 @@
+{{Mod
+|id                               = WeaponTreeLocalEnergyShieldReducedManaRegeneration1
+|mod_groups                       = BaseLocalDefences
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 20
+|mod_type                         = WeaponTreeLocalEnergyShieldReducedManaRegeneration
+|stat_text                        = +28 to maximum [[Energy Shield]]<br>25% reduced [[Mana]] Regeneration Rate
+|stat1_id                         = local_energy_shield
+|stat1_min                        = 28
+|stat1_max                        = 28
+|stat2_id                         = mana_regeneration_rate_+%
+|stat2_min                        = -25
+|stat2_max                        = -25
+|spawn_weight1_tag                = str_armour
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = dex_armour
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = str_dex_armour
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = shield
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+}}

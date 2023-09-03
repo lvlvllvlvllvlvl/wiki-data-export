@@ -1,0 +1,20 @@
+{{Mod
+|id                               = StormBrandAttachedTargetLightningPenetration2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Storm Brand Attached Target Lightning Penetration 2
+|mod_type                         = StormBrandAttachedTargetLightningPenetration
+|stat_text                        = Storm Brand Damage Penetrates 12% of Branded Enemy's [[Lightning Resistance]]
+|stat1_id                         = storm_brand_attached_target_lightning_penetration_%
+|stat1_min                        = 12
+|stat1_max                        = 12
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, lightning, caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

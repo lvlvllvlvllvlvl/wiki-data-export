@@ -1,0 +1,21 @@
+{{Mod
+|id                               = SupportedByLifeLeechUberMaven__
+|mod_groups                       = SupportedByLifeLeech
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 78
+|name                             = Elevated Shaper's
+|granted_skill                    = SupportLifeLeech
+|mod_type                         = SupportedByLifeLeech
+|stat_text                        = [[Item socket|Socketed]] Gems are supported by [[Life Leech Support|Level 20 Life Leech]]
+|stat1_id                         = local_display_socketed_gems_get_life_leech_level
+|stat1_min                        = 20
+|stat1_max                        = 20
+|spawn_weight1_tag                = boots_shaper
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

@@ -1,0 +1,25 @@
+{{Mod
+|id                               = MapTotemsMap2Tier
+|mod_groups                       = MapTotems
+|domain                           = 5
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Ceremonial
+|mod_type                         = MapTotemsMap2Tier
+|stat_text                        = 12% increased Quantity of Items found in this Area<br>6% increased Rarity of Items found in this Area<br>Area contains many [[Totem|Totems]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 12
+|stat1_max                        = 12
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 6
+|stat2_max                        = 6
+|stat3_id                         = map_packs_are_totems
+|stat3_min                        = 1
+|stat3_max                        = 1
+|spawn_weight1_tag                = secret_area
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = old_map
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

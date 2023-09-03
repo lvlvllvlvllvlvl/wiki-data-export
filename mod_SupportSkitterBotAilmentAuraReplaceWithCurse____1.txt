@@ -1,0 +1,17 @@
+{{Mod
+|id                               = SupportSkitterBotAilmentAuraReplaceWithCurse____1
+|mod_groups                       = UniqueSkitterBotAilmentAuraReplace
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 65
+|granted_skill                    = SupportSkitterBotAilmentAuraReplaceWithCurse
+|mod_type                         = UniqueReplaceSkitterbotAilmentAura
+|stat_text                        = Left Ring Slot: Your Chilling Skitterbot's Aura applies [[Item socket|Socketed]] Hex [[Curse]] instead<br>Right Ring Slot: Your Shocking Skitterbot's Aura applies [[Item socket|Socketed]] Hex [[Curse]] instead
+|stat1_id                         = local_left_ring_socketed_curse_replaces_skitterbots_chilling_aura
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_right_ring_socketed_curse_replaces_skitterbots_shocking_aura
+|stat2_min                        = 1
+|stat2_max                        = 1
+|tags                             = caster, minion, curse
+}}

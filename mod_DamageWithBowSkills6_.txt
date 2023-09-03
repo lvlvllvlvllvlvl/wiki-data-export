@@ -1,0 +1,20 @@
+{{Mod
+|id                               = DamageWithBowSkills6_
+|mod_groups                       = DamageWithWeaponTypeSkill
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 86
+|name                             = Impaling
+|mod_type                         = DamageWithBowSkills
+|stat_text                        = (43-50)% increased Damage with [[Bow]] [[Skill|Skills]]
+|stat1_id                         = damage_+%_with_bow_skills
+|stat1_min                        = 43
+|stat1_max                        = 50
+|spawn_weight1_tag                = quiver
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,27 @@
+{{Mod
+|id                               = LocalIncreasedPhysicalDamagePercentAndCritChanceInfluence2
+|mod_groups                       = LocalIncreasedPhysicalDamagePercentAndAccuracyRating
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 71
+|name                             = Crusader's
+|mod_type                         = LocalIncreasedPhysicalDamagePercentAndCritChance
+|stat_text                        = (35-44)% increased [[Physical Damage]]<br>(8-10)% increased [[Critical Strike Chance]]
+|stat1_id                         = local_physical_damage_+%
+|stat1_min                        = 35
+|stat1_max                        = 44
+|stat2_id                         = local_critical_strike_chance_+%
+|stat2_min                        = 8
+|stat2_max                        = 10
+|spawn_weight1_tag                = claw_crusader
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = dagger_crusader
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = rune_dagger_crusader
+|spawn_weight3_value              = 250
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = physical_damage, damage, physical, attack, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

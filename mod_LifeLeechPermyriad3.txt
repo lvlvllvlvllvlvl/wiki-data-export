@@ -1,0 +1,22 @@
+{{Mod
+|id                               = LifeLeechPermyriad3
+|mod_groups                       = LifeLeech
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 70
+|name                             = Vampire's
+|mod_type                         = LifeLeechPermyriad
+|stat_text                        = (1-1.2)% of Physical [[Attack Damage]] Leeched as [[Life]]
+|stat1_id                         = life_leech_from_physical_attack_damage_permyriad
+|stat1_min                        = 100
+|stat1_max                        = 120
+|spawn_weight1_tag                = ranged
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = amulet
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = resource, life, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

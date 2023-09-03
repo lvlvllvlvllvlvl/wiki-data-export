@@ -1,0 +1,16 @@
+{{Mod
+|id                               = ReflectedCurseEffectOnSelfImplicitK2
+|mod_groups                       = ReflectedCurseEffectOnSelf
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 30
+|mod_type                         = ReflectedCurseEffectOnSelf
+|stat_text                        = Left ring slot: 30% reduced Effect of [[Curse|Curses]] on you<br>Right ring slot: 30% increased Effect of [[Curse|Curses]] on you
+|stat1_id                         = local_left_ring_slot_curse_effect_on_self_+%
+|stat1_min                        = -30
+|stat1_max                        = -30
+|stat2_id                         = local_right_ring_slot_curse_effect_on_self_+%
+|stat2_min                        = 30
+|stat2_max                        = 30
+|tags                             = curse
+}}

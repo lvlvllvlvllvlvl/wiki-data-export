@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SocketedGemsAddPercentageOfPhysicalAsLightningEssence1
+|mod_groups                       = Supported
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 63
+|name                             = of the Essence
+|granted_skill                    = SupportPhysicalDamageToAddAsLightningEssence1
+|mod_type                         = SocketedGemsAddPercentageOfPhysicalAsLightning
+|stat_text                        = [[Item socket|Socketed]] Gems gain 50% of [[Physical Damage]] as extra [[Lightning Damage]]
+|stat1_id                         = local_display_socketed_gems_physical_damage_%_to_add_as_lightning
+|stat1_min                        = 50
+|stat1_max                        = 50
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = skill, physical_damage, elemental_damage, damage, physical, elemental, lightning, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

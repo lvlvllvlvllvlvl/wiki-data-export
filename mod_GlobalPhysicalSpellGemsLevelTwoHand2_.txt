@@ -1,0 +1,22 @@
+{{Mod
+|id                               = GlobalPhysicalSpellGemsLevelTwoHand2_
+|mod_groups                       = IncreaseSpecificSocketedGemLevel
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 77
+|name                             = Tecton's
+|mod_type                         = GlobalIncreasePhysicalSpellSkillGemLevel
+|stat_text                        = +3 to [[Level]] of all Physical [[Spell]] [[Skill]] Gems
+|stat1_id                         = physical_spell_skill_gem_level_+
+|stat1_min                        = 3
+|stat1_max                        = 3
+|spawn_weight1_tag                = attack_staff
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = staff
+|spawn_weight2_value              = 100
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = physical, caster, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

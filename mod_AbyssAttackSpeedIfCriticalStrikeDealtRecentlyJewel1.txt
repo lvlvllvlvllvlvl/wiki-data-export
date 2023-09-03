@@ -1,0 +1,26 @@
+{{Mod
+|id                               = AbyssAttackSpeedIfCriticalStrikeDealtRecentlyJewel1
+|mod_groups                       = AttackSpeedIfCriticalStrikeDealtRecently
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 25
+|name                             = of Opportunity
+|mod_type                         = AttackSpeedIfCriticalStrikeDealtRecently
+|stat_text                        = (6-8)% increased [[Attack Speed]] if you've dealt a [[Critical Strike]] [[Recently]]
+|stat1_id                         = attack_speed_+%_if_have_crit_recently
+|stat1_min                        = 6
+|stat1_max                        = 8
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = abyss_jewel_ranged
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = abyss_jewel_caster
+|spawn_weight3_value              = 250
+|spawn_weight4_tag                = abyss_jewel_summoner
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = attack, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

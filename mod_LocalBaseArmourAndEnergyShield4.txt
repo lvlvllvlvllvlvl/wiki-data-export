@@ -1,0 +1,25 @@
+{{Mod
+|id                               = LocalBaseArmourAndEnergyShield4
+|mod_groups                       = BaseLocalDefences
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 38
+|name                             = Hallowed
+|mod_type                         = LocalBaseArmourAndEnergyShield
+|stat_text                        = +(49-85) to [[Armour]]<br>+(23-28) to maximum [[Energy Shield]]
+|stat1_id                         = local_base_physical_damage_reduction_rating
+|stat1_min                        = 49
+|stat1_max                        = 85
+|stat2_id                         = local_energy_shield
+|stat2_min                        = 23
+|stat2_max                        = 28
+|spawn_weight1_tag                = str_int_armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = str_dex_int_armour
+|spawn_weight2_value              = 166
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = defences, armour, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = EnchantmentWither_
+|mod_groups                       = BuffEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 83
+|mod_type                         = EnchantmentWither
+|stat_text                        = Enemies Withered by you have -6% to all Resistances
+|stat1_id                         = enemies_you_wither_have_all_resistances_%
+|stat1_min                        = -6
+|stat1_max                        = -6
+|spawn_weight1_tag                = belt
+|spawn_weight1_value              = 1
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

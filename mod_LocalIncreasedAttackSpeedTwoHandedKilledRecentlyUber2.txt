@@ -1,0 +1,37 @@
+{{Mod
+|id                               = LocalIncreasedAttackSpeedTwoHandedKilledRecentlyUber2
+|mod_groups                       = IncreasedAttackSpeed
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Elder
+|mod_type                         = AttackSpeedKilledRecently
+|stat_text                        = (20-21)% increased [[Attack Speed]]<br>20% increased [[Attack Speed]] if you've Killed [[Recently]]
+|stat1_id                         = local_attack_speed_+%
+|stat1_min                        = 20
+|stat1_max                        = 21
+|stat2_id                         = attack_speed_+%_if_enemy_killed_recently
+|stat2_min                        = 20
+|stat2_max                        = 20
+|spawn_weight1_tag                = 2h_sword_elder
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = 2h_axe_elder
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = 2h_mace_elder
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = staff_elder
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = warstaff_elder
+|spawn_weight5_value              = 1000
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|generation_weight1_tag           = has_attack_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_caster_mod
+|generation_weight2_value         = 65
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = attack, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

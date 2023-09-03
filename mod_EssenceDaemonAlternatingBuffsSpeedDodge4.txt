@@ -1,0 +1,25 @@
+{{Mod
+|id                               = EssenceDaemonAlternatingBuffsSpeedDodge4
+|mod_groups                       = EssenceDaemonAlternatingBuffsSpeedDodge
+|domain                           = 3
+|generation_type                  = 11
+|required_level                   = 1
+|name                             = Wailing Essence of Zeal
+|granted_buff_id                  = essence_alternating_buffs_speed_dodge_alternator
+|granted_buff_value               = 0
+|mod_type                         = EssenceDaemonAlternatingBuffsSpeedDodge
+|stat_text                        = 50% increased [[Movement Speed]] (Hidden)<br>50% increased [[Cast Speed]] (Hidden)<br>50% increased [[Attack Speed]] (Hidden)
+|stat1_id                         = base_movement_velocity_+%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = base_cast_speed_+%
+|stat2_min                        = 50
+|stat2_max                        = 50
+|stat3_id                         = attack_speed_+%
+|stat3_min                        = 50
+|stat3_max                        = 50
+|stat4_id                         = avoid_damage_%
+|stat4_min                        = 50
+|stat4_max                        = 50
+|tags                             = attack, caster, speed
+}}

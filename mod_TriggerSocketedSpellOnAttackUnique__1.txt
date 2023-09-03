@@ -1,0 +1,14 @@
+{{Mod
+|id                               = TriggerSocketedSpellOnAttackUnique__1
+|mod_groups                       = TriggerSocketedSpellOnAttack
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|granted_skill                    = SupportTriggerSpellOnAttack
+|mod_type                         = TriggerSocketedSpellOnAttack
+|stat_text                        = Trigger a [[Item socket|Socketed]] [[Spell]] when you [[Attack]] with this Weapon, with a 0.25 second Cooldown
+|stat1_id                         = trigger_socketed_spell_on_attack_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|tags                             = skill, attack, caster, gem
+}}

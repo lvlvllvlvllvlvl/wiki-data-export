@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantHeraldAttackAndCastSpeed2_
+|mod_groups                       = AfflictionJewelSmallPassivesGrantHeraldAttackAndCastSpeed
+|domain                           = 21
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Messenger
+|mod_type                         = AfflictionJewelSmallPassivesGrantHeraldAttackAndCastSpeed
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: 2% increased [[Attack]] and [[Cast Speed]] while affected by a Herald
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_attack_and_cast_speed_+%_while_affected_by_a_herald
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = affliction_damage_while_you_have_a_herald
+|spawn_weight1_value              = 350
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, caster, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

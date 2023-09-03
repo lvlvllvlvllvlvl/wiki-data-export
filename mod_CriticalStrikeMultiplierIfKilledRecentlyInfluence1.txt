@@ -1,0 +1,24 @@
+{{Mod
+|id                               = CriticalStrikeMultiplierIfKilledRecentlyInfluence1
+|mod_groups                       = CriticalStrikeMultiplierIfEnemySlainRecently
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Conquest
+|mod_type                         = CriticalStrikeMultiplierIfEnemySlainRecently
+|stat_text                        = +(26-30)% to [[Critical Strike Multiplier]] if you've Killed [[Recently]]
+|stat1_id                         = critical_strike_multiplier_+_if_enemy_killed_recently
+|stat1_min                        = 26
+|stat1_max                        = 30
+|spawn_weight1_tag                = claw_adjudicator
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = dagger_adjudicator
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = rune_dagger_adjudicator
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = damage, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

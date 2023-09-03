@@ -1,0 +1,20 @@
+{{Mod
+|id                               = BeltIncreasedFlaskChargesGained2
+|mod_groups                       = BeltFlaskCharges
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 16
+|name                             = of Restocking
+|mod_type                         = BeltIncreasedFlaskChargesGained
+|stat_text                        = (11-16)% increased Flask [[Charge|Charges]] gained
+|stat1_id                         = charges_gained_+%
+|stat1_min                        = 11
+|stat1_max                        = 16
+|spawn_weight1_tag                = belt
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,24 @@
+{{Mod
+|id                               = CastSpeedIfKilledRecentlyInfluence2
+|mod_groups                       = CastSpeedIfEnemyKilledRecently
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 73
+|name                             = of Redemption
+|mod_type                         = CastSpeedIfEnemyKilledRecently
+|stat_text                        = (17-20)% increased [[Cast Speed]] if you've Killed [[Recently]]
+|stat1_id                         = cast_speed_+%_if_enemy_killed_recently
+|stat1_min                        = 17
+|stat1_max                        = 20
+|spawn_weight1_tag                = sceptre_eyrie
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = rune_dagger_eyrie
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = wand_eyrie
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = caster, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

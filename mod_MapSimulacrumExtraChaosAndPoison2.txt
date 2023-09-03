@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MapSimulacrumExtraChaosAndPoison2
+|mod_groups                       = MapSimulacrumMonsterChaos
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSimulacrumExtraChaosAndPoison
+|stat_text                        = Monsters deal (20-24)% extra [[Physical Damage]] as Chaos<br>Monsters [[Poison]] on [[Hit]]
+|stat1_id                         = map_monsters_%_physical_damage_to_add_as_chaos
+|stat1_min                        = 20
+|stat1_max                        = 24
+|stat2_id                         = map_monsters_poison_on_hit
+|stat2_min                        = 1
+|stat2_max                        = 1
+|tags                             = physical_damage, chaos_damage, bleed, poison, damage, physical, chaos, ailment
+}}

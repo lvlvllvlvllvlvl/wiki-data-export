@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MonsterImplicitExtraCurses1
+|mod_groups                       = MonsterImmuneToCurses
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 16
+|mod_type                         = MonsterExtraCurses
+|stat_text                        = You can apply 5 additional [[Curse|Curses]] (Hidden)<br>100% more Effect of your [[Curse|Curses]] (Hidden)
+|stat1_id                         = number_of_additional_curses_allowed
+|stat1_min                        = 5
+|stat1_max                        = 5
+|stat2_id                         = curse_pillar_curse_effect_+%_final
+|stat2_min                        = 100
+|stat2_max                        = 100
+|tags                             = caster, curse
+}}

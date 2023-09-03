@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreePhasingOnKillReducedSelfBuffExpiry2h1
+|mod_groups                       = WeaponTreePhasingOnKillReducedSelfBuffExpiry
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 20
+|mod_type                         = WeaponTreePhasingOnKillReducedSelfBuffExpiry
+|stat_text                        = 20% chance to gain Phasing for 4 seconds on [[Kill]]<br>Buffs on you expire 20% faster
+|stat1_id                         = phasing_for_4_seconds_on_kill_%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = buff_time_passed_+%_only_buff_category
+|stat2_min                        = 20
+|stat2_max                        = 20
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,25 @@
+{{Mod
+|id                               = SupportedByPowerChargeOnCritWeaponUber1
+|mod_groups                       = WeaponSupportUber
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = The Elder's
+|granted_skill                    = SupportPowerChargeOnCrit
+|mod_type                         = SupportedByPowerChargeOnCritWeapon
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Power Charge On Critical Support|Level 10 Power Charge On Critical]] Strike
+|stat1_id                         = local_display_socketed_gems_supported_by_level_x_power_charge_on_crit
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = grants_2h_support
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = staff_elder
+|spawn_weight2_value              = 400
+|spawn_weight3_tag                = warstaff_elder
+|spawn_weight3_value              = 400
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = support, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

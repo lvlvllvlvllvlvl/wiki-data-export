@@ -1,0 +1,23 @@
+{{Mod
+|id                               = ReducedIgniteDurationInfluenceMaven
+|mod_groups                       = ReducedBurnDuration
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 85
+|name                             = of the Elevated Crusade
+|mod_type                         = ReducedBurnDurationMaven
+|stat_text                        = (51-60)% reduced [[Ignite]] Duration on you<br>(36-50)% increased Damage if you've been Ignited [[Recently]]
+|stat1_id                         = base_self_ignite_duration_-%
+|stat1_min                        = 51
+|stat1_max                        = 60
+|stat2_id                         = damage_+%_if_have_been_ignited_recently
+|stat2_min                        = 36
+|stat2_max                        = 50
+|spawn_weight1_tag                = helmet_crusader
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, fire, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

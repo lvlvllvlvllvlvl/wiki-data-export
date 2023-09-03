@@ -1,0 +1,20 @@
+{{Mod
+|id                               = DamagePerBlockChanceInfluence1
+|mod_groups                       = DamagePerBlockChance
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Crusader's
+|mod_type                         = DamagePerBlockChance
+|stat_text                        = 1% increased Damage per 1% Chance to [[Block]] [[Attack Damage]]
+|stat1_id                         = damage_+%_per_1%_block_chance
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = shield_crusader
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

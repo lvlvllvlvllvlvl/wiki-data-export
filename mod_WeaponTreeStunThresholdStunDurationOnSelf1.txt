@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeStunThresholdStunDurationOnSelf1
+|mod_groups                       = WeaponTreeStunThresholdStunDurationOnSelf
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeStunThresholdStunDurationOnSelf
+|stat_text                        = 100% increased Stun Threshold<br>50% increased Stun Duration on you
+|stat1_id                         = stun_threshold_+%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = stun_duration_on_self_+%
+|stat2_min                        = 50
+|stat2_max                        = 50
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

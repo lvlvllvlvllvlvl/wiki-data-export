@@ -1,0 +1,31 @@
+{{Mod
+|id                               = MapMonstersBaseSelfCriticalMultiplierMapWorlds
+|mod_groups                       = MapMonstersBaseSelfCriticalMultiplier
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Toughness
+|mod_type                         = MapMonstersBaseSelfCriticalMultiplierMapWorlds
+|stat_text                        = 10% increased Quantity of Items found in this Area<br>6% increased Rarity of Items found in this Area<br>4% increased Pack size<br>Monsters take (25-30)% reduced Extra Damage from Critical Strikes
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 6
+|stat2_max                        = 6
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 4
+|stat3_max                        = 4
+|stat4_id                         = map_monsters_base_self_critical_strike_multiplier_-%
+|stat4_min                        = 25
+|stat4_max                        = 30
+|spawn_weight1_tag                = low_tier_map
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = expedition_logbook
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = primordial_map
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = damage, critical
+}}

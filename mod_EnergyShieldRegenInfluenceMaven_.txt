@@ -1,0 +1,23 @@
+{{Mod
+|id                               = EnergyShieldRegenInfluenceMaven_
+|mod_groups                       = EnergyShieldRegeneration
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 85
+|name                             = of the Elevated Crusade
+|mod_type                         = EnergyShieldRegenerationPerMinuteMaven
+|stat_text                        = Regenerate (1-1.5)% of [[Energy Shield]] per second<br>(15-25)% increased [[Energy Shield]] Recharge Rate
+|stat1_id                         = base_energy_shield_regeneration_rate_per_minute_%
+|stat1_min                        = 60
+|stat1_max                        = 90
+|stat2_id                         = energy_shield_recharge_rate_+%
+|stat2_min                        = 15
+|stat2_max                        = 25
+|spawn_weight1_tag                = helmet_crusader
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = defences, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

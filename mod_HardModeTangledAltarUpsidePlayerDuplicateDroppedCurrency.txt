@@ -1,0 +1,18 @@
+{{Mod
+|id                               = HardModeTangledAltarUpsidePlayerDuplicateDroppedCurrency
+|mod_groups                       = TangledAltarUpsidePlayerDuplicateDroppedCurrency
+|domain                           = 29
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = TangledAltarUpsidePlayerDuplicateDroppedCurrency
+|stat_text                        = Basic Currency Items dropped by slain Enemies have (10-15)% chance to be Duplicated
+|stat1_id                         = %_chance_to_duplicate_dropped_currency
+|stat1_min                        = 10
+|stat1_max                        = 15
+|spawn_weight1_tag                = primordial_altar_downside
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = tangle_altar
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

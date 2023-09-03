@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SupportedByCriticalMultiplierCorrupted
+|mod_groups                       = SupportedByCriticalMultiplier
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 35
+|granted_skill                    = SupportIncreasedCriticalDamage
+|mod_type                         = SupportedByCriticalMultiplier
+|stat_text                        = [[Item socket|Socketed]] Gems are supported by [[Increased Critical Damage Support|Level 14 Increased Critical Damage]]
+|stat1_id                         = local_display_socketed_gems_get_increased_critical_damage_level
+|stat1_min                        = 14
+|stat1_max                        = 14
+|spawn_weight1_tag                = dagger
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

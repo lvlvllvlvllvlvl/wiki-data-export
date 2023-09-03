@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MaximumTotemUber1
+|mod_groups                       = AdditionalTotems
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 70
+|name                             = The Shaper's
+|mod_type                         = AdditionalTotems
+|stat_text                        = +1 to maximum number of Summoned [[Totem|Totems]]
+|stat1_id                         = number_of_additional_totems_allowed
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = shield_shaper
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

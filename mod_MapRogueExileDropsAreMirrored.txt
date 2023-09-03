@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapRogueExileDropsAreMirrored
+|mod_groups                       = MapRogueExileDropsAreMirrored
+|domain                           = 12
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Kalandra
+|mod_type                         = MapRogueExileDropsAreMirrored
+|stat_text                        = Items dropped by Rogue Exiles in next Area will be Mirrored
+|stat1_id                         = map_rogue_exiles_dropped_items_are_duplicated
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = anarchy_leaguestone
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

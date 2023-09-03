@@ -1,0 +1,22 @@
+{{Mod
+|id                               = AvoidIgniteInfluence3
+|mod_groups                       = AvoidIgnite
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Crusade
+|mod_type                         = AvoidIgnite
+|stat_text                        = (51-60)% chance to Avoid being Ignited
+|stat1_id                         = base_avoid_ignite_%
+|stat1_min                        = 51
+|stat1_max                        = 60
+|spawn_weight1_tag                = boots_crusader
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = quiver_crusader
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental, fire, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

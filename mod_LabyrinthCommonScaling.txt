@@ -1,0 +1,19 @@
+{{Mod
+|id                               = LabyrinthCommonScaling
+|mod_groups                       = Nothing
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = LabyrinthCommonScaling
+|stat_text                        = 50% increased Pack size<br>30% increased Damage Taken from [[Hit|Hits]] from Labyrinth Traps<br />30% increased effectiveness of Damage over Time Debuffs from Labyrinth [[Trap|Traps]] on Players<br>100% increased Experience gain
+|stat1_id                         = map_pack_size_+%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = labyrinth_darkshrine_players_damage_taken_from_labyrinth_traps_+%
+|stat2_min                        = 30
+|stat2_max                        = 30
+|stat3_id                         = map_experience_gain_+%
+|stat3_min                        = 100
+|stat3_max                        = 100
+|tags                             = damage
+}}

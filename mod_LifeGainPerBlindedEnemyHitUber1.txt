@@ -1,0 +1,20 @@
+{{Mod
+|id                               = LifeGainPerBlindedEnemyHitUber1
+|mod_groups                       = LifeGainPerBlindedEnemyHit
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Elder
+|mod_type                         = LifeGainPerBlindedEnemyHit
+|stat_text                        = Gain (35-50) [[Life]] per Blinded Enemy [[Hit]] with this Weapon
+|stat1_id                         = local_life_gain_per_target_vs_blinded_enemies
+|stat1_min                        = 35
+|stat1_max                        = 50
+|spawn_weight1_tag                = claw_elder
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

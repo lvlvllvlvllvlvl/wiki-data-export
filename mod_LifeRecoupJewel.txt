@@ -1,0 +1,20 @@
+{{Mod
+|id                               = LifeRecoupJewel
+|mod_groups                       = DamageTakenGainedAsLife
+|domain                           = 10
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Infusion
+|mod_type                         = LifeRecoupForJewel
+|stat_text                        = (4-6)% of Damage taken Recouped as [[Life]]
+|stat1_id                         = damage_taken_goes_to_life_over_4_seconds_%
+|stat1_min                        = 4
+|stat1_max                        = 6
+|spawn_weight1_tag                = not_int
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 500
+|tags                             = resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

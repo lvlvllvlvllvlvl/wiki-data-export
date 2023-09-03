@@ -1,0 +1,21 @@
+{{Mod
+|id                               = IncreasedFireballRadiusUniqueJewel57
+|mod_groups                       = PassiveJewelGrantsRadius
+|domain                           = 10
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = IncreasedFireballRadiusAtLongRangeJewel
+|stat_text                        = [[Fire Damage]] is increased by 1% per 5 [[Intelligence]] from Allocated Passives in Radius
+|stat1_id                         = local_unique_jewel_fire_damage_+1%_per_x_int_in_radius
+|stat1_min                        = 5
+|stat1_max                        = 5
+|stat2_id                         = local_jewel_effect_base_radius
+|stat2_min                        = 1200
+|stat2_max                        = 1200
+|stat3_id                         = local_unique_jewel_fireball_explosion_radius_20%_less_at_close_range_50%_more_at_long_range_with_x_int_in_radius
+|stat3_min                        = 60
+|stat3_max                        = 60
+|tags                             = elemental_damage, damage, elemental, fire
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

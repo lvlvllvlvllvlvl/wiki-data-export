@@ -1,0 +1,22 @@
+{{Mod
+|id                               = AbyssAttackSpeedJewel1_
+|mod_groups                       = IncreasedAttackSpeed
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 50
+|name                             = of Berserking
+|mod_type                         = IncreasedAttackSpeedForJewel
+|stat_text                        = (3-5)% increased [[Attack Speed]]
+|stat1_id                         = attack_speed_+%
+|stat1_min                        = 3
+|stat1_max                        = 5
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 750
+|spawn_weight2_tag                = abyss_jewel_ranged
+|spawn_weight2_value              = 750
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = attack, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

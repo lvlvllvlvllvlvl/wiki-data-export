@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialChanceToAvoidPoison
+|mod_groups                       = ChanceToAvoidPoison
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Constitution
+|mod_type                         = ChanceToAvoidPoison
+|stat_text                        = (40-50)% chance to Avoid being [[Poison|Poisoned]]
+|stat1_id                         = base_avoid_poison_%
+|stat1_min                        = 40
+|stat1_max                        = 50
+|spawn_weight1_tag                = dex_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = poison, chaos, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

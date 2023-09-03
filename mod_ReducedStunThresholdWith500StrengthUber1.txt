@@ -1,0 +1,18 @@
+{{Mod
+|id                               = ReducedStunThresholdWith500StrengthUber1
+|mod_groups                       = ReducedStunThresholdWith500Strength
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = ReducedStunThresholdWith500Strength
+|stat_text                        = 30% reduced Enemy Stun Threshold while you have at least 500 [[Strength]]
+|stat1_id                         = stun_threshold_reduction_+%_with_500_or_more_strength
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = 2h_mace_shaper
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

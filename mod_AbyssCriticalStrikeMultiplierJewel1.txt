@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AbyssCriticalStrikeMultiplierJewel1
+|mod_groups                       = CriticalStrikeMultiplier
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 50
+|name                             = of Potency
+|mod_type                         = CritMultiplierForJewel
+|stat_text                        = +(9-12)% to Global [[Critical Strike Multiplier]]
+|stat1_id                         = base_critical_strike_multiplier_+
+|stat1_min                        = 9
+|stat1_max                        = 12
+|spawn_weight1_tag                = abyss_jewel_summoner
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 900
+|tags                             = damage, critical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

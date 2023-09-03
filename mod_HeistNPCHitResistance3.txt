@@ -1,0 +1,25 @@
+{{Mod
+|id                               = HeistNPCHitResistance3
+|mod_groups                       = HeistNPCHitResistance
+|domain                           = 23
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Elusive
+|mod_type                         = HeistNPCHitResistance
+|stat_text                        = (15-17)% chance to Avoid being Interrupted
+|stat1_id                         = heist_interruption_resistance_%
+|stat1_min                        = 15
+|stat1_max                        = 17
+|spawn_weight1_tag                = heist_equipment_lockpick
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = heist_equipment_engineering
+|spawn_weight2_value              = 600
+|spawn_weight3_tag                = heist_equipment_demolition
+|spawn_weight3_value              = 600
+|spawn_weight4_tag                = heist_equipment_trapdisarmament
+|spawn_weight4_value              = 600
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

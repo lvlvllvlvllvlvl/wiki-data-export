@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeDownsideManaOnKill3
+|mod_groups                       = MaximumManaOnKillPercent
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 68
+|mod_type                         = MaximumManaOnKillPercent
+|stat_text                        = Lose 3% of [[Mana]] on [[Kill]]
+|stat1_id                         = recover_%_maximum_mana_on_kill
+|stat1_min                        = -3
+|stat1_max                        = -3
+|spawn_weight1_tag                = body_armour
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, mana
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

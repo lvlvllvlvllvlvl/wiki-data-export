@@ -1,0 +1,23 @@
+{{Mod
+|id                               = JunMasterRestoreManaAndEnergyShieldOnFocus1
+|mod_groups                       = RestoreManaAndEnergyShieldOnFocus
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Order
+|mod_type                         = RestoreManaAndEnergyShieldOnFocus
+|stat_text                        = Recover (20-22)% of [[Mana]] and [[Energy Shield]] when you Focus
+|stat1_id                         = restore_energy_shield_and_mana_when_you_focus_%
+|stat1_min                        = 20
+|stat1_max                        = 22
+|stat2_id                         = grant_focus_skill
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = body_armour
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, unveiled_mod, mana, defences, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

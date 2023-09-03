@@ -1,0 +1,26 @@
+{{Mod
+|id                               = DelveRingElementalDamage1
+|mod_groups                       = ElementalDamagePercent
+|domain                           = 16
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Underground
+|mod_type                         = ElementalDamagePercent
+|stat_text                        = (25-30)% increased [[Elemental Damage]]
+|stat1_id                         = elemental_damage_+%
+|stat1_min                        = 25
+|stat1_max                        = 30
+|spawn_weight1_tag                = abyss_jewel
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = jewel
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = belt
+|spawn_weight3_value              = 1600
+|spawn_weight4_tag                = ring
+|spawn_weight4_value              = 1600
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = elemental_damage, damage, elemental
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

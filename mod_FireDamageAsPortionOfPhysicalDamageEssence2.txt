@@ -1,0 +1,18 @@
+{{Mod
+|id                               = FireDamageAsPortionOfPhysicalDamageEssence2
+|mod_groups                       = FireDamageAsPortionOfDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 63
+|name                             = Essences
+|mod_type                         = FireDamageAsPortionOfDamage
+|stat_text                        = Gain 15% of [[Physical Damage]] as Extra [[Fire Damage]]
+|stat1_id                         = physical_damage_%_to_add_as_fire
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, fire
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

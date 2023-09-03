@@ -1,0 +1,27 @@
+{{Mod
+|id                               = MapMonsterCriticalStrikesAndDamageMap2Tier
+|mod_groups                       = MapMonsterCriticalStrikesAndDamage
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Deadliness
+|mod_type                         = MapMonsterCriticalStrikesAndDamageMap2Tier
+|stat_text                        = 18% increased Quantity of Items found in this Area<br>9% increased Rarity of Items found in this Area<br>Monsters have (160-200)% increased [[Critical Strike Chance]]<br>+(30-35)% to Monster [[Critical Strike Multiplier]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 18
+|stat1_max                        = 18
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 9
+|stat2_max                        = 9
+|stat3_id                         = map_monsters_critical_strike_chance_+%
+|stat3_min                        = 160
+|stat3_max                        = 200
+|stat4_id                         = map_monsters_critical_strike_multiplier_+
+|stat4_min                        = 30
+|stat4_max                        = 35
+|spawn_weight1_tag                = low_tier_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage, critical
+}}

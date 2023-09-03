@@ -1,0 +1,27 @@
+{{Mod
+|id                               = ChanceToGainPowerChargeOnKillUberMaven
+|mod_groups                       = PowerChargeOnKillChance
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 94
+|name                             = Elevated Shaper's
+|mod_type                         = PowerChargeOnKillChanceMaven
+|stat_text                        = (11-15)% chance to gain a [[Power Charge]] on [[Kill]]<br>50% increased [[Power Charge]] Duration
+|stat1_id                         = add_power_charge_on_kill_%_chance
+|stat1_min                        = 11
+|stat1_max                        = 15
+|stat2_id                         = power_charge_duration_+%
+|stat2_min                        = 50
+|stat2_max                        = 50
+|spawn_weight1_tag                = helmet_shaper
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = staff_shaper
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = warstaff_shaper
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = power_charge
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

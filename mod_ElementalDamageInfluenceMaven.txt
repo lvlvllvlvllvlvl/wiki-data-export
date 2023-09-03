@@ -1,0 +1,23 @@
+{{Mod
+|id                               = ElementalDamageInfluenceMaven
+|mod_groups                       = ElementalDamagePercent
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 85
+|name                             = Elevated Warlord's
+|mod_type                         = ElementalDamagePercentMaven
+|stat_text                        = (19-22)% increased [[Elemental Damage]]<br>Damage Penetrates (2-3)% of Enemy [[Elemental Resistance|Elemental Resistances]]
+|stat1_id                         = elemental_damage_+%
+|stat1_min                        = 19
+|stat1_max                        = 22
+|stat2_id                         = base_penetrate_elemental_resistances_%
+|stat2_min                        = 2
+|stat2_max                        = 3
+|spawn_weight1_tag                = helmet_adjudicator
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

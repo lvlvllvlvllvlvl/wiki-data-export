@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MapSimulacrumPhysicalPenetrationAndImpale1
+|mod_groups                       = MapSimulacrumMonsterPhysical
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSimulacrumPhysicalPenetrationAndImpale
+|stat_text                        = Monsters Overwhelm 5% [[Physical Damage]] Reduction<br>Monsters have 10% chance to Impale with [[Attack|Attacks]]
+|stat1_id                         = map_monsters_enemy_phys_reduction_%_penalty_vs_hit
+|stat1_min                        = 5
+|stat1_max                        = 5
+|stat2_id                         = map_monsters_chance_to_impale_%
+|stat2_min                        = 10
+|stat2_max                        = 10
+|tags                             = physical_damage, damage, physical
+}}

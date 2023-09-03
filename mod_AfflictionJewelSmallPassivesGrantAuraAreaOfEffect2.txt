@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantAuraAreaOfEffect2
+|mod_groups                       = AfflictionJewelSmallPassivesGrantAuraAreaOfEffect
+|domain                           = 21
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Influence
+|mod_type                         = AfflictionJewelSmallPassivesGrantAuraAreaOfEffect
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: 4% increased Area of Effect of Aura [[Skill|Skills]]
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_base_aura_area_of_effect_+%
+|stat1_min                        = 4
+|stat1_max                        = 4
+|spawn_weight1_tag                = old_do_not_use_affliction_aura_effect
+|spawn_weight1_value              = 350
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = aura
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

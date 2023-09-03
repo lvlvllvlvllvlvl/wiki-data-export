@@ -1,0 +1,20 @@
+{{Mod
+|id                               = HellscapeUpsideChanceToGainOnslaughtOnKill2__
+|mod_groups                       = ChanceToGainOnslaughtOnKill
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 45
+|mod_type                         = ChanceToGainOnslaughtOnKill
+|stat_text                        = (5-6)% chance to gain Onslaught for 4 seconds on [[Kill]]
+|stat1_id                         = chance_to_gain_onslaught_on_kill_%
+|stat1_min                        = 5
+|stat1_max                        = 6
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = quiver
+|spawn_weight2_value              = 100
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeAddedFire2h3
+|mod_groups                       = FireDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 42
+|mod_type                         = WeaponTreeLocalFireDamage
+|stat_text                        = Adds 24 to 35 [[Fire Damage]]
+|stat1_id                         = local_minimum_added_fire_damage
+|stat1_min                        = 24
+|stat1_max                        = 24
+|stat2_id                         = local_maximum_added_fire_damage
+|stat2_min                        = 35
+|stat2_max                        = 35
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

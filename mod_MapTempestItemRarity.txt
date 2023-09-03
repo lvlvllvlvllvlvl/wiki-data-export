@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapTempestItemRarity
+|mod_groups                       = MapTempestItemRarity
+|domain                           = 12
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Excellence
+|mod_type                         = MapTempestItemRarity
+|stat_text                        = (30-40)% increased Rarity of Items found in next Area
+|stat1_id                         = map_item_drop_rarity_+%
+|stat1_min                        = 30
+|stat1_max                        = 40
+|spawn_weight1_tag                = tempest_leaguestone
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

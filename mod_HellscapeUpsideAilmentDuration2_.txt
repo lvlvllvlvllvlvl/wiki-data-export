@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideAilmentDuration2_
+|mod_groups                       = IncreasedAilmentDuration
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 45
+|mod_type                         = IncreasedAilmentDuration
+|stat_text                        = (7-8)% increased Duration of Ailments on Enemies
+|stat1_id                         = base_all_ailment_duration_+%
+|stat1_min                        = 7
+|stat1_max                        = 8
+|spawn_weight1_tag                = gloves
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

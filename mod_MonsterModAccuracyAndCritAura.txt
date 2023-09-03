@@ -1,0 +1,22 @@
+{{Mod
+|id                               = MonsterModAccuracyAndCritAura
+|mod_groups                       = MonsterModSpecialAura
+|domain                           = 3
+|generation_type                  = 2
+|required_level                   = 6
+|name                             = of Precision
+|granted_buff_id                  = monster_aura_accuracy_and_crits
+|granted_buff_value               = 50
+|mod_type                         = MonsterModAccuracyAndCritAura
+|stat_text                        = 100% increased Global [[Accuracy Rating]] (Hidden)<br>300% increased Global [[Critical Strike Chance]] (Hidden)
+|stat1_id                         = accuracy_rating_+%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = critical_strike_chance_+%
+|stat2_min                        = 300
+|stat2_max                        = 300
+|spawn_weight1_tag                = magic
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 3000
+}}

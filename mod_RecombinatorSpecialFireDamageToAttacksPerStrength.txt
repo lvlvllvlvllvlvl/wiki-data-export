@@ -1,0 +1,21 @@
+{{Mod
+|id                               = RecombinatorSpecialFireDamageToAttacksPerStrength
+|mod_groups                       = GlobalAddedDamagePerAttribute
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Sentinel's
+|mod_type                         = FireDamageToAttacksPerStrength
+|stat_text                        = Adds 2 to 4 [[Fire Damage]] to [[Attack|Attacks]] per 10 [[Strength]]
+|stat1_id                         = minimum_added_fire_damage_to_attacks_per_10_strength
+|stat1_min                        = 2
+|stat1_max                        = 2
+|stat2_id                         = maximum_added_fire_damage_to_attacks_per_10_strength
+|stat2_min                        = 4
+|stat2_max                        = 4
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental, fire, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

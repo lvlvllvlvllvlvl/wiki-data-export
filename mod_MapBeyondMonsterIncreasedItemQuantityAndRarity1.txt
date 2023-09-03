@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapBeyondMonsterIncreasedItemQuantityAndRarity1
+|mod_groups                       = MapBeyondMonsterIncreasedItemQuantityAndRarity
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Ample
+|mod_type                         = MapBeyondMonsterIncreasedItemQuantityAndRarity
+|stat_text                        = Monsters from Beyond in next Area will have (10-19)% more Quantity and Rarity of Dropped Items
+|stat1_id                         = map_leaguestone_beyond_monster_item_quantity_and_rarity_+%_final
+|stat1_min                        = 10
+|stat1_max                        = 19
+|spawn_weight1_tag                = beyond_leaguestone
+|spawn_weight1_value              = 1500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

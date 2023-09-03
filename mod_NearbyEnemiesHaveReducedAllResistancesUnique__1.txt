@@ -1,0 +1,20 @@
+{{Mod
+|id                               = NearbyEnemiesHaveReducedAllResistancesUnique__1
+|mod_groups                       = NearbyEnemiesBonuses
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = unique_reduced_enemy_all_resistance
+|granted_buff_value               = 60
+|mod_type                         = NearbyEnemiesHaveReducedAllResistances
+|stat_text                        = -10% to All Resistances<br>Nearby Enemies have -10% to all Resistances
+|stat1_id                         = resist_all_%
+|stat1_min                        = -10
+|stat1_max                        = -10
+|stat2_id                         = local_display_nearby_enemies_all_resistances_%
+|stat2_min                        = -10
+|stat2_max                        = -10
+|tags                             = resistance
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

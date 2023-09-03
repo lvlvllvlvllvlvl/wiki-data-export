@@ -1,0 +1,20 @@
+{{Mod
+|id                               = FlaskShockImmunity1
+|mod_groups                       = FlaskRemovesShock
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 6
+|name                             = of Earthing
+|mod_type                         = FlaskShockImmunity
+|stat_text                        = Grants Immunity to [[Shock]] for (6-8) seconds if used while [[Shock|Shocked]]
+|stat1_id                         = local_flask_shock_immunity_if_shocked_s
+|stat1_min                        = 6
+|stat1_max                        = 8
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 750
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

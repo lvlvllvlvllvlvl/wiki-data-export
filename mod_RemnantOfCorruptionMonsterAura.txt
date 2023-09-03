@@ -1,0 +1,21 @@
+{{Mod
+|id                               = RemnantOfCorruptionMonsterAura
+|mod_groups                       = RemnantOfCorruptionMonsterEffects
+|domain                           = 3
+|generation_type                  = 11
+|required_level                   = 1
+|granted_buff_id                  = remnant_of_corruption_aura
+|granted_buff_value               = 30
+|mod_type                         = RemnantOfCorruptionMonsterAura
+|stat_text                        = 30% reduced [[Movement Speed]] (Hidden)<br>Takes 6 of Maximum Life as Physical Damage per second (Hidden)
+|stat1_id                         = base_movement_velocity_+%
+|stat1_min                        = -30
+|stat1_max                        = -30
+|stat2_id                         = base_physical_damage_%_of_maximum_life_taken_per_minute
+|stat2_min                        = 360
+|stat2_max                        = 360
+|stat3_id                         = base_physical_damage_%_of_maximum_energy_shield_taken_per_minute
+|stat3_min                        = 180
+|stat3_max                        = 180
+|tags                             = physical_damage, caster_damage, damage, physical, attack, caster, speed
+}}

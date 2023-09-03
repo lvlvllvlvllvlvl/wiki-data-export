@@ -1,0 +1,18 @@
+{{Mod
+|id                               = TangledAltarDownsidePlayerChilledGroundWhenHit
+|mod_groups                       = TangledAltarDownsidePlayerChilledGroundWhenHit
+|domain                           = 29
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = TangledAltarDownsidePlayerChilledGroundWhenHit
+|stat_text                        = (25-35)% chance for Enemies to drop Chilled Ground when Hitting you, no more than once every 2 seconds
+|stat1_id                         = enemies_hitting_you_drop_chilled_ground_%
+|stat1_min                        = 25
+|stat1_max                        = 35
+|spawn_weight1_tag                = primordial_altar_upside
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = tangle_altar
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

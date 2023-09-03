@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeArrowsChainChainingRange2h
+|mod_groups                       = WeaponTreeArrowsChainChainingRange
+|domain                           = 1
+|generation_type                  = 32
+|required_level                   = 84
+|mod_type                         = WeaponTreeArrowsChainChainingRange
+|stat_text                        = Arrows Chain +1 times<br>50% reduced Chaining range
+|stat1_id                         = arrow_chains_+
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = chaining_range_+%
+|stat2_min                        = -50
+|stat2_max                        = -50
+|spawn_weight1_tag                = bow
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

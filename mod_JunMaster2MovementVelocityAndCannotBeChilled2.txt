@@ -1,0 +1,23 @@
+{{Mod
+|id                               = JunMaster2MovementVelocityAndCannotBeChilled2
+|mod_groups                       = MovementVelocity
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 72
+|name                             = Chosen
+|mod_type                         = MovementVelocityAndCannotBeChilled
+|stat_text                        = (15-17)% increased [[Movement Speed]]<br>100% chance to Avoid being Chilled
+|stat1_id                         = base_movement_velocity_+%
+|stat1_min                        = 15
+|stat1_max                        = 17
+|stat2_id                         = base_avoid_chill_%
+|stat2_min                        = 100
+|stat2_max                        = 100
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = unveiled_mod, elemental, cold, speed, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

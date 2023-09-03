@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentMovementVelocityWhileHaventBeenHit2_
+|mod_groups                       = ConditionalBuffEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Movement Speed 2
+|mod_type                         = EnchantmentMovementVelocityWhileHaventBeenHit
+|stat_text                        = 8% increased [[Movement Speed]] if you haven't been [[Hit]] [[Recently]]
+|stat1_id                         = enchantment_boots_movement_speed_+%_when_not_hit_for_4_seconds
+|stat1_min                        = 8
+|stat1_max                        = 8
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = speed
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MonsterPhysicalThorns
+|mod_groups                       = MonsterAura
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|name                             = Physical Reflection Aura
+|granted_buff_id                  = monster_aura_physical_thorns
+|granted_buff_value               = 0
+|mod_type                         = MonsterAuraPhysicalThorns
+|stat_text                        = 35% of Physical Damage taken reflected to Attacker (Hidden)
+|stat1_id                         = physical_damage_taken_%_to_deal_to_attacker
+|stat1_min                        = 35
+|stat1_max                        = 35
+|tags                             = physical_damage, damage, physical
+}}

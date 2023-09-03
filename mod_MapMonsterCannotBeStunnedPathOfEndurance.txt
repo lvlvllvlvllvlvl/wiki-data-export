@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MapMonsterCannotBeStunnedPathOfEndurance
+|mod_groups                       = MapMonsterCannotBeStunned
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapMonsterCannotBeStunnedMap2Tier
+|stat_text                        = Monsters cannot be Stunned<br>30% more Monster [[Life]]
+|stat1_id                         = map_monsters_cannot_be_stunned
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_monsters_life_+%
+|stat2_min                        = 30
+|stat2_max                        = 30
+|tags                             = resource, life
+}}

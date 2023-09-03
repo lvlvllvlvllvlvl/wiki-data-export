@@ -1,0 +1,34 @@
+{{Mod
+|id                               = CullingStrikeInfluenceMaven__
+|mod_groups                       = CullingStrike
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 83
+|name                             = of the Elevated Conquest
+|mod_type                         = CullingStrikeMaven
+|stat_text                        = Culling Strike<br>(15-25)% increased Area of Effect if you've dealt a Culling Strike [[Recently]]
+|stat1_id                         = kill_enemy_on_hit_if_under_10%_life
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = area_of_effect_+%_if_culled_recently
+|stat2_min                        = 15
+|stat2_max                        = 25
+|spawn_weight1_tag                = gloves_adjudicator
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = 2h_sword_adjudicator
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = 2h_axe_adjudicator
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = 2h_mace_adjudicator
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = staff_adjudicator
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = warstaff_adjudicator
+|spawn_weight6_value              = 0
+|spawn_weight7_tag                = bow_adjudicator
+|spawn_weight7_value              = 0
+|spawn_weight8_tag                = default
+|spawn_weight8_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

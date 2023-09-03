@@ -1,0 +1,32 @@
+{{Mod
+|id                               = WeaponTreeSpellAddedPhysicalLowFireConversion5
+|mod_groups                       = SpellAddedPhysicalDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 84
+|mod_type                         = WeaponTreeSpellAddedPhysicalDamageAndFireConversion
+|stat_text                        = Adds 13 to 20 [[Physical Damage]] to [[Spell|Spells]]<br>15% of [[Physical Damage]] Converted to [[Fire Damage]]
+|stat1_id                         = spell_minimum_added_physical_damage
+|stat1_min                        = 13
+|stat1_max                        = 13
+|stat2_id                         = spell_maximum_added_physical_damage
+|stat2_min                        = 20
+|stat2_max                        = 20
+|stat3_id                         = base_physical_damage_%_to_convert_to_fire
+|stat3_min                        = 15
+|stat3_max                        = 15
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 16
+|spawn_weight3_tag                = attack_dagger
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = wand
+|spawn_weight4_value              = 16
+|spawn_weight5_tag                = sceptre
+|spawn_weight5_value              = 16
+|spawn_weight6_tag                = dagger
+|spawn_weight6_value              = 16
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+}}

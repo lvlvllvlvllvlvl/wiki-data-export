@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MonsterFire1
+|mod_groups                       = FireDamageAsPortionOfDamage
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|name                             = of Flames
+|mod_type                         = MonsterFireDamageAsPortionOfDamage
+|stat_text                        = Gain 25% of [[Physical Damage]] as Extra [[Fire Damage]] (Hidden)
+|stat1_id                         = physical_damage_%_to_add_as_fire
+|stat1_min                        = 25
+|stat1_max                        = 25
+|spawn_weight1_tag                = caster
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 1000
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, fire
+}}

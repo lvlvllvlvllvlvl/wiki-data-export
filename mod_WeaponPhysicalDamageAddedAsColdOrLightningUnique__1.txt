@@ -1,0 +1,15 @@
+{{Mod
+|id                               = WeaponPhysicalDamageAddedAsColdOrLightningUnique__1
+|mod_groups                       = WeaponPhysicalDamageAddedAsRandomElement
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = WeaponPhysicalDamageAddedAsColdOrLightning
+|stat_text                        = [[Hit|Hits]] with this Weapon gain (75-100)% of [[Physical Damage]] as Extra Cold or [[Lightning Damage]]
+|stat1_id                         = local_physical_damage_%_to_gain_as_cold_or_lightning
+|stat1_min                        = 75
+|stat1_max                        = 100
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, cold, lightning, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

@@ -1,0 +1,23 @@
+{{Mod
+|id                               = FrenzyChargeOnHitChanceInfluenceMaven
+|mod_groups                       = FrenzyChargeOnHitChance
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 90
+|name                             = of Elevated Redemption
+|mod_type                         = FrenzyChargeOnHitChanceMaven
+|stat_text                        = 10% chance to gain a [[Frenzy Charge]] on [[Hit]]<br>1% increased [[Movement Speed]] per [[Frenzy Charge]]
+|stat1_id                         = add_frenzy_charge_on_skill_hit_%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = movement_velocity_+%_per_frenzy_charge
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = body_armour_eyrie
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = frenzy_charge, speed
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

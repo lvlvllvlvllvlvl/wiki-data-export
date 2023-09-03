@@ -1,0 +1,22 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantDamage_
+|mod_groups                       = AfflictionJewelSmallPassivesGrantDamage
+|domain                           = 21
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Harmful
+|mod_type                         = AfflictionJewelSmallPassivesGrantDamage
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: 2% increased Damage
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_damage_+%
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = expansion_jewel_large
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = expansion_jewel_medium
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = damage
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

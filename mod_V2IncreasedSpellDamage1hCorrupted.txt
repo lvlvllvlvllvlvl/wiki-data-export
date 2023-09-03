@@ -1,0 +1,19 @@
+{{Mod
+|id                               = V2IncreasedSpellDamage1hCorrupted
+|mod_groups                       = SpellDamage
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = SpellDamage
+|stat_text                        = (50-60)% increased [[Spell Damage]]
+|stat1_id                         = spell_damage_+%
+|stat1_min                        = 50
+|stat1_max                        = 60
+|spawn_weight1_tag                = dagger
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster_damage, damage, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

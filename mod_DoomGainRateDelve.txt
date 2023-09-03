@@ -1,0 +1,18 @@
+{{Mod
+|id                               = DoomGainRateDelve
+|mod_groups                       = AllDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Subterranean
+|mod_type                         = HitAndAilmentDamageCursedEnemies
+|stat_text                        = (40-60)% increased Damage with [[Hit|Hits]] and Ailments against Cursed Enemies
+|stat1_id                         = hit_and_ailment_damage_+%_vs_cursed_enemies
+|stat1_min                        = 40
+|stat1_max                        = 60
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = damage, curse
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

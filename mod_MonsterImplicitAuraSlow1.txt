@@ -1,0 +1,15 @@
+{{Mod
+|id                               = MonsterImplicitAuraSlow1
+|mod_groups                       = MonsterAura
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 4
+|granted_buff_id                  = monster_aura_slow
+|granted_buff_value               = 40
+|mod_type                         = MonsterAuraSlow
+|stat_text                        = 25% reduced [[Movement Speed]] (Hidden)
+|stat1_id                         = base_movement_velocity_+%
+|stat1_min                        = -25
+|stat1_max                        = -25
+|tags                             = speed
+}}

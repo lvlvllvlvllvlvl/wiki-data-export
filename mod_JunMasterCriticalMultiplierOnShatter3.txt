@@ -1,0 +1,23 @@
+{{Mod
+|id                               = JunMasterCriticalMultiplierOnShatter3
+|mod_groups                       = CriticalStrikeChanceIncrease
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 50
+|name                             = of Cameria
+|mod_type                         = CritChanceAndCriticalStrikeMultiplierIfEnemyShatteredRecently
+|stat_text                        = +(18-20)% to [[Critical Strike Multiplier]] if you've Shattered an Enemy [[Recently]]<br>(12-13)% increased Global [[Critical Strike Chance]]
+|stat1_id                         = critical_strike_multiplier_+_if_enemy_shattered_recently
+|stat1_min                        = 18
+|stat1_max                        = 20
+|stat2_id                         = critical_strike_chance_+%
+|stat2_min                        = 12
+|stat2_max                        = 13
+|spawn_weight1_tag                = ring
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = unveiled_mod, damage, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

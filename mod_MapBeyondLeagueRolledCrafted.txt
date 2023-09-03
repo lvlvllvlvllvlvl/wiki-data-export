@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MapBeyondLeagueRolledCrafted
+|mod_groups                       = MapBeyondLeagueRolled
+|domain                           = 5
+|generation_type                  = 3
+|mod_type                         = MapBeyondLeagueRolledMap2Tier
+|stat_text                        = 12% increased Quantity of Items found in this Area<br>6% increased Rarity of Items found in this Area<br>Slaying Enemies close together can attract monsters from Beyond this realm
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 12
+|stat1_max                        = 12
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 6
+|stat2_max                        = 6
+|stat3_id                         = map_beyond_rules
+|stat3_min                        = 13
+|stat3_max                        = 13
+|stat4_id                         = map_extra_content_weighting
+|stat4_min                        = 1
+|stat4_max                        = 1
+}}

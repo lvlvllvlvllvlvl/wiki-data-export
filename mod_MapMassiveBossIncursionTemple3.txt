@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapMassiveBossIncursionTemple3
+|mod_groups                       = MapMassiveBoss
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapMassiveBossMechanicalTotems
+|stat_text                        = 60% increased Quantity of Items found in this Area<br>Unique Boss has 35% increased [[Life]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 60
+|stat1_max                        = 60
+|stat2_id                         = map_boss_maximum_life_+%
+|stat2_min                        = 35
+|stat2_max                        = 35
+|stat3_id                         = map_packs_are_mechanical_totems
+|stat3_min                        = 1
+|stat3_max                        = 1
+|tags                             = resource, life
+}}

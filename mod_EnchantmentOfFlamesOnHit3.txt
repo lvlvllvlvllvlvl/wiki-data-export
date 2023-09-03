@@ -1,0 +1,21 @@
+{{Mod
+|id                               = EnchantmentOfFlamesOnHit3
+|mod_groups                       = TriggerEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Decree of Flames
+|granted_skill                    = EnchantmentOfFlamesOnHit3
+|mod_type                         = EnchantmentOfFlamesOnHit
+|stat_text                        = Trigger [[Decree of Flames]] on [[Hit]]
+|stat1_id                         = display_cast_decree_of_flames_on_hit_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|spawn_weight1_tag                = gloves
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = skill
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

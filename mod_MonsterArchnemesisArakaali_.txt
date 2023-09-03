@@ -1,0 +1,29 @@
+{{Mod
+|id                               = MonsterArchnemesisArakaali_
+|mod_groups                       = MonsterArchnemesisArakaali
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 68
+|name                             = Arakaali
+|mod_type                         = MonsterArchnemesisArakaali
+|stat_text                        = 50% increased Damage (Hidden)<br>+30% to all [[Elemental Resistance|Elemental Resistances]] (Hidden)<br>+20% to [[Chaos Resistance]] (Hidden)<br>10% additional [[Physical Damage]] Reduction (Hidden)
+|stat1_id                         = damage_+%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = base_resist_all_elements_%
+|stat2_min                        = 30
+|stat2_max                        = 30
+|stat3_id                         = base_chaos_damage_resistance_%
+|stat3_min                        = 20
+|stat3_max                        = 20
+|stat4_id                         = base_additional_physical_damage_reduction_%
+|stat4_min                        = 10
+|stat4_max                        = 10
+|stat5_id                         = dropped_items_are_converted_to_divination_cards
+|stat5_min                        = 1
+|stat5_max                        = 1
+|spawn_weight1_tag                = magic
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 60
+}}

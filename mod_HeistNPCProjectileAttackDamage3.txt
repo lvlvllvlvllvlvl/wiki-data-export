@@ -1,0 +1,20 @@
+{{Mod
+|id                               = HeistNPCProjectileAttackDamage3
+|mod_groups                       = ProjectileAttackDamage
+|domain                           = 23
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Ranger's
+|mod_type                         = ProjectileAttackDamage
+|stat_text                        = (31-35)% increased Projectile [[Attack Damage]]
+|stat1_id                         = projectile_attack_damage_+%
+|stat1_min                        = 31
+|stat1_max                        = 35
+|spawn_weight1_tag                = heist_equipment_ranged
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

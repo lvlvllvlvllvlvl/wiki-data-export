@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SanctumShieldAtStartOfFloor4
+|mod_groups                       = SanctumShieldAtStartOfFloor
+|domain                           = 7
+|generation_type                  = 1
+|required_level                   = 82
+|name                             = Fervent
+|mod_type                         = SanctumShieldAtStartOfFloor
+|stat_text                        = Gain (17-20) Inspiration at the start of each Floor
+|stat1_id                         = gain_sanctum_shield_at_start_of_each_floor
+|stat1_min                        = 17
+|stat1_max                        = 20
+|spawn_weight1_tag                = medium_sanctum_relic
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,27 @@
+{{Mod
+|id                               = MapPlayerCursePunishment1Map2Tier
+|mod_groups                       = MapPlayerCurse
+|domain                           = 5
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = of Punishment
+|mod_type                         = MapPlayerCursePunishmentMap2Tier
+|stat_text                        = 18% increased Quantity of Items found in this Area<br>9% increased Rarity of Items found in this Area<br>Players are Cursed with [[Punishment]]<br>14% increased Pack size
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 18
+|stat1_max                        = 18
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 9
+|stat2_max                        = 9
+|stat3_id                         = map_player_has_level_X_punishment
+|stat3_min                        = 10
+|stat3_max                        = 10
+|stat4_id                         = map_pack_size_+%
+|stat4_min                        = 14
+|stat4_max                        = 14
+|spawn_weight1_tag                = mid_tier_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster, curse
+}}

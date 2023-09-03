@@ -1,0 +1,26 @@
+{{Mod
+|id                               = DelveGlovesVaalSkillCriticalChance1
+|mod_groups                       = VaalSkillCriticalStrikeChance
+|domain                           = 16
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Underground
+|mod_type                         = VaalSkillCriticalStrikeChance
+|stat_text                        = (80-120)% increased Vaal [[Skill]] [[Critical Strike Chance]]
+|stat1_id                         = vaal_skill_critical_strike_chance_+%
+|stat1_min                        = 80
+|stat1_max                        = 120
+|spawn_weight1_tag                = abyss_jewel
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = jewel
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = quiver
+|spawn_weight3_value              = 2000
+|spawn_weight4_tag                = gloves
+|spawn_weight4_value              = 2000
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = critical, vaal
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

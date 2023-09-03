@@ -1,0 +1,25 @@
+{{Mod
+|id                               = JunMaster2ManaAndDamageTakenGoesToManaPercent3
+|mod_groups                       = IncreasedMana
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 81
+|name                             = Chosen
+|mod_type                         = ManaAndDamageTakenGoesToManaPercent
+|stat_text                        = +(36-40) to maximum [[Mana]]<br>6% of Damage taken Recouped as [[Mana]]
+|stat1_id                         = base_maximum_mana
+|stat1_min                        = 36
+|stat1_max                        = 40
+|stat2_id                         = damage_taken_goes_to_mana_%
+|stat2_min                        = 6
+|stat2_max                        = 6
+|spawn_weight1_tag                = ring
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = amulet
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = resource, unveiled_mod, life, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,15 @@
+{{Mod
+|id                               = LoseLifeOnSpellHitUnique__1
+|mod_groups                       = LifeGainedOnSpellHit
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = LifeGainedOnSpellHit
+|stat_text                        = Lose (15-10) [[Life]] per Enemy [[Hit]] with [[Spell|Spells]]
+|stat1_id                         = base_life_gained_on_spell_hit
+|stat1_min                        = -15
+|stat1_max                        = -10
+|tags                             = resource, life, caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

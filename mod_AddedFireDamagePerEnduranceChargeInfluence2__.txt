@@ -1,0 +1,23 @@
+{{Mod
+|id                               = AddedFireDamagePerEnduranceChargeInfluence2__
+|mod_groups                       = AddedFireDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 80
+|name                             = Warlord's
+|mod_type                         = GlobalAddedFireDamagePerEnduranceCharge
+|stat_text                        = (3-4) to (6-7) [[Fire Damage]] per [[Endurance Charge]]
+|stat1_id                         = minimum_added_fire_damage_per_endurance_charge
+|stat1_min                        = 3
+|stat1_max                        = 4
+|stat2_id                         = maximum_added_fire_damage_per_endurance_charge
+|stat2_min                        = 6
+|stat2_max                        = 7
+|spawn_weight1_tag                = ring_adjudicator
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

@@ -1,0 +1,34 @@
+{{Mod
+|id                               = IncreasedCastSpeedSpellEchoUber1
+|mod_groups                       = IncreasedCastSpeed
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Elder
+|granted_skill                    = SupportMulticast
+|mod_type                         = IncreasedCastSpeedSpellEcho
+|stat_text                        = (15-17)% increased [[Cast Speed]]<br>[[Item socket|Socketed]] Gems are Supported by [[Spell Echo Support|Level 18 Spell Echo]]
+|stat1_id                         = base_cast_speed_+%
+|stat1_min                        = 15
+|stat1_max                        = 17
+|stat2_id                         = local_display_socketed_gems_supported_by_level_x_multicast
+|stat2_min                        = 18
+|stat2_max                        = 18
+|spawn_weight1_tag                = sceptre_elder
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = rune_dagger_elder
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = wand_elder
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|generation_weight1_tag           = has_caster_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_attack_mod
+|generation_weight2_value         = 50
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = support, caster, speed, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentIncinerateProjectileSpeed1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Incinerate Projectile Speed 1
+|mod_type                         = EnchantmentIncinerateProjectileSpeed
+|stat_text                        = 20% increased [[Incinerate]] Damage
+|stat1_id                         = incinerate_damage_+%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster_damage, damage, caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

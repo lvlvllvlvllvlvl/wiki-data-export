@@ -1,0 +1,20 @@
+{{Mod
+|id                               = CriticalMultiplierWithBows4__
+|mod_groups                       = CriticalStrikeMultiplier
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of Fury
+|mod_type                         = CriticalStrikeMultiplierWithBows
+|stat_text                        = +(25-29)% to [[Critical Strike Multiplier]] with [[Bow|Bows]]
+|stat1_id                         = bow_critical_strike_multiplier_+
+|stat1_min                        = 25
+|stat1_max                        = 29
+|spawn_weight1_tag                = quiver
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage, attack, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

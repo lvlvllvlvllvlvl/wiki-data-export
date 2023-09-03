@@ -1,0 +1,20 @@
+{{Mod
+|id                               = CriticalChanceAgainstBlindedEnemiesUber1_
+|mod_groups                       = CriticalChanceAgainstBlindedEnemies
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Shaping
+|mod_type                         = CriticalChanceAgainstBlindedEnemies
+|stat_text                        = (80-100)% increased [[Critical Strike Chance]] against Blinded Enemies
+|stat1_id                         = critical_strike_chance_+%_vs_blinded_enemies
+|stat1_min                        = 80
+|stat1_max                        = 100
+|spawn_weight1_tag                = claw_shaper
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = critical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

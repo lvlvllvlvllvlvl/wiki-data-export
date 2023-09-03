@@ -1,0 +1,18 @@
+{{Mod
+|id                               = ChaosNonAilmentDamageOverTimeMultiplier2h1
+|mod_groups                       = DamageOverTimeMultiplier
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 4
+|name                             = Waning
+|mod_type                         = ChaosDamageOverTimeMultiplier
+|stat_text                        = +(26-35)% to [[Chaos Damage]] over Time Multiplier
+|stat1_id                         = chaos_dot_multiplier_+
+|stat1_min                        = 26
+|stat1_max                        = 35
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = dot_multi, chaos_damage, damage, chaos
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

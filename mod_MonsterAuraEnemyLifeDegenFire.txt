@@ -1,0 +1,15 @@
+{{Mod
+|id                               = MonsterAuraEnemyLifeDegenFire
+|mod_groups                       = MonsterAura
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = LocustSwarmStackingDegenAuraFire
+|granted_buff_value               = 10
+|mod_type                         = MonsterAuraEnemyLifeDegenFire
+|stat_text                        = Takes 15 of Maximum Life and Maximum Energy Shield as Fire Damage per second (Hidden)
+|stat1_id                         = base_fire_damage_%_of_maximum_life_plus_maximum_ES_taken_per_minute
+|stat1_min                        = 900
+|stat1_max                        = 900
+|tags                             = elemental_damage, damage, elemental, fire
+}}

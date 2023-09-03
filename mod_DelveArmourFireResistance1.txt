@@ -1,0 +1,28 @@
+{{Mod
+|id                               = DelveArmourFireResistance1
+|mod_groups                       = FireResistancePrefix
+|domain                           = 16
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Subterranean
+|mod_type                         = FireResistancePrefix
+|stat_text                        = +(20-35)% to [[Fire Resistance]]
+|stat1_id                         = base_fire_damage_resistance_%
+|stat1_min                        = 20
+|stat1_max                        = 35
+|spawn_weight1_tag                = quiver
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = shield
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = body_armour
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = boots
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = gloves
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = elemental, fire, resistance
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,18 @@
+{{Mod
+|id                               = BetrayalUpgradeMonsterCannotBeStopped
+|mod_groups                       = MonsterCannotBeStopped
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterCannotBeStopped
+|stat_text                        = Cannot be Knocked Back (Hidden)<br><abbr title="Cannot be Slowed">Action Speed cannot be modified to below base value</abbr><br>Cannot be Stunned (Hidden)
+|stat1_id                         = cannot_be_knocked_back
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = action_speed_cannot_be_reduced_below_base
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = base_cannot_be_stunned
+|stat3_min                        = 1
+|stat3_max                        = 1
+}}

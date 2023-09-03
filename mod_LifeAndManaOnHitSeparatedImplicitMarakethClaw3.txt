@@ -1,0 +1,18 @@
+{{Mod
+|id                               = LifeAndManaOnHitSeparatedImplicitMarakethClaw3
+|mod_groups                       = LifeAndManaOnHit
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = LifeAndManaOnHitSeparatedLocal
+|stat_text                        = Grants 14 [[Mana]] per Enemy [[Hit]]<br>Grants 38 [[Life]] per Enemy [[Hit]]
+|stat1_id                         = local_mana_gain_per_target
+|stat1_min                        = 14
+|stat1_max                        = 14
+|stat2_id                         = local_life_gain_per_target
+|stat2_min                        = 38
+|stat2_max                        = 38
+|tags                             = resource, life, mana, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

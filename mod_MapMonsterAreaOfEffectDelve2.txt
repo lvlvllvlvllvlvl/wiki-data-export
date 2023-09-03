@@ -1,0 +1,23 @@
+{{Mod
+|id                               = MapMonsterAreaOfEffectDelve2
+|mod_groups                       = MapMonsterAreaOfEffect
+|domain                           = 17
+|generation_type                  = 14
+|required_level                   = 20
+|mod_type                         = MapMonsterAreaOfEffectMapWorlds
+|stat_text                        = 13% increased Quantity of Items found in this Area<br>8% increased Rarity of Items found in this Area<br>5% increased Pack size<br>Monsters have 45% increased Area of Effect
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 13
+|stat1_max                        = 13
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 8
+|stat2_max                        = 8
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 5
+|stat3_max                        = 5
+|stat4_id                         = map_monsters_area_of_effect_+%
+|stat4_min                        = 45
+|stat4_max                        = 45
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+}}

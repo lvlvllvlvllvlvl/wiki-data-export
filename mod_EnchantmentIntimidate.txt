@@ -1,0 +1,18 @@
+{{Mod
+|id                               = EnchantmentIntimidate
+|mod_groups                       = BuffEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 83
+|mod_type                         = EnchantmentIntimidate
+|stat_text                        = Enemies Intimidated by you have 20% increased duration of stuns against them
+|stat1_id                         = enemies_you_intimidate_have_stun_duration_on_self_+%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|spawn_weight1_tag                = belt
+|spawn_weight1_value              = 1
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

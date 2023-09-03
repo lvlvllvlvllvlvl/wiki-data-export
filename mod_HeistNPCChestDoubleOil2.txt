@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HeistNPCChestDoubleOil2
+|mod_groups                       = HeistNPCChestDoubleOil
+|domain                           = 23
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of Blessings
+|mod_type                         = HeistNPCChestDoubleOil
+|stat_text                        = Heist Chests have a (8-9)% chance to Duplicate contained Oils
+|stat1_id                         = heist_chests_double_oils_%
+|stat1_min                        = 8
+|stat1_max                        = 9
+|spawn_weight1_tag                = heist_equipment_reward
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

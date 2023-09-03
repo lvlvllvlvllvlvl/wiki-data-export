@@ -1,0 +1,19 @@
+{{Mod
+|id                               = ChanceToBleedOnTauntedEnemiesUber1
+|mod_groups                       = ChanceToBleedOnTauntedEnemies
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = ChanceToBleedOnTauntedEnemies
+|stat_text                        = 20% chance to inflict Bleeding on [[Hit]] with [[Attack|Attacks]] against Taunted Enemies
+|stat1_id                         = attacks_chance_to_bleed_on_hit_%_vs_taunted_enemies
+|stat1_min                        = 20
+|stat1_max                        = 20
+|spawn_weight1_tag                = 2h_axe_shaper
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = bleed, physical, attack, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

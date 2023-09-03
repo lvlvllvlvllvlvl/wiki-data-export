@@ -1,0 +1,17 @@
+{{Mod
+|id                               = SanctumSpecialLightningExposureEffectOnHit
+|mod_groups                       = ExposureOnHit
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 82
+|name                             = of Potential
+|mod_type                         = LightningExposureEffectOnHit
+|stat_text                        = Inflict Lightning Exposure on Hit, applying -15% to [[Lightning Resistance]]
+|stat1_id                         = lightning_exposure_on_hit_magnitude
+|stat1_min                        = -15
+|stat1_max                        = -15
+|spawn_weight1_tag                = int_special_relic
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 50
+}}

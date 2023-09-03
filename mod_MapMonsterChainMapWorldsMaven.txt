@@ -1,0 +1,27 @@
+{{Mod
+|id                               = MapMonsterChainMapWorldsMaven
+|mod_groups                       = MapMonsterChain
+|domain                           = 5
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Chaining
+|mod_type                         = MapMonsterChainMapWorlds
+|stat_text                        = 16% increased Quantity of Items found in this Area<br>9% increased Rarity of Items found in this Area<br>Monsters' [[Skill|skills]] Chain 2 additional times
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 16
+|stat1_max                        = 16
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 9
+|stat2_max                        = 9
+|stat3_id                         = map_monster_skills_chain_X_additional_times
+|stat3_min                        = 2
+|stat3_max                        = 2
+|spawn_weight1_tag                = secret_area
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = maven_map
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = primordial_map
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+}}

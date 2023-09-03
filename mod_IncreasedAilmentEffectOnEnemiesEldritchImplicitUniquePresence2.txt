@@ -1,0 +1,26 @@
+{{Mod
+|id                               = IncreasedAilmentEffectOnEnemiesEldritchImplicitUniquePresence2
+|mod_groups                       = IncreasedAilmentEffectOnEnemies
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|granted_buff_id                  = influence_stat_condition_presence_unique_monster
+|granted_buff_value               = 0
+|mod_type                         = IncreasedAilmentEffectOnEnemiesUniquePresence
+|stat_text                        = (23-25)% increased Effect of Non-Damaging Ailments
+|stat1_id                         = non_damaging_ailment_effect_+%
+|stat1_min                        = 23
+|stat1_max                        = 25
+|stat2_id                         = local_influence_mod_requires_unique_monster_presence
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = no_tier_5_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = helmet
+|spawn_weight2_value              = 350
+|spawn_weight3_tag                = amulet
+|spawn_weight3_value              = 350
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = ailment
+}}

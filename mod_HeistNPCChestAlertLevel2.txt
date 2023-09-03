@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HeistNPCChestAlertLevel2
+|mod_groups                       = HeistContractChestAlertLevel
+|domain                           = 23
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of Stealth
+|mod_type                         = HeistNPCChestAlertLevel
+|stat_text                        = (8-6)% reduced raising of Alert [[Level]] from opening Chests
+|stat1_id                         = heist_contract_alert_level_from_chests_+%
+|stat1_min                        = -8
+|stat1_max                        = -6
+|spawn_weight1_tag                = heist_equipment_utility
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

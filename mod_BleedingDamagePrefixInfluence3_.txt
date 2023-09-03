@@ -1,0 +1,26 @@
+{{Mod
+|id                               = BleedingDamagePrefixInfluence3_
+|mod_groups                       = WeaponCasterDamagePrefix
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Warlord's
+|mod_type                         = PhysicalDamageOverTimePrefix
+|stat_text                        = (80-89)% increased [[Physical Damage]] over Time
+|stat1_id                         = physical_damage_over_time_+%
+|stat1_min                        = 80
+|stat1_max                        = 89
+|spawn_weight1_tag                = sword_adjudicator
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = axe_adjudicator
+|spawn_weight2_value              = 200
+|spawn_weight3_tag                = mace_adjudicator
+|spawn_weight3_value              = 200
+|spawn_weight4_tag                = bow_adjudicator
+|spawn_weight4_value              = 200
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = physical_damage, bleed, damage, physical, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

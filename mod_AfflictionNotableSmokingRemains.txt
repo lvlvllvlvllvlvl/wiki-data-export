@@ -1,0 +1,32 @@
+{{Mod
+|id                               = AfflictionNotableSmokingRemains
+|mod_groups                       = AfflictionNotableSmokingRemains
+|domain                           = 21
+|generation_type                  = 1
+|required_level                   = 50
+|name                             = Notable
+|mod_type                         = AfflictionNotableSmokingRemains
+|stat_text                        = 1 Added Passive [[Skill]] is Smoking Remains
+|stat1_id                         = local_affliction_notable_smoking_remains
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = affliction_fire_damage
+|spawn_weight1_value              = 238
+|spawn_weight2_tag                = affliction_fire_damage_over_time_multiplier
+|spawn_weight2_value              = 366
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|generation_weight1_tag           = expansion_jewel_large
+|generation_weight1_value         = 100
+|generation_weight2_tag           = expansion_jewel_medium
+|generation_weight2_value         = 100
+|generation_weight3_tag           = has_affliction_notable
+|generation_weight3_value         = 0
+|generation_weight4_tag           = expansion_jewel_small
+|generation_weight4_value         = 100
+|generation_weight5_tag           = default
+|generation_weight5_value         = 0
+|tags                             = elemental_damage, damage, elemental, fire
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

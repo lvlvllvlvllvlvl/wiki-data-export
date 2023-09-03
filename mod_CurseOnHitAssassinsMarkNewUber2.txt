@@ -1,0 +1,21 @@
+{{Mod
+|id                               = CurseOnHitAssassinsMarkNewUber2
+|mod_groups                       = CurseOnHitLevel
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of Shaping
+|granted_skill                    = AssassinsMarkTriggered
+|mod_type                         = TriggerOnRareAssassinsMark
+|stat_text                        = Trigger [[Level]] 12 [[Assassin's Mark]] when you [[Hit]] a Rare or Unique Enemy and have no Mark
+|stat1_id                         = local_display_trigger_level_X_assassins_mark_when_you_hit_rare_or_unique_enemy
+|stat1_min                        = 12
+|stat1_max                        = 12
+|spawn_weight1_tag                = ring_shaper
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster, curse
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

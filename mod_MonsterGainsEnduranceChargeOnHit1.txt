@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MonsterGainsEnduranceChargeOnHit1
+|mod_groups                       = MonsterGrantsCharges
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|name                             = of Endurance
+|mod_type                         = MonsterGainsEnduranceChargeOnHit
+|stat_text                        = 50% chance to gain an [[Endurance Charge]] on [[Hit]] (Hidden)
+|stat1_id                         = add_endurance_charge_on_skill_hit_%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|spawn_weight1_tag                = not_str
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 1000
+|tags                             = endurance_charge
+}}

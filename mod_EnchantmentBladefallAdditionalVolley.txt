@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentBladefallAdditionalVolley
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Bladefall Additional Volley
+|mod_type                         = EnchantmentBladefallAdditionalVolley
+|stat_text                        = [[Bladefall]] has an additional Volley
+|stat1_id                         = bladefall_number_of_volleys
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 75
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

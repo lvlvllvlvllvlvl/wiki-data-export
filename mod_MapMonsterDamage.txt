@@ -1,0 +1,23 @@
+{{Mod
+|id                               = MapMonsterDamage
+|mod_groups                       = MapMonsterDamage
+|domain                           = 5
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Deadly
+|mod_type                         = MapMonsterDamage
+|stat_text                        = 18% increased Quantity of Items found in this Area<br>(25-35)% increased Monster Damage
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 18
+|stat1_max                        = 18
+|stat2_id                         = map_monsters_damage_+%
+|stat2_min                        = 25
+|stat2_max                        = 35
+|spawn_weight1_tag                = secret_area
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = old_map
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = damage
+}}

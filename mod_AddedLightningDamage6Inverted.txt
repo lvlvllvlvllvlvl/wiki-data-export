@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AddedLightningDamage6Inverted
+|mod_groups                       = LightningDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 44
+|name                             = Arcing
+|mod_type                         = SelfLightningDamageTaken
+|stat_text                        = Adds (1-4) to (40-43) [[Lightning Damage]] to [[Attack|Attacks]] against you
+|stat1_id                         = from_self_minimum_added_attack_lightning_damage_taken
+|stat1_min                        = 1
+|stat1_max                        = 4
+|stat2_id                         = from_self_maximum_added_attack_lightning_damage_taken
+|stat2_min                        = 40
+|stat2_max                        = 43
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, lightning, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

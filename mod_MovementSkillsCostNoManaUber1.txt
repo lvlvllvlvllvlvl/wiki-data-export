@@ -1,0 +1,23 @@
+{{Mod
+|id                               = MovementSkillsCostNoManaUber1
+|mod_groups                       = MovementSkillsCostNoMana
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Shaping
+|granted_skill                    = ModSupportMovementSkillsCostNoMana
+|mod_type                         = DisplayMovementSkillsCostNoMana
+|stat_text                        = [[Item socket|Socketed]] Movement [[Skill|Skills]] Cost no [[Mana]]
+|stat1_id                         = local_display_socketed_movement_skills_have_no_mana_cost
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = 2h_sword_shaper
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = sword_shaper
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = skill, resource, mana, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

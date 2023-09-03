@@ -1,0 +1,22 @@
+{{Mod
+|id                               = BlockShieldJewel
+|mod_groups                       = FormBlock
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Shielding
+|mod_type                         = BlockShieldForJewel
+|stat_text                        = +1% Chance to [[Block]] [[Attack Damage]] while holding a [[Shield]]
+|stat1_id                         = shield_block_%
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = two_handed_mod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = dual_wielding_mod
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 350
+|tags                             = block
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

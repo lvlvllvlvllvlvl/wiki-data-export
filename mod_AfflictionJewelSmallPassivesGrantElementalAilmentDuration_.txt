@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantElementalAilmentDuration_
+|mod_groups                       = AfflictionJewelSmallPassivesGrantElementalAilmentDuration
+|domain                           = 21
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Tumult
+|mod_type                         = AfflictionJewelSmallPassivesGrantElementalAilmentDuration
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: 3% increased Duration of Elemental Ailments on Enemies
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_base_elemental_status_ailment_duration_+%
+|stat1_min                        = 3
+|stat1_max                        = 3
+|spawn_weight1_tag                = affliction_effect_of_non-damaging_ailments
+|spawn_weight1_value              = 350
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, fire, cold, lightning, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

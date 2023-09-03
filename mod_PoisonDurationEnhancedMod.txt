@@ -1,0 +1,21 @@
+{{Mod
+|id                               = PoisonDurationEnhancedMod
+|mod_groups                       = PoisonDuration
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Tacati
+|mod_type                         = PoisonDurationChaosDamage
+|stat_text                        = (13-18)% increased [[Poison]] Duration<br>(26-30)% increased [[Chaos Damage]]
+|stat1_id                         = base_poison_duration_+%
+|stat1_min                        = 13
+|stat1_max                        = 18
+|stat2_id                         = chaos_damage_+%
+|stat2_min                        = 26
+|stat2_max                        = 30
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = chaos_damage, poison, damage, chaos, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

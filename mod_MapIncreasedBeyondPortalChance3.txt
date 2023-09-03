@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapIncreasedBeyondPortalChance3
+|mod_groups                       = MapIncreasedBeyondPortalChance
+|domain                           = 12
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of the Call
+|mod_type                         = MapIncreasedBeyondPortalChance
+|stat_text                        = Monsters in next Area have 80% increased chance to spawn a Beyond [[Portal]]
+|stat1_id                         = map_monster_beyond_portal_chance_+%
+|stat1_min                        = 80
+|stat1_max                        = 80
+|spawn_weight1_tag                = beyond_leaguestone
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,18 @@
+{{Mod
+|id                               = FlaskGainPerSecondEldritchImplicit2
+|mod_groups                       = FlaskChargesGained
+|domain                           = 1
+|generation_type                  = 28
+|required_level                   = 75
+|mod_type                         = FlaskGainPerSecond
+|stat_text                        = Flasks gain a [[Charge]] every 3 seconds
+|stat1_id                         = flask_charges_recovered_per_3_seconds
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = no_tier_5_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = body_armour
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

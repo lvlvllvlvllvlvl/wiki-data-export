@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MapMonstersChanceToInflictStatusAilmentsSynthesis3__
+|mod_groups                       = MapMonstersChanceToInflictStatusAilments
+|domain                           = 18
+|generation_type                  = 15
+|required_level                   = 79
+|mod_type                         = MapMonstersChanceToInflictStatusAilmentsMapWorlds
+|stat_text                        = Monsters have a (26-35)% chance to cause Elemental Ailments on [[Hit]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 13
+|stat1_max                        = 13
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 8
+|stat2_max                        = 8
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 5
+|stat3_max                        = 5
+|stat4_id                         = map_monsters_%_chance_to_inflict_status_ailments
+|stat4_min                        = 26
+|stat4_max                        = 35
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+|tags                             = elemental, fire, cold, lightning, ailment
+}}

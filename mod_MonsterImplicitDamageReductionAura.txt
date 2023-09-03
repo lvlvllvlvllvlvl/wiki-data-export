@@ -1,0 +1,14 @@
+{{Mod
+|id                               = MonsterImplicitDamageReductionAura
+|mod_groups                       = MonsterAura
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = monster_aura_damage_reduction
+|granted_buff_value               = 40
+|mod_type                         = MonsterAuraDamageReduction
+|stat_text                        = 25% reduced Damage taken (Hidden)
+|stat1_id                         = base_damage_taken_+%
+|stat1_min                        = -25
+|stat1_max                        = -25
+}}

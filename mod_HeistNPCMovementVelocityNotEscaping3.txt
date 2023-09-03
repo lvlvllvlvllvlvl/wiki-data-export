@@ -1,0 +1,20 @@
+{{Mod
+|id                               = HeistNPCMovementVelocityNotEscaping3
+|mod_groups                       = MovementVelocity
+|domain                           = 23
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Invading
+|mod_type                         = HeistNPCMovementVelocityNotEscaping
+|stat_text                        = (10-12)% increased [[Movement Speed]] while area is not in Lockdown<br />Players have (10-12)% increased [[Movement Speed]] while area is not in Lockdown
+|stat1_id                         = movement_speed_+%_while_not_escaping_heist
+|stat1_min                        = 10
+|stat1_max                        = 12
+|spawn_weight1_tag                = heist_equipment_utility
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,23 @@
+{{Mod
+|id                               = MapLeaguestoneAreaContainsSpecificEssence3
+|mod_groups                       = MapLeaguestoneAreaContainsSpecificEssence
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Insane
+|mod_type                         = MapLeaguestoneAreaContainsSpecificEssence
+|stat_text                        = Next Area will contain an Essence of Insanity<br>-4 to Maximum [[Charge|Charges]]
+|stat1_id                         = map_leaguestone_monolith_contains_essence_type
+|stat1_min                        = 22
+|stat1_max                        = 22
+|stat2_id                         = leaguestone_prefix_minimum_area_level
+|stat2_min                        = 68
+|stat2_max                        = 68
+|stat3_id                         = local_extra_max_charges
+|stat3_min                        = -4
+|stat3_max                        = -4
+|spawn_weight1_tag                = essence_leaguestone
+|spawn_weight1_value              = 5
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

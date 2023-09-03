@@ -1,0 +1,30 @@
+{{Mod
+|id                               = MonsterArchnemesisAssassin
+|mod_groups                       = MonsterArchnemesisAssassin
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 24
+|name                             = Deadly
+|mod_type                         = MonsterArchnemesisAssassin
+|stat_text                        = All [[Hit|hits]] are Critical Strikes (Hidden)<br>You take 50% reduced Extra Damage from Critical Strikes (Hidden)<br>100% Global chance to Blind Enemies on [[Hit|hit]] (Hidden)<br>100% increased Blind Effect (Hidden)
+|stat1_id                         = always_crit
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = base_self_critical_strike_multiplier_-%
+|stat2_min                        = 50
+|stat2_max                        = 50
+|stat3_id                         = global_chance_to_blind_on_hit_%
+|stat3_min                        = 100
+|stat3_max                        = 100
+|stat4_id                         = blind_effect_+%
+|stat4_min                        = 100
+|stat4_max                        = 100
+|spawn_weight1_tag                = no_common_monster_mods
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = immobile
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = no_shroud_walker
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 800
+}}

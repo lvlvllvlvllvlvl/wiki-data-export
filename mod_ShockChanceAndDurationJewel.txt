@@ -1,0 +1,23 @@
+{{Mod
+|id                               = ShockChanceAndDurationJewel
+|mod_groups                       = AilmentChanceAndDuration
+|domain                           = 10
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Shocking
+|mod_type                         = ShockChanceAndDurationForJewel
+|stat_text                        = (3-5)% chance to [[Shock]]<br>(12-16)% increased [[Shock]] Duration on Enemies
+|stat1_id                         = base_chance_to_shock_%
+|stat1_min                        = 3
+|stat1_max                        = 5
+|stat2_id                         = shock_duration_+%
+|stat2_min                        = 12
+|stat2_max                        = 16
+|spawn_weight1_tag                = not_int
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 350
+|tags                             = elemental, lightning, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

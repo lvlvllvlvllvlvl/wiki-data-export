@@ -1,0 +1,20 @@
+{{Mod
+|id                               = ProjectileSpeedJewel
+|mod_groups                       = ProjectileSpeed
+|domain                           = 10
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Soaring
+|mod_type                         = IncreasedProjectileSpeedForJewel
+|stat_text                        = (6-8)% increased Projectile Speed
+|stat1_id                         = base_projectile_speed_+%
+|stat1_min                        = 6
+|stat1_max                        = 8
+|spawn_weight1_tag                = not_dex
+|spawn_weight1_value              = 300
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 500
+|tags                             = speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

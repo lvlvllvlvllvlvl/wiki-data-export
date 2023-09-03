@@ -1,0 +1,18 @@
+{{Mod
+|id                               = FireResistancePenetrationTwoHandEssence2_
+|mod_groups                       = FireResistancePenetration
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 42
+|name                             = Essences
+|mod_type                         = FireResistancePenetration
+|stat_text                        = Damage Penetrates (9-10)% [[Fire Resistance]]
+|stat1_id                         = base_reduce_enemy_fire_resistance_%
+|stat1_min                        = 9
+|stat1_max                        = 10
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

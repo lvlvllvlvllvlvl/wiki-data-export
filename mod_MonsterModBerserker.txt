@@ -1,0 +1,32 @@
+{{Mod
+|id                               = MonsterModBerserker
+|mod_groups                       = MonsterModBerserker
+|domain                           = 3
+|generation_type                  = 1
+|required_level                   = 39
+|name                             = Berserking
+|granted_buff_id                  = archnemesis_berserker
+|granted_buff_value               = 0
+|mod_type                         = MonsterModBerserker
+|stat_text                        = 40% increased Damage (Hidden)<br>40% increased [[Movement Speed]] (Hidden)<br>30% reduced Damage taken (Hidden)<br>50% increased [[Character Size]] (Hidden)<br>75% increased [[Attack Speed]] (Hidden)<br>75% increased [[Cast Speed]] (Hidden)
+|stat1_id                         = damage_+%
+|stat1_min                        = 40
+|stat1_max                        = 40
+|stat2_id                         = base_movement_velocity_+%
+|stat2_min                        = 40
+|stat2_max                        = 40
+|stat3_id                         = base_damage_taken_+%
+|stat3_min                        = -30
+|stat3_max                        = -30
+|stat4_id                         = base_actor_scale_+%
+|stat4_min                        = 50
+|stat4_max                        = 50
+|stat5_id                         = attack_speed_+%
+|stat5_min                        = 75
+|stat5_max                        = 75
+|stat6_id                         = base_cast_speed_+%
+|stat6_min                        = 75
+|stat6_max                        = 75
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1500
+}}

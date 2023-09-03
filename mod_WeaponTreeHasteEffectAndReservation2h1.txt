@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeHasteEffectAndReservation2h1
+|mod_groups                       = WeaponTreeHasteEffectAndReservation
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 24
+|mod_type                         = WeaponTreeHasteEffectAndReservation
+|stat_text                        = [[Haste]] has 40% increased Aura Effect<br>[[Haste]] has 50% increased Reservation
+|stat1_id                         = haste_aura_effect_+%
+|stat1_min                        = 40
+|stat1_max                        = 40
+|stat2_id                         = haste_mana_reservation_+%
+|stat2_min                        = 50
+|stat2_max                        = 50
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 150
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

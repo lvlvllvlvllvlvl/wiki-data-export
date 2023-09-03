@@ -1,0 +1,25 @@
+{{Mod
+|id                               = JunMasterVeiledMeleeRangeAndMeleeGemLevel
+|mod_groups                       = MeleeRangeAndMeleeGemLevel
+|domain                           = 28
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Chosen
+|mod_type                         = MeleeRangeAndMeleeGemLevel
+|stat_text                        = +2 to Melee Strike Range<br>+2 to [[Level]] of [[Item socket|Socketed]] Melee Gems
+|stat1_id                         = melee_range_+
+|stat1_min                        = 2
+|stat1_max                        = 2
+|stat2_id                         = local_socketed_melee_gem_level_+
+|stat2_min                        = 2
+|stat2_max                        = 2
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 1500
+|spawn_weight2_tag                = gloves
+|spawn_weight2_value              = 1500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = unveiled_mod, attack, attack, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

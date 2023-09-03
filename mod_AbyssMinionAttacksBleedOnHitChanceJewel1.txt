@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AbyssMinionAttacksBleedOnHitChanceJewel1
+|mod_groups                       = AbyssMinionAilmentOnHitChance
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of Bloodletting
+|mod_type                         = AbyssMinionAttacksBleedOnHitChance
+|stat_text                        = [[Minion|Minions]] have (10-15)% chance to cause Bleeding with [[Attack|Attacks]]
+|stat1_id                         = minion_bleed_on_hit_with_attacks_%
+|stat1_min                        = 10
+|stat1_max                        = 15
+|spawn_weight1_tag                = abyss_jewel_summoner
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = bleed, physical, minion, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

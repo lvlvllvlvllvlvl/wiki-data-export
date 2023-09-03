@@ -1,0 +1,18 @@
+{{Mod
+|id                               = PassivesGrantUnarmedAttackSpeedUnique__1_
+|mod_groups                       = PassivesGrantDifferentBonus
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = PassivesGrantUnarmedAttackSpeed
+|stat_text                        = Passive [[Skill|Skills]] in Radius also grant: 1% increased Unarmed [[Attack Speed]] with Melee [[Skill|Skills]]
+|stat1_id                         = local_unique_jewel_skills_in_radius_grant_%_unarmed_melee_attack_speed
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_jewel_effect_base_radius
+|stat2_min                        = 800
+|stat2_max                        = 800
+|tags                             = attack, speed
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

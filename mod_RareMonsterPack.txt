@@ -1,0 +1,21 @@
+{{Mod
+|id                               = RareMonsterPack
+|mod_groups                       = RareMonsterPack
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = visual_display_buff_not_hidden
+|granted_buff_value               = 0
+|mod_type                         = RareMonsterPack
+|stat_text                        = 94% more maximum [[Life]] (Hidden)<br>Monster gives 125% increased Experience on death (Hidden)<br>Monster deals 15% more Damage (Hidden)
+|stat1_id                         = monster_slain_experience_+%
+|stat1_min                        = 125
+|stat1_max                        = 125
+|stat2_id                         = monster_life_+%_final_from_rarity
+|stat2_min                        = 94
+|stat2_max                        = 94
+|stat3_id                         = monster_rarity_damage_+%_final
+|stat3_min                        = 15
+|stat3_max                        = 15
+|tags                             = resource, life, damage
+}}

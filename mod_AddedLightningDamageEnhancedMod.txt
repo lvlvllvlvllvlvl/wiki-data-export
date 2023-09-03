@@ -1,0 +1,24 @@
+{{Mod
+|id                               = AddedLightningDamageEnhancedMod
+|mod_groups                       = LightningDamage, ConvertPhysicalToLightning
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Topotante's
+|mod_type                         = LightningDamagePhysConvertedToLightning
+|stat_text                        = Adds (1-2) to (22-23) [[Lightning Damage]] to [[Attack|Attacks]]<br>25% of [[Physical Damage]] Converted to [[Lightning Damage]]
+|stat1_id                         = attack_minimum_added_lightning_damage
+|stat1_min                        = 1
+|stat1_max                        = 2
+|stat2_id                         = attack_maximum_added_lightning_damage
+|stat2_min                        = 22
+|stat2_max                        = 23
+|stat3_id                         = base_physical_damage_%_to_convert_to_lightning
+|stat3_min                        = 25
+|stat3_max                        = 25
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, lightning, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

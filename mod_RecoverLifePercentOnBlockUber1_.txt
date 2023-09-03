@@ -1,0 +1,20 @@
+{{Mod
+|id                               = RecoverLifePercentOnBlockUber1_
+|mod_groups                       = RecoverLifePercentOnBlock
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Shaping
+|mod_type                         = RecoverLifePercentOnBlock
+|stat_text                        = Recover (3-5)% of [[Life]] when you [[Block]]
+|stat1_id                         = recover_%_of_maximum_life_on_block
+|stat1_min                        = 3
+|stat1_max                        = 5
+|spawn_weight1_tag                = shield_shaper
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = block, resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

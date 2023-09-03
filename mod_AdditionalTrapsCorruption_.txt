@@ -1,0 +1,18 @@
+{{Mod
+|id                               = AdditionalTrapsCorruption_
+|mod_groups                       = TrapsAllowed
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = TrapsAllowed
+|stat_text                        = Can have up to 1 additional [[Trap]] placed at a time
+|stat1_id                         = number_of_additional_traps_allowed
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = belt
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

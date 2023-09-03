@@ -1,0 +1,32 @@
+{{Mod
+|id                               = MapMonsterCannotBeStunned2MapWorldsExpedition
+|mod_groups                       = MapMonsterCannotBeStunned
+|domain                           = 5
+|generation_type                  = 1
+|required_level                   = 73
+|name                             = Unwavering
+|mod_type                         = MapMonsterCannotBeStunnedMapWorlds
+|stat_text                        = 13% increased Quantity of Items found in this Area<br>8% increased Rarity of Items found in this Area<br>5% increased Pack size<br>Monsters cannot be Stunned<br>(20-24)% more Monster [[Life]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 13
+|stat1_max                        = 13
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 8
+|stat2_max                        = 8
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 5
+|stat3_max                        = 5
+|stat4_id                         = map_monsters_cannot_be_stunned
+|stat4_min                        = 1
+|stat4_max                        = 1
+|stat5_id                         = map_monsters_life_+%
+|stat5_min                        = 20
+|stat5_max                        = 24
+|spawn_weight1_tag                = top_tier_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = expedition_logbook
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = resource, life
+}}

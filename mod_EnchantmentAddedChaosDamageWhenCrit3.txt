@@ -1,0 +1,23 @@
+{{Mod
+|id                               = EnchantmentAddedChaosDamageWhenCrit3
+|mod_groups                       = ConditionalBuffEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Chaos Damage 3
+|mod_type                         = EnchantmentAddedChaosDamageWhenCrit
+|stat_text                        = Adds 120 to 180 [[Chaos Damage]] if you've taken a [[Critical Strike]] [[Recently]]
+|stat1_id                         = enchantment_boots_minimum_added_chaos_damage_for_4_seconds_when_crit_4s
+|stat1_min                        = 120
+|stat1_max                        = 120
+|stat2_id                         = enchantment_boots_maximum_added_chaos_damage_for_4_seconds_when_crit_4s
+|stat2_min                        = 180
+|stat2_max                        = 180
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 25
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = chaos_damage, damage, chaos, critical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

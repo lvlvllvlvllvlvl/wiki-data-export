@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentSnipeStunAvoidance2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Snipe Stun Avoidance 2
+|mod_type                         = EnchantmentSnipeStunAvoidance
+|stat_text                        = 50% chance to Avoid being Stunned while Channelling Snipe
+|stat1_id                         = avoid_stun_%_while_channeling_snipe
+|stat1_min                        = 50
+|stat1_max                        = 50
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

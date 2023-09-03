@@ -1,0 +1,25 @@
+{{Mod
+|id                               = WeaponTreeBrandAreaOfEffectAtLowDuration2h2
+|mod_groups                       = WeaponTreeBrandAreaOfEffectAtLowDuration
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 60
+|mod_type                         = WeaponTreeBrandAreaOfEffectAtLowDuration
+|stat_text                        = Brands have 60% increased Area of Effect if 50% of Attached Duration expired<br>Brand [[Skill|Skills]] have 30% reduced Duration
+|stat1_id                         = brand_area_of_effect_+%_if_50%_attached_duration_expired
+|stat1_min                        = 60
+|stat1_max                        = 60
+|stat2_id                         = sigil_duration_+%
+|stat2_min                        = -30
+|stat2_max                        = -30
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = attack_staff
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = staff
+|spawn_weight4_value              = 250
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+}}

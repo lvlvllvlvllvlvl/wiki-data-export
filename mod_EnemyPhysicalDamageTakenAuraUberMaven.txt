@@ -1,0 +1,25 @@
+{{Mod
+|id                               = EnemyPhysicalDamageTakenAuraUberMaven
+|mod_groups                       = LocalDisplayNearbyEnemyPhysicalDamageTaken
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 95
+|name                             = of the Elevated Elder
+|granted_buff_id                  = increased_enemy_physical_damage_taken_from_item
+|granted_buff_value               = 60
+|mod_type                         = NearbyEnemyPhysicalDamageTaken
+|stat_text                        = Nearby Enemies take 12% increased [[Physical Damage]]<br>12% increased [[Physical Damage]] taken
+|stat1_id                         = local_display_nearby_enemy_physical_damage_taken_+%
+|stat1_min                        = 12
+|stat1_max                        = 12
+|stat2_id                         = physical_damage_taken_+%
+|stat2_min                        = 12
+|stat2_max                        = 12
+|spawn_weight1_tag                = helmet_elder
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical_damage, damage, physical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

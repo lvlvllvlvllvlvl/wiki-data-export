@@ -1,0 +1,24 @@
+{{Mod
+|id                               = SentinelDroneMapsRewardChance3
+|mod_groups                       = SentinelDroneMapsRewardChance
+|domain                           = 30
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of Worlds
+|mod_type                         = SentinelDroneMapsRewardChance
+|stat_text                        = (2.1-3)% chance for Empowered Enemies to have a Map Reward
+|stat1_id                         = sentinel_tag_maps_reward_chance_permillage
+|stat1_min                        = 21
+|stat1_max                        = 30
+|stat2_id                         = local_sentinel_drone_difficulty_+
+|stat2_min                        = 8
+|stat2_max                        = 8
+|spawn_weight1_tag                = special_sentinel_mod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = sentinel_c
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 20
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

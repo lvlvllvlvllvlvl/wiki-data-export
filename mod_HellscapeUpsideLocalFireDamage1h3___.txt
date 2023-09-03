@@ -1,0 +1,22 @@
+{{Mod
+|id                               = HellscapeUpsideLocalFireDamage1h3___
+|mod_groups                       = FireDamage
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = LocalFireDamage
+|stat_text                        = Adds (29-35) to (43-48) [[Fire Damage]]
+|stat1_id                         = local_minimum_added_fire_damage
+|stat1_min                        = 29
+|stat1_max                        = 35
+|stat2_id                         = local_maximum_added_fire_damage
+|stat2_min                        = 43
+|stat2_max                        = 48
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

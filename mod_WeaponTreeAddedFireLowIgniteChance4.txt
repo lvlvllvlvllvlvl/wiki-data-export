@@ -1,0 +1,22 @@
+{{Mod
+|id                               = WeaponTreeAddedFireLowIgniteChance4
+|mod_groups                       = FireDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 62
+|mod_type                         = WeaponTreeLocalFireDamageAndIgniteChance
+|stat_text                        = Adds 12 to 19 [[Fire Damage]]<br>10% chance to [[Ignite]]
+|stat1_id                         = local_minimum_added_fire_damage
+|stat1_min                        = 12
+|stat1_max                        = 12
+|stat2_id                         = local_maximum_added_fire_damage
+|stat2_min                        = 19
+|stat2_max                        = 19
+|stat3_id                         = base_chance_to_ignite_%
+|stat3_min                        = 10
+|stat3_max                        = 10
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 125
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,18 @@
+{{Mod
+|id                               = ManaLeechPermyriad2Inverted
+|mod_groups                       = ManaLeech
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 70
+|name                             = Parched
+|mod_type                         = EnemyManaLeechPermyriad
+|stat_text                        = (0.6-0.8)% of Physical [[Attack Damage]] Leeched by Enemy as [[Mana]]
+|stat1_id                         = enemy_mana_leech_from_physical_attack_damage_permyriad
+|stat1_min                        = 60
+|stat1_max                        = 80
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = resource, mana, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

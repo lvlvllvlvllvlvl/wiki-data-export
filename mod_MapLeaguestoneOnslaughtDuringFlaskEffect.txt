@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MapLeaguestoneOnslaughtDuringFlaskEffect
+|mod_groups                       = MapLeaguestoneOnslaughtDuringFlaskEffect
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Libationary
+|mod_type                         = MapLeaguestoneOnslaughtDuringFlaskEffect
+|stat_text                        = Players in next Area will have Onslaught while using Flasks
+|stat1_id                         = map_players_gain_onslaught_during_flask_effect
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = onslaught_leaguestone
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, attack, caster, speed
+}}

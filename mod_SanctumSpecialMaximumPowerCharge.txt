@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialMaximumPowerCharge
+|mod_groups                       = IncreasedMaximumPowerCharges
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 84
+|name                             = of Untapped Power
+|mod_type                         = IncreasedMaximumPowerCharges
+|stat_text                        = +1 to Maximum [[Power Charge|Power Charges]]
+|stat1_id                         = max_power_charges
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = int_special_relic
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 50
+|tags                             = power_charge
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

@@ -1,0 +1,30 @@
+{{Mod
+|id                               = MapPlayersGainReducedFlaskCharges2MapWorlds_
+|mod_groups                       = MapPlayersGainReducedFlaskCharges
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Drought
+|mod_type                         = MapPlayersGainReducedFlaskChargesMapWorlds
+|stat_text                        = 13% increased Quantity of Items found in this Area<br>8% increased Rarity of Items found in this Area<br>5% increased Pack size<br>Players gain 40% reduced Flask [[Charge|Charges]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 13
+|stat1_max                        = 13
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 8
+|stat2_max                        = 8
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 5
+|stat3_max                        = 5
+|stat4_id                         = map_player_charges_gained_+%
+|stat4_min                        = -40
+|stat4_max                        = -40
+|spawn_weight1_tag                = mid_tier_map
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = expedition_logbook
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = primordial_map
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+}}

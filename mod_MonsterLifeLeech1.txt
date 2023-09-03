@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MonsterLifeLeech1
+|mod_groups                       = LifeLeech
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 40
+|name                             = of the Lamprey
+|mod_type                         = MonsterLifeLeech
+|stat_text                        = 100% of Physical [[Attack Damage]] Leeched as [[Life]] (Hidden)
+|stat1_id                         = life_leech_from_physical_attack_damage_permyriad
+|stat1_min                        = 10000
+|stat1_max                        = 10000
+|spawn_weight1_tag                = caster
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 1000
+|tags                             = resource, life, physical, attack
+}}

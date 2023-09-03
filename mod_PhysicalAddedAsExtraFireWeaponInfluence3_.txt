@@ -1,0 +1,28 @@
+{{Mod
+|id                               = PhysicalAddedAsExtraFireWeaponInfluence3_
+|mod_groups                       = PhysicalAddedAsFire
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 78
+|name                             = Warlord's
+|mod_type                         = PhysicalAddedAsFire
+|stat_text                        = Gain (18-20)% of [[Physical Damage]] as Extra [[Fire Damage]]
+|stat1_id                         = physical_damage_%_to_add_as_fire
+|stat1_min                        = 18
+|stat1_max                        = 20
+|spawn_weight1_tag                = sword_adjudicator
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = axe_adjudicator
+|spawn_weight2_value              = 400
+|spawn_weight3_tag                = mace_adjudicator
+|spawn_weight3_value              = 400
+|spawn_weight4_tag                = sceptre_adjudicator
+|spawn_weight4_value              = 400
+|spawn_weight5_tag                = wand_adjudicator
+|spawn_weight5_value              = 400
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, fire
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

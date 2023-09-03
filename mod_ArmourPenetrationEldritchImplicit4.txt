@@ -1,0 +1,21 @@
+{{Mod
+|id                               = ArmourPenetrationEldritchImplicit4
+|mod_groups                       = ArmourPenetration
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|mod_type                         = ArmourPenetration
+|stat_text                        = Overwhelm (14-15)% [[Physical Damage]] Reduction
+|stat1_id                         = enemy_phys_reduction_%_penalty_vs_hit
+|stat1_min                        = 14
+|stat1_max                        = 15
+|spawn_weight1_tag                = no_tier_3_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = gloves
+|spawn_weight2_value              = 700
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = physical_damage, damage, physical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

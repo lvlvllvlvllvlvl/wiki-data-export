@@ -1,0 +1,20 @@
+{{Mod
+|id                               = FrenzyChargeOnHitChanceInfluence1
+|mod_groups                       = FrenzyChargeOnHitChance
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of Redemption
+|mod_type                         = FrenzyChargeOnHitChance
+|stat_text                        = 10% chance to gain a [[Frenzy Charge]] on [[Hit]]
+|stat1_id                         = add_frenzy_charge_on_skill_hit_%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = body_armour_eyrie
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = frenzy_charge
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

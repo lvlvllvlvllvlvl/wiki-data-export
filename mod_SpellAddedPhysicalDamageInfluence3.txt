@@ -1,0 +1,23 @@
+{{Mod
+|id                               = SpellAddedPhysicalDamageInfluence3
+|mod_groups                       = SpellAddedPhysicalDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Hunter's
+|mod_type                         = SpellAddedPhysicalDamage
+|stat_text                        = Adds (25-34) to (51-59) [[Physical Damage]] to [[Spell|Spells]]
+|stat1_id                         = spell_minimum_added_physical_damage
+|stat1_min                        = 25
+|stat1_max                        = 34
+|stat2_id                         = spell_maximum_added_physical_damage
+|stat2_min                        = 51
+|stat2_max                        = 59
+|spawn_weight1_tag                = helmet_basilisk
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical_damage, caster_damage, damage, physical, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentLancingSteelChanceToNotConsumeShards2_
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Lancing Steel Chance To Not Consume Shards 2
+|mod_type                         = EnchantmentLancingSteelChanceToNotConsumeShards
+|stat_text                        = Lancing Steel has 30% chance to count as consuming Steel Shards without Consuming them
+|stat1_id                         = lancing_steel_%_chance_to_not_consume_ammo
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

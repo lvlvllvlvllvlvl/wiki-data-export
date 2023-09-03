@@ -1,0 +1,28 @@
+{{Mod
+|id                               = MapPlayerCurseElementalWeakness2MapWorldsMaven__
+|mod_groups                       = MapPlayerElementalWeakness
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Elemental Weakness
+|mod_type                         = MapPlayerCurseElementalWeakness2MapWorlds
+|stat_text                        = 13% increased Quantity of Items found in this Area<br>8% increased Rarity of Items found in this Area<br>Players are Cursed with [[Elemental Weakness]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 13
+|stat1_max                        = 13
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 8
+|stat2_max                        = 8
+|stat3_id                         = map_player_has_level_X_elemental_weakness
+|stat3_min                        = 15
+|stat3_max                        = 15
+|spawn_weight1_tag                = top_tier_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = maven_map
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = primordial_map
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = caster, curse
+}}

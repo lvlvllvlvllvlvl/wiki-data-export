@@ -1,0 +1,20 @@
+{{Mod
+|id                               = HeistNPCDemolitionSpeed4
+|mod_groups                       = HeistNPCJobSpeed
+|domain                           = 23
+|generation_type                  = 1
+|required_level                   = 83
+|name                             = Master's
+|mod_type                         = HeistNPCDemolitionSpeed
+|stat_text                        = (18-20)% increased Demolition speed
+|stat1_id                         = heist_job_demolition_speed_+%
+|stat1_min                        = 18
+|stat1_max                        = 20
+|spawn_weight1_tag                = heist_equipment_demolition
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

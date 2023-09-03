@@ -1,0 +1,30 @@
+{{Mod
+|id                               = AfflictionNotableFanofBlades_
+|mod_groups                       = AfflictionNotableFanofBlades
+|domain                           = 21
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Notable
+|mod_type                         = AfflictionNotableFanofBlades
+|stat_text                        = 1 Added Passive [[Skill]] is Fan of Blades
+|stat1_id                         = local_affliction_notable_fan_of_blades
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = affliction_dagger_and_claw_damage
+|spawn_weight1_value              = 51
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|generation_weight1_tag           = expansion_jewel_large
+|generation_weight1_value         = 100
+|generation_weight2_tag           = expansion_jewel_medium
+|generation_weight2_value         = 100
+|generation_weight3_tag           = has_affliction_notable
+|generation_weight3_value         = 0
+|generation_weight4_tag           = expansion_jewel_small
+|generation_weight4_value         = 100
+|generation_weight5_tag           = default
+|generation_weight5_value         = 0
+|tags                             = damage, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,22 @@
+{{Mod
+|id                               = MovementSpeedIfHitRecentlyInfluence1
+|mod_groups                       = MovementSpeedIfHitRecently
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Redemption
+|mod_type                         = MovementSpeedIfHitRecently
+|stat_text                        = (5-7)% increased [[Movement Speed]] if you've [[Hit]] an Enemy [[Recently]]
+|stat1_id                         = movement_speed_+%_if_enemy_hit_recently
+|stat1_min                        = 5
+|stat1_max                        = 7
+|spawn_weight1_tag                = mace_eyrie
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = sceptre_eyrie
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

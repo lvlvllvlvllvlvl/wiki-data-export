@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeBrittleChanceCannotFreezeChill1
+|mod_groups                       = BrittleChanceCannotFreezeChill
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 25
+|mod_type                         = WeaponTreeBrittleChanceCannotFreezeChill
+|stat_text                        = 6% chance to inflict Brittle<br>Cannot inflict [[Freeze]] or Chill
+|stat1_id                         = chance_to_inflict_frostburn_%
+|stat1_min                        = 6
+|stat1_max                        = 6
+|stat2_id                         = never_freeze_or_chill
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

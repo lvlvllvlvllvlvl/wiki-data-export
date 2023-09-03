@@ -1,0 +1,26 @@
+{{Mod
+|id                               = JunMasterChaosNonAilmentDamageOverTimeMultiplier2h2_
+|mod_groups                       = DamageOverTimeMultiplier
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 25
+|name                             = Chosen
+|mod_type                         = ChaosDamageOverTimeMultiplier
+|stat_text                        = +(16-23)% to [[Chaos Damage]] over Time Multiplier
+|stat1_id                         = chaos_dot_multiplier_+
+|stat1_min                        = 16
+|stat1_max                        = 23
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = staff
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = bow
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = weapon
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = dot_multi, chaos_damage, unveiled_mod, damage, chaos
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

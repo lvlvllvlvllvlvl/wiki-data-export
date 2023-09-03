@@ -1,0 +1,26 @@
+{{Mod
+|id                               = ColdResistancePenetrationEldritchImplicitPinnaclePresence6
+|mod_groups                       = ColdResistancePenetration
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|granted_buff_id                  = influence_stat_condition_presence_celestial_boss
+|granted_buff_value               = 0
+|mod_type                         = ColdResistancePenetrationPinnaclePresence
+|stat_text                        = Damage Penetrates 10% [[Cold Resistance]]
+|stat1_id                         = base_reduce_enemy_cold_resistance_%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = local_influence_mod_requires_celestial_boss_presence
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = no_tier_1_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = helmet
+|spawn_weight2_value              = 140
+|spawn_weight3_tag                = amulet
+|spawn_weight3_value              = 140
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = elemental_damage, damage, elemental, cold
+}}

@@ -1,0 +1,17 @@
+{{Mod
+|id                               = UniqueTreeWeaponTreeSupportColdPenetration
+|mod_groups                       = WeaponTreeSupportColdPenetration
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|granted_skill                    = SupportColdPenetration
+|mod_type                         = WeaponTreeSupportColdPenetration
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Cold Penetration Support|Level 30 Cold Penetration]]
+|stat1_id                         = local_display_socketed_gems_supported_by_x_cold_penetration
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = crucible_unique_staff
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

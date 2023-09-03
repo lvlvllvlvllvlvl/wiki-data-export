@@ -1,0 +1,26 @@
+{{Mod
+|id                               = AbyssFlatLifeRegenerationJewel3_
+|mod_groups                       = LifeRegeneration
+|domain                           = 13
+|generation_type                  = 1
+|required_level                   = 80
+|name                             = Vivacious
+|mod_type                         = LifeRegeneration
+|stat_text                        = Regenerate (17-20) [[Life]] per second
+|stat1_id                         = base_life_regeneration_rate_per_minute
+|stat1_min                        = 1020
+|stat1_max                        = 1200
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = abyss_jewel_ranged
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = abyss_jewel_caster
+|spawn_weight3_value              = 250
+|spawn_weight4_tag                = abyss_jewel_summoner
+|spawn_weight4_value              = 250
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = flat_life_regen, resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,22 @@
+{{Mod
+|id                               = DelveJewelDamageTakenGainedAsMana1
+|mod_groups                       = PercentDamageGoesToMana
+|domain                           = 16
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Underground
+|mod_type                         = PercentDamageGoesToMana
+|stat_text                        = (2-3)% of Damage taken Recouped as [[Mana]]
+|stat1_id                         = damage_taken_goes_to_mana_%
+|stat1_min                        = 2
+|stat1_max                        = 3
+|spawn_weight1_tag                = jewel
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = abyss_jewel
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = resource, life, mana
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

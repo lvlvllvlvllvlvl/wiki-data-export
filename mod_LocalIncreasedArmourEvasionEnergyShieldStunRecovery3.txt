@@ -1,0 +1,23 @@
+{{Mod
+|id                               = LocalIncreasedArmourEvasionEnergyShieldStunRecovery3
+|mod_groups                       = DefencesPercentAndStunRecovery
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 30
+|name                             = Butterfly's
+|mod_type                         = LocalArmourAndEvasionAndEnergyShieldAndStunRecovery
+|stat_text                        = (21-26)% increased Armour, [[Evasion]] and [[Energy Shield]]<br>(10-11)% increased Stun and [[Block]] Recovery
+|stat1_id                         = local_armour_and_evasion_and_energy_shield_+%
+|stat1_min                        = 21
+|stat1_max                        = 26
+|stat2_id                         = base_stun_recovery_+%
+|stat2_min                        = 10
+|stat2_max                        = 11
+|spawn_weight1_tag                = str_dex_int_armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = defences, armour, evasion, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

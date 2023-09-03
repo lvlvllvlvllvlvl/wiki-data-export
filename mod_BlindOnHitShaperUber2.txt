@@ -1,0 +1,26 @@
+{{Mod
+|id                               = BlindOnHitShaperUber2
+|mod_groups                       = BlindOnHit
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Shaping
+|mod_type                         = AttacksBlindOnHitChance
+|stat_text                        = (7-8)% chance to Blind Enemies on [[Hit]] with [[Attack|Attacks]]
+|stat1_id                         = attacks_chance_to_blind_on_hit_%
+|stat1_min                        = 7
+|stat1_max                        = 8
+|spawn_weight1_tag                = quiver_shaper
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|generation_weight1_tag           = has_attack_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_caster_mod
+|generation_weight2_value         = 65
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

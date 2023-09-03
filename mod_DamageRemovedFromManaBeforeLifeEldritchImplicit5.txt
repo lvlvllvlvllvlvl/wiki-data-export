@@ -1,0 +1,21 @@
+{{Mod
+|id                               = DamageRemovedFromManaBeforeLifeEldritchImplicit5
+|mod_groups                       = DamageRemovedFromManaBeforeLife
+|domain                           = 1
+|generation_type                  = 28
+|required_level                   = 75
+|mod_type                         = DamageRemovedFromManaBeforeLife
+|stat_text                        = 9% of Damage is taken from [[Mana]] before [[Life]]
+|stat1_id                         = base_damage_removed_from_mana_before_life_%
+|stat1_min                        = 9
+|stat1_max                        = 9
+|spawn_weight1_tag                = no_tier_2_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = body_armour
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = resource, life, mana
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 8
+}}

@@ -1,0 +1,21 @@
+{{Mod
+|id                               = WeaponTreeOnslaughtOnKillReducedOnslaughtEffect2
+|mod_groups                       = WeaponTreeOnslaughtOnKillReducedOnslaughtEffect
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 80
+|mod_type                         = WeaponTreeOnslaughtOnKillReducedOnslaughtEffect
+|stat_text                        = 15% chance to gain Onslaught for 4 seconds on [[Kill]]<br>20% reduced Effect of Onslaught on you
+|stat1_id                         = chance_to_gain_onslaught_on_kill_for_4_seconds_%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = onslaught_effect_+%
+|stat2_min                        = -20
+|stat2_max                        = -20
+|spawn_weight1_tag                = wand
+|spawn_weight1_value              = 75
+|spawn_weight2_tag                = one_hand_weapon
+|spawn_weight2_value              = 300
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

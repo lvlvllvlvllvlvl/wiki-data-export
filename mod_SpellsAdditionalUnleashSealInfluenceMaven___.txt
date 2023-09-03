@@ -1,0 +1,23 @@
+{{Mod
+|id                               = SpellsAdditionalUnleashSealInfluenceMaven___
+|mod_groups                       = SpellsAdditionalUnleashSeal
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 90
+|name                             = Elevated Redeemer's
+|mod_type                         = SpellsAdditionalUnleashSealMaven
+|stat_text                        = [[Skill|Skills]] supported by Unleash have +1 to maximum number of Seals<br>(50-75)% increased [[Critical Strike Chance]] with [[Spell|Spells]] which remove the maximum number of Seals
+|stat1_id                         = support_anticipation_rapid_fire_count
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = spell_critical_strike_chance_+%_if_removed_maximum_number_of_seals
+|stat2_min                        = 50
+|stat2_max                        = 75
+|spawn_weight1_tag                = helmet_eyrie
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TotemLifeJewel
+|mod_groups                       = IncreasedTotemLife
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Carved
+|mod_type                         = TotemLifeForJewel
+|stat_text                        = (8-12)% increased [[Totem]] [[Life]]
+|stat1_id                         = totem_life_+%
+|stat1_min                        = 8
+|stat1_max                        = 12
+|spawn_weight1_tag                = not_str
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 350
+|tags                             = resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

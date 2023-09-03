@@ -1,0 +1,35 @@
+{{Mod
+|id                               = AbyssSpellAddedPhysicalDamageWhileHoldingAShieldJewel4
+|mod_groups                       = WeaponClassPhysicalDamage
+|domain                           = 13
+|generation_type                  = 1
+|required_level                   = 63
+|name                             = Razor-sharp
+|mod_type                         = SpellAddedPhysicalDamageWhileHoldingAShield
+|stat_text                        = (9-11) to (13-15) Added [[Spell]] [[Physical Damage]] while holding a [[Shield]]
+|stat1_id                         = spell_minimum_added_physical_damage_while_holding_a_shield
+|stat1_min                        = 9
+|stat1_max                        = 11
+|stat2_id                         = spell_maximum_added_physical_damage_while_holding_a_shield
+|stat2_min                        = 13
+|stat2_max                        = 15
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = abyss_jewel_ranged
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = abyss_jewel_summoner
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = shield_mod
+|spawn_weight4_value              = 700
+|spawn_weight5_tag                = two_handed_mod
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = dual_wielding_mod
+|spawn_weight6_value              = 0
+|spawn_weight7_tag                = abyss_jewel_caster
+|spawn_weight7_value              = 250
+|spawn_weight8_tag                = default
+|spawn_weight8_value              = 0
+|tags                             = physical_damage, caster_damage, damage, physical, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MonsterAttackSpellBlock15Bypass15_
+|mod_groups                       = MonsterBlockAndBypass
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterBlockAttackSpellAndBypass
+|stat_text                        = 15% Chance to [[Block]] [[Attack Damage]] (Hidden)<br>15% Chance to [[Block]] [[Spell Damage]] (Hidden)<br>You take 15% of Damage from Blocked [[Hit|Hits]] (Hidden)
+|stat1_id                         = monster_base_block_%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = base_spell_block_%
+|stat2_min                        = 15
+|stat2_max                        = 15
+|stat3_id                         = base_block_%_damage_taken
+|stat3_min                        = 15
+|stat3_max                        = 15
+|tags                             = block
+}}

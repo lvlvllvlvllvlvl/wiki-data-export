@@ -1,0 +1,34 @@
+{{Mod
+|id                               = LocalAddedColdDamageAndPenetrationTwoHandInfluence2_
+|mod_groups                       = ColdDamageHybrid
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 71
+|name                             = Redeemer's
+|mod_type                         = LocalColdDamagePenetrationHybrid
+|stat_text                        = Adds (21-26) to (41-46) [[Cold Damage]]<br>[[Attack|Attacks]] with this Weapon Penetrate (5-7)% [[Cold Resistance]]
+|stat1_id                         = local_minimum_added_cold_damage
+|stat1_min                        = 21
+|stat1_max                        = 26
+|stat2_id                         = local_maximum_added_cold_damage
+|stat2_min                        = 41
+|stat2_max                        = 46
+|stat3_id                         = local_cold_penetration_%
+|stat3_min                        = 5
+|stat3_max                        = 7
+|spawn_weight1_tag                = 2h_sword_eyrie
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = 2h_axe_eyrie
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = 2h_mace_eyrie
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = staff_eyrie
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = warstaff_eyrie
+|spawn_weight5_value              = 500
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = elemental_damage, damage, elemental, cold, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

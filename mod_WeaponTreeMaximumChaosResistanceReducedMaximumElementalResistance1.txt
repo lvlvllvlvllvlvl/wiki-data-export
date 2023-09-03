@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeMaximumChaosResistanceReducedMaximumElementalResistance1
+|mod_groups                       = WeaponTreeChaosResistance
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 60
+|mod_type                         = WeaponTreeMaximumChaosResistanceReducedMaximumElementalResistance
+|stat_text                        = +3% to maximum [[Chaos Resistance]]<br>-1% to all maximum [[Elemental Resistance|Elemental Resistances]]
+|stat1_id                         = base_maximum_chaos_damage_resistance_%
+|stat1_min                        = 3
+|stat1_max                        = 3
+|stat2_id                         = additional_maximum_all_elemental_resistances_%
+|stat2_min                        = -1
+|stat2_max                        = -1
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

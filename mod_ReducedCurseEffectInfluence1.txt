@@ -1,0 +1,20 @@
+{{Mod
+|id                               = ReducedCurseEffectInfluence1
+|mod_groups                       = ReducedCurseEffect
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Crusade
+|mod_type                         = ReducedCurseEffect
+|stat_text                        = (29-25)% reduced Effect of [[Curse|Curses]] on you
+|stat1_id                         = curse_effect_on_self_+%
+|stat1_min                        = -29
+|stat1_max                        = -25
+|spawn_weight1_tag                = ring_crusader
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster, curse
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

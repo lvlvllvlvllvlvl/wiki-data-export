@@ -1,0 +1,32 @@
+{{Mod
+|id                               = MonsterArchnemesisBloodletter_
+|mod_groups                       = MonsterArchnemesisBloodletter
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 24
+|name                             = of Bloodletting
+|granted_buff_id                  = generic_buff_aura
+|granted_buff_value               = 30
+|mod_type                         = MonsterArchnemesisBloodletter
+|stat_text                        = [[Attack|Attacks]] cause Bleeding (Hidden)<br>50% increased Damage with Bleeding (Hidden)<br>25% increased Bleeding Duration (Hidden)<br>25% reduced [[Physical Damage]] taken over time (Hidden)
+|stat1_id                         = global_bleed_on_hit
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = bleeding_damage_+%
+|stat2_min                        = 50
+|stat2_max                        = 50
+|stat3_id                         = base_bleed_duration_+%
+|stat3_min                        = 25
+|stat3_max                        = 25
+|stat4_id                         = base_physical_damage_over_time_taken_+%
+|stat4_min                        = -25
+|stat4_max                        = -25
+|spawn_weight1_tag                = no_common_monster_mods
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = magic
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 1500
+}}

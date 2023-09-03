@@ -1,0 +1,26 @@
+{{Mod
+|id                               = AbyssSpellBlockChanceIfHitRecentlyJewel1
+|mod_groups                       = SpellBlockChanceIfHitRecently
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Instinct
+|mod_type                         = SpellBlockChanceIfHitRecently
+|stat_text                        = +2% Chance to [[Block]] [[Spell Damage]] if you were Damaged by a [[Hit]] [[Recently]]
+|stat1_id                         = chance_to_block_spells_%_if_damaged_by_a_hit_recently
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = abyss_jewel_ranged
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = abyss_jewel_caster
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = abyss_jewel_summoner
+|spawn_weight4_value              = 250
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = block
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

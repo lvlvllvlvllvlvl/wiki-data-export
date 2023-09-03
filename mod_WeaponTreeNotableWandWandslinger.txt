@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeNotableWandWandslinger
+|mod_groups                       = WeaponTreeNotable
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeNotableWand
+|stat_text                        = Allocates 22972<br>-0.5% to [[Critical Strike Chance]]
+|stat1_id                         = local_weapon_passive_tree_granted_passive_hash
+|stat1_min                        = 22972
+|stat1_max                        = 22972
+|stat2_id                         = local_critical_strike_chance
+|stat2_min                        = -50
+|stat2_max                        = -50
+|spawn_weight1_tag                = wand
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

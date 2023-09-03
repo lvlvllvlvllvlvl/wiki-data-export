@@ -1,0 +1,35 @@
+{{Mod
+|id                               = MonsterArchnemesisSoulEater_
+|mod_groups                       = MonsterArchnemesisSoulEater
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 34
+|name                             = Hungering
+|granted_buff_id                  = soul_eater_aura
+|granted_buff_value               = 70
+|mod_type                         = MonsterArchnemesisSoulEater
+|stat_text                        = Grants 1% increased Character Size to aura owner on death (Hidden)<br>Grants 5% increased Attack Speed to aura owner on death (Hidden)<br>Grants 5% increased Cast Speed to aura owner on death (Hidden)<br>Grants 5% increased Damage Reduction to aura owner on death (Hidden)<br>Soul is consumed on death (Hidden)
+|stat1_id                         = grant_actor_scale_+%_to_aura_owner_on_death
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = grant_attack_speed_+%_to_aura_owner_on_death
+|stat2_min                        = 5
+|stat2_max                        = 5
+|stat3_id                         = grant_cast_speed_+%_to_aura_owner_on_death
+|stat3_min                        = 5
+|stat3_max                        = 5
+|stat4_id                         = grant_damage_reduction_%_to_aura_owner_on_death
+|stat4_min                        = 5
+|stat4_max                        = 5
+|stat5_id                         = soul_is_consumed_on_death
+|stat5_min                        = 1
+|stat5_max                        = 1
+|stat6_id                         = dropped_items_are_fully_linked
+|stat6_min                        = 1
+|stat6_max                        = 1
+|spawn_weight1_tag                = magic
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 200
+|tags                             = attack, caster, speed, aura
+}}

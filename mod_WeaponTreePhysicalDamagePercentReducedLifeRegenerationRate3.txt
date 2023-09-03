@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreePhysicalDamagePercentReducedLifeRegenerationRate3
+|mod_groups                       = PhysicalDamagePercent
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 72
+|mod_type                         = WeaponTreePhysicalDamagePercentReducedLifeRegenerationRate
+|stat_text                        = 40% increased Global [[Physical Damage]]<br>10% reduced [[Life]] Regeneration rate
+|stat1_id                         = physical_damage_+%
+|stat1_min                        = 40
+|stat1_max                        = 40
+|stat2_id                         = life_regeneration_rate_+%
+|stat2_min                        = -10
+|stat2_max                        = -10
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

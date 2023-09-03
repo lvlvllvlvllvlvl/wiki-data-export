@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeOverwhelm2
+|mod_groups                       = WeaponTreeOvewhelm
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 68
+|mod_type                         = WeaponTreeOvewhelm
+|stat_text                        = Overwhelm 20% [[Physical Damage]] Reduction<br>[[Hit|Hits]] against you Overwhelm 5% of [[Physical Damage]] Reduction
+|stat1_id                         = enemy_phys_reduction_%_penalty_vs_hit
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = hits_against_you_overwhelm_x%_of_physical_damage_reduction
+|stat2_min                        = 5
+|stat2_max                        = 5
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

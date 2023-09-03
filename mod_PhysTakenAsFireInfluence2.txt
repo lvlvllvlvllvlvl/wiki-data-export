@@ -1,0 +1,20 @@
+{{Mod
+|id                               = PhysTakenAsFireInfluence2
+|mod_groups                       = PhysicalDamageTakenAsElement
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 83
+|name                             = Warlord's
+|mod_type                         = PhysicalDamageTakenAsFireUber
+|stat_text                        = (11-15)% of [[Physical Damage]] from [[Hit|Hits]] taken as [[Fire Damage]]
+|stat1_id                         = physical_damage_taken_%_as_fire
+|stat1_min                        = 11
+|stat1_max                        = 15
+|spawn_weight1_tag                = body_armour_adjudicator
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical, elemental, fire
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

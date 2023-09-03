@@ -1,0 +1,20 @@
+{{Mod
+|id                               = JunMaster2DamageDuringFlaskEffect3
+|mod_groups                       = DamageDuringFlaskEffect
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 81
+|name                             = Brinerot
+|mod_type                         = DamageDuringFlaskEffect
+|stat_text                        = (24-28)% increased Damage during any Flask Effect
+|stat1_id                         = damage_+%_during_flask_effect
+|stat1_min                        = 24
+|stat1_max                        = 28
+|spawn_weight1_tag                = gloves
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, unveiled_mod, damage
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

@@ -1,0 +1,17 @@
+{{Mod
+|id                               = UniqueTreeWeaponTreeSupportColdToFire
+|mod_groups                       = WeaponTreeSupportColdToFire
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|granted_skill                    = SupportColdToFire
+|mod_type                         = WeaponTreeSupportColdToFire
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Cold to Fire Support|Level 30 Cold to Fire]]
+|stat1_id                         = local_display_socketed_gems_get_cold_to_fire_level
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = crucible_unique_staff
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

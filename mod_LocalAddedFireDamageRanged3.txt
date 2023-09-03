@@ -1,0 +1,27 @@
+{{Mod
+|id                               = LocalAddedFireDamageRanged3
+|mod_groups                       = FireDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 18
+|name                             = Smoking
+|mod_type                         = LocalFireDamageRanged
+|stat_text                        = Adds (23-31) to (47-54) [[Fire Damage]]
+|stat1_id                         = local_minimum_added_fire_damage
+|stat1_min                        = 23
+|stat1_max                        = 31
+|stat2_id                         = local_maximum_added_fire_damage
+|stat2_min                        = 47
+|stat2_max                        = 54
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|generation_weight1_tag           = has_attack_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_caster_mod
+|generation_weight2_value         = 65
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = elemental_damage, damage, elemental, fire, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

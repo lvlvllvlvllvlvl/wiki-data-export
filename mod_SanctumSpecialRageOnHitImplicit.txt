@@ -1,0 +1,17 @@
+{{Mod
+|id                               = SanctumSpecialRageOnHitImplicit
+|mod_groups                       = RageOnHitImplicit
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 82
+|name                             = Enraging
+|mod_type                         = RageOnHitImplicit
+|stat_text                        = Gain 1 Rage on [[Hit]] with Attacks, no more than once every 0.8 seconds
+|stat1_id                         = glove_implicit_gain_rage_on_attack_hit_cooldown_ms
+|stat1_min                        = 800
+|stat1_max                        = 800
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 50
+}}

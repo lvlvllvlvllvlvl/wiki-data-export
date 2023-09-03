@@ -1,0 +1,20 @@
+{{Mod
+|id                               = DamageChilledEnemiesInfluence2
+|mod_groups                       = IncreasedDamageToChilledEnemies
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Redeemer's
+|mod_type                         = DamageChilledEnemies
+|stat_text                        = (31-35)% increased Damage with [[Hit|Hits]] against Chilled Enemies
+|stat1_id                         = damage_+%_vs_chilled_enemies
+|stat1_min                        = 31
+|stat1_max                        = 35
+|spawn_weight1_tag                = belt_eyrie
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

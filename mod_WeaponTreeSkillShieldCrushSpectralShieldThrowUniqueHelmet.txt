@@ -1,0 +1,25 @@
+{{Mod
+|id                               = WeaponTreeSkillShieldCrushSpectralShieldThrowUniqueHelmet
+|mod_groups                       = WeaponTreeSkillShieldCrushSpectralShieldThrow
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSkillShieldCrushSpectralShieldThrow
+|stat_text                        = [[Shield]] Crush and Spectral [[Shield]] Throw gains 15 to 25 Added [[Lightning Damage]] per 15 [[Energy Shield]] on [[Shield]]<br>100% of [[Shield]] Crush and Spectral [[Shield]] Throw [[Physical Damage]] Converted to [[Lightning Damage]]<br>[[Shield]] Crush and Spectral [[Shield]] Throw do not gain Added [[Physical Damage]] based on [[Armour]] or [[Evasion]] on [[Shield|shield]]
+|stat1_id                         = shield_crush_and_spectral_shield_throw_off_hand_minimum_added_lightning_damage_per_15_energy_shield_on_shield
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = shield_crush_and_spectral_shield_throw_off_hand_maximum_added_lightning_damage_per_15_energy_shield_on_shield
+|stat2_min                        = 25
+|stat2_max                        = 25
+|stat3_id                         = shield_crush_and_spectral_shield_throw_skill_physical_damage_%_to_convert_to_lightning
+|stat3_min                        = 100
+|stat3_max                        = 100
+|stat4_id                         = shield_crush_and_spectral_shield_throw_cannot_add_physical_damage_per_armour_and_evasion_rating
+|stat4_min                        = 1
+|stat4_max                        = 1
+|spawn_weight1_tag                = crucible_unique_helmet
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

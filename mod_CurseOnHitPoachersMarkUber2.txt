@@ -1,0 +1,20 @@
+{{Mod
+|id                               = CurseOnHitPoachersMarkUber2
+|mod_groups                       = CurseOnHitLevel
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of the Elder
+|mod_type                         = CurseOnHitPoachersMark
+|stat_text                        = Trigger [[Level]] 12 [[Poacher's Mark]] when you [[Hit]] a Rare or Unique Enemy and have no Mark
+|stat1_id                         = curse_on_hit_level_poachers_mark
+|stat1_min                        = 12
+|stat1_max                        = 12
+|spawn_weight1_tag                = ring_elder
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster, curse
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

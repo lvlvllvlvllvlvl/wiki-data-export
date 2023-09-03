@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialSpellCriticalStrikeChance
+|mod_groups                       = SpellCriticalStrikeChanceIncrease
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Evocationist
+|mod_type                         = SpellCriticalStrikeChance
+|stat_text                        = (30-40)% increased [[Critical Strike Chance]] for [[Spell|Spells]]
+|stat1_id                         = spell_critical_strike_chance_+%
+|stat1_min                        = 30
+|stat1_max                        = 40
+|spawn_weight1_tag                = int_special_relic
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 250
+|tags                             = caster, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

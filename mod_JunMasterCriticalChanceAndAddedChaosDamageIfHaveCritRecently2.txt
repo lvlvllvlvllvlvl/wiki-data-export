@@ -1,0 +1,28 @@
+{{Mod
+|id                               = JunMasterCriticalChanceAndAddedChaosDamageIfHaveCritRecently2
+|mod_groups                       = CriticalStrikeChanceIncrease
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 25
+|name                             = of the Order
+|mod_type                         = CriticalChanceAndAddedChaosDamageIfHaveCritRecently
+|stat_text                        = Adds (6-8) to (9-12) [[Chaos Damage]] if you've dealt a [[Critical Strike]] [[Recently]]<br>(11-12)% increased Global [[Critical Strike Chance]]
+|stat1_id                         = minimum_added_chaos_damage_if_have_crit_recently
+|stat1_min                        = 6
+|stat1_max                        = 8
+|stat2_id                         = maximum_added_chaos_damage_if_have_crit_recently
+|stat2_min                        = 9
+|stat2_max                        = 12
+|stat3_id                         = critical_strike_chance_+%
+|stat3_min                        = 11
+|stat3_max                        = 12
+|spawn_weight1_tag                = gloves
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = quiver
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = chaos_damage, unveiled_mod, damage, chaos, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

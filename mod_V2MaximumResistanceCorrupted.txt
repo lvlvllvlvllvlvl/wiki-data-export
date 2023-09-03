@@ -1,0 +1,21 @@
+{{Mod
+|id                               = V2MaximumResistanceCorrupted
+|mod_groups                       = MaximumResistances
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 80
+|mod_type                         = MaximumResistances
+|stat_text                        = +1% to all maximum Resistances
+|stat1_id                         = additional_maximum_all_resistances_%
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = amulet
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = body_armour
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = resistance
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

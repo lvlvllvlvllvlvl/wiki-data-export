@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SanctumMonstersDoubleGoldChance1
+|mod_groups                       = SanctumMonstersDoubleGoldChance
+|domain                           = 7
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Affluence
+|mod_type                         = SanctumMonstersDoubleGoldChance
+|stat_text                        = Monsters have (3-4)% chance to drop Double Aureus Coins
+|stat1_id                         = sanctum_monster_double_gold_%
+|stat1_min                        = 3
+|stat1_max                        = 4
+|spawn_weight1_tag                = small_sanctum_relic
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

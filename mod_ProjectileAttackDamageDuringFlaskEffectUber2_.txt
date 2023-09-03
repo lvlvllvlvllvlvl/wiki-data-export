@@ -1,0 +1,20 @@
+{{Mod
+|id                               = ProjectileAttackDamageDuringFlaskEffectUber2_
+|mod_groups                       = DamageDuringFlaskEffect
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Elder
+|mod_type                         = ProjectileAttackDamageDuringFlaskEffect
+|stat_text                        = (26-30)% increased Projectile [[Attack Damage]] during any Flask Effect
+|stat1_id                         = projectile_attack_damage_+%_during_flask_effect
+|stat1_min                        = 26
+|stat1_max                        = 30
+|spawn_weight1_tag                = belt_elder
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, damage, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

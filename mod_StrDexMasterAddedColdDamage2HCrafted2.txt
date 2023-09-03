@@ -1,0 +1,21 @@
+{{Mod
+|id                               = StrDexMasterAddedColdDamage2HCrafted2
+|mod_groups                       = ColdDamage
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 30
+|name                             = Frigid
+|mod_type                         = LocalColdDamageTwoHand
+|stat_text                        = Adds (18-24) to (35-41) [[Cold Damage]]
+|stat1_id                         = local_minimum_added_cold_damage
+|stat1_min                        = 18
+|stat1_max                        = 24
+|stat2_id                         = local_maximum_added_cold_damage
+|stat2_min                        = 35
+|stat2_max                        = 41
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, cold, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

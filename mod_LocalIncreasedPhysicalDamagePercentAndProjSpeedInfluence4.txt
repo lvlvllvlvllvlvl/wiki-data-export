@@ -1,0 +1,25 @@
+{{Mod
+|id                               = LocalIncreasedPhysicalDamagePercentAndProjSpeedInfluence4
+|mod_groups                       = LocalIncreasedPhysicalDamagePercentAndAccuracyRating
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 77
+|name                             = Crusader's
+|mod_type                         = LocalIncreasedPhysicalDamagePercentAndProjSpeed
+|stat_text                        = (55-64)% increased [[Physical Damage]]<br>(20-25)% increased Projectile Speed
+|stat1_id                         = local_physical_damage_+%
+|stat1_min                        = 55
+|stat1_max                        = 64
+|stat2_id                         = base_projectile_speed_+%
+|stat2_min                        = 20
+|stat2_max                        = 25
+|spawn_weight1_tag                = wand_crusader
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = bow_crusader
+|spawn_weight2_value              = 100
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = physical_damage, damage, physical, attack, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

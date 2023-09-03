@@ -1,0 +1,23 @@
+{{Mod
+|id                               = MapMonsterFireResistance
+|mod_groups                       = MapMonsterFireResistance
+|domain                           = 5
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Incombustible
+|mod_type                         = MapMonsterFireResistance
+|stat_text                        = 8% increased Quantity of Items found in this Area<br>+75% Monster [[Fire Resistance]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 8
+|stat1_max                        = 8
+|stat2_id                         = map_monsters_additional_fire_resistance
+|stat2_min                        = 75
+|stat2_max                        = 75
+|spawn_weight1_tag                = secret_area
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = old_map
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental, fire, resistance
+}}

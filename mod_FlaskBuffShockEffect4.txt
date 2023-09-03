@@ -1,0 +1,20 @@
+{{Mod
+|id                               = FlaskBuffShockEffect4
+|mod_groups                       = FlaskBuffWhileHealing
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 63
+|name                             = of the Sanderling
+|mod_type                         = FlaskBuffShockEffect
+|stat_text                        = (59-52)% reduced Effect of [[Shock]] on you during Effect
+|stat1_id                         = local_self_shock_effect_+%_during_flask_effect
+|stat1_min                        = -59
+|stat1_max                        = -52
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

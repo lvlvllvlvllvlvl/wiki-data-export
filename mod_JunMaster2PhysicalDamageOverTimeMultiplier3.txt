@@ -1,0 +1,28 @@
+{{Mod
+|id                               = JunMaster2PhysicalDamageOverTimeMultiplier3
+|mod_groups                       = DamageOverTimeMultiplier
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 81
+|name                             = of the Order
+|mod_type                         = PhysicalDamageOverTimeMultiplier
+|stat_text                        = +(18-20)% to [[Physical Damage]] over Time Multiplier
+|stat1_id                         = physical_dot_multiplier_+
+|stat1_min                        = 18
+|stat1_max                        = 20
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = sword
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = axe
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = mace
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = wand
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = dot_multi, physical_damage, unveiled_mod, damage, physical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

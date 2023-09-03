@@ -1,0 +1,24 @@
+{{Mod
+|id                               = SpellDamageOnTwoHandWeaponEssence5
+|mod_groups                       = WeaponCasterDamagePrefix
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 58
+|name                             = Essences
+|mod_type                         = TwoHandWeaponSpellDamage
+|stat_text                        = (85-106)% increased [[Spell Damage]]
+|stat1_id                         = spell_damage_+%
+|stat1_min                        = 85
+|stat1_max                        = 106
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|generation_weight1_tag           = has_caster_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_attack_mod
+|generation_weight2_value         = 50
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = caster_damage, damage, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

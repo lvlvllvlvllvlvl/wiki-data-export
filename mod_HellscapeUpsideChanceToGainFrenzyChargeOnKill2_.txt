@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideChanceToGainFrenzyChargeOnKill2_
+|mod_groups                       = FrenzyChargeOnKillChance
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 45
+|mod_type                         = FrenzyChargeOnKillChance
+|stat_text                        = (7-8)% chance to gain a [[Frenzy Charge]] on [[Kill]]
+|stat1_id                         = add_frenzy_charge_on_kill_%_chance
+|stat1_min                        = 7
+|stat1_max                        = 8
+|spawn_weight1_tag                = ring
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = frenzy_charge
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

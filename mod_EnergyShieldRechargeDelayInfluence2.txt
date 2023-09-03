@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnergyShieldRechargeDelayInfluence2
+|mod_groups                       = EnergyShieldDelay
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Redeemer's
+|mod_type                         = EnergyShieldDelay
+|stat_text                        = (20-24)% faster start of [[Energy Shield]] Recharge
+|stat1_id                         = energy_shield_delay_-%
+|stat1_min                        = 20
+|stat1_max                        = 24
+|spawn_weight1_tag                = ring_eyrie
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = defences, energy_shield
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

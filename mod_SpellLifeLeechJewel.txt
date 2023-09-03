@@ -1,0 +1,18 @@
+{{Mod
+|id                               = SpellLifeLeechJewel
+|mod_groups                       = LifeLeech
+|domain                           = 10
+|generation_type                  = 3
+|required_level                   = 1
+|name                             = Transfusing
+|mod_type                         = SpellLifeLeechForJewel
+|stat_text                        = 0.2% of [[Spell Damage]] Leeched as [[Life]]
+|stat1_id                         = old_do_not_use_life_leech_from_spell_damage_%
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = resource, life, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

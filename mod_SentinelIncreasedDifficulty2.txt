@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SentinelIncreasedDifficulty2
+|mod_groups                       = SentinelDroneDifficulty
+|domain                           = 30
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of Danger
+|mod_type                         = SentinelDroneIncreasedDifficulty
+|stat_text                        = (20-25)% increased Empowerment
+|stat1_id                         = local_sentinel_drone_difficulty_+%
+|stat1_min                        = 20
+|stat1_max                        = 25
+|spawn_weight1_tag                = special_sentinel_mod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 2000
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

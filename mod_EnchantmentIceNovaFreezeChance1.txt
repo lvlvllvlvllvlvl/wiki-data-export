@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentIceNovaFreezeChance1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Ice Nova Freeze Chance 1
+|mod_type                         = EnchantmentIceNovaFreezeChance
+|stat_text                        = [[Ice Nova]] has +20% chance to [[Freeze]]
+|stat1_id                         = ice_nova_freeze_chance_%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 75
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, cold, caster, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,21 @@
+{{Mod
+|id                               = WeaponTreeSupportInfernalLegion2HHardMode
+|mod_groups                       = WeaponTreeSupportInfernalLegion
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 38
+|granted_skill                    = SupportBurningMinions
+|mod_type                         = WeaponTreeSupportInfernalLegion
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Level]] 15 Infernal Legion
+|stat1_id                         = local_display_socketed_gems_supported_by_level_x_infernal_legion
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = minion_unique_weapon
+|spawn_weight2_value              = 125
+|spawn_weight3_tag                = weapon_can_roll_minion_modifiers
+|spawn_weight3_value              = 125
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+}}

@@ -1,0 +1,22 @@
+{{Mod
+|id                               = WeaponTreeAddedChaosLowWitheredEffect4
+|mod_groups                       = ChaosDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 70
+|mod_type                         = WeaponTreeLocalChaosDamageAndWitheredEffect
+|stat_text                        = Adds 8 to 15 [[Chaos Damage]]<br>10% increased Effect of Withered
+|stat1_id                         = local_minimum_added_chaos_damage
+|stat1_min                        = 8
+|stat1_max                        = 8
+|stat2_id                         = local_maximum_added_chaos_damage
+|stat2_min                        = 15
+|stat2_max                        = 15
+|stat3_id                         = withered_effect_+%
+|stat3_min                        = 10
+|stat3_max                        = 10
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 63
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

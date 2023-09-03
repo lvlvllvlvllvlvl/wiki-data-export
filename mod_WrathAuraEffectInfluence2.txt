@@ -1,0 +1,24 @@
+{{Mod
+|id                               = WrathAuraEffectInfluence2
+|mod_groups                       = AuraEffect
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of the Crusade
+|mod_type                         = WrathAuraEffect
+|stat_text                        = [[Wrath]] has (34-40)% increased Aura Effect
+|stat1_id                         = wrath_aura_effect_+%
+|stat1_min                        = 34
+|stat1_max                        = 40
+|spawn_weight1_tag                = sceptre_crusader
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = rune_dagger_crusader
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = wand_crusader
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = aura
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

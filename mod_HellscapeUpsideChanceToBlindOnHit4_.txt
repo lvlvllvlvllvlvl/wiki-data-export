@@ -1,0 +1,20 @@
+{{Mod
+|id                               = HellscapeUpsideChanceToBlindOnHit4_
+|mod_groups                       = BlindOnHit
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = GlobalChanceToBlindOnHit
+|stat_text                        = (11-12)% Global chance to Blind Enemies on [[Hit|hit]]
+|stat1_id                         = global_chance_to_blind_on_hit_%
+|stat1_min                        = 11
+|stat1_max                        = 12
+|spawn_weight1_tag                = gloves
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = quiver
+|spawn_weight2_value              = 200
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

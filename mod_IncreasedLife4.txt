@@ -1,0 +1,22 @@
+{{Mod
+|id                               = IncreasedLife4
+|mod_groups                       = IncreasedLife
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 24
+|name                             = Stout
+|mod_type                         = IncreasedLife
+|stat_text                        = +(40-49) to maximum [[Life]]
+|stat1_id                         = base_maximum_life
+|stat1_min                        = 40
+|stat1_max                        = 49
+|spawn_weight1_tag                = fishing_rod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = weapon
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 1000
+|tags                             = resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

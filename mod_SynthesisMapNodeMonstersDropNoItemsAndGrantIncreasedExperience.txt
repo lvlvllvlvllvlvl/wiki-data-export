@@ -1,0 +1,15 @@
+{{Mod
+|id                               = SynthesisMapNodeMonstersDropNoItemsAndGrantIncreasedExperience
+|mod_groups                       = SynthesisMapCellMod
+|domain                           = 20
+|generation_type                  = 17
+|required_level                   = 1
+|mod_type                         = SynthesisMapNodeMonstersDropNoItemsAndGrantIncreasedExperience
+|stat_text                        = Monsters Slain within Memories placed on this location drop no Items<br>300% increased Experience from Monsters Slain in Memories placed on this Location
+|stat1_id                         = synthesis_map_node_monsters_drop_no_items
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = synthesis_map_monster_slain_experience_+%_on_this_node
+|stat2_min                        = 300
+|stat2_max                        = 300
+}}

@@ -1,0 +1,18 @@
+{{Mod
+|id                               = HellscapeUpsideGainLifeChargeEvery3Seconds
+|mod_groups                       = LifeFlaskPassiveChargeGain
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 1
+|mod_type                         = LifeFlaskPassiveChargeGain
+|stat_text                        = [[Life]] Flasks gain 1 [[Charge]] every 3 seconds
+|stat1_id                         = life_flask_charges_recovered_per_3_seconds
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = belt
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

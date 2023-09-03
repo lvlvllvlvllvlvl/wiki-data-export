@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MapMonstersCurseEffectOnSelfFinalSynthesis2_
+|mod_groups                       = MapHexproof
+|domain                           = 18
+|generation_type                  = 15
+|required_level                   = 68
+|mod_type                         = MapMonstersCurseEffectOnSelfFinalMapWorlds
+|stat_text                        = 30% less effect of [[Curse|Curses]] on Monsters
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 13
+|stat1_max                        = 13
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 8
+|stat2_max                        = 8
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 5
+|stat3_max                        = 5
+|stat4_id                         = map_monsters_curse_effect_on_self_+%_final
+|stat4_min                        = -30
+|stat4_max                        = -30
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+|tags                             = caster, curse
+}}

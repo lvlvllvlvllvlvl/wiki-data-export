@@ -1,0 +1,21 @@
+{{Mod
+|id                               = MonsterArchnemesisMinionShocker
+|mod_groups                       = MonsterArchnemesis
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterArchnemesisShockerMinion
+|stat_text                        = [[Hit|Hits]] always [[Shock]] (Hidden)<br>All Damage can [[Shock]] (Hidden)<br>50% increased Effect of [[Shock]] (Hidden)<br>100% increased [[Shock]] Duration on Enemies (Hidden)
+|stat1_id                         = always_shock
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = all_damage_can_shock
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = shock_effect_+%
+|stat3_min                        = 50
+|stat3_max                        = 50
+|stat4_id                         = shock_duration_+%
+|stat4_min                        = 100
+|stat4_max                        = 100
+}}

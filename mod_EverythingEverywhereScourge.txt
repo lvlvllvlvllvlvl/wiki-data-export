@@ -1,0 +1,24 @@
+{{Mod
+|id                               = EverythingEverywhereScourge
+|mod_groups                       = EverythingEverywhere
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = EverythingEverywhereScourge
+|stat_text                        = Slaying Enemies close together can attract monsters from Beyond this realm<br>Slaying Enemies has a 45% increased chance to spawn a Beyond [[Portal]]
+|stat1_id                         = map_beyond_rules
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_beyond_portal_search_radius_+%
+|stat2_min                        = 45
+|stat2_max                        = 45
+|stat3_id                         = map_beyond_boss_spawn_chance_+%
+|stat3_min                        = 45
+|stat3_max                        = 45
+|stat4_id                         = map_beyond_portal_chance_+%
+|stat4_min                        = 45
+|stat4_max                        = 45
+|stat5_id                         = map_extra_content_weighting
+|stat5_min                        = 1
+|stat5_max                        = 1
+}}

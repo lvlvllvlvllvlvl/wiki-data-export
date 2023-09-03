@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantProjectileSpeed3
+|mod_groups                       = AfflictionJewelSmallPassivesGrantProjectileSpeed
+|domain                           = 21
+|generation_type                  = 2
+|required_level                   = 84
+|name                             = of Propulsion
+|mod_type                         = AfflictionJewelSmallPassivesGrantProjectileSpeed
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: 4% increased Projectile Speed
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_base_projectile_speed_+%
+|stat1_min                        = 4
+|stat1_max                        = 4
+|spawn_weight1_tag                = affliction_projectile_damage
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

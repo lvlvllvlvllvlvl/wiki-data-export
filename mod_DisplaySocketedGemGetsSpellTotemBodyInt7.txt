@@ -1,0 +1,16 @@
+{{Mod
+|id                               = DisplaySocketedGemGetsSpellTotemBodyInt7
+|mod_groups                       = DisplaySocketedGemGetsSpellTotemLevel
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|granted_skill                    = SupportSpellTotem
+|mod_type                         = DisplaySocketedGemGetsSpellTotemLevel
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Spell Totem Support|Level 20 Spell Totem]]
+|stat1_id                         = local_display_socketed_gems_get_spell_totem_level
+|stat1_min                        = 20
+|stat1_max                        = 20
+|tags                             = support, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

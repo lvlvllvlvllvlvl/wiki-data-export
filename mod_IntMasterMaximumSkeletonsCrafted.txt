@@ -1,0 +1,18 @@
+{{Mod
+|id                               = IntMasterMaximumSkeletonsCrafted
+|mod_groups                       = MaximumMinionCount
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 35
+|name                             = Calcified
+|mod_type                         = MaximumMinionCountHalfSkeletons
+|stat_text                        = +1 to maximum number of Skeletons
+|stat1_id                         = number_of_skeletons_allowed_per_2_old
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = minion
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

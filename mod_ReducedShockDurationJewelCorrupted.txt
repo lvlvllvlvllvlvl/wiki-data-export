@@ -1,0 +1,19 @@
+{{Mod
+|id                               = ReducedShockDurationJewelCorrupted
+|mod_groups                       = ReducedShockDuration
+|domain                           = 10
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = ReducedShockDuration
+|stat_text                        = (3-5)% reduced [[Shock]] Duration on you
+|stat1_id                         = base_self_shock_duration_-%
+|stat1_min                        = 3
+|stat1_max                        = 5
+|spawn_weight1_tag                = jewel
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, lightning, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

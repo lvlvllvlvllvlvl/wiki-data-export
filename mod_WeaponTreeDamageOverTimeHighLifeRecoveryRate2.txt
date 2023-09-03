@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeDamageOverTimeHighLifeRecoveryRate2
+|mod_groups                       = DamageOverTime
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 23
+|mod_type                         = WeaponTreeDamageOverTimeAndLifeRecoveryRate
+|stat_text                        = 21% increased Damage over Time<br>10% reduced [[Life]] Recovery rate
+|stat1_id                         = damage_over_time_+%
+|stat1_min                        = 21
+|stat1_max                        = 21
+|stat2_id                         = life_recovery_rate_+%
+|stat2_min                        = -10
+|stat2_max                        = -10
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

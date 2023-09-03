@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SanctumChestDoubleGoldChance2
+|mod_groups                       = SanctumChestDoubleGoldChance
+|domain                           = 7
+|generation_type                  = 2
+|required_level                   = 74
+|name                             = of Fortune
+|mod_type                         = SanctumChestDoubleGoldChance
+|stat_text                        = Chests have (5-6)% chance to drop Double Aureus Coins
+|stat1_id                         = sanctum_chest_double_gold_%
+|stat1_min                        = 5
+|stat1_max                        = 6
+|spawn_weight1_tag                = small_sanctum_relic
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

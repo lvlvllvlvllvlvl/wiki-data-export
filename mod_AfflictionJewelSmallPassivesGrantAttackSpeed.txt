@@ -1,0 +1,36 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantAttackSpeed
+|mod_groups                       = AfflictionJewelSmallPassivesGrantAttackSpeed
+|domain                           = 21
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Skill
+|mod_type                         = AfflictionJewelSmallPassivesGrantAttackSpeed
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: 1% increased [[Attack Speed]]
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_attack_speed_+%
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = affliction_axe_and_sword_damage
+|spawn_weight1_value              = 350
+|spawn_weight2_tag                = affliction_mace_and_staff_damage
+|spawn_weight2_value              = 350
+|spawn_weight3_tag                = affliction_dagger_and_claw_damage
+|spawn_weight3_value              = 350
+|spawn_weight4_tag                = affliction_bow_damage
+|spawn_weight4_value              = 350
+|spawn_weight5_tag                = affliction_wand_damage
+|spawn_weight5_value              = 350
+|spawn_weight6_tag                = affliction_damage_with_two_handed_melee_weapons
+|spawn_weight6_value              = 350
+|spawn_weight7_tag                = affliction_attack_damage_while_dual_wielding_
+|spawn_weight7_value              = 350
+|spawn_weight8_tag                = affliction_attack_damage_while_holding_a_shield
+|spawn_weight8_value              = 350
+|spawn_weight9_tag                = affliction_attack_damage_
+|spawn_weight9_value              = 350
+|spawn_weight10_tag               = default
+|spawn_weight10_value             = 0
+|tags                             = attack, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

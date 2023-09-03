@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MonsterArchnemesisMinionBloodletter_
+|mod_groups                       = MonsterArchnemesis
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterArchnemesisBloodletterMinion
+|stat_text                        = [[Attack|Attacks]] cause Bleeding (Hidden)<br>50% increased Damage with Bleeding (Hidden)<br>25% increased Bleeding Duration (Hidden)
+|stat1_id                         = global_bleed_on_hit
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = bleeding_damage_+%
+|stat2_min                        = 50
+|stat2_max                        = 50
+|stat3_id                         = base_bleed_duration_+%
+|stat3_min                        = 25
+|stat3_max                        = 25
+}}

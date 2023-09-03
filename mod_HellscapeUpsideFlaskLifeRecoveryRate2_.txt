@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideFlaskLifeRecoveryRate2_
+|mod_groups                       = BeltFlaskRecoveryRate
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 45
+|mod_type                         = BeltFlaskLifeRecoveryRate
+|stat_text                        = (12-14)% increased Flask [[Life]] Recovery rate
+|stat1_id                         = flask_life_recovery_rate_+%
+|stat1_min                        = 12
+|stat1_max                        = 14
+|spawn_weight1_tag                = belt
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

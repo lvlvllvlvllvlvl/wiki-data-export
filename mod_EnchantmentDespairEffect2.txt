@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentDespairEffect2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Despair Effect 2
+|mod_type                         = EnchantmentDespairEffect
+|stat_text                        = 15% increased Despair [[Curse]] Effect
+|stat1_id                         = despair_curse_effect_+%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster, curse
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

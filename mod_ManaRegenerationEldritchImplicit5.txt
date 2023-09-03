@@ -1,0 +1,21 @@
+{{Mod
+|id                               = ManaRegenerationEldritchImplicit5
+|mod_groups                       = ManaRegeneration
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|mod_type                         = ManaRegeneration
+|stat_text                        = (31-33)% increased [[Mana]] Regeneration Rate
+|stat1_id                         = mana_regeneration_rate_+%
+|stat1_min                        = 31
+|stat1_max                        = 33
+|spawn_weight1_tag                = no_tier_2_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = helmet
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = resource, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

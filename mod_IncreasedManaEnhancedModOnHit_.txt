@@ -1,0 +1,21 @@
+{{Mod
+|id                               = IncreasedManaEnhancedModOnHit_
+|mod_groups                       = IncreasedMana
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Xopec's
+|mod_type                         = IncreasedManaAndOnHit
+|stat_text                        = +(74-78) to maximum [[Mana]]<br>Gain (2-3) [[Mana]] per Enemy [[Hit]] with [[Attack|Attacks]]
+|stat1_id                         = base_maximum_mana
+|stat1_min                        = 74
+|stat1_max                        = 78
+|stat2_id                         = mana_gain_per_target
+|stat2_min                        = 2
+|stat2_max                        = 3
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = resource, mana, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

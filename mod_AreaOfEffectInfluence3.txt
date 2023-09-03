@@ -1,0 +1,25 @@
+{{Mod
+|id                               = AreaOfEffectInfluence3
+|mod_groups                       = AreaOfEffect
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 80
+|name                             = Warlord's
+|mod_type                         = AreaOfEffect
+|stat_text                        = (13-15)% increased Area of Effect
+|stat1_id                         = base_skill_area_of_effect_+%
+|stat1_min                        = 13
+|stat1_max                        = 15
+|spawn_weight1_tag                = shield_adjudicator
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = quiver_adjudicator
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = ring_adjudicator
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = amulet_adjudicator
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

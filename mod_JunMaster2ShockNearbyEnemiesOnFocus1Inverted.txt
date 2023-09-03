@@ -1,0 +1,21 @@
+{{Mod
+|id                               = JunMaster2ShockNearbyEnemiesOnFocus1Inverted
+|mod_groups                       = ShockNearbyEnemiesOnFocus
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of the Order
+|mod_type                         = ShockYourselfOnFocus
+|stat_text                        = [[Shock]] yourself for 2 Seconds when you Focus
+|stat1_id                         = shock_self_for_x_ms_when_you_focus
+|stat1_min                        = 2000
+|stat1_max                        = 2000
+|stat2_id                         = grant_focus_skill
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = unveiled_mod, elemental, lightning, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

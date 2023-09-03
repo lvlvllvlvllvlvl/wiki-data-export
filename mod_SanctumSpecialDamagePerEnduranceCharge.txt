@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialDamagePerEnduranceCharge
+|mod_groups                       = AllDamage
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Determined
+|mod_type                         = DamagePerEnduranceCharge
+|stat_text                        = (6-8)% increased Damage per [[Endurance Charge]]
+|stat1_id                         = damage_+%_per_endurance_charge
+|stat1_min                        = 6
+|stat1_max                        = 8
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = damage
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

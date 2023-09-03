@@ -1,0 +1,20 @@
+{{Mod
+|id                               = ManaGainedOnSpellHitUber1_
+|mod_groups                       = ManaGainedOnSpellHit
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = The Shaper's
+|mod_type                         = ManaGainedOnSpellHit
+|stat_text                        = Gain (2-3) [[Mana]] per Enemy [[Hit]] with [[Spell|Spells]]
+|stat1_id                         = mana_gained_on_spell_hit
+|stat1_min                        = 2
+|stat1_max                        = 3
+|spawn_weight1_tag                = ring_shaper
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, mana, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

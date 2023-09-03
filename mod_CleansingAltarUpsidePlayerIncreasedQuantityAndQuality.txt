@@ -1,0 +1,21 @@
+{{Mod
+|id                               = CleansingAltarUpsidePlayerIncreasedQuantityAndQuality
+|mod_groups                       = CleansingAltarUpsidePlayerIncreasedQuantityAndQuality
+|domain                           = 29
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = CleansingAltarUpsidePlayerIncreasedQuantityAndQuality
+|stat_text                        = (15-35)% increased Rarity of Items found in this Area<br>(10-20)% increased Quantity of Items found in this Area
+|stat1_id                         = map_item_drop_rarity_+%
+|stat1_min                        = 15
+|stat1_max                        = 35
+|stat2_id                         = map_item_drop_quantity_+%
+|stat2_min                        = 10
+|stat2_max                        = 20
+|spawn_weight1_tag                = primordial_altar_downside
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = cleansing_fire_altar
+|spawn_weight2_value              = 152225
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

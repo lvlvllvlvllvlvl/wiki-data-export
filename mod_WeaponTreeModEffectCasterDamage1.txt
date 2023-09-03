@@ -1,0 +1,28 @@
+{{Mod
+|id                               = WeaponTreeModEffectCasterDamage1
+|mod_groups                       = WeaponTreeModEffectCasterDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeModEffectCasterDamage
+|stat_text                        = 10% increased Explicit Caster Damage Modifier magnitudes
+|stat1_id                         = heist_enchantment_casterdamage_mod_effect_+%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = caster_unique_weapon
+|spawn_weight1_value              = 300
+|spawn_weight2_tag                = attack_staff
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = attack_dagger
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = wand
+|spawn_weight4_value              = 300
+|spawn_weight5_tag                = staff
+|spawn_weight5_value              = 300
+|spawn_weight6_tag                = dagger
+|spawn_weight6_value              = 300
+|spawn_weight7_tag                = sceptre
+|spawn_weight7_value              = 300
+|spawn_weight8_tag                = default
+|spawn_weight8_value              = 0
+}}

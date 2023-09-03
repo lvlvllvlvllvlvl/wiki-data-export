@@ -1,0 +1,23 @@
+{{Mod
+|id                               = AbyssMinionAddedPhysicalDamageJewel3
+|mod_groups                       = MinionAddedPhysicalDamage
+|domain                           = 13
+|generation_type                  = 1
+|required_level                   = 54
+|name                             = Annealed
+|mod_type                         = MinionAddedPhysicalDamage
+|stat_text                        = [[Minion|Minions]] deal (9-12) to (15-18) additional [[Physical Damage]]
+|stat1_id                         = minion_global_minimum_added_physical_damage
+|stat1_min                        = 9
+|stat1_max                        = 12
+|stat2_id                         = minion_global_maximum_added_physical_damage
+|stat2_min                        = 15
+|stat2_max                        = 18
+|spawn_weight1_tag                = abyss_jewel_summoner
+|spawn_weight1_value              = 700
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical_damage, damage, physical, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

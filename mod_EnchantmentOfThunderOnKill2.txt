@@ -1,0 +1,21 @@
+{{Mod
+|id                               = EnchantmentOfThunderOnKill2
+|mod_groups                       = TriggerEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 53
+|name                             = Enchantment Edict of Thunder
+|granted_skill                    = EnchantmentOfThunderOnKill2
+|mod_type                         = EnchantmentOfThunderOnKill
+|stat_text                        = Trigger [[Edict of Thunder]] on [[Kill]]
+|stat1_id                         = display_cast_edict_of_thunder_on_kill_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|spawn_weight1_tag                = gloves
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = skill
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

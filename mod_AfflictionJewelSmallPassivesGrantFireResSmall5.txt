@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantFireResSmall5
+|mod_groups                       = AfflictionJewelSmallPassivesGrantFireRes
+|domain                           = 21
+|generation_type                  = 2
+|required_level                   = 84
+|name                             = of the Furnace
+|mod_type                         = AfflictionJewelSmallPassivesGrantFireRes
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: +(10-11)% to [[Fire Resistance]]
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_fire_resistance_%
+|stat1_min                        = 10
+|stat1_max                        = 11
+|spawn_weight1_tag                = expansion_jewel_small
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, fire, resistance
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,26 @@
+{{Mod
+|id                               = AbyssBlindedEnemiesCriticalStrikeChanceJewel1
+|mod_groups                       = BuffEnchantment
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 84
+|name                             = of Clouding
+|mod_type                         = EnchantmentBlind
+|stat_text                        = Enemies Blinded by you have (20-15)% reduced [[Critical Strike Chance]]
+|stat1_id                         = enemies_you_blind_have_critical_strike_chance_+%
+|stat1_min                        = -20
+|stat1_max                        = -15
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = abyss_jewel_ranged
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = abyss_jewel_caster
+|spawn_weight3_value              = 100
+|spawn_weight4_tag                = abyss_jewel_summoner
+|spawn_weight4_value              = 100
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = critical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

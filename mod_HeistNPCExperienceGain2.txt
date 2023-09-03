@@ -1,0 +1,17 @@
+{{Mod
+|id                               = HeistNPCExperienceGain2
+|mod_groups                       = HeistContractNPCExperience
+|domain                           = 23
+|generation_type                  = 1
+|required_level                   = 45
+|name                             = Crook's
+|mod_type                         = HeistContractNPCExperience
+|stat_text                        = (5-6)% increased Job Experience gain
+|stat1_id                         = heist_contract_npc_experience_gain_+%
+|stat1_min                        = 5
+|stat1_max                        = 6
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 800
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

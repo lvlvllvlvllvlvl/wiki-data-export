@@ -1,0 +1,21 @@
+{{Mod
+|id                               = EnchantmentOfTheGraveOnKill2
+|mod_groups                       = TriggerEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 53
+|name                             = Enchantment Edict of the Grave
+|granted_skill                    = EnchantmentOfTheGraveOnKill2
+|mod_type                         = EnchantmentOfTheGraveOnKill
+|stat_text                        = Trigger [[Edict of the Grave]] when your [[Skill|Skills]] or [[Minion|Minions]] [[Kill]]
+|stat1_id                         = display_cast_edict_of_the_grave_on_kill_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|spawn_weight1_tag                = gloves
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = skill
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

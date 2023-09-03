@@ -1,0 +1,21 @@
+{{Mod
+|id                               = HellscapeUpsideProjectileSpeed4
+|mod_groups                       = ProjectileSpeed
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = ProjectileSpeed
+|stat_text                        = (23-25)% increased Projectile Speed
+|stat1_id                         = base_projectile_speed_+%
+|stat1_min                        = 23
+|stat1_max                        = 25
+|spawn_weight1_tag                = ranged
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = quiver
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

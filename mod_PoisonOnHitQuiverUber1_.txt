@@ -1,0 +1,23 @@
+{{Mod
+|id                               = PoisonOnHitQuiverUber1_
+|mod_groups                       = PoisonDamage
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Elder
+|mod_type                         = PoisonOnHitAndDamage
+|stat_text                        = 15% chance to [[Poison]] on [[Hit]]<br>(15-25)% increased Damage with [[Poison]]
+|stat1_id                         = base_chance_to_poison_on_hit_%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = base_poison_damage_+%
+|stat2_min                        = 15
+|stat2_max                        = 25
+|spawn_weight1_tag                = quiver_elder
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = chaos_damage, poison, damage, chaos, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,15 @@
+{{Mod
+|id                               = FlaskElementalDamageTakenOfLowestResistUnique__1
+|mod_groups                       = FlaskElementalDamageTakenOfLowestResist
+|domain                           = 2
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = FlaskElementalDamageTakenOfLowestResist
+|stat_text                        = During Effect, 6% reduced Damage taken of each Element for which your Uncapped [[Elemental Resistance]] is lowest
+|stat1_id                         = local_unique_flask_elemental_damage_taken_+%_of_lowest_uncapped_resistance_type
+|stat1_min                        = -6
+|stat1_max                        = -6
+|tags                             = flask
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

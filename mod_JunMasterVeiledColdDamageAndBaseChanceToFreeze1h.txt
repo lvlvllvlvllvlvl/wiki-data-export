@@ -1,0 +1,31 @@
+{{Mod
+|id                               = JunMasterVeiledColdDamageAndBaseChanceToFreeze1h
+|mod_groups                       = WeaponCasterDamagePrefix
+|domain                           = 28
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Chosen
+|mod_type                         = ColdDamageAndBaseChanceToFreeze
+|stat_text                        = (70-79)% increased [[Cold Damage]]<br>(21-23)% chance to [[Freeze]]
+|stat1_id                         = cold_damage_+%
+|stat1_min                        = 70
+|stat1_max                        = 79
+|stat2_id                         = base_chance_to_freeze_%
+|stat2_min                        = 21
+|stat2_max                        = 23
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = wand
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = dagger
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = sceptre
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = weapon
+|spawn_weight5_value              = 100
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = elemental_damage, unveiled_mod, damage, elemental, cold, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

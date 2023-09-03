@@ -1,0 +1,22 @@
+{{Mod
+|id                               = LocalIncreasedEnergyShield6
+|mod_groups                       = BaseLocalDefences
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 35
+|name                             = Pulsing
+|mod_type                         = LocalEnergyShield
+|stat_text                        = +(31-38) to maximum [[Energy Shield]]
+|stat1_id                         = local_energy_shield
+|stat1_min                        = 31
+|stat1_max                        = 38
+|spawn_weight1_tag                = int_armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = str_dex_int_armour
+|spawn_weight2_value              = 166
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = defences, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

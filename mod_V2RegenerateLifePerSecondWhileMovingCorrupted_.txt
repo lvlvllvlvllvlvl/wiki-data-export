@@ -1,0 +1,19 @@
+{{Mod
+|id                               = V2RegenerateLifePerSecondWhileMovingCorrupted_
+|mod_groups                       = LifeRegenerationWhileMoving
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 60
+|mod_type                         = LifeRegenerationWhileMoving
+|stat_text                        = Regenerate 100 [[Life]] per second while moving
+|stat1_id                         = life_regeneration_per_minute_while_moving
+|stat1_min                        = 6000
+|stat1_max                        = 6000
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

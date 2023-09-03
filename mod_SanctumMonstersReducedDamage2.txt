@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SanctumMonstersReducedDamage2
+|mod_groups                       = SanctumMonstersReducedDamage
+|domain                           = 7
+|generation_type                  = 2
+|required_level                   = 78
+|name                             = of Fortification
+|mod_type                         = SanctumMonstersReducedDamage
+|stat_text                        = Monsters impact 5% reduced Resolve
+|stat1_id                         = map_sanctum_monster_sanctum_damage_+%
+|stat1_min                        = -5
+|stat1_max                        = -5
+|spawn_weight1_tag                = large_sanctum_relic
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

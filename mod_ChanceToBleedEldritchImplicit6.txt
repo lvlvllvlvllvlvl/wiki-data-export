@@ -1,0 +1,21 @@
+{{Mod
+|id                               = ChanceToBleedEldritchImplicit6
+|mod_groups                       = ChanceToBleed
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|mod_type                         = ChanceToBleed
+|stat_text                        = [[Attack|Attacks]] have 30% chance to cause Bleeding
+|stat1_id                         = bleed_on_hit_with_attacks_%
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = no_tier_1_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = gloves
+|spawn_weight2_value              = 700
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = bleed, physical, attack, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

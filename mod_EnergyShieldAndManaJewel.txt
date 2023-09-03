@@ -1,0 +1,21 @@
+{{Mod
+|id                               = EnergyShieldAndManaJewel
+|mod_groups                       = IncreasedEnergyShieldAndMana
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Wise
+|mod_type                         = EnergyShieldAndManaForJewel
+|stat_text                        = (2-4)% increased maximum [[Energy Shield]]<br>(4-6)% increased maximum [[Mana]]
+|stat1_id                         = maximum_energy_shield_+%
+|stat1_min                        = 2
+|stat1_max                        = 4
+|stat2_id                         = maximum_mana_+%
+|stat2_min                        = 4
+|stat2_max                        = 6
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = resource, mana, defences, energy_shield
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

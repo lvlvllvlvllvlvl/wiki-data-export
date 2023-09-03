@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapLeaguestoneRareMonstersAreHindered_
+|mod_groups                       = MapLeaguestoneRareMonsterDamage
+|domain                           = 12
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Warding
+|mod_type                         = MapLeaguestoneRareMonstersAreHindered
+|stat_text                        = Rare Monsters in next Area will be Hindered, with 40% reduced [[Movement Speed]]
+|stat1_id                         = map_rare_monsters_are_hindered
+|stat1_min                        = -40
+|stat1_max                        = -40
+|spawn_weight1_tag                = nemesis_leaguestone
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

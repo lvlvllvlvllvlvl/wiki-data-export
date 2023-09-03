@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MonsterModApplyBlind
+|mod_groups                       = MonsterModApplyBlind
+|domain                           = 3
+|generation_type                  = 2
+|required_level                   = 24
+|name                             = of Blinding
+|mod_type                         = MonsterModApplyBlind
+|stat_text                        = 100% Global chance to Blind Enemies on [[Hit|hit]] (Hidden)<br>100% increased Blind Effect (Hidden)
+|stat1_id                         = global_chance_to_blind_on_hit_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = blind_effect_+%
+|stat2_min                        = 100
+|stat2_max                        = 100
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1500
+}}

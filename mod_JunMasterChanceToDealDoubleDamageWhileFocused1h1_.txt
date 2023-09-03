@@ -1,0 +1,25 @@
+{{Mod
+|id                               = JunMasterChanceToDealDoubleDamageWhileFocused1h1_
+|mod_groups                       = ChanceToDealDoubleDamageWhileFocused
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Order
+|mod_type                         = ChanceToDealDoubleDamageWhileFocused
+|stat_text                        = (7-10)% chance to deal Double Damage while Focused
+|stat1_id                         = chance_to_deal_double_damage_%_while_focused
+|stat1_min                        = 7
+|stat1_max                        = 10
+|stat2_id                         = grant_focus_skill
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = shield
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = unveiled_mod, damage
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

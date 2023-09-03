@@ -1,0 +1,24 @@
+{{Mod
+|id                               = LocalAddedFireDamageEnhancedMod_
+|mod_groups                       = FireDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Topotante's
+|mod_type                         = LocalFireDamageAndPen
+|stat_text                        = Adds (59-79) to (118-138) [[Fire Damage]]<br>[[Attack|Attacks]] with this Weapon Penetrate (13-15)% [[Fire Resistance]]
+|stat1_id                         = local_minimum_added_fire_damage
+|stat1_min                        = 59
+|stat1_max                        = 79
+|stat2_id                         = local_maximum_added_fire_damage
+|stat2_min                        = 118
+|stat2_max                        = 138
+|stat3_id                         = local_fire_penetration_%
+|stat3_min                        = 13
+|stat3_max                        = 15
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

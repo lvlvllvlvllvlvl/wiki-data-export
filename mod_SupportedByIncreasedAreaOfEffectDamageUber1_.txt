@@ -1,0 +1,30 @@
+{{Mod
+|id                               = SupportedByIncreasedAreaOfEffectDamageUber1_
+|mod_groups                       = SupportedByAreaProjectile
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Elder
+|granted_skill                    = SupportIncreasedAreaOfEffect
+|mod_type                         = SupportedByIncreasedAreaOfEffectDamage
+|stat_text                        = (23-27)% increased Area Damage<br>[[Item socket|Socketed]] Gems are Supported by [[Increased Area of Effect Support|Level 16 Increased Area of Effect]]
+|stat1_id                         = area_damage_+%
+|stat1_min                        = 23
+|stat1_max                        = 27
+|stat2_id                         = local_display_socketed_gems_get_increased_area_level
+|stat2_min                        = 16
+|stat2_max                        = 16
+|spawn_weight1_tag                = sceptre_elder
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = dagger_elder
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = rune_dagger_elder
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = wand_elder
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = support, damage, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

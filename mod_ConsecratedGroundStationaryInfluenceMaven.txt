@@ -1,0 +1,22 @@
+{{Mod
+|id                               = ConsecratedGroundStationaryInfluenceMaven
+|mod_groups                       = ConsecratedGroundStationary
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 85
+|name                             = Elevated Crusader's
+|mod_type                         = ConsecratedGroundStationaryMaven
+|stat_text                        = You have Consecrated Ground around you while stationary<br>Effects of Consecrated Ground you create Linger for 1 second
+|stat1_id                         = consecrated_ground_while_stationary_radius
+|stat1_min                        = 18
+|stat1_max                        = 18
+|stat2_id                         = your_consecrated_ground_effect_lingers_for_ms_after_leaving_the_area
+|stat2_min                        = 1000
+|stat2_max                        = 1000
+|spawn_weight1_tag                = body_armour_crusader
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

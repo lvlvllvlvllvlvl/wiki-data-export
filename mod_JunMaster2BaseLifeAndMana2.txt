@@ -1,0 +1,35 @@
+{{Mod
+|id                               = JunMaster2BaseLifeAndMana2
+|mod_groups                       = IncreasedLife
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 72
+|name                             = Chosen
+|mod_type                         = BaseLifeAndMana
+|stat_text                        = +(34-40) to maximum [[Life]]<br>+(34-40) to maximum [[Mana]]
+|stat1_id                         = base_maximum_life
+|stat1_min                        = 34
+|stat1_max                        = 40
+|stat2_id                         = base_maximum_mana
+|stat2_min                        = 34
+|stat2_max                        = 40
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = boots
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = gloves
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = ring
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = amulet
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = belt
+|spawn_weight6_value              = 0
+|spawn_weight7_tag                = quiver
+|spawn_weight7_value              = 0
+|spawn_weight8_tag                = default
+|spawn_weight8_value              = 0
+|tags                             = resource, unveiled_mod, life, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

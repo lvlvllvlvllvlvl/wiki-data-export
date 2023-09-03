@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MapQuantityAddedAsRarityVendorItem
+|mod_groups                       = MapQuantityAddedAsRarity
+|domain                           = 5
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Kirac's
+|mod_type                         = MapQuantityAddedAsRarity
+|stat_text                        = This Area's Modifiers to Quantity of Items found also apply to Rarity<br>15% increased Quantity of Items found in this Area<br>10% increased Pack size
+|stat1_id                         = modifiers_to_map_item_drop_quantity_also_apply_to_map_item_drop_rarity
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_item_drop_quantity_+%
+|stat2_min                        = 15
+|stat2_max                        = 15
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 10
+|stat3_max                        = 10
+|stat4_id                         = map_is_zana_map
+|stat4_min                        = 1
+|stat4_max                        = 1
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+}}

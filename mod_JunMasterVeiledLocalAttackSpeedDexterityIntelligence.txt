@@ -1,0 +1,25 @@
+{{Mod
+|id                               = JunMasterVeiledLocalAttackSpeedDexterityIntelligence
+|mod_groups                       = IncreasedAttackSpeed, Dexterity, Intelligence
+|domain                           = 28
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of the Order
+|mod_type                         = LocalAttackSpeedDexterityIntelligence
+|stat_text                        = (18-22)% increased [[Attack Speed]]<br>+(25-28) to [[Dexterity]] and [[Intelligence]]
+|stat1_id                         = local_attack_speed_+%
+|stat1_min                        = 18
+|stat1_max                        = 22
+|stat2_id                         = additional_dexterity_and_intelligence
+|stat2_min                        = 25
+|stat2_max                        = 28
+|spawn_weight1_tag                = ranged
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = weapon
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = unveiled_mod, attack, speed, attribute
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

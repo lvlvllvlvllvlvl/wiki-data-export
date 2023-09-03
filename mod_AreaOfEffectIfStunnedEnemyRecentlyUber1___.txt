@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AreaOfEffectIfStunnedEnemyRecentlyUber1___
+|mod_groups                       = AreaOfEffectIfStunnedEnemyRecently
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Elder
+|mod_type                         = AreaOfEffectIfStunnedEnemyRecently
+|stat_text                        = (25-35)% increased Area of Effect if you have Stunned an Enemy [[Recently]]
+|stat1_id                         = area_of_effect_+%_if_have_stunned_an_enemy_recently
+|stat1_min                        = 25
+|stat1_max                        = 35
+|spawn_weight1_tag                = 2h_mace_elder
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = mace_elder
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

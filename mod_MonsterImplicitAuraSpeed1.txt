@@ -1,0 +1,21 @@
+{{Mod
+|id                               = MonsterImplicitAuraSpeed1
+|mod_groups                       = MonsterAura
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 4
+|granted_buff_id                  = monster_aura_speed
+|granted_buff_value               = 45
+|mod_type                         = MonsterAuraSpeed
+|stat_text                        = 35% increased [[Attack Speed]] (Hidden)<br>35% increased [[Cast Speed]] (Hidden)<br>75% increased [[Movement Speed]] (Hidden)
+|stat1_id                         = attack_speed_+%
+|stat1_min                        = 35
+|stat1_max                        = 35
+|stat2_id                         = base_cast_speed_+%
+|stat2_min                        = 35
+|stat2_max                        = 35
+|stat3_id                         = base_movement_velocity_+%
+|stat3_min                        = 75
+|stat3_max                        = 75
+|tags                             = speed
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TormentSpiritExperimenter
+|mod_groups                       = Torment
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = monster_aura_shock
+|granted_buff_value               = 35
+|mod_type                         = TormentShockAura
+|stat_text                        = 50% increased Damage taken (Hidden)
+|stat1_id                         = base_damage_taken_+%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = dummy_stat_display_nothing
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+|tags                             = elemental, lightning, ailment
+}}

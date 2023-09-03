@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentSeismicCryExertedDamage2__
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Seismic Cry Exerted Attack Damage 2
+|mod_type                         = EnchantmentSeismicCryExertedDamage
+|stat_text                        = [[Attack|Attacks]] Exerted by Seismic Cry deal 50% increased Damage
+|stat1_id                         = seismic_cry_exerted_attack_damage_+%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

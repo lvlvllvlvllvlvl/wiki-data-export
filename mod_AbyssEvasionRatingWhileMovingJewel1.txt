@@ -1,0 +1,26 @@
+{{Mod
+|id                               = AbyssEvasionRatingWhileMovingJewel1
+|mod_groups                       = EvasionRatingWhileMoving
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Maneuvering
+|mod_type                         = EvasionRatingWhileMoving
+|stat_text                        = (25-35)% increased [[Evasion Rating]] while moving
+|stat1_id                         = evasion_rating_+%_while_moving
+|stat1_min                        = 25
+|stat1_max                        = 35
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = abyss_jewel_ranged
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = abyss_jewel_caster
+|spawn_weight3_value              = 250
+|spawn_weight4_tag                = abyss_jewel_summoner
+|spawn_weight4_value              = 250
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = defences, evasion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

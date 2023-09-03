@@ -1,0 +1,26 @@
+{{Mod
+|id                               = AbyssAvoidElementalAilmentsWhileElusiveJewel1
+|mod_groups                       = BuffEnchantment
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 84
+|name                             = of Escape
+|mod_type                         = EnchantmentElusive
+|stat_text                        = (8-10)% chance to Avoid Elemental Ailments while you have Elusive
+|stat1_id                         = avoid_elemental_ailments_%_while_affected_by_elusive
+|stat1_min                        = 8
+|stat1_max                        = 10
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = abyss_jewel_ranged
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = abyss_jewel_caster
+|spawn_weight3_value              = 100
+|spawn_weight4_tag                = abyss_jewel_summoner
+|spawn_weight4_value              = 100
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = elemental, fire, cold, lightning, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

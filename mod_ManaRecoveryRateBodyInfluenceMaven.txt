@@ -1,0 +1,23 @@
+{{Mod
+|id                               = ManaRecoveryRateBodyInfluenceMaven
+|mod_groups                       = ManaRecoveryRate
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 90
+|name                             = of Elevated Redemption
+|mod_type                         = ManaRecoveryRateMaven
+|stat_text                        = (12-15)% increased [[Mana]] Recovery rate<br>(20-35)% increased [[Mana]] Recovery from Flasks
+|stat1_id                         = mana_recovery_rate_+%
+|stat1_min                        = 12
+|stat1_max                        = 15
+|stat2_id                         = flask_mana_to_recover_+%
+|stat2_min                        = 20
+|stat2_max                        = 35
+|spawn_weight1_tag                = body_armour_eyrie
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, resource, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

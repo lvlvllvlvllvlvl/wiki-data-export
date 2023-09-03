@@ -1,0 +1,20 @@
+{{Mod
+|id                               = FlaskBuffAttackSpeedWhileHealing1
+|mod_groups                       = FlaskBuffWhileHealing
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 12
+|name                             = of the Falcon
+|mod_type                         = FlaskBuffAttackSpeedWhileHealing
+|stat_text                        = (9-11)% increased [[Attack Speed]] during Effect
+|stat1_id                         = local_flask_attack_speed_+%_while_healing
+|stat1_min                        = 9
+|stat1_max                        = 11
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, attack, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

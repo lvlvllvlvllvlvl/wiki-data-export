@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SocketedSkillDamageOnLowLifeEssence1__
+|mod_groups                       = DisplaySupportedSkillsDealDamageOnLowLife
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 63
+|name                             = of the Essence
+|granted_skill                    = SupportDamageOnLowLifeEssence1
+|mod_type                         = DisplaySupportedSkillsDealDamageOnLowLife
+|stat_text                        = [[Item socket|Socketed]] Gems deal 30% more Damage while on [[Low Life]]
+|stat1_id                         = local_display_socketed_gems_damage_+%_final_while_on_low_life
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = damage
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

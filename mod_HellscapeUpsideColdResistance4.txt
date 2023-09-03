@@ -1,0 +1,29 @@
+{{Mod
+|id                               = HellscapeUpsideColdResistance4
+|mod_groups                       = ColdResistance
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = ColdResistance
+|stat_text                        = +(33-35)% to [[Cold Resistance]]
+|stat1_id                         = base_cold_damage_resistance_%
+|stat1_min                        = 33
+|stat1_max                        = 35
+|spawn_weight1_tag                = weapon
+|spawn_weight1_value              = 300
+|spawn_weight2_tag                = armour
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = ring
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = amulet
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = belt
+|spawn_weight5_value              = 1000
+|spawn_weight6_tag                = quiver
+|spawn_weight6_value              = 1000
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+|tags                             = elemental, cold, resistance
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

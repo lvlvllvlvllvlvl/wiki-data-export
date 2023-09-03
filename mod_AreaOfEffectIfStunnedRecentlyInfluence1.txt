@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AreaOfEffectIfStunnedRecentlyInfluence1
+|mod_groups                       = AreaOfEffectIfStunnedEnemyRecently
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Crusade
+|mod_type                         = AreaOfEffectIfStunnedEnemyRecently
+|stat_text                        = (26-30)% increased Area of Effect if you have Stunned an Enemy [[Recently]]
+|stat1_id                         = area_of_effect_+%_if_have_stunned_an_enemy_recently
+|stat1_min                        = 26
+|stat1_max                        = 30
+|spawn_weight1_tag                = mace_crusader
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

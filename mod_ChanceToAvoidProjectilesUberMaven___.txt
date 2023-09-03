@@ -1,0 +1,22 @@
+{{Mod
+|id                               = ChanceToAvoidProjectilesUberMaven___
+|mod_groups                       = ChanceToAvoidProjectiles
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 94
+|name                             = of Elevated Shaping
+|mod_type                         = ChanceToAvoidProjectilesMaven
+|stat_text                        = (10-12)% chance to avoid Projectiles<br>(11-15)% chance to avoid Projectiles if you've taken Projectile Damage [[Recently]]
+|stat1_id                         = base_avoid_projectiles_%_chance
+|stat1_min                        = 10
+|stat1_max                        = 12
+|stat2_id                         = avoid_projectiles_%_chance_if_taken_projectile_damage_recently
+|stat2_min                        = 11
+|stat2_max                        = 15
+|spawn_weight1_tag                = boots_shaper
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

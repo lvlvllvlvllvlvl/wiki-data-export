@@ -1,0 +1,24 @@
+{{Mod
+|id                               = BlindOnHitSupportedUber2
+|mod_groups                       = BlindOnHit
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Shaping
+|granted_skill                    = SupportBlind
+|mod_type                         = BlindOnHitSupported
+|stat_text                        = (7-8)% Global chance to Blind Enemies on [[Hit|hit]]<br>[[Item socket|Socketed]] Gems are supported by [[Blind Support|Level 18 Blind]]
+|stat1_id                         = global_chance_to_blind_on_hit_%
+|stat1_min                        = 7
+|stat1_max                        = 8
+|stat2_id                         = local_display_socketed_gems_get_blind_level
+|stat2_min                        = 18
+|stat2_max                        = 18
+|spawn_weight1_tag                = gloves_shaper
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

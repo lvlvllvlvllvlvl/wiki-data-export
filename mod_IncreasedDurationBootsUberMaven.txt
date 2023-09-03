@@ -1,0 +1,24 @@
+{{Mod
+|id                               = IncreasedDurationBootsUberMaven
+|mod_groups                       = SkillEffectDuration
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 78
+|name                             = of the Elevated Elder
+|granted_skill                    = SupportIncreasedDuration
+|mod_type                         = SkillEffectDurationSupported
+|stat_text                        = (10-15)% increased [[Skill]] Effect Duration<br>[[Item socket|Socketed]] Gems are Supported by [[Increased Duration Support|Level 20 Increased Duration]]
+|stat1_id                         = skill_effect_duration_+%
+|stat1_min                        = 10
+|stat1_max                        = 15
+|stat2_id                         = local_display_socketed_gems_supported_by_level_x_increased_duration
+|stat2_min                        = 20
+|stat2_max                        = 20
+|spawn_weight1_tag                = boots_elder
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

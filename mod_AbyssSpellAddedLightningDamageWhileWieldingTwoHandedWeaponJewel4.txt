@@ -1,0 +1,33 @@
+{{Mod
+|id                               = AbyssSpellAddedLightningDamageWhileWieldingTwoHandedWeaponJewel4
+|mod_groups                       = WeaponClassLightningDamage
+|domain                           = 13
+|generation_type                  = 1
+|required_level                   = 58
+|name                             = Shocking
+|mod_type                         = SpellAddedLightningDamageWhileWieldingTwoHandedWeapon
+|stat_text                        = (1-4) to (29-33) Added [[Spell]] [[Lightning Damage]] while wielding a Two Handed Weapon
+|stat1_id                         = spell_minimum_added_lightning_damage_while_wielding_two_handed_weapon
+|stat1_min                        = 1
+|stat1_max                        = 4
+|stat2_id                         = spell_maximum_added_lightning_damage_while_wielding_two_handed_weapon
+|stat2_min                        = 29
+|stat2_max                        = 33
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = abyss_jewel_ranged
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = abyss_jewel_summoner
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = two_handed_mod
+|spawn_weight4_value              = 700
+|spawn_weight5_tag                = one_handed_mod
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = abyss_jewel_caster
+|spawn_weight6_value              = 250
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, lightning, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

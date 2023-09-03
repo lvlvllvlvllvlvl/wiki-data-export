@@ -1,0 +1,23 @@
+{{Mod
+|id                               = AilmentDurationInfluenceMaven
+|mod_groups                       = IncreasedAilmentDuration
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 90
+|name                             = Elevated Hunter's
+|mod_type                         = IncreasedAilmentDurationMaven
+|stat_text                        = (13-15)% increased Duration of Ailments on Enemies<br>(13-15)% increased Effect of Non-Damaging Ailments
+|stat1_id                         = base_all_ailment_duration_+%
+|stat1_min                        = 13
+|stat1_max                        = 15
+|stat2_id                         = non_damaging_ailment_effect_+%
+|stat2_min                        = 13
+|stat2_max                        = 15
+|spawn_weight1_tag                = gloves_basilisk
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

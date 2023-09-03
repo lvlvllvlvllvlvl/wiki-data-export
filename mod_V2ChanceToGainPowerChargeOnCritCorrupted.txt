@@ -1,0 +1,27 @@
+{{Mod
+|id                               = V2ChanceToGainPowerChargeOnCritCorrupted
+|mod_groups                       = PowerChargeOnCriticalStrikeChance
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = PowerChargeOnCriticalStrikeChance
+|stat_text                        = (5-7)% chance to gain a [[Power Charge]] on [[Critical Strike]]
+|stat1_id                         = add_power_charge_on_critical_strike_%
+|stat1_min                        = 5
+|stat1_max                        = 7
+|spawn_weight1_tag                = wand
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = dagger
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = claw
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = sceptre
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = staff
+|spawn_weight5_value              = 1000
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = power_charge, critical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

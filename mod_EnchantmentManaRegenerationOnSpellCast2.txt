@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentManaRegenerationOnSpellCast2
+|mod_groups                       = ConditionalBuffEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Mana Regeneration 2
+|mod_type                         = EnchantmentManaRegenerationOnSpellCast
+|stat_text                        = 25% increased [[Mana]] Regeneration Rate if you've cast a [[Spell]] [[Recently]]
+|stat1_id                         = enchantment_boots_mana_regeneration_rate_+%_if_cast_spell_recently
+|stat1_min                        = 25
+|stat1_max                        = 25
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, mana, caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

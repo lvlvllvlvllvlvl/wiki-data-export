@@ -1,0 +1,18 @@
+{{Mod
+|id                               = CleansingAltarDownsidePlayerMeteorOnFlaskUse
+|mod_groups                       = CleansingAltarDownsidePlayerMeteorOnFlaskUse
+|domain                           = 29
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = CleansingAltarDownsidePlayerMeteorOnFlaskUse
+|stat_text                        = 30% chance to be targeted by a Meteor when you use a Flask
+|stat1_id                         = create_enemy_meteor_daemon_on_flask_use_%_chance
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = primordial_altar_upside
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = cleansing_fire_altar
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

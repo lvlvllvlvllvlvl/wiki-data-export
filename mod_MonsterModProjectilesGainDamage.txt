@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MonsterModProjectilesGainDamage
+|mod_groups                       = MonsterModProjectilesGainDamage
+|domain                           = 3
+|generation_type                  = 2
+|required_level                   = 34
+|name                             = of Far Shot
+|mod_type                         = MonsterModProjectilesGainDamage
+|stat_text                        = Projectiles gain Damage as they travel farther, dealing up<br />to 60% increased Damage with [[Hit|Hits]] to targets (Hidden)
+|stat1_id                         = projectile_damage_+%_max_as_distance_travelled_increases
+|stat1_min                        = 60
+|stat1_max                        = 60
+|spawn_weight1_tag                = ranged
+|spawn_weight1_value              = 1500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

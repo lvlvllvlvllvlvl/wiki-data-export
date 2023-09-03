@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MonsterModRemoveFlaskChargeAura
+|mod_groups                       = MonsterModSpecialAura
+|domain                           = 3
+|generation_type                  = 2
+|required_level                   = 46
+|name                             = of Drought
+|granted_buff_id                  = archnemesis_flask_drain
+|granted_buff_value               = 50
+|mod_type                         = MonsterModRemoveFlaskChargeAura
+|stat_text                        = Flasks gain -6 [[Charge|Charges]] every 3 seconds (Hidden)
+|stat1_id                         = flask_charges_recovered_per_3_seconds
+|stat1_min                        = -6
+|stat1_max                        = -6
+|spawn_weight1_tag                = magic
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 1000
+}}

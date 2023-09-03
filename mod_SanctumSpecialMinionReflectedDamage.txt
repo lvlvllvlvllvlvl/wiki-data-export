@@ -1,0 +1,17 @@
+{{Mod
+|id                               = SanctumSpecialMinionReflectedDamage
+|mod_groups                       = ReflectedDamage
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Anointed
+|mod_type                         = MinionReflectedDamage
+|stat_text                        = [[Minion|Minions]] take (65-50)% reduced Reflected Damage
+|stat1_id                         = minions_reflected_damage_taken_+%
+|stat1_min                        = -65
+|stat1_max                        = -50
+|spawn_weight1_tag                = int_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+}}

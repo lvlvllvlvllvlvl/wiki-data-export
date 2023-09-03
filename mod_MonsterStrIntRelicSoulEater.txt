@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MonsterStrIntRelicSoulEater
+|mod_groups                       = MonsterNemesis
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = soul_eater_aura
+|granted_buff_value               = 42
+|mod_type                         = MonsterNemesisSoulEater
+|stat_text                        = Grants 1% increased Character Size to aura owner on death (Hidden)<br>Soul is consumed on death (Hidden)
+|stat1_id                         = grant_actor_scale_+%_to_aura_owner_on_death
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = soul_is_consumed_on_death
+|stat2_min                        = 1
+|stat2_max                        = 1
+|tags                             = attack, caster, speed, aura
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AllDamageInfluence1
+|mod_groups                       = AllDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Warlord's
+|mod_type                         = AllDamage
+|stat_text                        = (11-15)% increased Damage
+|stat1_id                         = damage_+%
+|stat1_min                        = 11
+|stat1_max                        = 15
+|spawn_weight1_tag                = belt_adjudicator
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

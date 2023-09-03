@@ -1,0 +1,21 @@
+{{Mod
+|id                               = SpellAddedColdDamageTwoHandEssence7
+|mod_groups                       = SpellAddedElementalDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 82
+|name                             = Essences
+|mod_type                         = SpellAddedColdDamageTwoHand
+|stat_text                        = Adds (57-66) to (100-111) [[Cold Damage]] to [[Spell|Spells]]
+|stat1_id                         = spell_minimum_added_cold_damage
+|stat1_min                        = 57
+|stat1_max                        = 66
+|stat2_id                         = spell_maximum_added_cold_damage
+|stat2_min                        = 100
+|stat2_max                        = 111
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, cold, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,23 @@
+{{Mod
+|id                               = JunMasterLocalCriticalStrikeChanceAndLocalItemQuality2
+|mod_groups                       = CriticalStrikeChanceIncrease, IncreasedQuality
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Order
+|mod_type                         = LocalCriticalStrikeChanceAndLocalItemQuality
+|stat_text                        = (21-25)% increased [[Critical Strike Chance]]<br>+(13-18)% to Quality
+|stat1_id                         = local_critical_strike_chance_+%
+|stat1_min                        = 21
+|stat1_max                        = 25
+|stat2_id                         = local_item_quality_+
+|stat2_min                        = 13
+|stat2_max                        = 18
+|spawn_weight1_tag                = weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = unveiled_mod, attack, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

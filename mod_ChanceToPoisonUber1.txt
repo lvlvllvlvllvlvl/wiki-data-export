@@ -1,0 +1,36 @@
+{{Mod
+|id                               = ChanceToPoisonUber1
+|mod_groups                       = LocalChanceToPoisonOnHit
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Elder
+|granted_skill                    = SupportChanceToPoison
+|mod_type                         = ChanceToPoisonSupported
+|stat_text                        = 15% chance to [[Poison]] on [[Hit]]<br>[[Item socket|Socketed]] Gems are Supported by [[Level]] 18 Chance to [[Poison]]
+|stat1_id                         = local_poison_on_hit_%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = local_display_socketed_gems_supported_by_X_lesser_poison
+|stat2_min                        = 18
+|stat2_max                        = 18
+|spawn_weight1_tag                = sword_elder
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = axe_elder
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = mace_elder
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = claw_elder
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|generation_weight1_tag           = has_attack_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_caster_mod
+|generation_weight2_value         = 65
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = support, poison, chaos, attack, ailment, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

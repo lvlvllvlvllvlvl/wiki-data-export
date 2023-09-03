@@ -1,0 +1,23 @@
+{{Mod
+|id                               = LifeRegenerationRateEldritchImplicit2
+|mod_groups                       = LifeRegenerationRate
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|mod_type                         = LifeRegenerationRate
+|stat_text                        = 8% increased [[Life]] Regeneration rate
+|stat1_id                         = life_regeneration_rate_+%
+|stat1_min                        = 8
+|stat1_max                        = 8
+|spawn_weight1_tag                = no_tier_5_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = boots
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = amulet
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

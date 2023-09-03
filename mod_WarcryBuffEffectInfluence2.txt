@@ -1,0 +1,25 @@
+{{Mod
+|id                               = WarcryBuffEffectInfluence2
+|mod_groups                       = WarcryEffect
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Crusade
+|mod_type                         = WarcryEffect
+|stat_text                        = (22-25)% increased Warcry Buff Effect
+|stat1_id                         = warcry_buff_effect_+%
+|stat1_min                        = 22
+|stat1_max                        = 25
+|spawn_weight1_tag                = shield_crusader
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = 2h_sword_crusader
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = 2h_axe_crusader
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = 2h_mace_crusader
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

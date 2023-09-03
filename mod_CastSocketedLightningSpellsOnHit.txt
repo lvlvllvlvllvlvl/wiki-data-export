@@ -1,0 +1,16 @@
+{{Mod
+|id                               = CastSocketedLightningSpellsOnHit
+|mod_groups                       = CastSocketedLightningSpellsOnHit
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|granted_skill                    = SupportUniqueMjolnerLightningSpellsCastOnHit
+|mod_type                         = CastSocketedLightningSpellsOnHit
+|stat_text                        = Trigger a [[Item socket|Socketed]] Lightning [[Spell]] on Hit, with a 0.25 second Cooldown<br />Socketed Lightning [[Spell|Spells]] have no Cost if Triggered
+|stat1_id                         = local_unique_attacks_cast_socketed_lightning_spells_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|tags                             = elemental, lightning, caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 8
+}}

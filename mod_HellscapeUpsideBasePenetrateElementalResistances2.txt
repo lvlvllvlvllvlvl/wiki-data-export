@@ -1,0 +1,17 @@
+{{Mod
+|id                               = HellscapeUpsideBasePenetrateElementalResistances2
+|mod_groups                       = BasePenetrateElementalResistances
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 45
+|mod_type                         = BasePenetrateElementalResistances
+|stat_text                        = Damage Penetrates 3% of Enemy [[Elemental Resistance|Elemental Resistances]]
+|stat1_id                         = base_penetrate_elemental_resistances_%
+|stat1_min                        = 3
+|stat1_max                        = 3
+|spawn_weight1_tag                = amulet
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental
+}}

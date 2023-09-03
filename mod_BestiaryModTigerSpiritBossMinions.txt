@@ -1,0 +1,24 @@
+{{Mod
+|id                               = BestiaryModTigerSpiritBossMinions
+|mod_groups                       = Nothing
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = bestiary_tiger_boss_aura1
+|granted_buff_value               = 50
+|mod_type                         = BestiaryModTigerSpiritBossMinions
+|stat_text                        = 25% increased [[Attack Speed]] (Hidden)<br>100% increased Global [[Accuracy Rating]] (Hidden)<br>250% increased Global [[Critical Strike Chance]] (Hidden)<br>+50% to Global [[Critical Strike Multiplier]] (Hidden)
+|stat1_id                         = attack_speed_+%
+|stat1_min                        = 25
+|stat1_max                        = 25
+|stat2_id                         = accuracy_rating_+%
+|stat2_min                        = 100
+|stat2_max                        = 100
+|stat3_id                         = critical_strike_chance_+%
+|stat3_min                        = 250
+|stat3_max                        = 250
+|stat4_id                         = base_critical_strike_multiplier_+
+|stat4_min                        = 50
+|stat4_max                        = 50
+|tags                             = damage, attack, speed, critical
+}}

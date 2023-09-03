@@ -1,0 +1,19 @@
+{{Mod
+|id                               = V2CorruptedBloodImmunityCorrupted
+|mod_groups                       = CorruptedBloodImmunity
+|domain                           = 10
+|generation_type                  = 5
+|required_level                   = 33
+|mod_type                         = CorruptedBloodImmunity
+|stat_text                        = [[Corrupted Blood]] cannot be inflicted on you
+|stat1_id                         = cannot_be_inflicted_by_corrupted_blood
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = jewel
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = bleed, physical, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

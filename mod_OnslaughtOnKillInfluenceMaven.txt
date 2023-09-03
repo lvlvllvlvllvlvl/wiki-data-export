@@ -1,0 +1,25 @@
+{{Mod
+|id                               = OnslaughtOnKillInfluenceMaven
+|mod_groups                       = ChanceToGainOnslaughtOnKill
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 90
+|name                             = of Elevated Redemption
+|mod_type                         = ChanceToGainOnslaughtOnKillMaven
+|stat_text                        = (8-10)% chance to gain Onslaught for 4 seconds on [[Kill]]<br>(3-10)% increased Attack, Cast and [[Movement Speed]] while you have Onslaught
+|stat1_id                         = chance_to_gain_onslaught_on_kill_%
+|stat1_min                        = 8
+|stat1_max                        = 10
+|stat2_id                         = attack_cast_and_movement_speed_+%_during_onslaught
+|stat2_min                        = 3
+|stat2_max                        = 10
+|spawn_weight1_tag                = boots_eyrie
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = quiver_eyrie
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = attack, caster, speed
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

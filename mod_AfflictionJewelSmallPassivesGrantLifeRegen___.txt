@@ -1,0 +1,22 @@
+{{Mod
+|id                               = AfflictionJewelSmallPassivesGrantLifeRegen___
+|mod_groups                       = AfflictionJewelSmallPassivesGrantLifeRegen
+|domain                           = 21
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Newt
+|mod_type                         = AfflictionJewelSmallPassivesGrantLifeRegen
+|stat_text                        = Added Small Passive [[Skill|Skills]] also grant: Regenerate 0.1% of [[Life]] per Second
+|stat1_id                         = local_affliction_jewel_small_nodes_grant_%_life_regeneration_per_minute
+|stat1_min                        = 6
+|stat1_max                        = 6
+|spawn_weight1_tag                = expansion_jewel_large
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = expansion_jewel_medium
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

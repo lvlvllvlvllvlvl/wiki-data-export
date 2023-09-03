@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MonsterModResistantToLightning
+|mod_groups                       = MonsterModResistantToLightning
+|domain                           = 3
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Tempest
+|mod_type                         = MonsterModResistantToLightning
+|stat_text                        = +75% to [[Lightning Resistance]] (Hidden)<br>80% reduced Effect of [[Shock]] on you (Hidden)
+|stat1_id                         = base_lightning_damage_resistance_%
+|stat1_min                        = 75
+|stat1_max                        = 75
+|stat2_id                         = shocked_effect_on_self_+%
+|stat2_min                        = -80
+|stat2_max                        = -80
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 5000
+}}

@@ -1,0 +1,31 @@
+{{Mod
+|id                               = SupportedByEnduranceChargeOnStunWeaponUber1
+|mod_groups                       = WeaponSupportUber
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = The Elder's
+|granted_skill                    = EnduranceChargeOnMeleeStun
+|mod_type                         = SupportedByEnduranceChargeOnStunWeapon
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Endurance Charge on Melee Stun Support|Level 10 Endurance Charge on Melee Stun]]
+|stat1_id                         = local_display_socketed_gems_supported_by_level_x_endurance_charge_on_stun
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = grants_2h_support
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = 2h_sword_elder
+|spawn_weight2_value              = 400
+|spawn_weight3_tag                = 2h_axe_elder
+|spawn_weight3_value              = 400
+|spawn_weight4_tag                = 2h_mace_elder
+|spawn_weight4_value              = 400
+|spawn_weight5_tag                = staff_elder
+|spawn_weight5_value              = 400
+|spawn_weight6_tag                = warstaff_elder
+|spawn_weight6_value              = 400
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+|tags                             = support, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

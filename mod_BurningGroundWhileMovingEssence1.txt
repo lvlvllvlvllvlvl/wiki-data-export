@@ -1,0 +1,23 @@
+{{Mod
+|id                               = BurningGroundWhileMovingEssence1
+|mod_groups                       = ItemGrantsBuff
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 63
+|name                             = of the Essence
+|granted_buff_id                  = essence_burning_ground
+|granted_buff_value               = 0
+|mod_type                         = BurningGroundWhileMoving
+|stat_text                        = Drops Burning Ground while moving, dealing 2500 [[Fire Damage]] per second for 4 seconds
+|stat1_id                         = essence_buff_ground_fire_damage_to_deal_per_second
+|stat1_min                        = 2500
+|stat1_max                        = 2500
+|stat2_id                         = essence_buff_ground_fire_duration_ms
+|stat2_min                        = 4000
+|stat2_max                        = 4000
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

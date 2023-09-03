@@ -1,0 +1,34 @@
+{{Mod
+|id                               = MapMonsterPacksLunarisMapWorlds_
+|mod_groups                       = MapMonsterPacks
+|domain                           = 5
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Lunar
+|mod_type                         = MapMonsterPacksLunarisMapWorlds
+|stat_text                        = 13% increased Quantity of Items found in this Area<br>8% increased Rarity of Items found in this Area<br>5% increased Pack size<br>Area is inhabited by Lunaris fanatics
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 13
+|stat1_max                        = 13
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 8
+|stat2_max                        = 8
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 5
+|stat3_max                        = 5
+|stat4_id                         = map_packs_are_lunaris
+|stat4_min                        = 1
+|stat4_max                        = 1
+|spawn_weight1_tag                = secret_area
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = unique_map
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = maven_map
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = expedition_logbook
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = primordial_map
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 150
+}}

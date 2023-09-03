@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapCorruptedSideAreaAdditionalVaalPacks
+|mod_groups                       = MapAtlasVaalPacks
+|domain                           = 5
+|generation_type                  = 2
+|required_level                   = 69
+|name                             = of Packs
+|mod_type                         = MapCorruptedSideAreaAdditionalVaalPacks
+|stat_text                        = Area contains (6-12) additional packs of Corrupted Vaal Monsters
+|stat1_id                         = map_contains_additional_packs_of_vaal_monsters
+|stat1_min                        = 6
+|stat1_max                        = 12
+|spawn_weight1_tag                = secret_area
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

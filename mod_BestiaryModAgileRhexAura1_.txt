@@ -1,0 +1,26 @@
+{{Mod
+|id                               = BestiaryModAgileRhexAura1_
+|mod_groups                       = BestiaryMod16
+|domain                           = 3
+|generation_type                  = 13
+|required_level                   = 20
+|name                             = Saqawine Presence
+|granted_buff_id                  = bestiary_agile_rhex_alternator
+|granted_buff_value               = 0
+|mod_type                         = BestiaryMod16
+|stat_text                        = 50% increased maximum [[Life]] (Hidden)<br>15% increased [[Movement Speed]] (Hidden)
+|stat1_id                         = maximum_life_+%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = avoid_damage_%
+|stat2_min                        = 10
+|stat2_max                        = 10
+|stat3_id                         = base_movement_velocity_+%
+|stat3_min                        = 15
+|stat3_max                        = 15
+|spawn_weight1_tag                = bestiary_sands
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life, speed
+}}

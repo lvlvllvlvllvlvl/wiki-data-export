@@ -1,0 +1,18 @@
+{{Mod
+|id                               = HardModeTangleAltarUpsideBossGreaterEldritchIchor
+|mod_groups                       = TangleAltarUpsideBossGreaterEldritchIchor
+|domain                           = 29
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = TangleAltarUpsideBossGreaterEldritchIchor
+|stat_text                        = Final Boss drops 1 additional Greater Eldritch Ichor
+|stat1_id                         = map_boss_additional_greater_eldritch_ichor_to_drop
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = primordial_altar_downside
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = tangle_altar
+|spawn_weight2_value              = 415
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

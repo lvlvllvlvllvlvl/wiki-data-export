@@ -1,0 +1,21 @@
+{{Mod
+|id                               = GlacialHammerThresholdJewel_2
+|mod_groups                       = PassiveJewelGrantsRadius
+|domain                           = 10
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = GlacialHammerThresholdJewel2
+|stat_text                        = With at least 40 [[Strength]] in Radius, [[Glacial Hammer]] deals<br />Cold-only Splash Damage to surrounding targets<br>With at least 40 [[Strength]] in Radius, 25% of Glacial<br />Hammer [[Physical Damage]] Converted to [[Cold Damage]]
+|stat1_id                         = local_unique_jewel_glacial_hammer_melee_splash_with_cold_damage_with_50_str_in_radius
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_unique_jewel_glacial_hammer_physical_damage_%_to_convert_to_cold_with_50_str_in_radius
+|stat2_min                        = 25
+|stat2_max                        = 25
+|stat3_id                         = local_jewel_effect_base_radius
+|stat3_min                        = 1200
+|stat3_max                        = 1200
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, cold, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

@@ -1,0 +1,17 @@
+{{Mod
+|id                               = SanctumSpecialEvasionRatingHelmetBoots
+|mod_groups                       = EvasionRatingPercent
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Well-equipped
+|mod_type                         = EvasionRatingFromHelmetBoots
+|stat_text                        = (40-60)% increased [[Evasion Rating]] from Equipped Helmet and Boots
+|stat1_id                         = evasion_rating_from_helmet_and_boots_+%
+|stat1_min                        = 40
+|stat1_max                        = 60
+|spawn_weight1_tag                = dex_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+}}

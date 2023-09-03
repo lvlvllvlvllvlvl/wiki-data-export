@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MonsterSpellDamage1_
+|mod_groups                       = MonsterSpellDamage
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|name                             = Adept
+|mod_type                         = MonsterSpellDamage
+|stat_text                        = 40% increased [[Spell Damage]] (Hidden)
+|stat1_id                         = spell_damage_+%
+|stat1_min                        = 40
+|stat1_max                        = 40
+|spawn_weight1_tag                = caster
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster_damage, damage, caster
+}}

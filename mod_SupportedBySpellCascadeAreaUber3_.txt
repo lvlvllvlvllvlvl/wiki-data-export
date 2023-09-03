@@ -1,0 +1,34 @@
+{{Mod
+|id                               = SupportedBySpellCascadeAreaUber3_
+|mod_groups                       = SupportedByAreaProjectile
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of Shaping
+|granted_skill                    = SupportSpellCascade
+|mod_type                         = SupportedBySpellCascadeArea
+|stat_text                        = (13-15)% increased Area of Effect<br>[[Item socket|Socketed]] Gems are Supported by [[Level]] 20 [[Spell]] Cascade
+|stat1_id                         = base_skill_area_of_effect_+%
+|stat1_min                        = 13
+|stat1_max                        = 15
+|stat2_id                         = local_display_socketed_gems_supported_by_level_x_spell_cascade
+|stat2_min                        = 20
+|stat2_max                        = 20
+|spawn_weight1_tag                = sceptre_shaper
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = rune_dagger_shaper
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = wand_shaper
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|generation_weight1_tag           = has_caster_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_attack_mod
+|generation_weight2_value         = 50
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = support, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

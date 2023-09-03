@@ -1,0 +1,15 @@
+{{Mod
+|id                               = MonsterImplicitAuraResistsSextant
+|mod_groups                       = MonsterAura
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = monster_aura_resists
+|granted_buff_value               = 140
+|mod_type                         = MonsterAuraResists
+|stat_text                        = +30% to all [[Elemental Resistance|Elemental Resistances]] (Hidden)
+|stat1_id                         = base_resist_all_elements_%
+|stat1_min                        = 30
+|stat1_max                        = 30
+|tags                             = elemental, resistance
+}}

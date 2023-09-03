@@ -1,0 +1,23 @@
+{{Mod
+|id                               = AddedFireDamageQuiver4
+|mod_groups                       = FireDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 28
+|name                             = Burning
+|mod_type                         = FireDamage
+|stat_text                        = Adds (11-14) to (21-25) [[Fire Damage]] to [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_fire_damage
+|stat1_min                        = 11
+|stat1_max                        = 14
+|stat2_id                         = attack_maximum_added_fire_damage
+|stat2_min                        = 21
+|stat2_max                        = 25
+|spawn_weight1_tag                = quiver
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

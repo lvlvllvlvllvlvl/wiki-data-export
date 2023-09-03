@@ -1,0 +1,16 @@
+{{Mod
+|id                               = ArmourEnchantmentHeistAttributeEffectLifeEffectPenalty1_
+|mod_groups                       = EnchantmentHeistArmour
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 69
+|name                             = Enchantment Attribute Modifier Effect and Life Modifier Effect Penalty
+|mod_type                         = ArmourEnchantmentHeistAttributeModifierEffectLifeModifierEffectPenalty
+|stat_text                        = 12% increased Explicit Attribute Modifier magnitudes<br>50% reduced Explicit [[Life]] Modifier magnitudes
+|stat1_id                         = heist_enchantment_attribute_mod_effect_+%
+|stat1_min                        = 12
+|stat1_max                        = 12
+|stat2_id                         = heist_enchantment_life_mod_effect_+%
+|stat2_min                        = -50
+|stat2_max                        = -50
+}}

@@ -1,0 +1,26 @@
+{{Mod
+|id                               = CrucibleMapMonsterFreezeChanceAndDuration
+|mod_groups                       = CrucibleMapMonsterFreezeChanceAndDuration
+|domain                           = 33
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Frostbite
+|mod_type                         = CrucibleMapMonsterFreezeChanceAndDuration
+|stat_text                        = All Damage from Monsters' [[Hit|Hits]] can [[Freeze]]<br>Monsters' [[Hit|Hits]] have 10% chance to [[Freeze]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 12
+|stat1_max                        = 12
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 7
+|stat2_max                        = 7
+|stat3_id                         = map_monsters_all_damage_can_freeze
+|stat3_min                        = 1
+|stat3_max                        = 1
+|stat4_id                         = map_monsters_base_chance_to_freeze_%
+|stat4_min                        = 10
+|stat4_max                        = 10
+|spawn_weight1_tag                = crucible_map_low
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

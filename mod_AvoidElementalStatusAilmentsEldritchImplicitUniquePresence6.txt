@@ -1,0 +1,24 @@
+{{Mod
+|id                               = AvoidElementalStatusAilmentsEldritchImplicitUniquePresence6
+|mod_groups                       = AvoidElementalStatusAilments
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|granted_buff_id                  = influence_stat_condition_presence_unique_monster
+|granted_buff_value               = 0
+|mod_type                         = AvoidElementalStatusAilmentsUniquePresence
+|stat_text                        = (39-41)% chance to Avoid Elemental Ailments
+|stat1_id                         = avoid_all_elemental_status_%
+|stat1_min                        = 39
+|stat1_max                        = 41
+|stat2_id                         = local_influence_mod_requires_unique_monster_presence
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = no_tier_1_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = boots
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental, ailment
+}}

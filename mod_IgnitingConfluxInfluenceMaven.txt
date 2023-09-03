@@ -1,0 +1,23 @@
+{{Mod
+|id                               = IgnitingConfluxInfluenceMaven
+|mod_groups                       = SingleConflux
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 90
+|name                             = of the Elevated Hunt
+|mod_type                         = IgnitingConfluxMaven
+|stat_text                        = You have Igniting Conflux for 3 seconds every 8 seconds<br>(20-30)% increased [[Ignite]] Duration on Enemies
+|stat1_id                         = gain_single_conflux_for_3_seconds_every_8_seconds
+|stat1_min                        = 3
+|stat1_max                        = 3
+|stat2_id                         = ignite_duration_+%
+|stat2_min                        = 20
+|stat2_max                        = 30
+|spawn_weight1_tag                = helmet_basilisk
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, fire, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

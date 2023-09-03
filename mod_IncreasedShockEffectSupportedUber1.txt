@@ -1,0 +1,24 @@
+{{Mod
+|id                               = IncreasedShockEffectSupportedUber1
+|mod_groups                       = HelmetAilmentUber
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Shaping
+|granted_skill                    = SupportOnslaughtOnSlayingShockedEnemy
+|mod_type                         = ShockEffectSupported
+|stat_text                        = (8-12)% increased Effect of Lightning Ailments<br>[[Item socket|Socketed]] Gems are Supported by [[Innervate Support|Level 16 Innervate]]
+|stat1_id                         = lightning_ailment_effect_+%
+|stat1_min                        = 8
+|stat1_max                        = 12
+|stat2_id                         = local_display_socketed_gems_supported_by_x_innervate_level
+|stat2_min                        = 16
+|stat2_max                        = 16
+|spawn_weight1_tag                = helmet_shaper
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, elemental, lightning, ailment, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

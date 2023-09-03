@@ -1,0 +1,26 @@
+{{Mod
+|id                               = MapTempestUberFire_
+|mod_groups                       = MapEclipse
+|domain                           = 5
+|generation_type                  = 8
+|required_level                   = 1
+|name                             = of Combustion
+|mod_type                         = MapTempestFire
+|stat_text                        = Area has patches of Burning Ground<br>20 patches with a Tempest Ground Effect per 100 tiles (Hidden)<br>Tempest Ground Effect has a radius of 14 (Hidden)<br>+25% Monster Fire Resistance (Hidden)<br>Monsters deal 50% extra Damage as Fire (Hidden)
+|stat1_id                         = map_tempest_base_ground_fire_damage_to_deal_per_minute
+|stat1_min                        = 15000
+|stat1_max                        = 15000
+|stat2_id                         = map_tempest_ground_effect_patches_per_100_tiles
+|stat2_min                        = 20
+|stat2_max                        = 20
+|stat3_id                         = map_tempest_ground_effect_radius
+|stat3_min                        = 14
+|stat3_max                        = 14
+|stat4_id                         = map_hidden_monsters_additional_fire_resistance
+|stat4_min                        = 25
+|stat4_max                        = 25
+|stat5_id                         = map_hidden_monsters_%_physical_damage_to_add_as_fire
+|stat5_min                        = 50
+|stat5_max                        = 50
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, fire
+}}

@@ -1,0 +1,22 @@
+{{Mod
+|id                               = LocalLifeFlaskHinderNearbyEnemies3_
+|mod_groups                       = LocalManaFlaskHinderNearbyEnemies
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 66
+|name                             = of Occlusion
+|mod_type                         = LocalLifeFlaskHinderNearbyEnemies
+|stat_text                        = Hinders nearby Enemies with (29-34)% reduced [[Movement Speed]] if used while not on [[Full Life]]
+|stat1_id                         = local_flask_hinder_nearby_enemies_%_for_4_seconds_if_not_on_full_life
+|stat1_min                        = 29
+|stat1_max                        = 34
+|spawn_weight1_tag                = mana_flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = utility_flask
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 750
+|tags                             = flask, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

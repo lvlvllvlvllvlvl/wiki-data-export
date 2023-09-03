@@ -1,0 +1,20 @@
+{{Mod
+|id                               = HeistNPCLifeRegenerationRatePercentage4
+|mod_groups                       = LifeRegenerationRatePercentage
+|domain                           = 23
+|generation_type                  = 2
+|required_level                   = 82
+|name                             = of the Starfish
+|mod_type                         = HeistNPCLifeRegenerationRatePercentage
+|stat_text                        = Players and their [[Minion|Minions]] Regenerate (1.8-2)% of [[Life]] per second
+|stat1_id                         = player_and_minion_life_regeneration_rate_per_minute_%
+|stat1_min                        = 108
+|stat1_max                        = 120
+|spawn_weight1_tag                = heist_equipment_melee
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

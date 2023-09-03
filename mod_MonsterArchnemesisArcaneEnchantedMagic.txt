@@ -1,0 +1,31 @@
+{{Mod
+|id                               = MonsterArchnemesisArcaneEnchantedMagic
+|mod_groups                       = MonsterArchnemesisArcaneGuarded
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 6
+|name                             = Arcane
+|granted_buff_id                  = archnemesis_arcane_enchanted
+|granted_buff_value               = 0
+|mod_type                         = MonsterArchnemesisArcaneGuarded
+|stat_text                        = 50% faster start of [[Energy Shield]] Recharge (Hidden)<br>[[Chaos Damage]] taken does not bypass [[Energy Shield]] (Hidden)<br>40% of Maximum Life is added to Maximum Energy Shield (Hidden)
+|stat1_id                         = maximum_life_%_to_add_to_maximum_energy_shield
+|stat1_min                        = 40
+|stat1_max                        = 40
+|stat2_id                         = energy_shield_delay_-%
+|stat2_min                        = 50
+|stat2_max                        = 50
+|stat3_id                         = chaos_damage_does_not_bypass_energy_shield
+|stat3_min                        = 1
+|stat3_max                        = 1
+|spawn_weight1_tag                = no_common_monster_mods
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = not_int
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = ward_armour
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = rare
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 4000
+}}

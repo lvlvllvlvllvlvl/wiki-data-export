@@ -1,0 +1,23 @@
+{{Mod
+|id                               = EnchantmentColdDamageWhenHit2_
+|mod_groups                       = ConditionalBuffEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Cold Damage 2
+|mod_type                         = EnchantmentColdDamageWhenHit
+|stat_text                        = Adds 33 to 50 [[Cold Damage]] if you've been [[Hit]] [[Recently]]
+|stat1_id                         = enchantment_boots_added_cold_damage_when_hit_minimum
+|stat1_min                        = 33
+|stat1_max                        = 33
+|stat2_id                         = enchantment_boots_added_cold_damage_when_hit_maximum
+|stat2_min                        = 50
+|stat2_max                        = 50
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, cold
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

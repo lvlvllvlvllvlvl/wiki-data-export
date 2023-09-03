@@ -1,0 +1,34 @@
+{{Mod
+|id                               = ElementalPenetrationWeaponNewUber1
+|mod_groups                       = ElementalPenetration
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = The Shaper's
+|mod_type                         = ElementalPenetration
+|stat_text                        = Damage Penetrates 4% [[Elemental Resistance|Elemental Resistances]]
+|stat1_id                         = reduce_enemy_elemental_resistance_%
+|stat1_min                        = 4
+|stat1_max                        = 4
+|spawn_weight1_tag                = sword_shaper
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = axe_shaper
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = mace_shaper
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = claw_shaper
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = sceptre_shaper
+|spawn_weight5_value              = 1000
+|spawn_weight6_tag                = dagger_shaper
+|spawn_weight6_value              = 1000
+|spawn_weight7_tag                = rune_dagger_shaper
+|spawn_weight7_value              = 1000
+|spawn_weight8_tag                = wand_shaper
+|spawn_weight8_value              = 1000
+|spawn_weight9_tag                = default
+|spawn_weight9_value              = 0
+|tags                             = elemental_damage, damage, elemental
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

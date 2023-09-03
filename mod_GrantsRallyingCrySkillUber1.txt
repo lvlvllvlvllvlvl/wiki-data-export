@@ -1,0 +1,21 @@
+{{Mod
+|id                               = GrantsRallyingCrySkillUber1
+|mod_groups                       = GrantedSkill
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = The Elder's
+|granted_skill                    = RallyingCry
+|mod_type                         = RallyingCrySkill
+|stat_text                        = Grants [[Level]] 22 [[Rallying Cry]] [[Skill]]
+|stat1_id                         = local_display_grants_skill_rallying_cry_level
+|stat1_min                        = 22
+|stat1_max                        = 22
+|spawn_weight1_tag                = belt_elder
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = skill
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}
