@@ -1,0 +1,18 @@
+--- Modifier:HinekorasEmbraceOnKillUnique~~1
++++ Export
+@@ -0,0 +1,15 @@
++{{Mod
++|id                               = HinekorasEmbraceOnKillUnique__1
++|mod_groups                       = EmbraceBuffOnKill
++|domain                           = 1
++|generation_type                  = 3
++|required_level                   = 62
++|granted_skill                    = TriggerSummonedAncestorTawhanuku
++|mod_type                         = HinekorasEmbraceOnKill
++|stat_text                        = 10% chance to Trigger Summon Spirit of Tawhanuku on [[Kill]]
++|stat1_id                         = chance_to_gain_hinekoras_embrace_%_on_kill
++|stat1_min                        = 10
++|stat1_max                        = 10
++|sell_price1_name                 = Alchemy Shard
++|sell_price1_amount               = 2
++}}

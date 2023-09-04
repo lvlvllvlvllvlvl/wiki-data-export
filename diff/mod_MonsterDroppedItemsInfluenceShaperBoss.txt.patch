@@ -1,0 +1,18 @@
+--- Modifier:MonsterDroppedItemsInfluenceShaperBoss
++++ Export
+@@ -0,0 +1,15 @@
++{{Mod
++|id                               = MonsterDroppedItemsInfluenceShaperBoss
++|mod_groups                       = MonsterDroppedItemsInfluence
++|domain                           = 3
++|generation_type                  = 3
++|required_level                   = 1
++|mod_type                         = MonsterDroppedItemsInfluence
++|stat_text                        = 
++|stat1_id                         = dropped_items_have_influence_type
++|stat1_min                        = 1
++|stat1_max                        = 1
++|stat2_id                         = monster_dropped_item_quantity_+%_final_for_influenced_monster
++|stat2_min                        = -50
++|stat2_max                        = -50
++}}

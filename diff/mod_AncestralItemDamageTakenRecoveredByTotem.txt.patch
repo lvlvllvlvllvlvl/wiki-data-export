@@ -1,0 +1,15 @@
+--- Modifier:AncestralItemDamageTakenRecoveredByTotem
++++ Export
+@@ -0,0 +1,12 @@
++{{Mod
++|id                               = AncestralItemDamageTakenRecoveredByTotem
++|mod_groups                       = AncestralTrialItem
++|domain                           = 3
++|generation_type                  = 3
++|required_level                   = 1
++|mod_type                         = AncestralItemDamageTakenRecoveredByTotem
++|stat_text                        = Damage taken from Enemy [[Hit|Hits]] is recovered as [[Life]] by your Ancestral [[Totem]] (Hidden)
++|stat1_id                         = recover_life_for_ancestral_totem_equal_to_damage_taken_from_hits
++|stat1_min                        = 1
++|stat1_max                        = 1
++}}

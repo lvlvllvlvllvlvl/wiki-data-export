@@ -1,0 +1,15 @@
+--- Modifier:AncestralTrialMonsterDeathCasterLongerRespawn
++++ Export
+@@ -0,0 +1,12 @@
++{{Mod
++|id                               = AncestralTrialMonsterDeathCasterLongerRespawn
++|mod_groups                       = AncestralMonsterRespawnTimer
++|domain                           = 3
++|generation_type                  = 3
++|required_level                   = 1
++|mod_type                         = AncestralTrialMonsterDeathCasterLongerRespawn
++|stat_text                        = Slain Enemies have +6 seconds to their Time to Revive (Hidden)
++|stat1_id                         = ancestral_slain_enemies_respawn_timer_+
++|stat1_min                        = 6000
++|stat1_max                        = 6000
++}}

@@ -1,0 +1,17 @@
+--- Modifier:NonExertedAttacksNoDamageUnique~~1
++++ Export
+@@ -0,0 +1,14 @@
++{{Mod
++|id                               = NonExertedAttacksNoDamageUnique__1
++|mod_groups                       = ExertedAttackDamage
++|domain                           = 1
++|generation_type                  = 3
++|required_level                   = 1
++|mod_type                         = NonExertedAttacksNoDamage
++|stat_text                        = Non-Exerted [[Attack|Attacks]] deal no Damage
++|stat1_id                         = non_exerted_attacks_deal_no_damage
++|stat1_min                        = 1
++|stat1_max                        = 1
++|sell_price1_name                 = Alchemy Shard
++|sell_price1_amount               = 2
++}}

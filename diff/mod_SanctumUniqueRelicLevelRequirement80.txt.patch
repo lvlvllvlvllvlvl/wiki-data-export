@@ -1,0 +1,17 @@
+--- Modifier:SanctumUniqueRelicLevelRequirement80
++++ Export
+@@ -0,0 +1,14 @@
++{{Mod
++|id                               = SanctumUniqueRelicLevelRequirement80
++|mod_groups                       = SanctumUniqueRelic
++|domain                           = 7
++|generation_type                  = 3
++|required_level                   = 1
++|mod_type                         = SanctumUniqueRelicLevelRequirement
++|stat_text                        = Cannot be used with Forbidden Tomes below [[Level|level]] 80
++|stat1_id                         = local_unique_relic_sanctum_level_restriction
++|stat1_min                        = 80
++|stat1_max                        = 80
++|sell_price1_name                 = Alteration Shard
++|sell_price1_amount               = 1
++}}

@@ -1,0 +1,18 @@
+--- Modifier:GainMissingLifeOnHitUnique~~1
++++ Export
+@@ -0,0 +1,15 @@
++{{Mod
++|id                               = GainMissingLifeOnHitUnique__1
++|mod_groups                       = LifeRegeneration
++|domain                           = 1
++|generation_type                  = 3
++|required_level                   = 62
++|mod_type                         = GainMissingLifeOnHit
++|stat_text                        = Gain (25-35)% of Missing Unreserved [[Life]] before being [[Hit]] by an Enemy
++|stat1_id                         = missing_unreserved_life_%_gained_as_life_before_hit
++|stat1_min                        = 25
++|stat1_max                        = 35
++|tags                             = resource, life
++|sell_price1_name                 = Alchemy Shard
++|sell_price1_amount               = 6
++}}

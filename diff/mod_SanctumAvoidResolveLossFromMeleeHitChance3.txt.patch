@@ -1,0 +1,22 @@
+--- Modifier:SanctumAvoidResolveLossFromMeleeHitChance3
++++ Export
+@@ -0,0 +1,19 @@
++{{Mod
++|id                               = SanctumAvoidResolveLossFromMeleeHitChance3
++|mod_groups                       = SanctumAvoidResolveLossFromMeleeHitChance
++|domain                           = 7
++|generation_type                  = 1
++|required_level                   = 84
++|name                             = Blurred
++|mod_type                         = SanctumAvoidResolveLossFromMeleeHitChance
++|stat_text                        = (9-10)% increased chance to Avoid Resolve Loss from Enemy Melee [[Hit|Hits]]
++|stat1_id                         = map_sanctum_avoid_resolve_damage_from_melee_hits_+%
++|stat1_min                        = 9
++|stat1_max                        = 10
++|spawn_weight1_tag                = medium_sanctum_relic
++|spawn_weight1_value              = 15
++|spawn_weight2_tag                = default
++|spawn_weight2_value              = 0
++|sell_price1_name                 = Alteration Shard
++|sell_price1_amount               = 1
++}}

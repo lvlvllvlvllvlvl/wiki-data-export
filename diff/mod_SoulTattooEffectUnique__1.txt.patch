@@ -1,0 +1,20 @@
+--- Modifier:SoulTattooEffectUnique~~1
++++ Export
+@@ -0,0 +1,17 @@
++{{Mod
++|id                               = SoulTattooEffectUnique__1
++|mod_groups                       = SoulTattooEffect
++|domain                           = 1
++|generation_type                  = 3
++|required_level                   = 1
++|mod_type                         = SoulTattooEffect
++|stat_text                        = 100% increased effect of Tattoos in Radius
++|stat1_id                         = local_unique_jewel_tattoos_in_radius_effect_+%
++|stat1_min                        = 100
++|stat1_max                        = 100
++|stat2_id                         = local_jewel_effect_base_radius
++|stat2_min                        = 1200
++|stat2_max                        = 1200
++|sell_price1_name                 = Alchemy Shard
++|sell_price1_amount               = 6
++}}

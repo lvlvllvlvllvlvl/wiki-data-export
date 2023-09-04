@@ -1,0 +1,15 @@
+--- Modifier:AncestralItemChanceForNoRespawnTimerOnDeath
++++ Export
+@@ -0,0 +1,12 @@
++{{Mod
++|id                               = AncestralItemChanceForNoRespawnTimerOnDeath
++|mod_groups                       = AncestralTrialItem
++|domain                           = 3
++|generation_type                  = 3
++|required_level                   = 1
++|mod_type                         = AncestralItemChanceForNoRespawnTimerOnDeath
++|stat_text                        = 50% chance on Death to Revive immediately (Hidden)
++|stat1_id                         = ancestral_chance_for_no_respawn_timer_on_death_%
++|stat1_min                        = 50
++|stat1_max                        = 50
++}}

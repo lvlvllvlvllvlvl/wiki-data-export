@@ -1,0 +1,17 @@
+--- Modifier:MonsterModToxicVolatilesSanctum
++++ Export
+@@ -0,0 +1,14 @@
++{{Mod
++|id                               = MonsterModToxicVolatilesSanctum
++|mod_groups                       = MonsterModToxicVolatiles
++|domain                           = 3
++|generation_type                  = 1
++|required_level                   = 18
++|name                             = Caustic Orb on Death
++|mod_type                         = MonsterModToxicVolatiles
++|stat_text                        = 
++|spawn_weight1_tag                = magic
++|spawn_weight1_value              = 0
++|spawn_weight2_tag                = sanctum_monster
++|spawn_weight2_value              = 1500
++}}

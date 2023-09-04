@@ -1,0 +1,22 @@
+--- Modifier:MapCorruptedSideAreaVesselVaalGemDrop
++++ Export
+@@ -0,0 +1,19 @@
++{{Mod
++|id                               = MapCorruptedSideAreaVesselVaalGemDrop
++|mod_groups                       = MapVesselVaalGemDrop
++|domain                           = 5
++|generation_type                  = 2
++|required_level                   = 69
++|name                             = of the Gemcutter
++|mod_type                         = MapCorruptedSideAreaVaalGemDrop
++|stat_text                        = Vaal Vessel contains (1-2) additional Vaal Gems
++|stat1_id                         = map_vaal_vessel_drop_X_vaal_gems
++|stat1_min                        = 1
++|stat1_max                        = 2
++|spawn_weight1_tag                = map_device
++|spawn_weight1_value              = 0
++|spawn_weight2_tag                = secret_area
++|spawn_weight2_value              = 1000
++|spawn_weight3_tag                = default
++|spawn_weight3_value              = 0
++}}

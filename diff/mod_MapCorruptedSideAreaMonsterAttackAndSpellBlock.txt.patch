@@ -1,0 +1,30 @@
+--- Modifier:MapCorruptedSideAreaMonsterAttackAndSpellBlock
++++ Export
+@@ -0,0 +1,27 @@
++{{Mod
++|id                               = MapCorruptedSideAreaMonsterAttackAndSpellBlock
++|mod_groups                       = MapCorruptedSideAreaMonsterAttackAndSpellBlock
++|domain                           = 5
++|generation_type                  = 1
++|required_level                   = 69
++|name                             = Shielding
++|mod_type                         = MapCorruptedSideAreaMonsterAttackAndSpellBlock
++|stat_text                        = 22% increased Quantity of Items found in this Area<br>Found Items have 3% chance to drop Corrupted in Area<br>Monsters have +50% Chance to [[Block]] [[Attack Damage]]<br>Monsters have +50% Chance to [[Block]] [[Spell Damage]]
++|stat1_id                         = map_item_drop_quantity_+%
++|stat1_min                        = 22
++|stat1_max                        = 22
++|stat2_id                         = map_items_drop_corrupted_%
++|stat2_min                        = 3
++|stat2_max                        = 3
++|stat3_id                         = map_monsters_base_block_%
++|stat3_min                        = 50
++|stat3_max                        = 50
++|stat4_id                         = map_monsters_base_spell_block_%
++|stat4_min                        = 50
++|stat4_max                        = 50
++|spawn_weight1_tag                = secret_area
++|spawn_weight1_value              = 600
++|spawn_weight2_tag                = default
++|spawn_weight2_value              = 0
++|tags                             = block
++}}

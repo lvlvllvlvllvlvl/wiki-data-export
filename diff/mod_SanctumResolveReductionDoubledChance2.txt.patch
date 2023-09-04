@@ -1,0 +1,22 @@
+--- Modifier:SanctumResolveReductionDoubledChance2
++++ Export
+@@ -0,0 +1,19 @@
++{{Mod
++|id                               = SanctumResolveReductionDoubledChance2
++|mod_groups                       = SanctumResolveReductionDoubledChance
++|domain                           = 7
++|generation_type                  = 2
++|required_level                   = 77
++|name                             = of the Beast
++|mod_type                         = SanctumResolveReductionDoubledChance
++|stat_text                        = (4-5)% chance for Resolve Mitigation to be doubled when [[Hit]] by an Enemy
++|stat1_id                         = map_sanctum_resolve_damage_reduction_doubled_when_hit_chance_%
++|stat1_min                        = 4
++|stat1_max                        = 5
++|spawn_weight1_tag                = medium_sanctum_relic
++|spawn_weight1_value              = 60
++|spawn_weight2_tag                = default
++|spawn_weight2_value              = 0
++|sell_price1_name                 = Alteration Shard
++|sell_price1_amount               = 1
++}}

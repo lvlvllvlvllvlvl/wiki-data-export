@@ -1,0 +1,20 @@
+--- Modifier:MapCorruptedSideAreaExperienceGain
++++ Export
+@@ -0,0 +1,17 @@
++{{Mod
++|id                               = MapCorruptedSideAreaExperienceGain
++|mod_groups                       = MapIncreasedExperienceGain
++|domain                           = 5
++|generation_type                  = 2
++|required_level                   = 69
++|name                             = of Experience
++|mod_type                         = MapCorruptedSideAreaExperienceGain
++|stat_text                        = (50-150)% increased Experience gain
++|stat1_id                         = map_experience_gain_+%
++|stat1_min                        = 50
++|stat1_max                        = 150
++|spawn_weight1_tag                = secret_area
++|spawn_weight1_value              = 1000
++|spawn_weight2_tag                = default
++|spawn_weight2_value              = 0
++}}

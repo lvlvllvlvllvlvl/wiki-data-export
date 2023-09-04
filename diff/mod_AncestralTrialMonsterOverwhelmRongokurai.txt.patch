@@ -1,0 +1,15 @@
+--- Modifier:AncestralTrialMonsterOverwhelmRongokurai
++++ Export
+@@ -0,0 +1,12 @@
++{{Mod
++|id                               = AncestralTrialMonsterOverwhelmRongokurai
++|mod_groups                       = AncestralTrialMonster
++|domain                           = 3
++|generation_type                  = 3
++|required_level                   = 1
++|mod_type                         = AncestralTrialMonsterOverwhelm
++|stat_text                        = Overwhelm 30% [[Physical Damage]] Reduction (Hidden)
++|stat1_id                         = enemy_phys_reduction_%_penalty_vs_hit
++|stat1_min                        = 30
++|stat1_max                        = 30
++}}

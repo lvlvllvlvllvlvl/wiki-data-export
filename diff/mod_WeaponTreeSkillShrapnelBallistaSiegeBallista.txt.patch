@@ -1,0 +1,25 @@
+--- Modifier:WeaponTreeSkillShrapnelBallistaSiegeBallista
++++ Export
+@@ -0,0 +1,22 @@
++{{Mod
++|id                               = WeaponTreeSkillShrapnelBallistaSiegeBallista
++|mod_groups                       = WeaponTreeSkillShrapnelBallistaSiegeBallista
++|domain                           = 1
++|generation_type                  = 31
++|required_level                   = 1
++|mod_type                         = WeaponTreeSkillShrapnelBallistaSiegeBallista
++|stat_text                        = 50% increased Siege and Shrapnel Ballista [[Attack Speed|attack speed]] per maximum Summoned [[Totem]]<br>45% reduced [[Siege Ballista]] [[Attack Speed|attack speed]] per [[Siege Ballista]] [[Totem]]<br>45% reduced Shrapnel Ballista [[Attack Speed|attack speed]] per Shrapnel Ballista [[Totem]]
++|stat1_id                         = siege_and_shrapnel_ballista_attack_speed_+%_per_maximum_totem
++|stat1_min                        = 50
++|stat1_max                        = 50
++|stat2_id                         = siege_ballista_totems_from_this_skill_grant_siege_ballista_attack_speed_-%
++|stat2_min                        = 45
++|stat2_max                        = 45
++|stat3_id                         = shrapnel_ballista_totems_from_this_skill_grant_shrapnel_ballista_attack_speed_-%
++|stat3_min                        = 45
++|stat3_max                        = 45
++|spawn_weight1_tag                = bow
++|spawn_weight1_value              = 1000
++|spawn_weight2_tag                = default
++|spawn_weight2_value              = 0
++}}

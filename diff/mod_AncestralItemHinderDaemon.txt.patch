@@ -1,0 +1,15 @@
+--- Modifier:AncestralItemHinderDaemon
++++ Export
+@@ -0,0 +1,12 @@
++{{Mod
++|id                               = AncestralItemHinderDaemon
++|mod_groups                       = AncestralTrialItem
++|domain                           = 3
++|generation_type                  = 3
++|required_level                   = 1
++|mod_type                         = AncestralItemHinderDaemon
++|stat_text                        = Hinders Nearby Enemies (Hidden)
++|stat1_id                         = display_monster_has_hinder_daemon
++|stat1_min                        = 1
++|stat1_max                        = 1
++}}

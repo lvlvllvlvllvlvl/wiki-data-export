@@ -1,0 +1,15 @@
+--- Modifier:AncestralItemNearbyEnemiesNoLifeRecovery
++++ Export
+@@ -0,0 +1,12 @@
++{{Mod
++|id                               = AncestralItemNearbyEnemiesNoLifeRecovery
++|mod_groups                       = AncestralTrialItem
++|domain                           = 3
++|generation_type                  = 3
++|required_level                   = 1
++|mod_type                         = AncestralItemNearbyEnemiesNoLifeRecovery
++|stat_text                        = Nearby Enemies cannot Recover [[Life]] (Hidden)
++|stat1_id                         = display_monster_has_cannot_recover_life_aura
++|stat1_min                        = 1
++|stat1_max                        = 1
++}}

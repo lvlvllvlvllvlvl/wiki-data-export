@@ -1,0 +1,18 @@
+--- Modifier:AncestralTrialMonsterIntermediateFleeAndDamage
++++ Export
+@@ -0,0 +1,15 @@
++{{Mod
++|id                               = AncestralTrialMonsterIntermediateFleeAndDamage
++|mod_groups                       = AncestralTrialMonster
++|domain                           = 3
++|generation_type                  = 3
++|required_level                   = 1
++|mod_type                         = AncestralTrialFleeAndDamageFinal
++|stat_text                        = Monster has a 95% chance not to flee. (Hidden)
++|stat1_id                         = monster_chance_to_not_flee_%
++|stat1_min                        = 95
++|stat1_max                        = 95
++|stat2_id                         = monster_damage_+%_final_vs_monsters_from_ancestral_rank
++|stat2_min                        = 100
++|stat2_max                        = 100
++}}

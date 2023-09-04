@@ -1,0 +1,18 @@
+--- Modifier:GlobalIncreaseMinionSpellSkillGemLevelUnique~~1
++++ Export
+@@ -0,0 +1,15 @@
++{{Mod
++|id                               = GlobalIncreaseMinionSpellSkillGemLevelUnique__1
++|mod_groups                       = IncreaseSpecificSocketedGemLevel
++|domain                           = 1
++|generation_type                  = 3
++|required_level                   = 1
++|mod_type                         = GlobalIncreaseMinionSpellSkillGemLevel
++|stat_text                        = +(1-2) to [[Level]] of all [[Minion Skills|Minion Skill]] Gems
++|stat1_id                         = minion_skill_gem_level_+
++|stat1_min                        = 1
++|stat1_max                        = 2
++|tags                             = minion, gem
++|sell_price1_name                 = Alchemy Shard
++|sell_price1_amount               = 4
++}}

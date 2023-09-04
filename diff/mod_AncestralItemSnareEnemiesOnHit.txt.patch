@@ -1,0 +1,15 @@
+--- Modifier:AncestralItemSnareEnemiesOnHit
++++ Export
+@@ -0,0 +1,12 @@
++{{Mod
++|id                               = AncestralItemSnareEnemiesOnHit
++|mod_groups                       = AncestralTrialItem
++|domain                           = 3
++|generation_type                  = 3
++|required_level                   = 1
++|mod_type                         = AncestralItemSnareEnemiesOnHit
++|stat_text                        = Inflict 3 Grasping Vines on [[Hit]] (Hidden)
++|stat1_id                         = add_x_grasping_vines_on_hit
++|stat1_min                        = 3
++|stat1_max                        = 3
++}}

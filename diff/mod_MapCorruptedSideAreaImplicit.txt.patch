@@ -1,0 +1,15 @@
+--- Modifier:MapCorruptedSideAreaImplicit
++++ Export
+@@ -0,0 +1,12 @@
++{{Mod
++|id                               = MapCorruptedSideAreaImplicit
++|mod_groups                       = MapAtlasVaalPacksImplicit
++|domain                           = 5
++|generation_type                  = 3
++|required_level                   = 1
++|mod_type                         = MapCorruptedSideAreaAdditionalVaalPacksImplicit
++|stat_text                        = Area contains (4-8) additional packs of Corrupted Vaal Monsters
++|stat1_id                         = map_contains_additional_packs_of_vaal_monsters
++|stat1_min                        = 4
++|stat1_max                        = 8
++}}

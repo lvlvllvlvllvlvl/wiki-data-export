@@ -1,0 +1,15 @@
+--- Modifier:AncestralItemRighteousFireAura
++++ Export
+@@ -0,0 +1,12 @@
++{{Mod
++|id                               = AncestralItemRighteousFireAura
++|mod_groups                       = AncestralTrialItem
++|domain                           = 3
++|generation_type                  = 3
++|required_level                   = 1
++|mod_type                         = AncestralItemRighteousFireAura
++|stat_text                        = Righteous Fire<br />Enemies in the [[Righteous Fire]] have -10% to maximum [[Fire Resistance]] (Hidden)
++|stat1_id                         = display_monster_has_righteous_fire_daemon
++|stat1_min                        = 1
++|stat1_max                        = 1
++}}

@@ -1,0 +1,17 @@
+--- Modifier:AncestralItemIncreasedDamageTaken100
++++ Export
+@@ -0,0 +1,14 @@
++{{Mod
++|id                               = AncestralItemIncreasedDamageTaken100
++|mod_groups                       = DamageTaken
++|domain                           = 3
++|generation_type                  = 3
++|required_level                   = 1
++|mod_type                         = DamageTaken
++|stat_text                        = 100% increased Damage taken (Hidden)
++|stat1_id                         = base_damage_taken_+%
++|stat1_min                        = 100
++|stat1_max                        = 100
++|sell_price1_name                 = Alchemy Shard
++|sell_price1_amount               = 1
++}}

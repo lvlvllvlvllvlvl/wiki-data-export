@@ -1,0 +1,17 @@
+--- Modifier:QuiverChillAsThoughtDealingMoreDamageUnique~~1
++++ Export
+@@ -0,0 +1,14 @@
++{{Mod
++|id                               = QuiverChillAsThoughtDealingMoreDamageUnique__1
++|mod_groups                       = ChillEffect
++|domain                           = 1
++|generation_type                  = 3
++|required_level                   = 1
++|mod_type                         = QuiverChillAsThoughtDealingMoreDamage
++|stat_text                        = Chill Enemies as though dealing (60-100)% more Damage
++|stat1_id                         = unique_quiver_chill_as_though_damage_+%_final
++|stat1_min                        = 60
++|stat1_max                        = 100
++|sell_price1_name                 = Alchemy Shard
++|sell_price1_amount               = 2
++}}

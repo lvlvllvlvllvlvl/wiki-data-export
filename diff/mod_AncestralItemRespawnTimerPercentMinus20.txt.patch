@@ -1,0 +1,15 @@
+--- Modifier:AncestralItemRespawnTimerPercentMinus20
++++ Export
+@@ -0,0 +1,12 @@
++{{Mod
++|id                               = AncestralItemRespawnTimerPercentMinus20
++|mod_groups                       = AncestralMonsterRespawnTimer
++|domain                           = 3
++|generation_type                  = 3
++|required_level                   = 1
++|mod_type                         = AncestralTrialRespawnTimerPercent
++|stat_text                        = 50% reduced Time to Revive (Hidden)
++|stat1_id                         = ancestral_monster_respawn_timer_+%
++|stat1_min                        = -50
++|stat1_max                        = -50
++}}

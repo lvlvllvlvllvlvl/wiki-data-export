@@ -1,0 +1,17 @@
+--- Modifier:NearbyEnemyPhysicalDamageConvertedToFire~~1
++++ Export
+@@ -0,0 +1,14 @@
++{{Mod
++|id                               = NearbyEnemyPhysicalDamageConvertedToFire__1
++|mod_groups                       = ConvertPhysicalToFire
++|domain                           = 1
++|generation_type                  = 3
++|required_level                   = 1
++|granted_buff_id                  = unique_nearby_enemies_convert_physical_damage_to_fire
++|granted_buff_value               = 60
++|mod_type                         = NearbyEnemyPhysicalDamageConvertedToFire
++|stat_text                        = Nearby Enemies Convert 25% of their [[Physical Damage]] to Fire
++|stat1_id                         = local_nearby_enemies_base_physical_damage_%_to_convert_to_fire
++|stat1_min                        = 25
++|stat1_max                        = 25
++}}

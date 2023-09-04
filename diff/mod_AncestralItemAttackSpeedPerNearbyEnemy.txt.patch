@@ -1,0 +1,15 @@
+--- Modifier:AncestralItemAttackSpeedPerNearbyEnemy
++++ Export
+@@ -0,0 +1,12 @@
++{{Mod
++|id                               = AncestralItemAttackSpeedPerNearbyEnemy
++|mod_groups                       = AncestralTrialItem
++|domain                           = 3
++|generation_type                  = 3
++|required_level                   = 1
++|mod_type                         = AncestralItemAttackSpeedPerNearbyEnemy
++|stat_text                        = 15% increased [[Attack Speed]] per Enemy in Close Range (Hidden)
++|stat1_id                         = attack_speed_+%_per_enemy_in_close_range
++|stat1_min                        = 15
++|stat1_max                        = 15
++}}
