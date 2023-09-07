@@ -57,7 +57,7 @@
 |static_stat7_value                      = -75
 |static_stat8_id                         = base_cold_damage_resistance_%
 |static_stat8_value                      = -15
-|stat_text                               = Deals (9-1391) to (13-2086) Cold Damage<br>4% more Damage with Hits per 0.1 seconds Duration<br>Base duration is 2 seconds<br>Base secondary duration is 5 seconds<br>+(0-7) to radius<br>75% reduced Life Regeneration rate<br>75% reduced Energy Shield Regeneration rate<br>Cold Exposure applies -15% to Cold Resistance
+|stat_text                               = Deals (9-1391) to (13-2086) Cold Damage<br>4% more Damage with Hits per 0.1 seconds Duration<br>Base duration is 2 seconds<br>Base secondary duration is 5 seconds<br>+(0-0.7) metres to radius<br>75% reduced Life Regeneration rate<br>75% reduced Energy Shield Regeneration rate<br>Cold Exposure applies -15% to Cold Resistance
 |level1                                  = True
 |level1_level_requirement                = 4
 |level1_cost_amounts                     = 4
@@ -77,7 +77,7 @@
 |level3                                  = True
 |level3_level_requirement                = 9
 |level3_cost_amounts                     = 5
-|level3_stat_text                        = Deals 15 to 22 Cold Damage<br>+1 to radius
+|level3_stat_text                        = Deals 15 to 22 Cold Damage<br>+0.1 metres to radius
 |level3_stat1_id                         = spell_minimum_base_cold_damage
 |level3_stat1_value                      = 15
 |level3_stat2_id                         = spell_maximum_base_cold_damage
@@ -87,7 +87,7 @@
 |level4                                  = True
 |level4_level_requirement                = 12
 |level4_cost_amounts                     = 6
-|level4_stat_text                        = Deals 20 to 30 Cold Damage<br>+1 to radius
+|level4_stat_text                        = Deals 20 to 30 Cold Damage<br>+0.1 metres to radius
 |level4_stat1_id                         = spell_minimum_base_cold_damage
 |level4_stat1_value                      = 20
 |level4_stat2_id                         = spell_maximum_base_cold_damage
@@ -97,7 +97,7 @@
 |level5                                  = True
 |level5_level_requirement                = 16
 |level5_cost_amounts                     = 7
-|level5_stat_text                        = Deals 29 to 44 Cold Damage<br>+1 to radius
+|level5_stat_text                        = Deals 29 to 44 Cold Damage<br>+0.1 metres to radius
 |level5_stat1_id                         = spell_minimum_base_cold_damage
 |level5_stat1_value                      = 29
 |level5_stat2_id                         = spell_maximum_base_cold_damage
@@ -107,7 +107,7 @@
 |level6                                  = True
 |level6_level_requirement                = 20
 |level6_cost_amounts                     = 7
-|level6_stat_text                        = Deals 41 to 62 Cold Damage<br>+2 to radius
+|level6_stat_text                        = Deals 41 to 62 Cold Damage<br>+0.2 metres to radius
 |level6_stat1_id                         = spell_minimum_base_cold_damage
 |level6_stat1_value                      = 41
 |level6_stat2_id                         = spell_maximum_base_cold_damage
@@ -117,7 +117,7 @@
 |level7                                  = True
 |level7_level_requirement                = 24
 |level7_cost_amounts                     = 8
-|level7_stat_text                        = Deals 57 to 86 Cold Damage<br>+2 to radius
+|level7_stat_text                        = Deals 57 to 86 Cold Damage<br>+0.2 metres to radius
 |level7_stat1_id                         = spell_minimum_base_cold_damage
 |level7_stat1_value                      = 57
 |level7_stat2_id                         = spell_maximum_base_cold_damage
@@ -127,7 +127,7 @@
 |level8                                  = True
 |level8_level_requirement                = 28
 |level8_cost_amounts                     = 9
-|level8_stat_text                        = Deals 79 to 118 Cold Damage<br>+3 to radius
+|level8_stat_text                        = Deals 79 to 118 Cold Damage<br>+0.3 metres to radius
 |level8_stat1_id                         = spell_minimum_base_cold_damage
 |level8_stat1_value                      = 79
 |level8_stat2_id                         = spell_maximum_base_cold_damage
@@ -137,7 +137,7 @@
 |level9                                  = True
 |level9_level_requirement                = 32
 |level9_cost_amounts                     = 10
-|level9_stat_text                        = Deals 106 to 160 Cold Damage<br>+3 to radius
+|level9_stat_text                        = Deals 106 to 160 Cold Damage<br>+0.3 metres to radius
 |level9_stat1_id                         = spell_minimum_base_cold_damage
 |level9_stat1_value                      = 106
 |level9_stat2_id                         = spell_maximum_base_cold_damage
@@ -147,7 +147,7 @@
 |level10                                 = True
 |level10_level_requirement               = 36
 |level10_cost_amounts                    = 10
-|level10_stat_text                       = Deals 143 to 214 Cold Damage<br>+3 to radius
+|level10_stat_text                       = Deals 143 to 214 Cold Damage<br>+0.3 metres to radius
 |level10_stat1_id                        = spell_minimum_base_cold_damage
 |level10_stat1_value                     = 143
 |level10_stat2_id                        = spell_maximum_base_cold_damage
@@ -157,7 +157,7 @@
 |level11                                 = True
 |level11_level_requirement               = 40
 |level11_cost_amounts                    = 11
-|level11_stat_text                       = Deals 190 to 285 Cold Damage<br>+4 to radius
+|level11_stat_text                       = Deals 190 to 285 Cold Damage<br>+0.4 metres to radius
 |level11_stat1_id                        = spell_minimum_base_cold_damage
 |level11_stat1_value                     = 190
 |level11_stat2_id                        = spell_maximum_base_cold_damage
@@ -167,7 +167,7 @@
 |level12                                 = True
 |level12_level_requirement               = 44
 |level12_cost_amounts                    = 12
-|level12_stat_text                       = Deals 252 to 377 Cold Damage<br>+4 to radius
+|level12_stat_text                       = Deals 252 to 377 Cold Damage<br>+0.4 metres to radius
 |level12_stat1_id                        = spell_minimum_base_cold_damage
 |level12_stat1_value                     = 252
 |level12_stat2_id                        = spell_maximum_base_cold_damage
@@ -177,7 +177,7 @@
 |level13                                 = True
 |level13_level_requirement               = 48
 |level13_cost_amounts                    = 12
-|level13_stat_text                       = Deals 331 to 496 Cold Damage<br>+4 to radius
+|level13_stat_text                       = Deals 331 to 496 Cold Damage<br>+0.4 metres to radius
 |level13_stat1_id                        = spell_minimum_base_cold_damage
 |level13_stat1_value                     = 331
 |level13_stat2_id                        = spell_maximum_base_cold_damage
@@ -187,7 +187,7 @@
 |level14                                 = True
 |level14_level_requirement               = 52
 |level14_cost_amounts                    = 13
-|level14_stat_text                       = Deals 433 to 650 Cold Damage<br>+5 to radius
+|level14_stat_text                       = Deals 433 to 650 Cold Damage<br>+0.5 metres to radius
 |level14_stat1_id                        = spell_minimum_base_cold_damage
 |level14_stat1_value                     = 433
 |level14_stat2_id                        = spell_maximum_base_cold_damage
@@ -197,7 +197,7 @@
 |level15                                 = True
 |level15_level_requirement               = 55
 |level15_cost_amounts                    = 14
-|level15_stat_text                       = Deals 529 to 793 Cold Damage<br>+5 to radius
+|level15_stat_text                       = Deals 529 to 793 Cold Damage<br>+0.5 metres to radius
 |level15_stat1_id                        = spell_minimum_base_cold_damage
 |level15_stat1_value                     = 529
 |level15_stat2_id                        = spell_maximum_base_cold_damage
@@ -207,7 +207,7 @@
 |level16                                 = True
 |level16_level_requirement               = 58
 |level16_cost_amounts                    = 14
-|level16_stat_text                       = Deals 644 to 966 Cold Damage<br>+6 to radius
+|level16_stat_text                       = Deals 644 to 966 Cold Damage<br>+0.6 metres to radius
 |level16_stat1_id                        = spell_minimum_base_cold_damage
 |level16_stat1_value                     = 644
 |level16_stat2_id                        = spell_maximum_base_cold_damage
@@ -217,7 +217,7 @@
 |level17                                 = True
 |level17_level_requirement               = 61
 |level17_cost_amounts                    = 15
-|level17_stat_text                       = Deals 782 to 1174 Cold Damage<br>+6 to radius
+|level17_stat_text                       = Deals 782 to 1174 Cold Damage<br>+0.6 metres to radius
 |level17_stat1_id                        = spell_minimum_base_cold_damage
 |level17_stat1_value                     = 782
 |level17_stat2_id                        = spell_maximum_base_cold_damage
@@ -227,7 +227,7 @@
 |level18                                 = True
 |level18_level_requirement               = 64
 |level18_cost_amounts                    = 15
-|level18_stat_text                       = Deals 949 to 1424 Cold Damage<br>+6 to radius
+|level18_stat_text                       = Deals 949 to 1424 Cold Damage<br>+0.6 metres to radius
 |level18_stat1_id                        = spell_minimum_base_cold_damage
 |level18_stat1_value                     = 949
 |level18_stat2_id                        = spell_maximum_base_cold_damage
@@ -237,7 +237,7 @@
 |level19                                 = True
 |level19_level_requirement               = 67
 |level19_cost_amounts                    = 16
-|level19_stat_text                       = Deals 1150 to 1725 Cold Damage<br>+7 to radius
+|level19_stat_text                       = Deals 1150 to 1725 Cold Damage<br>+0.7 metres to radius
 |level19_stat1_id                        = spell_minimum_base_cold_damage
 |level19_stat1_value                     = 1150
 |level19_stat2_id                        = spell_maximum_base_cold_damage
@@ -247,7 +247,7 @@
 |level20                                 = True
 |level20_level_requirement               = 70
 |level20_cost_amounts                    = 16
-|level20_stat_text                       = Deals 1391 to 2086 Cold Damage<br>+7 to radius
+|level20_stat_text                       = Deals 1391 to 2086 Cold Damage<br>+0.7 metres to radius
 |level20_stat1_id                        = spell_minimum_base_cold_damage
 |level20_stat1_value                     = 1391
 |level20_stat2_id                        = spell_maximum_base_cold_damage
@@ -257,7 +257,7 @@
 |level21                                 = True
 |level21_level_requirement               = 72
 |level21_cost_amounts                    = 17
-|level21_stat_text                       = Deals 1577 to 2366 Cold Damage<br>+7 to radius
+|level21_stat_text                       = Deals 1577 to 2366 Cold Damage<br>+0.7 metres to radius
 |level21_stat1_id                        = spell_minimum_base_cold_damage
 |level21_stat1_value                     = 1577
 |level21_stat2_id                        = spell_maximum_base_cold_damage
@@ -267,7 +267,7 @@
 |level22                                 = True
 |level22_level_requirement               = 74
 |level22_cost_amounts                    = 17
-|level22_stat_text                       = Deals 1788 to 2682 Cold Damage<br>+8 to radius
+|level22_stat_text                       = Deals 1788 to 2682 Cold Damage<br>+0.8 metres to radius
 |level22_stat1_id                        = spell_minimum_base_cold_damage
 |level22_stat1_value                     = 1788
 |level22_stat2_id                        = spell_maximum_base_cold_damage
@@ -277,7 +277,7 @@
 |level23                                 = True
 |level23_level_requirement               = 76
 |level23_cost_amounts                    = 18
-|level23_stat_text                       = Deals 2025 to 3038 Cold Damage<br>+8 to radius
+|level23_stat_text                       = Deals 2025 to 3038 Cold Damage<br>+0.8 metres to radius
 |level23_stat1_id                        = spell_minimum_base_cold_damage
 |level23_stat1_value                     = 2025
 |level23_stat2_id                        = spell_maximum_base_cold_damage
@@ -287,7 +287,7 @@
 |level24                                 = True
 |level24_level_requirement               = 78
 |level24_cost_amounts                    = 18
-|level24_stat_text                       = Deals 2293 to 3440 Cold Damage<br>+8 to radius
+|level24_stat_text                       = Deals 2293 to 3440 Cold Damage<br>+0.8 metres to radius
 |level24_stat1_id                        = spell_minimum_base_cold_damage
 |level24_stat1_value                     = 2293
 |level24_stat2_id                        = spell_maximum_base_cold_damage
@@ -297,7 +297,7 @@
 |level25                                 = True
 |level25_level_requirement               = 80
 |level25_cost_amounts                    = 18
-|level25_stat_text                       = Deals 2595 to 3893 Cold Damage<br>+9 to radius
+|level25_stat_text                       = Deals 2595 to 3893 Cold Damage<br>+0.9 metres to radius
 |level25_stat1_id                        = spell_minimum_base_cold_damage
 |level25_stat1_value                     = 2595
 |level25_stat2_id                        = spell_maximum_base_cold_damage
@@ -307,7 +307,7 @@
 |level26                                 = True
 |level26_level_requirement               = 82
 |level26_cost_amounts                    = 19
-|level26_stat_text                       = Deals 2936 to 4404 Cold Damage<br>+9 to radius
+|level26_stat_text                       = Deals 2936 to 4404 Cold Damage<br>+0.9 metres to radius
 |level26_stat1_id                        = spell_minimum_base_cold_damage
 |level26_stat1_value                     = 2936
 |level26_stat2_id                        = spell_maximum_base_cold_damage
@@ -317,7 +317,7 @@
 |level27                                 = True
 |level27_level_requirement               = 84
 |level27_cost_amounts                    = 19
-|level27_stat_text                       = Deals 3319 to 4979 Cold Damage<br>+10 to radius
+|level27_stat_text                       = Deals 3319 to 4979 Cold Damage<br>+1 metre to radius
 |level27_stat1_id                        = spell_minimum_base_cold_damage
 |level27_stat1_value                     = 3319
 |level27_stat2_id                        = spell_maximum_base_cold_damage
@@ -327,7 +327,7 @@
 |level28                                 = True
 |level28_level_requirement               = 86
 |level28_cost_amounts                    = 19
-|level28_stat_text                       = Deals 3751 to 5627 Cold Damage<br>+10 to radius
+|level28_stat_text                       = Deals 3751 to 5627 Cold Damage<br>+1 metre to radius
 |level28_stat1_id                        = spell_minimum_base_cold_damage
 |level28_stat1_value                     = 3751
 |level28_stat2_id                        = spell_maximum_base_cold_damage
@@ -337,7 +337,7 @@
 |level29                                 = True
 |level29_level_requirement               = 88
 |level29_cost_amounts                    = 20
-|level29_stat_text                       = Deals 4237 to 6356 Cold Damage<br>+10 to radius
+|level29_stat_text                       = Deals 4237 to 6356 Cold Damage<br>+1 metre to radius
 |level29_stat1_id                        = spell_minimum_base_cold_damage
 |level29_stat1_value                     = 4237
 |level29_stat2_id                        = spell_maximum_base_cold_damage
@@ -347,7 +347,7 @@
 |level30                                 = True
 |level30_level_requirement               = 90
 |level30_cost_amounts                    = 20
-|level30_stat_text                       = Deals 4784 to 7176 Cold Damage<br>+11 to radius
+|level30_stat_text                       = Deals 4784 to 7176 Cold Damage<br>+1.1 metres to radius
 |level30_stat1_id                        = spell_minimum_base_cold_damage
 |level30_stat1_value                     = 4784
 |level30_stat2_id                        = spell_maximum_base_cold_damage
@@ -357,7 +357,7 @@
 |level31                                 = True
 |level31_level_requirement               = 91
 |level31_cost_amounts                    = 20
-|level31_stat_text                       = Deals 5083 to 7625 Cold Damage<br>+11 to radius
+|level31_stat_text                       = Deals 5083 to 7625 Cold Damage<br>+1.1 metres to radius
 |level31_stat1_id                        = spell_minimum_base_cold_damage
 |level31_stat1_value                     = 5083
 |level31_stat2_id                        = spell_maximum_base_cold_damage
@@ -367,7 +367,7 @@
 |level32                                 = True
 |level32_level_requirement               = 92
 |level32_cost_amounts                    = 20
-|level32_stat_text                       = Deals 5400 to 8100 Cold Damage<br>+11 to radius
+|level32_stat_text                       = Deals 5400 to 8100 Cold Damage<br>+1.1 metres to radius
 |level32_stat1_id                        = spell_minimum_base_cold_damage
 |level32_stat1_value                     = 5400
 |level32_stat2_id                        = spell_maximum_base_cold_damage
@@ -377,7 +377,7 @@
 |level33                                 = True
 |level33_level_requirement               = 93
 |level33_cost_amounts                    = 21
-|level33_stat_text                       = Deals 5736 to 8604 Cold Damage<br>+11 to radius
+|level33_stat_text                       = Deals 5736 to 8604 Cold Damage<br>+1.1 metres to radius
 |level33_stat1_id                        = spell_minimum_base_cold_damage
 |level33_stat1_value                     = 5736
 |level33_stat2_id                        = spell_maximum_base_cold_damage
@@ -387,7 +387,7 @@
 |level34                                 = True
 |level34_level_requirement               = 94
 |level34_cost_amounts                    = 21
-|level34_stat_text                       = Deals 6092 to 9139 Cold Damage<br>+11 to radius
+|level34_stat_text                       = Deals 6092 to 9139 Cold Damage<br>+1.1 metres to radius
 |level34_stat1_id                        = spell_minimum_base_cold_damage
 |level34_stat1_value                     = 6092
 |level34_stat2_id                        = spell_maximum_base_cold_damage
@@ -397,7 +397,7 @@
 |level35                                 = True
 |level35_level_requirement               = 95
 |level35_cost_amounts                    = 21
-|level35_stat_text                       = Deals 6470 to 9705 Cold Damage<br>+12 to radius
+|level35_stat_text                       = Deals 6470 to 9705 Cold Damage<br>+1.2 metres to radius
 |level35_stat1_id                        = spell_minimum_base_cold_damage
 |level35_stat1_value                     = 6470
 |level35_stat2_id                        = spell_maximum_base_cold_damage
@@ -407,7 +407,7 @@
 |level36                                 = True
 |level36_level_requirement               = 96
 |level36_cost_amounts                    = 21
-|level36_stat_text                       = Deals 6871 to 10307 Cold Damage<br>+12 to radius
+|level36_stat_text                       = Deals 6871 to 10307 Cold Damage<br>+1.2 metres to radius
 |level36_stat1_id                        = spell_minimum_base_cold_damage
 |level36_stat1_value                     = 6871
 |level36_stat2_id                        = spell_maximum_base_cold_damage
@@ -417,7 +417,7 @@
 |level37                                 = True
 |level37_level_requirement               = 97
 |level37_cost_amounts                    = 21
-|level37_stat_text                       = Deals 7296 to 10944 Cold Damage<br>+12 to radius
+|level37_stat_text                       = Deals 7296 to 10944 Cold Damage<br>+1.2 metres to radius
 |level37_stat1_id                        = spell_minimum_base_cold_damage
 |level37_stat1_value                     = 7296
 |level37_stat2_id                        = spell_maximum_base_cold_damage
@@ -427,7 +427,7 @@
 |level38                                 = True
 |level38_level_requirement               = 98
 |level38_cost_amounts                    = 22
-|level38_stat_text                       = Deals 7747 to 11620 Cold Damage<br>+12 to radius
+|level38_stat_text                       = Deals 7747 to 11620 Cold Damage<br>+1.2 metres to radius
 |level38_stat1_id                        = spell_minimum_base_cold_damage
 |level38_stat1_value                     = 7747
 |level38_stat2_id                        = spell_maximum_base_cold_damage
@@ -437,7 +437,7 @@
 |level39                                 = True
 |level39_level_requirement               = 99
 |level39_cost_amounts                    = 22
-|level39_stat_text                       = Deals 8224 to 12336 Cold Damage<br>+12 to radius
+|level39_stat_text                       = Deals 8224 to 12336 Cold Damage<br>+1.2 metres to radius
 |level39_stat1_id                        = spell_minimum_base_cold_damage
 |level39_stat1_value                     = 8224
 |level39_stat2_id                        = spell_maximum_base_cold_damage
@@ -447,7 +447,7 @@
 |level40                                 = True
 |level40_level_requirement               = 100
 |level40_cost_amounts                    = 22
-|level40_stat_text                       = Deals 8731 to 13096 Cold Damage<br>+13 to radius
+|level40_stat_text                       = Deals 8731 to 13096 Cold Damage<br>+1.3 metres to radius
 |level40_stat1_id                        = spell_minimum_base_cold_damage
 |level40_stat1_value                     = 8731
 |level40_stat2_id                        = spell_maximum_base_cold_damage

@@ -57,7 +57,7 @@
 |static_stat8_value                      = 1
 |static_stat9_id                         = steel_ammo_consumed_per_use
 |static_stat9_value                      = 1
-|stat_text                               = (1-101) to (2-151) Added Attack Physical Damage<br>+(0-4) to radius<br>Modifiers to number of Projectiles instead apply to<br>the number of targets Projectile Splits towards<br>Projectiles Split towards (2-5) targets<br>If you have no Steel Shards, Projectile counts as already having Split<br>60% chance to Impale Enemies on Hit<br>Projectiles which have Split deal 35% less Damage<br>Projectiles can Split without hitting a target<br>Consumes up to 1 Steel Shard
+|stat_text                               = (1-101) to (2-151) Added Attack Physical Damage<br>+(0-0.4) metres to radius<br>Modifiers to number of Projectiles instead apply to<br>the number of targets Projectile Splits towards<br>Projectiles Split towards (2-5) targets<br>If you have no Steel Shards, Projectile counts as already having Split<br>60% chance to Impale Enemies on Hit<br>Projectiles which have Split deal 35% less Damage<br>Projectiles can Split without hitting a target<br>Consumes up to 1 Steel Shard
 |level1                                  = True
 |level1_level_requirement                = 1
 |level1_cost_amounts                     = 5
@@ -111,7 +111,7 @@
 |level5_cost_amounts                     = 5
 |level5_damage_effectiveness             = 92
 |level5_damage_multiplier                = 92.2
-|level5_stat_text                        = 3 to 5 Added Attack Physical Damage<br>+1 to radius<br>Projectiles Split towards 2 targets
+|level5_stat_text                        = 3 to 5 Added Attack Physical Damage<br>+0.1 metres to radius<br>Projectiles Split towards 2 targets
 |level5_stat1_id                         = attack_minimum_added_physical_damage
 |level5_stat1_value                      = 3
 |level5_stat2_id                         = attack_maximum_added_physical_damage
@@ -125,7 +125,7 @@
 |level6_cost_amounts                     = 6
 |level6_damage_effectiveness             = 96
 |level6_damage_multiplier                = 96.3
-|level6_stat_text                        = 5 to 7 Added Attack Physical Damage<br>+1 to radius<br>Projectiles Split towards 2 targets
+|level6_stat_text                        = 5 to 7 Added Attack Physical Damage<br>+0.1 metres to radius<br>Projectiles Split towards 2 targets
 |level6_stat1_id                         = attack_minimum_added_physical_damage
 |level6_stat1_value                      = 5
 |level6_stat2_id                         = attack_maximum_added_physical_damage
@@ -139,7 +139,7 @@
 |level7_cost_amounts                     = 6
 |level7_damage_effectiveness             = 100
 |level7_damage_multiplier                = 100
-|level7_stat_text                        = 7 to 10 Added Attack Physical Damage<br>+1 to radius<br>Projectiles Split towards 3 targets
+|level7_stat_text                        = 7 to 10 Added Attack Physical Damage<br>+0.1 metres to radius<br>Projectiles Split towards 3 targets
 |level7_stat1_id                         = attack_minimum_added_physical_damage
 |level7_stat1_value                      = 7
 |level7_stat2_id                         = attack_maximum_added_physical_damage
@@ -153,7 +153,7 @@
 |level8_cost_amounts                     = 6
 |level8_damage_effectiveness             = 104
 |level8_damage_multiplier                = 104.4
-|level8_stat_text                        = 9 to 13 Added Attack Physical Damage<br>+1 to radius<br>Projectiles Split towards 3 targets
+|level8_stat_text                        = 9 to 13 Added Attack Physical Damage<br>+0.1 metres to radius<br>Projectiles Split towards 3 targets
 |level8_stat1_id                         = attack_minimum_added_physical_damage
 |level8_stat1_value                      = 9
 |level8_stat2_id                         = attack_maximum_added_physical_damage
@@ -167,7 +167,7 @@
 |level9_cost_amounts                     = 6
 |level9_damage_effectiveness             = 106
 |level9_damage_multiplier                = 106.4
-|level9_stat_text                        = 11 to 17 Added Attack Physical Damage<br>+2 to radius<br>Projectiles Split towards 3 targets
+|level9_stat_text                        = 11 to 17 Added Attack Physical Damage<br>+0.2 metres to radius<br>Projectiles Split towards 3 targets
 |level9_stat1_id                         = attack_minimum_added_physical_damage
 |level9_stat1_value                      = 11
 |level9_stat2_id                         = attack_maximum_added_physical_damage
@@ -181,7 +181,7 @@
 |level10_cost_amounts                    = 6
 |level10_damage_effectiveness            = 115
 |level10_damage_multiplier               = 115.4
-|level10_stat_text                       = 14 to 21 Added Attack Physical Damage<br>+2 to radius<br>Projectiles Split towards 3 targets
+|level10_stat_text                       = 14 to 21 Added Attack Physical Damage<br>+0.2 metres to radius<br>Projectiles Split towards 3 targets
 |level10_stat1_id                        = attack_minimum_added_physical_damage
 |level10_stat1_value                     = 14
 |level10_stat2_id                        = attack_maximum_added_physical_damage
@@ -195,7 +195,7 @@
 |level11_cost_amounts                    = 7
 |level11_damage_effectiveness            = 124
 |level11_damage_multiplier               = 124.4
-|level11_stat_text                       = 18 to 27 Added Attack Physical Damage<br>+2 to radius<br>Projectiles Split towards 3 targets
+|level11_stat_text                       = 18 to 27 Added Attack Physical Damage<br>+0.2 metres to radius<br>Projectiles Split towards 3 targets
 |level11_stat1_id                        = attack_minimum_added_physical_damage
 |level11_stat1_value                     = 18
 |level11_stat2_id                        = attack_maximum_added_physical_damage
@@ -209,7 +209,7 @@
 |level12_cost_amounts                    = 7
 |level12_damage_effectiveness            = 130
 |level12_damage_multiplier               = 129.8
-|level12_stat_text                       = 22 to 33 Added Attack Physical Damage<br>+2 to radius<br>Projectiles Split towards 3 targets
+|level12_stat_text                       = 22 to 33 Added Attack Physical Damage<br>+0.2 metres to radius<br>Projectiles Split towards 3 targets
 |level12_stat1_id                        = attack_minimum_added_physical_damage
 |level12_stat1_value                     = 22
 |level12_stat2_id                        = attack_maximum_added_physical_damage
@@ -223,7 +223,7 @@
 |level13_cost_amounts                    = 7
 |level13_damage_effectiveness            = 140
 |level13_damage_multiplier               = 140.1
-|level13_stat_text                       = 27 to 41 Added Attack Physical Damage<br>+3 to radius<br>Projectiles Split towards 3 targets
+|level13_stat_text                       = 27 to 41 Added Attack Physical Damage<br>+0.3 metres to radius<br>Projectiles Split towards 3 targets
 |level13_stat1_id                        = attack_minimum_added_physical_damage
 |level13_stat1_value                     = 27
 |level13_stat2_id                        = attack_maximum_added_physical_damage
@@ -237,7 +237,7 @@
 |level14_cost_amounts                    = 7
 |level14_damage_effectiveness            = 156
 |level14_damage_multiplier               = 155.8
-|level14_stat_text                       = 34 to 51 Added Attack Physical Damage<br>+3 to radius<br>Projectiles Split towards 3 targets
+|level14_stat_text                       = 34 to 51 Added Attack Physical Damage<br>+0.3 metres to radius<br>Projectiles Split towards 3 targets
 |level14_stat1_id                        = attack_minimum_added_physical_damage
 |level14_stat1_value                     = 34
 |level14_stat2_id                        = attack_maximum_added_physical_damage
@@ -251,7 +251,7 @@
 |level15_cost_amounts                    = 7
 |level15_damage_effectiveness            = 163
 |level15_damage_multiplier               = 163
-|level15_stat_text                       = 42 to 63 Added Attack Physical Damage<br>+3 to radius<br>Projectiles Split towards 4 targets
+|level15_stat_text                       = 42 to 63 Added Attack Physical Damage<br>+0.3 metres to radius<br>Projectiles Split towards 4 targets
 |level15_stat1_id                        = attack_minimum_added_physical_damage
 |level15_stat1_value                     = 42
 |level15_stat2_id                        = attack_maximum_added_physical_damage
@@ -265,7 +265,7 @@
 |level16_cost_amounts                    = 8
 |level16_damage_effectiveness            = 168
 |level16_damage_multiplier               = 168.1
-|level16_stat_text                       = 51 to 77 Added Attack Physical Damage<br>+3 to radius<br>Projectiles Split towards 4 targets
+|level16_stat_text                       = 51 to 77 Added Attack Physical Damage<br>+0.3 metres to radius<br>Projectiles Split towards 4 targets
 |level16_stat1_id                        = attack_minimum_added_physical_damage
 |level16_stat1_value                     = 51
 |level16_stat2_id                        = attack_maximum_added_physical_damage
@@ -279,7 +279,7 @@
 |level17_cost_amounts                    = 8
 |level17_damage_effectiveness            = 173
 |level17_damage_multiplier               = 173.3
-|level17_stat_text                       = 62 to 93 Added Attack Physical Damage<br>+4 to radius<br>Projectiles Split towards 4 targets
+|level17_stat_text                       = 62 to 93 Added Attack Physical Damage<br>+0.4 metres to radius<br>Projectiles Split towards 4 targets
 |level17_stat1_id                        = attack_minimum_added_physical_damage
 |level17_stat1_value                     = 62
 |level17_stat2_id                        = attack_maximum_added_physical_damage
@@ -293,7 +293,7 @@
 |level18_cost_amounts                    = 8
 |level18_damage_effectiveness            = 184
 |level18_damage_multiplier               = 183.8
-|level18_stat_text                       = 76 to 113 Added Attack Physical Damage<br>+4 to radius<br>Projectiles Split towards 4 targets
+|level18_stat_text                       = 76 to 113 Added Attack Physical Damage<br>+0.4 metres to radius<br>Projectiles Split towards 4 targets
 |level18_stat1_id                        = attack_minimum_added_physical_damage
 |level18_stat1_value                     = 76
 |level18_stat2_id                        = attack_maximum_added_physical_damage
@@ -307,7 +307,7 @@
 |level19_cost_amounts                    = 8
 |level19_damage_effectiveness            = 199
 |level19_damage_multiplier               = 199.4
-|level19_stat_text                       = 87 to 131 Added Attack Physical Damage<br>+4 to radius<br>Projectiles Split towards 4 targets
+|level19_stat_text                       = 87 to 131 Added Attack Physical Damage<br>+0.4 metres to radius<br>Projectiles Split towards 4 targets
 |level19_stat1_id                        = attack_minimum_added_physical_damage
 |level19_stat1_value                     = 87
 |level19_stat2_id                        = attack_maximum_added_physical_damage
@@ -321,7 +321,7 @@
 |level20_cost_amounts                    = 8
 |level20_damage_effectiveness            = 210
 |level20_damage_multiplier               = 210
-|level20_stat_text                       = 101 to 151 Added Attack Physical Damage<br>+4 to radius<br>Projectiles Split towards 5 targets
+|level20_stat_text                       = 101 to 151 Added Attack Physical Damage<br>+0.4 metres to radius<br>Projectiles Split towards 5 targets
 |level20_stat1_id                        = attack_minimum_added_physical_damage
 |level20_stat1_value                     = 101
 |level20_stat2_id                        = attack_maximum_added_physical_damage
@@ -335,7 +335,7 @@
 |level21_cost_amounts                    = 9
 |level21_damage_effectiveness            = 216
 |level21_damage_multiplier               = 215.8
-|level21_stat_text                       = 111 to 166 Added Attack Physical Damage<br>+5 to radius<br>Projectiles Split towards 5 targets
+|level21_stat_text                       = 111 to 166 Added Attack Physical Damage<br>+0.5 metres to radius<br>Projectiles Split towards 5 targets
 |level21_stat1_id                        = attack_minimum_added_physical_damage
 |level21_stat1_value                     = 111
 |level21_stat2_id                        = attack_maximum_added_physical_damage
@@ -349,7 +349,7 @@
 |level22_cost_amounts                    = 9
 |level22_damage_effectiveness            = 222
 |level22_damage_multiplier               = 221.6
-|level22_stat_text                       = 122 to 182 Added Attack Physical Damage<br>+5 to radius<br>Projectiles Split towards 5 targets
+|level22_stat_text                       = 122 to 182 Added Attack Physical Damage<br>+0.5 metres to radius<br>Projectiles Split towards 5 targets
 |level22_stat1_id                        = attack_minimum_added_physical_damage
 |level22_stat1_value                     = 122
 |level22_stat2_id                        = attack_maximum_added_physical_damage
@@ -363,7 +363,7 @@
 |level23_cost_amounts                    = 9
 |level23_damage_effectiveness            = 227
 |level23_damage_multiplier               = 227.4
-|level23_stat_text                       = 133 to 200 Added Attack Physical Damage<br>+5 to radius<br>Projectiles Split towards 5 targets
+|level23_stat_text                       = 133 to 200 Added Attack Physical Damage<br>+0.5 metres to radius<br>Projectiles Split towards 5 targets
 |level23_stat1_id                        = attack_minimum_added_physical_damage
 |level23_stat1_value                     = 133
 |level23_stat2_id                        = attack_maximum_added_physical_damage
@@ -377,7 +377,7 @@
 |level24_cost_amounts                    = 9
 |level24_damage_effectiveness            = 233
 |level24_damage_multiplier               = 233.2
-|level24_stat_text                       = 146 to 220 Added Attack Physical Damage<br>+5 to radius<br>Projectiles Split towards 5 targets
+|level24_stat_text                       = 146 to 220 Added Attack Physical Damage<br>+0.5 metres to radius<br>Projectiles Split towards 5 targets
 |level24_stat1_id                        = attack_minimum_added_physical_damage
 |level24_stat1_value                     = 146
 |level24_stat2_id                        = attack_maximum_added_physical_damage
@@ -391,7 +391,7 @@
 |level25_cost_amounts                    = 9
 |level25_damage_effectiveness            = 239
 |level25_damage_multiplier               = 238.9
-|level25_stat_text                       = 161 to 241 Added Attack Physical Damage<br>+6 to radius<br>Projectiles Split towards 5 targets
+|level25_stat_text                       = 161 to 241 Added Attack Physical Damage<br>+0.6 metres to radius<br>Projectiles Split towards 5 targets
 |level25_stat1_id                        = attack_minimum_added_physical_damage
 |level25_stat1_value                     = 161
 |level25_stat2_id                        = attack_maximum_added_physical_damage
@@ -405,7 +405,7 @@
 |level26_cost_amounts                    = 10
 |level26_damage_effectiveness            = 245
 |level26_damage_multiplier               = 244.7
-|level26_stat_text                       = 176 to 264 Added Attack Physical Damage<br>+6 to radius<br>Projectiles Split towards 5 targets
+|level26_stat_text                       = 176 to 264 Added Attack Physical Damage<br>+0.6 metres to radius<br>Projectiles Split towards 5 targets
 |level26_stat1_id                        = attack_minimum_added_physical_damage
 |level26_stat1_value                     = 176
 |level26_stat2_id                        = attack_maximum_added_physical_damage
@@ -419,7 +419,7 @@
 |level27_cost_amounts                    = 10
 |level27_damage_effectiveness            = 251
 |level27_damage_multiplier               = 250.5
-|level27_stat_text                       = 193 to 289 Added Attack Physical Damage<br>+6 to radius<br>Projectiles Split towards 5 targets
+|level27_stat_text                       = 193 to 289 Added Attack Physical Damage<br>+0.6 metres to radius<br>Projectiles Split towards 5 targets
 |level27_stat1_id                        = attack_minimum_added_physical_damage
 |level27_stat1_value                     = 193
 |level27_stat2_id                        = attack_maximum_added_physical_damage
@@ -433,7 +433,7 @@
 |level28_cost_amounts                    = 10
 |level28_damage_effectiveness            = 256
 |level28_damage_multiplier               = 256.3
-|level28_stat_text                       = 211 to 317 Added Attack Physical Damage<br>+6 to radius<br>Projectiles Split towards 6 targets
+|level28_stat_text                       = 211 to 317 Added Attack Physical Damage<br>+0.6 metres to radius<br>Projectiles Split towards 6 targets
 |level28_stat1_id                        = attack_minimum_added_physical_damage
 |level28_stat1_value                     = 211
 |level28_stat2_id                        = attack_maximum_added_physical_damage
@@ -447,7 +447,7 @@
 |level29_cost_amounts                    = 10
 |level29_damage_effectiveness            = 262
 |level29_damage_multiplier               = 262.1
-|level29_stat_text                       = 231 to 346 Added Attack Physical Damage<br>+7 to radius<br>Projectiles Split towards 6 targets
+|level29_stat_text                       = 231 to 346 Added Attack Physical Damage<br>+0.7 metres to radius<br>Projectiles Split towards 6 targets
 |level29_stat1_id                        = attack_minimum_added_physical_damage
 |level29_stat1_value                     = 231
 |level29_stat2_id                        = attack_maximum_added_physical_damage
@@ -461,7 +461,7 @@
 |level30_cost_amounts                    = 10
 |level30_damage_effectiveness            = 268
 |level30_damage_multiplier               = 267.9
-|level30_stat_text                       = 253 to 379 Added Attack Physical Damage<br>+7 to radius<br>Projectiles Split towards 6 targets
+|level30_stat_text                       = 253 to 379 Added Attack Physical Damage<br>+0.7 metres to radius<br>Projectiles Split towards 6 targets
 |level30_stat1_id                        = attack_minimum_added_physical_damage
 |level30_stat1_value                     = 253
 |level30_stat2_id                        = attack_maximum_added_physical_damage
@@ -475,7 +475,7 @@
 |level31_cost_amounts                    = 11
 |level31_damage_effectiveness            = 271
 |level31_damage_multiplier               = 270.8
-|level31_stat_text                       = 264 to 396 Added Attack Physical Damage<br>+7 to radius<br>Projectiles Split towards 6 targets
+|level31_stat_text                       = 264 to 396 Added Attack Physical Damage<br>+0.7 metres to radius<br>Projectiles Split towards 6 targets
 |level31_stat1_id                        = attack_minimum_added_physical_damage
 |level31_stat1_value                     = 264
 |level31_stat2_id                        = attack_maximum_added_physical_damage
@@ -489,7 +489,7 @@
 |level32_cost_amounts                    = 11
 |level32_damage_effectiveness            = 274
 |level32_damage_multiplier               = 273.7
-|level32_stat_text                       = 276 to 414 Added Attack Physical Damage<br>+7 to radius<br>Projectiles Split towards 6 targets
+|level32_stat_text                       = 276 to 414 Added Attack Physical Damage<br>+0.7 metres to radius<br>Projectiles Split towards 6 targets
 |level32_stat1_id                        = attack_minimum_added_physical_damage
 |level32_stat1_value                     = 276
 |level32_stat2_id                        = attack_maximum_added_physical_damage
@@ -503,7 +503,7 @@
 |level33_cost_amounts                    = 11
 |level33_damage_effectiveness            = 277
 |level33_damage_multiplier               = 276.6
-|level33_stat_text                       = 289 to 433 Added Attack Physical Damage<br>+7 to radius<br>Projectiles Split towards 6 targets
+|level33_stat_text                       = 289 to 433 Added Attack Physical Damage<br>+0.7 metres to radius<br>Projectiles Split towards 6 targets
 |level33_stat1_id                        = attack_minimum_added_physical_damage
 |level33_stat1_value                     = 289
 |level33_stat2_id                        = attack_maximum_added_physical_damage
@@ -517,7 +517,7 @@
 |level34_cost_amounts                    = 11
 |level34_damage_effectiveness            = 280
 |level34_damage_multiplier               = 279.5
-|level34_stat_text                       = 302 to 453 Added Attack Physical Damage<br>+7 to radius<br>Projectiles Split towards 7 targets
+|level34_stat_text                       = 302 to 453 Added Attack Physical Damage<br>+0.7 metres to radius<br>Projectiles Split towards 7 targets
 |level34_stat1_id                        = attack_minimum_added_physical_damage
 |level34_stat1_value                     = 302
 |level34_stat2_id                        = attack_maximum_added_physical_damage
@@ -531,7 +531,7 @@
 |level35_cost_amounts                    = 11
 |level35_damage_effectiveness            = 282
 |level35_damage_multiplier               = 282.4
-|level35_stat_text                       = 316 to 474 Added Attack Physical Damage<br>+7 to radius<br>Projectiles Split towards 7 targets
+|level35_stat_text                       = 316 to 474 Added Attack Physical Damage<br>+0.7 metres to radius<br>Projectiles Split towards 7 targets
 |level35_stat1_id                        = attack_minimum_added_physical_damage
 |level35_stat1_value                     = 316
 |level35_stat2_id                        = attack_maximum_added_physical_damage
@@ -545,7 +545,7 @@
 |level36_cost_amounts                    = 11
 |level36_damage_effectiveness            = 285
 |level36_damage_multiplier               = 285.3
-|level36_stat_text                       = 330 to 495 Added Attack Physical Damage<br>+8 to radius<br>Projectiles Split towards 7 targets
+|level36_stat_text                       = 330 to 495 Added Attack Physical Damage<br>+0.8 metres to radius<br>Projectiles Split towards 7 targets
 |level36_stat1_id                        = attack_minimum_added_physical_damage
 |level36_stat1_value                     = 330
 |level36_stat2_id                        = attack_maximum_added_physical_damage
@@ -559,7 +559,7 @@
 |level37_cost_amounts                    = 12
 |level37_damage_effectiveness            = 288
 |level37_damage_multiplier               = 288.2
-|level37_stat_text                       = 345 to 517 Added Attack Physical Damage<br>+8 to radius<br>Projectiles Split towards 7 targets
+|level37_stat_text                       = 345 to 517 Added Attack Physical Damage<br>+0.8 metres to radius<br>Projectiles Split towards 7 targets
 |level37_stat1_id                        = attack_minimum_added_physical_damage
 |level37_stat1_value                     = 345
 |level37_stat2_id                        = attack_maximum_added_physical_damage
@@ -573,7 +573,7 @@
 |level38_cost_amounts                    = 12
 |level38_damage_effectiveness            = 291
 |level38_damage_multiplier               = 291.1
-|level38_stat_text                       = 360 to 541 Added Attack Physical Damage<br>+8 to radius<br>Projectiles Split towards 7 targets
+|level38_stat_text                       = 360 to 541 Added Attack Physical Damage<br>+0.8 metres to radius<br>Projectiles Split towards 7 targets
 |level38_stat1_id                        = attack_minimum_added_physical_damage
 |level38_stat1_value                     = 360
 |level38_stat2_id                        = attack_maximum_added_physical_damage
@@ -587,7 +587,7 @@
 |level39_cost_amounts                    = 12
 |level39_damage_effectiveness            = 294
 |level39_damage_multiplier               = 293.9
-|level39_stat_text                       = 377 to 565 Added Attack Physical Damage<br>+8 to radius<br>Projectiles Split towards 7 targets
+|level39_stat_text                       = 377 to 565 Added Attack Physical Damage<br>+0.8 metres to radius<br>Projectiles Split towards 7 targets
 |level39_stat1_id                        = attack_minimum_added_physical_damage
 |level39_stat1_value                     = 377
 |level39_stat2_id                        = attack_maximum_added_physical_damage
@@ -601,7 +601,7 @@
 |level40_cost_amounts                    = 12
 |level40_damage_effectiveness            = 297
 |level40_damage_multiplier               = 296.8
-|level40_stat_text                       = 394 to 590 Added Attack Physical Damage<br>+8 to radius<br>Projectiles Split towards 8 targets
+|level40_stat_text                       = 394 to 590 Added Attack Physical Damage<br>+0.8 metres to radius<br>Projectiles Split towards 8 targets
 |level40_stat1_id                        = attack_minimum_added_physical_damage
 |level40_stat1_value                     = 394
 |level40_stat2_id                        = attack_maximum_added_physical_damage

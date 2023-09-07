@@ -1,0 +1,362 @@
+--- Precision
++++ Export
+@@ -34,7 +34,7 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = base_deal_no_damage
+ |static_stat1_value                      = 1
+-|stat_text                               = +(0-19) to radius<br>You and nearby allies gain (20-58)% increased Critical Strike Chance<br>You and nearby allies gain +(93-701) to Accuracy Rating
++|stat_text                               = +(0-1.9) metres to radius<br>You and nearby allies gain (20-58)% increased Critical Strike Chance<br>You and nearby allies gain +(93-701) to Accuracy Rating
+ |level1                                  = True
+ |level1_level_requirement                = 10
+ |level1_mana_reservation_flat            = 22
+@@ -46,7 +46,7 @@
+ |level2                                  = True
+ |level2_level_requirement                = 13
+ |level2_mana_reservation_flat            = 32
+-|level2_stat_text                        = +1 to radius<br>You and nearby allies gain 22% increased Critical Strike Chance<br>You and nearby allies gain +128 to Accuracy Rating
++|level2_stat_text                        = +0.1 metres to radius<br>You and nearby allies gain 22% increased Critical Strike Chance<br>You and nearby allies gain +128 to Accuracy Rating
+ |level2_stat1_id                         = active_skill_base_radius_+
+ |level2_stat1_value                      = 1
+ |level2_stat2_id                         = skill_buff_grants_critical_strike_chance_+%
+@@ -56,7 +56,7 @@
+ |level3                                  = True
+ |level3_level_requirement                = 17
+ |level3_mana_reservation_flat            = 40
+-|level3_stat_text                        = +2 to radius<br>You and nearby allies gain 24% increased Critical Strike Chance<br>You and nearby allies gain +162 to Accuracy Rating
++|level3_stat_text                        = +0.2 metres to radius<br>You and nearby allies gain 24% increased Critical Strike Chance<br>You and nearby allies gain +162 to Accuracy Rating
+ |level3_stat1_id                         = active_skill_base_radius_+
+ |level3_stat1_value                      = 2
+ |level3_stat2_id                         = skill_buff_grants_critical_strike_chance_+%
+@@ -66,7 +66,7 @@
+ |level4                                  = True
+ |level4_level_requirement                = 21
+ |level4_mana_reservation_flat            = 50
+-|level4_stat_text                        = +3 to radius<br>You and nearby allies gain 26% increased Critical Strike Chance<br>You and nearby allies gain +193 to Accuracy Rating
++|level4_stat_text                        = +0.3 metres to radius<br>You and nearby allies gain 26% increased Critical Strike Chance<br>You and nearby allies gain +193 to Accuracy Rating
+ |level4_stat1_id                         = active_skill_base_radius_+
+ |level4_stat1_value                      = 3
+ |level4_stat2_id                         = skill_buff_grants_critical_strike_chance_+%
+@@ -76,7 +76,7 @@
+ |level5                                  = True
+ |level5_level_requirement                = 25
+ |level5_mana_reservation_flat            = 59
+-|level5_stat_text                        = +4 to radius<br>You and nearby allies gain 28% increased Critical Strike Chance<br>You and nearby allies gain +223 to Accuracy Rating
++|level5_stat_text                        = +0.4 metres to radius<br>You and nearby allies gain 28% increased Critical Strike Chance<br>You and nearby allies gain +223 to Accuracy Rating
+ |level5_stat1_id                         = active_skill_base_radius_+
+ |level5_stat1_value                      = 4
+ |level5_stat2_id                         = skill_buff_grants_critical_strike_chance_+%
+@@ -86,7 +86,7 @@
+ |level6                                  = True
+ |level6_level_requirement                = 29
+ |level6_mana_reservation_flat            = 68
+-|level6_stat_text                        = +5 to radius<br>You and nearby allies gain 30% increased Critical Strike Chance<br>You and nearby allies gain +276 to Accuracy Rating
++|level6_stat_text                        = +0.5 metres to radius<br>You and nearby allies gain 30% increased Critical Strike Chance<br>You and nearby allies gain +276 to Accuracy Rating
+ |level6_stat1_id                         = active_skill_base_radius_+
+ |level6_stat1_value                      = 5
+ |level6_stat2_id                         = skill_buff_grants_critical_strike_chance_+%
+@@ -96,7 +96,7 @@
+ |level7                                  = True
+ |level7_level_requirement                = 33
+ |level7_mana_reservation_flat            = 76
+-|level7_stat_text                        = +6 to radius<br>You and nearby allies gain 32% increased Critical Strike Chance<br>You and nearby allies gain +305 to Accuracy Rating
++|level7_stat_text                        = +0.6 metres to radius<br>You and nearby allies gain 32% increased Critical Strike Chance<br>You and nearby allies gain +305 to Accuracy Rating
+ |level7_stat1_id                         = active_skill_base_radius_+
+ |level7_stat1_value                      = 6
+ |level7_stat2_id                         = skill_buff_grants_critical_strike_chance_+%
+@@ -106,7 +106,7 @@
+ |level8                                  = True
+ |level8_level_requirement                = 36
+ |level8_mana_reservation_flat            = 86
+-|level8_stat_text                        = +7 to radius<br>You and nearby allies gain 34% increased Critical Strike Chance<br>You and nearby allies gain +332 to Accuracy Rating
++|level8_stat_text                        = +0.7 metres to radius<br>You and nearby allies gain 34% increased Critical Strike Chance<br>You and nearby allies gain +332 to Accuracy Rating
+ |level8_stat1_id                         = active_skill_base_radius_+
+ |level8_stat1_value                      = 7
+ |level8_stat2_id                         = skill_buff_grants_critical_strike_chance_+%
+@@ -116,7 +116,7 @@
+ |level9                                  = True
+ |level9_level_requirement                = 39
+ |level9_mana_reservation_flat            = 94
+-|level9_stat_text                        = +8 to radius<br>You and nearby allies gain 36% increased Critical Strike Chance<br>You and nearby allies gain +359 to Accuracy Rating
++|level9_stat_text                        = +0.8 metres to radius<br>You and nearby allies gain 36% increased Critical Strike Chance<br>You and nearby allies gain +359 to Accuracy Rating
+ |level9_stat1_id                         = active_skill_base_radius_+
+ |level9_stat1_value                      = 8
+ |level9_stat2_id                         = skill_buff_grants_critical_strike_chance_+%
+@@ -126,7 +126,7 @@
+ |level10                                 = True
+ |level10_level_requirement               = 42
+ |level10_mana_reservation_flat           = 102
+-|level10_stat_text                       = +9 to radius<br>You and nearby allies gain 38% increased Critical Strike Chance<br>You and nearby allies gain +385 to Accuracy Rating
++|level10_stat_text                       = +0.9 metres to radius<br>You and nearby allies gain 38% increased Critical Strike Chance<br>You and nearby allies gain +385 to Accuracy Rating
+ |level10_stat1_id                        = active_skill_base_radius_+
+ |level10_stat1_value                     = 9
+ |level10_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -136,7 +136,7 @@
+ |level11                                 = True
+ |level11_level_requirement               = 45
+ |level11_mana_reservation_flat           = 110
+-|level11_stat_text                       = +10 to radius<br>You and nearby allies gain 40% increased Critical Strike Chance<br>You and nearby allies gain +444 to Accuracy Rating
++|level11_stat_text                       = +1 metre to radius<br>You and nearby allies gain 40% increased Critical Strike Chance<br>You and nearby allies gain +444 to Accuracy Rating
+ |level11_stat1_id                        = active_skill_base_radius_+
+ |level11_stat1_value                     = 10
+ |level11_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -146,7 +146,7 @@
+ |level12                                 = True
+ |level12_level_requirement               = 48
+ |level12_mana_reservation_flat           = 118
+-|level12_stat_text                       = +11 to radius<br>You and nearby allies gain 42% increased Critical Strike Chance<br>You and nearby allies gain +469 to Accuracy Rating
++|level12_stat_text                       = +1.1 metres to radius<br>You and nearby allies gain 42% increased Critical Strike Chance<br>You and nearby allies gain +469 to Accuracy Rating
+ |level12_stat1_id                        = active_skill_base_radius_+
+ |level12_stat1_value                     = 11
+ |level12_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -156,7 +156,7 @@
+ |level13                                 = True
+ |level13_level_requirement               = 51
+ |level13_mana_reservation_flat           = 126
+-|level13_stat_text                       = +12 to radius<br>You and nearby allies gain 44% increased Critical Strike Chance<br>You and nearby allies gain +493 to Accuracy Rating
++|level13_stat_text                       = +1.2 metres to radius<br>You and nearby allies gain 44% increased Critical Strike Chance<br>You and nearby allies gain +493 to Accuracy Rating
+ |level13_stat1_id                        = active_skill_base_radius_+
+ |level13_stat1_value                     = 12
+ |level13_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -166,7 +166,7 @@
+ |level14                                 = True
+ |level14_level_requirement               = 54
+ |level14_mana_reservation_flat           = 135
+-|level14_stat_text                       = +13 to radius<br>You and nearby allies gain 46% increased Critical Strike Chance<br>You and nearby allies gain +516 to Accuracy Rating
++|level14_stat_text                       = +1.3 metres to radius<br>You and nearby allies gain 46% increased Critical Strike Chance<br>You and nearby allies gain +516 to Accuracy Rating
+ |level14_stat1_id                        = active_skill_base_radius_+
+ |level14_stat1_value                     = 13
+ |level14_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -176,7 +176,7 @@
+ |level15                                 = True
+ |level15_level_requirement               = 57
+ |level15_mana_reservation_flat           = 142
+-|level15_stat_text                       = +14 to radius<br>You and nearby allies gain 48% increased Critical Strike Chance<br>You and nearby allies gain +539 to Accuracy Rating
++|level15_stat_text                       = +1.4 metres to radius<br>You and nearby allies gain 48% increased Critical Strike Chance<br>You and nearby allies gain +539 to Accuracy Rating
+ |level15_stat1_id                        = active_skill_base_radius_+
+ |level15_stat1_value                     = 14
+ |level15_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -186,7 +186,7 @@
+ |level16                                 = True
+ |level16_level_requirement               = 60
+ |level16_mana_reservation_flat           = 151
+-|level16_stat_text                       = +15 to radius<br>You and nearby allies gain 50% increased Critical Strike Chance<br>You and nearby allies gain +606 to Accuracy Rating
++|level16_stat_text                       = +1.5 metres to radius<br>You and nearby allies gain 50% increased Critical Strike Chance<br>You and nearby allies gain +606 to Accuracy Rating
+ |level16_stat1_id                        = active_skill_base_radius_+
+ |level16_stat1_value                     = 15
+ |level16_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -196,7 +196,7 @@
+ |level17                                 = True
+ |level17_level_requirement               = 63
+ |level17_mana_reservation_flat           = 159
+-|level17_stat_text                       = +16 to radius<br>You and nearby allies gain 52% increased Critical Strike Chance<br>You and nearby allies gain +630 to Accuracy Rating
++|level17_stat_text                       = +1.6 metres to radius<br>You and nearby allies gain 52% increased Critical Strike Chance<br>You and nearby allies gain +630 to Accuracy Rating
+ |level17_stat1_id                        = active_skill_base_radius_+
+ |level17_stat1_value                     = 16
+ |level17_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -206,7 +206,7 @@
+ |level18                                 = True
+ |level18_level_requirement               = 66
+ |level18_mana_reservation_flat           = 167
+-|level18_stat_text                       = +17 to radius<br>You and nearby allies gain 54% increased Critical Strike Chance<br>You and nearby allies gain +653 to Accuracy Rating
++|level18_stat_text                       = +1.7 metres to radius<br>You and nearby allies gain 54% increased Critical Strike Chance<br>You and nearby allies gain +653 to Accuracy Rating
+ |level18_stat1_id                        = active_skill_base_radius_+
+ |level18_stat1_value                     = 17
+ |level18_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -216,7 +216,7 @@
+ |level19                                 = True
+ |level19_level_requirement               = 68
+ |level19_mana_reservation_flat           = 176
+-|level19_stat_text                       = +18 to radius<br>You and nearby allies gain 56% increased Critical Strike Chance<br>You and nearby allies gain +677 to Accuracy Rating
++|level19_stat_text                       = +1.8 metres to radius<br>You and nearby allies gain 56% increased Critical Strike Chance<br>You and nearby allies gain +677 to Accuracy Rating
+ |level19_stat1_id                        = active_skill_base_radius_+
+ |level19_stat1_value                     = 18
+ |level19_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -226,7 +226,7 @@
+ |level20                                 = True
+ |level20_level_requirement               = 70
+ |level20_mana_reservation_flat           = 186
+-|level20_stat_text                       = +19 to radius<br>You and nearby allies gain 58% increased Critical Strike Chance<br>You and nearby allies gain +701 to Accuracy Rating
++|level20_stat_text                       = +1.9 metres to radius<br>You and nearby allies gain 58% increased Critical Strike Chance<br>You and nearby allies gain +701 to Accuracy Rating
+ |level20_stat1_id                        = active_skill_base_radius_+
+ |level20_stat1_value                     = 19
+ |level20_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -236,7 +236,7 @@
+ |level21                                 = True
+ |level21_level_requirement               = 72
+ |level21_mana_reservation_flat           = 195
+-|level21_stat_text                       = +20 to radius<br>You and nearby allies gain 60% increased Critical Strike Chance<br>You and nearby allies gain +778 to Accuracy Rating
++|level21_stat_text                       = +2 metres to radius<br>You and nearby allies gain 60% increased Critical Strike Chance<br>You and nearby allies gain +778 to Accuracy Rating
+ |level21_stat1_id                        = active_skill_base_radius_+
+ |level21_stat1_value                     = 20
+ |level21_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -246,7 +246,7 @@
+ |level22                                 = True
+ |level22_level_requirement               = 74
+ |level22_mana_reservation_flat           = 202
+-|level22_stat_text                       = +21 to radius<br>You and nearby allies gain 62% increased Critical Strike Chance<br>You and nearby allies gain +804 to Accuracy Rating
++|level22_stat_text                       = +2.1 metres to radius<br>You and nearby allies gain 62% increased Critical Strike Chance<br>You and nearby allies gain +804 to Accuracy Rating
+ |level22_stat1_id                        = active_skill_base_radius_+
+ |level22_stat1_value                     = 21
+ |level22_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -256,7 +256,7 @@
+ |level23                                 = True
+ |level23_level_requirement               = 76
+ |level23_mana_reservation_flat           = 208
+-|level23_stat_text                       = +22 to radius<br>You and nearby allies gain 64% increased Critical Strike Chance<br>You and nearby allies gain +831 to Accuracy Rating
++|level23_stat_text                       = +2.2 metres to radius<br>You and nearby allies gain 64% increased Critical Strike Chance<br>You and nearby allies gain +831 to Accuracy Rating
+ |level23_stat1_id                        = active_skill_base_radius_+
+ |level23_stat1_value                     = 22
+ |level23_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -266,7 +266,7 @@
+ |level24                                 = True
+ |level24_level_requirement               = 78
+ |level24_mana_reservation_flat           = 215
+-|level24_stat_text                       = +23 to radius<br>You and nearby allies gain 66% increased Critical Strike Chance<br>You and nearby allies gain +857 to Accuracy Rating
++|level24_stat_text                       = +2.3 metres to radius<br>You and nearby allies gain 66% increased Critical Strike Chance<br>You and nearby allies gain +857 to Accuracy Rating
+ |level24_stat1_id                        = active_skill_base_radius_+
+ |level24_stat1_value                     = 23
+ |level24_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -276,7 +276,7 @@
+ |level25                                 = True
+ |level25_level_requirement               = 80
+ |level25_mana_reservation_flat           = 222
+-|level25_stat_text                       = +24 to radius<br>You and nearby allies gain 68% increased Critical Strike Chance<br>You and nearby allies gain +883 to Accuracy Rating
++|level25_stat_text                       = +2.4 metres to radius<br>You and nearby allies gain 68% increased Critical Strike Chance<br>You and nearby allies gain +883 to Accuracy Rating
+ |level25_stat1_id                        = active_skill_base_radius_+
+ |level25_stat1_value                     = 24
+ |level25_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -286,7 +286,7 @@
+ |level26                                 = True
+ |level26_level_requirement               = 82
+ |level26_mana_reservation_flat           = 228
+-|level26_stat_text                       = +25 to radius<br>You and nearby allies gain 70% increased Critical Strike Chance<br>You and nearby allies gain +972 to Accuracy Rating
++|level26_stat_text                       = +2.5 metres to radius<br>You and nearby allies gain 70% increased Critical Strike Chance<br>You and nearby allies gain +972 to Accuracy Rating
+ |level26_stat1_id                        = active_skill_base_radius_+
+ |level26_stat1_value                     = 25
+ |level26_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -296,7 +296,7 @@
+ |level27                                 = True
+ |level27_level_requirement               = 84
+ |level27_mana_reservation_flat           = 235
+-|level27_stat_text                       = +26 to radius<br>You and nearby allies gain 72% increased Critical Strike Chance<br>You and nearby allies gain +1000 to Accuracy Rating
++|level27_stat_text                       = +2.6 metres to radius<br>You and nearby allies gain 72% increased Critical Strike Chance<br>You and nearby allies gain +1000 to Accuracy Rating
+ |level27_stat1_id                        = active_skill_base_radius_+
+ |level27_stat1_value                     = 26
+ |level27_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -306,7 +306,7 @@
+ |level28                                 = True
+ |level28_level_requirement               = 86
+ |level28_mana_reservation_flat           = 242
+-|level28_stat_text                       = +27 to radius<br>You and nearby allies gain 74% increased Critical Strike Chance<br>You and nearby allies gain +1029 to Accuracy Rating
++|level28_stat_text                       = +2.7 metres to radius<br>You and nearby allies gain 74% increased Critical Strike Chance<br>You and nearby allies gain +1029 to Accuracy Rating
+ |level28_stat1_id                        = active_skill_base_radius_+
+ |level28_stat1_value                     = 27
+ |level28_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -316,7 +316,7 @@
+ |level29                                 = True
+ |level29_level_requirement               = 88
+ |level29_mana_reservation_flat           = 248
+-|level29_stat_text                       = +28 to radius<br>You and nearby allies gain 76% increased Critical Strike Chance<br>You and nearby allies gain +1058 to Accuracy Rating
++|level29_stat_text                       = +2.8 metres to radius<br>You and nearby allies gain 76% increased Critical Strike Chance<br>You and nearby allies gain +1058 to Accuracy Rating
+ |level29_stat1_id                        = active_skill_base_radius_+
+ |level29_stat1_value                     = 28
+ |level29_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -326,7 +326,7 @@
+ |level30                                 = True
+ |level30_level_requirement               = 90
+ |level30_mana_reservation_flat           = 255
+-|level30_stat_text                       = +29 to radius<br>You and nearby allies gain 78% increased Critical Strike Chance<br>You and nearby allies gain +1087 to Accuracy Rating
++|level30_stat_text                       = +2.9 metres to radius<br>You and nearby allies gain 78% increased Critical Strike Chance<br>You and nearby allies gain +1087 to Accuracy Rating
+ |level30_stat1_id                        = active_skill_base_radius_+
+ |level30_stat1_value                     = 29
+ |level30_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -336,7 +336,7 @@
+ |level31                                 = True
+ |level31_level_requirement               = 91
+ |level31_mana_reservation_flat           = 270
+-|level31_stat_text                       = +29 to radius<br>You and nearby allies gain 79% increased Critical Strike Chance<br>You and nearby allies gain +1172 to Accuracy Rating
++|level31_stat_text                       = +2.9 metres to radius<br>You and nearby allies gain 79% increased Critical Strike Chance<br>You and nearby allies gain +1172 to Accuracy Rating
+ |level31_stat1_id                        = active_skill_base_radius_+
+ |level31_stat1_value                     = 29
+ |level31_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -346,7 +346,7 @@
+ |level32                                 = True
+ |level32_level_requirement               = 92
+ |level32_mana_reservation_flat           = 278
+-|level32_stat_text                       = +30 to radius<br>You and nearby allies gain 80% increased Critical Strike Chance<br>You and nearby allies gain +1187 to Accuracy Rating
++|level32_stat_text                       = +3 metres to radius<br>You and nearby allies gain 80% increased Critical Strike Chance<br>You and nearby allies gain +1187 to Accuracy Rating
+ |level32_stat1_id                        = active_skill_base_radius_+
+ |level32_stat1_value                     = 30
+ |level32_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -356,7 +356,7 @@
+ |level33                                 = True
+ |level33_level_requirement               = 93
+ |level33_mana_reservation_flat           = 286
+-|level33_stat_text                       = +30 to radius<br>You and nearby allies gain 81% increased Critical Strike Chance<br>You and nearby allies gain +1203 to Accuracy Rating
++|level33_stat_text                       = +3 metres to radius<br>You and nearby allies gain 81% increased Critical Strike Chance<br>You and nearby allies gain +1203 to Accuracy Rating
+ |level33_stat1_id                        = active_skill_base_radius_+
+ |level33_stat1_value                     = 30
+ |level33_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -366,7 +366,7 @@
+ |level34                                 = True
+ |level34_level_requirement               = 94
+ |level34_mana_reservation_flat           = 294
+-|level34_stat_text                       = +31 to radius<br>You and nearby allies gain 82% increased Critical Strike Chance<br>You and nearby allies gain +1218 to Accuracy Rating
++|level34_stat_text                       = +3.1 metres to radius<br>You and nearby allies gain 82% increased Critical Strike Chance<br>You and nearby allies gain +1218 to Accuracy Rating
+ |level34_stat1_id                        = active_skill_base_radius_+
+ |level34_stat1_value                     = 31
+ |level34_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -376,7 +376,7 @@
+ |level35                                 = True
+ |level35_level_requirement               = 95
+ |level35_mana_reservation_flat           = 303
+-|level35_stat_text                       = +31 to radius<br>You and nearby allies gain 83% increased Critical Strike Chance<br>You and nearby allies gain +1233 to Accuracy Rating
++|level35_stat_text                       = +3.1 metres to radius<br>You and nearby allies gain 83% increased Critical Strike Chance<br>You and nearby allies gain +1233 to Accuracy Rating
+ |level35_stat1_id                        = active_skill_base_radius_+
+ |level35_stat1_value                     = 31
+ |level35_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -386,7 +386,7 @@
+ |level36                                 = True
+ |level36_level_requirement               = 96
+ |level36_mana_reservation_flat           = 311
+-|level36_stat_text                       = +32 to radius<br>You and nearby allies gain 84% increased Critical Strike Chance<br>You and nearby allies gain +1324 to Accuracy Rating
++|level36_stat_text                       = +3.2 metres to radius<br>You and nearby allies gain 84% increased Critical Strike Chance<br>You and nearby allies gain +1324 to Accuracy Rating
+ |level36_stat1_id                        = active_skill_base_radius_+
+ |level36_stat1_value                     = 32
+ |level36_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -396,7 +396,7 @@
+ |level37                                 = True
+ |level37_level_requirement               = 97
+ |level37_mana_reservation_flat           = 319
+-|level37_stat_text                       = +32 to radius<br>You and nearby allies gain 85% increased Critical Strike Chance<br>You and nearby allies gain +1340 to Accuracy Rating
++|level37_stat_text                       = +3.2 metres to radius<br>You and nearby allies gain 85% increased Critical Strike Chance<br>You and nearby allies gain +1340 to Accuracy Rating
+ |level37_stat1_id                        = active_skill_base_radius_+
+ |level37_stat1_value                     = 32
+ |level37_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -406,7 +406,7 @@
+ |level38                                 = True
+ |level38_level_requirement               = 98
+ |level38_mana_reservation_flat           = 327
+-|level38_stat_text                       = +33 to radius<br>You and nearby allies gain 86% increased Critical Strike Chance<br>You and nearby allies gain +1357 to Accuracy Rating
++|level38_stat_text                       = +3.3 metres to radius<br>You and nearby allies gain 86% increased Critical Strike Chance<br>You and nearby allies gain +1357 to Accuracy Rating
+ |level38_stat1_id                        = active_skill_base_radius_+
+ |level38_stat1_value                     = 33
+ |level38_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -416,7 +416,7 @@
+ |level39                                 = True
+ |level39_level_requirement               = 99
+ |level39_mana_reservation_flat           = 335
+-|level39_stat_text                       = +33 to radius<br>You and nearby allies gain 87% increased Critical Strike Chance<br>You and nearby allies gain +1374 to Accuracy Rating
++|level39_stat_text                       = +3.3 metres to radius<br>You and nearby allies gain 87% increased Critical Strike Chance<br>You and nearby allies gain +1374 to Accuracy Rating
+ |level39_stat1_id                        = active_skill_base_radius_+
+ |level39_stat1_value                     = 33
+ |level39_stat2_id                        = skill_buff_grants_critical_strike_chance_+%
+@@ -426,7 +426,7 @@
+ |level40                                 = True
+ |level40_level_requirement               = 100
+ |level40_mana_reservation_flat           = 343
+-|level40_stat_text                       = +34 to radius<br>You and nearby allies gain 88% increased Critical Strike Chance<br>You and nearby allies gain +1390 to Accuracy Rating
++|level40_stat_text                       = +3.4 metres to radius<br>You and nearby allies gain 88% increased Critical Strike Chance<br>You and nearby allies gain +1390 to Accuracy Rating
+ |level40_stat1_id                        = active_skill_base_radius_+
+ |level40_stat1_value                     = 34
+ |level40_stat2_id                        = skill_buff_grants_critical_strike_chance_+%

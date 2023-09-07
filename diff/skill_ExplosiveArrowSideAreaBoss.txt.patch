@@ -1,0 +1,33 @@
+--- Skill:ExplosiveArrowSideAreaBoss
++++ Export
+@@ -17,10 +17,10 @@
+ |static_stat3_value                      = -10
+ |static_stat4_id                         = base_skill_effect_duration
+ |static_stat4_value                      = 1000
+-|stat_text                               = Deals 10% less Attack Damage<br>Base duration is 1 seconds<br>Explosion deals (8-223) to (12-334) Base Fire Damage per Fuse Charge<br>+(2-3) to Explosion Radius per Explosive Arrow on Target<br>(40-60)% more Attack Speed
++|stat_text                               = Deals 10% less Attack Damage<br>Base duration is 1 seconds<br>Explosion deals (8-223) to (12-334) Base Fire Damage per Fuse Charge<br>+(0.2-0.3) metres to Explosion Radius per Explosive Arrow on Target<br>(40-60)% more Attack Speed
+ |level1                                  = True
+ |level1_level_requirement                = 4
+-|level1_stat_text                        = Explosion deals 8 to 12 Base Fire Damage per Fuse Charge<br>+2 to Explosion Radius per Explosive Arrow on Target<br>40% more Attack Speed
++|level1_stat_text                        = Explosion deals 8 to 12 Base Fire Damage per Fuse Charge<br>+0.2 metres to Explosion Radius per Explosive Arrow on Target<br>40% more Attack Speed
+ |level1_stat1_id                         = minimum_fire_damage_per_fuse_arrow_orb
+ |level1_stat1_value                      = 8
+ |level1_stat2_id                         = maximum_fire_damage_per_fuse_arrow_orb
+@@ -31,7 +31,7 @@
+ |level1_stat4_value                      = 40
+ |level2                                  = True
+ |level2_level_requirement                = 34
+-|level2_stat_text                        = Explosion deals 81 to 121 Base Fire Damage per Fuse Charge<br>+2 to Explosion Radius per Explosive Arrow on Target<br>50% more Attack Speed
++|level2_stat_text                        = Explosion deals 81 to 121 Base Fire Damage per Fuse Charge<br>+0.2 metres to Explosion Radius per Explosive Arrow on Target<br>50% more Attack Speed
+ |level2_stat1_id                         = minimum_fire_damage_per_fuse_arrow_orb
+ |level2_stat1_value                      = 81
+ |level2_stat2_id                         = maximum_fire_damage_per_fuse_arrow_orb
+@@ -42,7 +42,7 @@
+ |level2_stat4_value                      = 50
+ |level3                                  = True
+ |level3_level_requirement                = 52
+-|level3_stat_text                        = Explosion deals 223 to 334 Base Fire Damage per Fuse Charge<br>+3 to Explosion Radius per Explosive Arrow on Target<br>60% more Attack Speed
++|level3_stat_text                        = Explosion deals 223 to 334 Base Fire Damage per Fuse Charge<br>+0.3 metres to Explosion Radius per Explosive Arrow on Target<br>60% more Attack Speed
+ |level3_stat1_id                         = minimum_fire_damage_per_fuse_arrow_orb
+ |level3_stat1_value                      = 223
+ |level3_stat2_id                         = maximum_fire_damage_per_fuse_arrow_orb

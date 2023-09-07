@@ -1,10 +1,11 @@
 --- Loyalty Tattoo of Kaom
 +++ Export
-@@ -11,11 +11,14 @@
+@@ -11,11 +11,15 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
  |tattoo_target                           = Small Strength
 -|tattoo_stat_text                        = Trigger Summon Spirit of Kaom [[Skill]] when a [[Totem]] dies while
++|tattoo_tribe                            = 0
 +|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Strength}} {{c|default|Passive Skill}}
 +|tattoo_limit                            = 1 Loyalty Tattoo
 +|implicit2_text                          = {{c|default|Limit}} {{c|value|1 Loyalty Tattoo}}

@@ -52,7 +52,7 @@
 |static_stat10_value                     = 25
 |static_stat11_id                        = weapon_trap_total_rotation_%_if_dual_wielding
 |static_stat11_value                     = 100
-|stat_text                               = Trap lasts 4 seconds<br>Rotates 4 times<br>+(0-6) to radius<br>25% increased rotation speed if Dual Wielding<br>Rotates +1 times if Dual Wielding
+|stat_text                               = Trap lasts 4 seconds<br>Rotates 4 times<br>+(0-0.6) metres to radius<br>25% increased rotation speed if Dual Wielding<br>Rotates +1 times if Dual Wielding
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_cost_amounts                     = 8
@@ -68,7 +68,7 @@
 |level3_cost_amounts                     = 9
 |level3_damage_effectiveness             = 78
 |level3_damage_multiplier                = 78.1
-|level3_stat_text                        = +1 to radius
+|level3_stat_text                        = +0.1 metres to radius
 |level3_stat1_id                         = active_skill_base_radius_+
 |level3_stat1_value                      = 1
 |level4                                  = True
@@ -76,7 +76,7 @@
 |level4_cost_amounts                     = 10
 |level4_damage_effectiveness             = 79
 |level4_damage_multiplier                = 79.2
-|level4_stat_text                        = +1 to radius
+|level4_stat_text                        = +0.1 metres to radius
 |level4_stat1_id                         = active_skill_base_radius_+
 |level4_stat1_value                      = 1
 |level5                                  = True
@@ -84,7 +84,7 @@
 |level5_cost_amounts                     = 10
 |level5_damage_effectiveness             = 80
 |level5_damage_multiplier                = 80.2
-|level5_stat_text                        = +1 to radius
+|level5_stat_text                        = +0.1 metres to radius
 |level5_stat1_id                         = active_skill_base_radius_+
 |level5_stat1_value                      = 1
 |level6                                  = True
@@ -92,7 +92,7 @@
 |level6_cost_amounts                     = 11
 |level6_damage_effectiveness             = 81
 |level6_damage_multiplier                = 81.3
-|level6_stat_text                        = +2 to radius
+|level6_stat_text                        = +0.2 metres to radius
 |level6_stat1_id                         = active_skill_base_radius_+
 |level6_stat1_value                      = 2
 |level7                                  = True
@@ -100,7 +100,7 @@
 |level7_cost_amounts                     = 11
 |level7_damage_effectiveness             = 82
 |level7_damage_multiplier                = 82.3
-|level7_stat_text                        = +2 to radius
+|level7_stat_text                        = +0.2 metres to radius
 |level7_stat1_id                         = active_skill_base_radius_+
 |level7_stat1_value                      = 2
 |level8                                  = True
@@ -108,7 +108,7 @@
 |level8_cost_amounts                     = 12
 |level8_damage_effectiveness             = 83
 |level8_damage_multiplier                = 83.4
-|level8_stat_text                        = +2 to radius
+|level8_stat_text                        = +0.2 metres to radius
 |level8_stat1_id                         = active_skill_base_radius_+
 |level8_stat1_value                      = 2
 |level9                                  = True
@@ -116,7 +116,7 @@
 |level9_cost_amounts                     = 13
 |level9_damage_effectiveness             = 84
 |level9_damage_multiplier                = 84.4
-|level9_stat_text                        = +3 to radius
+|level9_stat_text                        = +0.3 metres to radius
 |level9_stat1_id                         = active_skill_base_radius_+
 |level9_stat1_value                      = 3
 |level10                                 = True
@@ -124,7 +124,7 @@
 |level10_cost_amounts                    = 14
 |level10_damage_effectiveness            = 85
 |level10_damage_multiplier               = 85.5
-|level10_stat_text                       = +3 to radius
+|level10_stat_text                       = +0.3 metres to radius
 |level10_stat1_id                        = active_skill_base_radius_+
 |level10_stat1_value                     = 3
 |level11                                 = True
@@ -132,7 +132,7 @@
 |level11_cost_amounts                    = 14
 |level11_damage_effectiveness            = 87
 |level11_damage_multiplier               = 86.5
-|level11_stat_text                       = +3 to radius
+|level11_stat_text                       = +0.3 metres to radius
 |level11_stat1_id                        = active_skill_base_radius_+
 |level11_stat1_value                     = 3
 |level12                                 = True
@@ -140,7 +140,7 @@
 |level12_cost_amounts                    = 15
 |level12_damage_effectiveness            = 88
 |level12_damage_multiplier               = 87.6
-|level12_stat_text                       = +4 to radius
+|level12_stat_text                       = +0.4 metres to radius
 |level12_stat1_id                        = active_skill_base_radius_+
 |level12_stat1_value                     = 4
 |level13                                 = True
@@ -148,7 +148,7 @@
 |level13_cost_amounts                    = 16
 |level13_damage_effectiveness            = 89
 |level13_damage_multiplier               = 88.6
-|level13_stat_text                       = +4 to radius
+|level13_stat_text                       = +0.4 metres to radius
 |level13_stat1_id                        = active_skill_base_radius_+
 |level13_stat1_value                     = 4
 |level14                                 = True
@@ -156,7 +156,7 @@
 |level14_cost_amounts                    = 16
 |level14_damage_effectiveness            = 90
 |level14_damage_multiplier               = 89.7
-|level14_stat_text                       = +4 to radius
+|level14_stat_text                       = +0.4 metres to radius
 |level14_stat1_id                        = active_skill_base_radius_+
 |level14_stat1_value                     = 4
 |level15                                 = True
@@ -164,7 +164,7 @@
 |level15_cost_amounts                    = 17
 |level15_damage_effectiveness            = 91
 |level15_damage_multiplier               = 90.7
-|level15_stat_text                       = +5 to radius
+|level15_stat_text                       = +0.5 metres to radius
 |level15_stat1_id                        = active_skill_base_radius_+
 |level15_stat1_value                     = 5
 |level16                                 = True
@@ -172,7 +172,7 @@
 |level16_cost_amounts                    = 18
 |level16_damage_effectiveness            = 92
 |level16_damage_multiplier               = 91.8
-|level16_stat_text                       = +5 to radius
+|level16_stat_text                       = +0.5 metres to radius
 |level16_stat1_id                        = active_skill_base_radius_+
 |level16_stat1_value                     = 5
 |level17                                 = True
@@ -180,7 +180,7 @@
 |level17_cost_amounts                    = 18
 |level17_damage_effectiveness            = 93
 |level17_damage_multiplier               = 92.8
-|level17_stat_text                       = +5 to radius
+|level17_stat_text                       = +0.5 metres to radius
 |level17_stat1_id                        = active_skill_base_radius_+
 |level17_stat1_value                     = 5
 |level18                                 = True
@@ -188,7 +188,7 @@
 |level18_cost_amounts                    = 19
 |level18_damage_effectiveness            = 94
 |level18_damage_multiplier               = 93.9
-|level18_stat_text                       = +6 to radius
+|level18_stat_text                       = +0.6 metres to radius
 |level18_stat1_id                        = active_skill_base_radius_+
 |level18_stat1_value                     = 6
 |level19                                 = True
@@ -196,7 +196,7 @@
 |level19_cost_amounts                    = 19
 |level19_damage_effectiveness            = 95
 |level19_damage_multiplier               = 94.9
-|level19_stat_text                       = +6 to radius
+|level19_stat_text                       = +0.6 metres to radius
 |level19_stat1_id                        = active_skill_base_radius_+
 |level19_stat1_value                     = 6
 |level20                                 = True
@@ -204,7 +204,7 @@
 |level20_cost_amounts                    = 20
 |level20_damage_effectiveness            = 96
 |level20_damage_multiplier               = 96
-|level20_stat_text                       = +6 to radius
+|level20_stat_text                       = +0.6 metres to radius
 |level20_stat1_id                        = active_skill_base_radius_+
 |level20_stat1_value                     = 6
 |level21                                 = True
@@ -212,7 +212,7 @@
 |level21_cost_amounts                    = 20
 |level21_damage_effectiveness            = 97
 |level21_damage_multiplier               = 97.1
-|level21_stat_text                       = +7 to radius
+|level21_stat_text                       = +0.7 metres to radius
 |level21_stat1_id                        = active_skill_base_radius_+
 |level21_stat1_value                     = 7
 |level22                                 = True
@@ -220,7 +220,7 @@
 |level22_cost_amounts                    = 21
 |level22_damage_effectiveness            = 98
 |level22_damage_multiplier               = 98.1
-|level22_stat_text                       = +7 to radius
+|level22_stat_text                       = +0.7 metres to radius
 |level22_stat1_id                        = active_skill_base_radius_+
 |level22_stat1_value                     = 7
 |level23                                 = True
@@ -228,7 +228,7 @@
 |level23_cost_amounts                    = 21
 |level23_damage_effectiveness            = 99
 |level23_damage_multiplier               = 99.2
-|level23_stat_text                       = +7 to radius
+|level23_stat_text                       = +0.7 metres to radius
 |level23_stat1_id                        = active_skill_base_radius_+
 |level23_stat1_value                     = 7
 |level24                                 = True
@@ -236,7 +236,7 @@
 |level24_cost_amounts                    = 21
 |level24_damage_effectiveness            = 100
 |level24_damage_multiplier               = 100.2
-|level24_stat_text                       = +8 to radius
+|level24_stat_text                       = +0.8 metres to radius
 |level24_stat1_id                        = active_skill_base_radius_+
 |level24_stat1_value                     = 8
 |level25                                 = True
@@ -244,7 +244,7 @@
 |level25_cost_amounts                    = 22
 |level25_damage_effectiveness            = 101
 |level25_damage_multiplier               = 101.3
-|level25_stat_text                       = +8 to radius
+|level25_stat_text                       = +0.8 metres to radius
 |level25_stat1_id                        = active_skill_base_radius_+
 |level25_stat1_value                     = 8
 |level26                                 = True
@@ -252,7 +252,7 @@
 |level26_cost_amounts                    = 23
 |level26_damage_effectiveness            = 102
 |level26_damage_multiplier               = 102.3
-|level26_stat_text                       = +8 to radius
+|level26_stat_text                       = +0.8 metres to radius
 |level26_stat1_id                        = active_skill_base_radius_+
 |level26_stat1_value                     = 8
 |level27                                 = True
@@ -260,7 +260,7 @@
 |level27_cost_amounts                    = 23
 |level27_damage_effectiveness            = 103
 |level27_damage_multiplier               = 103.4
-|level27_stat_text                       = +9 to radius
+|level27_stat_text                       = +0.9 metres to radius
 |level27_stat1_id                        = active_skill_base_radius_+
 |level27_stat1_value                     = 9
 |level28                                 = True
@@ -268,7 +268,7 @@
 |level28_cost_amounts                    = 23
 |level28_damage_effectiveness            = 104
 |level28_damage_multiplier               = 104.4
-|level28_stat_text                       = +9 to radius
+|level28_stat_text                       = +0.9 metres to radius
 |level28_stat1_id                        = active_skill_base_radius_+
 |level28_stat1_value                     = 9
 |level29                                 = True
@@ -276,7 +276,7 @@
 |level29_cost_amounts                    = 24
 |level29_damage_effectiveness            = 105
 |level29_damage_multiplier               = 105.5
-|level29_stat_text                       = +9 to radius
+|level29_stat_text                       = +0.9 metres to radius
 |level29_stat1_id                        = active_skill_base_radius_+
 |level29_stat1_value                     = 9
 |level30                                 = True
@@ -284,7 +284,7 @@
 |level30_cost_amounts                    = 24
 |level30_damage_effectiveness            = 107
 |level30_damage_multiplier               = 106.5
-|level30_stat_text                       = +10 to radius
+|level30_stat_text                       = +1 metre to radius
 |level30_stat1_id                        = active_skill_base_radius_+
 |level30_stat1_value                     = 10
 |level31                                 = True
@@ -292,7 +292,7 @@
 |level31_cost_amounts                    = 26
 |level31_damage_effectiveness            = 107
 |level31_damage_multiplier               = 107.1
-|level31_stat_text                       = +10 to radius
+|level31_stat_text                       = +1 metre to radius
 |level31_stat1_id                        = active_skill_base_radius_+
 |level31_stat1_value                     = 10
 |level32                                 = True
@@ -300,7 +300,7 @@
 |level32_cost_amounts                    = 26
 |level32_damage_effectiveness            = 108
 |level32_damage_multiplier               = 107.6
-|level32_stat_text                       = +10 to radius
+|level32_stat_text                       = +1 metre to radius
 |level32_stat1_id                        = active_skill_base_radius_+
 |level32_stat1_value                     = 10
 |level33                                 = True
@@ -308,7 +308,7 @@
 |level33_cost_amounts                    = 27
 |level33_damage_effectiveness            = 108
 |level33_damage_multiplier               = 108.1
-|level33_stat_text                       = +10 to radius
+|level33_stat_text                       = +1 metre to radius
 |level33_stat1_id                        = active_skill_base_radius_+
 |level33_stat1_value                     = 10
 |level34                                 = True
@@ -316,7 +316,7 @@
 |level34_cost_amounts                    = 27
 |level34_damage_effectiveness            = 109
 |level34_damage_multiplier               = 108.6
-|level34_stat_text                       = +10 to radius
+|level34_stat_text                       = +1 metre to radius
 |level34_stat1_id                        = active_skill_base_radius_+
 |level34_stat1_value                     = 10
 |level35                                 = True
@@ -324,7 +324,7 @@
 |level35_cost_amounts                    = 28
 |level35_damage_effectiveness            = 109
 |level35_damage_multiplier               = 109.2
-|level35_stat_text                       = +10 to radius
+|level35_stat_text                       = +1 metre to radius
 |level35_stat1_id                        = active_skill_base_radius_+
 |level35_stat1_value                     = 10
 |level36                                 = True
@@ -332,7 +332,7 @@
 |level36_cost_amounts                    = 29
 |level36_damage_effectiveness            = 110
 |level36_damage_multiplier               = 109.7
-|level36_stat_text                       = +11 to radius
+|level36_stat_text                       = +1.1 metres to radius
 |level36_stat1_id                        = active_skill_base_radius_+
 |level36_stat1_value                     = 11
 |level37                                 = True
@@ -340,7 +340,7 @@
 |level37_cost_amounts                    = 29
 |level37_damage_effectiveness            = 110
 |level37_damage_multiplier               = 110.2
-|level37_stat_text                       = +11 to radius
+|level37_stat_text                       = +1.1 metres to radius
 |level37_stat1_id                        = active_skill_base_radius_+
 |level37_stat1_value                     = 11
 |level38                                 = True
@@ -348,7 +348,7 @@
 |level38_cost_amounts                    = 30
 |level38_damage_effectiveness            = 111
 |level38_damage_multiplier               = 110.7
-|level38_stat_text                       = +11 to radius
+|level38_stat_text                       = +1.1 metres to radius
 |level38_stat1_id                        = active_skill_base_radius_+
 |level38_stat1_value                     = 11
 |level39                                 = True
@@ -356,7 +356,7 @@
 |level39_cost_amounts                    = 30
 |level39_damage_effectiveness            = 111
 |level39_damage_multiplier               = 111.3
-|level39_stat_text                       = +11 to radius
+|level39_stat_text                       = +1.1 metres to radius
 |level39_stat1_id                        = active_skill_base_radius_+
 |level39_stat1_value                     = 11
 |level40                                 = True
@@ -364,7 +364,7 @@
 |level40_cost_amounts                    = 31
 |level40_damage_effectiveness            = 112
 |level40_damage_multiplier               = 111.8
-|level40_stat_text                       = +11 to radius
+|level40_stat_text                       = +1.1 metres to radius
 |level40_stat1_id                        = active_skill_base_radius_+
 |level40_stat1_value                     = 11
 |level1_dexterity_requirement            = 33

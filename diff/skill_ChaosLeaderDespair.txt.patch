@@ -1,0 +1,272 @@
+--- Skill:ChaosLeaderDespair
++++ Export
+@@ -10,7 +10,7 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = base_deal_no_damage
+ |static_stat1_value                      = 1
+-|stat_text                               = Base duration is (9-11.9) seconds<br>+(0-15) to radius<br>Cursed enemies have -(20-24)% to Chaos Resistance
++|stat_text                               = Base duration is (9-11.9) seconds<br>+(0-1.5) metres to radius<br>Cursed enemies have -(20-24)% to Chaos Resistance
+ |level1                                  = True
+ |level1_level_requirement                = 24
+ |level1_cost_amounts                     = 24
+@@ -24,7 +24,7 @@
+ |level2_level_requirement                = 27
+ |level2_cost_amounts                     = 26
+ |level2_duration                         = 9.1
+-|level2_stat_text                        = Base duration is 9.1 seconds<br>+1 to radius<br>Cursed enemies have -20% to Chaos Resistance
++|level2_stat_text                        = Base duration is 9.1 seconds<br>+0.1 metres to radius<br>Cursed enemies have -20% to Chaos Resistance
+ |level2_stat1_id                         = base_skill_effect_duration
+ |level2_stat1_value                      = 9100
+ |level2_stat2_id                         = active_skill_base_radius_+
+@@ -35,7 +35,7 @@
+ |level3_level_requirement                = 30
+ |level3_cost_amounts                     = 27
+ |level3_duration                         = 9.2
+-|level3_stat_text                        = Base duration is 9.2 seconds<br>+1 to radius<br>Cursed enemies have -20% to Chaos Resistance
++|level3_stat_text                        = Base duration is 9.2 seconds<br>+0.1 metres to radius<br>Cursed enemies have -20% to Chaos Resistance
+ |level3_stat1_id                         = base_skill_effect_duration
+ |level3_stat1_value                      = 9200
+ |level3_stat2_id                         = active_skill_base_radius_+
+@@ -46,7 +46,7 @@
+ |level4_level_requirement                = 33
+ |level4_cost_amounts                     = 29
+ |level4_duration                         = 9.3
+-|level4_stat_text                        = Base duration is 9.3 seconds<br>+2 to radius<br>Cursed enemies have -20% to Chaos Resistance
++|level4_stat_text                        = Base duration is 9.3 seconds<br>+0.2 metres to radius<br>Cursed enemies have -20% to Chaos Resistance
+ |level4_stat1_id                         = base_skill_effect_duration
+ |level4_stat1_value                      = 9300
+ |level4_stat2_id                         = active_skill_base_radius_+
+@@ -57,7 +57,7 @@
+ |level5_level_requirement                = 36
+ |level5_cost_amounts                     = 30
+ |level5_duration                         = 9.4
+-|level5_stat_text                        = Base duration is 9.4 seconds<br>+2 to radius<br>Cursed enemies have -20% to Chaos Resistance
++|level5_stat_text                        = Base duration is 9.4 seconds<br>+0.2 metres to radius<br>Cursed enemies have -20% to Chaos Resistance
+ |level5_stat1_id                         = base_skill_effect_duration
+ |level5_stat1_value                      = 9400
+ |level5_stat2_id                         = active_skill_base_radius_+
+@@ -68,7 +68,7 @@
+ |level6_level_requirement                = 39
+ |level6_cost_amounts                     = 32
+ |level6_duration                         = 9.5
+-|level6_stat_text                        = Base duration is 9.5 seconds<br>+3 to radius<br>Cursed enemies have -20% to Chaos Resistance
++|level6_stat_text                        = Base duration is 9.5 seconds<br>+0.3 metres to radius<br>Cursed enemies have -20% to Chaos Resistance
+ |level6_stat1_id                         = base_skill_effect_duration
+ |level6_stat1_value                      = 9500
+ |level6_stat2_id                         = active_skill_base_radius_+
+@@ -79,7 +79,7 @@
+ |level7_level_requirement                = 42
+ |level7_cost_amounts                     = 34
+ |level7_duration                         = 9.6
+-|level7_stat_text                        = Base duration is 9.6 seconds<br>+3 to radius<br>Cursed enemies have -20% to Chaos Resistance
++|level7_stat_text                        = Base duration is 9.6 seconds<br>+0.3 metres to radius<br>Cursed enemies have -20% to Chaos Resistance
+ |level7_stat1_id                         = base_skill_effect_duration
+ |level7_stat1_value                      = 9600
+ |level7_stat2_id                         = active_skill_base_radius_+
+@@ -90,7 +90,7 @@
+ |level8_level_requirement                = 45
+ |level8_cost_amounts                     = 35
+ |level8_duration                         = 9.7
+-|level8_stat_text                        = Base duration is 9.7 seconds<br>+4 to radius<br>Cursed enemies have -20% to Chaos Resistance
++|level8_stat_text                        = Base duration is 9.7 seconds<br>+0.4 metres to radius<br>Cursed enemies have -20% to Chaos Resistance
+ |level8_stat1_id                         = base_skill_effect_duration
+ |level8_stat1_value                      = 9700
+ |level8_stat2_id                         = active_skill_base_radius_+
+@@ -101,7 +101,7 @@
+ |level9_level_requirement                = 48
+ |level9_cost_amounts                     = 37
+ |level9_duration                         = 9.8
+-|level9_stat_text                        = Base duration is 9.8 seconds<br>+4 to radius<br>Cursed enemies have -20% to Chaos Resistance
++|level9_stat_text                        = Base duration is 9.8 seconds<br>+0.4 metres to radius<br>Cursed enemies have -20% to Chaos Resistance
+ |level9_stat1_id                         = base_skill_effect_duration
+ |level9_stat1_value                      = 9800
+ |level9_stat2_id                         = active_skill_base_radius_+
+@@ -112,7 +112,7 @@
+ |level10_level_requirement               = 50
+ |level10_cost_amounts                    = 38
+ |level10_duration                        = 9.9
+-|level10_stat_text                       = Base duration is 9.9 seconds<br>+5 to radius<br>Cursed enemies have -20% to Chaos Resistance
++|level10_stat_text                       = Base duration is 9.9 seconds<br>+0.5 metres to radius<br>Cursed enemies have -20% to Chaos Resistance
+ |level10_stat1_id                        = base_skill_effect_duration
+ |level10_stat1_value                     = 9900
+ |level10_stat2_id                        = active_skill_base_radius_+
+@@ -123,7 +123,7 @@
+ |level11_level_requirement               = 52
+ |level11_cost_amounts                    = 39
+ |level11_duration                        = 10
+-|level11_stat_text                       = Base duration is 10 seconds<br>+5 to radius<br>Cursed enemies have -21% to Chaos Resistance
++|level11_stat_text                       = Base duration is 10 seconds<br>+0.5 metres to radius<br>Cursed enemies have -21% to Chaos Resistance
+ |level11_stat1_id                        = base_skill_effect_duration
+ |level11_stat1_value                     = 10000
+ |level11_stat2_id                        = active_skill_base_radius_+
+@@ -134,7 +134,7 @@
+ |level12_level_requirement               = 54
+ |level12_cost_amounts                    = 40
+ |level12_duration                        = 10.1
+-|level12_stat_text                       = Base duration is 10.1 seconds<br>+6 to radius<br>Cursed enemies have -21% to Chaos Resistance
++|level12_stat_text                       = Base duration is 10.1 seconds<br>+0.6 metres to radius<br>Cursed enemies have -21% to Chaos Resistance
+ |level12_stat1_id                        = base_skill_effect_duration
+ |level12_stat1_value                     = 10100
+ |level12_stat2_id                        = active_skill_base_radius_+
+@@ -145,7 +145,7 @@
+ |level13_level_requirement               = 56
+ |level13_cost_amounts                    = 42
+ |level13_duration                        = 10.2
+-|level13_stat_text                       = Base duration is 10.2 seconds<br>+6 to radius<br>Cursed enemies have -21% to Chaos Resistance
++|level13_stat_text                       = Base duration is 10.2 seconds<br>+0.6 metres to radius<br>Cursed enemies have -21% to Chaos Resistance
+ |level13_stat1_id                        = base_skill_effect_duration
+ |level13_stat1_value                     = 10200
+ |level13_stat2_id                        = active_skill_base_radius_+
+@@ -156,7 +156,7 @@
+ |level14_level_requirement               = 58
+ |level14_cost_amounts                    = 43
+ |level14_duration                        = 10.3
+-|level14_stat_text                       = Base duration is 10.3 seconds<br>+7 to radius<br>Cursed enemies have -21% to Chaos Resistance
++|level14_stat_text                       = Base duration is 10.3 seconds<br>+0.7 metres to radius<br>Cursed enemies have -21% to Chaos Resistance
+ |level14_stat1_id                        = base_skill_effect_duration
+ |level14_stat1_value                     = 10300
+ |level14_stat2_id                        = active_skill_base_radius_+
+@@ -167,7 +167,7 @@
+ |level15_level_requirement               = 60
+ |level15_cost_amounts                    = 44
+ |level15_duration                        = 10.4
+-|level15_stat_text                       = Base duration is 10.4 seconds<br>+7 to radius<br>Cursed enemies have -21% to Chaos Resistance
++|level15_stat_text                       = Base duration is 10.4 seconds<br>+0.7 metres to radius<br>Cursed enemies have -21% to Chaos Resistance
+ |level15_stat1_id                        = base_skill_effect_duration
+ |level15_stat1_value                     = 10400
+ |level15_stat2_id                        = active_skill_base_radius_+
+@@ -178,7 +178,7 @@
+ |level16_level_requirement               = 62
+ |level16_cost_amounts                    = 45
+ |level16_duration                        = 10.5
+-|level16_stat_text                       = Base duration is 10.5 seconds<br>+8 to radius<br>Cursed enemies have -21% to Chaos Resistance
++|level16_stat_text                       = Base duration is 10.5 seconds<br>+0.8 metres to radius<br>Cursed enemies have -21% to Chaos Resistance
+ |level16_stat1_id                        = base_skill_effect_duration
+ |level16_stat1_value                     = 10500
+ |level16_stat2_id                        = active_skill_base_radius_+
+@@ -189,7 +189,7 @@
+ |level17_level_requirement               = 64
+ |level17_cost_amounts                    = 46
+ |level17_duration                        = 10.6
+-|level17_stat_text                       = Base duration is 10.6 seconds<br>+8 to radius<br>Cursed enemies have -21% to Chaos Resistance
++|level17_stat_text                       = Base duration is 10.6 seconds<br>+0.8 metres to radius<br>Cursed enemies have -21% to Chaos Resistance
+ |level17_stat1_id                        = base_skill_effect_duration
+ |level17_stat1_value                     = 10600
+ |level17_stat2_id                        = active_skill_base_radius_+
+@@ -200,7 +200,7 @@
+ |level18_level_requirement               = 66
+ |level18_cost_amounts                    = 47
+ |level18_duration                        = 10.7
+-|level18_stat_text                       = Base duration is 10.7 seconds<br>+9 to radius<br>Cursed enemies have -21% to Chaos Resistance
++|level18_stat_text                       = Base duration is 10.7 seconds<br>+0.9 metres to radius<br>Cursed enemies have -21% to Chaos Resistance
+ |level18_stat1_id                        = base_skill_effect_duration
+ |level18_stat1_value                     = 10700
+ |level18_stat2_id                        = active_skill_base_radius_+
+@@ -211,7 +211,7 @@
+ |level19_level_requirement               = 68
+ |level19_cost_amounts                    = 48
+ |level19_duration                        = 10.8
+-|level19_stat_text                       = Base duration is 10.8 seconds<br>+9 to radius<br>Cursed enemies have -21% to Chaos Resistance
++|level19_stat_text                       = Base duration is 10.8 seconds<br>+0.9 metres to radius<br>Cursed enemies have -21% to Chaos Resistance
+ |level19_stat1_id                        = base_skill_effect_duration
+ |level19_stat1_value                     = 10800
+ |level19_stat2_id                        = active_skill_base_radius_+
+@@ -222,7 +222,7 @@
+ |level20_level_requirement               = 70
+ |level20_cost_amounts                    = 50
+ |level20_duration                        = 10.9
+-|level20_stat_text                       = Base duration is 10.9 seconds<br>+10 to radius<br>Cursed enemies have -22% to Chaos Resistance
++|level20_stat_text                       = Base duration is 10.9 seconds<br>+1 metre to radius<br>Cursed enemies have -22% to Chaos Resistance
+ |level20_stat1_id                        = base_skill_effect_duration
+ |level20_stat1_value                     = 10900
+ |level20_stat2_id                        = active_skill_base_radius_+
+@@ -233,7 +233,7 @@
+ |level21_level_requirement               = 72
+ |level21_cost_amounts                    = 51
+ |level21_duration                        = 11
+-|level21_stat_text                       = Base duration is 11 seconds<br>+10 to radius<br>Cursed enemies have -22% to Chaos Resistance
++|level21_stat_text                       = Base duration is 11 seconds<br>+1 metre to radius<br>Cursed enemies have -22% to Chaos Resistance
+ |level21_stat1_id                        = base_skill_effect_duration
+ |level21_stat1_value                     = 11000
+ |level21_stat2_id                        = active_skill_base_radius_+
+@@ -244,7 +244,7 @@
+ |level22_level_requirement               = 74
+ |level22_cost_amounts                    = 52
+ |level22_duration                        = 11.1
+-|level22_stat_text                       = Base duration is 11.1 seconds<br>+11 to radius<br>Cursed enemies have -22% to Chaos Resistance
++|level22_stat_text                       = Base duration is 11.1 seconds<br>+1.1 metres to radius<br>Cursed enemies have -22% to Chaos Resistance
+ |level22_stat1_id                        = base_skill_effect_duration
+ |level22_stat1_value                     = 11100
+ |level22_stat2_id                        = active_skill_base_radius_+
+@@ -255,7 +255,7 @@
+ |level23_level_requirement               = 76
+ |level23_cost_amounts                    = 53
+ |level23_duration                        = 11.2
+-|level23_stat_text                       = Base duration is 11.2 seconds<br>+11 to radius<br>Cursed enemies have -22% to Chaos Resistance
++|level23_stat_text                       = Base duration is 11.2 seconds<br>+1.1 metres to radius<br>Cursed enemies have -22% to Chaos Resistance
+ |level23_stat1_id                        = base_skill_effect_duration
+ |level23_stat1_value                     = 11200
+ |level23_stat2_id                        = active_skill_base_radius_+
+@@ -266,7 +266,7 @@
+ |level24_level_requirement               = 78
+ |level24_cost_amounts                    = 54
+ |level24_duration                        = 11.3
+-|level24_stat_text                       = Base duration is 11.3 seconds<br>+12 to radius<br>Cursed enemies have -22% to Chaos Resistance
++|level24_stat_text                       = Base duration is 11.3 seconds<br>+1.2 metres to radius<br>Cursed enemies have -22% to Chaos Resistance
+ |level24_stat1_id                        = base_skill_effect_duration
+ |level24_stat1_value                     = 11300
+ |level24_stat2_id                        = active_skill_base_radius_+
+@@ -277,7 +277,7 @@
+ |level25_level_requirement               = 80
+ |level25_cost_amounts                    = 56
+ |level25_duration                        = 11.4
+-|level25_stat_text                       = Base duration is 11.4 seconds<br>+12 to radius<br>Cursed enemies have -22% to Chaos Resistance
++|level25_stat_text                       = Base duration is 11.4 seconds<br>+1.2 metres to radius<br>Cursed enemies have -22% to Chaos Resistance
+ |level25_stat1_id                        = base_skill_effect_duration
+ |level25_stat1_value                     = 11400
+ |level25_stat2_id                        = active_skill_base_radius_+
+@@ -288,7 +288,7 @@
+ |level26_level_requirement               = 82
+ |level26_cost_amounts                    = 57
+ |level26_duration                        = 11.5
+-|level26_stat_text                       = Base duration is 11.5 seconds<br>+13 to radius<br>Cursed enemies have -23% to Chaos Resistance
++|level26_stat_text                       = Base duration is 11.5 seconds<br>+1.3 metres to radius<br>Cursed enemies have -23% to Chaos Resistance
+ |level26_stat1_id                        = base_skill_effect_duration
+ |level26_stat1_value                     = 11500
+ |level26_stat2_id                        = active_skill_base_radius_+
+@@ -299,7 +299,7 @@
+ |level27_level_requirement               = 84
+ |level27_cost_amounts                    = 58
+ |level27_duration                        = 11.6
+-|level27_stat_text                       = Base duration is 11.6 seconds<br>+13 to radius<br>Cursed enemies have -23% to Chaos Resistance
++|level27_stat_text                       = Base duration is 11.6 seconds<br>+1.3 metres to radius<br>Cursed enemies have -23% to Chaos Resistance
+ |level27_stat1_id                        = base_skill_effect_duration
+ |level27_stat1_value                     = 11600
+ |level27_stat2_id                        = active_skill_base_radius_+
+@@ -310,7 +310,7 @@
+ |level28_level_requirement               = 86
+ |level28_cost_amounts                    = 59
+ |level28_duration                        = 11.7
+-|level28_stat_text                       = Base duration is 11.7 seconds<br>+14 to radius<br>Cursed enemies have -23% to Chaos Resistance
++|level28_stat_text                       = Base duration is 11.7 seconds<br>+1.4 metres to radius<br>Cursed enemies have -23% to Chaos Resistance
+ |level28_stat1_id                        = base_skill_effect_duration
+ |level28_stat1_value                     = 11700
+ |level28_stat2_id                        = active_skill_base_radius_+
+@@ -321,7 +321,7 @@
+ |level29_level_requirement               = 88
+ |level29_cost_amounts                    = 60
+ |level29_duration                        = 11.8
+-|level29_stat_text                       = Base duration is 11.8 seconds<br>+14 to radius<br>Cursed enemies have -24% to Chaos Resistance
++|level29_stat_text                       = Base duration is 11.8 seconds<br>+1.4 metres to radius<br>Cursed enemies have -24% to Chaos Resistance
+ |level29_stat1_id                        = base_skill_effect_duration
+ |level29_stat1_value                     = 11800
+ |level29_stat2_id                        = active_skill_base_radius_+
+@@ -332,7 +332,7 @@
+ |level30_level_requirement               = 90
+ |level30_cost_amounts                    = 61
+ |level30_duration                        = 11.9
+-|level30_stat_text                       = Base duration is 11.9 seconds<br>+15 to radius<br>Cursed enemies have -24% to Chaos Resistance
++|level30_stat_text                       = Base duration is 11.9 seconds<br>+1.5 metres to radius<br>Cursed enemies have -24% to Chaos Resistance
+ |level30_stat1_id                        = base_skill_effect_duration
+ |level30_stat1_value                     = 11900
+ |level30_stat2_id                        = active_skill_base_radius_+

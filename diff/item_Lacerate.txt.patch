@@ -1,7 +1,11 @@
 --- Lacerate
 +++ Export
-@@ -43,6 +43,8 @@
- |stat_text                               = (5-75) to (8-113) Added Attack Physical Damage<br>+(0-9) to radius<br>(50-88)% more Damage with Bleeding while in Blood Stance<br>25% chance to cause Bleeding while in Blood Stance<br>50% increased angle while in Sand Stance
+@@ -40,9 +40,11 @@
+ |static_stat3_value                      = 25
+ |static_stat4_id                         = skill_angle_+%_in_sand_stance
+ |static_stat4_value                      = 50
+-|stat_text                               = (5-75) to (8-113) Added Attack Physical Damage<br>+(0-9) to radius<br>(50-88)% more Damage with Bleeding while in Blood Stance<br>25% chance to cause Bleeding while in Blood Stance<br>50% increased angle while in Sand Stance
++|stat_text                               = (5-75) to (8-113) Added Attack Physical Damage<br>+(0-0.9) metres to radius<br>(50-88)% more Damage with Bleeding while in Blood Stance<br>25% chance to cause Bleeding while in Blood Stance<br>50% increased angle while in Sand Stance
  |level1                                  = True
  |level1_level_requirement                = 12
 +|level1_damage_effectiveness             = 100
@@ -9,3 +13,345 @@
  |level1_stat_text                        = 5 to 8 Added Attack Physical Damage<br>50% more Damage with Bleeding while in Blood Stance
  |level1_stat1_id                         = attack_minimum_added_physical_damage
  |level1_stat1_value                      = 5
+@@ -65,7 +67,7 @@
+ |level3_level_requirement                = 19
+ |level3_damage_effectiveness             = 106
+ |level3_damage_multiplier                = 105.7
+-|level3_stat_text                        = 8 to 13 Added Attack Physical Damage<br>+1 to radius<br>54% more Damage with Bleeding while in Blood Stance
++|level3_stat_text                        = 8 to 13 Added Attack Physical Damage<br>+0.1 metres to radius<br>54% more Damage with Bleeding while in Blood Stance
+ |level3_stat1_id                         = attack_minimum_added_physical_damage
+ |level3_stat1_value                      = 8
+ |level3_stat2_id                         = attack_maximum_added_physical_damage
+@@ -78,7 +80,7 @@
+ |level4_level_requirement                = 23
+ |level4_damage_effectiveness             = 109
+ |level4_damage_multiplier                = 108.5
+-|level4_stat_text                        = 11 to 16 Added Attack Physical Damage<br>+1 to radius<br>56% more Damage with Bleeding while in Blood Stance
++|level4_stat_text                        = 11 to 16 Added Attack Physical Damage<br>+0.1 metres to radius<br>56% more Damage with Bleeding while in Blood Stance
+ |level4_stat1_id                         = attack_minimum_added_physical_damage
+ |level4_stat1_value                      = 11
+ |level4_stat2_id                         = attack_maximum_added_physical_damage
+@@ -91,7 +93,7 @@
+ |level5_level_requirement                = 27
+ |level5_damage_effectiveness             = 111
+ |level5_damage_multiplier                = 111.4
+-|level5_stat_text                        = 13 to 19 Added Attack Physical Damage<br>+2 to radius<br>58% more Damage with Bleeding while in Blood Stance
++|level5_stat_text                        = 13 to 19 Added Attack Physical Damage<br>+0.2 metres to radius<br>58% more Damage with Bleeding while in Blood Stance
+ |level5_stat1_id                         = attack_minimum_added_physical_damage
+ |level5_stat1_value                      = 13
+ |level5_stat2_id                         = attack_maximum_added_physical_damage
+@@ -104,7 +106,7 @@
+ |level6_level_requirement                = 31
+ |level6_damage_effectiveness             = 114
+ |level6_damage_multiplier                = 114.2
+-|level6_stat_text                        = 16 to 24 Added Attack Physical Damage<br>+2 to radius<br>60% more Damage with Bleeding while in Blood Stance
++|level6_stat_text                        = 16 to 24 Added Attack Physical Damage<br>+0.2 metres to radius<br>60% more Damage with Bleeding while in Blood Stance
+ |level6_stat1_id                         = attack_minimum_added_physical_damage
+ |level6_stat1_value                      = 16
+ |level6_stat2_id                         = attack_maximum_added_physical_damage
+@@ -117,7 +119,7 @@
+ |level7_level_requirement                = 35
+ |level7_damage_effectiveness             = 117
+ |level7_damage_multiplier                = 117.1
+-|level7_stat_text                        = 19 to 28 Added Attack Physical Damage<br>+3 to radius<br>62% more Damage with Bleeding while in Blood Stance
++|level7_stat_text                        = 19 to 28 Added Attack Physical Damage<br>+0.3 metres to radius<br>62% more Damage with Bleeding while in Blood Stance
+ |level7_stat1_id                         = attack_minimum_added_physical_damage
+ |level7_stat1_value                      = 19
+ |level7_stat2_id                         = attack_maximum_added_physical_damage
+@@ -130,7 +132,7 @@
+ |level8_level_requirement                = 38
+ |level8_damage_effectiveness             = 120
+ |level8_damage_multiplier                = 119.9
+-|level8_stat_text                        = 22 to 32 Added Attack Physical Damage<br>+3 to radius<br>64% more Damage with Bleeding while in Blood Stance
++|level8_stat_text                        = 22 to 32 Added Attack Physical Damage<br>+0.3 metres to radius<br>64% more Damage with Bleeding while in Blood Stance
+ |level8_stat1_id                         = attack_minimum_added_physical_damage
+ |level8_stat1_value                      = 22
+ |level8_stat2_id                         = attack_maximum_added_physical_damage
+@@ -143,7 +145,7 @@
+ |level9_level_requirement                = 41
+ |level9_damage_effectiveness             = 123
+ |level9_damage_multiplier                = 122.7
+-|level9_stat_text                        = 25 to 37 Added Attack Physical Damage<br>+4 to radius<br>66% more Damage with Bleeding while in Blood Stance
++|level9_stat_text                        = 25 to 37 Added Attack Physical Damage<br>+0.4 metres to radius<br>66% more Damage with Bleeding while in Blood Stance
+ |level9_stat1_id                         = attack_minimum_added_physical_damage
+ |level9_stat1_value                      = 25
+ |level9_stat2_id                         = attack_maximum_added_physical_damage
+@@ -156,7 +158,7 @@
+ |level10_level_requirement               = 44
+ |level10_damage_effectiveness            = 126
+ |level10_damage_multiplier               = 125.6
+-|level10_stat_text                       = 28 to 42 Added Attack Physical Damage<br>+4 to radius<br>68% more Damage with Bleeding while in Blood Stance
++|level10_stat_text                       = 28 to 42 Added Attack Physical Damage<br>+0.4 metres to radius<br>68% more Damage with Bleeding while in Blood Stance
+ |level10_stat1_id                        = attack_minimum_added_physical_damage
+ |level10_stat1_value                     = 28
+ |level10_stat2_id                        = attack_maximum_added_physical_damage
+@@ -169,7 +171,7 @@
+ |level11_level_requirement               = 47
+ |level11_damage_effectiveness            = 128
+ |level11_damage_multiplier               = 128.4
+-|level11_stat_text                       = 32 to 47 Added Attack Physical Damage<br>+5 to radius<br>70% more Damage with Bleeding while in Blood Stance
++|level11_stat_text                       = 32 to 47 Added Attack Physical Damage<br>+0.5 metres to radius<br>70% more Damage with Bleeding while in Blood Stance
+ |level11_stat1_id                        = attack_minimum_added_physical_damage
+ |level11_stat1_value                     = 32
+ |level11_stat2_id                        = attack_maximum_added_physical_damage
+@@ -182,7 +184,7 @@
+ |level12_level_requirement               = 50
+ |level12_damage_effectiveness            = 131
+ |level12_damage_multiplier               = 131.3
+-|level12_stat_text                       = 36 to 54 Added Attack Physical Damage<br>+5 to radius<br>72% more Damage with Bleeding while in Blood Stance
++|level12_stat_text                       = 36 to 54 Added Attack Physical Damage<br>+0.5 metres to radius<br>72% more Damage with Bleeding while in Blood Stance
+ |level12_stat1_id                        = attack_minimum_added_physical_damage
+ |level12_stat1_value                     = 36
+ |level12_stat2_id                        = attack_maximum_added_physical_damage
+@@ -195,7 +197,7 @@
+ |level13_level_requirement               = 53
+ |level13_damage_effectiveness            = 134
+ |level13_damage_multiplier               = 134.1
+-|level13_stat_text                       = 40 to 60 Added Attack Physical Damage<br>+6 to radius<br>74% more Damage with Bleeding while in Blood Stance
++|level13_stat_text                       = 40 to 60 Added Attack Physical Damage<br>+0.6 metres to radius<br>74% more Damage with Bleeding while in Blood Stance
+ |level13_stat1_id                        = attack_minimum_added_physical_damage
+ |level13_stat1_value                     = 40
+ |level13_stat2_id                        = attack_maximum_added_physical_damage
+@@ -208,7 +210,7 @@
+ |level14_level_requirement               = 56
+ |level14_damage_effectiveness            = 137
+ |level14_damage_multiplier               = 136.9
+-|level14_stat_text                       = 45 to 68 Added Attack Physical Damage<br>+6 to radius<br>76% more Damage with Bleeding while in Blood Stance
++|level14_stat_text                       = 45 to 68 Added Attack Physical Damage<br>+0.6 metres to radius<br>76% more Damage with Bleeding while in Blood Stance
+ |level14_stat1_id                        = attack_minimum_added_physical_damage
+ |level14_stat1_value                     = 45
+ |level14_stat2_id                        = attack_maximum_added_physical_damage
+@@ -221,7 +223,7 @@
+ |level15_level_requirement               = 59
+ |level15_damage_effectiveness            = 140
+ |level15_damage_multiplier               = 139.8
+-|level15_stat_text                       = 51 to 76 Added Attack Physical Damage<br>+7 to radius<br>78% more Damage with Bleeding while in Blood Stance
++|level15_stat_text                       = 51 to 76 Added Attack Physical Damage<br>+0.7 metres to radius<br>78% more Damage with Bleeding while in Blood Stance
+ |level15_stat1_id                        = attack_minimum_added_physical_damage
+ |level15_stat1_value                     = 51
+ |level15_stat2_id                        = attack_maximum_added_physical_damage
+@@ -234,7 +236,7 @@
+ |level16_level_requirement               = 62
+ |level16_damage_effectiveness            = 143
+ |level16_damage_multiplier               = 142.6
+-|level16_stat_text                       = 56 to 85 Added Attack Physical Damage<br>+7 to radius<br>80% more Damage with Bleeding while in Blood Stance
++|level16_stat_text                       = 56 to 85 Added Attack Physical Damage<br>+0.7 metres to radius<br>80% more Damage with Bleeding while in Blood Stance
+ |level16_stat1_id                        = attack_minimum_added_physical_damage
+ |level16_stat1_value                     = 56
+ |level16_stat2_id                        = attack_maximum_added_physical_damage
+@@ -247,7 +249,7 @@
+ |level17_level_requirement               = 64
+ |level17_damage_effectiveness            = 145
+ |level17_damage_multiplier               = 145.5
+-|level17_stat_text                       = 61 to 91 Added Attack Physical Damage<br>+8 to radius<br>82% more Damage with Bleeding while in Blood Stance
++|level17_stat_text                       = 61 to 91 Added Attack Physical Damage<br>+0.8 metres to radius<br>82% more Damage with Bleeding while in Blood Stance
+ |level17_stat1_id                        = attack_minimum_added_physical_damage
+ |level17_stat1_value                     = 61
+ |level17_stat2_id                        = attack_maximum_added_physical_damage
+@@ -260,7 +262,7 @@
+ |level18_level_requirement               = 66
+ |level18_damage_effectiveness            = 148
+ |level18_damage_multiplier               = 148.3
+-|level18_stat_text                       = 65 to 98 Added Attack Physical Damage<br>+8 to radius<br>84% more Damage with Bleeding while in Blood Stance
++|level18_stat_text                       = 65 to 98 Added Attack Physical Damage<br>+0.8 metres to radius<br>84% more Damage with Bleeding while in Blood Stance
+ |level18_stat1_id                        = attack_minimum_added_physical_damage
+ |level18_stat1_value                     = 65
+ |level18_stat2_id                        = attack_maximum_added_physical_damage
+@@ -273,7 +275,7 @@
+ |level19_level_requirement               = 68
+ |level19_damage_effectiveness            = 151
+ |level19_damage_multiplier               = 151.2
+-|level19_stat_text                       = 70 to 105 Added Attack Physical Damage<br>+9 to radius<br>86% more Damage with Bleeding while in Blood Stance
++|level19_stat_text                       = 70 to 105 Added Attack Physical Damage<br>+0.9 metres to radius<br>86% more Damage with Bleeding while in Blood Stance
+ |level19_stat1_id                        = attack_minimum_added_physical_damage
+ |level19_stat1_value                     = 70
+ |level19_stat2_id                        = attack_maximum_added_physical_damage
+@@ -286,7 +288,7 @@
+ |level20_level_requirement               = 70
+ |level20_damage_effectiveness            = 154
+ |level20_damage_multiplier               = 154
+-|level20_stat_text                       = 75 to 113 Added Attack Physical Damage<br>+9 to radius<br>88% more Damage with Bleeding while in Blood Stance
++|level20_stat_text                       = 75 to 113 Added Attack Physical Damage<br>+0.9 metres to radius<br>88% more Damage with Bleeding while in Blood Stance
+ |level20_stat1_id                        = attack_minimum_added_physical_damage
+ |level20_stat1_value                     = 75
+ |level20_stat2_id                        = attack_maximum_added_physical_damage
+@@ -299,7 +301,7 @@
+ |level21_level_requirement               = 72
+ |level21_damage_effectiveness            = 157
+ |level21_damage_multiplier               = 156.8
+-|level21_stat_text                       = 81 to 122 Added Attack Physical Damage<br>+10 to radius<br>90% more Damage with Bleeding while in Blood Stance
++|level21_stat_text                       = 81 to 122 Added Attack Physical Damage<br>+1 metre to radius<br>90% more Damage with Bleeding while in Blood Stance
+ |level21_stat1_id                        = attack_minimum_added_physical_damage
+ |level21_stat1_value                     = 81
+ |level21_stat2_id                        = attack_maximum_added_physical_damage
+@@ -312,7 +314,7 @@
+ |level22_level_requirement               = 74
+ |level22_damage_effectiveness            = 160
+ |level22_damage_multiplier               = 159.7
+-|level22_stat_text                       = 87 to 130 Added Attack Physical Damage<br>+10 to radius<br>92% more Damage with Bleeding while in Blood Stance
++|level22_stat_text                       = 87 to 130 Added Attack Physical Damage<br>+1 metre to radius<br>92% more Damage with Bleeding while in Blood Stance
+ |level22_stat1_id                        = attack_minimum_added_physical_damage
+ |level22_stat1_value                     = 87
+ |level22_stat2_id                        = attack_maximum_added_physical_damage
+@@ -325,7 +327,7 @@
+ |level23_level_requirement               = 76
+ |level23_damage_effectiveness            = 163
+ |level23_damage_multiplier               = 162.5
+-|level23_stat_text                       = 93 to 140 Added Attack Physical Damage<br>+11 to radius<br>94% more Damage with Bleeding while in Blood Stance
++|level23_stat_text                       = 93 to 140 Added Attack Physical Damage<br>+1.1 metres to radius<br>94% more Damage with Bleeding while in Blood Stance
+ |level23_stat1_id                        = attack_minimum_added_physical_damage
+ |level23_stat1_value                     = 93
+ |level23_stat2_id                        = attack_maximum_added_physical_damage
+@@ -338,7 +340,7 @@
+ |level24_level_requirement               = 78
+ |level24_damage_effectiveness            = 165
+ |level24_damage_multiplier               = 165.4
+-|level24_stat_text                       = 100 to 150 Added Attack Physical Damage<br>+11 to radius<br>96% more Damage with Bleeding while in Blood Stance
++|level24_stat_text                       = 100 to 150 Added Attack Physical Damage<br>+1.1 metres to radius<br>96% more Damage with Bleeding while in Blood Stance
+ |level24_stat1_id                        = attack_minimum_added_physical_damage
+ |level24_stat1_value                     = 100
+ |level24_stat2_id                        = attack_maximum_added_physical_damage
+@@ -351,7 +353,7 @@
+ |level25_level_requirement               = 80
+ |level25_damage_effectiveness            = 168
+ |level25_damage_multiplier               = 168.2
+-|level25_stat_text                       = 107 to 160 Added Attack Physical Damage<br>+12 to radius<br>98% more Damage with Bleeding while in Blood Stance
++|level25_stat_text                       = 107 to 160 Added Attack Physical Damage<br>+1.2 metres to radius<br>98% more Damage with Bleeding while in Blood Stance
+ |level25_stat1_id                        = attack_minimum_added_physical_damage
+ |level25_stat1_value                     = 107
+ |level25_stat2_id                        = attack_maximum_added_physical_damage
+@@ -364,7 +366,7 @@
+ |level26_level_requirement               = 82
+ |level26_damage_effectiveness            = 171
+ |level26_damage_multiplier               = 171.1
+-|level26_stat_text                       = 114 to 172 Added Attack Physical Damage<br>+12 to radius<br>100% more Damage with Bleeding while in Blood Stance
++|level26_stat_text                       = 114 to 172 Added Attack Physical Damage<br>+1.2 metres to radius<br>100% more Damage with Bleeding while in Blood Stance
+ |level26_stat1_id                        = attack_minimum_added_physical_damage
+ |level26_stat1_value                     = 114
+ |level26_stat2_id                        = attack_maximum_added_physical_damage
+@@ -377,7 +379,7 @@
+ |level27_level_requirement               = 84
+ |level27_damage_effectiveness            = 174
+ |level27_damage_multiplier               = 173.9
+-|level27_stat_text                       = 123 to 184 Added Attack Physical Damage<br>+13 to radius<br>102% more Damage with Bleeding while in Blood Stance
++|level27_stat_text                       = 123 to 184 Added Attack Physical Damage<br>+1.3 metres to radius<br>102% more Damage with Bleeding while in Blood Stance
+ |level27_stat1_id                        = attack_minimum_added_physical_damage
+ |level27_stat1_value                     = 123
+ |level27_stat2_id                        = attack_maximum_added_physical_damage
+@@ -390,7 +392,7 @@
+ |level28_level_requirement               = 86
+ |level28_damage_effectiveness            = 177
+ |level28_damage_multiplier               = 176.7
+-|level28_stat_text                       = 131 to 197 Added Attack Physical Damage<br>+13 to radius<br>104% more Damage with Bleeding while in Blood Stance
++|level28_stat_text                       = 131 to 197 Added Attack Physical Damage<br>+1.3 metres to radius<br>104% more Damage with Bleeding while in Blood Stance
+ |level28_stat1_id                        = attack_minimum_added_physical_damage
+ |level28_stat1_value                     = 131
+ |level28_stat2_id                        = attack_maximum_added_physical_damage
+@@ -403,7 +405,7 @@
+ |level29_level_requirement               = 88
+ |level29_damage_effectiveness            = 180
+ |level29_damage_multiplier               = 179.6
+-|level29_stat_text                       = 140 to 210 Added Attack Physical Damage<br>+14 to radius<br>106% more Damage with Bleeding while in Blood Stance
++|level29_stat_text                       = 140 to 210 Added Attack Physical Damage<br>+1.4 metres to radius<br>106% more Damage with Bleeding while in Blood Stance
+ |level29_stat1_id                        = attack_minimum_added_physical_damage
+ |level29_stat1_value                     = 140
+ |level29_stat2_id                        = attack_maximum_added_physical_damage
+@@ -416,7 +418,7 @@
+ |level30_level_requirement               = 90
+ |level30_damage_effectiveness            = 182
+ |level30_damage_multiplier               = 182.4
+-|level30_stat_text                       = 150 to 224 Added Attack Physical Damage<br>+14 to radius<br>108% more Damage with Bleeding while in Blood Stance
++|level30_stat_text                       = 150 to 224 Added Attack Physical Damage<br>+1.4 metres to radius<br>108% more Damage with Bleeding while in Blood Stance
+ |level30_stat1_id                        = attack_minimum_added_physical_damage
+ |level30_stat1_value                     = 150
+ |level30_stat2_id                        = attack_maximum_added_physical_damage
+@@ -429,7 +431,7 @@
+ |level31_level_requirement               = 91
+ |level31_damage_effectiveness            = 184
+ |level31_damage_multiplier               = 183.8
+-|level31_stat_text                       = 155 to 232 Added Attack Physical Damage<br>+14 to radius<br>109% more Damage with Bleeding while in Blood Stance
++|level31_stat_text                       = 155 to 232 Added Attack Physical Damage<br>+1.4 metres to radius<br>109% more Damage with Bleeding while in Blood Stance
+ |level31_stat1_id                        = attack_minimum_added_physical_damage
+ |level31_stat1_value                     = 155
+ |level31_stat2_id                        = attack_maximum_added_physical_damage
+@@ -442,7 +444,7 @@
+ |level32_level_requirement               = 92
+ |level32_damage_effectiveness            = 185
+ |level32_damage_multiplier               = 185.3
+-|level32_stat_text                       = 160 to 240 Added Attack Physical Damage<br>+15 to radius<br>110% more Damage with Bleeding while in Blood Stance
++|level32_stat_text                       = 160 to 240 Added Attack Physical Damage<br>+1.5 metres to radius<br>110% more Damage with Bleeding while in Blood Stance
+ |level32_stat1_id                        = attack_minimum_added_physical_damage
+ |level32_stat1_value                     = 160
+ |level32_stat2_id                        = attack_maximum_added_physical_damage
+@@ -455,7 +457,7 @@
+ |level33_level_requirement               = 93
+ |level33_damage_effectiveness            = 187
+ |level33_damage_multiplier               = 186.7
+-|level33_stat_text                       = 165 to 248 Added Attack Physical Damage<br>+15 to radius<br>111% more Damage with Bleeding while in Blood Stance
++|level33_stat_text                       = 165 to 248 Added Attack Physical Damage<br>+1.5 metres to radius<br>111% more Damage with Bleeding while in Blood Stance
+ |level33_stat1_id                        = attack_minimum_added_physical_damage
+ |level33_stat1_value                     = 165
+ |level33_stat2_id                        = attack_maximum_added_physical_damage
+@@ -468,7 +470,7 @@
+ |level34_level_requirement               = 94
+ |level34_damage_effectiveness            = 188
+ |level34_damage_multiplier               = 188.1
+-|level34_stat_text                       = 171 to 256 Added Attack Physical Damage<br>+15 to radius<br>112% more Damage with Bleeding while in Blood Stance
++|level34_stat_text                       = 171 to 256 Added Attack Physical Damage<br>+1.5 metres to radius<br>112% more Damage with Bleeding while in Blood Stance
+ |level34_stat1_id                        = attack_minimum_added_physical_damage
+ |level34_stat1_value                     = 171
+ |level34_stat2_id                        = attack_maximum_added_physical_damage
+@@ -481,7 +483,7 @@
+ |level35_level_requirement               = 95
+ |level35_damage_effectiveness            = 190
+ |level35_damage_multiplier               = 189.5
+-|level35_stat_text                       = 176 to 265 Added Attack Physical Damage<br>+15 to radius<br>113% more Damage with Bleeding while in Blood Stance
++|level35_stat_text                       = 176 to 265 Added Attack Physical Damage<br>+1.5 metres to radius<br>113% more Damage with Bleeding while in Blood Stance
+ |level35_stat1_id                        = attack_minimum_added_physical_damage
+ |level35_stat1_value                     = 176
+ |level35_stat2_id                        = attack_maximum_added_physical_damage
+@@ -494,7 +496,7 @@
+ |level36_level_requirement               = 96
+ |level36_damage_effectiveness            = 191
+ |level36_damage_multiplier               = 190.9
+-|level36_stat_text                       = 182 to 273 Added Attack Physical Damage<br>+16 to radius<br>114% more Damage with Bleeding while in Blood Stance
++|level36_stat_text                       = 182 to 273 Added Attack Physical Damage<br>+1.6 metres to radius<br>114% more Damage with Bleeding while in Blood Stance
+ |level36_stat1_id                        = attack_minimum_added_physical_damage
+ |level36_stat1_value                     = 182
+ |level36_stat2_id                        = attack_maximum_added_physical_damage
+@@ -507,7 +509,7 @@
+ |level37_level_requirement               = 97
+ |level37_damage_effectiveness            = 192
+ |level37_damage_multiplier               = 192.4
+-|level37_stat_text                       = 188 to 282 Added Attack Physical Damage<br>+16 to radius<br>115% more Damage with Bleeding while in Blood Stance
++|level37_stat_text                       = 188 to 282 Added Attack Physical Damage<br>+1.6 metres to radius<br>115% more Damage with Bleeding while in Blood Stance
+ |level37_stat1_id                        = attack_minimum_added_physical_damage
+ |level37_stat1_value                     = 188
+ |level37_stat2_id                        = attack_maximum_added_physical_damage
+@@ -520,7 +522,7 @@
+ |level38_level_requirement               = 98
+ |level38_damage_effectiveness            = 194
+ |level38_damage_multiplier               = 193.8
+-|level38_stat_text                       = 194 to 292 Added Attack Physical Damage<br>+16 to radius<br>116% more Damage with Bleeding while in Blood Stance
++|level38_stat_text                       = 194 to 292 Added Attack Physical Damage<br>+1.6 metres to radius<br>116% more Damage with Bleeding while in Blood Stance
+ |level38_stat1_id                        = attack_minimum_added_physical_damage
+ |level38_stat1_value                     = 194
+ |level38_stat2_id                        = attack_maximum_added_physical_damage
+@@ -533,7 +535,7 @@
+ |level39_level_requirement               = 99
+ |level39_damage_effectiveness            = 195
+ |level39_damage_multiplier               = 195.2
+-|level39_stat_text                       = 201 to 301 Added Attack Physical Damage<br>+16 to radius<br>117% more Damage with Bleeding while in Blood Stance
++|level39_stat_text                       = 201 to 301 Added Attack Physical Damage<br>+1.6 metres to radius<br>117% more Damage with Bleeding while in Blood Stance
+ |level39_stat1_id                        = attack_minimum_added_physical_damage
+ |level39_stat1_value                     = 201
+ |level39_stat2_id                        = attack_maximum_added_physical_damage
+@@ -546,7 +548,7 @@
+ |level40_level_requirement               = 100
+ |level40_damage_effectiveness            = 197
+ |level40_damage_multiplier               = 196.6
+-|level40_stat_text                       = 207 to 311 Added Attack Physical Damage<br>+17 to radius<br>118% more Damage with Bleeding while in Blood Stance
++|level40_stat_text                       = 207 to 311 Added Attack Physical Damage<br>+1.7 metres to radius<br>118% more Damage with Bleeding while in Blood Stance
+ |level40_stat1_id                        = attack_minimum_added_physical_damage
+ |level40_stat1_value                     = 207
+ |level40_stat2_id                        = attack_maximum_added_physical_damage

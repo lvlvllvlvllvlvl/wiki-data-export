@@ -1,0 +1,326 @@
+--- Skill:SupportBluntWeaponShockwave
++++ Export
+@@ -23,7 +23,7 @@
+ |static_stat1_value                      = 1
+ |static_stat2_id                         = triggered_by_shockwave_support
+ |static_stat2_value                      = 1
+-|stat_text                               = +(0-7) to radius<br>(0-68)% increased Cooldown Recovery Rate
++|stat_text                               = +(0-0.7) metres to radius<br>(0-68)% increased Cooldown Recovery Rate
+ |level1                                  = True
+ |level1_level_requirement                = 18
+ |level1_stored_uses                      = 1
+@@ -66,7 +66,7 @@
+ |level6_stored_uses                      = 2
+ |level6_damage_effectiveness             = 186
+ |level6_damage_multiplier                = 186.3
+-|level6_stat_text                        = +1 to radius<br>10% increased Cooldown Recovery Rate
++|level6_stat_text                        = +0.1 metres to radius<br>10% increased Cooldown Recovery Rate
+ |level6_stat1_id                         = active_skill_base_radius_+
+ |level6_stat1_value                      = 1
+ |level6_stat2_id                         = base_cooldown_speed_+%
+@@ -76,7 +76,7 @@
+ |level7_stored_uses                      = 2
+ |level7_damage_effectiveness             = 192
+ |level7_damage_multiplier                = 191.6
+-|level7_stat_text                        = +1 to radius<br>12% increased Cooldown Recovery Rate
++|level7_stat_text                        = +0.1 metres to radius<br>12% increased Cooldown Recovery Rate
+ |level7_stat1_id                         = active_skill_base_radius_+
+ |level7_stat1_value                      = 1
+ |level7_stat2_id                         = base_cooldown_speed_+%
+@@ -86,7 +86,7 @@
+ |level8_stored_uses                      = 2
+ |level8_damage_effectiveness             = 197
+ |level8_damage_multiplier                = 196.8
+-|level8_stat_text                        = +1 to radius<br>14% increased Cooldown Recovery Rate
++|level8_stat_text                        = +0.1 metres to radius<br>14% increased Cooldown Recovery Rate
+ |level8_stat1_id                         = active_skill_base_radius_+
+ |level8_stat1_value                      = 1
+ |level8_stat2_id                         = base_cooldown_speed_+%
+@@ -96,7 +96,7 @@
+ |level9_stored_uses                      = 2
+ |level9_damage_effectiveness             = 202
+ |level9_damage_multiplier                = 202.1
+-|level9_stat_text                        = +1 to radius<br>16% increased Cooldown Recovery Rate
++|level9_stat_text                        = +0.1 metres to radius<br>16% increased Cooldown Recovery Rate
+ |level9_stat1_id                         = active_skill_base_radius_+
+ |level9_stat1_value                      = 1
+ |level9_stat2_id                         = base_cooldown_speed_+%
+@@ -106,7 +106,7 @@
+ |level10_stored_uses                     = 2
+ |level10_damage_effectiveness            = 207
+ |level10_damage_multiplier               = 207.4
+-|level10_stat_text                       = +1 to radius<br>18% increased Cooldown Recovery Rate
++|level10_stat_text                       = +0.1 metres to radius<br>18% increased Cooldown Recovery Rate
+ |level10_stat1_id                        = active_skill_base_radius_+
+ |level10_stat1_value                     = 1
+ |level10_stat2_id                        = base_cooldown_speed_+%
+@@ -116,7 +116,7 @@
+ |level11_stored_uses                     = 3
+ |level11_damage_effectiveness            = 213
+ |level11_damage_multiplier               = 212.6
+-|level11_stat_text                       = +2 to radius<br>20% increased Cooldown Recovery Rate
++|level11_stat_text                       = +0.2 metres to radius<br>20% increased Cooldown Recovery Rate
+ |level11_stat1_id                        = active_skill_base_radius_+
+ |level11_stat1_value                     = 2
+ |level11_stat2_id                        = base_cooldown_speed_+%
+@@ -126,7 +126,7 @@
+ |level12_stored_uses                     = 3
+ |level12_damage_effectiveness            = 218
+ |level12_damage_multiplier               = 217.9
+-|level12_stat_text                       = +2 to radius<br>22% increased Cooldown Recovery Rate
++|level12_stat_text                       = +0.2 metres to radius<br>22% increased Cooldown Recovery Rate
+ |level12_stat1_id                        = active_skill_base_radius_+
+ |level12_stat1_value                     = 2
+ |level12_stat2_id                        = base_cooldown_speed_+%
+@@ -136,7 +136,7 @@
+ |level13_stored_uses                     = 3
+ |level13_damage_effectiveness            = 223
+ |level13_damage_multiplier               = 223.2
+-|level13_stat_text                       = +2 to radius<br>24% increased Cooldown Recovery Rate
++|level13_stat_text                       = +0.2 metres to radius<br>24% increased Cooldown Recovery Rate
+ |level13_stat1_id                        = active_skill_base_radius_+
+ |level13_stat1_value                     = 2
+ |level13_stat2_id                        = base_cooldown_speed_+%
+@@ -146,7 +146,7 @@
+ |level14_stored_uses                     = 3
+ |level14_damage_effectiveness            = 228
+ |level14_damage_multiplier               = 228.4
+-|level14_stat_text                       = +2 to radius<br>26% increased Cooldown Recovery Rate
++|level14_stat_text                       = +0.2 metres to radius<br>26% increased Cooldown Recovery Rate
+ |level14_stat1_id                        = active_skill_base_radius_+
+ |level14_stat1_value                     = 2
+ |level14_stat2_id                        = base_cooldown_speed_+%
+@@ -156,7 +156,7 @@
+ |level15_stored_uses                     = 3
+ |level15_damage_effectiveness            = 234
+ |level15_damage_multiplier               = 233.7
+-|level15_stat_text                       = +2 to radius<br>28% increased Cooldown Recovery Rate
++|level15_stat_text                       = +0.2 metres to radius<br>28% increased Cooldown Recovery Rate
+ |level15_stat1_id                        = active_skill_base_radius_+
+ |level15_stat1_value                     = 2
+ |level15_stat2_id                        = base_cooldown_speed_+%
+@@ -166,7 +166,7 @@
+ |level16_stored_uses                     = 4
+ |level16_damage_effectiveness            = 239
+ |level16_damage_multiplier               = 238.9
+-|level16_stat_text                       = +3 to radius<br>30% increased Cooldown Recovery Rate
++|level16_stat_text                       = +0.3 metres to radius<br>30% increased Cooldown Recovery Rate
+ |level16_stat1_id                        = active_skill_base_radius_+
+ |level16_stat1_value                     = 3
+ |level16_stat2_id                        = base_cooldown_speed_+%
+@@ -176,7 +176,7 @@
+ |level17_stored_uses                     = 4
+ |level17_damage_effectiveness            = 244
+ |level17_damage_multiplier               = 244.2
+-|level17_stat_text                       = +3 to radius<br>32% increased Cooldown Recovery Rate
++|level17_stat_text                       = +0.3 metres to radius<br>32% increased Cooldown Recovery Rate
+ |level17_stat1_id                        = active_skill_base_radius_+
+ |level17_stat1_value                     = 3
+ |level17_stat2_id                        = base_cooldown_speed_+%
+@@ -186,7 +186,7 @@
+ |level18_stored_uses                     = 4
+ |level18_damage_effectiveness            = 249
+ |level18_damage_multiplier               = 249.5
+-|level18_stat_text                       = +3 to radius<br>34% increased Cooldown Recovery Rate
++|level18_stat_text                       = +0.3 metres to radius<br>34% increased Cooldown Recovery Rate
+ |level18_stat1_id                        = active_skill_base_radius_+
+ |level18_stat1_value                     = 3
+ |level18_stat2_id                        = base_cooldown_speed_+%
+@@ -196,7 +196,7 @@
+ |level19_stored_uses                     = 4
+ |level19_damage_effectiveness            = 255
+ |level19_damage_multiplier               = 254.7
+-|level19_stat_text                       = +3 to radius<br>36% increased Cooldown Recovery Rate
++|level19_stat_text                       = +0.3 metres to radius<br>36% increased Cooldown Recovery Rate
+ |level19_stat1_id                        = active_skill_base_radius_+
+ |level19_stat1_value                     = 3
+ |level19_stat2_id                        = base_cooldown_speed_+%
+@@ -206,7 +206,7 @@
+ |level20_stored_uses                     = 4
+ |level20_damage_effectiveness            = 260
+ |level20_damage_multiplier               = 260
+-|level20_stat_text                       = +3 to radius<br>38% increased Cooldown Recovery Rate
++|level20_stat_text                       = +0.3 metres to radius<br>38% increased Cooldown Recovery Rate
+ |level20_stat1_id                        = active_skill_base_radius_+
+ |level20_stat1_value                     = 3
+ |level20_stat2_id                        = base_cooldown_speed_+%
+@@ -216,7 +216,7 @@
+ |level21_stored_uses                     = 5
+ |level21_damage_effectiveness            = 265
+ |level21_damage_multiplier               = 265.3
+-|level21_stat_text                       = +4 to radius<br>40% increased Cooldown Recovery Rate
++|level21_stat_text                       = +0.4 metres to radius<br>40% increased Cooldown Recovery Rate
+ |level21_stat1_id                        = active_skill_base_radius_+
+ |level21_stat1_value                     = 4
+ |level21_stat2_id                        = base_cooldown_speed_+%
+@@ -226,7 +226,7 @@
+ |level22_stored_uses                     = 5
+ |level22_damage_effectiveness            = 271
+ |level22_damage_multiplier               = 270.5
+-|level22_stat_text                       = +4 to radius<br>42% increased Cooldown Recovery Rate
++|level22_stat_text                       = +0.4 metres to radius<br>42% increased Cooldown Recovery Rate
+ |level22_stat1_id                        = active_skill_base_radius_+
+ |level22_stat1_value                     = 4
+ |level22_stat2_id                        = base_cooldown_speed_+%
+@@ -236,7 +236,7 @@
+ |level23_stored_uses                     = 5
+ |level23_damage_effectiveness            = 276
+ |level23_damage_multiplier               = 275.8
+-|level23_stat_text                       = +4 to radius<br>44% increased Cooldown Recovery Rate
++|level23_stat_text                       = +0.4 metres to radius<br>44% increased Cooldown Recovery Rate
+ |level23_stat1_id                        = active_skill_base_radius_+
+ |level23_stat1_value                     = 4
+ |level23_stat2_id                        = base_cooldown_speed_+%
+@@ -246,7 +246,7 @@
+ |level24_stored_uses                     = 5
+ |level24_damage_effectiveness            = 281
+ |level24_damage_multiplier               = 281.1
+-|level24_stat_text                       = +4 to radius<br>46% increased Cooldown Recovery Rate
++|level24_stat_text                       = +0.4 metres to radius<br>46% increased Cooldown Recovery Rate
+ |level24_stat1_id                        = active_skill_base_radius_+
+ |level24_stat1_value                     = 4
+ |level24_stat2_id                        = base_cooldown_speed_+%
+@@ -256,7 +256,7 @@
+ |level25_stored_uses                     = 5
+ |level25_damage_effectiveness            = 286
+ |level25_damage_multiplier               = 286.3
+-|level25_stat_text                       = +4 to radius<br>48% increased Cooldown Recovery Rate
++|level25_stat_text                       = +0.4 metres to radius<br>48% increased Cooldown Recovery Rate
+ |level25_stat1_id                        = active_skill_base_radius_+
+ |level25_stat1_value                     = 4
+ |level25_stat2_id                        = base_cooldown_speed_+%
+@@ -266,7 +266,7 @@
+ |level26_stored_uses                     = 5
+ |level26_damage_effectiveness            = 292
+ |level26_damage_multiplier               = 291.6
+-|level26_stat_text                       = +5 to radius<br>50% increased Cooldown Recovery Rate
++|level26_stat_text                       = +0.5 metres to radius<br>50% increased Cooldown Recovery Rate
+ |level26_stat1_id                        = active_skill_base_radius_+
+ |level26_stat1_value                     = 5
+ |level26_stat2_id                        = base_cooldown_speed_+%
+@@ -276,7 +276,7 @@
+ |level27_stored_uses                     = 5
+ |level27_damage_effectiveness            = 297
+ |level27_damage_multiplier               = 296.8
+-|level27_stat_text                       = +5 to radius<br>52% increased Cooldown Recovery Rate
++|level27_stat_text                       = +0.5 metres to radius<br>52% increased Cooldown Recovery Rate
+ |level27_stat1_id                        = active_skill_base_radius_+
+ |level27_stat1_value                     = 5
+ |level27_stat2_id                        = base_cooldown_speed_+%
+@@ -286,7 +286,7 @@
+ |level28_stored_uses                     = 5
+ |level28_damage_effectiveness            = 302
+ |level28_damage_multiplier               = 302.1
+-|level28_stat_text                       = +5 to radius<br>54% increased Cooldown Recovery Rate
++|level28_stat_text                       = +0.5 metres to radius<br>54% increased Cooldown Recovery Rate
+ |level28_stat1_id                        = active_skill_base_radius_+
+ |level28_stat1_value                     = 5
+ |level28_stat2_id                        = base_cooldown_speed_+%
+@@ -296,7 +296,7 @@
+ |level29_stored_uses                     = 5
+ |level29_damage_effectiveness            = 307
+ |level29_damage_multiplier               = 307.4
+-|level29_stat_text                       = +5 to radius<br>56% increased Cooldown Recovery Rate
++|level29_stat_text                       = +0.5 metres to radius<br>56% increased Cooldown Recovery Rate
+ |level29_stat1_id                        = active_skill_base_radius_+
+ |level29_stat1_value                     = 5
+ |level29_stat2_id                        = base_cooldown_speed_+%
+@@ -306,7 +306,7 @@
+ |level30_stored_uses                     = 5
+ |level30_damage_effectiveness            = 313
+ |level30_damage_multiplier               = 312.6
+-|level30_stat_text                       = +5 to radius<br>58% increased Cooldown Recovery Rate
++|level30_stat_text                       = +0.5 metres to radius<br>58% increased Cooldown Recovery Rate
+ |level30_stat1_id                        = active_skill_base_radius_+
+ |level30_stat1_value                     = 5
+ |level30_stat2_id                        = base_cooldown_speed_+%
+@@ -316,7 +316,7 @@
+ |level31_stored_uses                     = 6
+ |level31_damage_effectiveness            = 315
+ |level31_damage_multiplier               = 315.3
+-|level31_stat_text                       = +6 to radius<br>59% increased Cooldown Recovery Rate
++|level31_stat_text                       = +0.6 metres to radius<br>59% increased Cooldown Recovery Rate
+ |level31_stat1_id                        = active_skill_base_radius_+
+ |level31_stat1_value                     = 6
+ |level31_stat2_id                        = base_cooldown_speed_+%
+@@ -326,7 +326,7 @@
+ |level32_stored_uses                     = 6
+ |level32_damage_effectiveness            = 318
+ |level32_damage_multiplier               = 317.9
+-|level32_stat_text                       = +6 to radius<br>60% increased Cooldown Recovery Rate
++|level32_stat_text                       = +0.6 metres to radius<br>60% increased Cooldown Recovery Rate
+ |level32_stat1_id                        = active_skill_base_radius_+
+ |level32_stat1_value                     = 6
+ |level32_stat2_id                        = base_cooldown_speed_+%
+@@ -336,7 +336,7 @@
+ |level33_stored_uses                     = 6
+ |level33_damage_effectiveness            = 321
+ |level33_damage_multiplier               = 320.5
+-|level33_stat_text                       = +6 to radius<br>61% increased Cooldown Recovery Rate
++|level33_stat_text                       = +0.6 metres to radius<br>61% increased Cooldown Recovery Rate
+ |level33_stat1_id                        = active_skill_base_radius_+
+ |level33_stat1_value                     = 6
+ |level33_stat2_id                        = base_cooldown_speed_+%
+@@ -346,7 +346,7 @@
+ |level34_stored_uses                     = 6
+ |level34_damage_effectiveness            = 323
+ |level34_damage_multiplier               = 323.2
+-|level34_stat_text                       = +6 to radius<br>62% increased Cooldown Recovery Rate
++|level34_stat_text                       = +0.6 metres to radius<br>62% increased Cooldown Recovery Rate
+ |level34_stat1_id                        = active_skill_base_radius_+
+ |level34_stat1_value                     = 6
+ |level34_stat2_id                        = base_cooldown_speed_+%
+@@ -356,7 +356,7 @@
+ |level35_stored_uses                     = 6
+ |level35_damage_effectiveness            = 326
+ |level35_damage_multiplier               = 325.8
+-|level35_stat_text                       = +6 to radius<br>63% increased Cooldown Recovery Rate
++|level35_stat_text                       = +0.6 metres to radius<br>63% increased Cooldown Recovery Rate
+ |level35_stat1_id                        = active_skill_base_radius_+
+ |level35_stat1_value                     = 6
+ |level35_stat2_id                        = base_cooldown_speed_+%
+@@ -366,7 +366,7 @@
+ |level36_stored_uses                     = 6
+ |level36_damage_effectiveness            = 328
+ |level36_damage_multiplier               = 328.4
+-|level36_stat_text                       = +7 to radius<br>64% increased Cooldown Recovery Rate
++|level36_stat_text                       = +0.7 metres to radius<br>64% increased Cooldown Recovery Rate
+ |level36_stat1_id                        = active_skill_base_radius_+
+ |level36_stat1_value                     = 7
+ |level36_stat2_id                        = base_cooldown_speed_+%
+@@ -376,7 +376,7 @@
+ |level37_stored_uses                     = 6
+ |level37_damage_effectiveness            = 331
+ |level37_damage_multiplier               = 331.1
+-|level37_stat_text                       = +7 to radius<br>65% increased Cooldown Recovery Rate
++|level37_stat_text                       = +0.7 metres to radius<br>65% increased Cooldown Recovery Rate
+ |level37_stat1_id                        = active_skill_base_radius_+
+ |level37_stat1_value                     = 7
+ |level37_stat2_id                        = base_cooldown_speed_+%
+@@ -386,7 +386,7 @@
+ |level38_stored_uses                     = 6
+ |level38_damage_effectiveness            = 334
+ |level38_damage_multiplier               = 333.7
+-|level38_stat_text                       = +7 to radius<br>66% increased Cooldown Recovery Rate
++|level38_stat_text                       = +0.7 metres to radius<br>66% increased Cooldown Recovery Rate
+ |level38_stat1_id                        = active_skill_base_radius_+
+ |level38_stat1_value                     = 7
+ |level38_stat2_id                        = base_cooldown_speed_+%
+@@ -396,7 +396,7 @@
+ |level39_stored_uses                     = 6
+ |level39_damage_effectiveness            = 336
+ |level39_damage_multiplier               = 336.3
+-|level39_stat_text                       = +7 to radius<br>67% increased Cooldown Recovery Rate
++|level39_stat_text                       = +0.7 metres to radius<br>67% increased Cooldown Recovery Rate
+ |level39_stat1_id                        = active_skill_base_radius_+
+ |level39_stat1_value                     = 7
+ |level39_stat2_id                        = base_cooldown_speed_+%
+@@ -406,7 +406,7 @@
+ |level40_stored_uses                     = 6
+ |level40_damage_effectiveness            = 339
+ |level40_damage_multiplier               = 336.4
+-|level40_stat_text                       = +7 to radius<br>68% increased Cooldown Recovery Rate
++|level40_stat_text                       = +0.7 metres to radius<br>68% increased Cooldown Recovery Rate
+ |level40_stat1_id                        = active_skill_base_radius_+
+ |level40_stat1_value                     = 7
+ |level40_stat2_id                        = base_cooldown_speed_+%

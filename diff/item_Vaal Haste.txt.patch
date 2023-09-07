@@ -1,0 +1,362 @@
+--- Vaal Haste
++++ Export
+@@ -34,7 +34,7 @@
+ |static_stat2_value                      = 4000
+ |static_stat3_id                         = modifiers_to_buff_effect_duration_also_affect_soul_prevention_duration
+ |static_stat3_value                      = 1
+-|stat_text                               = Base duration is 4 seconds<br>Modifiers to Buff Duration also apply to this Skill's Soul Gain Prevention<br>+(0-19) to radius<br>You and nearby allies gain (16-20)% increased Movement Speed<br>You and nearby allies gain (25-31)% increased Attack Speed<br>You and nearby allies gain (24-31)% increased Cast Speed
++|stat_text                               = Base duration is 4 seconds<br>Modifiers to Buff Duration also apply to this Skill's Soul Gain Prevention<br>+(0-1.9) metres to radius<br>You and nearby allies gain (16-20)% increased Movement Speed<br>You and nearby allies gain (25-31)% increased Attack Speed<br>You and nearby allies gain (24-31)% increased Cast Speed
+ |level1                                  = True
+ |level1_level_requirement                = 24
+ |level1_stat_text                        = You and nearby allies gain 16% increased Movement Speed<br>You and nearby allies gain 25% increased Attack Speed<br>You and nearby allies gain 24% increased Cast Speed
+@@ -46,7 +46,7 @@
+ |level1_stat3_value                      = 24
+ |level2                                  = True
+ |level2_level_requirement                = 27
+-|level2_stat_text                        = +1 to radius<br>You and nearby allies gain 16% increased Movement Speed<br>You and nearby allies gain 25% increased Attack Speed<br>You and nearby allies gain 25% increased Cast Speed
++|level2_stat_text                        = +0.1 metres to radius<br>You and nearby allies gain 16% increased Movement Speed<br>You and nearby allies gain 25% increased Attack Speed<br>You and nearby allies gain 25% increased Cast Speed
+ |level2_stat1_id                         = active_skill_base_radius_+
+ |level2_stat1_value                      = 1
+ |level2_stat2_id                         = base_movement_velocity_+%
+@@ -57,7 +57,7 @@
+ |level2_stat4_value                      = 25
+ |level3                                  = True
+ |level3_level_requirement                = 30
+-|level3_stat_text                        = +2 to radius<br>You and nearby allies gain 16% increased Movement Speed<br>You and nearby allies gain 25% increased Attack Speed<br>You and nearby allies gain 25% increased Cast Speed
++|level3_stat_text                        = +0.2 metres to radius<br>You and nearby allies gain 16% increased Movement Speed<br>You and nearby allies gain 25% increased Attack Speed<br>You and nearby allies gain 25% increased Cast Speed
+ |level3_stat1_id                         = active_skill_base_radius_+
+ |level3_stat1_value                      = 2
+ |level3_stat2_id                         = base_movement_velocity_+%
+@@ -68,7 +68,7 @@
+ |level3_stat4_value                      = 25
+ |level4                                  = True
+ |level4_level_requirement                = 33
+-|level4_stat_text                        = +3 to radius<br>You and nearby allies gain 16% increased Movement Speed<br>You and nearby allies gain 26% increased Attack Speed<br>You and nearby allies gain 25% increased Cast Speed
++|level4_stat_text                        = +0.3 metres to radius<br>You and nearby allies gain 16% increased Movement Speed<br>You and nearby allies gain 26% increased Attack Speed<br>You and nearby allies gain 25% increased Cast Speed
+ |level4_stat1_id                         = active_skill_base_radius_+
+ |level4_stat1_value                      = 3
+ |level4_stat2_id                         = base_movement_velocity_+%
+@@ -79,7 +79,7 @@
+ |level4_stat4_value                      = 25
+ |level5                                  = True
+ |level5_level_requirement                = 36
+-|level5_stat_text                        = +4 to radius<br>You and nearby allies gain 17% increased Movement Speed<br>You and nearby allies gain 26% increased Attack Speed<br>You and nearby allies gain 26% increased Cast Speed
++|level5_stat_text                        = +0.4 metres to radius<br>You and nearby allies gain 17% increased Movement Speed<br>You and nearby allies gain 26% increased Attack Speed<br>You and nearby allies gain 26% increased Cast Speed
+ |level5_stat1_id                         = active_skill_base_radius_+
+ |level5_stat1_value                      = 4
+ |level5_stat2_id                         = base_movement_velocity_+%
+@@ -90,7 +90,7 @@
+ |level5_stat4_value                      = 26
+ |level6                                  = True
+ |level6_level_requirement                = 39
+-|level6_stat_text                        = +5 to radius<br>You and nearby allies gain 17% increased Movement Speed<br>You and nearby allies gain 26% increased Attack Speed<br>You and nearby allies gain 26% increased Cast Speed
++|level6_stat_text                        = +0.5 metres to radius<br>You and nearby allies gain 17% increased Movement Speed<br>You and nearby allies gain 26% increased Attack Speed<br>You and nearby allies gain 26% increased Cast Speed
+ |level6_stat1_id                         = active_skill_base_radius_+
+ |level6_stat1_value                      = 5
+ |level6_stat2_id                         = base_movement_velocity_+%
+@@ -101,7 +101,7 @@
+ |level6_stat4_value                      = 26
+ |level7                                  = True
+ |level7_level_requirement                = 42
+-|level7_stat_text                        = +6 to radius<br>You and nearby allies gain 17% increased Movement Speed<br>You and nearby allies gain 27% increased Attack Speed<br>You and nearby allies gain 26% increased Cast Speed
++|level7_stat_text                        = +0.6 metres to radius<br>You and nearby allies gain 17% increased Movement Speed<br>You and nearby allies gain 27% increased Attack Speed<br>You and nearby allies gain 26% increased Cast Speed
+ |level7_stat1_id                         = active_skill_base_radius_+
+ |level7_stat1_value                      = 6
+ |level7_stat2_id                         = base_movement_velocity_+%
+@@ -112,7 +112,7 @@
+ |level7_stat4_value                      = 26
+ |level8                                  = True
+ |level8_level_requirement                = 45
+-|level8_stat_text                        = +7 to radius<br>You and nearby allies gain 17% increased Movement Speed<br>You and nearby allies gain 27% increased Attack Speed<br>You and nearby allies gain 27% increased Cast Speed
++|level8_stat_text                        = +0.7 metres to radius<br>You and nearby allies gain 17% increased Movement Speed<br>You and nearby allies gain 27% increased Attack Speed<br>You and nearby allies gain 27% increased Cast Speed
+ |level8_stat1_id                         = active_skill_base_radius_+
+ |level8_stat1_value                      = 7
+ |level8_stat2_id                         = base_movement_velocity_+%
+@@ -123,7 +123,7 @@
+ |level8_stat4_value                      = 27
+ |level9                                  = True
+ |level9_level_requirement                = 48
+-|level9_stat_text                        = +8 to radius<br>You and nearby allies gain 18% increased Movement Speed<br>You and nearby allies gain 27% increased Attack Speed<br>You and nearby allies gain 27% increased Cast Speed
++|level9_stat_text                        = +0.8 metres to radius<br>You and nearby allies gain 18% increased Movement Speed<br>You and nearby allies gain 27% increased Attack Speed<br>You and nearby allies gain 27% increased Cast Speed
+ |level9_stat1_id                         = active_skill_base_radius_+
+ |level9_stat1_value                      = 8
+ |level9_stat2_id                         = base_movement_velocity_+%
+@@ -134,7 +134,7 @@
+ |level9_stat4_value                      = 27
+ |level10                                 = True
+ |level10_level_requirement               = 50
+-|level10_stat_text                       = +9 to radius<br>You and nearby allies gain 18% increased Movement Speed<br>You and nearby allies gain 28% increased Attack Speed<br>You and nearby allies gain 27% increased Cast Speed
++|level10_stat_text                       = +0.9 metres to radius<br>You and nearby allies gain 18% increased Movement Speed<br>You and nearby allies gain 28% increased Attack Speed<br>You and nearby allies gain 27% increased Cast Speed
+ |level10_stat1_id                        = active_skill_base_radius_+
+ |level10_stat1_value                     = 9
+ |level10_stat2_id                        = base_movement_velocity_+%
+@@ -145,7 +145,7 @@
+ |level10_stat4_value                     = 27
+ |level11                                 = True
+ |level11_level_requirement               = 52
+-|level11_stat_text                       = +10 to radius<br>You and nearby allies gain 18% increased Movement Speed<br>You and nearby allies gain 28% increased Attack Speed<br>You and nearby allies gain 28% increased Cast Speed
++|level11_stat_text                       = +1 metre to radius<br>You and nearby allies gain 18% increased Movement Speed<br>You and nearby allies gain 28% increased Attack Speed<br>You and nearby allies gain 28% increased Cast Speed
+ |level11_stat1_id                        = active_skill_base_radius_+
+ |level11_stat1_value                     = 10
+ |level11_stat2_id                        = base_movement_velocity_+%
+@@ -156,7 +156,7 @@
+ |level11_stat4_value                     = 28
+ |level12                                 = True
+ |level12_level_requirement               = 54
+-|level12_stat_text                       = +11 to radius<br>You and nearby allies gain 18% increased Movement Speed<br>You and nearby allies gain 28% increased Attack Speed<br>You and nearby allies gain 28% increased Cast Speed
++|level12_stat_text                       = +1.1 metres to radius<br>You and nearby allies gain 18% increased Movement Speed<br>You and nearby allies gain 28% increased Attack Speed<br>You and nearby allies gain 28% increased Cast Speed
+ |level12_stat1_id                        = active_skill_base_radius_+
+ |level12_stat1_value                     = 11
+ |level12_stat2_id                        = base_movement_velocity_+%
+@@ -167,7 +167,7 @@
+ |level12_stat4_value                     = 28
+ |level13                                 = True
+ |level13_level_requirement               = 56
+-|level13_stat_text                       = +12 to radius<br>You and nearby allies gain 19% increased Movement Speed<br>You and nearby allies gain 29% increased Attack Speed<br>You and nearby allies gain 28% increased Cast Speed
++|level13_stat_text                       = +1.2 metres to radius<br>You and nearby allies gain 19% increased Movement Speed<br>You and nearby allies gain 29% increased Attack Speed<br>You and nearby allies gain 28% increased Cast Speed
+ |level13_stat1_id                        = active_skill_base_radius_+
+ |level13_stat1_value                     = 12
+ |level13_stat2_id                        = base_movement_velocity_+%
+@@ -178,7 +178,7 @@
+ |level13_stat4_value                     = 28
+ |level14                                 = True
+ |level14_level_requirement               = 58
+-|level14_stat_text                       = +13 to radius<br>You and nearby allies gain 19% increased Movement Speed<br>You and nearby allies gain 29% increased Attack Speed<br>You and nearby allies gain 29% increased Cast Speed
++|level14_stat_text                       = +1.3 metres to radius<br>You and nearby allies gain 19% increased Movement Speed<br>You and nearby allies gain 29% increased Attack Speed<br>You and nearby allies gain 29% increased Cast Speed
+ |level14_stat1_id                        = active_skill_base_radius_+
+ |level14_stat1_value                     = 13
+ |level14_stat2_id                        = base_movement_velocity_+%
+@@ -189,7 +189,7 @@
+ |level14_stat4_value                     = 29
+ |level15                                 = True
+ |level15_level_requirement               = 60
+-|level15_stat_text                       = +14 to radius<br>You and nearby allies gain 19% increased Movement Speed<br>You and nearby allies gain 29% increased Attack Speed<br>You and nearby allies gain 29% increased Cast Speed
++|level15_stat_text                       = +1.4 metres to radius<br>You and nearby allies gain 19% increased Movement Speed<br>You and nearby allies gain 29% increased Attack Speed<br>You and nearby allies gain 29% increased Cast Speed
+ |level15_stat1_id                        = active_skill_base_radius_+
+ |level15_stat1_value                     = 14
+ |level15_stat2_id                        = base_movement_velocity_+%
+@@ -200,7 +200,7 @@
+ |level15_stat4_value                     = 29
+ |level16                                 = True
+ |level16_level_requirement               = 62
+-|level16_stat_text                       = +15 to radius<br>You and nearby allies gain 19% increased Movement Speed<br>You and nearby allies gain 30% increased Attack Speed<br>You and nearby allies gain 29% increased Cast Speed
++|level16_stat_text                       = +1.5 metres to radius<br>You and nearby allies gain 19% increased Movement Speed<br>You and nearby allies gain 30% increased Attack Speed<br>You and nearby allies gain 29% increased Cast Speed
+ |level16_stat1_id                        = active_skill_base_radius_+
+ |level16_stat1_value                     = 15
+ |level16_stat2_id                        = base_movement_velocity_+%
+@@ -211,7 +211,7 @@
+ |level16_stat4_value                     = 29
+ |level17                                 = True
+ |level17_level_requirement               = 64
+-|level17_stat_text                       = +16 to radius<br>You and nearby allies gain 20% increased Movement Speed<br>You and nearby allies gain 30% increased Attack Speed<br>You and nearby allies gain 30% increased Cast Speed
++|level17_stat_text                       = +1.6 metres to radius<br>You and nearby allies gain 20% increased Movement Speed<br>You and nearby allies gain 30% increased Attack Speed<br>You and nearby allies gain 30% increased Cast Speed
+ |level17_stat1_id                        = active_skill_base_radius_+
+ |level17_stat1_value                     = 16
+ |level17_stat2_id                        = base_movement_velocity_+%
+@@ -222,7 +222,7 @@
+ |level17_stat4_value                     = 30
+ |level18                                 = True
+ |level18_level_requirement               = 66
+-|level18_stat_text                       = +17 to radius<br>You and nearby allies gain 20% increased Movement Speed<br>You and nearby allies gain 30% increased Attack Speed<br>You and nearby allies gain 30% increased Cast Speed
++|level18_stat_text                       = +1.7 metres to radius<br>You and nearby allies gain 20% increased Movement Speed<br>You and nearby allies gain 30% increased Attack Speed<br>You and nearby allies gain 30% increased Cast Speed
+ |level18_stat1_id                        = active_skill_base_radius_+
+ |level18_stat1_value                     = 17
+ |level18_stat2_id                        = base_movement_velocity_+%
+@@ -233,7 +233,7 @@
+ |level18_stat4_value                     = 30
+ |level19                                 = True
+ |level19_level_requirement               = 68
+-|level19_stat_text                       = +18 to radius<br>You and nearby allies gain 20% increased Movement Speed<br>You and nearby allies gain 31% increased Attack Speed<br>You and nearby allies gain 30% increased Cast Speed
++|level19_stat_text                       = +1.8 metres to radius<br>You and nearby allies gain 20% increased Movement Speed<br>You and nearby allies gain 31% increased Attack Speed<br>You and nearby allies gain 30% increased Cast Speed
+ |level19_stat1_id                        = active_skill_base_radius_+
+ |level19_stat1_value                     = 18
+ |level19_stat2_id                        = base_movement_velocity_+%
+@@ -244,7 +244,7 @@
+ |level19_stat4_value                     = 30
+ |level20                                 = True
+ |level20_level_requirement               = 70
+-|level20_stat_text                       = +19 to radius<br>You and nearby allies gain 20% increased Movement Speed<br>You and nearby allies gain 31% increased Attack Speed<br>You and nearby allies gain 31% increased Cast Speed
++|level20_stat_text                       = +1.9 metres to radius<br>You and nearby allies gain 20% increased Movement Speed<br>You and nearby allies gain 31% increased Attack Speed<br>You and nearby allies gain 31% increased Cast Speed
+ |level20_stat1_id                        = active_skill_base_radius_+
+ |level20_stat1_value                     = 19
+ |level20_stat2_id                        = base_movement_velocity_+%
+@@ -255,7 +255,7 @@
+ |level20_stat4_value                     = 31
+ |level21                                 = True
+ |level21_level_requirement               = 72
+-|level21_stat_text                       = +20 to radius<br>You and nearby allies gain 21% increased Movement Speed<br>You and nearby allies gain 31% increased Attack Speed<br>You and nearby allies gain 31% increased Cast Speed
++|level21_stat_text                       = +2 metres to radius<br>You and nearby allies gain 21% increased Movement Speed<br>You and nearby allies gain 31% increased Attack Speed<br>You and nearby allies gain 31% increased Cast Speed
+ |level21_stat1_id                        = active_skill_base_radius_+
+ |level21_stat1_value                     = 20
+ |level21_stat2_id                        = base_movement_velocity_+%
+@@ -266,7 +266,7 @@
+ |level21_stat4_value                     = 31
+ |level22                                 = True
+ |level22_level_requirement               = 74
+-|level22_stat_text                       = +21 to radius<br>You and nearby allies gain 21% increased Movement Speed<br>You and nearby allies gain 32% increased Attack Speed<br>You and nearby allies gain 31% increased Cast Speed
++|level22_stat_text                       = +2.1 metres to radius<br>You and nearby allies gain 21% increased Movement Speed<br>You and nearby allies gain 32% increased Attack Speed<br>You and nearby allies gain 31% increased Cast Speed
+ |level22_stat1_id                        = active_skill_base_radius_+
+ |level22_stat1_value                     = 21
+ |level22_stat2_id                        = base_movement_velocity_+%
+@@ -277,7 +277,7 @@
+ |level22_stat4_value                     = 31
+ |level23                                 = True
+ |level23_level_requirement               = 76
+-|level23_stat_text                       = +22 to radius<br>You and nearby allies gain 21% increased Movement Speed<br>You and nearby allies gain 32% increased Attack Speed<br>You and nearby allies gain 32% increased Cast Speed
++|level23_stat_text                       = +2.2 metres to radius<br>You and nearby allies gain 21% increased Movement Speed<br>You and nearby allies gain 32% increased Attack Speed<br>You and nearby allies gain 32% increased Cast Speed
+ |level23_stat1_id                        = active_skill_base_radius_+
+ |level23_stat1_value                     = 22
+ |level23_stat2_id                        = base_movement_velocity_+%
+@@ -288,7 +288,7 @@
+ |level23_stat4_value                     = 32
+ |level24                                 = True
+ |level24_level_requirement               = 78
+-|level24_stat_text                       = +23 to radius<br>You and nearby allies gain 21% increased Movement Speed<br>You and nearby allies gain 32% increased Attack Speed<br>You and nearby allies gain 32% increased Cast Speed
++|level24_stat_text                       = +2.3 metres to radius<br>You and nearby allies gain 21% increased Movement Speed<br>You and nearby allies gain 32% increased Attack Speed<br>You and nearby allies gain 32% increased Cast Speed
+ |level24_stat1_id                        = active_skill_base_radius_+
+ |level24_stat1_value                     = 23
+ |level24_stat2_id                        = base_movement_velocity_+%
+@@ -299,7 +299,7 @@
+ |level24_stat4_value                     = 32
+ |level25                                 = True
+ |level25_level_requirement               = 80
+-|level25_stat_text                       = +24 to radius<br>You and nearby allies gain 22% increased Movement Speed<br>You and nearby allies gain 33% increased Attack Speed<br>You and nearby allies gain 32% increased Cast Speed
++|level25_stat_text                       = +2.4 metres to radius<br>You and nearby allies gain 22% increased Movement Speed<br>You and nearby allies gain 33% increased Attack Speed<br>You and nearby allies gain 32% increased Cast Speed
+ |level25_stat1_id                        = active_skill_base_radius_+
+ |level25_stat1_value                     = 24
+ |level25_stat2_id                        = base_movement_velocity_+%
+@@ -310,7 +310,7 @@
+ |level25_stat4_value                     = 32
+ |level26                                 = True
+ |level26_level_requirement               = 82
+-|level26_stat_text                       = +25 to radius<br>You and nearby allies gain 22% increased Movement Speed<br>You and nearby allies gain 33% increased Attack Speed<br>You and nearby allies gain 33% increased Cast Speed
++|level26_stat_text                       = +2.5 metres to radius<br>You and nearby allies gain 22% increased Movement Speed<br>You and nearby allies gain 33% increased Attack Speed<br>You and nearby allies gain 33% increased Cast Speed
+ |level26_stat1_id                        = active_skill_base_radius_+
+ |level26_stat1_value                     = 25
+ |level26_stat2_id                        = base_movement_velocity_+%
+@@ -321,7 +321,7 @@
+ |level26_stat4_value                     = 33
+ |level27                                 = True
+ |level27_level_requirement               = 84
+-|level27_stat_text                       = +26 to radius<br>You and nearby allies gain 22% increased Movement Speed<br>You and nearby allies gain 33% increased Attack Speed<br>You and nearby allies gain 33% increased Cast Speed
++|level27_stat_text                       = +2.6 metres to radius<br>You and nearby allies gain 22% increased Movement Speed<br>You and nearby allies gain 33% increased Attack Speed<br>You and nearby allies gain 33% increased Cast Speed
+ |level27_stat1_id                        = active_skill_base_radius_+
+ |level27_stat1_value                     = 26
+ |level27_stat2_id                        = base_movement_velocity_+%
+@@ -332,7 +332,7 @@
+ |level27_stat4_value                     = 33
+ |level28                                 = True
+ |level28_level_requirement               = 86
+-|level28_stat_text                       = +27 to radius<br>You and nearby allies gain 22% increased Movement Speed<br>You and nearby allies gain 34% increased Attack Speed<br>You and nearby allies gain 33% increased Cast Speed
++|level28_stat_text                       = +2.7 metres to radius<br>You and nearby allies gain 22% increased Movement Speed<br>You and nearby allies gain 34% increased Attack Speed<br>You and nearby allies gain 33% increased Cast Speed
+ |level28_stat1_id                        = active_skill_base_radius_+
+ |level28_stat1_value                     = 27
+ |level28_stat2_id                        = base_movement_velocity_+%
+@@ -343,7 +343,7 @@
+ |level28_stat4_value                     = 33
+ |level29                                 = True
+ |level29_level_requirement               = 88
+-|level29_stat_text                       = +28 to radius<br>You and nearby allies gain 23% increased Movement Speed<br>You and nearby allies gain 34% increased Attack Speed<br>You and nearby allies gain 34% increased Cast Speed
++|level29_stat_text                       = +2.8 metres to radius<br>You and nearby allies gain 23% increased Movement Speed<br>You and nearby allies gain 34% increased Attack Speed<br>You and nearby allies gain 34% increased Cast Speed
+ |level29_stat1_id                        = active_skill_base_radius_+
+ |level29_stat1_value                     = 28
+ |level29_stat2_id                        = base_movement_velocity_+%
+@@ -354,7 +354,7 @@
+ |level29_stat4_value                     = 34
+ |level30                                 = True
+ |level30_level_requirement               = 90
+-|level30_stat_text                       = +29 to radius<br>You and nearby allies gain 23% increased Movement Speed<br>You and nearby allies gain 34% increased Attack Speed<br>You and nearby allies gain 34% increased Cast Speed
++|level30_stat_text                       = +2.9 metres to radius<br>You and nearby allies gain 23% increased Movement Speed<br>You and nearby allies gain 34% increased Attack Speed<br>You and nearby allies gain 34% increased Cast Speed
+ |level30_stat1_id                        = active_skill_base_radius_+
+ |level30_stat1_value                     = 29
+ |level30_stat2_id                        = base_movement_velocity_+%
+@@ -365,7 +365,7 @@
+ |level30_stat4_value                     = 34
+ |level31                                 = True
+ |level31_level_requirement               = 91
+-|level31_stat_text                       = +29 to radius<br>You and nearby allies gain 23% increased Movement Speed<br>You and nearby allies gain 34% increased Attack Speed<br>You and nearby allies gain 34% increased Cast Speed
++|level31_stat_text                       = +2.9 metres to radius<br>You and nearby allies gain 23% increased Movement Speed<br>You and nearby allies gain 34% increased Attack Speed<br>You and nearby allies gain 34% increased Cast Speed
+ |level31_stat1_id                        = active_skill_base_radius_+
+ |level31_stat1_value                     = 29
+ |level31_stat2_id                        = base_movement_velocity_+%
+@@ -376,7 +376,7 @@
+ |level31_stat4_value                     = 34
+ |level32                                 = True
+ |level32_level_requirement               = 92
+-|level32_stat_text                       = +30 to radius<br>You and nearby allies gain 23% increased Movement Speed<br>You and nearby allies gain 35% increased Attack Speed<br>You and nearby allies gain 34% increased Cast Speed
++|level32_stat_text                       = +3 metres to radius<br>You and nearby allies gain 23% increased Movement Speed<br>You and nearby allies gain 35% increased Attack Speed<br>You and nearby allies gain 34% increased Cast Speed
+ |level32_stat1_id                        = active_skill_base_radius_+
+ |level32_stat1_value                     = 30
+ |level32_stat2_id                        = base_movement_velocity_+%
+@@ -387,7 +387,7 @@
+ |level32_stat4_value                     = 34
+ |level33                                 = True
+ |level33_level_requirement               = 93
+-|level33_stat_text                       = +30 to radius<br>You and nearby allies gain 23% increased Movement Speed<br>You and nearby allies gain 35% increased Attack Speed<br>You and nearby allies gain 34% increased Cast Speed
++|level33_stat_text                       = +3 metres to radius<br>You and nearby allies gain 23% increased Movement Speed<br>You and nearby allies gain 35% increased Attack Speed<br>You and nearby allies gain 34% increased Cast Speed
+ |level33_stat1_id                        = active_skill_base_radius_+
+ |level33_stat1_value                     = 30
+ |level33_stat2_id                        = base_movement_velocity_+%
+@@ -398,7 +398,7 @@
+ |level33_stat4_value                     = 34
+ |level34                                 = True
+ |level34_level_requirement               = 94
+-|level34_stat_text                       = +31 to radius<br>You and nearby allies gain 23% increased Movement Speed<br>You and nearby allies gain 35% increased Attack Speed<br>You and nearby allies gain 35% increased Cast Speed
++|level34_stat_text                       = +3.1 metres to radius<br>You and nearby allies gain 23% increased Movement Speed<br>You and nearby allies gain 35% increased Attack Speed<br>You and nearby allies gain 35% increased Cast Speed
+ |level34_stat1_id                        = active_skill_base_radius_+
+ |level34_stat1_value                     = 31
+ |level34_stat2_id                        = base_movement_velocity_+%
+@@ -409,7 +409,7 @@
+ |level34_stat4_value                     = 35
+ |level35                                 = True
+ |level35_level_requirement               = 95
+-|level35_stat_text                       = +31 to radius<br>You and nearby allies gain 23% increased Movement Speed<br>You and nearby allies gain 35% increased Attack Speed<br>You and nearby allies gain 35% increased Cast Speed
++|level35_stat_text                       = +3.1 metres to radius<br>You and nearby allies gain 23% increased Movement Speed<br>You and nearby allies gain 35% increased Attack Speed<br>You and nearby allies gain 35% increased Cast Speed
+ |level35_stat1_id                        = active_skill_base_radius_+
+ |level35_stat1_value                     = 31
+ |level35_stat2_id                        = base_movement_velocity_+%
+@@ -420,7 +420,7 @@
+ |level35_stat4_value                     = 35
+ |level36                                 = True
+ |level36_level_requirement               = 96
+-|level36_stat_text                       = +32 to radius<br>You and nearby allies gain 24% increased Movement Speed<br>You and nearby allies gain 35% increased Attack Speed<br>You and nearby allies gain 35% increased Cast Speed
++|level36_stat_text                       = +3.2 metres to radius<br>You and nearby allies gain 24% increased Movement Speed<br>You and nearby allies gain 35% increased Attack Speed<br>You and nearby allies gain 35% increased Cast Speed
+ |level36_stat1_id                        = active_skill_base_radius_+
+ |level36_stat1_value                     = 32
+ |level36_stat2_id                        = base_movement_velocity_+%
+@@ -431,7 +431,7 @@
+ |level36_stat4_value                     = 35
+ |level37                                 = True
+ |level37_level_requirement               = 97
+-|level37_stat_text                       = +32 to radius<br>You and nearby allies gain 24% increased Movement Speed<br>You and nearby allies gain 35% increased Attack Speed<br>You and nearby allies gain 35% increased Cast Speed
++|level37_stat_text                       = +3.2 metres to radius<br>You and nearby allies gain 24% increased Movement Speed<br>You and nearby allies gain 35% increased Attack Speed<br>You and nearby allies gain 35% increased Cast Speed
+ |level37_stat1_id                        = active_skill_base_radius_+
+ |level37_stat1_value                     = 32
+ |level37_stat2_id                        = base_movement_velocity_+%
+@@ -442,7 +442,7 @@
+ |level37_stat4_value                     = 35
+ |level38                                 = True
+ |level38_level_requirement               = 98
+-|level38_stat_text                       = +33 to radius<br>You and nearby allies gain 24% increased Movement Speed<br>You and nearby allies gain 36% increased Attack Speed<br>You and nearby allies gain 35% increased Cast Speed
++|level38_stat_text                       = +3.3 metres to radius<br>You and nearby allies gain 24% increased Movement Speed<br>You and nearby allies gain 36% increased Attack Speed<br>You and nearby allies gain 35% increased Cast Speed
+ |level38_stat1_id                        = active_skill_base_radius_+
+ |level38_stat1_value                     = 33
+ |level38_stat2_id                        = base_movement_velocity_+%
+@@ -453,7 +453,7 @@
+ |level38_stat4_value                     = 35
+ |level39                                 = True
+ |level39_level_requirement               = 99
+-|level39_stat_text                       = +33 to radius<br>You and nearby allies gain 24% increased Movement Speed<br>You and nearby allies gain 36% increased Attack Speed<br>You and nearby allies gain 35% increased Cast Speed
++|level39_stat_text                       = +3.3 metres to radius<br>You and nearby allies gain 24% increased Movement Speed<br>You and nearby allies gain 36% increased Attack Speed<br>You and nearby allies gain 35% increased Cast Speed
+ |level39_stat1_id                        = active_skill_base_radius_+
+ |level39_stat1_value                     = 33
+ |level39_stat2_id                        = base_movement_velocity_+%
+@@ -464,7 +464,7 @@
+ |level39_stat4_value                     = 35
+ |level40                                 = True
+ |level40_level_requirement               = 100
+-|level40_stat_text                       = +34 to radius<br>You and nearby allies gain 24% increased Movement Speed<br>You and nearby allies gain 36% increased Attack Speed<br>You and nearby allies gain 36% increased Cast Speed
++|level40_stat_text                       = +3.4 metres to radius<br>You and nearby allies gain 24% increased Movement Speed<br>You and nearby allies gain 36% increased Attack Speed<br>You and nearby allies gain 36% increased Cast Speed
+ |level40_stat1_id                        = active_skill_base_radius_+
+ |level40_stat1_value                     = 34
+ |level40_stat2_id                        = base_movement_velocity_+%

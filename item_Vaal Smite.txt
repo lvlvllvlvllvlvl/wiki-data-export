@@ -46,7 +46,7 @@
 |static_stat9_value                      = 30
 |static_stat10_id                        = buff_grants_smite_additional_lightning_targets
 |static_stat10_value                     = 1
-|stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>Base duration is 8 seconds<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>+(0-6) to radius<br>Can't be Evaded<br>Lightning strikes 30 targets<br>Aura makes Smite strike +1 target with lightning<br>Aura grants (1-17) to (7-330) added Lightning Damage<br>Aura grants (10-19)% chance to Shock
+|stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>Base duration is 8 seconds<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>+(0-0.6) metres to radius<br>Can't be Evaded<br>Lightning strikes 30 targets<br>Aura makes Smite strike +1 target with lightning<br>Aura grants (1-17) to (7-330) added Lightning Damage<br>Aura grants (10-19)% chance to Shock
 |level1                                  = True
 |level1_level_requirement                = 1
 |level1_damage_effectiveness             = 300
@@ -73,7 +73,7 @@
 |level3_level_requirement                = 4
 |level3_damage_effectiveness             = 313.7
 |level3_damage_multiplier                = 313.7
-|level3_stat_text                        = +1 to radius<br>Aura grants 1 to 9 added Lightning Damage<br>Aura grants 11% chance to Shock
+|level3_stat_text                        = +0.1 metres to radius<br>Aura grants 1 to 9 added Lightning Damage<br>Aura grants 11% chance to Shock
 |level3_stat1_id                         = active_skill_base_radius_+
 |level3_stat1_value                      = 1
 |level3_stat2_id                         = minimum_added_lightning_damage_from_skill
@@ -86,7 +86,7 @@
 |level4_level_requirement                = 7
 |level4_damage_effectiveness             = 320.5
 |level4_damage_multiplier                = 320.5
-|level4_stat_text                        = +1 to radius<br>Aura grants 1 to 12 added Lightning Damage<br>Aura grants 11% chance to Shock
+|level4_stat_text                        = +0.1 metres to radius<br>Aura grants 1 to 12 added Lightning Damage<br>Aura grants 11% chance to Shock
 |level4_stat1_id                         = active_skill_base_radius_+
 |level4_stat1_value                      = 1
 |level4_stat2_id                         = minimum_added_lightning_damage_from_skill
@@ -99,7 +99,7 @@
 |level5_level_requirement                = 11
 |level5_damage_effectiveness             = 327.4
 |level5_damage_multiplier                = 327.4
-|level5_stat_text                        = +1 to radius<br>Aura grants 1 to 17 added Lightning Damage<br>Aura grants 12% chance to Shock
+|level5_stat_text                        = +0.1 metres to radius<br>Aura grants 1 to 17 added Lightning Damage<br>Aura grants 12% chance to Shock
 |level5_stat1_id                         = active_skill_base_radius_+
 |level5_stat1_value                      = 1
 |level5_stat2_id                         = minimum_added_lightning_damage_from_skill
@@ -112,7 +112,7 @@
 |level6_level_requirement                = 16
 |level6_damage_effectiveness             = 334.2
 |level6_damage_multiplier                = 334.2
-|level6_stat_text                        = +2 to radius<br>Aura grants 1 to 24 added Lightning Damage<br>Aura grants 12% chance to Shock
+|level6_stat_text                        = +0.2 metres to radius<br>Aura grants 1 to 24 added Lightning Damage<br>Aura grants 12% chance to Shock
 |level6_stat1_id                         = active_skill_base_radius_+
 |level6_stat1_value                      = 2
 |level6_stat2_id                         = minimum_added_lightning_damage_from_skill
@@ -125,7 +125,7 @@
 |level7_level_requirement                = 20
 |level7_damage_effectiveness             = 341.1
 |level7_damage_multiplier                = 341.1
-|level7_stat_text                        = +2 to radius<br>Aura grants 2 to 31 added Lightning Damage<br>Aura grants 13% chance to Shock
+|level7_stat_text                        = +0.2 metres to radius<br>Aura grants 2 to 31 added Lightning Damage<br>Aura grants 13% chance to Shock
 |level7_stat1_id                         = active_skill_base_radius_+
 |level7_stat1_value                      = 2
 |level7_stat2_id                         = minimum_added_lightning_damage_from_skill
@@ -138,7 +138,7 @@
 |level8_level_requirement                = 24
 |level8_damage_effectiveness             = 347.9
 |level8_damage_multiplier                = 347.9
-|level8_stat_text                        = +2 to radius<br>Aura grants 2 to 39 added Lightning Damage<br>Aura grants 13% chance to Shock
+|level8_stat_text                        = +0.2 metres to radius<br>Aura grants 2 to 39 added Lightning Damage<br>Aura grants 13% chance to Shock
 |level8_stat1_id                         = active_skill_base_radius_+
 |level8_stat1_value                      = 2
 |level8_stat2_id                         = minimum_added_lightning_damage_from_skill
@@ -151,7 +151,7 @@
 |level9_level_requirement                = 28
 |level9_damage_effectiveness             = 354.7
 |level9_damage_multiplier                = 354.7
-|level9_stat_text                        = +3 to radius<br>Aura grants 3 to 49 added Lightning Damage<br>Aura grants 14% chance to Shock
+|level9_stat_text                        = +0.3 metres to radius<br>Aura grants 3 to 49 added Lightning Damage<br>Aura grants 14% chance to Shock
 |level9_stat1_id                         = active_skill_base_radius_+
 |level9_stat1_value                      = 3
 |level9_stat2_id                         = minimum_added_lightning_damage_from_skill
@@ -164,7 +164,7 @@
 |level10_level_requirement               = 32
 |level10_damage_effectiveness            = 361.6
 |level10_damage_multiplier               = 361.6
-|level10_stat_text                       = +3 to radius<br>Aura grants 3 to 61 added Lightning Damage<br>Aura grants 14% chance to Shock
+|level10_stat_text                       = +0.3 metres to radius<br>Aura grants 3 to 61 added Lightning Damage<br>Aura grants 14% chance to Shock
 |level10_stat1_id                        = active_skill_base_radius_+
 |level10_stat1_value                     = 3
 |level10_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -177,7 +177,7 @@
 |level11_level_requirement               = 36
 |level11_damage_effectiveness            = 368.4
 |level11_damage_multiplier               = 368.4
-|level11_stat_text                       = +3 to radius<br>Aura grants 4 to 74 added Lightning Damage<br>Aura grants 15% chance to Shock
+|level11_stat_text                       = +0.3 metres to radius<br>Aura grants 4 to 74 added Lightning Damage<br>Aura grants 15% chance to Shock
 |level11_stat1_id                        = active_skill_base_radius_+
 |level11_stat1_value                     = 3
 |level11_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -190,7 +190,7 @@
 |level12_level_requirement               = 40
 |level12_damage_effectiveness            = 375.3
 |level12_damage_multiplier               = 375.3
-|level12_stat_text                       = +4 to radius<br>Aura grants 5 to 90 added Lightning Damage<br>Aura grants 15% chance to Shock
+|level12_stat_text                       = +0.4 metres to radius<br>Aura grants 5 to 90 added Lightning Damage<br>Aura grants 15% chance to Shock
 |level12_stat1_id                        = active_skill_base_radius_+
 |level12_stat1_value                     = 4
 |level12_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -203,7 +203,7 @@
 |level13_level_requirement               = 44
 |level13_damage_effectiveness            = 382.1
 |level13_damage_multiplier               = 382.1
-|level13_stat_text                       = +4 to radius<br>Aura grants 6 to 109 added Lightning Damage<br>Aura grants 16% chance to Shock
+|level13_stat_text                       = +0.4 metres to radius<br>Aura grants 6 to 109 added Lightning Damage<br>Aura grants 16% chance to Shock
 |level13_stat1_id                        = active_skill_base_radius_+
 |level13_stat1_value                     = 4
 |level13_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -216,7 +216,7 @@
 |level14_level_requirement               = 48
 |level14_damage_effectiveness            = 388.9
 |level14_damage_multiplier               = 388.9
-|level14_stat_text                       = +4 to radius<br>Aura grants 7 to 130 added Lightning Damage<br>Aura grants 16% chance to Shock
+|level14_stat_text                       = +0.4 metres to radius<br>Aura grants 7 to 130 added Lightning Damage<br>Aura grants 16% chance to Shock
 |level14_stat1_id                        = active_skill_base_radius_+
 |level14_stat1_value                     = 4
 |level14_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -229,7 +229,7 @@
 |level15_level_requirement               = 52
 |level15_damage_effectiveness            = 395.8
 |level15_damage_multiplier               = 395.8
-|level15_stat_text                       = +5 to radius<br>Aura grants 8 to 156 added Lightning Damage<br>Aura grants 17% chance to Shock
+|level15_stat_text                       = +0.5 metres to radius<br>Aura grants 8 to 156 added Lightning Damage<br>Aura grants 17% chance to Shock
 |level15_stat1_id                        = active_skill_base_radius_+
 |level15_stat1_value                     = 5
 |level15_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -242,7 +242,7 @@
 |level16_level_requirement               = 56
 |level16_damage_effectiveness            = 402.6
 |level16_damage_multiplier               = 402.6
-|level16_stat_text                       = +5 to radius<br>Aura grants 10 to 185 added Lightning Damage<br>Aura grants 17% chance to Shock
+|level16_stat_text                       = +0.5 metres to radius<br>Aura grants 10 to 185 added Lightning Damage<br>Aura grants 17% chance to Shock
 |level16_stat1_id                        = active_skill_base_radius_+
 |level16_stat1_value                     = 5
 |level16_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -255,7 +255,7 @@
 |level17_level_requirement               = 60
 |level17_damage_effectiveness            = 409.5
 |level17_damage_multiplier               = 409.5
-|level17_stat_text                       = +5 to radius<br>Aura grants 12 to 219 added Lightning Damage<br>Aura grants 18% chance to Shock
+|level17_stat_text                       = +0.5 metres to radius<br>Aura grants 12 to 219 added Lightning Damage<br>Aura grants 18% chance to Shock
 |level17_stat1_id                        = active_skill_base_radius_+
 |level17_stat1_value                     = 5
 |level17_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -268,7 +268,7 @@
 |level18_level_requirement               = 64
 |level18_damage_effectiveness            = 416.3
 |level18_damage_multiplier               = 416.3
-|level18_stat_text                       = +6 to radius<br>Aura grants 14 to 259 added Lightning Damage<br>Aura grants 18% chance to Shock
+|level18_stat_text                       = +0.6 metres to radius<br>Aura grants 14 to 259 added Lightning Damage<br>Aura grants 18% chance to Shock
 |level18_stat1_id                        = active_skill_base_radius_+
 |level18_stat1_value                     = 6
 |level18_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -281,7 +281,7 @@
 |level19_level_requirement               = 67
 |level19_damage_effectiveness            = 423.2
 |level19_damage_multiplier               = 423.2
-|level19_stat_text                       = +6 to radius<br>Aura grants 15 to 293 added Lightning Damage<br>Aura grants 19% chance to Shock
+|level19_stat_text                       = +0.6 metres to radius<br>Aura grants 15 to 293 added Lightning Damage<br>Aura grants 19% chance to Shock
 |level19_stat1_id                        = active_skill_base_radius_+
 |level19_stat1_value                     = 6
 |level19_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -294,7 +294,7 @@
 |level20_level_requirement               = 70
 |level20_damage_effectiveness            = 430
 |level20_damage_multiplier               = 430
-|level20_stat_text                       = +6 to radius<br>Aura grants 17 to 330 added Lightning Damage<br>Aura grants 19% chance to Shock
+|level20_stat_text                       = +0.6 metres to radius<br>Aura grants 17 to 330 added Lightning Damage<br>Aura grants 19% chance to Shock
 |level20_stat1_id                        = active_skill_base_radius_+
 |level20_stat1_value                     = 6
 |level20_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -307,7 +307,7 @@
 |level21_level_requirement               = 72
 |level21_damage_effectiveness            = 436.8
 |level21_damage_multiplier               = 436.8
-|level21_stat_text                       = +7 to radius<br>Aura grants 19 to 358 added Lightning Damage<br>Aura grants 20% chance to Shock
+|level21_stat_text                       = +0.7 metres to radius<br>Aura grants 19 to 358 added Lightning Damage<br>Aura grants 20% chance to Shock
 |level21_stat1_id                        = active_skill_base_radius_+
 |level21_stat1_value                     = 7
 |level21_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -320,7 +320,7 @@
 |level22_level_requirement               = 74
 |level22_damage_effectiveness            = 443.7
 |level22_damage_multiplier               = 443.7
-|level22_stat_text                       = +7 to radius<br>Aura grants 20 to 387 added Lightning Damage<br>Aura grants 20% chance to Shock
+|level22_stat_text                       = +0.7 metres to radius<br>Aura grants 20 to 387 added Lightning Damage<br>Aura grants 20% chance to Shock
 |level22_stat1_id                        = active_skill_base_radius_+
 |level22_stat1_value                     = 7
 |level22_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -333,7 +333,7 @@
 |level23_level_requirement               = 76
 |level23_damage_effectiveness            = 450.5
 |level23_damage_multiplier               = 450.5
-|level23_stat_text                       = +7 to radius<br>Aura grants 22 to 419 added Lightning Damage<br>Aura grants 21% chance to Shock
+|level23_stat_text                       = +0.7 metres to radius<br>Aura grants 22 to 419 added Lightning Damage<br>Aura grants 21% chance to Shock
 |level23_stat1_id                        = active_skill_base_radius_+
 |level23_stat1_value                     = 7
 |level23_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -346,7 +346,7 @@
 |level24_level_requirement               = 78
 |level24_damage_effectiveness            = 457.4
 |level24_damage_multiplier               = 457.4
-|level24_stat_text                       = +8 to radius<br>Aura grants 24 to 453 added Lightning Damage<br>Aura grants 21% chance to Shock
+|level24_stat_text                       = +0.8 metres to radius<br>Aura grants 24 to 453 added Lightning Damage<br>Aura grants 21% chance to Shock
 |level24_stat1_id                        = active_skill_base_radius_+
 |level24_stat1_value                     = 8
 |level24_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -359,7 +359,7 @@
 |level25_level_requirement               = 80
 |level25_damage_effectiveness            = 464.2
 |level25_damage_multiplier               = 464.2
-|level25_stat_text                       = +8 to radius<br>Aura grants 26 to 490 added Lightning Damage<br>Aura grants 22% chance to Shock
+|level25_stat_text                       = +0.8 metres to radius<br>Aura grants 26 to 490 added Lightning Damage<br>Aura grants 22% chance to Shock
 |level25_stat1_id                        = active_skill_base_radius_+
 |level25_stat1_value                     = 8
 |level25_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -372,7 +372,7 @@
 |level26_level_requirement               = 82
 |level26_damage_effectiveness            = 471.1
 |level26_damage_multiplier               = 471.1
-|level26_stat_text                       = +8 to radius<br>Aura grants 28 to 529 added Lightning Damage<br>Aura grants 22% chance to Shock
+|level26_stat_text                       = +0.8 metres to radius<br>Aura grants 28 to 529 added Lightning Damage<br>Aura grants 22% chance to Shock
 |level26_stat1_id                        = active_skill_base_radius_+
 |level26_stat1_value                     = 8
 |level26_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -385,7 +385,7 @@
 |level27_level_requirement               = 84
 |level27_damage_effectiveness            = 477.9
 |level27_damage_multiplier               = 477.9
-|level27_stat_text                       = +8 to radius<br>Aura grants 30 to 572 added Lightning Damage<br>Aura grants 23% chance to Shock
+|level27_stat_text                       = +0.8 metres to radius<br>Aura grants 30 to 572 added Lightning Damage<br>Aura grants 23% chance to Shock
 |level27_stat1_id                        = active_skill_base_radius_+
 |level27_stat1_value                     = 8
 |level27_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -398,7 +398,7 @@
 |level28_level_requirement               = 86
 |level28_damage_effectiveness            = 484.7
 |level28_damage_multiplier               = 484.7
-|level28_stat_text                       = +9 to radius<br>Aura grants 32 to 617 added Lightning Damage<br>Aura grants 23% chance to Shock
+|level28_stat_text                       = +0.9 metres to radius<br>Aura grants 32 to 617 added Lightning Damage<br>Aura grants 23% chance to Shock
 |level28_stat1_id                        = active_skill_base_radius_+
 |level28_stat1_value                     = 9
 |level28_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -411,7 +411,7 @@
 |level29_level_requirement               = 88
 |level29_damage_effectiveness            = 491.6
 |level29_damage_multiplier               = 491.6
-|level29_stat_text                       = +9 to radius<br>Aura grants 35 to 666 added Lightning Damage<br>Aura grants 24% chance to Shock
+|level29_stat_text                       = +0.9 metres to radius<br>Aura grants 35 to 666 added Lightning Damage<br>Aura grants 24% chance to Shock
 |level29_stat1_id                        = active_skill_base_radius_+
 |level29_stat1_value                     = 9
 |level29_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -424,7 +424,7 @@
 |level30_level_requirement               = 90
 |level30_damage_effectiveness            = 498.4
 |level30_damage_multiplier               = 498.4
-|level30_stat_text                       = +9 to radius<br>Aura grants 38 to 718 added Lightning Damage<br>Aura grants 24% chance to Shock
+|level30_stat_text                       = +0.9 metres to radius<br>Aura grants 38 to 718 added Lightning Damage<br>Aura grants 24% chance to Shock
 |level30_stat1_id                        = active_skill_base_radius_+
 |level30_stat1_value                     = 9
 |level30_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -437,7 +437,7 @@
 |level31_level_requirement               = 91
 |level31_damage_effectiveness            = 501.8
 |level31_damage_multiplier               = 501.8
-|level31_stat_text                       = +10 to radius<br>Aura grants 39 to 745 added Lightning Damage<br>Aura grants 24% chance to Shock
+|level31_stat_text                       = +1 metre to radius<br>Aura grants 39 to 745 added Lightning Damage<br>Aura grants 24% chance to Shock
 |level31_stat1_id                        = active_skill_base_radius_+
 |level31_stat1_value                     = 10
 |level31_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -450,7 +450,7 @@
 |level32_level_requirement               = 92
 |level32_damage_effectiveness            = 505.3
 |level32_damage_multiplier               = 505.3
-|level32_stat_text                       = +10 to radius<br>Aura grants 41 to 774 added Lightning Damage<br>Aura grants 25% chance to Shock
+|level32_stat_text                       = +1 metre to radius<br>Aura grants 41 to 774 added Lightning Damage<br>Aura grants 25% chance to Shock
 |level32_stat1_id                        = active_skill_base_radius_+
 |level32_stat1_value                     = 10
 |level32_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -463,7 +463,7 @@
 |level33_level_requirement               = 93
 |level33_damage_effectiveness            = 508.7
 |level33_damage_multiplier               = 508.7
-|level33_stat_text                       = +10 to radius<br>Aura grants 42 to 803 added Lightning Damage<br>Aura grants 25% chance to Shock
+|level33_stat_text                       = +1 metre to radius<br>Aura grants 42 to 803 added Lightning Damage<br>Aura grants 25% chance to Shock
 |level33_stat1_id                        = active_skill_base_radius_+
 |level33_stat1_value                     = 10
 |level33_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -476,7 +476,7 @@
 |level34_level_requirement               = 94
 |level34_damage_effectiveness            = 512.1
 |level34_damage_multiplier               = 512.1
-|level34_stat_text                       = +10 to radius<br>Aura grants 44 to 834 added Lightning Damage<br>Aura grants 25% chance to Shock
+|level34_stat_text                       = +1 metre to radius<br>Aura grants 44 to 834 added Lightning Damage<br>Aura grants 25% chance to Shock
 |level34_stat1_id                        = active_skill_base_radius_+
 |level34_stat1_value                     = 10
 |level34_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -489,7 +489,7 @@
 |level35_level_requirement               = 95
 |level35_damage_effectiveness            = 515.5
 |level35_damage_multiplier               = 515.5
-|level35_stat_text                       = +10 to radius<br>Aura grants 46 to 865 added Lightning Damage<br>Aura grants 25% chance to Shock
+|level35_stat_text                       = +1 metre to radius<br>Aura grants 46 to 865 added Lightning Damage<br>Aura grants 25% chance to Shock
 |level35_stat1_id                        = active_skill_base_radius_+
 |level35_stat1_value                     = 10
 |level35_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -502,7 +502,7 @@
 |level36_level_requirement               = 96
 |level36_damage_effectiveness            = 518.9
 |level36_damage_multiplier               = 518.9
-|level36_stat_text                       = +10 to radius<br>Aura grants 47 to 898 added Lightning Damage<br>Aura grants 26% chance to Shock
+|level36_stat_text                       = +1 metre to radius<br>Aura grants 47 to 898 added Lightning Damage<br>Aura grants 26% chance to Shock
 |level36_stat1_id                        = active_skill_base_radius_+
 |level36_stat1_value                     = 10
 |level36_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -515,7 +515,7 @@
 |level37_level_requirement               = 97
 |level37_damage_effectiveness            = 522.4
 |level37_damage_multiplier               = 522.4
-|level37_stat_text                       = +11 to radius<br>Aura grants 49 to 932 added Lightning Damage<br>Aura grants 26% chance to Shock
+|level37_stat_text                       = +1.1 metres to radius<br>Aura grants 49 to 932 added Lightning Damage<br>Aura grants 26% chance to Shock
 |level37_stat1_id                        = active_skill_base_radius_+
 |level37_stat1_value                     = 11
 |level37_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -528,7 +528,7 @@
 |level38_level_requirement               = 98
 |level38_damage_effectiveness            = 525.8
 |level38_damage_multiplier               = 525.8
-|level38_stat_text                       = +11 to radius<br>Aura grants 51 to 967 added Lightning Damage<br>Aura grants 26% chance to Shock
+|level38_stat_text                       = +1.1 metres to radius<br>Aura grants 51 to 967 added Lightning Damage<br>Aura grants 26% chance to Shock
 |level38_stat1_id                        = active_skill_base_radius_+
 |level38_stat1_value                     = 11
 |level38_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -541,7 +541,7 @@
 |level39_level_requirement               = 99
 |level39_damage_effectiveness            = 529.2
 |level39_damage_multiplier               = 529.2
-|level39_stat_text                       = +11 to radius<br>Aura grants 53 to 1003 added Lightning Damage<br>Aura grants 26% chance to Shock
+|level39_stat_text                       = +1.1 metres to radius<br>Aura grants 53 to 1003 added Lightning Damage<br>Aura grants 26% chance to Shock
 |level39_stat1_id                        = active_skill_base_radius_+
 |level39_stat1_value                     = 11
 |level39_stat2_id                        = minimum_added_lightning_damage_from_skill
@@ -554,7 +554,7 @@
 |level40_level_requirement               = 100
 |level40_damage_effectiveness            = 532.6
 |level40_damage_multiplier               = 532.6
-|level40_stat_text                       = +11 to radius<br>Aura grants 55 to 1041 added Lightning Damage<br>Aura grants 27% chance to Shock
+|level40_stat_text                       = +1.1 metres to radius<br>Aura grants 55 to 1041 added Lightning Damage<br>Aura grants 27% chance to Shock
 |level40_stat1_id                        = active_skill_base_radius_+
 |level40_stat1_value                     = 11
 |level40_stat2_id                        = minimum_added_lightning_damage_from_skill

@@ -1,0 +1,353 @@
+--- Caustic Arrow
++++ Export
+@@ -44,7 +44,7 @@
+ |static_stat5_value                      = 1
+ |static_stat6_id                         = skill_physical_damage_%_to_convert_to_chaos
+ |static_stat6_value                      = 60
+-|stat_text                               = Deals (8.8-1927.1) Base Chaos Damage per second<br>Base duration is 2 seconds<br>Modifiers to Projectile Damage apply to this Skill's Damage Over Time effect<br>+(0-6) to radius<br>60% of Physical Damage Converted to Chaos Damage
++|stat_text                               = Deals (8.8-1927.1) Base Chaos Damage per second<br>Base duration is 2 seconds<br>Modifiers to Projectile Damage apply to this Skill's Damage Over Time effect<br>+(0-0.6) metres to radius<br>60% of Physical Damage Converted to Chaos Damage
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_cost_amounts                     = 6
+@@ -66,7 +66,7 @@
+ |level3_cost_amounts                     = 6
+ |level3_damage_effectiveness             = 56
+ |level3_damage_multiplier                = 56
+-|level3_stat_text                        = Deals 13.1 Base Chaos Damage per second<br>+1 to radius
++|level3_stat_text                        = Deals 13.1 Base Chaos Damage per second<br>+0.1 metres to radius
+ |level3_stat1_id                         = base_chaos_damage_to_deal_per_minute
+ |level3_stat1_value                      = 783
+ |level3_stat2_id                         = active_skill_base_radius_+
+@@ -76,7 +76,7 @@
+ |level4_cost_amounts                     = 6
+ |level4_damage_effectiveness             = 56
+ |level4_damage_multiplier                = 56.5
+-|level4_stat_text                        = Deals 18.4 Base Chaos Damage per second<br>+1 to radius
++|level4_stat_text                        = Deals 18.4 Base Chaos Damage per second<br>+0.1 metres to radius
+ |level4_stat1_id                         = base_chaos_damage_to_deal_per_minute
+ |level4_stat1_value                      = 1105
+ |level4_stat2_id                         = active_skill_base_radius_+
+@@ -86,7 +86,7 @@
+ |level5_cost_amounts                     = 7
+ |level5_damage_effectiveness             = 57
+ |level5_damage_multiplier                = 57
+-|level5_stat_text                        = Deals 27.8 Base Chaos Damage per second<br>+1 to radius
++|level5_stat_text                        = Deals 27.8 Base Chaos Damage per second<br>+0.1 metres to radius
+ |level5_stat1_id                         = base_chaos_damage_to_deal_per_minute
+ |level5_stat1_value                      = 1665
+ |level5_stat2_id                         = active_skill_base_radius_+
+@@ -96,7 +96,7 @@
+ |level6_cost_amounts                     = 7
+ |level6_damage_effectiveness             = 57
+ |level6_damage_multiplier                = 57.5
+-|level6_stat_text                        = Deals 44 Base Chaos Damage per second<br>+2 to radius
++|level6_stat_text                        = Deals 44 Base Chaos Damage per second<br>+0.2 metres to radius
+ |level6_stat1_id                         = base_chaos_damage_to_deal_per_minute
+ |level6_stat1_value                      = 2640
+ |level6_stat2_id                         = active_skill_base_radius_+
+@@ -106,7 +106,7 @@
+ |level7_cost_amounts                     = 7
+ |level7_damage_effectiveness             = 58
+ |level7_damage_multiplier                = 58
+-|level7_stat_text                        = Deals 61.9 Base Chaos Damage per second<br>+2 to radius
++|level7_stat_text                        = Deals 61.9 Base Chaos Damage per second<br>+0.2 metres to radius
+ |level7_stat1_id                         = base_chaos_damage_to_deal_per_minute
+ |level7_stat1_value                      = 3711
+ |level7_stat2_id                         = active_skill_base_radius_+
+@@ -116,7 +116,7 @@
+ |level8_cost_amounts                     = 7
+ |level8_damage_effectiveness             = 58
+ |level8_damage_multiplier                = 58.5
+-|level8_stat_text                        = Deals 85.4 Base Chaos Damage per second<br>+2 to radius
++|level8_stat_text                        = Deals 85.4 Base Chaos Damage per second<br>+0.2 metres to radius
+ |level8_stat1_id                         = base_chaos_damage_to_deal_per_minute
+ |level8_stat1_value                      = 5122
+ |level8_stat2_id                         = active_skill_base_radius_+
+@@ -126,7 +126,7 @@
+ |level9_cost_amounts                     = 8
+ |level9_damage_effectiveness             = 59
+ |level9_damage_multiplier                = 59
+-|level9_stat_text                        = Deals 116.2 Base Chaos Damage per second<br>+3 to radius
++|level9_stat_text                        = Deals 116.2 Base Chaos Damage per second<br>+0.3 metres to radius
+ |level9_stat1_id                         = base_chaos_damage_to_deal_per_minute
+ |level9_stat1_value                      = 6971
+ |level9_stat2_id                         = active_skill_base_radius_+
+@@ -136,7 +136,7 @@
+ |level10_cost_amounts                    = 8
+ |level10_damage_effectiveness            = 59
+ |level10_damage_multiplier               = 59.5
+-|level10_stat_text                       = Deals 156.3 Base Chaos Damage per second<br>+3 to radius
++|level10_stat_text                       = Deals 156.3 Base Chaos Damage per second<br>+0.3 metres to radius
+ |level10_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level10_stat1_value                     = 9381
+ |level10_stat2_id                        = active_skill_base_radius_+
+@@ -146,7 +146,7 @@
+ |level11_cost_amounts                    = 8
+ |level11_damage_effectiveness            = 60
+ |level11_damage_multiplier               = 59.9
+-|level11_stat_text                       = Deals 208.5 Base Chaos Damage per second<br>+3 to radius
++|level11_stat_text                       = Deals 208.5 Base Chaos Damage per second<br>+0.3 metres to radius
+ |level11_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level11_stat1_value                     = 12509
+ |level11_stat2_id                        = active_skill_base_radius_+
+@@ -156,7 +156,7 @@
+ |level12_cost_amounts                    = 8
+ |level12_damage_effectiveness            = 60
+ |level12_damage_multiplier               = 60.4
+-|level12_stat_text                       = Deals 275.9 Base Chaos Damage per second<br>+3 to radius
++|level12_stat_text                       = Deals 275.9 Base Chaos Damage per second<br>+0.3 metres to radius
+ |level12_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level12_stat1_value                     = 16551
+ |level12_stat2_id                        = active_skill_base_radius_+
+@@ -166,7 +166,7 @@
+ |level13_cost_amounts                    = 9
+ |level13_damage_effectiveness            = 61
+ |level13_damage_multiplier               = 60.9
+-|level13_stat_text                       = Deals 362.7 Base Chaos Damage per second<br>+4 to radius
++|level13_stat_text                       = Deals 362.7 Base Chaos Damage per second<br>+0.4 metres to radius
+ |level13_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level13_stat1_value                     = 21760
+ |level13_stat2_id                        = active_skill_base_radius_+
+@@ -176,7 +176,7 @@
+ |level14_cost_amounts                    = 9
+ |level14_damage_effectiveness            = 61
+ |level14_damage_multiplier               = 61.4
+-|level14_stat_text                       = Deals 474.1 Base Chaos Damage per second<br>+4 to radius
++|level14_stat_text                       = Deals 474.1 Base Chaos Damage per second<br>+0.4 metres to radius
+ |level14_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level14_stat1_value                     = 28448
+ |level14_stat2_id                        = active_skill_base_radius_+
+@@ -186,7 +186,7 @@
+ |level15_cost_amounts                    = 9
+ |level15_damage_effectiveness            = 62
+ |level15_damage_multiplier               = 61.9
+-|level15_stat_text                       = Deals 616.9 Base Chaos Damage per second<br>+4 to radius
++|level15_stat_text                       = Deals 616.9 Base Chaos Damage per second<br>+0.4 metres to radius
+ |level15_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level15_stat1_value                     = 37015
+ |level15_stat2_id                        = active_skill_base_radius_+
+@@ -196,7 +196,7 @@
+ |level16_cost_amounts                    = 9
+ |level16_damage_effectiveness            = 62
+ |level16_damage_multiplier               = 62.4
+-|level16_stat_text                       = Deals 799.3 Base Chaos Damage per second<br>+5 to radius
++|level16_stat_text                       = Deals 799.3 Base Chaos Damage per second<br>+0.5 metres to radius
+ |level16_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level16_stat1_value                     = 47960
+ |level16_stat2_id                        = active_skill_base_radius_+
+@@ -206,7 +206,7 @@
+ |level17_cost_amounts                    = 10
+ |level17_damage_effectiveness            = 63
+ |level17_damage_multiplier               = 62.9
+-|level17_stat_text                       = Deals 1031.8 Base Chaos Damage per second<br>+5 to radius
++|level17_stat_text                       = Deals 1031.8 Base Chaos Damage per second<br>+0.5 metres to radius
+ |level17_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level17_stat1_value                     = 61911
+ |level17_stat2_id                        = active_skill_base_radius_+
+@@ -216,7 +216,7 @@
+ |level18_cost_amounts                    = 10
+ |level18_damage_effectiveness            = 63
+ |level18_damage_multiplier               = 63.4
+-|level18_stat_text                       = Deals 1327.6 Base Chaos Damage per second<br>+5 to radius
++|level18_stat_text                       = Deals 1327.6 Base Chaos Damage per second<br>+0.5 metres to radius
+ |level18_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level18_stat1_value                     = 79657
+ |level18_stat2_id                        = active_skill_base_radius_+
+@@ -226,7 +226,7 @@
+ |level19_cost_amounts                    = 10
+ |level19_damage_effectiveness            = 64
+ |level19_damage_multiplier               = 63.9
+-|level19_stat_text                       = Deals 1600.8 Base Chaos Damage per second<br>+6 to radius
++|level19_stat_text                       = Deals 1600.8 Base Chaos Damage per second<br>+0.6 metres to radius
+ |level19_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level19_stat1_value                     = 96045
+ |level19_stat2_id                        = active_skill_base_radius_+
+@@ -236,7 +236,7 @@
+ |level20_cost_amounts                    = 10
+ |level20_damage_effectiveness            = 64
+ |level20_damage_multiplier               = 64.4
+-|level20_stat_text                       = Deals 1927.1 Base Chaos Damage per second<br>+6 to radius
++|level20_stat_text                       = Deals 1927.1 Base Chaos Damage per second<br>+0.6 metres to radius
+ |level20_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level20_stat1_value                     = 115627
+ |level20_stat2_id                        = active_skill_base_radius_+
+@@ -246,7 +246,7 @@
+ |level21_cost_amounts                    = 11
+ |level21_damage_effectiveness            = 65
+ |level21_damage_multiplier               = 64.9
+-|level21_stat_text                       = Deals 2179.2 Base Chaos Damage per second<br>+6 to radius
++|level21_stat_text                       = Deals 2179.2 Base Chaos Damage per second<br>+0.6 metres to radius
+ |level21_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level21_stat1_value                     = 130749
+ |level21_stat2_id                        = active_skill_base_radius_+
+@@ -256,7 +256,7 @@
+ |level22_cost_amounts                    = 11
+ |level22_damage_effectiveness            = 65
+ |level22_damage_multiplier               = 65.4
+-|level22_stat_text                       = Deals 2462.7 Base Chaos Damage per second<br>+7 to radius
++|level22_stat_text                       = Deals 2462.7 Base Chaos Damage per second<br>+0.7 metres to radius
+ |level22_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level22_stat1_value                     = 147760
+ |level22_stat2_id                        = active_skill_base_radius_+
+@@ -266,7 +266,7 @@
+ |level23_cost_amounts                    = 11
+ |level23_damage_effectiveness            = 66
+ |level23_damage_multiplier               = 65.9
+-|level23_stat_text                       = Deals 2781.5 Base Chaos Damage per second<br>+7 to radius
++|level23_stat_text                       = Deals 2781.5 Base Chaos Damage per second<br>+0.7 metres to radius
+ |level23_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level23_stat1_value                     = 166889
+ |level23_stat2_id                        = active_skill_base_radius_+
+@@ -276,7 +276,7 @@
+ |level24_cost_amounts                    = 11
+ |level24_damage_effectiveness            = 66
+ |level24_damage_multiplier               = 66.4
+-|level24_stat_text                       = Deals 3139.9 Base Chaos Damage per second<br>+7 to radius
++|level24_stat_text                       = Deals 3139.9 Base Chaos Damage per second<br>+0.7 metres to radius
+ |level24_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level24_stat1_value                     = 188393
+ |level24_stat2_id                        = active_skill_base_radius_+
+@@ -286,7 +286,7 @@
+ |level25_cost_amounts                    = 12
+ |level25_damage_effectiveness            = 67
+ |level25_damage_multiplier               = 66.9
+-|level25_stat_text                       = Deals 3542.6 Base Chaos Damage per second<br>+8 to radius
++|level25_stat_text                       = Deals 3542.6 Base Chaos Damage per second<br>+0.8 metres to radius
+ |level25_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level25_stat1_value                     = 212557
+ |level25_stat2_id                        = active_skill_base_radius_+
+@@ -296,7 +296,7 @@
+ |level26_cost_amounts                    = 12
+ |level26_damage_effectiveness            = 67
+ |level26_damage_multiplier               = 67.4
+-|level26_stat_text                       = Deals 3995 Base Chaos Damage per second<br>+8 to radius
++|level26_stat_text                       = Deals 3995 Base Chaos Damage per second<br>+0.8 metres to radius
+ |level26_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level26_stat1_value                     = 239701
+ |level26_stat2_id                        = active_skill_base_radius_+
+@@ -306,7 +306,7 @@
+ |level27_cost_amounts                    = 12
+ |level27_damage_effectiveness            = 68
+ |level27_damage_multiplier               = 67.9
+-|level27_stat_text                       = Deals 4503.1 Base Chaos Damage per second<br>+8 to radius
++|level27_stat_text                       = Deals 4503.1 Base Chaos Damage per second<br>+0.8 metres to radius
+ |level27_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level27_stat1_value                     = 270183
+ |level27_stat2_id                        = active_skill_base_radius_+
+@@ -316,7 +316,7 @@
+ |level28_cost_amounts                    = 12
+ |level28_damage_effectiveness            = 68
+ |level28_damage_multiplier               = 68.4
+-|level28_stat_text                       = Deals 5073.4 Base Chaos Damage per second<br>+9 to radius
++|level28_stat_text                       = Deals 5073.4 Base Chaos Damage per second<br>+0.9 metres to radius
+ |level28_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level28_stat1_value                     = 304403
+ |level28_stat2_id                        = active_skill_base_radius_+
+@@ -326,7 +326,7 @@
+ |level29_cost_amounts                    = 13
+ |level29_damage_effectiveness            = 69
+ |level29_damage_multiplier               = 68.9
+-|level29_stat_text                       = Deals 5713.4 Base Chaos Damage per second<br>+9 to radius
++|level29_stat_text                       = Deals 5713.4 Base Chaos Damage per second<br>+0.9 metres to radius
+ |level29_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level29_stat1_value                     = 342807
+ |level29_stat2_id                        = active_skill_base_radius_+
+@@ -336,7 +336,7 @@
+ |level30_cost_amounts                    = 13
+ |level30_damage_effectiveness            = 69
+ |level30_damage_multiplier               = 69.4
+-|level30_stat_text                       = Deals 6431.6 Base Chaos Damage per second<br>+9 to radius
++|level30_stat_text                       = Deals 6431.6 Base Chaos Damage per second<br>+0.9 metres to radius
+ |level30_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level30_stat1_value                     = 385896
+ |level30_stat2_id                        = active_skill_base_radius_+
+@@ -346,7 +346,7 @@
+ |level31_cost_amounts                    = 13
+ |level31_damage_effectiveness            = 70
+ |level31_damage_multiplier               = 69.8
+-|level31_stat_text                       = Deals 6822.8 Base Chaos Damage per second<br>+9 to radius
++|level31_stat_text                       = Deals 6822.8 Base Chaos Damage per second<br>+0.9 metres to radius
+ |level31_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level31_stat1_value                     = 409368
+ |level31_stat2_id                        = active_skill_base_radius_+
+@@ -356,7 +356,7 @@
+ |level32_cost_amounts                    = 13
+ |level32_damage_effectiveness            = 70
+ |level32_damage_multiplier               = 70.3
+-|level32_stat_text                       = Deals 7237.1 Base Chaos Damage per second<br>+10 to radius
++|level32_stat_text                       = Deals 7237.1 Base Chaos Damage per second<br>+1 metre to radius
+ |level32_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level32_stat1_value                     = 434225
+ |level32_stat2_id                        = active_skill_base_radius_+
+@@ -366,7 +366,7 @@
+ |level33_cost_amounts                    = 14
+ |level33_damage_effectiveness            = 71
+ |level33_damage_multiplier               = 70.8
+-|level33_stat_text                       = Deals 7675.8 Base Chaos Damage per second<br>+10 to radius
++|level33_stat_text                       = Deals 7675.8 Base Chaos Damage per second<br>+1 metre to radius
+ |level33_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level33_stat1_value                     = 460548
+ |level33_stat2_id                        = active_skill_base_radius_+
+@@ -376,7 +376,7 @@
+ |level34_cost_amounts                    = 14
+ |level34_damage_effectiveness            = 71
+ |level34_damage_multiplier               = 71.3
+-|level34_stat_text                       = Deals 8140.3 Base Chaos Damage per second<br>+10 to radius
++|level34_stat_text                       = Deals 8140.3 Base Chaos Damage per second<br>+1 metre to radius
+ |level34_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level34_stat1_value                     = 488419
+ |level34_stat2_id                        = active_skill_base_radius_+
+@@ -386,7 +386,7 @@
+ |level35_cost_amounts                    = 14
+ |level35_damage_effectiveness            = 72
+ |level35_damage_multiplier               = 71.8
+-|level35_stat_text                       = Deals 8632.2 Base Chaos Damage per second<br>+11 to radius
++|level35_stat_text                       = Deals 8632.2 Base Chaos Damage per second<br>+1.1 metres to radius
+ |level35_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level35_stat1_value                     = 517930
+ |level35_stat2_id                        = active_skill_base_radius_+
+@@ -396,7 +396,7 @@
+ |level36_cost_amounts                    = 14
+ |level36_damage_effectiveness            = 72
+ |level36_damage_multiplier               = 72.3
+-|level36_stat_text                       = Deals 9152.9 Base Chaos Damage per second<br>+11 to radius
++|level36_stat_text                       = Deals 9152.9 Base Chaos Damage per second<br>+1.1 metres to radius
+ |level36_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level36_stat1_value                     = 549173
+ |level36_stat2_id                        = active_skill_base_radius_+
+@@ -406,7 +406,7 @@
+ |level37_cost_amounts                    = 15
+ |level37_damage_effectiveness            = 73
+ |level37_damage_multiplier               = 72.8
+-|level37_stat_text                       = Deals 9704.1 Base Chaos Damage per second<br>+11 to radius
++|level37_stat_text                       = Deals 9704.1 Base Chaos Damage per second<br>+1.1 metres to radius
+ |level37_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level37_stat1_value                     = 582249
+ |level37_stat2_id                        = active_skill_base_radius_+
+@@ -416,7 +416,7 @@
+ |level38_cost_amounts                    = 15
+ |level38_damage_effectiveness            = 73
+ |level38_damage_multiplier               = 73.3
+-|level38_stat_text                       = Deals 10287.7 Base Chaos Damage per second<br>+12 to radius
++|level38_stat_text                       = Deals 10287.7 Base Chaos Damage per second<br>+1.2 metres to radius
+ |level38_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level38_stat1_value                     = 617263
+ |level38_stat2_id                        = active_skill_base_radius_+
+@@ -426,7 +426,7 @@
+ |level39_cost_amounts                    = 15
+ |level39_damage_effectiveness            = 74
+ |level39_damage_multiplier               = 73.8
+-|level39_stat_text                       = Deals 10905.4 Base Chaos Damage per second<br>+12 to radius
++|level39_stat_text                       = Deals 10905.4 Base Chaos Damage per second<br>+1.2 metres to radius
+ |level39_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level39_stat1_value                     = 654326
+ |level39_stat2_id                        = active_skill_base_radius_+
+@@ -436,7 +436,7 @@
+ |level40_cost_amounts                    = 15
+ |level40_damage_effectiveness            = 74
+ |level40_damage_multiplier               = 74.3
+-|level40_stat_text                       = Deals 11559.3 Base Chaos Damage per second<br>+12 to radius
++|level40_stat_text                       = Deals 11559.3 Base Chaos Damage per second<br>+1.2 metres to radius
+ |level40_stat1_id                        = base_chaos_damage_to_deal_per_minute
+ |level40_stat1_value                     = 693556
+ |level40_stat2_id                        = active_skill_base_radius_+

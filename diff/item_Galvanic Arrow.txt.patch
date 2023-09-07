@@ -1,11 +1,355 @@
 --- Galvanic Arrow
 +++ Export
-@@ -281,6 +281,8 @@
+@@ -41,7 +41,7 @@
+ |static_stat4_value                      = 2
+ |static_stat5_id                         = additive_arrow_speed_modifiers_apply_to_area_of_effect
+ |static_stat5_value                      = 1
+-|stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>(1-9) to (5-179) Added Lightning Damage<br>Fires 2 additional Arrows<br>+(0-5) to radius<br>Increases and Reductions to Projectile Speed also apply to<br>this Skill's Area of Effect
++|stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>(1-9) to (5-179) Added Lightning Damage<br>Fires 2 additional Arrows<br>+(0-0.5) metres to radius<br>Increases and Reductions to Projectile Speed also apply to<br>this Skill's Area of Effect
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ |level1_cost_amounts                     = 6
+@@ -67,7 +67,7 @@
+ |level3_cost_amounts                     = 6
+ |level3_damage_effectiveness             = 82
+ |level3_damage_multiplier                = 82
+-|level3_stat_text                        = 1 to 7 Added Lightning Damage<br>+1 to radius
++|level3_stat_text                        = 1 to 7 Added Lightning Damage<br>+0.1 metres to radius
+ |level3_stat1_id                         = attack_minimum_added_lightning_damage
+ |level3_stat1_value                      = 1
+ |level3_stat2_id                         = attack_maximum_added_lightning_damage
+@@ -79,7 +79,7 @@
+ |level4_cost_amounts                     = 7
+ |level4_damage_effectiveness             = 83
+ |level4_damage_multiplier                = 83
+-|level4_stat_text                        = 1 to 9 Added Lightning Damage<br>+1 to radius
++|level4_stat_text                        = 1 to 9 Added Lightning Damage<br>+0.1 metres to radius
+ |level4_stat1_id                         = attack_minimum_added_lightning_damage
+ |level4_stat1_value                      = 1
+ |level4_stat2_id                         = attack_maximum_added_lightning_damage
+@@ -91,7 +91,7 @@
+ |level5_cost_amounts                     = 7
+ |level5_damage_effectiveness             = 84
+ |level5_damage_multiplier                = 84
+-|level5_stat_text                        = 1 to 12 Added Lightning Damage<br>+1 to radius
++|level5_stat_text                        = 1 to 12 Added Lightning Damage<br>+0.1 metres to radius
+ |level5_stat1_id                         = attack_minimum_added_lightning_damage
+ |level5_stat1_value                      = 1
+ |level5_stat2_id                         = attack_maximum_added_lightning_damage
+@@ -103,7 +103,7 @@
+ |level6_cost_amounts                     = 7
+ |level6_damage_effectiveness             = 85
+ |level6_damage_multiplier                = 85
+-|level6_stat_text                        = 1 to 17 Added Lightning Damage<br>+1 to radius
++|level6_stat_text                        = 1 to 17 Added Lightning Damage<br>+0.1 metres to radius
+ |level6_stat1_id                         = attack_minimum_added_lightning_damage
+ |level6_stat1_value                      = 1
+ |level6_stat2_id                         = attack_maximum_added_lightning_damage
+@@ -115,7 +115,7 @@
+ |level7_cost_amounts                     = 7
+ |level7_damage_effectiveness             = 86
+ |level7_damage_multiplier                = 86
+-|level7_stat_text                        = 1 to 21 Added Lightning Damage<br>+2 to radius
++|level7_stat_text                        = 1 to 21 Added Lightning Damage<br>+0.2 metres to radius
+ |level7_stat1_id                         = attack_minimum_added_lightning_damage
+ |level7_stat1_value                      = 1
+ |level7_stat2_id                         = attack_maximum_added_lightning_damage
+@@ -127,7 +127,7 @@
+ |level8_cost_amounts                     = 8
+ |level8_damage_effectiveness             = 87
+ |level8_damage_multiplier                = 87
+-|level8_stat_text                        = 1 to 26 Added Lightning Damage<br>+2 to radius
++|level8_stat_text                        = 1 to 26 Added Lightning Damage<br>+0.2 metres to radius
+ |level8_stat1_id                         = attack_minimum_added_lightning_damage
+ |level8_stat1_value                      = 1
+ |level8_stat2_id                         = attack_maximum_added_lightning_damage
+@@ -139,7 +139,7 @@
+ |level9_cost_amounts                     = 8
+ |level9_damage_effectiveness             = 88
+ |level9_damage_multiplier                = 88
+-|level9_stat_text                        = 2 to 32 Added Lightning Damage<br>+2 to radius
++|level9_stat_text                        = 2 to 32 Added Lightning Damage<br>+0.2 metres to radius
+ |level9_stat1_id                         = attack_minimum_added_lightning_damage
+ |level9_stat1_value                      = 2
+ |level9_stat2_id                         = attack_maximum_added_lightning_damage
+@@ -151,7 +151,7 @@
+ |level10_cost_amounts                    = 8
+ |level10_damage_effectiveness            = 89
+ |level10_damage_multiplier               = 89
+-|level10_stat_text                       = 2 to 39 Added Lightning Damage<br>+3 to radius
++|level10_stat_text                       = 2 to 39 Added Lightning Damage<br>+0.3 metres to radius
+ |level10_stat1_id                        = attack_minimum_added_lightning_damage
+ |level10_stat1_value                     = 2
+ |level10_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -163,7 +163,7 @@
+ |level11_cost_amounts                    = 8
+ |level11_damage_effectiveness            = 90
+ |level11_damage_multiplier               = 90
+-|level11_stat_text                       = 2 to 47 Added Lightning Damage<br>+3 to radius
++|level11_stat_text                       = 2 to 47 Added Lightning Damage<br>+0.3 metres to radius
+ |level11_stat1_id                        = attack_minimum_added_lightning_damage
+ |level11_stat1_value                     = 2
+ |level11_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -175,7 +175,7 @@
+ |level12_cost_amounts                    = 8
+ |level12_damage_effectiveness            = 91
+ |level12_damage_multiplier               = 91
+-|level12_stat_text                       = 3 to 56 Added Lightning Damage<br>+3 to radius
++|level12_stat_text                       = 3 to 56 Added Lightning Damage<br>+0.3 metres to radius
+ |level12_stat1_id                        = attack_minimum_added_lightning_damage
+ |level12_stat1_value                     = 3
+ |level12_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -187,7 +187,7 @@
+ |level13_cost_amounts                    = 9
+ |level13_damage_effectiveness            = 92
+ |level13_damage_multiplier               = 92
+-|level13_stat_text                       = 3 to 66 Added Lightning Damage<br>+3 to radius
++|level13_stat_text                       = 3 to 66 Added Lightning Damage<br>+0.3 metres to radius
+ |level13_stat1_id                        = attack_minimum_added_lightning_damage
+ |level13_stat1_value                     = 3
+ |level13_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -199,7 +199,7 @@
+ |level14_cost_amounts                    = 9
+ |level14_damage_effectiveness            = 93
+ |level14_damage_multiplier               = 93
+-|level14_stat_text                       = 4 to 78 Added Lightning Damage<br>+4 to radius
++|level14_stat_text                       = 4 to 78 Added Lightning Damage<br>+0.4 metres to radius
+ |level14_stat1_id                        = attack_minimum_added_lightning_damage
+ |level14_stat1_value                     = 4
+ |level14_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -211,7 +211,7 @@
+ |level15_cost_amounts                    = 9
+ |level15_damage_effectiveness            = 94
+ |level15_damage_multiplier               = 94
+-|level15_stat_text                       = 5 to 92 Added Lightning Damage<br>+4 to radius
++|level15_stat_text                       = 5 to 92 Added Lightning Damage<br>+0.4 metres to radius
+ |level15_stat1_id                        = attack_minimum_added_lightning_damage
+ |level15_stat1_value                     = 5
+ |level15_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -223,7 +223,7 @@
+ |level16_cost_amounts                    = 9
+ |level16_damage_effectiveness            = 95
+ |level16_damage_multiplier               = 95
+-|level16_stat_text                       = 6 to 107 Added Lightning Damage<br>+4 to radius
++|level16_stat_text                       = 6 to 107 Added Lightning Damage<br>+0.4 metres to radius
+ |level16_stat1_id                        = attack_minimum_added_lightning_damage
+ |level16_stat1_value                     = 6
+ |level16_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -235,7 +235,7 @@
+ |level17_cost_amounts                    = 9
+ |level17_damage_effectiveness            = 96
+ |level17_damage_multiplier               = 96
+-|level17_stat_text                       = 7 to 125 Added Lightning Damage<br>+5 to radius
++|level17_stat_text                       = 7 to 125 Added Lightning Damage<br>+0.5 metres to radius
+ |level17_stat1_id                        = attack_minimum_added_lightning_damage
+ |level17_stat1_value                     = 7
+ |level17_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -247,7 +247,7 @@
+ |level18_cost_amounts                    = 10
+ |level18_damage_effectiveness            = 97
+ |level18_damage_multiplier               = 97
+-|level18_stat_text                       = 8 to 144 Added Lightning Damage<br>+5 to radius
++|level18_stat_text                       = 8 to 144 Added Lightning Damage<br>+0.5 metres to radius
+ |level18_stat1_id                        = attack_minimum_added_lightning_damage
+ |level18_stat1_value                     = 8
+ |level18_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -259,7 +259,7 @@
+ |level19_cost_amounts                    = 10
+ |level19_damage_effectiveness            = 98
+ |level19_damage_multiplier               = 98
+-|level19_stat_text                       = 8 to 161 Added Lightning Damage<br>+5 to radius
++|level19_stat_text                       = 8 to 161 Added Lightning Damage<br>+0.5 metres to radius
+ |level19_stat1_id                        = attack_minimum_added_lightning_damage
+ |level19_stat1_value                     = 8
+ |level19_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -271,7 +271,7 @@
+ |level20_cost_amounts                    = 10
+ |level20_damage_effectiveness            = 99
+ |level20_damage_multiplier               = 99
+-|level20_stat_text                       = 9 to 179 Added Lightning Damage<br>+5 to radius
++|level20_stat_text                       = 9 to 179 Added Lightning Damage<br>+0.5 metres to radius
+ |level20_stat1_id                        = attack_minimum_added_lightning_damage
+ |level20_stat1_value                     = 9
+ |level20_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -281,7 +281,9 @@
  |level21                                 = True
  |level21_level_requirement               = 72
  |level21_cost_amounts                    = 10
+-|level21_stat_text                       = 10 to 192 Added Lightning Damage<br>+6 to radius
 +|level21_damage_effectiveness            = 100
 +|level21_damage_multiplier               = 100
- |level21_stat_text                       = 10 to 192 Added Lightning Damage<br>+6 to radius
++|level21_stat_text                       = 10 to 192 Added Lightning Damage<br>+0.6 metres to radius
  |level21_stat1_id                        = attack_minimum_added_lightning_damage
  |level21_stat1_value                     = 10
+ |level21_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -293,7 +295,7 @@
+ |level22_cost_amounts                    = 10
+ |level22_damage_effectiveness            = 101
+ |level22_damage_multiplier               = 101
+-|level22_stat_text                       = 11 to 206 Added Lightning Damage<br>+6 to radius
++|level22_stat_text                       = 11 to 206 Added Lightning Damage<br>+0.6 metres to radius
+ |level22_stat1_id                        = attack_minimum_added_lightning_damage
+ |level22_stat1_value                     = 11
+ |level22_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -305,7 +307,7 @@
+ |level23_cost_amounts                    = 11
+ |level23_damage_effectiveness            = 102
+ |level23_damage_multiplier               = 102
+-|level23_stat_text                       = 12 to 221 Added Lightning Damage<br>+6 to radius
++|level23_stat_text                       = 12 to 221 Added Lightning Damage<br>+0.6 metres to radius
+ |level23_stat1_id                        = attack_minimum_added_lightning_damage
+ |level23_stat1_value                     = 12
+ |level23_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -317,7 +319,7 @@
+ |level24_cost_amounts                    = 11
+ |level24_damage_effectiveness            = 103
+ |level24_damage_multiplier               = 103
+-|level24_stat_text                       = 12 to 237 Added Lightning Damage<br>+7 to radius
++|level24_stat_text                       = 12 to 237 Added Lightning Damage<br>+0.7 metres to radius
+ |level24_stat1_id                        = attack_minimum_added_lightning_damage
+ |level24_stat1_value                     = 12
+ |level24_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -329,7 +331,7 @@
+ |level25_cost_amounts                    = 11
+ |level25_damage_effectiveness            = 104
+ |level25_damage_multiplier               = 104
+-|level25_stat_text                       = 13 to 254 Added Lightning Damage<br>+7 to radius
++|level25_stat_text                       = 13 to 254 Added Lightning Damage<br>+0.7 metres to radius
+ |level25_stat1_id                        = attack_minimum_added_lightning_damage
+ |level25_stat1_value                     = 13
+ |level25_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -341,7 +343,7 @@
+ |level26_cost_amounts                    = 11
+ |level26_damage_effectiveness            = 105
+ |level26_damage_multiplier               = 105
+-|level26_stat_text                       = 14 to 272 Added Lightning Damage<br>+7 to radius
++|level26_stat_text                       = 14 to 272 Added Lightning Damage<br>+0.7 metres to radius
+ |level26_stat1_id                        = attack_minimum_added_lightning_damage
+ |level26_stat1_value                     = 14
+ |level26_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -353,7 +355,7 @@
+ |level27_cost_amounts                    = 11
+ |level27_damage_effectiveness            = 106
+ |level27_damage_multiplier               = 106
+-|level27_stat_text                       = 15 to 291 Added Lightning Damage<br>+7 to radius
++|level27_stat_text                       = 15 to 291 Added Lightning Damage<br>+0.7 metres to radius
+ |level27_stat1_id                        = attack_minimum_added_lightning_damage
+ |level27_stat1_value                     = 15
+ |level27_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -365,7 +367,7 @@
+ |level28_cost_amounts                    = 12
+ |level28_damage_effectiveness            = 107
+ |level28_damage_multiplier               = 107
+-|level28_stat_text                       = 16 to 311 Added Lightning Damage<br>+8 to radius
++|level28_stat_text                       = 16 to 311 Added Lightning Damage<br>+0.8 metres to radius
+ |level28_stat1_id                        = attack_minimum_added_lightning_damage
+ |level28_stat1_value                     = 16
+ |level28_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -377,7 +379,7 @@
+ |level29_cost_amounts                    = 12
+ |level29_damage_effectiveness            = 108
+ |level29_damage_multiplier               = 108
+-|level29_stat_text                       = 18 to 333 Added Lightning Damage<br>+8 to radius
++|level29_stat_text                       = 18 to 333 Added Lightning Damage<br>+0.8 metres to radius
+ |level29_stat1_id                        = attack_minimum_added_lightning_damage
+ |level29_stat1_value                     = 18
+ |level29_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -389,7 +391,7 @@
+ |level30_cost_amounts                    = 12
+ |level30_damage_effectiveness            = 109
+ |level30_damage_multiplier               = 109
+-|level30_stat_text                       = 19 to 355 Added Lightning Damage<br>+8 to radius
++|level30_stat_text                       = 19 to 355 Added Lightning Damage<br>+0.8 metres to radius
+ |level30_stat1_id                        = attack_minimum_added_lightning_damage
+ |level30_stat1_value                     = 19
+ |level30_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -401,7 +403,7 @@
+ |level31_cost_amounts                    = 12
+ |level31_damage_effectiveness            = 110
+ |level31_damage_multiplier               = 109.5
+-|level31_stat_text                       = 19 to 367 Added Lightning Damage<br>+8 to radius
++|level31_stat_text                       = 19 to 367 Added Lightning Damage<br>+0.8 metres to radius
+ |level31_stat1_id                        = attack_minimum_added_lightning_damage
+ |level31_stat1_value                     = 19
+ |level31_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -413,7 +415,7 @@
+ |level32_cost_amounts                    = 13
+ |level32_damage_effectiveness            = 110
+ |level32_damage_multiplier               = 110
+-|level32_stat_text                       = 20 to 380 Added Lightning Damage<br>+9 to radius
++|level32_stat_text                       = 20 to 380 Added Lightning Damage<br>+0.9 metres to radius
+ |level32_stat1_id                        = attack_minimum_added_lightning_damage
+ |level32_stat1_value                     = 20
+ |level32_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -425,7 +427,7 @@
+ |level33_cost_amounts                    = 13
+ |level33_damage_effectiveness            = 111
+ |level33_damage_multiplier               = 110.5
+-|level33_stat_text                       = 21 to 392 Added Lightning Damage<br>+9 to radius
++|level33_stat_text                       = 21 to 392 Added Lightning Damage<br>+0.9 metres to radius
+ |level33_stat1_id                        = attack_minimum_added_lightning_damage
+ |level33_stat1_value                     = 21
+ |level33_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -437,7 +439,7 @@
+ |level34_cost_amounts                    = 13
+ |level34_damage_effectiveness            = 111
+ |level34_damage_multiplier               = 111
+-|level34_stat_text                       = 21 to 405 Added Lightning Damage<br>+9 to radius
++|level34_stat_text                       = 21 to 405 Added Lightning Damage<br>+0.9 metres to radius
+ |level34_stat1_id                        = attack_minimum_added_lightning_damage
+ |level34_stat1_value                     = 21
+ |level34_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -449,7 +451,7 @@
+ |level35_cost_amounts                    = 13
+ |level35_damage_effectiveness            = 112
+ |level35_damage_multiplier               = 111.5
+-|level35_stat_text                       = 22 to 419 Added Lightning Damage<br>+9 to radius
++|level35_stat_text                       = 22 to 419 Added Lightning Damage<br>+0.9 metres to radius
+ |level35_stat1_id                        = attack_minimum_added_lightning_damage
+ |level35_stat1_value                     = 22
+ |level35_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -461,7 +463,7 @@
+ |level36_cost_amounts                    = 13
+ |level36_damage_effectiveness            = 112
+ |level36_damage_multiplier               = 112
+-|level36_stat_text                       = 23 to 433 Added Lightning Damage<br>+9 to radius
++|level36_stat_text                       = 23 to 433 Added Lightning Damage<br>+0.9 metres to radius
+ |level36_stat1_id                        = attack_minimum_added_lightning_damage
+ |level36_stat1_value                     = 23
+ |level36_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -473,7 +475,7 @@
+ |level37_cost_amounts                    = 14
+ |level37_damage_effectiveness            = 113
+ |level37_damage_multiplier               = 112.5
+-|level37_stat_text                       = 24 to 447 Added Lightning Damage<br>+9 to radius
++|level37_stat_text                       = 24 to 447 Added Lightning Damage<br>+0.9 metres to radius
+ |level37_stat1_id                        = attack_minimum_added_lightning_damage
+ |level37_stat1_value                     = 24
+ |level37_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -485,7 +487,7 @@
+ |level38_cost_amounts                    = 14
+ |level38_damage_effectiveness            = 113
+ |level38_damage_multiplier               = 113
+-|level38_stat_text                       = 24 to 462 Added Lightning Damage<br>+9 to radius
++|level38_stat_text                       = 24 to 462 Added Lightning Damage<br>+0.9 metres to radius
+ |level38_stat1_id                        = attack_minimum_added_lightning_damage
+ |level38_stat1_value                     = 24
+ |level38_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -497,7 +499,7 @@
+ |level39_cost_amounts                    = 14
+ |level39_damage_effectiveness            = 114
+ |level39_damage_multiplier               = 113.5
+-|level39_stat_text                       = 25 to 477 Added Lightning Damage<br>+10 to radius
++|level39_stat_text                       = 25 to 477 Added Lightning Damage<br>+1 metre to radius
+ |level39_stat1_id                        = attack_minimum_added_lightning_damage
+ |level39_stat1_value                     = 25
+ |level39_stat2_id                        = attack_maximum_added_lightning_damage
+@@ -509,7 +511,7 @@
+ |level40_cost_amounts                    = 14
+ |level40_damage_effectiveness            = 114
+ |level40_damage_multiplier               = 114
+-|level40_stat_text                       = 26 to 492 Added Lightning Damage<br>+10 to radius
++|level40_stat_text                       = 26 to 492 Added Lightning Damage<br>+1 metre to radius
+ |level40_stat1_id                        = attack_minimum_added_lightning_damage
+ |level40_stat1_value                     = 26
+ |level40_stat2_id                        = attack_maximum_added_lightning_damage

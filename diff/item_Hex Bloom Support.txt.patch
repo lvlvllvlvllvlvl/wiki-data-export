@@ -1,0 +1,11 @@
+--- Hex Bloom Support
++++ Export
+@@ -31,7 +31,7 @@
+ |static_attack_speed_multiplier          = 100
+ |static_stat1_id                         = transfer_hexes_to_X_nearby_enemies_on_kill
+ |static_stat1_value                      = 1
+-|stat_text                               = Supported Skills have (0-28)% increased Hex Transfer range<br>Hexes from Supported Skills Transfer to all Enemies in a range of 30 when Hexed Enemy dies
++|stat_text                               = Supported Skills have (0-28)% increased Hex Transfer range<br>Hexes from Supported Skills Transfer to all Enemies within 3 metres when Hexed Enemy dies
+ |level1                                  = True
+ |level1_level_requirement                = 38
+ |level2                                  = True

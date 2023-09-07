@@ -1,0 +1,20 @@
+--- Galvanic Field
++++ Export
+@@ -30,7 +30,7 @@
+ |quality_type3_stat2_id                  = active_skill_area_of_effect_+%_final
+ |quality_type3_stat2_value               = -1500
+ |quality_type4_weight                    = 20
+-|quality_type4_stat_text                 = Field gains +0.05 to Radius per 10% Shock Effect on Enemy when created
++|quality_type4_stat_text                 = Field gains +0.005 metres to radius per 10% Shock Effect on Enemy when created
+ |quality_type4_stat1_id                  = galvanic_field_radius_+_per_10%_increased_damage_taken_from_shock
+ |quality_type4_stat1_value               = 50
+ |static_cost_types                       = Mana
+@@ -53,7 +53,7 @@
+ |static_stat6_value                      = 1
+ |static_stat7_id                         = galvanic_field_maximum_number_of_spheres
+ |static_stat7_value                      = 1
+-|stat_text                               = Deals (1-56) to (23-1067) Lightning Damage<br>Cannot inflict Shock<br>Base duration is 6 seconds<br>Fires a beam every 0.1 seconds<br>Can target each enemy only once every (0.7-0.5) seconds<br>Buff Grants 20% chance to Shock enemies<br>Field gains (10-15)% more Damage with Hits per 5% Shock Effect on Enemy when created<br>Field gains +1 to Radius per 10% Shock Effect on Enemy when created<br>Maximum 1 Field
++|stat_text                               = Deals (1-56) to (23-1067) Lightning Damage<br>Cannot inflict Shock<br>Base duration is 6 seconds<br>Fires a beam every 0.1 seconds<br>Can target each enemy only once every (0.7-0.5) seconds<br>Buff Grants 20% chance to Shock enemies<br>Field gains (10-15)% more Damage with Hits per 5% Shock Effect on Enemy when created<br>Field gains +0.1 metres to radius per 10% Shock Effect on Enemy when created<br>Maximum 1 Field
+ |level1                                  = True
+ |level1_level_requirement                = 16
+ |level1_cost_amounts                     = 9

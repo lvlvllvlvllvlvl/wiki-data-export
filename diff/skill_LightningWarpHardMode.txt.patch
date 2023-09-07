@@ -1,0 +1,344 @@
+--- Skill:LightningWarpHardMode
++++ Export
+@@ -17,7 +17,7 @@
+ |static_stat3_value                      = 1000
+ |static_stat4_id                         = max_number_of_lightning_warp_markers
+ |static_stat4_value                      = 50
+-|stat_text                               = Deals (1-249) to (19-4735) Lightning Damage<br>+(0-8) to radius<br>(0-34)% reduced Duration<br>Can queue up to 50 uses
++|stat_text                               = Deals (1-249) to (19-4735) Lightning Damage<br>+(0-0.8) metres to radius<br>(0-34)% reduced Duration<br>Can queue up to 50 uses
+ |level1                                  = True
+ |level1_level_requirement                = 10
+ |level1_cost_amounts                     = 9
+@@ -49,7 +49,7 @@
+ |level4                                  = True
+ |level4_level_requirement                = 21
+ |level4_cost_amounts                     = 12
+-|level4_stat_text                        = Deals 2 to 47 Lightning Damage<br>+1 to radius<br>3% reduced Duration
++|level4_stat_text                        = Deals 2 to 47 Lightning Damage<br>+0.1 metres to radius<br>3% reduced Duration
+ |level4_stat1_id                         = spell_minimum_base_lightning_damage
+ |level4_stat1_value                      = 2
+ |level4_stat2_id                         = spell_maximum_base_lightning_damage
+@@ -61,7 +61,7 @@
+ |level5                                  = True
+ |level5_level_requirement                = 25
+ |level5_cost_amounts                     = 13
+-|level5_stat_text                        = Deals 3 to 62 Lightning Damage<br>+1 to radius<br>4% reduced Duration
++|level5_stat_text                        = Deals 3 to 62 Lightning Damage<br>+0.1 metres to radius<br>4% reduced Duration
+ |level5_stat1_id                         = spell_minimum_base_lightning_damage
+ |level5_stat1_value                      = 3
+ |level5_stat2_id                         = spell_maximum_base_lightning_damage
+@@ -73,7 +73,7 @@
+ |level6                                  = True
+ |level6_level_requirement                = 29
+ |level6_cost_amounts                     = 14
+-|level6_stat_text                        = Deals 4 to 82 Lightning Damage<br>+1 to radius<br>5% reduced Duration
++|level6_stat_text                        = Deals 4 to 82 Lightning Damage<br>+0.1 metres to radius<br>5% reduced Duration
+ |level6_stat1_id                         = spell_minimum_base_lightning_damage
+ |level6_stat1_value                      = 4
+ |level6_stat2_id                         = spell_maximum_base_lightning_damage
+@@ -85,7 +85,7 @@
+ |level7                                  = True
+ |level7_level_requirement                = 33
+ |level7_cost_amounts                     = 16
+-|level7_stat_text                        = Deals 6 to 108 Lightning Damage<br>+1 to radius<br>6% reduced Duration
++|level7_stat_text                        = Deals 6 to 108 Lightning Damage<br>+0.1 metres to radius<br>6% reduced Duration
+ |level7_stat1_id                         = spell_minimum_base_lightning_damage
+ |level7_stat1_value                      = 6
+ |level7_stat2_id                         = spell_maximum_base_lightning_damage
+@@ -97,7 +97,7 @@
+ |level8                                  = True
+ |level8_level_requirement                = 36
+ |level8_cost_amounts                     = 16
+-|level8_stat_text                        = Deals 7 to 131 Lightning Damage<br>+2 to radius<br>7% reduced Duration
++|level8_stat_text                        = Deals 7 to 131 Lightning Damage<br>+0.2 metres to radius<br>7% reduced Duration
+ |level8_stat1_id                         = spell_minimum_base_lightning_damage
+ |level8_stat1_value                      = 7
+ |level8_stat2_id                         = spell_maximum_base_lightning_damage
+@@ -109,7 +109,7 @@
+ |level9                                  = True
+ |level9_level_requirement                = 39
+ |level9_cost_amounts                     = 17
+-|level9_stat_text                        = Deals 8 to 159 Lightning Damage<br>+2 to radius<br>8% reduced Duration
++|level9_stat_text                        = Deals 8 to 159 Lightning Damage<br>+0.2 metres to radius<br>8% reduced Duration
+ |level9_stat1_id                         = spell_minimum_base_lightning_damage
+ |level9_stat1_value                      = 8
+ |level9_stat2_id                         = spell_maximum_base_lightning_damage
+@@ -121,7 +121,7 @@
+ |level10                                 = True
+ |level10_level_requirement               = 42
+ |level10_cost_amounts                    = 18
+-|level10_stat_text                       = Deals 10 to 191 Lightning Damage<br>+2 to radius<br>9% reduced Duration
++|level10_stat_text                       = Deals 10 to 191 Lightning Damage<br>+0.2 metres to radius<br>9% reduced Duration
+ |level10_stat1_id                        = spell_minimum_base_lightning_damage
+ |level10_stat1_value                     = 10
+ |level10_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -133,7 +133,7 @@
+ |level11                                 = True
+ |level11_level_requirement               = 45
+ |level11_cost_amounts                    = 19
+-|level11_stat_text                       = Deals 12 to 230 Lightning Damage<br>+2 to radius<br>10% reduced Duration
++|level11_stat_text                       = Deals 12 to 230 Lightning Damage<br>+0.2 metres to radius<br>10% reduced Duration
+ |level11_stat1_id                        = spell_minimum_base_lightning_damage
+ |level11_stat1_value                     = 12
+ |level11_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -145,7 +145,7 @@
+ |level12                                 = True
+ |level12_level_requirement               = 48
+ |level12_cost_amounts                    = 20
+-|level12_stat_text                       = Deals 14 to 275 Lightning Damage<br>+2 to radius<br>11% reduced Duration
++|level12_stat_text                       = Deals 14 to 275 Lightning Damage<br>+0.2 metres to radius<br>11% reduced Duration
+ |level12_stat1_id                        = spell_minimum_base_lightning_damage
+ |level12_stat1_value                     = 14
+ |level12_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -157,7 +157,7 @@
+ |level13                                 = True
+ |level13_level_requirement               = 51
+ |level13_cost_amounts                    = 21
+-|level13_stat_text                       = Deals 17 to 329 Lightning Damage<br>+3 to radius<br>12% reduced Duration
++|level13_stat_text                       = Deals 17 to 329 Lightning Damage<br>+0.3 metres to radius<br>12% reduced Duration
+ |level13_stat1_id                        = spell_minimum_base_lightning_damage
+ |level13_stat1_value                     = 17
+ |level13_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -169,7 +169,7 @@
+ |level14                                 = True
+ |level14_level_requirement               = 54
+ |level14_cost_amounts                    = 22
+-|level14_stat_text                       = Deals 21 to 391 Lightning Damage<br>+3 to radius<br>13% reduced Duration
++|level14_stat_text                       = Deals 21 to 391 Lightning Damage<br>+0.3 metres to radius<br>13% reduced Duration
+ |level14_stat1_id                        = spell_minimum_base_lightning_damage
+ |level14_stat1_value                     = 21
+ |level14_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -181,7 +181,7 @@
+ |level15                                 = True
+ |level15_level_requirement               = 57
+ |level15_cost_amounts                    = 23
+-|level15_stat_text                       = Deals 24 to 465 Lightning Damage<br>+3 to radius<br>14% reduced Duration
++|level15_stat_text                       = Deals 24 to 465 Lightning Damage<br>+0.3 metres to radius<br>14% reduced Duration
+ |level15_stat1_id                        = spell_minimum_base_lightning_damage
+ |level15_stat1_value                     = 24
+ |level15_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -193,7 +193,7 @@
+ |level16                                 = True
+ |level16_level_requirement               = 60
+ |level16_cost_amounts                    = 23
+-|level16_stat_text                       = Deals 29 to 552 Lightning Damage<br>+3 to radius<br>15% reduced Duration
++|level16_stat_text                       = Deals 29 to 552 Lightning Damage<br>+0.3 metres to radius<br>15% reduced Duration
+ |level16_stat1_id                        = spell_minimum_base_lightning_damage
+ |level16_stat1_value                     = 29
+ |level16_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -205,7 +205,7 @@
+ |level17                                 = True
+ |level17_level_requirement               = 63
+ |level17_cost_amounts                    = 24
+-|level17_stat_text                       = Deals 34 to 654 Lightning Damage<br>+4 to radius<br>16% reduced Duration
++|level17_stat_text                       = Deals 34 to 654 Lightning Damage<br>+0.4 metres to radius<br>16% reduced Duration
+ |level17_stat1_id                        = spell_minimum_base_lightning_damage
+ |level17_stat1_value                     = 34
+ |level17_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -217,7 +217,7 @@
+ |level18                                 = True
+ |level18_level_requirement               = 66
+ |level18_cost_amounts                    = 25
+-|level18_stat_text                       = Deals 41 to 774 Lightning Damage<br>+4 to radius<br>17% reduced Duration
++|level18_stat_text                       = Deals 41 to 774 Lightning Damage<br>+0.4 metres to radius<br>17% reduced Duration
+ |level18_stat1_id                        = spell_minimum_base_lightning_damage
+ |level18_stat1_value                     = 41
+ |level18_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -229,7 +229,7 @@
+ |level19                                 = True
+ |level19_level_requirement               = 68
+ |level19_cost_amounts                    = 26
+-|level19_stat_text                       = Deals 45 to 864 Lightning Damage<br>+4 to radius<br>18% reduced Duration
++|level19_stat_text                       = Deals 45 to 864 Lightning Damage<br>+0.4 metres to radius<br>18% reduced Duration
+ |level19_stat1_id                        = spell_minimum_base_lightning_damage
+ |level19_stat1_value                     = 45
+ |level19_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -241,7 +241,7 @@
+ |level20                                 = True
+ |level20_level_requirement               = 70
+ |level20_cost_amounts                    = 26
+-|level20_stat_text                       = Deals 51 to 965 Lightning Damage<br>+4 to radius<br>19% reduced Duration
++|level20_stat_text                       = Deals 51 to 965 Lightning Damage<br>+0.4 metres to radius<br>19% reduced Duration
+ |level20_stat1_id                        = spell_minimum_base_lightning_damage
+ |level20_stat1_value                     = 51
+ |level20_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -253,7 +253,7 @@
+ |level21                                 = True
+ |level21_level_requirement               = 72
+ |level21_cost_amounts                    = 27
+-|level21_stat_text                       = Deals 57 to 1077 Lightning Damage<br>+5 to radius<br>20% reduced Duration
++|level21_stat_text                       = Deals 57 to 1077 Lightning Damage<br>+0.5 metres to radius<br>20% reduced Duration
+ |level21_stat1_id                        = spell_minimum_base_lightning_damage
+ |level21_stat1_value                     = 57
+ |level21_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -265,7 +265,7 @@
+ |level22                                 = True
+ |level22_level_requirement               = 74
+ |level22_cost_amounts                    = 27
+-|level22_stat_text                       = Deals 63 to 1200 Lightning Damage<br>+5 to radius<br>21% reduced Duration
++|level22_stat_text                       = Deals 63 to 1200 Lightning Damage<br>+0.5 metres to radius<br>21% reduced Duration
+ |level22_stat1_id                        = spell_minimum_base_lightning_damage
+ |level22_stat1_value                     = 63
+ |level22_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -277,7 +277,7 @@
+ |level23                                 = True
+ |level23_level_requirement               = 76
+ |level23_cost_amounts                    = 28
+-|level23_stat_text                       = Deals 70 to 1338 Lightning Damage<br>+5 to radius<br>22% reduced Duration
++|level23_stat_text                       = Deals 70 to 1338 Lightning Damage<br>+0.5 metres to radius<br>22% reduced Duration
+ |level23_stat1_id                        = spell_minimum_base_lightning_damage
+ |level23_stat1_value                     = 70
+ |level23_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -289,7 +289,7 @@
+ |level24                                 = True
+ |level24_level_requirement               = 78
+ |level24_cost_amounts                    = 29
+-|level24_stat_text                       = Deals 78 to 1490 Lightning Damage<br>+5 to radius<br>23% reduced Duration
++|level24_stat_text                       = Deals 78 to 1490 Lightning Damage<br>+0.5 metres to radius<br>23% reduced Duration
+ |level24_stat1_id                        = spell_minimum_base_lightning_damage
+ |level24_stat1_value                     = 78
+ |level24_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -301,7 +301,7 @@
+ |level25                                 = True
+ |level25_level_requirement               = 80
+ |level25_cost_amounts                    = 29
+-|level25_stat_text                       = Deals 87 to 1659 Lightning Damage<br>+5 to radius<br>24% reduced Duration
++|level25_stat_text                       = Deals 87 to 1659 Lightning Damage<br>+0.5 metres to radius<br>24% reduced Duration
+ |level25_stat1_id                        = spell_minimum_base_lightning_damage
+ |level25_stat1_value                     = 87
+ |level25_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -313,7 +313,7 @@
+ |level26                                 = True
+ |level26_level_requirement               = 82
+ |level26_cost_amounts                    = 30
+-|level26_stat_text                       = Deals 97 to 1846 Lightning Damage<br>+6 to radius<br>25% reduced Duration
++|level26_stat_text                       = Deals 97 to 1846 Lightning Damage<br>+0.6 metres to radius<br>25% reduced Duration
+ |level26_stat1_id                        = spell_minimum_base_lightning_damage
+ |level26_stat1_value                     = 97
+ |level26_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -325,7 +325,7 @@
+ |level27                                 = True
+ |level27_level_requirement               = 84
+ |level27_cost_amounts                    = 30
+-|level27_stat_text                       = Deals 108 to 2053 Lightning Damage<br>+6 to radius<br>26% reduced Duration
++|level27_stat_text                       = Deals 108 to 2053 Lightning Damage<br>+0.6 metres to radius<br>26% reduced Duration
+ |level27_stat1_id                        = spell_minimum_base_lightning_damage
+ |level27_stat1_value                     = 108
+ |level27_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -337,7 +337,7 @@
+ |level28                                 = True
+ |level28_level_requirement               = 86
+ |level28_cost_amounts                    = 31
+-|level28_stat_text                       = Deals 120 to 2282 Lightning Damage<br>+6 to radius<br>27% reduced Duration
++|level28_stat_text                       = Deals 120 to 2282 Lightning Damage<br>+0.6 metres to radius<br>27% reduced Duration
+ |level28_stat1_id                        = spell_minimum_base_lightning_damage
+ |level28_stat1_value                     = 120
+ |level28_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -349,7 +349,7 @@
+ |level29                                 = True
+ |level29_level_requirement               = 88
+ |level29_cost_amounts                    = 32
+-|level29_stat_text                       = Deals 133 to 2536 Lightning Damage<br>+6 to radius<br>28% reduced Duration
++|level29_stat_text                       = Deals 133 to 2536 Lightning Damage<br>+0.6 metres to radius<br>28% reduced Duration
+ |level29_stat1_id                        = spell_minimum_base_lightning_damage
+ |level29_stat1_value                     = 133
+ |level29_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -361,7 +361,7 @@
+ |level30                                 = True
+ |level30_level_requirement               = 90
+ |level30_cost_amounts                    = 32
+-|level30_stat_text                       = Deals 148 to 2817 Lightning Damage<br>+7 to radius<br>29% reduced Duration
++|level30_stat_text                       = Deals 148 to 2817 Lightning Damage<br>+0.7 metres to radius<br>29% reduced Duration
+ |level30_stat1_id                        = spell_minimum_base_lightning_damage
+ |level30_stat1_value                     = 148
+ |level30_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -373,7 +373,7 @@
+ |level31                                 = True
+ |level31_level_requirement               = 91
+ |level31_cost_amounts                    = 32
+-|level31_stat_text                       = Deals 156 to 2968 Lightning Damage<br>+7 to radius<br>30% reduced Duration
++|level31_stat_text                       = Deals 156 to 2968 Lightning Damage<br>+0.7 metres to radius<br>30% reduced Duration
+ |level31_stat1_id                        = spell_minimum_base_lightning_damage
+ |level31_stat1_value                     = 156
+ |level31_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -385,7 +385,7 @@
+ |level32                                 = True
+ |level32_level_requirement               = 92
+ |level32_cost_amounts                    = 33
+-|level32_stat_text                       = Deals 165 to 3128 Lightning Damage<br>+7 to radius<br>30% reduced Duration
++|level32_stat_text                       = Deals 165 to 3128 Lightning Damage<br>+0.7 metres to radius<br>30% reduced Duration
+ |level32_stat1_id                        = spell_minimum_base_lightning_damage
+ |level32_stat1_value                     = 165
+ |level32_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -397,7 +397,7 @@
+ |level33                                 = True
+ |level33_level_requirement               = 93
+ |level33_cost_amounts                    = 33
+-|level33_stat_text                       = Deals 173 to 3295 Lightning Damage<br>+7 to radius<br>31% reduced Duration
++|level33_stat_text                       = Deals 173 to 3295 Lightning Damage<br>+0.7 metres to radius<br>31% reduced Duration
+ |level33_stat1_id                        = spell_minimum_base_lightning_damage
+ |level33_stat1_value                     = 173
+ |level33_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -409,7 +409,7 @@
+ |level34                                 = True
+ |level34_level_requirement               = 94
+ |level34_cost_amounts                    = 33
+-|level34_stat_text                       = Deals 183 to 3471 Lightning Damage<br>+7 to radius<br>31% reduced Duration
++|level34_stat_text                       = Deals 183 to 3471 Lightning Damage<br>+0.7 metres to radius<br>31% reduced Duration
+ |level34_stat1_id                        = spell_minimum_base_lightning_damage
+ |level34_stat1_value                     = 183
+ |level34_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -421,7 +421,7 @@
+ |level35                                 = True
+ |level35_level_requirement               = 95
+ |level35_cost_amounts                    = 34
+-|level35_stat_text                       = Deals 192 to 3656 Lightning Damage<br>+7 to radius<br>32% reduced Duration
++|level35_stat_text                       = Deals 192 to 3656 Lightning Damage<br>+0.7 metres to radius<br>32% reduced Duration
+ |level35_stat1_id                        = spell_minimum_base_lightning_damage
+ |level35_stat1_value                     = 192
+ |level35_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -433,7 +433,7 @@
+ |level36                                 = True
+ |level36_level_requirement               = 96
+ |level36_cost_amounts                    = 34
+-|level36_stat_text                       = Deals 203 to 3851 Lightning Damage<br>+7 to radius<br>32% reduced Duration
++|level36_stat_text                       = Deals 203 to 3851 Lightning Damage<br>+0.7 metres to radius<br>32% reduced Duration
+ |level36_stat1_id                        = spell_minimum_base_lightning_damage
+ |level36_stat1_value                     = 203
+ |level36_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -445,7 +445,7 @@
+ |level37                                 = True
+ |level37_level_requirement               = 97
+ |level37_cost_amounts                    = 34
+-|level37_stat_text                       = Deals 213 to 4056 Lightning Damage<br>+7 to radius<br>33% reduced Duration
++|level37_stat_text                       = Deals 213 to 4056 Lightning Damage<br>+0.7 metres to radius<br>33% reduced Duration
+ |level37_stat1_id                        = spell_minimum_base_lightning_damage
+ |level37_stat1_value                     = 213
+ |level37_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -457,7 +457,7 @@
+ |level38                                 = True
+ |level38_level_requirement               = 98
+ |level38_cost_amounts                    = 34
+-|level38_stat_text                       = Deals 225 to 4271 Lightning Damage<br>+7 to radius<br>33% reduced Duration
++|level38_stat_text                       = Deals 225 to 4271 Lightning Damage<br>+0.7 metres to radius<br>33% reduced Duration
+ |level38_stat1_id                        = spell_minimum_base_lightning_damage
+ |level38_stat1_value                     = 225
+ |level38_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -469,7 +469,7 @@
+ |level39                                 = True
+ |level39_level_requirement               = 99
+ |level39_cost_amounts                    = 35
+-|level39_stat_text                       = Deals 237 to 4497 Lightning Damage<br>+8 to radius<br>34% reduced Duration
++|level39_stat_text                       = Deals 237 to 4497 Lightning Damage<br>+0.8 metres to radius<br>34% reduced Duration
+ |level39_stat1_id                        = spell_minimum_base_lightning_damage
+ |level39_stat1_value                     = 237
+ |level39_stat2_id                        = spell_maximum_base_lightning_damage
+@@ -481,7 +481,7 @@
+ |level40                                 = True
+ |level40_level_requirement               = 100
+ |level40_cost_amounts                    = 35
+-|level40_stat_text                       = Deals 249 to 4735 Lightning Damage<br>+8 to radius<br>34% reduced Duration
++|level40_stat_text                       = Deals 249 to 4735 Lightning Damage<br>+0.8 metres to radius<br>34% reduced Duration
+ |level40_stat1_id                        = spell_minimum_base_lightning_damage
+ |level40_stat1_value                     = 249
+ |level40_stat2_id                        = spell_maximum_base_lightning_damage

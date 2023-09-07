@@ -50,7 +50,7 @@
 |static_stat7_value                      = 50
 |static_stat8_id                         = max_number_of_absolution_sentinels
 |static_stat8_value                      = 3
-|stat_text                               = Deals (21-873) to (31-1310) Physical Damage<br>Base duration is 1 seconds<br>Base secondary duration is 10 seconds<br>+(0-6) to radius<br>25% chance to Summon a Sentinel of Absolution on Hitting a Rare or Unique Enemy<br>This Spell and Minions Convert 50% of Physical Damage to Lightning Damage<br>Maximum 3 Summoned Sentinels of Absolution
+|stat_text                               = Deals (21-873) to (31-1310) Physical Damage<br>Base duration is 1 seconds<br>Base secondary duration is 10 seconds<br>+(0-0.6) metres to radius<br>25% chance to Summon a Sentinel of Absolution on Hitting a Rare or Unique Enemy<br>This Spell and Minions Convert 50% of Physical Damage to Lightning Damage<br>Maximum 3 Summoned Sentinels of Absolution
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_cost_amounts                     = 9
@@ -74,7 +74,7 @@
 |level3                                  = True
 |level3_level_requirement                = 19
 |level3_cost_amounts                     = 12
-|level3_stat_text                        = Deals 36 to 55 Physical Damage<br>+1 to radius
+|level3_stat_text                        = Deals 36 to 55 Physical Damage<br>+0.1 metres to radius
 |level3_stat1_id                         = base_display_minion_actor_level
 |level3_stat1_value                      = 19
 |level3_stat2_id                         = spell_minimum_base_physical_damage
@@ -86,7 +86,7 @@
 |level4                                  = True
 |level4_level_requirement                = 23
 |level4_cost_amounts                     = 13
-|level4_stat_text                        = Deals 49 to 74 Physical Damage<br>+1 to radius
+|level4_stat_text                        = Deals 49 to 74 Physical Damage<br>+0.1 metres to radius
 |level4_stat1_id                         = base_display_minion_actor_level
 |level4_stat1_value                      = 23
 |level4_stat2_id                         = spell_minimum_base_physical_damage
@@ -98,7 +98,7 @@
 |level5                                  = True
 |level5_level_requirement                = 27
 |level5_cost_amounts                     = 14
-|level5_stat_text                        = Deals 65 to 98 Physical Damage<br>+1 to radius
+|level5_stat_text                        = Deals 65 to 98 Physical Damage<br>+0.1 metres to radius
 |level5_stat1_id                         = base_display_minion_actor_level
 |level5_stat1_value                      = 27
 |level5_stat2_id                         = spell_minimum_base_physical_damage
@@ -110,7 +110,7 @@
 |level6                                  = True
 |level6_level_requirement                = 31
 |level6_cost_amounts                     = 15
-|level6_stat_text                        = Deals 86 to 129 Physical Damage<br>+2 to radius
+|level6_stat_text                        = Deals 86 to 129 Physical Damage<br>+0.2 metres to radius
 |level6_stat1_id                         = base_display_minion_actor_level
 |level6_stat1_value                      = 31
 |level6_stat2_id                         = spell_minimum_base_physical_damage
@@ -122,7 +122,7 @@
 |level7                                  = True
 |level7_level_requirement                = 35
 |level7_cost_amounts                     = 16
-|level7_stat_text                        = Deals 112 to 167 Physical Damage<br>+2 to radius
+|level7_stat_text                        = Deals 112 to 167 Physical Damage<br>+0.2 metres to radius
 |level7_stat1_id                         = base_display_minion_actor_level
 |level7_stat1_value                      = 35
 |level7_stat2_id                         = spell_minimum_base_physical_damage
@@ -134,7 +134,7 @@
 |level8                                  = True
 |level8_level_requirement                = 38
 |level8_cost_amounts                     = 17
-|level8_stat_text                        = Deals 135 to 203 Physical Damage<br>+2 to radius
+|level8_stat_text                        = Deals 135 to 203 Physical Damage<br>+0.2 metres to radius
 |level8_stat1_id                         = base_display_minion_actor_level
 |level8_stat1_value                      = 38
 |level8_stat2_id                         = spell_minimum_base_physical_damage
@@ -146,7 +146,7 @@
 |level9                                  = True
 |level9_level_requirement                = 41
 |level9_cost_amounts                     = 18
-|level9_stat_text                        = Deals 163 to 245 Physical Damage<br>+3 to radius
+|level9_stat_text                        = Deals 163 to 245 Physical Damage<br>+0.3 metres to radius
 |level9_stat1_id                         = base_display_minion_actor_level
 |level9_stat1_value                      = 41
 |level9_stat2_id                         = spell_minimum_base_physical_damage
@@ -158,7 +158,7 @@
 |level10                                 = True
 |level10_level_requirement               = 44
 |level10_cost_amounts                    = 19
-|level10_stat_text                       = Deals 196 to 294 Physical Damage<br>+3 to radius
+|level10_stat_text                       = Deals 196 to 294 Physical Damage<br>+0.3 metres to radius
 |level10_stat1_id                        = base_display_minion_actor_level
 |level10_stat1_value                     = 44
 |level10_stat2_id                        = spell_minimum_base_physical_damage
@@ -170,7 +170,7 @@
 |level11                                 = True
 |level11_level_requirement               = 47
 |level11_cost_amounts                    = 20
-|level11_stat_text                       = Deals 235 to 352 Physical Damage<br>+3 to radius
+|level11_stat_text                       = Deals 235 to 352 Physical Damage<br>+0.3 metres to radius
 |level11_stat1_id                        = base_display_minion_actor_level
 |level11_stat1_value                     = 47
 |level11_stat2_id                        = spell_minimum_base_physical_damage
@@ -182,7 +182,7 @@
 |level12                                 = True
 |level12_level_requirement               = 50
 |level12_cost_amounts                    = 20
-|level12_stat_text                       = Deals 281 to 421 Physical Damage<br>+4 to radius
+|level12_stat_text                       = Deals 281 to 421 Physical Damage<br>+0.4 metres to radius
 |level12_stat1_id                        = base_display_minion_actor_level
 |level12_stat1_value                     = 50
 |level12_stat2_id                        = spell_minimum_base_physical_damage
@@ -194,7 +194,7 @@
 |level13                                 = True
 |level13_level_requirement               = 53
 |level13_cost_amounts                    = 21
-|level13_stat_text                       = Deals 335 to 502 Physical Damage<br>+4 to radius
+|level13_stat_text                       = Deals 335 to 502 Physical Damage<br>+0.4 metres to radius
 |level13_stat1_id                        = base_display_minion_actor_level
 |level13_stat1_value                     = 53
 |level13_stat2_id                        = spell_minimum_base_physical_damage
@@ -206,7 +206,7 @@
 |level14                                 = True
 |level14_level_requirement               = 56
 |level14_cost_amounts                    = 22
-|level14_stat_text                       = Deals 398 to 597 Physical Damage<br>+4 to radius
+|level14_stat_text                       = Deals 398 to 597 Physical Damage<br>+0.4 metres to radius
 |level14_stat1_id                        = base_display_minion_actor_level
 |level14_stat1_value                     = 56
 |level14_stat2_id                        = spell_minimum_base_physical_damage
@@ -218,7 +218,7 @@
 |level15                                 = True
 |level15_level_requirement               = 59
 |level15_cost_amounts                    = 23
-|level15_stat_text                       = Deals 473 to 709 Physical Damage<br>+5 to radius
+|level15_stat_text                       = Deals 473 to 709 Physical Damage<br>+0.5 metres to radius
 |level15_stat1_id                        = base_display_minion_actor_level
 |level15_stat1_value                     = 59
 |level15_stat2_id                        = spell_minimum_base_physical_damage
@@ -230,7 +230,7 @@
 |level16                                 = True
 |level16_level_requirement               = 62
 |level16_cost_amounts                    = 24
-|level16_stat_text                       = Deals 560 to 840 Physical Damage<br>+5 to radius
+|level16_stat_text                       = Deals 560 to 840 Physical Damage<br>+0.5 metres to radius
 |level16_stat1_id                        = base_display_minion_actor_level
 |level16_stat1_value                     = 62
 |level16_stat2_id                        = spell_minimum_base_physical_damage
@@ -242,7 +242,7 @@
 |level17                                 = True
 |level17_level_requirement               = 64
 |level17_cost_amounts                    = 25
-|level17_stat_text                       = Deals 627 to 940 Physical Damage<br>+5 to radius
+|level17_stat_text                       = Deals 627 to 940 Physical Damage<br>+0.5 metres to radius
 |level17_stat1_id                        = base_display_minion_actor_level
 |level17_stat1_value                     = 64
 |level17_stat2_id                        = spell_minimum_base_physical_damage
@@ -254,7 +254,7 @@
 |level18                                 = True
 |level18_level_requirement               = 66
 |level18_cost_amounts                    = 25
-|level18_stat_text                       = Deals 700 to 1050 Physical Damage<br>+6 to radius
+|level18_stat_text                       = Deals 700 to 1050 Physical Damage<br>+0.6 metres to radius
 |level18_stat1_id                        = base_display_minion_actor_level
 |level18_stat1_value                     = 66
 |level18_stat2_id                        = spell_minimum_base_physical_damage
@@ -266,7 +266,7 @@
 |level19                                 = True
 |level19_level_requirement               = 68
 |level19_cost_amounts                    = 26
-|level19_stat_text                       = Deals 782 to 1173 Physical Damage<br>+6 to radius
+|level19_stat_text                       = Deals 782 to 1173 Physical Damage<br>+0.6 metres to radius
 |level19_stat1_id                        = base_display_minion_actor_level
 |level19_stat1_value                     = 68
 |level19_stat2_id                        = spell_minimum_base_physical_damage
@@ -278,7 +278,7 @@
 |level20                                 = True
 |level20_level_requirement               = 70
 |level20_cost_amounts                    = 26
-|level20_stat_text                       = Deals 873 to 1310 Physical Damage<br>+6 to radius
+|level20_stat_text                       = Deals 873 to 1310 Physical Damage<br>+0.6 metres to radius
 |level20_stat1_id                        = base_display_minion_actor_level
 |level20_stat1_value                     = 70
 |level20_stat2_id                        = spell_minimum_base_physical_damage
@@ -290,7 +290,7 @@
 |level21                                 = True
 |level21_level_requirement               = 72
 |level21_cost_amounts                    = 27
-|level21_stat_text                       = Deals 974 to 1461 Physical Damage<br>+7 to radius
+|level21_stat_text                       = Deals 974 to 1461 Physical Damage<br>+0.7 metres to radius
 |level21_stat1_id                        = base_display_minion_actor_level
 |level21_stat1_value                     = 72
 |level21_stat2_id                        = spell_minimum_base_physical_damage
@@ -302,7 +302,7 @@
 |level22                                 = True
 |level22_level_requirement               = 74
 |level22_cost_amounts                    = 27
-|level22_stat_text                       = Deals 1086 to 1629 Physical Damage<br>+7 to radius
+|level22_stat_text                       = Deals 1086 to 1629 Physical Damage<br>+0.7 metres to radius
 |level22_stat1_id                        = base_display_minion_actor_level
 |level22_stat1_value                     = 74
 |level22_stat2_id                        = spell_minimum_base_physical_damage
@@ -314,7 +314,7 @@
 |level23                                 = True
 |level23_level_requirement               = 76
 |level23_cost_amounts                    = 28
-|level23_stat_text                       = Deals 1210 to 1815 Physical Damage<br>+7 to radius
+|level23_stat_text                       = Deals 1210 to 1815 Physical Damage<br>+0.7 metres to radius
 |level23_stat1_id                        = base_display_minion_actor_level
 |level23_stat1_value                     = 76
 |level23_stat2_id                        = spell_minimum_base_physical_damage
@@ -326,7 +326,7 @@
 |level24                                 = True
 |level24_level_requirement               = 78
 |level24_cost_amounts                    = 29
-|level24_stat_text                       = Deals 1347 to 2021 Physical Damage<br>+8 to radius
+|level24_stat_text                       = Deals 1347 to 2021 Physical Damage<br>+0.8 metres to radius
 |level24_stat1_id                        = base_display_minion_actor_level
 |level24_stat1_value                     = 78
 |level24_stat2_id                        = spell_minimum_base_physical_damage
@@ -338,7 +338,7 @@
 |level25                                 = True
 |level25_level_requirement               = 80
 |level25_cost_amounts                    = 29
-|level25_stat_text                       = Deals 1500 to 2250 Physical Damage<br>+8 to radius
+|level25_stat_text                       = Deals 1500 to 2250 Physical Damage<br>+0.8 metres to radius
 |level25_stat1_id                        = base_display_minion_actor_level
 |level25_stat1_value                     = 80
 |level25_stat2_id                        = spell_minimum_base_physical_damage
@@ -350,7 +350,7 @@
 |level26                                 = True
 |level26_level_requirement               = 82
 |level26_cost_amounts                    = 30
-|level26_stat_text                       = Deals 1669 to 2503 Physical Damage<br>+8 to radius
+|level26_stat_text                       = Deals 1669 to 2503 Physical Damage<br>+0.8 metres to radius
 |level26_stat1_id                        = base_display_minion_actor_level
 |level26_stat1_value                     = 82
 |level26_stat2_id                        = spell_minimum_base_physical_damage
@@ -362,7 +362,7 @@
 |level27                                 = True
 |level27_level_requirement               = 84
 |level27_cost_amounts                    = 30
-|level27_stat_text                       = Deals 1855 to 2783 Physical Damage<br>+9 to radius
+|level27_stat_text                       = Deals 1855 to 2783 Physical Damage<br>+0.9 metres to radius
 |level27_stat1_id                        = base_display_minion_actor_level
 |level27_stat1_value                     = 84
 |level27_stat2_id                        = spell_minimum_base_physical_damage
@@ -374,7 +374,7 @@
 |level28                                 = True
 |level28_level_requirement               = 86
 |level28_cost_amounts                    = 31
-|level28_stat_text                       = Deals 2062 to 3093 Physical Damage<br>+9 to radius
+|level28_stat_text                       = Deals 2062 to 3093 Physical Damage<br>+0.9 metres to radius
 |level28_stat1_id                        = base_display_minion_actor_level
 |level28_stat1_value                     = 86
 |level28_stat2_id                        = spell_minimum_base_physical_damage
@@ -386,7 +386,7 @@
 |level29                                 = True
 |level29_level_requirement               = 88
 |level29_cost_amounts                    = 32
-|level29_stat_text                       = Deals 2291 to 3437 Physical Damage<br>+9 to radius
+|level29_stat_text                       = Deals 2291 to 3437 Physical Damage<br>+0.9 metres to radius
 |level29_stat1_id                        = base_display_minion_actor_level
 |level29_stat1_value                     = 88
 |level29_stat2_id                        = spell_minimum_base_physical_damage
@@ -398,7 +398,7 @@
 |level30                                 = True
 |level30_level_requirement               = 90
 |level30_cost_amounts                    = 32
-|level30_stat_text                       = Deals 2544 to 3817 Physical Damage<br>+10 to radius
+|level30_stat_text                       = Deals 2544 to 3817 Physical Damage<br>+1 metre to radius
 |level30_stat1_id                        = base_display_minion_actor_level
 |level30_stat1_value                     = 90
 |level30_stat2_id                        = spell_minimum_base_physical_damage
@@ -410,7 +410,7 @@
 |level31                                 = True
 |level31_level_requirement               = 91
 |level31_cost_amounts                    = 32
-|level31_stat_text                       = Deals 2681 to 4021 Physical Damage<br>+10 to radius
+|level31_stat_text                       = Deals 2681 to 4021 Physical Damage<br>+1 metre to radius
 |level31_stat1_id                        = base_display_minion_actor_level
 |level31_stat1_value                     = 91
 |level31_stat2_id                        = spell_minimum_base_physical_damage
@@ -422,7 +422,7 @@
 |level32                                 = True
 |level32_level_requirement               = 92
 |level32_cost_amounts                    = 33
-|level32_stat_text                       = Deals 2824 to 4237 Physical Damage<br>+10 to radius
+|level32_stat_text                       = Deals 2824 to 4237 Physical Damage<br>+1 metre to radius
 |level32_stat1_id                        = base_display_minion_actor_level
 |level32_stat1_value                     = 92
 |level32_stat2_id                        = spell_minimum_base_physical_damage
@@ -434,7 +434,7 @@
 |level33                                 = True
 |level33_level_requirement               = 93
 |level33_cost_amounts                    = 33
-|level33_stat_text                       = Deals 2975 to 4463 Physical Damage<br>+10 to radius
+|level33_stat_text                       = Deals 2975 to 4463 Physical Damage<br>+1 metre to radius
 |level33_stat1_id                        = base_display_minion_actor_level
 |level33_stat1_value                     = 93
 |level33_stat2_id                        = spell_minimum_base_physical_damage
@@ -446,7 +446,7 @@
 |level34                                 = True
 |level34_level_requirement               = 94
 |level34_cost_amounts                    = 33
-|level34_stat_text                       = Deals 3134 to 4701 Physical Damage<br>+10 to radius
+|level34_stat_text                       = Deals 3134 to 4701 Physical Damage<br>+1 metre to radius
 |level34_stat1_id                        = base_display_minion_actor_level
 |level34_stat1_value                     = 94
 |level34_stat2_id                        = spell_minimum_base_physical_damage
@@ -458,7 +458,7 @@
 |level35                                 = True
 |level35_level_requirement               = 95
 |level35_cost_amounts                    = 34
-|level35_stat_text                       = Deals 3301 to 4952 Physical Damage<br>+10 to radius
+|level35_stat_text                       = Deals 3301 to 4952 Physical Damage<br>+1 metre to radius
 |level35_stat1_id                        = base_display_minion_actor_level
 |level35_stat1_value                     = 95
 |level35_stat2_id                        = spell_minimum_base_physical_damage
@@ -470,7 +470,7 @@
 |level36                                 = True
 |level36_level_requirement               = 96
 |level36_cost_amounts                    = 34
-|level36_stat_text                       = Deals 3477 to 5215 Physical Damage<br>+11 to radius
+|level36_stat_text                       = Deals 3477 to 5215 Physical Damage<br>+1.1 metres to radius
 |level36_stat1_id                        = base_display_minion_actor_level
 |level36_stat1_value                     = 96
 |level36_stat2_id                        = spell_minimum_base_physical_damage
@@ -482,7 +482,7 @@
 |level37                                 = True
 |level37_level_requirement               = 97
 |level37_cost_amounts                    = 34
-|level37_stat_text                       = Deals 3661 to 5492 Physical Damage<br>+11 to radius
+|level37_stat_text                       = Deals 3661 to 5492 Physical Damage<br>+1.1 metres to radius
 |level37_stat1_id                        = base_display_minion_actor_level
 |level37_stat1_value                     = 97
 |level37_stat2_id                        = spell_minimum_base_physical_damage
@@ -494,7 +494,7 @@
 |level38                                 = True
 |level38_level_requirement               = 98
 |level38_cost_amounts                    = 34
-|level38_stat_text                       = Deals 3855 to 5782 Physical Damage<br>+11 to radius
+|level38_stat_text                       = Deals 3855 to 5782 Physical Damage<br>+1.1 metres to radius
 |level38_stat1_id                        = base_display_minion_actor_level
 |level38_stat1_value                     = 98
 |level38_stat2_id                        = spell_minimum_base_physical_damage
@@ -506,7 +506,7 @@
 |level39                                 = True
 |level39_level_requirement               = 99
 |level39_cost_amounts                    = 35
-|level39_stat_text                       = Deals 4059 to 6088 Physical Damage<br>+11 to radius
+|level39_stat_text                       = Deals 4059 to 6088 Physical Damage<br>+1.1 metres to radius
 |level39_stat1_id                        = base_display_minion_actor_level
 |level39_stat1_value                     = 99
 |level39_stat2_id                        = spell_minimum_base_physical_damage
@@ -518,7 +518,7 @@
 |level40                                 = True
 |level40_level_requirement               = 100
 |level40_cost_amounts                    = 35
-|level40_stat_text                       = Deals 4273 to 6410 Physical Damage<br>+11 to radius
+|level40_stat_text                       = Deals 4273 to 6410 Physical Damage<br>+1.1 metres to radius
 |level40_stat1_id                        = base_display_minion_actor_level
 |level40_stat1_value                     = 100
 |level40_stat2_id                        = spell_minimum_base_physical_damage

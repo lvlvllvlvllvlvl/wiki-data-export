@@ -59,7 +59,7 @@
 |static_stat10_value                     = 10
 |static_stat11_id                        = blade_vortex_critical_strike_chance_+%_per_blade
 |static_stat11_value                     = 10
-|stat_text                               = Deals (3-128) to (5-191) Physical Damage<br>Base duration is 4 seconds<br>+(0-2) to radius<br>35% increased Hit Rate for each blade<br>35% more Damage for each blade<br>Can have up to 10 active spinning blades<br>10% increased Critical Strike Chance for each blade
+|stat_text                               = Deals (3-128) to (5-191) Physical Damage<br>Base duration is 4 seconds<br>+(0-0.2) metres to radius<br>35% increased Hit Rate for each blade<br>35% more Damage for each blade<br>Can have up to 10 active spinning blades<br>10% increased Critical Strike Chance for each blade
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_cost_amounts                     = 6
@@ -119,7 +119,7 @@
 |level8                                  = True
 |level8_level_requirement                = 38
 |level8_cost_amounts                     = 11
-|level8_stat_text                        = Deals 20 to 30 Physical Damage<br>+1 to radius
+|level8_stat_text                        = Deals 20 to 30 Physical Damage<br>+0.1 metres to radius
 |level8_stat1_id                         = spell_minimum_base_physical_damage
 |level8_stat1_value                      = 20
 |level8_stat2_id                         = spell_maximum_base_physical_damage
@@ -129,7 +129,7 @@
 |level9                                  = True
 |level9_level_requirement                = 41
 |level9_cost_amounts                     = 11
-|level9_stat_text                        = Deals 24 to 36 Physical Damage<br>+1 to radius
+|level9_stat_text                        = Deals 24 to 36 Physical Damage<br>+0.1 metres to radius
 |level9_stat1_id                         = spell_minimum_base_physical_damage
 |level9_stat1_value                      = 24
 |level9_stat2_id                         = spell_maximum_base_physical_damage
@@ -139,7 +139,7 @@
 |level10                                 = True
 |level10_level_requirement               = 44
 |level10_cost_amounts                    = 12
-|level10_stat_text                       = Deals 29 to 43 Physical Damage<br>+1 to radius
+|level10_stat_text                       = Deals 29 to 43 Physical Damage<br>+0.1 metres to radius
 |level10_stat1_id                        = spell_minimum_base_physical_damage
 |level10_stat1_value                     = 29
 |level10_stat2_id                        = spell_maximum_base_physical_damage
@@ -149,7 +149,7 @@
 |level11                                 = True
 |level11_level_requirement               = 47
 |level11_cost_amounts                    = 12
-|level11_stat_text                       = Deals 35 to 52 Physical Damage<br>+1 to radius
+|level11_stat_text                       = Deals 35 to 52 Physical Damage<br>+0.1 metres to radius
 |level11_stat1_id                        = spell_minimum_base_physical_damage
 |level11_stat1_value                     = 35
 |level11_stat2_id                        = spell_maximum_base_physical_damage
@@ -159,7 +159,7 @@
 |level12                                 = True
 |level12_level_requirement               = 50
 |level12_cost_amounts                    = 13
-|level12_stat_text                       = Deals 41 to 62 Physical Damage<br>+1 to radius
+|level12_stat_text                       = Deals 41 to 62 Physical Damage<br>+0.1 metres to radius
 |level12_stat1_id                        = spell_minimum_base_physical_damage
 |level12_stat1_value                     = 41
 |level12_stat2_id                        = spell_maximum_base_physical_damage
@@ -169,7 +169,7 @@
 |level13                                 = True
 |level13_level_requirement               = 53
 |level13_cost_amounts                    = 13
-|level13_stat_text                       = Deals 49 to 74 Physical Damage<br>+1 to radius
+|level13_stat_text                       = Deals 49 to 74 Physical Damage<br>+0.1 metres to radius
 |level13_stat1_id                        = spell_minimum_base_physical_damage
 |level13_stat1_value                     = 49
 |level13_stat2_id                        = spell_maximum_base_physical_damage
@@ -179,7 +179,7 @@
 |level14                                 = True
 |level14_level_requirement               = 56
 |level14_cost_amounts                    = 14
-|level14_stat_text                       = Deals 58 to 88 Physical Damage<br>+1 to radius
+|level14_stat_text                       = Deals 58 to 88 Physical Damage<br>+0.1 metres to radius
 |level14_stat1_id                        = spell_minimum_base_physical_damage
 |level14_stat1_value                     = 58
 |level14_stat2_id                        = spell_maximum_base_physical_damage
@@ -189,7 +189,7 @@
 |level15                                 = True
 |level15_level_requirement               = 59
 |level15_cost_amounts                    = 14
-|level15_stat_text                       = Deals 69 to 104 Physical Damage<br>+2 to radius
+|level15_stat_text                       = Deals 69 to 104 Physical Damage<br>+0.2 metres to radius
 |level15_stat1_id                        = spell_minimum_base_physical_damage
 |level15_stat1_value                     = 69
 |level15_stat2_id                        = spell_maximum_base_physical_damage
@@ -199,7 +199,7 @@
 |level16                                 = True
 |level16_level_requirement               = 62
 |level16_cost_amounts                    = 15
-|level16_stat_text                       = Deals 82 to 123 Physical Damage<br>+2 to radius
+|level16_stat_text                       = Deals 82 to 123 Physical Damage<br>+0.2 metres to radius
 |level16_stat1_id                        = spell_minimum_base_physical_damage
 |level16_stat1_value                     = 82
 |level16_stat2_id                        = spell_maximum_base_physical_damage
@@ -209,7 +209,7 @@
 |level17                                 = True
 |level17_level_requirement               = 64
 |level17_cost_amounts                    = 15
-|level17_stat_text                       = Deals 92 to 138 Physical Damage<br>+2 to radius
+|level17_stat_text                       = Deals 92 to 138 Physical Damage<br>+0.2 metres to radius
 |level17_stat1_id                        = spell_minimum_base_physical_damage
 |level17_stat1_value                     = 92
 |level17_stat2_id                        = spell_maximum_base_physical_damage
@@ -219,7 +219,7 @@
 |level18                                 = True
 |level18_level_requirement               = 66
 |level18_cost_amounts                    = 16
-|level18_stat_text                       = Deals 103 to 154 Physical Damage<br>+2 to radius
+|level18_stat_text                       = Deals 103 to 154 Physical Damage<br>+0.2 metres to radius
 |level18_stat1_id                        = spell_minimum_base_physical_damage
 |level18_stat1_value                     = 103
 |level18_stat2_id                        = spell_maximum_base_physical_damage
@@ -229,7 +229,7 @@
 |level19                                 = True
 |level19_level_requirement               = 68
 |level19_cost_amounts                    = 16
-|level19_stat_text                       = Deals 114 to 172 Physical Damage<br>+2 to radius
+|level19_stat_text                       = Deals 114 to 172 Physical Damage<br>+0.2 metres to radius
 |level19_stat1_id                        = spell_minimum_base_physical_damage
 |level19_stat1_value                     = 114
 |level19_stat2_id                        = spell_maximum_base_physical_damage
@@ -239,7 +239,7 @@
 |level20                                 = True
 |level20_level_requirement               = 70
 |level20_cost_amounts                    = 16
-|level20_stat_text                       = Deals 128 to 191 Physical Damage<br>+2 to radius
+|level20_stat_text                       = Deals 128 to 191 Physical Damage<br>+0.2 metres to radius
 |level20_stat1_id                        = spell_minimum_base_physical_damage
 |level20_stat1_value                     = 128
 |level20_stat2_id                        = spell_maximum_base_physical_damage
@@ -249,7 +249,7 @@
 |level21                                 = True
 |level21_level_requirement               = 72
 |level21_cost_amounts                    = 17
-|level21_stat_text                       = Deals 142 to 214 Physical Damage<br>+2 to radius
+|level21_stat_text                       = Deals 142 to 214 Physical Damage<br>+0.2 metres to radius
 |level21_stat1_id                        = spell_minimum_base_physical_damage
 |level21_stat1_value                     = 142
 |level21_stat2_id                        = spell_maximum_base_physical_damage
@@ -259,7 +259,7 @@
 |level22                                 = True
 |level22_level_requirement               = 74
 |level22_cost_amounts                    = 17
-|level22_stat_text                       = Deals 159 to 238 Physical Damage<br>+3 to radius
+|level22_stat_text                       = Deals 159 to 238 Physical Damage<br>+0.3 metres to radius
 |level22_stat1_id                        = spell_minimum_base_physical_damage
 |level22_stat1_value                     = 159
 |level22_stat2_id                        = spell_maximum_base_physical_damage
@@ -269,7 +269,7 @@
 |level23                                 = True
 |level23_level_requirement               = 76
 |level23_cost_amounts                    = 18
-|level23_stat_text                       = Deals 177 to 265 Physical Damage<br>+3 to radius
+|level23_stat_text                       = Deals 177 to 265 Physical Damage<br>+0.3 metres to radius
 |level23_stat1_id                        = spell_minimum_base_physical_damage
 |level23_stat1_value                     = 177
 |level23_stat2_id                        = spell_maximum_base_physical_damage
@@ -279,7 +279,7 @@
 |level24                                 = True
 |level24_level_requirement               = 78
 |level24_cost_amounts                    = 18
-|level24_stat_text                       = Deals 197 to 295 Physical Damage<br>+3 to radius
+|level24_stat_text                       = Deals 197 to 295 Physical Damage<br>+0.3 metres to radius
 |level24_stat1_id                        = spell_minimum_base_physical_damage
 |level24_stat1_value                     = 197
 |level24_stat2_id                        = spell_maximum_base_physical_damage
@@ -289,7 +289,7 @@
 |level25                                 = True
 |level25_level_requirement               = 80
 |level25_cost_amounts                    = 18
-|level25_stat_text                       = Deals 219 to 328 Physical Damage<br>+3 to radius
+|level25_stat_text                       = Deals 219 to 328 Physical Damage<br>+0.3 metres to radius
 |level25_stat1_id                        = spell_minimum_base_physical_damage
 |level25_stat1_value                     = 219
 |level25_stat2_id                        = spell_maximum_base_physical_damage
@@ -299,7 +299,7 @@
 |level26                                 = True
 |level26_level_requirement               = 82
 |level26_cost_amounts                    = 19
-|level26_stat_text                       = Deals 243 to 365 Physical Damage<br>+3 to radius
+|level26_stat_text                       = Deals 243 to 365 Physical Damage<br>+0.3 metres to radius
 |level26_stat1_id                        = spell_minimum_base_physical_damage
 |level26_stat1_value                     = 243
 |level26_stat2_id                        = spell_maximum_base_physical_damage
@@ -309,7 +309,7 @@
 |level27                                 = True
 |level27_level_requirement               = 84
 |level27_cost_amounts                    = 19
-|level27_stat_text                       = Deals 270 to 405 Physical Damage<br>+3 to radius
+|level27_stat_text                       = Deals 270 to 405 Physical Damage<br>+0.3 metres to radius
 |level27_stat1_id                        = spell_minimum_base_physical_damage
 |level27_stat1_value                     = 270
 |level27_stat2_id                        = spell_maximum_base_physical_damage
@@ -319,7 +319,7 @@
 |level28                                 = True
 |level28_level_requirement               = 86
 |level28_cost_amounts                    = 19
-|level28_stat_text                       = Deals 300 to 450 Physical Damage<br>+3 to radius
+|level28_stat_text                       = Deals 300 to 450 Physical Damage<br>+0.3 metres to radius
 |level28_stat1_id                        = spell_minimum_base_physical_damage
 |level28_stat1_value                     = 300
 |level28_stat2_id                        = spell_maximum_base_physical_damage
@@ -329,7 +329,7 @@
 |level29                                 = True
 |level29_level_requirement               = 88
 |level29_cost_amounts                    = 20
-|level29_stat_text                       = Deals 333 to 500 Physical Damage<br>+4 to radius
+|level29_stat_text                       = Deals 333 to 500 Physical Damage<br>+0.4 metres to radius
 |level29_stat1_id                        = spell_minimum_base_physical_damage
 |level29_stat1_value                     = 333
 |level29_stat2_id                        = spell_maximum_base_physical_damage
@@ -339,7 +339,7 @@
 |level30                                 = True
 |level30_level_requirement               = 90
 |level30_cost_amounts                    = 20
-|level30_stat_text                       = Deals 370 to 555 Physical Damage<br>+4 to radius
+|level30_stat_text                       = Deals 370 to 555 Physical Damage<br>+0.4 metres to radius
 |level30_stat1_id                        = spell_minimum_base_physical_damage
 |level30_stat1_value                     = 370
 |level30_stat2_id                        = spell_maximum_base_physical_damage
@@ -349,7 +349,7 @@
 |level31                                 = True
 |level31_level_requirement               = 91
 |level31_cost_amounts                    = 20
-|level31_stat_text                       = Deals 390 to 584 Physical Damage<br>+4 to radius
+|level31_stat_text                       = Deals 390 to 584 Physical Damage<br>+0.4 metres to radius
 |level31_stat1_id                        = spell_minimum_base_physical_damage
 |level31_stat1_value                     = 390
 |level31_stat2_id                        = spell_maximum_base_physical_damage
@@ -359,7 +359,7 @@
 |level32                                 = True
 |level32_level_requirement               = 92
 |level32_cost_amounts                    = 20
-|level32_stat_text                       = Deals 410 to 616 Physical Damage<br>+4 to radius
+|level32_stat_text                       = Deals 410 to 616 Physical Damage<br>+0.4 metres to radius
 |level32_stat1_id                        = spell_minimum_base_physical_damage
 |level32_stat1_value                     = 410
 |level32_stat2_id                        = spell_maximum_base_physical_damage
@@ -369,7 +369,7 @@
 |level33                                 = True
 |level33_level_requirement               = 93
 |level33_cost_amounts                    = 21
-|level33_stat_text                       = Deals 432 to 648 Physical Damage<br>+4 to radius
+|level33_stat_text                       = Deals 432 to 648 Physical Damage<br>+0.4 metres to radius
 |level33_stat1_id                        = spell_minimum_base_physical_damage
 |level33_stat1_value                     = 432
 |level33_stat2_id                        = spell_maximum_base_physical_damage
@@ -379,7 +379,7 @@
 |level34                                 = True
 |level34_level_requirement               = 94
 |level34_cost_amounts                    = 21
-|level34_stat_text                       = Deals 455 to 683 Physical Damage<br>+4 to radius
+|level34_stat_text                       = Deals 455 to 683 Physical Damage<br>+0.4 metres to radius
 |level34_stat1_id                        = spell_minimum_base_physical_damage
 |level34_stat1_value                     = 455
 |level34_stat2_id                        = spell_maximum_base_physical_damage
@@ -389,7 +389,7 @@
 |level35                                 = True
 |level35_level_requirement               = 95
 |level35_cost_amounts                    = 21
-|level35_stat_text                       = Deals 479 to 719 Physical Damage<br>+4 to radius
+|level35_stat_text                       = Deals 479 to 719 Physical Damage<br>+0.4 metres to radius
 |level35_stat1_id                        = spell_minimum_base_physical_damage
 |level35_stat1_value                     = 479
 |level35_stat2_id                        = spell_maximum_base_physical_damage
@@ -399,7 +399,7 @@
 |level36                                 = True
 |level36_level_requirement               = 96
 |level36_cost_amounts                    = 21
-|level36_stat_text                       = Deals 505 to 757 Physical Damage<br>+4 to radius
+|level36_stat_text                       = Deals 505 to 757 Physical Damage<br>+0.4 metres to radius
 |level36_stat1_id                        = spell_minimum_base_physical_damage
 |level36_stat1_value                     = 505
 |level36_stat2_id                        = spell_maximum_base_physical_damage
@@ -409,7 +409,7 @@
 |level37                                 = True
 |level37_level_requirement               = 97
 |level37_cost_amounts                    = 21
-|level37_stat_text                       = Deals 531 to 797 Physical Damage<br>+4 to radius
+|level37_stat_text                       = Deals 531 to 797 Physical Damage<br>+0.4 metres to radius
 |level37_stat1_id                        = spell_minimum_base_physical_damage
 |level37_stat1_value                     = 531
 |level37_stat2_id                        = spell_maximum_base_physical_damage
@@ -419,7 +419,7 @@
 |level38                                 = True
 |level38_level_requirement               = 98
 |level38_cost_amounts                    = 22
-|level38_stat_text                       = Deals 559 to 839 Physical Damage<br>+4 to radius
+|level38_stat_text                       = Deals 559 to 839 Physical Damage<br>+0.4 metres to radius
 |level38_stat1_id                        = spell_minimum_base_physical_damage
 |level38_stat1_value                     = 559
 |level38_stat2_id                        = spell_maximum_base_physical_damage
@@ -429,7 +429,7 @@
 |level39                                 = True
 |level39_level_requirement               = 99
 |level39_cost_amounts                    = 22
-|level39_stat_text                       = Deals 589 to 883 Physical Damage<br>+4 to radius
+|level39_stat_text                       = Deals 589 to 883 Physical Damage<br>+0.4 metres to radius
 |level39_stat1_id                        = spell_minimum_base_physical_damage
 |level39_stat1_value                     = 589
 |level39_stat2_id                        = spell_maximum_base_physical_damage
@@ -439,7 +439,7 @@
 |level40                                 = True
 |level40_level_requirement               = 100
 |level40_cost_amounts                    = 22
-|level40_stat_text                       = Deals 619 to 929 Physical Damage<br>+4 to radius
+|level40_stat_text                       = Deals 619 to 929 Physical Damage<br>+0.4 metres to radius
 |level40_stat1_id                        = spell_minimum_base_physical_damage
 |level40_stat1_value                     = 619
 |level40_stat2_id                        = spell_maximum_base_physical_damage

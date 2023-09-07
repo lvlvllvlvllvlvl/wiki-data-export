@@ -309,5 +309,17 @@ local data = {	{
 		id = "actor_scale_+%_limit", 
 		value = 200, 
 		stat_text = "", 
+	},
+	{
+		name = "Monster", 
+		id = "damage_taken_when_hit_+%_final_per_fortification", 
+		value = -1, 
+		stat_text = "", 
+	},
+	{
+		name = "Monster", 
+		id = "base_max_fortification", 
+		value = 20, 
+		stat_text = "+20 to maximum Fortification", 
 	}}
 return data

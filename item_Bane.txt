@@ -155,7 +155,7 @@
 |quality_type3_stat1_id                  = bane_enemies_explode_on_death_%_chance
 |quality_type3_stat1_value               = 500
 |quality_type3_stat_text                 = Enemies have 0.5% chance to Explode on Death, dealing a quarter of their maximum Life as Chaos Damage
-|stat_text                               = Only applies Hexes from Curse Skill Gems requiring Level (24-70) or lower<br>Deals (45.6-895.6) Base Chaos Damage per second<br>Base duration is 2 seconds<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>+(0-3) to radius<br>(28-42)% more Damage per Curse applied<br>50% increased Debuff Duration per Curse applied<br>Applied Curses have 25% less Effect<br>This Gem can only Support Skill Gems requiring Level (24-70) or lower<br>You cannot Cast Supported Curse Spells<br>25% less Effect of Supported Curses
+|stat_text                               = Only applies Hexes from Curse Skill Gems requiring Level (24-70) or lower<br>Deals (45.6-895.6) Base Chaos Damage per second<br>Base duration is 2 seconds<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>+(0-0.3) metres to radius<br>(28-42)% more Damage per Curse applied<br>50% increased Debuff Duration per Curse applied<br>Applied Curses have 25% less Effect<br>This Gem can only Support Skill Gems requiring Level (24-70) or lower<br>You cannot Cast Supported Curse Spells<br>25% less Effect of Supported Curses
 |static_stat1_id                         = base_skill_effect_duration
 |static_stat1_value                      = 2000
 |static_stat2_id                         = spell_damage_modifiers_apply_to_skill_dot
@@ -215,7 +215,7 @@
 |level5_stat3_value                      = 31
 |level5_stat4_id                         = local_support_gem_max_skill_level_requirement_to_support
 |level5_stat4_value                      = 36
-|level6_stat_text                        = Only applies Hexes from Curse Skill Gems requiring Level 39 or lower<br>Deals 131.5 Base Chaos Damage per second<br>+1 to radius<br>31% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 39 or lower
+|level6_stat_text                        = Only applies Hexes from Curse Skill Gems requiring Level 39 or lower<br>Deals 131.5 Base Chaos Damage per second<br>+0.1 metres to radius<br>31% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 39 or lower
 |level6_stat1_id                         = display_dark_ritual_curse_max_skill_level_requirement
 |level6_stat1_value                      = 39
 |level6_stat2_id                         = base_chaos_damage_to_deal_per_minute
@@ -226,7 +226,7 @@
 |level6_stat4_value                      = 31
 |level6_stat5_id                         = local_support_gem_max_skill_level_requirement_to_support
 |level6_stat5_value                      = 39
-|level7_stat_text                        = Only applies Hexes from Curse Skill Gems requiring Level 42 or lower<br>Deals 160.2 Base Chaos Damage per second<br>+1 to radius<br>32% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 42 or lower
+|level7_stat_text                        = Only applies Hexes from Curse Skill Gems requiring Level 42 or lower<br>Deals 160.2 Base Chaos Damage per second<br>+0.1 metres to radius<br>32% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 42 or lower
 |level7_stat1_id                         = display_dark_ritual_curse_max_skill_level_requirement
 |level7_stat1_value                      = 42
 |level7_stat2_id                         = base_chaos_damage_to_deal_per_minute
@@ -237,7 +237,7 @@
 |level7_stat4_value                      = 32
 |level7_stat5_id                         = local_support_gem_max_skill_level_requirement_to_support
 |level7_stat5_value                      = 42
-|level8_stat_text                        = Only applies Hexes from Curse Skill Gems requiring Level 45 or lower<br>Deals 194.6 Base Chaos Damage per second<br>+1 to radius<br>33% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 45 or lower
+|level8_stat_text                        = Only applies Hexes from Curse Skill Gems requiring Level 45 or lower<br>Deals 194.6 Base Chaos Damage per second<br>+0.1 metres to radius<br>33% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 45 or lower
 |level8_stat1_id                         = display_dark_ritual_curse_max_skill_level_requirement
 |level8_stat1_value                      = 45
 |level8_stat2_id                         = base_chaos_damage_to_deal_per_minute
@@ -248,7 +248,7 @@
 |level8_stat4_value                      = 33
 |level8_stat5_id                         = local_support_gem_max_skill_level_requirement_to_support
 |level8_stat5_value                      = 45
-|level9_stat_text                        = Only applies Hexes from Curse Skill Gems requiring Level 48 or lower<br>Deals 235.7 Base Chaos Damage per second<br>+1 to radius<br>34% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 48 or lower
+|level9_stat_text                        = Only applies Hexes from Curse Skill Gems requiring Level 48 or lower<br>Deals 235.7 Base Chaos Damage per second<br>+0.1 metres to radius<br>34% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 48 or lower
 |level9_stat1_id                         = display_dark_ritual_curse_max_skill_level_requirement
 |level9_stat1_value                      = 48
 |level9_stat2_id                         = base_chaos_damage_to_deal_per_minute
@@ -259,7 +259,7 @@
 |level9_stat4_value                      = 34
 |level9_stat5_id                         = local_support_gem_max_skill_level_requirement_to_support
 |level9_stat5_value                      = 48
-|level10_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 50 or lower<br>Deals 267.3 Base Chaos Damage per second<br>+1 to radius<br>34% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 50 or lower
+|level10_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 50 or lower<br>Deals 267.3 Base Chaos Damage per second<br>+0.1 metres to radius<br>34% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 50 or lower
 |level10_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level10_stat1_value                     = 50
 |level10_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -270,7 +270,7 @@
 |level10_stat4_value                     = 34
 |level10_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level10_stat5_value                     = 50
-|level11_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 52 or lower<br>Deals 302.9 Base Chaos Damage per second<br>+2 to radius<br>35% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 52 or lower
+|level11_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 52 or lower<br>Deals 302.9 Base Chaos Damage per second<br>+0.2 metres to radius<br>35% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 52 or lower
 |level11_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level11_stat1_value                     = 52
 |level11_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -281,7 +281,7 @@
 |level11_stat4_value                     = 35
 |level11_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level11_stat5_value                     = 52
-|level12_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 54 or lower<br>Deals 342.9 Base Chaos Damage per second<br>+2 to radius<br>36% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 54 or lower
+|level12_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 54 or lower<br>Deals 342.9 Base Chaos Damage per second<br>+0.2 metres to radius<br>36% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 54 or lower
 |level12_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level12_stat1_value                     = 54
 |level12_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -292,7 +292,7 @@
 |level12_stat4_value                     = 36
 |level12_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level12_stat5_value                     = 54
-|level13_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 56 or lower<br>Deals 387.7 Base Chaos Damage per second<br>+2 to radius<br>37% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 56 or lower
+|level13_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 56 or lower<br>Deals 387.7 Base Chaos Damage per second<br>+0.2 metres to radius<br>37% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 56 or lower
 |level13_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level13_stat1_value                     = 56
 |level13_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -303,7 +303,7 @@
 |level13_stat4_value                     = 37
 |level13_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level13_stat5_value                     = 56
-|level14_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 58 or lower<br>Deals 438 Base Chaos Damage per second<br>+2 to radius<br>37% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 58 or lower
+|level14_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 58 or lower<br>Deals 438 Base Chaos Damage per second<br>+0.2 metres to radius<br>37% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 58 or lower
 |level14_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level14_stat1_value                     = 58
 |level14_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -314,7 +314,7 @@
 |level14_stat4_value                     = 37
 |level14_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level14_stat5_value                     = 58
-|level15_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 60 or lower<br>Deals 494.4 Base Chaos Damage per second<br>+2 to radius<br>38% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 60 or lower
+|level15_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 60 or lower<br>Deals 494.4 Base Chaos Damage per second<br>+0.2 metres to radius<br>38% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 60 or lower
 |level15_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level15_stat1_value                     = 60
 |level15_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -325,7 +325,7 @@
 |level15_stat4_value                     = 38
 |level15_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level15_stat5_value                     = 60
-|level16_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 62 or lower<br>Deals 557.6 Base Chaos Damage per second<br>+3 to radius<br>39% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 62 or lower
+|level16_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 62 or lower<br>Deals 557.6 Base Chaos Damage per second<br>+0.3 metres to radius<br>39% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 62 or lower
 |level16_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level16_stat1_value                     = 62
 |level16_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -336,7 +336,7 @@
 |level16_stat4_value                     = 39
 |level16_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level16_stat5_value                     = 62
-|level17_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 64 or lower<br>Deals 628.4 Base Chaos Damage per second<br>+3 to radius<br>40% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 64 or lower
+|level17_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 64 or lower<br>Deals 628.4 Base Chaos Damage per second<br>+0.3 metres to radius<br>40% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 64 or lower
 |level17_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level17_stat1_value                     = 64
 |level17_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -347,7 +347,7 @@
 |level17_stat4_value                     = 40
 |level17_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level17_stat5_value                     = 64
-|level18_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 66 or lower<br>Deals 707.6 Base Chaos Damage per second<br>+3 to radius<br>40% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 66 or lower
+|level18_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 66 or lower<br>Deals 707.6 Base Chaos Damage per second<br>+0.3 metres to radius<br>40% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 66 or lower
 |level18_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level18_stat1_value                     = 66
 |level18_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -358,7 +358,7 @@
 |level18_stat4_value                     = 40
 |level18_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level18_stat5_value                     = 66
-|level19_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 68 or lower<br>Deals 796.4 Base Chaos Damage per second<br>+3 to radius<br>41% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 68 or lower
+|level19_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 68 or lower<br>Deals 796.4 Base Chaos Damage per second<br>+0.3 metres to radius<br>41% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 68 or lower
 |level19_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level19_stat1_value                     = 68
 |level19_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -369,7 +369,7 @@
 |level19_stat4_value                     = 41
 |level19_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level19_stat5_value                     = 68
-|level20_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 70 or lower<br>Deals 895.6 Base Chaos Damage per second<br>+3 to radius<br>42% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 70 or lower
+|level20_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 70 or lower<br>Deals 895.6 Base Chaos Damage per second<br>+0.3 metres to radius<br>42% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 70 or lower
 |level20_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level20_stat1_value                     = 70
 |level20_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -380,7 +380,7 @@
 |level20_stat4_value                     = 42
 |level20_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level20_stat5_value                     = 70
-|level21_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 72 or lower<br>Deals 1006.5 Base Chaos Damage per second<br>+4 to radius<br>43% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 72 or lower
+|level21_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 72 or lower<br>Deals 1006.5 Base Chaos Damage per second<br>+0.4 metres to radius<br>43% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 72 or lower
 |level21_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level21_stat1_value                     = 72
 |level21_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -391,7 +391,7 @@
 |level21_stat4_value                     = 43
 |level21_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level21_stat5_value                     = 72
-|level22_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 74 or lower<br>Deals 1130.6 Base Chaos Damage per second<br>+4 to radius<br>43% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 74 or lower
+|level22_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 74 or lower<br>Deals 1130.6 Base Chaos Damage per second<br>+0.4 metres to radius<br>43% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 74 or lower
 |level22_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level22_stat1_value                     = 74
 |level22_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -402,7 +402,7 @@
 |level22_stat4_value                     = 43
 |level22_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level22_stat5_value                     = 74
-|level23_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 76 or lower<br>Deals 1269.2 Base Chaos Damage per second<br>+4 to radius<br>44% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 76 or lower
+|level23_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 76 or lower<br>Deals 1269.2 Base Chaos Damage per second<br>+0.4 metres to radius<br>44% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 76 or lower
 |level23_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level23_stat1_value                     = 76
 |level23_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -413,7 +413,7 @@
 |level23_stat4_value                     = 44
 |level23_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level23_stat5_value                     = 76
-|level24_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 78 or lower<br>Deals 1424 Base Chaos Damage per second<br>+4 to radius<br>45% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 78 or lower
+|level24_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 78 or lower<br>Deals 1424 Base Chaos Damage per second<br>+0.4 metres to radius<br>45% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 78 or lower
 |level24_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level24_stat1_value                     = 78
 |level24_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -424,7 +424,7 @@
 |level24_stat4_value                     = 45
 |level24_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level24_stat5_value                     = 78
-|level25_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 80 or lower<br>Deals 1596.9 Base Chaos Damage per second<br>+4 to radius<br>46% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 80 or lower
+|level25_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 80 or lower<br>Deals 1596.9 Base Chaos Damage per second<br>+0.4 metres to radius<br>46% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 80 or lower
 |level25_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level25_stat1_value                     = 80
 |level25_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -435,7 +435,7 @@
 |level25_stat4_value                     = 46
 |level25_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level25_stat5_value                     = 80
-|level26_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 82 or lower<br>Deals 1789.8 Base Chaos Damage per second<br>+5 to radius<br>46% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 82 or lower
+|level26_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 82 or lower<br>Deals 1789.8 Base Chaos Damage per second<br>+0.5 metres to radius<br>46% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 82 or lower
 |level26_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level26_stat1_value                     = 82
 |level26_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -446,7 +446,7 @@
 |level26_stat4_value                     = 46
 |level26_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level26_stat5_value                     = 82
-|level27_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 84 or lower<br>Deals 2005.2 Base Chaos Damage per second<br>+5 to radius<br>47% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 84 or lower
+|level27_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 84 or lower<br>Deals 2005.2 Base Chaos Damage per second<br>+0.5 metres to radius<br>47% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 84 or lower
 |level27_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level27_stat1_value                     = 84
 |level27_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -457,7 +457,7 @@
 |level27_stat4_value                     = 47
 |level27_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level27_stat5_value                     = 84
-|level28_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 86 or lower<br>Deals 2245.4 Base Chaos Damage per second<br>+5 to radius<br>48% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 86 or lower
+|level28_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 86 or lower<br>Deals 2245.4 Base Chaos Damage per second<br>+0.5 metres to radius<br>48% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 86 or lower
 |level28_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level28_stat1_value                     = 86
 |level28_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -468,7 +468,7 @@
 |level28_stat4_value                     = 48
 |level28_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level28_stat5_value                     = 86
-|level29_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 88 or lower<br>Deals 2513.3 Base Chaos Damage per second<br>+5 to radius<br>49% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 88 or lower
+|level29_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 88 or lower<br>Deals 2513.3 Base Chaos Damage per second<br>+0.5 metres to radius<br>49% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 88 or lower
 |level29_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level29_stat1_value                     = 88
 |level29_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -479,7 +479,7 @@
 |level29_stat4_value                     = 49
 |level29_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level29_stat5_value                     = 88
-|level30_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 90 or lower<br>Deals 2812 Base Chaos Damage per second<br>+5 to radius<br>49% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 90 or lower
+|level30_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 90 or lower<br>Deals 2812 Base Chaos Damage per second<br>+0.5 metres to radius<br>49% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 90 or lower
 |level30_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level30_stat1_value                     = 90
 |level30_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -490,7 +490,7 @@
 |level30_stat4_value                     = 49
 |level30_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level30_stat5_value                     = 90
-|level31_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 91 or lower<br>Deals 2974 Base Chaos Damage per second<br>+5 to radius<br>50% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 91 or lower
+|level31_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 91 or lower<br>Deals 2974 Base Chaos Damage per second<br>+0.5 metres to radius<br>50% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 91 or lower
 |level31_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level31_stat1_value                     = 91
 |level31_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -501,7 +501,7 @@
 |level31_stat4_value                     = 50
 |level31_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level31_stat5_value                     = 91
-|level32_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 92 or lower<br>Deals 3144.9 Base Chaos Damage per second<br>+6 to radius<br>50% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 92 or lower
+|level32_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 92 or lower<br>Deals 3144.9 Base Chaos Damage per second<br>+0.6 metres to radius<br>50% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 92 or lower
 |level32_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level32_stat1_value                     = 92
 |level32_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -512,7 +512,7 @@
 |level32_stat4_value                     = 50
 |level32_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level32_stat5_value                     = 92
-|level33_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 93 or lower<br>Deals 3325.4 Base Chaos Damage per second<br>+6 to radius<br>50% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 93 or lower
+|level33_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 93 or lower<br>Deals 3325.4 Base Chaos Damage per second<br>+0.6 metres to radius<br>50% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 93 or lower
 |level33_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level33_stat1_value                     = 93
 |level33_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -523,7 +523,7 @@
 |level33_stat4_value                     = 50
 |level33_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level33_stat5_value                     = 93
-|level34_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 94 or lower<br>Deals 3515.9 Base Chaos Damage per second<br>+6 to radius<br>51% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 94 or lower
+|level34_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 94 or lower<br>Deals 3515.9 Base Chaos Damage per second<br>+0.6 metres to radius<br>51% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 94 or lower
 |level34_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level34_stat1_value                     = 94
 |level34_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -534,7 +534,7 @@
 |level34_stat4_value                     = 51
 |level34_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level34_stat5_value                     = 94
-|level35_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 95 or lower<br>Deals 3717 Base Chaos Damage per second<br>+6 to radius<br>51% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 95 or lower
+|level35_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 95 or lower<br>Deals 3717 Base Chaos Damage per second<br>+0.6 metres to radius<br>51% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 95 or lower
 |level35_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level35_stat1_value                     = 95
 |level35_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -545,7 +545,7 @@
 |level35_stat4_value                     = 51
 |level35_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level35_stat5_value                     = 95
-|level36_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 96 or lower<br>Deals 3929.2 Base Chaos Damage per second<br>+6 to radius<br>52% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 96 or lower
+|level36_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 96 or lower<br>Deals 3929.2 Base Chaos Damage per second<br>+0.6 metres to radius<br>52% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 96 or lower
 |level36_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level36_stat1_value                     = 96
 |level36_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -556,7 +556,7 @@
 |level36_stat4_value                     = 52
 |level36_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level36_stat5_value                     = 96
-|level37_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 97 or lower<br>Deals 4153.2 Base Chaos Damage per second<br>+6 to radius<br>52% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 97 or lower
+|level37_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 97 or lower<br>Deals 4153.2 Base Chaos Damage per second<br>+0.6 metres to radius<br>52% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 97 or lower
 |level37_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level37_stat1_value                     = 97
 |level37_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -567,7 +567,7 @@
 |level37_stat4_value                     = 52
 |level37_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level37_stat5_value                     = 97
-|level38_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 98 or lower<br>Deals 4389.5 Base Chaos Damage per second<br>+6 to radius<br>52% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 98 or lower
+|level38_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 98 or lower<br>Deals 4389.5 Base Chaos Damage per second<br>+0.6 metres to radius<br>52% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 98 or lower
 |level38_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level38_stat1_value                     = 98
 |level38_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -578,7 +578,7 @@
 |level38_stat4_value                     = 52
 |level38_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level38_stat5_value                     = 98
-|level39_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 99 or lower<br>Deals 4638.9 Base Chaos Damage per second<br>+6 to radius<br>53% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 99 or lower
+|level39_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 99 or lower<br>Deals 4638.9 Base Chaos Damage per second<br>+0.6 metres to radius<br>53% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 99 or lower
 |level39_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level39_stat1_value                     = 99
 |level39_stat2_id                        = base_chaos_damage_to_deal_per_minute
@@ -589,7 +589,7 @@
 |level39_stat4_value                     = 53
 |level39_stat5_id                        = local_support_gem_max_skill_level_requirement_to_support
 |level39_stat5_value                     = 99
-|level40_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 100 or lower<br>Deals 4902 Base Chaos Damage per second<br>+6 to radius<br>53% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 100 or lower
+|level40_stat_text                       = Only applies Hexes from Curse Skill Gems requiring Level 100 or lower<br>Deals 4902 Base Chaos Damage per second<br>+0.6 metres to radius<br>53% more Damage per Curse applied<br>This Gem can only Support Skill Gems requiring Level 100 or lower
 |level40_stat1_id                        = display_dark_ritual_curse_max_skill_level_requirement
 |level40_stat1_value                     = 100
 |level40_stat2_id                        = base_chaos_damage_to_deal_per_minute

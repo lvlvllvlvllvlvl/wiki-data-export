@@ -1,0 +1,11 @@
+--- Mirage Archer Support
++++ Export
+@@ -43,7 +43,7 @@
+ |static_stat5_value                      = -60
+ |static_stat6_id                         = support_mirage_archer_base_duration
+ |static_stat6_value                      = 4000
+-|stat_text                               = Maximum 1 Summoned Mirage Archer<br>When you Hit an Enemy with an Arrow from a Supported Skill, Summon a Mirage Archer which uses that Skill<br>Mirage Archer uses Supported Skill with 60% less Attack Speed<br>Mirage Archer lasts 4 seconds<br>Mirage Archer deals (40-31)% less Damage with Supported Skills
++|stat_text                               = Maximum 1 Summoned Mirage Archer<br>When you Hit an Enemy with an Arrow from a Supported Skill, Summon a Mirage Archer which uses that Skill<br>Mirage Archer can use Triggered Attacks as though they were not Triggered<br>Mirage Archer uses Supported Skill with 60% less Attack Speed<br>Mirage Archer lasts 4 seconds<br>Mirage Archer deals (40-31)% less Damage with Supported Skills
+ |level1                                  = True
+ |level1_level_requirement                = 4
+ |level1_stat_text                        = Mirage Archer deals 40% less Damage with Supported Skills

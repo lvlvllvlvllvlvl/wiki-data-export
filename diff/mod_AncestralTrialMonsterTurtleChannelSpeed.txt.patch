@@ -1,6 +1,6 @@
 --- Modifier:AncestralTrialMonsterTurtleChannelSpeed
 +++ Export
-@@ -0,0 +1,12 @@
+@@ -0,0 +1,15 @@
 +{{Mod
 +|id                               = AncestralTrialMonsterTurtleChannelSpeed
 +|mod_groups                       = AncestralMonsterRespawnTimer
@@ -8,8 +8,11 @@
 +|generation_type                  = 3
 +|required_level                   = 1
 +|mod_type                         = AncestralTrialMonsterForestTuataraCamo
-+|stat_text                        = Banishing deals 50% increased Damage to Ancestral [[Totem|Totems]] (Hidden)
-+|stat1_id                         = ancestral_channelling_damage_+%_against_totems
++|stat_text                        = 50% increased Time to Revive (Hidden)<br>Banishing deals 50% increased Damage to Ancestral [[Totem|Totems]] (Hidden)
++|stat1_id                         = ancestral_monster_respawn_timer_+%
 +|stat1_min                        = 50
 +|stat1_max                        = 50
++|stat2_id                         = ancestral_channelling_damage_+%_against_totems
++|stat2_min                        = 50
++|stat2_max                        = 50
 +}}

@@ -1,0 +1,35 @@
+--- Skill:AncestralFieldItemIceNova
++++ Export
+@@ -8,17 +8,21 @@
+ |static_damage_effectiveness             = 100
+ |static_damage_multiplier                = 100
+ |static_attack_speed_multiplier          = 100
+-|static_stat1_id                         = is_area_damage
+-|static_stat1_value                      = 1
+-|static_stat2_id                         = spell_minimum_base_cold_damage
+-|static_stat2_value                      = 6
+-|static_stat3_id                         = spell_maximum_base_cold_damage
+-|static_stat3_value                      = 9
+-|static_stat4_id                         = always_freeze
+-|static_stat4_value                      = 1
+-|static_stat5_id                         = freeze_duration_+%
+-|static_stat5_value                      = 500
+-|stat_text                               = Deals 6 to 9 Cold Damage<br>Always Freezes enemies<br>500% increased Freeze Duration on enemies
++|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
++|static_stat1_value                      = 80
++|static_stat2_id                         = is_area_damage
++|static_stat2_value                      = 1
++|static_stat3_id                         = spell_minimum_base_cold_damage
++|static_stat3_value                      = 6
++|static_stat4_id                         = spell_maximum_base_cold_damage
++|static_stat4_value                      = 9
++|static_stat5_id                         = always_freeze
++|static_stat5_value                      = 1
++|static_stat6_id                         = freeze_duration_+%
++|static_stat6_value                      = 500
++|static_stat7_id                         = chill_duration_+%
++|static_stat7_value                      = 500
++|stat_text                               = Deals 6 to 9 Cold Damage<br>Always Freezes enemies<br>500% increased Freeze Duration on enemies<br>500% increased Chill Duration on enemies
+ |level1                                  = True
+ |level1_level_requirement                = 1
+ }}

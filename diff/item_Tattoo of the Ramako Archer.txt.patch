@@ -1,6 +1,6 @@
 --- Tattoo of the Ramako Archer
 +++ Export
-@@ -6,15 +6,18 @@
+@@ -6,15 +6,19 @@
  |size_y                                  = 1
  |drop_level                              = 1
  |tags                                    = currency, default
@@ -12,6 +12,7 @@
  |help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.<br>Shift click to unstack.
  |stack_size_currency_tab                 = 5000
 +|tattoo_target                           = Small Dexterity
++|tattoo_tribe                            = 6
 +|implicit1_text                          = {{c|default|Replaces a}} {{c|value|Small Dexterity}} {{c|default|Passive Skill}}
 +|tattoo_stat_text                        = 5% increased Global Accuracy Rating
 +|description                             = Grants "5% increased Global [[Accuracy Rating]]"
