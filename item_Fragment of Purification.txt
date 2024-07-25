@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Fragment of Purification
 |class_id                                = MapFragment
@@ -9,5 +9,7 @@
 |tags                                    = default
 |metadata_id                             = Metadata/Items/MapFragments/CurrencyElderFragment4
 |help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ElderFragmentImplicit
+|stack_size                              = 10
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ElderFragmentImplicit
 }}

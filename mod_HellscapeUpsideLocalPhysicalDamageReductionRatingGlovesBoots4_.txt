@@ -1,0 +1,31 @@
+{{Mod
+|id                               = HellscapeUpsideLocalPhysicalDamageReductionRatingGlovesBoots4_
+|mod_groups                       = BaseLocalDefences
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = LocalPhysicalDamageReductionRating
+|stat_text                        = +(42-45) to [[Armour]]
+|stat1_id                         = local_base_physical_damage_reduction_rating
+|stat1_min                        = 42
+|stat1_max                        = 45
+|spawn_weight1_tag                = body_armour
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = helmet
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = shield
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = str_armour
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = str_dex_armour
+|spawn_weight5_value              = 500
+|spawn_weight6_tag                = str_int_armour
+|spawn_weight6_value              = 500
+|spawn_weight7_tag                = str_dex_int_armour
+|spawn_weight7_value              = 300
+|spawn_weight8_tag                = default
+|spawn_weight8_value              = 0
+|tags                             = defences, armour
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

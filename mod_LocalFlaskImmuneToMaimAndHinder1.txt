@@ -1,0 +1,23 @@
+{{Mod
+|id                               = LocalFlaskImmuneToMaimAndHinder1
+|mod_groups                       = LocalFlaskImmuneToHinder
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 16
+|name                             = of Movement
+|mod_type                         = LocalFlaskImmuneToMaimAndHinder
+|stat_text                        = Grants Immunity to Hinder for (6-8) seconds if used while Hindered<br>Grants Immunity to Maim for (6-8) seconds if used while Maimed
+|stat1_id                         = local_flask_immune_to_hinder_for_x_seconds_if_hindered
+|stat1_min                        = 6
+|stat1_max                        = 8
+|stat2_id                         = local_flask_immune_to_maim_for_x_seconds_if_maimed
+|stat2_min                        = 6
+|stat2_max                        = 8
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 750
+|tags                             = flask, attack, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

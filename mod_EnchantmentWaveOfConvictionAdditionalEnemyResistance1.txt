@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentWaveOfConvictionAdditionalEnemyResistance1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Wave Of Conviction Additional Enemy Resistance 1
+|mod_type                         = EnchantmentWaveOfConvictionAdditionalEnemyResistance
+|stat_text                        = Wave of Conviction's Exposure applies an extra -4% to [[Elemental Resistance]]
+|stat1_id                         = purge_additional_enemy_resistance_%
+|stat1_min                        = -4
+|stat1_max                        = -4
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, resistance, caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

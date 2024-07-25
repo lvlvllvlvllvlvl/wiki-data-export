@@ -1,0 +1,21 @@
+{{Mod
+|id                               = WeaponTreeFreezeDuration1
+|mod_groups                       = WeaponTreeFreezeDuration
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeFreezeDuration
+|stat_text                        = 20% increased [[Freeze]] Duration on Enemies<br>15% increased [[Freeze]] Duration on you
+|stat1_id                         = freeze_duration_+%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = base_self_freeze_duration_-%
+|stat2_min                        = -15
+|stat2_max                        = -15
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 300
+|spawn_weight2_tag                = shield
+|spawn_weight2_value              = 300
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

@@ -1,0 +1,29 @@
+{{Mod
+|id                               = MapAtlasBlightMaven
+|mod_groups                       = MapAtlasBlight
+|domain                           = 11
+|generation_type                  = 1
+|required_level                   = 1
+|mod_type                         = MapAtlasBlight
+|stat_text                        = 15 uses remaining<br>Your Maps contain a [[Blight]] Encounter
+|stat1_id                         = sextant_uses_remaining
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = map_blight_league
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = map_num_extra_blights_
+|stat3_min                        = 1
+|stat3_max                        = 1
+|stat4_id                         = map_extra_content_weighting
+|stat4_min                        = 1
+|stat4_max                        = 1
+|spawn_weight1_tag                = no_monster_packs
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = unique_map
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = map_has_blight_encounter
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 250
+}}

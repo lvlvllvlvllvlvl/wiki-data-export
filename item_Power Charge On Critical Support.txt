@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Power Charge On Critical Support
 |class_id                                = Support Skill Gem
@@ -7,24 +7,17 @@
 |drop_level                              = 18
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemPowerChargeOnCrit
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |intelligence_percent                    = 100
 |gem_tags                                = Critical, Support
 |skill_id                                = SupportPowerChargeOnCrit
 |support_gem_letter                      = P
 |required_level                          = 18
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills have 1% increased Critical Strike Chance
-|quality_type1_stat1_id                  = critical_strike_chance_+%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Supported Skills have 1% chance to gain a Power Charge on Critical Strike
-|quality_type2_stat1_id                  = add_power_charge_on_critical_strike_%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 10
-|quality_type3_stat_text                 = Supported Skills deal 0.1% increased Damage per Power Charge
-|quality_type3_stat1_id                  = damage_+%_per_power_charge
-|quality_type3_stat1_value               = 100
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills have (0.5-10)% chance to gain a Power Charge on Critical Strike
+|quality_type1_breakpoints               = 2.0
+|quality_type1_stat1_id                  = add_power_charge_on_critical_strike_%
+|quality_type1_stat1_value               = 500
 |static_cost_multiplier                  = 120
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

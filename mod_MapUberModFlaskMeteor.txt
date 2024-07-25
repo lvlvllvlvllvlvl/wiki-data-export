@@ -1,0 +1,29 @@
+{{Mod
+|id                               = MapUberModFlaskMeteor
+|mod_groups                       = MapUberModFlaskMeteor
+|domain                           = 37
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Imbibing
+|mod_type                         = MapUberModFlaskMeteor
+|stat_text                        = Players are targeted by a Meteor when they use a [[Flask]]
+|stat1_id                         = map_pack_size_+%
+|stat1_min                        = 6
+|stat1_max                        = 6
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 13
+|stat2_max                        = 13
+|stat3_id                         = map_item_drop_quantity_+%
+|stat3_min                        = 20
+|stat3_max                        = 20
+|stat4_id                         = map_player_create_enemy_meteor_daemon_on_flask_use_%_chance
+|stat4_min                        = 100
+|stat4_max                        = 100
+|stat5_id                         = map_currency_drop_chance_+%_final_from_uber_mod
+|stat5_min                        = 70
+|stat5_max                        = 70
+|spawn_weight1_tag                = uber_tier_map
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

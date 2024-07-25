@@ -1,0 +1,32 @@
+{{Mod
+|id                               = HellscapeDownsideStrengthRequirement3
+|mod_groups                       = HellscapeDownsideStrengthRequirement
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 68
+|mod_type                         = HellscapeDownsideStrengthRequirement
+|stat_text                        = +(150-200) [[Strength]] Requirement
+|stat1_id                         = local_strength_requirement_+
+|stat1_min                        = 150
+|stat1_max                        = 200
+|spawn_weight1_tag                = str_armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = str_dex_armour
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = str_int_armour
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = str_dex_int_armour
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = sword
+|spawn_weight5_value              = 1000
+|spawn_weight6_tag                = mace
+|spawn_weight6_value              = 1000
+|spawn_weight7_tag                = sceptre
+|spawn_weight7_value              = 1000
+|spawn_weight8_tag                = staff
+|spawn_weight8_value              = 1000
+|spawn_weight9_tag                = axe
+|spawn_weight9_value              = 1000
+|spawn_weight10_tag               = default
+|spawn_weight10_value             = 0
+}}

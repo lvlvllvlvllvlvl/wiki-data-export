@@ -1,0 +1,21 @@
+{{Mod
+|id                               = WeaponTreePercentDexterityAndStrength2
+|mod_groups                       = WeaponTreePercentDexterityAndStrength
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreePercentDexterityAndStrength
+|stat_text                        = 6% increased [[Dexterity]]<br>6% increased [[Strength]]
+|stat1_id                         = dexterity_+%
+|stat1_min                        = 6
+|stat1_max                        = 6
+|stat2_id                         = strength_+%
+|stat2_min                        = 6
+|stat2_max                        = 6
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = shield
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

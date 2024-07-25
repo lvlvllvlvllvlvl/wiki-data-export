@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Artillery Ballista
 |class_id                                = Active Skill Gem
@@ -16,18 +16,11 @@
 |skill_id                                = ArtilleryBallista
 |cast_time                               = 1.0
 |required_level                          = 28
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Fire Damage
-|quality_type1_stat1_id                  = fire_damage_+%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 5% increased Burning Damage
-|quality_type2_stat1_id                  = burn_damage_+%
-|quality_type2_stat1_value               = 5000
-|quality_type3_weight                    = 10
-|quality_type3_stat_text                 = Fires an additional Arrow
-|quality_type3_stat1_id                  = base_number_of_additional_arrows
-|quality_type3_stat1_value               = 50
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Fires +(0.05-1) Arrows
+|quality_type1_breakpoints               = 20.0
+|quality_type1_stat1_id                  = base_number_of_arrows
+|quality_type1_stat1_value               = 50
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 50
 |static_stat1_id                         = base_is_projectile
@@ -42,15 +35,17 @@
 |static_stat5_value                      = 1
 |static_stat6_id                         = base_totem_duration
 |static_stat6_value                      = 8000
-|static_stat7_id                         = base_number_of_additional_arrows
-|static_stat7_value                      = 5
-|static_stat8_id                         = is_totem
+|static_stat7_id                         = base_number_of_arrows
+|static_stat7_value                      = 6
+|static_stat8_id                         = quality_display_base_additional_arrows_is_gem
 |static_stat8_value                      = 1
-|static_stat9_id                         = is_ranged_attack_totem
+|static_stat9_id                         = is_totem
 |static_stat9_value                      = 1
-|static_stat10_id                        = skill_physical_damage_%_to_convert_to_fire
-|static_stat10_value                     = 100
-|stat_text                               = Totem lasts 8 seconds<br>+(2-3) to maximum number of Summoned Ballista Totems<br>Fires 5 additional Arrows<br>Summons a Ballista Totem which uses this Skill<br>100% of Physical Damage Converted to Fire Damage
+|static_stat10_id                        = is_ranged_attack_totem
+|static_stat10_value                     = 1
+|static_stat11_id                        = skill_physical_damage_%_to_convert_to_fire
+|static_stat11_value                     = 100
+|stat_text                               = Totem lasts 8 seconds<br>+(2-3) to maximum number of Summoned Ballista Totems<br>Fires 6 Arrows<br>Summons a Ballista Totem which uses this Skill<br>100% of Physical Damage Converted to Fire Damage
 |level1                                  = True
 |level1_level_requirement                = 28
 |level1_cost_amounts                     = 7
@@ -412,5 +407,4 @@
 |level20_dexterity_requirement           = 155
 |level20_experience                      = 340652931
 |level21_dexterity_requirement           = 159
-|inventory_icon                          = Artillery Ballista
 }}

@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MapExilesStrDexIntMission_
+|mod_groups                       = MapMultipleExiles
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapMultipleExilesMap2Tier
+|stat_text                        = (20-30)% increased Quantity of Items found in this Area<br>(20-30)% increased Rarity of Items found in this Area<br>Area is inhabited by 4 additional Rogue Exiles
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 20
+|stat1_max                        = 30
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 20
+|stat2_max                        = 30
+|stat3_id                         = map_spawn_extra_exiles
+|stat3_min                        = 4
+|stat3_max                        = 4
+|stat4_id                         = map_ignore_rogue_exile_rarity_bias
+|stat4_min                        = 1
+|stat4_max                        = 1
+|stat5_id                         = map_extra_content_weighting
+|stat5_min                        = 1
+|stat5_max                        = 1
+}}

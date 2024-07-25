@@ -1,0 +1,19 @@
+{{Mod
+|id                               = GraceAuraEffectEldritchImplicit6
+|mod_groups                       = AuraEffect
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|mod_type                         = GraceAuraEffect
+|stat_text                        = [[Grace]] has (34-36)% increased Aura Effect
+|stat1_id                         = grace_aura_effect_+%
+|stat1_min                        = 34
+|stat1_max                        = 36
+|spawn_weight1_tag                = no_tier_1_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = body_armour
+|spawn_weight2_value              = 300
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = aura
+}}

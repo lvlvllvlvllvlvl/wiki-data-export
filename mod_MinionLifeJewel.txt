@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MinionLifeJewel
+|mod_groups                       = MinionLife
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Master's
+|mod_type                         = MinionLifeForJewel
+|stat_text                        = [[Minion|Minions]] have (8-12)% increased maximum [[Life]]
+|stat1_id                         = minion_maximum_life_+%
+|stat1_min                        = 8
+|stat1_max                        = 12
+|spawn_weight1_tag                = not_int
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 350
+|tags                             = resource, life, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

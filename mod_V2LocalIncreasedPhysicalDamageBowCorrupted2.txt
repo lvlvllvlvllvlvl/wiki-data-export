@@ -1,0 +1,19 @@
+{{Mod
+|id                               = V2LocalIncreasedPhysicalDamageBowCorrupted2
+|mod_groups                       = LocalPhysicalDamagePercent
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 85
+|mod_type                         = LocalPhysicalDamagePercent
+|stat_text                        = (16-20)% increased [[Physical Damage]]
+|stat1_id                         = local_physical_damage_+%
+|stat1_min                        = 16
+|stat1_max                        = 20
+|spawn_weight1_tag                = bow
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical_damage, damage, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

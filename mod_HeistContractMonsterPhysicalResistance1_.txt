@@ -1,0 +1,31 @@
+{{Mod
+|id                               = HeistContractMonsterPhysicalResistance1_
+|mod_groups                       = MapMonsterPhysicalResistance
+|domain                           = 22
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Armoured
+|mod_type                         = HeistContractMonsterPhysicalResistance
+|stat_text                        = +10% Monster [[Physical Damage]] Reduction
+|stat1_id                         = map_monsters_additional_physical_damage_reduction
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = map_item_drop_quantity_+%
+|stat2_min                        = 13
+|stat2_max                        = 13
+|stat3_id                         = map_item_drop_rarity_+%
+|stat3_min                        = 8
+|stat3_max                        = 8
+|stat4_id                         = heist_monster_spawner_alive_limit_+%
+|stat4_min                        = 5
+|stat4_max                        = 5
+|stat5_id                         = heist_contract_alert_level_+%_final
+|stat5_min                        = -5
+|stat5_max                        = -5
+|stat6_id                         = heist_contract_lockdown_timer_+%
+|stat6_min                        = 5
+|stat6_max                        = 5
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 800
+|tags                             = physical
+}}

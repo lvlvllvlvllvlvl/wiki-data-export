@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HeistNPCChestDoubleMap4__
+|mod_groups                       = HeistNPCChestDoubleMap
+|domain                           = 23
+|generation_type                  = 2
+|required_level                   = 83
+|name                             = of the Atlas
+|mod_type                         = HeistNPCChestDoubleMap
+|stat_text                        = Heist Chests have a (13-15)% chance to Duplicate contained Maps
+|stat1_id                         = heist_chests_double_maps_%
+|stat1_min                        = 13
+|stat1_max                        = 15
+|spawn_weight1_tag                = heist_equipment_reward
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MapAreaContainsGenerousYamaTheWhite
+|mod_groups                       = MapAreaContainsYamaTheWhite
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Yama's
+|mod_type                         = MapAreaContainsYamaTheWhite
+|stat_text                        = Next Area will contain Yama the Generous<br>-4 to Maximum [[Charge|Charges]]
+|stat1_id                         = map_contains_nevalis_monkey
+|stat1_min                        = 12
+|stat1_max                        = 16
+|stat2_id                         = local_extra_max_charges
+|stat2_min                        = -4
+|stat2_max                        = -4
+|spawn_weight1_tag                = prophecy_leaguestone
+|spawn_weight1_value              = 10
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

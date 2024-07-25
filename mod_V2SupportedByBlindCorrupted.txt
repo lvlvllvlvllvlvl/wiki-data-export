@@ -1,0 +1,18 @@
+{{Mod
+|id                               = V2SupportedByBlindCorrupted
+|mod_groups                       = SupportedByBlind
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|granted_skill                    = SupportBlind
+|mod_type                         = SupportedByBlind
+|stat_text                        = [[Item socket|Socketed]] Gems are supported by [[Blind Support|Level 10 Blind]]
+|stat1_id                         = local_display_socketed_gems_get_blind_level
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = bow
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = support, gem
+}}

@@ -1,0 +1,15 @@
+{{Mod
+|id                               = IncreasedGolemDamageIfGolemSummonedRecently__1_
+|mod_groups                       = IncreasedGolemDamageIfGolemSummonedRecently
+|domain                           = 10
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = IncreasedGolemDamageIfGolemSummonedRecently
+|stat_text                        = Golems Summoned in the past 8 seconds deal (35-45)% increased Damage
+|stat1_id                         = golem_damage_+%_if_summoned_in_past_8_seconds
+|stat1_min                        = 35
+|stat1_max                        = 45
+|tags                             = damage, minion
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

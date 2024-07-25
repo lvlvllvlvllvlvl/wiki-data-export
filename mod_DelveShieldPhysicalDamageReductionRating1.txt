@@ -1,0 +1,26 @@
+{{Mod
+|id                               = DelveShieldPhysicalDamageReductionRating1
+|mod_groups                       = ReducedPhysicalDamageTaken
+|domain                           = 16
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Subterranean
+|mod_type                         = ReducedPhysicalDamageTaken
+|stat_text                        = (3-5)% additional [[Physical Damage]] Reduction
+|stat1_id                         = base_additional_physical_damage_reduction_%
+|stat1_min                        = 3
+|stat1_max                        = 5
+|spawn_weight1_tag                = abyss_jewel
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = jewel
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = shield
+|spawn_weight3_value              = 2000
+|spawn_weight4_tag                = quiver
+|spawn_weight4_value              = 2000
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = physical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentColdProjectileMineCritMulti1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Icicle Mine Critical Multiplier 1
+|mod_type                         = EnchantmentColdProjectileMineCritMulti
+|stat_text                        = Icicle [[Mine]] has +20% to [[Critical Strike Multiplier]]
+|stat1_id                         = cold_projectile_mine_critical_multiplier_+
+|stat1_min                        = 20
+|stat1_max                        = 20
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster_damage, damage, caster, critical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

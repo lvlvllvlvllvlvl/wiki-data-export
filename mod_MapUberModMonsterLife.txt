@@ -1,0 +1,29 @@
+{{Mod
+|id                               = MapUberModMonsterLife
+|mod_groups                       = MapMonsterLife
+|domain                           = 37
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Fecund
+|mod_type                         = MapUberModMonsterLife
+|stat_text                        = (90-100)% more Monster [[Life]]
+|stat1_id                         = map_monsters_life_+%
+|stat1_min                        = 90
+|stat1_max                        = 100
+|stat2_id                         = map_pack_size_+%
+|stat2_min                        = 6
+|stat2_max                        = 6
+|stat3_id                         = map_item_drop_rarity_+%
+|stat3_min                        = 13
+|stat3_max                        = 13
+|stat4_id                         = map_item_drop_quantity_+%
+|stat4_min                        = 20
+|stat4_max                        = 20
+|stat5_id                         = map_currency_drop_chance_+%_final_from_uber_mod
+|stat5_min                        = 70
+|stat5_max                        = 70
+|spawn_weight1_tag                = uber_tier_map
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

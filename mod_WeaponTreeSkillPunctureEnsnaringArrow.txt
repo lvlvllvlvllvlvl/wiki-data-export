@@ -1,0 +1,24 @@
+{{Mod
+|id                               = WeaponTreeSkillPunctureEnsnaringArrow
+|mod_groups                       = WeaponTreeSkillPunctureEnsnaringArrow
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSkillPunctureEnsnaringArrow
+|stat_text                        = Enemies you [[Kill]] with [[Puncture]] or Ensnaring Arrow [[Hit|Hits]] Explode, dealing 10% of their [[Life]] as [[Physical Damage]]
+|stat1_id                         = puncture_and_ensnaring_arrow_enemies_explode_on_death_by_attack_for_10%_life_as_physical_damage_chance_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|spawn_weight1_tag                = bow
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = dagger
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = claw
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = sword
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = shield
+|spawn_weight5_value              = 500
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+}}

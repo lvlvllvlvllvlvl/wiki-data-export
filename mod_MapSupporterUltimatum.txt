@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MapSupporterUltimatum
+|mod_groups                       = MapSupporterUltimatum
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSupporterUltimatum
+|stat_text                        = Players cannot choose which Ultimatum Modifier is applied each Round<br>3% Chance to convert Maps to Scarabs<br>30% increased Quantity of Items found in this Area<br>Areas contain an Ultimatum Encounter<br>Must complete ten Ultimatum Encounter waves to claim Reward
+|stat1_id                         = map_ultimatum_modifiers_are_chosen_for_you
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_supporter_map_to_scarab
+|stat2_min                        = 300
+|stat2_max                        = 300
+|stat3_id                         = map_item_drop_quantity_+%
+|stat3_min                        = 30
+|stat3_max                        = 30
+|stat4_id                         = map_area_contains_ultimatum
+|stat4_min                        = 1
+|stat4_max                        = 1
+|stat5_id                         = map_reliquary_must_complete_ultimatum
+|stat5_min                        = 1
+|stat5_max                        = 1
+}}

@@ -1,0 +1,21 @@
+{{Mod
+|id                               = WeaponTreeDexterityAndNoInherentBonusFromDexterity2
+|mod_groups                       = WeaponTreeDexterityAndNoInherentBonusFromDexterity
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeDexterityAndNoInherentBonusFromDexterity
+|stat_text                        = +80 to [[Dexterity]]<br>Gain no inherent bonuses from [[Dexterity]]
+|stat1_id                         = additional_dexterity
+|stat1_min                        = 80
+|stat1_max                        = 80
+|stat2_id                         = gain_no_inherent_bonus_from_dexterity
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = shield
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

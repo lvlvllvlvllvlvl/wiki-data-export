@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AbyssCastSpeedIfMinionKilledRecentlyJewel1
+|mod_groups                       = CastSpeedIfMinionKilledRecently
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 30
+|name                             = of Retaliation
+|mod_type                         = CastSpeedIfMinionKilledRecently
+|stat_text                        = (7-10)% increased [[Cast Speed]] if a [[Minion]] has been Killed [[Recently]]
+|stat1_id                         = cast_speed_+%_if_player_minion_has_been_killed_recently
+|stat1_min                        = 7
+|stat1_max                        = 10
+|spawn_weight1_tag                = abyss_jewel_summoner
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

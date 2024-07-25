@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MonsterGainsPowerChargeOnHit1
+|mod_groups                       = MonsterGrantsCharges
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|name                             = of Power
+|mod_type                         = MonsterGainsPowerChargeOnHit
+|stat_text                        = 50% chance to gain a [[Power Charge]] on [[Hit]] (Hidden)
+|stat1_id                         = add_power_charge_on_skill_hit_%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|spawn_weight1_tag                = not_int
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 1000
+|tags                             = power_charge
+}}

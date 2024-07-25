@@ -1,0 +1,15 @@
+{{Mod
+|id                               = DamageOverTimeMultiplierIfCrit8SecondsUnique__1_
+|mod_groups                       = DamageOverTimeMultiplier
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = DamageOverTimeMultiplierIfCrit8Seconds
+|stat_text                        = +(40-60)% to Damage over Time Multiplier if you've dealt a [[Critical Strike]] in the past 8 seconds
+|stat1_id                         = dot_multiplier_+_if_crit_in_past_8_seconds
+|stat1_min                        = 40
+|stat1_max                        = 60
+|tags                             = damage, critical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

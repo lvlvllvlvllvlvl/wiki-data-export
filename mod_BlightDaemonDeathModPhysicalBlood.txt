@@ -1,0 +1,17 @@
+{{Mod
+|id                               = BlightDaemonDeathModPhysicalBlood
+|mod_groups                       = Nothing
+|domain                           = 3
+|generation_type                  = 18
+|required_level                   = 1
+|name                             = Blighted
+|mod_type                         = BlightModDaemon
+|stat_text                        = 
+|stat1_id                         = spawn_monster_on_death_variation
+|stat1_min                        = 17
+|stat1_max                        = 17
+|spawn_weight1_tag                = blight_death_physical
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

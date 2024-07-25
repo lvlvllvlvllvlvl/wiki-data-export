@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideReducedCurseEffect3
+|mod_groups                       = ReducedCurseEffect
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = ReducedCurseEffect
+|stat_text                        = (20-16)% reduced Effect of [[Curse|Curses]] on you
+|stat1_id                         = curse_effect_on_self_+%
+|stat1_min                        = -20
+|stat1_max                        = -16
+|spawn_weight1_tag                = ring
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster, curse
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

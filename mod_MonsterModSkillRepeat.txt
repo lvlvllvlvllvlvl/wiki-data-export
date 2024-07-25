@@ -1,0 +1,26 @@
+{{Mod
+|id                               = MonsterModSkillRepeat
+|mod_groups                       = MonsterModSkillRepeat
+|domain                           = 3
+|generation_type                  = 1
+|required_level                   = 24
+|name                             = Echoing
+|mod_type                         = MonsterModSkillRepeat
+|stat_text                        = 200% increased [[Attack Speed]] (Hidden)<br>200% increased [[Cast Speed]] (Hidden)<br>[[Skill|Skills]] Repeat an additional 2 Times (Hidden)
+|stat1_id                         = attack_speed_+%
+|stat1_min                        = 200
+|stat1_max                        = 200
+|stat2_id                         = base_cast_speed_+%
+|stat2_min                        = 200
+|stat2_max                        = 200
+|stat3_id                         = skill_repeat_count
+|stat3_min                        = 2
+|stat3_max                        = 2
+|stat4_id                         = interrupt_for_X_ms_after_skill_use
+|stat4_min                        = 1500
+|stat4_max                        = 1500
+|spawn_weight1_tag                = caster
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Polished Elder Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = Speaker of unclean truths, Egrin of the Dark Between Stars.<br>We curse you whose soul echoes the madness of the void!
 |drop_level                              = 68
-|tags                                    = polished_scarab, default
+|tags                                    = scarab, influence_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabElderRares2
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabElderRares2_
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = Adds Elder Influence outcome to Map Area<br>60% more Rare Elder Items found in Area
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabElderRares2_
 }}

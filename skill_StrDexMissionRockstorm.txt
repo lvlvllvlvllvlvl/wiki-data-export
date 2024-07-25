@@ -16,10 +16,12 @@
 |static_stat2_value                      = 1
 |static_stat3_id                         = base_skill_effect_duration
 |static_stat3_value                      = 3500
-|stat_text                               = Deals (4-462) to (6-693) Physical Damage<br>Base duration is 3.5 seconds<br>One impact every (0.2-0.1) seconds
+|static_stat4_id                         = active_skill_base_area_of_effect_radius
+|static_stat4_value                      = 10
+|stat_text                               = Deals (4-462) to (6-693) Physical Damage<br>Base duration is 3.50 seconds<br>One impact every (0.20-0.10) seconds<br>Base radius is 1 metre
 |level1                                  = True
 |level1_level_requirement                = 3
-|level1_stat_text                        = Deals 4 to 6 Physical Damage<br>One impact every 0.2 seconds
+|level1_stat_text                        = Deals 4 to 6 Physical Damage<br>One impact every 0.20 seconds
 |level1_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level1_stat1_value                      = 10
 |level1_stat2_id                         = firestorm_base_area_of_effect_+%
@@ -32,7 +34,7 @@
 |level1_stat5_value                      = 200
 |level2                                  = True
 |level2_level_requirement                = 12
-|level2_stat_text                        = Deals 10 to 15 Physical Damage<br>One impact every 0.2 seconds
+|level2_stat_text                        = Deals 10 to 15 Physical Damage<br>One impact every 0.20 seconds
 |level2_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level2_stat1_value                      = 15
 |level2_stat2_id                         = firestorm_base_area_of_effect_+%
@@ -84,7 +86,7 @@
 |level5_stat5_value                      = 150
 |level6                                  = True
 |level6_level_requirement                = 63
-|level6_stat_text                        = Deals 296 to 444 Physical Damage<br>One impact every 0.1 seconds
+|level6_stat_text                        = Deals 296 to 444 Physical Damage<br>One impact every 0.10 seconds
 |level6_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level6_stat1_value                      = 30
 |level6_stat2_id                         = firestorm_base_area_of_effect_+%
@@ -97,7 +99,7 @@
 |level6_stat5_value                      = 100
 |level7                                  = True
 |level7_level_requirement                = 69
-|level7_stat_text                        = Deals 413 to 620 Physical Damage<br>One impact every 0.1 seconds
+|level7_stat_text                        = Deals 413 to 620 Physical Damage<br>One impact every 0.10 seconds
 |level7_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level7_stat1_value                      = 30
 |level7_stat2_id                         = firestorm_base_area_of_effect_+%
@@ -110,7 +112,7 @@
 |level7_stat5_value                      = 100
 |level8                                  = True
 |level8_level_requirement                = 71
-|level8_stat_text                        = Deals 462 to 693 Physical Damage<br>One impact every 0.1 seconds
+|level8_stat_text                        = Deals 462 to 693 Physical Damage<br>One impact every 0.10 seconds
 |level8_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level8_stat1_value                      = 35
 |level8_stat2_id                         = firestorm_base_area_of_effect_+%

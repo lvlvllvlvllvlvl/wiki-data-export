@@ -23,13 +23,13 @@
 |static_stat6_value                      = -50
 |static_stat7_id                         = number_of_melee_skeletons_to_summon
 |static_stat7_value                      = 2
-|stat_text                               = Totem lasts 15 seconds<br>Maximum (4-14) Summoned Skeletons<br>Base duration is 20 seconds<br>Summons a Totem which uses this Skill<br>Minions deal 50% less Elemental Damage<br>Summons 2 Skeleton Warriors
+|stat_text                               = Totem lasts 15 seconds<br>+(4-14) to Maximum Summoned Skeletons<br>Base duration is 20.00 seconds<br>Summons a Totem which uses this Skill<br>Minions deal 50% less Elemental Damage<br>Summons 2 Skeleton Warriors
 |level1                                  = True
 |level1_level_requirement                = 4
 |level1_cost_amounts                     = 80
 |level1_stored_uses                      = 1
 |level1_cooldown                         = 2
-|level1_stat_text                        = Maximum 4 Summoned Skeletons
+|level1_stat_text                        = +4 to Maximum Summoned Skeletons
 |level1_stat1_id                         = base_active_skill_totem_level
 |level1_stat1_value                      = 4
 |level1_stat2_id                         = base_number_of_skeletons_allowed
@@ -39,7 +39,7 @@
 |level2_cost_amounts                     = 80
 |level2_stored_uses                      = 1
 |level2_cooldown                         = 2
-|level2_stat_text                        = Maximum 4 Summoned Skeletons
+|level2_stat_text                        = +4 to Maximum Summoned Skeletons
 |level2_stat1_id                         = base_active_skill_totem_level
 |level2_stat1_value                      = 6
 |level2_stat2_id                         = base_number_of_skeletons_allowed
@@ -49,7 +49,7 @@
 |level3_cost_amounts                     = 74
 |level3_stored_uses                      = 1
 |level3_cooldown                         = 2
-|level3_stat_text                        = Maximum 4 Summoned Skeletons
+|level3_stat_text                        = +4 to Maximum Summoned Skeletons
 |level3_stat1_id                         = base_active_skill_totem_level
 |level3_stat1_value                      = 9
 |level3_stat2_id                         = base_number_of_skeletons_allowed
@@ -59,7 +59,7 @@
 |level4_cost_amounts                     = 72
 |level4_stored_uses                      = 1
 |level4_cooldown                         = 2
-|level4_stat_text                        = Maximum 4 Summoned Skeletons
+|level4_stat_text                        = +4 to Maximum Summoned Skeletons
 |level4_stat1_id                         = base_active_skill_totem_level
 |level4_stat1_value                      = 12
 |level4_stat2_id                         = base_number_of_skeletons_allowed
@@ -69,7 +69,7 @@
 |level5_cost_amounts                     = 72
 |level5_stored_uses                      = 1
 |level5_cooldown                         = 2
-|level5_stat_text                        = Maximum 4 Summoned Skeletons
+|level5_stat_text                        = +4 to Maximum Summoned Skeletons
 |level5_stat1_id                         = base_active_skill_totem_level
 |level5_stat1_value                      = 15
 |level5_stat2_id                         = base_number_of_skeletons_allowed
@@ -79,7 +79,7 @@
 |level6_cost_amounts                     = 70
 |level6_stored_uses                      = 1
 |level6_cooldown                         = 2
-|level6_stat_text                        = Maximum 4 Summoned Skeletons
+|level6_stat_text                        = +4 to Maximum Summoned Skeletons
 |level6_stat1_id                         = base_active_skill_totem_level
 |level6_stat1_value                      = 19
 |level6_stat2_id                         = base_number_of_skeletons_allowed
@@ -89,7 +89,7 @@
 |level7_cost_amounts                     = 69
 |level7_stored_uses                      = 1
 |level7_cooldown                         = 2
-|level7_stat_text                        = Maximum 4 Summoned Skeletons
+|level7_stat_text                        = +4 to Maximum Summoned Skeletons
 |level7_stat1_id                         = base_active_skill_totem_level
 |level7_stat1_value                      = 23
 |level7_stat2_id                         = base_number_of_skeletons_allowed
@@ -99,7 +99,7 @@
 |level8_cost_amounts                     = 65
 |level8_stored_uses                      = 1
 |level8_cooldown                         = 2
-|level8_stat_text                        = Maximum 4 Summoned Skeletons
+|level8_stat_text                        = +4 to Maximum Summoned Skeletons
 |level8_stat1_id                         = base_active_skill_totem_level
 |level8_stat1_value                      = 28
 |level8_stat2_id                         = base_number_of_skeletons_allowed
@@ -109,7 +109,7 @@
 |level9_cost_amounts                     = 64
 |level9_stored_uses                      = 1
 |level9_cooldown                         = 2
-|level9_stat_text                        = Maximum 4 Summoned Skeletons
+|level9_stat_text                        = +4 to Maximum Summoned Skeletons
 |level9_stat1_id                         = base_active_skill_totem_level
 |level9_stat1_value                      = 33
 |level9_stat2_id                         = base_number_of_skeletons_allowed
@@ -119,7 +119,7 @@
 |level10_cost_amounts                    = 64
 |level10_stored_uses                     = 1
 |level10_cooldown                        = 1
-|level10_stat_text                       = Maximum 6 Summoned Skeletons
+|level10_stat_text                       = +6 to Maximum Summoned Skeletons
 |level10_stat1_id                        = base_active_skill_totem_level
 |level10_stat1_value                     = 39
 |level10_stat2_id                        = base_number_of_skeletons_allowed
@@ -129,7 +129,7 @@
 |level11_cost_amounts                    = 64
 |level11_stored_uses                     = 1
 |level11_cooldown                        = 1
-|level11_stat_text                       = Maximum 6 Summoned Skeletons
+|level11_stat_text                       = +6 to Maximum Summoned Skeletons
 |level11_stat1_id                        = base_active_skill_totem_level
 |level11_stat1_value                     = 43
 |level11_stat2_id                        = base_number_of_skeletons_allowed
@@ -139,7 +139,7 @@
 |level12_cost_amounts                    = 64
 |level12_stored_uses                     = 1
 |level12_cooldown                        = 1
-|level12_stat_text                       = Maximum 6 Summoned Skeletons
+|level12_stat_text                       = +6 to Maximum Summoned Skeletons
 |level12_stat1_id                        = base_active_skill_totem_level
 |level12_stat1_value                     = 46
 |level12_stat2_id                        = base_number_of_skeletons_allowed
@@ -149,7 +149,7 @@
 |level13_cost_amounts                    = 64
 |level13_stored_uses                     = 1
 |level13_cooldown                        = 1
-|level13_stat_text                       = Maximum 6 Summoned Skeletons
+|level13_stat_text                       = +6 to Maximum Summoned Skeletons
 |level13_stat1_id                        = base_active_skill_totem_level
 |level13_stat1_value                     = 49
 |level13_stat2_id                        = base_number_of_skeletons_allowed
@@ -159,7 +159,7 @@
 |level14_cost_amounts                    = 64
 |level14_stored_uses                     = 1
 |level14_cooldown                        = 1
-|level14_stat_text                       = Maximum 6 Summoned Skeletons
+|level14_stat_text                       = +6 to Maximum Summoned Skeletons
 |level14_stat1_id                        = base_active_skill_totem_level
 |level14_stat1_value                     = 52
 |level14_stat2_id                        = base_number_of_skeletons_allowed
@@ -169,7 +169,7 @@
 |level15_cost_amounts                    = 64
 |level15_stored_uses                     = 1
 |level15_cooldown                        = 1
-|level15_stat_text                       = Maximum 6 Summoned Skeletons
+|level15_stat_text                       = +6 to Maximum Summoned Skeletons
 |level15_stat1_id                        = base_active_skill_totem_level
 |level15_stat1_value                     = 55
 |level15_stat2_id                        = base_number_of_skeletons_allowed
@@ -179,7 +179,7 @@
 |level16_cost_amounts                    = 64
 |level16_stored_uses                     = 2
 |level16_cooldown                        = 1
-|level16_stat_text                       = Maximum 8 Summoned Skeletons
+|level16_stat_text                       = +8 to Maximum Summoned Skeletons
 |level16_stat1_id                        = base_active_skill_totem_level
 |level16_stat1_value                     = 58
 |level16_stat2_id                        = base_number_of_skeletons_allowed
@@ -189,7 +189,7 @@
 |level17_cost_amounts                    = 64
 |level17_stored_uses                     = 2
 |level17_cooldown                        = 1
-|level17_stat_text                       = Maximum 8 Summoned Skeletons
+|level17_stat_text                       = +8 to Maximum Summoned Skeletons
 |level17_stat1_id                        = base_active_skill_totem_level
 |level17_stat1_value                     = 61
 |level17_stat2_id                        = base_number_of_skeletons_allowed
@@ -199,7 +199,7 @@
 |level18_cost_amounts                    = 64
 |level18_stored_uses                     = 2
 |level18_cooldown                        = 1
-|level18_stat_text                       = Maximum 8 Summoned Skeletons
+|level18_stat_text                       = +8 to Maximum Summoned Skeletons
 |level18_stat1_id                        = base_active_skill_totem_level
 |level18_stat1_value                     = 64
 |level18_stat2_id                        = base_number_of_skeletons_allowed
@@ -209,7 +209,7 @@
 |level19_cost_amounts                    = 64
 |level19_stored_uses                     = 2
 |level19_cooldown                        = 1
-|level19_stat_text                       = Maximum 8 Summoned Skeletons
+|level19_stat_text                       = +8 to Maximum Summoned Skeletons
 |level19_stat1_id                        = base_active_skill_totem_level
 |level19_stat1_value                     = 66
 |level19_stat2_id                        = base_number_of_skeletons_allowed
@@ -219,7 +219,7 @@
 |level20_cost_amounts                    = 64
 |level20_stored_uses                     = 2
 |level20_cooldown                        = 1
-|level20_stat_text                       = Maximum 8 Summoned Skeletons
+|level20_stat_text                       = +8 to Maximum Summoned Skeletons
 |level20_stat1_id                        = base_active_skill_totem_level
 |level20_stat1_value                     = 67
 |level20_stat2_id                        = base_number_of_skeletons_allowed
@@ -229,7 +229,7 @@
 |level21_cost_amounts                    = 64
 |level21_stored_uses                     = 2
 |level21_cooldown                        = 1
-|level21_stat_text                       = Maximum 10 Summoned Skeletons
+|level21_stat_text                       = +10 to Maximum Summoned Skeletons
 |level21_stat1_id                        = base_active_skill_totem_level
 |level21_stat1_value                     = 68
 |level21_stat2_id                        = base_number_of_skeletons_allowed
@@ -239,7 +239,7 @@
 |level22_cost_amounts                    = 64
 |level22_stored_uses                     = 3
 |level22_cooldown                        = 1
-|level22_stat_text                       = Maximum 10 Summoned Skeletons
+|level22_stat_text                       = +10 to Maximum Summoned Skeletons
 |level22_stat1_id                        = base_active_skill_totem_level
 |level22_stat1_value                     = 69
 |level22_stat2_id                        = base_number_of_skeletons_allowed
@@ -249,7 +249,7 @@
 |level23_cost_amounts                    = 64
 |level23_stored_uses                     = 3
 |level23_cooldown                        = 1
-|level23_stat_text                       = Maximum 10 Summoned Skeletons
+|level23_stat_text                       = +10 to Maximum Summoned Skeletons
 |level23_stat1_id                        = base_active_skill_totem_level
 |level23_stat1_value                     = 70
 |level23_stat2_id                        = base_number_of_skeletons_allowed
@@ -259,7 +259,7 @@
 |level24_cost_amounts                    = 64
 |level24_stored_uses                     = 3
 |level24_cooldown                        = 1
-|level24_stat_text                       = Maximum 10 Summoned Skeletons
+|level24_stat_text                       = +10 to Maximum Summoned Skeletons
 |level24_stat1_id                        = base_active_skill_totem_level
 |level24_stat1_value                     = 71
 |level24_stat2_id                        = base_number_of_skeletons_allowed
@@ -269,7 +269,7 @@
 |level25_cost_amounts                    = 64
 |level25_stored_uses                     = 3
 |level25_cooldown                        = 1
-|level25_stat_text                       = Maximum 10 Summoned Skeletons
+|level25_stat_text                       = +10 to Maximum Summoned Skeletons
 |level25_stat1_id                        = base_active_skill_totem_level
 |level25_stat1_value                     = 72
 |level25_stat2_id                        = base_number_of_skeletons_allowed
@@ -279,7 +279,7 @@
 |level26_cost_amounts                    = 64
 |level26_stored_uses                     = 3
 |level26_cooldown                        = 1
-|level26_stat_text                       = Maximum 10 Summoned Skeletons
+|level26_stat_text                       = +10 to Maximum Summoned Skeletons
 |level26_stat1_id                        = base_active_skill_totem_level
 |level26_stat1_value                     = 73
 |level26_stat2_id                        = base_number_of_skeletons_allowed
@@ -289,7 +289,7 @@
 |level27_cost_amounts                    = 64
 |level27_stored_uses                     = 4
 |level27_cooldown                        = 1
-|level27_stat_text                       = Maximum 12 Summoned Skeletons
+|level27_stat_text                       = +12 to Maximum Summoned Skeletons
 |level27_stat1_id                        = base_active_skill_totem_level
 |level27_stat1_value                     = 74
 |level27_stat2_id                        = base_number_of_skeletons_allowed
@@ -299,7 +299,7 @@
 |level28_cost_amounts                    = 64
 |level28_stored_uses                     = 4
 |level28_cooldown                        = 1
-|level28_stat_text                       = Maximum 12 Summoned Skeletons
+|level28_stat_text                       = +12 to Maximum Summoned Skeletons
 |level28_stat1_id                        = base_active_skill_totem_level
 |level28_stat1_value                     = 75
 |level28_stat2_id                        = base_number_of_skeletons_allowed
@@ -309,7 +309,7 @@
 |level29_cost_amounts                    = 64
 |level29_stored_uses                     = 4
 |level29_cooldown                        = 1
-|level29_stat_text                       = Maximum 12 Summoned Skeletons
+|level29_stat_text                       = +12 to Maximum Summoned Skeletons
 |level29_stat1_id                        = base_active_skill_totem_level
 |level29_stat1_value                     = 76
 |level29_stat2_id                        = base_number_of_skeletons_allowed
@@ -319,7 +319,7 @@
 |level30_cost_amounts                    = 64
 |level30_stored_uses                     = 5
 |level30_cooldown                        = 1
-|level30_stat_text                       = Maximum 12 Summoned Skeletons
+|level30_stat_text                       = +12 to Maximum Summoned Skeletons
 |level30_stat1_id                        = base_active_skill_totem_level
 |level30_stat1_value                     = 77
 |level30_stat2_id                        = base_number_of_skeletons_allowed
@@ -329,7 +329,7 @@
 |level31_cost_amounts                    = 64
 |level31_stored_uses                     = 5
 |level31_cooldown                        = 1
-|level31_stat_text                       = Maximum 14 Summoned Skeletons
+|level31_stat_text                       = +14 to Maximum Summoned Skeletons
 |level31_stat1_id                        = base_active_skill_totem_level
 |level31_stat1_value                     = 78
 |level31_stat2_id                        = base_number_of_skeletons_allowed
@@ -339,7 +339,7 @@
 |level32_cost_amounts                    = 64
 |level32_stored_uses                     = 5
 |level32_cooldown                        = 1
-|level32_stat_text                       = Maximum 14 Summoned Skeletons
+|level32_stat_text                       = +14 to Maximum Summoned Skeletons
 |level32_stat1_id                        = base_active_skill_totem_level
 |level32_stat1_value                     = 80
 |level32_stat2_id                        = base_number_of_skeletons_allowed
@@ -349,7 +349,7 @@
 |level33_cost_amounts                    = 64
 |level33_stored_uses                     = 5
 |level33_cooldown                        = 1
-|level33_stat_text                       = Maximum 14 Summoned Skeletons
+|level33_stat_text                       = +14 to Maximum Summoned Skeletons
 |level33_stat1_id                        = base_active_skill_totem_level
 |level33_stat1_value                     = 81
 |level33_stat2_id                        = base_number_of_skeletons_allowed
@@ -359,7 +359,7 @@
 |level34_cost_amounts                    = 64
 |level34_stored_uses                     = 5
 |level34_cooldown                        = 1
-|level34_stat_text                       = Maximum 14 Summoned Skeletons
+|level34_stat_text                       = +14 to Maximum Summoned Skeletons
 |level34_stat1_id                        = base_active_skill_totem_level
 |level34_stat1_value                     = 82
 |level34_stat2_id                        = base_number_of_skeletons_allowed

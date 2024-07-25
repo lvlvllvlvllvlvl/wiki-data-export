@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MemoryLineBestiary1
+|mod_groups                       = MemoryLineType
+|domain                           = 31
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Harvest Beasts
+|mod_type                         = MemoryLineBestiary1
+|stat_text                        = Areas contain Einhar<br />Areas can contain capturable Harvest Beasts
+|stat1_id                         = memory_line_type_hash
+|stat1_min                        = -14871
+|stat1_max                        = -14871
+|stat2_id                         = display_memory_line_bestiary_capturable_harvest_monsters
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = memory_line_einhar
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

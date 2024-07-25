@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MapInvasionBossDropsAdditionalVaalOrb
+|mod_groups                       = MapInvasionBossDropsAdditionalVaalOrb
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Impure
+|mod_type                         = MapInvasionBossDropsAdditionalVaalOrb
+|stat_text                        = Invasion Bosses in next Area will drop an additional Vaal Orb<br>-2 to Maximum [[Charge|Charges]]
+|stat1_id                         = map_invasion_bosses_drop_x_additional_vaal_orbs
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_extra_max_charges
+|stat2_min                        = -2
+|stat2_max                        = -2
+|spawn_weight1_tag                = invasion_leaguestone
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

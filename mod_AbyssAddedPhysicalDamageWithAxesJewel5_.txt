@@ -1,0 +1,27 @@
+{{Mod
+|id                               = AbyssAddedPhysicalDamageWithAxesJewel5_
+|mod_groups                       = SpecificWeaponPhysicalDamage
+|domain                           = 13
+|generation_type                  = 1
+|required_level                   = 85
+|name                             = Acuminate
+|mod_type                         = AddedPhysicalDamageWithAxes
+|stat_text                        = (7-8) to (9-10) Added [[Physical Damage]] with [[Axe]] [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_physical_damage_with_axes
+|stat1_min                        = 7
+|stat1_max                        = 8
+|stat2_id                         = attack_maximum_added_physical_damage_with_axes
+|stat2_min                        = 9
+|stat2_max                        = 10
+|spawn_weight1_tag                = axe
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = specific_weapon
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = abyss_jewel_melee
+|spawn_weight3_value              = 125
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = physical_damage, damage, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

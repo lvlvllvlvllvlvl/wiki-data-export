@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Immolate Support
 |class_id                                = Support Skill Gem
@@ -7,25 +7,18 @@
 |drop_level                              = 38
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemImmolate
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |strength_percent                        = 40
 |intelligence_percent                    = 60
 |gem_tags                                = Fire, Support
 |skill_id                                = SupportImmolation
 |support_gem_letter                      = m
 |required_level                          = 38
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills deal 0.5% increased Fire Damage
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills deal (0.5-10)% increased Fire Damage
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = fire_damage_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Supported Skills have 0.5% increased Area of Effect
-|quality_type2_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = Supported Skills have 0.5% chance to Ignite
-|quality_type3_stat1_id                  = base_chance_to_ignite_%
-|quality_type3_stat1_value               = 500
 |static_cost_multiplier                  = 120
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

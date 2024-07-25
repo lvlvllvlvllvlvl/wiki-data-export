@@ -1,0 +1,17 @@
+{{Mod
+|id                               = ChestItemSockets
+|mod_groups                       = ChestItemSockets
+|domain                           = 4
+|generation_type                  = 2
+|required_level                   = 20
+|name                             = of Complexity
+|mod_type                         = ChestItemSockets
+|stat_text                        = Contained Items have (1-2) additional [[Item socket|Sockets]]
+|stat1_id                         = dropped_items_have_additional_sockets
+|stat1_min                        = 1
+|stat1_max                        = 2
+|spawn_weight1_tag                = drops_no_sockets
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 800
+}}

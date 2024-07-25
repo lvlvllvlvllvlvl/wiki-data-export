@@ -1,0 +1,27 @@
+{{Mod
+|id                               = JunMaster2SpellDamageAndNonChaosDamageToAddAsChaosDamage2h3
+|mod_groups                       = WeaponCasterDamagePrefix
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 81
+|name                             = Chosen
+|mod_type                         = SpellDamageAndNonChaosDamageToAddAsChaosDamage
+|stat_text                        = (67-75)% increased [[Spell Damage]]<br>Gain (7-8)% of Non-Chaos Damage as extra [[Chaos Damage]]
+|stat1_id                         = spell_damage_+%
+|stat1_min                        = 67
+|stat1_max                        = 75
+|stat2_id                         = non_chaos_damage_to_add_as_chaos_damage_%
+|stat2_min                        = 7
+|stat2_max                        = 8
+|spawn_weight1_tag                = bow
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = staff
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = two_hand_weapon
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = caster_damage, chaos_damage, unveiled_mod, damage, chaos, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

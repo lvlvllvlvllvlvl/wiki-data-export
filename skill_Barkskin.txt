@@ -1,0 +1,24 @@
+{{Skill
+|gem_description                         = Adopt the power of the Viridian Wildwood, gradually covering your body in bark. Getting hit by enemy attacks causes bark to be removed. You have higher armour the more bark builds up, but higher chance to evade when less covered in bark.
+|active_skill_name                       = Barkskin
+|skill_id                                = Barkskin
+|cast_time                               = 0.0
+|required_level                          = 70
+|static_stored_uses                      = 1
+|static_cooldown                         = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_mana_reservation_percent         = 25
+|static_stat1_id                         = max_barkskin_stacks
+|static_stat1_value                      = 10
+|static_stat2_id                         = physical_attack_damage_taken_+_per_barkskin_stack
+|static_stat2_value                      = -15
+|static_stat3_id                         = armour_+%_per_barkskin_stack
+|static_stat3_value                      = 15
+|static_stat4_id                         = chance_to_evade_attacks_+%_final_per_missing_barkskin_stack
+|static_stat4_value                      = 2
+|stat_text                               = Gain 1 Bark each second if you haven't been Hit by an Enemy Attack Recently<br>Lose 1 Bark when Hit by an Enemy Attack<br>Maximum 10 Bark<br>-15 Physical Damage taken from Attack Hits per Bark<br>15% increased Armour per Bark<br>2% more chance to Evade Attacks per Bark below maximum
+|level1                                  = True
+|level1_level_requirement                = 70
+}}

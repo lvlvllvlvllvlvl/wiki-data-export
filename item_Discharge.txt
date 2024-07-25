@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Discharge
 |class_id                                = Active Skill Gem
@@ -15,22 +15,11 @@
 |skill_id                                = Discharge
 |cast_time                               = 0.75
 |required_level                          = 28
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Elemental Damage
-|quality_type1_stat1_id                  = elemental_damage_+%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 2% increased Cast Speed
-|quality_type2_stat1_id                  = base_cast_speed_+%
-|quality_type2_stat1_value               = 2000
-|quality_type3_weight                    = 5
-|quality_type3_stat_text                 = 0.5% chance to deal Damage without removing Charges
-|quality_type3_stat1_id                  = discharge_chance_not_to_consume_charges_%
-|quality_type3_stat1_value               = 500
-|quality_type4_weight                    = 20
-|quality_type4_stat_text                 = 2% increased Damage if three different Charge types removed
-|quality_type4_stat1_id                  = discharge_damage_+%_if_3_charge_types_removed
-|quality_type4_stat1_value               = 2000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.5-10)% chance to deal Damage without removing Charges
+|quality_type1_breakpoints               = 2.0
+|quality_type1_stat1_id                  = discharge_chance_not_to_consume_charges_%
+|quality_type1_stat1_value               = 500
 |static_cost_types                       = Mana
 |static_stored_uses                      = 1
 |static_cooldown                         = 2
@@ -44,9 +33,11 @@
 |static_stat2_value                      = 1
 |static_stat3_id                         = active_skill_ailment_damage_+%_final
 |static_stat3_value                      = -60
-|static_stat4_id                         = area_of_effect_+%_per_removable_power_frenzy_or_endurance_charge
-|static_stat4_value                      = 20
-|stat_text                               = Deals (69-639) to (206-1918) base Lightning Damage per Power Charge removed<br>Deals (110-1023) to (165-1535) base Fire Damage per Endurance Charge removed<br>Deals (110-1023) to (165-1535) base Cold Damage per Frenzy Charge removed<br>60% less Damage with Ailments<br>20% increased Area of Effect per charge consumed
+|static_stat4_id                         = active_skill_base_area_of_effect_radius
+|static_stat4_value                      = 30
+|static_stat5_id                         = area_of_effect_+%_final_per_removable_power_frenzy_or_endurance_charge
+|static_stat5_value                      = 15
+|stat_text                               = Deals (69-639) to (206-1918) base Lightning Damage per Power Charge removed<br>Deals (110-1023) to (165-1535) base Fire Damage per Endurance Charge removed<br>Deals (110-1023) to (165-1535) base Cold Damage per Frenzy Charge removed<br>60% less Damage with Ailments<br>Base radius is 3 metres<br>15% more Area of Effect per Charge removed
 |level1                                  = True
 |level1_level_requirement                = 28
 |level1_cost_amounts                     = 13

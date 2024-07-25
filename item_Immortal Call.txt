@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Immortal Call
 |class_id                                = Active Skill Gem
@@ -15,20 +15,10 @@
 |skill_id                                = ImmortalCall
 |cast_time                               = 0.0
 |required_level                          = 34
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Skill Effect Duration
-|quality_type1_stat1_id                  = skill_effect_duration_+%
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% increased Cooldown Recovery Rate
+|quality_type1_stat1_id                  = base_cooldown_speed_+%
 |quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% increased Cooldown Recovery Rate
-|quality_type2_stat1_id                  = base_cooldown_speed_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 10
-|quality_type3_stat_text                 = -0.1% less Physical Damage taken per Endurance Charge removed<br>0.1% less Elemental Damage taken per Endurance Charge removed
-|quality_type3_stat1_id                  = mortal_call_physical_damage_taken_per_endurance_charge_consumed_final_permyriad
-|quality_type3_stat1_value               = 10000
-|quality_type3_stat2_id                  = immortal_call_elemental_damage_taken_+%_final_per_endurance_charge_consumed_permyriad
-|quality_type3_stat2_value               = -10000
 |static_cost_types                       = Mana
 |static_stored_uses                      = 1
 |static_cooldown                         = 3
@@ -48,7 +38,7 @@
 |static_stat5_value                      = -1500
 |static_stat6_id                         = quality_display_immortal_call_is_gem
 |static_stat6_value                      = 1
-|stat_text                               = Base duration is 1 seconds<br>20% increased Buff Duration per Endurance Charge removed<br>This Skill's Cooldown does not recover during its effect<br>(25-34)% less Elemental Damage taken<br>(25-35)% less Physical Damage taken<br>15% less Physical Damage taken per Endurance Charge removed
+|stat_text                               = Base duration is 1.00 seconds<br>20% increased Buff Duration per Endurance Charge removed<br>This Skill's Cooldown does not recover during its effect<br>(25-34)% less Elemental Damage taken<br>(25-35)% less Physical Damage taken<br>15% less Physical Damage taken per Endurance Charge removed
 |level1                                  = True
 |level1_level_requirement                = 34
 |level1_cost_amounts                     = 21

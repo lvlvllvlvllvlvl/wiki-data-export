@@ -1,0 +1,27 @@
+{{Mod
+|id                               = JunMaster2AddedFireAndLightningDamage1Inverted
+|mod_groups                       = AddedFireAndLightningDamage
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Chosen
+|mod_type                         = SelfFireAndLightningDamageTaken
+|stat_text                        = Adds (6-7) to (9-10) [[Fire Damage]] to [[Hit|Hits]] against you<br>Adds (6-7) to (9-10) [[Lightning Damage]] to [[Hit|Hits]] against you
+|stat1_id                         = from_self_minimum_added_fire_damage_taken
+|stat1_min                        = 6
+|stat1_max                        = 7
+|stat2_id                         = from_self_maximum_added_fire_damage_taken
+|stat2_min                        = 9
+|stat2_max                        = 10
+|stat3_id                         = from_self_minimum_added_lightning_damage_taken
+|stat3_min                        = 6
+|stat3_max                        = 7
+|stat4_id                         = from_self_maximum_added_lightning_damage_taken
+|stat4_min                        = 9
+|stat4_max                        = 10
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, unveiled_mod, damage, elemental, fire, lightning
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

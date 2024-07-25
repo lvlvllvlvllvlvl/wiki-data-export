@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmArmourAppliesToElementalDamage1
+|mod_groups                       = AnimalCharmArmourAppliesToElementalDamage
+|domain                           = 35
+|generation_type                  = 2
+|required_level                   = 81
+|name                             = of the Juggernaut
+|mod_type                         = AnimalCharmArmourAppliesToElementalDamage
+|stat_text                        = 2% of [[Armour]] applies to Fire, Cold and [[Lightning Damage]] taken from [[Hit|Hits]]
+|stat1_id                         = armour_%_applies_to_fire_cold_lightning_damage
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = str_animal_charm
+|spawn_weight1_value              = 20
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

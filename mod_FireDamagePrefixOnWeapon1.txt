@@ -1,0 +1,30 @@
+{{Mod
+|id                               = FireDamagePrefixOnWeapon1
+|mod_groups                       = WeaponCasterDamagePrefix
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 2
+|name                             = Searing
+|mod_type                         = FireDamageWeaponPrefix
+|stat_text                        = (10-19)% increased [[Fire Damage]]
+|stat1_id                         = fire_damage_+%
+|stat1_min                        = 10
+|stat1_max                        = 19
+|spawn_weight1_tag                = focus
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = wand
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = sceptre
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|generation_weight1_tag           = has_caster_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_attack_mod
+|generation_weight2_value         = 50
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = elemental_damage, damage, elemental, fire
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

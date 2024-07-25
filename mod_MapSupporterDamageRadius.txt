@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MapSupporterDamageRadius
+|mod_groups                       = MapSupporterDamageRadius
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSupporterDamageRadius
+|stat_text                        = Monsters can only be Damaged while within 2 metres of a Player<br />Players' modifiers to Light Radius also apply to this range<br>7% Chance to convert Maps to Conqueror Maps<br>14% increased Pack size
+|stat1_id                         = map_can_only_damage_enemies_in_X_radius
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = map_supporter_map_to_conqueror_map_permyriad
+|stat2_min                        = 700
+|stat2_max                        = 700
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 14
+|stat3_max                        = 14
+}}

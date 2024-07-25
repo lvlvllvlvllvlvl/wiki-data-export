@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmFortifyOnMeleeHitChance1
+|mod_groups                       = AnimalCharmFortifyOnMeleeHitChance
+|domain                           = 35
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of the Champion
+|mod_type                         = AnimalCharmFortifyOnMeleeHitChance
+|stat_text                        = Melee [[Hit|Hits]] have (5-10)% chance to Fortify
+|stat1_id                         = chance_to_fortify_on_melee_hit_+%
+|stat1_min                        = 5
+|stat1_max                        = 10
+|spawn_weight1_tag                = dex_animal_charm
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = str_animal_charm
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

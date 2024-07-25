@@ -1,0 +1,23 @@
+{{Mod
+|id                               = AddedPhysicalDamageQuiver9
+|mod_groups                       = PhysicalDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 76
+|name                             = Flaring
+|mod_type                         = PhysicalDamage
+|stat_text                        = Adds (17-23) to (34-39) [[Physical Damage]] to [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_physical_damage
+|stat1_min                        = 17
+|stat1_max                        = 23
+|stat2_id                         = attack_maximum_added_physical_damage
+|stat2_min                        = 34
+|stat2_max                        = 39
+|spawn_weight1_tag                = quiver
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical_damage, damage, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

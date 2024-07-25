@@ -1,0 +1,23 @@
+{{Mod
+|id                               = ChaosResistCorruption
+|mod_groups                       = ChaosResistance
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = ChaosResistance
+|stat_text                        = +(2-4)% to [[Chaos Resistance]]
+|stat1_id                         = base_chaos_damage_resistance_%
+|stat1_min                        = 2
+|stat1_max                        = 4
+|spawn_weight1_tag                = fishing_rod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = weapon
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = jewel
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = chaos, resistance
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

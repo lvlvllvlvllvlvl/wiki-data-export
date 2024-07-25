@@ -1,0 +1,18 @@
+{{Mod
+|id                               = LocalManaLeechPermyriadEssence5
+|mod_groups                       = ManaLeech
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 58
+|name                             = Essences
+|mod_type                         = ManaLeechLocalPermyriad
+|stat_text                        = (0.2-0.4)% of Physical [[Attack Damage]] Leeched as [[Mana]]
+|stat1_id                         = local_mana_leech_from_physical_damage_permyriad
+|stat1_min                        = 20
+|stat1_max                        = 40
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = resource, mana, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

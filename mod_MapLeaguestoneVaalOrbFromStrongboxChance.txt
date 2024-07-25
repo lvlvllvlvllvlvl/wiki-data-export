@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapLeaguestoneVaalOrbFromStrongboxChance
+|mod_groups                       = MapLeaguestoneVaalOrbFromStrongboxChance
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 12
+|name                             = Ancient
+|mod_type                         = MapLeaguestoneVaalOrbFromStrongboxChance
+|stat_text                        = Strongboxes in next Area will have (30-70)% chance to contain an additional Vaal Orb
+|stat1_id                         = map_strongboxes_vaal_orb_drop_chance_%
+|stat1_min                        = 30
+|stat1_max                        = 70
+|spawn_weight1_tag                = ambush_leaguestone
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

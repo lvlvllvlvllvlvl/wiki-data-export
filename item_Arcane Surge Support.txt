@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Arcane Surge Support
 |class_id                                = Support Skill Gem
@@ -7,24 +7,17 @@
 |drop_level                              = 5
 |tags                                    = up_to_level_2_gem, up_to_level_8_gem, support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemArcaneSurge
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |intelligence_percent                    = 100
 |gem_tags                                = Arcane, Support, Spell, Duration
 |skill_id                                = SupportArcaneSurge
 |support_gem_letter                      = N
 |required_level                          = 1
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills deal 0.5% increased Spell Damage
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills deal (0.5-10)% increased Spell Damage
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = spell_damage_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Arcane Surge grants 0.6% increased Mana Regeneration rate
-|quality_type2_stat1_id                  = support_arcane_surge_mana_regeneration_rate_+%
-|quality_type2_stat1_value               = 600
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = Arcane Surge lasts 0.1 seconds
-|quality_type3_stat1_id                  = support_arcane_surge_base_duration_ms
-|quality_type3_stat1_value               = 100000
 |static_cost_multiplier                  = 130
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

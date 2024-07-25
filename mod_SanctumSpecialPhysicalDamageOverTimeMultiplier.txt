@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialPhysicalDamageOverTimeMultiplier
+|mod_groups                       = DamageOverTimeMultiplier
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Lacerating
+|mod_type                         = PhysicalDamageOverTimeMultiplier
+|stat_text                        = +(15-20)% to [[Physical Damage]] over Time Multiplier
+|stat1_id                         = physical_dot_multiplier_+
+|stat1_min                        = 15
+|stat1_max                        = 20
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = dot_multi, physical_damage, damage, physical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreePowerChargeOnKill
+|mod_groups                       = WeaponTreePowerChargeOnKill
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 30
+|mod_type                         = WeaponTreePowerChargeOnKill
+|stat_text                        = Gain a [[Power Charge]] on [[Kill]]<br>50% reduced [[Power Charge]] Duration
+|stat1_id                         = add_power_charge_on_kill_%_chance
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = power_charge_duration_+%
+|stat2_min                        = -50
+|stat2_max                        = -50
+|spawn_weight1_tag                = fishing_rod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 400
+}}

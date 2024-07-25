@@ -1,0 +1,21 @@
+{{Mod
+|id                               = TormentHauntedMonsterLibrarian
+|mod_groups                       = Torment
+|domain                           = 3
+|generation_type                  = 7
+|required_level                   = 1
+|name                             = Seditionist's Grip
+|mod_type                         = TormentHauntedMonsterLibrarian
+|stat_text                        = Monster drops (3-5) additional wisdom Scrolls (Hidden)<br>Monster drops (3-5) additional Portal Scrolls (Hidden)<br>Monster drops 1 additional Map (Hidden)
+|stat1_id                         = monster_drop_additional_wisdom_scrolls
+|stat1_min                        = 3
+|stat1_max                        = 5
+|stat2_id                         = monster_drop_additional_portal_scrolls
+|stat2_min                        = 3
+|stat2_max                        = 5
+|stat3_id                         = monster_drop_additional_map_items
+|stat3_min                        = 1
+|stat3_max                        = 1
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+}}

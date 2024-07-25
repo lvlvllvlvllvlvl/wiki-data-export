@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HeistLockpickLevel1_
+|mod_groups                       = HeistNPCSpecificJobLevel
+|domain                           = 23
+|generation_type                  = 1
+|required_level                   = 83
+|name                             = Lockpick's
+|mod_type                         = HeistLockpickLevel
+|stat_text                        = +1 to Lockpicking [[Level]] for Heists
+|stat1_id                         = heist_job_lockpicking_level_+
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = heist_equipment_lockpick
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 7
+}}

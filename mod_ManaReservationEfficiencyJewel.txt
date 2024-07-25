@@ -1,0 +1,18 @@
+{{Mod
+|id                               = ManaReservationEfficiencyJewel
+|mod_groups                       = ReducedManaReservationsCost
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Cerebral
+|mod_type                         = ManaReservationEfficiency
+|stat_text                        = (2-3)% increased [[Mana Reservation]] Efficiency of [[Skill|Skills]]
+|stat1_id                         = base_mana_reservation_efficiency_+%
+|stat1_min                        = 2
+|stat1_max                        = 3
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 250
+|tags                             = resource, mana
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

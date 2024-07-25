@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MapUberScarabCraftHarvest
+|mod_groups                       = MapUberScarabCraft
+|domain                           = 5
+|generation_type                  = 3
+|mod_type                         = MapUberScarabCraftHarvest
+|stat_text                        = Area contains The Sacred Grove<br>Harvested Plants in Area have 50% chance to spawn an additional Monster<br>Harvests in Area have 50% chance for the unchosen Crop to not wilt
+|stat1_id                         = map_harvest_league
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_chance_for_area_%_to_contain_harvest
+|stat2_min                        = 100
+|stat2_max                        = 100
+|stat3_id                         = map_harvest_seeds_%_chance_to_spawn_additional_monster
+|stat3_min                        = 50
+|stat3_max                        = 50
+|stat4_id                         = map_harvest_chance_for_other_plot_to_not_wither_%
+|stat4_min                        = 50
+|stat4_max                        = 50
+}}

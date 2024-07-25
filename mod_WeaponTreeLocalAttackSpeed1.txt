@@ -1,0 +1,18 @@
+{{Mod
+|id                               = WeaponTreeLocalAttackSpeed1
+|mod_groups                       = IncreasedAttackSpeed
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeLocalIncreasedAttackSpeed
+|stat_text                        = 8% increased [[Attack Speed]]
+|stat1_id                         = local_attack_speed_+%
+|stat1_min                        = 8
+|stat1_max                        = 8
+|spawn_weight1_tag                = ranged
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = weapon
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

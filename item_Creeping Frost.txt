@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Creeping Frost
 |class_id                                = Active Skill Gem
@@ -17,22 +17,11 @@
 |skill_id                                = ArcticBreath
 |cast_time                               = 0.6
 |required_level                          = 12
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Area of Effect
-|quality_type1_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% increased Skill Effect Duration
-|quality_type2_stat1_id                  = skill_effect_duration_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 10
-|quality_type3_stat_text                 = Fires an additional Projectile
-|quality_type3_stat1_id                  = number_of_additional_projectiles
-|quality_type3_stat1_value               = 50
-|quality_type4_weight                    = 50
-|quality_type4_stat_text                 = Chilling Area has 2% increased Movement Speed
-|quality_type4_stat1_id                  = chilling_area_movement_velocity_+%
-|quality_type4_stat1_value               = 2000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = +(0.01-0.2) metres to radius
+|quality_type1_breakpoints               = 10.0
+|quality_type1_stat1_id                  = active_skill_base_radius_+
+|quality_type1_stat1_value               = 100
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 6
 |static_damage_effectiveness             = 120
@@ -49,9 +38,13 @@
 |static_stat4_value                      = 5000
 |static_stat5_id                         = spell_damage_modifiers_apply_to_skill_dot
 |static_stat5_value                      = 1
-|static_stat6_id                         = arctic_breath_maximum_number_of_skulls_allowed
-|static_stat6_value                      = 10
-|stat_text                               = Deals (11-568) to (16-847) Cold Damage<br>Deals (18.4-2225.7) Base Cold Damage per second<br>Base duration is 5 seconds<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>Can have up to 10 Chilling Areas
+|static_stat6_id                         = active_skill_base_area_of_effect_radius
+|static_stat6_value                      = 15
+|static_stat7_id                         = active_skill_base_secondary_area_of_effect_radius
+|static_stat7_value                      = 18
+|static_stat8_id                         = arctic_breath_maximum_number_of_skulls_allowed
+|static_stat8_value                      = 10
+|stat_text                               = Deals (11-568) to (16-847) Cold Damage<br>Base duration is 5.00 seconds<br>Deals (18.4-2225.7) Base Cold Damage per second<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>Base radius is 1.5 metres<br>Base secondary radius is 1.8 metres<br>Can have up to 10 Chilling Areas
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_cost_amounts                     = 7
@@ -514,5 +507,4 @@
 |level20_experience                      = 342004647
 |level21_dexterity_requirement           = 70
 |level21_intelligence_requirement        = 100
-|inventory_icon                          = Creeping Frost
 }}

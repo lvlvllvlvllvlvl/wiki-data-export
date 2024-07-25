@@ -1,0 +1,20 @@
+{{Mod
+|id                               = FlaskIncreasedRecoverySpeed3_
+|mod_groups                       = FlaskRecoverySpeed
+|domain                           = 2
+|generation_type                  = 1
+|required_level                   = 41
+|name                             = Viscous
+|mod_type                         = FlaskIncreasedRecoverySpeed
+|stat_text                        = (53-58)% increased Recovery rate
+|stat1_id                         = local_flask_recovery_speed_+%
+|stat1_min                        = 53
+|stat1_max                        = 58
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 600
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

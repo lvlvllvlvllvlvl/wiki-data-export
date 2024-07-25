@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Focused Ballista Support
 |class_id                                = Support Skill Gem
@@ -7,24 +7,17 @@
 |drop_level                              = 31
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemFocusedBallista
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |dexterity_percent                       = 100
 |gem_tags                                = Projectile, Support, Totem
 |skill_id                                = SupportFocusedBallista
 |support_gem_letter                      = ^
 |required_level                          = 31
-|quality_type1_weight                    = 100
-|quality_type1_stat_text                 = 0.5% increased Totem Damage
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.5-10)% increased Totem Damage
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = totem_damage_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = Supported Skills have 0.5% increased Area of Effect
-|quality_type2_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = 0.5% increased Totem Life
-|quality_type3_stat1_id                  = totem_life_+%
-|quality_type3_stat1_value               = 500
 |static_cost_multiplier                  = 140
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Spectral Helix
 |class_id                                = Active Skill Gem
@@ -17,18 +17,11 @@
 |skill_id                                = SpectralHelix
 |cast_time                               = 1.0
 |required_level                          = 12
-|quality_type1_weight                    = 100
-|quality_type1_stat_text                 = 0.5% increased Attack Speed
-|quality_type1_stat1_id                  = attack_speed_+%
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Projectiles that have Pierced deal (0.5-10)% more Damage
+|quality_type1_breakpoints               = 2.0
+|quality_type1_stat1_id                  = projectile_damage_+%_final_if_pierced_enemy
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = 1% increased Projectile Speed
-|quality_type2_stat1_id                  = base_projectile_speed_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = Bounces up to 0.1 times<br>Modifiers to number of Projectiles instead apply to the number of Bounces
-|quality_type3_stat1_id                  = spectral_spiral_weapon_base_number_of_bounces
-|quality_type3_stat1_value               = 100
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 110
 |static_stat1_id                         = base_is_projectile
@@ -45,6 +38,8 @@
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_cost_amounts                     = 7
+|level1_damage_effectiveness             = 100
+|level1_damage_multiplier                = 100
 |level2                                  = True
 |level2_level_requirement                = 15
 |level2_cost_amounts                     = 7

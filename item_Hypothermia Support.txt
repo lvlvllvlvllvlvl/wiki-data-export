@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Hypothermia Support
 |class_id                                = Support Skill Gem
@@ -7,24 +7,16 @@
 |drop_level                              = 31
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemDamageAgainstChilled
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |dexterity_percent                       = 100
 |gem_tags                                = Cold, Support
 |skill_id                                = SupportDamageAgainstChilled
 |support_gem_letter                      = D
 |required_level                          = 31
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills have 1.5% increased Chill Duration on Enemies
-|quality_type1_stat1_id                  = chill_duration_+%
-|quality_type1_stat1_value               = 1500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Supported Skills have +1% chance to Freeze Enemies which are Chilled
-|quality_type2_stat1_id                  = additional_chance_to_freeze_chilled_enemies_%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = Enemies Frozen by Supported Skills have -0.2% to Cold Resistance
-|quality_type3_stat1_id                  = freeze_applies_cold_resistance_+
-|quality_type3_stat1_value               = -200
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills have +(1-20)% chance to Freeze Enemies which are Chilled
+|quality_type1_stat1_id                  = additional_chance_to_freeze_chilled_enemies_%
+|quality_type1_stat1_value               = 1000
 |static_cost_multiplier                  = 130
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

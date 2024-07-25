@@ -1,0 +1,28 @@
+{{Mod
+|id                               = V2SupportedByAccuracyCorrupted__
+|mod_groups                       = SupportedByAccuracy
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|granted_skill                    = SupportAdditionalAccuracy
+|mod_type                         = SupportedByAccuracy
+|stat_text                        = [[Item socket|Socketed]] Gems are supported by [[Additional Accuracy Support|Level 10 Additional Accuracy]]
+|stat1_id                         = local_display_socketed_gems_get_additional_accuracy_level
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = mace
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = axe
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = bow
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = staff
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = two_hand_weapon
+|spawn_weight5_value              = 1000
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = support, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

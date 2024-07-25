@@ -1,0 +1,24 @@
+{{Mod
+|id                               = DelveBodyArmourAuraEffect1_
+|mod_groups                       = AuraEffect
+|domain                           = 16
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Underground
+|mod_type                         = AuraEffect
+|stat_text                        = (20-25)% increased effect of Non-Curse Auras from your [[Skill|Skills]]
+|stat1_id                         = non_curse_aura_effect_+%
+|stat1_min                        = 20
+|stat1_max                        = 25
+|spawn_weight1_tag                = abyss_jewel
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = jewel
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = body_armour
+|spawn_weight3_value              = 2000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = aura
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

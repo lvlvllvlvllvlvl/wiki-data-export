@@ -1,0 +1,29 @@
+{{Mod
+|id                               = MapUberModMonsterDebuffSpeed
+|mod_groups                       = MapUberModMonsterDebuffSpeed
+|domain                           = 37
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Defiance
+|mod_type                         = MapUberModMonsterDebuffSpeed
+|stat_text                        = Debuffs on Monsters expire 100% faster
+|stat1_id                         = map_monster_debuff_time_passed_+%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = map_pack_size_+%
+|stat2_min                        = 7
+|stat2_max                        = 7
+|stat3_id                         = map_item_drop_quantity_+%
+|stat3_min                        = 31
+|stat3_max                        = 31
+|stat4_id                         = map_item_drop_rarity_+%
+|stat4_min                        = 16
+|stat4_max                        = 16
+|stat5_id                         = map_currency_drop_chance_+%_final_from_uber_mod
+|stat5_min                        = 109
+|stat5_max                        = 109
+|spawn_weight1_tag                = uber_tier_map
+|spawn_weight1_value              = 40
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

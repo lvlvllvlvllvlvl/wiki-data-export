@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeFireDamagePercentageDamageTakenAsFire3
+|mod_groups                       = FireDamagePercentage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 68
+|mod_type                         = WeaponTreeFireDamagePercentageDamageTakenAsFire
+|stat_text                        = 15% increased [[Fire Damage]]<br>3% of [[Physical Damage]] from [[Hit|Hits]] taken as [[Fire Damage]]
+|stat1_id                         = fire_damage_+%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = physical_damage_taken_%_as_fire
+|stat2_min                        = 3
+|stat2_max                        = 3
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

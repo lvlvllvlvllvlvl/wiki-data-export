@@ -1,0 +1,22 @@
+{{Mod
+|id                               = MapSupporterVaalEmpoweredChests
+|mod_groups                       = MapSupporterVaalEmpoweredChests
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|name                             = Vaalsmithed
+|mod_type                         = MapSupporterVaalEmpoweredChests
+|stat_text                        = Area contains 10 additional guarded Exquisite Vaal Vessels<br>3% Chance to convert Maps to Scarabs<br>16% increased Rarity of Items found in this Area<br>All Strongboxes in Area must be opened to claim Reward
+|stat1_id                         = map_spawn_additional_empowered_vaal_chests
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = map_supporter_map_to_scarab
+|stat2_min                        = 300
+|stat2_max                        = 300
+|stat3_id                         = map_item_drop_rarity_+%
+|stat3_min                        = 16
+|stat3_max                        = 16
+|stat4_id                         = map_reliquary_must_complete_strongboxes
+|stat4_min                        = 1
+|stat4_max                        = 1
+}}

@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmBannersNoReservation
+|mod_groups                       = AnimalCharmBannersNoReservation
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 45
+|name                             = Champion's
+|mod_type                         = AnimalCharmBannersNoReservation
+|stat_text                        = Banner [[Skill|Skills]] have no Reservation
+|stat1_id                         = banner_skills_reserve_no_mana
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = dex_animal_charm
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = str_animal_charm
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

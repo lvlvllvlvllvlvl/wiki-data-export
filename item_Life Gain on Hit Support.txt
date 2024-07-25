@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Life Gain on Hit Support
 |class_id                                = Support Skill Gem
@@ -7,24 +7,17 @@
 |drop_level                              = 8
 |tags                                    = up_to_level_8_gem, support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemLifeGainOnHit
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |strength_percent                        = 100
 |gem_tags                                = Attack, Support
 |skill_id                                = SupportLifeGainOnHit
 |support_gem_letter                      = h
 |required_level                          = 8
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5 Life gained per Enemy Hit with Supported Attacks
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.5-10) Life gained per Enemy Hit with Supported Attacks
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = base_life_gain_per_target
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Supported Skills deal 2% increased Damage when on Full Life
-|quality_type2_stat1_id                  = damage_+%_when_on_full_life
-|quality_type2_stat1_value               = 2000
-|quality_type3_weight                    = 10
-|quality_type3_stat_text                 = 0.1 Mana gained per Enemy Hit with Supported Attacks
-|quality_type3_stat1_id                  = mana_gain_per_target
-|quality_type3_stat1_value               = 100
 |static_cost_multiplier                  = 130
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

@@ -1,0 +1,31 @@
+{{Mod
+|id                               = JunMasterVeiledMinionDamageAndMinionMaximumLife1h
+|mod_groups                       = WeaponCasterDamagePrefix
+|domain                           = 28
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Chosen
+|mod_type                         = MinionDamageAndMinionMaximumLife
+|stat_text                        = [[Minion|Minions]] deal (34-38)% increased Damage<br>[[Minion|Minions]] have (34-38)% increased maximum [[Life]]
+|stat1_id                         = minion_damage_+%
+|stat1_min                        = 34
+|stat1_max                        = 38
+|stat2_id                         = minion_maximum_life_+%
+|stat2_min                        = 34
+|stat2_max                        = 38
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = wand
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = dagger
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = sceptre
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = weapon
+|spawn_weight5_value              = 400
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = resource, unveiled_mod, life, damage, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

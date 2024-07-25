@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Shrapnel Ballista
 |class_id                                = Active Skill Gem
@@ -16,22 +16,10 @@
 |skill_id                                = ShrapnelBallista
 |cast_time                               = 1.0
 |required_level                          = 4
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Projectile Speed
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (2-40)% increased Projectile Speed
 |quality_type1_stat1_id                  = base_projectile_speed_+%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 5
-|quality_type2_stat_text                 = Chains +0.1 Times
-|quality_type2_stat1_id                  = number_of_chains
-|quality_type2_stat1_value               = 100
-|quality_type3_weight                    = 20
-|quality_type3_stat_text                 = Projectiles Pierce 0.1 additional Targets
-|quality_type3_stat1_id                  = projectile_base_number_of_targets_to_pierce
-|quality_type3_stat1_value               = 100
-|quality_type4_weight                    = 100
-|quality_type4_stat_text                 = 0.5% increased Attack Speed
-|quality_type4_stat1_id                  = attack_speed_+%
-|quality_type4_stat1_value               = 500
+|quality_type1_stat1_value               = 2000
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 50
 |static_stat1_id                         = base_is_projectile
@@ -46,13 +34,15 @@
 |static_stat5_value                      = 1
 |static_stat6_id                         = base_totem_duration
 |static_stat6_value                      = 8000
-|static_stat7_id                         = base_number_of_additional_arrows
-|static_stat7_value                      = 2
-|static_stat8_id                         = is_totem
+|static_stat7_id                         = base_number_of_arrows
+|static_stat7_value                      = 3
+|static_stat8_id                         = quality_display_base_additional_arrows_is_gem
 |static_stat8_value                      = 1
-|static_stat9_id                         = is_ranged_attack_totem
+|static_stat9_id                         = is_totem
 |static_stat9_value                      = 1
-|stat_text                               = Totem lasts 8 seconds<br>+(2-3) to maximum number of Summoned Ballista Totems<br>(2-56) to (3-85) Added Attack Physical Damage<br>Fires 2 additional Arrows<br>Summons a Ballista Totem which uses this Skill
+|static_stat10_id                        = is_ranged_attack_totem
+|static_stat10_value                     = 1
+|stat_text                               = Totem lasts 8 seconds<br>+(2-3) to maximum number of Summoned Ballista Totems<br>(2-56) to (3-85) Added Attack Physical Damage<br>Fires 3 Arrows<br>Summons a Ballista Totem which uses this Skill
 |level1                                  = True
 |level1_level_requirement                = 4
 |level1_cost_amounts                     = 5

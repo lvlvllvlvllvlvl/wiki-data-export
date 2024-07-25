@@ -1,0 +1,24 @@
+{{Mod
+|id                               = AddedColdDamageEnhancedMod
+|mod_groups                       = ColdDamage, ConvertPhysicalToCold
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Topotante's
+|mod_type                         = ColdDamagePhysConvertedToCold
+|stat_text                        = Adds (5-7) to (10-12) [[Cold Damage]] to [[Attack|Attacks]]<br>25% of [[Physical Damage]] Converted to [[Cold Damage]]
+|stat1_id                         = attack_minimum_added_cold_damage
+|stat1_min                        = 5
+|stat1_max                        = 7
+|stat2_id                         = attack_maximum_added_cold_damage
+|stat2_min                        = 10
+|stat2_max                        = 12
+|stat3_id                         = base_physical_damage_%_to_convert_to_cold
+|stat3_min                        = 25
+|stat3_max                        = 25
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, cold, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

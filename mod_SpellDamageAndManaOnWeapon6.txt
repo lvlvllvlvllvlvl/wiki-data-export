@@ -1,0 +1,35 @@
+{{Mod
+|id                               = SpellDamageAndManaOnWeapon6
+|mod_groups                       = SpellDamageAndMana
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 58
+|name                             = Archmage's
+|mod_type                         = WeaponSpellDamageAndMana
+|stat_text                        = (30-34)% increased [[Spell Damage]]<br>+(38-41) to maximum [[Mana]]
+|stat1_id                         = spell_damage_+%
+|stat1_min                        = 30
+|stat1_max                        = 34
+|stat2_id                         = base_maximum_mana
+|stat2_min                        = 38
+|stat2_max                        = 41
+|spawn_weight1_tag                = attack_dagger
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = wand
+|spawn_weight2_value              = 200
+|spawn_weight3_tag                = sceptre
+|spawn_weight3_value              = 150
+|spawn_weight4_tag                = dagger
+|spawn_weight4_value              = 150
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|generation_weight1_tag           = has_caster_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_attack_mod
+|generation_weight2_value         = 50
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = caster_damage, resource, mana, damage, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

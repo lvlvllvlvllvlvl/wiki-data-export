@@ -1,8 +1,7 @@
 {{Monster
 |metadata_id                      = Metadata/Monsters/LeagueUltimatum/VaalCrawler/VaalCrawler
 |monster_type_id                  = VaalSpinnerUltimatum
-|mod_ids                          = MonsterNoMapDrops
-|tags                             = bludgeoning_weapon, construct, golem, is_unarmed, melee, mud_blood, no_final_gasp, no_forced_item_drops, no_fractured, not_dex, physical_affinity, slow_movement, stone_armour
+|tags                             = bludgeoning_weapon, construct, golem, is_unarmed, melee, mud_blood, not_dex, physical_affinity, slow_movement, spawner_cannot_spawn_as_rare, stone_armour
 |skill_ids                        = MeleeAtAnimationSpeed, MeleeAtAnimationSpeed2
 |name                             = Wrought Strider
 |size                             = 3
@@ -11,7 +10,7 @@
 |model_size_multiplier            = 1.0
 |experience_multiplier            = 1.4
 |damage_multiplier                = 0.8
-|health_multiplier                = 3.15
+|health_multiplier                = 2.1
 |critical_strike_chance           = 5.0
 |attack_speed                     = 1.5
 }}

@@ -1,0 +1,32 @@
+{{Mod
+|id                               = MapUberModMonsterAilments
+|mod_groups                       = MapUberModMonsterAilments
+|domain                           = 37
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Afflicting
+|mod_type                         = MapUberModMonsterAilments
+|stat_text                        = Monsters [[Ignite]], [[Freeze]] and [[Shock]] on [[Hit]]<br>All Monster Damage can [[Ignite]], [[Freeze]] and [[Shock]]
+|stat1_id                         = map_monsters_%_chance_to_inflict_status_ailments
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = map_pack_size_+%
+|stat2_min                        = 6
+|stat2_max                        = 6
+|stat3_id                         = map_item_drop_rarity_+%
+|stat3_min                        = 13
+|stat3_max                        = 13
+|stat4_id                         = map_item_drop_quantity_+%
+|stat4_min                        = 36
+|stat4_max                        = 36
+|stat5_id                         = map_monster_all_damage_can_ignite_freeze_shock
+|stat5_min                        = 1
+|stat5_max                        = 1
+|stat6_id                         = map_scarab_drop_chance_+%_final_from_uber_mod
+|stat6_min                        = 90
+|stat6_max                        = 90
+|spawn_weight1_tag                = uber_tier_map
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,21 @@
+{{Mod
+|id                               = SublimeVisionHaste
+|mod_groups                       = AuraBonus
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = SublimeVisionHaste
+|stat_text                        = 10% increased Action Speed while affected by [[Haste]]<br>Aura [[Skill|Skills]] other than [[Haste]] are Disabled<br>Auras from your [[Skill|Skills]] have (20-40)% increased Effect on you
+|stat1_id                         = action_speed_+%_while_affected_by_haste
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = your_auras_except_haste_are_disabled
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = aura_effect_on_self_from_your_skills_+%
+|stat3_min                        = 20
+|stat3_max                        = 40
+|tags                             = speed
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

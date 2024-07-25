@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapLeaguestoneShrinesDropCurrencyOnActivation3
+|mod_groups                       = MapLeaguestoneShrinesDropCurrencyOnActivation
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Lucrative
+|mod_type                         = MapLeaguestoneShrinesDropCurrencyOnActivation
+|stat_text                        = Shrines in the next Area will drop (10-15) Basic Currency Items when used
+|stat1_id                         = map_shrines_drop_x_currency_items_on_activation
+|stat1_min                        = 10
+|stat1_max                        = 15
+|spawn_weight1_tag                = domination_leaguestone
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

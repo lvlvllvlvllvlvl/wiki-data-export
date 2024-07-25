@@ -1,0 +1,25 @@
+{{Mod
+|id                               = LocalBaseEvasionRatingAndEnergyShield4
+|mod_groups                       = BaseLocalDefences
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 38
+|name                             = Cherub's
+|mod_type                         = LocalBaseEvasionRatingAndEnergyShield
+|stat_text                        = +(49-85) to [[Evasion Rating]]<br>+(23-28) to maximum [[Energy Shield]]
+|stat1_id                         = local_base_evasion_rating
+|stat1_min                        = 49
+|stat1_max                        = 85
+|stat2_id                         = local_energy_shield
+|stat2_min                        = 23
+|stat2_max                        = 28
+|spawn_weight1_tag                = dex_int_armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = str_dex_int_armour
+|spawn_weight2_value              = 166
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = defences, evasion, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HeistNPCChestDoubleLegion3
+|mod_groups                       = HeistNPCChestDoubleLegion
+|domain                           = 23
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Countless
+|mod_type                         = HeistNPCChestDoubleLegion
+|stat_text                        = Heist Chests have a (10-12)% chance to Duplicate contained Legion Splinters
+|stat1_id                         = heist_chests_double_legion_splinters_%
+|stat1_min                        = 10
+|stat1_max                        = 12
+|spawn_weight1_tag                = heist_equipment_reward
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

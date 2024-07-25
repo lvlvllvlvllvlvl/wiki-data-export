@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = Curses all targets in an area, reducing their accuracy and making them deal less damage.
+|active_skill_name                       = Enfeeble
+|skill_id                                = AzmeriFabricationEnfeeble
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 100
+|static_stat2_id                         = base_deal_no_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = infinite_skill_effect_duration
+|static_stat3_value                      = 1
+|static_stat4_id                         = accuracy_rating_+%
+|static_stat4_value                      = -60
+|static_stat5_id                         = enfeeble_damage_+%_final
+|static_stat5_value                      = -60
+|static_stat6_id                         = curse_apply_as_aura
+|static_stat6_value                      = 1
+|static_stat7_id                         = enfeeble_damage_+%_vs_rare_or_unique_final
+|static_stat7_value                      = -23
+|stat_text                               = Cursed enemies have 60% reduced Accuracy Rating<br>Cursed Normal or Magic enemies deal 60% less Damage<br>This Curse is Cast as an Aura applying to nearby Enemies<br>Cursed Rare or Unique enemies deal 23% less Damage
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

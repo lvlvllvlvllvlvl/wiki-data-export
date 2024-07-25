@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AddedLightningDamage7Inverted
+|mod_groups                       = LightningDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 52
+|name                             = Shocking
+|mod_type                         = SelfLightningDamageTaken
+|stat_text                        = Adds (2-5) to (47-50) [[Lightning Damage]] to [[Attack|Attacks]] against you
+|stat1_id                         = from_self_minimum_added_attack_lightning_damage_taken
+|stat1_min                        = 2
+|stat1_max                        = 5
+|stat2_id                         = from_self_maximum_added_attack_lightning_damage_taken
+|stat2_min                        = 47
+|stat2_max                        = 50
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, lightning, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

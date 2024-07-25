@@ -1,0 +1,25 @@
+{{Mod
+|id                               = WeaponTreeSpellDamage2hLowMana5
+|mod_groups                       = SpellDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 77
+|mod_type                         = WeaponTreeSpellDamageAndIncreasedMana
+|stat_text                        = 32% increased [[Spell Damage]]<br>20% increased maximum [[Mana]]
+|stat1_id                         = spell_damage_+%
+|stat1_min                        = 32
+|stat1_max                        = 32
+|stat2_id                         = maximum_mana_+%
+|stat2_min                        = 20
+|stat2_max                        = 20
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 187
+|spawn_weight3_tag                = attack_staff
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = staff
+|spawn_weight4_value              = 187
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+}}

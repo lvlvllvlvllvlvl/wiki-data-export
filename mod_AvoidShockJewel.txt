@@ -1,0 +1,18 @@
+{{Mod
+|id                               = AvoidShockJewel
+|mod_groups                       = ReducedShockChance
+|domain                           = 10
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = Insulating FIX ME
+|mod_type                         = AvoidShockForJewel
+|stat_text                        = (6-8)% chance to Avoid being [[Shock|Shocked]]
+|stat1_id                         = base_avoid_shock_%
+|stat1_min                        = 6
+|stat1_max                        = 8
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental, lightning, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

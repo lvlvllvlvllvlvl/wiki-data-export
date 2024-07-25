@@ -1,0 +1,21 @@
+{{Mod
+|id                               = MapAtlasBetrayalIntelligenceMaven
+|mod_groups                       = MapAtlasBetrayalIntelligence
+|domain                           = 11
+|generation_type                  = 1
+|required_level                   = 1
+|mod_type                         = MapAtlasBetrayalIntelligence
+|stat_text                        = 15 uses remaining<br>100% increased [[Intelligence]] gained from Immortal Syndicate targets encountered in your Maps
+|stat1_id                         = sextant_uses_remaining
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = map_betrayal_intelligence_+%
+|stat2_min                        = 100
+|stat2_max                        = 100
+|spawn_weight1_tag                = unique_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = no_monster_packs
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 50
+}}

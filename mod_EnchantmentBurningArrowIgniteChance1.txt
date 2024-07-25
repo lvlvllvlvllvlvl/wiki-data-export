@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentBurningArrowIgniteChance1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Burning Arrow Ignite Chance 1
+|mod_type                         = EnchantmentBurningArrowIgniteChance
+|stat_text                        = [[Burning Arrow]] has +20% chance to [[Ignite]]
+|stat1_id                         = burning_arrow_ignite_chance_%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, fire, attack, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

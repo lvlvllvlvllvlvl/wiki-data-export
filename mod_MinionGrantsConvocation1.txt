@@ -1,0 +1,22 @@
+{{Mod
+|id                               = MinionGrantsConvocation1
+|mod_groups                       = GrantedSkill
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of the Convocation
+|granted_skill                    = ConvocationNew
+|mod_type                         = MinionGrantsConvocation
+|stat_text                        = Grants [[Level]] 1 [[Convocation]] [[Skill]]
+|stat1_id                         = local_display_grants_skil_convocation_level
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = focus_can_roll_minion_modifiers
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = weapon_can_roll_minion_modifiers
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,12 +1,13 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Blood-filled Vessel
 |class_id                                = MapFragment
 |size_x                                  = 1
 |size_y                                  = 1
 |drop_level                              = 1
-|tags                                    = currency, default
+|tags                                    = scarab_grants_extra_content, currency, default
 |metadata_id                             = Metadata/Items/MapFragments/RitualFragment
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = RitualFragment
+|help_text                               = Can be used in a personal Map Device alongside a Map to add the monsters stored from a previous Ritual Altar to a Ritual Altar in that Map.
+|stack_size                              = 1
+|map_fragment_bonus1                     = RitualFragment
 }}

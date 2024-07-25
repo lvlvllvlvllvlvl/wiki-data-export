@@ -24,27 +24,9 @@ local data = {	{
 	},
 	{
 		name = "Character", 
-		id = "base_maximum_fire_damage_resistance_%", 
+		id = "base_maximum_all_resistances_%", 
 		value = 75, 
-		stat_text = "+75% to maximum [[Fire Resistance]]", 
-	},
-	{
-		name = "Character", 
-		id = "base_maximum_cold_damage_resistance_%", 
-		value = 75, 
-		stat_text = "+75% to maximum [[Cold Resistance]]", 
-	},
-	{
-		name = "Character", 
-		id = "base_maximum_lightning_damage_resistance_%", 
-		value = 75, 
-		stat_text = "+75% to maximum [[Lightning Resistance]]", 
-	},
-	{
-		name = "Character", 
-		id = "base_maximum_chaos_damage_resistance_%", 
-		value = 75, 
-		stat_text = "+75% to maximum [[Chaos Resistance]]", 
+		stat_text = "", 
 	},
 	{
 		name = "Character", 
@@ -158,13 +140,13 @@ local data = {	{
 		name = "Character", 
 		id = "base_critical_strike_multiplier", 
 		value = 150, 
-		stat_text = "Base [[Critical Strike]] Multiplier: 150", 
+		stat_text = "Base [[Critical Strike Multiplier]]: 150", 
 	},
 	{
 		name = "Character", 
 		id = "critical_ailment_dot_multiplier_+", 
 		value = 50, 
-		stat_text = "+50% to Damage over Time Multiplier for Ailments from Critical Strikes", 
+		stat_text = "+50% to Damage over Time Multiplier for Ailments from [[Critical strike|Critical Strikes]]", 
 	},
 	{
 		name = "Character", 
@@ -477,5 +459,11 @@ local data = {	{
 		id = "mtx_max_killcounter_stacks", 
 		value = 30000, 
 		stat_text = "", 
+	},
+	{
+		name = "Character", 
+		id = "soul_eater_maximum_stacks", 
+		value = 45, 
+		stat_text = "Maximum 45 Eaten Souls", 
 	}}
 return data

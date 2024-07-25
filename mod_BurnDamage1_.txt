@@ -1,0 +1,22 @@
+{{Mod
+|id                               = BurnDamage1_
+|mod_groups                       = BurnDamage
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 20
+|name                             = of Burning
+|mod_type                         = BurnDamage
+|stat_text                        = (26-30)% increased Burning Damage
+|stat1_id                         = burn_damage_+%
+|stat1_min                        = 26
+|stat1_max                        = 30
+|spawn_weight1_tag                = sceptre
+|spawn_weight1_value              = 1500
+|spawn_weight2_tag                = wand
+|spawn_weight2_value              = 1500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

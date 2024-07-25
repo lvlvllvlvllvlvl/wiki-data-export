@@ -1,5 +1,5 @@
 {{Skill
-|gem_description                         = Fires a slow-moving projectile that periodically damages enemies in an area around it with bolts of lightning.
+|gem_description                         = Fires a slow-moving projectile that damages each enemy in an area around it repeatedly with bolts of lightning.
 |active_skill_name                       = Ball Lightning
 |skill_id                                = ExileShadowBallLightning
 |cast_time                               = 0.8
@@ -18,7 +18,9 @@
 |static_stat3_value                      = -25
 |static_stat4_id                         = number_of_additional_projectiles
 |static_stat4_value                      = 2
-|stat_text                               = Deals (1-37) to (9-705) Lightning Damage<br>Skills Repeat an additional (2-4) Times<br>(50-90)% increased Cast Speed<br>25% reduced Projectile Speed<br>Fires 2 additional Projectiles
+|static_stat5_id                         = active_skill_base_area_of_effect_radius
+|static_stat5_value                      = 18
+|stat_text                               = Deals (1-37) to (9-705) Lightning Damage<br>Skills Repeat an additional (2-4) Times<br>(50-90)% increased Cast Speed<br>25% reduced Projectile Speed<br>Fires 2 additional Projectiles<br>Base radius is 1.8 metres
 |level1                                  = True
 |level1_level_requirement                = 3
 |level1_stat_text                        = Deals 1 to 9 Lightning Damage<br>Skills Repeat an additional 2 Times<br>50% increased Cast Speed

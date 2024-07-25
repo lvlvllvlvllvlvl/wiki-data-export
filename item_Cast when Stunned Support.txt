@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Cast when Stunned Support
 |class_id                                = Support Skill Gem
@@ -7,25 +7,17 @@
 |drop_level                              = 38
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemCastOnStunned
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |dexterity_percent                       = 40
 |intelligence_percent                    = 60
 |gem_tags                                = Support, Spell, Trigger
 |skill_id                                = SupportCastOnStunned
 |support_gem_letter                      = !
 |required_level                          = 38
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% chance to Trigger Supported Spells when you are Stunned, or<br>Block a Stunning Hit
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% chance to Trigger Supported Spells when you are Stunned, or<br>Block a Stunning Hit
 |quality_type1_stat1_id                  = cast_on_stunned_%
 |quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Supported Skills have 1% increased Skill Effect Duration
-|quality_type2_stat1_id                  = skill_effect_duration_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = Supported Skills deal 0.5% increased Damage
-|quality_type3_stat1_id                  = damage_+%
-|quality_type3_stat1_value               = 500
 |static_cost_multiplier                  = 100
 |static_stored_uses                      = 1
 |static_cooldown                         = 0.1
@@ -36,7 +28,7 @@
 |static_stat1_value                      = 1
 |static_stat2_id                         = spell_uncastable_if_triggerable
 |static_stat2_value                      = 1
-|stat_text                               = You cannot Cast Supported Triggerable Spells directly<br>(50-69)% chance to Trigger Supported Spells when you are Stunned, or<br>Block a Stunning Hit
+|stat_text                               = (50-69)% chance to Trigger Supported Spells when you are Stunned, or<br>Block a Stunning Hit
 |level1                                  = True
 |level1_level_requirement                = 38
 |level1_stat_text                        = 50% chance to Trigger Supported Spells when you are Stunned, or<br>Block a Stunning Hit

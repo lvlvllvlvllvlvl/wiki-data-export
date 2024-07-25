@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Ambush
 |class_id                                = Active Skill Gem
@@ -16,18 +16,10 @@
 |skill_id                                = Ambush
 |cast_time                               = 0.3
 |required_level                          = 34
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Cooldown Recovery Rate
-|quality_type1_stat1_id                  = base_cooldown_speed_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = 0.5% increased Skill Effect Duration
-|quality_type2_stat1_id                  = skill_effect_duration_+%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 20
-|quality_type3_stat_text                 = Exerted Attacks have +0.25% to Critical Strike Chance
-|quality_type3_stat1_id                  = ambush_additional_critical_strike_chance_permyriad
-|quality_type3_stat1_value               = 25000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Exerted Attacks have +(0.5-10)% to Critical Strike Chance
+|quality_type1_stat1_id                  = ambush_additional_critical_strike_chance_permyriad
+|quality_type1_stat1_value               = 50000
 |static_cost_types                       = Mana
 |static_stored_uses                      = 1
 |static_cooldown                         = 5
@@ -45,7 +37,7 @@
 |static_stat4_value                      = 3
 |static_stat5_id                         = ambush_additional_critical_strike_chance_permyriad
 |static_stat5_value                      = 2500
-|stat_text                               = Base duration is 1.5 seconds<br>Base secondary duration is 3 seconds<br>Buff is removed to Exert the next Melee Attack you perform<br>Attacks Exerted by this Skill cannot be Exerted by other Skills<br>Exerted Attacks have +25% to Critical Strike Chance<br>Exerted Attacks have +(100-138)% to Critical Strike Multiplier
+|stat_text                               = Base duration is 1.50 seconds<br>Base secondary duration is 3.00 seconds<br>Buff is removed to Exert the next Melee Attack you perform<br>Attacks Exerted by this Skill cannot be Exerted by other Skills<br>Exerted Attacks have +25% to Critical Strike Chance<br>Exerted Attacks have +(100-138)% to Critical Strike Multiplier
 |level1                                  = True
 |level1_level_requirement                = 34
 |level1_cost_amounts                     = 8

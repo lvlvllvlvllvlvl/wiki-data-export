@@ -1,0 +1,20 @@
+{{Mod
+|id                               = HellscapeUpsideChanceToAvoidStun3__
+|mod_groups                       = AvoidStun
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = AvoidStun
+|stat_text                        = (20-22)% chance to Avoid being Stunned
+|stat1_id                         = base_avoid_stun_%
+|stat1_min                        = 20
+|stat1_max                        = 22
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = gloves
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

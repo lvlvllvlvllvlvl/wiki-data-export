@@ -1,0 +1,21 @@
+{{Mod
+|id                               = SpellAddedFireDamageTwoHandEssence7_
+|mod_groups                       = SpellAddedElementalDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 82
+|name                             = Essences
+|mod_type                         = SpellAddedFireDamageTwoHand
+|stat_text                        = Adds (67-81) to (120-135) [[Fire Damage]] to [[Spell|Spells]]
+|stat1_id                         = spell_minimum_added_fire_damage
+|stat1_min                        = 67
+|stat1_max                        = 81
+|stat2_id                         = spell_maximum_added_fire_damage
+|stat2_min                        = 120
+|stat2_max                        = 135
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, fire, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,21 @@
+{{Mod
+|id                               = StrMasterPhysicalDamageCrafted1
+|mod_groups                       = PhysicalDamage
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 20
+|name                             = Glinting
+|mod_type                         = PhysicalDamage
+|stat_text                        = Adds (3-4) to (6-7) [[Physical Damage]] to [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_physical_damage
+|stat1_min                        = 3
+|stat1_max                        = 4
+|stat2_id                         = attack_maximum_added_physical_damage
+|stat2_min                        = 6
+|stat2_max                        = 7
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = physical_damage, damage, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

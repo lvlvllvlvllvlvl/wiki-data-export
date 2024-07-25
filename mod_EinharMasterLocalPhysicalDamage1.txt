@@ -1,0 +1,19 @@
+{{Mod
+|id                               = EinharMasterLocalPhysicalDamage1
+|mod_groups                       = PhysicalDamage
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 20
+|name                             = Upgraded
+|mod_type                         = LocalPhysicalDamage
+|stat_text                        = Adds (6-8) to (13-15) [[Physical Damage]]
+|stat1_id                         = local_minimum_added_physical_damage
+|stat1_min                        = 6
+|stat1_max                        = 8
+|stat2_id                         = local_maximum_added_physical_damage
+|stat2_min                        = 13
+|stat2_max                        = 15
+|tags                             = physical_damage, damage, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

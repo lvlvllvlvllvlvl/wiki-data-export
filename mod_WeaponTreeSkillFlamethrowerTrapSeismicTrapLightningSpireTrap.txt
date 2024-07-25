@@ -1,0 +1,37 @@
+{{Mod
+|id                               = WeaponTreeSkillFlamethrowerTrapSeismicTrapLightningSpireTrap
+|mod_groups                       = WeaponTreeSkillFlamethrowerTrapSeismicTrapLightningSpireTrap
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSkillFlamethrowerTrapSeismicTrapLightningSpireTrap
+|stat_text                        = Flamethrower, Seismic and Lightning Spire [[Trap]] have -1 Cooldown Use<br>Flamethrower, Seismic and Lightning Spire [[Trap]] have 30% increased Cooldown Recovery Rate
+|stat1_id                         = flamethrower_seismic_lightning_spire_trap_skill_added_cooldown_count
+|stat1_min                        = -1
+|stat1_max                        = -1
+|stat2_id                         = flamethrower_seismic_lightning_spire_trap_base_cooldown_speed_+%
+|stat2_min                        = 30
+|stat2_max                        = 30
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = attack_staff
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = attack_dagger
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = weapon_can_roll_minion_modifiers
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = wand
+|spawn_weight6_value              = 1000
+|spawn_weight7_tag                = staff
+|spawn_weight7_value              = 1000
+|spawn_weight8_tag                = dagger
+|spawn_weight8_value              = 1000
+|spawn_weight9_tag                = sceptre
+|spawn_weight9_value              = 1000
+|spawn_weight10_tag               = shield
+|spawn_weight10_value             = 500
+|spawn_weight11_tag               = default
+|spawn_weight11_value             = 0
+}}

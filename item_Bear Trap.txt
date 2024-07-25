@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Bear Trap
 |class_id                                = Active Skill Gem
@@ -15,27 +15,15 @@
 |skill_id                                = BearTrap
 |cast_time                               = 1.0
 |required_level                          = 4
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Physical Damage
-|quality_type1_stat1_id                  = physical_damage_+%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 2% increased Skill Effect Duration
-|quality_type2_stat1_id                  = skill_effect_duration_+%
-|quality_type2_stat1_value               = 2000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 0.5% increased Cooldown Recovery Rate
-|quality_type3_stat1_id                  = base_cooldown_speed_+%
-|quality_type3_stat1_value               = 500
-|quality_type4_weight                    = 20
-|quality_type4_stat_text                 = 1% chance to Impale Enemies on Hit
-|quality_type4_stat1_id                  = impale_on_hit_%_chance
-|quality_type4_stat1_value               = 1000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Base duration is (0.05-1) seconds
+|quality_type1_stat1_id                  = base_skill_effect_duration
+|quality_type1_stat1_value               = 50000
 |static_cost_types                       = Mana
 |static_stored_uses                      = 3
 |static_cooldown                         = 4
 |static_critical_strike_chance           = 6
-|static_damage_effectiveness             = 260
+|static_damage_effectiveness             = 300
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
 |static_duration                         = 3
@@ -51,17 +39,19 @@
 |static_stat5_value                      = 1
 |static_stat6_id                         = base_trap_duration
 |static_stat6_value                      = 4000
-|static_stat7_id                         = base_skill_effect_duration
-|static_stat7_value                      = 3000
-|static_stat8_id                         = is_trap
-|static_stat8_value                      = 1
-|static_stat9_id                         = no_movement_speed
+|static_stat7_id                         = quality_display_trap_duration_is_gem
+|static_stat7_value                      = 1
+|static_stat8_id                         = base_skill_effect_duration
+|static_stat8_value                      = 3000
+|static_stat9_id                         = is_trap
 |static_stat9_value                      = 1
-|static_stat10_id                        = bear_trap_damage_taken_+%_from_traps_and_mines
-|static_stat10_value                     = 25
-|static_stat11_id                        = bear_trap_movement_speed_+%_final
-|static_stat11_value                     = -80
-|stat_text                               = Deals (16-1447) to (22-2026) Physical Damage<br>Traps do not Trigger at the end of their Duration<br>Trap lasts 4 seconds<br>Base duration is 3 seconds<br>Locks enemy in place<br>Enemies take 25% increased Damage from Trap or Mine Hits<br>Enemies have 80% less Movement Speed when the Debuff starts
+|static_stat10_id                        = no_movement_speed
+|static_stat10_value                     = 1
+|static_stat11_id                        = bear_trap_damage_taken_+%_from_traps_and_mines
+|static_stat11_value                     = 25
+|static_stat12_id                        = bear_trap_movement_speed_+%_final
+|static_stat12_value                     = -80
+|stat_text                               = Deals (16-1447) to (22-2026) Physical Damage<br>Traps do not Trigger at the end of their Duration<br>Trap lasts 4 seconds<br>Base duration is 3.00 seconds<br>Locks enemy in place<br>Enemies take 25% increased Damage from Trap or Mine Hits<br>Enemies have 80% less Movement Speed when the Debuff starts
 |level1                                  = True
 |level1_level_requirement                = 4
 |level1_cost_amounts                     = 6
@@ -423,5 +413,4 @@
 |level20_dexterity_requirement           = 155
 |level20_experience                      = 342050139
 |level21_dexterity_requirement           = 159
-|inventory_icon                          = Bear Trap
 }}

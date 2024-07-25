@@ -1,0 +1,28 @@
+{{Mod
+|id                               = WeaponTreeMeleeGemLevel
+|mod_groups                       = IncreaseSpecificSocketedGemLevel
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 10
+|mod_type                         = WeaponTreeLocalIncreaseSocketedMeleeGemLevel
+|stat_text                        = +2 to [[Level]] of [[Item socket|Socketed]] Melee Gems
+|stat1_id                         = local_socketed_melee_gem_level_+
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = mace
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = sword
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = sceptre
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = axe
+|spawn_weight5_value              = 1000
+|spawn_weight6_tag                = dagger
+|spawn_weight6_value              = 1000
+|spawn_weight7_tag                = claw
+|spawn_weight7_value              = 1000
+|spawn_weight8_tag                = default
+|spawn_weight8_value              = 0
+}}

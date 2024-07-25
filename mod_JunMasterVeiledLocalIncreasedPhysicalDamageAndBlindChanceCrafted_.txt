@@ -1,0 +1,29 @@
+{{Mod
+|id                               = JunMasterVeiledLocalIncreasedPhysicalDamageAndBlindChanceCrafted_
+|mod_groups                       = LocalPhysicalDamagePercent
+|domain                           = 28
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Chosen
+|mod_type                         = LocalIncreasedPhysicalDamageAndBlindChance
+|stat_text                        = (120-139)% increased [[Physical Damage]]<br>(21-25)% chance to Blind Enemies on [[Hit|hit]]
+|stat1_id                         = local_physical_damage_+%
+|stat1_min                        = 120
+|stat1_max                        = 139
+|stat2_id                         = local_chance_to_blind_on_hit_%
+|stat2_min                        = 21
+|stat2_max                        = 25
+|spawn_weight1_tag                = wand
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = sceptre
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = dagger
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = weapon
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = physical_damage, unveiled_mod, damage, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MapAtlasClustersOfBeaconBarrelsMaven_
+|mod_groups                       = MapAtlasClustersOfBarrels
+|domain                           = 11
+|generation_type                  = 1
+|required_level                   = 1
+|mod_type                         = MapAtlasClustersOfBeaconBarrels
+|stat_text                        = 15 uses remaining<br>Your Maps contain 35 additional Clusters of Mysterious Barrels
+|stat1_id                         = sextant_uses_remaining
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = map_area_contains_x_additional_clusters_of_beacon_barrels
+|stat2_min                        = 35
+|stat2_max                        = 35
+|stat3_id                         = map_bonus_barrel_%
+|stat3_min                        = 10
+|stat3_max                        = 10
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 250
+}}

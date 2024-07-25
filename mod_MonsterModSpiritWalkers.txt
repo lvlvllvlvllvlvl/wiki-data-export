@@ -1,0 +1,21 @@
+{{Mod
+|id                               = MonsterModSpiritWalkers
+|mod_groups                       = MonsterModSpiritWalkers
+|domain                           = 3
+|generation_type                  = 1
+|required_level                   = 24
+|name                             = Spectral
+|mod_type                         = MonsterModSpiritWalkers
+|stat_text                        = 
+|stat1_id                         = monster_spirit_walker
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = not_part_of_pack
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = rare
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = no_spirit_walkers_archnemesis
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 1000
+}}

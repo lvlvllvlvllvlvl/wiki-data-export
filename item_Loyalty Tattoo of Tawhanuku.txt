@@ -1,0 +1,18 @@
+{{Item
+|rarity_id                               = normal
+|name                                    = Loyalty Tattoo of Tawhanuku
+|class_id                                = StackableCurrency
+|size_x                                  = 1
+|size_y                                  = 1
+|drop_level                              = 1
+|tags                                    = currency, default
+|metadata_id                             = Metadata/Items/Currency/AncestralTattooHinekora6
+|stack_size                              = 10
+|help_text                               = Right click this item then left click a valid Passive Skill. Maximum 50 Tattoos.
+|stack_size_currency_tab                 = 5000
+|tattoo_target                           = Small Intelligence
+|tattoo_tribe                            = 7
+|tattoo_limit                            = 1 Loyalty Tattoo
+|tattoo_skill_id                         = TriggerSummonedAncestorTawhanuku
+|description                             = Trigger [[Skill:TriggerSummonedAncestorTawhanuku|Summon Spirit of Tawhanuku]] [[Skill]] when [[Energy Shield]] Recharge starts while a Unique Enemy is [[In your presence|in your Presence]]
+}}

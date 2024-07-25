@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Pierce Support
 |class_id                                = Support Skill Gem
@@ -7,24 +7,17 @@
 |drop_level                              = 5
 |tags                                    = up_to_level_2_gem, up_to_level_8_gem, support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemPierce
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |dexterity_percent                       = 100
 |gem_tags                                = Support, Projectile
 |skill_id                                = SupportPierce
 |support_gem_letter                      = p
 |required_level                          = 4
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills deal 0.5% increased Projectile Damage
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills deal (0.5-10)% increased Projectile Damage
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = projectile_damage_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Projectiles from Supported Skills Pierce 0.1 additional Targets
-|quality_type2_stat1_id                  = projectile_base_number_of_targets_to_pierce
-|quality_type2_stat1_value               = 100
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = Projectiles from Supported Skills that have Pierced deal 2% increased Damage
-|quality_type3_stat1_id                  = projectile_damage_+%_if_pierced_enemy
-|quality_type3_stat1_value               = 2000
 |static_cost_multiplier                  = 120
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

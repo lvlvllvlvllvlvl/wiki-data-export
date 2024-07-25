@@ -1,0 +1,32 @@
+{{Mod
+|id                               = WeaponTreeSpellAddedLightningHighDamageTaken4
+|mod_groups                       = SpellAddedElementalDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 62
+|mod_type                         = WeaponTreeSpellAddedLightningDamageAndDamageTaken
+|stat_text                        = Adds 2 to 48 [[Lightning Damage]] to [[Spell|Spells]]<br>4% increased [[Lightning Damage]] taken
+|stat1_id                         = spell_minimum_added_lightning_damage
+|stat1_min                        = 2
+|stat1_max                        = 2
+|stat2_id                         = spell_maximum_added_lightning_damage
+|stat2_min                        = 48
+|stat2_max                        = 48
+|stat3_id                         = lightning_damage_taken_+%
+|stat3_min                        = 4
+|stat3_max                        = 4
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 125
+|spawn_weight3_tag                = attack_dagger
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = wand
+|spawn_weight4_value              = 125
+|spawn_weight5_tag                = sceptre
+|spawn_weight5_value              = 125
+|spawn_weight6_tag                = dagger
+|spawn_weight6_value              = 125
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+}}

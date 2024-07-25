@@ -1,0 +1,24 @@
+{{Mod
+|id                               = HellscapeUpsideLocalColdDamage2h2_____
+|mod_groups                       = ColdDamage
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 45
+|mod_type                         = LocalColdDamage
+|stat_text                        = Adds (30-35) to (53-61) [[Cold Damage]]
+|stat1_id                         = local_minimum_added_cold_damage
+|stat1_min                        = 30
+|stat1_max                        = 35
+|stat2_id                         = local_maximum_added_cold_damage
+|stat2_min                        = 53
+|stat2_max                        = 61
+|spawn_weight1_tag                = bow
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = two_hand_weapon
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental_damage, damage, elemental, cold, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

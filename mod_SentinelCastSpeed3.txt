@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SentinelCastSpeed3
+|mod_groups                       = IncreasedCastSpeed
+|domain                           = 30
+|generation_type                  = 1
+|required_level                   = 46
+|name                             = Swift
+|mod_type                         = IncreasedCastSpeed
+|stat_text                        = (36-45)% increased [[Cast Speed]]
+|stat1_id                         = base_cast_speed_+%
+|stat1_min                        = 36
+|stat1_max                        = 45
+|spawn_weight1_tag                = special_sentinel_mod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 1400
+|tags                             = caster, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

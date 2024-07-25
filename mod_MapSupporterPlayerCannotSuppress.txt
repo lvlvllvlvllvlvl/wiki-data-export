@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MapSupporterPlayerCannotSuppress
+|mod_groups                       = MapSupporterPlayerCannotSuppress
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSupporterPlayerCannotSuppress
+|stat_text                        = Players cannot Suppress [[Spell Damage]]<br>4% Chance to convert Maps to Scarabs<br>11% increased Pack size
+|stat1_id                         = map_player_cannot_suppress_spell_damage
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_supporter_map_to_scarab
+|stat2_min                        = 400
+|stat2_max                        = 400
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 11
+|stat3_max                        = 11
+}}

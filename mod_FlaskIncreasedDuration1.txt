@@ -1,0 +1,20 @@
+{{Mod
+|id                               = FlaskIncreasedDuration1
+|mod_groups                       = FlaskRecoverySpeed
+|domain                           = 2
+|generation_type                  = 3
+|required_level                   = 1
+|name                             = Saturated
+|mod_type                         = FlaskIncreasedDuration
+|stat_text                        = 33% reduced Recovery rate
+|stat1_id                         = local_flask_recovery_speed_+%
+|stat1_min                        = -33
+|stat1_max                        = -33
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 3000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

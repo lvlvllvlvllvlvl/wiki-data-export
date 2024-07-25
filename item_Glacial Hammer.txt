@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Glacial Hammer
 |class_id                                = Active Skill Gem
@@ -8,26 +8,19 @@
 |tags                                    = up_to_level_2_gem, up_to_level_8_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemGlacialHammer
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|vaal_variant_id                         = Metadata/Items/Gems/SkillGemVaalGlacialHammer
 |strength_percent                        = 100
 |gem_tags                                = Attack, Melee, Strike, Cold
-|gem_description                         = Hits enemies, converting some of your physical damage to cold damage. If an enemy is frozen and is on less than one third life, they will shatter when hit by Glacial Hammer. If striking three times in a row, the third strike will freeze enemies more easily. Requires a Mace, Sceptre or Staff.
+|gem_description                         = Hits enemies, converting some of your physical damage to cold damage. If a non-unique enemy is frozen and is on less than one third life, they will shatter when hit by Glacial Hammer. If striking three times in a row, the third strike will freeze enemies more easily. Requires a Mace, Sceptre or Staff.
 |active_skill_name                       = Glacial Hammer
 |item_class_id_restriction               = One Hand Mace, Sceptre, Two Hand Mace, Staff, Warstaff
 |skill_id                                = GlacialHammer
 |cast_time                               = 1.0
 |required_level                          = 1
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 2% increased Duration of Cold Ailments
-|quality_type1_stat1_id                  = cold_ailment_duration_+%
-|quality_type1_stat1_value               = 2000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 0.5% increased Attack Speed
-|quality_type2_stat1_id                  = attack_speed_+%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 1% increased Area of Effect
-|quality_type3_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type3_stat1_value               = 1000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Every third successive strike Freezes enemies as though dealing (5-100)% more Damage
+|quality_type1_stat1_id                  = glacial_hammer_third_hit_freeze_as_though_dealt_damage_+%
+|quality_type1_stat1_value               = 5000
 |static_cost_amounts                     = 5
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 100
@@ -35,15 +28,17 @@
 |static_stat1_value                      = 1
 |static_stat2_id                         = glacial_hammer_shatter_frozen_enemies_at_33%_life
 |static_stat2_value                      = 1
-|static_stat3_id                         = base_chance_to_freeze_%
-|static_stat3_value                      = 25
-|static_stat4_id                         = skill_physical_damage_%_to_convert_to_cold
-|static_stat4_value                      = 100
-|static_stat5_id                         = melee_range_+
-|static_stat5_value                      = 2
-|static_stat6_id                         = cold_ailment_duration_+%
-|static_stat6_value                      = 35
-|stat_text                               = 25% chance to Freeze enemies<br>100% of Physical Damage Converted to Cold Damage<br>Every third successive strike Freezes enemies as though dealing (200-390)% more Damage<br>+2 to Melee Strike Range<br>35% increased Duration of Cold Ailments<br>(10-29)% increased Effect of Cold Ailments<br>Adds (2-75) to (3-113) Cold Damage against Chilled Enemies
+|static_stat3_id                         = quality_display_glacial_hammer_is_gem
+|static_stat3_value                      = 1
+|static_stat4_id                         = base_chance_to_freeze_%
+|static_stat4_value                      = 25
+|static_stat5_id                         = skill_physical_damage_%_to_convert_to_cold
+|static_stat5_value                      = 100
+|static_stat6_id                         = melee_range_+
+|static_stat6_value                      = 2
+|static_stat7_id                         = cold_ailment_duration_+%
+|static_stat7_value                      = 35
+|stat_text                               = 25% chance to Freeze enemies<br>100% of Physical Damage Converted to Cold Damage<br>Every third successive strike Freezes enemies as though dealing (200-390)% more Damage<br>+0.2 metres to Melee Strike Range<br>35% increased Duration of Cold Ailments<br>(10-29)% increased Effect of Cold Ailments<br>Adds (2-75) to (3-113) Cold Damage against Chilled Enemies
 |level1                                  = True
 |level1_level_requirement                = 1
 |level1_damage_effectiveness             = 165
@@ -605,5 +600,4 @@
 |level20_strength_requirement            = 155
 |level20_experience                      = 342051651
 |level21_strength_requirement            = 159
-|inventory_icon                          = Glacial Hammer
 }}

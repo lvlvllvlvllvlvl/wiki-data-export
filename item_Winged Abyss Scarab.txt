@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Winged Abyss Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = The Abyssals creep forth by night and by storm. Their eons underground were not<br>a respite, but an amassing, and now they number beyond comprehension.
 |drop_level                              = 68
-|tags                                    = jewelled_scarab, default
+|tags                                    = scarab, abyss_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabAbyss4
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabAbyss4
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = Area contains 2 additional Abysses<br>Abysses in Area spawn 50% increased Monsters<br>Abysses in Area that do not lead to an Abyssal Depths lead to a Stygian Spire
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabAbyss4
 }}

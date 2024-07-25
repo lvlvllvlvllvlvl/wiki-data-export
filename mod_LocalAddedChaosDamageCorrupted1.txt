@@ -1,0 +1,22 @@
+{{Mod
+|id                               = LocalAddedChaosDamageCorrupted1
+|mod_groups                       = LocalChaosDamage
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = LocalChaosDamage
+|stat_text                        = Adds (1-2) to (3-5) [[Chaos Damage]]
+|stat1_id                         = local_minimum_added_chaos_damage
+|stat1_min                        = 1
+|stat1_max                        = 2
+|stat2_id                         = local_maximum_added_chaos_damage
+|stat2_min                        = 3
+|stat2_max                        = 5
+|spawn_weight1_tag                = weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = chaos_damage, damage, chaos, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

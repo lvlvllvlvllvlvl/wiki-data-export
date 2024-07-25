@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Gilded Shaper Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = Qianga of the Stars, Deliverer of the Sealing Blade to the Watchers, go now, and<br>let your half-dreamt life be troubled by nightmares of achromic hunger no more.
 |drop_level                              = 68
-|tags                                    = gilded_scarab, default
+|tags                                    = scarab, influence_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabShaperRares3
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabShaperRares3
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = Adds Shaper Influence outcome to Map Area<br>90% more Rare Shaper Items found in Area
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabShaperRares3
 }}

@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Physical to Lightning Support
 |class_id                                = Support Skill Gem
@@ -7,27 +7,18 @@
 |drop_level                              = 18
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemPhysicalToLightning
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |strength_percent                        = 40
 |intelligence_percent                    = 60
 |gem_tags                                = Lightning, Physical, Support
 |skill_id                                = SupportPhysicalToLightning
 |support_gem_letter                      = x
 |required_level                          = 18
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills deal 0.5% increased Physical Damage<br>Supported Skills deal 0.5% increased Lightning Damage
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills deal (0.5-10)% increased Physical Damage
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = physical_damage_+%
 |quality_type1_stat1_value               = 500
-|quality_type1_stat2_id                  = lightning_damage_+%
-|quality_type1_stat2_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Supported Skills have 0.5% of Physical Damage Converted to Lightning Damage
-|quality_type2_stat1_id                  = skill_physical_damage_%_to_convert_to_lightning
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 20
-|quality_type3_stat_text                 = Enemies Shocked by Supported Skills take 0.5% increased Physical Damage
-|quality_type3_stat1_id                  = enemies_you_shock_take_%_increased_physical_damage
-|quality_type3_stat1_value               = 500
 |static_cost_multiplier                  = 120
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

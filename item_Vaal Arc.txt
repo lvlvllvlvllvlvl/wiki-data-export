@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vaal Arc
 |class_id                                = Active Skill Gem
@@ -8,22 +8,25 @@
 |tags                                    = vaal_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalArc
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |intelligence_percent                    = 100
 |gem_tags                                = Spell, Chaining, Vaal, Lightning, Duration
-|gem_description                         = A shocking arc of lightning stretches from the caster to a targeted enemy and chains to other nearby enemies. Each time the beam chains it will also chain simultaneously to a second enemy, but no enemy can be hit twice by the beams. Also grants a buff making you lucky when damaging enemies with Arc for a short duration.
+|secondary_skill_id                      = Arc
+|gem_description                         = A shocking arc of lightning reaches from the caster to a targeted enemy and chains to other enemies. Each time the arc chains from an enemy, it will do so simultaneously to two further enemies, but never to enemies that have already been hit by any of these chains. Also grants a buff making your Arc damage lucky for a short duration.
 |active_skill_name                       = Vaal Arc
 |skill_id                                = VaalArcChain
 |cast_time                               = 0.7
 |required_level                          = 12
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1.5% increased Duration of Lightning Ailments
-|quality_type1_stat1_id                  = lightning_ailment_duration_+%
-|quality_type1_stat1_value               = 1500
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Chains +(0.05-1) Times
+|quality_type1_breakpoints               = 20.0
+|quality_type1_stat1_id                  = number_of_chains
+|quality_type1_stat1_value               = 50
 |static_vaal_souls_requirement           = 25
 |static_vaal_stored_uses                 = 1
 |static_vaal_soul_gain_prevention_time   = 2
-|static_critical_strike_chance           = 5
-|static_damage_effectiveness             = 180
+|static_critical_strike_chance           = 6
+|static_damage_effectiveness             = 220
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
 |static_duration                         = 4
@@ -43,7 +46,7 @@
 |static_stat7_value                      = 15
 |static_stat8_id                         = lightning_ailment_effect_+%
 |static_stat8_value                      = 100
-|stat_text                               = Deals (38-924) to (64-1539) Lightning Damage<br>100% increased Duration of Lightning Ailments<br>Base duration is 4 seconds<br>100% chance to Shock enemies<br>Chains +(5-9) Times<br>15% more Damage for each remaining Chain<br>100% increased Effect of Lightning Ailments
+|stat_text                               = Deals (38-924) to (64-1539) Lightning Damage<br>100% increased Duration of Lightning Ailments<br>Base duration is 4.00 seconds<br>100% chance to Shock enemies<br>Chains +(5-9) Times<br>15% more Damage with Hits and Ailments for each remaining Chain<br>100% increased Effect of Lightning Ailments
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_stat_text                        = Deals 38 to 64 Lightning Damage<br>Chains +5 Times

@@ -1,10 +1,10 @@
 {{Passive skill
 |id                                  = atlas_map_drops_6_
 |int_id                              = 13284
-|name                                = Map Drop Duplication
+|name                                = Map Modifier Effect
 |is_atlas_passive                    = True
-|icon                                = MapDuplication (AtlasTrees)
-|stat1_id                            = map_dropped_maps_are_duplicated_chance_permillage
-|stat1_value                         = 5
-|stat_text                           = 0.5% chance for Map Drops to be Duplicated
+|icon                                = ModifierTier (AtlasTrees)
+|stat1_id                            = map_mod_effect_+%_for_non_unique_maps
+|stat1_value                         = 2
+|stat_text                           = 2% increased effect of Explicit Modifiers on your Maps
 }}

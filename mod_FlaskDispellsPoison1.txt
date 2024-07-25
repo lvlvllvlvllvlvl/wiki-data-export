@@ -1,0 +1,18 @@
+{{Mod
+|id                               = FlaskDispellsPoison1
+|mod_groups                       = FlaskDispellPoison
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 16
+|name                             = of Curing
+|mod_type                         = FlaskDispellsPoison
+|stat_text                        = Grants Immunity to [[Poison]] for 4 seconds if used while [[Poison|Poisoned]]
+|stat1_id                         = local_flask_poison_immunity_if_poisoned
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = flask, poison, chaos, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,15 @@
+{{Mod
+|id                               = EnemiesExplodeOnDeathUniqueTwoHandMace7
+|mod_groups                       = EnemiesExplodeOnDeath
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = EnemiesExplodeOnDeath
+|stat_text                        = Enemies Killed with [[Attack]] or [[Spell]] [[Hit|Hits]] Explode, dealing 10% of their [[Life]] as [[Fire Damage]]
+|stat1_id                         = explode_on_kill_%_fire_damage_to_deal
+|stat1_min                        = 10
+|stat1_max                        = 10
+|tags                             = elemental_damage, damage, elemental, fire
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

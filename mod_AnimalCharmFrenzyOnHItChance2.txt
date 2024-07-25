@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmFrenzyOnHItChance2
+|mod_groups                       = AnimalCharmFrenzyOnHItChance
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 72
+|name                             = Raider's
+|mod_type                         = AnimalCharmFrenzyOnHItChance
+|stat_text                        = (6-8)% chance to gain a [[Frenzy Charge]] on [[Hit]]
+|stat1_id                         = add_frenzy_charge_on_skill_hit_%
+|stat1_min                        = 6
+|stat1_max                        = 8
+|spawn_weight1_tag                = dex_animal_charm
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

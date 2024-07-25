@@ -1,0 +1,18 @@
+{{Mod
+|id                               = ChestFireStorm
+|mod_groups                       = ChestDelayedSkill
+|domain                           = 4
+|generation_type                  = 1
+|required_level                   = 10
+|name                             = Scorched
+|mod_type                         = ChestFireStorm
+|stat_text                        = Casts [[Firestorm]]<br>Chest plays warning sound (Hidden)
+|stat1_id                         = chest_display_fire_storm
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = chest_play_warning_sound
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+}}

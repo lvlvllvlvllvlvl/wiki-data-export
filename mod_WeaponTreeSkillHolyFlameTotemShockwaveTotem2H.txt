@@ -1,0 +1,32 @@
+{{Mod
+|id                               = WeaponTreeSkillHolyFlameTotemShockwaveTotem2H
+|mod_groups                       = WeaponTreeSkillHolyFlameTotemShockwaveTotem
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSkillHolyFlameTotemShockwaveTotem
+|stat_text                        = Holy [[Flame Totem]] and [[Shockwave Totem]] gain 60% of [[Physical Damage]] as Extra [[Fire Damage]] when Cast by a [[Totem]] linked to by [[Searing Bond]]
+|stat1_id                         = holy_and_shockwave_totem_have_physical_damage_%_to_add_as_fire_damage_when_linked_by_searing_bond
+|stat1_min                        = 60
+|stat1_max                        = 60
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = attack_staff
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = attack_dagger
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = weapon_can_roll_minion_modifiers
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = wand
+|spawn_weight6_value              = 1000
+|spawn_weight7_tag                = staff
+|spawn_weight7_value              = 1000
+|spawn_weight8_tag                = dagger
+|spawn_weight8_value              = 1000
+|spawn_weight9_tag                = sceptre
+|spawn_weight9_value              = 1000
+|spawn_weight10_tag               = default
+|spawn_weight10_value             = 0
+}}

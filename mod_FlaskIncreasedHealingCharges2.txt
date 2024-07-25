@@ -1,0 +1,23 @@
+{{Mod
+|id                               = FlaskIncreasedHealingCharges2
+|mod_groups                       = FlaskIncreasedHealingCharges
+|domain                           = 2
+|generation_type                  = 1
+|required_level                   = 28
+|name                             = Dolomite
+|mod_type                         = FlaskIncreasedHealingCharges
+|stat_text                        = (27-32)% increased Amount Recovered<br>(20-25)% increased [[Charge|Charges]] per use
+|stat1_id                         = local_flask_amount_to_recover_+%
+|stat1_min                        = 27
+|stat1_max                        = 32
+|stat2_id                         = local_charges_used_+%
+|stat2_min                        = 20
+|stat2_max                        = 25
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 600
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

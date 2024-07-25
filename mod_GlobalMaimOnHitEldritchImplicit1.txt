@@ -1,0 +1,21 @@
+{{Mod
+|id                               = GlobalMaimOnHitEldritchImplicit1
+|mod_groups                       = GlobalMaimOnHit
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|mod_type                         = GlobalMaimOnHit
+|stat_text                        = [[Attack|Attacks]] have 15% chance to Maim on [[Hit]]
+|stat1_id                         = maim_on_hit_%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = no_tier_6_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = gloves
+|spawn_weight2_value              = 600
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

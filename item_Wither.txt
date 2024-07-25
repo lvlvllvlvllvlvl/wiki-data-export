@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Wither
 |class_id                                = Active Skill Gem
@@ -15,18 +15,10 @@
 |skill_id                                = Wither
 |cast_time                               = 0.28
 |required_level                          = 10
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Skill Effect Duration
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% increased Skill Effect Duration
 |quality_type1_stat1_id                  = skill_effect_duration_+%
 |quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Hindered Enemies deal 0.2% reduced Chaos Damage
-|quality_type2_stat1_id                  = hinder_enemy_chaos_damage_+%
-|quality_type2_stat1_value               = -200
-|quality_type3_weight                    = 20
-|quality_type3_stat_text                 = 5% chance to apply an additional Withered Debuff if you Cast this Spell yourself
-|quality_type3_stat1_id                  = wither_chance_to_apply_another_stack_if_hand_cast_%
-|quality_type3_stat1_value               = 5000
 |static_cost_types                       = Mana
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
@@ -38,7 +30,7 @@
 |static_stat2_value                      = 500
 |static_stat3_id                         = chaos_damage_taken_+%
 |static_stat3_value                      = 6
-|stat_text                               = Withered lasts 2 seconds<br>Base duration is 0.5 seconds<br>(0-19)% increased Area of Effect<br>(30-36)% reduced Movement Speed<br>6% increased Chaos Damage taken
+|stat_text                               = Withered lasts 2 seconds<br>Base duration is 0.50 seconds<br>(0-19)% increased Area of Effect<br>(30-36)% reduced Movement Speed<br>6% increased Chaos Damage taken
 |level1                                  = True
 |level1_level_requirement                = 10
 |level1_cost_amounts                     = 3

@@ -1,0 +1,18 @@
+{{Mod
+|id                               = HardModeTangledAltarUpsidePlayerIncreasedRarity
+|mod_groups                       = TangledAltarUpsidePlayerIncreasedRarity
+|domain                           = 29
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = TangledAltarUpsidePlayerIncreasedRarity
+|stat_text                        = (5-10)% increased Rarity of Items found in this Area
+|stat1_id                         = map_item_drop_rarity_+%
+|stat1_min                        = 5
+|stat1_max                        = 10
+|spawn_weight1_tag                = primordial_altar_downside
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = tangle_altar
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

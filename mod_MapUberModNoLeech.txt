@@ -1,0 +1,26 @@
+{{Mod
+|id                               = MapUberModNoLeech
+|mod_groups                       = MapMonsterLifeLeechImmunity
+|domain                           = 37
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Congealment
+|mod_type                         = MapUberModNoLeech
+|stat_text                        = Monsters cannot be Leeched from
+|stat1_id                         = map_monsters_cannot_be_leeched_from
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_pack_size_+%
+|stat2_min                        = 6
+|stat2_max                        = 6
+|stat3_id                         = map_item_drop_rarity_+%
+|stat3_min                        = 52
+|stat3_max                        = 52
+|stat4_id                         = map_item_drop_quantity_+%
+|stat4_min                        = 20
+|stat4_max                        = 20
+|spawn_weight1_tag                = uber_tier_map
+|spawn_weight1_value              = 30
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

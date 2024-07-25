@@ -1,0 +1,19 @@
+{{Mod
+|id                               = TinctureManaOnKill3
+|mod_groups                       = ManaGainedOnWeaponKill
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of Siphoning
+|mod_type                         = ManaGainedOnWeaponKill
+|stat_text                        = Gain (31-40) [[Mana]] per Enemy Killed
+|stat1_id                         = base_mana_gained_on_weapon_kill
+|stat1_min                        = 31
+|stat1_max                        = 40
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

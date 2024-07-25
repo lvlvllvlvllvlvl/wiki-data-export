@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmChanceFor150%AreaDamage1
+|mod_groups                       = AnimalCharmChanceFor150%AreaDamage
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Saboteur's
+|mod_type                         = AnimalCharmChanceFor150%AreaDamage
+|stat_text                        = [[Hit|Hits]] have (5-6)% chance to deal 50% more Area Damage
+|stat1_id                         = %_chance_to_deal_150%_area_damage_+%_final
+|stat1_min                        = 5
+|stat1_max                        = 6
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = dex_animal_charm
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

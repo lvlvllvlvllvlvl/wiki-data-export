@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapSilverCoinMonstersDropAdditionalCurrencyItems3
+|mod_groups                       = MapSilverCoinMonstersDropAdditionalCurrencyItems
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Lucrative
+|mod_type                         = MapSilverCoinMonstersDropAdditionalCurrencyItems
+|stat_text                        = Monsters with Silver Coins in next Area drop 5 additional Basic Currency Items
+|stat1_id                         = map_monsters_with_silver_coins_drop_x_additional_currency_items
+|stat1_min                        = 5
+|stat1_max                        = 5
+|spawn_weight1_tag                = prophecy_leaguestone
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

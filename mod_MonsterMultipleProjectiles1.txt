@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MonsterMultipleProjectiles1
+|mod_groups                       = MonsterMultipleProjectile
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|name                             = Splitting
+|mod_type                         = MonsterMultipleProjectile
+|stat_text                        = [[Skill|Skills]] fire 2 additional Projectiles (Hidden)
+|stat1_id                         = number_of_additional_projectiles
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = ranged
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = Jump through the air, damaging and knocking back enemies with your weapon where you land. Enemies you would land on are pushed out of the way. Requires an Axe, Mace, Sceptre, Sword or Staff. Cannot be supported by Multistrike.
+|active_skill_name                       = Leap Slam
+|item_class_id_restriction               = One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff
+|skill_id                                = AzmeriGolemLeapSlam
+|cast_time                               = 2.33
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 7
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = action_attack_or_cast_time_uses_animation_length
+|static_stat1_value                      = 1
+|static_stat2_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat2_value                      = 75
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = active_skill_damage_+%_final
+|static_stat4_value                      = 100
+|static_stat5_id                         = active_skill_base_area_of_effect_radius
+|static_stat5_value                      = 15
+|stat_text                               = Deals 100% more Damage<br>Base radius is 1.5 metres
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

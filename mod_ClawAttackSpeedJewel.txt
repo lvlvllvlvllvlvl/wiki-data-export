@@ -1,0 +1,26 @@
+{{Mod
+|id                               = ClawAttackSpeedJewel
+|mod_groups                       = SpecificWeaponSpeed
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Ripping
+|mod_type                         = ClawAttackSpeedForJewel
+|stat_text                        = (6-8)% increased [[Attack Speed]] with [[Claw|Claws]]
+|stat1_id                         = claw_attack_speed_+%
+|stat1_min                        = 6
+|stat1_max                        = 8
+|spawn_weight1_tag                = two_handed_mod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = claw
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = specific_weapon
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = not_dex
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 500
+|tags                             = attack, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,24 @@
+{{Mod
+|id                               = CleansingAltarDownsideBossPhysToAddAsChaos
+|mod_groups                       = CleansingAltarDownsideBossPhysToAddAsChaos
+|domain                           = 29
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = CleansingAltarDownsideBossPhysToAddAsChaos
+|stat_text                        = Gain (70-130)% of [[Physical Damage]] as Extra [[Chaos Damage]]<br>All Damage from [[Hit|Hits]] can [[Poison]]<br>[[Poison]] on [[Hit]]
+|stat1_id                         = physical_damage_%_to_add_as_chaos
+|stat1_min                        = 70
+|stat1_max                        = 130
+|stat2_id                         = all_damage_can_poison
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = global_poison_on_hit
+|stat3_min                        = 1
+|stat3_max                        = 1
+|spawn_weight1_tag                = primordial_altar_upside
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = cleansing_fire_altar
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

@@ -1,0 +1,35 @@
+{{Mod
+|id                               = MonsterModSoulConduit
+|mod_groups                       = MonsterModSoulConduit
+|domain                           = 3
+|generation_type                  = 1
+|required_level                   = 24
+|name                             = Soul Conduit
+|mod_type                         = MonsterModSoulConduit
+|stat_text                        = Corpse can not be destroyed (Hidden)<br>Can not be dominated (Hidden)
+|stat1_id                         = monster_raises_after_death
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = corpse_cannot_be_destroyed
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = cannot_be_dominated
+|stat3_min                        = 1
+|stat3_max                        = 1
+|spawn_weight1_tag                = no_soul_conduit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = incursion_monster
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = abyssal
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = rare_minion
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = unusable_corpse
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = legion_monster
+|spawn_weight6_value              = 0
+|spawn_weight7_tag                = rare
+|spawn_weight7_value              = 1000
+|spawn_weight8_tag                = default
+|spawn_weight8_value              = 0
+}}

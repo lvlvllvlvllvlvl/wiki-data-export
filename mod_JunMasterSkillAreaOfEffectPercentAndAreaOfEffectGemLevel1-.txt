@@ -1,0 +1,25 @@
+{{Mod
+|id                               = JunMasterSkillAreaOfEffectPercentAndAreaOfEffectGemLevel1-
+|mod_groups                       = SkillAreaOfEffectPercentAndAreaOfEffectGemLevel
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Chosen
+|mod_type                         = SkillAreaOfEffectPercentAndAreaOfEffectGemLevel
+|stat_text                        = (8-10)% increased Area of Effect<br>+1 to [[Level]] of [[Item socket|Socketed]] AoE Gems
+|stat1_id                         = base_skill_area_of_effect_+%
+|stat1_min                        = 8
+|stat1_max                        = 10
+|stat2_id                         = local_socketed_area_of_effect_gem_level_+
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = gloves
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = unveiled_mod, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

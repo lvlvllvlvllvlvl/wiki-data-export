@@ -1,4 +1,5 @@
 {{Skill
+|gem_description                         = Supports melee attack skills. Those skills will be used by Mirage Warriors summoned by General's Cry. Supported skills cannot be supported by Multistrike.
 |skill_id                                = GeneralsCrySupport
 |required_level                          = 24
 |static_cost_multiplier                  = 100
@@ -15,7 +16,7 @@
 |static_stat4_value                      = 1
 |static_stat5_id                         = triggered_by_spiritual_cry
 |static_stat5_value                      = 1
-|stat_text                               = Supported Strike Skills cannot target additional Enemies<br>Attacks with Supported Skills count as Exerted<br>Supported Skills deal (45-28)% less Damage<br>Supported Skills are used by Mirage Warriors Summoned by General's Cry<br>Supported Skills count as Triggered
+|stat_text                               = Supported Strike Skills cannot target additional Enemies<br>Attacks with Supported Skills count as Exerted<br>Supported Skills deal (45-36)% less Damage<br>Supported Skills are used by Mirage Warriors Summoned by General's Cry<br>Supported Skills count as Triggered
 |level1                                  = True
 |level1_level_requirement                = 24
 |level1_stat_text                        = Supported Skills deal 45% less Damage

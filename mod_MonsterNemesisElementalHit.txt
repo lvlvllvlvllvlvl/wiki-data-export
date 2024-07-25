@@ -1,0 +1,21 @@
+{{Mod
+|id                               = MonsterNemesisElementalHit
+|mod_groups                       = MonsterNemesis
+|domain                           = 3
+|generation_type                  = 4
+|required_level                   = 25
+|name                             = Blessing of Elements
+|mod_type                         = MonsterNemesisElementalHit
+|stat_text                        = Gain 50% of [[Physical Damage]] as Extra Damage of a random Element (Hidden)<br>Always cause Elemental Status Ailments (Hidden)
+|stat1_id                         = physical_damage_%_to_add_as_random_element
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = always_cause_elemental_status_ailment
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = rare
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical_damage, elemental_damage, bleed, damage, physical, elemental, ailment
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MaximumFireResist1
+|mod_groups                       = MaximumFireResist
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Bushfire
+|mod_type                         = MaximumFireResist
+|stat_text                        = +1% to maximum [[Fire Resistance]]
+|stat1_id                         = base_maximum_fire_damage_resistance_%
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, fire, resistance
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

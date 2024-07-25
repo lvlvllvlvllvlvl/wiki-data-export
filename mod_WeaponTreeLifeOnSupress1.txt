@@ -1,0 +1,16 @@
+{{Mod
+|id                               = WeaponTreeLifeOnSupress1
+|mod_groups                       = WeaponTreeLifeOnSupress
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 15
+|mod_type                         = WeaponTreeLifeOnSupress
+|stat_text                        = Recover 2% of [[Life]] when you Suppress [[Spell Damage]]
+|stat1_id                         = recover_%_maximum_life_on_suppressing_spell
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

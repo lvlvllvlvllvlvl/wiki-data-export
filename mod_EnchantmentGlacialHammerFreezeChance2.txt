@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentGlacialHammerFreezeChance2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Glacial Hammer Freeze Chance 2
+|mod_type                         = EnchantmentGlacialHammerFreezeChance
+|stat_text                        = [[Glacial Hammer]] has +30% chance to [[Freeze]]
+|stat1_id                         = glacial_hammer_freeze_chance_%
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, cold, attack, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

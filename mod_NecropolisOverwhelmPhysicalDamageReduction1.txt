@@ -1,0 +1,17 @@
+{{Mod
+|id                               = NecropolisOverwhelmPhysicalDamageReduction1
+|mod_groups                       = NecropolisOverwhelmPhysicalDamageReduction
+|domain                           = 36
+|generation_type                  = 34
+|required_level                   = 12
+|mod_type                         = NecropolisOverwhelmPhysicalDamageReduction
+|stat_text                        = Overwhelm 15% [[Physical Damage]] Reduction
+|stat1_id                         = enemy_phys_reduction_%_penalty_vs_hit
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = monster_necropolis_mod_value_+%
+|stat2_min                        = 40
+|stat2_max                        = 40
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 300
+}}

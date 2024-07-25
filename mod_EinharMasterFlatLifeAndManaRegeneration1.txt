@@ -1,0 +1,19 @@
+{{Mod
+|id                               = EinharMasterFlatLifeAndManaRegeneration1
+|mod_groups                       = LifeRegeneration
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 30
+|name                             = of Craft
+|mod_type                         = LifeRegenerationAndManaRegeneration
+|stat_text                        = Regenerate (12-20) [[Life]] per second<br>Regenerate (1.8-3) [[Mana]] per second
+|stat1_id                         = base_life_regeneration_rate_per_minute
+|stat1_min                        = 720
+|stat1_max                        = 1200
+|stat2_id                         = base_mana_regeneration_rate_per_minute
+|stat2_min                        = 108
+|stat2_max                        = 180
+|tags                             = flat_life_regen, resource, life, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

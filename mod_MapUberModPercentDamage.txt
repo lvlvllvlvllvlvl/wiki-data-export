@@ -1,0 +1,29 @@
+{{Mod
+|id                               = MapUberModPercentDamage
+|mod_groups                       = MapUberModPercentDamage
+|domain                           = 37
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Equalising
+|mod_type                         = MapUberModPercentDamage
+|stat_text                        = Rare and Unique Monsters remove 10% of [[Life]], [[Mana]] and [[Energy Shield]] from Players or their [[Minion|Minions]] on [[Hit]]
+|stat1_id                         = map_rare_unique_monsters_remove_%_life_mana_es_on_hit
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = map_pack_size_+%
+|stat2_min                        = 8
+|stat2_max                        = 8
+|stat3_id                         = map_item_drop_quantity_+%
+|stat3_min                        = 36
+|stat3_max                        = 36
+|stat4_id                         = map_item_drop_rarity_+%
+|stat4_min                        = 20
+|stat4_max                        = 20
+|stat5_id                         = map_currency_drop_chance_+%_final_from_uber_mod
+|stat5_min                        = 126
+|stat5_max                        = 126
+|spawn_weight1_tag                = uber_tier_map
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

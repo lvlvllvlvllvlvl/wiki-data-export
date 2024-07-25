@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Soulrend
 |class_id                                = Active Skill Gem
@@ -15,22 +15,10 @@
 |skill_id                                = Soulrend
 |cast_time                               = 0.8
 |required_level                          = 28
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Chaos Damage
-|quality_type1_stat1_id                  = chaos_damage_+%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% increased Area of Effect
-|quality_type2_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 1% increased Skill Effect Duration
-|quality_type3_stat1_id                  = skill_effect_duration_+%
-|quality_type3_stat1_value               = 1000
-|quality_type4_weight                    = 20
-|quality_type4_stat_text                 = 5% increased Damage with Hits
-|quality_type4_stat1_id                  = hit_damage_+%
-|quality_type4_stat1_value               = 5000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Base duration is (0.01-0.2) seconds
+|quality_type1_stat1_id                  = base_skill_effect_duration
+|quality_type1_stat1_value               = 10000
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 5
 |static_damage_effectiveness             = 170
@@ -49,7 +37,7 @@
 |static_stat5_value                      = 1
 |static_stat6_id                         = base_energy_shield_leech_from_spell_damage_permyriad
 |static_stat6_value                      = 400
-|stat_text                               = Deals (21-885) to (31-1327) Chaos Damage<br>Projectiles Pierce all Targets<br>Deals (180.8-2642.5) Base Chaos Damage per second<br>Base duration is 0.6 seconds<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>4% of Spell Damage Leeched as Energy Shield
+|stat_text                               = Deals (21-885) to (31-1327) Chaos Damage<br>Projectiles Pierce all Targets<br>Deals (180.8-2642.5) Base Chaos Damage per second<br>Base duration is 0.60 seconds<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>4% of Spell Damage Leeched as Energy Shield
 |level1                                  = True
 |level1_level_requirement                = 28
 |level1_cost_amounts                     = 14

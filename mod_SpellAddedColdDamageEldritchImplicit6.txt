@@ -1,0 +1,24 @@
+{{Mod
+|id                               = SpellAddedColdDamageEldritchImplicit6
+|mod_groups                       = SpellAddedElementalDamage
+|domain                           = 1
+|generation_type                  = 28
+|required_level                   = 75
+|mod_type                         = SpellAddedColdDamage
+|stat_text                        = Adds (14-18) to (28-32) [[Cold Damage]] to [[Spell|Spells]]
+|stat1_id                         = spell_minimum_added_cold_damage
+|stat1_min                        = 14
+|stat1_max                        = 18
+|stat2_id                         = spell_maximum_added_cold_damage
+|stat2_min                        = 28
+|stat2_max                        = 32
+|spawn_weight1_tag                = no_tier_1_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = helmet
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, cold, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

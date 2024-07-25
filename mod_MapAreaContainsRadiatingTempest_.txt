@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapAreaContainsRadiatingTempest_
+|mod_groups                       = MapAreaContainsSpecificTempest
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Shining
+|mod_type                         = MapAreaContainsSpecificTempest
+|stat_text                        = Next Area will be affected by a Radiating Tempest
+|stat1_id                         = map_leaguestone_explicit_tempest_type_override
+|stat1_min                        = 8
+|stat1_max                        = 8
+|spawn_weight1_tag                = tempest_leaguestone
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

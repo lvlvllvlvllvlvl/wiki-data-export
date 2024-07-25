@@ -1,0 +1,24 @@
+{{Mod
+|id                               = SpellAddedFireDamageHybridTwoHandDelve
+|mod_groups                       = SpellAddedFireDamageHybrid
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Subterranean
+|mod_type                         = SpellAddedFireDamageHybrid
+|stat_text                        = Adds (20-26) to (39-46) [[Fire Damage]] to [[Spell|Spells]]<br>(20-40)% increased [[Fire Damage]]
+|stat1_id                         = spell_minimum_added_fire_damage
+|stat1_min                        = 20
+|stat1_max                        = 26
+|stat2_id                         = spell_maximum_added_fire_damage
+|stat2_min                        = 39
+|stat2_max                        = 46
+|stat3_id                         = fire_damage_+%
+|stat3_min                        = 20
+|stat3_max                        = 40
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, fire, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapLeaguestoneAdditionalRareMonstersFromStrongbox1
+|mod_groups                       = MapLeaguestoneAdditionalRareMonstersFromStrongbox
+|domain                           = 12
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Protection
+|mod_type                         = MapLeaguestoneAdditionalRareMonstersFromStrongbox
+|stat_text                        = The first Strongbox Opened in next Area will be guarded by 3 additional Rare Monsters
+|stat1_id                         = map_first_strongbox_contains_x_additional_rare_monsters
+|stat1_min                        = 3
+|stat1_max                        = 3
+|spawn_weight1_tag                = ambush_leaguestone
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

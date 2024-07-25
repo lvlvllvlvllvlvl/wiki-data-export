@@ -1,0 +1,20 @@
+{{Mod
+|id                               = NecropolisCraftingGlobalMaimOnHit
+|mod_groups                       = GlobalMaimOnHit
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 34
+|name                             = of Haunting
+|mod_type                         = GlobalMaimOnHit
+|stat_text                        = [[Attack|Attacks]] have (15-25)% chance to Maim on [[Hit]]
+|stat1_id                         = maim_on_hit_%
+|stat1_min                        = 15
+|stat1_max                        = 25
+|spawn_weight1_tag                = necropolis_gloves
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = necropolis_exclusive_mod, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

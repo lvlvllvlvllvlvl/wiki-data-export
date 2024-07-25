@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SentinelUnholyMightOnUse3
+|mod_groups                       = SentinelDronePlayerUnholyMightOnSummon
+|domain                           = 30
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of Unholy Might
+|mod_type                         = SentinelDronePlayerUnholyMightOnSummon
+|stat_text                        = Character Gains Unholy Might for 20 seconds on deployment
+|stat1_id                         = sentinel_drone_player_gains_unholy_might_on_summon_ms
+|stat1_min                        = 20000
+|stat1_max                        = 20000
+|spawn_weight1_tag                = special_sentinel_mod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 100
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

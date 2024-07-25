@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TinctureCrushOnHitVsFullLife1
+|mod_groups                       = WeaponCrushOnHitVsFullLife
+|domain                           = 34
+|generation_type                  = 1
+|required_level                   = 45
+|name                             = Crushing
+|mod_type                         = WeaponCrushOnHitVsFullLife
+|stat_text                        = [[Crushed|Crush]] Enemies for (4-5) seconds when you [[Hit]] them while they are on [[Full Life]]
+|stat1_id                         = weapon_crush_on_hit_for_X_seconds_vs_full_life_enemies
+|stat1_min                        = 4
+|stat1_max                        = 5
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Lightning Trap
 |class_id                                = Active Skill Gem
@@ -8,6 +8,7 @@
 |tags                                    = gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemLightningTrap
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|vaal_variant_id                         = Metadata/Items/Gems/SkillGemVaalLightningTrap
 |dexterity_percent                       = 40
 |intelligence_percent                    = 60
 |gem_tags                                = Trap, Critical, Spell, Projectile, Lightning
@@ -17,20 +18,11 @@
 |skill_id                                = LightningTrap
 |cast_time                               = 1.0
 |required_level                          = 12
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Lightning Damage<br>0.5% increased Effect of Lightning Ailments
-|quality_type1_stat1_id                  = lightning_damage_+%
-|quality_type1_stat1_value               = 1000
-|quality_type1_stat2_id                  = lightning_ailment_effect_+%
-|quality_type1_stat2_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% increased Projectile Speed
-|quality_type2_stat1_id                  = base_projectile_speed_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 10
-|quality_type3_stat_text                 = Projectiles have 1% chance to Return to you
-|quality_type3_stat1_id                  = projectile_return_%_chance
-|quality_type3_stat1_value               = 1000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.75-15)% Chance for Trap to Trigger an additional time
+|quality_type1_breakpoints               = 1.3333333333333333
+|quality_type1_stat1_id                  = trap_%_chance_to_trigger_twice
+|quality_type1_stat1_value               = 750
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 6
 |static_damage_effectiveness             = 240
@@ -44,15 +36,19 @@
 |static_stat3_value                      = 1
 |static_stat4_id                         = base_trap_duration
 |static_stat4_value                      = 4000
-|static_stat5_id                         = is_trap
+|static_stat5_id                         = quality_display_trap_duration_is_gem
 |static_stat5_value                      = 1
-|static_stat6_id                         = projectiles_nova
-|static_stat6_value                      = 1
-|static_stat7_id                         = base_chance_to_shock_%
-|static_stat7_value                      = 20
-|static_stat8_id                         = number_of_additional_projectiles
-|static_stat8_value                      = 8
-|stat_text                               = Deals (15-659) to (46-1978) Lightning Damage<br>Trap lasts 4 seconds<br>Fires Projectiles in a circle<br>20% chance to Shock enemies<br>Fires 8 additional Projectiles<br>(80-118)% increased Critical Strike Chance against Shocked Enemies<br>(0-19)% increased Effect of Shock
+|static_stat6_id                         = base_number_of_projectiles
+|static_stat6_value                      = 9
+|static_stat7_id                         = quality_display_base_number_of_projectiles_is_gem
+|static_stat7_value                      = 1
+|static_stat8_id                         = is_trap
+|static_stat8_value                      = 1
+|static_stat9_id                         = projectiles_nova
+|static_stat9_value                      = 1
+|static_stat10_id                        = base_chance_to_shock_%
+|static_stat10_value                     = 20
+|stat_text                               = Deals (15-659) to (46-1978) Lightning Damage<br>Trap lasts 4 seconds<br>Fires 9 Projectiles<br>Fires Projectiles in a circle<br>20% chance to Shock enemies<br>(80-118)% increased Critical Strike Chance against Shocked Enemies<br>(0-19)% increased Effect of Shock
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_cost_amounts                     = 8
@@ -593,5 +589,4 @@
 |level20_experience                      = 342004647
 |level21_dexterity_requirement           = 70
 |level21_intelligence_requirement        = 100
-|inventory_icon                          = Lightning Trap
 }}

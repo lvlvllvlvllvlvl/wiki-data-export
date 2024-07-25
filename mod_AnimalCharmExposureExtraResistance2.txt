@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmExposureExtraResistance2
+|mod_groups                       = AnimalCharmExposureExtraResistance
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Elementalist's
+|mod_type                         = AnimalCharmExposureExtraResistance
+|stat_text                        = Exposure you inflict applies an extra -(7-6)% to the affected Resistance
+|stat1_id                         = exposure_you_inflict_applies_extra_%_to_affected_resistance
+|stat1_min                        = -7
+|stat1_max                        = -6
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

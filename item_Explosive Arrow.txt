@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Explosive Arrow
 |class_id                                = Active Skill Gem
@@ -17,22 +17,11 @@
 |skill_id                                = ExplosiveArrow
 |cast_time                               = 1.0
 |required_level                          = 28
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% chance to Ignite enemies<br>1% increased Skill Effect Duration
-|quality_type1_stat1_id                  = base_chance_to_ignite_%
-|quality_type1_stat1_value               = 1000
-|quality_type1_stat2_id                  = skill_effect_duration_+%
-|quality_type1_stat2_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 3% increased Critical Strike Chance
-|quality_type2_stat1_id                  = critical_strike_chance_+%
-|quality_type2_stat1_value               = 3000
-|quality_type3_weight                    = 20
-|quality_type3_stat_text                 = Maximum 0.2 Explosive Arrows stuck in an Enemy<br>2% less Skill Effect Duration
-|quality_type3_stat1_id                  = explosive_arrow_stack_limit
-|quality_type3_stat1_value               = 200
-|quality_type3_stat2_id                  = active_skill_quality_duration_+%_final
-|quality_type3_stat2_value               = -2000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = +(0.1-2) Maximum Explosive Arrows stuck in an Enemy
+|quality_type1_breakpoints               = 10.0
+|quality_type1_stat1_id                  = explosive_arrow_stack_limit
+|quality_type1_stat1_value               = 100
 |static_cost_types                       = Mana
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
@@ -56,7 +45,9 @@
 |static_stat8_value                      = 3
 |static_stat9_id                         = explosive_arrow_stack_limit
 |static_stat9_value                      = 20
-|stat_text                               = Base duration is 1 seconds<br>Explosion deals 50% less Base Damage<br>Explosion will have (47-522) to (71-783) added Fire Damage<br>+2 to Explosion Radius per Explosive Arrow on Target, up to +12<br>Explosion deals 6% more Damage with Hits per Explosive Arrow on Target<br>Explosion deals 3% more Damage with Ailments per Explosive Arrow on Target<br>Maximum 20 Explosive Arrows stuck in an Enemy
+|static_stat10_id                        = quality_display_explosive_arrow_is_gem
+|static_stat10_value                     = 1
+|stat_text                               = Base duration is 1.00 seconds<br>Explosion deals 50% less Base Damage<br>Explosion will have (47-522) to (71-783) added Fire Damage<br>+0.2 metres to Explosion Radius per Explosive Arrow on Target, up to a maximum of +1.2 metres<br>Explosion deals 6% more Damage with Hits per Explosive Arrow on Target<br>Explosion deals 3% more Damage with Ailments per Explosive Arrow on Target<br>Maximum 20 Explosive Arrows stuck in an Enemy
 |level1                                  = True
 |level1_level_requirement                = 28
 |level1_cost_amounts                     = 8
@@ -418,5 +409,4 @@
 |level20_dexterity_requirement           = 155
 |level20_experience                      = 340652931
 |level21_dexterity_requirement           = 159
-|inventory_icon                          = Explosive Arrow
 }}

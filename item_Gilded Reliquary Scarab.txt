@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Gilded Reliquary Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = Go to your rest now, Sumei, Master Lorekeeper. The Order shall keep<br>contained the terrible secret that burdened your final years.
 |drop_level                              = 68
-|tags                                    = gilded_scarab, default
+|tags                                    = scarab, uniques_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabUniques3
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabUniques3_
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = 150% increased Unique Items found in Area
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabUniques3_
 }}

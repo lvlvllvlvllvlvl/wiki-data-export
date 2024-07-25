@@ -1,0 +1,23 @@
+{{Mod
+|id                               = JunMasterArmourAndEnergyShield3
+|mod_groups                       = IncreasedPhysicalDamageReductionRating, IncreasedEnergyShield
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 50
+|name                             = Chosen
+|mod_type                         = ArmourAndEnergyShield
+|stat_text                        = +(111-185) to [[Armour]]<br>+(16-20) to maximum [[Energy Shield]]
+|stat1_id                         = base_physical_damage_reduction_rating
+|stat1_min                        = 111
+|stat1_max                        = 185
+|stat2_id                         = base_maximum_energy_shield
+|stat2_min                        = 16
+|stat2_max                        = 20
+|spawn_weight1_tag                = belt
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = unveiled_mod, defences, armour, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

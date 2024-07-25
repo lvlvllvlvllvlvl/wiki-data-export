@@ -1,0 +1,16 @@
+{{Mod
+|id                               = FlaskEnchantmentInjectorOnAffectedByPoison_
+|mod_groups                       = FlaskEnchantment
+|domain                           = 1
+|generation_type                  = 22
+|required_level                   = 1
+|mod_type                         = FlaskEnchantmentInjectorOnAffectedByPoison
+|stat_text                        = Used when you become [[Poison|Poisoned]]
+|stat1_id                         = local_flask_use_on_affected_by_poison
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = flask
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmImpaleLastsForExtraHits
+|mod_groups                       = AnimalCharmImpaleLastsForExtraHits
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 81
+|name                             = Champion's
+|mod_type                         = AnimalCharmImpaleLastsForExtraHits
+|stat_text                        = Impales you inflict last 1 additional [[Hit]]
+|stat1_id                         = impaled_debuff_number_of_reflected_hits
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = dex_animal_charm
+|spawn_weight1_value              = 10
+|spawn_weight2_tag                = str_animal_charm
+|spawn_weight2_value              = 10
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

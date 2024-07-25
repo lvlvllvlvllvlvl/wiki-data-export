@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MonsterModExtraElementalDamage
+|mod_groups                       = MonsterModExtraElementalDamage
+|domain                           = 3
+|generation_type                  = 2
+|required_level                   = 46
+|name                             = of the Equilibrium
+|mod_type                         = MonsterModExtraElementalDamage
+|stat_text                        = Gain 60% of [[Physical Damage]] as Extra Damage of a random Element (Hidden)<br>Elemental Equilibrium (Hidden)
+|stat1_id                         = physical_damage_%_to_add_as_random_element
+|stat1_min                        = 60
+|stat1_max                        = 60
+|stat2_id                         = keystone_elemental_equilibrium
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = physical_affinity
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

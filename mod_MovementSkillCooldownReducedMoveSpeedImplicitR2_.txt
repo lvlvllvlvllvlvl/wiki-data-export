@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MovementSkillCooldownReducedMoveSpeedImplicitR2_
+|mod_groups                       = MovementSkillCooldownReducedMoveSpeed
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 50
+|mod_type                         = MovementSkillCooldownReducedMoveSpeed
+|stat_text                        = (30-40)% increased Cooldown Recovery Rate of Movement [[Skill|Skills]]<br>10% reduced [[Movement Speed]]
+|stat1_id                         = movement_skills_cooldown_speed_+%
+|stat1_min                        = 30
+|stat1_max                        = 40
+|stat2_id                         = base_movement_velocity_+%
+|stat2_min                        = -10
+|stat2_max                        = -10
+|tags                             = speed
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SentinelLocalCharge2
+|mod_groups                       = SentinelDroneLocalCharge
+|domain                           = 30
+|generation_type                  = 1
+|required_level                   = 7
+|name                             = Vast
+|mod_type                         = SentinelDroneLocalCharge
+|stat_text                        = +(3-4) to [[Charge]]
+|stat1_id                         = local_sentinel_drone_charge_+
+|stat1_min                        = 3
+|stat1_max                        = 4
+|spawn_weight1_tag                = special_sentinel_mod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 1400
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

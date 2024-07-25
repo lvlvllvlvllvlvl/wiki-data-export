@@ -1,0 +1,19 @@
+{{Mod
+|id                               = TinctureLifeOnRareUniqueKill2
+|mod_groups                       = LifeOnWeaponKillVsRareUnique
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Conquest
+|mod_type                         = LifeOnWeaponKillVsRareUnique
+|stat_text                        = Recover (11-15)% of [[Life]] on Killing a Rare or Unique Enemy
+|stat1_id                         = recover_%_maximum_life_on_killing_rare_or_unique_with_weapon
+|stat1_min                        = 11
+|stat1_max                        = 15
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

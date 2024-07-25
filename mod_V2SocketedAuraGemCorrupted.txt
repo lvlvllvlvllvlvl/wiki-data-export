@@ -1,0 +1,19 @@
+{{Mod
+|id                               = V2SocketedAuraGemCorrupted
+|mod_groups                       = IncreaseSocketedAuraGemLevel
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 20
+|mod_type                         = LocalIncreaseSocketedAuraLevelCorrupted
+|stat_text                        = +2 to [[Level]] of [[Item socket|Socketed]] Aura Gems
+|stat1_id                         = local_socketed_aura_gem_level_+
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = aura, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

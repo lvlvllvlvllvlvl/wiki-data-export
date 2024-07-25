@@ -1,0 +1,29 @@
+{{Mod
+|id                               = LocalAddedPhysicalDamage3
+|mod_groups                       = PhysicalDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 21
+|name                             = Polished
+|mod_type                         = LocalPhysicalDamage
+|stat_text                        = Adds (6-9) to (13-15) [[Physical Damage]]
+|stat1_id                         = local_minimum_added_physical_damage
+|stat1_min                        = 6
+|stat1_max                        = 9
+|stat2_id                         = local_maximum_added_physical_damage
+|stat2_min                        = 13
+|stat2_max                        = 15
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|generation_weight1_tag           = has_attack_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_caster_mod
+|generation_weight2_value         = 65
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = physical_damage, damage, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

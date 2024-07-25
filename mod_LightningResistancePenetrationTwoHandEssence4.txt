@@ -1,0 +1,18 @@
+{{Mod
+|id                               = LightningResistancePenetrationTwoHandEssence4
+|mod_groups                       = LightningResistancePenetration
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 82
+|name                             = Essences
+|mod_type                         = LightningResistancePenetration
+|stat_text                        = Damage Penetrates (15-16)% [[Lightning Resistance]]
+|stat1_id                         = base_reduce_enemy_lightning_resistance_%
+|stat1_min                        = 15
+|stat1_max                        = 16
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, lightning
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

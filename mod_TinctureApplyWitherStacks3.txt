@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TinctureApplyWitherStacks3
+|mod_groups                       = WeaponApplyWitherStacksOnHit
+|domain                           = 34
+|generation_type                  = 1
+|required_level                   = 72
+|name                             = Withering
+|mod_type                         = WeaponApplyWitherStacksOnHit
+|stat_text                        = [[Hit|Hits]] Inflict (6-7) Withered Debuffs for 2 seconds on Enemies that are on [[Full Life]]
+|stat1_id                         = apply_X_wither_stacks_for_2_seconds_vs_enemies_that_are_on_full_life_with_weapons
+|stat1_min                        = 6
+|stat1_max                        = 7
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = chaos, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

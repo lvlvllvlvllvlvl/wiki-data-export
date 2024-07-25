@@ -1,0 +1,23 @@
+{{Mod
+|id                               = V2LocalIncreasedCriticalStrikeChance1hCorrupted1
+|mod_groups                       = CriticalStrikeChanceIncrease
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = LocalCriticalStrikeChance
+|stat_text                        = (14-18)% increased [[Critical Strike Chance]]
+|stat1_id                         = local_critical_strike_chance_+%
+|stat1_min                        = 14
+|stat1_max                        = 18
+|spawn_weight1_tag                = wand
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = rapier
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = claw
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = attack, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

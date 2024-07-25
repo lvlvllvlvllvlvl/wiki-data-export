@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmBleedExplode2
+|mod_groups                       = AnimalCharmBleedExplode
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 81
+|name                             = Gladiator's
+|mod_type                         = AnimalCharmBleedExplode
+|stat_text                        = Bleeding Enemies you [[Kill]] Explode, dealing (4-5)% of<br />their Maximum [[Life]] as [[Physical Damage]]
+|stat1_id                         = bleeding_enemies_explode_for_%_life_as_physical_damage
+|stat1_min                        = 4
+|stat1_max                        = 5
+|spawn_weight1_tag                = dex_animal_charm
+|spawn_weight1_value              = 25
+|spawn_weight2_tag                = str_animal_charm
+|spawn_weight2_value              = 25
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

@@ -1,18 +1,11 @@
 {{Skill
+|gem_description                         = Supports spell skills, causing them to be triggered by Intuitive Link. Cannot support skills used by totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.
 |skill_id                                = SupportIntuitiveLink
 |required_level                          = 34
-|quality_type1_weight                    = 100
+|quality_type1_weight                    = 1
 |quality_type1_stat_text                 = 
 |quality_type1_stat1_id                  = dummy_stat_display_nothing
 |quality_type1_stat1_value               = 0
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = 
-|quality_type2_stat1_id                  = dummy_stat_display_nothing
-|quality_type2_stat1_value               = 0
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = Supported Triggered Spells deal 1% increased Damage
-|quality_type3_stat1_id                  = triggered_skill_damage_+%
-|quality_type3_stat1_value               = 1000
 |static_cost_multiplier                  = 100
 |static_stored_uses                      = 1
 |static_cooldown                         = 0.5
@@ -21,7 +14,7 @@
 |static_attack_speed_multiplier          = 100
 |static_stat1_id                         = trigger_on_trigger_link_target_hit
 |static_stat1_value                      = 1
-|stat_text                               = Supported Spells deal (44-31)% less Damage<br>Supported Spells are Triggered by Intuitive Link
+|stat_text                               = Supported Spells deal (44-38)% less Damage<br>Supported Spells are Triggered by Intuitive Link
 |level1                                  = True
 |level1_level_requirement                = 34
 |level1_stat_text                        = Supported Spells deal 44% less Damage

@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Elemental Army Support
 |class_id                                = Support Skill Gem
@@ -7,25 +7,18 @@
 |drop_level                              = 31
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemSummonElementalResistance
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |strength_percent                        = 40
 |intelligence_percent                    = 60
 |gem_tags                                = Support, Minion
 |skill_id                                = SupportSummonElementalResistances
 |support_gem_letter                      = r
 |required_level                          = 31
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Minions from Supported Skills have +0.1% to all maximum Elemental Resistances
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Minions from Supported Skills have +(0.1-2)% to all maximum Elemental Resistances
+|quality_type1_breakpoints               = 10.0
 |quality_type1_stat1_id                  = minion_maximum_all_elemental_resistances_%
 |quality_type1_stat1_value               = 100
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Minions have 0.5% increased Area of Effect
-|quality_type2_stat1_id                  = minion_skill_area_of_effect_+%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 20
-|quality_type3_stat_text                 = Minions from Supported Skill Leech 0.02% of Elemental Damage as Life
-|quality_type3_stat1_id                  = minion_life_leech_from_elemental_damage_permyriad
-|quality_type3_stat1_value               = 2000
 |static_cost_multiplier                  = 120
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

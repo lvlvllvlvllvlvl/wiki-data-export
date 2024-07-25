@@ -1,0 +1,22 @@
+{{Mod
+|id                               = DelveJewelVaalSoulsOnKill1
+|mod_groups                       = AdditionalVaalSoulOnKill
+|domain                           = 16
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Underground
+|mod_type                         = AdditionalVaalSoulOnKill
+|stat_text                        = (3-5)% chance to gain an additional Vaal Soul on [[Kill]]
+|stat1_id                         = chance_to_gain_vaal_soul_on_kill_%
+|stat1_min                        = 3
+|stat1_max                        = 5
+|spawn_weight1_tag                = abyss_jewel
+|spawn_weight1_value              = 2000
+|spawn_weight2_tag                = jewel
+|spawn_weight2_value              = 2000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = vaal
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

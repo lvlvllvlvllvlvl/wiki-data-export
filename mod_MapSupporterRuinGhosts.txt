@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MapSupporterRuinGhosts
+|mod_groups                       = MapSupporterUltimatum
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSupporterRuinGhosts
+|stat_text                        = Players are assaulted by Ruinous Ghosts<br />Reaching seven Ruin prevents Reward from being claimed<br>3% Chance to convert Maps to Elder Guardian Maps<br>24% increased Quantity of Items found in this Area<br>Area has no chance to contain Ultimatum Encounters
+|stat1_id                         = map_supporter_ruin_ghost_daemon_spawn
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_supporter_map_to_elder_map_permyriad
+|stat2_min                        = 300
+|stat2_max                        = 300
+|stat3_id                         = map_item_drop_quantity_+%
+|stat3_min                        = 24
+|stat3_max                        = 24
+|stat4_id                         = map_disable_ultimatum_from_chance
+|stat4_min                        = 1
+|stat4_max                        = 1
+|stat5_id                         = map_reliquary_fail_on_7_ruin
+|stat5_min                        = 1
+|stat5_max                        = 1
+}}

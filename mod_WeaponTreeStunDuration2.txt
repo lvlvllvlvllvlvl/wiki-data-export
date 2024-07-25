@@ -1,0 +1,21 @@
+{{Mod
+|id                               = WeaponTreeStunDuration2
+|mod_groups                       = WeaponTreeStunDuration
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 45
+|mod_type                         = WeaponTreeStunDuration
+|stat_text                        = 40% increased Stun Duration on Enemies<br>20% increased Stun Duration on you
+|stat1_id                         = base_stun_duration_+%
+|stat1_min                        = 40
+|stat1_max                        = 40
+|stat2_id                         = stun_duration_on_self_+%
+|stat2_min                        = 20
+|stat2_max                        = 20
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 300
+|spawn_weight2_tag                = shield
+|spawn_weight2_value              = 300
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

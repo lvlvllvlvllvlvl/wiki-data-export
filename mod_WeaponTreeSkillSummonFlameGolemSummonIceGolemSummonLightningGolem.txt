@@ -1,0 +1,20 @@
+{{Mod
+|id                               = WeaponTreeSkillSummonFlameGolemSummonIceGolemSummonLightningGolem
+|mod_groups                       = WeaponTreeSkillSummonFlameGolemSummonIceGolemSummonLightningGolem
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSkillSummonFlameGolemSummonIceGolemSummonLightningGolem
+|stat_text                        = Maximum [[Life]] of Summoned Elemental Golems is Doubled
+|stat1_id                         = elemental_golems_maximum_life_is_doubled
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = minion_unique_weapon
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = weapon_can_roll_minion_modifiers
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = focus_can_roll_minion_modifiers
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+}}

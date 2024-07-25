@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = War Banner
 |class_id                                = Active Skill Gem
@@ -15,20 +15,11 @@
 |skill_id                                = BloodstainedBanner
 |cast_time                               = 0.0
 |required_level                          = 4
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased effect of Aura
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.5-10)% increased effect of Aura
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = aura_effect_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 10
-|quality_type2_stat_text                 = You and nearby allies gain 0.5% increased Accuracy Rating<br>3% less Skill Effect Duration
-|quality_type2_stat1_id                  = accuracy_rating_+%
-|quality_type2_stat1_value               = 500
-|quality_type2_stat2_id                  = active_skill_quality_duration_+%_final
-|quality_type2_stat2_value               = -3000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 1% increased Skill Effect Duration
-|quality_type3_stat1_id                  = skill_effect_duration_+%
-|quality_type3_stat1_value               = 1000
 |static_stored_uses                      = 1
 |static_cooldown                         = 1
 |static_damage_effectiveness             = 100
@@ -48,7 +39,7 @@
 |static_stat5_value                      = 8
 |static_stat6_id                         = banner_buff_effect_+%_per_stage
 |static_stat6_value                      = 1
-|stat_text                               = You and nearby allies gain (15-21)% increased Accuracy Rating<br>Gain 1 Stage when you Kill an Enemy while carrying the Banner<br>Gain Adrenaline for 0.05 seconds per Stage on Placing the Banner<br>Base Duration of 10 seconds after being Placed<br>+1 second to Base Placed Banner Duration per Stage<br>When placed, 8% increased Area of Effect per Stage<br>When placed, 1% increased Aura effect per Stage<br>Nearby Enemies take (8-11)% increased Physical Damage
+|stat_text                               = You and nearby allies gain (15-21)% increased Accuracy Rating<br>Gain 1 Stage when you Kill an Enemy while carrying the Banner<br>Gain Adrenaline for 0.05 seconds per Stage on Placing the Banner<br>Base Duration of 10.00 seconds after being Placed<br>+1 second to Base Placed Banner Duration per Stage<br>When placed, 8% increased Area of Effect per Stage<br>When placed, 1% increased Aura effect per Stage<br>Nearby Enemies take (8-11)% increased Physical Damage
 |level1                                  = True
 |level1_level_requirement                = 4
 |level1_stat_text                        = You and nearby allies gain 15% increased Accuracy Rating<br>Nearby Enemies take 8% increased Physical Damage

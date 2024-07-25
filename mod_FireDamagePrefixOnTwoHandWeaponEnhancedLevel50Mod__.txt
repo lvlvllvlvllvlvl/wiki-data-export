@@ -1,0 +1,24 @@
+{{Mod
+|id                               = FireDamagePrefixOnTwoHandWeaponEnhancedLevel50Mod__
+|mod_groups                       = WeaponCasterDamagePrefix
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 50
+|name                             = Topotante's
+|mod_type                         = TwoHandFireDamageWeaponPrefixAndFlat
+|stat_text                        = (111-115)% increased [[Fire Damage]]<br>Adds (20-27) to (41-48) [[Fire Damage]] to [[Spell|Spells]]
+|stat1_id                         = fire_damage_+%
+|stat1_min                        = 111
+|stat1_max                        = 115
+|stat2_id                         = spell_minimum_added_fire_damage
+|stat2_min                        = 20
+|stat2_max                        = 27
+|stat3_id                         = spell_maximum_added_fire_damage
+|stat3_min                        = 41
+|stat3_max                        = 48
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, fire, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

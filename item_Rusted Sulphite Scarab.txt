@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Rusted Sulphite Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = As the first Brinerot to join the Order, you have much to prove,<br>young Raethan. We are confident you will succeed.
 |drop_level                              = 68
-|tags                                    = rusted_scarab, default
+|tags                                    = scarab, delve_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabSulphite1
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabSulphite1
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = Area contains Niko<br>Map owner gains 20% more Sulphite
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabSulphite1
 }}

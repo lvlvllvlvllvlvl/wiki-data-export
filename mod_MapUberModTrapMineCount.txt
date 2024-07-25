@@ -1,0 +1,32 @@
+{{Mod
+|id                               = MapUberModTrapMineCount
+|mod_groups                       = MapUberModTrapMineCount
+|domain                           = 37
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Sabotaging
+|mod_type                         = MapUberModTrapMineCount
+|stat_text                        = Player [[Skill|Skills]] which Throw [[Trap|Traps]] throw 1 fewer [[Trap]]<br>Player [[Skill|Skills]] which Throw [[Mine|Mines]] throw 1 fewer [[Mine]]
+|stat1_id                         = map_number_of_additional_traps_to_throw
+|stat1_min                        = -1
+|stat1_max                        = -1
+|stat2_id                         = map_number_of_additional_mines_to_place
+|stat2_min                        = -1
+|stat2_max                        = -1
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 6
+|stat3_max                        = 6
+|stat4_id                         = map_item_drop_quantity_+%
+|stat4_min                        = 21
+|stat4_max                        = 21
+|stat5_id                         = map_item_drop_rarity_+%
+|stat5_min                        = 10
+|stat5_max                        = 10
+|stat6_id                         = map_scarab_drop_chance_+%_final_from_uber_mod
+|stat6_min                        = 53
+|stat6_max                        = 53
+|spawn_weight1_tag                = uber_tier_map
+|spawn_weight1_value              = 30
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MonsterBloodlinesSharedPowerCharge
+|mod_groups                       = Bloodlines
+|domain                           = 3
+|generation_type                  = 6
+|required_level                   = 1
+|name                             = Shared Boon
+|mod_type                         = MonsterBloodlinesSharedPowerCharge
+|stat_text                        = 100% chance to gain a [[Power Charge]] on [[Hit]] (Hidden)<br>Monster shares Charges with its pack (Hidden)
+|stat1_id                         = add_power_charge_on_skill_hit_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = monster_share_charges_with_pack
+|stat2_min                        = 1
+|stat2_max                        = 1
+|tags                             = power_charge
+}}

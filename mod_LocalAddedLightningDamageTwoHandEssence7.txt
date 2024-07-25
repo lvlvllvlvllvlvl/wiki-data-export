@@ -1,0 +1,21 @@
+{{Mod
+|id                               = LocalAddedLightningDamageTwoHandEssence7
+|mod_groups                       = LightningDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 82
+|name                             = Essences
+|mod_type                         = LocalLightningDamageTwoHand
+|stat_text                        = Adds (25-34) to (494-575) [[Lightning Damage]]
+|stat1_id                         = local_minimum_added_lightning_damage
+|stat1_min                        = 25
+|stat1_max                        = 34
+|stat2_id                         = local_maximum_added_lightning_damage
+|stat2_min                        = 494
+|stat2_max                        = 575
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, lightning, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

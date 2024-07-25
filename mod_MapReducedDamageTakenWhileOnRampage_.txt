@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapReducedDamageTakenWhileOnRampage_
+|mod_groups                       = MapReducedDamageTakenWhileOnRampage
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Warding
+|mod_type                         = MapReducedDamageTakenWhileOnRampage
+|stat_text                        = Players in next Area with at least 50 [[Rampage]] [[Kill|Kills]] will take 10% reduced Damage
+|stat1_id                         = map_player_damage_taken_+%_while_rampaging
+|stat1_min                        = -10
+|stat1_max                        = -10
+|spawn_weight1_tag                = rampage_leaguestone
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

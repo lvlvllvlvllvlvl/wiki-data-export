@@ -10,7 +10,9 @@
 |static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_is_projectile
 |static_stat1_value                      = 1
-|stat_text                               = Deals (6-254) to (9-381) Fire Damage<br>(0-60)% increased Cast Speed<br>Fires (0-2) additional Projectiles
+|static_stat2_id                         = active_skill_base_area_of_effect_radius
+|static_stat2_value                      = 9
+|stat_text                               = Deals (6-254) to (9-381) Fire Damage<br>(0-60)% increased Cast Speed<br>Fires (0-2) additional Projectiles<br>Base radius is 0.9 metres
 |level1                                  = True
 |level1_level_requirement                = 3
 |level1_stat_text                        = Deals 6 to 9 Fire Damage

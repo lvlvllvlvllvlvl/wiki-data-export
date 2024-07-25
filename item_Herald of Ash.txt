@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Herald of Ash
 |class_id                                = Active Skill Gem
@@ -16,20 +16,10 @@
 |skill_id                                = HeraldOfAsh
 |cast_time                               = 0.0
 |required_level                          = 16
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Buff grants 0.75% increased Fire Damage
-|quality_type1_stat1_id                  = herald_of_ash_fire_damage_+%
-|quality_type1_stat1_value               = 750
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% reduced Area of Effect<br>3% increased Burning Damage
-|quality_type2_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type2_stat1_value               = -1000
-|quality_type2_stat2_id                  = burn_damage_+%
-|quality_type2_stat2_value               = 3000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 1% increased Area of Effect
-|quality_type3_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type3_stat1_value               = 1000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Base burning damage is an additional (0.25-5)% of Overkill Damage
+|quality_type1_stat1_id                  = herald_of_ash_burning_%_overkill_damage_per_minute
+|quality_type1_stat1_value               = 15000
 |static_stored_uses                      = 1
 |static_cooldown                         = 1
 |static_damage_effectiveness             = 100
@@ -45,7 +35,9 @@
 |static_stat3_value                      = 15
 |static_stat4_id                         = herald_of_ash_burning_%_overkill_damage_per_minute
 |static_stat4_value                      = 1500
-|stat_text                               = Base duration is 4 seconds<br>(0-38)% more Burning Damage<br>Buff grants 15% of your Physical Damage as Extra Fire Damage<br>Buff grants (9-12)% more Spell Fire Damage<br>Base Burning Damage is 25% of Overkill Damage
+|static_stat5_id                         = quality_display_herald_of_ash_is_gem
+|static_stat5_value                      = 1
+|stat_text                               = Base duration is 4.00 seconds<br>(0-38)% more Burning Damage<br>Buff grants 15% of your Physical Damage as Extra Fire Damage<br>Buff grants (9-12)% more Spell Fire Damage<br>Base Burning Damage is 25% of Overkill Damage
 |level1                                  = True
 |level1_level_requirement                = 16
 |level1_stat_text                        = Buff grants 9% more Spell Fire Damage

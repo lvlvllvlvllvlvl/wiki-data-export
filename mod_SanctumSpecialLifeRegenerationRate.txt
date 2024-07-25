@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialLifeRegenerationRate
+|mod_groups                       = LifeRegenerationRate
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Rejuvenating
+|mod_type                         = LifeRegenerationRate
+|stat_text                        = (8-12)% increased [[Life]] Regeneration rate
+|stat1_id                         = life_regeneration_rate_+%
+|stat1_min                        = 8
+|stat1_max                        = 12
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Gilded Torment Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = Though you were swallowed by your own darkness, you saved countless others<br>from eternal misery, young Tsarsk. You were not nothing, as you feared.
 |drop_level                              = 68
-|tags                                    = gilded_scarab, default
+|tags                                    = scarab, torment_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabTorment3
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabTorment3_
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = Area is haunted by 7 additional Tormented Spirits
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabTorment3_
 }}

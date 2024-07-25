@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapTempestItemQuantity
+|mod_groups                       = MapTempestItemQuantity
+|domain                           = 12
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Abundance
+|mod_type                         = MapTempestItemQuantity
+|stat_text                        = (20-30)% increased Quantity of Items found in next Area
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 20
+|stat1_max                        = 30
+|spawn_weight1_tag                = tempest_leaguestone
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

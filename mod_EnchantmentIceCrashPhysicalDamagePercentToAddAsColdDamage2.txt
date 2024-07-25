@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentIceCrashPhysicalDamagePercentToAddAsColdDamage2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Ice Crash Physical Damage Percent To Add As Cold Damage 2
+|mod_type                         = EnchantmentIceCrashPhysicalDamagePercentToAddAsColdDamage
+|stat_text                        = 15% of [[Ice Crash]] [[Physical Damage]] gained as Extra [[Cold Damage]]
+|stat1_id                         = ice_crash_physical_damage_%_to_add_as_cold_damage
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, cold, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

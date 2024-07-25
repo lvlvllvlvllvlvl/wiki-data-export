@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Gilded Harbinger Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = For your valour beyond the Gate, Sarina Titucius, we honour you with the first<br>Gilded Scarab awarded while its recipient still lives. Remain vigilant.
 |drop_level                              = 68
-|tags                                    = gilded_scarab, default
+|tags                                    = scarab, harbinger_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabHarbinger3
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabHarbinger3
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = Area contains 4 additional Harbingers
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabHarbinger3
 }}

@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = Fires multiple arrows into the air, to slowly land in sequence after a delay, starting at the targeted location and spreading outwards in all directions. Each arrow deals damage in an area around it. Half of the arrows will land directly on targets if there are targets in their range.
+|active_skill_name                       = Rain of Arrows of Saturation
+|item_class_id_restriction               = Bow
+|skill_id                                = RainOfArrowsGemling2
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = cannot_pierce
+|static_stat2_value                      = 1
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = main_hand_base_maximum_attack_distance
+|static_stat4_value                      = 35
+|static_stat5_id                         = skill_can_fire_arrows
+|static_stat5_value                      = 1
+|static_stat6_id                         = base_number_of_arrows
+|static_stat6_value                      = 45
+|stat_text                               = Fires +45 Arrows
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

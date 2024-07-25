@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeCooldownRecoveryPerPowerCharge2H
+|mod_groups                       = WeaponTreeCooldownRecoveryPerPowerCharge
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 50
+|mod_type                         = WeaponTreeCooldownRecoveryPerPowerCharge
+|stat_text                        = 6% increased Cooldown Recovery Rate per [[Power Charge]]<br>-1 to Maximum [[Power Charge|Power Charges]]
+|stat1_id                         = cooldown_recovery_+%_per_power_charge
+|stat1_min                        = 6
+|stat1_max                        = 6
+|stat2_id                         = max_power_charges
+|stat2_min                        = -1
+|stat2_max                        = -1
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 150
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

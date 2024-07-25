@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Culling Strike Support
 |class_id                                = Support Skill Gem
@@ -7,24 +7,17 @@
 |drop_level                              = 18
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemCullingStrike
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |dexterity_percent                       = 100
 |gem_tags                                = Support
 |skill_id                                = SupportCullingStrike
 |support_gem_letter                      = X
 |required_level                          = 18
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills deal 0.5% increased Damage
-|quality_type1_stat1_id                  = damage_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Supported Skills deal 3% increased Damage with Hits against Enemies that are on Low Life
-|quality_type2_stat1_id                  = damage_vs_enemies_on_low_life_+%
-|quality_type2_stat1_value               = 3000
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = Recover 0.1% of Life when Supported Skills Cull an Enemy
-|quality_type3_stat1_id                  = recover_%_maximum_life_on_cull
-|quality_type3_stat1_value               = 100
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Recover (0.1-2)% of Life when Supported Skills Cull an Enemy
+|quality_type1_breakpoints               = 10.0
+|quality_type1_stat1_id                  = recover_%_maximum_life_on_cull
+|quality_type1_stat1_value               = 100
 |static_cost_multiplier                  = 110
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

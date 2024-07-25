@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentRainOfArrowsRepeatCount2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Rain Of Arrows Repeat Count 2
+|mod_type                         = EnchantmentRainOfArrowsAdditionalSequenceChance
+|stat_text                        = [[Rain of Arrows]] has 15% chance to fire an additional sequence of arrows
+|stat1_id                         = rain_of_arrows_rain_of_arrows_additional_sequence_chance_%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

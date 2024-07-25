@@ -1,0 +1,18 @@
+{{Mod
+|id                               = IncursionTempleRoomBonus1_
+|mod_groups                       = IncursionTempleRoomBonus
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = IncursionTempleRoomBonus
+|stat_text                        = 4% increased Rarity of Items found in this Area<br>2% increased Quantity of Items found in this Area<br>1% increased Pack size
+|stat1_id                         = map_item_drop_rarity_+%
+|stat1_min                        = 4
+|stat1_max                        = 4
+|stat2_id                         = map_item_drop_quantity_+%
+|stat2_min                        = 2
+|stat2_max                        = 2
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 1
+|stat3_max                        = 1
+}}

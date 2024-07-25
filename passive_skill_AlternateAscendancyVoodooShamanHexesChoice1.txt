@@ -1,0 +1,12 @@
+{{Passive skill
+|id                                  = AlternateAscendancyVoodooShamanHexesChoice1
+|int_id                              = 28601
+|name                                = Creeping Lobotomy
+|reminder_text                       = (You can only take one of the three Warlock Power passives)<br>(Pacify curses all targets in an area, having no effect at first, but causing them to deal no damage once 60% of the curse's duration has expired)
+|is_multiple_choice_option           = True
+|icon                                = VoodooShamanSpecialCurse1 (VoodooShaman)
+|stat1_id                            = local_display_grants_skill_quieten
+|stat1_value                         = 20
+|stat_text                           = Grants [[Level]] 20 Pacify [[Skill]]
+|connections                         = AlternateAscendancyVoodooShamanHexesMulti1
+}}

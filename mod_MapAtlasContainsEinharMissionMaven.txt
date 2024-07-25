@@ -1,0 +1,29 @@
+{{Mod
+|id                               = MapAtlasContainsEinharMissionMaven
+|mod_groups                       = MapAtlasContainsMaster, MapMission
+|domain                           = 11
+|generation_type                  = 1
+|required_level                   = 1
+|mod_type                         = MapAtlasContainsMission
+|stat_text                        = 15 uses remaining<br>Your Maps contain Einhar<br>Area contains Einhar
+|stat1_id                         = sextant_uses_remaining
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = map_mission_id
+|stat2_min                        = 2
+|stat2_max                        = 2
+|stat3_id                         = display_map_mission_id
+|stat3_min                        = 2
+|stat3_max                        = 2
+|stat4_id                         = map_extra_content_weighting
+|stat4_min                        = 1
+|stat4_max                        = 1
+|spawn_weight1_tag                = unique_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = elder_occupied_map
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = has_atlas_mission
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 125
+}}

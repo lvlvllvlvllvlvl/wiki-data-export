@@ -1,0 +1,29 @@
+{{Mod
+|id                               = MapUberModTotemLife
+|mod_groups                       = MapUberModTotemLife
+|domain                           = 37
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Parasitic
+|mod_type                         = MapUberModTotemLife
+|stat_text                        = 15% of Damage Players' [[Totem|Totems]] take from [[Hit|Hits]] is taken from their Summoner's [[Life]] instead
+|stat1_id                         = map_damage_removed_from_player_life_before_totem_life_%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = map_pack_size_+%
+|stat2_min                        = 6
+|stat2_max                        = 6
+|stat3_id                         = map_item_drop_quantity_+%
+|stat3_min                        = 21
+|stat3_max                        = 21
+|stat4_id                         = map_item_drop_rarity_+%
+|stat4_min                        = 16
+|stat4_max                        = 16
+|stat5_id                         = map_scarab_drop_chance_+%_final_from_uber_mod
+|stat5_min                        = 53
+|stat5_max                        = 53
+|spawn_weight1_tag                = uber_tier_map
+|spawn_weight1_value              = 30
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

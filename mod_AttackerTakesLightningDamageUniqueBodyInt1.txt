@@ -1,0 +1,18 @@
+{{Mod
+|id                               = AttackerTakesLightningDamageUniqueBodyInt1
+|mod_groups                       = AttackerTakesLightningDamage
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = AttackerTakesLightningDamage
+|stat_text                        = Reflects 1 to 250 [[Lightning Damage]] to Melee Attackers
+|stat1_id                         = minimum_lightning_damage_to_return_to_melee_attacker
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = maximum_lightning_damage_to_return_to_melee_attacker
+|stat2_min                        = 250
+|stat2_max                        = 250
+|tags                             = elemental_damage, damage, elemental, lightning
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

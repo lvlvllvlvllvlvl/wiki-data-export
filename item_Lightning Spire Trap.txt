@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Lightning Spire Trap
 |class_id                                = Active Skill Gem
@@ -11,25 +11,16 @@
 |dexterity_percent                       = 40
 |intelligence_percent                    = 60
 |gem_tags                                = Trap, Critical, Spell, Duration, AoE, Lightning
-|gem_description                         = Throws a trap which, once triggered, will repeatedly strike multiple areas around it for a duration, dealing lightning damage. Modifiers to trap throwing speed will affect how frequently it strikes. Has a higher chance to critically strike Shocked enemies.
+|gem_description                         = Throws a trap which, once triggered, will repeatedly strike multiple areas around it for a duration, dealing lightning damage.
 |active_skill_name                       = Lightning Spire Trap
 |skill_id                                = LightningTowerTrap
 |cast_time                               = 1.0
 |required_level                          = 28
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% chance to Shock enemies
-|quality_type1_stat1_id                  = base_chance_to_shock_%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% less Skill Effect Duration<br>3% increased Cooldown Recovery Rate
-|quality_type2_stat1_id                  = active_skill_quality_duration_+%_final
-|quality_type2_stat1_value               = -1000
-|quality_type2_stat2_id                  = base_cooldown_speed_+%
-|quality_type2_stat2_value               = 3000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 0.5% chance to Hinder Enemies on Hit
-|quality_type3_stat1_id                  = spells_chance_to_hinder_on_hit_%
-|quality_type3_stat1_value               = 500
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Strikes +(0.05-1) Areas
+|quality_type1_breakpoints               = 20.0
+|quality_type1_stat1_id                  = lightning_tower_trap_number_of_beams
+|quality_type1_stat1_value               = 50
 |static_cost_types                       = Mana
 |static_stored_uses                      = 3
 |static_cooldown                         = 8
@@ -46,13 +37,19 @@
 |static_stat3_value                      = 1
 |static_stat4_id                         = base_trap_duration
 |static_stat4_value                      = 4000
-|static_stat5_id                         = base_skill_effect_duration
-|static_stat5_value                      = 3500
-|static_stat6_id                         = is_trap
-|static_stat6_value                      = 1
-|static_stat7_id                         = lightning_tower_trap_number_of_beams
-|static_stat7_value                      = 3
-|stat_text                               = Deals (15-238) to (45-713) Lightning Damage<br>Trap lasts 4 seconds<br>Base duration is 3.5 seconds<br>Strikes every (0.55-0.36) seconds<br>(100-138)% increased Critical Strike Chance against Shocked Enemies<br>Strikes 3 Areas
+|static_stat5_id                         = quality_display_trap_duration_is_gem
+|static_stat5_value                      = 1
+|static_stat6_id                         = base_skill_effect_duration
+|static_stat6_value                      = 3500
+|static_stat7_id                         = is_trap
+|static_stat7_value                      = 1
+|static_stat8_id                         = modifiers_to_trap_throw_speed_apply_to_lightning_spire_trap_frequency
+|static_stat8_value                      = 1
+|static_stat9_id                         = lightning_tower_trap_number_of_beams
+|static_stat9_value                      = 3
+|static_stat10_id                        = quality_display_lightning_tower_trap_is_gem
+|static_stat10_value                     = 1
+|stat_text                               = Deals (15-238) to (45-713) Lightning Damage<br>Trap lasts 4 seconds<br>Base duration is 3.50 seconds<br>Strikes every (0.55-0.36) seconds<br>Modifiers to Trap Throwing Speed also apply to strike Frequency<br>(100-138)% increased Critical Strike Chance against Shocked Enemies<br>Strikes 3 Areas
 |level1                                  = True
 |level1_level_requirement                = 28
 |level1_cost_amounts                     = 13
@@ -116,7 +113,7 @@
 |level6                                  = True
 |level6_level_requirement                = 42
 |level6_cost_amounts                     = 17
-|level6_stat_text                        = Deals 41 to 122 Lightning Damage<br>Strikes every 0.5 seconds<br>110% increased Critical Strike Chance against Shocked Enemies
+|level6_stat_text                        = Deals 41 to 122 Lightning Damage<br>Strikes every 0.50 seconds<br>110% increased Critical Strike Chance against Shocked Enemies
 |level6_stat1_id                         = spell_minimum_base_lightning_damage
 |level6_stat1_value                      = 41
 |level6_stat2_id                         = spell_maximum_base_lightning_damage
@@ -236,7 +233,7 @@
 |level16                                 = True
 |level16_level_requirement               = 62
 |level16_cost_amounts                    = 23
-|level16_stat_text                       = Deals 146 to 438 Lightning Damage<br>Strikes every 0.4 seconds<br>130% increased Critical Strike Chance against Shocked Enemies
+|level16_stat_text                       = Deals 146 to 438 Lightning Damage<br>Strikes every 0.40 seconds<br>130% increased Critical Strike Chance against Shocked Enemies
 |level16_stat1_id                        = spell_minimum_base_lightning_damage
 |level16_stat1_value                     = 146
 |level16_stat2_id                        = spell_maximum_base_lightning_damage
@@ -404,7 +401,7 @@
 |level30                                 = True
 |level30_level_requirement               = 90
 |level30_cost_amounts                    = 31
-|level30_stat_text                       = Deals 773 to 2318 Lightning Damage<br>Strikes every 0.3 seconds<br>158% increased Critical Strike Chance against Shocked Enemies
+|level30_stat_text                       = Deals 773 to 2318 Lightning Damage<br>Strikes every 0.30 seconds<br>158% increased Critical Strike Chance against Shocked Enemies
 |level30_stat1_id                        = spell_minimum_base_lightning_damage
 |level30_stat1_value                     = 773
 |level30_stat2_id                        = spell_maximum_base_lightning_damage
@@ -416,7 +413,7 @@
 |level31                                 = True
 |level31_level_requirement               = 91
 |level31_cost_amounts                    = 32
-|level31_stat_text                       = Deals 819 to 2456 Lightning Damage<br>Strikes every 0.3 seconds<br>159% increased Critical Strike Chance against Shocked Enemies
+|level31_stat_text                       = Deals 819 to 2456 Lightning Damage<br>Strikes every 0.30 seconds<br>159% increased Critical Strike Chance against Shocked Enemies
 |level31_stat1_id                        = spell_minimum_base_lightning_damage
 |level31_stat1_value                     = 819
 |level31_stat2_id                        = spell_maximum_base_lightning_damage
@@ -428,7 +425,7 @@
 |level32                                 = True
 |level32_level_requirement               = 92
 |level32_cost_amounts                    = 32
-|level32_stat_text                       = Deals 867 to 2601 Lightning Damage<br>Strikes every 0.3 seconds<br>160% increased Critical Strike Chance against Shocked Enemies
+|level32_stat_text                       = Deals 867 to 2601 Lightning Damage<br>Strikes every 0.30 seconds<br>160% increased Critical Strike Chance against Shocked Enemies
 |level32_stat1_id                        = spell_minimum_base_lightning_damage
 |level32_stat1_value                     = 867
 |level32_stat2_id                        = spell_maximum_base_lightning_damage
@@ -440,7 +437,7 @@
 |level33                                 = True
 |level33_level_requirement               = 93
 |level33_cost_amounts                    = 33
-|level33_stat_text                       = Deals 918 to 2755 Lightning Damage<br>Strikes every 0.3 seconds<br>161% increased Critical Strike Chance against Shocked Enemies
+|level33_stat_text                       = Deals 918 to 2755 Lightning Damage<br>Strikes every 0.30 seconds<br>161% increased Critical Strike Chance against Shocked Enemies
 |level33_stat1_id                        = spell_minimum_base_lightning_damage
 |level33_stat1_value                     = 918
 |level33_stat2_id                        = spell_maximum_base_lightning_damage
@@ -595,5 +592,4 @@
 |level20_experience                      = 340652931
 |level21_dexterity_requirement           = 70
 |level21_intelligence_requirement        = 100
-|inventory_icon                          = Lightning Spire Trap
 }}

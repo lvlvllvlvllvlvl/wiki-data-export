@@ -1,0 +1,27 @@
+{{Mod
+|id                               = MapSupporterExpedition
+|mod_groups                       = MapSupporterExpedition
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSupporterExpedition
+|stat_text                        = Runic Monsters have 200% more [[Life]]<br>Area contains an Expedition Encounter<br>3% Chance to convert Maps to Scarabs<br>22% increased Rarity of Items found in this Area<br>Runic Monsters deal 100% more Damage<br>Must complete an Expedition with three or more Remnants enabled to claim Reward
+|stat1_id                         = map_runic_monster_life_+%_final
+|stat1_min                        = 200
+|stat1_max                        = 200
+|stat2_id                         = map_expedition_league
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = map_supporter_map_to_scarab
+|stat3_min                        = 300
+|stat3_max                        = 300
+|stat4_id                         = map_item_drop_rarity_+%
+|stat4_min                        = 22
+|stat4_max                        = 22
+|stat5_id                         = map_runic_monster_damage_+%_final
+|stat5_min                        = 100
+|stat5_max                        = 100
+|stat6_id                         = map_reliquary_must_complete_expedition
+|stat6_min                        = 1
+|stat6_max                        = 1
+}}

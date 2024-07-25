@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmShockMinimumDamageIncrease2
+|mod_groups                       = AnimalCharmShockMinimumDamageIncrease
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 72
+|name                             = Elementalist's
+|mod_type                         = AnimalCharmShockMinimumDamageIncrease
+|stat_text                        = [[Shock|Shocks]] from your [[Hit|Hits]] always increase Damage taken by at least (8-10)%
+|stat1_id                         = shock_minimum_damage_taken_increase_%
+|stat1_min                        = 8
+|stat1_max                        = 10
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

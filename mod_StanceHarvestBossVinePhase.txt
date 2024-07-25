@@ -1,0 +1,18 @@
+{{Mod
+|id                               = StanceHarvestBossVinePhase
+|mod_groups                       = Stance
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = StanceHarvestBossVinePhase
+|stat_text                        = Cannot be Stunned (Hidden)<br>Cannot be Knocked Back (Hidden)
+|stat1_id                         = base_cannot_be_stunned
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = not_affected_by_action_speed_modifiers
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = cannot_be_knocked_back
+|stat3_min                        = 1
+|stat3_max                        = 1
+}}

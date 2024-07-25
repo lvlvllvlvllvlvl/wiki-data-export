@@ -1,0 +1,24 @@
+{{Mod
+|id                               = ClawPhysDamageAndEvasionPerDexUniqueJewel47
+|mod_groups                       = PassiveJewelGrantsRadius
+|domain                           = 10
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = ClawPhysDamageAndEvasionPerDex
+|stat_text                        = 1% increased [[Evasion Rating]] per 3 [[Dexterity]] Allocated in Radius<br>1% increased [[Claw]] [[Physical Damage]] per 3 [[Dexterity]] Allocated in Radius<br>1% increased Melee [[Physical Damage]] with Unarmed [[Attack|Attacks]] per 3 [[Dexterity]] Allocated in Radius
+|stat1_id                         = local_unique_jewel_evasion_rating_+%_per_X_dex_in_radius
+|stat1_min                        = 3
+|stat1_max                        = 3
+|stat2_id                         = local_unique_jewel_claw_physical_damage_+%_per_X_dex_in_radius
+|stat2_min                        = 3
+|stat2_max                        = 3
+|stat3_id                         = local_jewel_effect_base_radius
+|stat3_min                        = 1500
+|stat3_max                        = 1500
+|stat4_id                         = local_unique_jewel_unarmed_damage_+%_per_X_dex_in_radius
+|stat4_min                        = 3
+|stat4_max                        = 3
+|tags                             = physical_damage, defences, evasion, damage, physical, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

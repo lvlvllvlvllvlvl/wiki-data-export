@@ -1,0 +1,21 @@
+{{Mod
+|id                               = MapSupporterTorment
+|mod_groups                       = MapSupporterTorment
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSupporterTorment
+|stat_text                        = Tormented Spirits can Possess Players for 20 seconds<br />Tormented Spirits cannot Possess Monsters<br>Area is haunted by (6-8) additional Tormented Spirits<br>2% Chance to convert Maps to Unique Maps<br>14% increased Rarity of Items found in this Area
+|stat1_id                         = map_tormented_spirits_possess_players_instead_of_monsters
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_spawn_extra_torment_spirits
+|stat2_min                        = 6
+|stat2_max                        = 8
+|stat3_id                         = map_supporter_map_to_unique_map_permyriad
+|stat3_min                        = 200
+|stat3_max                        = 200
+|stat4_id                         = map_item_drop_rarity_+%
+|stat4_min                        = 14
+|stat4_max                        = 14
+}}

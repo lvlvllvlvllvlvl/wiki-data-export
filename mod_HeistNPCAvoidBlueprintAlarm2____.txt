@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HeistNPCAvoidBlueprintAlarm2____
+|mod_groups                       = HeistNPCAvoidBlueprintAlarm
+|domain                           = 23
+|generation_type                  = 2
+|required_level                   = 83
+|name                             = of Choreography
+|mod_type                         = HeistNPCAvoidBlueprintAlarm
+|stat_text                        = (4-5)% chance to not Activate Lockdown in Grand Heists
+|stat1_id                         = heist_blueprint_avoid_alarm_chance_%
+|stat1_min                        = 4
+|stat1_max                        = 5
+|spawn_weight1_tag                = heist_equipment_utility
+|spawn_weight1_value              = 80
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

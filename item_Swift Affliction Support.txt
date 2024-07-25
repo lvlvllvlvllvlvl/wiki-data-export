@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Swift Affliction Support
 |class_id                                = Support Skill Gem
@@ -7,24 +7,18 @@
 |drop_level                              = 31
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemRapidDecay
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
+|awakened_variant_id                     = Metadata/Items/Gems/SupportGemSwiftAfflictionPlus
 |dexterity_percent                       = 100
 |gem_tags                                = Support, Duration
 |skill_id                                = SupportRapidDecay
 |support_gem_letter                      = r
 |required_level                          = 31
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills deal 0.5% increased Damage over Time
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills deal (0.5-10)% increased Damage over Time
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = damage_over_time_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Supported Skills have 0.5% increased Projectile Speed
-|quality_type2_stat1_id                  = base_projectile_speed_+%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 10
-|quality_type3_stat_text                 = You and Enemies have 1% increased Movement Speed while inflicted with an Ailment from Supported Skills
-|quality_type3_stat1_id                  = you_and_enemy_movement_velocity_+%_while_affected_by_ailment_you_inflicted
-|quality_type3_stat1_value               = 1000
 |static_cost_multiplier                  = 140
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

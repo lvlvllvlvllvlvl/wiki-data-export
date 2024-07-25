@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = After a short preparation time, you fire projectiles repeatedly with a Bow or Wand. These projectiles have a small randomised spread. This skill cannot be Triggered.
+|active_skill_name                       = Barrage of Volley Fire
+|item_class_id_restriction               = Bow, Wand
+|skill_id                                = GemlingBarrage
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_stored_uses                      = 2
+|static_cooldown                         = 6
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 200
+|static_stat1_id                         = skill_can_fire_arrows
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_can_fire_wand_projectiles
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_number_of_projectiles
+|static_stat3_value                      = 4
+|static_stat4_id                         = projectiles_barrage
+|static_stat4_value                      = 1
+|static_stat5_id                         = barrage_final_volley_fires_x_additional_projectiles_simultaneously
+|static_stat5_value                      = 8
+|stat_text                               = Fires +4 Projectiles<br>Fires Projectiles sequentially<br>The first and final shots of the sequence fire 8 additional Projectiles simultaneously
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

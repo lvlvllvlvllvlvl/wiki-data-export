@@ -1,13 +1,15 @@
 {{Passive skill
 |id                                  = atlas_disable_league_6_
 |int_id                              = 21745
-|name                                = Ethics Review
+|name                                = Servant of Order
 |is_notable                          = True
 |is_atlas_passive                    = True
-|icon                                = WheelofDisablingMetamorph (AtlasTrees)
-|stat1_id                            = map_disable_metamorph_from_chance
+|icon                                = WheelofDisablingUltimatum (AtlasTrees)
+|stat1_id                            = map_disable_ultimatum_from_chance
 |stat1_value                         = 1
-|stat2_id                            = map_league_content_additional_chance_%
+|stat2_id                            = map_primary_league_content_additional_chance_%
 |stat2_value                         = 2
-|stat_text                           = Your Maps have no chance to contain Metamorph Encounters<br>Your Maps have +2% chance to contain other Extra Content
+|stat3_id                            = map_disable_ultimatum_scarab_drops
+|stat3_value                         = 1
+|stat_text                           = Your Maps have no chance to contain Ultimatum Encounters<br>Your Maps have +2% chance to contain other Extra Content that can<br />be turned off through Atlas Passives<br>Scarabs found in your Maps cannot be Ultimatum Scarabs
 }}

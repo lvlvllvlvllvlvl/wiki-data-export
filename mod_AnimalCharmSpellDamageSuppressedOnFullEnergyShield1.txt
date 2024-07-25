@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmSpellDamageSuppressedOnFullEnergyShield1
+|mod_groups                       = AnimalCharmSpellDamageSuppressedOnFullEnergyShield
+|domain                           = 35
+|generation_type                  = 2
+|required_level                   = 70
+|name                             = of the Trickster
+|mod_type                         = AnimalCharmSpellDamageSuppressedOnFullEnergyShield
+|stat_text                        = Prevent +(3-4)% of Suppressed [[Spell Damage]] while on Full [[Energy Shield]]
+|stat1_id                         = spell_damage_%_suppressed_while_on_full_energy_shield
+|stat1_min                        = 3
+|stat1_max                        = 4
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = dex_animal_charm
+|spawn_weight2_value              = 50
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

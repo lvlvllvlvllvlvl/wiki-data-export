@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MapMonsterPacksSkeletonsCrafted
+|mod_groups                       = MapMonsterPacks
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapMonsterPacksSkeletonsMap2Tier
+|stat_text                        = 6% increased Quantity of Items found in this Area<br>3% increased Rarity of Items found in this Area<br>Area is inhabited by Skeletons
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 6
+|stat1_max                        = 6
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 3
+|stat2_max                        = 3
+|stat3_id                         = map_packs_are_skeletons
+|stat3_min                        = 1
+|stat3_max                        = 1
+}}

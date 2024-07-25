@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Lightning Conduit
 |class_id                                = Active Skill Gem
@@ -15,18 +15,11 @@
 |skill_id                                = LightningConduit
 |cast_time                               = 0.5
 |required_level                          = 28
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Damage
-|quality_type1_stat1_id                  = damage_+%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = +0.5% to Critical Strike Multiplier
-|quality_type2_stat1_id                  = base_critical_strike_multiplier_+
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 10
-|quality_type3_stat_text                 = 5% chance to Destroy Corpses on Kill
-|quality_type3_stat1_id                  = destroy_corpses_on_kill_%_chance
-|quality_type3_stat1_value               = 5000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = +(0.2-4)% more Damage with Hits per 5% Shock Effect on Enemy
+|quality_type1_breakpoints               = 5.0
+|quality_type1_stat1_id                  = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
+|quality_type1_stat1_value               = 200
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 6
 |static_damage_effectiveness             = 140
@@ -36,7 +29,9 @@
 |static_stat1_value                      = 1
 |static_stat2_id                         = spell_cast_time_added_to_cooldown_if_triggered
 |static_stat2_value                      = 1
-|stat_text                               = Deals (33-387) to (98-1161) Lightning Damage<br>Cannot inflict Shock<br>This Spell's Cast Time is added to its Cooldown if Triggered<br>(10-20)% more Damage with Hits per 5% Shock Effect on Enemy
+|static_stat3_id                         = active_skill_base_area_of_effect_radius
+|static_stat3_value                      = 60
+|stat_text                               = Deals (33-387) to (98-1161) Lightning Damage<br>Cannot inflict Shock<br>This Spell's Cast Time is added to its Cooldown if Triggered<br>Base radius is 6 metres<br>(10-20)% more Damage with Hits per 5% Shock Effect on Enemy
 |level1                                  = True
 |level1_level_requirement                = 28
 |level1_cost_amounts                     = 6
@@ -47,6 +42,8 @@
 |level1_stat2_value                      = 98
 |level1_stat3_id                         = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level1_stat3_value                      = 10
+|level1_stat4_id                         = quality_display_lightning_conduit_is_gem
+|level1_stat4_value                      = 1
 |level2                                  = True
 |level2_level_requirement                = 31
 |level2_cost_amounts                     = 6
@@ -57,6 +54,8 @@
 |level2_stat2_value                      = 119
 |level2_stat3_id                         = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level2_stat3_value                      = 10
+|level2_stat4_id                         = quality_display_lightning_conduit_is_gem
+|level2_stat4_value                      = 1
 |level3                                  = True
 |level3_level_requirement                = 34
 |level3_cost_amounts                     = 7
@@ -67,6 +66,8 @@
 |level3_stat2_value                      = 145
 |level3_stat3_id                         = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level3_stat3_value                      = 11
+|level3_stat4_id                         = quality_display_lightning_conduit_is_gem
+|level3_stat4_value                      = 1
 |level4                                  = True
 |level4_level_requirement                = 37
 |level4_cost_amounts                     = 8
@@ -77,6 +78,8 @@
 |level4_stat2_value                      = 175
 |level4_stat3_id                         = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level4_stat3_value                      = 11
+|level4_stat4_id                         = quality_display_lightning_conduit_is_gem
+|level4_stat4_value                      = 1
 |level5                                  = True
 |level5_level_requirement                = 40
 |level5_cost_amounts                     = 9
@@ -87,6 +90,8 @@
 |level5_stat2_value                      = 211
 |level5_stat3_id                         = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level5_stat3_value                      = 12
+|level5_stat4_id                         = quality_display_lightning_conduit_is_gem
+|level5_stat4_value                      = 1
 |level6                                  = True
 |level6_level_requirement                = 42
 |level6_cost_amounts                     = 9
@@ -97,6 +102,8 @@
 |level6_stat2_value                      = 238
 |level6_stat3_id                         = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level6_stat3_value                      = 12
+|level6_stat4_id                         = quality_display_lightning_conduit_is_gem
+|level6_stat4_value                      = 1
 |level7                                  = True
 |level7_level_requirement                = 44
 |level7_cost_amounts                     = 10
@@ -107,6 +114,8 @@
 |level7_stat2_value                      = 268
 |level7_stat3_id                         = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level7_stat3_value                      = 13
+|level7_stat4_id                         = quality_display_lightning_conduit_is_gem
+|level7_stat4_value                      = 1
 |level8                                  = True
 |level8_level_requirement                = 46
 |level8_cost_amounts                     = 11
@@ -117,6 +126,8 @@
 |level8_stat2_value                      = 302
 |level8_stat3_id                         = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level8_stat3_value                      = 13
+|level8_stat4_id                         = quality_display_lightning_conduit_is_gem
+|level8_stat4_value                      = 1
 |level9                                  = True
 |level9_level_requirement                = 48
 |level9_cost_amounts                     = 11
@@ -127,6 +138,8 @@
 |level9_stat2_value                      = 340
 |level9_stat3_id                         = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level9_stat3_value                      = 14
+|level9_stat4_id                         = quality_display_lightning_conduit_is_gem
+|level9_stat4_value                      = 1
 |level10                                 = True
 |level10_level_requirement               = 50
 |level10_cost_amounts                    = 12
@@ -137,6 +150,8 @@
 |level10_stat2_value                     = 382
 |level10_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level10_stat3_value                     = 15
+|level10_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level10_stat4_value                     = 1
 |level11                                 = True
 |level11_level_requirement               = 52
 |level11_cost_amounts                    = 12
@@ -147,6 +162,8 @@
 |level11_stat2_value                     = 429
 |level11_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level11_stat3_value                     = 15
+|level11_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level11_stat4_value                     = 1
 |level12                                 = True
 |level12_level_requirement               = 54
 |level12_cost_amounts                    = 13
@@ -157,6 +174,8 @@
 |level12_stat2_value                     = 480
 |level12_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level12_stat3_value                     = 16
+|level12_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level12_stat4_value                     = 1
 |level13                                 = True
 |level13_level_requirement               = 56
 |level13_cost_amounts                    = 13
@@ -167,6 +186,8 @@
 |level13_stat2_value                     = 538
 |level13_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level13_stat3_value                     = 16
+|level13_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level13_stat4_value                     = 1
 |level14                                 = True
 |level14_level_requirement               = 58
 |level14_cost_amounts                    = 14
@@ -177,6 +198,8 @@
 |level14_stat2_value                     = 602
 |level14_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level14_stat3_value                     = 17
+|level14_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level14_stat4_value                     = 1
 |level15                                 = True
 |level15_level_requirement               = 60
 |level15_cost_amounts                    = 14
@@ -187,6 +210,8 @@
 |level15_stat2_value                     = 673
 |level15_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level15_stat3_value                     = 17
+|level15_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level15_stat4_value                     = 1
 |level16                                 = True
 |level16_level_requirement               = 62
 |level16_cost_amounts                    = 15
@@ -197,6 +222,8 @@
 |level16_stat2_value                     = 751
 |level16_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level16_stat3_value                     = 18
+|level16_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level16_stat4_value                     = 1
 |level17                                 = True
 |level17_level_requirement               = 64
 |level17_cost_amounts                    = 15
@@ -207,6 +234,8 @@
 |level17_stat2_value                     = 839
 |level17_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level17_stat3_value                     = 18
+|level17_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level17_stat4_value                     = 1
 |level18                                 = True
 |level18_level_requirement               = 66
 |level18_cost_amounts                    = 16
@@ -217,6 +246,8 @@
 |level18_stat2_value                     = 935
 |level18_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level18_stat3_value                     = 19
+|level18_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level18_stat4_value                     = 1
 |level19                                 = True
 |level19_level_requirement               = 68
 |level19_cost_amounts                    = 16
@@ -227,6 +258,8 @@
 |level19_stat2_value                     = 1042
 |level19_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level19_stat3_value                     = 19
+|level19_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level19_stat4_value                     = 1
 |level20                                 = True
 |level20_level_requirement               = 70
 |level20_cost_amounts                    = 16
@@ -237,6 +270,8 @@
 |level20_stat2_value                     = 1161
 |level20_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level20_stat3_value                     = 20
+|level20_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level20_stat4_value                     = 1
 |level21                                 = True
 |level21_level_requirement               = 72
 |level21_cost_amounts                    = 17
@@ -247,6 +282,8 @@
 |level21_stat2_value                     = 1292
 |level21_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level21_stat3_value                     = 20
+|level21_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level21_stat4_value                     = 1
 |level22                                 = True
 |level22_level_requirement               = 74
 |level22_cost_amounts                    = 17
@@ -257,6 +294,8 @@
 |level22_stat2_value                     = 1437
 |level22_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level22_stat3_value                     = 20
+|level22_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level22_stat4_value                     = 1
 |level23                                 = True
 |level23_level_requirement               = 76
 |level23_cost_amounts                    = 18
@@ -267,6 +306,8 @@
 |level23_stat2_value                     = 1597
 |level23_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level23_stat3_value                     = 20
+|level23_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level23_stat4_value                     = 1
 |level24                                 = True
 |level24_level_requirement               = 78
 |level24_cost_amounts                    = 18
@@ -277,6 +318,8 @@
 |level24_stat2_value                     = 1775
 |level24_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level24_stat3_value                     = 20
+|level24_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level24_stat4_value                     = 1
 |level25                                 = True
 |level25_level_requirement               = 80
 |level25_cost_amounts                    = 18
@@ -287,6 +330,8 @@
 |level25_stat2_value                     = 1971
 |level25_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level25_stat3_value                     = 20
+|level25_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level25_stat4_value                     = 1
 |level26                                 = True
 |level26_level_requirement               = 82
 |level26_cost_amounts                    = 19
@@ -297,6 +342,8 @@
 |level26_stat2_value                     = 2188
 |level26_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level26_stat3_value                     = 20
+|level26_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level26_stat4_value                     = 1
 |level27                                 = True
 |level27_level_requirement               = 84
 |level27_cost_amounts                    = 19
@@ -307,6 +354,8 @@
 |level27_stat2_value                     = 2427
 |level27_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level27_stat3_value                     = 21
+|level27_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level27_stat4_value                     = 1
 |level28                                 = True
 |level28_level_requirement               = 86
 |level28_cost_amounts                    = 19
@@ -317,6 +366,8 @@
 |level28_stat2_value                     = 2692
 |level28_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level28_stat3_value                     = 21
+|level28_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level28_stat4_value                     = 1
 |level29                                 = True
 |level29_level_requirement               = 88
 |level29_cost_amounts                    = 20
@@ -327,6 +378,8 @@
 |level29_stat2_value                     = 2983
 |level29_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level29_stat3_value                     = 21
+|level29_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level29_stat4_value                     = 1
 |level30                                 = True
 |level30_level_requirement               = 90
 |level30_cost_amounts                    = 20
@@ -337,6 +390,8 @@
 |level30_stat2_value                     = 3305
 |level30_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level30_stat3_value                     = 21
+|level30_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level30_stat4_value                     = 1
 |level31                                 = True
 |level31_level_requirement               = 91
 |level31_cost_amounts                    = 20
@@ -347,6 +402,8 @@
 |level31_stat2_value                     = 3479
 |level31_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level31_stat3_value                     = 21
+|level31_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level31_stat4_value                     = 1
 |level32                                 = True
 |level32_level_requirement               = 92
 |level32_cost_amounts                    = 20
@@ -357,6 +414,8 @@
 |level32_stat2_value                     = 3661
 |level32_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level32_stat3_value                     = 21
+|level32_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level32_stat4_value                     = 1
 |level33                                 = True
 |level33_level_requirement               = 93
 |level33_cost_amounts                    = 21
@@ -367,6 +426,8 @@
 |level33_stat2_value                     = 3852
 |level33_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level33_stat3_value                     = 21
+|level33_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level33_stat4_value                     = 1
 |level34                                 = True
 |level34_level_requirement               = 94
 |level34_cost_amounts                    = 21
@@ -377,6 +438,8 @@
 |level34_stat2_value                     = 4053
 |level34_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level34_stat3_value                     = 21
+|level34_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level34_stat4_value                     = 1
 |level35                                 = True
 |level35_level_requirement               = 95
 |level35_cost_amounts                    = 21
@@ -387,6 +450,8 @@
 |level35_stat2_value                     = 4264
 |level35_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level35_stat3_value                     = 21
+|level35_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level35_stat4_value                     = 1
 |level36                                 = True
 |level36_level_requirement               = 96
 |level36_cost_amounts                    = 21
@@ -397,6 +462,8 @@
 |level36_stat2_value                     = 4485
 |level36_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level36_stat3_value                     = 21
+|level36_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level36_stat4_value                     = 1
 |level37                                 = True
 |level37_level_requirement               = 97
 |level37_cost_amounts                    = 21
@@ -407,6 +474,8 @@
 |level37_stat2_value                     = 4718
 |level37_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level37_stat3_value                     = 22
+|level37_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level37_stat4_value                     = 1
 |level38                                 = True
 |level38_level_requirement               = 98
 |level38_cost_amounts                    = 22
@@ -417,6 +486,8 @@
 |level38_stat2_value                     = 4962
 |level38_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level38_stat3_value                     = 22
+|level38_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level38_stat4_value                     = 1
 |level39                                 = True
 |level39_level_requirement               = 99
 |level39_cost_amounts                    = 22
@@ -427,6 +498,8 @@
 |level39_stat2_value                     = 5219
 |level39_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level39_stat3_value                     = 22
+|level39_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level39_stat4_value                     = 1
 |level40                                 = True
 |level40_level_requirement               = 100
 |level40_cost_amounts                    = 22
@@ -437,6 +510,8 @@
 |level40_stat2_value                     = 5488
 |level40_stat3_id                        = energy_release_damage_+%_final_per_5%_increased_damage_taken_from_shock_on_target
 |level40_stat3_value                     = 22
+|level40_stat4_id                        = quality_display_lightning_conduit_is_gem
+|level40_stat4_value                     = 1
 |level1_intelligence_requirement         = 67
 |level1_experience                       = 0
 |level2_intelligence_requirement         = 73

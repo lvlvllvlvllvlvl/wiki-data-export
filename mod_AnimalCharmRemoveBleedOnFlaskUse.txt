@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmRemoveBleedOnFlaskUse
+|mod_groups                       = AnimalCharmRemoveBleedOnFlaskUse
+|domain                           = 35
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of the Pathfinder
+|mod_type                         = AnimalCharmRemoveBleedOnFlaskUse
+|stat_text                        = Removes Bleeding when you use a [[Flask]]
+|stat1_id                         = remove_bleed_on_flask_use
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = dex_animal_charm
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

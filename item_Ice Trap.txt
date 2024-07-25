@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Ice Trap
 |class_id                                = Active Skill Gem
@@ -16,18 +16,11 @@
 |skill_id                                = IceTrap
 |cast_time                               = 1.0
 |required_level                          = 28
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Area of Effect
-|quality_type1_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Penetrates 0.25% Cold Resistance
-|quality_type2_stat1_id                  = base_reduce_enemy_cold_resistance_%
-|quality_type2_stat1_value               = 250
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = Freezes enemies as though dealing 5% more Damage
-|quality_type3_stat1_id                  = freeze_as_though_dealt_damage_+%
-|quality_type3_stat1_value               = 5000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.75-15)% Chance for Trap to Trigger an additional time
+|quality_type1_breakpoints               = 1.3333333333333333
+|quality_type1_stat1_id                  = trap_%_chance_to_trigger_twice
+|quality_type1_stat1_value               = 750
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 5
 |static_damage_effectiveness             = 290
@@ -41,9 +34,17 @@
 |static_stat3_value                      = 1
 |static_stat4_id                         = base_trap_duration
 |static_stat4_value                      = 4000
-|static_stat5_id                         = is_trap
+|static_stat5_id                         = quality_display_trap_duration_is_gem
 |static_stat5_value                      = 1
-|stat_text                               = Deals (88-1275) to (132-1912) Cold Damage<br>Trap lasts 4 seconds
+|static_stat6_id                         = is_trap
+|static_stat6_value                      = 1
+|static_stat7_id                         = active_skill_base_area_of_effect_radius
+|static_stat7_value                      = 18
+|static_stat8_id                         = active_skill_base_secondary_area_of_effect_radius
+|static_stat8_value                      = 9
+|static_stat9_id                         = active_skill_base_tertiary_area_of_effect_radius
+|static_stat9_value                      = 6
+|stat_text                               = Deals (88-1275) to (132-1912) Cold Damage<br>Trap lasts 4 seconds<br>Base radius is 1.8 metres<br>Base secondary radius is 0.9 metres<br>Base tertiary radius is 0.6 metres
 |level1                                  = True
 |level1_level_requirement                = 28
 |level1_cost_amounts                     = 13
@@ -426,5 +427,4 @@
 |level20_experience                      = 340652931
 |level21_dexterity_requirement           = 100
 |level21_intelligence_requirement        = 70
-|inventory_icon                          = Ice Trap
 }}

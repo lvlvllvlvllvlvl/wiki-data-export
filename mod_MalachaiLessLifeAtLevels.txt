@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MalachaiLessLifeAtLevels
+|mod_groups                       = LifePerDifficulty
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterLessLifeNormalCruel
+|stat_text                        = 43% less Maximum Life between level 1 and 40 (Hidden)<br>29% less Maximum Life between level 41 and 57 (Hidden)
+|stat1_id                         = level_1_to_40_life_+%_final
+|stat1_min                        = -43
+|stat1_max                        = -43
+|stat2_id                         = level_41_to_57_life_+%_final
+|stat2_min                        = -29
+|stat2_max                        = -29
+|tags                             = resource, life
+}}

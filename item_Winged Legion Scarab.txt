@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Winged Legion Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = As the passage between Wraeclast and the land beyond time's reach is torn open,<br>we stand on the precipice of eternal war.<br>And no one remains to hold us back.
 |drop_level                              = 68
-|tags                                    = jewelled_scarab, default
+|tags                                    = scarab, legion_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabLegion4
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabLegion4
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = Area contains 2 additional Legion Encounters<br>Each Legion contains a War Hoard<br>Each Legion is accompanied by a General
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabLegion4
 }}

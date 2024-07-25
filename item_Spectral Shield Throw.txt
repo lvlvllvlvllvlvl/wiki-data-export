@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Spectral Shield Throw
 |class_id                                = Active Skill Gem
@@ -17,27 +17,17 @@
 |skill_id                                = ThrownShield
 |cast_time                               = 1.0
 |required_level                          = 28
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 2% increased Projectile Speed
-|quality_type1_stat1_id                  = base_projectile_speed_+%
-|quality_type1_stat1_value               = 2000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% increased Damage
-|quality_type2_stat1_id                  = damage_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 0.5% increased Attack Speed
-|quality_type3_stat1_id                  = attack_speed_+%
-|quality_type3_stat1_value               = 500
-|quality_type4_weight                    = 20
-|quality_type4_stat_text                 = +1% to Critical Strike Multiplier per 100 Maximum Energy Shield on Shield
-|quality_type4_stat1_id                  = critical_multiplier_+%_per_100_max_es_on_shield
-|quality_type4_stat1_value               = 1000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Fires (0.1-2) additional Projectiles
+|quality_type1_breakpoints               = 10.0
+|quality_type1_stat1_id                  = number_of_additional_projectiles
+|quality_type1_stat1_value               = 100
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 5
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
+|static_attack_time                      = 0.65
 |static_stat1_id                         = base_is_projectile
 |static_stat1_value                      = 1
 |static_stat2_id                         = thrown_shield_projectile_fire_random_directions
@@ -591,5 +581,4 @@
 |level20_experience                      = 340652931
 |level21_strength_requirement            = 70
 |level21_dexterity_requirement           = 100
-|inventory_icon                          = Spectral Shield Throw
 }}

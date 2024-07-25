@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmChanceToSummonTwoTotems2
+|mod_groups                       = AnimalCharmChanceToSummonTwoTotems
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Hierophant's
+|mod_type                         = AnimalCharmChanceToSummonTwoTotems
+|stat_text                        = [[Skill|Skills]] that would Summon a [[Totem]] have (31-50)% chance to Summon two [[Totem|Totems]] instead
+|stat1_id                         = chance_to_summon_two_totems_%
+|stat1_min                        = 31
+|stat1_max                        = 50
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = str_animal_charm
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

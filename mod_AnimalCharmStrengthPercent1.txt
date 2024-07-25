@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmStrengthPercent1
+|mod_groups                       = AnimalCharmStrengthPercent
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Chieftain's
+|mod_type                         = AnimalCharmStrengthPercent
+|stat_text                        = (3-5)% increased [[Strength]]
+|stat1_id                         = strength_+%
+|stat1_min                        = 3
+|stat1_max                        = 5
+|spawn_weight1_tag                = str_animal_charm
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

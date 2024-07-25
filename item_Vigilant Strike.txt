@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vigilant Strike
 |class_id                                = Active Skill Gem
@@ -17,22 +17,11 @@
 |skill_id                                = VigilantStrike
 |cast_time                               = 1.0
 |required_level                          = 4
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Damage
-|quality_type1_stat1_id                  = damage_+%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 2% increased Area of Effect
-|quality_type2_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type2_stat1_value               = 2000
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = 0.5% increased Cooldown Recovery Rate
-|quality_type3_stat1_id                  = base_cooldown_speed_+%
-|quality_type3_stat1_value               = 500
-|quality_type4_weight                    = 100
-|quality_type4_stat_text                 = Melee Hits Fortify for 0.1 seconds
-|quality_type4_stat1_id                  = gain_fortify_on_melee_hit_ms
-|quality_type4_stat1_value               = 100000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.2-4)% more Attack Damage per Endurance Charge
+|quality_type1_breakpoints               = 5.0
+|quality_type1_stat1_id                  = active_skill_attack_damage_+%_final_per_endurance_charge
+|quality_type1_stat1_value               = 200
 |static_cost_amounts                     = 6
 |static_cost_types                       = Mana
 |static_stored_uses                      = 1
@@ -42,7 +31,7 @@
 |static_stat1_value                      = 2
 |static_stat2_id                         = gain_fortify_on_melee_hit_ms
 |static_stat2_value                      = 8000
-|stat_text                               = +2 to Melee Strike Range<br>Melee Hits Fortify for 8 seconds
+|stat_text                               = +0.2 metres to Melee Strike Range<br>Melee Hits Fortify for 8 seconds
 |level1                                  = True
 |level1_level_requirement                = 4
 |level1_damage_effectiveness             = 230

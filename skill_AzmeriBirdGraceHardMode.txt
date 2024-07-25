@@ -1,0 +1,19 @@
+{{Skill
+|gem_description                         = Casts an aura that grants evasion to you and your allies.
+|active_skill_name                       = Grace
+|skill_id                                = AzmeriBirdGraceHardMode
+|cast_time                               = 1.0
+|required_level                          = 0
+|static_stored_uses                      = 1
+|static_cooldown                         = 0.5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 50
+|static_stat2_id                         = grace_aura_evasion_rating_+%_final
+|static_stat2_value                      = 50
+|stat_text                               = You and nearby allies gain 50% more Evasion rating
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

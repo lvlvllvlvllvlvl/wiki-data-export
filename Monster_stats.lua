@@ -36,27 +36,9 @@ local data = {	{
 	},
 	{
 		name = "Monster", 
-		id = "base_maximum_fire_damage_resistance_%", 
+		id = "base_maximum_all_resistances_%", 
 		value = 75, 
-		stat_text = "+75% to maximum [[Fire Resistance]]", 
-	},
-	{
-		name = "Monster", 
-		id = "base_maximum_cold_damage_resistance_%", 
-		value = 75, 
-		stat_text = "+75% to maximum [[Cold Resistance]]", 
-	},
-	{
-		name = "Monster", 
-		id = "base_maximum_lightning_damage_resistance_%", 
-		value = 75, 
-		stat_text = "+75% to maximum [[Lightning Resistance]]", 
-	},
-	{
-		name = "Monster", 
-		id = "base_maximum_chaos_damage_resistance_%", 
-		value = 75, 
-		stat_text = "+75% to maximum [[Chaos Resistance]]", 
+		stat_text = "", 
 	},
 	{
 		name = "Monster", 
@@ -80,13 +62,13 @@ local data = {	{
 		name = "Monster", 
 		id = "base_critical_strike_multiplier", 
 		value = 130, 
-		stat_text = "Base [[Critical Strike]] Multiplier: 130", 
+		stat_text = "Base [[Critical Strike Multiplier]]: 130", 
 	},
 	{
 		name = "Monster", 
 		id = "critical_ailment_dot_multiplier_+", 
 		value = 30, 
-		stat_text = "+30% to Damage over Time Multiplier for Ailments from Critical Strikes", 
+		stat_text = "+30% to Damage over Time Multiplier for Ailments from [[Critical strike|Critical Strikes]]", 
 	},
 	{
 		name = "Monster", 
@@ -325,7 +307,25 @@ local data = {	{
 	{
 		name = "Monster", 
 		id = "actor_scale_+%_limit", 
-		value = 200, 
+		value = 100, 
 		stat_text = "", 
+	},
+	{
+		name = "Monster", 
+		id = "damage_taken_when_hit_+%_final_per_fortification", 
+		value = -1, 
+		stat_text = "", 
+	},
+	{
+		name = "Monster", 
+		id = "base_max_fortification", 
+		value = 20, 
+		stat_text = "+20 to maximum Fortification", 
+	},
+	{
+		name = "Monster", 
+		id = "soul_eater_maximum_stacks", 
+		value = 45, 
+		stat_text = "Maximum 45 Eaten Souls", 
 	}}
 return data

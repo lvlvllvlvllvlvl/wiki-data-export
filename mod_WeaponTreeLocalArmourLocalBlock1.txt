@@ -1,0 +1,27 @@
+{{Mod
+|id                               = WeaponTreeLocalArmourLocalBlock1
+|mod_groups                       = BaseLocalDefences
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeLocalArmourLocalBlock
+|stat_text                        = +20 to [[Armour]]<br>+2% Chance to [[Block]]
+|stat1_id                         = local_base_physical_damage_reduction_rating
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = local_additional_block_chance_%
+|stat2_min                        = 2
+|stat2_max                        = 2
+|spawn_weight1_tag                = crucible_unique_helmet
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = int_armour
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = dex_armour
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = dex_int_armour
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = shield
+|spawn_weight5_value              = 500
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+}}

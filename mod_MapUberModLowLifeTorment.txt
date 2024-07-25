@@ -1,0 +1,29 @@
+{{Mod
+|id                               = MapUberModLowLifeTorment
+|mod_groups                       = MapUberModLowLifeTorment
+|domain                           = 37
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Fear
+|mod_type                         = MapUberModLowLifeTorment
+|stat_text                        = Unique Bosses are Possessed
+|stat1_id                         = map_boss_is_possessed
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_pack_size_+%
+|stat2_min                        = 6
+|stat2_max                        = 6
+|stat3_id                         = map_item_drop_quantity_+%
+|stat3_min                        = 24
+|stat3_max                        = 24
+|stat4_id                         = map_item_drop_rarity_+%
+|stat4_min                        = 16
+|stat4_max                        = 16
+|stat5_id                         = map_map_item_drop_chance_+%_final_from_uber_mod
+|stat5_min                        = 60
+|stat5_max                        = 60
+|spawn_weight1_tag                = uber_tier_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

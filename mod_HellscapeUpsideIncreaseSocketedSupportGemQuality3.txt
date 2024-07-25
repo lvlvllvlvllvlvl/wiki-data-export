@@ -1,0 +1,21 @@
+{{Mod
+|id                               = HellscapeUpsideIncreaseSocketedSupportGemQuality3
+|mod_groups                       = SupportGemQuality
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = IncreaseSocketedSupportGemQuality
+|stat_text                        = +(9-10)% to Quality of [[Item socket|Socketed]] Support Gems
+|stat1_id                         = local_socketed_support_gem_quality_+
+|stat1_min                        = 9
+|stat1_max                        = 10
+|spawn_weight1_tag                = weapon
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = shield
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

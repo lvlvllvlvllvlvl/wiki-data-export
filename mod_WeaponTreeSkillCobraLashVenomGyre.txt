@@ -1,0 +1,23 @@
+{{Mod
+|id                               = WeaponTreeSkillCobraLashVenomGyre
+|mod_groups                       = WeaponTreeSkillCobraLashVenomGyre
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSkillCobraLashVenomGyre
+|stat_text                        = Cobra Lash and Venom Gyre have -60% of [[Physical Damage]] Converted to [[Chaos Damage]]<br>25% chance for Bleeding inflicted with Cobra Lash or Venom Gyre to deal 100% more Damage
+|stat1_id                         = cobra_lash_and_venom_gyre_skill_physical_damage_%_to_convert_to_chaos
+|stat1_min                        = -60
+|stat1_max                        = -60
+|stat2_id                         = cobra_lash_and_venom_gyre_bleeding_damage_+100%_final_chance
+|stat2_min                        = 25
+|stat2_max                        = 25
+|spawn_weight1_tag                = claw
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = dagger
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = shield
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+}}

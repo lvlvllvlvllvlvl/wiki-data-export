@@ -1,0 +1,27 @@
+{{Mod
+|id                               = HellscapeUpsideLifeRegeneration3c_
+|mod_groups                       = LifeRegeneration
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = LifeRegeneration
+|stat_text                        = Regenerate (24.2-25) [[Life]] per second
+|stat1_id                         = base_life_regeneration_rate_per_minute
+|stat1_min                        = 1450
+|stat1_max                        = 1500
+|spawn_weight1_tag                = fishing_rod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = weapon
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = quiver
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = flask
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = map
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 100
+|tags                             = flat_life_regen, resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

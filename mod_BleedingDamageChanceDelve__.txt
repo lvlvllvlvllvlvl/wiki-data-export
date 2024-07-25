@@ -1,0 +1,21 @@
+{{Mod
+|id                               = BleedingDamageChanceDelve__
+|mod_groups                       = BleedingDamage
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of the Underground
+|mod_type                         = BleedingDamageChance
+|stat_text                        = [[Attack|Attacks]] have 25% chance to cause Bleeding<br>(30-50)% increased Damage with Bleeding
+|stat1_id                         = bleed_on_hit_with_attacks_%
+|stat1_min                        = 25
+|stat1_max                        = 25
+|stat2_id                         = bleeding_damage_+%
+|stat2_min                        = 30
+|stat2_max                        = 50
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = physical_damage, bleed, damage, physical, attack, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

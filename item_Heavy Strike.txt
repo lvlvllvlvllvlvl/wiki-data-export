@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Heavy Strike
 |class_id                                = Active Skill Gem
@@ -16,20 +16,10 @@
 |skill_id                                = HeavyStrike
 |cast_time                               = 1.0
 |required_level                          = 1
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Stun Duration on enemies<br>1% increased Damage
-|quality_type1_stat1_id                  = base_stun_duration_+%
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% chance to deal Double Damage
+|quality_type1_stat1_id                  = chance_to_deal_double_damage_%
 |quality_type1_stat1_value               = 1000
-|quality_type1_stat2_id                  = damage_+%
-|quality_type1_stat2_value               = 1000
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = 1% increased Knockback Distance
-|quality_type2_stat1_id                  = knockback_distance_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 10
-|quality_type3_stat_text                 = 5% reduced Knockback Distance
-|quality_type3_stat1_id                  = knockback_distance_+%
-|quality_type3_stat1_value               = -5000
 |static_cost_amounts                     = 5
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 85
@@ -39,7 +29,7 @@
 |static_stat2_value                      = 25
 |static_stat3_id                         = melee_range_+
 |static_stat3_value                      = 2
-|stat_text                               = Knocks Enemies Back on Hit<br>25% reduced Enemy Stun Threshold<br>+2 to Melee Strike Range<br>(20-39)% chance to deal Double Damage
+|stat_text                               = Knocks Enemies Back on Hit<br>25% reduced Enemy Stun Threshold<br>+0.2 metres to Melee Strike Range<br>(20-39)% chance to deal Double Damage
 |level1                                  = True
 |level1_level_requirement                = 1
 |level1_damage_effectiveness             = 195
@@ -361,5 +351,4 @@
 |level20_strength_requirement            = 155
 |level20_experience                      = 342051651
 |level21_strength_requirement            = 159
-|inventory_icon                          = Heavy Strike
 }}

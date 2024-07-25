@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Shield Charge
 |class_id                                = Active Skill Gem
@@ -16,24 +16,17 @@
 |skill_id                                = NewShieldCharge
 |cast_time                               = 1.0
 |required_level                          = 10
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Movement Speed
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% increased Movement Speed
 |quality_type1_stat1_id                  = base_movement_velocity_+%
 |quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% increased Damage
-|quality_type2_stat1_id                  = damage_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 1% more Damage with Hits at Maximum Charge Distance
-|quality_type3_stat1_id                  = shield_charge_damage_+%_maximum
-|quality_type3_stat1_value               = 1000
 |static_cost_amounts                     = 10
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 5
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
+|static_attack_time                      = 0.5
 |static_stat1_id                         = attack_is_melee_override
 |static_stat1_value                      = 1
 |static_stat2_id                         = ignores_proximity_shield
@@ -608,5 +601,4 @@
 |level20_strength_requirement            = 155
 |level20_experience                      = 342026975
 |level21_strength_requirement            = 159
-|inventory_icon                          = Shield Charge
 }}

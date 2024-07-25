@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = 
+|active_skill_name                       = Ice Elemental Spear
+|skill_id                                = IceElementalSpearSummonedDeathNova
+|cast_time                               = 1.0
+|required_level                          = 3
+|static_damage_effectiveness             = 150
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = monster_reverse_point_blank_damage_-%_at_minimum_range
+|static_stat2_value                      = 25
+|static_stat3_id                         = spell_minimum_base_cold_damage
+|static_stat3_value                      = 12
+|static_stat4_id                         = spell_maximum_base_cold_damage
+|static_stat4_value                      = 19
+|static_stat5_id                         = projectiles_nova
+|static_stat5_value                      = 1
+|static_stat6_id                         = number_of_additional_projectiles
+|static_stat6_value                      = 13
+|stat_text                               = Deals 12 to 19 Cold Damage<br>Fires Projectiles in a circle<br>Fires 13 additional Projectiles
+|level1                                  = True
+|level1_level_requirement                = 3
+}}

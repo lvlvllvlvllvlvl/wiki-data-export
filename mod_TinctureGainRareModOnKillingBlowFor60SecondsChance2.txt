@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TinctureGainRareModOnKillingBlowFor60SecondsChance2
+|mod_groups                       = WeaponGainRareModOnKillingBlowFor60SecondsChance
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 70
+|name                             = of the Chase
+|mod_type                         = WeaponGainRareModOnKillingBlowFor60SecondsChance
+|stat_text                        = Killing Blows against Rare Monsters have a (13-18)% chance<br />to grant one of their Modifiers for 60 seconds
+|stat1_id                         = gain_1_rare_monster_mod_on_killing_blow_with_weapons_for_60_seconds_%_chance
+|stat1_min                        = 13
+|stat1_max                        = 18
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeDownsideElementalDurationOnSelf2
+|mod_groups                       = SelfStatusAilmentDuration
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 45
+|mod_type                         = SelfStatusAilmentDuration
+|stat_text                        = (19-17)% increased Elemental Ailment Duration on you
+|stat1_id                         = self_elemental_status_duration_-%
+|stat1_min                        = -19
+|stat1_max                        = -17
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

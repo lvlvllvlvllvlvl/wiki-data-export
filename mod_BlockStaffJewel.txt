@@ -1,0 +1,30 @@
+{{Mod
+|id                               = BlockStaffJewel
+|mod_groups                       = FormBlock
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Deflecting
+|mod_type                         = BlockStaffForJewel
+|stat_text                        = +1% Chance to [[Block]] [[Attack Damage]] while wielding a [[Staff]]
+|stat1_id                         = additional_staff_block_%
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = one_handed_mod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = staff
+|spawn_weight2_value              = 350
+|spawn_weight3_tag                = specific_weapon
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = shield_mod
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = dual_wielding_mod
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = not_dex
+|spawn_weight6_value              = 350
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+|tags                             = block
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

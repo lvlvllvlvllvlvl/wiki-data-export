@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Double Strike
 |class_id                                = Active Skill Gem
@@ -8,6 +8,7 @@
 |tags                                    = up_to_level_2_gem, up_to_level_8_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemDoubleStrike
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|vaal_variant_id                         = Metadata/Items/Gems/SkillGemVaalDoubleStrike
 |dexterity_percent                       = 100
 |gem_tags                                = Attack, Melee, Strike, Physical
 |gem_description                         = Performs two fast strikes with a melee weapon.
@@ -16,18 +17,10 @@
 |skill_id                                = DoubleStrike
 |cast_time                               = 1.0
 |required_level                          = 1
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Attack Speed
-|quality_type1_stat1_id                  = attack_speed_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 2% increased Elemental Damage
-|quality_type2_stat1_id                  = elemental_damage_+%
-|quality_type2_stat1_value               = 2000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 1% chance to Maim on Hit
-|quality_type3_stat1_id                  = maim_on_hit_%
-|quality_type3_stat1_value               = 1000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% chance to deal Double Damage to Bleeding Enemies
+|quality_type1_stat1_id                  = chance_to_deal_double_damage_%_vs_bleeding_enemies
+|quality_type1_stat1_value               = 1000
 |static_cost_amounts                     = 5
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 80

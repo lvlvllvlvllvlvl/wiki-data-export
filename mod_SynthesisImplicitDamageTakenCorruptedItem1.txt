@@ -1,0 +1,12 @@
+{{Mod
+|id                               = SynthesisImplicitDamageTakenCorruptedItem1
+|mod_groups                       = LocalCorruptedBonus
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 60
+|mod_type                         = DamageTakenCorruptedItem
+|stat_text                        = 5% reduced Damage taken if Corrupted
+|stat1_id                         = local_damage_taken_+%_if_item_corrupted
+|stat1_min                        = -5
+|stat1_max                        = -5
+}}

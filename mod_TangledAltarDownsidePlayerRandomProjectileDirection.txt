@@ -1,0 +1,18 @@
+{{Mod
+|id                               = TangledAltarDownsidePlayerRandomProjectileDirection
+|mod_groups                       = TangledAltarDownsidePlayerRandomProjectileDirection
+|domain                           = 29
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = TangledAltarDownsidePlayerRandomProjectileDirection
+|stat_text                        = Projectiles are fired in random directions
+|stat1_id                         = random_projectile_direction
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = primordial_altar_upside
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = tangle_altar
+|spawn_weight2_value              = 400
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

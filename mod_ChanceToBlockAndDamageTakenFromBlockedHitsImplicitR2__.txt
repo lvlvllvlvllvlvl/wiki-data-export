@@ -1,0 +1,16 @@
+{{Mod
+|id                               = ChanceToBlockAndDamageTakenFromBlockedHitsImplicitR2__
+|mod_groups                       = ChanceToBlockAndDamageTakenFromBlockedHits
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 50
+|mod_type                         = ChanceToBlockAndDamageTakenFromBlockedHits
+|stat_text                        = +(4-5)% Chance to [[Block]] [[Attack Damage]]<br>You take 20% of Damage from Blocked [[Hit|Hits]]
+|stat1_id                         = additional_block_%
+|stat1_min                        = 4
+|stat1_max                        = 5
+|stat2_id                         = base_block_%_damage_taken
+|stat2_min                        = 20
+|stat2_max                        = 20
+|tags                             = block
+}}

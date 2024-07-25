@@ -1,0 +1,19 @@
+{{Mod
+|id                               = TincturePhasingOnKill3
+|mod_groups                       = PhasingOnWeaponKill
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of Shadows
+|mod_type                         = PhasingOnWeaponKill
+|stat_text                        = (31-40)% chance to gain Phasing for 4 seconds on [[Kill]]
+|stat1_id                         = phasing_for_4_seconds_on_weapon_kill_%
+|stat1_min                        = 31
+|stat1_max                        = 40
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,24 @@
+{{Mod
+|id                               = AddedLightningDamagePerDexInRadiusUniqueJewel53
+|mod_groups                       = PassiveJewelGrantsRadius
+|domain                           = 10
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = AddedLightningDamagePerDexInRadius
+|stat_text                        = Adds 1 maximum [[Lightning Damage]] to [[Attack|Attacks]] per 1 [[Dexterity]] Allocated in Radius<br>Adds 1 to 2 [[Lightning Damage]] to [[Attack|Attacks]]
+|stat1_id                         = local_unique_jewel_one_additional_maximum_lightning_damage_per_X_dex
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = attack_minimum_added_lightning_damage
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = attack_maximum_added_lightning_damage
+|stat3_min                        = 2
+|stat3_max                        = 2
+|stat4_id                         = local_jewel_effect_base_radius
+|stat4_min                        = 1500
+|stat4_max                        = 1500
+|tags                             = elemental_damage, damage, elemental, lightning, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SanctumSpecialOfferingEffect
+|mod_groups                       = OfferingEffect
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 82
+|name                             = Sacrificial
+|mod_type                         = OfferingEffect
+|stat_text                        = (15-25)% increased effect of Offerings
+|stat1_id                         = offering_spells_effect_+%
+|stat1_min                        = 15
+|stat1_max                        = 25
+|spawn_weight1_tag                = int_special_relic
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 50
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

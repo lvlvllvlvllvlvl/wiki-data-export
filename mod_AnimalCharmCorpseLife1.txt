@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmCorpseLife1
+|mod_groups                       = AnimalCharmCorpseLife
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 45
+|name                             = Necromancer's
+|mod_type                         = AnimalCharmCorpseLife
+|stat_text                        = Corpses you Spawn have (5-10)% increased Maximum [[Life]]
+|stat1_id                         = maximum_life_+%_for_corpses_you_create
+|stat1_min                        = 5
+|stat1_max                        = 10
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

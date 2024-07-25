@@ -1,0 +1,20 @@
+{{Mod
+|id                               = StaffBonus1
+|mod_groups                       = SpecificWeaponBonuses
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 8
+|name                             = Monk's
+|mod_type                         = StaffBonuses
+|stat_text                        = 5% increased [[Physical Damage]] with [[Staff|Staves]]<br>2% increased [[Attack Speed]] with [[Staff|Staves]]<br>3% increased [[Accuracy Rating]] with [[Staff|Staves]]
+|stat1_id                         = physical_staff_damage_+%
+|stat1_min                        = 5
+|stat1_max                        = 5
+|stat2_id                         = staff_attack_speed_+%
+|stat2_min                        = 2
+|stat2_max                        = 2
+|stat3_id                         = staff_accuracy_rating_+%
+|stat3_min                        = 3
+|stat3_max                        = 3
+|tags                             = physical_damage, damage, physical, attack, speed
+}}

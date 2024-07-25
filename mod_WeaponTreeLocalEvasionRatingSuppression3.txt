@@ -1,0 +1,25 @@
+{{Mod
+|id                               = WeaponTreeLocalEvasionRatingSuppression3
+|mod_groups                       = BaseLocalDefences
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 65
+|mod_type                         = WeaponTreeLocalEvasionRatingSuppression
+|stat_text                        = +40 to [[Evasion Rating]]<br>+4% chance to Suppress [[Spell Damage]]
+|stat1_id                         = local_base_evasion_rating
+|stat1_min                        = 40
+|stat1_max                        = 40
+|stat2_id                         = base_spell_suppression_chance_%
+|stat2_min                        = 4
+|stat2_max                        = 4
+|spawn_weight1_tag                = str_armour
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = int_armour
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = str_int_armour
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = shield
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+}}

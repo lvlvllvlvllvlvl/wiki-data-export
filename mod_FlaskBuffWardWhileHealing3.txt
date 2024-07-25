@@ -1,0 +1,20 @@
+{{Mod
+|id                               = FlaskBuffWardWhileHealing3
+|mod_groups                       = FlaskBuffWhileHealing
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 52
+|name                             = of Runeflaring
+|mod_type                         = FlaskBuffWardWhileHealing
+|stat_text                        = (25-27)% increased Ward during Effect
+|stat1_id                         = local_flask_ward_+%_during_effect
+|stat1_min                        = 25
+|stat1_max                        = 27
+|spawn_weight1_tag                = expedition_flask
+|spawn_weight1_value              = 750
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, defences
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

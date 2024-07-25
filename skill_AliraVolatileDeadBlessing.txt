@@ -18,9 +18,13 @@
 |static_stat4_value                      = 1
 |static_stat5_id                         = volatile_dead_base_number_of_corpses_to_consume
 |static_stat5_value                      = 5
-|static_stat6_id                         = volatile_dead_max_cores_allowed
-|static_stat6_value                      = 60
-|stat_text                               = Deals 207 to 310 Fire Damage<br>Explosion deals base Fire Damage equal to 1% of the corpse's Maximum Life<br>Consumes up to 5 corpses<br>Maximum of 60 Orbs at a time
+|static_stat6_id                         = active_skill_base_area_of_effect_radius
+|static_stat6_value                      = 20
+|static_stat7_id                         = active_skill_base_secondary_area_of_effect_radius
+|static_stat7_value                      = 15
+|static_stat8_id                         = volatile_dead_max_cores_allowed
+|static_stat8_value                      = 60
+|stat_text                               = Deals 207 to 310 Fire Damage<br>Explosion deals base Fire Damage equal to 1% of the corpse's Maximum Life<br>Consumes up to 5 corpses<br>Base radius is 2 metres<br>Base secondary radius is 1.5 metres<br>Maximum of 60 Orbs at a time
 |level1                                  = True
 |level1_level_requirement                = 50
 }}

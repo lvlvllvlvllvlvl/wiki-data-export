@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialAllColdDamageCanIgnite
+|mod_groups                       = ColdIgnites
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 84
+|name                             = Apocalyptic
+|mod_type                         = AllColdDamageCanIgnite
+|stat_text                        = Your [[Cold Damage]] can [[Ignite]]
+|stat1_id                         = cold_damage_can_ignite
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = dex_special_relic
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 50
+|tags                             = elemental, fire, cold, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

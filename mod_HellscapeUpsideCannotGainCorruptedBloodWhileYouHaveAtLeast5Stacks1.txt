@@ -1,0 +1,17 @@
+{{Mod
+|id                               = HellscapeUpsideCannotGainCorruptedBloodWhileYouHaveAtLeast5Stacks1
+|mod_groups                       = CannotGainCorruptedBloodWhileYouHaveAtLeast5Stacks
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 45
+|mod_type                         = CannotGainCorruptedBloodWhileYouHaveAtLeast5Stacks
+|stat_text                        = [[Corrupted Blood]] cannot be inflicted on you if you have at least 5 [[Corrupted Blood]] Debuffs on you
+|stat1_id                         = cannot_gain_corrupted_blood_while_you_have_at_least_5_stacks
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = amulet
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage
+}}

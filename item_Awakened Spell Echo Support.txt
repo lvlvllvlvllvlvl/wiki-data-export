@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Awakened Spell Echo Support
 |class_id                                = Support Skill Gem
@@ -7,14 +7,16 @@
 |drop_level                              = 72
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemSpellEchoPlus
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
+|is_awakened_support_gem                 = true
 |intelligence_percent                    = 100
 |gem_tags                                = Spell, Support
 |skill_id                                = SupportSpellEchoPlus
 |support_gem_letter                      = k
 |required_level                          = 72
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills deal 0.5% increased Spell Damage
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills deal (0.5-10)% increased Spell Damage
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = spell_damage_+%
 |quality_type1_stat1_value               = 500
 |static_cost_multiplier                  = 150
@@ -128,7 +130,7 @@
 |level20_stat_text                       = Supported Skills have 67% more Cast Speed
 |level20_stat1_id                        = support_multicast_cast_speed_+%_final
 |level20_stat1_value                     = 67
-|gem_description                         = Supports spell skills, making them repeat when cast. Cannot support Vaal skills, totem skills, channelling skills, triggered skills, instant skills, or skills with a reservation.
+|gem_description                         = Supports spell skills, making them repeat when cast. Cannot support Vaal skills, totem skills, channelling skills, triggered skills, instant skills, blink skills, or skills with a reservation.
 |level1_intelligence_requirement         = 114
 |level1_experience                       = 0
 |level2_intelligence_requirement         = 117

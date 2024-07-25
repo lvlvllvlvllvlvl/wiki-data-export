@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Toxic Rain
 |class_id                                = Active Skill Gem
@@ -16,24 +16,10 @@
 |skill_id                                = RainOfSpores
 |cast_time                               = 1.0
 |required_level                          = 12
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Area of Effect
-|quality_type1_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 0.5% increased Skill Effect Duration
-|quality_type2_stat1_id                  = skill_effect_duration_+%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 1% of Physical Damage Converted to Chaos Damage
-|quality_type3_stat1_id                  = skill_physical_damage_%_to_convert_to_chaos
-|quality_type3_stat1_value               = 1000
-|quality_type4_weight                    = 20
-|quality_type4_stat_text                 = 1% reduced Debuff Effect<br>Fires 0.1 additional Arrows
-|quality_type4_stat1_id                  = skill_buff_effect_+%
-|quality_type4_stat1_value               = -1000
-|quality_type4_stat2_id                  = base_number_of_additional_arrows
-|quality_type4_stat2_value               = 100
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Base duration is (0.01-0.2) seconds
+|quality_type1_stat1_id                  = base_skill_effect_duration
+|quality_type1_stat1_value               = 10000
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 100
 |static_duration                         = 1
@@ -49,17 +35,19 @@
 |static_stat5_value                      = 1
 |static_stat6_id                         = base_skill_effect_duration
 |static_stat6_value                      = 1000
-|static_stat7_id                         = base_number_of_additional_arrows
-|static_stat7_value                      = 4
-|static_stat8_id                         = projectile_damage_modifiers_apply_to_skill_dot
+|static_stat7_id                         = base_number_of_arrows
+|static_stat7_value                      = 5
+|static_stat8_id                         = quality_display_base_additional_arrows_is_gem
 |static_stat8_value                      = 1
-|static_stat9_id                         = skill_physical_damage_%_to_convert_to_chaos
-|static_stat9_value                      = 60
-|static_stat10_id                        = rain_of_spores_vines_movement_speed_+%_final
-|static_stat10_value                     = -5
-|static_stat11_id                        = minimum_rain_of_spores_movement_speed_+%_final_cap
-|static_stat11_value                     = -30
-|stat_text                               = Deals (8-238) Base Chaos Damage per second<br>Base duration is 1 seconds<br>Fires 4 additional Arrows<br>Modifiers to Projectile Damage apply to this Skill's Damage Over Time effect<br>60% of Physical Damage Converted to Chaos Damage<br>Each Spore Pod applies 5% less Movement Speed to nearby Enemies, to a maximum of 30%
+|static_stat9_id                         = projectile_damage_modifiers_apply_to_skill_dot
+|static_stat9_value                      = 1
+|static_stat10_id                        = skill_physical_damage_%_to_convert_to_chaos
+|static_stat10_value                     = 60
+|static_stat11_id                        = rain_of_spores_vines_movement_speed_+%_final
+|static_stat11_value                     = -5
+|static_stat12_id                        = minimum_rain_of_spores_movement_speed_+%_final_cap
+|static_stat12_value                     = -30
+|stat_text                               = Deals (8-238) Base Chaos Damage per second<br>Base duration is 1.00 seconds<br>Fires 5 Arrows<br>Modifiers to Projectile Damage apply to this Skill's Damage Over Time effect<br>60% of Physical Damage Converted to Chaos Damage<br>Each Spore Pod applies 5% less Movement Speed to nearby Enemies, to a maximum of 30%
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_cost_amounts                     = 7
@@ -421,5 +409,4 @@
 |level20_dexterity_requirement           = 155
 |level20_experience                      = 342004647
 |level21_dexterity_requirement           = 159
-|inventory_icon                          = Toxic Rain
 }}

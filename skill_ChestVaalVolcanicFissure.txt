@@ -1,0 +1,33 @@
+{{Skill
+|gem_description                         = Slam the ground, creating a winding fissure that deals area damage while travelling outwards. When it reaches the target location it erupts, releasing a burst of molten projectiles. After erupting, the fissure continues moving towards enemies to cause further eruptions. Requires an Axe, Mace, Sceptre, Staff or Unarmed.
+|active_skill_name                       = Vaal Volcanic Fissure
+|item_class_id_restriction               = One Hand Mace, Two Hand Mace, Sceptre, Warstaff, Staff, One Hand Axe, Two Hand Axe, Unarmed
+|skill_id                                = ChestVaalVolcanicFissure
+|cast_time                               = 1.0
+|required_level                          = 3
+|static_vaal_souls_requirement           = 25
+|static_vaal_stored_uses                 = 1
+|static_vaal_soul_gain_prevention_time   = 6
+|static_damage_effectiveness             = 220
+|static_damage_multiplier                = 220
+|static_attack_speed_multiplier          = 80
+|static_stat1_id                         = cannot_cancel_skill_before_contact_point
+|static_stat1_value                      = 1
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = projectiles_not_offset
+|static_stat3_value                      = 1
+|static_stat4_id                         = show_number_of_projectiles
+|static_stat4_value                      = 1
+|static_stat5_id                         = base_number_of_projectiles
+|static_stat5_value                      = 9
+|static_stat6_id                         = active_skill_area_of_effect_+%_final
+|static_stat6_value                      = 50
+|static_stat7_id                         = skill_physical_damage_%_to_convert_to_fire
+|static_stat7_value                      = 60
+|static_stat8_id                         = vaal_volcanic_fissure_crack_repeat_count
+|static_stat8_value                      = 5
+|stat_text                               = Fires +9 Projectiles<br>50% more Area of Effect<br>60% of Physical Damage Converted to Fire Damage<br>Fissure erupts 5 additional times
+|level1                                  = True
+|level1_level_requirement                = 3
+}}

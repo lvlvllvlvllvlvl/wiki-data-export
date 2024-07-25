@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Siege Ballista
 |class_id                                = Active Skill Gem
@@ -17,24 +17,11 @@
 |skill_id                                = SiegeBallista
 |cast_time                               = 1.0
 |required_level                          = 12
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Projectile Damage
-|quality_type1_stat1_id                  = projectile_damage_+%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Fires 0.1 additional Projectiles<br>1% reduced Attack Speed
-|quality_type2_stat1_id                  = number_of_additional_projectiles
-|quality_type2_stat1_value               = 100
-|quality_type2_stat2_id                  = attack_speed_+%
-|quality_type2_stat2_value               = -1000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 1% increased Projectile Speed
-|quality_type3_stat1_id                  = base_projectile_speed_+%
-|quality_type3_stat1_value               = 1000
-|quality_type4_weight                    = 100
-|quality_type4_stat_text                 = 1% chance to Impale Enemies on Hit
-|quality_type4_stat1_id                  = attacks_impale_on_hit_%_chance
-|quality_type4_stat1_value               = 1000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.25-5)% increased Attack Speed per maximum Totem
+|quality_type1_breakpoints               = 4.0
+|quality_type1_stat1_id                  = attack_speed_+%_per_maximum_totem
+|quality_type1_stat1_value               = 250
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 50
 |static_stat1_id                         = base_is_projectile
@@ -55,6 +42,8 @@
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_cost_amounts                     = 6
+|level1_damage_effectiveness             = 100
+|level1_damage_multiplier                = 100
 |level1_stat_text                        = Arrows Pierce 6 additional Targets<br>+2 to maximum number of Summoned Totems
 |level1_stat1_id                         = arrow_base_number_of_targets_to_pierce
 |level1_stat1_value                      = 6
@@ -491,5 +480,4 @@
 |level20_dexterity_requirement           = 155
 |level20_experience                      = 342004647
 |level21_dexterity_requirement           = 159
-|inventory_icon                          = Siege Ballista
 }}

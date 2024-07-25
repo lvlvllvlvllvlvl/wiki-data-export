@@ -1,0 +1,23 @@
+{{Mod
+|id                               = SanctumSpecialLightningDamageToAttacksPerIntelligence
+|mod_groups                       = GlobalAddedDamagePerAttribute
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 84
+|name                             = Genius
+|mod_type                         = LightningDamageToAttacksPerIntelligence
+|stat_text                        = Adds 1 to 4 [[Lightning Damage]] to [[Attack|Attacks]] per 10 [[Intelligence]]
+|stat1_id                         = minimum_added_lightning_damage_to_attacks_per_10_intelligence
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = maximum_added_lightning_damage_to_attacks_per_10_intelligence
+|stat2_min                        = 4
+|stat2_max                        = 4
+|spawn_weight1_tag                = int_special_relic
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 50
+|tags                             = elemental, lightning, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

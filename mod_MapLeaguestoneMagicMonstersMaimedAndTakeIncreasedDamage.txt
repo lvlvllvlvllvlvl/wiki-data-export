@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MapLeaguestoneMagicMonstersMaimedAndTakeIncreasedDamage
+|mod_groups                       = MapLeaguestoneMagicMonsterDamageDealtAndTaken
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Warding
+|mod_type                         = MapLeaguestoneMagicMonsterDamageDealtAndTaken
+|stat_text                        = Magic Monsters in next Area will be Maimed<br>Magic Monsters in next Area will take (5-10)% increased Damage
+|stat1_id                         = map_magic_monsters_are_maimed
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_magic_monsters_damage_taken_+%
+|stat2_min                        = 5
+|stat2_max                        = 10
+|spawn_weight1_tag                = bloodlines_leaguestone
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentPhaseRunPercentChanceToNotConsumeFrenzyCharges2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Phase Run Percent Chance To Not Consume Frenzy Charges 2
+|mod_type                         = EnchantmentPhaseRunPercentChanceToNotConsumeFrenzyCharges
+|stat_text                        = 30% chance for [[Phase Run]] to increase Duration without removing [[Frenzy Charge|Frenzy Charges]]
+|stat1_id                         = phase_run_%_chance_to_not_consume_frenzy_charges
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = frenzy_charge
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

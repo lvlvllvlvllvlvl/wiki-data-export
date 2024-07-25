@@ -18,9 +18,11 @@
 |static_stat3_value                      = 100
 |static_stat4_id                         = number_of_additional_projectiles
 |static_stat4_value                      = 2
-|static_stat5_id                         = support_parallel_projectile_number_of_points_per_side
-|static_stat5_value                      = 20
-|stat_text                               = Deals (5-355) to (7-532) Fire Damage<br>Fires 2 additional Projectiles<br>Also fires Projectiles from up to 20 points on each side of you
+|static_stat5_id                         = active_skill_base_area_of_effect_radius
+|static_stat5_value                      = 9
+|static_stat6_id                         = support_parallel_projectile_number_of_points_per_side
+|static_stat6_value                      = 20
+|stat_text                               = Deals (5-355) to (7-532) Fire Damage<br>Fires 2 additional Projectiles<br>Base radius is 0.9 metres<br>Also fires Projectiles from up to 20 points on each side of you
 |level1                                  = True
 |level1_level_requirement                = 3
 |level1_stat_text                        = Deals 5 to 7 Fire Damage

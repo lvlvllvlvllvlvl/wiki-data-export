@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmCriticalStrikeChanceIfNotCritRecently1
+|mod_groups                       = AnimalCharmCriticalStrikeChanceIfNotCritRecently
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Inquisitor's
+|mod_type                         = AnimalCharmCriticalStrikeChanceIfNotCritRecently
+|stat_text                        = (50-70)% increased [[Critical Strike Chance]] if you haven't dealt a [[Critical Strike]] [[Recently]]
+|stat1_id                         = critical_strike_chance_+%_if_have_not_crit_recently
+|stat1_min                        = 50
+|stat1_max                        = 70
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = str_animal_charm
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = LifeLeechPermyriadJewel
+|mod_groups                       = LifeLeech
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Hungering
+|mod_type                         = LifeLeechPermyriadForJewel
+|stat_text                        = (0.2-0.4)% of Physical [[Attack Damage]] Leeched as [[Life]]
+|stat1_id                         = life_leech_from_physical_attack_damage_permyriad
+|stat1_min                        = 20
+|stat1_max                        = 40
+|spawn_weight1_tag                = not_str
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 500
+|tags                             = resource, life, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

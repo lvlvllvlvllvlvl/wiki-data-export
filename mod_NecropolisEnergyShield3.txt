@@ -1,0 +1,20 @@
+{{Mod
+|id                               = NecropolisEnergyShield3
+|mod_groups                       = NecropolisEnergyShield
+|domain                           = 36
+|generation_type                  = 34
+|required_level                   = 68
+|mod_type                         = NecropolisEnergyShield
+|stat_text                        = Gain 250% of Maximum [[Life]] as Extra Maximum [[Energy Shield]]<br>60% faster start of [[Energy Shield]] Recharge
+|stat1_id                         = maximum_life_%_to_add_as_maximum_energy_shield
+|stat1_min                        = 250
+|stat1_max                        = 250
+|stat2_id                         = energy_shield_delay_-%
+|stat2_min                        = 60
+|stat2_max                        = 60
+|stat3_id                         = monster_necropolis_mod_value_+%
+|stat3_min                        = 120
+|stat3_max                        = 120
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 300
+}}

@@ -1,0 +1,18 @@
+{{Mod
+|id                               = FlaskBuffReducedManaCostWhileHealing3
+|mod_groups                       = LocalFlaskSkillManaCostDuringFlaskEffect
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 46
+|name                             = of the Mage
+|mod_type                         = LocalFlaskSkillManaCostDuringFlaskEffect
+|stat_text                        = (21-19)% reduced [[Mana]] Cost of [[Skill|Skills]] during Effect
+|stat1_id                         = local_flask_skill_mana_cost_+%_during_flask_effect
+|stat1_min                        = -21
+|stat1_max                        = -19
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = flask, resource, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

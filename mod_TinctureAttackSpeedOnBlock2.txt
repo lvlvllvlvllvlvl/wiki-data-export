@@ -1,0 +1,19 @@
+{{Mod
+|id                               = TinctureAttackSpeedOnBlock2
+|mod_groups                       = WeaponAttackSpeedIfBlockedRecently
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of Momentum
+|mod_type                         = WeaponAttackSpeedIfBlockedRecently
+|stat_text                        = (14-18)% increased [[Attack Speed]] if you have Blocked [[Recently]]
+|stat1_id                         = weapon_attack_speed_+%_if_have_blocked_recently
+|stat1_min                        = 14
+|stat1_max                        = 18
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

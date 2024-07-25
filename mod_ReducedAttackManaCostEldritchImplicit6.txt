@@ -1,0 +1,18 @@
+{{Mod
+|id                               = ReducedAttackManaCostEldritchImplicit6
+|mod_groups                       = ManaCostReduction
+|domain                           = 1
+|generation_type                  = 28
+|required_level                   = 75
+|mod_type                         = ReducedAttackManaCost
+|stat_text                        = (30-29)% reduced [[Mana]] Cost of [[Attack|Attacks]]
+|stat1_id                         = attack_mana_cost_+%
+|stat1_min                        = -30
+|stat1_max                        = -29
+|spawn_weight1_tag                = no_tier_1_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = helmet
+|spawn_weight2_value              = 700
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

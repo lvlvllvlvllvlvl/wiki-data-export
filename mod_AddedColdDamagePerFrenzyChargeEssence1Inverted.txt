@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AddedColdDamagePerFrenzyChargeEssence1Inverted
+|mod_groups                       = AddedColdDamagePerFrenzyCharge
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 63
+|name                             = Essences
+|mod_type                         = SelfColdDamageTakenPerFrenzy
+|stat_text                        = Adds 4 to 7 [[Cold Damage]] to [[Hit|Hits]] against you per [[Frenzy Charge]]
+|stat1_id                         = from_self_minimum_added_cold_damage_taken_per_frenzy_charge
+|stat1_min                        = 4
+|stat1_max                        = 4
+|stat2_id                         = from_self_maximum_added_cold_damage_taken_per_frenzy_charge
+|stat2_min                        = 7
+|stat2_max                        = 7
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, cold
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

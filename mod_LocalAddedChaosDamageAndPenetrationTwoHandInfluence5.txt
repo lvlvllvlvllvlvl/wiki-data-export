@@ -1,0 +1,34 @@
+{{Mod
+|id                               = LocalAddedChaosDamageAndPenetrationTwoHandInfluence5
+|mod_groups                       = ChaosDamageHybrid
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 80
+|name                             = Hunter's
+|mod_type                         = LocalChaosDamagePenetrationHybrid
+|stat_text                        = Adds (35-48) to (72-81) [[Chaos Damage]]<br>[[Attack|Attacks]] with this Weapon Penetrate (4-6)% [[Chaos Resistance]]
+|stat1_id                         = local_minimum_added_chaos_damage
+|stat1_min                        = 35
+|stat1_max                        = 48
+|stat2_id                         = local_maximum_added_chaos_damage
+|stat2_min                        = 72
+|stat2_max                        = 81
+|stat3_id                         = local_chaos_penetration_%
+|stat3_min                        = 4
+|stat3_max                        = 6
+|spawn_weight1_tag                = 2h_sword_basilisk
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = 2h_axe_basilisk
+|spawn_weight2_value              = 200
+|spawn_weight3_tag                = 2h_mace_basilisk
+|spawn_weight3_value              = 200
+|spawn_weight4_tag                = staff_basilisk
+|spawn_weight4_value              = 200
+|spawn_weight5_tag                = warstaff_basilisk
+|spawn_weight5_value              = 200
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = chaos_damage, damage, chaos, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -5,14 +5,12 @@
 |ascendancy_class                    = Necromancer
 |is_notable                          = True
 |icon                                = DefensiveMinionNotable (Necromancer)
-|stat1_id                            = local_display_grants_skill_bone_armour
-|stat1_value                         = 20
-|stat2_id                            = additional_physical_damage_reduction_%_per_minion_up_to_10%
+|stat1_id                            = additional_physical_damage_reduction_%_per_minion_up_to_10%
+|stat1_value                         = 1
+|stat2_id                            = life_leech_from_minion_damage_%
 |stat2_value                         = 1
-|stat3_id                            = life_and_energy_shield_recovery_rate_+%_per_minion_up_to_30%
-|stat3_value                         = 2
-|stat4_id                            = necromancer_defensive_notable_minion_maximum_life_+%_final
-|stat4_value                         = 20
-|stat_text                           = Grants [[Level]] 20 Bone [[Armour]] [[Skill]]<br>1% additional [[Physical Damage]] Reduction per Minion, up to 10%<br>2% increased Recovery Rate of [[Life]] and [[Energy Shield]] per Minion, up to 20%<br>[[Minion|Minions]] have 20% more Maximum [[Life]]
+|stat3_id                            = minion_maximum_life_%_to_add_as_maximum_energy_shield
+|stat3_value                         = 40
+|stat_text                           = 1% additional [[Physical Damage]] Reduction per [[Minion]], up to 10%<br>1% of Damage Dealt by your [[Minion|Minions]] is Leeched to you as [[Life]]<br>[[Minion|Minions]] gain 40% of Maximum [[Life]] as Extra Maximum [[Energy Shield]]
 |connections                         = AscendancyNecromancer1
 }}

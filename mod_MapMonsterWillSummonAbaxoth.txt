@@ -1,0 +1,23 @@
+{{Mod
+|id                               = MapMonsterWillSummonAbaxoth
+|mod_groups                       = MapMonsterWillSummonAbaxoth
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Endbringing
+|mod_type                         = MapMonsterWillSummonAbaxoth
+|stat_text                        = A Monster in next Area will summon Abaxoth, the End of All That Is when Slain<br>-4 to Maximum [[Charge|Charges]]
+|stat1_id                         = map_leaguestone_x_monsters_spawn_abaxoth
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_extra_max_charges
+|stat2_min                        = -4
+|stat2_max                        = -4
+|stat3_id                         = leaguestone_prefix_minimum_area_level
+|stat3_min                        = 75
+|stat3_max                        = 75
+|spawn_weight1_tag                = beyond_leaguestone
+|spawn_weight1_value              = 20
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

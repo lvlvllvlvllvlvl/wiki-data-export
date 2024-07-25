@@ -1,0 +1,20 @@
+{{Mod
+|id                               = HeistNPCDeceptionSpeed1_
+|mod_groups                       = HeistNPCJobSpeed
+|domain                           = 23
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Novice's
+|mod_type                         = HeistNPCDeceptionSpeed
+|stat_text                        = (9-11)% increased Deception speed
+|stat1_id                         = heist_job_deception_speed_+%
+|stat1_min                        = 9
+|stat1_max                        = 11
+|spawn_weight1_tag                = heist_equipment_deception
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

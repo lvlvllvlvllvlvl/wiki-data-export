@@ -17,9 +17,15 @@
 |static_stat2_value                      = 6000
 |static_stat3_id                         = base_damage_taken_+%
 |static_stat3_value                      = 5
-|static_stat4_id                         = spider_aspect_max_web_count
-|static_stat4_value                      = 3
-|stat_text                               = Base duration is 6 seconds<br>5% increased Damage taken<br>Can inflict up to 3 Spider's Webs on an Enemy
+|stat_text                               = Base duration is 6.00 seconds<br>5% increased Damage taken<br>Can inflict up to (3-4) Spider's Webs on an Enemy
 |level1                                  = True
 |level1_level_requirement                = 1
+|level1_stat_text                        = Can inflict up to 3 Spider's Webs on an Enemy
+|level1_stat1_id                         = spider_aspect_max_web_count
+|level1_stat1_value                      = 3
+|level2                                  = True
+|level2_level_requirement                = 1
+|level2_stat_text                        = Can inflict up to 4 Spider's Webs on an Enemy
+|level2_stat1_id                         = spider_aspect_max_web_count
+|level2_stat1_value                      = 4
 }}

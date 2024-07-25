@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MapAtlasReducedReflectedDamageTakenMirroredRares3
+|mod_groups                       = MapAtlasReducedReflectedDamageTakenMirroredRares
+|domain                           = 11
+|generation_type                  = 1
+|required_level                   = 1
+|mod_type                         = MapAtlasReducedReflectedDamageTakenMirroredRares
+|stat_text                        = 3 uses remaining<br>Players and their [[Minion|Minions]] cannot take Reflected Damage<br>Your Maps contain 4 additional Packs with Mirrored Rare Monsters
+|stat1_id                         = sextant_uses_remaining
+|stat1_min                        = 3
+|stat1_max                        = 3
+|stat2_id                         = map_players_cannot_take_reflected_damage
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = map_contains_x_additional_packs_with_mirrored_rare_monsters
+|stat3_min                        = 4
+|stat3_max                        = 4
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+}}

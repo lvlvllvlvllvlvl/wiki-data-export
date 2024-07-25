@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SentinelAggroRadius1
+|mod_groups                       = SentinelDroneAggroRadius
+|domain                           = 30
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Hostile
+|mod_type                         = SentinelDroneAggroRadius
+|stat_text                        = 
+|stat1_id                         = monster_aggro_radius_+%
+|stat1_min                        = 30
+|stat1_max                        = 39
+|spawn_weight1_tag                = special_sentinel_mod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

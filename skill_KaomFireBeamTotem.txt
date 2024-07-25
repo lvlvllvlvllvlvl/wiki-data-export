@@ -1,5 +1,5 @@
 {{Skill
-|gem_description                         = Unleash a beam of fire that burns enemies it touches. Remaining in the beam intensifies the burning, adding a portion of the beam's damage in stages. Inflicts Fire Exposure at maximum stages. Enemies who leave the beam continue to burn for a duration. Increasing cast speed also increases the rate at which the beam can turn.
+|gem_description                         = Unleash a beam of fire that burns enemies it touches. Remaining in the beam raises the burning, adding a portion of the beam's damage in stages. Inflicts Fire Exposure at maximum stages. Enemies who leave the beam continue to burn for a duration. Increasing cast speed also increases the rate at which the beam turns.
 |active_skill_name                       = Scorching Ray
 |skill_id                                = KaomFireBeamTotem
 |cast_time                               = 0.5
@@ -26,7 +26,7 @@
 |static_stat7_value                      = -40
 |static_stat8_id                         = base_fire_damage_resistance_%
 |static_stat8_value                      = -25
-|stat_text                               = Totem lasts 5 seconds<br>Deals (1.3-898.8) Base Fire Damage per second<br>Base duration is 1.5 seconds<br>Summons a Totem which uses this Skill<br>Additional Debuff stages add 60% of Damage<br>Fire Exposure applies -25% to Fire Resistance
+|stat_text                               = Totem lasts 5 seconds<br>Deals (1.3-898.8) Base Fire Damage per second<br>Base duration is 1.50 seconds<br>Summons a Totem which uses this Skill<br>Additional Debuff stages add -40% of Damage<br>Fire Exposure applies -25% to Fire Resistance
 |level1                                  = True
 |level1_level_requirement                = 1
 |level1_stat_text                        = Deals 1.3 Base Fire Damage per second

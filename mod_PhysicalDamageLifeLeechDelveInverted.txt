@@ -1,0 +1,17 @@
+{{Mod
+|id                               = PhysicalDamageLifeLeechDelveInverted
+|mod_groups                       = PhysicalDamageLifeLeech
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Subterranean
+|mod_type                         = EnemyPhysicalDamageLifeLeechPermyriad
+|stat_text                        = 0.4% of [[Physical Damage]] Leeched by Enemy as [[Life]]
+|stat1_id                         = enemy_life_leech_from_physical_damage_permyriad
+|stat1_min                        = 40
+|stat1_max                        = 40
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapPlayerContinuousDamage
+|mod_groups                       = MapPlayerContinuousDamage
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|name                             = of Suffering
+|mod_type                         = MapPlayerContinuousDamage
+|stat_text                        = 18% increased Quantity of Items found in this Area<br>Players take (16.7-33.3) [[Chaos Damage]] per second
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 18
+|stat1_max                        = 18
+|stat2_id                         = map_player_base_chaos_damage_taken_per_minute
+|stat2_min                        = 1000
+|stat2_max                        = 2000
+|tags                             = chaos_damage, damage, chaos
+}}

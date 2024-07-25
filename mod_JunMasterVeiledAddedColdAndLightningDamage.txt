@@ -1,0 +1,33 @@
+{{Mod
+|id                               = JunMasterVeiledAddedColdAndLightningDamage
+|mod_groups                       = AddedColdAndLightningDamage
+|domain                           = 28
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Chosen
+|mod_type                         = AddedColdAndLightningDamage
+|stat_text                        = Adds (14-16) to (20-22) [[Cold Damage]]<br>Adds (14-16) to (20-22) [[Lightning Damage]]
+|stat1_id                         = global_minimum_added_cold_damage
+|stat1_min                        = 14
+|stat1_max                        = 16
+|stat2_id                         = global_maximum_added_cold_damage
+|stat2_min                        = 20
+|stat2_max                        = 22
+|stat3_id                         = global_minimum_added_lightning_damage
+|stat3_min                        = 14
+|stat3_max                        = 16
+|stat4_id                         = global_maximum_added_lightning_damage
+|stat4_min                        = 20
+|stat4_max                        = 22
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = ring
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = quiver
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = elemental_damage, unveiled_mod, damage, elemental, cold, lightning
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

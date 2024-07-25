@@ -1,0 +1,21 @@
+{{Mod
+|id                               = SublimeVisionPrecision
+|mod_groups                       = AuraBonus
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = SublimeVisionPrecision
+|stat_text                        = 25% more [[Critical Strike Chance|Critical Strike chance]] while affected by Precision<br>Aura [[Skill|Skills]] other than Precision are Disabled<br>Auras from your [[Skill|Skills]] have (20-40)% increased Effect on you
+|stat1_id                         = critical_strike_chance_+%_final_while_affected_by_precision
+|stat1_min                        = 25
+|stat1_max                        = 25
+|stat2_id                         = your_auras_except_precision_are_disabled
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = aura_effect_on_self_from_your_skills_+%
+|stat3_min                        = 20
+|stat3_max                        = 40
+|tags                             = critical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

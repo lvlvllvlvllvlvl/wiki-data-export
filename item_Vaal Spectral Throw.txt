@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vaal Spectral Throw
 |class_id                                = Active Skill Gem
@@ -8,18 +8,21 @@
 |tags                                    = up_to_level_8_gem, vaal_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalThrownWeapon
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |strength_percent                        = 40
 |dexterity_percent                       = 60
 |gem_tags                                = Attack, Projectile, Vaal
+|secondary_skill_id                      = ThrownWeapon
 |gem_description                         = Throws several spectral copies of your melee weapon. They fly out and then return to you, in a spinning attack that damages enemies in their path.
 |active_skill_name                       = Vaal Spectral Throw
 |item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff, Rune Dagger
 |skill_id                                = VaalThrownWeapon
 |cast_time                               = 1.0
 |required_level                          = 1
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Attack Speed
-|quality_type1_stat1_id                  = attack_speed_+%
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Projectiles that have Pierced deal (0.5-10)% more Damage
+|quality_type1_breakpoints               = 2.0
+|quality_type1_stat1_id                  = projectile_damage_+%_final_if_pierced_enemy
 |quality_type1_stat1_value               = 500
 |static_vaal_souls_requirement           = 15
 |static_vaal_stored_uses                 = 1
@@ -45,7 +48,7 @@
 |static_stat9_value                      = 1
 |static_stat10_id                        = global_always_hit
 |static_stat10_value                     = 1
-|stat_text                               = Fires 8 Projectiles in a spiral<br>Can't be Evaded
+|stat_text                               = Fires 8 Projectiles in each of two mirrored spirals<br>Can't be Evaded
 |level1                                  = True
 |level1_level_requirement                = 1
 |level1_damage_effectiveness             = 70

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = LightningGemCastSpeedJewel_
+|mod_groups                       = LightningCastSpeed
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Electromantic
+|mod_type                         = LightningGemCastSpeedForJewel
+|stat_text                        = (3-5)% increased [[Cast Speed]] with Lightning [[Skill|Skills]]
+|stat1_id                         = cast_speed_for_lightning_skills_+%
+|stat1_min                        = 3
+|stat1_max                        = 5
+|spawn_weight1_tag                = not_int
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 500
+|tags                             = elemental, lightning, caster, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

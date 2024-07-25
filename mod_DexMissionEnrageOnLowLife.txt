@@ -1,0 +1,25 @@
+{{Mod
+|id                               = DexMissionEnrageOnLowLife
+|mod_groups                       = DexMissionEnrageOnLowLife
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = DexMissionEnrageOnLowLife
+|stat_text                        = Enrages on [[Low Life]]<br>60% increased [[Attack Speed]] when on [[Low Life]] (Hidden)<br>60% increased [[Cast Speed]] when on [[Low Life]] (Hidden)<br>60% increased [[Movement Speed]] when on [[Low Life]] (Hidden)<br>27% increased Damage when on [[Low Life]] (Hidden)
+|stat1_id                         = attack_speed_+%_when_on_low_life
+|stat1_min                        = 60
+|stat1_max                        = 60
+|stat2_id                         = cast_speed_+%_when_on_low_life
+|stat2_min                        = 60
+|stat2_max                        = 60
+|stat3_id                         = movement_velocity_+%_when_on_low_life
+|stat3_min                        = 60
+|stat3_max                        = 60
+|stat4_id                         = damage_+%_when_on_low_life
+|stat4_min                        = 27
+|stat4_max                        = 27
+|stat5_id                         = monster_enrages_on_low_life_text
+|stat5_min                        = 1
+|stat5_max                        = 1
+|tags                             = caster_damage, damage, attack, caster, speed
+}}

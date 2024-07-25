@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmBlockChanceIfAttackedRecently1
+|mod_groups                       = AnimalCharmBlockChanceIfAttackedRecently
+|domain                           = 35
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Guardian
+|mod_type                         = AnimalCharmBlockChanceIfAttackedRecently
+|stat_text                        = If you've Attacked [[Recently]], you and [[Nearby|nearby]] Allies have +(4-5)% Chance to [[Block]] [[Attack Damage]]
+|stat1_id                         = you_and_allies_additional_block_%_if_have_attacked_recently
+|stat1_min                        = 4
+|stat1_max                        = 5
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = str_animal_charm
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

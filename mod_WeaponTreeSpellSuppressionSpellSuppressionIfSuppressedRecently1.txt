@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeSpellSuppressionSpellSuppressionIfSuppressedRecently1
+|mod_groups                       = WeaponTreeSpellSuppressionSpellSuppressionIfSuppressedRecently
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 5
+|mod_type                         = WeaponTreeSpellSuppressionSpellSuppressionIfSuppressedRecently
+|stat_text                        = +20% chance to Suppress [[Spell Damage]]<br>-15% chance to Suppress [[Spell Damage]] if you've Suppressed [[Spell Damage]] [[Recently]]
+|stat1_id                         = base_spell_suppression_chance_%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = spell_suppression_chance_%_if_suppressed_spell_recently
+|stat2_min                        = -15
+|stat2_max                        = -15
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

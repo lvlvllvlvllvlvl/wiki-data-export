@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MonsterDamageReduction1
+|mod_groups                       = AdditionalPhysicalDamageReduction
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|name                             = Plated
+|mod_type                         = MonsterPhysicalDamageReduction
+|stat_text                        = 30% additional [[Physical Damage]] Reduction (Hidden)
+|stat1_id                         = base_additional_physical_damage_reduction_%
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = not_str
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = ward_armour
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 1000
+|tags                             = physical
+}}

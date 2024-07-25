@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapLeaguestoneAdditionalRareItemsFromStrongbox2
+|mod_groups                       = MapLeaguestoneAdditionalRareItemsFromStrongbox
+|domain                           = 12
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Excellence
+|mod_type                         = MapLeaguestoneAdditionalRareItemsFromStrongbox
+|stat_text                        = Strongboxes in next Area will each contain (3-4) additional random Rare Items
+|stat1_id                         = map_strongboxes_drop_x_additional_rare_items
+|stat1_min                        = 3
+|stat1_max                        = 4
+|spawn_weight1_tag                = ambush_leaguestone
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,21 @@
+{{Mod
+|id                               = ColdResistEnhancedLevel50ModLeechInverted
+|mod_groups                       = ColdResistance
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 50
+|name                             = of Puhuarte
+|mod_type                         = ColdResistanceEnemyLeech
+|stat_text                        = +(46-48)% to [[Cold Resistance]]<br>0.4% of [[Cold Damage]] Leeched by Enemy as [[Life]]
+|stat1_id                         = base_cold_damage_resistance_%
+|stat1_min                        = 46
+|stat1_max                        = 48
+|stat2_id                         = enemy_life_leech_from_cold_damage_permyriad
+|stat2_min                        = 40
+|stat2_max                        = 40
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = resource, life, elemental, cold, resistance
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

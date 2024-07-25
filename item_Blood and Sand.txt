@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Blood and Sand
 |class_id                                = Active Skill Gem
@@ -16,22 +16,11 @@
 |skill_id                                = BloodSandStance
 |cast_time                               = 0.0
 |required_level                          = 4
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Cooldown Recovery Rate
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.5-10)% increased Cooldown Recovery Rate
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = base_cooldown_speed_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% increased Projectile Attack Damage while in Blood Stance<br>1% increased Projectile Speed while in Sand Stance
-|quality_type2_stat1_id                  = projectile_attack_damage_+%_in_blood_stance
-|quality_type2_stat1_value               = 1000
-|quality_type2_stat2_id                  = projectile_speed_+%_in_sand_stance
-|quality_type2_stat2_value               = 1000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = Spells deal 1% increased Area Damage while in Blood Stance<br>Spells have 0.5% increased Area of Effect while in Sand Stance
-|quality_type3_stat1_id                  = spell_area_damage_+%_in_blood_stance
-|quality_type3_stat1_value               = 1000
-|quality_type3_stat2_id                  = spell_area_of_effect_+%_in_sand_stance
-|quality_type3_stat2_value               = 500
 |static_stored_uses                      = 1
 |static_cooldown                         = 2
 |static_damage_effectiveness             = 100
@@ -299,5 +288,4 @@
 |level6_experience                       = 529166003
 |level7_strength_requirement             = 100
 |level7_dexterity_requirement            = 70
-|inventory_icon                          = Blood and Sand
 }}

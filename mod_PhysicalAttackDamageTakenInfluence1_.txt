@@ -1,0 +1,20 @@
+{{Mod
+|id                               = PhysicalAttackDamageTakenInfluence1_
+|mod_groups                       = PhysicalAttackDamageTaken
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Hunt
+|mod_type                         = PhysicalAttackDamageTaken
+|stat_text                        = -(35-25) [[Physical Damage]] taken from [[Attack]] [[Hit|Hits]]
+|stat1_id                         = physical_attack_damage_taken_+
+|stat1_min                        = -35
+|stat1_max                        = -25
+|spawn_weight1_tag                = belt_basilisk
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

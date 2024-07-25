@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Shock Nova
 |class_id                                = Active Skill Gem
@@ -15,18 +15,11 @@
 |skill_id                                = ShockNova
 |cast_time                               = 0.7
 |required_level                          = 28
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 2% increased Shock Duration on enemies
-|quality_type1_stat1_id                  = shock_duration_+%
-|quality_type1_stat1_value               = 2000
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = Ring Shocks as if dealing 5% more Damage
-|quality_type2_stat1_id                  = shock_nova_ring_shocks_as_if_dealing_damage_+%_final
-|quality_type2_stat1_value               = 5000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 1% increased Lightning Damage
-|quality_type3_stat1_id                  = lightning_damage_+%
-|quality_type3_stat1_value               = 1000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = +(0.5-10)% to Maximum Effect of Shock
+|quality_type1_breakpoints               = 2.0
+|quality_type1_stat1_id                  = shock_maximum_magnitude_+
+|quality_type1_stat1_value               = 500
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 6
 |static_damage_effectiveness             = 190
@@ -400,5 +393,4 @@
 |level20_intelligence_requirement        = 155
 |level20_experience                      = 340652931
 |level21_intelligence_requirement        = 159
-|inventory_icon                          = Shock Nova
 }}

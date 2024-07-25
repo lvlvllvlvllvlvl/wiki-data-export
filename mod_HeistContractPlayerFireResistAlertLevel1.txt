@@ -1,0 +1,31 @@
+{{Mod
+|id                               = HeistContractPlayerFireResistAlertLevel1
+|mod_groups                       = HeistContractResistAlertLevel
+|domain                           = 22
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Over-Heating
+|mod_type                         = HeistContractPlayerFireResistAlertLevel
+|stat_text                        = -3% Player [[Fire Resistance]] per 25% Alert [[Level]]
+|stat1_id                         = heist_player_fire_resistance_%_per_25%_alert_level
+|stat1_min                        = -3
+|stat1_max                        = -3
+|stat2_id                         = heist_contract_alert_level_+%_final
+|stat2_min                        = -6
+|stat2_max                        = -6
+|stat3_id                         = heist_contract_lockdown_timer_+%
+|stat3_min                        = 6
+|stat3_max                        = 6
+|stat4_id                         = heist_monster_spawner_alive_limit_+%
+|stat4_min                        = 6
+|stat4_max                        = 6
+|stat5_id                         = map_item_drop_quantity_+%
+|stat5_min                        = 16
+|stat5_max                        = 16
+|stat6_id                         = map_item_drop_rarity_+%
+|stat6_min                        = 9
+|stat6_max                        = 9
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 600
+|tags                             = elemental, fire, resistance
+}}

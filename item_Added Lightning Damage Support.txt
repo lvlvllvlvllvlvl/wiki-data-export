@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Added Lightning Damage Support
 |class_id                                = Support Skill Gem
@@ -7,24 +7,18 @@
 |drop_level                              = 8
 |tags                                    = up_to_level_8_gem, support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemAddedLightningDamage
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
+|awakened_variant_id                     = Metadata/Items/Gems/SupportGemAddedLightningDamagePlus
 |intelligence_percent                    = 100
 |gem_tags                                = Lightning, Support
 |skill_id                                = SupportAddedLightningDamage
 |support_gem_letter                      = L
 |required_level                          = 8
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills deal 0.5% increased Lightning Damage
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills deal (0.5-10)% increased Lightning Damage
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = lightning_damage_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Supported Skills have 1.5% increased Critical Strike Chance
-|quality_type2_stat1_id                  = critical_strike_chance_+%
-|quality_type2_stat1_value               = 1500
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = Supported Skills have 1% of Physical Damage Converted to Lightning Damage
-|quality_type3_stat1_id                  = skill_physical_damage_%_to_convert_to_lightning
-|quality_type3_stat1_value               = 1000
 |static_cost_multiplier                  = 120
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
@@ -352,5 +346,4 @@
 |level20_intelligence_requirement        = 111
 |level20_experience                      = 342039899
 |level21_intelligence_requirement        = 114
-|inventory_icon                          = Added Lightning Damage Support
 }}

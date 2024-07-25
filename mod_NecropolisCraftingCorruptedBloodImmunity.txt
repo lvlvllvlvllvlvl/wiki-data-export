@@ -1,0 +1,20 @@
+{{Mod
+|id                               = NecropolisCraftingCorruptedBloodImmunity
+|mod_groups                       = CorruptedBloodImmunity
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of Haunting
+|mod_type                         = CorruptedBloodImmunity
+|stat_text                        = [[Corrupted Blood]] cannot be inflicted on you
+|stat1_id                         = cannot_be_inflicted_by_corrupted_blood
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = necropolis_body_armour
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = bleed, necropolis_exclusive_mod, physical, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

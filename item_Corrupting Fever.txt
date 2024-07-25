@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Corrupting Fever
 |class_id                                = Active Skill Gem
@@ -15,18 +15,10 @@
 |skill_id                                = CorruptingFever
 |cast_time                               = 0.0
 |required_level                          = 16
-|quality_type1_weight                    = 100
-|quality_type1_stat_text                 = 1% increased Skill Effect Duration
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% increased Skill Effect Duration
 |quality_type1_stat1_id                  = skill_effect_duration_+%
 |quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = 0.5% reduced Life Cost
-|quality_type2_stat1_id                  = base_life_cost_+%
-|quality_type2_stat1_value               = -500
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = 1% chance to inflict an additional Corrupted Blood Debuff
-|quality_type3_stat1_id                  = corrupting_fever_apply_additional_corrupted_blood_%
-|quality_type3_stat1_value               = 1000
 |static_cost_types                       = Life
 |static_stored_uses                      = 1
 |static_cooldown                         = 1
@@ -38,7 +30,7 @@
 |static_stat1_value                      = 6000
 |static_stat2_id                         = base_secondary_skill_effect_duration
 |static_stat2_value                      = 1000
-|stat_text                               = Deals (7.8-335.4) Base Physical Damage per second<br>Base duration is 6 seconds<br>Base secondary duration is 1 seconds<br>Buff Duration is refreshed after you spend a total of (26-205) Life
+|stat_text                               = Deals (7.8-335.4) Base Physical Damage per second<br>Base duration is 6.00 seconds<br>Base secondary duration is 1.00 seconds<br>Buff Duration is refreshed after you spend a total of (26-205) Life
 |level1                                  = True
 |level1_level_requirement                = 16
 |level1_cost_amounts                     = 78

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = FlaskEnchantmentSealMaximumCharges____
+|mod_groups                       = FlaskEnchantment
+|domain                           = 1
+|generation_type                  = 21
+|required_level                   = 1
+|mod_type                         = FlaskEnchantmentEnkindlingMaximumCharges
+|stat_text                        = Gains no [[Charge|Charges]] during Effect<br>+(40-60) to Maximum [[Charge|Charges]]
+|stat1_id                         = local_flask_cannot_gain_charges_during_flask_effect
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_extra_max_charges
+|stat2_min                        = 40
+|stat2_max                        = 60
+|spawn_weight1_tag                = flask
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,18 @@
+{{Mod
+|id                               = PowerChargePerSecondEldritchImplicit3
+|mod_groups                       = PowerChargePerSecond
+|domain                           = 1
+|generation_type                  = 28
+|required_level                   = 75
+|mod_type                         = PowerChargePerSecond
+|stat_text                        = Gain a [[Power Charge]] every 13 seconds
+|stat1_id                         = body_armour_implicit_gain_power_charge_every_x_ms
+|stat1_min                        = 13000
+|stat1_max                        = 13000
+|spawn_weight1_tag                = no_tier_4_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = body_armour
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

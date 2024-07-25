@@ -1,5 +1,5 @@
 {{Skill
-|gem_description                         = Raises a zombie minion from a corpse, which will follow you and attack enemies with a melee attack and an area of effect slam which cannot be evaded.
+|gem_description                         = Raises a zombie minion from a corpse, which will follow you and attack enemies with a melee strike.
 |active_skill_name                       = Raise Zombie
 |skill_id                                = ExileRaiseZombie
 |cast_time                               = 0.85
@@ -10,11 +10,11 @@
 |static_attack_speed_multiplier          = 100
 |static_stat1_id                         = alternate_minion
 |static_stat1_value                      = 1
-|stat_text                               = (1-35)% increased Character Size<br>Maximum (6-10) Raised Zombies<br>Minions have (0-40)% more Maximum Life<br>Minions deal (10-50)% more Damage
+|stat_text                               = +(6-10) to Maximum Raised Zombies<br>Minions have (0-40)% more Maximum Life<br>Minions deal (10-50)% more Damage
 |level1                                  = True
 |level1_level_requirement                = 4
 |level1_stored_uses                      = 3
-|level1_stat_text                        = 1% increased Character Size<br>Maximum 6 Raised Zombies<br>Minions deal 10% more Damage
+|level1_stat_text                        = +6 to Maximum Raised Zombies<br>Minions deal 10% more Damage
 |level1_stat1_id                         = base_actor_scale_+%
 |level1_stat1_value                      = 1
 |level1_stat2_id                         = base_number_of_zombies_allowed
@@ -24,7 +24,7 @@
 |level2                                  = True
 |level2_level_requirement                = 6
 |level2_stored_uses                      = 3
-|level2_stat_text                        = 2% increased Character Size<br>Maximum 6 Raised Zombies<br>Minions deal 10% more Damage
+|level2_stat_text                        = +6 to Maximum Raised Zombies<br>Minions deal 10% more Damage
 |level2_stat1_id                         = base_actor_scale_+%
 |level2_stat1_value                      = 2
 |level2_stat2_id                         = base_number_of_zombies_allowed
@@ -34,7 +34,7 @@
 |level3                                  = True
 |level3_level_requirement                = 9
 |level3_stored_uses                      = 3
-|level3_stat_text                        = 3% increased Character Size<br>Maximum 6 Raised Zombies<br>Minions deal 10% more Damage
+|level3_stat_text                        = +6 to Maximum Raised Zombies<br>Minions deal 10% more Damage
 |level3_stat1_id                         = base_actor_scale_+%
 |level3_stat1_value                      = 3
 |level3_stat2_id                         = base_number_of_zombies_allowed
@@ -44,7 +44,7 @@
 |level4                                  = True
 |level4_level_requirement                = 12
 |level4_stored_uses                      = 3
-|level4_stat_text                        = 4% increased Character Size<br>Maximum 6 Raised Zombies<br>Minions deal 10% more Damage
+|level4_stat_text                        = +6 to Maximum Raised Zombies<br>Minions deal 10% more Damage
 |level4_stat1_id                         = base_actor_scale_+%
 |level4_stat1_value                      = 4
 |level4_stat2_id                         = base_number_of_zombies_allowed
@@ -54,7 +54,7 @@
 |level5                                  = True
 |level5_level_requirement                = 15
 |level5_stored_uses                      = 4
-|level5_stat_text                        = 5% increased Character Size<br>Maximum 6 Raised Zombies<br>Minions deal 10% more Damage
+|level5_stat_text                        = +6 to Maximum Raised Zombies<br>Minions deal 10% more Damage
 |level5_stat1_id                         = base_actor_scale_+%
 |level5_stat1_value                      = 5
 |level5_stat2_id                         = base_number_of_zombies_allowed
@@ -64,7 +64,7 @@
 |level6                                  = True
 |level6_level_requirement                = 19
 |level6_stored_uses                      = 4
-|level6_stat_text                        = 6% increased Character Size<br>Maximum 6 Raised Zombies<br>Minions deal 10% more Damage
+|level6_stat_text                        = +6 to Maximum Raised Zombies<br>Minions deal 10% more Damage
 |level6_stat1_id                         = base_actor_scale_+%
 |level6_stat1_value                      = 6
 |level6_stat2_id                         = base_number_of_zombies_allowed
@@ -74,7 +74,7 @@
 |level7                                  = True
 |level7_level_requirement                = 23
 |level7_stored_uses                      = 4
-|level7_stat_text                        = 7% increased Character Size<br>Maximum 6 Raised Zombies<br>Minions deal 10% more Damage
+|level7_stat_text                        = +6 to Maximum Raised Zombies<br>Minions deal 10% more Damage
 |level7_stat1_id                         = base_actor_scale_+%
 |level7_stat1_value                      = 7
 |level7_stat2_id                         = base_number_of_zombies_allowed
@@ -84,7 +84,7 @@
 |level8                                  = True
 |level8_level_requirement                = 28
 |level8_stored_uses                      = 4
-|level8_stat_text                        = 8% increased Character Size<br>Maximum 6 Raised Zombies<br>Minions deal 50% more Damage
+|level8_stat_text                        = +6 to Maximum Raised Zombies<br>Minions deal 50% more Damage
 |level8_stat1_id                         = base_actor_scale_+%
 |level8_stat1_value                      = 8
 |level8_stat2_id                         = base_number_of_zombies_allowed
@@ -94,7 +94,7 @@
 |level9                                  = True
 |level9_level_requirement                = 33
 |level9_stored_uses                      = 4
-|level9_stat_text                        = 9% increased Character Size<br>Maximum 6 Raised Zombies<br>Minions deal 50% more Damage
+|level9_stat_text                        = +6 to Maximum Raised Zombies<br>Minions deal 50% more Damage
 |level9_stat1_id                         = base_actor_scale_+%
 |level9_stat1_value                      = 9
 |level9_stat2_id                         = base_number_of_zombies_allowed
@@ -104,7 +104,7 @@
 |level10                                 = True
 |level10_level_requirement               = 39
 |level10_stored_uses                     = 5
-|level10_stat_text                       = 10% increased Character Size<br>Maximum 6 Raised Zombies<br>Minions deal 50% more Damage
+|level10_stat_text                       = +6 to Maximum Raised Zombies<br>Minions deal 50% more Damage
 |level10_stat1_id                        = base_actor_scale_+%
 |level10_stat1_value                     = 10
 |level10_stat2_id                        = base_number_of_zombies_allowed
@@ -114,7 +114,7 @@
 |level11                                 = True
 |level11_level_requirement               = 43
 |level11_stored_uses                     = 5
-|level11_stat_text                       = 11% increased Character Size<br>Maximum 6 Raised Zombies<br>Minions deal 50% more Damage
+|level11_stat_text                       = +6 to Maximum Raised Zombies<br>Minions deal 50% more Damage
 |level11_stat1_id                        = base_actor_scale_+%
 |level11_stat1_value                     = 11
 |level11_stat2_id                        = base_number_of_zombies_allowed
@@ -124,7 +124,7 @@
 |level12                                 = True
 |level12_level_requirement               = 46
 |level12_stored_uses                     = 5
-|level12_stat_text                       = 12% increased Character Size<br>Maximum 6 Raised Zombies<br>Minions deal 50% more Damage
+|level12_stat_text                       = +6 to Maximum Raised Zombies<br>Minions deal 50% more Damage
 |level12_stat1_id                        = base_actor_scale_+%
 |level12_stat1_value                     = 12
 |level12_stat2_id                        = base_number_of_zombies_allowed
@@ -134,7 +134,7 @@
 |level13                                 = True
 |level13_level_requirement               = 49
 |level13_stored_uses                     = 5
-|level13_stat_text                       = 13% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions deal 50% more Damage
+|level13_stat_text                       = +10 to Maximum Raised Zombies<br>Minions deal 50% more Damage
 |level13_stat1_id                        = base_actor_scale_+%
 |level13_stat1_value                     = 13
 |level13_stat2_id                        = base_number_of_zombies_allowed
@@ -144,7 +144,7 @@
 |level14                                 = True
 |level14_level_requirement               = 52
 |level14_stored_uses                     = 6
-|level14_stat_text                       = 14% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions deal 50% more Damage
+|level14_stat_text                       = +10 to Maximum Raised Zombies<br>Minions deal 50% more Damage
 |level14_stat1_id                        = base_actor_scale_+%
 |level14_stat1_value                     = 14
 |level14_stat2_id                        = base_number_of_zombies_allowed
@@ -154,7 +154,7 @@
 |level15                                 = True
 |level15_level_requirement               = 55
 |level15_stored_uses                     = 6
-|level15_stat_text                       = 15% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions deal 50% more Damage
+|level15_stat_text                       = +10 to Maximum Raised Zombies<br>Minions deal 50% more Damage
 |level15_stat1_id                        = base_actor_scale_+%
 |level15_stat1_value                     = 15
 |level15_stat2_id                        = base_number_of_zombies_allowed
@@ -164,7 +164,7 @@
 |level16                                 = True
 |level16_level_requirement               = 58
 |level16_stored_uses                     = 6
-|level16_stat_text                       = 16% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions deal 50% more Damage
+|level16_stat_text                       = +10 to Maximum Raised Zombies<br>Minions deal 50% more Damage
 |level16_stat1_id                        = base_actor_scale_+%
 |level16_stat1_value                     = 16
 |level16_stat2_id                        = base_number_of_zombies_allowed
@@ -174,7 +174,7 @@
 |level17                                 = True
 |level17_level_requirement               = 61
 |level17_stored_uses                     = 6
-|level17_stat_text                       = 17% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
+|level17_stat_text                       = +10 to Maximum Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
 |level17_stat1_id                        = base_actor_scale_+%
 |level17_stat1_value                     = 17
 |level17_stat2_id                        = base_number_of_zombies_allowed
@@ -186,7 +186,7 @@
 |level18                                 = True
 |level18_level_requirement               = 64
 |level18_stored_uses                     = 7
-|level18_stat_text                       = 18% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
+|level18_stat_text                       = +10 to Maximum Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
 |level18_stat1_id                        = base_actor_scale_+%
 |level18_stat1_value                     = 18
 |level18_stat2_id                        = base_number_of_zombies_allowed
@@ -198,7 +198,7 @@
 |level19                                 = True
 |level19_level_requirement               = 66
 |level19_stored_uses                     = 7
-|level19_stat_text                       = 19% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
+|level19_stat_text                       = +10 to Maximum Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
 |level19_stat1_id                        = base_actor_scale_+%
 |level19_stat1_value                     = 19
 |level19_stat2_id                        = base_number_of_zombies_allowed
@@ -210,7 +210,7 @@
 |level20                                 = True
 |level20_level_requirement               = 67
 |level20_stored_uses                     = 7
-|level20_stat_text                       = 20% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
+|level20_stat_text                       = +10 to Maximum Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
 |level20_stat1_id                        = base_actor_scale_+%
 |level20_stat1_value                     = 20
 |level20_stat2_id                        = base_number_of_zombies_allowed
@@ -222,7 +222,7 @@
 |level21                                 = True
 |level21_level_requirement               = 68
 |level21_stored_uses                     = 7
-|level21_stat_text                       = 21% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
+|level21_stat_text                       = +10 to Maximum Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
 |level21_stat1_id                        = base_actor_scale_+%
 |level21_stat1_value                     = 21
 |level21_stat2_id                        = base_number_of_zombies_allowed
@@ -234,7 +234,7 @@
 |level22                                 = True
 |level22_level_requirement               = 69
 |level22_stored_uses                     = 7
-|level22_stat_text                       = 22% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
+|level22_stat_text                       = +10 to Maximum Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
 |level22_stat1_id                        = base_actor_scale_+%
 |level22_stat1_value                     = 22
 |level22_stat2_id                        = base_number_of_zombies_allowed
@@ -246,7 +246,7 @@
 |level23                                 = True
 |level23_level_requirement               = 70
 |level23_stored_uses                     = 7
-|level23_stat_text                       = 23% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
+|level23_stat_text                       = +10 to Maximum Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
 |level23_stat1_id                        = base_actor_scale_+%
 |level23_stat1_value                     = 23
 |level23_stat2_id                        = base_number_of_zombies_allowed
@@ -258,7 +258,7 @@
 |level24                                 = True
 |level24_level_requirement               = 71
 |level24_stored_uses                     = 8
-|level24_stat_text                       = 24% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
+|level24_stat_text                       = +10 to Maximum Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
 |level24_stat1_id                        = base_actor_scale_+%
 |level24_stat1_value                     = 24
 |level24_stat2_id                        = base_number_of_zombies_allowed
@@ -270,7 +270,7 @@
 |level25                                 = True
 |level25_level_requirement               = 72
 |level25_stored_uses                     = 8
-|level25_stat_text                       = 25% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
+|level25_stat_text                       = +10 to Maximum Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
 |level25_stat1_id                        = base_actor_scale_+%
 |level25_stat1_value                     = 25
 |level25_stat2_id                        = base_number_of_zombies_allowed
@@ -282,7 +282,7 @@
 |level26                                 = True
 |level26_level_requirement               = 73
 |level26_stored_uses                     = 8
-|level26_stat_text                       = 26% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
+|level26_stat_text                       = +10 to Maximum Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
 |level26_stat1_id                        = base_actor_scale_+%
 |level26_stat1_value                     = 26
 |level26_stat2_id                        = base_number_of_zombies_allowed
@@ -294,7 +294,7 @@
 |level27                                 = True
 |level27_level_requirement               = 74
 |level27_stored_uses                     = 9
-|level27_stat_text                       = 27% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
+|level27_stat_text                       = +10 to Maximum Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
 |level27_stat1_id                        = base_actor_scale_+%
 |level27_stat1_value                     = 27
 |level27_stat2_id                        = base_number_of_zombies_allowed
@@ -306,7 +306,7 @@
 |level28                                 = True
 |level28_level_requirement               = 75
 |level28_stored_uses                     = 9
-|level28_stat_text                       = 28% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
+|level28_stat_text                       = +10 to Maximum Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
 |level28_stat1_id                        = base_actor_scale_+%
 |level28_stat1_value                     = 28
 |level28_stat2_id                        = base_number_of_zombies_allowed
@@ -318,7 +318,7 @@
 |level29                                 = True
 |level29_level_requirement               = 76
 |level29_stored_uses                     = 9
-|level29_stat_text                       = 29% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
+|level29_stat_text                       = +10 to Maximum Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
 |level29_stat1_id                        = base_actor_scale_+%
 |level29_stat1_value                     = 29
 |level29_stat2_id                        = base_number_of_zombies_allowed
@@ -330,7 +330,7 @@
 |level30                                 = True
 |level30_level_requirement               = 77
 |level30_stored_uses                     = 9
-|level30_stat_text                       = 30% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
+|level30_stat_text                       = +10 to Maximum Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
 |level30_stat1_id                        = base_actor_scale_+%
 |level30_stat1_value                     = 30
 |level30_stat2_id                        = base_number_of_zombies_allowed
@@ -342,7 +342,7 @@
 |level31                                 = True
 |level31_level_requirement               = 78
 |level31_stored_uses                     = 9
-|level31_stat_text                       = 31% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
+|level31_stat_text                       = +10 to Maximum Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
 |level31_stat1_id                        = base_actor_scale_+%
 |level31_stat1_value                     = 31
 |level31_stat2_id                        = base_number_of_zombies_allowed
@@ -354,7 +354,7 @@
 |level32                                 = True
 |level32_level_requirement               = 79
 |level32_stored_uses                     = 9
-|level32_stat_text                       = 32% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
+|level32_stat_text                       = +10 to Maximum Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
 |level32_stat1_id                        = base_actor_scale_+%
 |level32_stat1_value                     = 32
 |level32_stat2_id                        = base_number_of_zombies_allowed
@@ -366,7 +366,7 @@
 |level33                                 = True
 |level33_level_requirement               = 80
 |level33_stored_uses                     = 9
-|level33_stat_text                       = 33% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
+|level33_stat_text                       = +10 to Maximum Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
 |level33_stat1_id                        = base_actor_scale_+%
 |level33_stat1_value                     = 33
 |level33_stat2_id                        = base_number_of_zombies_allowed
@@ -378,7 +378,7 @@
 |level34                                 = True
 |level34_level_requirement               = 81
 |level34_stored_uses                     = 9
-|level34_stat_text                       = 34% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
+|level34_stat_text                       = +10 to Maximum Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
 |level34_stat1_id                        = base_actor_scale_+%
 |level34_stat1_value                     = 34
 |level34_stat2_id                        = base_number_of_zombies_allowed
@@ -390,7 +390,7 @@
 |level35                                 = True
 |level35_level_requirement               = 82
 |level35_stored_uses                     = 9
-|level35_stat_text                       = 35% increased Character Size<br>Maximum 10 Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
+|level35_stat_text                       = +10 to Maximum Raised Zombies<br>Minions have 40% more Maximum Life<br>Minions deal 50% more Damage
 |level35_stat1_id                        = base_actor_scale_+%
 |level35_stat1_value                     = 35
 |level35_stat2_id                        = base_number_of_zombies_allowed

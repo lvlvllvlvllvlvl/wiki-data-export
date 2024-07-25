@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AbyssMinionAttackAndCastSpeedIfEnemySlainRecentlyJewel1
+|mod_groups                       = MinionAttackAndCastSpeedIfEnemySlainRecently
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Rallying
+|mod_type                         = MinionAttackAndCastSpeedIfEnemySlainRecently
+|stat_text                        = [[Minion|Minions]] have (6-8)% increased [[Attack]] and [[Cast Speed]] if you or your [[Minion|Minions]] have Killed [[Recently]]
+|stat1_id                         = minion_attack_and_cast_speed_+%_if_you_or_minions_have_killed_enemy_recently
+|stat1_min                        = 6
+|stat1_max                        = 8
+|spawn_weight1_tag                = abyss_jewel_summoner
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, caster, speed, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

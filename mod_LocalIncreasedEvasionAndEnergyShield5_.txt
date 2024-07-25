@@ -1,0 +1,20 @@
+{{Mod
+|id                               = LocalIncreasedEvasionAndEnergyShield5_
+|mod_groups                       = DefencesPercent
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Evanescent
+|mod_type                         = LocalEvasionAndEnergyShield
+|stat_text                        = (68-79)% increased [[Evasion]] and [[Energy Shield]]
+|stat1_id                         = local_evasion_and_energy_shield_+%
+|stat1_min                        = 68
+|stat1_max                        = 79
+|spawn_weight1_tag                = dex_int_armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = defences, evasion, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

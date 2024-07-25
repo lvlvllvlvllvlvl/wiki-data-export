@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentEarthquakeDamagePerDuration2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Earthquake Damage per 0.1s Duration 2
+|mod_type                         = EnchantmentEarthquakeDamagePerDuration
+|stat_text                        = [[Earthquake]] deals 8% increased Damage per 0.1 seconds Duration
+|stat1_id                         = earthquake_damage_+%_per_100ms_duration
+|stat1_min                        = 8
+|stat1_max                        = 8
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

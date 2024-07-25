@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vaal Domination
 |class_id                                = Active Skill Gem
@@ -8,18 +8,20 @@
 |tags                                    = vaal_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalDomination
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |strength_percent                        = 60
 |intelligence_percent                    = 40
 |gem_tags                                = Spell, Minion, Duration, Vaal, Attack, Melee, Strike
+|secondary_skill_id                      = DominatingBlow
 |gem_description                         = This spell causes one of your existing Sentinels of Dominance to Ascend, becoming more powerful, gaining new attacks, and overriding its duration, while maintaining its monster modifiers and other bonuses, including from support gems. If you cannot have more Ascended Sentinels of Dominance, an existing one will be refreshed instead.
 |active_skill_name                       = Vaal Domination
 |skill_id                                = VaalDomination
 |cast_time                               = 0.5
 |required_level                          = 28
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 
-|quality_type1_stat1_id                  = dummy_stat_display_nothing
-|quality_type1_stat1_value               = 0
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Minions have (2-40)% increased Cooldown Recovery Rate
+|quality_type1_stat1_id                  = minion_cooldown_recovery_+%
+|quality_type1_stat1_value               = 2000
 |static_vaal_souls_requirement           = 30
 |static_vaal_stored_uses                 = 3
 |static_vaal_soul_gain_prevention_time   = 20
@@ -39,7 +41,7 @@
 |static_stat5_value                      = 200
 |static_stat6_id                         = vaal_upgrade_minion_damage_taken_+%_final
 |static_stat6_value                      = -70
-|stat_text                               = Base duration is 30 seconds<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>Maximum 3 Ascended Sentinels of Dominance<br>Ascended Sentinels do not count towards the regular limits<br>Ascended Sentinels deal 200% more Damage<br>Ascended Sentinels take 70% less Damage
+|stat_text                               = Base duration is 30.00 seconds<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>Maximum 3 Ascended Sentinels of Dominance<br>Ascended Sentinels do not count towards the regular limits<br>Ascended Sentinels deal 200% more Damage<br>Ascended Sentinels take 70% less Damage
 |level1                                  = True
 |level1_level_requirement                = 28
 |level2                                  = True

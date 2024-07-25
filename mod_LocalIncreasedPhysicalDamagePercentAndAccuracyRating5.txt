@@ -1,0 +1,29 @@
+{{Mod
+|id                               = LocalIncreasedPhysicalDamagePercentAndAccuracyRating5
+|mod_groups                       = LocalIncreasedPhysicalDamagePercentAndAccuracyRating
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 46
+|name                             = Champion's
+|mod_type                         = LocalIncreasedPhysicalDamagePercentAndAccuracyRating
+|stat_text                        = (45-54)% increased [[Physical Damage]]<br>+(98-123) to [[Accuracy Rating]]
+|stat1_id                         = local_physical_damage_+%
+|stat1_min                        = 45
+|stat1_max                        = 54
+|stat2_id                         = local_accuracy_rating
+|stat2_min                        = 98
+|stat2_max                        = 123
+|spawn_weight1_tag                = weapon
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|generation_weight1_tag           = has_attack_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_caster_mod
+|generation_weight2_value         = 65
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = physical_damage, damage, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

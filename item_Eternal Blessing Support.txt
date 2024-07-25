@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Eternal Blessing Support
 |class_id                                = Support Skill Gem
@@ -7,26 +7,17 @@
 |drop_level                              = 38
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemEternalBlessing
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |strength_percent                        = 100
 |gem_tags                                = Support, Aura, Blessing
 |skill_id                                = SupportMortalConviction
 |support_gem_letter                      = c
 |required_level                          = 38
-|quality_type1_weight                    = 100
-|quality_type1_stat_text                 = Supported Skills have 0.25% increased Aura effect
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills have (0.25-5)% increased Aura effect
+|quality_type1_breakpoints               = 4.0
 |quality_type1_stat1_id                  = aura_effect_+%
 |quality_type1_stat1_value               = 250
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = Supported Skills have 1% increased Area of Effect
-|quality_type2_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = Supported Skills have 1% reduced Area of Effect<br>Non-Curse Auras from Supported Skills have 0.5% increased Effect
-|quality_type3_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type3_stat1_value               = -1000
-|quality_type3_stat2_id                  = non_curse_aura_effect_+%
-|quality_type3_stat2_value               = 500
 |static_cost_multiplier                  = 100
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

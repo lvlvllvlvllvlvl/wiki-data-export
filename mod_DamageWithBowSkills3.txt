@@ -1,0 +1,20 @@
+{{Mod
+|id                               = DamageWithBowSkills3
+|mod_groups                       = DamageWithWeaponTypeSkill
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 30
+|name                             = Perforating
+|mod_type                         = DamageWithBowSkills
+|stat_text                        = (21-30)% increased Damage with [[Bow]] [[Skill|Skills]]
+|stat1_id                         = damage_+%_with_bow_skills
+|stat1_min                        = 21
+|stat1_max                        = 30
+|spawn_weight1_tag                = quiver
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

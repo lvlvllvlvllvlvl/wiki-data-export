@@ -1,0 +1,19 @@
+{{Mod
+|id                               = TinctureOverkillLeech1
+|mod_groups                       = LifeLeechOnWeaponOverkillDamage
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Cannibalism
+|mod_type                         = LifeLeechOnWeaponOverkillDamage
+|stat_text                        = (9-13)% of Overkill Damage is Leeched as [[Life]]
+|stat1_id                         = life_leech_on_overkill_weapon_damage_%
+|stat1_min                        = 9
+|stat1_max                        = 13
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

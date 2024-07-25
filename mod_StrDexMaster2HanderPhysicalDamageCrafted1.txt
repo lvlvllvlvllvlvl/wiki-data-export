@@ -1,0 +1,21 @@
+{{Mod
+|id                               = StrDexMaster2HanderPhysicalDamageCrafted1
+|mod_groups                       = PhysicalDamage
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 20
+|name                             = Polished
+|mod_type                         = LocalPhysicalDamageTwoHanded
+|stat_text                        = Adds (10-13) to (20-25) [[Physical Damage]]
+|stat1_id                         = local_minimum_added_physical_damage
+|stat1_min                        = 10
+|stat1_max                        = 13
+|stat2_id                         = local_maximum_added_physical_damage
+|stat2_min                        = 20
+|stat2_max                        = 25
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = physical_damage, damage, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

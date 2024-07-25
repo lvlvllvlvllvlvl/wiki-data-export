@@ -1,0 +1,18 @@
+{{Mod
+|id                               = SynthesisImplicitAddedLightningDamagePerIntelligence2
+|mod_groups                       = AddedLightningDamagePerIntelligence
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 55
+|mod_type                         = AddedLightningDamagePerIntelligence
+|stat_text                        = Adds 1 to (7-8) [[Lightning Damage]] to [[Attack|Attacks]] with this Weapon per 10 [[Intelligence]]
+|stat1_id                         = attack_minimum_added_lightning_damage_per_10_int
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = attack_maximum_added_lightning_damage_per_10_int
+|stat2_min                        = 7
+|stat2_max                        = 8
+|tags                             = elemental_damage, damage, elemental, lightning, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

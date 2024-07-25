@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentDesecrateAdditionalCorpse1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Desecrate Additional Corpse 1
+|mod_type                         = EnchantmentDesecrateAdditionalCorpse
+|stat_text                        = [[Desecrate]] Spawns 2 additional corpses
+|stat1_id                         = desecrate_number_of_corpses_to_create
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

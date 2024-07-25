@@ -1,0 +1,19 @@
+{{Mod
+|id                               = TormentTouchedMonsterPoisoner
+|mod_groups                       = Torment
+|domain                           = 3
+|generation_type                  = 7
+|required_level                   = 1
+|name                             = Alchemist's Touch
+|mod_type                         = TormentTouchedMonsterPoisoner
+|stat_text                        = [[Poison]] on [[Hit]] (Hidden)<br>+15% to [[Chaos Resistance]] (Hidden)
+|stat1_id                         = global_poison_on_hit
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = base_chaos_damage_resistance_%
+|stat2_min                        = 15
+|stat2_max                        = 15
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+|tags                             = poison, chaos, resistance, ailment
+}}

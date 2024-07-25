@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MapMonsterDamageSynthesis2
+|mod_groups                       = MapMonsterDamage
+|domain                           = 18
+|generation_type                  = 15
+|required_level                   = 49
+|mod_type                         = MapMonsterDamageMapWorlds
+|stat_text                        = (15-18)% increased Monster Damage
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 19
+|stat1_max                        = 19
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 11
+|stat2_max                        = 11
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 7
+|stat3_max                        = 7
+|stat4_id                         = map_monsters_damage_+%
+|stat4_min                        = 15
+|stat4_max                        = 18
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+|tags                             = damage
+}}

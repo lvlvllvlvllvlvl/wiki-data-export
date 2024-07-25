@@ -1,0 +1,32 @@
+{{Mod
+|id                               = WeaponTreeSkillBearTrapSiphoningTrap2H
+|mod_groups                       = WeaponTreeSkillBearTrapSiphoningTrap
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSkillBearTrapSiphoningTrap
+|stat_text                        = [[Bear Trap]] and Siphoning [[Trap]] Debuffs also apply 25% reduced Cooldown Recovery Rate to affected Enemies
+|stat1_id                         = bear_and_siphoning_trap_debuff_grants_-%_cooldown_speed
+|stat1_min                        = 25
+|stat1_max                        = 25
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = attack_staff
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = attack_dagger
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = weapon_can_roll_minion_modifiers
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = wand
+|spawn_weight6_value              = 1000
+|spawn_weight7_tag                = staff
+|spawn_weight7_value              = 1000
+|spawn_weight8_tag                = dagger
+|spawn_weight8_value              = 1000
+|spawn_weight9_tag                = sceptre
+|spawn_weight9_value              = 1000
+|spawn_weight10_tag               = default
+|spawn_weight10_value             = 0
+}}

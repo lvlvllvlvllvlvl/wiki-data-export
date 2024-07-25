@@ -1,0 +1,29 @@
+{{Mod
+|id                               = JunMaster2LocalIncreasedEnergyShieldAndLifeMed2
+|mod_groups                       = BaseLocalDefencesAndLife
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 72
+|name                             = Chosen
+|mod_type                         = LocalIncreasedEnergyShieldAndLife
+|stat_text                        = (15-17)% increased [[Energy Shield]]<br>+(12-13) to maximum [[Life]]
+|stat1_id                         = local_energy_shield_+%
+|stat1_min                        = 15
+|stat1_max                        = 17
+|stat2_id                         = base_maximum_life
+|stat2_min                        = 12
+|stat2_max                        = 13
+|spawn_weight1_tag                = body_armour
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = gloves
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = boots
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = int_armour
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = resource, unveiled_mod, life, defences, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

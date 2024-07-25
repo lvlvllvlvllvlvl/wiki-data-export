@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Trap Support
 |class_id                                = Support Skill Gem
@@ -7,25 +7,18 @@
 |drop_level                              = 8
 |tags                                    = up_to_level_8_gem, support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemTrap
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |dexterity_percent                       = 60
 |intelligence_percent                    = 40
 |gem_tags                                = Support, Trap
 |skill_id                                = SupportTrap
 |support_gem_letter                      = T
 |required_level                          = 8
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills have 0.5% increased Trap Throwing Speed
-|quality_type1_stat1_id                  = trap_throwing_speed_+%
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills deal (0.5-10)% increased Trap Damage
+|quality_type1_breakpoints               = 2.0
+|quality_type1_stat1_id                  = trap_damage_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Supported Skills deal 0.5% increased Damage
-|quality_type2_stat1_id                  = damage_+%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = Supported Skills have 1% increased Trap Trigger Area of Effect
-|quality_type3_stat1_id                  = trap_trigger_radius_+%
-|quality_type3_stat1_value               = 1000
 |static_cost_multiplier                  = 120
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
@@ -42,6 +35,8 @@
 |static_stat5_value                      = 1
 |static_stat6_id                         = base_trap_duration
 |static_stat6_value                      = 4000
+|static_stat7_id                         = quality_display_trap_duration_is_gem
+|static_stat7_value                      = 1
 |stat_text                               = Supported Attack Skills cannot be used with Melee Weapons<br>Trap lasts 4 seconds<br>Supported Skills deal (20-6)% less Trap Damage<br>Supported Skills have (0-19)% increased Trap Throwing Speed
 |level1                                  = True
 |level1_level_requirement                = 8
@@ -382,5 +377,4 @@
 |level20_experience                      = 342039899
 |level21_dexterity_requirement           = 72
 |level21_intelligence_requirement        = 50
-|inventory_icon                          = Trap Support
 }}

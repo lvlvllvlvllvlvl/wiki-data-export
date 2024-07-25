@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Blasphemy Support
 |class_id                                = Support Skill Gem
@@ -7,26 +7,17 @@
 |drop_level                              = 31
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemBlasphemy
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
+|awakened_variant_id                     = Metadata/Items/Gems/SupportGemBlasphemyPlus
 |intelligence_percent                    = 100
 |gem_tags                                = Support, Hex, Aura
 |skill_id                                = SupportBlasphemy
 |support_gem_letter                      = A
 |required_level                          = 31
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Area of Effect of Supported Curse Skills
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% increased Area of Effect of Supported Curse Skills
 |quality_type1_stat1_id                  = curse_area_of_effect_+%
 |quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 0.5% reduced Effect of Supported Curses<br>Supported Skills have 2% increased Area of Effect
-|quality_type2_stat1_id                  = curse_effect_+%
-|quality_type2_stat1_value               = -500
-|quality_type2_stat2_id                  = base_skill_area_of_effect_+%
-|quality_type2_stat2_value               = 2000
-|quality_type3_weight                    = 10
-|quality_type3_stat_text                 = Supported Skills have 0.2% increased Reservation Efficiency
-|quality_type3_stat1_id                  = base_reservation_efficiency_+%
-|quality_type3_stat1_value               = 200
 |static_cost_multiplier                  = 100
 |static_stored_uses                      = 1
 |static_cooldown                         = 1.2
@@ -280,5 +271,4 @@
 |level20_intelligence_requirement        = 111
 |level20_experience                      = 339855551
 |level21_intelligence_requirement        = 114
-|inventory_icon                          = Blasphemy Support
 }}

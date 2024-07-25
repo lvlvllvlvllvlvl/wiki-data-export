@@ -1,0 +1,24 @@
+{{Mod
+|id                               = HellscapeUpsideLocalLightningDamage2h3_
+|mod_groups                       = LightningDamage
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = LocalLightningDamage
+|stat_text                        = Adds (5-10) to (145-170) [[Lightning Damage]]
+|stat1_id                         = local_minimum_added_lightning_damage
+|stat1_min                        = 5
+|stat1_max                        = 10
+|stat2_id                         = local_maximum_added_lightning_damage
+|stat2_min                        = 145
+|stat2_max                        = 170
+|spawn_weight1_tag                = bow
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = two_hand_weapon
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental_damage, damage, elemental, lightning, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

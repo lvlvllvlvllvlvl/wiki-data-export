@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmCooldownRecoveryRate1
+|mod_groups                       = AnimalCharmCooldownRecoveryRate
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 70
+|name                             = Saboteur's
+|mod_type                         = AnimalCharmCooldownRecoveryRate
+|stat_text                        = (5-8)% increased Cooldown Recovery Rate
+|stat1_id                         = base_cooldown_speed_+%
+|stat1_min                        = 5
+|stat1_max                        = 8
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = dex_animal_charm
+|spawn_weight2_value              = 50
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapEssenceMonstersHaveAdditionalEssences2
+|mod_groups                       = MapEssenceMonstersHaveAdditionalEssences
+|domain                           = 12
+|generation_type                  = 2
+|required_level                   = 50
+|name                             = of Echoes
+|mod_type                         = MapEssenceMonstersHaveAdditionalEssences
+|stat_text                        = Imprisoned Monsters in the next Area will have 2 additional Essences
+|stat1_id                         = map_essence_monsters_have_additional_essences
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = essence_leaguestone
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

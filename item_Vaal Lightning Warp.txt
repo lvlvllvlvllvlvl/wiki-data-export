@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vaal Lightning Warp
 |class_id                                = Active Skill Gem
@@ -8,15 +8,17 @@
 |tags                                    = vaal_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalLightningWarp
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |intelligence_percent                    = 100
 |gem_tags                                = Spell, AoE, Duration, Vaal, Lightning, Movement, Travel
+|secondary_skill_id                      = LightningWarp
 |gem_description                         = Casts a delayed teleport for nearby enemies to a target destination. When the teleport occurs, lightning damage is dealt to the enemies both before and after they teleport.
 |active_skill_name                       = Vaal Lightning Warp
 |skill_id                                = VaalLightningWarpInstant
 |cast_time                               = 1.0
 |required_level                          = 10
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Cast Speed
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% increased Cast Speed
 |quality_type1_stat1_id                  = base_cast_speed_+%
 |quality_type1_stat1_value               = 1000
 |static_vaal_souls_requirement           = 20

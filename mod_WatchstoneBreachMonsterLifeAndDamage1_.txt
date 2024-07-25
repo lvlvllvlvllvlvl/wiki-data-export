@@ -1,0 +1,28 @@
+{{Mod
+|id                               = WatchstoneBreachMonsterLifeAndDamage1_
+|mod_groups                       = WatchstoneBreachMonsterLifeAndDamage
+|domain                           = 25
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Inhospitable
+|mod_type                         = WatchstoneBreachMonsterLifeAndDamage
+|stat_text                        = Breach Monsters have 20% reduced Maximum [[Life]]<br>Breach Monsters deal 20% reduced Damage
+|stat1_id                         = map_breach_monsters_life_+%
+|stat1_min                        = -20
+|stat1_max                        = -20
+|stat2_id                         = map_breach_monsters_damage_+%
+|stat2_min                        = -20
+|stat2_max                        = -20
+|spawn_weight1_tag                = watchstone_item
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = watchstone_environment
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = unique_map
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = no_monster_packs
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 7
+}}

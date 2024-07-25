@@ -1,0 +1,20 @@
+{{Mod
+|id                               = NecropolisCraftingManaReservationEfficiency
+|mod_groups                       = ReducedManaReservationsCost
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 24
+|name                             = of Haunting
+|mod_type                         = ManaReservationEfficiency
+|stat_text                        = (10-15)% increased [[Mana Reservation]] Efficiency of [[Skill|Skills]]
+|stat1_id                         = base_mana_reservation_efficiency_+%
+|stat1_min                        = 10
+|stat1_max                        = 15
+|spawn_weight1_tag                = necropolis_body_armour
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, necropolis_exclusive_mod, mana
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

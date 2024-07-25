@@ -1,0 +1,18 @@
+{{Mod
+|id                               = HellscapeUpsideChanceToGainPhasingOnKill4
+|mod_groups                       = ChancetoGainPhasingOnKill
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = ChancetoGainPhasingOnKill
+|stat_text                        = (21-25)% chance to gain Phasing for 4 seconds on [[Kill]]
+|stat1_id                         = phasing_for_4_seconds_on_kill_%
+|stat1_min                        = 21
+|stat1_max                        = 25
+|spawn_weight1_tag                = quiver
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

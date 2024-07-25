@@ -1,0 +1,15 @@
+{{Mod
+|id                               = MapMonsterLifeLeechResistance_Test
+|mod_groups                       = MapMonsterLifeLeechResistance
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapMonsterLifeLeechResistance
+|stat_text                        = 30% increased Quantity of Items found in this Area<br>Cannot [[Leech]] [[Life]] from Monsters
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 30
+|stat1_max                        = 30
+|stat2_id                         = map_monsters_life_leech_resistance_%
+|stat2_min                        = 10000
+|stat2_max                        = 10000
+}}

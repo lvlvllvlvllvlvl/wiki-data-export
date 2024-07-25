@@ -1,0 +1,19 @@
+{{Item
+|rarity_id                               = normal
+|name                                    = Influencing Scarab of Conversion
+|class_id                                = MapFragment
+|size_x                                  = 1
+|size_y                                  = 1
+|flavour_text                            = Memories resound in the Atlas, echoing forever.
+|drop_level                              = 73
+|tags                                    = scarab, influence_scarab, rare_scarab, default
+|metadata_id                             = Metadata/Items/Scarabs/ScarabInfluenceNew4
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 20
+|description                             = Tier 14+ Maps found in Area have a chance to drop as Shaper Guardian, Elder Guardian, Conqueror or Unique Synthesised Maps instead
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabInfluenceMapConvertShaper
+|map_fragment_bonus2                     = ScarabInfluenceMapConvertElder
+|map_fragment_bonus3                     = ScarabInfluenceMapConvertConqueror
+|map_fragment_bonus4                     = ScarabInfluenceMapConvertSynth
+}}

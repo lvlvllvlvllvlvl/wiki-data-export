@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideColdPenetration2h3_
+|mod_groups                       = ColdResistancePenetration
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = ColdResistancePenetration
+|stat_text                        = Damage Penetrates 7% [[Cold Resistance]]
+|stat1_id                         = base_reduce_enemy_cold_resistance_%
+|stat1_min                        = 7
+|stat1_max                        = 7
+|spawn_weight1_tag                = staff
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, cold
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

@@ -1,5 +1,5 @@
 {{Skill
-|gem_description                         = Damages enemies in an area, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the enemy's corpse will be consumed to summon a Sentinel of Absolution for a longer secondary duration, or to refresh the duration and life of an existing one instead if you have the maximum number of them.
+|gem_description                         = Damages enemies in an area, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the corpse will be consumed to summon a Sentinel of Absolution for a secondary duration, or to refresh the duration and life of an existing one instead if you have the maximum number of them.
 |active_skill_name                       = Absolution
 |skill_id                                = AbsolutionMinionVaalCascade
 |cast_time                               = 1.5
@@ -20,7 +20,7 @@
 |static_stat5_value                      = 1
 |static_stat6_id                         = support_spell_cascade_sideways
 |static_stat6_value                      = 1
-|stat_text                               = Deals 4 to 6 Physical Damage<br>Also affects areas in front of and behind the targeted area
+|stat_text                               = Deals 4 to 6 Physical Damage<br>Also affects areas in front of, behind, and on each side of targeted area
 |level1                                  = True
 |level1_level_requirement                = 0
 }}

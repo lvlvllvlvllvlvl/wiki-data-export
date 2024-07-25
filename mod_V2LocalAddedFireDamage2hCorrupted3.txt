@@ -1,0 +1,24 @@
+{{Mod
+|id                               = V2LocalAddedFireDamage2hCorrupted3
+|mod_groups                       = FireDamage
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 84
+|mod_type                         = LocalFireDamage
+|stat_text                        = Adds (31-39) to (52-61) [[Fire Damage]]
+|stat1_id                         = local_minimum_added_fire_damage
+|stat1_min                        = 31
+|stat1_max                        = 39
+|stat2_id                         = local_maximum_added_fire_damage
+|stat2_min                        = 52
+|stat2_max                        = 61
+|spawn_weight1_tag                = bow
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = staff
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

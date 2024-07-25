@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideChanceToGainEnduranceChargeOnKill4_
+|mod_groups                       = EnduranceChargeOnKillChance
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = EnduranceChargeOnKillChance
+|stat_text                        = (11-12)% chance to gain an [[Endurance Charge]] on [[Kill]]
+|stat1_id                         = endurance_charge_on_kill_%
+|stat1_min                        = 11
+|stat1_max                        = 12
+|spawn_weight1_tag                = ring
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = endurance_charge
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

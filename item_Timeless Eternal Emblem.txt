@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Timeless Eternal Emblem
 |class_id                                = MapFragment
@@ -7,7 +7,9 @@
 |drop_level                              = 75
 |tags                                    = default
 |metadata_id                             = Metadata/Items/MapFragments/CurrencyLegionFragmentEternal
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = LegionFragmentImplicitEternal
-|implicit2                               = LegionMapFragmentEternal2_
+|help_text                               = Place two or more different Emblems in a Map Device to access the Domain of Timeless Conflict. Can only be used once.
+|stack_size                              = 1
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = LegionFragmentImplicitEternal
+|map_fragment_bonus2                     = LegionMapFragmentEternal2_
 }}

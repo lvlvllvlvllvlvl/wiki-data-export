@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmAreaOfEffectIfKilledRecently2
+|mod_groups                       = AnimalCharmAreaOfEffectIfKilledRecently
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Slayer's
+|mod_type                         = AnimalCharmAreaOfEffectIfKilledRecently
+|stat_text                        = (8-12)% increased Area of Effect if you've Killed [[Recently]]
+|stat1_id                         = skill_area_of_effect_+%_if_enemy_killed_recently
+|stat1_min                        = 8
+|stat1_max                        = 12
+|spawn_weight1_tag                = dex_animal_charm
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = str_animal_charm
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

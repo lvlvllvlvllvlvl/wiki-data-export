@@ -1,0 +1,28 @@
+{{Mod
+|id                               = WeaponTreeSpellAddedChaos2hHighReducedLife1
+|mod_groups                       = SpellAddedChaosDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 8
+|mod_type                         = WeaponTreeSpellAddedChaosDamageAndMaximumLife
+|stat_text                        = Adds 4 to 7 [[Chaos Damage]] to [[Spell|Spells]]<br>7% reduced maximum [[Life]]
+|stat1_id                         = spell_minimum_added_chaos_damage
+|stat1_min                        = 4
+|stat1_max                        = 4
+|stat2_id                         = spell_maximum_added_chaos_damage
+|stat2_min                        = 7
+|stat2_max                        = 7
+|stat3_id                         = maximum_life_+%
+|stat3_min                        = -7
+|stat3_max                        = -7
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = attack_staff
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = staff
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+}}

@@ -1,0 +1,16 @@
+{{Mod
+|id                               = HellscapeDownsideAdditionalMines1_
+|mod_groups                       = AdditionalRemoteMinesAllowed
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 45
+|mod_type                         = AdditionalRemoteMinesAllowed
+|stat_text                        = Can have 5 fewer Remote [[Mine|Mines]] placed at a time
+|stat1_id                         = number_of_additional_remote_mines_allowed
+|stat1_min                        = -5
+|stat1_max                        = -5
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

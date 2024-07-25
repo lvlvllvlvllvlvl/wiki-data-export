@@ -1,0 +1,17 @@
+{{Mod
+|id                               = NecropolisEnduranceCharge1
+|mod_groups                       = NecropolisEnduranceCharge
+|domain                           = 36
+|generation_type                  = 34
+|required_level                   = 46
+|mod_type                         = NecropolisEnduranceCharge
+|stat_text                        = 100% chance to gain an [[Endurance Charge]] on [[Hit]]
+|stat1_id                         = add_endurance_charge_on_skill_hit_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = monster_necropolis_mod_value_+%
+|stat2_min                        = 80
+|stat2_max                        = 80
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 400
+}}

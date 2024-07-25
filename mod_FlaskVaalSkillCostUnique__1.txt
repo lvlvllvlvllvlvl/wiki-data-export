@@ -1,0 +1,15 @@
+{{Mod
+|id                               = FlaskVaalSkillCostUnique__1
+|mod_groups                       = FlaskVaalSkillCost
+|domain                           = 2
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = FlaskVaalSkillCost
+|stat_text                        = Non-Aura Vaal [[Skill|Skills]] require 25% reduced Souls Per Use during Effect
+|stat1_id                         = local_unique_flask_vaal_skill_soul_cost_+%_during_flask_effect
+|stat1_min                        = -25
+|stat1_max                        = -25
+|tags                             = flask, vaal
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

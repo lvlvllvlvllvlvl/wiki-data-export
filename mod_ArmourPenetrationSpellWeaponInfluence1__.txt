@@ -1,0 +1,24 @@
+{{Mod
+|id                               = ArmourPenetrationSpellWeaponInfluence1__
+|mod_groups                       = ArmourPenetration
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Hunt
+|mod_type                         = ArmourPenetration
+|stat_text                        = Overwhelm (7-8)% [[Physical Damage]] Reduction
+|stat1_id                         = enemy_phys_reduction_%_penalty_vs_hit
+|stat1_min                        = 7
+|stat1_max                        = 8
+|spawn_weight1_tag                = sceptre_basilisk
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = rune_dagger_basilisk
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = wand_basilisk
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = physical_damage, damage, physical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

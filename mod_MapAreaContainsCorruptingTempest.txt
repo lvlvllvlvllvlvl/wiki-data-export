@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MapAreaContainsCorruptingTempest
+|mod_groups                       = MapAreaContainsSpecificTempest
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Twisted
+|mod_type                         = MapAreaContainsSpecificTempest
+|stat_text                        = Next Area will be affected by a Corrupting Tempest<br>-3 to Maximum [[Charge|Charges]]
+|stat1_id                         = map_leaguestone_explicit_tempest_type_override
+|stat1_min                        = 44
+|stat1_max                        = 44
+|stat2_id                         = local_extra_max_charges
+|stat2_min                        = -3
+|stat2_max                        = -3
+|spawn_weight1_tag                = tempest_leaguestone
+|spawn_weight1_value              = 10
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

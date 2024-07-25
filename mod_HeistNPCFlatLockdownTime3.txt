@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HeistNPCFlatLockdownTime3
+|mod_groups                       = HeistNPCFlatLockdownTime
+|domain                           = 23
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Delaying
+|mod_type                         = HeistNPCFlatLockdownTimeHalved
+|stat_text                        = +16 seconds to Lockdown Timer
+|stat1_id                         = heist_contract_lockdown_timer_+_halved
+|stat1_min                        = 8000
+|stat1_max                        = 8000
+|spawn_weight1_tag                = heist_equipment_tool
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

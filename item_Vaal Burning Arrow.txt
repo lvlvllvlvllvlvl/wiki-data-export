@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vaal Burning Arrow
 |class_id                                = Active Skill Gem
@@ -8,8 +8,10 @@
 |tags                                    = up_to_level_8_gem, vaal_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalBurningArrow
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |dexterity_percent                       = 100
 |gem_tags                                = Attack, Projectile, AoE, Vaal, Fire, Bow
+|secondary_skill_id                      = BurningArrow
 |gem_description                         = Fires an arrow that explodes, dealing fire damage to its target and other nearby enemies, with an increased chance of igniting them.
 |active_skill_name                       = Vaal Burning Arrow
 |item_class_id_restriction               = Bow
@@ -17,10 +19,10 @@
 |skill_id                                = VaalBurningArrow
 |cast_time                               = 1.0
 |required_level                          = 1
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = +0.5% to Fire Damage over Time Multiplier
-|quality_type1_stat1_id                  = fire_dot_multiplier_+
-|quality_type1_stat1_value               = 500
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% more Damage with Ignite
+|quality_type1_stat1_id                  = active_skill_ignite_damage_+%_final
+|quality_type1_stat1_value               = 1000
 |static_vaal_souls_requirement           = 15
 |static_vaal_stored_uses                 = 3
 |static_vaal_soul_gain_prevention_time   = 2

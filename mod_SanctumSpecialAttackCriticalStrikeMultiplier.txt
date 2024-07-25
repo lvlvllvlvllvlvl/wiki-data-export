@@ -1,0 +1,17 @@
+{{Mod
+|id                               = SanctumSpecialAttackCriticalStrikeMultiplier
+|mod_groups                       = CriticalStrikeMultiplier
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Destruction
+|mod_type                         = AttackCriticalStrikeMultiplier
+|stat_text                        = +(20-30)% to [[Critical Strike Multiplier]] for [[Attack Damage]]
+|stat1_id                         = attack_critical_strike_multiplier_+
+|stat1_min                        = 20
+|stat1_max                        = 30
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 250
+}}

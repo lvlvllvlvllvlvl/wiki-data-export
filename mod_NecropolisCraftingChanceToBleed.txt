@@ -1,0 +1,20 @@
+{{Mod
+|id                               = NecropolisCraftingChanceToBleed
+|mod_groups                       = ChanceToBleed
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 16
+|name                             = of Haunting
+|mod_type                         = ChanceToBleed
+|stat_text                        = [[Attack|Attacks]] have (15-25)% chance to cause Bleeding
+|stat1_id                         = bleed_on_hit_with_attacks_%
+|stat1_min                        = 15
+|stat1_max                        = 25
+|spawn_weight1_tag                = necropolis_gloves
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = bleed, necropolis_exclusive_mod, physical, attack, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

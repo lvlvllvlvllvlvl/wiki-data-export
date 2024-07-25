@@ -1,0 +1,20 @@
+{{Mod
+|id                               = LocalIncreasedArmourAndEvasion2
+|mod_groups                       = DefencesPercent
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 19
+|name                             = Brawler's
+|mod_type                         = LocalArmourAndEvasion
+|stat_text                        = (27-42)% increased [[Armour]] and [[Evasion]]
+|stat1_id                         = local_armour_and_evasion_+%
+|stat1_min                        = 27
+|stat1_max                        = 42
+|spawn_weight1_tag                = str_dex_armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = defences, armour, evasion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

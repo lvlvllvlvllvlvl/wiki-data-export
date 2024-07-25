@@ -1,0 +1,29 @@
+{{Mod
+|id                               = WeaponTreeAddedColdPerDex2h
+|mod_groups                       = AddedColdDamagePerDexterity
+|domain                           = 1
+|generation_type                  = 32
+|required_level                   = 60
+|mod_type                         = WeaponTreeAddedColdDamagePerDexterity
+|stat_text                        = Adds 2 to 4 [[Cold Damage]] to [[Attack|Attacks]] with this Weapon per 10 [[Dexterity]]
+|stat1_id                         = attacks_with_this_weapon_minimum_added_cold_damage_per_10_dexterity
+|stat1_min                        = 2
+|stat1_max                        = 2
+|stat2_id                         = attacks_with_this_weapon_maximum_added_cold_damage_per_10_dexterity
+|stat2_min                        = 4
+|stat2_max                        = 4
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = dagger
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = claw
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = sword
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = bow
+|spawn_weight5_value              = 1000
+|spawn_weight6_tag                = axe
+|spawn_weight6_value              = 500
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+}}

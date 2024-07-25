@@ -1,0 +1,22 @@
+{{Mod
+|id                               = AttackerTakesDamage3
+|mod_groups                       = AttackerTakesDamageNoRange
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 20
+|name                             = Barbed
+|mod_type                         = AttackerTakesDamageNoRange
+|stat_text                        = Reflects (11-24) [[Physical Damage]] to Melee Attackers
+|stat1_id                         = physical_damage_to_return_to_melee_attacker
+|stat1_min                        = 11
+|stat1_max                        = 24
+|spawn_weight1_tag                = body_armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = shield
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = physical_damage, damage, physical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

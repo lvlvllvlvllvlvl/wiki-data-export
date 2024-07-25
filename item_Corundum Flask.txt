@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Corundum Flask
 |class_id                                = UtilityFlask
@@ -13,7 +13,7 @@
 |flask_duration                          = 7.5
 |buff_id                                 = flask_utility_stun_protection
 |buff_value1                             = 30
-|buff_stat_text                          = 30% increased Stun Threshold
+|buff_stat_text                          = 30% increased Stun Threshold<br>Cannot be Stunned if you've been Stunned during Effect
 |charges_max                             = 50
 |charges_per_use                         = 20
 }}

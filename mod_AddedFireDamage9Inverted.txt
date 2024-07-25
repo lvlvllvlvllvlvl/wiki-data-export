@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AddedFireDamage9Inverted
+|mod_groups                       = FireDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 76
+|name                             = Cremating
+|mod_type                         = SelfFireDamageTaken
+|stat_text                        = Adds (19-25) to (39-45) [[Fire Damage]] to [[Attack|Attacks]] against you
+|stat1_id                         = from_self_minimum_added_attack_fire_damage_taken
+|stat1_min                        = 19
+|stat1_max                        = 25
+|stat2_id                         = from_self_maximum_added_attack_fire_damage_taken
+|stat2_min                        = 39
+|stat2_max                        = 45
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

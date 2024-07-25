@@ -1,0 +1,20 @@
+{{Mod
+|id                               = NecropolisBlock3
+|mod_groups                       = NecropolisBlock
+|domain                           = 36
+|generation_type                  = 34
+|required_level                   = 68
+|mod_type                         = NecropolisBlock
+|stat_text                        = 75% Chance to [[Block]] [[Attack Damage]]<br>75% Chance to [[Block]] [[Spell Damage]]
+|stat1_id                         = monster_base_block_%
+|stat1_min                        = 75
+|stat1_max                        = 75
+|stat2_id                         = base_spell_block_%
+|stat2_min                        = 75
+|stat2_max                        = 75
+|stat3_id                         = monster_necropolis_mod_value_+%
+|stat3_min                        = 160
+|stat3_max                        = 160
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 100
+}}

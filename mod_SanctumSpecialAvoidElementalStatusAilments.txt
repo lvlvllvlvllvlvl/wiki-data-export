@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialAvoidElementalStatusAilments
+|mod_groups                       = AvoidElementalStatusAilments
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Untouchable
+|mod_type                         = AvoidElementalStatusAilments
+|stat_text                        = (20-30)% chance to Avoid Elemental Ailments
+|stat1_id                         = avoid_all_elemental_status_%
+|stat1_min                        = 20
+|stat1_max                        = 30
+|spawn_weight1_tag                = dex_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = elemental, fire, cold, lightning, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

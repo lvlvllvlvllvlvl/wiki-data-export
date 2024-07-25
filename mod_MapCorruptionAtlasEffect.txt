@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MapCorruptionAtlasEffect
+|mod_groups                       = MapCorruptionAtlasEffect
+|domain                           = 5
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = MapCorruptionAtlasEffect
+|stat_text                        = Atlas Passives have (10-15)% increased Effect on Area
+|stat1_id                         = map_percent_increased_effect_of_atlas_passives
+|stat1_min                        = 10
+|stat1_max                        = 15
+|spawn_weight1_tag                = infected_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 10
+}}

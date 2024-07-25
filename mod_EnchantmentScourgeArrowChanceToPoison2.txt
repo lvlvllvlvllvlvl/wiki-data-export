@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentScourgeArrowChanceToPoison2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Scourge Arrow Chance To Poison 2
+|mod_type                         = EnchantmentScourgeArrowChanceToPoison
+|stat_text                        = Scourge Arrow has 8% chance to [[Poison]] per Stage
+|stat1_id                         = virulent_arrow_chance_to_poison_%_per_stage
+|stat1_min                        = 8
+|stat1_max                        = 8
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = poison, chaos, attack, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

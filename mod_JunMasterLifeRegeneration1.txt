@@ -1,0 +1,22 @@
+{{Mod
+|id                               = JunMasterLifeRegeneration1
+|mod_groups                       = LifeRegenerationRatePercentage
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Order
+|mod_type                         = LifeRegenerationRatePercentage
+|stat_text                        = Regenerate (0.4-0.6)% of [[Life]] per second
+|stat1_id                         = life_regeneration_rate_per_minute_%
+|stat1_min                        = 24
+|stat1_max                        = 36
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = amulet
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = resource, unveiled_mod, life
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Winged Sulphite Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = Madness marches in machine form.<br>Harnessed lightning, grim faces, and cold ambition abounds.<br>Civilisation will be its own undoing.
 |drop_level                              = 68
-|tags                                    = jewelled_scarab, default
+|tags                                    = scarab, delve_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabSulphite4
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabSulphite4
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = Area contains Niko<br>Map owner gains 100% more Sulphite
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabSulphite4
 }}

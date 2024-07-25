@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmMarkEffect2
+|mod_groups                       = AnimalCharmMarkEffect
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Deadeye's
+|mod_type                         = AnimalCharmMarkEffect
+|stat_text                        = (16-25)% increased Effect of your Marks
+|stat1_id                         = mark_skills_curse_effect_+%
+|stat1_min                        = 16
+|stat1_max                        = 25
+|spawn_weight1_tag                = dex_animal_charm
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

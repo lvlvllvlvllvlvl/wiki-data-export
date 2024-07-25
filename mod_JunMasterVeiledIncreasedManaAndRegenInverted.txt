@@ -1,0 +1,21 @@
+{{Mod
+|id                               = JunMasterVeiledIncreasedManaAndRegenInverted
+|mod_groups                       = IncreasedMana
+|domain                           = 28
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Chosen
+|mod_type                         = IncreasedManaAndDegenGracePeriod
+|stat_text                        = +(51-55) to maximum [[Mana]]<br>Lose 5.3 [[Mana]] per second
+|stat1_id                         = base_maximum_mana
+|stat1_min                        = 51
+|stat1_max                        = 55
+|stat2_id                         = mana_degeneration_per_minute_not_in_grace
+|stat2_min                        = 320
+|stat2_max                        = 320
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = resource, unveiled_mod, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

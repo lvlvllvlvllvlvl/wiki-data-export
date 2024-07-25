@@ -1,0 +1,29 @@
+{{Mod
+|id                               = DelveArmourSocketedSpellsManaCost1_
+|mod_groups                       = SocketedSpellsManaCost
+|domain                           = 16
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Underground
+|granted_skill                    = DelveModSocketedSpellManaCost
+|mod_type                         = SocketedSpellsManaCost
+|stat_text                        = [[Item socket|Socketed]] [[Spell|Spells]] have 20% reduced [[Mana]] Cost
+|stat1_id                         = local_display_socketed_spells_mana_cost_+%
+|stat1_min                        = -20
+|stat1_max                        = -20
+|spawn_weight1_tag                = abyss_jewel
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = jewel
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = shield
+|spawn_weight3_value              = 2000
+|spawn_weight4_tag                = boots
+|spawn_weight4_value              = 2000
+|spawn_weight5_tag                = helmet
+|spawn_weight5_value              = 2000
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = skill, resource, mana, caster, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

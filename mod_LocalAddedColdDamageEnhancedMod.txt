@@ -1,0 +1,24 @@
+{{Mod
+|id                               = LocalAddedColdDamageEnhancedMod
+|mod_groups                       = ColdDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Topotante's
+|mod_type                         = LocalColdDamageAndPen
+|stat_text                        = Adds (53-72) to (107-124) [[Cold Damage]]<br>[[Attack|Attacks]] with this Weapon Penetrate (13-15)% [[Cold Resistance]]
+|stat1_id                         = local_minimum_added_cold_damage
+|stat1_min                        = 53
+|stat1_max                        = 72
+|stat2_id                         = local_maximum_added_cold_damage
+|stat2_min                        = 107
+|stat2_max                        = 124
+|stat3_id                         = local_cold_penetration_%
+|stat3_min                        = 13
+|stat3_max                        = 15
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, cold, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

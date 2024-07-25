@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmProjectileDamageWithDistanceTravelled1
+|mod_groups                       = AnimalCharmProjectileDamageWithDistanceTravelled
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Deadeye's
+|mod_type                         = AnimalCharmProjectileDamageWithDistanceTravelled
+|stat_text                        = Projectiles gain Damage as they travel farther, dealing up<br />to (25-40)% increased Damage with [[Hit|Hits]] to targets
+|stat1_id                         = projectile_damage_+%_max_as_distance_travelled_increases
+|stat1_min                        = 25
+|stat1_max                        = 40
+|spawn_weight1_tag                = dex_animal_charm
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

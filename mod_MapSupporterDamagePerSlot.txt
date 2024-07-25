@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MapSupporterDamagePerSlot
+|mod_groups                       = MapSupporterDamagePerSlot
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSupporterDamagePerSlot
+|stat_text                        = Players' [[Minion|Minions]] deal 10% less Damage per Item Equipped by their Master<br>Players deal 10% less Damage per Equipped Item<br>4% Chance to convert Maps to Conqueror Maps<br>4% Chance to convert Maps to Shaper Guardian Maps<br>4% Chance to convert Maps to Elder Guardian Maps
+|stat1_id                         = map_players_minion_damage_+%_final_per_equipped_item
+|stat1_min                        = -10
+|stat1_max                        = -10
+|stat2_id                         = map_players_damage_+%_final_per_equipped_item
+|stat2_min                        = -10
+|stat2_max                        = -10
+|stat3_id                         = map_supporter_map_to_conqueror_map_permyriad
+|stat3_min                        = 400
+|stat3_max                        = 400
+|stat4_id                         = map_supporter_map_to_shaper_map_permyriad
+|stat4_min                        = 400
+|stat4_max                        = 400
+|stat5_id                         = map_supporter_map_to_elder_map_permyriad
+|stat5_min                        = 400
+|stat5_max                        = 400
+}}

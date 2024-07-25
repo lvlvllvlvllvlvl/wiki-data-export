@@ -1,0 +1,27 @@
+{{Mod
+|id                               = WeaponTreeSkillHeavyStrikeBoneshatter
+|mod_groups                       = WeaponTreeSkillHeavyStrikeBoneshatter
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|granted_skill                    = BoneCorpsesTriggered
+|mod_type                         = WeaponTreeSkillHeavyStrikeBoneshatter
+|stat_text                        = Trigger [[Level]] 20 Bone Corpses when you Stun an Enemy with [[Heavy Strike]] or Boneshatter
+|stat1_id                         = cast_bone_corpses_on_stun_with_heavy_strike_or_boneshatter
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = sword
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = staff
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = sceptre
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = mace
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = axe
+|spawn_weight5_value              = 1000
+|spawn_weight6_tag                = shield
+|spawn_weight6_value              = 500
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+}}

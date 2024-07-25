@@ -10,10 +10,12 @@
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
-|static_stat1_id                         = base_projectile_speed_+%
-|static_stat1_value                      = -25
-|static_stat2_id                         = active_skill_projectile_damage_+%_final
-|static_stat2_value                      = -50
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = base_projectile_speed_+%
+|static_stat2_value                      = -25
+|static_stat3_id                         = active_skill_projectile_damage_+%_final
+|static_stat3_value                      = -50
 |stat_text                               = Deals (0-30)% less Damage<br>25% reduced Projectile Speed<br>Fires (2-6) additional Projectiles<br>50% less Projectile Damage
 |level1                                  = True
 |level1_level_requirement                = 1

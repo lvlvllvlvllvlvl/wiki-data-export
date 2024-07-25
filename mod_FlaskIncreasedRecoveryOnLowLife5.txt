@@ -1,0 +1,22 @@
+{{Mod
+|id                               = FlaskIncreasedRecoveryOnLowLife5
+|mod_groups                       = FlaskRecoveryAmount
+|domain                           = 2
+|generation_type                  = 1
+|required_level                   = 82
+|name                             = Cautious
+|mod_type                         = FlaskIncreasedRecoveryOnLowLife
+|stat_text                        = (125-130)% more Recovery if used while on [[Low Life]]
+|stat1_id                         = local_flask_amount_to_recover_+%_when_on_low_life
+|stat1_min                        = 125
+|stat1_max                        = 130
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = mana_flask
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 600
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Static Strike
 |class_id                                = Active Skill Gem
@@ -17,26 +17,10 @@
 |skill_id                                = StaticStrike
 |cast_time                               = 1.0
 |required_level                          = 12
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Skill Effect Duration
-|quality_type1_stat1_id                  = skill_effect_duration_+%
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% increased Beam frequency
+|quality_type1_stat1_id                  = static_strike_zap_speed_+%
 |quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% increased Damage
-|quality_type2_stat1_id                  = damage_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 5
-|quality_type3_stat_text                 = Chains +0.05 Times<br>2% reduced Damage
-|quality_type3_stat1_id                  = number_of_chains
-|quality_type3_stat1_value               = 50
-|quality_type3_stat2_id                  = damage_+%
-|quality_type3_stat2_value               = -2000
-|quality_type4_weight                    = 50
-|quality_type4_stat_text                 = 1% increased Beam frequency<br>1% reduced Area of Effect
-|quality_type4_stat1_id                  = static_strike_zap_speed_+%
-|quality_type4_stat1_value               = 1000
-|quality_type4_stat2_id                  = base_skill_area_of_effect_+%
-|quality_type4_stat2_value               = -1000
 |static_cost_amounts                     = 6
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 100
@@ -49,12 +33,12 @@
 |static_stat3_value                      = 1
 |static_stat4_id                         = static_strike_beam_damage_+%_final
 |static_stat4_value                      = -40
-|stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>Base duration is 3 seconds<br>Beams Hit Enemies every (0.4-0.32) seconds<br>Chains +1 Times<br>Beams deal 40% less Damage<br>(4-6) maximum Beam Targets
+|stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>Base duration is 3.00 seconds<br>Beams Hit Enemies every (0.40-0.32) seconds<br>Chains +1 Times<br>Beams deal 40% less Damage<br>(4-6) maximum Beam Targets
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_damage_effectiveness             = 110
 |level1_damage_multiplier                = 110
-|level1_stat_text                        = Beams Hit Enemies every 0.4 seconds<br>4 maximum Beam Targets
+|level1_stat_text                        = Beams Hit Enemies every 0.40 seconds<br>4 maximum Beam Targets
 |level1_stat1_id                         = static_strike_base_zap_frequency_ms
 |level1_stat1_value                      = 400
 |level1_stat2_id                         = static_strike_number_of_beam_targets
@@ -63,7 +47,7 @@
 |level2_level_requirement                = 15
 |level2_damage_effectiveness             = 114
 |level2_damage_multiplier                = 114.1
-|level2_stat_text                        = Beams Hit Enemies every 0.4 seconds<br>4 maximum Beam Targets
+|level2_stat_text                        = Beams Hit Enemies every 0.40 seconds<br>4 maximum Beam Targets
 |level2_stat1_id                         = static_strike_base_zap_frequency_ms
 |level2_stat1_value                      = 400
 |level2_stat2_id                         = static_strike_number_of_beam_targets
@@ -270,7 +254,7 @@
 |level25_level_requirement               = 80
 |level25_damage_effectiveness            = 209
 |level25_damage_multiplier               = 208.5
-|level25_stat_text                       = Beams Hit Enemies every 0.3 seconds<br>6 maximum Beam Targets
+|level25_stat_text                       = Beams Hit Enemies every 0.30 seconds<br>6 maximum Beam Targets
 |level25_stat1_id                        = static_strike_base_zap_frequency_ms
 |level25_stat1_value                     = 300
 |level25_stat2_id                        = static_strike_number_of_beam_targets
@@ -279,7 +263,7 @@
 |level26_level_requirement               = 82
 |level26_damage_effectiveness            = 213
 |level26_damage_multiplier               = 212.6
-|level26_stat_text                       = Beams Hit Enemies every 0.3 seconds<br>6 maximum Beam Targets
+|level26_stat_text                       = Beams Hit Enemies every 0.30 seconds<br>6 maximum Beam Targets
 |level26_stat1_id                        = static_strike_base_zap_frequency_ms
 |level26_stat1_value                     = 300
 |level26_stat2_id                        = static_strike_number_of_beam_targets
@@ -288,7 +272,7 @@
 |level27_level_requirement               = 84
 |level27_damage_effectiveness            = 217
 |level27_damage_multiplier               = 216.7
-|level27_stat_text                       = Beams Hit Enemies every 0.3 seconds<br>6 maximum Beam Targets
+|level27_stat_text                       = Beams Hit Enemies every 0.30 seconds<br>6 maximum Beam Targets
 |level27_stat1_id                        = static_strike_base_zap_frequency_ms
 |level27_stat1_value                     = 300
 |level27_stat2_id                        = static_strike_number_of_beam_targets

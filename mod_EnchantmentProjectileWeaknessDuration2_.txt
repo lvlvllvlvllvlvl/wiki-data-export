@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentProjectileWeaknessDuration2_
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Projectile Weakness Duration 2
+|mod_type                         = EnchantmentProjectileWeaknessDuration
+|stat_text                        = Sniper's Mark has 45% increased Duration
+|stat1_id                         = projectile_weakness_duration_+%
+|stat1_min                        = 45
+|stat1_max                        = 45
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster, curse
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

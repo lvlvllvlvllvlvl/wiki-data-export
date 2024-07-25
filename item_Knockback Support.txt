@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Knockback Support
 |class_id                                = Support Skill Gem
@@ -7,24 +7,17 @@
 |drop_level                              = 8
 |tags                                    = up_to_level_8_gem, support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemKnockback
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |strength_percent                        = 100
 |gem_tags                                = Support
 |skill_id                                = SupportKnockback
 |support_gem_letter                      = k
 |required_level                          = 8
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills have 0.5% chance to Knock Enemies Back on hit
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills have (0.5-10)% chance to Knock Enemies Back on hit
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = base_global_chance_to_knockback_%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Supported Skills deal 0.5% increased Damage
-|quality_type2_stat1_id                  = damage_+%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = Supported Skills have 2% increased Knockback Distance
-|quality_type3_stat1_id                  = knockback_distance_+%
-|quality_type3_stat1_value               = 2000
 |static_cost_multiplier                  = 100
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
@@ -274,5 +267,4 @@
 |level20_strength_requirement            = 111
 |level20_experience                      = 342039899
 |level21_strength_requirement            = 114
-|inventory_icon                          = Knockback Support
 }}

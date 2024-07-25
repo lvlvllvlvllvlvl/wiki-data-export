@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeMaximumLightningResistanceMaximumColdResistance1
+|mod_groups                       = WeaponTreeLightningResistance
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 45
+|mod_type                         = WeaponTreeMaximumLightningResistanceMaximumColdResistance
+|stat_text                        = +3% to maximum [[Lightning Resistance]]<br>-2% to maximum [[Cold Resistance]]
+|stat1_id                         = base_maximum_lightning_damage_resistance_%
+|stat1_min                        = 3
+|stat1_max                        = 3
+|stat2_id                         = base_maximum_cold_damage_resistance_%
+|stat2_min                        = -2
+|stat2_max                        = -2
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

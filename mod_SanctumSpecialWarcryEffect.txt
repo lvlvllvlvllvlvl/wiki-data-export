@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SanctumSpecialWarcryEffect
+|mod_groups                       = WarcryEffect
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 82
+|name                             = Inspiring
+|mod_type                         = WarcryEffect
+|stat_text                        = (20-30)% increased Warcry Buff Effect
+|stat1_id                         = warcry_buff_effect_+%
+|stat1_min                        = 20
+|stat1_max                        = 30
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 50
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

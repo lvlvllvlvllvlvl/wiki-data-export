@@ -1,0 +1,21 @@
+{{Mod
+|id                               = RecombinatorSpecialLightningDamageToAttacksPerIntelligence
+|mod_groups                       = GlobalAddedDamagePerAttribute
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Sentinel's
+|mod_type                         = LightningDamageToAttacksPerIntelligence
+|stat_text                        = Adds 1 to 5 [[Lightning Damage]] to [[Attack|Attacks]] per 10 [[Intelligence]]
+|stat1_id                         = minimum_added_lightning_damage_to_attacks_per_10_intelligence
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = maximum_added_lightning_damage_to_attacks_per_10_intelligence
+|stat2_min                        = 5
+|stat2_max                        = 5
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental, lightning, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

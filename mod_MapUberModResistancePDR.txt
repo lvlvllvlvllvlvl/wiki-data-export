@@ -1,0 +1,32 @@
+{{Mod
+|id                               = MapUberModResistancePDR
+|mod_groups                       = MapMonstersAllResistances, MapMonsterPhysicalResistance
+|domain                           = 37
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Protected
+|mod_type                         = MapUberModResistancePDR
+|stat_text                        = +50% Monster [[Physical Damage]] Reduction<br>+55% Monster [[Elemental Resistance|Elemental Resistances]]<br>+35% Monster [[Chaos Resistance]]
+|stat1_id                         = map_monsters_additional_physical_damage_reduction
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = map_monsters_additional_elemental_resistance
+|stat2_min                        = 55
+|stat2_max                        = 55
+|stat3_id                         = map_monsters_additional_chaos_resistance
+|stat3_min                        = 35
+|stat3_max                        = 35
+|stat4_id                         = map_pack_size_+%
+|stat4_min                        = 7
+|stat4_max                        = 7
+|stat5_id                         = map_item_drop_rarity_+%
+|stat5_min                        = 16
+|stat5_max                        = 16
+|stat6_id                         = map_item_drop_quantity_+%
+|stat6_min                        = 20
+|stat6_max                        = 20
+|spawn_weight1_tag                = uber_tier_map
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = EnchantmentBallLightningProjectileSpeed2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|mod_type                         = EnchantmentBallLightningProjectileSpeed
+|stat_text                        = 45% reduced [[Ball Lightning]] Projectile Speed
+|stat1_id                         = ball_lightning_projectile_speed_+%
+|stat1_min                        = -45
+|stat1_max                        = -45
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster, speed
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

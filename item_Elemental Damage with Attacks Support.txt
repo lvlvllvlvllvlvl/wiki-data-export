@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Elemental Damage with Attacks Support
 |class_id                                = Support Skill Gem
@@ -7,25 +7,19 @@
 |drop_level                              = 18
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemWeaponElementalDamage
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
+|awakened_variant_id                     = Metadata/Items/Gems/SupportGemWeaponElementalDamagePlus
 |strength_percent                        = 60
 |intelligence_percent                    = 40
 |gem_tags                                = Attack, Support
 |skill_id                                = SupportWeaponElementalDamage
 |support_gem_letter                      = W
 |required_level                          = 18
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Elemental Damage with Attack Skills
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.5-10)% increased Elemental Damage with Attack Skills
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = elemental_damage_with_attack_skills_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Supported Skills have 0.25% chance to Freeze, Shock and Ignite
-|quality_type2_stat1_id                  = chance_to_freeze_shock_ignite_%
-|quality_type2_stat1_value               = 250
-|quality_type3_weight                    = 10
-|quality_type3_stat_text                 = 0.025% of Elemental Damage Leeched as Mana
-|quality_type3_stat1_id                  = base_mana_leech_from_elemental_damage_permyriad
-|quality_type3_stat1_value               = 2500
 |static_cost_multiplier                  = 130
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

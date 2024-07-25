@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmOnslaughtEffect1
+|mod_groups                       = AnimalCharmOnslaughtEffect
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Raider's
+|mod_type                         = AnimalCharmOnslaughtEffect
+|stat_text                        = (15-25)% increased Effect of [[Onslaught]] on you
+|stat1_id                         = onslaught_effect_+%
+|stat1_min                        = 15
+|stat1_max                        = 25
+|spawn_weight1_tag                = dex_animal_charm
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

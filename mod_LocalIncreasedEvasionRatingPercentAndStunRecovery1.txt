@@ -1,0 +1,23 @@
+{{Mod
+|id                               = LocalIncreasedEvasionRatingPercentAndStunRecovery1
+|mod_groups                       = DefencesPercentAndStunRecovery
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 2
+|name                             = Mosquito's
+|mod_type                         = LocalEvasionRatingAndStunRecoveryIncreasePercent
+|stat_text                        = (6-13)% increased [[Evasion Rating]]<br>(6-7)% increased Stun and [[Block]] Recovery
+|stat1_id                         = local_evasion_rating_+%
+|stat1_min                        = 6
+|stat1_max                        = 13
+|stat2_id                         = base_stun_recovery_+%
+|stat2_min                        = 6
+|stat2_max                        = 7
+|spawn_weight1_tag                = dex_armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = defences, evasion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

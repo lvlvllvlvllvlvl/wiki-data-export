@@ -1,5 +1,5 @@
 {{Skill
-|gem_description                         = Unleash a beam of fire that burns enemies it touches. Remaining in the beam intensifies the burning, adding a portion of the beam's damage in stages. Inflicts Fire Exposure at maximum stages. Enemies who leave the beam continue to burn for a duration. Increasing cast speed also increases the rate at which the beam can turn.
+|gem_description                         = Unleash a beam of fire that burns enemies it touches. Remaining in the beam raises the burning, adding a portion of the beam's damage in stages. Inflicts Fire Exposure at maximum stages. Enemies who leave the beam continue to burn for a duration. Increasing cast speed also increases the rate at which the beam turns.
 |active_skill_name                       = Scorching Ray
 |skill_id                                = DawnFireBeamDivineMap
 |cast_time                               = 0.5
@@ -16,7 +16,7 @@
 |static_stat2_value                      = 1500
 |static_stat3_id                         = fire_beam_additional_stack_damage_+%_final
 |static_stat3_value                      = -70
-|stat_text                               = Deals 885.7 Base Fire Damage per second<br>Base duration is 1.5 seconds<br>Additional Debuff stages add 30% of Damage
+|stat_text                               = Deals 885.7 Base Fire Damage per second<br>Base duration is 1.50 seconds<br>Additional Debuff stages add -70% of Damage
 |level1                                  = True
 |level1_level_requirement                = 76
 }}

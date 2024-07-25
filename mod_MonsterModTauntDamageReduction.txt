@@ -1,0 +1,12 @@
+{{Mod
+|id                               = MonsterModTauntDamageReduction
+|mod_groups                       = MonsterTauntDamageReduction
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterTauntDamageReduction
+|stat_text                        = Enemies Taunted by you deal 30% less Damage with [[Hit|Hits]] and<br />Ailments against other targets (Hidden)
+|stat1_id                         = taunted_enemies_damage_+%_final_vs_non_taunt_target
+|stat1_min                        = -30
+|stat1_max                        = -30
+}}

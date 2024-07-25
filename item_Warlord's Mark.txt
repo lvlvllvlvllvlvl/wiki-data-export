@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Warlord's Mark
 |class_id                                = Active Skill Gem
@@ -16,18 +16,11 @@
 |skill_id                                = WarlordsMark
 |cast_time                               = 0.5
 |required_level                          = 16
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Cursed Enemies have a 0.25% chance to grant an Endurance Charge when Hit
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Cursed Enemies have a (0.25-5)% chance to grant an Endurance Charge when Hit
+|quality_type1_breakpoints               = 4.0
 |quality_type1_stat1_id                  = grant_attacker_endurance_charge_when_hit_%_chance
 |quality_type1_stat1_value               = 250
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Cursed enemies take 0.2% increased Damage
-|quality_type2_stat1_id                  = base_damage_taken_+%
-|quality_type2_stat1_value               = 200
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = Cursed Enemies grant 0.1 Rage Regenerated over 1 second when Stunned
-|quality_type3_stat1_id                  = enemy_rage_regeneration_on_stun
-|quality_type3_stat1_value               = 100
 |static_cost_types                       = Mana
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
@@ -501,5 +494,4 @@
 |level20_experience                      = 341913067
 |level21_strength_requirement            = 100
 |level21_dexterity_requirement           = 70
-|inventory_icon                          = Warlord's Mark
 }}

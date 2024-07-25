@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Herald of Thunder
 |class_id                                = Active Skill Gem
@@ -15,20 +15,10 @@
 |skill_id                                = HeraldOfThunder
 |cast_time                               = 0.0
 |required_level                          = 16
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Buff grants 0.75% increased Lightning Damage
-|quality_type1_stat1_id                  = herald_of_thunder_lightning_damage_+%
-|quality_type1_stat1_value               = 750
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% increased Skill Effect Duration
-|quality_type2_stat1_id                  = skill_effect_duration_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 20
-|quality_type3_stat_text                 = Buff grants 1.5% increased Damage<br>Buff grants 0.5% increased Damage taken
-|quality_type3_stat1_id                  = skill_buff_grants_damage_+%
-|quality_type3_stat1_value               = 1500
-|quality_type3_stat2_id                  = base_damage_taken_+%
-|quality_type3_stat2_value               = 500
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Storms Hit Enemies with (1-20)% increased Frequency
+|quality_type1_stat1_id                  = herald_of_thunder_bolt_frequency_+%
+|quality_type1_stat1_value               = 1000
 |static_stored_uses                      = 1
 |static_cooldown                         = 1
 |static_damage_effectiveness             = 100
@@ -52,7 +42,7 @@
 |static_stat7_value                      = 250
 |static_stat8_id                         = display_herald_of_thunder_storm
 |static_stat8_value                      = 1
-|stat_text                               = Deals (1-23) to (31-1108) Lightning Damage<br>Cannot inflict Shock<br>Base duration is 6 seconds<br>Storm Hits an Enemy every 0.25 Seconds<br>Creates a storm when you Kill a Shocked Enemy<br>Buff grants (2-19) to (7-76) Added Attack Lightning Damage<br>Buff grants (2-19) to (7-76) Added Spell Lightning Damage
+|stat_text                               = Deals (1-23) to (31-1108) Lightning Damage<br>Cannot inflict Shock<br>Base duration is 6.00 seconds<br>Storm Hits an Enemy every 0.25 Seconds<br>Creates a storm when you Kill a Shocked Enemy<br>Buff grants (2-19) to (7-76) Added Attack Lightning Damage<br>Buff grants (2-19) to (7-76) Added Spell Lightning Damage
 |level1                                  = True
 |level1_level_requirement                = 16
 |level1_stat_text                        = Deals 1 to 31 Lightning Damage<br>Buff grants 2 to 7 Added Attack Lightning Damage<br>Buff grants 2 to 7 Added Spell Lightning Damage

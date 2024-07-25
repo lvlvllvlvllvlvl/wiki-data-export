@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Winged Cartography Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = The Sealing Blade has been removed, and the agent of Decay<br>shall feed upon this world until nothing remains but dust.
 |drop_level                              = 68
-|tags                                    = jewelled_scarab, default
+|tags                                    = scarab, maps_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabMaps4
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabMaps4_
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = 85% increased Maps found in Area
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabMaps4_
 }}

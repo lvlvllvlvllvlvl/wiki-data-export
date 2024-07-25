@@ -1,0 +1,20 @@
+{{Mod
+|id                               = FlaskBuffAttackLifeLeechWhileHealing4
+|mod_groups                       = FlaskBuffWhileHealing
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of Butchery
+|mod_type                         = FlaskBuffAttackLifeLeechWhileHealing
+|stat_text                        = 0.7% of [[Attack Damage]] Leeched as [[Life]] during Effect
+|stat1_id                         = local_flask_life_leech_from_attack_damage_permyriad_while_healing
+|stat1_min                        = 70
+|stat1_max                        = 70
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask, resource, life, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

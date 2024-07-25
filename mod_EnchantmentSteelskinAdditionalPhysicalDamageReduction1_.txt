@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentSteelskinAdditionalPhysicalDamageReduction1_
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Steelskin Additional Physical Damage Reduction 1
+|mod_type                         = EnchantmentSteelskinAdditionalPhysicalDamageReduction
+|stat_text                        = Steelskin grants 8% additional [[Physical Damage]] Reduction
+|stat1_id                         = quick_guard_additional_physical_damage_reduction_%
+|stat1_min                        = 8
+|stat1_max                        = 8
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

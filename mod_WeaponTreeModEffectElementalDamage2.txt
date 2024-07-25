@@ -1,0 +1,18 @@
+{{Mod
+|id                               = WeaponTreeModEffectElementalDamage2
+|mod_groups                       = WeaponTreeModEffectElementalDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 65
+|mod_type                         = WeaponTreeModEffectElementalDamage
+|stat_text                        = 15% increased Explicit [[Elemental Damage]] Modifier magnitudes
+|stat1_id                         = local_explicit_elemental_damage_mod_effect_+%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = fishing_rod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = shield
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 300
+}}

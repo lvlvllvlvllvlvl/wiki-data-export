@@ -1,0 +1,17 @@
+{{Mod
+|id                               = UniqueTreeWeaponTreeSupportFirePenetration
+|mod_groups                       = WeaponTreeSupportFirePenetration
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|granted_skill                    = SupportFirePenetration
+|mod_type                         = WeaponTreeSupportFirePenetration
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Fire Penetration Support|Level 30 Fire Penetration]]
+|stat1_id                         = local_display_socketed_gems_get_fire_penetration_level
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = crucible_unique_staff
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

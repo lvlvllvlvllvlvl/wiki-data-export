@@ -1,0 +1,22 @@
+{{Mod
+|id                               = WeaponTreeEnergyShieldOnBlock1
+|mod_groups                       = WeaponTreeEnergyShieldOnBlock
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeEnergyShieldOnBlock
+|stat_text                        = Gain 30 [[Energy Shield]] when you [[Block]]
+|stat1_id                         = energy_shield_gained_on_block
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = str_armour
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = dex_armour
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = str_dex_armour
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = shield
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+}}

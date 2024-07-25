@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TinctureChaosPen2
+|mod_groups                       = WeaponChaosPenetration
+|domain                           = 34
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Tainted
+|mod_type                         = WeaponChaosPenetration
+|stat_text                        = Damage Penetrates (6-8)% [[Chaos Resistance]]
+|stat1_id                         = reduce_enemy_chaos_resistance_with_weapons_%
+|stat1_min                        = 6
+|stat1_max                        = 8
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = chaos, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

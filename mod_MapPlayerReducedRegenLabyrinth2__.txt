@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapPlayerReducedRegenLabyrinth2__
+|mod_groups                       = MapPlayerReducedRegen
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapPlayerReducedRegenMap2Tier
+|stat_text                        = 20% increased Quantity of Items found in this Area<br>40% increased Rarity of Items found in this Area<br>Players have 40% less Recovery Rate of [[Life]] and [[Energy Shield]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 40
+|stat2_max                        = 40
+|stat3_id                         = map_player_life_and_es_recovery_speed_+%_final
+|stat3_min                        = -40
+|stat3_max                        = -40
+|tags                             = resource, life, defences, energy_shield
+}}

@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Awakened Elemental Damage with Attacks Support
 |class_id                                = Support Skill Gem
@@ -7,15 +7,17 @@
 |drop_level                              = 72
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemWeaponElementalDamagePlus
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
+|is_awakened_support_gem                 = true
 |strength_percent                        = 60
 |intelligence_percent                    = 40
 |gem_tags                                = Attack, Support
 |skill_id                                = SupportWeaponElementalDamagePlus
 |support_gem_letter                      = W
 |required_level                          = 72
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Elemental Damage with Attack Skills
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.5-10)% increased Elemental Damage with Attack Skills
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = elemental_damage_with_attack_skills_+%
 |quality_type1_stat1_value               = 500
 |static_cost_multiplier                  = 130

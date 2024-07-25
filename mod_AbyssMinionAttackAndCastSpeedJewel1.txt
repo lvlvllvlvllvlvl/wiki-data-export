@@ -1,0 +1,23 @@
+{{Mod
+|id                               = AbyssMinionAttackAndCastSpeedJewel1
+|mod_groups                       = MinionAttackSpeedAndCastSpeed
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Training
+|mod_type                         = MinionAttackAndCastSpeed
+|stat_text                        = [[Minion|Minions]] have (4-6)% increased [[Attack Speed]]<br>[[Minion|Minions]] have (4-6)% increased [[Cast Speed]]
+|stat1_id                         = minion_attack_speed_+%
+|stat1_min                        = 4
+|stat1_max                        = 6
+|stat2_id                         = minion_cast_speed_+%
+|stat2_min                        = 4
+|stat2_max                        = 6
+|spawn_weight1_tag                = abyss_jewel_summoner
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, caster, speed, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

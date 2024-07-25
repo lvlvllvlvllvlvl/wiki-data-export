@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Fist of War Support
 |class_id                                = Support Skill Gem
@@ -7,26 +7,17 @@
 |drop_level                              = 38
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemFistOfWar
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |strength_percent                        = 100
 |gem_tags                                = Slam, Attack, Melee, AoE, Support
 |skill_id                                = AncestralSlamSupport
 |support_gem_letter                      = X
 |required_level                          = 38
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills have 0.5% increased Area of Effect
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills have (0.5-10)% increased Area of Effect
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = base_skill_area_of_effect_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Supported Skills have 1% reduced Attack Speed<br>Supported Skills deal 3% increased Damage
-|quality_type2_stat1_id                  = attack_speed_+%
-|quality_type2_stat1_value               = -1000
-|quality_type2_stat2_id                  = damage_+%
-|quality_type2_stat2_value               = 3000
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = Ancestrally Boosted Slams have 0.5% reduced Enemy Stun Threshold
-|quality_type3_stat1_id                  = ancestral_slam_stun_threshold_reduction_+%
-|quality_type3_stat1_value               = 500
 |static_cost_multiplier                  = 140
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
@@ -516,5 +507,4 @@
 |level20_strength_requirement            = 111
 |level20_experience                      = 336444335
 |level21_strength_requirement            = 114
-|inventory_icon                          = Fist of War Support
 }}

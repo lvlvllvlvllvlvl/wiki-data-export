@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Remembrance
 |class_id                                = DivinationCard
@@ -6,10 +6,9 @@
 |size_y                                  = 1
 |flavour_text                            = "For all your struggles, all your achievements, even for the greatest of us, a story is all that remains. Write it well." <br><br>-Julius Perandus, Father of Chitus
 |drop_level                              = 68
-|tags                                    = jewellery_divination, unique_divination, corrupted_divination, unique_corrupted_divination, unique_jewellery_divination, divination_card, default
+|tags                                    = jewellery_divination, unique_divination, corrupted_divination, unique_corrupted_divination, unique_jewellery_divination, boss_drop_card, divination_card, default
 |metadata_id                             = Metadata/Items/DivinationCards/DivinationCardRemembrance
 |stack_size                              = 8
-|description                             = {{c|unique|{{il|html=|Precursor's Emblem}}}}<br>{{c|corrupted|[[Corrupted]]}}
+|description                             = {{c|unique|[[Precursor's Emblem]]}}<br>{{c|corrupted|[[Corrupted]]}}
 |stack_size_currency_tab                 = 5000
-|help_text                               = Shift click to unstack.
 }}

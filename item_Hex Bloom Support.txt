@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Hex Bloom Support
 |class_id                                = Support Skill Gem
@@ -7,31 +7,24 @@
 |drop_level                              = 38
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemHexBloom
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |intelligence_percent                    = 100
 |gem_tags                                = Support, Hex
 |skill_id                                = SupportHexBloom
 |support_gem_letter                      = *
 |required_level                          = 38
-|quality_type1_weight                    = 100
-|quality_type1_stat_text                 = Supported Skills have 0.5% increased Curse Duration
-|quality_type1_stat1_id                  = base_curse_duration_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = Supported Skills have 0.2% increased Hex Transfer range
-|quality_type2_stat1_id                  = hex_transfer_on_death_range_+%
-|quality_type2_stat1_value               = 200
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = 0.5% increased Area of Effect of Supported Curse Skills
-|quality_type3_stat1_id                  = curse_area_of_effect_+%
-|quality_type3_stat1_value               = 500
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills have (0.2-4)% increased Hex Transfer range
+|quality_type1_breakpoints               = 5.0
+|quality_type1_stat1_id                  = hex_transfer_on_death_range_+%
+|quality_type1_stat1_value               = 200
 |static_cost_multiplier                  = 140
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
 |static_stat1_id                         = transfer_hexes_to_X_nearby_enemies_on_kill
 |static_stat1_value                      = 1
-|stat_text                               = Supported Skills have (0-28)% increased Hex Transfer range<br>Hexes from Supported Skills Transfer to all Enemies in a range of 30 when Hexed Enemy dies
+|stat_text                               = Supported Skills have (0-28)% increased Hex Transfer range<br>Hexes from Supported Skills Transfer to all Enemies within 3 metres when Hexed Enemy dies
 |level1                                  = True
 |level1_level_requirement                = 38
 |level2                                  = True

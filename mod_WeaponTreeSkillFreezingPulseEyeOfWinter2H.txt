@@ -1,0 +1,35 @@
+{{Mod
+|id                               = WeaponTreeSkillFreezingPulseEyeOfWinter2H
+|mod_groups                       = WeaponTreeSkillFreezingPulseEyeOfWinter
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSkillFreezingPulseEyeOfWinter
+|stat_text                        = All Damage from [[Hit|Hits]] with [[Freezing Pulse]] and Eye of Winter can [[Poison]]<br>25% chance for [[Poison|Poisons]] inflicted with [[Freezing Pulse]] and Eye of Winter to deal 100% more Damage
+|stat1_id                         = freezing_pulse_and_eye_of_winter_all_damage_can_poison
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = freezing_pulse_and_eye_of_winter_poison_damage_+100%_final_chance
+|stat2_min                        = 25
+|stat2_max                        = 25
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = attack_staff
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = attack_dagger
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = weapon_can_roll_minion_modifiers
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = wand
+|spawn_weight6_value              = 1000
+|spawn_weight7_tag                = staff
+|spawn_weight7_value              = 1000
+|spawn_weight8_tag                = dagger
+|spawn_weight8_value              = 1000
+|spawn_weight9_tag                = sceptre
+|spawn_weight9_value              = 1000
+|spawn_weight10_tag               = default
+|spawn_weight10_value             = 0
+}}

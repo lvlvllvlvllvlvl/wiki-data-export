@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MapCorruptionVaalSideArea
+|mod_groups                       = MapCorruptSideArea
+|domain                           = 5
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = MapCorruptionVaalSideArea
+|stat_text                        = Contains a Vaal Side Area
+|stat1_id                         = map_vaal_side_area_chance_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|spawn_weight1_tag                = infected_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 40
+}}

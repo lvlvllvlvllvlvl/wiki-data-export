@@ -18,11 +18,11 @@
 |static_stat3_value                      = 1
 |static_stat4_id                         = spell_maximum_action_distance_+%
 |static_stat4_value                      = -35
-|stat_text                               = Gain (0-19)% of Physical Damage as Extra Cold Damage<br>Deals (20-30)% less Damage<br>Base duration is (3.4-4.75) seconds<br>(0-26)% increased Attack Speed<br>(0-26)% increased Projectile Speed
+|stat_text                               = Gain (0-19)% of Physical Damage as Extra Cold Damage<br>Deals (20-30)% less Damage<br>Base duration is (3.40-4.75) seconds<br>(0-26)% increased Attack Speed<br>(0-26)% increased Projectile Speed
 |level1                                  = True
 |level1_level_requirement                = 2
 |level1_duration                         = 3.4
-|level1_stat_text                        = Deals 20% less Damage<br>Base duration is 3.4 seconds
+|level1_stat_text                        = Deals 20% less Damage<br>Base duration is 3.40 seconds
 |level1_stat1_id                         = active_skill_damage_+%_final
 |level1_stat1_value                      = -20
 |level1_stat2_id                         = base_skill_effect_duration
@@ -40,7 +40,7 @@
 |level3                                  = True
 |level3_level_requirement                = 6
 |level3_duration                         = 3.5
-|level3_stat_text                        = Deals 20% less Damage<br>Base duration is 3.5 seconds
+|level3_stat_text                        = Deals 20% less Damage<br>Base duration is 3.50 seconds
 |level3_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level3_stat1_value                      = 2
 |level3_stat2_id                         = active_skill_damage_+%_final
@@ -60,7 +60,7 @@
 |level5                                  = True
 |level5_level_requirement                = 12
 |level5_duration                         = 3.6
-|level5_stat_text                        = Deals 20% less Damage<br>Base duration is 3.6 seconds<br>10% increased Projectile Speed
+|level5_stat_text                        = Deals 20% less Damage<br>Base duration is 3.60 seconds<br>10% increased Projectile Speed
 |level5_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level5_stat1_value                      = 4
 |level5_stat2_id                         = active_skill_damage_+%_final
@@ -84,7 +84,7 @@
 |level7                                  = True
 |level7_level_requirement                = 19
 |level7_duration                         = 3.7
-|level7_stat_text                        = Deals 20% less Damage<br>Base duration is 3.7 seconds<br>11% increased Projectile Speed
+|level7_stat_text                        = Deals 20% less Damage<br>Base duration is 3.70 seconds<br>11% increased Projectile Speed
 |level7_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level7_stat1_value                      = 6
 |level7_stat2_id                         = active_skill_damage_+%_final
@@ -110,7 +110,7 @@
 |level9                                  = True
 |level9_level_requirement                = 28
 |level9_duration                         = 3.8
-|level9_stat_text                        = Gain 15% of Physical Damage as Extra Cold Damage<br>Deals 20% less Damage<br>Base duration is 3.8 seconds<br>12% increased Projectile Speed
+|level9_stat_text                        = Gain 15% of Physical Damage as Extra Cold Damage<br>Deals 20% less Damage<br>Base duration is 3.80 seconds<br>12% increased Projectile Speed
 |level9_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level9_stat1_value                      = 8
 |level9_stat2_id                         = physical_damage_%_to_add_as_cold
@@ -138,7 +138,7 @@
 |level11                                 = True
 |level11_level_requirement               = 39
 |level11_duration                        = 3.9
-|level11_stat_text                       = Gain 15% of Physical Damage as Extra Cold Damage<br>Deals 25% less Damage<br>Base duration is 3.9 seconds<br>10% increased Attack Speed<br>13% increased Projectile Speed
+|level11_stat_text                       = Gain 15% of Physical Damage as Extra Cold Damage<br>Deals 25% less Damage<br>Base duration is 3.90 seconds<br>10% increased Attack Speed<br>13% increased Projectile Speed
 |level11_stat1_id                        = active_skill_area_of_effect_radius_+%_final
 |level11_stat1_value                     = 10
 |level11_stat2_id                        = physical_damage_%_to_add_as_cold
@@ -170,7 +170,7 @@
 |level13                                 = True
 |level13_level_requirement               = 46
 |level13_duration                        = 4
-|level13_stat_text                       = Gain 16% of Physical Damage as Extra Cold Damage<br>Deals 25% less Damage<br>Base duration is 4 seconds<br>11% increased Attack Speed<br>14% increased Projectile Speed
+|level13_stat_text                       = Gain 16% of Physical Damage as Extra Cold Damage<br>Deals 25% less Damage<br>Base duration is 4.00 seconds<br>11% increased Attack Speed<br>14% increased Projectile Speed
 |level13_stat1_id                        = active_skill_area_of_effect_radius_+%_final
 |level13_stat1_value                     = 12
 |level13_stat2_id                        = physical_damage_%_to_add_as_cold
@@ -202,7 +202,7 @@
 |level15                                 = True
 |level15_level_requirement               = 52
 |level15_duration                        = 4.1
-|level15_stat_text                       = Gain 16% of Physical Damage as Extra Cold Damage<br>Deals 30% less Damage<br>Base duration is 4.1 seconds<br>13% increased Attack Speed<br>15% increased Projectile Speed
+|level15_stat_text                       = Gain 16% of Physical Damage as Extra Cold Damage<br>Deals 30% less Damage<br>Base duration is 4.10 seconds<br>13% increased Attack Speed<br>15% increased Projectile Speed
 |level15_stat1_id                        = active_skill_area_of_effect_radius_+%_final
 |level15_stat1_value                     = 14
 |level15_stat2_id                        = physical_damage_%_to_add_as_cold
@@ -234,7 +234,7 @@
 |level17                                 = True
 |level17_level_requirement               = 58
 |level17_duration                        = 4.2
-|level17_stat_text                       = Gain 17% of Physical Damage as Extra Cold Damage<br>Deals 30% less Damage<br>Base duration is 4.2 seconds<br>15% increased Attack Speed<br>16% increased Projectile Speed
+|level17_stat_text                       = Gain 17% of Physical Damage as Extra Cold Damage<br>Deals 30% less Damage<br>Base duration is 4.20 seconds<br>15% increased Attack Speed<br>16% increased Projectile Speed
 |level17_stat1_id                        = active_skill_area_of_effect_radius_+%_final
 |level17_stat1_value                     = 16
 |level17_stat2_id                        = physical_damage_%_to_add_as_cold
@@ -266,7 +266,7 @@
 |level19                                 = True
 |level19_level_requirement               = 64
 |level19_duration                        = 4.3
-|level19_stat_text                       = Gain 17% of Physical Damage as Extra Cold Damage<br>Deals 30% less Damage<br>Base duration is 4.3 seconds<br>17% increased Attack Speed<br>17% increased Projectile Speed
+|level19_stat_text                       = Gain 17% of Physical Damage as Extra Cold Damage<br>Deals 30% less Damage<br>Base duration is 4.30 seconds<br>17% increased Attack Speed<br>17% increased Projectile Speed
 |level19_stat1_id                        = active_skill_area_of_effect_radius_+%_final
 |level19_stat1_value                     = 18
 |level19_stat2_id                        = physical_damage_%_to_add_as_cold
@@ -314,7 +314,7 @@
 |level22                                 = True
 |level22_level_requirement               = 68
 |level22_duration                        = 4.4
-|level22_stat_text                       = Gain 18% of Physical Damage as Extra Cold Damage<br>Deals 30% less Damage<br>Base duration is 4.4 seconds<br>19% increased Attack Speed<br>18% increased Projectile Speed
+|level22_stat_text                       = Gain 18% of Physical Damage as Extra Cold Damage<br>Deals 30% less Damage<br>Base duration is 4.40 seconds<br>19% increased Attack Speed<br>18% increased Projectile Speed
 |level22_stat1_id                        = active_skill_area_of_effect_radius_+%_final
 |level22_stat1_value                     = 21
 |level22_stat2_id                        = physical_damage_%_to_add_as_cold
@@ -378,7 +378,7 @@
 |level26                                 = True
 |level26_level_requirement               = 72
 |level26_duration                        = 4.5
-|level26_stat_text                       = Gain 18% of Physical Damage as Extra Cold Damage<br>Deals 30% less Damage<br>Base duration is 4.5 seconds<br>21% increased Attack Speed<br>20% increased Projectile Speed
+|level26_stat_text                       = Gain 18% of Physical Damage as Extra Cold Damage<br>Deals 30% less Damage<br>Base duration is 4.50 seconds<br>21% increased Attack Speed<br>20% increased Projectile Speed
 |level26_stat1_id                        = active_skill_area_of_effect_radius_+%_final
 |level26_stat1_value                     = 25
 |level26_stat2_id                        = physical_damage_%_to_add_as_cold
@@ -442,7 +442,7 @@
 |level30                                 = True
 |level30_level_requirement               = 76
 |level30_duration                        = 4.6
-|level30_stat_text                       = Gain 19% of Physical Damage as Extra Cold Damage<br>Deals 30% less Damage<br>Base duration is 4.6 seconds<br>23% increased Attack Speed<br>23% increased Projectile Speed
+|level30_stat_text                       = Gain 19% of Physical Damage as Extra Cold Damage<br>Deals 30% less Damage<br>Base duration is 4.60 seconds<br>23% increased Attack Speed<br>23% increased Projectile Speed
 |level30_stat1_id                        = active_skill_area_of_effect_radius_+%_final
 |level30_stat1_value                     = 29
 |level30_stat2_id                        = physical_damage_%_to_add_as_cold
@@ -506,7 +506,7 @@
 |level34                                 = True
 |level34_level_requirement               = 80
 |level34_duration                        = 4.7
-|level34_stat_text                       = Gain 19% of Physical Damage as Extra Cold Damage<br>Deals 30% less Damage<br>Base duration is 4.7 seconds<br>25% increased Attack Speed<br>25% increased Projectile Speed
+|level34_stat_text                       = Gain 19% of Physical Damage as Extra Cold Damage<br>Deals 30% less Damage<br>Base duration is 4.70 seconds<br>25% increased Attack Speed<br>25% increased Projectile Speed
 |level34_stat1_id                        = active_skill_area_of_effect_radius_+%_final
 |level34_stat1_value                     = 33
 |level34_stat2_id                        = physical_damage_%_to_add_as_cold

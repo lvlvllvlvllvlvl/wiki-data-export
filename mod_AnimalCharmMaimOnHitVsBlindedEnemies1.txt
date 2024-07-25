@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmMaimOnHitVsBlindedEnemies1
+|mod_groups                       = AnimalCharmMaimOnHitVsBlindedEnemies
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Gladiator's
+|mod_type                         = AnimalCharmMaimOnHitVsBlindedEnemies
+|stat_text                        = [[Attack]] [[Hit|Hits]] against Blinded Enemies have (10-19)% chance to Maim
+|stat1_id                         = attack_chance_to_maim_on_hit_%_vs_blinded_enemies
+|stat1_min                        = 10
+|stat1_max                        = 19
+|spawn_weight1_tag                = dex_animal_charm
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = str_animal_charm
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

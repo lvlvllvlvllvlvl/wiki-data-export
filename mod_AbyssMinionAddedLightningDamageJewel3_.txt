@@ -1,0 +1,23 @@
+{{Mod
+|id                               = AbyssMinionAddedLightningDamageJewel3_
+|mod_groups                       = MinionAddedLightningDamage
+|domain                           = 13
+|generation_type                  = 1
+|required_level                   = 48
+|name                             = Arcing
+|mod_type                         = MinionAddedLightningDamage
+|stat_text                        = [[Minion|Minions]] deal (1-3) to (33-39) additional [[Lightning Damage]]
+|stat1_id                         = minion_global_minimum_added_lightning_damage
+|stat1_min                        = 1
+|stat1_max                        = 3
+|stat2_id                         = minion_global_maximum_added_lightning_damage
+|stat2_min                        = 33
+|stat2_max                        = 39
+|spawn_weight1_tag                = abyss_jewel_summoner
+|spawn_weight1_value              = 700
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, lightning, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

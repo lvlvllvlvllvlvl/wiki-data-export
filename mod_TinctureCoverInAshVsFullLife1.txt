@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TinctureCoverInAshVsFullLife1
+|mod_groups                       = WeaponCoverInAshVsFullLife
+|domain                           = 34
+|generation_type                  = 1
+|required_level                   = 45
+|name                             = Ashfall
+|mod_type                         = WeaponCoverInAshVsFullLife
+|stat_text                        = Cover Enemies in Ash on [[Hit]] for (4-5) seconds against Enemies that are on [[Full Life]]
+|stat1_id                         = weapon_cover_in_ash_on_hit_for_X_seconds_vs_full_life_enemies
+|stat1_min                        = 4
+|stat1_max                        = 5
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, fire, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

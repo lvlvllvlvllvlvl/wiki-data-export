@@ -1,0 +1,31 @@
+{{Mod
+|id                               = AddedFireDamagePerStrengthTwoHandInfluence1
+|mod_groups                       = AddedFireDamagePerStrength
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Hunter's
+|mod_type                         = AddedFireDamagePerStrength
+|stat_text                        = Adds (2-3) to (4-5) [[Fire Damage]] to [[Attack|Attacks]] with this Weapon per 10 [[Strength]]
+|stat1_id                         = attack_minimum_added_fire_damage_per_10_strength
+|stat1_min                        = 2
+|stat1_max                        = 3
+|stat2_id                         = attack_maximum_added_fire_damage_per_10_strength
+|stat2_min                        = 4
+|stat2_max                        = 5
+|spawn_weight1_tag                = 2h_sword_basilisk
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = 2h_axe_basilisk
+|spawn_weight2_value              = 200
+|spawn_weight3_tag                = 2h_mace_basilisk
+|spawn_weight3_value              = 200
+|spawn_weight4_tag                = staff_basilisk
+|spawn_weight4_value              = 200
+|spawn_weight5_tag                = warstaff_basilisk
+|spawn_weight5_value              = 200
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

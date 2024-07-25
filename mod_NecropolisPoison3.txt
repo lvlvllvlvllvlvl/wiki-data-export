@@ -1,0 +1,20 @@
+{{Mod
+|id                               = NecropolisPoison3
+|mod_groups                       = NecropolisPoison
+|domain                           = 36
+|generation_type                  = 34
+|required_level                   = 68
+|mod_type                         = NecropolisPoison
+|stat_text                        = All Damage from [[Hit|Hits]] can [[Poison]]<br>Always [[Poison]] on [[Hit]]
+|stat1_id                         = all_damage_can_poison
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = base_chance_to_poison_on_hit_%
+|stat2_min                        = 100
+|stat2_max                        = 100
+|stat3_id                         = monster_necropolis_mod_value_+%
+|stat3_min                        = 120
+|stat3_max                        = 120
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 100
+}}

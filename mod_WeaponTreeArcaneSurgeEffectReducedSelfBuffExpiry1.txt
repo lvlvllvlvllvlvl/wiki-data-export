@@ -1,0 +1,29 @@
+{{Mod
+|id                               = WeaponTreeArcaneSurgeEffectReducedSelfBuffExpiry1
+|mod_groups                       = WeaponTreeArcaneSurgeEffectReducedSelfBuffExpiry
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 20
+|mod_type                         = WeaponTreeArcaneSurgeEffectReducedSelfBuffExpiry
+|stat_text                        = 20% increased Effect of Arcane Surge on you<br>Buffs on you expire 10% faster
+|stat1_id                         = arcane_surge_effect_+%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = buff_time_passed_+%_only_buff_category
+|stat2_min                        = 10
+|stat2_max                        = 10
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 300
+|spawn_weight3_tag                = attack_dagger
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = wand
+|spawn_weight4_value              = 300
+|spawn_weight5_tag                = sceptre
+|spawn_weight5_value              = 300
+|spawn_weight6_tag                = dagger
+|spawn_weight6_value              = 300
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+}}

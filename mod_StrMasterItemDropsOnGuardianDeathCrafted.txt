@@ -1,0 +1,17 @@
+{{Mod
+|id                               = StrMasterItemDropsOnGuardianDeathCrafted
+|mod_groups                       = ItemDropsOnGuardianDeath
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 20
+|name                             = Eternal
+|mod_type                         = ItemDropsOnGuardianDeath
+|stat_text                        = Item drops on Death if Equipped by an [[Animate Guardian|Animated Guardian]]
+|stat1_id                         = local_item_drops_on_death_if_equipped_by_animate_armour
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

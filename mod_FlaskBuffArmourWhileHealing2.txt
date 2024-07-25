@@ -1,0 +1,22 @@
+{{Mod
+|id                               = FlaskBuffArmourWhileHealing2
+|mod_groups                       = FlaskBuffWhileHealing
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 32
+|name                             = of the Tortoise
+|mod_type                         = FlaskBuffArmourWhileHealing
+|stat_text                        = (46-50)% increased [[Armour]] during Effect
+|stat1_id                         = local_flask_armour_+%_while_healing
+|stat1_min                        = 46
+|stat1_max                        = 50
+|spawn_weight1_tag                = expedition_flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = utility_flask
+|spawn_weight2_value              = 750
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = flask, defences, armour
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentIceTrapColdPenetration2__
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Ice Trap Cold Penetration 2
+|mod_type                         = EnchantmentIceTrapColdPenetration
+|stat_text                        = [[Ice Trap]] Damage Penetrates 10% [[Cold Resistance]]
+|stat1_id                         = ice_trap_cold_resistance_penetration_%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, cold, caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

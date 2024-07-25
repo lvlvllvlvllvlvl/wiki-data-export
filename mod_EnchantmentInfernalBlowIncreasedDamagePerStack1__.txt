@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentInfernalBlowIncreasedDamagePerStack1__
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Infernal Blow Increased Damage Per Stack 1
+|mod_type                         = EnchantmentInfernalBlowIncreasedDamagePerStack
+|stat_text                        = [[Infernal Blow]] Debuff deals an additional 3% of Damage per [[Charge]]
+|stat1_id                         = infernal_blow_infernal_blow_explosion_damage_%_of_total_per_stack
+|stat1_min                        = 3
+|stat1_max                        = 3
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 75
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

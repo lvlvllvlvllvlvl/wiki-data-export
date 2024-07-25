@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = [UNUSED] Fling out projectiles in front of you. Every third attack fires a single, piercing, more powerful projectile at the center, and you dash forward with it.
+|active_skill_name                       = [UNUSED] DISCONTINUED
+|item_class_id_restriction               = Dagger, One Hand Sword, Thrusting One Hand Sword, Claw, Rune Dagger
+|skill_id                                = CoilingAssault
+|cast_time                               = 1.0
+|required_level                          = 12
+|static_cost_amounts                     = 6
+|static_cost_types                       = Mana
+|static_damage_effectiveness             = 135
+|static_damage_multiplier                = 135
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = coiling_assault_attack_speed_+%_final_on_final_strike
+|static_stat1_value                      = -33
+|static_stat2_id                         = coiling_assault_damage_+%_final_on_final_strike
+|static_stat2_value                      = 75
+|static_stat3_id                         = show_number_of_projectiles
+|static_stat3_value                      = 1
+|stat_text                               = 
+|level1                                  = True
+|level1_level_requirement                = 12
+}}

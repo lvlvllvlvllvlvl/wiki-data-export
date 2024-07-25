@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Cruelty Support
 |class_id                                = Support Skill Gem
@@ -7,25 +7,18 @@
 |drop_level                              = 18
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemCruelty
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |strength_percent                        = 60
 |intelligence_percent                    = 40
 |gem_tags                                = Support, Duration
 |skill_id                                = SupportCruelty
 |support_gem_letter                      = Y
 |required_level                          = 18
-|quality_type1_weight                    = 100
-|quality_type1_stat_text                 = 0.25% increased Effect of Cruelty granted by Supported Skills
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.25-5)% increased Effect of Cruelty granted by Supported Skills
+|quality_type1_breakpoints               = 4.0
 |quality_type1_stat1_id                  = cruelty_effect_+%
 |quality_type1_stat1_value               = 250
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = Supported Skills have 1% increased Critical Strike Chance
-|quality_type2_stat1_id                  = critical_strike_chance_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = Cruelty granted by Supported Skills has 1% increased Duration
-|quality_type3_stat1_id                  = cruelty_duration_+%
-|quality_type3_stat1_value               = 1000
 |static_cost_multiplier                  = 140
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

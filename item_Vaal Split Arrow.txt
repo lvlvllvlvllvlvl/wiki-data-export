@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vaal Split Arrow
 |class_id                                = Active Skill Gem
@@ -8,18 +8,21 @@
 |tags                                    = up_to_level_2_gem, up_to_level_8_gem, vaal_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalSplitArrow
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |dexterity_percent                       = 100
 |gem_tags                                = Attack, Projectile, Physical, Vaal, Bow
+|secondary_skill_id                      = SplitArrow
 |gem_description                         = [DNT] Fires multiple arrows which continuously fork as they fly.
 |active_skill_name                       = Vaal Split Arrow
 |item_class_id_restriction               = Bow
 |skill_id                                = VaalSplitArrow
 |cast_time                               = 1.0
 |required_level                          = 1
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Attack Speed
-|quality_type1_stat1_id                  = attack_speed_+%
-|quality_type1_stat1_value               = 500
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Fires +(0.2-4) Arrows
+|quality_type1_breakpoints               = 5.0
+|quality_type1_stat1_id                  = base_number_of_arrows
+|quality_type1_stat1_value               = 200
 |static_vaal_souls_requirement           = 15
 |static_vaal_stored_uses                 = 3
 |static_vaal_soul_gain_prevention_time   = 4
@@ -32,7 +35,7 @@
 |static_stat3_value                      = 1
 |static_stat4_id                         = number_of_additional_forks_base
 |static_stat4_value                      = 3
-|stat_text                               = Projectiles Pierce all Targets<br>Projectiles from Supported Skills Fork 3 additional Times<br>(2-90) to (4-135) Added Attack Physical Damage
+|stat_text                               = Projectiles Pierce all Targets<br>Projectiles can Fork 3 additional Times<br>(2-90) to (4-135) Added Attack Physical Damage
 |level1                                  = True
 |level1_level_requirement                = 1
 |level1_damage_effectiveness             = 160

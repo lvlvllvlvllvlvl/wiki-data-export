@@ -1,5 +1,5 @@
 {{Skill
-|gem_description                         = Dive through enemies, dealing weapon damage. Only works with daggers, claws and one handed swords. Cannot be supported by Multistrike.
+|gem_description                         = Dive through enemies, dealing weapon damage. If dual wielding attacks with both weapons, dealing the damage of both in one hit. Only works with Daggers, Claws, and One-Handed Swords. Cannot be supported by Multistrike.
 |active_skill_name                       = Whirling Blades
 |item_class_id_restriction               = Dagger, One Hand Sword, Thrusting One Hand Sword, Claw, Rune Dagger
 |skill_id                                = FireMonsterWhirlingBlades
@@ -21,7 +21,7 @@
 |static_stat5_value                      = 6000
 |static_stat6_id                         = attack_speed_+%
 |static_stat6_value                      = -50
-|stat_text                               = Base duration is 6 seconds<br>50% reduced Attack Speed
+|stat_text                               = Base duration is 6.00 seconds<br>50% reduced Attack Speed
 |level1                                  = True
 |level1_level_requirement                = 3
 }}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentBloodreapDamage2_
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Reap Damage 2
+|mod_type                         = EnchantmentBloodreapDamage
+|stat_text                        = Reap deals 40% increased Damage
+|stat1_id                         = bloodreap_damage_+%
+|stat1_min                        = 40
+|stat1_max                        = 40
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster_damage, damage, caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

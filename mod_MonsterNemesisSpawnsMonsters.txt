@@ -1,0 +1,29 @@
+{{Mod
+|id                               = MonsterNemesisSpawnsMonsters
+|mod_groups                       = MonsterNemesis
+|domain                           = 3
+|generation_type                  = 4
+|required_level                   = 1
+|name                             = Fractured
+|mod_type                         = MonsterNemesisSpawnsMonsters
+|stat_text                        = 
+|stat1_id                         = monster_spawns_X_monsters_on_death
+|stat1_min                        = 8
+|stat1_max                        = 12
+|spawn_weight1_tag                = no_fractured
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = bestiary_beast_boss
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = abyssal
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = hidden_monster
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = rare_minion
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = legion_monster
+|spawn_weight6_value              = 0
+|spawn_weight7_tag                = rare
+|spawn_weight7_value              = 800
+|spawn_weight8_tag                = default
+|spawn_weight8_value              = 0
+}}

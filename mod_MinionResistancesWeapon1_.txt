@@ -1,0 +1,22 @@
+{{Mod
+|id                               = MinionResistancesWeapon1_
+|mod_groups                       = MinionElementalResistances
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 8
+|name                             = of Adjustment
+|mod_type                         = MinionElementalResistance
+|stat_text                        = [[Minion|Minions]] have +(11-15)% to all [[Elemental Resistance|Elemental Resistances]]
+|stat1_id                         = minion_elemental_resistance_%
+|stat1_min                        = 11
+|stat1_max                        = 15
+|spawn_weight1_tag                = focus_can_roll_minion_modifiers
+|spawn_weight1_value              = 2000
+|spawn_weight2_tag                = ring_can_roll_minion_modifiers
+|spawn_weight2_value              = 2000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental, resistance, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

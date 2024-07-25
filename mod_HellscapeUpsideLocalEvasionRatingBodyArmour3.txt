@@ -1,0 +1,33 @@
+{{Mod
+|id                               = HellscapeUpsideLocalEvasionRatingBodyArmour3
+|mod_groups                       = BaseLocalDefences
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = LocalEvasionRating
+|stat_text                        = +(91-120) to [[Evasion Rating]]
+|stat1_id                         = local_base_evasion_rating
+|stat1_min                        = 91
+|stat1_max                        = 120
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = shield
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = gloves
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = boots
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = dex_armour
+|spawn_weight5_value              = 1000
+|spawn_weight6_tag                = str_dex_armour
+|spawn_weight6_value              = 500
+|spawn_weight7_tag                = dex_int_armour
+|spawn_weight7_value              = 500
+|spawn_weight8_tag                = str_dex_int_armour
+|spawn_weight8_value              = 300
+|spawn_weight9_tag                = default
+|spawn_weight9_value              = 0
+|tags                             = defences, evasion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

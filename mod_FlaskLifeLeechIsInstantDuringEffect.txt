@@ -1,0 +1,28 @@
+{{Mod
+|id                               = FlaskLifeLeechIsInstantDuringEffect
+|mod_groups                       = FlaskLifeLeechIsInstantDuringEffect
+|domain                           = 2
+|generation_type                  = 3
+|required_level                   = 78
+|name                             = Pactbreaker's
+|mod_type                         = FlaskLifeLeechIsInstantDuringEffect
+|stat_text                        = [[Life]] [[Leech]] is instant during Effect<br>(90-80)% reduced Amount Recovered<br>(200-250)% increased Recovery rate
+|stat1_id                         = local_flask_life_leech_is_instant_during_flask_effect
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_flask_amount_to_recover_+%
+|stat2_min                        = -90
+|stat2_max                        = -80
+|stat3_id                         = local_flask_recovery_speed_+%
+|stat3_min                        = 200
+|stat3_max                        = 250
+|spawn_weight1_tag                = life_flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = hybrid_flask
+|spawn_weight3_value              = 0
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

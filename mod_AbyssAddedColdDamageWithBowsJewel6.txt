@@ -1,0 +1,29 @@
+{{Mod
+|id                               = AbyssAddedColdDamageWithBowsJewel6
+|mod_groups                       = SpecificWeaponColdDamage
+|domain                           = 13
+|generation_type                  = 1
+|required_level                   = 83
+|name                             = Entombing
+|mod_type                         = AddedColdDamageWithBows
+|stat_text                        = (14-15) to (25-28) Added [[Cold Damage]] with [[Bow]] [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_cold_damage_with_bows
+|stat1_min                        = 14
+|stat1_max                        = 15
+|stat2_id                         = attack_maximum_added_cold_damage_with_bows
+|stat2_min                        = 25
+|stat2_max                        = 28
+|spawn_weight1_tag                = bow
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = one_handed_mod
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = specific_weapon
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = abyss_jewel_ranged
+|spawn_weight4_value              = 175
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = elemental_damage, damage, elemental, cold, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

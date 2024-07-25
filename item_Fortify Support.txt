@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Fortify Support
 |class_id                                = Support Skill Gem
@@ -7,24 +7,16 @@
 |drop_level                              = 31
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemFortify
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |strength_percent                        = 100
 |gem_tags                                = Attack, Support, Melee
 |skill_id                                = SupportFortify
 |support_gem_letter                      = O
 |required_level                          = 31
-|quality_type1_weight                    = 100
-|quality_type1_stat_text                 = Supported Skills deal 0.5% increased Attack Damage
-|quality_type1_stat1_id                  = attack_damage_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = Supported Skills have 0.5% increased Fortification Duration
-|quality_type2_stat1_id                  = fortify_duration_+%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = Hits from Supported Skills Overwhelm 0.25% of Physical Damage Reduction while at maximum Fortification
-|quality_type3_stat1_id                  = overwhelm_%_physical_damage_reduction_while_max_fortification
-|quality_type3_stat1_value               = 250
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills have (1-20)% increased Fortification Duration
+|quality_type1_stat1_id                  = fortify_duration_+%
+|quality_type1_stat1_value               = 1000
 |static_cost_multiplier                  = 130
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
@@ -354,5 +346,4 @@
 |level20_strength_requirement            = 111
 |level20_experience                      = 339855551
 |level21_strength_requirement            = 114
-|inventory_icon                          = Fortify Support
 }}

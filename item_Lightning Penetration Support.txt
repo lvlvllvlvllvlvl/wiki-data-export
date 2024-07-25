@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Lightning Penetration Support
 |class_id                                = Support Skill Gem
@@ -7,24 +7,18 @@
 |drop_level                              = 31
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemLightningPenetration
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
+|awakened_variant_id                     = Metadata/Items/Gems/SupportGemLightningPenetrationPlus
 |intelligence_percent                    = 100
 |gem_tags                                = Lightning, Support
 |skill_id                                = SupportLightningPenetration
 |support_gem_letter                      = V
 |required_level                          = 31
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills deal 0.5% increased Lightning Damage
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills deal (0.5-10)% increased Lightning Damage
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = lightning_damage_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Supported Skills have 0.5% chance to Shock
-|quality_type2_stat1_id                  = base_chance_to_shock_%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = Supported Skills have 1% increased Effect of Lightning Ailments
-|quality_type3_stat1_id                  = lightning_ailment_effect_+%
-|quality_type3_stat1_value               = 1000
 |static_cost_multiplier                  = 130
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

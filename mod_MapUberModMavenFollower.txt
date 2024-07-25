@@ -1,0 +1,26 @@
+{{Mod
+|id                               = MapUberModMavenFollower
+|mod_groups                       = MapUberModMavenFollower
+|domain                           = 37
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Collection
+|mod_type                         = MapUberModMavenFollower
+|stat_text                        = The Maven interferes with Players
+|stat1_id                         = map_supporter_maven_follower
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_pack_size_+%
+|stat2_min                        = 25
+|stat2_max                        = 25
+|stat3_id                         = map_item_drop_quantity_+%
+|stat3_min                        = 21
+|stat3_max                        = 21
+|stat4_id                         = map_item_drop_rarity_+%
+|stat4_min                        = 16
+|stat4_max                        = 16
+|spawn_weight1_tag                = uber_tier_map
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

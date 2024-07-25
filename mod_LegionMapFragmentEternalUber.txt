@@ -1,0 +1,28 @@
+{{Mod
+|id                               = LegionMapFragmentEternalUber
+|mod_groups                       = LegionMapFragment
+|domain                           = 14
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = LegionMapFragmentEternal2Uber
+|stat_text                        = 10% increased Monster Damage<br>15% more Monster [[Life]]<br>Monsters gain 50% increased [[Critical Strike Chance]] each time they are Revived<br>Monsters gain 3% additional [[Critical Strike Multiplier]] each time they are Revived<br>10% improved Rewards
+|stat1_id                         = map_num_legion_uber_fragments
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_monsters_damage_+%
+|stat2_min                        = 10
+|stat2_max                        = 10
+|stat3_id                         = map_monsters_life_+%
+|stat3_min                        = 15
+|stat3_max                        = 15
+|stat4_id                         = uber_domain_monster_critical_strike_chance_+%_per_revival
+|stat4_min                        = 50
+|stat4_max                        = 50
+|stat5_id                         = uber_domain_monster_critical_strike_multiplier_+%_per_revival
+|stat5_min                        = 3
+|stat5_max                        = 3
+|stat6_id                         = display_legion_uber_fragment_improved_rewards_+%
+|stat6_min                        = 10
+|stat6_max                        = 10
+|tags                             = resource, life, damage
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SanctumSpecialGolemBuffEffectUnique
+|mod_groups                       = GolemBuffEffectUnique
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 82
+|name                             = Hallowed
+|mod_type                         = GolemBuffEffectUnique
+|stat_text                        = (25-35)% increased Effect of Buffs granted by your Golems
+|stat1_id                         = golem_buff_effect_+%
+|stat1_min                        = 25
+|stat1_max                        = 35
+|spawn_weight1_tag                = int_special_relic
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 50
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

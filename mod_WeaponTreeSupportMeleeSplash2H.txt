@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeSupportMeleeSplash2H
+|mod_groups                       = WeaponTreeSupportMeleeSplash
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 38
+|granted_skill                    = SupportMeleeSplash
+|mod_type                         = WeaponTreeSupportMeleeSplash
+|stat_text                        = [[Item socket|Socketed]] Gems are supported by [[Melee Splash Support|Level 10 Melee Splash]]
+|stat1_id                         = local_display_socketed_gems_get_melee_splash_level
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = ranged
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = two_hand_weapon
+|spawn_weight2_value              = 100
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

@@ -1,0 +1,22 @@
+{{Mod
+|id                               = AnimalCharmAddedPhysicalDamageIfCritRecently1
+|mod_groups                       = AnimalCharmAddedPhysicalDamageIfCritRecently
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Berserker's
+|mod_type                         = AnimalCharmAddedPhysicalDamageIfCritRecently
+|stat_text                        = Adds (5-7) to (14-17) [[Physical Damage]] if you've dealt a [[Critical Strike]] [[Recently]]
+|stat1_id                         = minimum_added_physical_damage_if_have_crit_recently
+|stat1_min                        = 5
+|stat1_max                        = 7
+|stat2_id                         = maximum_added_physical_damage_if_have_crit_recently
+|stat2_min                        = 14
+|stat2_max                        = 17
+|spawn_weight1_tag                = str_animal_charm
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

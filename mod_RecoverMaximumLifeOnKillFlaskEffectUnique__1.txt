@@ -1,0 +1,15 @@
+{{Mod
+|id                               = RecoverMaximumLifeOnKillFlaskEffectUnique__1
+|mod_groups                       = MaximumLifeOnKillPercent
+|domain                           = 2
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = RecoverMaximumLifeOnKillFlaskEffect
+|stat_text                        = Recover (1-3)% of [[Life]] when you [[Kill]] an Enemy during Effect
+|stat1_id                         = local_flask_recover_%_maximum_life_on_kill_during_flask_effect
+|stat1_min                        = 1
+|stat1_max                        = 3
+|tags                             = flask, resource, life
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

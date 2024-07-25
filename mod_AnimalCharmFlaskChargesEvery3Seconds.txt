@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmFlaskChargesEvery3Seconds
+|mod_groups                       = AnimalCharmFlaskChargesEvery3Seconds
+|domain                           = 35
+|generation_type                  = 2
+|required_level                   = 81
+|name                             = of the Pathfinder
+|mod_type                         = AnimalCharmFlaskChargesEvery3Seconds
+|stat_text                        = [[Flask|Flasks]] gain a [[Charge]] every 3 seconds
+|stat1_id                         = flask_charges_recovered_per_3_seconds
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = dex_animal_charm
+|spawn_weight1_value              = 20
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

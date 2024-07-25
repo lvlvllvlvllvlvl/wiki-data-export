@@ -1,0 +1,22 @@
+{{Mod
+|id                               = TormentTouchedMonsterCounterfeiter
+|mod_groups                       = Torment
+|domain                           = 3
+|generation_type                  = 7
+|required_level                   = 1
+|name                             = Forger's Touch
+|mod_type                         = TormentTouchedMonsterCounterfeiter
+|stat_text                        = [[Skill|Skills]] Repeat an additional Time (Hidden)<br>50% more [[Attack Speed]] (Hidden)<br>50% more Cast Speed (Hidden)
+|stat1_id                         = skill_repeat_count
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = active_skill_cast_speed_+%_final
+|stat2_min                        = 50
+|stat2_max                        = 50
+|stat3_id                         = active_skill_attack_speed_+%_final
+|stat3_min                        = 50
+|stat3_max                        = 50
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+|tags                             = attack, caster, speed
+}}

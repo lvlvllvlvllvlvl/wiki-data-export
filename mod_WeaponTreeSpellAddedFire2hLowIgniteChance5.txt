@@ -1,0 +1,28 @@
+{{Mod
+|id                               = WeaponTreeSpellAddedFire2hLowIgniteChance5
+|mod_groups                       = SpellAddedElementalDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 82
+|mod_type                         = WeaponTreeSpellAddedFireDamageAndIgniteChance
+|stat_text                        = Adds 34 to 51 [[Fire Damage]] to [[Spell|Spells]]<br>20% chance to [[Ignite]]
+|stat1_id                         = spell_minimum_added_fire_damage
+|stat1_min                        = 34
+|stat1_max                        = 34
+|stat2_id                         = spell_maximum_added_fire_damage
+|stat2_min                        = 51
+|stat2_max                        = 51
+|stat3_id                         = base_chance_to_ignite_%
+|stat3_min                        = 20
+|stat3_max                        = 20
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 63
+|spawn_weight3_tag                = attack_staff
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = staff
+|spawn_weight4_value              = 63
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+}}

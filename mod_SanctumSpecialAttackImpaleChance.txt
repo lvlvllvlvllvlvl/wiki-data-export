@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialAttackImpaleChance
+|mod_groups                       = ImpaleOnHit
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Impaling
+|mod_type                         = AttackImpaleChance
+|stat_text                        = (20-30)% chance to Impale Enemies on [[Hit]] with [[Attack|Attacks]]
+|stat1_id                         = attacks_impale_on_hit_%_chance
+|stat1_min                        = 20
+|stat1_max                        = 30
+|spawn_weight1_tag                = dex_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,32 @@
+{{Mod
+|id                               = MapUberModMinionSpeed
+|mod_groups                       = MapUberModMinionSpeed
+|domain                           = 37
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Revolt
+|mod_type                         = MapUberModMinionSpeed
+|stat_text                        = Players' [[Minion|Minions]] have 50% less [[Attack Speed]]<br>Players' [[Minion|Minions]] have 50% less [[Cast Speed]]<br>Players' [[Minion|Minions]] have 50% less [[Movement Speed]]
+|stat1_id                         = map_minion_attack_speed_+%
+|stat1_min                        = -50
+|stat1_max                        = -50
+|stat2_id                         = map_minion_cast_speed_+%
+|stat2_min                        = -50
+|stat2_max                        = -50
+|stat3_id                         = map_minion_movement_speed_+%
+|stat3_min                        = -50
+|stat3_max                        = -50
+|stat4_id                         = map_pack_size_+%
+|stat4_min                        = 6
+|stat4_max                        = 6
+|stat5_id                         = map_item_drop_quantity_+%
+|stat5_min                        = 13
+|stat5_max                        = 13
+|stat6_id                         = map_item_drop_rarity_+%
+|stat6_min                        = 16
+|stat6_max                        = 16
+|spawn_weight1_tag                = uber_tier_map
+|spawn_weight1_value              = 30
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

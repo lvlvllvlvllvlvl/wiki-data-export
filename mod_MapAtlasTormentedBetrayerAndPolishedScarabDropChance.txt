@@ -1,0 +1,23 @@
+{{Mod
+|id                               = MapAtlasTormentedBetrayerAndPolishedScarabDropChance
+|mod_groups                       = MapAtlasTorment
+|domain                           = 11
+|generation_type                  = 1
+|required_level                   = 1
+|mod_type                         = MapAtlasTormentedBetrayerAndPolishedScarabDropChance
+|stat_text                        = 3 uses remaining<br>Your Maps are haunted by an additional Tormented Betrayer<br>The First 3 Possessed Monsters drop an additional Polished Scarab
+|stat1_id                         = sextant_uses_remaining
+|stat1_min                        = 3
+|stat1_max                        = 3
+|stat2_id                         = map_contains_additional_tormented_betrayers
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = map_possessed_monsters_drop_polished_scarab_chance_%
+|stat3_min                        = 100
+|stat3_max                        = 100
+|stat4_id                         = map_extra_content_weighting
+|stat4_min                        = 1
+|stat4_max                        = 1
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 175
+}}

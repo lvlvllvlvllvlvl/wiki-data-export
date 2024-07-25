@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Multiple Traps Support
 |class_id                                = Support Skill Gem
@@ -7,25 +7,17 @@
 |drop_level                              = 8
 |tags                                    = up_to_level_8_gem, support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemMultiTrap
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |dexterity_percent                       = 60
 |intelligence_percent                    = 40
 |gem_tags                                = Support, Trap
 |skill_id                                = SupportMultiTrap
 |support_gem_letter                      = t
 |required_level                          = 8
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills have 1% increased Trap Trigger Area of Effect
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills have (1-20)% increased Trap Trigger Area of Effect
 |quality_type1_stat1_id                  = trap_trigger_radius_+%
 |quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 20
-|quality_type2_stat_text                 = Supported Skills can have up to 0.1 additional Traps placed at a time
-|quality_type2_stat1_id                  = number_of_additional_traps_allowed
-|quality_type2_stat1_value               = 100
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = Supported Skills have 0.2% chance to throw an additional Trap
-|quality_type3_stat1_id                  = support_additional_trap_%_chance_for_1_additional_trap
-|quality_type3_stat1_value               = 200
 |static_cost_multiplier                  = 140
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

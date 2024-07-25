@@ -1,0 +1,30 @@
+{{Mod
+|id                               = ChaosResist1
+|mod_groups                       = ChaosResistance
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 16
+|name                             = of the Lost
+|mod_type                         = ChaosResistance
+|stat_text                        = +(5-10)% to [[Chaos Resistance]]
+|stat1_id                         = base_chaos_damage_resistance_%
+|stat1_min                        = 5
+|stat1_max                        = 10
+|spawn_weight1_tag                = weapon
+|spawn_weight1_value              = 125
+|spawn_weight2_tag                = armour
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = ring
+|spawn_weight3_value              = 250
+|spawn_weight4_tag                = amulet
+|spawn_weight4_value              = 250
+|spawn_weight5_tag                = belt
+|spawn_weight5_value              = 250
+|spawn_weight6_tag                = quiver
+|spawn_weight6_value              = 250
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+|tags                             = chaos, resistance
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

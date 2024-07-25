@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideLightningDamageLeechedAsLife2__
+|mod_groups                       = LightningDamageLifeLeech
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 45
+|mod_type                         = LightningDamageLifeLeechPermyriad
+|stat_text                        = (0.2-0.3)% of [[Lightning Damage]] Leeched as [[Life]]
+|stat1_id                         = base_life_leech_from_lightning_damage_permyriad
+|stat1_min                        = 20
+|stat1_max                        = 30
+|spawn_weight1_tag                = amulet
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life, elemental, lightning
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

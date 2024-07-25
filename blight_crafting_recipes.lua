@@ -204,6 +204,11 @@ local data = {	{
 		type = "UniqueOrAmulet", 
 	},
 	{
+		id = "InverseWeighting22_4", 
+		passive_id = "ignite_bleed_notable2878", 
+		type = "UniqueOrAmulet", 
+	},
+	{
 		id = "InverseWeighting23", 
 		passive_id = "travel_skills_cant_be_exerted_notable", 
 		type = "UniqueOrAmulet", 
@@ -281,6 +286,11 @@ local data = {	{
 	{
 		id = "InverseWeighting28", 
 		passive_id = "totem_damage_notable1498", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "InverseWeighting28_2", 
+		passive_id = "attack_ignite_notable2876", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -1045,7 +1055,7 @@ local data = {	{
 	},
 	{
 		id = "InverseWeighting141", 
-		passive_id = "totem_attack_notable2680", 
+		passive_id = "blight_special_notable5", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -1329,6 +1339,11 @@ local data = {	{
 		type = "UniqueOrAmulet", 
 	},
 	{
+		id = "InverseWeighting202_2", 
+		passive_id = "melee_ignite_notable2875", 
+		type = "UniqueOrAmulet", 
+	},
+	{
 		id = "InverseWeighting203", 
 		passive_id = "poison_notable2128", 
 		type = "UniqueOrAmulet", 
@@ -1551,6 +1566,11 @@ local data = {	{
 	{
 		id = "InverseWeighting255", 
 		passive_id = "mind_over_matter_notable2168", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "InverseWeighting255_2", 
+		passive_id = "melee_ignite_notable2874", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -2030,7 +2050,7 @@ local data = {	{
 	},
 	{
 		id = "InverseWeighting490", 
-		passive_id = "blight_special_notable5", 
+		passive_id = "totem_attack_notable2680", 
 		type = "UniqueOrAmulet", 
 	},
 	{

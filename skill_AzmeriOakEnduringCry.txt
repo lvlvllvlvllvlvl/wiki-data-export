@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = Performs a warcry, taunting all nearby enemies to attack the user and granting endurance charges. Gives a brief burst of life regeneration, as well as a buff which grants resistances and physical damage reduction based on your endurance charges.
+|active_skill_name                       = Enduring Cry
+|skill_id                                = AzmeriOakEnduringCry
+|cast_time                               = 0.8
+|required_level                          = 4
+|static_stored_uses                      = 1
+|static_cooldown                         = 8
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 1
+|static_stat1_id                         = base_skill_effect_duration
+|static_stat1_value                      = 1000
+|static_stat2_id                         = life_regeneration_rate_per_minute_%
+|static_stat2_value                      = 2400
+|static_stat3_id                         = enduring_cry_grants_x_additional_endurance_charges
+|static_stat3_value                      = 3
+|stat_text                               = Base duration is 1.00 seconds<br>Regenerate 40% of Life per second<br>Grants 3 additional Endurance Charges
+|level1                                  = True
+|level1_level_requirement                = 4
+}}

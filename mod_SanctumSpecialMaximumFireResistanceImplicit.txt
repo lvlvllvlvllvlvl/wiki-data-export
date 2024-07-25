@@ -1,0 +1,18 @@
+{{Mod
+|id                               = SanctumSpecialMaximumFireResistanceImplicit
+|mod_groups                       = MaximumResistances
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Forge
+|mod_type                         = MaximumFireResistanceImplicit
+|stat_text                        = +(2-3)% to maximum [[Fire Resistance]]
+|stat1_id                         = base_maximum_fire_damage_resistance_%
+|stat1_min                        = 2
+|stat1_max                        = 3
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = elemental, fire, resistance
+}}

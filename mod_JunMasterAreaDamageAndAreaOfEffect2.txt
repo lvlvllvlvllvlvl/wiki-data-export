@@ -1,0 +1,23 @@
+{{Mod
+|id                               = JunMasterAreaDamageAndAreaOfEffect2
+|mod_groups                       = AreaDamageAndAreaOfEffect
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 38
+|name                             = Chosen
+|mod_type                         = AreaDamageAndAreaOfEffect
+|stat_text                        = (9-12)% increased Area Damage<br>(8-9)% increased Area of Effect
+|stat1_id                         = area_damage_+%
+|stat1_min                        = 9
+|stat1_max                        = 12
+|stat2_id                         = base_skill_area_of_effect_+%
+|stat2_min                        = 8
+|stat2_max                        = 9
+|spawn_weight1_tag                = amulet
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = unveiled_mod, damage
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

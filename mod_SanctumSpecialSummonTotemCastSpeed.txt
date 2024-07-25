@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialSummonTotemCastSpeed
+|mod_groups                       = SummonTotemCastSpeed
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Descry
+|mod_type                         = SummonTotemCastSpeed
+|stat_text                        = (10-20)% increased [[Totem]] Placement speed
+|stat1_id                         = summon_totem_cast_speed_+%
+|stat1_min                        = 10
+|stat1_max                        = 20
+|spawn_weight1_tag                = int_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = speed
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

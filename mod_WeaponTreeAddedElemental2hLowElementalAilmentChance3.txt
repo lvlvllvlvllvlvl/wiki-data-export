@@ -1,0 +1,31 @@
+{{Mod
+|id                               = WeaponTreeAddedElemental2hLowElementalAilmentChance3
+|mod_groups                       = ElementalDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 85
+|mod_type                         = WeaponTreeLocalElementalDamageAndElementalAilmentChance
+|stat_text                        = Adds 24 to 35 [[Fire Damage]]<br>Adds 24 to 35 [[Cold Damage]]<br>Adds 4 to 46 [[Lightning Damage]]
+|stat1_id                         = local_minimum_added_fire_damage
+|stat1_min                        = 24
+|stat1_max                        = 24
+|stat2_id                         = local_maximum_added_fire_damage
+|stat2_min                        = 35
+|stat2_max                        = 35
+|stat3_id                         = local_minimum_added_cold_damage
+|stat3_min                        = 24
+|stat3_max                        = 24
+|stat4_id                         = local_maximum_added_cold_damage
+|stat4_min                        = 35
+|stat4_max                        = 35
+|stat5_id                         = local_minimum_added_lightning_damage
+|stat5_min                        = 4
+|stat5_max                        = 4
+|stat6_id                         = local_maximum_added_lightning_damage
+|stat6_min                        = 46
+|stat6_max                        = 46
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 31
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

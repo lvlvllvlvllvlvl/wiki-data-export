@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapLeaguestoneStealAllModsOnRareKill
+|mod_groups                       = MapLeaguestoneStealAllModsOnRareKill
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Mimic's
+|mod_type                         = MapLeaguestoneStealAllModsOnRareKill
+|stat_text                        = When a Player [[Kill|Kills]] a Rare Monster in next Area, they will have (40-60)% chance to gain its Modifiers for 20 seconds
+|stat1_id                         = map_players_gain_rare_monster_mods_on_kill_%_chance
+|stat1_min                        = 40
+|stat1_max                        = 60
+|spawn_weight1_tag                = nemesis_leaguestone
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmEnergyShieldRegeneration2
+|mod_groups                       = AnimalCharmEnergyShieldRegeneration
+|domain                           = 35
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of the Occultist
+|mod_type                         = AnimalCharmEnergyShieldRegeneration
+|stat_text                        = Regenerate (2-3)% of [[Energy Shield]] per second
+|stat1_id                         = base_energy_shield_regeneration_rate_per_minute_%
+|stat1_min                        = 120
+|stat1_max                        = 180
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

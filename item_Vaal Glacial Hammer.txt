@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vaal Glacial Hammer
 |class_id                                = Active Skill Gem
@@ -8,16 +8,18 @@
 |tags                                    = up_to_level_8_gem, vaal_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalGlacialHammer
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |strength_percent                        = 100
 |gem_tags                                = Attack, Melee, Strike, Duration, AoE, Vaal, Cold
+|secondary_skill_id                      = GlacialHammer
 |gem_description                         = Hits enemies, converting some of your physical damage to cold damage. It traps enemies with you in a circle of ice so that they can't escape. Requires a Mace, Sceptre or Staff.
 |active_skill_name                       = Vaal Glacial Hammer
 |item_class_id_restriction               = One Hand Mace, Sceptre, Two Hand Mace, Staff, Warstaff
 |skill_id                                = VaalGlacialHammer
 |cast_time                               = 1.0
 |required_level                          = 1
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 2% increased Duration of Cold Ailments
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (2-40)% increased Duration of Cold Ailments
 |quality_type1_stat1_id                  = cold_ailment_duration_+%
 |quality_type1_stat1_value               = 2000
 |static_vaal_souls_requirement           = 15
@@ -38,13 +40,13 @@
 |static_stat6_value                      = 2
 |static_stat7_id                         = cold_ailment_duration_+%
 |static_stat7_value                      = 35
-|stat_text                               = Base duration is (3.4-4.35) seconds<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>25% chance to Freeze enemies<br>100% of Physical Damage Converted to Cold Damage<br>Freezes enemies as though dealing (200-390)% more Damage<br>Can't be Evaded<br>+2 to Melee Strike Range<br>35% increased Duration of Cold Ailments<br>(10-29)% increased Effect of Cold Ailments<br>Adds (2-75) to (3-113) Cold Damage against Chilled Enemies
+|stat_text                               = Base duration is (3.40-4.35) seconds<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>25% chance to Freeze enemies<br>100% of Physical Damage Converted to Cold Damage<br>Freezes enemies as though dealing (200-390)% more Damage<br>Can't be Evaded<br>+0.2 metres to Melee Strike Range<br>35% increased Duration of Cold Ailments<br>(10-29)% increased Effect of Cold Ailments<br>Adds (2-75) to (3-113) Cold Damage against Chilled Enemies
 |level1                                  = True
 |level1_level_requirement                = 1
 |level1_damage_effectiveness             = 155
 |level1_damage_multiplier                = 155
 |level1_duration                         = 3.4
-|level1_stat_text                        = Base duration is 3.4 seconds<br>Freezes enemies as though dealing 200% more Damage<br>10% increased Effect of Cold Ailments<br>Adds 2 to 3 Cold Damage against Chilled Enemies
+|level1_stat_text                        = Base duration is 3.40 seconds<br>Freezes enemies as though dealing 200% more Damage<br>10% increased Effect of Cold Ailments<br>Adds 2 to 3 Cold Damage against Chilled Enemies
 |level1_stat1_id                         = base_skill_effect_duration
 |level1_stat1_value                      = 3400
 |level1_stat2_id                         = freeze_as_though_dealt_damage_+%
@@ -76,7 +78,7 @@
 |level3_damage_effectiveness             = 165
 |level3_damage_multiplier                = 165
 |level3_duration                         = 3.5
-|level3_stat_text                        = Base duration is 3.5 seconds<br>Freezes enemies as though dealing 220% more Damage<br>12% increased Effect of Cold Ailments<br>Adds 3 to 4 Cold Damage against Chilled Enemies
+|level3_stat_text                        = Base duration is 3.50 seconds<br>Freezes enemies as though dealing 220% more Damage<br>12% increased Effect of Cold Ailments<br>Adds 3 to 4 Cold Damage against Chilled Enemies
 |level3_stat1_id                         = base_skill_effect_duration
 |level3_stat1_value                      = 3500
 |level3_stat2_id                         = freeze_as_though_dealt_damage_+%
@@ -108,7 +110,7 @@
 |level5_damage_effectiveness             = 175
 |level5_damage_multiplier                = 175
 |level5_duration                         = 3.6
-|level5_stat_text                        = Base duration is 3.6 seconds<br>Freezes enemies as though dealing 240% more Damage<br>14% increased Effect of Cold Ailments<br>Adds 5 to 8 Cold Damage against Chilled Enemies
+|level5_stat_text                        = Base duration is 3.60 seconds<br>Freezes enemies as though dealing 240% more Damage<br>14% increased Effect of Cold Ailments<br>Adds 5 to 8 Cold Damage against Chilled Enemies
 |level5_stat1_id                         = base_skill_effect_duration
 |level5_stat1_value                      = 3600
 |level5_stat2_id                         = freeze_as_though_dealt_damage_+%
@@ -140,7 +142,7 @@
 |level7_damage_effectiveness             = 185
 |level7_damage_multiplier                = 185
 |level7_duration                         = 3.7
-|level7_stat_text                        = Base duration is 3.7 seconds<br>Freezes enemies as though dealing 260% more Damage<br>16% increased Effect of Cold Ailments<br>Adds 9 to 13 Cold Damage against Chilled Enemies
+|level7_stat_text                        = Base duration is 3.70 seconds<br>Freezes enemies as though dealing 260% more Damage<br>16% increased Effect of Cold Ailments<br>Adds 9 to 13 Cold Damage against Chilled Enemies
 |level7_stat1_id                         = base_skill_effect_duration
 |level7_stat1_value                      = 3700
 |level7_stat2_id                         = freeze_as_though_dealt_damage_+%
@@ -172,7 +174,7 @@
 |level9_damage_effectiveness             = 195
 |level9_damage_multiplier                = 195
 |level9_duration                         = 3.8
-|level9_stat_text                        = Base duration is 3.8 seconds<br>Freezes enemies as though dealing 280% more Damage<br>18% increased Effect of Cold Ailments<br>Adds 14 to 20 Cold Damage against Chilled Enemies
+|level9_stat_text                        = Base duration is 3.80 seconds<br>Freezes enemies as though dealing 280% more Damage<br>18% increased Effect of Cold Ailments<br>Adds 14 to 20 Cold Damage against Chilled Enemies
 |level9_stat1_id                         = base_skill_effect_duration
 |level9_stat1_value                      = 3800
 |level9_stat2_id                         = freeze_as_though_dealt_damage_+%
@@ -204,7 +206,7 @@
 |level11_damage_effectiveness            = 205
 |level11_damage_multiplier               = 205
 |level11_duration                        = 3.9
-|level11_stat_text                       = Base duration is 3.9 seconds<br>Freezes enemies as though dealing 300% more Damage<br>20% increased Effect of Cold Ailments<br>Adds 20 to 30 Cold Damage against Chilled Enemies
+|level11_stat_text                       = Base duration is 3.90 seconds<br>Freezes enemies as though dealing 300% more Damage<br>20% increased Effect of Cold Ailments<br>Adds 20 to 30 Cold Damage against Chilled Enemies
 |level11_stat1_id                        = base_skill_effect_duration
 |level11_stat1_value                     = 3900
 |level11_stat2_id                        = freeze_as_though_dealt_damage_+%
@@ -236,7 +238,7 @@
 |level13_damage_effectiveness            = 215
 |level13_damage_multiplier               = 215
 |level13_duration                        = 4
-|level13_stat_text                       = Base duration is 4 seconds<br>Freezes enemies as though dealing 320% more Damage<br>22% increased Effect of Cold Ailments<br>Adds 28 to 42 Cold Damage against Chilled Enemies
+|level13_stat_text                       = Base duration is 4.00 seconds<br>Freezes enemies as though dealing 320% more Damage<br>22% increased Effect of Cold Ailments<br>Adds 28 to 42 Cold Damage against Chilled Enemies
 |level13_stat1_id                        = base_skill_effect_duration
 |level13_stat1_value                     = 4000
 |level13_stat2_id                        = freeze_as_though_dealt_damage_+%
@@ -268,7 +270,7 @@
 |level15_damage_effectiveness            = 225
 |level15_damage_multiplier               = 225
 |level15_duration                        = 4.1
-|level15_stat_text                       = Base duration is 4.1 seconds<br>Freezes enemies as though dealing 340% more Damage<br>24% increased Effect of Cold Ailments<br>Adds 39 to 58 Cold Damage against Chilled Enemies
+|level15_stat_text                       = Base duration is 4.10 seconds<br>Freezes enemies as though dealing 340% more Damage<br>24% increased Effect of Cold Ailments<br>Adds 39 to 58 Cold Damage against Chilled Enemies
 |level15_stat1_id                        = base_skill_effect_duration
 |level15_stat1_value                     = 4100
 |level15_stat2_id                        = freeze_as_though_dealt_damage_+%
@@ -300,7 +302,7 @@
 |level17_damage_effectiveness            = 235
 |level17_damage_multiplier               = 235
 |level17_duration                        = 4.2
-|level17_stat_text                       = Base duration is 4.2 seconds<br>Freezes enemies as though dealing 360% more Damage<br>26% increased Effect of Cold Ailments<br>Adds 52 to 79 Cold Damage against Chilled Enemies
+|level17_stat_text                       = Base duration is 4.20 seconds<br>Freezes enemies as though dealing 360% more Damage<br>26% increased Effect of Cold Ailments<br>Adds 52 to 79 Cold Damage against Chilled Enemies
 |level17_stat1_id                        = base_skill_effect_duration
 |level17_stat1_value                     = 4200
 |level17_stat2_id                        = freeze_as_though_dealt_damage_+%
@@ -332,7 +334,7 @@
 |level19_damage_effectiveness            = 245
 |level19_damage_multiplier               = 245
 |level19_duration                        = 4.3
-|level19_stat_text                       = Base duration is 4.3 seconds<br>Freezes enemies as though dealing 380% more Damage<br>28% increased Effect of Cold Ailments<br>Adds 68 to 102 Cold Damage against Chilled Enemies
+|level19_stat_text                       = Base duration is 4.30 seconds<br>Freezes enemies as though dealing 380% more Damage<br>28% increased Effect of Cold Ailments<br>Adds 68 to 102 Cold Damage against Chilled Enemies
 |level19_stat1_id                        = base_skill_effect_duration
 |level19_stat1_value                     = 4300
 |level19_stat2_id                        = freeze_as_though_dealt_damage_+%
@@ -364,7 +366,7 @@
 |level21_damage_effectiveness            = 255
 |level21_damage_multiplier               = 255
 |level21_duration                        = 4.4
-|level21_stat_text                       = Base duration is 4.4 seconds<br>Freezes enemies as though dealing 400% more Damage<br>30% increased Effect of Cold Ailments<br>Adds 81 to 122 Cold Damage against Chilled Enemies
+|level21_stat_text                       = Base duration is 4.40 seconds<br>Freezes enemies as though dealing 400% more Damage<br>30% increased Effect of Cold Ailments<br>Adds 81 to 122 Cold Damage against Chilled Enemies
 |level21_stat1_id                        = base_skill_effect_duration
 |level21_stat1_value                     = 4400
 |level21_stat2_id                        = freeze_as_though_dealt_damage_+%
@@ -396,7 +398,7 @@
 |level23_damage_effectiveness            = 265
 |level23_damage_multiplier               = 265
 |level23_duration                        = 4.5
-|level23_stat_text                       = Base duration is 4.5 seconds<br>Freezes enemies as though dealing 420% more Damage<br>32% increased Effect of Cold Ailments<br>Adds 93 to 140 Cold Damage against Chilled Enemies
+|level23_stat_text                       = Base duration is 4.50 seconds<br>Freezes enemies as though dealing 420% more Damage<br>32% increased Effect of Cold Ailments<br>Adds 93 to 140 Cold Damage against Chilled Enemies
 |level23_stat1_id                        = base_skill_effect_duration
 |level23_stat1_value                     = 4500
 |level23_stat2_id                        = freeze_as_though_dealt_damage_+%
@@ -428,7 +430,7 @@
 |level25_damage_effectiveness            = 275
 |level25_damage_multiplier               = 275
 |level25_duration                        = 4.6
-|level25_stat_text                       = Base duration is 4.6 seconds<br>Freezes enemies as though dealing 440% more Damage<br>34% increased Effect of Cold Ailments<br>Adds 107 to 160 Cold Damage against Chilled Enemies
+|level25_stat_text                       = Base duration is 4.60 seconds<br>Freezes enemies as though dealing 440% more Damage<br>34% increased Effect of Cold Ailments<br>Adds 107 to 160 Cold Damage against Chilled Enemies
 |level25_stat1_id                        = base_skill_effect_duration
 |level25_stat1_value                     = 4600
 |level25_stat2_id                        = freeze_as_though_dealt_damage_+%
@@ -460,7 +462,7 @@
 |level27_damage_effectiveness            = 285
 |level27_damage_multiplier               = 285
 |level27_duration                        = 4.7
-|level27_stat_text                       = Base duration is 4.7 seconds<br>Freezes enemies as though dealing 460% more Damage<br>36% increased Effect of Cold Ailments<br>Adds 123 to 184 Cold Damage against Chilled Enemies
+|level27_stat_text                       = Base duration is 4.70 seconds<br>Freezes enemies as though dealing 460% more Damage<br>36% increased Effect of Cold Ailments<br>Adds 123 to 184 Cold Damage against Chilled Enemies
 |level27_stat1_id                        = base_skill_effect_duration
 |level27_stat1_value                     = 4700
 |level27_stat2_id                        = freeze_as_though_dealt_damage_+%
@@ -492,7 +494,7 @@
 |level29_damage_effectiveness            = 295
 |level29_damage_multiplier               = 295
 |level29_duration                        = 4.8
-|level29_stat_text                       = Base duration is 4.8 seconds<br>Freezes enemies as though dealing 480% more Damage<br>38% increased Effect of Cold Ailments<br>Adds 140 to 210 Cold Damage against Chilled Enemies
+|level29_stat_text                       = Base duration is 4.80 seconds<br>Freezes enemies as though dealing 480% more Damage<br>38% increased Effect of Cold Ailments<br>Adds 140 to 210 Cold Damage against Chilled Enemies
 |level29_stat1_id                        = base_skill_effect_duration
 |level29_stat1_value                     = 4800
 |level29_stat2_id                        = freeze_as_though_dealt_damage_+%
@@ -540,7 +542,7 @@
 |level32_damage_effectiveness            = 305
 |level32_damage_multiplier               = 305
 |level32_duration                        = 4.9
-|level32_stat_text                       = Base duration is 4.9 seconds<br>Freezes enemies as though dealing 500% more Damage<br>40% increased Effect of Cold Ailments<br>Adds 160 to 240 Cold Damage against Chilled Enemies
+|level32_stat_text                       = Base duration is 4.90 seconds<br>Freezes enemies as though dealing 500% more Damage<br>40% increased Effect of Cold Ailments<br>Adds 160 to 240 Cold Damage against Chilled Enemies
 |level32_stat1_id                        = base_skill_effect_duration
 |level32_stat1_value                     = 4900
 |level32_stat2_id                        = freeze_as_though_dealt_damage_+%
@@ -556,7 +558,7 @@
 |level33_damage_effectiveness            = 308
 |level33_damage_multiplier               = 307.5
 |level33_duration                        = 4.9
-|level33_stat_text                       = Base duration is 4.9 seconds<br>Freezes enemies as though dealing 505% more Damage<br>40% increased Effect of Cold Ailments<br>Adds 165 to 248 Cold Damage against Chilled Enemies
+|level33_stat_text                       = Base duration is 4.90 seconds<br>Freezes enemies as though dealing 505% more Damage<br>40% increased Effect of Cold Ailments<br>Adds 165 to 248 Cold Damage against Chilled Enemies
 |level33_stat1_id                        = base_skill_effect_duration
 |level33_stat1_value                     = 4900
 |level33_stat2_id                        = freeze_as_though_dealt_damage_+%
@@ -604,7 +606,7 @@
 |level36_damage_effectiveness            = 315
 |level36_damage_multiplier               = 315
 |level36_duration                        = 5
-|level36_stat_text                       = Base duration is 5 seconds<br>Freezes enemies as though dealing 520% more Damage<br>42% increased Effect of Cold Ailments<br>Adds 182 to 273 Cold Damage against Chilled Enemies
+|level36_stat_text                       = Base duration is 5.00 seconds<br>Freezes enemies as though dealing 520% more Damage<br>42% increased Effect of Cold Ailments<br>Adds 182 to 273 Cold Damage against Chilled Enemies
 |level36_stat1_id                        = base_skill_effect_duration
 |level36_stat1_value                     = 5000
 |level36_stat2_id                        = freeze_as_though_dealt_damage_+%
@@ -620,7 +622,7 @@
 |level37_damage_effectiveness            = 318
 |level37_damage_multiplier               = 317.5
 |level37_duration                        = 5
-|level37_stat_text                       = Base duration is 5 seconds<br>Freezes enemies as though dealing 525% more Damage<br>42% increased Effect of Cold Ailments<br>Adds 188 to 282 Cold Damage against Chilled Enemies
+|level37_stat_text                       = Base duration is 5.00 seconds<br>Freezes enemies as though dealing 525% more Damage<br>42% increased Effect of Cold Ailments<br>Adds 188 to 282 Cold Damage against Chilled Enemies
 |level37_stat1_id                        = base_skill_effect_duration
 |level37_stat1_value                     = 5000
 |level37_stat2_id                        = freeze_as_though_dealt_damage_+%
@@ -668,7 +670,7 @@
 |level40_damage_effectiveness            = 325
 |level40_damage_multiplier               = 325
 |level40_duration                        = 5.1
-|level40_stat_text                       = Base duration is 5.1 seconds<br>Freezes enemies as though dealing 540% more Damage<br>44% increased Effect of Cold Ailments<br>Adds 207 to 311 Cold Damage against Chilled Enemies
+|level40_stat_text                       = Base duration is 5.10 seconds<br>Freezes enemies as though dealing 540% more Damage<br>44% increased Effect of Cold Ailments<br>Adds 207 to 311 Cold Damage against Chilled Enemies
 |level40_stat1_id                        = base_skill_effect_duration
 |level40_stat1_value                     = 5100
 |level40_stat2_id                        = freeze_as_though_dealt_damage_+%

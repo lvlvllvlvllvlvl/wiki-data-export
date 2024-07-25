@@ -1,0 +1,20 @@
+{{Skill
+|gem_description                         = [UNUSED] Places a projectile portal. With two portals active, any of your projectiles that impact one portal will be teleported to the other portal, retaining their direction and speed. In layman's terms, speedy thing goes in, speedy thing comes out.
+|active_skill_name                       = [UNUSED] Projectile Portal
+|skill_id                                = ProjectilePortal
+|cast_time                               = 0.0
+|required_level                          = 1
+|static_stored_uses                      = 1
+|static_cooldown                         = 0.25
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 10
+|static_stat1_id                         = base_deal_no_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 10000
+|stat_text                               = Base duration is 10.00 seconds
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

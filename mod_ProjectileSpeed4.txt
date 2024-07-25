@@ -1,0 +1,22 @@
+{{Mod
+|id                               = ProjectileSpeed4
+|mod_groups                       = ProjectileSpeed
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 55
+|name                             = of the Zephyr
+|mod_type                         = ProjectileSpeed
+|stat_text                        = (34-41)% increased Projectile Speed
+|stat1_id                         = base_projectile_speed_+%
+|stat1_min                        = 34
+|stat1_max                        = 41
+|spawn_weight1_tag                = ranged
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = quiver
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

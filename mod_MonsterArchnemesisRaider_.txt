@@ -1,0 +1,21 @@
+{{Mod
+|id                               = MonsterArchnemesisRaider_
+|mod_groups                       = MonsterArchnemesisRaider
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 6
+|name                             = Swift
+|granted_buff_id                  = monster_aura_speed
+|granted_buff_value               = 50
+|mod_type                         = MonsterArchnemesisRaider
+|stat_text                        = 100% increased [[Evasion Rating]] (Hidden)
+|stat1_id                         = evasion_rating_+%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|spawn_weight1_tag                = no_common_monster_mods
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = magic
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 8000
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmOfferingEffect2
+|mod_groups                       = AnimalCharmOfferingEffect
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Necromancer's
+|mod_type                         = AnimalCharmOfferingEffect
+|stat_text                        = Your Offerings have (21-30)% increased Effect on you
+|stat1_id                         = self_offering_effect_+%
+|stat1_min                        = 21
+|stat1_max                        = 30
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

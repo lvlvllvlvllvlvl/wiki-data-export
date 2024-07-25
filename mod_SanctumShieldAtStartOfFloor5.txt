@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SanctumShieldAtStartOfFloor5
+|mod_groups                       = SanctumShieldAtStartOfFloor
+|domain                           = 7
+|generation_type                  = 1
+|required_level                   = 85
+|name                             = Impassioned
+|mod_type                         = SanctumShieldAtStartOfFloor
+|stat_text                        = Gain (21-25) Inspiration at the start of each Floor
+|stat1_id                         = gain_sanctum_shield_at_start_of_each_floor
+|stat1_min                        = 21
+|stat1_max                        = 25
+|spawn_weight1_tag                = medium_sanctum_relic
+|spawn_weight1_value              = 20
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

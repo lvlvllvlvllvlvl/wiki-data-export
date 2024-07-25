@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeDamageOverTimeLowAilmentDurationOnYou2
+|mod_groups                       = DamageOverTime
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 23
+|mod_type                         = WeaponTreeDamageOverTimeAndSelfAilmentDuration
+|stat_text                        = 10% increased Damage over Time<br>15% reduced Duration of Ailments on You
+|stat1_id                         = damage_over_time_+%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = base_all_ailment_duration_on_self_+%
+|stat2_min                        = -15
+|stat2_max                        = -15
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 125
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

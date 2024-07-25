@@ -1,0 +1,21 @@
+{{Mod
+|id                               = LocalIncreasedPhysicalDamageEnhancedLevel50Mod
+|mod_groups                       = LocalPhysicalDamagePercent
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 50
+|name                             = Tacati's
+|mod_type                         = LocalPhysicalDamagePercentAddedAsChaos
+|stat_text                        = (155-169)% increased [[Physical Damage]]<br>Gain (3-5)% of [[Physical Damage]] as Extra [[Chaos Damage]]
+|stat1_id                         = local_physical_damage_+%
+|stat1_min                        = 155
+|stat1_max                        = 169
+|stat2_id                         = physical_damage_%_to_add_as_chaos
+|stat2_min                        = 3
+|stat2_max                        = 5
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = physical_damage, chaos_damage, damage, physical, chaos, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

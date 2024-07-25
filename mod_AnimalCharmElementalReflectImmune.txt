@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmElementalReflectImmune
+|mod_groups                       = AnimalCharmElementalReflectImmune
+|domain                           = 35
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of the Elementalist
+|mod_type                         = AnimalCharmElementalReflectImmune
+|stat_text                        = Cannot take Reflected [[Elemental Damage]]
+|stat1_id                         = cannot_take_reflected_elemental_damage
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

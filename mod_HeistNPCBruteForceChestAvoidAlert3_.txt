@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HeistNPCBruteForceChestAvoidAlert3_
+|mod_groups                       = HeistNPCJobChestAvoidAlert
+|domain                           = 23
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Cunning
+|mod_type                         = HeistNPCBruteForceChestAvoidAlert
+|stat_text                        = (7-8)% chance to not generate Alert [[Level]] on opening a Chest using Brute Force
+|stat1_id                         = heist_job_brute_force_avoid_alarm_chance_%_on_open_chest
+|stat1_min                        = 7
+|stat1_max                        = 8
+|spawn_weight1_tag                = heist_equipment_bruteforce
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

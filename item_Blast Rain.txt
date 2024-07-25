@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Blast Rain
 |class_id                                = Active Skill Gem
@@ -16,22 +16,11 @@
 |skill_id                                = BlastRain
 |cast_time                               = 1.0
 |required_level                          = 28
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Area of Effect
-|quality_type1_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 0.25% chance to Cover Enemies in Ash on Hit
-|quality_type2_stat1_id                  = cover_in_ash_on_hit_%
-|quality_type2_stat1_value               = 250
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 2% increased Damage to distant Enemies
-|quality_type3_stat1_id                  = blast_rain_damage_+%_vs_distant_enemies
-|quality_type3_stat1_value               = 2000
-|quality_type4_weight                    = 100
-|quality_type4_stat_text                 = Arrows fall within a 3% increased Area of Effect
-|quality_type4_stat1_id                  = blast_rain_area_of_effect_+%
-|quality_type4_stat1_value               = 3000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Fires +(0.05-1) Arrows
+|quality_type1_breakpoints               = 20.0
+|quality_type1_stat1_id                  = base_number_of_arrows
+|quality_type1_stat1_value               = 50
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_is_projectile
@@ -42,11 +31,13 @@
 |static_stat3_value                      = 1
 |static_stat4_id                         = skill_can_fire_arrows
 |static_stat4_value                      = 1
-|static_stat5_id                         = base_number_of_additional_arrows
-|static_stat5_value                      = 5
-|static_stat6_id                         = skill_physical_damage_%_to_convert_to_fire
-|static_stat6_value                      = 100
-|stat_text                               = Fires 5 additional Arrows<br>100% of Physical Damage Converted to Fire Damage<br>Penetrates (20-30)% Fire Resistance
+|static_stat5_id                         = base_number_of_arrows
+|static_stat5_value                      = 6
+|static_stat6_id                         = quality_display_base_additional_arrows_is_gem
+|static_stat6_value                      = 1
+|static_stat7_id                         = skill_physical_damage_%_to_convert_to_fire
+|static_stat7_value                      = 100
+|stat_text                               = Fires 6 Arrows<br>100% of Physical Damage Converted to Fire Damage<br>Penetrates (20-30)% Fire Resistance
 |level1                                  = True
 |level1_level_requirement                = 28
 |level1_cost_amounts                     = 8
@@ -408,5 +399,4 @@
 |level20_dexterity_requirement           = 155
 |level20_experience                      = 340652931
 |level21_dexterity_requirement           = 159
-|inventory_icon                          = Blast Rain
 }}

@@ -1,0 +1,31 @@
+{{Mod
+|id                               = HellscapeUpsideEnergyShieldHelmetShield4
+|mod_groups                       = BaseLocalDefences
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = LocalEnergyShield
+|stat_text                        = +(17-18) to maximum [[Energy Shield]]
+|stat1_id                         = local_energy_shield
+|stat1_min                        = 17
+|stat1_max                        = 18
+|spawn_weight1_tag                = body_armour
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = gloves
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = boots
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = int_armour
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = str_int_armour
+|spawn_weight5_value              = 500
+|spawn_weight6_tag                = dex_int_armour
+|spawn_weight6_value              = 500
+|spawn_weight7_tag                = str_dex_int_armour
+|spawn_weight7_value              = 300
+|spawn_weight8_tag                = default
+|spawn_weight8_value              = 0
+|tags                             = defences, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

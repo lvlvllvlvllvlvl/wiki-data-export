@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Rusted Reliquary Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = The Maraketh left you to die alone in the desert, young Sumei, but we<br>saw the potential in you. The Order of the Djinn is your akhara now.
 |drop_level                              = 68
-|tags                                    = rusted_scarab, default
+|tags                                    = scarab, uniques_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabUniques1
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabUniques1
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = 50% increased Unique Items found in Area
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabUniques1
 }}

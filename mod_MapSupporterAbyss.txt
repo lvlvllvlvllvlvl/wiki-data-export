@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MapSupporterAbyss
+|mod_groups                       = MapSupporterAbyss
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSupporterAbyss
+|stat_text                        = Area contains an additional Abyss<br>Abysses in Area spawn 200% increased Monsters<br>2% Chance to convert Maps to Scarabs<br>20% increased Quantity of Items found in this Area<br>All Abysses in Area must be completed to claim Reward
+|stat1_id                         = map_num_extra_abysses
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_abyss_monster_spawn_amount_+%
+|stat2_min                        = 200
+|stat2_max                        = 200
+|stat3_id                         = map_supporter_map_to_scarab
+|stat3_min                        = 200
+|stat3_max                        = 200
+|stat4_id                         = map_item_drop_quantity_+%
+|stat4_min                        = 20
+|stat4_max                        = 20
+|stat5_id                         = map_reliquary_must_complete_abysses
+|stat5_min                        = 1
+|stat5_max                        = 1
+}}

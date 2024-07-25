@@ -1,0 +1,31 @@
+{{Mod
+|id                               = JunMaster2AddedFireAndLightningDamage3
+|mod_groups                       = AddedFireAndLightningDamage
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 81
+|name                             = Chosen
+|mod_type                         = AddedFireAndLightningDamage
+|stat_text                        = Adds (10-12) to (14-16) [[Fire Damage]]<br>Adds 1 to (21-24) [[Lightning Damage]]
+|stat1_id                         = global_minimum_added_fire_damage
+|stat1_min                        = 10
+|stat1_max                        = 12
+|stat2_id                         = global_maximum_added_fire_damage
+|stat2_min                        = 14
+|stat2_max                        = 16
+|stat3_id                         = global_minimum_added_lightning_damage
+|stat3_min                        = 1
+|stat3_max                        = 1
+|stat4_id                         = global_maximum_added_lightning_damage
+|stat4_min                        = 21
+|stat4_max                        = 24
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = ring
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental_damage, unveiled_mod, damage, elemental, fire, lightning
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

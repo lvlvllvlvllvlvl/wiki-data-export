@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vampiric Link
 |class_id                                = Active Skill Gem
@@ -16,36 +16,26 @@
 |skill_id                                = VampiricLink
 |cast_time                               = 0.5
 |required_level                          = 34
-|quality_type1_weight                    = 100
-|quality_type1_stat_text                 = 1% increased Skill Effect Duration
-|quality_type1_stat1_id                  = skill_effect_duration_+%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = 0.5% increased Buff Effect
-|quality_type2_stat1_id                  = skill_buff_effect_+%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = Linked target deals 1% increased Damage when on Full Life
-|quality_type3_stat1_id                  = remora_link_grants_damage_+%_when_on_full_life
-|quality_type3_stat1_value               = 1000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Base duration is (0.075-1.5) seconds
+|quality_type1_stat1_id                  = base_skill_effect_duration
+|quality_type1_stat1_value               = 75000
 |static_cost_types                       = ManaPerMinute
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
-|static_stat1_id                         = base_deal_no_damage
+|static_stat1_id                         = skill_cost_over_time_is_not_removed_with_skill
 |static_stat1_value                      = 1
-|static_stat2_id                         = skill_cost_over_time_is_not_removed_with_skill
+|static_stat2_id                         = life_leech_is_applied_to_remora_link_targets_instead
 |static_stat2_value                      = 1
-|static_stat3_id                         = life_leech_is_applied_to_remora_link_targets_instead
+|static_stat3_id                         = display_link_stuff
 |static_stat3_value                      = 1
-|static_stat4_id                         = display_link_stuff
-|static_stat4_value                      = 1
-|stat_text                               = Base duration is (8-9.9) seconds<br>Life Leech effects are not removed at Full Life<br>Life Leech effects apply Recovery Linked Target instead of you<br>Linked target's Maximum total Life Recovery per second from Leech is equal to yours<br>Buff grants +(2-5.8)% to Maximum total Life Recovery per second from Leech<br>Link breaks if target leaves range or line of sight for 4 seconds<br>Maximum 1 Link from any source per target<br>You die if Linked target dies
+|stat_text                               = Base duration is (8.00-9.90) seconds<br>Life Leech effects are not removed at Full Life<br>Life Leech effects apply Recovery Linked Target instead of you<br>Linked target's Maximum total Life Recovery per second from Leech is equal to yours<br>Buff grants +(2-5.8)% to Maximum total Life Recovery per second from Leech<br>Link breaks if target leaves range or line of sight for 4 seconds<br>Maximum 1 Link from any source per target<br>You die if Linked target dies
 |level1                                  = True
 |level1_level_requirement                = 34
 |level1_cost_amounts                     = 900
 |level1_duration                         = 8
-|level1_stat_text                        = Base duration is 8 seconds<br>Buff grants +2% to Maximum total Life Recovery per second from Leech
+|level1_stat_text                        = Base duration is 8.00 seconds<br>Buff grants +2% to Maximum total Life Recovery per second from Leech
 |level1_stat1_id                         = base_skill_effect_duration
 |level1_stat1_value                      = 8000
 |level1_stat2_id                         = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -54,7 +44,7 @@
 |level2_level_requirement                = 36
 |level2_cost_amounts                     = 960
 |level2_duration                         = 8.1
-|level2_stat_text                        = Base duration is 8.1 seconds<br>Buff grants +2.2% to Maximum total Life Recovery per second from Leech
+|level2_stat_text                        = Base duration is 8.10 seconds<br>Buff grants +2.2% to Maximum total Life Recovery per second from Leech
 |level2_stat1_id                         = base_skill_effect_duration
 |level2_stat1_value                      = 8100
 |level2_stat2_id                         = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -63,7 +53,7 @@
 |level3_level_requirement                = 38
 |level3_cost_amounts                     = 1030
 |level3_duration                         = 8.2
-|level3_stat_text                        = Base duration is 8.2 seconds<br>Buff grants +2.4% to Maximum total Life Recovery per second from Leech
+|level3_stat_text                        = Base duration is 8.20 seconds<br>Buff grants +2.4% to Maximum total Life Recovery per second from Leech
 |level3_stat1_id                         = base_skill_effect_duration
 |level3_stat1_value                      = 8200
 |level3_stat2_id                         = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -72,7 +62,7 @@
 |level4_level_requirement                = 40
 |level4_cost_amounts                     = 1080
 |level4_duration                         = 8.3
-|level4_stat_text                        = Base duration is 8.3 seconds<br>Buff grants +2.6% to Maximum total Life Recovery per second from Leech
+|level4_stat_text                        = Base duration is 8.30 seconds<br>Buff grants +2.6% to Maximum total Life Recovery per second from Leech
 |level4_stat1_id                         = base_skill_effect_duration
 |level4_stat1_value                      = 8300
 |level4_stat2_id                         = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -81,7 +71,7 @@
 |level5_level_requirement                = 42
 |level5_cost_amounts                     = 1140
 |level5_duration                         = 8.4
-|level5_stat_text                        = Base duration is 8.4 seconds<br>Buff grants +2.8% to Maximum total Life Recovery per second from Leech
+|level5_stat_text                        = Base duration is 8.40 seconds<br>Buff grants +2.8% to Maximum total Life Recovery per second from Leech
 |level5_stat1_id                         = base_skill_effect_duration
 |level5_stat1_value                      = 8400
 |level5_stat2_id                         = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -90,7 +80,7 @@
 |level6_level_requirement                = 44
 |level6_cost_amounts                     = 1200
 |level6_duration                         = 8.5
-|level6_stat_text                        = Base duration is 8.5 seconds<br>Buff grants +3% to Maximum total Life Recovery per second from Leech
+|level6_stat_text                        = Base duration is 8.50 seconds<br>Buff grants +3% to Maximum total Life Recovery per second from Leech
 |level6_stat1_id                         = base_skill_effect_duration
 |level6_stat1_value                      = 8500
 |level6_stat2_id                         = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -99,7 +89,7 @@
 |level7_level_requirement                = 46
 |level7_cost_amounts                     = 1250
 |level7_duration                         = 8.6
-|level7_stat_text                        = Base duration is 8.6 seconds<br>Buff grants +3.2% to Maximum total Life Recovery per second from Leech
+|level7_stat_text                        = Base duration is 8.60 seconds<br>Buff grants +3.2% to Maximum total Life Recovery per second from Leech
 |level7_stat1_id                         = base_skill_effect_duration
 |level7_stat1_value                      = 8600
 |level7_stat2_id                         = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -108,7 +98,7 @@
 |level8_level_requirement                = 48
 |level8_cost_amounts                     = 1310
 |level8_duration                         = 8.7
-|level8_stat_text                        = Base duration is 8.7 seconds<br>Buff grants +3.4% to Maximum total Life Recovery per second from Leech
+|level8_stat_text                        = Base duration is 8.70 seconds<br>Buff grants +3.4% to Maximum total Life Recovery per second from Leech
 |level8_stat1_id                         = base_skill_effect_duration
 |level8_stat1_value                      = 8700
 |level8_stat2_id                         = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -117,7 +107,7 @@
 |level9_level_requirement                = 50
 |level9_cost_amounts                     = 1380
 |level9_duration                         = 8.8
-|level9_stat_text                        = Base duration is 8.8 seconds<br>Buff grants +3.6% to Maximum total Life Recovery per second from Leech
+|level9_stat_text                        = Base duration is 8.80 seconds<br>Buff grants +3.6% to Maximum total Life Recovery per second from Leech
 |level9_stat1_id                         = base_skill_effect_duration
 |level9_stat1_value                      = 8800
 |level9_stat2_id                         = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -126,7 +116,7 @@
 |level10_level_requirement               = 52
 |level10_cost_amounts                    = 1440
 |level10_duration                        = 8.9
-|level10_stat_text                       = Base duration is 8.9 seconds<br>Buff grants +3.8% to Maximum total Life Recovery per second from Leech
+|level10_stat_text                       = Base duration is 8.90 seconds<br>Buff grants +3.8% to Maximum total Life Recovery per second from Leech
 |level10_stat1_id                        = base_skill_effect_duration
 |level10_stat1_value                     = 8900
 |level10_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -135,7 +125,7 @@
 |level11_level_requirement               = 54
 |level11_cost_amounts                    = 1490
 |level11_duration                        = 9
-|level11_stat_text                       = Base duration is 9 seconds<br>Buff grants +4% to Maximum total Life Recovery per second from Leech
+|level11_stat_text                       = Base duration is 9.00 seconds<br>Buff grants +4% to Maximum total Life Recovery per second from Leech
 |level11_stat1_id                        = base_skill_effect_duration
 |level11_stat1_value                     = 9000
 |level11_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -144,7 +134,7 @@
 |level12_level_requirement               = 56
 |level12_cost_amounts                    = 1550
 |level12_duration                        = 9.1
-|level12_stat_text                       = Base duration is 9.1 seconds<br>Buff grants +4.2% to Maximum total Life Recovery per second from Leech
+|level12_stat_text                       = Base duration is 9.10 seconds<br>Buff grants +4.2% to Maximum total Life Recovery per second from Leech
 |level12_stat1_id                        = base_skill_effect_duration
 |level12_stat1_value                     = 9100
 |level12_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -153,7 +143,7 @@
 |level13_level_requirement               = 58
 |level13_cost_amounts                    = 1610
 |level13_duration                        = 9.2
-|level13_stat_text                       = Base duration is 9.2 seconds<br>Buff grants +4.4% to Maximum total Life Recovery per second from Leech
+|level13_stat_text                       = Base duration is 9.20 seconds<br>Buff grants +4.4% to Maximum total Life Recovery per second from Leech
 |level13_stat1_id                        = base_skill_effect_duration
 |level13_stat1_value                     = 9200
 |level13_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -162,7 +152,7 @@
 |level14_level_requirement               = 60
 |level14_cost_amounts                    = 1680
 |level14_duration                        = 9.3
-|level14_stat_text                       = Base duration is 9.3 seconds<br>Buff grants +4.6% to Maximum total Life Recovery per second from Leech
+|level14_stat_text                       = Base duration is 9.30 seconds<br>Buff grants +4.6% to Maximum total Life Recovery per second from Leech
 |level14_stat1_id                        = base_skill_effect_duration
 |level14_stat1_value                     = 9300
 |level14_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -171,7 +161,7 @@
 |level15_level_requirement               = 62
 |level15_cost_amounts                    = 1730
 |level15_duration                        = 9.4
-|level15_stat_text                       = Base duration is 9.4 seconds<br>Buff grants +4.8% to Maximum total Life Recovery per second from Leech
+|level15_stat_text                       = Base duration is 9.40 seconds<br>Buff grants +4.8% to Maximum total Life Recovery per second from Leech
 |level15_stat1_id                        = base_skill_effect_duration
 |level15_stat1_value                     = 9400
 |level15_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -180,7 +170,7 @@
 |level16_level_requirement               = 64
 |level16_cost_amounts                    = 1790
 |level16_duration                        = 9.5
-|level16_stat_text                       = Base duration is 9.5 seconds<br>Buff grants +5% to Maximum total Life Recovery per second from Leech
+|level16_stat_text                       = Base duration is 9.50 seconds<br>Buff grants +5% to Maximum total Life Recovery per second from Leech
 |level16_stat1_id                        = base_skill_effect_duration
 |level16_stat1_value                     = 9500
 |level16_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -189,7 +179,7 @@
 |level17_level_requirement               = 66
 |level17_cost_amounts                    = 1850
 |level17_duration                        = 9.6
-|level17_stat_text                       = Base duration is 9.6 seconds<br>Buff grants +5.2% to Maximum total Life Recovery per second from Leech
+|level17_stat_text                       = Base duration is 9.60 seconds<br>Buff grants +5.2% to Maximum total Life Recovery per second from Leech
 |level17_stat1_id                        = base_skill_effect_duration
 |level17_stat1_value                     = 9600
 |level17_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -198,7 +188,7 @@
 |level18_level_requirement               = 68
 |level18_cost_amounts                    = 1900
 |level18_duration                        = 9.7
-|level18_stat_text                       = Base duration is 9.7 seconds<br>Buff grants +5.4% to Maximum total Life Recovery per second from Leech
+|level18_stat_text                       = Base duration is 9.70 seconds<br>Buff grants +5.4% to Maximum total Life Recovery per second from Leech
 |level18_stat1_id                        = base_skill_effect_duration
 |level18_stat1_value                     = 9700
 |level18_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -207,7 +197,7 @@
 |level19_level_requirement               = 69
 |level19_cost_amounts                    = 1940
 |level19_duration                        = 9.8
-|level19_stat_text                       = Base duration is 9.8 seconds<br>Buff grants +5.6% to Maximum total Life Recovery per second from Leech
+|level19_stat_text                       = Base duration is 9.80 seconds<br>Buff grants +5.6% to Maximum total Life Recovery per second from Leech
 |level19_stat1_id                        = base_skill_effect_duration
 |level19_stat1_value                     = 9800
 |level19_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -216,7 +206,7 @@
 |level20_level_requirement               = 70
 |level20_cost_amounts                    = 1960
 |level20_duration                        = 9.9
-|level20_stat_text                       = Base duration is 9.9 seconds<br>Buff grants +5.8% to Maximum total Life Recovery per second from Leech
+|level20_stat_text                       = Base duration is 9.90 seconds<br>Buff grants +5.8% to Maximum total Life Recovery per second from Leech
 |level20_stat1_id                        = base_skill_effect_duration
 |level20_stat1_value                     = 9900
 |level20_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -225,7 +215,7 @@
 |level21_level_requirement               = 72
 |level21_cost_amounts                    = 2030
 |level21_duration                        = 10
-|level21_stat_text                       = Base duration is 10 seconds<br>Buff grants +6% to Maximum total Life Recovery per second from Leech
+|level21_stat_text                       = Base duration is 10.00 seconds<br>Buff grants +6% to Maximum total Life Recovery per second from Leech
 |level21_stat1_id                        = base_skill_effect_duration
 |level21_stat1_value                     = 10000
 |level21_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -234,7 +224,7 @@
 |level22_level_requirement               = 74
 |level22_cost_amounts                    = 2090
 |level22_duration                        = 10.1
-|level22_stat_text                       = Base duration is 10.1 seconds<br>Buff grants +6.2% to Maximum total Life Recovery per second from Leech
+|level22_stat_text                       = Base duration is 10.10 seconds<br>Buff grants +6.2% to Maximum total Life Recovery per second from Leech
 |level22_stat1_id                        = base_skill_effect_duration
 |level22_stat1_value                     = 10100
 |level22_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -243,7 +233,7 @@
 |level23_level_requirement               = 76
 |level23_cost_amounts                    = 2140
 |level23_duration                        = 10.2
-|level23_stat_text                       = Base duration is 10.2 seconds<br>Buff grants +6.4% to Maximum total Life Recovery per second from Leech
+|level23_stat_text                       = Base duration is 10.20 seconds<br>Buff grants +6.4% to Maximum total Life Recovery per second from Leech
 |level23_stat1_id                        = base_skill_effect_duration
 |level23_stat1_value                     = 10200
 |level23_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -252,7 +242,7 @@
 |level24_level_requirement               = 78
 |level24_cost_amounts                    = 2200
 |level24_duration                        = 10.3
-|level24_stat_text                       = Base duration is 10.3 seconds<br>Buff grants +6.6% to Maximum total Life Recovery per second from Leech
+|level24_stat_text                       = Base duration is 10.30 seconds<br>Buff grants +6.6% to Maximum total Life Recovery per second from Leech
 |level24_stat1_id                        = base_skill_effect_duration
 |level24_stat1_value                     = 10300
 |level24_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -261,7 +251,7 @@
 |level25_level_requirement               = 80
 |level25_cost_amounts                    = 2260
 |level25_duration                        = 10.4
-|level25_stat_text                       = Base duration is 10.4 seconds<br>Buff grants +6.8% to Maximum total Life Recovery per second from Leech
+|level25_stat_text                       = Base duration is 10.40 seconds<br>Buff grants +6.8% to Maximum total Life Recovery per second from Leech
 |level25_stat1_id                        = base_skill_effect_duration
 |level25_stat1_value                     = 10400
 |level25_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -270,7 +260,7 @@
 |level26_level_requirement               = 82
 |level26_cost_amounts                    = 2330
 |level26_duration                        = 10.5
-|level26_stat_text                       = Base duration is 10.5 seconds<br>Buff grants +7% to Maximum total Life Recovery per second from Leech
+|level26_stat_text                       = Base duration is 10.50 seconds<br>Buff grants +7% to Maximum total Life Recovery per second from Leech
 |level26_stat1_id                        = base_skill_effect_duration
 |level26_stat1_value                     = 10500
 |level26_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -279,7 +269,7 @@
 |level27_level_requirement               = 84
 |level27_cost_amounts                    = 2380
 |level27_duration                        = 10.6
-|level27_stat_text                       = Base duration is 10.6 seconds<br>Buff grants +7.2% to Maximum total Life Recovery per second from Leech
+|level27_stat_text                       = Base duration is 10.60 seconds<br>Buff grants +7.2% to Maximum total Life Recovery per second from Leech
 |level27_stat1_id                        = base_skill_effect_duration
 |level27_stat1_value                     = 10600
 |level27_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -288,7 +278,7 @@
 |level28_level_requirement               = 86
 |level28_cost_amounts                    = 2440
 |level28_duration                        = 10.7
-|level28_stat_text                       = Base duration is 10.7 seconds<br>Buff grants +7.4% to Maximum total Life Recovery per second from Leech
+|level28_stat_text                       = Base duration is 10.70 seconds<br>Buff grants +7.4% to Maximum total Life Recovery per second from Leech
 |level28_stat1_id                        = base_skill_effect_duration
 |level28_stat1_value                     = 10700
 |level28_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -297,7 +287,7 @@
 |level29_level_requirement               = 88
 |level29_cost_amounts                    = 2500
 |level29_duration                        = 10.8
-|level29_stat_text                       = Base duration is 10.8 seconds<br>Buff grants +7.6% to Maximum total Life Recovery per second from Leech
+|level29_stat_text                       = Base duration is 10.80 seconds<br>Buff grants +7.6% to Maximum total Life Recovery per second from Leech
 |level29_stat1_id                        = base_skill_effect_duration
 |level29_stat1_value                     = 10800
 |level29_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -306,7 +296,7 @@
 |level30_level_requirement               = 90
 |level30_cost_amounts                    = 2550
 |level30_duration                        = 10.9
-|level30_stat_text                       = Base duration is 10.9 seconds<br>Buff grants +7.8% to Maximum total Life Recovery per second from Leech
+|level30_stat_text                       = Base duration is 10.90 seconds<br>Buff grants +7.8% to Maximum total Life Recovery per second from Leech
 |level30_stat1_id                        = base_skill_effect_duration
 |level30_stat1_value                     = 10900
 |level30_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -315,7 +305,7 @@
 |level31_level_requirement               = 91
 |level31_cost_amounts                    = 2590
 |level31_duration                        = 11
-|level31_stat_text                       = Base duration is 11 seconds<br>Buff grants +7.8% to Maximum total Life Recovery per second from Leech
+|level31_stat_text                       = Base duration is 11.00 seconds<br>Buff grants +7.8% to Maximum total Life Recovery per second from Leech
 |level31_stat1_id                        = base_skill_effect_duration
 |level31_stat1_value                     = 11000
 |level31_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -333,7 +323,7 @@
 |level33_level_requirement               = 93
 |level33_cost_amounts                    = 2650
 |level33_duration                        = 11.1
-|level33_stat_text                       = Base duration is 11.1 seconds<br>Buff grants +8.1% to Maximum total Life Recovery per second from Leech
+|level33_stat_text                       = Base duration is 11.10 seconds<br>Buff grants +8.1% to Maximum total Life Recovery per second from Leech
 |level33_stat1_id                        = base_skill_effect_duration
 |level33_stat1_value                     = 11100
 |level33_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -351,7 +341,7 @@
 |level35_level_requirement               = 95
 |level35_cost_amounts                    = 2700
 |level35_duration                        = 11.2
-|level35_stat_text                       = Base duration is 11.2 seconds<br>Buff grants +8.3% to Maximum total Life Recovery per second from Leech
+|level35_stat_text                       = Base duration is 11.20 seconds<br>Buff grants +8.3% to Maximum total Life Recovery per second from Leech
 |level35_stat1_id                        = base_skill_effect_duration
 |level35_stat1_value                     = 11200
 |level35_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -369,7 +359,7 @@
 |level37_level_requirement               = 97
 |level37_cost_amounts                    = 2760
 |level37_duration                        = 11.3
-|level37_stat_text                       = Base duration is 11.3 seconds<br>Buff grants +8.5% to Maximum total Life Recovery per second from Leech
+|level37_stat_text                       = Base duration is 11.30 seconds<br>Buff grants +8.5% to Maximum total Life Recovery per second from Leech
 |level37_stat1_id                        = base_skill_effect_duration
 |level37_stat1_value                     = 11300
 |level37_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute
@@ -387,7 +377,7 @@
 |level39_level_requirement               = 99
 |level39_cost_amounts                    = 2830
 |level39_duration                        = 11.4
-|level39_stat_text                       = Base duration is 11.4 seconds<br>Buff grants +8.7% to Maximum total Life Recovery per second from Leech
+|level39_stat_text                       = Base duration is 11.40 seconds<br>Buff grants +8.7% to Maximum total Life Recovery per second from Leech
 |level39_stat1_id                        = base_skill_effect_duration
 |level39_stat1_value                     = 11400
 |level39_stat2_id                        = remora_link_grants_maximum_life_leech_rate_%_per_minute

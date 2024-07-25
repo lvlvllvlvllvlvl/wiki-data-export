@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TinctureShatterOnKill3
+|mod_groups                       = WeaponShatterOnKill
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 72
+|name                             = of the Alpine Wood
+|mod_type                         = WeaponShatterOnKill
+|stat_text                        = Killing Blows have (46-60)% chance to [[Shatter]] Enemies as though [[Freeze|Frozen]]
+|stat1_id                         = shatter_on_weapon_kill_chance_%
+|stat1_min                        = 46
+|stat1_max                        = 60
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

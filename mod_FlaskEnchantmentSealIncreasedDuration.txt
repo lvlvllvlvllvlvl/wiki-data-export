@@ -1,0 +1,19 @@
+{{Mod
+|id                               = FlaskEnchantmentSealIncreasedDuration
+|mod_groups                       = FlaskEnchantment
+|domain                           = 1
+|generation_type                  = 21
+|required_level                   = 1
+|mod_type                         = FlaskEnchantmentEnkindlingDuration
+|stat_text                        = Gains no [[Charge|Charges]] during Effect<br>(80-100)% increased Duration
+|stat1_id                         = local_flask_cannot_gain_charges_during_flask_effect
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_flask_duration_+%
+|stat2_min                        = 80
+|stat2_max                        = 100
+|spawn_weight1_tag                = flask
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

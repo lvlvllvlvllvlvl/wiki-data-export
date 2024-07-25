@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MapCorruptionBossCorruption
+|mod_groups                       = MapCorruptBossCorrupt
+|domain                           = 5
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = MapCorruptionBossCorruption
+|stat_text                        = Unique Monsters drop Corrupted Items
+|stat1_id                         = map_unique_monsters_drop_corrupted_items
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = infected_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 40
+}}

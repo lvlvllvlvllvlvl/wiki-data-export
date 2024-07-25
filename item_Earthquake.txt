@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Earthquake
 |class_id                                = Active Skill Gem
@@ -8,32 +8,19 @@
 |tags                                    = gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemEarthquake
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|vaal_variant_id                         = Metadata/Items/Gems/SkillGemVaalEarthquake
 |strength_percent                        = 100
 |gem_tags                                = Attack, AoE, Duration, Slam, Melee
-|gem_description                         = Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a short duration. Cracks created before the first one has erupted will not generate their own aftershocks. Requires an Axe, Mace, Sceptre, Staff or Unarmed.
+|gem_description                         = Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a duration. Cracks created before the first one has erupted will not generate their own aftershocks. Requires an Axe, Mace, Sceptre, Staff or Unarmed.
 |active_skill_name                       = Earthquake
 |item_class_id_restriction               = One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Axe, Two Hand Mace, Unarmed, Warstaff
 |skill_id                                = Earthquake
 |cast_time                               = 1.0
 |required_level                          = 28
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Damage
-|quality_type1_stat1_id                  = damage_+%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 3% increased Damage<br>1% increased Skill Effect Duration
-|quality_type2_stat1_id                  = damage_+%
-|quality_type2_stat1_value               = 3000
-|quality_type2_stat2_id                  = skill_effect_duration_+%
-|quality_type2_stat2_value               = 1000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = Initial Slam has 2% increased Area of Effect
-|quality_type3_stat1_id                  = earthquake_initial_slam_area_of_effect_+%
-|quality_type3_stat1_value               = 2000
-|quality_type4_weight                    = 5
-|quality_type4_stat_text                 = Increases and Reductions to Spell Damage also apply to Attack Damage from this Skill at 2.5% of their value
-|quality_type4_stat1_id                  = active_skill_additive_spell_damage_modifiers_apply_to_attack_damage_at_%_value
-|quality_type4_stat1_value               = 2500
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Aftershock deals +(1.5-30)% more Damage with Hits and Ailments
+|quality_type1_stat1_id                  = quake_slam_fully_charged_explosion_damage_+%_final
+|quality_type1_stat1_value               = 1500
 |static_cost_amounts                     = 10
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 75
@@ -48,7 +35,9 @@
 |static_stat4_value                      = 1000
 |static_stat5_id                         = quake_slam_fully_charged_explosion_damage_+%_final
 |static_stat5_value                      = 150
-|stat_text                               = Base duration is 1 seconds<br>Aftershock deals 150% more Damage with Hits and Ailments
+|static_stat6_id                         = quality_display_earthquake_is_gem
+|static_stat6_value                      = 1
+|stat_text                               = Base duration is 1.00 seconds<br>Aftershock deals 150% more Damage with Hits and Ailments
 |level1                                  = True
 |level1_level_requirement                = 28
 |level1_damage_effectiveness             = 85
@@ -250,5 +239,4 @@
 |level20_strength_requirement            = 155
 |level20_experience                      = 340652931
 |level21_strength_requirement            = 159
-|inventory_icon                          = Earthquake
 }}

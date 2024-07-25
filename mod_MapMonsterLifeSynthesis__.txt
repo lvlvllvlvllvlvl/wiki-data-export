@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MapMonsterLifeSynthesis__
+|mod_groups                       = MapMonsterLife
+|domain                           = 18
+|generation_type                  = 15
+|required_level                   = 1
+|mod_type                         = MapMonsterLifeMapWorlds
+|stat_text                        = (20-30)% more Monster [[Life]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 13
+|stat1_max                        = 13
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 8
+|stat2_max                        = 8
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 5
+|stat3_max                        = 5
+|stat4_id                         = map_monsters_life_+%
+|stat4_min                        = 20
+|stat4_max                        = 30
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+|tags                             = resource, life
+}}

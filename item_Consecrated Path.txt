@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Consecrated Path
 |class_id                                = Active Skill Gem
@@ -17,22 +17,11 @@
 |skill_id                                = ConsecratedPath
 |cast_time                               = 1.0
 |required_level                          = 28
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Area of Effect
-|quality_type1_stat1_id                  = base_skill_area_of_effect_+%
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Deals up to +(0.5-10)% more Damage with Hits to closer targets
+|quality_type1_breakpoints               = 2.0
+|quality_type1_stat1_id                  = groundslam_damage_to_close_targets_+%_final
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 0.5% increased Attack Speed
-|quality_type2_stat1_id                  = attack_speed_+%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = 0.5% increased teleport range
-|quality_type3_stat1_id                  = holy_path_teleport_range_+%
-|quality_type3_stat1_value               = 500
-|quality_type4_weight                    = 50
-|quality_type4_stat_text                 = 2% increased Consecrated Ground Area
-|quality_type4_stat1_id                  = consecrated_ground_area_+%
-|quality_type4_stat1_value               = 2000
 |static_cost_amounts                     = 8
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 80
@@ -49,7 +38,9 @@
 |static_stat5_value                      = 50
 |static_stat6_id                         = groundslam_damage_to_close_targets_+%_final
 |static_stat6_value                      = 20
-|stat_text                               = Base duration is 4 seconds<br>50% of Physical Damage Converted to Fire Damage<br>Deals up to 20% more Damage with Hits to closer targets
+|static_stat7_id                         = quality_display_groundslam_is_gem
+|static_stat7_value                      = 1
+|stat_text                               = Base duration is 4.00 seconds<br>50% of Physical Damage Converted to Fire Damage<br>Deals up to 20% more Damage with Hits to closer targets
 |level1                                  = True
 |level1_level_requirement                = 28
 |level1_damage_effectiveness             = 150

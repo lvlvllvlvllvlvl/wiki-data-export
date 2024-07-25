@@ -1,0 +1,20 @@
+{{Mod
+|id                               = IncreasedArmourJewel
+|mod_groups                       = IncreasedPhysicalDamageReductionRatingPercent
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Armoured
+|mod_type                         = IncreasedArmourForJewel
+|stat_text                        = (14-18)% increased [[Armour]]
+|stat1_id                         = physical_damage_reduction_rating_+%
+|stat1_min                        = 14
+|stat1_max                        = 18
+|spawn_weight1_tag                = not_str
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 500
+|tags                             = defences, armour
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

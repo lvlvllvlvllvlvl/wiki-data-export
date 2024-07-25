@@ -1,0 +1,18 @@
+{{Mod
+|id                               = IncreasedDamagePerCurseDelve
+|mod_groups                       = DamageToEnemiesPerCurse
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Subterranean
+|mod_type                         = IncreasedDamagePerCurse
+|stat_text                        = (8-10)% increased Damage with [[Hit|Hits]] and Ailments per [[Curse]] on Enemy
+|stat1_id                         = damage_vs_cursed_enemies_per_enemy_curse_+%
+|stat1_min                        = 8
+|stat1_max                        = 10
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = damage
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

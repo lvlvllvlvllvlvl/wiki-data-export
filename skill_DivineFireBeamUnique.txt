@@ -1,5 +1,5 @@
 {{Skill
-|gem_description                         = Unleash a beam of fire that burns enemies it touches. Remaining in the beam intensifies the burning, adding a portion of the beam's damage in stages. Inflicts Fire Exposure at maximum stages. Enemies who leave the beam continue to burn for a duration. Increasing cast speed also increases the rate at which the beam can turn.
+|gem_description                         = Unleash a beam of fire that burns enemies it touches. Remaining in the beam raises the burning, adding a portion of the beam's damage in stages. Inflicts Fire Exposure at maximum stages. Enemies who leave the beam continue to burn for a duration. Increasing cast speed also increases the rate at which the beam turns.
 |active_skill_name                       = Scorching Ray
 |skill_id                                = DivineFireBeamUnique
 |cast_time                               = 0.25
@@ -22,7 +22,7 @@
 |static_stat5_value                      = -40
 |static_stat6_id                         = base_fire_damage_resistance_%
 |static_stat6_value                      = -25
-|stat_text                               = Deals 1416.1 Base Fire Damage per second<br>Base duration is 1.5 seconds<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>Burning Debuff can have a maximum of 8 stages<br>Additional Debuff stages add 60% of Damage<br>Fire Exposure applies -25% to Fire Resistance
+|stat_text                               = Deals 1416.1 Base Fire Damage per second<br>Base duration is 1.50 seconds<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>Burning Debuff can have a maximum of 8 stages<br>Additional Debuff stages add -40% of Damage<br>Fire Exposure applies -25% to Fire Resistance
 |level1                                  = True
 |level1_level_requirement                = 80
 }}

@@ -1,0 +1,22 @@
+{{Mod
+|id                               = JunMaster2ReduceGlobalFlatManaCostNonChannelling2
+|mod_groups                       = IncreaseFlatManaCost
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 72
+|name                             = Elreon's
+|mod_type                         = ManaCostTotalNonChannelled
+|stat_text                        = Non-Channelling [[Skill|Skills]] have -5 to Total [[Mana]] Cost
+|stat1_id                         = skill_mana_cost_+_with_non_channelling_skills
+|stat1_min                        = -5
+|stat1_max                        = -5
+|spawn_weight1_tag                = ring
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = amulet
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = resource, unveiled_mod, mana
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

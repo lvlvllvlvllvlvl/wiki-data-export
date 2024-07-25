@@ -1,0 +1,32 @@
+{{Mod
+|id                               = MonsterArchnemesisFlameTouched
+|mod_groups                       = MonsterArchnemesisFlameTouched
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|name                             = Flamewoven
+|mod_type                         = MonsterArchnemesisFlameTouched
+|stat_text                        = Inflict Fire Exposure on [[Hit]] (Hidden)<br>25% of [[Physical Damage]] Converted to [[Fire Damage]] (Hidden)<br>50% increased [[Fire Damage]] (Hidden)<br>Gain 50% of [[Physical Damage]] as Extra [[Fire Damage]] (Hidden)<br>+50% to [[Fire Resistance]] (Hidden)
+|stat1_id                         = base_inflict_fire_exposure_on_hit_%_chance
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = base_physical_damage_%_to_convert_to_fire
+|stat2_min                        = 25
+|stat2_max                        = 25
+|stat3_id                         = fire_damage_+%
+|stat3_min                        = 50
+|stat3_max                        = 50
+|stat4_id                         = physical_damage_%_to_add_as_fire
+|stat4_min                        = 50
+|stat4_max                        = 50
+|stat5_id                         = base_fire_damage_resistance_%
+|stat5_min                        = 50
+|stat5_max                        = 50
+|stat6_id                         = scorch_ailment_effect_on_self_+%
+|stat6_min                        = -50
+|stat6_max                        = -50
+|spawn_weight1_tag                = no_common_monster_mods
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 5000
+}}

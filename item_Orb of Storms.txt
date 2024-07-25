@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Orb of Storms
 |class_id                                = Active Skill Gem
@@ -15,20 +15,11 @@
 |skill_id                                = OrbOfStorms
 |cast_time                               = 0.5
 |required_level                          = 4
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Lightning Damage
-|quality_type1_stat1_id                  = lightning_damage_+%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = Beams Split towards 0.1 additional targets
-|quality_type2_stat1_id                  = projectile_number_to_split
-|quality_type2_stat1_value               = 100
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = Orb disappears after -0.25 Strikes<br>Penetrates 0.25% Lightning Resistance
-|quality_type3_stat1_id                  = orb_of_storms_maximum_number_of_hits
-|quality_type3_stat1_value               = -250
-|quality_type3_stat2_id                  = base_reduce_enemy_lightning_resistance_%
-|quality_type3_stat2_value               = 250
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Beam Splits towards (0.1-2) additional targets
+|quality_type1_breakpoints               = 10.0
+|quality_type1_stat1_id                  = projectile_number_to_split
+|quality_type1_stat1_value               = 100
 |static_cost_types                       = Mana
 |static_stored_uses                      = 1
 |static_cooldown                         = 0.5
@@ -44,11 +35,11 @@
 |static_stat3_value                      = 500
 |static_stat4_id                         = projectile_number_to_split
 |static_stat4_value                      = 3
-|stat_text                               = Deals (3-304) to (8-913) Lightning Damage<br>Strikes every (3.5-2.55) seconds, and when you use a Lightning Skill near the Orb<br>Strikes every 0.5 seconds while Channelling a Lightning Skill near the Orb<br>Beams Split towards 3 additional targets<br>Orb disappears after (10-29) Strikes
+|stat_text                               = Deals (3-304) to (8-913) Lightning Damage<br>Strikes every (3.50-2.55) seconds, and when you use a Lightning Skill near the Orb<br>Strikes every 0.50 seconds while Channelling a Lightning Skill near the Orb<br>Beam Splits towards 3 additional targets<br>Orb disappears after (10-29) Strikes
 |level1                                  = True
 |level1_level_requirement                = 4
 |level1_cost_amounts                     = 4
-|level1_stat_text                        = Deals 3 to 8 Lightning Damage<br>Strikes every 3.5 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 10 Strikes
+|level1_stat_text                        = Deals 3 to 8 Lightning Damage<br>Strikes every 3.50 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 10 Strikes
 |level1_stat1_id                         = spell_minimum_base_lightning_damage
 |level1_stat1_value                      = 3
 |level1_stat2_id                         = spell_maximum_base_lightning_damage
@@ -72,7 +63,7 @@
 |level3                                  = True
 |level3_level_requirement                = 9
 |level3_cost_amounts                     = 5
-|level3_stat_text                        = Deals 5 to 14 Lightning Damage<br>Strikes every 3.4 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 12 Strikes
+|level3_stat_text                        = Deals 5 to 14 Lightning Damage<br>Strikes every 3.40 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 12 Strikes
 |level3_stat1_id                         = spell_minimum_base_lightning_damage
 |level3_stat1_value                      = 5
 |level3_stat2_id                         = spell_maximum_base_lightning_damage
@@ -96,7 +87,7 @@
 |level5                                  = True
 |level5_level_requirement                = 16
 |level5_cost_amounts                     = 7
-|level5_stat_text                        = Deals 9 to 26 Lightning Damage<br>Strikes every 3.3 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 14 Strikes
+|level5_stat_text                        = Deals 9 to 26 Lightning Damage<br>Strikes every 3.30 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 14 Strikes
 |level5_stat1_id                         = spell_minimum_base_lightning_damage
 |level5_stat1_value                      = 9
 |level5_stat2_id                         = spell_maximum_base_lightning_damage
@@ -120,7 +111,7 @@
 |level7                                  = True
 |level7_level_requirement                = 24
 |level7_cost_amounts                     = 8
-|level7_stat_text                        = Deals 16 to 48 Lightning Damage<br>Strikes every 3.2 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 16 Strikes
+|level7_stat_text                        = Deals 16 to 48 Lightning Damage<br>Strikes every 3.20 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 16 Strikes
 |level7_stat1_id                         = spell_minimum_base_lightning_damage
 |level7_stat1_value                      = 16
 |level7_stat2_id                         = spell_maximum_base_lightning_damage
@@ -144,7 +135,7 @@
 |level9                                  = True
 |level9_level_requirement                = 32
 |level9_cost_amounts                     = 10
-|level9_stat_text                        = Deals 29 to 86 Lightning Damage<br>Strikes every 3.1 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 18 Strikes
+|level9_stat_text                        = Deals 29 to 86 Lightning Damage<br>Strikes every 3.10 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 18 Strikes
 |level9_stat1_id                         = spell_minimum_base_lightning_damage
 |level9_stat1_value                      = 29
 |level9_stat2_id                         = spell_maximum_base_lightning_damage
@@ -168,7 +159,7 @@
 |level11                                 = True
 |level11_level_requirement               = 40
 |level11_cost_amounts                    = 11
-|level11_stat_text                       = Deals 49 to 147 Lightning Damage<br>Strikes every 3 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 20 Strikes
+|level11_stat_text                       = Deals 49 to 147 Lightning Damage<br>Strikes every 3.00 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 20 Strikes
 |level11_stat1_id                        = spell_minimum_base_lightning_damage
 |level11_stat1_value                     = 49
 |level11_stat2_id                        = spell_maximum_base_lightning_damage
@@ -192,7 +183,7 @@
 |level13                                 = True
 |level13_level_requirement               = 48
 |level13_cost_amounts                    = 12
-|level13_stat_text                       = Deals 82 to 245 Lightning Damage<br>Strikes every 2.9 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 22 Strikes
+|level13_stat_text                       = Deals 82 to 245 Lightning Damage<br>Strikes every 2.90 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 22 Strikes
 |level13_stat1_id                        = spell_minimum_base_lightning_damage
 |level13_stat1_value                     = 82
 |level13_stat2_id                        = spell_maximum_base_lightning_damage
@@ -216,7 +207,7 @@
 |level15                                 = True
 |level15_level_requirement               = 55
 |level15_cost_amounts                    = 14
-|level15_stat_text                       = Deals 126 to 377 Lightning Damage<br>Strikes every 2.8 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 24 Strikes
+|level15_stat_text                       = Deals 126 to 377 Lightning Damage<br>Strikes every 2.80 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 24 Strikes
 |level15_stat1_id                        = spell_minimum_base_lightning_damage
 |level15_stat1_value                     = 126
 |level15_stat2_id                        = spell_maximum_base_lightning_damage
@@ -240,7 +231,7 @@
 |level17                                 = True
 |level17_level_requirement               = 61
 |level17_cost_amounts                    = 15
-|level17_stat_text                       = Deals 180 to 540 Lightning Damage<br>Strikes every 2.7 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 26 Strikes
+|level17_stat_text                       = Deals 180 to 540 Lightning Damage<br>Strikes every 2.70 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 26 Strikes
 |level17_stat1_id                        = spell_minimum_base_lightning_damage
 |level17_stat1_value                     = 180
 |level17_stat2_id                        = spell_maximum_base_lightning_damage
@@ -264,7 +255,7 @@
 |level19                                 = True
 |level19_level_requirement               = 67
 |level19_cost_amounts                    = 16
-|level19_stat_text                       = Deals 256 to 768 Lightning Damage<br>Strikes every 2.6 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 28 Strikes
+|level19_stat_text                       = Deals 256 to 768 Lightning Damage<br>Strikes every 2.60 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 28 Strikes
 |level19_stat1_id                        = spell_minimum_base_lightning_damage
 |level19_stat1_value                     = 256
 |level19_stat2_id                        = spell_maximum_base_lightning_damage
@@ -288,7 +279,7 @@
 |level21                                 = True
 |level21_level_requirement               = 72
 |level21_cost_amounts                    = 17
-|level21_stat_text                       = Deals 342 to 1025 Lightning Damage<br>Strikes every 2.5 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 30 Strikes
+|level21_stat_text                       = Deals 342 to 1025 Lightning Damage<br>Strikes every 2.50 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 30 Strikes
 |level21_stat1_id                        = spell_minimum_base_lightning_damage
 |level21_stat1_value                     = 342
 |level21_stat2_id                        = spell_maximum_base_lightning_damage
@@ -312,7 +303,7 @@
 |level23                                 = True
 |level23_level_requirement               = 76
 |level23_cost_amounts                    = 18
-|level23_stat_text                       = Deals 429 to 1288 Lightning Damage<br>Strikes every 2.4 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 32 Strikes
+|level23_stat_text                       = Deals 429 to 1288 Lightning Damage<br>Strikes every 2.40 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 32 Strikes
 |level23_stat1_id                        = spell_minimum_base_lightning_damage
 |level23_stat1_value                     = 429
 |level23_stat2_id                        = spell_maximum_base_lightning_damage
@@ -336,7 +327,7 @@
 |level25                                 = True
 |level25_level_requirement               = 80
 |level25_cost_amounts                    = 18
-|level25_stat_text                       = Deals 538 to 1615 Lightning Damage<br>Strikes every 2.3 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 34 Strikes
+|level25_stat_text                       = Deals 538 to 1615 Lightning Damage<br>Strikes every 2.30 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 34 Strikes
 |level25_stat1_id                        = spell_minimum_base_lightning_damage
 |level25_stat1_value                     = 538
 |level25_stat2_id                        = spell_maximum_base_lightning_damage
@@ -360,7 +351,7 @@
 |level27                                 = True
 |level27_level_requirement               = 84
 |level27_cost_amounts                    = 19
-|level27_stat_text                       = Deals 674 to 2021 Lightning Damage<br>Strikes every 2.2 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 36 Strikes
+|level27_stat_text                       = Deals 674 to 2021 Lightning Damage<br>Strikes every 2.20 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 36 Strikes
 |level27_stat1_id                        = spell_minimum_base_lightning_damage
 |level27_stat1_value                     = 674
 |level27_stat2_id                        = spell_maximum_base_lightning_damage
@@ -384,7 +375,7 @@
 |level29                                 = True
 |level29_level_requirement               = 88
 |level29_cost_amounts                    = 20
-|level29_stat_text                       = Deals 841 to 2524 Lightning Damage<br>Strikes every 2.1 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 38 Strikes
+|level29_stat_text                       = Deals 841 to 2524 Lightning Damage<br>Strikes every 2.10 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 38 Strikes
 |level29_stat1_id                        = spell_minimum_base_lightning_damage
 |level29_stat1_value                     = 841
 |level29_stat2_id                        = spell_maximum_base_lightning_damage
@@ -408,7 +399,7 @@
 |level31                                 = True
 |level31_level_requirement               = 91
 |level31_cost_amounts                    = 20
-|level31_stat_text                       = Deals 993 to 2979 Lightning Damage<br>Strikes every 2 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 39 Strikes
+|level31_stat_text                       = Deals 993 to 2979 Lightning Damage<br>Strikes every 2.00 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 39 Strikes
 |level31_stat1_id                        = spell_minimum_base_lightning_damage
 |level31_stat1_value                     = 993
 |level31_stat2_id                        = spell_maximum_base_lightning_damage
@@ -432,7 +423,7 @@
 |level33                                 = True
 |level33_level_requirement               = 93
 |level33_cost_amounts                    = 21
-|level33_stat_text                       = Deals 1108 to 3325 Lightning Damage<br>Strikes every 1.9 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 40 Strikes
+|level33_stat_text                       = Deals 1108 to 3325 Lightning Damage<br>Strikes every 1.90 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 40 Strikes
 |level33_stat1_id                        = spell_minimum_base_lightning_damage
 |level33_stat1_value                     = 1108
 |level33_stat2_id                        = spell_maximum_base_lightning_damage
@@ -456,7 +447,7 @@
 |level35                                 = True
 |level35_level_requirement               = 95
 |level35_cost_amounts                    = 21
-|level35_stat_text                       = Deals 1237 to 3711 Lightning Damage<br>Strikes every 1.8 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 41 Strikes
+|level35_stat_text                       = Deals 1237 to 3711 Lightning Damage<br>Strikes every 1.80 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 41 Strikes
 |level35_stat1_id                        = spell_minimum_base_lightning_damage
 |level35_stat1_value                     = 1237
 |level35_stat2_id                        = spell_maximum_base_lightning_damage
@@ -480,7 +471,7 @@
 |level37                                 = True
 |level37_level_requirement               = 97
 |level37_cost_amounts                    = 21
-|level37_stat_text                       = Deals 1380 to 4139 Lightning Damage<br>Strikes every 1.7 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 42 Strikes
+|level37_stat_text                       = Deals 1380 to 4139 Lightning Damage<br>Strikes every 1.70 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 42 Strikes
 |level37_stat1_id                        = spell_minimum_base_lightning_damage
 |level37_stat1_value                     = 1380
 |level37_stat2_id                        = spell_maximum_base_lightning_damage
@@ -504,7 +495,7 @@
 |level39                                 = True
 |level39_level_requirement               = 99
 |level39_cost_amounts                    = 22
-|level39_stat_text                       = Deals 1538 to 4615 Lightning Damage<br>Strikes every 1.6 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 43 Strikes
+|level39_stat_text                       = Deals 1538 to 4615 Lightning Damage<br>Strikes every 1.60 seconds, and when you use a Lightning Skill near the Orb<br>Orb disappears after 43 Strikes
 |level39_stat1_id                        = spell_minimum_base_lightning_damage
 |level39_stat1_value                     = 1538
 |level39_stat2_id                        = spell_maximum_base_lightning_damage

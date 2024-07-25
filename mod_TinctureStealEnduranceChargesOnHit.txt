@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TinctureStealEnduranceChargesOnHit
+|mod_groups                       = WeaponStealChargeOnHit
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Sabotage
+|mod_type                         = WeaponStealEnduranceChargesOnHit
+|stat_text                        = [[Hit|Hits]] Steal [[Endurance Charge|Endurance Charges]]
+|stat1_id                         = steal_endurance_charges_on_hit_%_with_weapons
+|stat1_min                        = 100
+|stat1_max                        = 100
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = endurance_charge, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

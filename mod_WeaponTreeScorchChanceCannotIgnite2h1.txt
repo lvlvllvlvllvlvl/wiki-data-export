@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeScorchChanceCannotIgnite2h1
+|mod_groups                       = ScorchChanceCannotIgnite
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 25
+|mod_type                         = WeaponTreeScorchChanceCannotIgnite
+|stat_text                        = 12% chance to Scorch Enemies<br>Cannot inflict [[Ignite]]
+|stat1_id                         = chance_to_scorch_%
+|stat1_min                        = 12
+|stat1_max                        = 12
+|stat2_id                         = never_ignite
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,24 @@
+{{Mod
+|id                               = SpellAddedColdDamageHybridDelve_
+|mod_groups                       = SpellAddedColdDamageHybrid
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Subterranean
+|mod_type                         = SpellAddedColdDamageHybrid
+|stat_text                        = Adds (12-16) to (24-28) [[Cold Damage]] to [[Spell|Spells]]<br>(20-40)% increased [[Cold Damage]]
+|stat1_id                         = spell_minimum_added_cold_damage
+|stat1_min                        = 12
+|stat1_max                        = 16
+|stat2_id                         = spell_maximum_added_cold_damage
+|stat2_min                        = 24
+|stat2_max                        = 28
+|stat3_id                         = cold_damage_+%
+|stat3_min                        = 20
+|stat3_max                        = 40
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, cold, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

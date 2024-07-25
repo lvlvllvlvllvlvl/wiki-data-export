@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MapTempestFastStorms
+|mod_groups                       = MapEclipse
+|domain                           = 5
+|generation_type                  = 8
+|required_level                   = 1
+|name                             = of Cataclysm
+|mod_type                         = MapTempestStormDurationAndDelay
+|stat_text                        = Tempests have 50% less Duration (Hidden)<br>Tempests have 40% less Delay (Hidden)
+|stat1_id                         = map_storm_duration_+%_final
+|stat1_min                        = -50
+|stat1_max                        = -50
+|stat2_id                         = map_storm_delay_+%_final
+|stat2_min                        = -40
+|stat2_max                        = -40
+}}

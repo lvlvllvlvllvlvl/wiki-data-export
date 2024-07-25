@@ -1,0 +1,22 @@
+{{Mod
+|id                               = TriggeredLightningWarpUnique__1Royale
+|mod_groups                       = TriggeredLightningWarp
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|granted_skill                    = LightningWarp
+|mod_type                         = TriggeredLightningWarp
+|stat_text                        = Trigger [[Level]] 1 [[Lightning Warp]] on [[Hit]] with this Weapon
+|stat1_id                         = local_display_trigger_level_x_lightning_warp_on_hit_with_this_weapon
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_skills_granted_by_item_are_supported_by_level_x_unique_trigger_support
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = local_use_skill_on_hit_%
+|stat3_min                        = 100
+|stat3_max                        = 100
+|tags                             = skill, caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

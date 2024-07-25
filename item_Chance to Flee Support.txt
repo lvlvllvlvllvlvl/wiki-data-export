@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Chance to Flee Support
 |class_id                                = Support Skill Gem
@@ -7,21 +7,17 @@
 |drop_level                              = 8
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemChanceToFlee
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |dexterity_percent                       = 60
 |intelligence_percent                    = 40
 |gem_tags                                = Support
 |skill_id                                = SupportChanceToFlee
 |support_gem_letter                      = z
 |required_level                          = 8
-|quality_type1_weight                    = 10000
-|quality_type1_stat_text                 = Supported Skills have 1% chance to Cause Monsters to Flee
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills have (1-20)% chance to Cause Monsters to Flee
 |quality_type1_stat1_id                  = global_hit_causes_monster_flee_%
 |quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 1
-|quality_type2_stat_text                 = Supported Skills have 0.5% reduced Cast Speed
-|quality_type2_stat1_id                  = base_cast_speed_+%
-|quality_type2_stat1_value               = -500
 |static_cost_multiplier                  = 100
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

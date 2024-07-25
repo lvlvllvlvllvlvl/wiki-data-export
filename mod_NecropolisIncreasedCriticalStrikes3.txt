@@ -1,0 +1,20 @@
+{{Mod
+|id                               = NecropolisIncreasedCriticalStrikes3
+|mod_groups                       = NecropolisIncreasedCriticalStrikes
+|domain                           = 36
+|generation_type                  = 34
+|required_level                   = 68
+|mod_type                         = NecropolisIncreasedCriticalStrikes
+|stat_text                        = +50% to Global [[Critical Strike Multiplier]]<br>600% increased Global [[Critical Strike Chance]]
+|stat1_id                         = base_critical_strike_multiplier_+
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = critical_strike_chance_+%
+|stat2_min                        = 600
+|stat2_max                        = 600
+|stat3_id                         = monster_necropolis_mod_value_+%
+|stat3_min                        = 120
+|stat3_max                        = 120
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 200
+}}

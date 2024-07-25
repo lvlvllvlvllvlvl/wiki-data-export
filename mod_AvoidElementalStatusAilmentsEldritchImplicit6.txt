@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AvoidElementalStatusAilmentsEldritchImplicit6
+|mod_groups                       = AvoidElementalStatusAilments
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|mod_type                         = AvoidElementalStatusAilments
+|stat_text                        = (30-32)% chance to Avoid Elemental Ailments
+|stat1_id                         = avoid_all_elemental_status_%
+|stat1_min                        = 30
+|stat1_max                        = 32
+|spawn_weight1_tag                = no_tier_1_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = boots
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental, fire, cold, lightning, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

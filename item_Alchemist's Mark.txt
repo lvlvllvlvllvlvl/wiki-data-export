@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Alchemist's Mark
 |class_id                                = Active Skill Gem
@@ -15,18 +15,11 @@
 |skill_id                                = AlchemistsMark
 |cast_time                               = 0.5
 |required_level                          = 24
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Area of Effect
-|quality_type1_stat1_id                  = base_skill_area_of_effect_+%
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.5-10)% increased Effect of Mark
+|quality_type1_breakpoints               = 2.0
+|quality_type1_stat1_id                  = mark_skills_curse_effect_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = 0.5% increased Cast Speed
-|quality_type2_stat1_id                  = base_cast_speed_+%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 20
-|quality_type3_stat_text                 = 1.5% increased Skill Effect Duration
-|quality_type3_stat1_id                  = skill_effect_duration_+%
-|quality_type3_stat1_value               = 1500
 |static_cost_types                       = Mana
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
@@ -38,7 +31,7 @@
 |static_stat2_value                      = 4000
 |static_stat3_id                         = alchemists_mark_grant_attacker_x_flask_charges_when_hit_once_per_3s
 |static_stat3_value                      = 1
-|stat_text                               = Base duration is 4 seconds<br>Burning Ground deals (20-26)% of the Fire Damage per Second of strongest Ignite on Enemy<br>Caustic Ground deals (60-79)% of the Chaos Damage per Second of strongest Poison on Enemy<br>Can create each Ground effect no more than once each second<br>Gain 1 Flask Charge when you Hit a Cursed Enemy, no more than once every 3 seconds
+|stat_text                               = Base duration is 4.00 seconds<br>Burning Ground deals (20-26)% of the Fire Damage per Second of strongest Ignite on Enemy<br>Caustic Ground deals (60-79)% of the Chaos Damage per Second of strongest Poison on Enemy<br>Can create each Ground effect no more than once each second<br>Gain 1 Flask Charge when you Hit a Cursed Enemy, no more than once every 3 seconds
 |level1                                  = True
 |level1_level_requirement                = 24
 |level1_cost_amounts                     = 16

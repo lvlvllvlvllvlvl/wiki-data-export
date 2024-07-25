@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MapSupporterHeist
+|mod_groups                       = MapSupporterHeist
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSupporterHeist
+|stat_text                        = Smuggler's Caches in area are guarded<br>Area contains a Smuggler's Cache<br>3% Chance to convert Maps to Scarabs<br>14% increased Rarity of Items found in this Area<br>All Smuggler's Caches must be opened to claim Reward
+|stat1_id                         = map_supporter_heist_cache
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_spawn_heist_smugglers_cache
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = map_supporter_map_to_scarab
+|stat3_min                        = 300
+|stat3_max                        = 300
+|stat4_id                         = map_item_drop_rarity_+%
+|stat4_min                        = 14
+|stat4_max                        = 14
+|stat5_id                         = map_reliquary_must_open_heist_caches
+|stat5_min                        = 1
+|stat5_max                        = 1
+}}

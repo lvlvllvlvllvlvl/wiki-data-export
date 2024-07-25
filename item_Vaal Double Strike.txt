@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vaal Double Strike
 |class_id                                = Active Skill Gem
@@ -8,18 +8,20 @@
 |tags                                    = up_to_level_8_gem, vaal_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalDoubleStrike
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |dexterity_percent                       = 100
 |gem_tags                                = Attack, Melee, Strike, Duration, Vaal, Physical
+|secondary_skill_id                      = DoubleStrike
 |gem_description                         = Performs two fast strikes with a melee weapon, each of which summons a double of you for a duration to continuously attack monsters in this fashion.
 |active_skill_name                       = Vaal Double Strike
 |item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff, Rune Dagger
 |skill_id                                = VaalDoubleStrike
 |cast_time                               = 1.0
 |required_level                          = 1
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Attack Speed
-|quality_type1_stat1_id                  = attack_speed_+%
-|quality_type1_stat1_value               = 500
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% chance to deal Double Damage to Bleeding Enemies
+|quality_type1_stat1_id                  = chance_to_deal_double_damage_%_vs_bleeding_enemies
+|quality_type1_stat1_value               = 1000
 |static_vaal_souls_requirement           = 30
 |static_vaal_stored_uses                 = 2
 |static_vaal_soul_gain_prevention_time   = 8
@@ -41,7 +43,7 @@
 |static_stat7_value                      = 25
 |static_stat8_id                         = maximum_number_of_summoned_doubles
 |static_stat8_value                      = 8
-|stat_text                               = Base duration is 6 seconds<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>Doubles have (0-57)% increased Movement Speed<br>Can't be Evaded<br>25% chance to cause Bleeding<br>Adds (3-113) to (5-169) Physical Damage against Bleeding Enemies<br>Maximum 8 Summoned Doubles
+|stat_text                               = Base duration is 6.00 seconds<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>Doubles have (0-57)% increased Movement Speed<br>Can't be Evaded<br>25% chance to cause Bleeding<br>Adds (3-113) to (5-169) Physical Damage against Bleeding Enemies<br>Maximum 8 Summoned Doubles
 |level1                                  = True
 |level1_level_requirement                = 1
 |level1_damage_effectiveness             = 28

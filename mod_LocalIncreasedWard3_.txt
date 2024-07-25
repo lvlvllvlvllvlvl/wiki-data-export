@@ -1,0 +1,20 @@
+{{Mod
+|id                               = LocalIncreasedWard3_
+|mod_groups                       = BaseLocalDefences
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 17
+|name                             = Coppersmith's
+|mod_type                         = LocalWard
+|stat_text                        = +(16-23) to Ward
+|stat1_id                         = local_ward
+|stat1_min                        = 16
+|stat1_max                        = 23
+|spawn_weight1_tag                = ward_armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = defences
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

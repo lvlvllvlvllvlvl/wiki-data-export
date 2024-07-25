@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmArcaneSurgeOnHit
+|mod_groups                       = AnimalCharmArcaneSurgeOnHit
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 70
+|name                             = Hierophant's
+|mod_type                         = AnimalCharmArcaneSurgeOnHit
+|stat_text                        = Gain Arcane Surge when you or your [[Totem|Totems]] [[Hit]] an Enemy with a [[Spell]]
+|stat1_id                         = gain_arcane_surge_on_spell_hit_by_you_or_your_totems
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = str_animal_charm
+|spawn_weight2_value              = 50
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

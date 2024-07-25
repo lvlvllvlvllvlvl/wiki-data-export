@@ -1,0 +1,16 @@
+{{Mod
+|id                               = WeaponTreeLocalCritChance3
+|mod_groups                       = CriticalStrikeChanceIncrease
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 60
+|mod_type                         = WeaponTreeLocalBaseCriticalStrikeChance
+|stat_text                        = +0.8% to [[Critical Strike Chance]]
+|stat1_id                         = local_critical_strike_chance
+|stat1_min                        = 80
+|stat1_max                        = 80
+|spawn_weight1_tag                = weapon
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MonsterCriticals1
+|mod_groups                       = MonsterCriticalStrikes
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|name                             = Deadly
+|mod_type                         = MonsterCriticalStrikes
+|stat_text                        = 300% increased Global [[Critical Strike Chance]] (Hidden)<br>+65% to Global [[Critical Strike Multiplier]] (Hidden)
+|stat1_id                         = critical_strike_chance_+%
+|stat1_min                        = 300
+|stat1_max                        = 300
+|stat2_id                         = base_critical_strike_multiplier_+
+|stat2_min                        = 65
+|stat2_max                        = 65
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+|tags                             = damage, critical
+}}

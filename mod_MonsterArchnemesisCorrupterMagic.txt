@@ -1,0 +1,26 @@
+{{Mod
+|id                               = MonsterArchnemesisCorrupterMagic
+|mod_groups                       = MonsterArchnemesisCorrupter
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 46
+|name                             = of Corruption
+|mod_type                         = MonsterArchnemesisCorrupter
+|stat_text                        = 
+|stat1_id                         = base_corrupt_blood_when_hit_%_average_damage_to_deal_per_minute_per_stack
+|stat1_min                        = 60
+|stat1_max                        = 60
+|stat2_id                         = corrupted_blood_on_hit_num_stacks
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = corrupted_blood_on_hit_duration
+|stat3_min                        = 4000
+|stat3_max                        = 4000
+|stat4_id                         = corrupted_blood_on_hit_%_average_damage_to_deal_per_minute_per_stack
+|stat4_min                        = 120
+|stat4_max                        = 120
+|spawn_weight1_tag                = rare
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 800
+}}

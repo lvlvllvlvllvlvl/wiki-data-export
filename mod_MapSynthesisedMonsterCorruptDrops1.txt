@@ -1,0 +1,14 @@
+{{Mod
+|id                               = MapSynthesisedMonsterCorruptDrops1
+|mod_groups                       = MapSynthesisedMonsterCorruptDrops
+|domain                           = 19
+|generation_type                  = 16
+|required_level                   = 1
+|mod_type                         = MapSynthesisedMonsterCorruptDrops
+|stat_text                        = Items dropped by Synthesised Monsters have 5% chance to be Corrupted
+|stat1_id                         = map_synthesised_monster_items_drop_corrupted_%
+|stat1_min                        = 5
+|stat1_max                        = 5
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+}}

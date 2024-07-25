@@ -1,9 +1,11 @@
 {{Skill
+|gem_description                         = Must support both a channelling skill and a non-channelling spell skill to work. The channelling skill will trigger a spell periodically while channelling. Cannot support skills used by totems, traps, or mines. Vaal skills and skills with a reservation cannot be triggered.
 |skill_id                                = SupportCastWhileChannellingTriggeredPlus
 |support_gem_letter                      = W
 |required_level                          = 72
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Triggered Spells deal 0.5% increased Damage
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Triggered Spells deal (0.5-10)% increased Damage
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = triggered_skill_damage_+%
 |quality_type1_stat1_value               = 500
 |static_cost_multiplier                  = 120
@@ -12,11 +14,11 @@
 |static_attack_speed_multiplier          = 100
 |static_stat1_id                         = cast_spell_while_linked_skill_channelling
 |static_stat1_value                      = 1
-|static_stat2_id                         = support_cast_while_channelling_triggered_skill_damage_+%_final
-|static_stat2_value                      = -30
-|static_stat3_id                         = spell_uncastable_if_triggerable
-|static_stat3_value                      = 1
-|stat_text                               = Supported Triggered Spells deal 30% less Damage<br>You cannot Cast Supported Triggerable Spells directly
+|static_stat2_id                         = spell_uncastable_if_triggerable
+|static_stat2_value                      = 1
+|static_stat3_id                         = support_cast_while_channelling_triggered_skill_damage_+%_final
+|static_stat3_value                      = -30
+|stat_text                               = Supported Triggered Spells deal 30% less Damage
 |level1                                  = True
 |level1_level_requirement                = 72
 |level2                                  = True

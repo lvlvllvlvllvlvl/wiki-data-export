@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Winged Blight Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = The fungal plague returns, and its roots have adapted.<br>The undiscovered Blightheart that Dhunan theorised<br>must still exist somewhere, yet none remain<br>with the skill to see to its destruction.
 |drop_level                              = 68
-|tags                                    = jewelled_scarab, default
+|tags                                    = scarab, blight_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabBlight4
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabBlight4
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = Area contains a Blight Encounter<br>Blight Encounters contain an additional Blight Boss<br>50% chance for Blight Chests to contain an additional Reward<br>Lanes of Blight Encounters in Areas have an additional Reward Chest
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabBlight4
 }}

@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MonsterArchnemesisMinionFrostTouched
+|mod_groups                       = MonsterArchnemesis
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterArchnemesisFrostTouchedMinion
+|stat_text                        = 25% of [[Physical Damage]] Converted to [[Cold Damage]] (Hidden)<br>50% increased [[Cold Damage]] (Hidden)<br>+50% to [[Cold Resistance]] (Hidden)
+|stat1_id                         = base_physical_damage_%_to_convert_to_cold
+|stat1_min                        = 25
+|stat1_max                        = 25
+|stat2_id                         = cold_damage_+%
+|stat2_min                        = 50
+|stat2_max                        = 50
+|stat3_id                         = base_cold_damage_resistance_%
+|stat3_min                        = 50
+|stat3_max                        = 50
+}}

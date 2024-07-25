@@ -1,0 +1,25 @@
+{{Mod
+|id                               = WeaponTreeCurseDurationReducedCurseAreaOfEffect2h2
+|mod_groups                       = WeaponTreeCurseDurationReducedCurseAreaOfEffect
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 75
+|mod_type                         = WeaponTreeCurseDurationReducedCurseAreaOfEffect
+|stat_text                        = Hex [[Skill|Skills]] have 100% increased [[Skill]] Effect Duration<br>30% reduced Area of Effect of Hex [[Skill|Skills]]
+|stat1_id                         = hex_skill_duration_+%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = curse_area_of_effect_+%
+|stat2_min                        = -30
+|stat2_max                        = -30
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = attack_staff
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = staff
+|spawn_weight4_value              = 250
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+}}

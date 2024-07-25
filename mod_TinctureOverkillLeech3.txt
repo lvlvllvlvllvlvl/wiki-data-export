@@ -1,0 +1,19 @@
+{{Mod
+|id                               = TinctureOverkillLeech3
+|mod_groups                       = LifeLeechOnWeaponOverkillDamage
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of Gorging
+|mod_type                         = LifeLeechOnWeaponOverkillDamage
+|stat_text                        = (19-25)% of Overkill Damage is Leeched as [[Life]]
+|stat1_id                         = life_leech_on_overkill_weapon_damage_%
+|stat1_min                        = 19
+|stat1_max                        = 25
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

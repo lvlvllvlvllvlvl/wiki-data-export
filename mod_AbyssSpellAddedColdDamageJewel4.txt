@@ -1,0 +1,23 @@
+{{Mod
+|id                               = AbyssSpellAddedColdDamageJewel4
+|mod_groups                       = SpellAddedColdSuffix
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 66
+|name                             = of Floe
+|mod_type                         = SpellAddedColdSuffix
+|stat_text                        = Adds (15-17) to (20-23) [[Cold Damage]] to [[Spell|Spells]]
+|stat1_id                         = spell_minimum_added_cold_damage
+|stat1_min                        = 15
+|stat1_max                        = 17
+|stat2_id                         = spell_maximum_added_cold_damage
+|stat2_min                        = 20
+|stat2_max                        = 23
+|spawn_weight1_tag                = abyss_jewel_caster
+|spawn_weight1_value              = 350
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, cold, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

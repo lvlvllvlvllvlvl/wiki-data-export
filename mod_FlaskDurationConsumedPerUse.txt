@@ -1,0 +1,16 @@
+{{Mod
+|id                               = FlaskDurationConsumedPerUse
+|mod_groups                       = FlaskDurationConsumedPerUse
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = FlaskDurationConsumedPerUse
+|stat_text                        = 50% increased Duration. -1% to this value when used
+|stat1_id                         = local_flask_duration_+%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = local_flask_consume_flask_duration_+%_when_used
+|stat2_min                        = 1
+|stat2_max                        = 1
+|tags                             = flask
+}}

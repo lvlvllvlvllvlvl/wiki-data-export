@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TwoHandBurnDamage1
+|mod_groups                       = BurnDamage
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 20
+|name                             = of Burning
+|mod_type                         = BurnDamage
+|stat_text                        = (31-40)% increased Burning Damage
+|stat1_id                         = burn_damage_+%
+|stat1_min                        = 31
+|stat1_max                        = 40
+|spawn_weight1_tag                = staff
+|spawn_weight1_value              = 1500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

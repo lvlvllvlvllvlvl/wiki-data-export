@@ -1,0 +1,21 @@
+{{Mod
+|id                               = LocalAddedChaosDamageEssence2__
+|mod_groups                       = LocalChaosDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 74
+|name                             = Essences
+|mod_type                         = LocalChaosDamage
+|stat_text                        = Adds (43-67) to (89-113) [[Chaos Damage]]
+|stat1_id                         = local_minimum_added_chaos_damage
+|stat1_min                        = 43
+|stat1_max                        = 67
+|stat2_id                         = local_maximum_added_chaos_damage
+|stat2_min                        = 89
+|stat2_max                        = 113
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = chaos_damage, damage, chaos, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

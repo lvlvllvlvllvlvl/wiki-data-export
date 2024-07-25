@@ -1,0 +1,31 @@
+{{Mod
+|id                               = HeistContractMonsterGuardingDamage4
+|mod_groups                       = HeistContractMonsterGuardingDamage
+|domain                           = 22
+|generation_type                  = 1
+|required_level                   = 73
+|name                             = Indifferent
+|mod_type                         = HeistContractMonsterGuardingDamage
+|stat_text                        = Guards deal (23-26)% increased Damage
+|stat1_id                         = heist_contract_guarding_monsters_damage_+%
+|stat1_min                        = 23
+|stat1_max                        = 26
+|stat2_id                         = heist_contract_alert_level_+%_final
+|stat2_min                        = -6
+|stat2_max                        = -6
+|stat3_id                         = heist_contract_lockdown_timer_+%
+|stat3_min                        = 6
+|stat3_max                        = 6
+|stat4_id                         = heist_monster_spawner_alive_limit_+%
+|stat4_min                        = 6
+|stat4_max                        = 6
+|stat5_id                         = map_item_drop_quantity_+%
+|stat5_min                        = 16
+|stat5_max                        = 16
+|stat6_id                         = map_item_drop_rarity_+%
+|stat6_min                        = 9
+|stat6_max                        = 9
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+|tags                             = damage
+}}

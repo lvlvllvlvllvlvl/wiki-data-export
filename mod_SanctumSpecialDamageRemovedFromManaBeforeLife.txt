@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialDamageRemovedFromManaBeforeLife
+|mod_groups                       = DamageRemovedFromManaBeforeLife
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Rational Faith
+|mod_type                         = DamageRemovedFromManaBeforeLife
+|stat_text                        = (4-6)% of Damage is taken from [[Mana]] before [[Life]]
+|stat1_id                         = base_damage_removed_from_mana_before_life_%
+|stat1_min                        = 4
+|stat1_max                        = 6
+|spawn_weight1_tag                = int_special_relic
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 50
+|tags                             = resource, life, mana
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 8
+}}

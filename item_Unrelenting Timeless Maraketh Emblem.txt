@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Unrelenting Timeless Maraketh Emblem
 |class_id                                = MapFragment
@@ -7,7 +7,10 @@
 |drop_level                              = 75
 |tags                                    = default
 |metadata_id                             = Metadata/Items/MapFragments/CurrencyLegionFragmentMarakethUber
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = LegionFragmentImplicitMarakethUber
-|implicit2                               = LegionMapFragmentMarakethUber__
+|help_text                               = Place two or more different Emblems in a Map Device to access the Domain of Timeless Conflict. Can only be used once.
+|stack_size                              = 1
+|description                             = Monsters gain 10% increased Maximum Life each time they are Revived<br>Monsters gain 10% increased Attack and Cast Speed each time they are Revived<br>Monsters gain 10% increased Movement Speed each time they are Revived<br>10% increased Experience Gain<br>10% improved Rewards
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = LegionFragmentImplicitMarakethUber
+|map_fragment_bonus2                     = LegionMapFragmentMarakethUber__
 }}

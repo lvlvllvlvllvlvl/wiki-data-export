@@ -1,0 +1,23 @@
+{{Mod
+|id                               = LocalIncreasedArmourAndEnergyShieldAndStunRecovery4
+|mod_groups                       = DefencesPercentAndStunRecovery
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 44
+|name                             = Naga's
+|mod_type                         = LocalArmourAndEnergyShieldAndStunRecovery
+|stat_text                        = (27-32)% increased [[Armour]] and [[Energy Shield]]<br>(12-13)% increased Stun and [[Block]] Recovery
+|stat1_id                         = local_armour_and_energy_shield_+%
+|stat1_min                        = 27
+|stat1_max                        = 32
+|stat2_id                         = base_stun_recovery_+%
+|stat2_min                        = 12
+|stat2_max                        = 13
+|spawn_weight1_tag                = str_int_armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = defences, armour, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

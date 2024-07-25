@@ -1,0 +1,22 @@
+{{Mod
+|id                               = DelveJewelArmourIfYouHitRecently1
+|mod_groups                       = PhysicalDamageReductionRatingIfYouHaveHitAnEnemyRecently
+|domain                           = 16
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Underground
+|mod_type                         = PhysicalDamageReductionRatingIfYouHaveHitAnEnemyRecently
+|stat_text                        = +(250-300) to [[Armour]] if you've [[Hit]] an Enemy [[Recently]]
+|stat1_id                         = physical_damage_reduction_rating_if_you_have_hit_an_enemy_recently
+|stat1_min                        = 250
+|stat1_max                        = 300
+|spawn_weight1_tag                = jewel
+|spawn_weight1_value              = 300
+|spawn_weight2_tag                = abyss_jewel
+|spawn_weight2_value              = 300
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = defences, armour
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

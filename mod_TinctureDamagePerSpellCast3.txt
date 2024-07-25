@@ -1,0 +1,19 @@
+{{Mod
+|id                               = TinctureDamagePerSpellCast3
+|mod_groups                       = WeaponDamagePerSpellCast8Seconds
+|domain                           = 34
+|generation_type                  = 1
+|required_level                   = 72
+|name                             = Overloaded
+|mod_type                         = WeaponDamagePerSpellCast8Seconds
+|stat_text                        = (16-18)% increased Damage for each Non-Instant [[Spell]] you've Cast in the past 8 seconds
+|stat1_id                         = weapon_damage_+%_per_non_instant_spell_cast_in_past_8_seconds
+|stat1_min                        = 16
+|stat1_max                        = 18
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

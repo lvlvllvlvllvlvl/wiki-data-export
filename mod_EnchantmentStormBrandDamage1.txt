@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentStormBrandDamage1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Storm Brand Damage 1
+|mod_type                         = EnchantmentStormBrandDamage
+|stat_text                        = Storm Brand deals 25% increased Damage
+|stat1_id                         = storm_brand_damage_+%
+|stat1_min                        = 25
+|stat1_max                        = 25
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster_damage, damage, caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,17 @@
+{{Mod
+|id                               = NecropolisRemoveKillerFlaskChargesWhenSlain3
+|mod_groups                       = NecropolisRemoveKillerFlaskChargesWhenSlain
+|domain                           = 36
+|generation_type                  = 34
+|required_level                   = 68
+|mod_type                         = NecropolisRemoveKillerFlaskChargesWhenSlain
+|stat_text                        = Monsters do not grant [[Flask]] [[Charge|Charges]] when Slain
+|stat1_id                         = monster_grants_no_flask_charges
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = monster_necropolis_mod_value_+%
+|stat2_min                        = 160
+|stat2_max                        = 160
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+}}

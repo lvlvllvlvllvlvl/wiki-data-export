@@ -1,0 +1,17 @@
+{{Mod
+|id                               = NecropolisExtraElementalDamage1
+|mod_groups                       = NecropolisExtraElementalDamage
+|domain                           = 36
+|generation_type                  = 34
+|required_level                   = 10
+|mod_type                         = NecropolisExtraElementalDamage
+|stat_text                        = Gain 25% of [[Physical Damage]] as Extra Damage of a random Element
+|stat1_id                         = physical_damage_%_to_add_as_random_element
+|stat1_min                        = 25
+|stat1_max                        = 25
+|stat2_id                         = monster_necropolis_mod_value_+%
+|stat2_min                        = 40
+|stat2_max                        = 40
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 600
+}}

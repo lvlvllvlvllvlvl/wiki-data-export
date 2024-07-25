@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Tornado
 |class_id                                = Active Skill Gem
@@ -16,18 +16,10 @@
 |skill_id                                = Tornado
 |cast_time                               = 0.75
 |required_level                          = 34
-|quality_type1_weight                    = 100
-|quality_type1_stat_text                 = Tornado has 0.5% increased Movement Speed
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Tornado has (1-20)% increased Movement Speed
 |quality_type1_stat1_id                  = tornado_movement_speed_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = 2% reduced initial Duration
-|quality_type2_stat1_id                  = tornado_only_primary_duration_+%
-|quality_type2_stat1_value               = -2000
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = 0.5% increased initial Duration
-|quality_type3_stat1_id                  = tornado_only_primary_duration_+%
-|quality_type3_stat1_value               = 500
+|quality_type1_stat1_value               = 1000
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 5
 |static_damage_effectiveness             = 95
@@ -56,7 +48,7 @@
 |static_stat10_value                     = 1
 |static_stat11_id                        = number_of_tornados_allowed
 |static_stat11_value                     = 1
-|stat_text                               = Deals (31-414) to (46-620) Physical Damage<br>Base duration is 1.5 seconds<br>Base secondary duration is 4 seconds<br>During initial Duration, can be hit by your Projectiles up to 20 times<br>Deals Damage every 0.25 seconds<br>Reflects 10% of Damage Taken to Enemies<br>Tornado has (0-57)% increased Movement Speed<br>Maximum 1 Tornado
+|stat_text                               = Deals (31-414) to (46-620) Physical Damage<br>Base duration is 1.50 seconds<br>Base secondary duration is 4.00 seconds<br>During initial Duration, can be hit by your Projectiles up to 20 times<br>Deals Damage every 0.25 seconds<br>Reflects 10% of Damage Taken to Enemies<br>Enemies in range are Hindered<br>Tornado has (0-57)% increased Movement Speed<br>Maximum 1 Tornado
 |level1                                  = True
 |level1_level_requirement                = 34
 |level1_cost_amounts                     = 15

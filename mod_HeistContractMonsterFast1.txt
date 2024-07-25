@@ -1,0 +1,31 @@
+{{Mod
+|id                               = HeistContractMonsterFast1
+|mod_groups                       = MapMonsterFast
+|domain                           = 22
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Fleet
+|mod_type                         = HeistContractMonsterFast
+|stat_text                        = (5-10)% increased Monster [[Movement Speed]]<br>(10-15)% increased Monster [[Attack Speed]]<br>(10-15)% increased Monster [[Cast Speed]]
+|stat1_id                         = map_monsters_movement_speed_+%
+|stat1_min                        = 5
+|stat1_max                        = 10
+|stat2_id                         = map_monsters_attack_speed_+%
+|stat2_min                        = 10
+|stat2_max                        = 15
+|stat3_id                         = map_monsters_cast_speed_+%
+|stat3_min                        = 10
+|stat3_max                        = 15
+|stat4_id                         = map_item_drop_quantity_+%
+|stat4_min                        = 19
+|stat4_max                        = 19
+|stat5_id                         = map_item_drop_rarity_+%
+|stat5_min                        = 11
+|stat5_max                        = 11
+|stat6_id                         = heist_monster_spawner_alive_limit_+%
+|stat6_min                        = 7
+|stat6_max                        = 7
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+|tags                             = attack, caster, speed
+}}

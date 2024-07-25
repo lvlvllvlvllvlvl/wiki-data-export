@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentBurningArrowPhysicalDamagePercentToAddAsFireDamage2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Burning Arrow Physical Damage Percent To Add As Fire Damage 2
+|mod_type                         = EnchantmentBurningArrowPhysicalDamagePercentToAddAsFireDamage
+|stat_text                        = 15% of [[Burning Arrow]] [[Physical Damage]] gained as Extra [[Fire Damage]]
+|stat1_id                         = burning_arrow_physical_damage_%_to_add_as_fire_damage
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, fire, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

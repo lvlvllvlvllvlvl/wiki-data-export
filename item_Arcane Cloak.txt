@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Arcane Cloak
 |class_id                                = Active Skill Gem
@@ -15,18 +15,10 @@
 |skill_id                                = ArcaneCloak
 |cast_time                               = 0.0
 |required_level                          = 16
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Skill Effect Duration
-|quality_type1_stat1_id                  = skill_effect_duration_+%
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% increased Buff Effect
+|quality_type1_stat1_id                  = skill_buff_effect_+%
 |quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 0.25% of Damage taken Recouped as Mana
-|quality_type2_stat1_id                  = damage_taken_goes_to_mana_%
-|quality_type2_stat1_value               = 250
-|quality_type3_weight                    = 20
-|quality_type3_stat_text                 = 0.5% increased Buff Effect
-|quality_type3_stat1_id                  = skill_buff_effect_+%
-|quality_type3_stat1_value               = 500
 |static_stored_uses                      = 1
 |static_cooldown                         = 4
 |static_damage_effectiveness             = 100
@@ -41,7 +33,7 @@
 |static_stat3_value                      = 75
 |static_stat4_id                         = display_this_skill_cooldown_does_not_recover_during_buff
 |static_stat4_value                      = 1
-|stat_text                               = Base duration is 3 seconds<br>Spends (45-64)% of current Mana<br>75% of Damage from Hits is taken from Buff before your Life or Energy Shield<br>Buff can take Damage equal to Mana Spent by this Skill's effect<br>Buff grants Added Lightning Damage equal to (10-14)% of Mana Spent by this Skill's effect<br>This Skill's Cooldown does not recover during its effect
+|stat_text                               = Base duration is 3.00 seconds<br>Spends (45-64)% of current Mana<br>75% of Damage from Hits is taken from Buff before your Life or Energy Shield<br>Buff can take Damage equal to Mana Spent by this Skill's effect<br>Buff grants Added Lightning Damage equal to (10-14)% of Mana Spent by this Skill's effect<br>This Skill's Cooldown does not recover during its effect
 |level1                                  = True
 |level1_level_requirement                = 16
 |level1_stat_text                        = Spends 45% of current Mana<br>Buff grants Added Lightning Damage equal to 10% of Mana Spent by this Skill's effect

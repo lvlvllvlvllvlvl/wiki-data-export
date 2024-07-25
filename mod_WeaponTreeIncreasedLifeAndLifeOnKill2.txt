@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeIncreasedLifeAndLifeOnKill2
+|mod_groups                       = IncreasedLife
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 40
+|mod_type                         = WeaponTreeIncreasedLifeAndLifeOnKill
+|stat_text                        = +20 to maximum [[Life]]<br>Recover 1% of [[Life]] on [[Kill]]
+|stat1_id                         = base_maximum_life
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = recover_%_maximum_life_on_kill
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

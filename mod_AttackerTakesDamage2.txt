@@ -1,0 +1,26 @@
+{{Mod
+|id                               = AttackerTakesDamage2
+|mod_groups                       = AttackerTakesDamageNoRange
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 10
+|name                             = Spiny
+|mod_type                         = AttackerTakesDamageNoRange
+|stat_text                        = Reflects (5-10) [[Physical Damage]] to Melee Attackers
+|stat1_id                         = physical_damage_to_return_to_melee_attacker
+|stat1_min                        = 5
+|stat1_max                        = 10
+|spawn_weight1_tag                = body_armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = shield
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = belt
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = helmet
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = physical_damage, damage, physical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

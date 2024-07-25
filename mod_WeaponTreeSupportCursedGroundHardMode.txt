@@ -1,0 +1,27 @@
+{{Mod
+|id                               = WeaponTreeSupportCursedGroundHardMode
+|mod_groups                       = WeaponTreeSupportCursedGround
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 38
+|granted_skill                    = SupportCursedGround
+|mod_type                         = WeaponTreeSupportCursedGround
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Level]] 25 Cursed Ground
+|stat1_id                         = local_display_socketed_gems_supported_by_level_x_cursed_ground
+|stat1_min                        = 25
+|stat1_max                        = 25
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 25
+|spawn_weight3_tag                = attack_dagger
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = wand
+|spawn_weight4_value              = 25
+|spawn_weight5_tag                = sceptre
+|spawn_weight5_value              = 25
+|spawn_weight6_tag                = dagger
+|spawn_weight6_value              = 25
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+}}

@@ -1,0 +1,23 @@
+{{Mod
+|id                               = AccuracyAndCritsJewel
+|mod_groups                       = AccuracyAndCrits
+|domain                           = 10
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Deadliness
+|mod_type                         = AccuracyAndCritsForJewel
+|stat_text                        = (6-10)% increased Global [[Accuracy Rating]]<br>(6-10)% increased Global [[Critical Strike Chance]]
+|stat1_id                         = accuracy_rating_+%
+|stat1_min                        = 6
+|stat1_max                        = 10
+|stat2_id                         = critical_strike_chance_+%
+|stat2_min                        = 6
+|stat2_max                        = 10
+|spawn_weight1_tag                = not_dex
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = attack, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

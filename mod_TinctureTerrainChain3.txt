@@ -1,0 +1,19 @@
+{{Mod
+|id                               = TinctureTerrainChain3
+|mod_groups                       = WeaponProjectilesChainFromTerrain
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 81
+|name                             = of Ricochet
+|mod_type                         = WeaponProjectilesChainFromTerrain
+|stat_text                        = Projectiles have (21-30)% chance to be able to Chain when colliding with terrain
+|stat1_id                         = weapon_projectile_chain_from_terrain_chance_%
+|stat1_min                        = 21
+|stat1_max                        = 30
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,22 @@
+{{Mod
+|id                               = PuritySkillCorrupted
+|mod_groups                       = GrantedSkill
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 45
+|granted_skill                    = Purity
+|mod_type                         = PuritySkill
+|stat_text                        = Grants [[Level]] 15 [[Purity of Elements]] [[Skill]]
+|stat1_id                         = local_display_grants_skill_purity_level
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = amulet
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = belt
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = skill
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

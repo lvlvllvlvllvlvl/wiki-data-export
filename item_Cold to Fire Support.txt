@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Cold to Fire Support
 |class_id                                = Support Skill Gem
@@ -7,27 +7,18 @@
 |drop_level                              = 18
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemColdToFire
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |strength_percent                        = 60
 |intelligence_percent                    = 40
 |gem_tags                                = Cold, Fire, Support
 |skill_id                                = SupportColdToFire
 |support_gem_letter                      = x
 |required_level                          = 18
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills deal 0.5% increased Cold Damage<br>Supported Skills deal 0.5% increased Fire Damage
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills deal (0.5-10)% increased Cold Damage
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = cold_damage_+%
 |quality_type1_stat1_value               = 500
-|quality_type1_stat2_id                  = fire_damage_+%
-|quality_type1_stat2_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Supported Skills have 0.5% of Cold Damage Converted to Fire Damage
-|quality_type2_stat1_id                  = skill_cold_damage_%_to_convert_to_fire
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 10
-|quality_type3_stat_text                 = Supported Skills deal 3% increased Damage with Poison
-|quality_type3_stat1_id                  = base_poison_damage_+%
-|quality_type3_stat1_value               = 3000
 |static_cost_multiplier                  = 120
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

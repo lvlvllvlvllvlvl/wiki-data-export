@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Storm Brand
 |class_id                                = Active Skill Gem
@@ -15,37 +15,26 @@
 |skill_id                                = ConduitSigil
 |cast_time                               = 0.75
 |required_level                          = 12
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Cast Speed
-|quality_type1_stat1_id                  = base_cast_speed_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 0.5% increased Area of Effect
-|quality_type2_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 1% chance to Chain an additional time
-|quality_type3_stat1_id                  = additional_chain_chance_%
-|quality_type3_stat1_value               = 1000
-|quality_type4_weight                    = 100
-|quality_type4_stat_text                 = 1% increased Effect of Shock
-|quality_type4_stat1_id                  = shock_effect_+%
-|quality_type4_stat1_value               = 1000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Sends beams to +(0.05-1) Enemies
+|quality_type1_breakpoints               = 20.0
+|quality_type1_stat1_id                  = conduit_sigil_number_of_beam_targets
+|quality_type1_stat1_value               = 50
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 6
 |static_damage_effectiveness             = 30
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
 |static_duration                         = 5
-|static_stat1_id                         = base_skill_show_average_damage_instead_of_dps
+|static_stat1_id                         = base_number_of_sigils_allowed_per_target
 |static_stat1_value                      = 1
-|static_stat2_id                         = console_skill_dont_chase
+|static_stat2_id                         = base_skill_show_average_damage_instead_of_dps
 |static_stat2_value                      = 1
-|static_stat3_id                         = is_area_damage
+|static_stat3_id                         = console_skill_dont_chase
 |static_stat3_value                      = 1
-|static_stat4_id                         = skill_can_add_multiple_charges_per_action
+|static_stat4_id                         = is_area_damage
 |static_stat4_value                      = 1
-|static_stat5_id                         = base_number_of_sigils_allowed_per_target
+|static_stat5_id                         = skill_can_add_multiple_charges_per_action
 |static_stat5_value                      = 1
 |static_stat6_id                         = base_sigil_repeat_frequency_ms
 |static_stat6_value                      = 500
@@ -57,7 +46,9 @@
 |static_stat9_value                      = 5000
 |static_stat10_id                        = conduit_sigil_number_of_beam_targets
 |static_stat10_value                     = 3
-|stat_text                               = Deals (3-92) to (8-277) Lightning Damage<br>Your Skills can have an additional Brand Attached to an Enemy<br>Activates every 0.5 seconds while Attached<br>Increases and Reductions to Cast Speed also apply to this Skill's Activation frequency<br>Can be Detached for a total Duration of 6 seconds<br>Can be Attached for a total Duration of 5 seconds<br>Sends beams to 3 Enemies, including the Branded Enemy<br>Deals (80-130)% more Damage with Hits against Branded Enemy
+|static_stat11_id                        = quality_display_storm_brand_is_gem
+|static_stat11_value                     = 1
+|stat_text                               = Deals (3-92) to (8-277) Lightning Damage<br>Activates every 0.5 seconds while Attached<br>Increases and Reductions to Cast Speed also apply to this Skill's Activation frequency<br>Can be Detached for a total Duration of 6.00 seconds<br>Can be Attached for a total Duration of 5.00 seconds<br>Sends beams to 3 Enemies, including the Branded Enemy<br>Deals (80-130)% more Damage with Hits against Branded Enemy
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_cost_amounts                     = 8
@@ -68,6 +59,8 @@
 |level1_stat2_value                      = 8
 |level1_stat3_id                         = sigil_attached_target_hit_damage_+%_final
 |level1_stat3_value                      = 80
+|level1_stat4_id                         = quality_display_sigil_attached_target_damage_is_gem
+|level1_stat4_value                      = 1
 |level2                                  = True
 |level2_level_requirement                = 15
 |level2_cost_amounts                     = 8
@@ -78,6 +71,8 @@
 |level2_stat2_value                      = 10
 |level2_stat3_id                         = sigil_attached_target_hit_damage_+%_final
 |level2_stat3_value                      = 83
+|level2_stat4_id                         = quality_display_sigil_attached_target_damage_is_gem
+|level2_stat4_value                      = 1
 |level3                                  = True
 |level3_level_requirement                = 19
 |level3_cost_amounts                     = 9
@@ -88,6 +83,8 @@
 |level3_stat2_value                      = 13
 |level3_stat3_id                         = sigil_attached_target_hit_damage_+%_final
 |level3_stat3_value                      = 85
+|level3_stat4_id                         = quality_display_sigil_attached_target_damage_is_gem
+|level3_stat4_value                      = 1
 |level4                                  = True
 |level4_level_requirement                = 23
 |level4_cost_amounts                     = 10
@@ -98,6 +95,8 @@
 |level4_stat2_value                      = 18
 |level4_stat3_id                         = sigil_attached_target_hit_damage_+%_final
 |level4_stat3_value                      = 88
+|level4_stat4_id                         = quality_display_sigil_attached_target_damage_is_gem
+|level4_stat4_value                      = 1
 |level5                                  = True
 |level5_level_requirement                = 27
 |level5_cost_amounts                     = 11
@@ -108,6 +107,8 @@
 |level5_stat2_value                      = 23
 |level5_stat3_id                         = sigil_attached_target_hit_damage_+%_final
 |level5_stat3_value                      = 91
+|level5_stat4_id                         = quality_display_sigil_attached_target_damage_is_gem
+|level5_stat4_value                      = 1
 |level6                                  = True
 |level6_level_requirement                = 31
 |level6_cost_amounts                     = 12
@@ -118,6 +119,8 @@
 |level6_stat2_value                      = 30
 |level6_stat3_id                         = sigil_attached_target_hit_damage_+%_final
 |level6_stat3_value                      = 93
+|level6_stat4_id                         = quality_display_sigil_attached_target_damage_is_gem
+|level6_stat4_value                      = 1
 |level7                                  = True
 |level7_level_requirement                = 35
 |level7_cost_amounts                     = 13
@@ -128,6 +131,8 @@
 |level7_stat2_value                      = 39
 |level7_stat3_id                         = sigil_attached_target_hit_damage_+%_final
 |level7_stat3_value                      = 96
+|level7_stat4_id                         = quality_display_sigil_attached_target_damage_is_gem
+|level7_stat4_value                      = 1
 |level8                                  = True
 |level8_level_requirement                = 38
 |level8_cost_amounts                     = 14
@@ -138,6 +143,8 @@
 |level8_stat2_value                      = 47
 |level8_stat3_id                         = sigil_attached_target_hit_damage_+%_final
 |level8_stat3_value                      = 98
+|level8_stat4_id                         = quality_display_sigil_attached_target_damage_is_gem
+|level8_stat4_value                      = 1
 |level9                                  = True
 |level9_level_requirement                = 41
 |level9_cost_amounts                     = 15
@@ -148,6 +155,8 @@
 |level9_stat2_value                      = 56
 |level9_stat3_id                         = sigil_attached_target_hit_damage_+%_final
 |level9_stat3_value                      = 101
+|level9_stat4_id                         = quality_display_sigil_attached_target_damage_is_gem
+|level9_stat4_value                      = 1
 |level10                                 = True
 |level10_level_requirement               = 44
 |level10_cost_amounts                    = 15
@@ -158,6 +167,8 @@
 |level10_stat2_value                     = 67
 |level10_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level10_stat3_value                     = 104
+|level10_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level10_stat4_value                     = 1
 |level11                                 = True
 |level11_level_requirement               = 47
 |level11_cost_amounts                    = 16
@@ -168,6 +179,8 @@
 |level11_stat2_value                     = 79
 |level11_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level11_stat3_value                     = 106
+|level11_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level11_stat4_value                     = 1
 |level12                                 = True
 |level12_level_requirement               = 50
 |level12_cost_amounts                    = 17
@@ -178,6 +191,8 @@
 |level12_stat2_value                     = 94
 |level12_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level12_stat3_value                     = 109
+|level12_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level12_stat4_value                     = 1
 |level13                                 = True
 |level13_level_requirement               = 53
 |level13_cost_amounts                    = 17
@@ -188,6 +203,8 @@
 |level13_stat2_value                     = 111
 |level13_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level13_stat3_value                     = 112
+|level13_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level13_stat4_value                     = 1
 |level14                                 = True
 |level14_level_requirement               = 56
 |level14_cost_amounts                    = 18
@@ -198,6 +215,8 @@
 |level14_stat2_value                     = 131
 |level14_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level14_stat3_value                     = 114
+|level14_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level14_stat4_value                     = 1
 |level15                                 = True
 |level15_level_requirement               = 59
 |level15_cost_amounts                    = 19
@@ -208,6 +227,8 @@
 |level15_stat2_value                     = 155
 |level15_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level15_stat3_value                     = 117
+|level15_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level15_stat4_value                     = 1
 |level16                                 = True
 |level16_level_requirement               = 62
 |level16_cost_amounts                    = 19
@@ -218,6 +239,8 @@
 |level16_stat2_value                     = 182
 |level16_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level16_stat3_value                     = 119
+|level16_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level16_stat4_value                     = 1
 |level17                                 = True
 |level17_level_requirement               = 64
 |level17_cost_amounts                    = 20
@@ -228,6 +251,8 @@
 |level17_stat2_value                     = 202
 |level17_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level17_stat3_value                     = 122
+|level17_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level17_stat4_value                     = 1
 |level18                                 = True
 |level18_level_requirement               = 66
 |level18_cost_amounts                    = 20
@@ -238,6 +263,8 @@
 |level18_stat2_value                     = 225
 |level18_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level18_stat3_value                     = 125
+|level18_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level18_stat4_value                     = 1
 |level19                                 = True
 |level19_level_requirement               = 68
 |level19_cost_amounts                    = 21
@@ -248,6 +275,8 @@
 |level19_stat2_value                     = 250
 |level19_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level19_stat3_value                     = 127
+|level19_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level19_stat4_value                     = 1
 |level20                                 = True
 |level20_level_requirement               = 70
 |level20_cost_amounts                    = 21
@@ -258,6 +287,8 @@
 |level20_stat2_value                     = 277
 |level20_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level20_stat3_value                     = 130
+|level20_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level20_stat4_value                     = 1
 |level21                                 = True
 |level21_level_requirement               = 72
 |level21_cost_amounts                    = 22
@@ -268,6 +299,8 @@
 |level21_stat2_value                     = 308
 |level21_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level21_stat3_value                     = 133
+|level21_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level21_stat4_value                     = 1
 |level22                                 = True
 |level22_level_requirement               = 74
 |level22_cost_amounts                    = 22
@@ -278,6 +311,8 @@
 |level22_stat2_value                     = 341
 |level22_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level22_stat3_value                     = 135
+|level22_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level22_stat4_value                     = 1
 |level23                                 = True
 |level23_level_requirement               = 76
 |level23_cost_amounts                    = 23
@@ -288,6 +323,8 @@
 |level23_stat2_value                     = 378
 |level23_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level23_stat3_value                     = 138
+|level23_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level23_stat4_value                     = 1
 |level24                                 = True
 |level24_level_requirement               = 78
 |level24_cost_amounts                    = 23
@@ -298,6 +335,8 @@
 |level24_stat2_value                     = 419
 |level24_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level24_stat3_value                     = 141
+|level24_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level24_stat4_value                     = 1
 |level25                                 = True
 |level25_level_requirement               = 80
 |level25_cost_amounts                    = 24
@@ -308,6 +347,8 @@
 |level25_stat2_value                     = 464
 |level25_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level25_stat3_value                     = 143
+|level25_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level25_stat4_value                     = 1
 |level26                                 = True
 |level26_level_requirement               = 82
 |level26_cost_amounts                    = 24
@@ -318,6 +359,8 @@
 |level26_stat2_value                     = 513
 |level26_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level26_stat3_value                     = 146
+|level26_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level26_stat4_value                     = 1
 |level27                                 = True
 |level27_level_requirement               = 84
 |level27_cost_amounts                    = 25
@@ -328,6 +371,8 @@
 |level27_stat2_value                     = 567
 |level27_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level27_stat3_value                     = 148
+|level27_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level27_stat4_value                     = 1
 |level28                                 = True
 |level28_level_requirement               = 86
 |level28_cost_amounts                    = 25
@@ -338,6 +383,8 @@
 |level28_stat2_value                     = 627
 |level28_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level28_stat3_value                     = 151
+|level28_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level28_stat4_value                     = 1
 |level29                                 = True
 |level29_level_requirement               = 88
 |level29_cost_amounts                    = 26
@@ -348,6 +395,8 @@
 |level29_stat2_value                     = 693
 |level29_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level29_stat3_value                     = 154
+|level29_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level29_stat4_value                     = 1
 |level30                                 = True
 |level30_level_requirement               = 90
 |level30_cost_amounts                    = 26
@@ -358,6 +407,8 @@
 |level30_stat2_value                     = 766
 |level30_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level30_stat3_value                     = 156
+|level30_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level30_stat4_value                     = 1
 |level31                                 = True
 |level31_level_requirement               = 91
 |level31_cost_amounts                    = 26
@@ -368,6 +419,8 @@
 |level31_stat2_value                     = 804
 |level31_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level31_stat3_value                     = 158
+|level31_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level31_stat4_value                     = 1
 |level32                                 = True
 |level32_level_requirement               = 92
 |level32_cost_amounts                    = 27
@@ -378,6 +431,8 @@
 |level32_stat2_value                     = 845
 |level32_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level32_stat3_value                     = 159
+|level32_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level32_stat4_value                     = 1
 |level33                                 = True
 |level33_level_requirement               = 93
 |level33_cost_amounts                    = 27
@@ -388,6 +443,8 @@
 |level33_stat2_value                     = 888
 |level33_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level33_stat3_value                     = 160
+|level33_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level33_stat4_value                     = 1
 |level34                                 = True
 |level34_level_requirement               = 94
 |level34_cost_amounts                    = 27
@@ -398,6 +455,8 @@
 |level34_stat2_value                     = 933
 |level34_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level34_stat3_value                     = 162
+|level34_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level34_stat4_value                     = 1
 |level35                                 = True
 |level35_level_requirement               = 95
 |level35_cost_amounts                    = 27
@@ -408,6 +467,8 @@
 |level35_stat2_value                     = 980
 |level35_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level35_stat3_value                     = 163
+|level35_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level35_stat4_value                     = 1
 |level36                                 = True
 |level36_level_requirement               = 96
 |level36_cost_amounts                    = 27
@@ -418,6 +479,8 @@
 |level36_stat2_value                     = 1029
 |level36_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level36_stat3_value                     = 164
+|level36_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level36_stat4_value                     = 1
 |level37                                 = True
 |level37_level_requirement               = 97
 |level37_cost_amounts                    = 28
@@ -428,6 +491,8 @@
 |level37_stat2_value                     = 1081
 |level37_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level37_stat3_value                     = 166
+|level37_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level37_stat4_value                     = 1
 |level38                                 = True
 |level38_level_requirement               = 98
 |level38_cost_amounts                    = 28
@@ -438,6 +503,8 @@
 |level38_stat2_value                     = 1135
 |level38_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level38_stat3_value                     = 167
+|level38_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level38_stat4_value                     = 1
 |level39                                 = True
 |level39_level_requirement               = 99
 |level39_cost_amounts                    = 28
@@ -448,6 +515,8 @@
 |level39_stat2_value                     = 1192
 |level39_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level39_stat3_value                     = 168
+|level39_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level39_stat4_value                     = 1
 |level40                                 = True
 |level40_level_requirement               = 100
 |level40_cost_amounts                    = 28
@@ -458,6 +527,8 @@
 |level40_stat2_value                     = 1252
 |level40_stat3_id                        = sigil_attached_target_hit_damage_+%_final
 |level40_stat3_value                     = 169
+|level40_stat4_id                        = quality_display_sigil_attached_target_damage_is_gem
+|level40_stat4_value                     = 1
 |level1_intelligence_requirement         = 33
 |level1_experience                       = 0
 |level2_intelligence_requirement         = 39

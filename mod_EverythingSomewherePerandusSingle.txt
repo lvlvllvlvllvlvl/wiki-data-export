@@ -1,0 +1,19 @@
+{{Mod
+|id                               = EverythingSomewherePerandusSingle
+|mod_groups                       = EverythingEverywhere
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = EverythingEverywherePerandus
+|stat_text                        = Area contains 2 additional Perandus Chests<br>Area has a 33% chance to contain Cadiro Perandus
+|stat1_id                         = map_spawn_extra_perandus_chests
+|stat1_min                        = 2
+|stat1_max                        = 2
+|stat2_id                         = map_spawn_cadiro_%_chance
+|stat2_min                        = 33
+|stat2_max                        = 33
+|spawn_weight1_tag                = synthesis_area
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 1000
+}}

@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Unrelenting Timeless Karui Emblem
 |class_id                                = MapFragment
@@ -7,7 +7,10 @@
 |drop_level                              = 75
 |tags                                    = default
 |metadata_id                             = Metadata/Items/MapFragments/CurrencyLegionFragmentKaruiUber
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = LegionFragmentImplicitKaruiUber
-|implicit2                               = LegionMapFragmentKaruiUber
+|help_text                               = Place two or more different Emblems in a Map Device to access the Domain of Timeless Conflict. Can only be used once.
+|stack_size                              = 1
+|description                             = Monsters gain 10% increased Maximum Life each time they are Revived<br>Monsters Regenerate 1% of Life per second for each time they have been Revived<br>Monsters gain +20% chance to Avoid being Stunned for each time they are Revived<br>10% increased Experience Gain<br>10% improved Rewards
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = LegionFragmentImplicitKaruiUber
+|map_fragment_bonus2                     = LegionMapFragmentKaruiUber
 }}

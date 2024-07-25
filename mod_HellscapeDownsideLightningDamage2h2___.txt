@@ -1,0 +1,21 @@
+{{Mod
+|id                               = HellscapeDownsideLightningDamage2h2___
+|mod_groups                       = LightningDamagePercentage
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 45
+|mod_type                         = LightningDamagePercentage
+|stat_text                        = (108-96)% reduced [[Lightning Damage]]
+|stat1_id                         = lightning_damage_+%
+|stat1_min                        = -108
+|stat1_max                        = -96
+|spawn_weight1_tag                = attack_staff
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = staff
+|spawn_weight2_value              = 333
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental_damage, damage, elemental, lightning
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

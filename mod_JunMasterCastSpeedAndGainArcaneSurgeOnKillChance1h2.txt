@@ -1,0 +1,25 @@
+{{Mod
+|id                               = JunMasterCastSpeedAndGainArcaneSurgeOnKillChance1h2
+|mod_groups                       = IncreasedCastSpeed
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 38
+|name                             = of the Order
+|mod_type                         = CastSpeedAndGainArcaneSurgeOnKillChance
+|stat_text                        = (10-12)% increased [[Cast Speed]]<br>10% chance to gain Arcane Surge when you [[Kill]] an Enemy
+|stat1_id                         = base_cast_speed_+%
+|stat1_min                        = 10
+|stat1_max                        = 12
+|stat2_id                         = gain_arcane_surge_on_kill_chance_%
+|stat2_min                        = 10
+|stat2_max                        = 10
+|spawn_weight1_tag                = staff
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = two_hand_weapon
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = unveiled_mod, caster, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

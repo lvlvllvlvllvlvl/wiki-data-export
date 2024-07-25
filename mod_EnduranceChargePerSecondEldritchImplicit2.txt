@@ -1,0 +1,18 @@
+{{Mod
+|id                               = EnduranceChargePerSecondEldritchImplicit2
+|mod_groups                       = EnduranceChargePerSecond
+|domain                           = 1
+|generation_type                  = 28
+|required_level                   = 75
+|mod_type                         = EnduranceChargePerSecond
+|stat_text                        = Gain an [[Endurance Charge]] every 14 seconds
+|stat1_id                         = body_armour_implicit_gain_endurance_charge_every_x_ms
+|stat1_min                        = 14000
+|stat1_max                        = 14000
+|spawn_weight1_tag                = no_tier_5_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = body_armour
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

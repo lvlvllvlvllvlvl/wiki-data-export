@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeSpellProjectileBlockReducedAttackProjectileBlock1
+|mod_groups                       = WeaponTreeSpellProjectileBlockReducedAttackProjectileBlock
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSpellProjectileBlockReducedAttackProjectileBlock
+|stat_text                        = +25% chance to [[Block]] Projectile [[Spell Damage]]<br>-20% chance to [[Block]] Projectile [[Attack Damage]]
+|stat1_id                         = base_spell_projectile_block_%
+|stat1_min                        = 25
+|stat1_max                        = 25
+|stat2_id                         = additional_block_chance_against_projectiles_%
+|stat2_min                        = -20
+|stat2_max                        = -20
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

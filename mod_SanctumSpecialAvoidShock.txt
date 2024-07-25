@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialAvoidShock
+|mod_groups                       = AvoidShock
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Faultless
+|mod_type                         = AvoidShock
+|stat_text                        = (40-50)% chance to Avoid being [[Shock|Shocked]]
+|stat1_id                         = base_avoid_shock_%
+|stat1_min                        = 40
+|stat1_max                        = 50
+|spawn_weight1_tag                = int_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = elemental, lightning, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

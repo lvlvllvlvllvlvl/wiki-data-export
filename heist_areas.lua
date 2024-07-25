@@ -28,7 +28,7 @@ local data = {	{
 		job_ids = "Lockpicking,Perception,Agility,TrapDisarmament,Demolition", 
 		contract_id = "Metadata/Items/Heist/HeistContractReliquary", 
 		blueprint_id = "Metadata/Items/Heist/HeistBlueprintReliquary", 
-		reward_text = "Unusual Gems", 
+		reward_text = "Thieves' Trinkets or Currency", 
 	},
 	{
 		id = "Library", 
@@ -44,7 +44,7 @@ local data = {	{
 		job_ids = "BruteForce,Agility,Demolition,Engineering,CounterThaumaturge,TrapDisarmament", 
 		contract_id = "Metadata/Items/Heist/HeistContractRobotTunnels", 
 		blueprint_id = "Metadata/Items/Heist/HeistBlueprintRobotTunnels", 
-		reward_text = "Unusual Gems", 
+		reward_text = "Replicas or Experimented Items", 
 	},
 	{
 		id = "Sewers", 

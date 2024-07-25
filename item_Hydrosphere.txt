@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Hydrosphere
 |class_id                                = Active Skill Gem
@@ -15,18 +15,11 @@
 |skill_id                                = WaterSphere
 |cast_time                               = 0.6
 |required_level                          = 34
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Pulse Frequency
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = +(0.5-10)% increased Pulse Frequency
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = hydro_sphere_pulse_frequency_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 0.5% increased Cast Speed
-|quality_type2_stat1_id                  = base_cast_speed_+%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 0.5% increased Area of Effect
-|quality_type3_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type3_stat1_value               = 500
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 5
 |static_damage_effectiveness             = 110
@@ -45,17 +38,19 @@
 |static_stat5_value                      = 4000
 |static_stat6_id                         = hydro_sphere_base_pulse_frequency_ms
 |static_stat6_value                      = 400
-|static_stat7_id                         = active_skill_display_suppress_physical_to_cold_damage_conversion
+|static_stat7_id                         = quality_display_hydrosphere_is_gem
 |static_stat7_value                      = 1
 |static_stat8_id                         = skill_physical_damage_%_to_convert_to_cold
 |static_stat8_value                      = 100
-|static_stat9_id                         = hydrosphere_hit_cooldown_ms
-|static_stat9_value                      = 1000
-|static_stat10_id                        = water_sphere_cold_lightning_exposure_%
-|static_stat10_value                     = -10
-|static_stat11_id                        = water_sphere_does_weird_conversion_stuff
-|static_stat11_value                     = 1
-|stat_text                               = Deals (37-510) to (56-765) Physical Damage<br>Base duration is 8 seconds<br>Base secondary duration is 4 seconds<br>Pulses every 0.4 seconds while Frozen, Shocked, Brittle or Sapped<br>100% of Physical Damage Converted to Cold Damage<br>Can only be Hit once every 1 second<br>Drenched Enemies have Cold and Lightning Exposure, applying -10% to Resistances<br>100% of Physical Damage Converted to Cold Damage while Sphere has no Ailments<br>100% of Physical Damage Converted to Lightning Damage while sphere is Shocked or Sapped<br>100% of Physical Damage Converted to Cold Damage while Sphere is Frozen or Brittle
+|static_stat9_id                         = active_skill_display_suppress_physical_to_cold_damage_conversion
+|static_stat9_value                      = 1
+|static_stat10_id                        = hydrosphere_hit_cooldown_ms
+|static_stat10_value                     = 1000
+|static_stat11_id                        = water_sphere_cold_lightning_exposure_%
+|static_stat11_value                     = -10
+|static_stat12_id                        = water_sphere_does_weird_conversion_stuff
+|static_stat12_value                     = 1
+|stat_text                               = Deals (37-510) to (56-765) Physical Damage<br>Base duration is 8.00 seconds<br>Base secondary duration is 4.00 seconds<br>Pulses every 0.4 seconds while Frozen, Shocked, Brittle or Sapped<br>Can only be Hit once every 1 second<br>Drenched Enemies have Cold and Lightning Exposure, applying -10% to Resistances<br>100% of Physical Damage Converted to Cold Damage while Sphere has no Ailments<br>100% of Physical Damage Converted to Lightning Damage while sphere is Shocked or Sapped<br>100% of Physical Damage Converted to Cold Damage while Sphere is Frozen or Brittle
 |level1                                  = True
 |level1_level_requirement                = 34
 |level1_cost_amounts                     = 12
@@ -497,5 +492,4 @@
 |level20_intelligence_requirement        = 155
 |level20_experience                      = 338712291
 |level21_intelligence_requirement        = 159
-|inventory_icon                          = Hydrosphere
 }}

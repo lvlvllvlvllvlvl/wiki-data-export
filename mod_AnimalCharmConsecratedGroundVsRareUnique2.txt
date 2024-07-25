@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmConsecratedGroundVsRareUnique2
+|mod_groups                       = AnimalCharmConsecratedGroundVsRareUnique
+|domain                           = 35
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of the Inquisitor
+|mod_type                         = AnimalCharmConsecratedGroundVsRareUnique
+|stat_text                        = (20-30)% chance to create Consecrated Ground when you [[Hit]] a Rare or Unique Enemy, lasting 8 seconds
+|stat1_id                         = create_consecrated_ground_on_hit_%_vs_rare_or_unique_enemy
+|stat1_min                        = 20
+|stat1_max                        = 30
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = str_animal_charm
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

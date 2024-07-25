@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Ice Crash
 |class_id                                = Active Skill Gem
@@ -11,30 +11,17 @@
 |strength_percent                        = 60
 |intelligence_percent                    = 40
 |gem_tags                                = Attack, AoE, Cold, Slam, Melee
-|gem_description                         = Slam the ground, damaging enemies in an area around the impact in three stages. Enemies take slightly less damage on the second and third stage. Works with Swords, Maces, Sceptres, Axes, Staves and Unarmed.
+|gem_description                         = Slam the ground, damaging enemies in an area around the impact in three stages of increasing size. Enemies take slightly less damage on the second and third stage, and can only be hit by one stage. Works with Swords, Maces, Sceptres, Axes, Staves and Unarmed.
 |active_skill_name                       = Ice Crash
 |item_class_id_restriction               = One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Unarmed, Warstaff
 |skill_id                                = IceCrash
 |cast_time                               = 1.0
 |required_level                          = 28
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Damage
-|quality_type1_stat1_id                  = damage_+%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 0.5% chance to Freeze enemies
-|quality_type2_stat1_id                  = base_chance_to_freeze_%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 3% increased Damage with Ailments
-|quality_type3_stat1_id                  = base_ailment_damage_+%
-|quality_type3_stat1_value               = 3000
-|quality_type4_weight                    = 50
-|quality_type4_stat_text                 = First Stage deals 2% less Damage<br>Third Stage deals -1.5% less Damage
-|quality_type4_stat1_id                  = ice_crash_first_stage_damage_+%_final
-|quality_type4_stat1_value               = -2000
-|quality_type4_stat2_id                  = ice_crash_third_hit_damage_+%_final
-|quality_type4_stat2_value               = 1500
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Gain (0.75-15)% of Physical Damage as Extra Cold Damage
+|quality_type1_breakpoints               = 1.3333333333333333
+|quality_type1_stat1_id                  = physical_damage_%_to_add_as_cold
+|quality_type1_stat1_value               = 750
 |static_cost_amounts                     = 8
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 70
@@ -50,7 +37,13 @@
 |static_stat5_value                      = -30
 |static_stat6_id                         = quality_display_ice_crash_is_gem
 |static_stat6_value                      = 1
-|stat_text                               = 100% of Physical Damage Converted to Cold Damage<br>Second Stage deals 15% less Damage<br>Third Stage deals 30% less Damage
+|static_stat7_id                         = active_skill_base_area_of_effect_radius
+|static_stat7_value                      = 11
+|static_stat8_id                         = active_skill_base_secondary_area_of_effect_radius
+|static_stat8_value                      = 21
+|static_stat9_id                         = active_skill_base_tertiary_area_of_effect_radius
+|static_stat9_value                      = 31
+|stat_text                               = 100% of Physical Damage Converted to Cold Damage<br>Second Stage deals 15% less Damage<br>Third Stage deals 30% less Damage<br>Base radius is 1.1 metres<br>Base secondary radius is 2.1 metres<br>Base tertiary radius is 3.1 metres
 |level1                                  = True
 |level1_level_requirement                = 28
 |level1_damage_effectiveness             = 230
@@ -273,5 +266,4 @@
 |level20_experience                      = 340652931
 |level21_strength_requirement            = 100
 |level21_intelligence_requirement        = 70
-|inventory_icon                          = Ice Crash
 }}

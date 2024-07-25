@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Brutality Support
 |class_id                                = Support Skill Gem
@@ -7,24 +7,18 @@
 |drop_level                              = 38
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemBrutality
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
+|awakened_variant_id                     = Metadata/Items/Gems/SupportGemBrutalityPlus
 |strength_percent                        = 100
 |gem_tags                                = Physical, Support
 |skill_id                                = SupportBrutality
 |support_gem_letter                      = U
 |required_level                          = 38
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills deal 0.5% increased Physical Damage
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills deal (0.5-10)% increased Physical Damage
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = physical_damage_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Supported Attacks have 0.5% chance to cause Bleeding
-|quality_type2_stat1_id                  = bleed_on_hit_with_attacks_%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = Supported Skills Overwhelm 0.25% Physical Damage Reduction
-|quality_type3_stat1_id                  = enemy_phys_reduction_%_penalty_vs_hit
-|quality_type3_stat1_value               = 250
 |static_cost_multiplier                  = 140
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

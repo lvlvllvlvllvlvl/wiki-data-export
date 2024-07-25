@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vaal Immortal Call
 |class_id                                = Active Skill Gem
@@ -8,15 +8,17 @@
 |tags                                    = vaal_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalImmortalCall
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |strength_percent                        = 100
 |gem_tags                                = Spell, Duration, Vaal, Guard
+|secondary_skill_id                      = ImmortalCall
 |gem_description                         = Discharges Endurance Charges, making the character unable to die or gain Vaal souls for a short time, proportional to how many endurance charges were expended.
 |active_skill_name                       = Vaal Immortal Call
 |skill_id                                = VaalImmortalCall
 |cast_time                               = 0.0
 |required_level                          = 34
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Skill Effect Duration
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% increased Skill Effect Duration
 |quality_type1_stat1_id                  = skill_effect_duration_+%
 |quality_type1_stat1_value               = 1000
 |static_stored_uses                      = 1
@@ -38,7 +40,7 @@
 |static_stat4_value                      = 1
 |static_stat5_id                         = display_skill_fixed_duration_buff
 |static_stat5_value                      = 1
-|stat_text                               = Base duration is 0.4 seconds<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>(100-157)% increased Buff Duration per Endurance Charge removed<br>Buff expiry rate cannot be modified
+|stat_text                               = Base duration is 0.40 seconds<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>(100-157)% increased Buff Duration per Endurance Charge removed<br>Buff expiry rate cannot be modified
 |level1                                  = True
 |level1_level_requirement                = 34
 |level1_stat_text                        = 100% increased Buff Duration per Endurance Charge removed

@@ -1,0 +1,28 @@
+{{Mod
+|id                               = DelveBodyArmourChaosDegenResist1
+|mod_groups                       = ChaosResistanceAgainstDamageOverTime
+|domain                           = 16
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Underground
+|mod_type                         = ChaosResistanceAgainstDamageOverTime
+|stat_text                        = +(30-40)% [[Chaos Resistance]] against Damage Over Time
+|stat1_id                         = additional_chaos_resistance_against_damage_over_time_%
+|stat1_min                        = 30
+|stat1_max                        = 40
+|spawn_weight1_tag                = abyss_jewel
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = jewel
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = body_armour
+|spawn_weight3_value              = 2000
+|spawn_weight4_tag                = shield
+|spawn_weight4_value              = 2000
+|spawn_weight5_tag                = quiver
+|spawn_weight5_value              = 2000
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = chaos, resistance
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

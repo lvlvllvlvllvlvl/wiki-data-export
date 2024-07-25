@@ -1,0 +1,23 @@
+{{Mod
+|id                               = MapAreaContainsUniqueTalisman
+|mod_groups                       = MapAreaContainsUniqueTalisman
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 25
+|name                             = Night
+|mod_type                         = MapAreaContainsUniqueTalisman
+|stat_text                        = Next Area will contain an additional Unique Talisman<br>-4 to Maximum [[Charge|Charges]]
+|stat1_id                         = map_contains_additional_unique_talisman
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_extra_max_charges
+|stat2_min                        = -4
+|stat2_max                        = -4
+|stat3_id                         = leaguestone_prefix_minimum_area_level
+|stat3_min                        = 25
+|stat3_max                        = 25
+|spawn_weight1_tag                = talisman_leaguestone
+|spawn_weight1_value              = 25
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

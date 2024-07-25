@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Timeless Vaal Emblem
 |class_id                                = MapFragment
@@ -7,7 +7,9 @@
 |drop_level                              = 75
 |tags                                    = default
 |metadata_id                             = Metadata/Items/MapFragments/CurrencyLegionFragmentVaal
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = LegionFragmentImplicitVaal
-|implicit2                               = LegionMapFragmentVaal2
+|help_text                               = Place two or more different Emblems in a Map Device to access the Domain of Timeless Conflict. Can only be used once.
+|stack_size                              = 1
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = LegionFragmentImplicitVaal
+|map_fragment_bonus2                     = LegionMapFragmentVaal2
 }}

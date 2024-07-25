@@ -1,0 +1,24 @@
+{{Mod
+|id                               = CleansingAltarDownsideBossPhysToAddAsFire
+|mod_groups                       = CleansingAltarDownsideBossPhysToAddAsFire
+|domain                           = 29
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = CleansingAltarDownsideBossPhysToAddAsFire
+|stat_text                        = Gain (70-130)% of [[Physical Damage]] as Extra [[Fire Damage]]<br>All Damage can [[Ignite]]<br>[[Hit|Hits]] always [[Ignite]]
+|stat1_id                         = physical_damage_%_to_add_as_fire
+|stat1_min                        = 70
+|stat1_max                        = 130
+|stat2_id                         = all_damage_can_ignite
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = always_ignite
+|stat3_min                        = 1
+|stat3_max                        = 1
+|spawn_weight1_tag                = primordial_altar_upside
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = cleansing_fire_altar
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

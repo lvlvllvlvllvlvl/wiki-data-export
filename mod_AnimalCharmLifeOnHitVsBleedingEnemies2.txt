@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmLifeOnHitVsBleedingEnemies2
+|mod_groups                       = AnimalCharmLifeOnHitVsBleedingEnemies
+|domain                           = 35
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of the Deadeye
+|mod_type                         = AnimalCharmLifeOnHitVsBleedingEnemies
+|stat_text                        = Gain (11-20) [[Life]] per Bleeding Enemy [[Hit]]
+|stat1_id                         = life_gained_on_bleeding_enemy_hit
+|stat1_min                        = 11
+|stat1_max                        = 20
+|spawn_weight1_tag                = dex_animal_charm
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

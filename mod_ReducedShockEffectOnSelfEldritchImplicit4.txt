@@ -1,0 +1,21 @@
+{{Mod
+|id                               = ReducedShockEffectOnSelfEldritchImplicit4
+|mod_groups                       = ShockEffect
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|mod_type                         = ReducedShockEffectOnSelf
+|stat_text                        = (44-42)% reduced Effect of [[Shock]] on you
+|stat1_id                         = shocked_effect_on_self_+%
+|stat1_min                        = -44
+|stat1_max                        = -42
+|spawn_weight1_tag                = no_tier_3_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = helmet
+|spawn_weight2_value              = 700
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental, lightning, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

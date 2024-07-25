@@ -1,0 +1,17 @@
+{{Mod
+|id                               = ScorchedGroundWhileMovingUnique__1
+|mod_groups                       = ItemGrantsBuff
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = wake_of_destruction
+|granted_buff_value               = 0
+|mod_type                         = ScorchedGroundWhileMoving
+|stat_text                        = Drops Scorched Ground while moving, lasting 4 seconds
+|stat1_id                         = scorched_earth_ground_scorch_duration_ms
+|stat1_min                        = 4000
+|stat1_max                        = 4000
+|tags                             = elemental, fire, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

@@ -1,0 +1,24 @@
+{{Mod
+|id                               = EverythingEverywhereExpedition
+|mod_groups                       = EverythingEverywhere
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = EverythingEverywhereExpedition
+|stat_text                        = Area contains an Expedition Encounter<br>50% increased Explosive Placement Range<br>50% increased Quantity of Vendor Refresh Currencies dropped by Monsters in Area<br>40% increased quantity of Artifacts dropped by Monsters
+|stat1_id                         = map_expedition_league
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_expedition_maximum_placement_distance_+%
+|stat2_min                        = 50
+|stat2_max                        = 50
+|stat3_id                         = map_expedition_vendor_reroll_currency_quantity_+%
+|stat3_min                        = 50
+|stat3_max                        = 50
+|stat4_id                         = map_expedition_artifact_quantity_+%
+|stat4_min                        = 40
+|stat4_max                        = 40
+|stat5_id                         = map_extra_content_weighting
+|stat5_min                        = 1
+|stat5_max                        = 1
+}}

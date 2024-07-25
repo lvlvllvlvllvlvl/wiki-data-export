@@ -1,0 +1,18 @@
+{{Mod
+|id                               = UltimatumMonsterPhysAsExtraEachElement
+|mod_groups                       = Nothing
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = UltimatumMonsterPhysAsExtraEachElement
+|stat_text                        = Gain 50% of [[Physical Damage]] as Extra [[Fire Damage]] (Hidden)<br>Gain 50% of [[Physical Damage]] as Extra [[Cold Damage]] (Hidden)<br>Gain 50% of [[Physical Damage]] as Extra [[Lightning Damage]] (Hidden)
+|stat1_id                         = physical_damage_%_to_add_as_fire
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = physical_damage_%_to_add_as_cold
+|stat2_min                        = 50
+|stat2_max                        = 50
+|stat3_id                         = physical_damage_%_to_add_as_lightning
+|stat3_min                        = 50
+|stat3_max                        = 50
+}}

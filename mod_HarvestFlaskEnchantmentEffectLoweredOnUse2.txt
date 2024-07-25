@@ -1,0 +1,17 @@
+{{Mod
+|id                               = HarvestFlaskEnchantmentEffectLoweredOnUse2
+|mod_groups                       = FlaskEnchantment
+|domain                           = 2
+|generation_type                  = 3
+|required_level                   = 1
+|name                             = Enchantment Decaying Effect
+|mod_type                         = HarvestFlaskEnchantmentEffectLoweredOnUse
+|stat_text                        = 50% increased effect. -1% to this value when used
+|stat1_id                         = local_flask_effect_+%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = local_flask_consume_flask_effect_+%_when_used
+|stat2_min                        = 1
+|stat2_max                        = 1
+|tags                             = flask
+}}

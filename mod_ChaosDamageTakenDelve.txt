@@ -1,0 +1,18 @@
+{{Mod
+|id                               = ChaosDamageTakenDelve
+|mod_groups                       = ChaosDamageTakenPercentage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Subterranean
+|mod_type                         = ChaosDamageTakenPercentage
+|stat_text                        = (6-4)% reduced [[Chaos Damage]] taken
+|stat1_id                         = chaos_damage_taken_+%
+|stat1_min                        = -6
+|stat1_max                        = -4
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = chaos
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

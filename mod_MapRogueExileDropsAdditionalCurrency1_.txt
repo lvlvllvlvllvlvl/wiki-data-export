@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapRogueExileDropsAdditionalCurrency1_
+|mod_groups                       = MapRogueExileDropsAdditionalCurrency
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Lucrative
+|mod_type                         = MapRogueExileDropsAdditionalCurrency
+|stat_text                        = Rogue Exiles in next Area will drop (2-3) additional Basic Currency Items
+|stat1_id                         = map_rogue_exiles_drop_additional_currency_items_with_quality
+|stat1_min                        = 2
+|stat1_max                        = 3
+|spawn_weight1_tag                = anarchy_leaguestone
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Searing Bond
 |class_id                                = Active Skill Gem
@@ -16,22 +16,11 @@
 |skill_id                                = SearingBond
 |cast_time                               = 1.0
 |required_level                          = 12
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased totem life
-|quality_type1_stat1_id                  = totem_life_+%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 2% increased Totem Duration
-|quality_type2_stat1_id                  = totem_duration_+%
-|quality_type2_stat1_value               = 2000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 1% increased Damage
-|quality_type3_stat1_id                  = damage_+%
-|quality_type3_stat1_value               = 1000
-|quality_type4_weight                    = 50
-|quality_type4_stat_text                 = +0.1 to maximum number of Summoned Totems
-|quality_type4_stat1_id                  = number_of_additional_totems_allowed
-|quality_type4_stat1_value               = 100
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = +(0.1-2) to maximum number of Summoned Totems
+|quality_type1_breakpoints               = 10.0
+|quality_type1_stat1_id                  = number_of_additional_totems_allowed
+|quality_type1_stat1_value               = 100
 |static_cost_types                       = Mana
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
@@ -351,5 +340,4 @@
 |level20_experience                      = 342004647
 |level21_strength_requirement            = 100
 |level21_intelligence_requirement        = 70
-|inventory_icon                          = Searing Bond
 }}

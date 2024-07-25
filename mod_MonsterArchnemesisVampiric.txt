@@ -1,0 +1,32 @@
+{{Mod
+|id                               = MonsterArchnemesisVampiric
+|mod_groups                       = MonsterArchnemesisVampiric
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 13
+|name                             = Vampiric
+|mod_type                         = MonsterArchnemesisVampiric
+|stat_text                        = 100% of Damage Leeched as [[Life]] (Hidden)<br>[[Life]] [[Leech]] effects are not removed when Unreserved [[Life]] is Filled (Hidden)<br>25% increased Damage while Leeching [[Life]] (Hidden)<br><abbr title="Cannot be Life-Leeched">Enemies Cannot [[Leech]] [[Life]] From you</abbr><br>Enemies Cannot [[Leech]] [[Energy Shield]] From you (Hidden)<br>200% increased total Recovery per second from [[Life]] [[Leech]] (Hidden)
+|stat1_id                         = life_leech_from_any_damage_permyriad
+|stat1_min                        = 10000
+|stat1_max                        = 10000
+|stat2_id                         = life_leech_does_not_stop_at_full_life
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = damage_+%_while_life_leeching
+|stat3_min                        = 25
+|stat3_max                        = 25
+|stat4_id                         = cannot_have_life_leeched_from
+|stat4_min                        = 1
+|stat4_max                        = 1
+|stat5_id                         = cannot_have_energy_shield_leeched_from
+|stat5_min                        = 1
+|stat5_max                        = 1
+|stat6_id                         = life_leech_speed_+%
+|stat6_min                        = 200
+|stat6_max                        = 200
+|spawn_weight1_tag                = no_common_monster_mods
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 3000
+}}

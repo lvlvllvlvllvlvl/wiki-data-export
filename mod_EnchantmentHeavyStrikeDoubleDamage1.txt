@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentHeavyStrikeDoubleDamage1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Heavy Strike Double Damage 1
+|mod_type                         = EnchantmentHeavyStrikeDoubleDamage
+|stat_text                        = [[Heavy Strike]] has a 8% chance to deal Double Damage
+|stat1_id                         = heavy_strike_chance_to_deal_double_damage_%
+|stat1_min                        = 8
+|stat1_max                        = 8
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Frozen Legion
 |class_id                                = Active Skill Gem
@@ -11,15 +11,20 @@
 |strength_percent                        = 60
 |intelligence_percent                    = 40
 |gem_tags                                = Spell, Cold, Attack, AoE, Melee
+|secondary_skill_id                      = FrozenSweep
 |gem_description                         = This spell consumes multiple cooldown uses to summon icy Statues in a ring. Each Statue uses your Frozen Sweep attack once before vanishing. Requires an Axe, Mace, Sceptre, or Staff. This skill cannot be triggered, supported by Spell Echo or Unleash, or used by Totems, Traps, or Mines. 
 |active_skill_name                       = Frozen Legion
 |item_class_id_restriction               = Staff, One Hand Mace, Two Hand Mace, One Hand Axe, Two Hand Axe, Warstaff, Sceptre
 |skill_id                                = FrozenLegion
 |cast_time                               = 0.7
 |required_level                          = 34
-|quality_type1_weight                    = 50
-|quality_type2_weight                    = 50
-|quality_type3_weight                    = 50
+|quality_type1_weight                    = 1
+|static_cost_types                       = Mana
+|static_stored_uses                      = 6
+|static_cooldown                         = 0.8
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |level1                                  = True
 |level1_level_requirement                = 34
 |level1_cost_amounts                     = 12
@@ -220,15 +225,9 @@
 |level39_damage_multiplier               = 365.7
 |level40_damage_effectiveness            = 369
 |level40_damage_multiplier               = 368.6
-|quality_type1_stat1_id                  = dummy_stat_display_nothing
-|quality_type1_stat1_value               = 0
-|quality_type1_stat_text                 = 
-|quality_type2_stat1_id                  = base_cooldown_speed_+%
-|quality_type2_stat1_value               = 500
-|quality_type2_stat_text                 = 0.5% increased Cooldown Recovery Rate
-|quality_type3_stat1_id                  = frozen_legion_%_chance_to_summon_additional_statue
-|quality_type3_stat1_value               = 1000
-|quality_type3_stat_text                 = 1% chance to Summon an additional Statue without consuming a Cooldown use
+|quality_type1_stat1_id                  = base_cooldown_speed_+%
+|quality_type1_stat1_value               = 1000
+|quality_type1_stat_text                 = (1-20)% increased Cooldown Recovery Rate
 |stat_text                               = Consumes one Cooldown Use per Statue Summoned<br>You cannot use this Skill yourself, your Statues will use this Skill for you<br>100% of Physical Damage Converted to Cold Damage
 |static_stat1_id                         = cannot_cancel_skill_before_contact_point
 |static_stat1_value                      = 1

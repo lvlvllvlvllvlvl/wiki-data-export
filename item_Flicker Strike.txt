@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Flicker Strike
 |class_id                                = Active Skill Gem
@@ -8,6 +8,7 @@
 |tags                                    = gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemFlickerStrike
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|vaal_variant_id                         = Metadata/Items/Gems/SkillGemVaalFlickerStrike
 |dexterity_percent                       = 100
 |gem_tags                                = Attack, Melee, Strike, Movement, Duration
 |gem_description                         = Teleports the character to a nearby monster and attacks with a melee weapon. If no specific monster is targeted, one is picked at random. Grants a buff that increases movement speed for a duration. The cooldown can be bypassed by expending a Frenzy Charge.
@@ -16,18 +17,11 @@
 |skill_id                                = FlickerStrike
 |cast_time                               = 1.0
 |required_level                          = 10
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.25% chance to gain a Frenzy Charge on Hit
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.5-10)% chance to gain a Frenzy Charge on Hit
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = add_frenzy_charge_on_skill_hit_%
-|quality_type1_stat1_value               = 250
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 3% increased Cooldown Recovery Rate
-|quality_type2_stat1_id                  = base_cooldown_speed_+%
-|quality_type2_stat1_value               = 3000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 1% increased teleport range
-|quality_type3_stat1_id                  = flicker_strike_teleport_range_+%
-|quality_type3_stat1_value               = 1000
+|quality_type1_stat1_value               = 500
 |static_cost_amounts                     = 10
 |static_cost_types                       = Mana
 |static_stored_uses                      = 1
@@ -48,7 +42,7 @@
 |static_stat6_value                      = 15
 |static_stat7_id                         = flicker_strike_buff_movement_speed_+%
 |static_stat7_value                      = 20
-|stat_text                               = Base duration is 3 seconds<br>10% increased Attack Speed per Frenzy Charge<br>15% chance to gain a Frenzy Charge on Hit<br>Buff grants 20% increased Movement Speed
+|stat_text                               = Base duration is 3.00 seconds<br>10% increased Attack Speed per Frenzy Charge<br>15% chance to gain a Frenzy Charge on Hit<br>Buff grants 20% increased Movement Speed
 |level1                                  = True
 |level1_level_requirement                = 10
 |level1_damage_effectiveness             = 142

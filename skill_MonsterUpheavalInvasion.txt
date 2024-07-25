@@ -9,10 +9,10 @@
 |static_attack_speed_multiplier          = 100
 |static_stat1_id                         = is_area_damage
 |static_stat1_value                      = 1
-|stat_text                               = Deals (2-29) to (2-44) Physical Damage<br>Deals (3-53) to (4-80) Cold Damage<br>(0-40)% increased Cast Speed<br>Causes (6-11) Bursts
+|stat_text                               = Deals (2-29) to (2-44) Physical Damage<br>Deals (3-53) to (4-80) Cold Damage<br>(0-40)% increased Cast Speed<br>Causes +(6-11) Bursts
 |level1                                  = True
 |level1_level_requirement                = 4
-|level1_stat_text                        = Deals 2 to 2 Physical Damage<br>Deals 3 to 4 Cold Damage<br>Causes 6 Bursts
+|level1_stat_text                        = Deals 2 to 2 Physical Damage<br>Deals 3 to 4 Cold Damage<br>Causes +6 Bursts
 |level1_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level1_stat1_value                      = -34
 |level1_stat2_id                         = spell_minimum_base_physical_damage
@@ -28,7 +28,7 @@
 |level2                                  = True
 |level2_level_requirement                = 36
 |level2_critical_strike_chance           = 6
-|level2_stat_text                        = Deals 12 to 18 Physical Damage<br>Deals 22 to 33 Cold Damage<br>20% increased Cast Speed<br>Causes 8 Bursts
+|level2_stat_text                        = Deals 12 to 18 Physical Damage<br>Deals 22 to 33 Cold Damage<br>20% increased Cast Speed<br>Causes +8 Bursts
 |level2_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level2_stat1_value                      = -11
 |level2_stat2_id                         = spell_minimum_base_physical_damage
@@ -46,7 +46,7 @@
 |level3                                  = True
 |level3_level_requirement                = 56
 |level3_critical_strike_chance           = 6
-|level3_stat_text                        = Deals 29 to 44 Physical Damage<br>Deals 53 to 80 Cold Damage<br>40% increased Cast Speed<br>Causes 11 Bursts
+|level3_stat_text                        = Deals 29 to 44 Physical Damage<br>Deals 53 to 80 Cold Damage<br>40% increased Cast Speed<br>Causes +11 Bursts
 |level3_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level3_stat1_value                      = 12
 |level3_stat2_id                         = spell_minimum_base_physical_damage

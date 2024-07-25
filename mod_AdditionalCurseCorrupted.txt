@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AdditionalCurseCorrupted
+|mod_groups                       = AdditionalCurseOnEnemies
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = AdditionalCurseOnEnemies
+|stat_text                        = You can apply an additional [[Curse]]
+|stat1_id                         = number_of_additional_curses_allowed
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = amulet
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster, curse
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

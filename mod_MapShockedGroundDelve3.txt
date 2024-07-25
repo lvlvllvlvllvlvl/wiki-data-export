@@ -1,0 +1,29 @@
+{{Mod
+|id                               = MapShockedGroundDelve3
+|mod_groups                       = MapGroundEffect
+|domain                           = 17
+|generation_type                  = 14
+|required_level                   = 173
+|mod_type                         = MapShockedGroundMapWorlds
+|stat_text                        = 10% increased Quantity of Items found in this Area<br>6% increased Rarity of Items found in this Area<br>4% increased Pack size<br>Area has patches of [[Shock|Shocked]] Ground which increase Damage taken by 50%<br>28 patches with Ground Effect per 100 tiles (Hidden)<br>Ground Effect has a radius of 18 (Hidden)
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 6
+|stat2_max                        = 6
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 4
+|stat3_max                        = 4
+|stat4_id                         = map_ground_lightning_base_magnitude
+|stat4_min                        = 50
+|stat4_max                        = 50
+|stat5_id                         = map_ground_effect_patches_per_100_tiles
+|stat5_min                        = 28
+|stat5_max                        = 28
+|stat6_id                         = map_ground_effect_radius
+|stat6_min                        = 18
+|stat6_max                        = 18
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 250
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeDownsideCurseEffect2_
+|mod_groups                       = CurseEffectiveness
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 45
+|mod_type                         = CurseEffectiveness
+|stat_text                        = (24-21)% reduced Effect of your [[Curse|Curses]]
+|stat1_id                         = curse_effect_+%
+|stat1_min                        = -24
+|stat1_max                        = -21
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster, curse
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

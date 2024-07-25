@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentCriticalChanceWhenNoCrit3
+|mod_groups                       = ConditionalBuffEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Critical Strike Chance 3
+|mod_type                         = EnchantmentCriticalChanceWhenNoCrit
+|stat_text                        = 120% increased [[Critical Strike Chance]] if you haven't Crit [[Recently]]
+|stat1_id                         = enchantment_critical_strike_chance_+%_if_you_havent_crit_for_4_seconds
+|stat1_min                        = 120
+|stat1_max                        = 120
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = critical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

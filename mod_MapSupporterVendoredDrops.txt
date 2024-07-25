@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MapSupporterVendoredDrops
+|mod_groups                       = MapSupporterVendoredDrops
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSupporterVendoredDrops
+|stat_text                        = Non-Unique Equipment found in Area drops as Currency instead<br>16% increased Quantity of Items found in this Area<br>10% increased Rarity of Items found in this Area
+|stat1_id                         = map_non_unique_equipment_drops_as_sell_price
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_item_drop_quantity_+%
+|stat2_min                        = 16
+|stat2_max                        = 16
+|stat3_id                         = map_item_drop_rarity_+%
+|stat3_min                        = 10
+|stat3_max                        = 10
+}}

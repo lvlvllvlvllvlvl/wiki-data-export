@@ -1,0 +1,18 @@
+{{Mod
+|id                               = RemoveLifeAndAddThatMuchEnergyShieldOnFlaskUseUnique__1
+|mod_groups                       = RemoveLifeAndAddThatMuchEnergyShieldOnFlaskUse
+|domain                           = 2
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = RemoveLifeAndAddThatMuchEnergyShieldOnFlaskUse
+|stat_text                        = Removes all but one [[Life]] on use<br />Removed [[Life|life]] is Regenerated as [[Energy Shield]] over 2 seconds
+|stat1_id                         = local_unique_remove_life_and_regen_es_from_removed_life
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_unique_regen_es_from_removed_life_duration_ms
+|stat2_min                        = 2000
+|stat2_max                        = 2000
+|tags                             = resource, life, defences, energy_shield
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

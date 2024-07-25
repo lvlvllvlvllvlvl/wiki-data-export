@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AbyssMinionSpellsHinderOnHitChanceJewel1
+|mod_groups                       = HinderOnHit
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 32
+|name                             = of Delaying
+|mod_type                         = MinionSpellsHinderOnHitChance
+|stat_text                        = [[Minion|Minions]] have (3-5)% chance to Hinder Enemies on [[Hit]] with [[Spell|Spells]]
+|stat1_id                         = minion_spells_chance_to_hinder_on_hit_%
+|stat1_min                        = 3
+|stat1_max                        = 5
+|spawn_weight1_tag                = abyss_jewel_summoner
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

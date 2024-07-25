@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmNearbyAlliesHaveOnslaughtIfYouHaveAtLeast5Nearby
+|mod_groups                       = AnimalCharmNearbyAlliesHaveOnslaughtIfYouHaveAtLeast5Nearby
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 45
+|name                             = Guardian's
+|mod_type                         = AnimalCharmNearbyAlliesHaveOnslaughtIfYouHaveAtLeast5Nearby
+|stat_text                        = While there are at least five [[Nearby|nearby]] Allies, you and [[Nearby|nearby]] Allies have [[Onslaught]]
+|stat1_id                         = guardian_with_5_nearby_allies_you_and_allies_have_onslaught
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = str_animal_charm
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

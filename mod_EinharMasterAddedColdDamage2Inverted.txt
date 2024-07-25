@@ -1,0 +1,21 @@
+{{Mod
+|id                               = EinharMasterAddedColdDamage2Inverted
+|mod_groups                       = ColdDamage
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 40
+|name                             = Upgraded
+|mod_type                         = SelfColdDamageTaken
+|stat_text                        = Adds (11-15) to (23-27) [[Cold Damage]] to [[Attack|Attacks]] against you
+|stat1_id                         = from_self_minimum_added_attack_cold_damage_taken
+|stat1_min                        = 11
+|stat1_max                        = 15
+|stat2_id                         = from_self_maximum_added_attack_cold_damage_taken
+|stat2_min                        = 23
+|stat2_max                        = 27
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, cold, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

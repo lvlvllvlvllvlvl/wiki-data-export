@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vaal Flameblast
 |class_id                                = Active Skill Gem
@@ -8,15 +8,17 @@
 |tags                                    = vaal_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalFlameblast
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |intelligence_percent                    = 100
 |gem_tags                                = Spell, AoE, Vaal, Fire, Channelling
+|secondary_skill_id                      = Flameblast
 |gem_description                         = Targets an area and builds up stages in that area based on cast speed. It explodes every 3 stages, until it reaches a maximum of 15. As it gains more stages, the area gets smaller but the damage gets higher.
 |active_skill_name                       = Vaal Flameblast
 |skill_id                                = VaalFlameblast
 |cast_time                               = 0.5
 |required_level                          = 28
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Damage
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% increased Damage
 |quality_type1_stat1_id                  = damage_+%
 |quality_type1_stat1_value               = 1000
 |static_vaal_souls_requirement           = 30
@@ -40,7 +42,7 @@
 |static_stat6_value                      = 110
 |static_stat7_id                         = vaal_flameblast_radius_+_per_stage
 |static_stat7_value                      = -2
-|stat_text                               = Deals (31-280) to (46-419) Fire Damage<br>50% chance to Ignite enemies<br>200% more Spell Damage for each stage<br>110% more Damage with Ailments for each stage<br>-2 to Radius for each Stage
+|stat_text                               = Deals (31-280) to (46-419) Fire Damage<br>50% chance to Ignite enemies<br>200% more Spell Damage for each stage<br>110% more Damage with Ailments for each stage<br>-0.2 metres to radius per Stage
 |level1                                  = True
 |level1_level_requirement                = 28
 |level1_stat_text                        = Deals 31 to 46 Fire Damage

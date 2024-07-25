@@ -1,0 +1,23 @@
+{{Mod
+|id                               = WeaponTreeMinionLifeAsExtraEnergyShieldReducedElementalResistance2h2
+|mod_groups                       = WeaponTreeMinionLifeAsExtraEnergyShieldReducedElementalResistance
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 78
+|mod_type                         = WeaponTreeMinionLifeAsExtraEnergyShieldReducedElementalResistance
+|stat_text                        = [[Minion|Minions]] gain 40% of Maximum [[Life]] as Extra Maximum [[Energy Shield]]<br>[[Minion|Minions]] have -12% to all [[Elemental Resistance|Elemental Resistances]]
+|stat1_id                         = minion_maximum_life_%_to_add_as_maximum_energy_shield
+|stat1_min                        = 40
+|stat1_max                        = 40
+|stat2_id                         = minion_elemental_resistance_%
+|stat2_min                        = -12
+|stat2_max                        = -12
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = weapon_can_roll_minion_modifiers
+|spawn_weight2_value              = 2500
+|spawn_weight3_tag                = minion_unique_weapon
+|spawn_weight3_value              = 2500
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+}}

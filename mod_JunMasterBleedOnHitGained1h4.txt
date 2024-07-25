@@ -1,0 +1,26 @@
+{{Mod
+|id                               = JunMasterBleedOnHitGained1h4
+|mod_groups                       = PhysicalDamage
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Tora's
+|mod_type                         = LocalAddedPhysicalDamageAndCausesBleeding
+|stat_text                        = Adds (9-11) to (12-14) [[Physical Damage]]<br>40% chance to cause Bleeding on [[Hit]]
+|stat1_id                         = local_minimum_added_physical_damage
+|stat1_min                        = 9
+|stat1_max                        = 11
+|stat2_id                         = local_maximum_added_physical_damage
+|stat2_min                        = 12
+|stat2_max                        = 14
+|stat3_id                         = local_chance_to_bleed_on_hit_%
+|stat3_min                        = 40
+|stat3_max                        = 40
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical_damage, bleed, unveiled_mod, damage, physical, attack, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

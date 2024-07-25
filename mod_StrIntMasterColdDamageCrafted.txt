@@ -1,0 +1,21 @@
+{{Mod
+|id                               = StrIntMasterColdDamageCrafted
+|mod_groups                       = ColdDamage
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 20
+|name                             = Freezing
+|mod_type                         = ColdDamage
+|stat_text                        = Adds (10-12) to (17-22) [[Cold Damage]] to [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_cold_damage
+|stat1_min                        = 10
+|stat1_max                        = 12
+|stat2_id                         = attack_maximum_added_cold_damage
+|stat2_min                        = 17
+|stat2_max                        = 22
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, cold, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

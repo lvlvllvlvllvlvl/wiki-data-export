@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentSplittingSteelChanceToNotConsumeAmmo1_
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Splitting Steel Chance to Not Consume Shard 1
+|mod_type                         = EnchantmentSplittingSteelChanceToNotConsumeAmmo
+|stat_text                        = Splitting Steel has 20% chance to not consume Steel Shards
+|stat1_id                         = impacting_steel_%_chance_to_not_consume_ammo
+|stat1_min                        = 20
+|stat1_max                        = 20
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

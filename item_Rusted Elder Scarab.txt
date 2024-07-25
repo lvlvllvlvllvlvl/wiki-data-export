@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Rusted Elder Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = Your visions led the Azmeri down into a world left abandoned by the Vaal.<br>They cast you out, young Egrin, but the Order of the Djinn accepts you.
 |drop_level                              = 68
-|tags                                    = rusted_scarab, default
+|tags                                    = scarab, influence_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabElderRares1
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabElderRares1
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = Adds Elder Influence outcome to Map Area<br>30% more Rare Elder Items found in Area
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabElderRares1
 }}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentAnimateWeaponChanceToCreateAdditionalCopy2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Animate Weapon Chance To Create Additional Copy 2
+|mod_type                         = EnchantmentAnimateWeaponChanceToCreateAdditionalCopy
+|stat_text                        = 24% chance to create an additional [[Animate Weapon]] copy
+|stat1_id                         = animate_weapon_chance_to_create_additional_copy_%
+|stat1_min                        = 24
+|stat1_max                        = 24
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = minion
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

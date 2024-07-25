@@ -1,0 +1,24 @@
+{{Mod
+|id                               = MapSupporterBreach
+|mod_groups                       = MapSupporterBreach
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSupporterBreach
+|stat_text                        = Breaches in Area each contain a Breachlord<br>Area contains (1-3) additional Breaches<br>2% Chance to convert Maps to Scarabs<br>16% increased Rarity of Items found in this Area<br>All Breachlords must be fully vanquished to claim Reward
+|stat1_id                         = map_breach_has_boss
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_contains_additional_breaches
+|stat2_min                        = 1
+|stat2_max                        = 3
+|stat3_id                         = map_supporter_map_to_scarab
+|stat3_min                        = 200
+|stat3_max                        = 200
+|stat4_id                         = map_item_drop_rarity_+%
+|stat4_min                        = 16
+|stat4_max                        = 16
+|stat5_id                         = map_reliquary_must_complete_breaches
+|stat5_min                        = 1
+|stat5_max                        = 1
+}}

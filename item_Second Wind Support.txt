@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Second Wind Support
 |class_id                                = Support Skill Gem
@@ -7,27 +7,18 @@
 |drop_level                              = 31
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemSecondWind
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |dexterity_percent                       = 60
 |intelligence_percent                    = 40
 |gem_tags                                = Support
 |skill_id                                = SupportAdditionalCooldown
 |support_gem_letter                      = 8
 |required_level                          = 31
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills have 0.25% increased Cooldown Recovery Rate
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills have (0.25-5)% increased Cooldown Recovery Rate
+|quality_type1_breakpoints               = 4.0
 |quality_type1_stat1_id                  = base_cooldown_speed_+%
 |quality_type1_stat1_value               = 250
-|quality_type2_weight                    = 20
-|quality_type2_stat_text                 = Supported Non-Instant Skills have +0.05 Cooldown Use<br>Supported Skills have 0.5% reduced Cooldown Recovery Rate
-|quality_type2_stat1_id                  = support_added_cooldown_count_if_not_instant
-|quality_type2_stat1_value               = 50
-|quality_type2_stat2_id                  = base_cooldown_speed_+%
-|quality_type2_stat2_value               = -500
-|quality_type3_weight                    = 10
-|quality_type3_stat_text                 = Recover 0.05% of Life when you use Supported Skills
-|quality_type3_stat1_id                  = recover_permyriad_life_on_skill_use
-|quality_type3_stat1_value               = 5000
 |static_cost_multiplier                  = 200
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
@@ -295,5 +286,4 @@
 |level20_experience                      = 339855551
 |level21_dexterity_requirement           = 72
 |level21_intelligence_requirement        = 50
-|inventory_icon                          = Second Wind Support
 }}

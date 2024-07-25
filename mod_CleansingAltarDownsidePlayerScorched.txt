@@ -1,0 +1,21 @@
+{{Mod
+|id                               = CleansingAltarDownsidePlayerScorched
+|mod_groups                       = CleansingAltarDownsidePlayerScorched
+|domain                           = 29
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = CleansingAltarDownsidePlayerScorched
+|stat_text                        = (25-35)% chance to be Scorched when [[Hit]]<br>All Damage taken from [[Hit|Hits]] can Scorch you
+|stat1_id                         = chance_to_be_scorched_when_hit_%
+|stat1_min                        = 25
+|stat1_max                        = 35
+|stat2_id                         = all_damage_taken_can_scorch
+|stat2_min                        = 1
+|stat2_max                        = 1
+|spawn_weight1_tag                = primordial_altar_upside
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = cleansing_fire_altar
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

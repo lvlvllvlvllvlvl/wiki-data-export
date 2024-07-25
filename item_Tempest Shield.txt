@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Tempest Shield
 |class_id                                = Active Skill Gem
@@ -16,18 +16,10 @@
 |skill_id                                = TempestShield
 |cast_time                               = 0.0
 |required_level                          = 16
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% chance to Shock enemies
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (2-40)% chance to Shock enemies
 |quality_type1_stat1_id                  = base_chance_to_shock_%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Chains +0.1 Times
-|quality_type2_stat1_id                  = number_of_chains
-|quality_type2_stat1_value               = 100
-|quality_type3_weight                    = 10
-|quality_type3_stat_text                 = Buff grants +0.1% Chance to Block Spell Damage while holding a Shield
-|quality_type3_stat1_id                  = shield_spell_block_%
-|quality_type3_stat1_value               = 100
+|quality_type1_stat1_value               = 2000
 |static_stored_uses                      = 1
 |static_cooldown                         = 1
 |static_critical_strike_chance           = 6

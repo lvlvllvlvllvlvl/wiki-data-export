@@ -18,10 +18,10 @@
 |static_stat3_value                      = 3000
 |static_stat4_id                         = orb_of_storms_base_bolt_frequency_ms
 |static_stat4_value                      = 1000
-|stat_text                               = Deals (4-408) to (12-1224) Lightning Damage<br>Charged Storm Cloud deals 10 more Damage<br>Base duration is 3 seconds<br>Strikes every 1 second, and when you use a Lightning Skill near the Orb<br>Beams Split towards (3-8) additional targets
+|stat_text                               = Deals (4-408) to (12-1224) Lightning Damage<br>Charged Storm Cloud deals 10 more Damage<br>Base duration is 3.00 seconds<br>Strikes every 1.00 second, and when you use a Lightning Skill near the Orb<br>Beam Splits towards (3-8) additional targets
 |level1                                  = True
 |level1_level_requirement                = 4
-|level1_stat_text                        = Deals 4 to 12 Lightning Damage<br>Beams Split towards 3 additional targets
+|level1_stat_text                        = Deals 4 to 12 Lightning Damage<br>Beam Splits towards 3 additional targets
 |level1_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level1_stat1_value                      = 1
 |level1_stat2_id                         = spell_minimum_base_lightning_damage
@@ -32,7 +32,7 @@
 |level1_stat4_value                      = 3
 |level2                                  = True
 |level2_level_requirement                = 12
-|level2_stat_text                        = Deals 9 to 26 Lightning Damage<br>Beams Split towards 3 additional targets
+|level2_stat_text                        = Deals 9 to 26 Lightning Damage<br>Beam Splits towards 3 additional targets
 |level2_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level2_stat1_value                      = 2
 |level2_stat2_id                         = spell_minimum_base_lightning_damage
@@ -43,7 +43,7 @@
 |level2_stat4_value                      = 3
 |level3                                  = True
 |level3_level_requirement                = 20
-|level3_stat_text                        = Deals 16 to 48 Lightning Damage<br>Beams Split towards 4 additional targets
+|level3_stat_text                        = Deals 16 to 48 Lightning Damage<br>Beam Splits towards 4 additional targets
 |level3_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level3_stat1_value                      = 3
 |level3_stat2_id                         = spell_minimum_base_lightning_damage
@@ -54,7 +54,7 @@
 |level3_stat4_value                      = 4
 |level4                                  = True
 |level4_level_requirement                = 28
-|level4_stat_text                        = Deals 27 to 82 Lightning Damage<br>Beams Split towards 4 additional targets
+|level4_stat_text                        = Deals 27 to 82 Lightning Damage<br>Beam Splits towards 4 additional targets
 |level4_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level4_stat1_value                      = 4
 |level4_stat2_id                         = spell_minimum_base_lightning_damage
@@ -65,7 +65,7 @@
 |level4_stat4_value                      = 4
 |level5                                  = True
 |level5_level_requirement                = 36
-|level5_stat_text                        = Deals 44 to 132 Lightning Damage<br>Beams Split towards 4 additional targets
+|level5_stat_text                        = Deals 44 to 132 Lightning Damage<br>Beam Splits towards 4 additional targets
 |level5_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level5_stat1_value                      = 5
 |level5_stat2_id                         = spell_minimum_base_lightning_damage
@@ -76,7 +76,7 @@
 |level5_stat4_value                      = 4
 |level6                                  = True
 |level6_level_requirement                = 40
-|level6_stat_text                        = Deals 55 to 166 Lightning Damage<br>Beams Split towards 5 additional targets
+|level6_stat_text                        = Deals 55 to 166 Lightning Damage<br>Beam Splits towards 5 additional targets
 |level6_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level6_stat1_value                      = 5
 |level6_stat2_id                         = spell_minimum_base_lightning_damage
@@ -87,7 +87,7 @@
 |level6_stat4_value                      = 5
 |level7                                  = True
 |level7_level_requirement                = 44
-|level7_stat_text                        = Deals 69 to 208 Lightning Damage<br>Beams Split towards 5 additional targets
+|level7_stat_text                        = Deals 69 to 208 Lightning Damage<br>Beam Splits towards 5 additional targets
 |level7_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level7_stat1_value                      = 6
 |level7_stat2_id                         = spell_minimum_base_lightning_damage
@@ -98,7 +98,7 @@
 |level7_stat4_value                      = 5
 |level8                                  = True
 |level8_level_requirement                = 54
-|level8_stat_text                        = Deals 118 to 355 Lightning Damage<br>Beams Split towards 5 additional targets
+|level8_stat_text                        = Deals 118 to 355 Lightning Damage<br>Beam Splits towards 5 additional targets
 |level8_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level8_stat1_value                      = 7
 |level8_stat2_id                         = spell_minimum_base_lightning_damage
@@ -109,7 +109,7 @@
 |level8_stat4_value                      = 5
 |level9                                  = True
 |level9_level_requirement                = 58
-|level9_stat_text                        = Deals 145 to 436 Lightning Damage<br>Beams Split towards 6 additional targets
+|level9_stat_text                        = Deals 145 to 436 Lightning Damage<br>Beam Splits towards 6 additional targets
 |level9_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level9_stat1_value                      = 7
 |level9_stat2_id                         = spell_minimum_base_lightning_damage
@@ -120,7 +120,7 @@
 |level9_stat4_value                      = 6
 |level10                                 = True
 |level10_level_requirement               = 66
-|level10_stat_text                       = Deals 217 to 652 Lightning Damage<br>Beams Split towards 6 additional targets
+|level10_stat_text                       = Deals 217 to 652 Lightning Damage<br>Beam Splits towards 6 additional targets
 |level10_stat1_id                        = active_skill_area_of_effect_radius_+%_final
 |level10_stat1_value                     = 8
 |level10_stat2_id                        = spell_minimum_base_lightning_damage
@@ -131,7 +131,7 @@
 |level10_stat4_value                     = 6
 |level11                                 = True
 |level11_level_requirement               = 69
-|level11_stat_text                       = Deals 252 to 755 Lightning Damage<br>Beams Split towards 7 additional targets
+|level11_stat_text                       = Deals 252 to 755 Lightning Damage<br>Beam Splits towards 7 additional targets
 |level11_stat1_id                        = active_skill_area_of_effect_radius_+%_final
 |level11_stat1_value                     = 8
 |level11_stat2_id                        = spell_minimum_base_lightning_damage
@@ -142,7 +142,7 @@
 |level11_stat4_value                     = 7
 |level12                                 = True
 |level12_level_requirement               = 70
-|level12_stat_text                       = Deals 264 to 793 Lightning Damage<br>Beams Split towards 7 additional targets
+|level12_stat_text                       = Deals 264 to 793 Lightning Damage<br>Beam Splits towards 7 additional targets
 |level12_stat1_id                        = active_skill_area_of_effect_radius_+%_final
 |level12_stat1_value                     = 9
 |level12_stat2_id                        = spell_minimum_base_lightning_damage
@@ -153,7 +153,7 @@
 |level12_stat4_value                     = 7
 |level13                                 = True
 |level13_level_requirement               = 74
-|level13_stat_text                       = Deals 321 to 963 Lightning Damage<br>Beams Split towards 7 additional targets
+|level13_stat_text                       = Deals 321 to 963 Lightning Damage<br>Beam Splits towards 7 additional targets
 |level13_stat1_id                        = active_skill_area_of_effect_radius_+%_final
 |level13_stat1_value                     = 10
 |level13_stat2_id                        = spell_minimum_base_lightning_damage
@@ -164,7 +164,7 @@
 |level13_stat4_value                     = 7
 |level14                                 = True
 |level14_level_requirement               = 75
-|level14_stat_text                       = Deals 337 to 1011 Lightning Damage<br>Beams Split towards 8 additional targets
+|level14_stat_text                       = Deals 337 to 1011 Lightning Damage<br>Beam Splits towards 8 additional targets
 |level14_stat1_id                        = active_skill_area_of_effect_radius_+%_final
 |level14_stat1_value                     = 10
 |level14_stat2_id                        = spell_minimum_base_lightning_damage
@@ -175,7 +175,7 @@
 |level14_stat4_value                     = 8
 |level15                                 = True
 |level15_level_requirement               = 79
-|level15_stat_text                       = Deals 408 to 1224 Lightning Damage<br>Beams Split towards 8 additional targets
+|level15_stat_text                       = Deals 408 to 1224 Lightning Damage<br>Beam Splits towards 8 additional targets
 |level15_stat1_id                        = active_skill_area_of_effect_radius_+%_final
 |level15_stat1_value                     = 15
 |level15_stat2_id                        = spell_minimum_base_lightning_damage

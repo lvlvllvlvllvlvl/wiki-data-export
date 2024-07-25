@@ -1,0 +1,23 @@
+{{Mod
+|id                               = JunMaster2AvoidStunAndElementalStatusAilments1__
+|mod_groups                       = AvoidStunAndElementalStatusAilments
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Chosen
+|mod_type                         = AvoidStunAndElementalStatusAilments
+|stat_text                        = (20-25)% chance to Avoid Elemental Ailments<br>(20-25)% chance to Avoid being Stunned
+|stat1_id                         = avoid_all_elemental_status_%
+|stat1_min                        = 20
+|stat1_max                        = 25
+|stat2_id                         = base_avoid_stun_%
+|stat2_min                        = 20
+|stat2_max                        = 25
+|spawn_weight1_tag                = body_armour
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = unveiled_mod, elemental, fire, cold, lightning, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

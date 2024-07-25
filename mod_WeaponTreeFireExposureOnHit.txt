@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeFireExposureOnHit
+|mod_groups                       = WeaponTreeFireExposureOnHit
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 34
+|mod_type                         = WeaponTreeFireExposureOnHit
+|stat_text                        = Inflict Fire Exposure on [[Hit]]<br>25% chance to be inflicted with Fire Exposure when you take [[Fire Damage]] from a [[Hit]]
+|stat1_id                         = base_inflict_fire_exposure_on_hit_%_chance
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = inflicted_with_fire_exposure_on_taking_damage_from_fire_damage_hit_chance_%
+|stat2_min                        = 25
+|stat2_max                        = 25
+|spawn_weight1_tag                = weapon
+|spawn_weight1_value              = 300
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,18 @@
+{{Mod
+|id                               = CausticArrowThresholdJewel1
+|mod_groups                       = PassiveJewelGrantsRadius
+|domain                           = 10
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = CausticArrowThresholdJewel1
+|stat_text                        = With at least 40 [[Dexterity]] in Radius, [[Caustic Arrow]] deals 30% reduced Damage with [[Hit|Hits]]
+|stat1_id                         = local_unique_jewel_caustic_arrow_hit_damage_+%_with_40_dex_in_radius
+|stat1_min                        = -30
+|stat1_max                        = -30
+|stat2_id                         = local_jewel_effect_base_radius
+|stat2_min                        = 1200
+|stat2_max                        = 1200
+|tags                             = damage, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

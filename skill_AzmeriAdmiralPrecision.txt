@@ -1,0 +1,23 @@
+{{Skill
+|gem_description                         = Casts an aura that grants accuracy and critical strike chance to you and your allies.
+|active_skill_name                       = Precision
+|skill_id                                = AzmeriAdmiralPrecision
+|cast_time                               = 1.0
+|required_level                          = 0
+|static_stored_uses                      = 1
+|static_cooldown                         = 0.5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_deal_no_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = active_skill_base_radius_+
+|static_stat2_value                      = 50
+|static_stat3_id                         = skill_buff_grants_critical_strike_chance_+%
+|static_stat3_value                      = 70
+|static_stat4_id                         = accuracy_rating
+|static_stat4_value                      = 698
+|stat_text                               = +5 metres to radius<br>You and nearby allies gain 70% increased Critical Strike Chance<br>You and nearby allies gain +698 to Accuracy Rating
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

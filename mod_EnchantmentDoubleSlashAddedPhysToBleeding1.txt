@@ -1,0 +1,23 @@
+{{Mod
+|id                               = EnchantmentDoubleSlashAddedPhysToBleeding1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Double Slash Added Phys To Bleeding 1
+|mod_type                         = EnchantmentDoubleSlashAddedPhysToBleeding
+|stat_text                        = [[Lacerate]] deals (4-8) to (10-15) added [[Physical Damage]] against Bleeding Enemies
+|stat1_id                         = double_slash_minimum_added_physical_damage_vs_bleeding_enemies
+|stat1_min                        = 4
+|stat1_max                        = 8
+|stat2_id                         = double_slash_maximum_added_physical_damage_vs_bleeding_enemies
+|stat2_min                        = 10
+|stat2_max                        = 15
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical_damage, damage, physical, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

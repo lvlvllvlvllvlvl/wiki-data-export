@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmConsecratedGroundLingerDuration
+|mod_groups                       = AnimalCharmConsecratedGroundLingerDuration
+|domain                           = 35
+|generation_type                  = 2
+|required_level                   = 70
+|name                             = of the Inquisitor
+|mod_type                         = AnimalCharmConsecratedGroundLingerDuration
+|stat_text                        = Effects of Consecrated Ground you create Linger for 2 seconds
+|stat1_id                         = your_consecrated_ground_effect_lingers_for_ms_after_leaving_the_area
+|stat1_min                        = 2000
+|stat1_max                        = 2000
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = str_animal_charm
+|spawn_weight2_value              = 50
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

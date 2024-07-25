@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeSpellDamageSuppressedSpellSuppression1
+|mod_groups                       = WeaponTreeSpellDamageSuppressedSpellSuppression
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 15
+|mod_type                         = WeaponTreeSpellDamageSuppressedSpellSuppression
+|stat_text                        = Prevent +2% of Suppressed [[Spell Damage]]<br>-10% chance to Suppress [[Spell Damage]]
+|stat1_id                         = base_spell_damage_%_suppressed
+|stat1_min                        = 2
+|stat1_max                        = 2
+|stat2_id                         = base_spell_suppression_chance_%
+|stat2_min                        = -10
+|stat2_max                        = -10
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

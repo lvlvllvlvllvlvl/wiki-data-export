@@ -1,0 +1,24 @@
+{{Mod
+|id                               = ColdDamagePrefixOnWeaponEnhancedLevel50Mod
+|mod_groups                       = WeaponCasterDamagePrefix
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 50
+|name                             = Topotante's
+|mod_type                         = ColdDamageWeaponPrefixAndFlat
+|stat_text                        = (75-79)% increased [[Cold Damage]]<br>Adds (12-16) to (25-29) [[Cold Damage]] to [[Spell|Spells]]
+|stat1_id                         = cold_damage_+%
+|stat1_min                        = 75
+|stat1_max                        = 79
+|stat2_id                         = spell_minimum_added_cold_damage
+|stat2_min                        = 12
+|stat2_max                        = 16
+|stat3_id                         = spell_maximum_added_cold_damage
+|stat3_min                        = 25
+|stat3_max                        = 29
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, cold, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

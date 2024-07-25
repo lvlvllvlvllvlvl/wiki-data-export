@@ -1,0 +1,13 @@
+{{Mod
+|id                               = SynthesisImplicitAllDamageCorruptedItem1
+|mod_groups                       = LocalCorruptedBonus
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 60
+|mod_type                         = AllDamageCorruptedItem
+|stat_text                        = (15-20)% increased Damage if Corrupted
+|stat1_id                         = local_damage_+%_if_item_corrupted
+|stat1_min                        = 15
+|stat1_max                        = 20
+|tags                             = damage
+}}

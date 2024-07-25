@@ -1,0 +1,19 @@
+{{Mod
+|id                               = TincturePoisonDamageVsNonPoisoned3
+|mod_groups                       = WeaponPoisonDamagevsNonPoisonedEnemies
+|domain                           = 34
+|generation_type                  = 1
+|required_level                   = 72
+|name                             = Pestilent
+|mod_type                         = WeaponPoisonDamagevsNonPoisonedEnemies
+|stat_text                        = [[Poison|Poisons]] you inflict on non-Poisoned Enemies deal (201-300)% increased Damage
+|stat1_id                         = weapon_attack_poison_on_non_poisoned_enemies_damage_+%
+|stat1_min                        = 201
+|stat1_max                        = 300
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

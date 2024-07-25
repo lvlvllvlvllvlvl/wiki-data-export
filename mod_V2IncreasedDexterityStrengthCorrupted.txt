@@ -1,0 +1,24 @@
+{{Mod
+|id                               = V2IncreasedDexterityStrengthCorrupted
+|mod_groups                       = IncreasedAttributesCorrupted
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = IncreasedDexterityStrengthCorrupted
+|stat_text                        = (4-6)% increased [[Dexterity]]<br>(4-6)% increased [[Strength]]
+|stat1_id                         = dexterity_+%
+|stat1_min                        = 4
+|stat1_max                        = 6
+|stat2_id                         = strength_+%
+|stat2_min                        = 4
+|stat2_max                        = 6
+|spawn_weight1_tag                = amulet
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = ring
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = belt
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = attribute
+}}

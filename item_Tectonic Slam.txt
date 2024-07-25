@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Tectonic Slam
 |class_id                                = Active Skill Gem
@@ -16,24 +16,10 @@
 |skill_id                                = EnduranceChargeSlam
 |cast_time                               = 1.0
 |required_level                          = 28
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Area of Effect
-|quality_type1_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 3% increased Burning Damage<br>1% chance to Ignite enemies
-|quality_type2_stat1_id                  = burn_damage_+%
-|quality_type2_stat1_value               = 3000
-|quality_type2_stat2_id                  = base_chance_to_ignite_%
-|quality_type2_stat2_value               = 1000
-|quality_type3_weight                    = 20
-|quality_type3_stat_text                 = 0.1% of Fire Damage Leeched as Life
-|quality_type3_stat1_id                  = base_life_leech_from_fire_damage_permyriad
-|quality_type3_stat1_value               = 10000
-|quality_type4_weight                    = 100
-|quality_type4_stat_text                 = 1% increased Fire Damage
-|quality_type4_stat1_id                  = fire_damage_+%
-|quality_type4_stat1_value               = 1000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = +(1.5-30)% Fissure branching chance
+|quality_type1_stat1_id                  = tectonic_slam_side_crack_additional_chance_%
+|quality_type1_stat1_value               = 1500
 |static_cost_amounts                     = 10
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 80
@@ -47,8 +33,10 @@
 |static_stat4_value                      = 5
 |static_stat5_id                         = tectonic_slam_side_crack_additional_chance_%
 |static_stat5_value                      = 30
-|static_stat6_id                         = tectonic_slam_side_crack_additional_chance_%_per_endurance_charge
-|static_stat6_value                      = 5
+|static_stat6_id                         = quality_display_tectonic_slam_is_gem
+|static_stat6_value                      = 1
+|static_stat7_id                         = tectonic_slam_side_crack_additional_chance_%_per_endurance_charge
+|static_stat7_value                      = 5
 |stat_text                               = 60% of Physical Damage Converted to Fire Damage<br>5% more Area of Effect per Endurance Charge<br>30% fissure branching chance<br>+5% fissure branching chance per Endurance Charge
 |level1                                  = True
 |level1_level_requirement                = 28

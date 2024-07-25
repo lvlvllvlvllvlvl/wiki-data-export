@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentOrbOfStormsDamage1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Orb Of Storms Damage 1
+|mod_type                         = EnchantmentOrbOfStormsDamage
+|stat_text                        = [[Orb of Storms]] deals 25% increased Damage
+|stat1_id                         = orb_of_storms_damage_+%
+|stat1_min                        = 25
+|stat1_max                        = 25
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 75
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster_damage, damage, caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

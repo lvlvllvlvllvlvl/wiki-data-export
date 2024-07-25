@@ -1,0 +1,26 @@
+{{Mod
+|id                               = V2SupportedByLifeGainOnHitCorrupted
+|mod_groups                       = SupportedByLifeGainOnHit
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|granted_skill                    = SupportLifeGainOnHit
+|mod_type                         = SupportedByLifeGainOnHit
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Life Gain on Hit Support|Level 10 Life Gain On Hit]]
+|stat1_id                         = local_display_socketed_gems_supported_by_level_x_life_gain_on_hit
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = sword
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = mace
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = bow
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = staff
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = two_hand_weapon
+|spawn_weight5_value              = 1000
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = support, gem
+}}

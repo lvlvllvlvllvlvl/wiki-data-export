@@ -1,0 +1,29 @@
+{{Mod
+|id                               = WeaponTreeAddedLightningPerInt2h
+|mod_groups                       = AddedLightningDamagePerIntelligence
+|domain                           = 1
+|generation_type                  = 32
+|required_level                   = 60
+|mod_type                         = WeaponTreeAddedLightningDamagePerIntelligence
+|stat_text                        = Adds 1 to 5 [[Lightning Damage]] to [[Attack|Attacks]] with this Weapon per 10 [[Intelligence]]
+|stat1_id                         = attack_minimum_added_lightning_damage_per_10_int
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = attack_maximum_added_lightning_damage_per_10_int
+|stat2_min                        = 5
+|stat2_max                        = 5
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = wand
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = staff
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = sceptre
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = dagger
+|spawn_weight5_value              = 500
+|spawn_weight6_tag                = claw
+|spawn_weight6_value              = 500
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+}}

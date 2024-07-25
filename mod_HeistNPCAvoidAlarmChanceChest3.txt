@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HeistNPCAvoidAlarmChanceChest3
+|mod_groups                       = HeistNPCAvoidAlarmChanceChest
+|domain                           = 23
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Disabling
+|mod_type                         = HeistNPCAvoidAlarmChanceChest
+|stat_text                        = (7-8)% chance on opening a Chest to not generate Alert [[Level]]
+|stat1_id                         = heist_contract_avoid_alarm_chance_%_on_open_chest
+|stat1_min                        = 7
+|stat1_max                        = 8
+|spawn_weight1_tag                = heist_equipment_utility
+|spawn_weight1_value              = 150
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

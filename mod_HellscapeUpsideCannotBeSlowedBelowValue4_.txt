@@ -1,0 +1,17 @@
+{{Mod
+|id                               = HellscapeUpsideCannotBeSlowedBelowValue4_
+|mod_groups                       = CannotBeSlowedBelowValue
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = CannotBeSlowedBelowValue
+|stat_text                        = Action Speed cannot be modified to below (70-74)% of base value
+|stat1_id                         = hellscape_boots_action_speed_+%_minimum_value
+|stat1_min                        = -30
+|stat1_max                        = -26
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = speed
+}}

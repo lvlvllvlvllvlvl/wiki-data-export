@@ -1,0 +1,32 @@
+{{Mod
+|id                               = MapUberModNoCharges
+|mod_groups                       = MapUberModNoCharges
+|domain                           = 37
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Powerlessness
+|mod_type                         = MapUberModNoCharges
+|stat_text                        = Players cannot gain [[Power Charge|Power Charges]]<br>Players cannot gain [[Frenzy Charge|Frenzy Charges]]<br>Players cannot gain [[Endurance Charge|Endurance Charges]]
+|stat1_id                         = map_players_cannot_gain_power_charges
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_players_cannot_gain_frenzy_charges
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = map_players_cannot_gain_endurance_charges
+|stat3_min                        = 1
+|stat3_max                        = 1
+|stat4_id                         = map_pack_size_+%
+|stat4_min                        = 6
+|stat4_max                        = 6
+|stat5_id                         = map_item_drop_rarity_+%
+|stat5_min                        = 13
+|stat5_max                        = 13
+|stat6_id                         = map_item_drop_quantity_+%
+|stat6_min                        = 24
+|stat6_max                        = 24
+|spawn_weight1_tag                = uber_tier_map
+|spawn_weight1_value              = 40
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

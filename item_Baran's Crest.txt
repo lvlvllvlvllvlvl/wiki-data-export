@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Baran's Crest
 |class_id                                = MapFragment
@@ -9,5 +9,7 @@
 |tags                                    = default
 |metadata_id                             = Metadata/Items/MapFragments/CurrencySirusFragment2
 |help_text                               = Can be used in a personal Map Device.
-|implicit1                               = SirusFragmentImplicit
+|stack_size                              = 10
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = SirusFragmentImplicit
 }}

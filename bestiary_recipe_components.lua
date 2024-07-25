@@ -687,5 +687,135 @@ local data = {	{
 		recipe_id = "EinharMasterCraft42HardMode", 
 		component_id = "SpiritBossCrab", 
 		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan1", 
+		component_id = "SpiritBossTiger", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan1", 
+		component_id = "Morrigan", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan2", 
+		component_id = "SpiritBossAvian", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan2", 
+		component_id = "Morrigan", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan3", 
+		component_id = "SpiritBossSpider", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan3", 
+		component_id = "Morrigan", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan4", 
+		component_id = "SpiritBossCrab", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan4", 
+		component_id = "Morrigan", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan5", 
+		component_id = "LegendaryBeastGemFrog", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan5", 
+		component_id = "Morrigan", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan6", 
+		component_id = "LegendaryBeastPlagueSpider", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan6", 
+		component_id = "Morrigan", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan7", 
+		component_id = "LegendaryBeastSandSpitter", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan7", 
+		component_id = "Morrigan", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan8", 
+		component_id = "LegendaryBeastShieldCrab", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan8", 
+		component_id = "Morrigan", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan1HardMode", 
+		component_id = "SpiritBossTiger", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan1HardMode", 
+		component_id = "Morrigan", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan2HardMode", 
+		component_id = "SpiritBossAvian", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan2HardMode", 
+		component_id = "Morrigan", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan3HardMode", 
+		component_id = "SpiritBossSpider", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan3HardMode", 
+		component_id = "Morrigan", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan4HardMode", 
+		component_id = "SpiritBossCrab", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan4HardMode", 
+		component_id = "Morrigan", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan5HardMode", 
+		component_id = "LegendaryBeastGemFrog", 
+		amount = 1, 
+	},
+	{
+		recipe_id = "EinharMasterCraftMorrigan5HardMode", 
+		component_id = "Morrigan", 
+		amount = 1, 
 	}}
 return data

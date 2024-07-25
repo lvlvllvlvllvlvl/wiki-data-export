@@ -1,0 +1,19 @@
+{{Mod
+|id                               = CustomLeagueMonsterElementalDamage2__
+|mod_groups                       = Other
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = CustomLeagueMonsterElementalDamage
+|stat_text                        = Monsters deal 30% extra [[Physical Damage]] as Fire<br>Monsters deal 30% extra [[Physical Damage]] as Cold<br>Monsters deal 30% extra [[Physical Damage]] as Lightning
+|stat1_id                         = map_monsters_%_physical_damage_to_add_as_fire
+|stat1_min                        = 30
+|stat1_max                        = 30
+|stat2_id                         = map_monsters_%_physical_damage_to_add_as_cold
+|stat2_min                        = 30
+|stat2_max                        = 30
+|stat3_id                         = map_monsters_%_physical_damage_to_add_as_lightning
+|stat3_min                        = 30
+|stat3_max                        = 30
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, fire, cold, lightning
+}}

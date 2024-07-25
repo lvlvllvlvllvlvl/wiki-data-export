@@ -1,0 +1,23 @@
+{{Mod
+|id                               = EnchantmentLightningDamageWhileHaventKilled3_
+|mod_groups                       = ConditionalBuffEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Lightning Damage 3
+|mod_type                         = EnchantmentLightningDamageWhileHaventKilled
+|stat_text                        = Adds 1 to 160 [[Lightning Damage]] if you haven't Killed [[Recently]]
+|stat1_id                         = enchantment_boots_minimum_added_lightning_damage_when_you_havent_killed_for_4_seconds
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = enchantment_boots_maximum_added_lightning_damage_when_you_havent_killed_for_4_seconds
+|stat2_min                        = 160
+|stat2_max                        = 160
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, lightning
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

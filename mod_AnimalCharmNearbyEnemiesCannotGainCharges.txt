@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmNearbyEnemiesCannotGainCharges
+|mod_groups                       = AnimalCharmNearbyEnemiesCannotGainCharges
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 45
+|name                             = Guardian's
+|mod_type                         = AnimalCharmNearbyEnemiesCannotGainCharges
+|stat_text                        = [[Nearby]] Enemies cannot gain [[Charge|Power, Frenzy or Endurance Charges]]
+|stat1_id                         = guardian_nearby_enemies_cannot_gain_charges
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = str_animal_charm
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

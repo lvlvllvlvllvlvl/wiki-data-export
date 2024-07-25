@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Polished Cartography Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = For your loyalty and valour, honoured Betucia, we are proud to put<br>the requisition of dream-artefacts in your capable hands.
 |drop_level                              = 68
-|tags                                    = polished_scarab, default
+|tags                                    = scarab, maps_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabMaps2
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabMaps2
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = 35% increased Maps found in Area
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabMaps2
 }}

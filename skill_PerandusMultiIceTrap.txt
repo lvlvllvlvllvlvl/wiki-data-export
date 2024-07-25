@@ -30,7 +30,13 @@
 |static_stat9_value                      = 1
 |static_stat10_id                        = number_of_additional_traps_to_throw
 |static_stat10_value                     = 2
-|stat_text                               = Deals 10 to 14 Cold Damage<br>Trap lasts 15 seconds<br>Throw up to 2 additional Traps
+|static_stat11_id                        = active_skill_base_area_of_effect_radius
+|static_stat11_value                     = 18
+|static_stat12_id                        = active_skill_base_secondary_area_of_effect_radius
+|static_stat12_value                     = 9
+|static_stat13_id                        = active_skill_base_tertiary_area_of_effect_radius
+|static_stat13_value                     = 6
+|stat_text                               = Deals 10 to 14 Cold Damage<br>Trap lasts +15 seconds<br>Throw up to 2 additional Traps<br>Base radius is 1.8 metres<br>Base secondary radius is 0.9 metres<br>Base tertiary radius is 0.6 metres
 |level1                                  = True
 |level1_level_requirement                = 2
 }}

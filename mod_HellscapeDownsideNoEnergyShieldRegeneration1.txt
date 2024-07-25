@@ -1,0 +1,17 @@
+{{Mod
+|id                               = HellscapeDownsideNoEnergyShieldRegeneration1
+|mod_groups                       = EnergyShieldRegeneration
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 45
+|mod_type                         = NoEnergyShieldRegen
+|stat_text                        = You cannot Regenerate [[Energy Shield]]
+|stat1_id                         = cannot_regenerate_energy_shield
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = defences, energy_shield
+}}

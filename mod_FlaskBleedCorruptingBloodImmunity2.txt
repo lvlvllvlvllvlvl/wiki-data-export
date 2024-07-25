@@ -1,0 +1,20 @@
+{{Mod
+|id                               = FlaskBleedCorruptingBloodImmunity2
+|mod_groups                       = FlaskRemovesBleeding
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 32
+|name                             = of Alleviation
+|mod_type                         = FlaskBleedCorruptingBloodImmunity
+|stat_text                        = Grants Immunity to Bleeding for (9-11) seconds if used while Bleeding<br />Grants Immunity to [[Corrupted Blood]] for (9-11) seconds if used while affected by [[Corrupted Blood]]
+|stat1_id                         = local_flask_bleeding_immunity_if_bleeding_and_remove_corrupted_blood_s
+|stat1_min                        = 9
+|stat1_max                        = 11
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 750
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

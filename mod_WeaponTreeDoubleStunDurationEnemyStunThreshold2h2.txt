@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeDoubleStunDurationEnemyStunThreshold2h2
+|mod_groups                       = WeaponTreeDoubleStunDurationEnemyStunThreshold
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 74
+|mod_type                         = WeaponTreeDoubleStunDurationEnemyStunThreshold
+|stat_text                        = 45% chance to double Stun Duration<br>30% increased Enemy Stun Threshold
+|stat1_id                         = chance_to_double_stun_duration_%
+|stat1_min                        = 45
+|stat1_max                        = 45
+|stat2_id                         = base_stun_threshold_reduction_+%
+|stat2_min                        = -30
+|stat2_max                        = -30
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

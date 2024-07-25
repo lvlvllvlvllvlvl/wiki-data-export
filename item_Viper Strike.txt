@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Viper Strike
 |class_id                                = Active Skill Gem
@@ -16,24 +16,10 @@
 |skill_id                                = ViperStrike
 |cast_time                               = 1.0
 |required_level                          = 1
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Attack Speed<br>0.5% increased Poison Duration
-|quality_type1_stat1_id                  = attack_speed_+%
-|quality_type1_stat1_value               = 500
-|quality_type1_stat2_id                  = base_poison_duration_+%
-|quality_type1_stat2_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% of Physical Damage Converted to Chaos Damage
-|quality_type2_stat1_id                  = skill_physical_damage_%_to_convert_to_chaos
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 1% increased Chaos Damage
-|quality_type3_stat1_id                  = chaos_damage_+%
-|quality_type3_stat1_value               = 1000
-|quality_type4_weight                    = 10
-|quality_type4_stat_text                 = 0.5% chance to also Poison a nearby Enemy when you inflict Poison
-|quality_type4_stat1_id                  = chance_%_when_poison_to_also_poison_another_enemy
-|quality_type4_stat1_value               = 500
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Base duration is (0.05-1) seconds
+|quality_type1_stat1_id                  = base_skill_effect_duration
+|quality_type1_stat1_value               = 50000
 |static_cost_amounts                     = 5
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 100
@@ -54,7 +40,7 @@
 |static_stat7_value                      = 60
 |static_stat8_id                         = base_chance_to_poison_on_hit_%
 |static_stat8_value                      = 60
-|stat_text                               = 30% less Attack Speed if Dual Wielding<br>Each Weapon Hits separately if Dual Wielding, dealing 20% less Damage<br>Base duration is 4 seconds<br>(5-169) to (7-254) Added Chaos Damage<br>60% of Physical Damage Converted to Chaos Damage<br>60% chance to Poison on Hit
+|stat_text                               = 30% less Attack Speed if Dual Wielding<br>Each Weapon Hits separately if Dual Wielding, dealing 20% less Damage<br>Base duration is 4.00 seconds<br>(5-169) to (7-254) Added Chaos Damage<br>60% of Physical Damage Converted to Chaos Damage<br>60% chance to Poison on Hit
 |level1                                  = True
 |level1_level_requirement                = 1
 |level1_damage_effectiveness             = 90
@@ -84,6 +70,7 @@
 |level3_stat2_value                      = 10
 |level4                                  = True
 |level4_level_requirement                = 7
+|level4_damage_effectiveness             = 100
 |level4_damage_multiplier                = 100.1
 |level4_stat_text                        = 8 to 12 Added Chaos Damage
 |level4_stat1_id                         = attack_minimum_added_chaos_damage
@@ -455,5 +442,4 @@
 |level20_dexterity_requirement           = 155
 |level20_experience                      = 342051651
 |level21_dexterity_requirement           = 159
-|inventory_icon                          = Viper Strike
 }}

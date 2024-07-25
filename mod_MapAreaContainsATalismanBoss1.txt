@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapAreaContainsATalismanBoss1
+|mod_groups                       = MapAreaContainsATalismanBoss
+|domain                           = 12
+|generation_type                  = 2
+|required_level                   = 30
+|name                             = of Fear
+|mod_type                         = MapAreaContainsATalismanBoss
+|stat_text                        = Next Area will contain a Rare Monster carrying a Tier 2 Talisman
+|stat1_id                         = map_contains_talisman_boss_with_higher_tier
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = talisman_leaguestone
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

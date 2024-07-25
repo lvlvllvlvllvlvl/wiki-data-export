@@ -1,0 +1,24 @@
+{{Mod
+|id                               = SentinelDroneTaggedMonsterExperienceApex1
+|mod_groups                       = SentinelDroneTaggedMonsterExperience
+|domain                           = 30
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Invigoration
+|mod_type                         = SentinelDroneTaggedMonsterExperience
+|stat_text                        = Empowered Monsters grant (60-120)% increased Sentinel Power
+|stat1_id                         = sentinel_tagged_sentinel_experience_+%
+|stat1_min                        = 60
+|stat1_max                        = 120
+|stat2_id                         = local_sentinel_drone_difficulty_+
+|stat2_min                        = 2
+|stat2_max                        = 2
+|spawn_weight1_tag                = special_sentinel_mod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = sentinel_c
+|spawn_weight2_value              = 1500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

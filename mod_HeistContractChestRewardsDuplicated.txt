@@ -1,0 +1,15 @@
+{{Mod
+|id                               = HeistContractChestRewardsDuplicated
+|mod_groups                       = HeistContractChestRewardsDuplicated
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = HeistContractChestRewardsDuplicated
+|stat_text                        = Heist Chests have a 100% chance to Duplicate their contents<br>Monsters have 100% more [[Life]]
+|stat1_id                         = chance_for_double_items_from_heist_chests_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = map_heist_monster_life_+%_final_from_sextant
+|stat2_min                        = 100
+|stat2_max                        = 100
+}}

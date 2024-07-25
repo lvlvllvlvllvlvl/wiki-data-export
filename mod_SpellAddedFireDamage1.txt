@@ -1,0 +1,35 @@
+{{Mod
+|id                               = SpellAddedFireDamage1
+|mod_groups                       = SpellAddedElementalDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Heated
+|mod_type                         = SpellAddedFireDamage
+|stat_text                        = Adds (1-2) to (3-4) [[Fire Damage]] to [[Spell|Spells]]
+|stat1_id                         = spell_minimum_added_fire_damage
+|stat1_min                        = 1
+|stat1_max                        = 2
+|stat2_id                         = spell_maximum_added_fire_damage
+|stat2_min                        = 3
+|stat2_max                        = 4
+|spawn_weight1_tag                = attack_dagger
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = wand
+|spawn_weight2_value              = 800
+|spawn_weight3_tag                = sceptre
+|spawn_weight3_value              = 800
+|spawn_weight4_tag                = dagger
+|spawn_weight4_value              = 800
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|generation_weight1_tag           = has_caster_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_attack_mod
+|generation_weight2_value         = 50
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = elemental_damage, caster_damage, damage, elemental, fire, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

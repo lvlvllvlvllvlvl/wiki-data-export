@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AddedPhysicalDamage9Inverted
+|mod_groups                       = PhysicalDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 76
+|name                             = Flaring
+|mod_type                         = SelfPhysicalDamageTaken
+|stat_text                        = Adds (11-15) to (22-26) [[Physical Damage]] to [[Attack|Attacks]] against you
+|stat1_id                         = from_self_minimum_added_attack_physical_damage_taken
+|stat1_min                        = 11
+|stat1_max                        = 15
+|stat2_id                         = from_self_maximum_added_attack_physical_damage_taken
+|stat2_min                        = 22
+|stat2_max                        = 26
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = physical_damage, damage, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

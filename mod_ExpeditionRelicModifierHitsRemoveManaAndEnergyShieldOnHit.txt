@@ -1,0 +1,17 @@
+{{Mod
+|id                               = ExpeditionRelicModifierHitsRemoveManaAndEnergyShieldOnHit
+|mod_groups                       = ExpeditionRelicModifierHitsRemoveManaAndEnergyShieldOnHit
+|domain                           = 27
+|generation_type                  = 1
+|required_level                   = 73
+|mod_type                         = ExpeditionRelicModifierHitsRemoveManaAndEnergyShieldOnHit
+|stat_text                        = 
+|stat1_id                         = remove_%_of_current_mana_on_hit
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = remove_%_of_current_energy_shield_on_hit
+|stat2_min                        = 10
+|stat2_max                        = 10
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+}}

@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vaal Reap
 |class_id                                = Active Skill Gem
@@ -8,18 +8,21 @@
 |tags                                    = vaal_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalReap
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |strength_percent                        = 60
 |intelligence_percent                    = 40
 |gem_tags                                = Spell, Physical, AoE, Duration, Vaal
+|secondary_skill_id                      = Bloodreap
 |gem_description                         = Bloody scythes swipe around a selected area, hitting enemies with physical damage. An area of boiling blood is left beneath them for a duration which deals physical damage over time. Also gives a bonus to maximum Blood Charges for a secondary duration.
 |active_skill_name                       = Vaal Reap
 |skill_id                                = VaalReap
 |cast_time                               = 0.8
 |required_level                          = 28
-|quality_type1_weight                    = 100
-|quality_type1_stat_text                 = 0.5% increased Area of Effect
-|quality_type1_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type1_stat1_value               = 500
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Deals +(0.25-5)% more Damage per Blood Charge
+|quality_type1_breakpoints               = 4.0
+|quality_type1_stat1_id                  = blood_scythe_damage_+%_final_per_charge
+|quality_type1_stat1_value               = 250
 |static_vaal_souls_requirement           = 25
 |static_vaal_stored_uses                 = 1
 |static_vaal_soul_gain_prevention_time   = 8
@@ -46,7 +49,7 @@
 |static_stat8_value                      = 4
 |static_stat9_id                         = vaal_reap_gain_maximum_blood_charges_to_on_use
 |static_stat9_value                      = 1
-|stat_text                               = Deals (115-1886) to (172-2828) Physical Damage<br>Deals (179.1-2946.2) Base Physical Damage per second<br>Base duration is 5 seconds<br>Base secondary duration is 8 seconds<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>Effects of Boiling Blood Linger for 2 seconds<br>Grants +4 to maximum Blood Charges<br>Grants up to maximum Blood Charges
+|stat_text                               = Deals (115-1886) to (172-2828) Physical Damage<br>Deals (179.1-2946.2) Base Physical Damage per second<br>Base duration is 5.00 seconds<br>Base secondary duration is 8.00 seconds<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>Effects of Boiling Blood Linger for 2 seconds<br>Grants +4 to maximum Blood Charges<br>Grants up to maximum Blood Charges
 |level1                                  = True
 |level1_level_requirement                = 28
 |level1_stat_text                        = Deals 115 to 172 Physical Damage<br>Deals 179.1 Base Physical Damage per second

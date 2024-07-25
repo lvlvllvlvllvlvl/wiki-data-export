@@ -1,0 +1,12 @@
+{{Passive skill
+|id                                  = AlternateAscendancyVoodooShamanHexesChoice2
+|int_id                              = 10538
+|name                                = Choir of the Damned
+|reminder_text                       = (You can only take one of the three Warlock Power passives)<br>(Penance Mark curses a single enemy, causing them to spawn multiple phantasms when hit. The phantasms will be allies of the marked enemy with the same monster level. They cast a projectile spell which deals physical damage, and are immune to curses. You can only have one Mark at a time)
+|is_multiple_choice_option           = True
+|icon                                = VoodooShamanSpecialCurse2 (VoodooShaman)
+|stat1_id                            = local_display_grants_skill_penance
+|stat1_value                         = 20
+|stat_text                           = Grants [[Level]] 20 Penance Mark [[Skill]]
+|connections                         = AlternateAscendancyVoodooShamanHexesMulti1
+}}

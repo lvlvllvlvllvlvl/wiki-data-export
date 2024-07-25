@@ -1,0 +1,32 @@
+{{Mod
+|id                               = MapUberModPoison
+|mod_groups                       = MapPoisoning
+|domain                           = 37
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Venom
+|mod_type                         = MapUberModPoison
+|stat_text                        = Monsters [[Poison]] on [[Hit]]<br>Monsters have 100% increased [[Poison]] Duration<br>All Damage from Monsters' [[Hit|Hits]] can [[Poison]]
+|stat1_id                         = map_monsters_poison_on_hit
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_monsters_base_poison_duration_+%
+|stat2_min                        = 100
+|stat2_max                        = 100
+|stat3_id                         = map_monsters_all_damage_can_poison
+|stat3_min                        = 1
+|stat3_max                        = 1
+|stat4_id                         = map_pack_size_+%
+|stat4_min                        = 6
+|stat4_max                        = 6
+|stat5_id                         = map_item_drop_rarity_+%
+|stat5_min                        = 64
+|stat5_max                        = 64
+|stat6_id                         = map_item_drop_quantity_+%
+|stat6_min                        = 20
+|stat6_max                        = 20
+|spawn_weight1_tag                = uber_tier_map
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,21 @@
+{{Mod
+|id                               = MapSupporterInstabilityCharges
+|mod_groups                       = MapSupporterInstabilityCharges
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSupporterInstabilityCharges
+|stat_text                        = Players gain Instability on [[Kill]]<br />Unstable Players eventually detonate<br>7% Chance to convert Maps to Conqueror Maps<br>30% increased Quantity of Items found in this Area<br>10% increased Pack size
+|stat1_id                         = map_players_gain_instability_on_kill
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_supporter_map_to_conqueror_map_permyriad
+|stat2_min                        = 700
+|stat2_max                        = 700
+|stat3_id                         = map_item_drop_quantity_+%
+|stat3_min                        = 30
+|stat3_max                        = 30
+|stat4_id                         = map_pack_size_+%
+|stat4_min                        = 10
+|stat4_max                        = 10
+}}

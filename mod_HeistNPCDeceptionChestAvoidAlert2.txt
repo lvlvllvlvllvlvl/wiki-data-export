@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HeistNPCDeceptionChestAvoidAlert2
+|mod_groups                       = HeistNPCJobChestAvoidAlert
+|domain                           = 23
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of Subtlety
+|mod_type                         = HeistNPCDeceptionChestAvoidAlert
+|stat_text                        = (5-6)% chance to not generate Alert [[Level]] on opening a Chest using Deception
+|stat1_id                         = heist_job_deception_avoid_alarm_chance_%_on_open_chest
+|stat1_min                        = 5
+|stat1_max                        = 6
+|spawn_weight1_tag                = heist_equipment_deception
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,10 +1,10 @@
 {{Passive skill
 |id                                  = atlas_alva_3_3
 |int_id                              = 37552
-|name                                = Incursion Item Quantity
+|name                                = Incursion Mission Chance
 |is_atlas_passive                    = True
-|icon                                = AlvaNode (AtlasTrees)
-|stat1_id                            = map_incursion_item_quantity_+%
-|stat1_value                         = 5
-|stat_text                           = 5% increased Quantity of Items dropped in Incursions in your Maps
+|icon                                = AlvaNode2 (AtlasTrees)
+|stat1_id                            = map_master_mission_alva_%_chance
+|stat1_value                         = 8
+|stat_text                           = Your Maps have +8% chance to contain Alva
 }}

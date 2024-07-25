@@ -1,0 +1,21 @@
+{{Mod
+|id                               = MapSupporterGigaReflect
+|mod_groups                       = MapSupporterGigaReflect
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSupporterGigaReflect
+|stat_text                        = Monsters reflect 100% of [[Physical Damage]]<br>Monsters reflect 100% of [[Elemental Damage]]<br>3% Chance to convert Maps to Conqueror Maps<br>10% increased Pack size
+|stat1_id                         = map_monsters_reflect_%_physical_damage
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = map_monsters_reflect_%_elemental_damage
+|stat2_min                        = 100
+|stat2_max                        = 100
+|stat3_id                         = map_supporter_map_to_conqueror_map_permyriad
+|stat3_min                        = 300
+|stat3_max                        = 300
+|stat4_id                         = map_pack_size_+%
+|stat4_min                        = 10
+|stat4_max                        = 10
+}}

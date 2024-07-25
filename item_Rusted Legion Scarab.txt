@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Rusted Legion Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = Your faith and our Order are not in opposition, young Eutychus. <br>Let this be the start of a new era of cooperation.
 |drop_level                              = 68
-|tags                                    = rusted_scarab, default
+|tags                                    = scarab, legion_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabLegion1
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabLegion1
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = Area contains an additional Legion Encounter
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabLegion1
 }}

@@ -1,0 +1,29 @@
+{{Mod
+|id                               = LocalBaseEvasionRatingAndLife2
+|mod_groups                       = BaseLocalDefencesAndLife
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 46
+|name                             = Fawn's
+|mod_type                         = LocalBaseEvasionRatingAndLife
+|stat_text                        = +(21-42) to [[Evasion Rating]]<br>+(24-28) to maximum [[Life]]
+|stat1_id                         = local_base_evasion_rating
+|stat1_min                        = 21
+|stat1_max                        = 42
+|stat2_id                         = base_maximum_life
+|stat2_min                        = 24
+|stat2_max                        = 28
+|spawn_weight1_tag                = dex_armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = str_dex_armour
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = dex_int_armour
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = str_dex_int_armour
+|spawn_weight4_value              = 333
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = resource, life, defences, evasion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

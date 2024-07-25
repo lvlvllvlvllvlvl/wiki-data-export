@@ -1,0 +1,13 @@
+{{Mod
+|id                               = MonsterImplicitLightning1
+|mod_groups                       = LightningDamageAsPortionOfDamage
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterLightningDamageAsPortionOfDamage
+|stat_text                        = Gain 25% of [[Physical Damage]] as Extra [[Lightning Damage]] (Hidden)
+|stat1_id                         = physical_damage_%_to_add_as_lightning
+|stat1_min                        = 25
+|stat1_max                        = 25
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, lightning
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeLocalLifeLeechAndSpeed2
+|mod_groups                       = WeaponTreeLocalLifeLeechAndSpeed
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 64
+|mod_type                         = WeaponTreeLocalLifeLeechAndSpeed
+|stat_text                        = 0.8% of [[Attack Damage]] Leeched as [[Life]]<br>30% increased total Recovery per second from [[Life]] [[Leech]]
+|stat1_id                         = local_life_leech_from_any_damage_permyriad
+|stat1_min                        = 80
+|stat1_max                        = 80
+|stat2_id                         = life_leech_speed_+%
+|stat2_min                        = 30
+|stat2_max                        = 30
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

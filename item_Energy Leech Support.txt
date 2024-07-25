@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Energy Leech Support
 |class_id                                = Support Skill Gem
@@ -7,24 +7,17 @@
 |drop_level                              = 31
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemEnergyShieldLeech
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |intelligence_percent                    = 100
 |gem_tags                                = Support
 |skill_id                                = SupportEnergyShieldLeech
 |support_gem_letter                      = g
 |required_level                          = 31
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills deal 0.5% increased Damage while Leeching Energy Shield
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills deal (0.5-10)% increased Damage while Leeching Energy Shield
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = damage_+%_while_es_leeching
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Supported Skills deal 0.5% increased Damage while on Full Energy Shield
-|quality_type2_stat1_id                  = damage_+%_on_full_energy_shield
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 20
-|quality_type3_stat_text                 = Supported Skills have 2% increased Maximum Recovery per Energy Shield Leech
-|quality_type3_stat1_id                  = maximum_energy_shield_leech_amount_per_leech_+%
-|quality_type3_stat1_value               = 2000
 |static_cost_multiplier                  = 130
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

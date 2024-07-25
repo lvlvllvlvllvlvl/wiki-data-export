@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SanctumBossIncreasedDamageTaken2
+|mod_groups                       = SanctumBossIncreasedDamageTaken
+|domain                           = 7
+|generation_type                  = 1
+|required_level                   = 78
+|name                             = Usurper's
+|mod_type                         = SanctumBossIncreasedDamageTaken
+|stat_text                        = Bosses take (8-10)% increased Damage
+|stat1_id                         = map_sanctum_boss_damage_taken_+%
+|stat1_min                        = 8
+|stat1_max                        = 10
+|spawn_weight1_tag                = medium_sanctum_relic
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

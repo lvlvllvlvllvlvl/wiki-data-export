@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SentinelSentinelResonatingOnUse1
+|mod_groups                       = SentinelResonatingOnUse
+|domain                           = 30
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Charge
+|mod_type                         = SentinelResonatingOnUse
+|stat_text                        = Character Gains Charged Shrine for 10 seconds on deployment
+|stat1_id                         = sentinel_drone_player_gains_resonating_shrine_on_summon_ms
+|stat1_min                        = 10000
+|stat1_max                        = 10000
+|spawn_weight1_tag                = special_sentinel_mod
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 100
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,28 @@
+{{Skill
+|gem_description                         = Spin with a sword or axe to deal damage in an area around you. If you have at least 10 rage, create a ragestorm attached to you that repeatedly deals attack damage to enemies inside based on your attack speed. The ragestorm consumes rage at an accelerating rate, and ends if you run out.
+|active_skill_name                       = Rage Vortex of Berserking
+|item_class_id_restriction               = One Hand Sword, Thrusting One Hand Sword, Two Hand Sword, One Hand Axe, Two Hand Axe
+|skill_id                                = GemlingRageVortex
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_cost_amounts                     = 5
+|static_cost_types                       = LifePercent
+|static_damage_effectiveness             = 60
+|static_damage_multiplier                = 60
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_can_add_multiple_charges_per_action
+|static_stat2_value                      = 1
+|static_stat3_id                         = base_physical_damage_%_to_convert_to_fire
+|static_stat3_value                      = 80
+|static_stat4_id                         = active_skill_base_area_of_effect_radius
+|static_stat4_value                      = 15
+|static_stat5_id                         = rage_slash_maximum_vortices
+|static_stat5_value                      = 1
+|static_stat6_id                         = rage_storm_scaling_rage_hundred_times_base_cost
+|static_stat6_value                      = 300
+|stat_text                               = 80% of Physical Damage Converted to Fire Damage<br>Base radius is 1.5 metres<br>Maximum 1 Ragestorm<br>Lose 3 Rage per second
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

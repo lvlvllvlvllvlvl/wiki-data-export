@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AbyssJewelChillEffect1_
+|mod_groups                       = AbyssJewelChillEffect
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 30
+|name                             = of Chilling
+|mod_type                         = AbyssJewelChillEffect
+|stat_text                        = (10-15)% increased Effect of Cold Ailments
+|stat1_id                         = cold_ailment_effect_+%
+|stat1_min                        = 10
+|stat1_max                        = 15
+|spawn_weight1_tag                = abyss_jewel_summoner
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 500
+|tags                             = elemental, cold, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

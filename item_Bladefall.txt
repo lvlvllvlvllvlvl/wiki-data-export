@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Bladefall
 |class_id                                = Active Skill Gem
@@ -9,24 +9,17 @@
 |metadata_id                             = Metadata/Items/Gems/SkillGemBladefall
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
 |dexterity_percent                       = 100
-|gem_tags                                = Critical, Spell, AoE, Physical, Duration
-|gem_description                         = Ethereal weapons rain from the sky, dealing damage to enemies in a sequence of volleys, each wider but less damaging than the last. Enemies can be hit multiple times where these overlap.
+|gem_tags                                = Spell, AoE, Physical, Duration
+|gem_description                         = Ethereal weapons rain from the sky, dealing damage to enemies in a sequence of volleys. Enemies can be hit multiple times where these overlap.
 |active_skill_name                       = Bladefall
 |skill_id                                = Bladefall
 |cast_time                               = 0.7
 |required_level                          = 28
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Area of Effect
-|quality_type1_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% chance to Knock Enemies Back on hit
-|quality_type2_stat1_id                  = base_global_chance_to_knockback_%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 2% increased distance between Volleys
-|quality_type3_stat1_id                  = bladefall_volley_gap_distance_+%
-|quality_type3_stat1_value               = 2000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = +(0.05-1) Volleys
+|quality_type1_breakpoints               = 20.0
+|quality_type1_stat1_id                  = bladefall_number_of_volleys
+|quality_type1_stat1_value               = 50
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 6
 |static_damage_effectiveness             = 140
@@ -41,17 +34,11 @@
 |static_stat3_value                      = 1
 |static_stat4_id                         = bladefall_number_of_volleys
 |static_stat4_value                      = 5
-|static_stat5_id                         = blades_left_in_ground_+%_final_if_not_hand_cast
-|static_stat5_value                      = -50
-|static_stat6_id                         = critical_strike_chance_+%
-|static_stat6_value                      = 100
-|static_stat7_id                         = bladefall_damage_per_stage_+%_final
-|static_stat7_value                      = -6
-|static_stat8_id                         = bladefall_critical_strike_chance_+%_per_stage
-|static_stat8_value                      = -20
-|static_stat9_id                         = maximum_number_of_blades_left_in_ground
-|static_stat9_value                      = 40
-|stat_text                               = Deals (43-595) to (65-893) Physical Damage<br>Base duration is 6 seconds<br>Leaves a Lingering Blade in the ground for every Volley<br>5 Volleys<br>Leaves 50% fewer Lingering Blades in the ground if you don't Cast this Spell yourself<br>100% increased Critical Strike Chance<br>6% less Damage per Volley<br>20% reduced Critical Strike Chance per Volley<br>Maximum 40 Lingering Blades can be left in the ground at a time
+|static_stat5_id                         = quality_display_bladefall_is_gem
+|static_stat5_value                      = 1
+|static_stat6_id                         = maximum_number_of_blades_left_in_ground
+|static_stat6_value                      = 40
+|stat_text                               = Deals (43-595) to (65-893) Physical Damage<br>Base duration is 6.00 seconds<br>Leaves a Lingering Blade in the ground for every Volley<br>5 Volleys<br>Maximum 40 Lingering Blades can be left in the ground at a time
 |level1                                  = True
 |level1_level_requirement                = 28
 |level1_cost_amounts                     = 12
@@ -413,5 +400,4 @@
 |level20_dexterity_requirement           = 155
 |level20_experience                      = 340652931
 |level21_dexterity_requirement           = 159
-|inventory_icon                          = Bladefall
 }}

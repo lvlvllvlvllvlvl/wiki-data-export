@@ -1,0 +1,19 @@
+{{Mod
+|id                               = V2CastSpeedCorrupted
+|mod_groups                       = IncreasedCastSpeed
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = IncreasedCastSpeedFishing
+|stat_text                        = (10-20)% increased [[Cast Speed]]
+|stat1_id                         = base_cast_speed_+%
+|stat1_min                        = 10
+|stat1_max                        = 20
+|spawn_weight1_tag                = fishing_rod
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = red_herring, caster, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

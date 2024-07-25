@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Mortal Hope
 |class_id                                = MapFragment
@@ -9,5 +9,7 @@
 |tags                                    = atziri2, default
 |metadata_id                             = Metadata/Items/MapFragments/CurrencyVaalFragment2_2
 |help_text                               = Can be used in a personal Map Device.
-|implicit1                               = VaalFragmentImplicit2
+|stack_size                              = 10
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = VaalFragmentImplicit2
 }}

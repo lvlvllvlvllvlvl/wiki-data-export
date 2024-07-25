@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MapEssenceMonstersContainHigherTierEssences
+|mod_groups                       = MapEssenceMonstersContainHigherTierEssences
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Booming
+|mod_type                         = MapEssenceMonstersContainHigherTierEssences
+|stat_text                        = Essences found in the next Area will be a higher [[Level|level]]<br>-2 to Maximum [[Charge|Charges]]
+|stat1_id                         = map_essence_monsters_higher_tier
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_extra_max_charges
+|stat2_min                        = -2
+|stat2_max                        = -2
+|spawn_weight1_tag                = essence_leaguestone
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

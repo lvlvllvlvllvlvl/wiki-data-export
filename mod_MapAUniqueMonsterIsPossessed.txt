@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapAUniqueMonsterIsPossessed
+|mod_groups                       = MapBossIsPossessed
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Harrowing
+|mod_type                         = MapBossIsPossessed
+|stat_text                        = If the next Area contains any Unique Monsters, one will be Possessed
+|stat1_id                         = map_random_unique_monster_is_possessed
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = torment_leaguestone
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

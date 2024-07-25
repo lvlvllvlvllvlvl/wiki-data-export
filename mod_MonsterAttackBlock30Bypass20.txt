@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MonsterAttackBlock30Bypass20
+|mod_groups                       = MonsterBlockAndBypass
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterBlockAttackAndBypass
+|stat_text                        = 20% Chance to [[Block]] [[Attack Damage]] (Hidden)<br>You take 10% of Damage from Blocked [[Hit|Hits]] (Hidden)
+|stat1_id                         = monster_base_block_%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = base_block_%_damage_taken
+|stat2_min                        = 10
+|stat2_max                        = 10
+|tags                             = block
+}}

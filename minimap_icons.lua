@@ -1824,5 +1824,125 @@ local data = {	{
 	},
 	{
 		id = "CrucibleForge", 
+	},
+	{
+		id = "AncestralChieftainKiloava", 
+	},
+	{
+		id = "AncestralChieftainAkoya", 
+	},
+	{
+		id = "AncestralChieftainMaata", 
+	},
+	{
+		id = "AncestralChieftainRakiata", 
+	},
+	{
+		id = "AncestralChieftainKahuturoa", 
+	},
+	{
+		id = "AncestralChieftainAhuana", 
+	},
+	{
+		id = "AncestralChieftainKaom", 
+	},
+	{
+		id = "AncestralChieftainNavali", 
+	},
+	{
+		id = "AncestralChieftainUtula", 
+	},
+	{
+		id = "AncestralChieftainTawhanuku", 
+	},
+	{
+		id = "AncestralChieftainIkiaho", 
+	},
+	{
+		id = "AncestralArenaEntrance", 
+	},
+	{
+		id = "AncestralEnemyChieftainTotem", 
+	},
+	{
+		id = "AncestralAllyChieftainTotem", 
+	},
+	{
+		id = "AncestralAllyChieftainTotemAttacked", 
+	},
+	{
+		id = "AncestralFieldItem", 
+	},
+	{
+		id = "AncestralEnemyTotem", 
+	},
+	{
+		id = "AncestralAllyTotem", 
+	},
+	{
+		id = "AncesltralAllyTotemAttacked", 
+	},
+	{
+		id = "AncestralEnemyChieftainTotemAttacked", 
+	},
+	{
+		id = "AncesltralEnemyTotemAttacked", 
+	},
+	{
+		id = "WardenTrackerUniqueMonster", 
+	},
+	{
+		id = "WardenTrackerRareMonster", 
+	},
+	{
+		id = "AzmeriWoodsEntrance", 
+	},
+	{
+		id = "ValdoChest", 
+	},
+	{
+		id = "NecropolisCorpse", 
+	},
+	{
+		id = "NecropolisLocker", 
+	},
+	{
+		id = "Strongbox", 
+	},
+	{
+		id = "CorpseTypeUndead", 
+	},
+	{
+		id = "CorpseTypeHumanoid", 
+	},
+	{
+		id = "CorpseTypeEldritch", 
+	},
+	{
+		id = "CorpseTypeDemon", 
+	},
+	{
+		id = "CorpseTypeConstruct", 
+	},
+	{
+		id = "CorpseTypeBeast", 
+	},
+	{
+		id = "RacetrackCyanRhoa", 
+	},
+	{
+		id = "RacetrackPurpleRhoa", 
+	},
+	{
+		id = "RacetrackYellowRhoa", 
+	},
+	{
+		id = "RacetrackRedRhoa", 
+	},
+	{
+		id = "RacetrackGreenRhoa", 
+	},
+	{
+		id = "RacetrackBlueRhoa", 
 	}}
 return data

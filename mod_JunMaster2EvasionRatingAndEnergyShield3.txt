@@ -1,0 +1,25 @@
+{{Mod
+|id                               = JunMaster2EvasionRatingAndEnergyShield3
+|mod_groups                       = IncreasedEvasionRating, IncreasedEnergyShield
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 81
+|name                             = Chosen
+|mod_type                         = EvasionRatingAndEnergyShield
+|stat_text                        = +(214-285) to [[Evasion Rating]]<br>+(21-25) to maximum [[Energy Shield]]
+|stat1_id                         = base_evasion_rating
+|stat1_min                        = 214
+|stat1_max                        = 285
+|stat2_id                         = base_maximum_energy_shield
+|stat2_min                        = 21
+|stat2_max                        = 25
+|spawn_weight1_tag                = belt
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = quiver
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = unveiled_mod, defences, evasion, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

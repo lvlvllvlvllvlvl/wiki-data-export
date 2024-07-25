@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MonsterFastCasting1__
+|mod_groups                       = IncreasedCastSpeed
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|name                             = of Expertise
+|mod_type                         = MonsterIncreasedCastSpeed
+|stat_text                        = 40% increased [[Cast Speed]] (Hidden)
+|stat1_id                         = base_cast_speed_+%
+|stat1_min                        = 40
+|stat1_max                        = 40
+|spawn_weight1_tag                = caster
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster, speed
+}}

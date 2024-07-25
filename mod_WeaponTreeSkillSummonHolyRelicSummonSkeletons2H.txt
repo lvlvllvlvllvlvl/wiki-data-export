@@ -1,0 +1,23 @@
+{{Mod
+|id                               = WeaponTreeSkillSummonHolyRelicSummonSkeletons2H
+|mod_groups                       = WeaponTreeSkillSummonHolyRelicSummonSkeletons
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSkillSummonHolyRelicSummonSkeletons
+|stat_text                        = Summoned Skeletons and Holy Relics convert 100% of their [[Physical Damage]] to a random Element<br>200% increased Effect of Non-Damaging Ailments inflicted by Summoned Skeletons and Holy Relics
+|stat1_id                         = skeletons_and_holy_relics_convert_%_physical_damage_to_a_random_element
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = skeletons_and_holy_relics_+%_effect_of_non_damaging_ailments
+|stat2_min                        = 200
+|stat2_max                        = 200
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = minion_unique_weapon
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = weapon_can_roll_minion_modifiers
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+}}

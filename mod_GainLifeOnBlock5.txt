@@ -1,0 +1,24 @@
+{{Mod
+|id                               = GainLifeOnBlock5
+|mod_groups                       = GainLifeOnBlock
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of Rebounding
+|mod_type                         = GainLifeOnBlock
+|stat_text                        = (61-85) [[Life]] gained when you [[Block]]
+|stat1_id                         = life_gained_on_block
+|stat1_min                        = 61
+|stat1_max                        = 85
+|spawn_weight1_tag                = str_shield
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = str_dex_shield
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = str_int_shield
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = block, resource, life
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

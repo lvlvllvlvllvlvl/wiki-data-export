@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Frostbolt
 |class_id                                = Active Skill Gem
@@ -16,22 +16,10 @@
 |skill_id                                = FrostBolt
 |cast_time                               = 0.75
 |required_level                          = 1
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Cold Damage
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% increased Cold Damage
 |quality_type1_stat1_id                  = cold_damage_+%
 |quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 10
-|quality_type2_stat_text                 = Projectiles gain 2% increased Projectile Speed per second
-|quality_type2_stat1_id                  = frostbolt_projectile_acceleration
-|quality_type2_stat1_value               = 2000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 1% less Projectile Speed
-|quality_type3_stat1_id                  = frostbolt_projectile_speed_+%_final
-|quality_type3_stat1_value               = -1000
-|quality_type4_weight                    = 20
-|quality_type4_stat_text                 = Projectiles have 1% chance to Return to you
-|quality_type4_stat1_id                  = projectile_return_%_chance
-|quality_type4_stat1_value               = 1000
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 5
 |static_damage_effectiveness             = 360
@@ -403,5 +391,4 @@
 |level20_intelligence_requirement        = 155
 |level20_experience                      = 342051651
 |level21_intelligence_requirement        = 159
-|inventory_icon                          = Frostbolt
 }}

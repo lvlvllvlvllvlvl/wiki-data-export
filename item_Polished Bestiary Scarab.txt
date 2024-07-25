@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Polished Bestiary Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = None among us understand the beasts of this world better than you,<br>honoured Agnar. You will root out the mysteries of wild-artefacts.
 |drop_level                              = 68
-|tags                                    = polished_scarab, default
+|tags                                    = scarab, bestiary_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabBeasts2
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabBeasts2
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = Area contains Einhar<br>Area contains 2 additional Red Beasts
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabBeasts2
 }}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = ProjectileDamageJewel
+|mod_groups                       = DamageForm
+|domain                           = 10
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Archery
+|mod_type                         = ProjectileDamageForJewel
+|stat_text                        = (10-12)% increased Projectile Damage
+|stat1_id                         = projectile_damage_+%
+|stat1_min                        = 10
+|stat1_max                        = 12
+|spawn_weight1_tag                = not_dex
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 500
+|tags                             = damage
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

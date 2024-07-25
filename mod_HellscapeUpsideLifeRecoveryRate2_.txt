@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideLifeRecoveryRate2_
+|mod_groups                       = LifeRecoveryRate
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 45
+|mod_type                         = LifeRecoveryRate
+|stat_text                        = (5-6)% increased [[Life]] Recovery rate
+|stat1_id                         = life_recovery_rate_+%
+|stat1_min                        = 5
+|stat1_max                        = 6
+|spawn_weight1_tag                = body_armour
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

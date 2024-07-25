@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialExertedAttackDamage
+|mod_groups                       = ExertedAttackDamage
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Colossal
+|mod_type                         = ExertedAttackDamage
+|stat_text                        = Exerted [[Attack|Attacks]] deal (30-40)% increased Damage
+|stat1_id                         = empowered_attack_damage_+%
+|stat1_min                        = 30
+|stat1_max                        = 40
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = damage, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

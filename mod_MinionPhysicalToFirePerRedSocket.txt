@@ -1,0 +1,15 @@
+{{Mod
+|id                               = MinionPhysicalToFirePerRedSocket
+|mod_groups                       = MinionConversionPerSocket
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MinionPhysicalToFirePerRedSocket
+|stat_text                        = [[Minion|Minions]] convert 25% of [[Physical Damage]] to [[Fire Damage]] per Red [[Item socket|Socket]]
+|stat1_id                         = minion_base_physical_damage_%_to_convert_to_fire_per_red_socket_on_item
+|stat1_min                        = 25
+|stat1_max                        = 25
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, fire, minion
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

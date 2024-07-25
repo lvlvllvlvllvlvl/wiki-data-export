@@ -1,0 +1,21 @@
+{{Mod
+|id                               = FreezingPulseThresholdJewel_1
+|mod_groups                       = PassiveJewelGrantsRadius
+|domain                           = 10
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = FreezingPulseThresholdJewel
+|stat_text                        = With at least 40 [[Intelligence]] in Radius, [[Freezing Pulse]] fires 2 additional Projectiles<br>With at least 40 [[Intelligence]] in Radius, 25% increased [[Freezing Pulse]] Damage if<br />you've Shattered an Enemy [[Recently]]
+|stat1_id                         = local_unique_jewel_freezing_pulse_number_of_additional_projectiles_with_50_int_in_radius
+|stat1_min                        = 2
+|stat1_max                        = 2
+|stat2_id                         = local_unique_jewel_freezing_pulse_damage_+%_if_enemy_shattered_recently_with_50_int_in_radius
+|stat2_min                        = 25
+|stat2_max                        = 25
+|stat3_id                         = local_jewel_effect_base_radius
+|stat3_min                        = 1200
+|stat3_max                        = 1200
+|tags                             = caster_damage, damage, caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

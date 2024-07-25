@@ -1,0 +1,15 @@
+{{Mod
+|id                               = AzmeriAltarDeer
+|mod_groups                       = AzmeriAltar
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = AzmeriAltarDeer
+|stat_text                        = Basic Currency Items dropped by slain Enemies have 25% chance to be Duplicated<br>50% increased Damage taken
+|stat1_id                         = %_chance_to_duplicate_dropped_currency
+|stat1_min                        = 25
+|stat1_max                        = 25
+|stat2_id                         = base_damage_taken_+%
+|stat2_min                        = 50
+|stat2_max                        = 50
+}}

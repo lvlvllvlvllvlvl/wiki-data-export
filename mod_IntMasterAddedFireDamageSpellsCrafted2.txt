@@ -1,0 +1,21 @@
+{{Mod
+|id                               = IntMasterAddedFireDamageSpellsCrafted2
+|mod_groups                       = SpellAddedElementalDamage
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 30
+|name                             = Burning
+|mod_type                         = SpellAddedFireDamage
+|stat_text                        = Adds (12-16) to (23-27) [[Fire Damage]] to [[Spell|Spells]]
+|stat1_id                         = spell_minimum_added_fire_damage
+|stat1_min                        = 12
+|stat1_max                        = 16
+|stat2_id                         = spell_maximum_added_fire_damage
+|stat2_min                        = 23
+|stat2_max                        = 27
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, fire, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

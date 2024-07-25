@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SanctumStartingGold4
+|mod_groups                       = SanctumStartingGold
+|domain                           = 7
+|generation_type                  = 1
+|required_level                   = 82
+|name                             = Nobleman's
+|mod_type                         = SanctumStartingGold
+|stat_text                        = Gain (40-49) Aureus Coins at the start of the Sanctum
+|stat1_id                         = sanctum_starting_gold
+|stat1_min                        = 40
+|stat1_max                        = 49
+|spawn_weight1_tag                = small_sanctum_relic
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

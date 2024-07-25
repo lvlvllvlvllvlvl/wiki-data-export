@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MapIgnition
+|mod_groups                       = MapIgnition
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapIgnition
+|stat_text                        = Monsters deal 30% extra [[Physical Damage]] as Fire<br>30% increased Monster [[Movement Speed]]
+|stat1_id                         = map_monsters_%_physical_damage_to_add_as_fire
+|stat1_min                        = 30
+|stat1_max                        = 30
+|stat2_id                         = map_monsters_movement_speed_+%
+|stat2_min                        = 30
+|stat2_max                        = 30
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, fire, speed
+}}

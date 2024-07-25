@@ -1,0 +1,18 @@
+{{Mod
+|id                               = ShockEffectOnYouJewel
+|mod_groups                       = ShockEffect
+|domain                           = 10
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Stormdweller
+|mod_type                         = ReducedShockEffectOnSelf
+|stat_text                        = (35-30)% reduced Effect of [[Shock]] on you
+|stat1_id                         = shocked_effect_on_self_+%
+|stat1_min                        = -35
+|stat1_max                        = -30
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 250
+|tags                             = elemental, lightning, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

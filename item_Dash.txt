@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Dash
 |class_id                                = Active Skill Gem
@@ -15,18 +15,11 @@
 |skill_id                                = QuickDodge
 |cast_time                               = 0.15
 |required_level                          = 4
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Cooldown Recovery Rate
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.5-10)% increased Cooldown Recovery Rate
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = base_cooldown_speed_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% increased travel distance
-|quality_type2_stat1_id                  = skill_travel_distance_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 20
-|quality_type3_stat_text                 = Grants Phasing for 0.1 seconds
-|quality_type3_stat1_id                  = dash_grants_phasing_after_use_ms
-|quality_type3_stat1_value               = 100000
 |static_cost_types                       = Mana
 |static_stored_uses                      = 1
 |static_cooldown                         = 2.5
@@ -400,5 +393,4 @@
 |level20_dexterity_requirement           = 155
 |level20_experience                      = 342050139
 |level21_dexterity_requirement           = 159
-|inventory_icon                          = Dash
 }}

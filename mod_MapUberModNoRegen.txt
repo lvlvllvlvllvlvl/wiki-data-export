@@ -1,0 +1,29 @@
+{{Mod
+|id                               = MapUberModNoRegen
+|mod_groups                       = MapUberModNoRegen
+|domain                           = 37
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Stasis
+|mod_type                         = MapUberModNoRegen
+|stat_text                        = Players cannot Regenerate [[Life]], [[Mana]] or [[Energy Shield]]<br>Players cannot Recharge [[Energy Shield]]
+|stat1_id                         = map_players_no_regeneration_including_es
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_player_cannot_recharge_energy_shield
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 25
+|stat3_max                        = 25
+|stat4_id                         = map_item_drop_rarity_+%
+|stat4_min                        = 20
+|stat4_max                        = 20
+|stat5_id                         = map_item_drop_quantity_+%
+|stat5_min                        = 20
+|stat5_max                        = 20
+|spawn_weight1_tag                = uber_tier_map
+|spawn_weight1_value              = 40
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

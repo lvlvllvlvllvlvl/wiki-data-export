@@ -1,0 +1,29 @@
+{{Mod
+|id                               = NemesisAlliesTakeNoDamagePulse_
+|mod_groups                       = MonsterNemesis
+|domain                           = 3
+|generation_type                  = 4
+|required_level                   = 15
+|name                             = Benevolent Guardian
+|granted_buff_id                  = visual_display_buff_not_hidden
+|granted_buff_value               = 0
+|mod_type                         = MonsterNemesisAlliesCannotTakeDamagePulse
+|stat_text                        = 
+|stat1_id                         = monster_allies_cannot_take_damage_pulse_owner
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = no_cannot_die_aura
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = abyssal
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = immobile
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = breach_commander
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = legion_monster
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = rare
+|spawn_weight6_value              = 1000
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+}}

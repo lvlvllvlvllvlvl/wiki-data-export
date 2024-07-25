@@ -9,19 +9,19 @@
 |static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_is_projectile
 |static_stat1_value                      = 1
-|static_stat2_id                         = spell_minimum_base_fire_damage
-|static_stat2_value                      = 2
-|static_stat3_id                         = spell_maximum_base_fire_damage
+|static_stat2_id                         = always_pierce
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_fire_damage
 |static_stat3_value                      = 2
-|static_stat4_id                         = always_pierce
-|static_stat4_value                      = 1
+|static_stat4_id                         = spell_maximum_base_fire_damage
+|static_stat4_value                      = 2
 |static_stat5_id                         = base_cast_speed_+%
 |static_stat5_value                      = -50
 |static_stat6_id                         = base_projectile_speed_+%
 |static_stat6_value                      = 60
 |static_stat7_id                         = flamethrower_damage_+%_per_stage_final
 |static_stat7_value                      = 100
-|stat_text                               = Deals 2 to 2 Fire Damage<br>Projectiles Pierce all Targets<br>50% reduced Cast Speed<br>60% increased Projectile Speed<br>100% more Damage with Hits and Ailments for each stage
+|stat_text                               = Projectiles Pierce all Targets<br>Deals 2 to 2 Fire Damage<br>50% reduced Cast Speed<br>60% increased Projectile Speed<br>100% more Damage with Hits and Ailments for each stage
 |level1                                  = True
 |level1_level_requirement                = 1
 }}

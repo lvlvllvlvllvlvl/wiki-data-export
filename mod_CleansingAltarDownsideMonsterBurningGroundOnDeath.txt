@@ -1,0 +1,18 @@
+{{Mod
+|id                               = CleansingAltarDownsideMonsterBurningGroundOnDeath
+|mod_groups                       = CleansingAltarDownsideMonsterBurningGroundOnDeath
+|domain                           = 29
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = CleansingAltarDownsideMonsterBurningGroundOnDeath_t1
+|stat_text                        = Drops Burning Ground on Death, lasting 3 seconds
+|stat1_id                         = primordial_altar_burning_ground_on_death_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|spawn_weight1_tag                = primordial_altar_upside
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = cleansing_fire_altar
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

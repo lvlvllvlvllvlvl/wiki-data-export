@@ -1,0 +1,24 @@
+{{Mod
+|id                               = WeaponTreeIntelliegenceGemLevel
+|mod_groups                       = IncreaseSpecificSocketedGemLevel
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 45
+|mod_type                         = WeaponTreeLocalIncreaseSocketedIntelligenceGemLevel
+|stat_text                        = +1 to [[Level]] of [[Item socket|Socketed]] [[Intelligence]] Gems
+|stat1_id                         = local_socketed_intelligence_gem_level_+
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = wand
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = staff
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = sceptre
+|spawn_weight3_value              = 250
+|spawn_weight4_tag                = dagger
+|spawn_weight4_value              = 250
+|spawn_weight5_tag                = claw
+|spawn_weight5_value              = 250
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+}}

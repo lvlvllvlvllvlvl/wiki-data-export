@@ -1,0 +1,27 @@
+{{Mod
+|id                               = DelveGlovesColdDamageToSpells1
+|mod_groups                       = AddedColdDamage
+|domain                           = 16
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Subterranean
+|mod_type                         = GlobalAddedColdDamage
+|stat_text                        = Adds (20-25) to (26-35) [[Cold Damage]]
+|stat1_id                         = global_minimum_added_cold_damage
+|stat1_min                        = 20
+|stat1_max                        = 25
+|stat2_id                         = global_maximum_added_cold_damage
+|stat2_min                        = 26
+|stat2_max                        = 35
+|spawn_weight1_tag                = abyss_jewel
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = jewel
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = gloves
+|spawn_weight3_value              = 2000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = elemental_damage, damage, elemental, cold
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = NecropolisCraftingMeleeKnockback
+|mod_groups                       = MeleeKnockback
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of Haunting
+|mod_type                         = MeleeKnockback
+|stat_text                        = Melee [[Attack|Attacks]] Knock Enemies Back on [[Hit]]
+|stat1_id                         = melee_knockback
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = necropolis_gloves
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = necropolis_exclusive_mod, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

@@ -1,0 +1,17 @@
+{{Mod
+|id                               = NecropolisFrenzyCharge1
+|mod_groups                       = NecropolisFrenzyCharge
+|domain                           = 36
+|generation_type                  = 34
+|required_level                   = 46
+|mod_type                         = NecropolisFrenzyCharge
+|stat_text                        = 100% chance to gain a [[Frenzy Charge]] on [[Hit]]
+|stat1_id                         = add_frenzy_charge_on_skill_hit_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = monster_necropolis_mod_value_+%
+|stat2_min                        = 80
+|stat2_max                        = 80
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 400
+}}

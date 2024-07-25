@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Spectral Throw
 |class_id                                = Active Skill Gem
@@ -8,6 +8,7 @@
 |tags                                    = up_to_level_2_gem, up_to_level_8_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemThrownWeapon
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|vaal_variant_id                         = Metadata/Items/Gems/SkillGemVaalThrownWeapon
 |strength_percent                        = 40
 |dexterity_percent                       = 60
 |gem_tags                                = Attack, Projectile
@@ -18,20 +19,11 @@
 |skill_id                                = ThrownWeapon
 |cast_time                               = 1.0
 |required_level                          = 1
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Attack Speed
-|quality_type1_stat1_id                  = attack_speed_+%
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Projectiles that have Pierced deal (0.5-10)% more Damage
+|quality_type1_breakpoints               = 2.0
+|quality_type1_stat1_id                  = projectile_damage_+%_final_if_pierced_enemy
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% increased Projectile Speed
-|quality_type2_stat1_id                  = base_projectile_speed_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 20
-|quality_type3_stat_text                 = 0.5% reduced Projectile Speed<br>Fires an additional Projectile
-|quality_type3_stat1_id                  = base_projectile_speed_+%
-|quality_type3_stat1_value               = -500
-|quality_type3_stat2_id                  = number_of_additional_projectiles
-|quality_type3_stat2_value               = 50
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 110
 |static_stat1_id                         = base_is_projectile
@@ -301,5 +293,4 @@
 |level20_experience                      = 342051651
 |level21_strength_requirement            = 70
 |level21_dexterity_requirement           = 100
-|inventory_icon                          = Spectral Throw
 }}

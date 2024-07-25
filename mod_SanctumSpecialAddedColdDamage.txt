@@ -1,0 +1,23 @@
+{{Mod
+|id                               = SanctumSpecialAddedColdDamage
+|mod_groups                       = ColdDamage
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Hyperboreal
+|mod_type                         = ColdDamage
+|stat_text                        = Adds (8-11) to (17-19) [[Cold Damage]] to [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_cold_damage
+|stat1_min                        = 8
+|stat1_max                        = 11
+|stat2_id                         = attack_maximum_added_cold_damage
+|stat2_min                        = 17
+|stat2_max                        = 19
+|spawn_weight1_tag                = dex_special_relic
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 250
+|tags                             = elemental_damage, damage, elemental, cold, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

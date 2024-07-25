@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Unearth
 |class_id                                = Active Skill Gem
@@ -16,22 +16,10 @@
 |skill_id                                = BoneLance
 |cast_time                               = 0.3
 |required_level                          = 10
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Cast Speed
-|quality_type1_stat1_id                  = base_cast_speed_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% increased Physical Damage
-|quality_type2_stat1_id                  = physical_damage_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = Maximum of 0.1 corpses allowed
-|quality_type3_stat1_id                  = desecrate_maximum_number_of_corpses
-|quality_type3_stat1_value               = 100
-|quality_type4_weight                    = 20
-|quality_type4_stat_text                 = Corpses Spawned have 1% increased Maximum Life
-|quality_type4_stat1_id                  = maximum_life_+%_for_corpses_you_create
-|quality_type4_stat1_value               = 1000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Corpses Spawned have (1-20)% increased Maximum Life
+|quality_type1_stat1_id                  = maximum_life_+%_for_corpses_you_create
+|quality_type1_stat1_value               = 1000
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 6
 |static_damage_effectiveness             = 140
@@ -506,5 +494,4 @@
 |level20_experience                      = 342026975
 |level21_dexterity_requirement           = 100
 |level21_intelligence_requirement        = 70
-|inventory_icon                          = Unearth
 }}

@@ -1,0 +1,21 @@
+{{Mod
+|id                               = HellscapeUpsideTotemElementalResistances4
+|mod_groups                       = TotemElementalResistances
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = TotemElementalResistances
+|stat_text                        = [[Totem|Totems]] gain +(31-35)% to all [[Elemental Resistance|Elemental Resistances]]
+|stat1_id                         = totem_elemental_resistance_%
+|stat1_min                        = 31
+|stat1_max                        = 35
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = amulet
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental, resistance
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

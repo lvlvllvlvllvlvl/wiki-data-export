@@ -1,0 +1,18 @@
+{{Mod
+|id                               = HardModeCleansingAltarUpsidePlayerIncreasedExperience
+|mod_groups                       = CleansingAltarUpsidePlayerIncreasedExperience
+|domain                           = 29
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = CleansingAltarUpsidePlayerIncreasedExperience
+|stat_text                        = (8-12)% increased Experience gain
+|stat1_id                         = map_experience_gain_+%
+|stat1_min                        = 8
+|stat1_max                        = 12
+|spawn_weight1_tag                = primordial_altar_downside
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = cleansing_fire_altar
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

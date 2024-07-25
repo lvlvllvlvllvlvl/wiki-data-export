@@ -11,13 +11,13 @@
 |static_stat1_value                      = 20
 |static_stat2_id                         = number_of_melee_skeletons_to_summon
 |static_stat2_value                      = 2
-|stat_text                               = Maximum (5-17) Summoned Skeletons<br>Base duration is (20-40) seconds<br>Minions deal 20% increased Damage<br>Minions have (0-320)% more Maximum Life<br>Minions deal (50-20)% less Elemental Damage<br>Summons 2 Skeleton Warriors
+|stat_text                               = +(5-17) to Maximum Summoned Skeletons<br>Base duration is (20.00-40.00) seconds<br>Minions deal 20% increased Damage<br>Minions have (0-320)% more Maximum Life<br>Minions deal (50-20)% less Elemental Damage<br>Summons 2 Skeleton Warriors
 |level1                                  = True
 |level1_level_requirement                = 4
 |level1_stored_uses                      = 3
 |level1_cooldown                         = 1
 |level1_duration                         = 20
-|level1_stat_text                        = Maximum 5 Summoned Skeletons<br>Base duration is 20 seconds<br>Minions deal 50% less Elemental Damage
+|level1_stat_text                        = +5 to Maximum Summoned Skeletons<br>Base duration is 20.00 seconds<br>Minions deal 50% less Elemental Damage
 |level1_stat1_id                         = base_number_of_skeletons_allowed
 |level1_stat1_value                      = 5
 |level1_stat2_id                         = base_skill_effect_duration
@@ -29,7 +29,7 @@
 |level2_stored_uses                      = 3
 |level2_cooldown                         = 1
 |level2_duration                         = 20
-|level2_stat_text                        = Maximum 6 Summoned Skeletons<br>Base duration is 20 seconds<br>Minions deal 50% less Elemental Damage
+|level2_stat_text                        = +6 to Maximum Summoned Skeletons<br>Base duration is 20.00 seconds<br>Minions deal 50% less Elemental Damage
 |level2_stat1_id                         = base_number_of_skeletons_allowed
 |level2_stat1_value                      = 6
 |level2_stat2_id                         = base_skill_effect_duration
@@ -41,7 +41,7 @@
 |level3_stored_uses                      = 3
 |level3_cooldown                         = 0.8
 |level3_duration                         = 20
-|level3_stat_text                        = Maximum 7 Summoned Skeletons<br>Base duration is 20 seconds<br>Minions deal 50% less Elemental Damage
+|level3_stat_text                        = +7 to Maximum Summoned Skeletons<br>Base duration is 20.00 seconds<br>Minions deal 50% less Elemental Damage
 |level3_stat1_id                         = base_number_of_skeletons_allowed
 |level3_stat1_value                      = 7
 |level3_stat2_id                         = base_skill_effect_duration
@@ -53,7 +53,7 @@
 |level4_stored_uses                      = 3
 |level4_cooldown                         = 0.8
 |level4_duration                         = 20
-|level4_stat_text                        = Maximum 8 Summoned Skeletons<br>Base duration is 20 seconds<br>Minions deal 50% less Elemental Damage
+|level4_stat_text                        = +8 to Maximum Summoned Skeletons<br>Base duration is 20.00 seconds<br>Minions deal 50% less Elemental Damage
 |level4_stat1_id                         = base_number_of_skeletons_allowed
 |level4_stat1_value                      = 8
 |level4_stat2_id                         = base_skill_effect_duration
@@ -65,7 +65,7 @@
 |level5_stored_uses                      = 3
 |level5_cooldown                         = 0.8
 |level5_duration                         = 20
-|level5_stat_text                        = Maximum 8 Summoned Skeletons<br>Base duration is 20 seconds<br>Minions have 5% more Maximum Life<br>Minions deal 50% less Elemental Damage
+|level5_stat_text                        = +8 to Maximum Summoned Skeletons<br>Base duration is 20.00 seconds<br>Minions have 5% more Maximum Life<br>Minions deal 50% less Elemental Damage
 |level5_stat1_id                         = base_number_of_skeletons_allowed
 |level5_stat1_value                      = 8
 |level5_stat2_id                         = base_skill_effect_duration
@@ -79,7 +79,7 @@
 |level6_stored_uses                      = 3
 |level6_cooldown                         = 0.8
 |level6_duration                         = 20
-|level6_stat_text                        = Maximum 9 Summoned Skeletons<br>Base duration is 20 seconds<br>Minions have 10% more Maximum Life<br>Minions deal 50% less Elemental Damage
+|level6_stat_text                        = +9 to Maximum Summoned Skeletons<br>Base duration is 20.00 seconds<br>Minions have 10% more Maximum Life<br>Minions deal 50% less Elemental Damage
 |level6_stat1_id                         = base_number_of_skeletons_allowed
 |level6_stat1_value                      = 9
 |level6_stat2_id                         = base_skill_effect_duration
@@ -93,7 +93,7 @@
 |level7_stored_uses                      = 3
 |level7_cooldown                         = 0.8
 |level7_duration                         = 20
-|level7_stat_text                        = Maximum 9 Summoned Skeletons<br>Base duration is 20 seconds<br>Minions have 25% more Maximum Life<br>Minions deal 50% less Elemental Damage
+|level7_stat_text                        = +9 to Maximum Summoned Skeletons<br>Base duration is 20.00 seconds<br>Minions have 25% more Maximum Life<br>Minions deal 50% less Elemental Damage
 |level7_stat1_id                         = base_number_of_skeletons_allowed
 |level7_stat1_value                      = 9
 |level7_stat2_id                         = base_skill_effect_duration
@@ -107,7 +107,7 @@
 |level8_stored_uses                      = 3
 |level8_cooldown                         = 0.6
 |level8_duration                         = 20
-|level8_stat_text                        = Maximum 10 Summoned Skeletons<br>Base duration is 20 seconds<br>Minions have 50% more Maximum Life<br>Minions deal 50% less Elemental Damage
+|level8_stat_text                        = +10 to Maximum Summoned Skeletons<br>Base duration is 20.00 seconds<br>Minions have 50% more Maximum Life<br>Minions deal 50% less Elemental Damage
 |level8_stat1_id                         = base_number_of_skeletons_allowed
 |level8_stat1_value                      = 10
 |level8_stat2_id                         = base_skill_effect_duration
@@ -121,7 +121,7 @@
 |level9_stored_uses                      = 3
 |level9_cooldown                         = 0.6
 |level9_duration                         = 20
-|level9_stat_text                        = Maximum 11 Summoned Skeletons<br>Base duration is 20 seconds<br>Minions have 75% more Maximum Life<br>Minions deal 50% less Elemental Damage
+|level9_stat_text                        = +11 to Maximum Summoned Skeletons<br>Base duration is 20.00 seconds<br>Minions have 75% more Maximum Life<br>Minions deal 50% less Elemental Damage
 |level9_stat1_id                         = base_number_of_skeletons_allowed
 |level9_stat1_value                      = 11
 |level9_stat2_id                         = base_skill_effect_duration
@@ -135,7 +135,7 @@
 |level10_stored_uses                     = 3
 |level10_cooldown                        = 0.6
 |level10_duration                        = 40
-|level10_stat_text                       = Maximum 11 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 100% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level10_stat_text                       = +11 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 100% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level10_stat1_id                        = base_number_of_skeletons_allowed
 |level10_stat1_value                     = 11
 |level10_stat2_id                        = base_skill_effect_duration
@@ -149,7 +149,7 @@
 |level11_stored_uses                     = 3
 |level11_cooldown                        = 0.6
 |level11_duration                        = 40
-|level11_stat_text                       = Maximum 12 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 125% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level11_stat_text                       = +12 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 125% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level11_stat1_id                        = base_number_of_skeletons_allowed
 |level11_stat1_value                     = 12
 |level11_stat2_id                        = base_skill_effect_duration
@@ -161,7 +161,7 @@
 |level12                                 = True
 |level12_level_requirement               = 55
 |level12_duration                        = 40
-|level12_stat_text                       = Maximum 12 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 150% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level12_stat_text                       = +12 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 150% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level12_stat1_id                        = base_number_of_skeletons_allowed
 |level12_stat1_value                     = 12
 |level12_stat2_id                        = base_skill_effect_duration
@@ -173,7 +173,7 @@
 |level13                                 = True
 |level13_level_requirement               = 58
 |level13_duration                        = 40
-|level13_stat_text                       = Maximum 13 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 160% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level13_stat_text                       = +13 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 160% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level13_stat1_id                        = base_number_of_skeletons_allowed
 |level13_stat1_value                     = 13
 |level13_stat2_id                        = base_skill_effect_duration
@@ -185,7 +185,7 @@
 |level14                                 = True
 |level14_level_requirement               = 61
 |level14_duration                        = 40
-|level14_stat_text                       = Maximum 14 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 170% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level14_stat_text                       = +14 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 170% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level14_stat1_id                        = base_number_of_skeletons_allowed
 |level14_stat1_value                     = 14
 |level14_stat2_id                        = base_skill_effect_duration
@@ -197,7 +197,7 @@
 |level15                                 = True
 |level15_level_requirement               = 64
 |level15_duration                        = 40
-|level15_stat_text                       = Maximum 14 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 180% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level15_stat_text                       = +14 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 180% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level15_stat1_id                        = base_number_of_skeletons_allowed
 |level15_stat1_value                     = 14
 |level15_stat2_id                        = base_skill_effect_duration
@@ -209,7 +209,7 @@
 |level16                                 = True
 |level16_level_requirement               = 66
 |level16_duration                        = 40
-|level16_stat_text                       = Maximum 15 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 190% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level16_stat_text                       = +15 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 190% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level16_stat1_id                        = base_number_of_skeletons_allowed
 |level16_stat1_value                     = 15
 |level16_stat2_id                        = base_skill_effect_duration
@@ -221,7 +221,7 @@
 |level17                                 = True
 |level17_level_requirement               = 67
 |level17_duration                        = 40
-|level17_stat_text                       = Maximum 15 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 195% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level17_stat_text                       = +15 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 195% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level17_stat1_id                        = base_number_of_skeletons_allowed
 |level17_stat1_value                     = 15
 |level17_stat2_id                        = base_skill_effect_duration
@@ -233,7 +233,7 @@
 |level18                                 = True
 |level18_level_requirement               = 68
 |level18_duration                        = 40
-|level18_stat_text                       = Maximum 15 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 200% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level18_stat_text                       = +15 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 200% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level18_stat1_id                        = base_number_of_skeletons_allowed
 |level18_stat1_value                     = 15
 |level18_stat2_id                        = base_skill_effect_duration
@@ -245,7 +245,7 @@
 |level19                                 = True
 |level19_level_requirement               = 69
 |level19_duration                        = 40
-|level19_stat_text                       = Maximum 15 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 205% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level19_stat_text                       = +15 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 205% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level19_stat1_id                        = base_number_of_skeletons_allowed
 |level19_stat1_value                     = 15
 |level19_stat2_id                        = base_skill_effect_duration
@@ -257,7 +257,7 @@
 |level20                                 = True
 |level20_level_requirement               = 70
 |level20_duration                        = 40
-|level20_stat_text                       = Maximum 15 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 210% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level20_stat_text                       = +15 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 210% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level20_stat1_id                        = base_number_of_skeletons_allowed
 |level20_stat1_value                     = 15
 |level20_stat2_id                        = base_skill_effect_duration
@@ -269,7 +269,7 @@
 |level21                                 = True
 |level21_level_requirement               = 71
 |level21_duration                        = 40
-|level21_stat_text                       = Maximum 15 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 215% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level21_stat_text                       = +15 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 215% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level21_stat1_id                        = base_number_of_skeletons_allowed
 |level21_stat1_value                     = 15
 |level21_stat2_id                        = base_skill_effect_duration
@@ -281,7 +281,7 @@
 |level22                                 = True
 |level22_level_requirement               = 72
 |level22_duration                        = 40
-|level22_stat_text                       = Maximum 17 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 220% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level22_stat_text                       = +17 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 220% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level22_stat1_id                        = base_number_of_skeletons_allowed
 |level22_stat1_value                     = 17
 |level22_stat2_id                        = base_skill_effect_duration
@@ -293,7 +293,7 @@
 |level23                                 = True
 |level23_level_requirement               = 73
 |level23_duration                        = 40
-|level23_stat_text                       = Maximum 17 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 230% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level23_stat_text                       = +17 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 230% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level23_stat1_id                        = base_number_of_skeletons_allowed
 |level23_stat1_value                     = 17
 |level23_stat2_id                        = base_skill_effect_duration
@@ -305,7 +305,7 @@
 |level24                                 = True
 |level24_level_requirement               = 74
 |level24_duration                        = 40
-|level24_stat_text                       = Maximum 17 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 240% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level24_stat_text                       = +17 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 240% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level24_stat1_id                        = base_number_of_skeletons_allowed
 |level24_stat1_value                     = 17
 |level24_stat2_id                        = base_skill_effect_duration
@@ -317,7 +317,7 @@
 |level25                                 = True
 |level25_level_requirement               = 75
 |level25_duration                        = 40
-|level25_stat_text                       = Maximum 17 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 250% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level25_stat_text                       = +17 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 250% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level25_stat1_id                        = base_number_of_skeletons_allowed
 |level25_stat1_value                     = 17
 |level25_stat2_id                        = base_skill_effect_duration
@@ -329,7 +329,7 @@
 |level26                                 = True
 |level26_level_requirement               = 76
 |level26_duration                        = 40
-|level26_stat_text                       = Maximum 17 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 260% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level26_stat_text                       = +17 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 260% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level26_stat1_id                        = base_number_of_skeletons_allowed
 |level26_stat1_value                     = 17
 |level26_stat2_id                        = base_skill_effect_duration
@@ -341,7 +341,7 @@
 |level27                                 = True
 |level27_level_requirement               = 77
 |level27_duration                        = 40
-|level27_stat_text                       = Maximum 17 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 270% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level27_stat_text                       = +17 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 270% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level27_stat1_id                        = base_number_of_skeletons_allowed
 |level27_stat1_value                     = 17
 |level27_stat2_id                        = base_skill_effect_duration
@@ -353,7 +353,7 @@
 |level28                                 = True
 |level28_level_requirement               = 78
 |level28_duration                        = 40
-|level28_stat_text                       = Maximum 17 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 280% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level28_stat_text                       = +17 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 280% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level28_stat1_id                        = base_number_of_skeletons_allowed
 |level28_stat1_value                     = 17
 |level28_stat2_id                        = base_skill_effect_duration
@@ -365,7 +365,7 @@
 |level29                                 = True
 |level29_level_requirement               = 79
 |level29_duration                        = 40
-|level29_stat_text                       = Maximum 17 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 290% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level29_stat_text                       = +17 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 290% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level29_stat1_id                        = base_number_of_skeletons_allowed
 |level29_stat1_value                     = 17
 |level29_stat2_id                        = base_skill_effect_duration
@@ -377,7 +377,7 @@
 |level30                                 = True
 |level30_level_requirement               = 80
 |level30_duration                        = 40
-|level30_stat_text                       = Maximum 17 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 300% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level30_stat_text                       = +17 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 300% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level30_stat1_id                        = base_number_of_skeletons_allowed
 |level30_stat1_value                     = 17
 |level30_stat2_id                        = base_skill_effect_duration
@@ -389,7 +389,7 @@
 |level31                                 = True
 |level31_level_requirement               = 81
 |level31_duration                        = 40
-|level31_stat_text                       = Maximum 17 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 310% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level31_stat_text                       = +17 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 310% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level31_stat1_id                        = base_number_of_skeletons_allowed
 |level31_stat1_value                     = 17
 |level31_stat2_id                        = base_skill_effect_duration
@@ -401,7 +401,7 @@
 |level32                                 = True
 |level32_level_requirement               = 82
 |level32_duration                        = 40
-|level32_stat_text                       = Maximum 17 Summoned Skeletons<br>Base duration is 40 seconds<br>Minions have 320% more Maximum Life<br>Minions deal 20% less Elemental Damage
+|level32_stat_text                       = +17 to Maximum Summoned Skeletons<br>Base duration is 40.00 seconds<br>Minions have 320% more Maximum Life<br>Minions deal 20% less Elemental Damage
 |level32_stat1_id                        = base_number_of_skeletons_allowed
 |level32_stat1_value                     = 17
 |level32_stat2_id                        = base_skill_effect_duration

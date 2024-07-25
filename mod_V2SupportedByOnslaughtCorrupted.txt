@@ -1,0 +1,20 @@
+{{Mod
+|id                               = V2SupportedByOnslaughtCorrupted
+|mod_groups                       = SupportedByOnslaught
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|granted_skill                    = SupportMomentum
+|mod_type                         = SupportedByOnslaught
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Level]] 10 Momentum
+|stat1_id                         = local_display_socketed_gems_supported_by_level_x_onslaught
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = staff
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = two_hand_weapon
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = support, gem
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TinctureDamageVsLowLifeEnemies3
+|mod_groups                       = WeaponDamageVsLowLifeEnemies
+|domain                           = 34
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Conquering
+|mod_type                         = WeaponDamageVsLowLifeEnemies
+|stat_text                        = (75-90)% increased Damage against Enemies that are on [[Low Life]]
+|stat1_id                         = weapon_damage_+%_vs_enemies_that_are_on_low_life
+|stat1_min                        = 75
+|stat1_max                        = 90
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,25 @@
+{{Mod
+|id                               = HellscapeUpsideGlobalIncreaseChaosSpellSkillGemLevel1h
+|mod_groups                       = IncreaseSpecificSocketedGemLevel
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = GlobalIncreaseChaosSpellSkillGemLevel
+|stat_text                        = +1 to [[Level]] of all Chaos [[Spell]] [[Skill]] Gems
+|stat1_id                         = chaos_spell_skill_gem_level_+
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = attack_dagger
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = sceptre
+|spawn_weight2_value              = 50
+|spawn_weight3_tag                = wand
+|spawn_weight3_value              = 50
+|spawn_weight4_tag                = dagger
+|spawn_weight4_value              = 50
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = chaos, caster, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

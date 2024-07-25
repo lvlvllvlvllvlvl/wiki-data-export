@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TinctureCriticalStrikeMultiplierVsFullLife1
+|mod_groups                       = WeaponCriticalStrikeMultiplierVsFullLife
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of Rage
+|mod_type                         = WeaponCriticalStrikeMultiplierVsFullLife
+|stat_text                        = +(50-80)% to [[Critical Strike Multiplier]] against Enemies that are on [[Full Life]]
+|stat1_id                         = weapon_critical_strike_multiplier_vs_enemies_on_full_life_+
+|stat1_min                        = 50
+|stat1_max                        = 80
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

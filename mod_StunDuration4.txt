@@ -1,0 +1,23 @@
+{{Mod
+|id                               = StunDuration4
+|mod_groups                       = StunDurationIncreasePercent
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 44
+|name                             = of Slamming
+|mod_type                         = StunDurationIncreasePercent
+|stat_text                        = (26-30)% increased Stun Duration on Enemies
+|stat1_id                         = base_stun_duration_+%
+|stat1_min                        = 26
+|stat1_max                        = 30
+|spawn_weight1_tag                = weapon
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = belt
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = quiver
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

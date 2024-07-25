@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Desecrate
 |class_id                                = Active Skill Gem
@@ -16,22 +16,10 @@
 |skill_id                                = Desecrate
 |cast_time                               = 0.6
 |required_level                          = 16
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Cast Speed
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% increased Cast Speed
 |quality_type1_stat1_id                  = base_cast_speed_+%
 |quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 10% increased Chaos Damage
-|quality_type2_stat1_id                  = chaos_damage_+%
-|quality_type2_stat1_value               = 10000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 3% chance to spawn an additional Corpse
-|quality_type3_stat1_id                  = desecrate_chance_for_additional_corpse_%
-|quality_type3_stat1_value               = 3000
-|quality_type4_weight                    = 10
-|quality_type4_stat_text                 = Each Corpse spawned has 1% chance to be a Forgotten Corpse
-|quality_type4_stat1_id                  = desecrate_chance_for_special_corpse_%
-|quality_type4_stat1_value               = 1000
 |static_cost_types                       = Mana
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
@@ -45,7 +33,7 @@
 |static_stat3_value                      = 5
 |static_stat4_id                         = desecrate_maximum_number_of_corpses
 |static_stat4_value                      = 10
-|stat_text                               = Deals (8.2-294) Base Chaos Damage per second<br>Base duration is 4 seconds<br>Spawns 5 corpses<br>Spawns corpses up to Level (20-100)<br>Maximum of 10 corpses allowed
+|stat_text                               = Deals (8.2-294) Base Chaos Damage per second<br>Base duration is 4.00 seconds<br>Spawns 5 corpses<br>Spawns corpses up to Level (20-100)<br>Maximum of 10 corpses allowed
 |level1                                  = True
 |level1_level_requirement                = 16
 |level1_cost_amounts                     = 11
@@ -428,5 +416,4 @@
 |level20_experience                      = 341913067
 |level21_dexterity_requirement           = 100
 |level21_intelligence_requirement        = 70
-|inventory_icon                          = Desecrate
 }}

@@ -1,0 +1,22 @@
+{{Mod
+|id                               = DelveJewelFirePenetration1
+|mod_groups                       = FireResistancePenetration
+|domain                           = 16
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Subterranean
+|mod_type                         = FireResistancePenetration
+|stat_text                        = Damage Penetrates 1% [[Fire Resistance]]
+|stat1_id                         = base_reduce_enemy_fire_resistance_%
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = jewel
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = abyss_jewel
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

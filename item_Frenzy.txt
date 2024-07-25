@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Frenzy
 |class_id                                = Active Skill Gem
@@ -15,22 +15,13 @@
 |skill_id                                = Frenzy
 |cast_time                               = 1.0
 |required_level                          = 16
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Attack Speed
-|quality_type1_stat1_id                  = attack_speed_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Fires an additional Projectile
-|quality_type2_stat1_id                  = number_of_additional_projectiles
-|quality_type2_stat1_value               = 50
-|quality_type3_weight                    = 20
-|quality_type3_stat_text                 = Melee Strikes target 0.05 additional nearby Enemy
-|quality_type3_stat1_id                  = melee_attack_number_of_spirit_strikes
-|quality_type3_stat1_value               = 50
-|quality_type4_weight                    = 50
-|quality_type4_stat_text                 = 0.25% increased Damage with Ailments per Frenzy Charge
-|quality_type4_stat1_id                  = ailment_damage_+%_per_frenzy_charge
-|quality_type4_stat1_value               = 250
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = +(0.1-2)% more Attack Damage per Frenzy Charge<br>+(0.1-2)% more Attack Speed per Frenzy Charge
+|quality_type1_breakpoints               = 10.0
+|quality_type1_stat1_id                  = frenzy_skill_attack_damage_+%_final_per_frenzy_charge
+|quality_type1_stat1_value               = 100
+|quality_type1_stat2_id                  = frenzy_skill_attack_speed_+%_final_per_frenzy_charge
+|quality_type1_stat2_value               = 100
 |static_cost_amounts                     = 10
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 100
@@ -40,8 +31,12 @@
 |static_stat2_value                      = 1
 |static_stat3_id                         = frenzy_skill_attack_damage_+%_final_per_frenzy_charge
 |static_stat3_value                      = 5
-|static_stat4_id                         = frenzy_skill_attack_speed_+%_final_per_frenzy_charge
-|static_stat4_value                      = 5
+|static_stat4_id                         = quality_display_frenzy_is_gem
+|static_stat4_value                      = 1
+|static_stat5_id                         = frenzy_skill_attack_speed_+%_final_per_frenzy_charge
+|static_stat5_value                      = 5
+|static_stat6_id                         = quality_display_active_skill_attack_speed_per_frenzy_is_gem
+|static_stat6_value                      = 1
 |stat_text                               = 5% more Attack Damage per Frenzy Charge<br>5% more Attack Speed per Frenzy Charge
 |level1                                  = True
 |level1_level_requirement                = 16

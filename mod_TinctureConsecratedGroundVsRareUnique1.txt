@@ -1,0 +1,19 @@
+{{Mod
+|id                               = TinctureConsecratedGroundVsRareUnique1
+|mod_groups                       = ConsecratedGroundVsRareUniqueOnWeaponHit
+|domain                           = 34
+|generation_type                  = 1
+|required_level                   = 45
+|name                             = Holy
+|mod_type                         = ConsecratedGroundVsRareUniqueOnWeaponHit
+|stat_text                        = (3-5)% chance to create Consecrated Ground when you [[Hit]] a Rare or Unique Enemy, lasting 8 seconds
+|stat1_id                         = create_consecrated_ground_on_weapon_hit_%_vs_rare_or_unique_enemy
+|stat1_min                        = 3
+|stat1_max                        = 5
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

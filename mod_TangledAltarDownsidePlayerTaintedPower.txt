@@ -1,0 +1,18 @@
+{{Mod
+|id                               = TangledAltarDownsidePlayerTaintedPower
+|mod_groups                       = TangledAltarDownsidePlayerTaintedPower
+|domain                           = 29
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = TangledAltarDownsidePlayerTaintedPower
+|stat_text                        = -(40-20)% to [[Critical Strike Multiplier]] per [[Power Charge]]
+|stat1_id                         = critical_strike_multiplier_+_per_power_charge
+|stat1_min                        = -40
+|stat1_max                        = -20
+|spawn_weight1_tag                = primordial_altar_upside
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = tangle_altar
+|spawn_weight2_value              = 400
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vaal Absolution
 |class_id                                = Active Skill Gem
@@ -8,18 +8,20 @@
 |tags                                    = vaal_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalAbsolution
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |strength_percent                        = 60
 |intelligence_percent                    = 40
 |gem_tags                                = Spell, Minion, Duration, Physical, Lightning, Vaal, AoE
+|secondary_skill_id                      = Absolution
 |gem_description                         = Causes one of your existing Sentinels of Absolution to Ascend, becoming more powerful, gaining new spells, and overriding its duration, while maintaining its other bonuses, including from support gems. If you cannot have more Ascended Sentinels of Absolution, an existing one will be refreshed instead.
 |active_skill_name                       = Vaal Absolution
 |skill_id                                = VaalAbsolution
 |cast_time                               = 0.5
 |required_level                          = 12
-|quality_type1_weight                    = 100
-|quality_type1_stat_text                 = 
-|quality_type1_stat1_id                  = dummy_stat_display_nothing
-|quality_type1_stat1_value               = 0
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Minions have (2-40)% increased Cooldown Recovery Rate
+|quality_type1_stat1_id                  = minion_cooldown_recovery_+%
+|quality_type1_stat1_value               = 2000
 |static_vaal_souls_requirement           = 40
 |static_vaal_stored_uses                 = 1
 |static_vaal_soul_gain_prevention_time   = 30
@@ -39,7 +41,7 @@
 |static_stat5_value                      = 200
 |static_stat6_id                         = vaal_upgrade_minion_damage_taken_+%_final
 |static_stat6_value                      = -70
-|stat_text                               = Base duration is 15 seconds<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>Maximum 1 Ascended Sentinel of Absolution<br>Ascended Sentinel does not count towards the regular limit<br>Ascended Sentinels deal 200% more Damage<br>Ascended Sentinels take 70% less Damage
+|stat_text                               = Base duration is 15.00 seconds<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>Maximum 1 Ascended Sentinel of Absolution<br>Ascended Sentinel does not count towards the regular limit<br>Ascended Sentinels deal 200% more Damage<br>Ascended Sentinels take 70% less Damage
 |level1                                  = True
 |level1_level_requirement                = 12
 |level2                                  = True

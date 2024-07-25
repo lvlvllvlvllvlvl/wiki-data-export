@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideReducedReflectedPhysicalDamage3_
+|mod_groups                       = ReflectedDamage
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = ReducedPhysicalReflectTaken
+|stat_text                        = You and your [[Minion|Minions]] take (50-41)% reduced Reflected [[Physical Damage]]
+|stat1_id                         = physical_reflect_damage_taken_and_minion_physical_reflect_damage_taken_+%
+|stat1_min                        = -50
+|stat1_max                        = -41
+|spawn_weight1_tag                = body_armour
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

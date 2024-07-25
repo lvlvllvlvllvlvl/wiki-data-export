@@ -1,0 +1,24 @@
+{{Mod
+|id                               = JunMasterElementalPenetrationWithAttacks1
+|mod_groups                       = LocalAttackReduceEnemyElementalResistance
+|domain                           = 9
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Chosen
+|mod_type                         = LocalAttackReduceEnemyElementalResistance
+|stat_text                        = [[Attack|Attacks]] with this Weapon Penetrate (8-10)% [[Elemental Resistance|Elemental Resistances]]
+|stat1_id                         = local_elemental_penetration_%
+|stat1_min                        = 8
+|stat1_max                        = 10
+|spawn_weight1_tag                = wand
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = dagger
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = weapon
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = elemental_damage, unveiled_mod, damage, elemental, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

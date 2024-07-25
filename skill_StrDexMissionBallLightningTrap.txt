@@ -1,5 +1,5 @@
 {{Skill
-|gem_description                         = Fires a slow-moving projectile that periodically damages enemies in an area around it with bolts of lightning.
+|gem_description                         = Fires a slow-moving projectile that damages each enemy in an area around it repeatedly with bolts of lightning.
 |active_skill_name                       = Ball Lightning
 |skill_id                                = StrDexMissionBallLightningTrap
 |cast_time                               = 0.8
@@ -29,7 +29,9 @@
 |static_stat9_value                      = 1
 |static_stat10_id                        = base_projectile_speed_+%
 |static_stat10_value                     = -200
-|stat_text                               = Deals 1 to 2 Lightning Damage<br>Trap lasts 6 seconds<br>200% reduced Projectile Speed
+|static_stat11_id                        = active_skill_base_area_of_effect_radius
+|static_stat11_value                     = 18
+|stat_text                               = Deals 1 to 2 Lightning Damage<br>Trap lasts +6 seconds<br>200% reduced Projectile Speed<br>Base radius is 1.8 metres
 |level1                                  = True
 |level1_level_requirement                = 3
 }}

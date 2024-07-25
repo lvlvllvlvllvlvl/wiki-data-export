@@ -1,0 +1,19 @@
+{{Mod
+|id                               = TinctureAdditionalProjectilesWhenHit1
+|mod_groups                       = AdditionalWeaponProjectilesIfHitRecently
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 81
+|name                             = of Rain
+|mod_type                         = AdditionalWeaponProjectilesIfHitRecently
+|stat_text                        = Weapon [[Attack|Attacks]] fire an additional Projectile if you've been [[Hit]] [[Recently]]
+|stat1_id                         = number_of_additional_projectiles_with_weapon_attacks_if_you_have_been_hit_recently
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 20
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

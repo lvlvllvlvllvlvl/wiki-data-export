@@ -1,0 +1,20 @@
+{{Mod
+|id                               = FlaskPoisonImmunity3
+|mod_groups                       = FlaskDispellPoison
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of the Cure
+|mod_type                         = FlaskPoisonImmunity
+|stat_text                        = Grants Immunity to [[Poison]] for (12-14) seconds if used while [[Poison|Poisoned]]
+|stat1_id                         = local_flask_poison_immunity_if_poisoned_s
+|stat1_min                        = 12
+|stat1_max                        = 14
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 750
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

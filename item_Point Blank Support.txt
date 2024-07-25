@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Point Blank Support
 |class_id                                = Support Skill Gem
@@ -7,24 +7,17 @@
 |drop_level                              = 18
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemPointBlank
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |dexterity_percent                       = 100
 |gem_tags                                = Projectile, Attack, Support
 |skill_id                                = SupportPointBlank
 |support_gem_letter                      = b
 |required_level                          = 18
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills deal 0.5% increased Projectile Damage
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills deal (0.5-10)% increased Projectile Damage
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = projectile_damage_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Supported Skills have 2% chance to Knock Enemies Back with Hits at Close Range
-|quality_type2_stat1_id                  = knockback_chance_%_at_close_range
-|quality_type2_stat1_value               = 2000
-|quality_type3_weight                    = 5
-|quality_type3_stat_text                 = Projectiles from Supported Skills Pierce all Targets within 1 units
-|quality_type3_stat1_id                  = projectiles_pierce_all_targets_in_x_range
-|quality_type3_stat1_value               = 1000
 |static_cost_multiplier                  = 110
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
@@ -271,5 +264,4 @@
 |level20_dexterity_requirement           = 111
 |level20_experience                      = 341831131
 |level21_dexterity_requirement           = 114
-|inventory_icon                          = Point Blank Support
 }}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmChillMinimumSlow1
+|mod_groups                       = AnimalCharmChillMinimumSlow
+|domain                           = 35
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of the Elementalist
+|mod_type                         = AnimalCharmChillMinimumSlow
+|stat_text                        = [[Chill|Chills]] from your [[Hit|Hits]] always reduce Action Speed by at least (3-4)%
+|stat1_id                         = chill_minimum_slow_%
+|stat1_min                        = 3
+|stat1_max                        = 4
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

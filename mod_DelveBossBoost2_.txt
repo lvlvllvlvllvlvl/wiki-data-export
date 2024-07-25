@@ -1,0 +1,31 @@
+{{Mod
+|id                               = DelveBossBoost2_
+|mod_groups                       = DelveBossBoost
+|domain                           = 17
+|generation_type                  = 14
+|required_level                   = 500
+|mod_type                         = DelveBossBoost2
+|stat_text                        = 19% increased Quantity of Items found in this Area<br>11% increased Rarity of Items found in this Area<br>7% increased Pack size<br>Area contains a Unique Boss<br>Unique Boss has 100% more maximum [[Life]]<br>Unique Boss drops an additional Unique Ring
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 19
+|stat1_max                        = 19
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 11
+|stat2_max                        = 11
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 7
+|stat3_max                        = 7
+|stat4_id                         = delve_biome_contains_delve_boss
+|stat4_min                        = 1
+|stat4_max                        = 1
+|stat5_id                         = delve_biome_boss_life_+%_final
+|stat5_min                        = 100
+|stat5_max                        = 100
+|stat6_id                         = delve_biome_boss_drops_extra_precursor_component_ring
+|stat6_min                        = 1
+|stat6_max                        = 1
+|spawn_weight1_tag                = delve_city_biome
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialEnergyShieldRegeneration
+|mod_groups                       = EnergyShieldRegeneration
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Praying
+|mod_type                         = EnergyShieldRegeneration
+|stat_text                        = (20-30)% increased [[Energy Shield]] Recharge Rate
+|stat1_id                         = energy_shield_recharge_rate_+%
+|stat1_min                        = 20
+|stat1_max                        = 30
+|spawn_weight1_tag                = int_special_relic
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 250
+|tags                             = defences, energy_shield
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SentinelDroneRefreshOnUseChance1
+|mod_groups                       = SentinelDroneRefreshOnUseChance
+|domain                           = 30
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Energising
+|mod_type                         = SentinelDroneRefreshOnUseChance
+|stat_text                        = (20-25)% chance to be Deployable an additional time
+|stat1_id                         = sentinel_refresh_on_use_chance_%
+|stat1_min                        = 20
+|stat1_max                        = 25
+|spawn_weight1_tag                = special_sentinel_mod
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

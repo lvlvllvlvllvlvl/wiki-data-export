@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SanctumAvoidResolveIfHitRecently3
+|mod_groups                       = SanctumAvoidResolveIfHitRecently
+|domain                           = 7
+|generation_type                  = 2
+|required_level                   = 84
+|name                             = of the Phantasm
+|mod_type                         = SanctumAvoidResolveIfHitRecently
+|stat_text                        = (6-7)% chance to Avoid Resolve loss from Enemy [[Hit|Hits]] if you've been [[Hit]] [[Recently|recently]]
+|stat1_id                         = map_sanctum_avoid_resolve_damage_if_hit_recently_chance_%
+|stat1_min                        = 6
+|stat1_max                        = 7
+|spawn_weight1_tag                = medium_sanctum_relic
+|spawn_weight1_value              = 30
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

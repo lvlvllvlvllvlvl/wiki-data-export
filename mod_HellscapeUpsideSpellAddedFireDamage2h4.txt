@@ -1,0 +1,24 @@
+{{Mod
+|id                               = HellscapeUpsideSpellAddedFireDamage2h4
+|mod_groups                       = SpellAddedElementalDamage
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = SpellAddedFireDamage
+|stat_text                        = Adds (28-31) to (55-60) [[Fire Damage]] to [[Spell|Spells]]
+|stat1_id                         = spell_minimum_added_fire_damage
+|stat1_min                        = 28
+|stat1_max                        = 31
+|stat2_id                         = spell_maximum_added_fire_damage
+|stat2_min                        = 55
+|stat2_max                        = 60
+|spawn_weight1_tag                = attack_staff
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = staff
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, fire, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

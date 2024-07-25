@@ -1,0 +1,21 @@
+{{Skill
+|gem_description                         = Detonates a Mine, starting a Detonation Sequence which will detonate other Mines around it.
+|active_skill_name                       = Detonate Mines
+|skill_id                                = TriggeredDetonateMines
+|cast_time                               = 0.0
+|required_level                          = 8
+|static_stored_uses                      = 1
+|static_cooldown                         = 0.2
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = trigger_detonate_mines_while_moving
+|static_stat1_value                      = 1
+|static_stat2_id                         = detonate_mines_is_triggered_while_moving
+|static_stat2_value                      = 1
+|static_stat3_id                         = display_mine_deontation_mechanics_detonation_speed_+%_final_per_sequence_mine
+|static_stat3_value                      = 10
+|stat_text                               = This Skill is Triggered while you are moving<br>First Mine Detonates Instantly<br>Mines get 10% more Detonation Speed for each prior Mine in Detonation Sequence
+|level1                                  = True
+|level1_level_requirement                = 8
+}}

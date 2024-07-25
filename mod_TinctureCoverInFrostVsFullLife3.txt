@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TinctureCoverInFrostVsFullLife3
+|mod_groups                       = WeaponCoverInFrostVsFullLife
+|domain                           = 34
+|generation_type                  = 1
+|required_level                   = 72
+|name                             = Blizzard
+|mod_type                         = WeaponCoverInFrostVsFullLife
+|stat_text                        = Cover Enemies in Frost on [[Hit]] for (8-12) seconds against Enemies that are on [[Full Life]]
+|stat1_id                         = weapon_cover_in_frost_on_hit_for_X_seconds_vs_full_life_enemies
+|stat1_min                        = 8
+|stat1_max                        = 12
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, cold, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

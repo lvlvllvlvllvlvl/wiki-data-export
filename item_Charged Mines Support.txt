@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Charged Mines Support
 |class_id                                = Support Skill Gem
@@ -7,27 +7,18 @@
 |drop_level                              = 31
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemChargedMines
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |dexterity_percent                       = 40
 |intelligence_percent                    = 60
 |gem_tags                                = Critical, Support, Mine
 |skill_id                                = SupportChargedMines
 |support_gem_letter                      = -
 |required_level                          = 31
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Mine Damage
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.5-10)% increased Mine Damage
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = mine_damage_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 0.5% chance to gain a Frenzy Charge when a Mine from Supported<br>Skills is Detonated targeting an Enemy<br>0.5% chance to gain a Power Charge when a Mine from Supported<br>Skills is Detonated targeting an Enemy
-|quality_type2_stat1_id                  = %_chance_to_gain_frenzy_charge_on_mine_detonated_targeting_an_enemy
-|quality_type2_stat1_value               = 500
-|quality_type2_stat2_id                  = %_chance_to_gain_power_charge_on_mine_detonated_targeting_an_enemy
-|quality_type2_stat2_value               = 500
-|quality_type3_weight                    = 20
-|quality_type3_stat_text                 = Supported Skills have 0.2% increased Projectile Speed per Frenzy Charge when used by a Mine
-|quality_type3_stat1_id                  = mine_projectile_speed_+%_per_frenzy_charge
-|quality_type3_stat1_value               = 200
 |static_cost_multiplier                  = 120
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

@@ -1,0 +1,22 @@
+{{Mod
+|id                               = WeaponTreeEnergyShieldRegenOnLowLife2
+|mod_groups                       = WeaponTreeEnergyShieldRegenOnLowLife
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 80
+|mod_type                         = WeaponTreeEnergyShieldRegenOnLowLife
+|stat_text                        = Regenerate 3% of [[Energy Shield]] per second while on [[Low Life]]
+|stat1_id                         = energy_shield_regeneration_rate_per_minute_%_while_on_low_life
+|stat1_min                        = 180
+|stat1_max                        = 180
+|spawn_weight1_tag                = str_armour
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = dex_armour
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = str_dex_armour
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = shield
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+}}

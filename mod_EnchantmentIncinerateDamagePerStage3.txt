@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentIncinerateDamagePerStage3
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Incinerate Damage Per Stage 3
+|mod_type                         = EnchantmentIncinerateDamagePerStage2
+|stat_text                        = 10% increased [[Incinerate]] Damage for each stage
+|stat1_id                         = incinerate_damage_+%_per_stage
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster_damage, damage, caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentSweepEnduranceChargeOnHit2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Sweep Endurance Charge on Hit Chance 2
+|mod_type                         = EnchantmentSweepEnduranceChargeOnHit
+|stat_text                        = [[Sweep]] has a 30% chance to grant an [[Endurance Charge]] on [[Hit]]
+|stat1_id                         = sweep_add_endurance_charge_on_hit_%
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = endurance_charge, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

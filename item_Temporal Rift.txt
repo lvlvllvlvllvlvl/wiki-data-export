@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Temporal Rift
 |class_id                                = Active Skill Gem
@@ -16,20 +16,10 @@
 |skill_id                                = TemporalRift
 |cast_time                               = 0.25
 |required_level                          = 34
-|quality_type1_weight                    = 100
-|quality_type1_stat_text                 = 0.5% increased Cooldown Recovery Rate
-|quality_type1_stat1_id                  = base_cooldown_speed_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = Buff grants 0.25% increased Cooldown Recovery Rate<br>0.5% reduced Reservation Efficiency
-|quality_type2_stat1_id                  = chronomancer_buff_cooldown_speed_+%
-|quality_type2_stat1_value               = 250
-|quality_type2_stat2_id                  = base_reservation_efficiency_+%
-|quality_type2_stat2_value               = -500
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = Buff causes Debuffs on you to expire 0.5% faster
-|quality_type3_stat1_id                  = debuff_time_passed_+%
-|quality_type3_stat1_value               = 500
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Buff causes Debuffs on you to expire (1-20)% faster
+|quality_type1_stat1_id                  = debuff_time_passed_+%
+|quality_type1_stat1_value               = 1000
 |static_stored_uses                      = 1
 |static_cooldown                         = 5
 |static_damage_effectiveness             = 100

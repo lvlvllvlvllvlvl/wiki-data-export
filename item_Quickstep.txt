@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Quickstep
 |class_id                                = Active Skill Gem
@@ -14,8 +14,9 @@
 |skill_id                                = QuickstepHardMode
 |cast_time                               = 0.15
 |required_level                          = 1
-|quality_type1_weight                    = 100
-|quality_type1_stat_text                 = 
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Quality has no effect
+|quality_type1_breakpoints               = 1000.0
 |quality_type1_stat1_id                  = gem_display_quality_has_no_effect
 |quality_type1_stat1_value               = 1
 |static_stored_uses                      = 1

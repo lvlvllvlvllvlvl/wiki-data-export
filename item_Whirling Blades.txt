@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Whirling Blades
 |class_id                                = Active Skill Gem
@@ -11,24 +11,17 @@
 |dexterity_percent                       = 60
 |intelligence_percent                    = 40
 |gem_tags                                = Attack, Movement, Travel, Melee
-|gem_description                         = Dive through enemies, dealing weapon damage. Only works with daggers, claws and one handed swords. Cannot be supported by Multistrike.
+|gem_description                         = Dive through enemies, dealing weapon damage. If dual wielding attacks with both weapons, dealing the damage of both in one hit. Only works with Daggers, Claws, and One-Handed Swords. Cannot be supported by Multistrike.
 |active_skill_name                       = Whirling Blades
 |item_class_id_restriction               = Dagger, One Hand Sword, Thrusting One Hand Sword, Claw, Rune Dagger
 |skill_id                                = WhirlingBlades
 |cast_time                               = 2.6
 |required_level                          = 10
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Attack Speed
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.5-10)% increased Attack Speed
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = attack_speed_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 3% increased Damage
-|quality_type2_stat1_id                  = damage_+%
-|quality_type2_stat1_value               = 3000
-|quality_type3_weight                    = 20
-|quality_type3_stat_text                 = 10% increased Evasion Rating while Moving
-|quality_type3_stat1_id                  = whirling_blades_evasion_rating_+%_while_moving
-|quality_type3_stat1_value               = 10000
 |static_cost_amounts                     = 10
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 100
@@ -38,11 +31,17 @@
 |static_stat2_value                      = 1
 |static_stat3_id                         = ignores_proximity_shield
 |static_stat3_value                      = 1
-|static_stat4_id                         = additional_weapon_base_attack_time_ms
-|static_stat4_value                      = 600
-|stat_text                               = +0.6 seconds to Attack Time
+|static_stat4_id                         = skill_double_hits_when_dual_wielding
+|static_stat4_value                      = 1
+|static_stat5_id                         = active_skill_merged_damage_+%_final_while_dual_wielding
+|static_stat5_value                      = -25
+|static_stat6_id                         = additional_weapon_base_attack_time_ms
+|static_stat6_value                      = 600
+|stat_text                               = When Dual Wielding, Deals 75% Damage from each Weapon combined<br>+0.6 seconds to Attack Time
 |level1                                  = True
 |level1_level_requirement                = 10
+|level1_damage_effectiveness             = 100
+|level1_damage_multiplier                = 100
 |level2                                  = True
 |level2_level_requirement                = 13
 |level2_damage_effectiveness             = 103
@@ -261,5 +260,4 @@
 |level20_experience                      = 342026975
 |level21_dexterity_requirement           = 100
 |level21_intelligence_requirement        = 70
-|inventory_icon                          = Whirling Blades
 }}

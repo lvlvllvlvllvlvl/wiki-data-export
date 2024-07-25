@@ -22,7 +22,13 @@
 |static_stat5_value                      = 7
 |static_stat6_id                         = base_trap_duration
 |static_stat6_value                      = 16000
-|stat_text                               = Deals 5 to 7 Cold Damage<br>Trap lasts 16 seconds
+|static_stat7_id                         = active_skill_base_area_of_effect_radius
+|static_stat7_value                      = 18
+|static_stat8_id                         = active_skill_base_secondary_area_of_effect_radius
+|static_stat8_value                      = 9
+|static_stat9_id                         = active_skill_base_tertiary_area_of_effect_radius
+|static_stat9_value                      = 6
+|stat_text                               = Deals 5 to 7 Cold Damage<br>Trap lasts +16 seconds<br>Base radius is 1.8 metres<br>Base secondary radius is 0.9 metres<br>Base tertiary radius is 0.6 metres
 |level1                                  = True
 |level1_level_requirement                = 1
 }}

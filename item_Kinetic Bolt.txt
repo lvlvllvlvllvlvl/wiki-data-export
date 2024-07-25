@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Kinetic Bolt
 |class_id                                = Active Skill Gem
@@ -16,18 +16,10 @@
 |skill_id                                = KineticBolt
 |cast_time                               = 1.0
 |required_level                          = 1
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Projectile Speed
-|quality_type1_stat1_id                  = base_projectile_speed_+%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 5
-|quality_type2_stat_text                 = Increases and Reductions to Cast Speed apply to this Skill's Attack Speed at 2.5% of their value
-|quality_type2_stat1_id                  = active_skill_cast_speed_+%_applies_to_attack_speed_at_%_of_original_value
-|quality_type2_stat1_value               = 2500
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = Gain 0.1 Mana per Enemy Hit
-|quality_type3_stat1_id                  = mana_gain_per_target
-|quality_type3_stat1_value               = 100
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Increases and Reductions to Spell Damage also apply to Attack Damage from this Skill at +(2.5-50)% of their value
+|quality_type1_stat1_id                  = active_skill_additive_spell_damage_modifiers_apply_to_attack_damage_at_%_value
+|quality_type1_stat1_value               = 2500
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_is_projectile
@@ -36,8 +28,10 @@
 |static_stat2_value                      = 1
 |static_stat3_id                         = active_skill_additive_spell_damage_modifiers_apply_to_attack_damage_at_%_value
 |static_stat3_value                      = 200
-|static_stat4_id                         = kinetic_bolt_forks_apply_to_zig_zags
+|static_stat4_id                         = quality_display_spell_damage_to_attack_damage_is_gem
 |static_stat4_value                      = 1
+|static_stat5_id                         = kinetic_bolt_forks_apply_to_zig_zags
+|static_stat5_value                      = 1
 |stat_text                               = Increases and Reductions to Spell Damage also apply to Attack Damage from this Skill at 200% of their value<br>Projectile changes direction (5-8) times<br>Modifiers which would cause projectiles to Fork instead cause them to change direction additional times
 |level1                                  = True
 |level1_level_requirement                = 1

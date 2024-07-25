@@ -1,0 +1,23 @@
+{{Mod
+|id                               = WeaponTreeSupportFasterCast2HHardMode
+|mod_groups                       = WeaponTreeSupportFasterCast
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 38
+|granted_skill                    = SupportFasterCast
+|mod_type                         = WeaponTreeSupportFasterCast
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Faster Casting Support|Level 10 Faster Casting]]
+|stat1_id                         = local_display_socketed_gems_get_faster_cast_level
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 25
+|spawn_weight3_tag                = attack_staff
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = staff
+|spawn_weight4_value              = 25
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+}}

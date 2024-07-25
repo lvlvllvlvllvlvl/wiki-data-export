@@ -1,0 +1,29 @@
+{{Mod
+|id                               = WeaponTreeAddedFirePerStr2h
+|mod_groups                       = AddedFireDamagePerStrength
+|domain                           = 1
+|generation_type                  = 32
+|required_level                   = 60
+|mod_type                         = WeaponTreeAddedFireDamagePerStrength
+|stat_text                        = Adds 2 to 4 [[Fire Damage]] to [[Attack|Attacks]] with this Weapon per 10 [[Strength]]
+|stat1_id                         = attack_minimum_added_fire_damage_per_10_strength
+|stat1_min                        = 2
+|stat1_max                        = 2
+|stat2_id                         = attack_maximum_added_fire_damage_per_10_strength
+|stat2_min                        = 4
+|stat2_max                        = 4
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = sword
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = axe
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = mace
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = sceptre
+|spawn_weight5_value              = 500
+|spawn_weight6_tag                = staff
+|spawn_weight6_value              = 500
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+}}

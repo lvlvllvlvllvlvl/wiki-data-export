@@ -1,0 +1,24 @@
+{{Mod
+|id                               = LocalAddedLightningDamageEnhancedTwoHandMod
+|mod_groups                       = LightningDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Topotante's
+|mod_type                         = LocalLightningDamageTwoHandAndPen
+|stat_text                        = Adds (12-31) to (367-415) [[Lightning Damage]]<br>[[Attack|Attacks]] with this Weapon Penetrate (13-15)% [[Lightning Resistance]]
+|stat1_id                         = local_minimum_added_lightning_damage
+|stat1_min                        = 12
+|stat1_max                        = 31
+|stat2_id                         = local_maximum_added_lightning_damage
+|stat2_min                        = 367
+|stat2_max                        = 415
+|stat3_id                         = local_lightning_penetration_%
+|stat3_min                        = 13
+|stat3_max                        = 15
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, lightning, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

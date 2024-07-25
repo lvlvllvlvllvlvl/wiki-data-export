@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmWarcriesGrantRage1
+|mod_groups                       = AnimalCharmWarcriesGrantRage
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Berserker's
+|mod_type                         = AnimalCharmWarcriesGrantRage
+|stat_text                        = Warcries grant (2-3) Rage per 5 Power if you have less than 25 Rage
+|stat1_id                         = berserker_warcry_grant_X_rage_per_5_power_while_less_than_25_rage
+|stat1_min                        = 2
+|stat1_max                        = 3
+|spawn_weight1_tag                = str_animal_charm
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Eye of Winter
 |class_id                                = Active Skill Gem
@@ -15,18 +15,11 @@
 |skill_id                                = EyeOfWinter
 |cast_time                               = 0.8
 |required_level                          = 28
-|quality_type1_weight                    = 100
-|quality_type1_stat_text                 = 1% increased Cold Damage
-|quality_type1_stat1_id                  = cold_damage_+%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = 1% increased Projectile Speed
-|quality_type2_stat1_id                  = base_projectile_speed_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = 1.5% reduced Shard Spiral angle during flight
-|quality_type3_stat1_id                  = eye_of_winter_spiral_angle_+%
-|quality_type3_stat1_value               = -1500
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Fires +(0.1-2) Shard Projectiles in a Spiral when Projectile ends
+|quality_type1_breakpoints               = 10.0
+|quality_type1_stat1_id                  = eye_of_winter_base_explosion_shards
+|quality_type1_stat1_value               = 100
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 6
 |static_damage_effectiveness             = 55
@@ -42,8 +35,14 @@
 |static_stat4_value                      = 1
 |static_stat5_id                         = eye_of_winter_base_explosion_shards
 |static_stat5_value                      = 8
-|static_stat6_id                         = freezing_pulse_damage_+%_final_at_long_range
-|static_stat6_value                      = 200
+|static_stat6_id                         = quality_display_eye_of_winter_is_gem
+|static_stat6_value                      = 1
+|static_stat7_id                         = display_eye_of_winter_projectile_modifier
+|static_stat7_value                      = 1
+|static_stat8_id                         = freezing_pulse_damage_+%_final_at_long_range
+|static_stat8_value                      = 200
+|static_stat9_id                         = quality_display_freezing_pulse_damage_at_long_range_is_gem
+|static_stat9_value                      = 1
 |stat_text                               = Deals (16-245) to (25-367) Cold Damage<br>Fires 8 Shard Projectiles in a Spiral when Projectile ends<br>Modifiers to number of Projectiles only apply to the final Spiral<br>Projectiles continuously gain Damage, up to 200% more Damage by the time they dissipate
 |level1                                  = True
 |level1_level_requirement                = 28

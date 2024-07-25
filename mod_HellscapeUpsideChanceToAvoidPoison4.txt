@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideChanceToAvoidPoison4
+|mod_groups                       = ChanceToAvoidPoison
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = ChanceToAvoidPoison
+|stat_text                        = (36-40)% chance to Avoid being [[Poison|Poisoned]]
+|stat1_id                         = base_avoid_poison_%
+|stat1_min                        = 36
+|stat1_max                        = 40
+|spawn_weight1_tag                = ring
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = poison, chaos, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

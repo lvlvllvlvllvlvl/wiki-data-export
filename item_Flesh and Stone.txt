@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Flesh and Stone
 |class_id                                = Active Skill Gem
@@ -16,18 +16,11 @@
 |skill_id                                = BloodSandArmour
 |cast_time                               = 0.0
 |required_level                          = 16
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Cooldown Recovery Rate
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.5-10)% increased Cooldown Recovery Rate
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = base_cooldown_speed_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Buff grants 0.5% increased Evasion Rating and Armour
-|quality_type2_stat1_id                  = evasion_and_physical_damage_reduction_rating_+%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = Buff grants 1% increased Damage if you've changed Stance recently
-|quality_type3_stat1_id                  = damage_+%_if_changed_stances_recently
-|quality_type3_stat1_value               = 1000
 |static_stored_uses                      = 1
 |static_cooldown                         = 2
 |static_damage_effectiveness             = 100

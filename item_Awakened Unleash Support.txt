@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Awakened Unleash Support
 |class_id                                = Support Skill Gem
@@ -7,24 +7,26 @@
 |drop_level                              = 72
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemUnleashPlus
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
+|is_awakened_support_gem                 = true
 |intelligence_percent                    = 100
 |gem_tags                                = Spell, Support
 |skill_id                                = SupportUnleashPlus
 |support_gem_letter                      = q
 |required_level                          = 72
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills deal 0.5% increased Spell Damage
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills deal (0.5-10)% increased Spell Damage
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = spell_damage_+%
 |quality_type1_stat1_value               = 500
 |static_cost_multiplier                  = 150
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
-|stat_text                               = Supported Spells gain a Seal every (0.7-0.66) seconds, to a maximum of (3-4) Seals<br>Supported Spells are Unsealed when cast, and their effects Reoccur for each Seal lost<br>Supported Skills deal (40-38)% less Damage when Reoccurring
+|stat_text                               = Supported Spells gain a Seal every (0.70-0.66) seconds, to a maximum of (3-4) Seals<br>Supported Spells are Unsealed when cast, and their effects Reoccur for each Seal lost<br>Supported Skills deal (40-38)% less Damage when Reoccurring
 |level1                                  = True
 |level1_level_requirement                = 72
-|level1_stat_text                        = Supported Spells gain a Seal every 0.7 seconds, to a maximum of 3 Seals<br>Supported Spells are Unsealed when cast, and their effects Reoccur for each Seal lost<br>Supported Skills deal 40% less Damage when Reoccurring
+|level1_stat_text                        = Supported Spells gain a Seal every 0.70 seconds, to a maximum of 3 Seals<br>Supported Spells are Unsealed when cast, and their effects Reoccur for each Seal lost<br>Supported Skills deal 40% less Damage when Reoccurring
 |level1_stat1_id                         = support_anticipation_charge_gain_interval_ms
 |level1_stat1_value                      = 700
 |level1_stat2_id                         = support_anticipation_rapid_fire_count
@@ -150,7 +152,7 @@
 |level14_stat3_value                     = -36
 |level15                                 = True
 |level15_level_requirement               = 95
-|level15_stat_text                       = Supported Spells gain a Seal every 0.6 seconds, to a maximum of 4 Seals<br>Supported Spells are Unsealed when cast, and their effects Reoccur for each Seal lost<br>Supported Skills deal 35% less Damage when Reoccurring
+|level15_stat_text                       = Supported Spells gain a Seal every 0.60 seconds, to a maximum of 4 Seals<br>Supported Spells are Unsealed when cast, and their effects Reoccur for each Seal lost<br>Supported Skills deal 35% less Damage when Reoccurring
 |level15_stat1_id                        = support_anticipation_charge_gain_interval_ms
 |level15_stat1_value                     = 605
 |level15_stat2_id                        = support_anticipation_rapid_fire_count
@@ -159,7 +161,7 @@
 |level15_stat3_value                     = -35
 |level16                                 = True
 |level16_level_requirement               = 96
-|level16_stat_text                       = Supported Spells gain a Seal every 0.6 seconds, to a maximum of 4 Seals<br>Supported Spells are Unsealed when cast, and their effects Reoccur for each Seal lost<br>Supported Skills deal 35% less Damage when Reoccurring
+|level16_stat_text                       = Supported Spells gain a Seal every 0.60 seconds, to a maximum of 4 Seals<br>Supported Spells are Unsealed when cast, and their effects Reoccur for each Seal lost<br>Supported Skills deal 35% less Damage when Reoccurring
 |level16_stat1_id                        = support_anticipation_charge_gain_interval_ms
 |level16_stat1_value                     = 600
 |level16_stat2_id                        = support_anticipation_rapid_fire_count

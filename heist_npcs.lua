@@ -25,13 +25,13 @@ local data = {	{
 		id = "Metadata/Monsters/LeagueHeist/NPCAllies/HeistDetector1", 
 		name = "Nenet, the Scout", 
 		job_id = "Perception", 
-		stat_text = "Can Scout nearby Enemy Patrols and Elite Patrols during Heists<br>5% less raising of Alert [[Level]]", 
+		stat_text = "Can Scout [[Nearby|nearby]] Enemy Patrols and Elite Patrols during Heists<br>5% less raising of Alert [[Level]]", 
 	},
 	{
 		id = "Metadata/Monsters/LeagueHeist/NPCAllies/HeistDemolitionist1", 
 		name = "Vinderi, the Dismantler", 
 		job_id = "Demolition", 
-		stat_text = "10% more raising of Alert Level<br>Heist Chests have a 4% chance to Duplicate their contents", 
+		stat_text = "10% more raising of Alert [[Level]]<br>Heist Chests have a 4% chance to Duplicate their contents", 
 	},
 	{
 		id = "Metadata/Monsters/LeagueHeist/NPCAllies/HeistCatBurglar1", 

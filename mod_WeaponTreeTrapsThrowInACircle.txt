@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeTrapsThrowInACircle
+|mod_groups                       = WeaponTreeTrapsThrowInACircle
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeTrapsThrowInACircle
+|stat_text                        = [[Trap|Traps]] from [[Skill|Skills]] are thrown randomly around targeted location<br>25% reduced [[Trap]] Spread
+|stat1_id                         = weapon_tree_throw_traps_in_circle_radius
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = trap_spread_+%
+|stat2_min                        = -25
+|stat2_max                        = -25
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

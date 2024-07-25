@@ -1,0 +1,18 @@
+{{Mod
+|id                               = DamageTakenPerStrengthEldritchImplicit1
+|mod_groups                       = DamageTaken
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|mod_type                         = BodyDamageTakenPerStrength
+|stat_text                        = 1% less Damage Taken per 230 [[Strength]]
+|stat1_id                         = body_armour_implicit_damage_taken_-1%_final_per_X_strength
+|stat1_min                        = 230
+|stat1_max                        = 230
+|spawn_weight1_tag                = no_tier_6_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = body_armour
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

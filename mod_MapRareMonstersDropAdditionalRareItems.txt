@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapRareMonstersDropAdditionalRareItems
+|mod_groups                       = MapRareMonstersDropAdditionalRareItems
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Exceptional
+|mod_type                         = MapRareMonstersDropAdditionalRareItems
+|stat_text                        = Rare Monsters in next Area will drop 2 additional Rare Items
+|stat1_id                         = map_rare_monsters_drop_x_additional_rare_items
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = nemesis_leaguestone
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

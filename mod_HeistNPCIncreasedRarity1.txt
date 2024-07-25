@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HeistNPCIncreasedRarity1
+|mod_groups                       = HeistNPCIncreasedRarity
+|domain                           = 23
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Shrewd
+|mod_type                         = HeistNPCIncreasedRarity
+|stat_text                        = (23-26)% increased Rarity of Items dropped in Heists
+|stat1_id                         = heist_item_rarity_+%
+|stat1_min                        = 23
+|stat1_max                        = 26
+|spawn_weight1_tag                = heist_equipment_reward
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,13 @@
+{{Mod
+|id                               = MonsterConvertToFireDamageBurningMenace
+|mod_groups                       = FireDamageAsPortionOfDamage
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterConvertPhysicalDamageToFire
+|stat_text                        = 100% of [[Physical Damage]] Converted to [[Fire Damage]] (Hidden)
+|stat1_id                         = base_physical_damage_%_to_convert_to_fire
+|stat1_min                        = 100
+|stat1_max                        = 100
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, fire
+}}

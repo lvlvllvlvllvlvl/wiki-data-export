@@ -1,23 +1,25 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vaal Arctic Armour
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
 |size_y                                  = 1
-|drop_level                              = 1
+|drop_level                              = 16
 |tags                                    = vaal_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalArcticArmour
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |dexterity_percent                       = 60
 |intelligence_percent                    = 40
 |gem_tags                                = Spell, Duration, Cold, Vaal
+|secondary_skill_id                      = ArcticArmour
 |gem_description                         = Immediately encases you in ice, protecting you for a duration or until you take damage from a number of hits, and also grants a buff once the cast time has finished. You cannot move or perform non-instant actions while in the ice. When the ice breaks, the buff is also removed.
 |active_skill_name                       = Vaal Arctic Armour
 |skill_id                                = VaalArcticArmour
 |cast_time                               = 1.0
 |required_level                          = 16
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Skill Effect Duration
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% increased Skill Effect Duration
 |quality_type1_stat1_id                  = skill_effect_duration_+%
 |quality_type1_stat1_value               = 1000
 |static_vaal_souls_requirement           = 50
@@ -35,7 +37,7 @@
 |static_stat3_value                      = -90
 |static_stat4_id                         = vaal_arctic_armour_number_of_hits_absorbed
 |static_stat4_value                      = 3
-|stat_text                               = Base duration is 5 seconds<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>Buff grants (5-30.6) Mana Regeneration per second<br>Buff grants (20-395) Energy Shield Regeneration per second<br>You take 90% less Damage from Hits and count as Frozen<br>Ice breaks after you take 3 Damaging Hits or Duration expires
+|stat_text                               = Base duration is 5.00 seconds<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>Buff grants (5-30.6) Mana Regeneration per second<br>Buff grants (20-395) Energy Shield Regeneration per second<br>You take 90% less Damage from Hits and count as Frozen<br>Ice breaks after you take 3 Damaging Hits or Duration expires
 |level1                                  = True
 |level1_level_requirement                = 16
 |level1_stat_text                        = Buff grants 5 Mana Regeneration per second<br>Buff grants 20 Energy Shield Regeneration per second

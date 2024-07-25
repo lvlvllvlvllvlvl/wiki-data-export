@@ -27,13 +27,15 @@
 |static_stat7_value                      = 7
 |static_stat8_id                         = fire_storm_fireball_delay_ms
 |static_stat8_value                      = 200
-|static_stat9_id                         = firestorm_max_number_of_storms
-|static_stat9_value                      = 5
-|static_stat10_id                        = skill_is_ice_storm
-|static_stat10_value                     = 1
-|static_stat11_id                        = skill_effect_duration_per_100_int
-|static_stat11_value                     = 100
-|stat_text                               = Base duration is 1 seconds<br>Deals 5 to 7 base Cold Damage per 10 Intelligence<br>One impact every 0.2 seconds<br>Maximum 5 Firestorms at a time<br>0.1 seconds additional Base Duration per 100 Intelligence
+|static_stat9_id                         = active_skill_base_area_of_effect_radius
+|static_stat9_value                      = 16
+|static_stat10_id                        = firestorm_max_number_of_storms
+|static_stat10_value                     = 5
+|static_stat11_id                        = skill_is_ice_storm
+|static_stat11_value                     = 1
+|static_stat12_id                        = skill_effect_duration_per_100_int
+|static_stat12_value                     = 100
+|stat_text                               = Base duration is 1.00 seconds<br>Deals 5 to 7 base Cold Damage per 10 Intelligence<br>One impact every 0.20 seconds<br>Base radius is 1.6 metres<br>Maximum 5 Icestorms at a time<br>0.10 seconds additional Base Duration per 100 Intelligence
 |level1                                  = True
 |level1_level_requirement                = 1
 }}

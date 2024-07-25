@@ -1,0 +1,18 @@
+{{Mod
+|id                               = FlaskRemovesBleeding1
+|mod_groups                       = FlaskRemovesBleeding
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 8
+|name                             = of Staunching
+|mod_type                         = FlaskRemovesBleeding
+|stat_text                        = Grants Immunity to Bleeding for 4 seconds if used while Bleeding<br />Grants Immunity to [[Corrupted Blood]] for 4 seconds if used while affected by [[Corrupted Blood]]
+|stat1_id                         = local_flask_bleeding_immunity_if_bleeding_and_remove_corrupted_blood
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = flask, bleed, physical, attack, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Polished Sulphite Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = For harnessing and controlling the power of lightning, you, Raethan,<br>are now charged with researching this new energy.
 |drop_level                              = 68
-|tags                                    = polished_scarab, default
+|tags                                    = scarab, delve_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabSulphite2
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabSulphite2
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = Area contains Niko<br>Map owner gains 40% more Sulphite
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabSulphite2
 }}

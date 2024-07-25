@@ -1,0 +1,22 @@
+{{Mod
+|id                               = TinctureSplash2
+|mod_groups                       = MeleeSplashOnWeaponHit
+|domain                           = 34
+|generation_type                  = 1
+|required_level                   = 70
+|name                             = Echoing
+|mod_type                         = MeleeSplashOnWeaponHit
+|stat_text                        = Melee Strike [[Skill|Skills]] deal Splash Damage to surrounding targets, with (34-20)% reduced Area of Effect
+|stat1_id                         = melee_splash_with_weapons
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = melee_splash_area_of_effect_+%
+|stat2_min                        = -34
+|stat2_max                        = -20
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

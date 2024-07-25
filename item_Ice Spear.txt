@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Ice Spear
 |class_id                                = Active Skill Gem
@@ -16,22 +16,10 @@
 |skill_id                                = IceSpear
 |cast_time                               = 0.7
 |required_level                          = 12
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 2% increased Projectile Speed
-|quality_type1_stat1_id                  = base_projectile_speed_+%
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Second form has +(2-40)% to Critical Strike Multiplier
+|quality_type1_stat1_id                  = ice_spear_second_form_critical_strike_multiplier_+
 |quality_type1_stat1_value               = 2000
-|quality_type2_weight                    = 20
-|quality_type2_stat_text                 = Projectiles Pierce 0.1 additional Targets
-|quality_type2_stat1_id                  = projectile_base_number_of_targets_to_pierce
-|quality_type2_stat1_value               = 100
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 1% increased Cold Damage
-|quality_type3_stat1_id                  = cold_damage_+%
-|quality_type3_stat1_value               = 1000
-|quality_type4_weight                    = 50
-|quality_type4_stat_text                 = Travels 1% reduced distance before changing forms
-|quality_type4_stat1_id                  = ice_spear_distance_before_form_change_+%
-|quality_type4_stat1_value               = -1000
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 7
 |static_damage_effectiveness             = 130
@@ -41,13 +29,15 @@
 |static_stat1_value                      = 1
 |static_stat2_id                         = projectile_random_angle_based_on_distance_to_target_location_%
 |static_stat2_value                      = 35
-|static_stat3_id                         = number_of_additional_projectiles
-|static_stat3_value                      = 1
-|static_stat4_id                         = ice_spear_second_form_critical_strike_chance_+%
-|static_stat4_value                      = 600
-|static_stat5_id                         = ice_spear_second_form_projectile_speed_+%_final
-|static_stat5_value                      = 300
-|stat_text                               = Deals (22-568) to (33-852) Cold Damage<br>Fires an additional Projectile<br>Second form has 600% increased Critical Strike Chance<br>Second form has +(30-49)% to Critical Strike Multiplier<br>Second form has 300% more Projectile Speed
+|static_stat3_id                         = base_number_of_projectiles
+|static_stat3_value                      = 2
+|static_stat4_id                         = quality_display_base_number_of_projectiles_is_gem
+|static_stat4_value                      = 1
+|static_stat5_id                         = ice_spear_second_form_critical_strike_chance_+%
+|static_stat5_value                      = 600
+|static_stat6_id                         = ice_spear_second_form_projectile_speed_+%_final
+|static_stat6_value                      = 300
+|stat_text                               = Deals (22-568) to (33-852) Cold Damage<br>Fires 2 Projectiles<br>Second form has 600% increased Critical Strike Chance<br>Second form has +(30-49)% to Critical Strike Multiplier<br>Second form has 300% more Projectile Speed
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_cost_amounts                     = 8
@@ -489,5 +479,4 @@
 |level20_intelligence_requirement        = 155
 |level20_experience                      = 342004647
 |level21_intelligence_requirement        = 159
-|inventory_icon                          = Ice Spear
 }}

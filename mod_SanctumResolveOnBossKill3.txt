@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SanctumResolveOnBossKill3
+|mod_groups                       = SanctumResolveOnBossKill
+|domain                           = 7
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of Conquest
+|mod_type                         = SanctumResolveOnBossKill
+|stat_text                        = Gain (23-26) Resolve when you [[Kill|kill]] a Boss
+|stat1_id                         = sanctum_heal_on_boss_kill
+|stat1_min                        = 23
+|stat1_max                        = 26
+|spawn_weight1_tag                = small_sanctum_relic
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

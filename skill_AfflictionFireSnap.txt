@@ -1,5 +1,5 @@
 {{Skill
-|gem_description                         = Creates a sudden burst of cold in a targeted area, damaging enemies. This also creates an expanding area which is filled with chilled ground, and deals cold damage over time to enemies. Enemies that die while in the area have a chance to grant Frenzy Charges. The cooldown can be bypassed by expending a Frenzy Charge.
+|gem_description                         = Creates a sudden burst of cold in a targeted area, damaging enemies. Also creates an expanding area which is filled with chilled ground, and deals cold damage over time to enemies. Enemies that die while in the area have a chance to grant Frenzy Charges. The cooldown can be bypassed by expending a Frenzy Charge.
 |active_skill_name                       = Cold Snap
 |skill_id                                = AfflictionFireSnap
 |cast_time                               = 2.5
@@ -13,15 +13,21 @@
 |static_duration                         = 6
 |static_stat1_id                         = is_area_damage
 |static_stat1_value                      = 1
-|static_stat2_id                         = spell_minimum_base_fire_damage
-|static_stat2_value                      = 3
-|static_stat3_id                         = spell_maximum_base_fire_damage
-|static_stat3_value                      = 4
-|static_stat4_id                         = base_fire_damage_to_deal_per_minute
-|static_stat4_value                      = 282
-|static_stat5_id                         = base_skill_effect_duration
-|static_stat5_value                      = 6000
-|stat_text                               = Deals 3 to 4 Fire Damage<br>Deals 4.7 Base Fire Damage per second<br>Base duration is 6 seconds
+|static_stat2_id                         = base_fire_damage_to_deal_per_minute
+|static_stat2_value                      = 282
+|static_stat3_id                         = base_skill_effect_duration
+|static_stat3_value                      = 6000
+|static_stat4_id                         = spell_minimum_base_fire_damage
+|static_stat4_value                      = 3
+|static_stat5_id                         = spell_maximum_base_fire_damage
+|static_stat5_value                      = 4
+|static_stat6_id                         = active_skill_base_area_of_effect_radius
+|static_stat6_value                      = 30
+|static_stat7_id                         = active_skill_base_secondary_area_of_effect_radius
+|static_stat7_value                      = 15
+|static_stat8_id                         = active_skill_base_tertiary_area_of_effect_radius
+|static_stat8_value                      = 30
+|stat_text                               = Deals 4.7 Base Fire Damage per second<br>Base duration is 6.00 seconds<br>Deals 3 to 4 Fire Damage<br>Base radius is 3 metres<br>Base secondary radius is 1.5 metres<br>Base tertiary radius is 3 metres
 |level1                                  = True
 |level1_level_requirement                = 0
 }}

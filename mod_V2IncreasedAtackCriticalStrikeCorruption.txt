@@ -1,0 +1,19 @@
+{{Mod
+|id                               = V2IncreasedAtackCriticalStrikeCorruption
+|mod_groups                       = AdditionalCriticalStrikeChanceWithAttacks
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 60
+|mod_type                         = AdditionalCriticalStrikeChanceWithAttacks
+|stat_text                        = [[Attack|Attacks]] have +(0.5-0.8)% to [[Critical Strike Chance]]
+|stat1_id                         = attack_additional_critical_strike_chance_permyriad
+|stat1_min                        = 50
+|stat1_max                        = 80
+|spawn_weight1_tag                = gloves
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

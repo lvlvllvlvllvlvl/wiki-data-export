@@ -1,0 +1,13 @@
+{{Mod
+|id                               = MonsterElementalSkeletonLightning
+|mod_groups                       = LightningDamageAsPortionOfDamage
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterConvertPhysicalDamageToLightning
+|stat_text                        = 50% of [[Physical Damage]] Converted to [[Lightning Damage]] (Hidden)
+|stat1_id                         = base_physical_damage_%_to_convert_to_lightning
+|stat1_min                        = 50
+|stat1_max                        = 50
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, lightning
+}}

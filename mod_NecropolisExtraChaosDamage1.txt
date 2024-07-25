@@ -1,0 +1,17 @@
+{{Mod
+|id                               = NecropolisExtraChaosDamage1
+|mod_groups                       = NecropolisExtraChaosDamage
+|domain                           = 36
+|generation_type                  = 34
+|required_level                   = 20
+|mod_type                         = NecropolisExtraChaosDamage
+|stat_text                        = Gain 15% of Non-Chaos Damage as extra [[Chaos Damage]]
+|stat1_id                         = non_chaos_damage_to_add_as_chaos_damage_%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = monster_necropolis_mod_value_+%
+|stat2_min                        = 80
+|stat2_max                        = 80
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 300
+}}

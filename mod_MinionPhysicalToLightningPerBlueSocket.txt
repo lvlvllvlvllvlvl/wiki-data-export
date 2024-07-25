@@ -1,0 +1,15 @@
+{{Mod
+|id                               = MinionPhysicalToLightningPerBlueSocket
+|mod_groups                       = MinionConversionPerSocket
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MinionPhysicalToLightningPerBlueSocket
+|stat_text                        = [[Minion|Minions]] convert 25% of [[Physical Damage]] to [[Lightning Damage]] per Blue [[Item socket|Socket]]
+|stat1_id                         = minion_base_physical_damage_%_to_convert_to_lightning_per_blue_socket_on_item
+|stat1_min                        = 25
+|stat1_max                        = 25
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, lightning, minion
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

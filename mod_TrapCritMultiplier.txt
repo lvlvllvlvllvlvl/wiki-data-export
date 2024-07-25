@@ -1,0 +1,18 @@
+{{Mod
+|id                               = TrapCritMultiplier
+|mod_groups                       = FormCritMultiplier
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Debilitating
+|mod_type                         = TrapCritMultiplierForJewel
+|stat_text                        = +(8-10)% to [[Critical Strike Multiplier]] with [[Trap|Traps]]
+|stat1_id                         = trap_critical_strike_multiplier_+
+|stat1_min                        = 8
+|stat1_max                        = 10
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = damage, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

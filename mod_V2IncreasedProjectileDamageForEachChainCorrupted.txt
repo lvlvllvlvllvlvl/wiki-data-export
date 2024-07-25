@@ -1,0 +1,17 @@
+{{Mod
+|id                               = V2IncreasedProjectileDamageForEachChainCorrupted
+|mod_groups                       = IncreasedProjectileDamageForEachChain
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 40
+|mod_type                         = IncreasedProjectileDamageForEachChain
+|stat_text                        = Projectiles deal (20-25)% increased Damage with [[Hit|Hits]] and Ailments for each time they have Chained
+|stat1_id                         = projectile_damage_+%_per_chain
+|stat1_min                        = 20
+|stat1_max                        = 25
+|spawn_weight1_tag                = quiver
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = damage
+}}

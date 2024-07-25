@@ -1,0 +1,25 @@
+{{Mod
+|id                               = JunMasterVeiledLocalIncreaseSocketedSupportGemLevel
+|mod_groups                       = IncreaseSpecificSocketedGemLevel
+|domain                           = 28
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Catarina's
+|mod_type                         = LocalIncreaseSocketedSupportGemLevelAndQuality
+|stat_text                        = +2 to [[Level]] of [[Item socket|Socketed]] Support Gems<br>+(5-8)% to Quality of [[Item socket|Socketed]] Support Gems
+|stat1_id                         = local_socketed_support_gem_level_+
+|stat1_min                        = 2
+|stat1_max                        = 2
+|stat2_id                         = local_socketed_support_gem_quality_+
+|stat2_min                        = 5
+|stat2_max                        = 8
+|spawn_weight1_tag                = weapon
+|spawn_weight1_value              = 2000
+|spawn_weight2_tag                = shield
+|spawn_weight2_value              = 2000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = unveiled_mod, gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

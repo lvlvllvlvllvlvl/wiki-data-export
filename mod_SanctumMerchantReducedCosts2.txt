@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SanctumMerchantReducedCosts2
+|mod_groups                       = SanctumMerchantReducedCosts
+|domain                           = 7
+|generation_type                  = 2
+|required_level                   = 85
+|name                             = of Diplomacy
+|mod_type                         = SanctumMerchantReducedCosts
+|stat_text                        = (7-6)% reduced Merchant Prices
+|stat1_id                         = sanctum_merchant_gold_cost_+%
+|stat1_min                        = -7
+|stat1_max                        = -6
+|spawn_weight1_tag                = medium_sanctum_relic
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

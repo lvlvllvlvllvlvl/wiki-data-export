@@ -1,5 +1,5 @@
 {{Skill
-|gem_description                         = Fires a slow-moving projectile that periodically damages enemies in an area around it with bolts of lightning.
+|gem_description                         = Fires a slow-moving projectile that damages each enemy in an area around it repeatedly with bolts of lightning.
 |active_skill_name                       = Ball Lightning
 |skill_id                                = TalismanBallLightning
 |cast_time                               = 0.8
@@ -12,7 +12,9 @@
 |static_stat1_value                      = -33
 |static_stat2_id                         = base_is_projectile
 |static_stat2_value                      = 1
-|stat_text                               = Deals (1-90) to (3-269) Lightning Damage<br>(4-37)% increased Cast Speed
+|static_stat3_id                         = active_skill_base_area_of_effect_radius
+|static_stat3_value                      = 18
+|stat_text                               = Deals (1-90) to (3-269) Lightning Damage<br>(4-37)% increased Cast Speed<br>Base radius is 1.8 metres
 |level1                                  = True
 |level1_level_requirement                = 3
 |level1_stat_text                        = Deals 1 to 3 Lightning Damage<br>4% increased Cast Speed

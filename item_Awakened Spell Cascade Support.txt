@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Awakened Spell Cascade Support
 |class_id                                = Support Skill Gem
@@ -7,14 +7,16 @@
 |drop_level                              = 72
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemSpellCascadePlus
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
+|is_awakened_support_gem                 = true
 |intelligence_percent                    = 100
 |gem_tags                                = AoE, Spell, Support
 |skill_id                                = SupportSpellCascadePlus
 |support_gem_letter                      = p
 |required_level                          = 72
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills have 0.5% increased Area of Effect
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills have (0.5-10)% increased Area of Effect
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = base_skill_area_of_effect_+%
 |quality_type1_stat1_value               = 500
 |static_cost_multiplier                  = 130
@@ -25,7 +27,7 @@
 |static_stat1_value                      = 1
 |static_stat2_id                         = support_spell_cascade_sideways
 |static_stat2_value                      = 1
-|stat_text                               = Supported Skills have (30-26)% less Area of Effect<br>Supported Skills deal (30-28)% less Damage<br>Supported Area of Effect Skills also affect areas in front of and behind the targeted area
+|stat_text                               = Supported Skills have (30-26)% less Area of Effect<br>Supported Skills deal (30-28)% less Damage<br>Supported Area of Effect Skills also affect areas in front of, behind,<br>and on each side of the targeted area
 |level1                                  = True
 |level1_level_requirement                = 72
 |level1_stat_text                        = Supported Skills have 30% less Area of Effect<br>Supported Skills deal 30% less Damage

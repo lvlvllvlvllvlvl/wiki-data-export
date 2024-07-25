@@ -1,0 +1,19 @@
+{{Mod
+|id                               = TinctureBlockChanceOnStun3
+|mod_groups                       = BlockChanceIfStunnedEnemyRecently
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 72
+|name                             = of Pummelling
+|mod_type                         = BlockChanceIfStunnedEnemyRecently
+|stat_text                        = +(13-15)% Chance to [[Block]] [[Attack Damage]] if you've Stunned an Enemy [[Recently]]
+|stat1_id                         = chance_to_block_attack_damage_if_stunned_an_enemy_recently_+%
+|stat1_min                        = 13
+|stat1_max                        = 15
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

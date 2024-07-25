@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Winged Harbinger Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = The thousand year truce has faltered, for the inscrutable ones have imprisoned their own God.<br>Should they invade again, there will be no warning.
 |drop_level                              = 68
-|tags                                    = jewelled_scarab, default
+|tags                                    = scarab, harbinger_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabHarbinger4
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabHarbinger4_
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = Area contains 7 additional Harbingers
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabHarbinger4_
 }}

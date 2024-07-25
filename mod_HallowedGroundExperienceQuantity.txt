@@ -1,0 +1,18 @@
+{{Mod
+|id                               = HallowedGroundExperienceQuantity
+|mod_groups                       = MapHallowedGround
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = HallowedGroundBonus
+|stat_text                        = Unique Boss gives 2000% increased Experience<br>100% increased Quantity of Items found in this Area<br>100% increased Rarity of Items found in this Area
+|stat1_id                         = display_map_boss_gives_experience_+%
+|stat1_min                        = 2000
+|stat1_max                        = 2000
+|stat2_id                         = map_item_drop_quantity_+%
+|stat2_min                        = 100
+|stat2_max                        = 100
+|stat3_id                         = map_item_drop_rarity_+%
+|stat3_min                        = 100
+|stat3_max                        = 100
+}}

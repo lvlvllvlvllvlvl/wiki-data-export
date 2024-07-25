@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MapSupporterCannotEvade
+|mod_groups                       = MapSupporterCannotEvade
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSupporterCannotEvade
+|stat_text                        = Players cannot Evade<br>4% Chance to convert Maps to Unique Maps<br>20% increased Rarity of Items found in this Area
+|stat1_id                         = map_cannot_evade
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_supporter_map_to_unique_map_permyriad
+|stat2_min                        = 400
+|stat2_max                        = 400
+|stat3_id                         = map_item_drop_rarity_+%
+|stat3_min                        = 20
+|stat3_max                        = 20
+}}

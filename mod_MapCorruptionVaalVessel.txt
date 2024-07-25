@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MapCorruptionVaalVessel
+|mod_groups                       = MapCorruptVessel
+|domain                           = 5
+|generation_type                  = 5
+|required_level                   = 78
+|mod_type                         = MapCorruptionVaalVessel
+|stat_text                        = Area contains an additional guarded Exquisite Vaal Vessel
+|stat1_id                         = map_spawn_additional_empowered_vaal_chests
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = infected_map
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 10
+}}

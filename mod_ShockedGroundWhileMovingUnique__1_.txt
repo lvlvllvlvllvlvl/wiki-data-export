@@ -1,0 +1,15 @@
+{{Mod
+|id                               = ShockedGroundWhileMovingUnique__1_
+|mod_groups                       = ItemGrantsBuff
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|granted_buff_id                  = wake_of_destruction
+|granted_buff_value               = 0
+|mod_type                         = ShockedGroundWhileMoving
+|stat_text                        = Drops [[Shock|Shocked]] Ground while moving, lasting 2 seconds
+|stat1_id                         = wake_of_destruction_ground_lightning_duration_ms
+|stat1_min                        = 2000
+|stat1_max                        = 2000
+|tags                             = elemental, lightning, ailment
+}}

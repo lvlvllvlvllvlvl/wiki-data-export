@@ -1,0 +1,31 @@
+{{Mod
+|id                               = MonsterArchnemesisShocker_
+|mod_groups                       = MonsterArchnemesisShocker
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 13
+|name                             = Shocking
+|mod_type                         = MonsterArchnemesisShocker
+|stat_text                        = [[Hit|Hits]] always [[Shock]] (Hidden)<br>All Damage can [[Shock]] (Hidden)<br>25% increased Effect of [[Shock]] (Hidden)<br>50% increased [[Shock]] Duration on Enemies (Hidden)
+|stat1_id                         = always_shock
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = all_damage_can_shock
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = shock_effect_+%
+|stat3_min                        = 25
+|stat3_max                        = 25
+|stat4_id                         = shock_duration_+%
+|stat4_min                        = 50
+|stat4_max                        = 50
+|stat5_id                         = lightning_ailment_effect_on_self_+%
+|stat5_min                        = -80
+|stat5_max                        = -80
+|spawn_weight1_tag                = no_common_monster_mods
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = magic
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 2500
+}}

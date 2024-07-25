@@ -1,0 +1,22 @@
+{{Mod
+|id                               = FasterIgniteDamageInfluence2
+|mod_groups                       = FasterDamageAilments
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 73
+|name                             = of the Hunt
+|mod_type                         = FasterIgniteDamage
+|stat_text                        = [[Ignite|Ignites]] you inflict deal Damage (13-15)% faster
+|stat1_id                         = faster_burn_%
+|stat1_min                        = 13
+|stat1_max                        = 15
+|spawn_weight1_tag                = sceptre_basilisk
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = wand_basilisk
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

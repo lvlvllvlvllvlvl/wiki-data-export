@@ -1,0 +1,18 @@
+{{Mod
+|id                               = AddedLightningDamageUniqueGlovesInt1
+|mod_groups                       = LightningDamage
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = LightningDamage
+|stat_text                        = Adds 1 to 13 [[Lightning Damage]] to [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_lightning_damage
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = attack_maximum_added_lightning_damage
+|stat2_min                        = 13
+|stat2_max                        = 13
+|tags                             = elemental_damage, damage, elemental, lightning, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

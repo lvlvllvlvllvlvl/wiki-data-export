@@ -1,0 +1,29 @@
+{{Mod
+|id                               = MonsterArchnemesisSteelAttuned___
+|mod_groups                       = MonsterArchnemesisSteelAttuned
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|name                             = of Steel
+|mod_type                         = MonsterArchnemesisSteelAttuned
+|stat_text                        = Overwhelm 10% [[Physical Damage]] Reduction (Hidden)<br>40% increased Global [[Physical Damage]] (Hidden)<br>30% additional [[Physical Damage]] Reduction (Hidden)<br>250% increased Stun Threshold (Hidden)
+|stat1_id                         = enemy_phys_reduction_%_penalty_vs_hit
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = physical_damage_+%
+|stat2_min                        = 40
+|stat2_max                        = 40
+|stat3_id                         = base_additional_physical_damage_reduction_%
+|stat3_min                        = 30
+|stat3_max                        = 30
+|stat4_id                         = stun_threshold_+%
+|stat4_min                        = 250
+|stat4_max                        = 250
+|stat5_id                         = blood_and_armour_type_override_robot
+|stat5_min                        = 1
+|stat5_max                        = 1
+|spawn_weight1_tag                = no_common_monster_mods
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 5000
+}}

@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AvoidShockCorruption
+|mod_groups                       = ReducedShockChance
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = ReducedShockChance
+|stat_text                        = (10-20)% chance to Avoid being [[Shock|Shocked]]
+|stat1_id                         = base_avoid_shock_%
+|stat1_min                        = 10
+|stat1_max                        = 20
+|spawn_weight1_tag                = body_armour
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = belt
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental, lightning, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

@@ -1,0 +1,17 @@
+{{Mod
+|id                               = SanctumSpecialPlayerReflectedDamage
+|mod_groups                       = ReflectedDamage
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Chosen
+|mod_type                         = PlayerReflectedDamage
+|stat_text                        = (65-50)% reduced Reflected Damage taken
+|stat1_id                         = reflect_damage_taken_+%
+|stat1_min                        = -65
+|stat1_max                        = -50
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+}}

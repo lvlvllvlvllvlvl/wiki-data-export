@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapAreaContainsAdditionalWarbandPacks3
+|mod_groups                       = MapAreaContainsAdditionalWarbandPacks
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Abundant
+|mod_type                         = MapAreaContainsAdditionalWarbandPacks
+|stat_text                        = Next Area will contain (4-5) additional Warband Packs
+|stat1_id                         = map_leaguestone_additional_warband_packs
+|stat1_min                        = 4
+|stat1_max                        = 5
+|spawn_weight1_tag                = warbands_leaguestone
+|spawn_weight1_value              = 140
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

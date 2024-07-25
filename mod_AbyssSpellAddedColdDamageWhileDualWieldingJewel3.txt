@@ -1,0 +1,35 @@
+{{Mod
+|id                               = AbyssSpellAddedColdDamageWhileDualWieldingJewel3
+|mod_groups                       = WeaponClassColdDamage
+|domain                           = 13
+|generation_type                  = 1
+|required_level                   = 48
+|name                             = Frozen
+|mod_type                         = SpellAddedColdDamageWhileDualWielding
+|stat_text                        = (10-12) to (14-16) Added [[Spell]] [[Cold Damage]] while [[Dual Wield|Dual Wielding]]
+|stat1_id                         = spell_minimum_added_cold_damage_while_dual_wielding
+|stat1_min                        = 10
+|stat1_max                        = 12
+|stat2_id                         = spell_maximum_added_cold_damage_while_dual_wielding
+|stat2_min                        = 14
+|stat2_max                        = 16
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = abyss_jewel_ranged
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = abyss_jewel_summoner
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = dual_wielding_mod
+|spawn_weight4_value              = 700
+|spawn_weight5_tag                = two_handed_mod
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = shield_mod
+|spawn_weight6_value              = 0
+|spawn_weight7_tag                = abyss_jewel_caster
+|spawn_weight7_value              = 250
+|spawn_weight8_tag                = default
+|spawn_weight8_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, cold, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Void Sphere
 |class_id                                = Active Skill Gem
@@ -13,26 +13,12 @@
 |gem_description                         = Creates a Void Sphere which Hinders enemies in an area around it, with the debuff being stronger on enemies closer to the sphere. It also regularly releases pulses of area damage. The Void Sphere will consume the corpses of any enemies which die in its area. Can only have one Void Sphere at a time.
 |active_skill_name                       = Void Sphere
 |skill_id                                = BlackHole
-|cast_time                               = 0.6
+|cast_time                               = 0.8
 |required_level                          = 34
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Area of Effect
-|quality_type1_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = 2% reduced Skill Effect Duration<br>2% increased Cooldown Recovery Rate
-|quality_type2_stat1_id                  = skill_effect_duration_+%
-|quality_type2_stat1_value               = -2000
-|quality_type2_stat2_id                  = base_cooldown_speed_+%
-|quality_type2_stat2_value               = 2000
-|quality_type3_weight                    = 20
-|quality_type3_stat_text                 = 3% of Physical Damage Converted to Cold Damage
-|quality_type3_stat1_id                  = skill_physical_damage_%_to_convert_to_cold
-|quality_type3_stat1_value               = 3000
-|quality_type4_weight                    = 100
-|quality_type4_stat_text                 = Void Sphere has 0.5% increased Pulse Frequency
-|quality_type4_stat1_id                  = blackhole_pulse_frequency_+%
-|quality_type4_stat1_value               = 500
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% increased Cooldown Recovery Rate
+|quality_type1_stat1_id                  = base_cooldown_speed_+%
+|quality_type1_stat1_value               = 1000
 |static_cost_types                       = Mana
 |static_stored_uses                      = 1
 |static_cooldown                         = 10
@@ -53,7 +39,9 @@
 |static_stat5_value                      = 400
 |static_stat6_id                         = skill_physical_damage_%_to_convert_to_chaos
 |static_stat6_value                      = 40
-|stat_text                               = Deals (27-344) to (40-516) Physical Damage<br>Base duration is 5 seconds<br>Pulses every 0.4 seconds<br>40% of Physical Damage Converted to Chaos Damage<br>Enemies in range are Hindered, with up to (30-39)% reduced Movement Speed, based on distance from the Void Sphere
+|static_stat7_id                         = active_skill_base_area_of_effect_radius
+|static_stat7_value                      = 38
+|stat_text                               = Deals (27-344) to (40-516) Physical Damage<br>Base duration is 5.00 seconds<br>Pulses every 0.40 seconds<br>40% of Physical Damage Converted to Chaos Damage<br>Base radius is 3.8 metres<br>Enemies in range are Hindered, with up to (30-39)% reduced Movement Speed, based on distance from the Void Sphere
 |level1                                  = True
 |level1_level_requirement                = 34
 |level1_cost_amounts                     = 30
@@ -495,5 +483,4 @@
 |level20_intelligence_requirement        = 155
 |level20_experience                      = 338712291
 |level21_intelligence_requirement        = 159
-|inventory_icon                          = Void Sphere
 }}

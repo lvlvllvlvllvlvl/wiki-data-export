@@ -1,0 +1,26 @@
+{{Mod
+|id                               = DelveJewelryElementalPenetration1
+|mod_groups                       = ElementalPenetration
+|domain                           = 16
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Subterranean
+|mod_type                         = ElementalPenetration
+|stat_text                        = Damage Penetrates (3-5)% [[Elemental Resistance|Elemental Resistances]]
+|stat1_id                         = reduce_enemy_elemental_resistance_%
+|stat1_min                        = 3
+|stat1_max                        = 5
+|spawn_weight1_tag                = abyss_jewel
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = jewel
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = quiver
+|spawn_weight3_value              = 1600
+|spawn_weight4_tag                = amulet
+|spawn_weight4_value              = 1600
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = elemental_damage, damage, elemental
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

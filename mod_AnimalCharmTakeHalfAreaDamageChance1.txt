@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmTakeHalfAreaDamageChance1
+|mod_groups                       = AnimalCharmTakeHalfAreaDamageChance
+|domain                           = 35
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of the Saboteur
+|mod_type                         = AnimalCharmTakeHalfAreaDamageChance
+|stat_text                        = (5-6)% chance to take 50% less Area Damage from [[Hit|Hits]]
+|stat1_id                         = take_half_area_damage_from_hit_%_chance
+|stat1_min                        = 5
+|stat1_max                        = 6
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = dex_animal_charm
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

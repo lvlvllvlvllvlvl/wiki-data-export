@@ -1,0 +1,14 @@
+{{Passive skill
+|id                                  = atlas_keystone_ultimatum_ruin
+|int_id                              = 63781
+|name                                = Ruinous Wager
+|flavour_text                        = There are many ways to win... and many ways to lose.
+|is_keystone                         = True
+|is_atlas_passive                    = True
+|icon                                = RuinousWagerKeystone (AtlasTrees)
+|stat1_id                            = map_ultimatum_always_ruin_monsters
+|stat1_value                         = 1
+|stat2_id                            = map_ultimatum_monster_damage_+%_final
+|stat2_value                         = -50
+|stat_text                           = Ultimatum Monsters in your Maps apply Ruin with their special abilities<br />Fail on reaching 7 Ruin<br>Ultimatum Monsters and Modifiers in your Maps deal 50% less Damage
+}}

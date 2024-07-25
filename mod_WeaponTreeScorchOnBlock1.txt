@@ -1,0 +1,16 @@
+{{Mod
+|id                               = WeaponTreeScorchOnBlock1
+|mod_groups                       = WeaponTreeScorchOnBlock
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 30
+|mod_type                         = WeaponTreeScorchOnBlock
+|stat_text                        = 15% chance to Scorch Enemies when you [[Block]] their Damage
+|stat1_id                         = chance_to_inflict_scorch_on_enemy_on_block_%
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

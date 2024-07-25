@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmGolemBuffEffect2
+|mod_groups                       = AnimalCharmGolemBuffEffect
+|domain                           = 35
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of the Elementalist
+|mod_type                         = AnimalCharmGolemBuffEffect
+|stat_text                        = (21-35)% increased Effect of Buffs granted by your Golems
+|stat1_id                         = golem_buff_effect_+%
+|stat1_min                        = 21
+|stat1_max                        = 35
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

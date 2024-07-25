@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapSummonBeyondBossOnBeyondBossDeathChance__
+|mod_groups                       = MapSummonBeyondBossOnBeyondBossDeathChance
+|domain                           = 12
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Circle
+|mod_type                         = MapSummonBeyondBossOnBeyondBossDeathChance
+|stat_text                        = Unique Monsters from Beyond in next Area have a 20% chance to Summon another Unique Monster from Beyond when Slain
+|stat1_id                         = map_spawn_beyond_boss_when_beyond_boss_slain_%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|spawn_weight1_tag                = beyond_leaguestone
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

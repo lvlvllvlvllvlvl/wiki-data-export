@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vaal Power Siphon
 |class_id                                = Active Skill Gem
@@ -8,18 +8,21 @@
 |tags                                    = vaal_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalPowerSiphon
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |intelligence_percent                    = 100
 |gem_tags                                = Critical, Attack, Projectile, Vaal
+|secondary_skill_id                      = PowerSiphon
 |gem_description                         = Fires your wand simultaneously at all nearby enemies, culling those close to death and granting you a power charge for each. Cannot be supported by Volley.
 |active_skill_name                       = Vaal Power Siphon
 |item_class_id_restriction               = Wand
 |skill_id                                = VaalPowerSiphon
 |cast_time                               = 1.0
 |required_level                          = 12
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Damage
-|quality_type1_stat1_id                  = damage_+%
-|quality_type1_stat1_value               = 1000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = +(0.5-10)% to Critical Strike Multiplier per Power Charge
+|quality_type1_breakpoints               = 2.0
+|quality_type1_stat1_id                  = critical_strike_multiplier_+_per_power_charge
+|quality_type1_stat1_value               = 500
 |static_vaal_souls_requirement           = 15
 |static_vaal_stored_uses                 = 3
 |static_vaal_soul_gain_prevention_time   = 2
@@ -38,11 +41,11 @@
 |static_stat6_value                      = 1
 |static_stat7_id                         = chance_to_gain_power_charge_on_rare_or_unique_enemy_hit_%
 |static_stat7_value                      = 100
-|static_stat8_id                         = critical_strike_chance_+%_per_power_charge
-|static_stat8_value                      = 50
+|static_stat8_id                         = critical_strike_chance_+%_final_per_power_charge_from_power_siphon
+|static_stat8_value                      = 20
 |static_stat9_id                         = critical_strike_multiplier_+_per_power_charge
 |static_stat9_value                      = 25
-|stat_text                               = Fires Projectiles at each nearby Enemy<br>Culling Strike<br>Can't be Evaded<br>Gain a Power Charge when Projectile Hits a Rare or Unique Enemy<br>50% increased Critical Strike Chance per Power Charge<br>+25% to Critical Strike Multiplier per Power Charge
+|stat_text                               = Fires Projectiles at each nearby Enemy<br>Culling Strike<br>Can't be Evaded<br>Gain a Power Charge when Projectile Hits a Rare or Unique Enemy<br>20% more Critical Strike Chance per Power Charge<br>+25% to Critical Strike Multiplier per Power Charge
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_damage_effectiveness             = 150

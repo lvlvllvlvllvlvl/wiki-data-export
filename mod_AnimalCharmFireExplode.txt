@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmFireExplode
+|mod_groups                       = AnimalCharmFireExplode
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 70
+|name                             = Chieftain's
+|mod_type                         = AnimalCharmFireExplode
+|stat_text                        = Enemies you or your [[Totem|Totems]] [[Kill]] have 1% chance to Explode, dealing 500% of their maximum [[Life]] as [[Fire Damage]]
+|stat1_id                         = explode_enemies_for_500%_life_as_fire_on_kill_%_chance
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = str_animal_charm
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

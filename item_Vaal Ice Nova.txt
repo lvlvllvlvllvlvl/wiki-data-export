@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vaal Ice Nova
 |class_id                                = Active Skill Gem
@@ -8,17 +8,20 @@
 |tags                                    = vaal_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalIceNova
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |intelligence_percent                    = 100
 |gem_tags                                = Spell, AoE, Vaal, Cold, Nova
+|secondary_skill_id                      = IceNova
 |gem_description                         = A chilling circle of ice expands from the caster, repeating from every enemy it hits.
 |active_skill_name                       = Vaal Ice Nova
 |skill_id                                = VaalIceNova
 |cast_time                               = 0.7
 |required_level                          = 12
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Area of Effect
-|quality_type1_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type1_stat1_value               = 500
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Base radius is (0.015-0.3) metres
+|quality_type1_breakpoints               = 6.666666666666667
+|quality_type1_stat1_id                  = active_skill_base_area_of_effect_radius
+|quality_type1_stat1_value               = 150
 |static_vaal_souls_requirement           = 25
 |static_vaal_stored_uses                 = 2
 |static_vaal_soul_gain_prevention_time   = 2
@@ -34,7 +37,9 @@
 |static_stat3_value                      = 5
 |static_stat4_id                         = ice_nova_radius_+%_per_repeat
 |static_stat4_value                      = -20
-|stat_text                               = Deals (18-518) to (26-762) Cold Damage<br>Causes smaller novas up to 5 times on enemies hit<br>20% reduced Area of Effect each repeat
+|static_stat5_id                         = active_skill_base_area_of_effect_radius
+|static_stat5_value                      = 26
+|stat_text                               = Deals (18-518) to (26-762) Cold Damage<br>Causes smaller novas up to 5 times on enemies hit<br>20% reduced Area of Effect each repeat<br>Base radius is 2.6 metres
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_stat_text                        = Deals 18 to 26 Cold Damage

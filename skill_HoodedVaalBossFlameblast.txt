@@ -14,17 +14,17 @@
 |static_stat1_value                      = 35
 |static_stat2_id                         = is_area_damage
 |static_stat2_value                      = 1
-|static_stat3_id                         = spell_minimum_base_fire_damage
-|static_stat3_value                      = 6
-|static_stat4_id                         = spell_maximum_base_fire_damage
-|static_stat4_value                      = 9
-|static_stat5_id                         = always_ignite
-|static_stat5_value                      = 1
+|static_stat3_id                         = always_ignite
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_fire_damage
+|static_stat4_value                      = 6
+|static_stat5_id                         = spell_maximum_base_fire_damage
+|static_stat5_value                      = 9
 |static_stat6_id                         = burn_damage_+%
 |static_stat6_value                      = 250
 |static_stat7_id                         = charged_blast_spell_damage_+%_final_per_stack
 |static_stat7_value                      = 10
-|stat_text                               = Deals 6 to 9 Fire Damage<br>Hits always Ignite<br>250% increased Burning Damage<br>10% more Spell Damage for each stage
+|stat_text                               = Hits always Ignite<br>Deals 6 to 9 Fire Damage<br>250% increased Burning Damage<br>10% more Spell Damage for each stage
 |level1                                  = True
 |level1_level_requirement                = 0
 }}

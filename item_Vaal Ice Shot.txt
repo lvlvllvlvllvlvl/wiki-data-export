@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vaal Ice Shot
 |class_id                                = Active Skill Gem
@@ -8,18 +8,20 @@
 |tags                                    = up_to_level_2_gem, up_to_level_8_gem, vaal_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalIceShot
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |dexterity_percent                       = 100
 |gem_tags                                = Attack, Projectile, AoE, Cold, Vaal, Duration, Bow
+|secondary_skill_id                      = IceShot
 |gem_description                         = Fires an arrow that converts some physical damage to cold on its target and converts all physical damage to cold in a cone behind that target. When you use this skill, it summons a squad of Mirage Sharpshooters for a duration. Cannot be used by Totems, Traps, or Mines.
 |active_skill_name                       = Vaal Ice Shot
 |item_class_id_restriction               = Bow
 |skill_id                                = VaalIceShot
 |cast_time                               = 1.0
 |required_level                          = 1
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Cold Damage
-|quality_type1_stat1_id                  = cold_damage_+%
-|quality_type1_stat1_value               = 1000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (4-80)% increased Area of Effect angle
+|quality_type1_stat1_id                  = skill_area_angle_+%
+|quality_type1_stat1_value               = 4000
 |static_vaal_souls_requirement           = 40
 |static_vaal_stored_uses                 = 1
 |static_vaal_soul_gain_prevention_time   = 8
@@ -39,7 +41,7 @@
 |static_stat6_value                      = 6
 |static_stat7_id                         = vaal_ice_shot_modifiers_to_projectile_count_do_not_apply_to_mirages
 |static_stat7_value                      = 1
-|stat_text                               = Base duration is 6 seconds<br>(2-75) to (3-113) Added Cold Damage<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>60% of Physical Damage Converted to Cold Damage<br>Maximum 6 Summoned Mirage Sharpshooters<br>Summons 6 Mirage Sharpshooters which use this Skill<br>Mirage Sharpshooters fire at your target when you use Ice Shot<br>Modifiers to number of Projectiles do not apply to<br>this Skill when used by Mirage Sharpshooters
+|stat_text                               = Base duration is 6.00 seconds<br>(2-75) to (3-113) Added Cold Damage<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>60% of Physical Damage Converted to Cold Damage<br>Maximum 6 Summoned Mirage Sharpshooters<br>Summons 6 Mirage Sharpshooters which use this Skill<br>Mirage Sharpshooters fire at your target when you use Ice Shot<br>Modifiers to number of Projectiles do not apply to<br>this Skill when used by Mirage Sharpshooters
 |level1                                  = True
 |level1_level_requirement                = 1
 |level1_damage_effectiveness             = 65
@@ -321,6 +323,7 @@
 |level31_stat2_value                     = 232
 |level32                                 = True
 |level32_level_requirement               = 92
+|level32_damage_effectiveness            = 100
 |level32_damage_multiplier               = 99.7
 |level32_stat_text                       = 160 to 240 Added Cold Damage
 |level32_stat1_id                        = attack_minimum_added_cold_damage
@@ -329,6 +332,7 @@
 |level32_stat2_value                     = 240
 |level33                                 = True
 |level33_level_requirement               = 93
+|level33_damage_effectiveness            = 100
 |level33_damage_multiplier               = 100.3
 |level33_stat_text                       = 165 to 248 Added Cold Damage
 |level33_stat1_id                        = attack_minimum_added_cold_damage

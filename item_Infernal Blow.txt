@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Infernal Blow
 |class_id                                = Active Skill Gem
@@ -10,30 +10,17 @@
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
 |strength_percent                        = 100
 |gem_tags                                = Attack, AoE, Melee, Strike, Fire, Duration
-|gem_description                         = Attacks with your weapon, applying a charged debuff to enemies hit by your strike, and an uncharged debuff to any other enemies hit. Upon reaching 6 charges, expiring, or the enemy's death, the charged debuff is removed, and it deals damage to that and other nearby enemies. Enemies with either debuff explode when they die, damaging other nearby enemies. Damage from this explosion cannot be reflected. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed.
+|gem_description                         = Attacks with your weapon, applying a charged debuff to enemies hit by your strike, and an uncharged debuff to any other enemies hit. Upon reaching 6 charges, expiring, or the enemy's death, the charged debuff is removed to damage that and other surrounding enemies. Enemies with either debuff explode when they die, damaging other surrounding enemies. Damage from this explosion cannot be reflected. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed.
 |active_skill_name                       = Infernal Blow
 |item_class_id_restriction               = One Hand Sword, Thrusting One Hand Sword, Two Hand Sword, One Hand Axe, Two Hand Axe, One Hand Mace, Sceptre, Two Hand Mace, Staff, Unarmed, Warstaff
 |skill_id                                = InfernalBlow
 |cast_time                               = 1.0
 |required_level                          = 12
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Area of Effect
-|quality_type1_stat1_id                  = base_skill_area_of_effect_+%
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Debuff deals +(0.5-10)% of Damage per Charge
+|quality_type1_breakpoints               = 2.0
+|quality_type1_stat1_id                  = infernal_blow_explosion_damage_%_of_total_per_stack
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 20
-|quality_type2_stat_text                 = Explosion has 1% chance to apply Uncharged Debuff on Hit
-|quality_type2_stat1_id                  = infernal_blow_explosion_applies_uncharged_debuff_on_hit_%_chance
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 3% increased Burning Damage<br>1% chance to Ignite enemies
-|quality_type3_stat1_id                  = burn_damage_+%
-|quality_type3_stat1_value               = 3000
-|quality_type3_stat2_id                  = base_chance_to_ignite_%
-|quality_type3_stat2_value               = 1000
-|quality_type4_weight                    = 100
-|quality_type4_stat_text                 = 4% increased Skill Effect Duration
-|quality_type4_stat1_id                  = skill_effect_duration_+%
-|quality_type4_stat1_value               = 4000
 |static_cost_amounts                     = 6
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 100
@@ -44,9 +31,17 @@
 |static_stat2_value                      = 6
 |static_stat3_id                         = skill_physical_damage_%_to_convert_to_fire
 |static_stat3_value                      = 60
-|static_stat4_id                         = infernal_blow_explosion_damage_%_of_total_per_stack
-|static_stat4_value                      = 66
-|stat_text                               = Base duration is 0.8 seconds<br>(5-75) to (8-113) Added Fire Damage<br>Explosion deals base Fire Damage equal to 6% of the corpse's Maximum Life<br>60% of Physical Damage Converted to Fire Damage<br>Debuff deals 66% of Damage per Charge
+|static_stat4_id                         = active_skill_base_area_of_effect_radius
+|static_stat4_value                      = 24
+|static_stat5_id                         = active_skill_secondary_area_of_effect_description_mode
+|static_stat5_value                      = 1
+|static_stat6_id                         = active_skill_base_secondary_area_of_effect_radius
+|static_stat6_value                      = 18
+|static_stat7_id                         = infernal_blow_explosion_damage_%_of_total_per_stack
+|static_stat7_value                      = 66
+|static_stat8_id                         = quality_display_infernal_blow_is_gem
+|static_stat8_value                      = 1
+|stat_text                               = Base duration is 0.80 seconds<br>(5-75) to (8-113) Added Fire Damage<br>Explosion deals base Fire Damage equal to 6% of the corpse's Maximum Life<br>60% of Physical Damage Converted to Fire Damage<br>Base radius is 2.4 metres<br>Base explosion radius is 1.8 metres<br>Debuff deals 66% of Damage per Charge
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_damage_effectiveness             = 104
@@ -448,5 +443,4 @@
 |level20_strength_requirement            = 155
 |level20_experience                      = 342004647
 |level21_strength_requirement            = 159
-|inventory_icon                          = Infernal Blow
 }}

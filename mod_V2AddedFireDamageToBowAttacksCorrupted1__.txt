@@ -1,0 +1,20 @@
+{{Mod
+|id                               = V2AddedFireDamageToBowAttacksCorrupted1__
+|mod_groups                       = AddedFireDamageToBowAttacksCorrupted
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = AddedFireDamageToBowAttacksCorrupted
+|stat_text                        = (11-14) to (21-25) Added [[Fire Damage]] with [[Bow]] [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_fire_damage_with_bow
+|stat1_min                        = 11
+|stat1_max                        = 14
+|stat2_id                         = attack_maximum_added_fire_damage_with_bow
+|stat2_min                        = 21
+|stat2_max                        = 25
+|spawn_weight1_tag                = quiver
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, attack
+}}

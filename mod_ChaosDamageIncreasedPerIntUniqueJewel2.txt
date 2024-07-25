@@ -1,0 +1,18 @@
+{{Mod
+|id                               = ChaosDamageIncreasedPerIntUniqueJewel2
+|mod_groups                       = PassiveJewelGrantsRadius
+|domain                           = 10
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = ChaosDamageIncreasedPerInt
+|stat_text                        = 5% increased [[Chaos Damage]] per 10 [[Intelligence]] from Allocated Passives in Radius
+|stat1_id                         = local_unique_jewel_chaos_damage_+%_per_10_int_in_radius
+|stat1_min                        = 5
+|stat1_max                        = 5
+|stat2_id                         = local_jewel_effect_base_radius
+|stat2_min                        = 1200
+|stat2_max                        = 1200
+|tags                             = chaos
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

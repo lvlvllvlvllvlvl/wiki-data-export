@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmTotemRecoup1
+|mod_groups                       = AnimalCharmTotemRecoup
+|domain                           = 35
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Chieftain
+|mod_type                         = AnimalCharmTotemRecoup
+|stat_text                        = Recoup (5-7)% of Damage Taken by your [[Totem|Totems]] as [[Life]]
+|stat1_id                         = recoup_%_of_damage_taken_by_your_totems_as_life
+|stat1_min                        = 5
+|stat1_max                        = 7
+|spawn_weight1_tag                = str_animal_charm
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

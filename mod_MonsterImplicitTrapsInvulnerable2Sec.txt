@@ -1,0 +1,15 @@
+{{Mod
+|id                               = MonsterImplicitTrapsInvulnerable2Sec
+|mod_groups                       = MonsterTrapsInvulnerable
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MonsterTrapsInvulnerable
+|stat_text                        = [[Trap|Traps]] cannot be Damaged for +2 seconds after being Thrown (Hidden)<br>[[Mine|Mines]] cannot be Damaged for +2 seconds after being thrown (Hidden)
+|stat1_id                         = traps_invulnerable_for_duration_ms
+|stat1_min                        = 2000
+|stat1_max                        = 2000
+|stat2_id                         = mines_invulnerable_for_duration_ms
+|stat2_min                        = 2000
+|stat2_max                        = 2000
+}}

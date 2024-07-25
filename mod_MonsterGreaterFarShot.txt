@@ -1,0 +1,21 @@
+{{Mod
+|id                               = MonsterGreaterFarShot
+|mod_groups                       = FarShot
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = FarShot
+|stat_text                        = 40% increased Projectile Damage (Hidden)<br>Deals up to -80% less Damage at minimum Range (Hidden)
+|stat1_id                         = monster_reverse_point_blank_damage_-%_at_minimum_range
+|stat1_min                        = 80
+|stat1_max                        = 80
+|stat2_id                         = projectile_damage_+%
+|stat2_min                        = 40
+|stat2_max                        = 40
+|stat3_id                         = display_monster_uses_far_shot_text
+|stat3_min                        = 1
+|stat3_max                        = 1
+|tags                             = damage
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

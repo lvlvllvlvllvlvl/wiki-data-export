@@ -1,0 +1,22 @@
+{{Mod
+|id                               = IncursionMonsterRegen2
+|mod_groups                       = IncursionMonsterRegen
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = IncursionMonsterRegen
+|stat_text                        = Normal Monsters in this Area Regenerate 6% of [[Life]] per second<br>Magic Monsters in this Area Regenerate 4.5% of [[Life]] per second<br>Rare Monsters in this Area Regenerate 3% of [[Life]] per second
+|stat1_id                         = map_normal_monster_life_regeneration_rate_per_minute_%
+|stat1_min                        = 360
+|stat1_max                        = 360
+|stat2_id                         = map_magic_monster_life_regeneration_rate_per_minute_%
+|stat2_min                        = 270
+|stat2_max                        = 270
+|stat3_id                         = map_rare_monster_life_regeneration_rate_per_minute_%
+|stat3_min                        = 180
+|stat3_max                        = 180
+|stat4_id                         = map_incursion_boss_chance_to_drop_healing_item_%
+|stat4_min                        = 66
+|stat4_max                        = 66
+|tags                             = resource, life
+}}

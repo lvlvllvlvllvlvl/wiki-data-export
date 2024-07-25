@@ -1,0 +1,15 @@
+{{Mod
+|id                               = MapSupporterRareMonsterModOnKill
+|mod_groups                       = MapSupporterRareMonsterModOnKill
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSupporterRareMonsterModOnKill
+|stat_text                        = Players gain Rare Monster Modifiers for 20 seconds on [[Kill]]<br>12% increased Rarity of Items found in this Area
+|stat1_id                         = map_players_gain_rare_monster_mods_on_kill_%_chance
+|stat1_min                        = 100
+|stat1_max                        = 100
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 12
+|stat2_max                        = 12
+}}

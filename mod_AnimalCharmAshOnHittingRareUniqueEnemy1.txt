@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmAshOnHittingRareUniqueEnemy1
+|mod_groups                       = AnimalCharmAshOnHittingRareUniqueEnemy
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 45
+|name                             = Chieftain's
+|mod_type                         = AnimalCharmAshOnHittingRareUniqueEnemy
+|stat_text                        = (5-10)% chance to Cover Rare or Unique Enemies in Ash for 10 Seconds on [[Hit]]
+|stat1_id                         = apply_covered_in_ash_to_attacker_on_hit_%_vs_rare_or_unique_enemy
+|stat1_min                        = 5
+|stat1_max                        = 10
+|spawn_weight1_tag                = str_animal_charm
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

@@ -1,0 +1,21 @@
+{{Mod
+|id                               = SpellAddedLightningDamageEssence7
+|mod_groups                       = SpellAddedElementalDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 82
+|name                             = Essences
+|mod_type                         = SpellAddedLightningDamage
+|stat_text                        = Adds (4-11) to (134-144) [[Lightning Damage]] to [[Spell|Spells]]
+|stat1_id                         = spell_minimum_added_lightning_damage
+|stat1_min                        = 4
+|stat1_max                        = 11
+|stat2_id                         = spell_maximum_added_lightning_damage
+|stat2_min                        = 134
+|stat2_max                        = 144
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, caster_damage, damage, elemental, lightning, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

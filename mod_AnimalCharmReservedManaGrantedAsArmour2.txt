@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmReservedManaGrantedAsArmour2
+|mod_groups                       = AnimalCharmReservedManaGrantedAsArmour
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 72
+|name                             = Guardian's
+|mod_type                         = AnimalCharmReservedManaGrantedAsArmour
+|stat_text                        = Grants [[Armour]] equal to (5-6)% of your Reserved [[Mana]] to you and [[Nearby|nearby]] Allies
+|stat1_id                         = guardian_reserved_mana_granted_to_you_and_allies_as_armour_%
+|stat1_min                        = 5
+|stat1_max                        = 6
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 125
+|spawn_weight2_tag                = str_animal_charm
+|spawn_weight2_value              = 125
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

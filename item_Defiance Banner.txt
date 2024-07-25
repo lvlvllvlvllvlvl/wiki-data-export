@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Defiance Banner
 |class_id                                = Active Skill Gem
@@ -16,20 +16,11 @@
 |skill_id                                = DefianceBanner
 |cast_time                               = 0.0
 |required_level                          = 16
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased effect of Aura
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.5-10)% increased effect of Aura
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = aura_effect_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 10
-|quality_type2_stat_text                 = You and nearby Allies have 0.25% increased Armour and Evasion Rating<br>3% less Skill Effect Duration
-|quality_type2_stat1_id                  = evasion_and_physical_damage_reduction_rating_+%
-|quality_type2_stat1_value               = 250
-|quality_type2_stat2_id                  = active_skill_quality_duration_+%_final
-|quality_type2_stat2_value               = -3000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 1% increased Skill Effect Duration
-|quality_type3_stat1_id                  = skill_effect_duration_+%
-|quality_type3_stat1_value               = 1000
 |static_stored_uses                      = 1
 |static_cooldown                         = 1
 |static_damage_effectiveness             = 100
@@ -51,7 +42,7 @@
 |static_stat6_value                      = 8
 |static_stat7_id                         = banner_buff_effect_+%_per_stage
 |static_stat7_value                      = 1
-|stat_text                               = You and nearby Allies have (15-24)% increased Armour and Evasion Rating<br>Nearby Enemies have (30-40)% reduced Critical Strike Chance<br>Gain 1 Stage every 0.2 seconds while an Enemy is Nearby<br>Taunt nearby Enemies for 0.15 seconds per Stage on Placing the Banner<br>Enemies Taunted this way deal 15% less Damage<br>Base Duration of 10 seconds after being Placed<br>+1 second to Base Placed Banner Duration per Stage<br>When placed, 8% increased Area of Effect per Stage<br>When placed, 1% increased Aura effect per Stage
+|stat_text                               = You and nearby Allies have (15-24)% increased Armour and Evasion Rating<br>Nearby Enemies have (30-40)% reduced Critical Strike Chance<br>Gain 1 Stage every 0.2 seconds while an Enemy is Nearby<br>Taunt nearby Enemies for 0.15 seconds per Stage on Placing the Banner<br>Enemies Taunted this way deal 15% less Damage<br>Base Duration of 10.00 seconds after being Placed<br>+1 second to Base Placed Banner Duration per Stage<br>When placed, 8% increased Area of Effect per Stage<br>When placed, 1% increased Aura effect per Stage
 |level1                                  = True
 |level1_level_requirement                = 16
 |level1_stat_text                        = You and nearby Allies have 15% increased Armour and Evasion Rating<br>Nearby Enemies have 30% reduced Critical Strike Chance

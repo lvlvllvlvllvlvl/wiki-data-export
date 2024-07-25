@@ -1,0 +1,20 @@
+{{Mod
+|id                               = ProjectileWeaknessSkillCorrupted
+|mod_groups                       = GrantedSkill
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 58
+|granted_skill                    = SnipersMark
+|mod_type                         = ProjectileWeaknessSkill
+|stat_text                        = Grants [[Level]] 15 Sniper's Mark [[Skill]]
+|stat1_id                         = local_display_grants_skill_projectile_weakness_level
+|stat1_min                        = 15
+|stat1_max                        = 15
+|spawn_weight1_tag                = quiver
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = skill
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

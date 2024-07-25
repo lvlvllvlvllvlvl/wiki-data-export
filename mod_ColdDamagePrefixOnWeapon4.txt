@@ -1,0 +1,30 @@
+{{Mod
+|id                               = ColdDamagePrefixOnWeapon4
+|mod_groups                       = WeaponCasterDamagePrefix
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 35
+|name                             = Snowy
+|mod_type                         = ColdDamageWeaponPrefix
+|stat_text                        = (40-54)% increased [[Cold Damage]]
+|stat1_id                         = cold_damage_+%
+|stat1_min                        = 40
+|stat1_max                        = 54
+|spawn_weight1_tag                = focus
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = wand
+|spawn_weight2_value              = 200
+|spawn_weight3_tag                = sceptre
+|spawn_weight3_value              = 200
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|generation_weight1_tag           = has_caster_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_attack_mod
+|generation_weight2_value         = 50
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = elemental_damage, damage, elemental, cold
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

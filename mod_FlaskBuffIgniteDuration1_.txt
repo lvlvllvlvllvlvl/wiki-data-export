@@ -1,0 +1,20 @@
+{{Mod
+|id                               = FlaskBuffIgniteDuration1_
+|mod_groups                       = FlaskBuffWhileHealing
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 6
+|name                             = [UNUSED] Ignite duration 1
+|mod_type                         = FlaskBuffIgniteDuration
+|stat_text                        = (45-35)% reduced [[Ignite]] Duration on you during Effect
+|stat1_id                         = local_self_ignite_duration_+%_during_flask_effect
+|stat1_min                        = -45
+|stat1_max                        = -35
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

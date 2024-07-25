@@ -1,0 +1,21 @@
+{{Skill
+|gem_description                         = Casts an aura that grants additional energy shield and increased energy shield recharge rate to you and your allies.
+|active_skill_name                       = Discipline
+|skill_id                                = AzmeriGoddessDiscipline
+|cast_time                               = 1.0
+|required_level                          = 0
+|static_stored_uses                      = 1
+|static_cooldown                         = 0.5
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = active_skill_area_of_effect_radius_+%_final
+|static_stat1_value                      = 50
+|static_stat2_id                         = base_maximum_energy_shield
+|static_stat2_value                      = 17
+|static_stat3_id                         = energy_shield_recharge_rate_+%
+|static_stat3_value                      = 30
+|stat_text                               = You and nearby allies gain 17 additional Energy Shield<br>You and nearby Allies gain 30% increased Energy Shield Recharge Rate
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

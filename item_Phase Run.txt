@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Phase Run
 |class_id                                = Active Skill Gem
@@ -15,18 +15,11 @@
 |skill_id                                = NewPhaseRun
 |cast_time                               = 0.0
 |required_level                          = 34
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Movement Speed
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.5-10)% increased Movement Speed
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = base_movement_velocity_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% increased Skill Effect Duration
-|quality_type2_stat1_id                  = skill_effect_duration_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = 0.5% chance not to replace the Buff when you use a Skill
-|quality_type3_stat1_id                  = phase_run_%_chance_to_not_replace_buff_on_skill_use
-|quality_type3_stat1_value               = 500
 |static_cost_types                       = Mana
 |static_stored_uses                      = 1
 |static_cooldown                         = 4
@@ -46,7 +39,7 @@
 |static_stat5_value                      = 1
 |static_stat6_id                         = stealth_+%
 |static_stat6_value                      = 100
-|stat_text                               = Base duration is 1.8 seconds<br>Base secondary duration is 0.2 seconds<br>(30-39)% increased Movement Speed<br>(20-30)% more Melee Physical Damage<br>100% increased Skill Duration per Frenzy Charge removed<br>Grants Phasing<br>100% increased Stealth
+|stat_text                               = Base duration is 1.80 seconds<br>Base secondary duration is 0.20 seconds<br>(30-39)% increased Movement Speed<br>(20-30)% more Melee Physical Damage<br>100% increased Skill Duration per Frenzy Charge removed<br>Grants Phasing<br>100% increased Stealth
 |level1                                  = True
 |level1_level_requirement                = 34
 |level1_cost_amounts                     = 8
@@ -408,5 +401,4 @@
 |level20_dexterity_requirement           = 155
 |level20_experience                      = 338712291
 |level21_dexterity_requirement           = 159
-|inventory_icon                          = Phase Run
 }}

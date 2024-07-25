@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmWitheredOnHitChance2
+|mod_groups                       = AnimalCharmWitheredOnHitChance
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 72
+|name                             = Pathfinder's
+|mod_type                         = AnimalCharmWitheredOnHitChance
+|stat_text                        = (11-15)% chance to inflict Withered for 2 seconds on [[Hit]]
+|stat1_id                         = withered_on_hit_for_2_seconds_%_chance
+|stat1_min                        = 11
+|stat1_max                        = 15
+|spawn_weight1_tag                = dex_animal_charm
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

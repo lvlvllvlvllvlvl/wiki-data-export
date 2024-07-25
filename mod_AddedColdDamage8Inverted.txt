@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AddedColdDamage8Inverted
+|mod_groups                       = ColdDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 65
+|name                             = Polar
+|mod_type                         = SelfColdDamageTaken
+|stat_text                        = Adds (14-19) to (29-34) [[Cold Damage]] to [[Attack|Attacks]] against you
+|stat1_id                         = from_self_minimum_added_attack_cold_damage_taken
+|stat1_min                        = 14
+|stat1_max                        = 19
+|stat2_id                         = from_self_maximum_added_attack_cold_damage_taken
+|stat2_min                        = 29
+|stat2_max                        = 34
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, cold, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

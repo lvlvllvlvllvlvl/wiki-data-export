@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Ballista Totem Support
 |class_id                                = Support Skill Gem
@@ -7,29 +7,18 @@
 |drop_level                              = 8
 |tags                                    = up_to_level_8_gem, support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemRangedAttackTotem
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |strength_percent                        = 60
 |dexterity_percent                       = 40
 |gem_tags                                = Bow, Projectile, Support, Totem
 |skill_id                                = SupportRangedAttackTotem
 |support_gem_letter                      = R
 |required_level                          = 8
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills have 1% increased Totem Placement speed
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills have (0.5-10)% increased Totem Placement speed
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = summon_totem_cast_speed_+%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% increased Totem Duration
-|quality_type2_stat1_id                  = totem_duration_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = 1% increased Totem Range
-|quality_type3_stat1_id                  = totem_range_+%
-|quality_type3_stat1_value               = 1000
-|quality_type4_weight                    = 10
-|quality_type4_stat_text                 = Projectiles from Supported Skills have 0.5% chance to Return to you
-|quality_type4_stat1_id                  = projectile_return_%_chance
-|quality_type4_stat1_value               = 500
+|quality_type1_stat1_value               = 500
 |static_cost_multiplier                  = 120
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
@@ -396,5 +385,4 @@
 |level20_experience                      = 342039899
 |level21_strength_requirement            = 72
 |level21_dexterity_requirement           = 50
-|inventory_icon                          = Ballista Totem Support
 }}

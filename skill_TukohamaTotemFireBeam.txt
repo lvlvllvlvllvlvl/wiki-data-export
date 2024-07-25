@@ -1,5 +1,5 @@
 {{Skill
-|gem_description                         = Unleash a beam of fire that burns enemies it touches. Remaining in the beam intensifies the burning, adding a portion of the beam's damage in stages. Inflicts Fire Exposure at maximum stages. Enemies who leave the beam continue to burn for a duration. Increasing cast speed also increases the rate at which the beam can turn.
+|gem_description                         = Unleash a beam of fire that burns enemies it touches. Remaining in the beam raises the burning, adding a portion of the beam's damage in stages. Inflicts Fire Exposure at maximum stages. Enemies who leave the beam continue to burn for a duration. Increasing cast speed also increases the rate at which the beam turns.
 |active_skill_name                       = Scorching Ray
 |skill_id                                = TukohamaTotemFireBeam
 |cast_time                               = 0.5
@@ -24,7 +24,7 @@
 |static_stat7_value                      = -90
 |static_stat8_id                         = fire_beam_length_+%
 |static_stat8_value                      = 50
-|stat_text                               = Deals 560.9 Base Fire Damage per second<br>Base duration is 1.35 seconds<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>Additional Debuff stages add 10% of Damage<br>50% increased beam length
+|stat_text                               = Deals 560.9 Base Fire Damage per second<br>Base duration is 1.35 seconds<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>Additional Debuff stages add -90% of Damage<br>50% increased beam length
 |level1                                  = True
 |level1_level_requirement                = 45
 }}

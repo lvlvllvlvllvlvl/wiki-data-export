@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentVolatileDeadOrbs2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Volatile Dead Orbs 2
+|mod_type                         = EnchantmentVolatileDeadOrbsBoolean
+|stat_text                        = Volatile Dead Consumes up to 1 additional corpse
+|stat1_id                         = volatile_dead_consume_additional_corpse
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

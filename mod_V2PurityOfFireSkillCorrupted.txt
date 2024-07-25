@@ -1,0 +1,20 @@
+{{Mod
+|id                               = V2PurityOfFireSkillCorrupted
+|mod_groups                       = GrantedSkill
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 56
+|granted_skill                    = FireResistAura
+|mod_type                         = PurityOfFireSkill
+|stat_text                        = Grants [[Level]] 23 [[Purity of Fire]] [[Skill]]
+|stat1_id                         = local_display_grants_skill_purity_of_fire_level
+|stat1_min                        = 23
+|stat1_max                        = 23
+|spawn_weight1_tag                = amulet
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = skill
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

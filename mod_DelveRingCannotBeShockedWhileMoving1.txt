@@ -1,0 +1,24 @@
+{{Mod
+|id                               = DelveRingCannotBeShockedWhileMoving1
+|mod_groups                       = CannotBeShockedOrIgnitedWhileMoving
+|domain                           = 16
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Underground
+|mod_type                         = CannotBeShockedOrIgnitedWhileMoving
+|stat_text                        = Cannot be [[Shock|Shocked]] or Ignited while moving
+|stat1_id                         = cannot_be_shocked_or_ignited_while_moving
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = abyss_jewel
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = jewel
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = ring
+|spawn_weight3_value              = 2000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = elemental, lightning, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

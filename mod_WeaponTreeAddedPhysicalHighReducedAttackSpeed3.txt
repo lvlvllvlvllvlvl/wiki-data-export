@@ -1,0 +1,22 @@
+{{Mod
+|id                               = WeaponTreeAddedPhysicalHighReducedAttackSpeed3
+|mod_groups                       = PhysicalDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 46
+|mod_type                         = WeaponTreeLocalPhysicalDamageAndAttackSpeed
+|stat_text                        = Adds 6 to 12 [[Physical Damage]]<br>6% reduced [[Attack Speed]]
+|stat1_id                         = local_minimum_added_physical_damage
+|stat1_min                        = 6
+|stat1_max                        = 6
+|stat2_id                         = local_maximum_added_physical_damage
+|stat2_min                        = 12
+|stat2_max                        = 12
+|stat3_id                         = local_attack_speed_+%
+|stat3_min                        = -6
+|stat3_max                        = -6
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vaal Venom Gyre
 |class_id                                = Active Skill Gem
@@ -8,17 +8,19 @@
 |tags                                    = vaal_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalVenomGyre
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |dexterity_percent                       = 60
 |intelligence_percent                    = 40
 |gem_tags                                = Attack, Projectile, Chaos, Duration, Vaal
+|secondary_skill_id                      = SnappingAdder
 |gem_description                         = Creates already-caught projectiles without firing them first, both immediately and over a secondary duration. Caught projectiles spiral outwards when you use Whirling Blades and do not return. Requires a Dagger or Claw.
 |active_skill_name                       = Vaal Venom Gyre
 |item_class_id_restriction               = Claw, Dagger, Rune Dagger
 |skill_id                                = VaalSnappingAdder
 |cast_time                               = 1.0
 |required_level                          = 12
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Poison Duration
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% increased Poison Duration
 |quality_type1_stat1_id                  = base_poison_duration_+%
 |quality_type1_stat1_value               = 1000
 |static_vaal_souls_requirement           = 30
@@ -50,13 +52,13 @@
 |static_stat11_value                     = 40
 |static_stat12_id                        = maximum_number_of_snapping_adder_projectiles
 |static_stat12_value                     = 50
-|static_stat13_id                        = vaal_venom_gyre_capture_x_projectiles_per_second
-|static_stat13_value                     = 15
-|static_stat14_id                        = vaal_venom_gyre_instantly_capture_maximum_projectiles
-|static_stat14_value                     = 1
+|static_stat13_id                        = vaal_venom_gyre_instantly_capture_maximum_projectiles
+|static_stat13_value                     = 1
+|static_stat14_id                        = vaal_venom_gyre_capture_x_projectiles_per_second
+|static_stat14_value                     = 15
 |static_stat15_id                        = snapping_adder_%_chance_to_retain_projectile_on_release
 |static_stat15_value                     = 40
-|stat_text                               = Base duration is 12 seconds<br>Base secondary duration is 6 seconds<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>60% of Physical Damage Converted to Chaos Damage<br>40% chance to Poison on Hit<br>Maximum 0 caught Projectiles<br>Creates up to 0 caught Projectiles immediately<br>40% chance to keep each caught Projectile fired with Whirling Blades
+|stat_text                               = Base duration is 12.00 seconds<br>Base secondary duration is 6.00 seconds<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>60% of Physical Damage Converted to Chaos Damage<br>40% chance to Poison on Hit<br>Maximum 50 caught Projectiles<br>Creates up to 50 caught Projectiles immediately<br>Creates 15 caught Projectiles per second<br>40% chance to keep each caught Projectile fired with Whirling Blades
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_damage_effectiveness             = 125

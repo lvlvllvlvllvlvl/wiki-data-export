@@ -1,0 +1,23 @@
+{{Mod
+|id                               = SanctumSpecialAddedFireDamage
+|mod_groups                       = FireDamage
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Blazing
+|mod_type                         = FireDamage
+|stat_text                        = Adds (9-12) to (19-22) [[Fire Damage]] to [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_fire_damage
+|stat1_min                        = 9
+|stat1_max                        = 12
+|stat2_id                         = attack_maximum_added_fire_damage
+|stat2_min                        = 19
+|stat2_max                        = 22
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 250
+|tags                             = elemental_damage, damage, elemental, fire, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

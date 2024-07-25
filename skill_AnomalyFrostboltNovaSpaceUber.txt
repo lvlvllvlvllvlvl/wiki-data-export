@@ -1,5 +1,5 @@
 {{Skill
-|gem_description                         = An icy blast explodes around the caster, dealing cold damage to enemies, and leaving behind a whirling vortex which deals cold damage over time and chills enemies caught in it. If the caster targets near their Frostbolt projectiles, it will explode from a number of those projectiles instead, destroying them.
+|gem_description                         = An icy blast explodes around the caster, dealing cold damage to enemies, and leaving behind a whirling vortex which deals cold damage over time and chills enemies caught in it.
 |active_skill_name                       = Vortex
 |skill_id                                = AnomalyFrostboltNovaSpaceUber
 |cast_time                               = 1.0
@@ -25,9 +25,13 @@
 |static_stat8_value                      = 1
 |static_stat9_id                         = cast_on_death_%
 |static_stat9_value                      = 100
-|static_stat10_id                        = chilled_ground_base_magnitude_override
-|static_stat10_value                     = 30
-|stat_text                               = Deals 4033 to 5377 Cold Damage<br>Deals 12602.5 Base Cold Damage per second<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>100% chance to Trigger this Spell on Death<br>Chilled Ground from this Skill has a base effect of 30%
+|static_stat10_id                        = active_skill_base_area_of_effect_radius
+|static_stat10_value                     = 20
+|static_stat11_id                        = active_skill_base_secondary_area_of_effect_radius
+|static_stat11_value                     = 20
+|static_stat12_id                        = chilled_ground_base_magnitude_override
+|static_stat12_value                     = 30
+|stat_text                               = Deals 4033 to 5377 Cold Damage<br>Deals 12602.5 Base Cold Damage per second<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>100% chance to Trigger this Spell on Death<br>Base radius is 2 metres<br>Base secondary radius is 2 metres<br>Chilled Ground from this Skill has a base effect of 30%
 |level1                                  = True
 |level1_level_requirement                = 84
 }}

@@ -1,0 +1,24 @@
+{{Mod
+|id                               = IncreasedEnergyShield9
+|mod_groups                       = IncreasedEnergyShield
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 59
+|name                             = Scintillating
+|mod_type                         = EnergyShield
+|stat_text                        = +(32-37) to maximum [[Energy Shield]]
+|stat1_id                         = base_maximum_energy_shield
+|stat1_min                        = 32
+|stat1_max                        = 37
+|spawn_weight1_tag                = ring
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = amulet
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = belt
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = defences, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,27 @@
+{{Mod
+|id                               = MapMonsterCriticalStrikesAndDamageSynthesis3
+|mod_groups                       = MapMonsterCriticalStrikesAndDamage
+|domain                           = 18
+|generation_type                  = 15
+|required_level                   = 68
+|mod_type                         = MapMonsterCriticalStrikesAndDamageMapWorlds
+|stat_text                        = Monsters have (201-250)% increased [[Critical Strike Chance]]<br>+(31-35)% to Monster [[Critical Strike Multiplier]]
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 16
+|stat1_max                        = 16
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 9
+|stat2_max                        = 9
+|stat3_id                         = map_pack_size_+%
+|stat3_min                        = 6
+|stat3_max                        = 6
+|stat4_id                         = map_monsters_critical_strike_chance_+%
+|stat4_min                        = 201
+|stat4_max                        = 250
+|stat5_id                         = map_monsters_critical_strike_multiplier_+
+|stat5_min                        = 31
+|stat5_max                        = 35
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+|tags                             = damage, critical
+}}

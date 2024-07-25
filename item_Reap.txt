@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Reap
 |class_id                                = Active Skill Gem
@@ -8,6 +8,7 @@
 |tags                                    = gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemBloodreap
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|vaal_variant_id                         = Metadata/Items/Gems/SkillGemVaalReap
 |strength_percent                        = 60
 |intelligence_percent                    = 40
 |gem_tags                                = Spell, Physical, AoE, Duration
@@ -16,18 +17,11 @@
 |skill_id                                = Bloodreap
 |cast_time                               = 0.8
 |required_level                          = 28
-|quality_type1_weight                    = 100
-|quality_type1_stat_text                 = 0.5% increased Area of Effect
-|quality_type1_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = 3% increased Critical Strike Chance
-|quality_type2_stat1_id                  = critical_strike_chance_+%
-|quality_type2_stat1_value               = 3000
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = Recover 0.1% of Life when an Enemy Dies while affected by this Skill's Debuff
-|quality_type3_stat1_id                  = reap_life_%_granted_on_death_with_debuff
-|quality_type3_stat1_value               = 100
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Deals +(0.25-5)% more Damage per Blood Charge
+|quality_type1_breakpoints               = 4.0
+|quality_type1_stat1_id                  = blood_scythe_damage_+%_final_per_charge
+|quality_type1_stat1_value               = 250
 |static_cost_types                       = Life
 |static_critical_strike_chance           = 6
 |static_damage_effectiveness             = 210
@@ -46,7 +40,9 @@
 |static_stat5_value                      = 20
 |static_stat6_id                         = blood_scythe_damage_+%_final_per_charge
 |static_stat6_value                      = 15
-|stat_text                               = Deals (57-943) to (86-1414) Physical Damage<br>Deals (120.2-1463.3) Base Physical Damage per second<br>Base duration is 1 seconds<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>Gain a Blood Charge if this Skill Hits Enemies and none of them Die<br>Lose a Blood Charge when an Enemy Dies while affected by this Skill's Debuff<br>Costs 20% more Life per Blood Charge<br>Deals 15% more Damage per Blood Charge
+|static_stat7_id                         = quality_display_reap_is_gem
+|static_stat7_value                      = 1
+|stat_text                               = Deals (57-943) to (86-1414) Physical Damage<br>Deals (120.2-1463.3) Base Physical Damage per second<br>Base duration is 1.00 seconds<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>Gain a Blood Charge if this Skill Hits Enemies and none of them Die<br>Lose a Blood Charge when an Enemy Dies while affected by this Skill's Debuff<br>Costs 20% more Life per Blood Charge<br>Deals 15% more Damage per Blood Charge
 |level1                                  = True
 |level1_level_requirement                = 28
 |level1_cost_amounts                     = 25
@@ -509,5 +505,4 @@
 |level20_experience                      = 340652931
 |level21_strength_requirement            = 100
 |level21_intelligence_requirement        = 70
-|inventory_icon                          = Reap
 }}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AddedLightningDamagePerAccuracyReducedAccuracyImplicitR3
+|mod_groups                       = AddedLightningDamagePerAccuracyReducedAccuracy
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 80
+|mod_type                         = AddedLightningDamagePerAccuracyReducedAccuracy
+|stat_text                        = 25% less [[Accuracy Rating]]<br>1 to (5-6) Added [[Attack]] [[Lightning Damage]] per 200 [[Accuracy Rating]]
+|stat1_id                         = boots_implicit_accuracy_rating_+%_final
+|stat1_min                        = -25
+|stat1_max                        = -25
+|stat2_id                         = attack_minimum_added_lightning_damage_per_200_accuracy_rating
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = attack_maximum_added_lightning_damage_per_200_accuracy_rating
+|stat3_min                        = 5
+|stat3_max                        = 6
+|tags                             = attack
+}}

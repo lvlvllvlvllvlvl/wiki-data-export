@@ -1,0 +1,25 @@
+{{Mod
+|id                               = WeaponTreeSkillCleaveReave
+|mod_groups                       = WeaponTreeSkillCleaveReave
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|granted_skill                    = SummonRigwaldsPackTriggered
+|mod_type                         = WeaponTreeSkillCleaveReave
+|stat_text                        = Trigger [[Level]] 20 Summon Spectral Wolf on [[Critical Strike]] with [[Cleave]] or [[Reave]]
+|stat1_id                         = cast_summon_spectral_wolf_on_crit_with_cleave_or_reave
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = sword
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = axe
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = dagger
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = claw
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = shield
+|spawn_weight5_value              = 500
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+}}

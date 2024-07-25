@@ -1,0 +1,19 @@
+{{Mod
+|id                               = EnchantmentBlind
+|mod_groups                       = BuffEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 83
+|mod_type                         = EnchantmentBlind
+|stat_text                        = Enemies Blinded by you have 30% reduced [[Critical Strike Chance]]
+|stat1_id                         = enemies_you_blind_have_critical_strike_chance_+%
+|stat1_min                        = -30
+|stat1_max                        = -30
+|spawn_weight1_tag                = belt
+|spawn_weight1_value              = 1
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = critical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

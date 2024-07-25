@@ -1,0 +1,35 @@
+{{Skill
+|gem_description                         = Targets an area and builds up stages in that area based on cast speed. It explodes every 3 stages, until it reaches a maximum of 15. As it gains more stages, the area gets smaller but the damage gets higher.
+|active_skill_name                       = Vaal Flameblast
+|skill_id                                = ChestVaalFlameblast
+|cast_time                               = 0.5
+|required_level                          = 3
+|static_vaal_souls_requirement           = 30
+|static_vaal_stored_uses                 = 1
+|static_vaal_soul_gain_prevention_time   = 3
+|static_critical_strike_chance           = 5
+|static_damage_effectiveness             = 60
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_fire_damage
+|static_stat2_value                      = 4
+|static_stat3_id                         = spell_maximum_base_fire_damage
+|static_stat3_value                      = 6
+|static_stat4_id                         = active_skill_cast_speed_+%_final
+|static_stat4_value                      = 50
+|static_stat5_id                         = base_skill_area_of_effect_+%
+|static_stat5_value                      = 80
+|static_stat6_id                         = base_chance_to_ignite_%
+|static_stat6_value                      = 50
+|static_stat7_id                         = charged_blast_spell_damage_+%_final_per_stack
+|static_stat7_value                      = 200
+|static_stat8_id                         = flameblast_ailment_damage_+%_final_per_stack
+|static_stat8_value                      = 110
+|static_stat9_id                         = vaal_flameblast_radius_+_per_stage
+|static_stat9_value                      = -2
+|stat_text                               = Deals 4 to 6 Fire Damage<br>50% more Cast Speed<br>80% increased Area of Effect<br>50% chance to Ignite enemies<br>200% more Spell Damage for each stage<br>110% more Damage with Ailments for each stage<br>-0.2 metres to radius per Stage
+|level1                                  = True
+|level1_level_requirement                = 3
+}}

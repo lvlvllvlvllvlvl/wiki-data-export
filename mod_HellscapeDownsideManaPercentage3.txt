@@ -1,0 +1,21 @@
+{{Mod
+|id                               = HellscapeDownsideManaPercentage3
+|mod_groups                       = MaximumManaIncreasePercent
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 68
+|mod_type                         = MaximumManaIncreasePercent
+|stat_text                        = (18-15)% reduced maximum [[Mana]]
+|stat1_id                         = maximum_mana_+%
+|stat1_min                        = -18
+|stat1_max                        = -15
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = body_armour
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = resource, mana
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

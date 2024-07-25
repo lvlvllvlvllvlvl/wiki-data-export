@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MapWarbandItemRarityQuantity2
+|mod_groups                       = MapWarbandItemRarityQuantity
+|domain                           = 12
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Wealth
+|mod_type                         = MapWarbandItemRarityQuantity
+|stat_text                        = Warbands in the next Area will have (30-40)% more Rarity of Items Dropped<br>Warbands in the next Area will have (61-70)% more Quantity of Items Dropped
+|stat1_id                         = map_leaguestone_warbands_packs_have_item_rarity_+%_final
+|stat1_min                        = 30
+|stat1_max                        = 40
+|stat2_id                         = map_leaguestone_warbands_packs_have_item_quantity_+%_final
+|stat2_min                        = 61
+|stat2_max                        = 70
+|spawn_weight1_tag                = warbands_leaguestone
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

@@ -26,9 +26,11 @@
 |static_stat7_value                      = 20
 |static_stat8_id                         = number_of_additional_projectiles
 |static_stat8_value                      = 2
-|static_stat9_id                         = support_parallel_projectile_number_of_points_per_side
-|static_stat9_value                      = 20
-|stat_text                               = Deals 6 to 8 Fire Damage<br>20% more Cast Speed<br>Fires 2 additional Projectiles<br>Also fires Projectiles from up to 20 points on each side of you
+|static_stat9_id                         = active_skill_base_area_of_effect_radius
+|static_stat9_value                      = 9
+|static_stat10_id                        = support_parallel_projectile_number_of_points_per_side
+|static_stat10_value                     = 20
+|stat_text                               = Deals 6 to 8 Fire Damage<br>20% more Cast Speed<br>Fires 2 additional Projectiles<br>Base radius is 0.9 metres<br>Also fires Projectiles from up to 20 points on each side of you
 |level1                                  = True
 |level1_level_requirement                = 1
 }}

@@ -1,0 +1,16 @@
+{{Mod
+|id                               = HellscapeDownsideChaosPenetration2h3_____
+|mod_groups                       = ChaosResistancePenetration
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 68
+|mod_type                         = ChaosResistancePenetration
+|stat_text                        = Your [[Hit|Hits]] treat [[Chaos Resistance]] as 20% higher than actual value
+|stat1_id                         = reduce_enemy_chaos_resistance_%
+|stat1_min                        = -20
+|stat1_max                        = -20
+|spawn_weight1_tag                = staff
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

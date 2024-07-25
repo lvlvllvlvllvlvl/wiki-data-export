@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Remnant of Corruption
 |class_id                                = StackableCurrency
@@ -9,9 +9,8 @@
 |metadata_id                             = Metadata/Items/Currency/CurrencyCorruptMonolith
 |stack_size                              = 9
 |description                             = Corrupts the Essences trapping a monster, modifying them unpredictably<br />
-|help_text                               = Right click this item then left click a monster trapped by Essences to corrupt them. Corrupted Essences cannot be modified again.<br>Shift click to unstack.
+|help_text                               = Right click this item then left click a monster trapped by Essences to corrupt them. Corrupted Essences cannot be modified again.
 |stack_size_currency_tab                 = 5000
-|drop_level_maximum                      = 100
 |essence_type                            = 0
 |essence_category                        = Remnant of Corruption
 |essence_monster_modifier_ids            = RemnantOfCorruptionMonsterBuff, RemnantOfCorruptionMonsterAura, RemnantOfCorruptionMonsterStats

@@ -1,0 +1,23 @@
+{{Mod
+|id                               = V2LightningDamageLifeLeechPermyriadCorrupted
+|mod_groups                       = LightningDamageLifeLeech
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 50
+|mod_type                         = LightningDamageLifeLeechPermyriad
+|stat_text                        = 0.5% of [[Lightning Damage]] Leeched as [[Life]]
+|stat1_id                         = base_life_leech_from_lightning_damage_permyriad
+|stat1_min                        = 50
+|stat1_max                        = 50
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = amulet
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = quiver
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = resource, life, elemental, lightning
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

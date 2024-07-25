@@ -1,0 +1,22 @@
+{{Mod
+|id                               = HellscapeDownsideAttackAndCastSpeedMinion3
+|mod_groups                       = MinionAttackSpeedAndCastSpeed
+|domain                           = 1
+|generation_type                  = 25
+|required_level                   = 68
+|mod_type                         = MinionAttackAndCastSpeed
+|stat_text                        = [[Minion|Minions]] have (30-27)% reduced [[Attack Speed]]<br>[[Minion|Minions]] have (30-27)% reduced [[Cast Speed]]
+|stat1_id                         = minion_attack_speed_+%
+|stat1_min                        = -30
+|stat1_max                        = -27
+|stat2_id                         = minion_cast_speed_+%
+|stat2_min                        = -30
+|stat2_max                        = -27
+|spawn_weight1_tag                = gloves
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, caster, speed, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

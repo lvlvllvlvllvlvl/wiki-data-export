@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Gluttony of Elements
 |class_id                                = Active Skill Gem
@@ -8,6 +8,7 @@
 |tags                                    = gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemGluttonyOfElements
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |gem_tags                                = Spell, AoE, Duration, Vaal, Aura
 |gem_description                         = Casts an aura that causes taking elemental damage to heal you and nearby allies instead.
 |active_skill_name                       = Gluttony of Elements
@@ -33,7 +34,7 @@
 |static_stat4_value                      = 1
 |static_stat5_id                         = immune_to_curses
 |static_stat5_value                      = 1
-|stat_text                               = Base duration is 5 seconds<br>Modifiers to Buff Duration also apply to this Skill's Soul Gain Prevention<br>Taking Elemental Damage instead heals you and Nearby Allies<br>You and Nearby Allies cannot gain Vaal Souls<br>You and nearby allies are Immune to Curses
+|stat_text                               = Base duration is 5.00 seconds<br>Modifiers to Buff Duration also apply to this Skill's Soul Gain Prevention<br>Taking Elemental Damage instead heals you and Nearby Allies<br>You and Nearby Allies cannot gain Vaal Souls<br>You and nearby allies are Immune to Curses
 |level1                                  = True
 |level1_level_requirement                = 1
 |level2                                  = True

@@ -615,6 +615,21 @@ local data = {	{
 	},
 	{
 		ordinal = 1, 
+		recipe_id = "InverseWeighting22_4", 
+		item_id = "Metadata/Items/Currency/Mushrune2", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "InverseWeighting22_4", 
+		item_id = "Metadata/Items/Currency/Mushrune2", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "InverseWeighting22_4", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
+	},
+	{
+		ordinal = 1, 
 		recipe_id = "InverseWeighting23", 
 		item_id = "Metadata/Items/Currency/Mushrune1", 
 	},
@@ -852,6 +867,21 @@ local data = {	{
 		ordinal = 3, 
 		recipe_id = "InverseWeighting28", 
 		item_id = "Metadata/Items/Currency/Mushrune7", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "InverseWeighting28_2", 
+		item_id = "Metadata/Items/Currency/Mushrune1", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "InverseWeighting28_2", 
+		item_id = "Metadata/Items/Currency/Mushrune5", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "InverseWeighting28_2", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
 	},
 	{
 		ordinal = 1, 
@@ -3990,6 +4020,21 @@ local data = {	{
 	},
 	{
 		ordinal = 1, 
+		recipe_id = "InverseWeighting202_2", 
+		item_id = "Metadata/Items/Currency/Mushrune5", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "InverseWeighting202_2", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "InverseWeighting202_2", 
+		item_id = "Metadata/Items/Currency/Mushrune11", 
+	},
+	{
+		ordinal = 1, 
 		recipe_id = "InverseWeighting203", 
 		item_id = "Metadata/Items/Currency/Mushrune1", 
 	},
@@ -4661,6 +4706,21 @@ local data = {	{
 	{
 		ordinal = 3, 
 		recipe_id = "InverseWeighting255", 
+		item_id = "Metadata/Items/Currency/Mushrune12", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "InverseWeighting255_2", 
+		item_id = "Metadata/Items/Currency/Mushrune1", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "InverseWeighting255_2", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "InverseWeighting255_2", 
 		item_id = "Metadata/Items/Currency/Mushrune12", 
 	},
 	{

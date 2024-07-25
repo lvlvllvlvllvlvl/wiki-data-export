@@ -1,0 +1,25 @@
+{{Mod
+|id                               = HellscapeUpsidePoisonDamageFaster1h2
+|mod_groups                       = FasterDamageAilments
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 45
+|mod_type                         = FasterPoisonDamage
+|stat_text                        = [[Poison|Poisons]] you inflict deal Damage (4-5)% faster
+|stat1_id                         = faster_poison_%
+|stat1_min                        = 4
+|stat1_max                        = 5
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = sword
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = claw
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = dagger
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = chaos_damage, poison, damage, chaos, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

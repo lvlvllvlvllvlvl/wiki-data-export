@@ -10,7 +10,9 @@
 |static_attack_speed_multiplier          = 100
 |static_stat1_id                         = spell_maximum_action_distance_+%
 |static_stat1_value                      = -50
-|stat_text                               = Deals (5-122) to (7-183) Fire Damage
+|static_stat2_id                         = active_skill_base_area_of_effect_radius
+|static_stat2_value                      = 9
+|stat_text                               = Deals (5-122) to (7-183) Fire Damage<br>Base radius is 0.9 metres
 |level1                                  = True
 |level1_level_requirement                = 3
 |level1_stat_text                        = Deals 5 to 7 Fire Damage

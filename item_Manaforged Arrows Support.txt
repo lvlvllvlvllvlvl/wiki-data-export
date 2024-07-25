@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Manaforged Arrows Support
 |class_id                                = Support Skill Gem
@@ -7,25 +7,18 @@
 |drop_level                              = 8
 |tags                                    = up_to_level_8_gem, support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemManaforgedArrows
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |dexterity_percent                       = 60
 |intelligence_percent                    = 40
 |gem_tags                                = Bow, Support, Trigger
 |skill_id                                = SupportManaforgedArrows
 |support_gem_letter                      = U
 |required_level                          = 8
-|quality_type1_weight                    = 100
-|quality_type1_stat_text                 = Supported Skills have 0.5% increased Cooldown Recovery Rate
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills have (0.5-10)% increased Cooldown Recovery Rate
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = base_cooldown_speed_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = Supported Skills have 1% reduced Mana Cost
-|quality_type2_stat1_id                  = base_mana_cost_-%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 10
-|quality_type3_stat_text                 = -2.5% of Mana Cost required to be Spent before Triggering
-|quality_type3_stat1_id                  = support_manaforged_arrows_mana_cost_%_threshold
-|quality_type3_stat1_value               = -2500
 |static_cost_multiplier                  = 200
 |static_stored_uses                      = 1
 |static_cooldown                         = 0.5

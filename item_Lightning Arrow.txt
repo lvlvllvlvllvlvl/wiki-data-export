@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Lightning Arrow
 |class_id                                = Active Skill Gem
@@ -8,31 +8,21 @@
 |tags                                    = gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemLightningArrow
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|vaal_variant_id                         = Metadata/Items/Gems/SkillGemVaalLightningArrow
 |dexterity_percent                       = 100
 |gem_tags                                = Attack, AoE, Projectile, Lightning, Bow
-|gem_description                         = Fires a charged arrow at the target, causing them to be struck by a bolt of lightning which damages a number of surrounding enemies.
+|gem_description                         = Fires a charged arrow which damages enemies by causing them to be struck by a bolt of lightning, which also damages a number of surrounding enemies.
 |active_skill_name                       = Lightning Arrow
 |item_class_id_restriction               = Bow
 |projectile_speed                        = 3260
 |skill_id                                = LightningArrow
 |cast_time                               = 1.0
 |required_level                          = 12
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% chance to Shock enemies
-|quality_type1_stat1_id                  = base_chance_to_shock_%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% increased Area of Effect
-|quality_type2_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 1% of Physical Damage Converted to Lightning Damage
-|quality_type3_stat1_id                  = skill_physical_damage_%_to_convert_to_lightning
-|quality_type3_stat1_value               = 1000
-|quality_type4_weight                    = 10
-|quality_type4_stat_text                 = 1% chance to Hit an additional Enemy
-|quality_type4_stat1_id                  = lightning_arrow_%_chance_to_hit_an_additional_enemy
-|quality_type4_stat1_value               = 1000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Hits up to (0.1-2) additional enemies near the target
+|quality_type1_breakpoints               = 10.0
+|quality_type1_stat1_id                  = lightning_arrow_maximum_number_of_extra_targets
+|quality_type1_stat1_value               = 100
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 100
 |static_stat1_id                         = skill_can_fire_arrows
@@ -563,5 +553,4 @@
 |level20_dexterity_requirement           = 155
 |level20_experience                      = 342004647
 |level21_dexterity_requirement           = 159
-|inventory_icon                          = Lightning Arrow
 }}

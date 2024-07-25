@@ -1,0 +1,22 @@
+{{Skill
+|gem_description                         = Curses a single enemy, causing them to spawn multiple phantasms when hit. The phantasms will be allies of the marked enemy with the same monster level. They cast a projectile spell which deals physical damage, and are immune to curses and knockback. You can only have one Mark at a time.
+|active_skill_name                       = Penance Mark
+|skill_id                                = PenanceMark
+|cast_time                               = 0.5
+|required_level                          = 70
+|static_cost_amounts                     = 33
+|static_cost_types                       = Mana
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 3
+|static_stat1_id                         = base_deal_no_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 3000
+|static_stat3_id                         = penance_mark_summon_phantasms_when_hit
+|static_stat3_value                      = 3
+|stat_text                               = Can be Attached for a total Duration of 3.00 seconds<br>Cursed Enemies spawn 3 Shackled Phantasms when Hit, no more than once per second.
+|level1                                  = True
+|level1_level_requirement                = 70
+}}

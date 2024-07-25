@@ -1,0 +1,18 @@
+{{Mod
+|id                               = FlaskBuffManaLeechWhileHealing
+|mod_groups                       = FlaskBuffWhileHealing
+|domain                           = 2
+|generation_type                  = 3
+|required_level                   = 12
+|name                             = of Craving
+|mod_type                         = FlaskBuffManaLeechWhileHealing
+|stat_text                        = 0.4% of Physical [[Attack Damage]] Leeched as [[Mana]] during Effect
+|stat1_id                         = old_do_not_use_local_flask_mana_leech_%_while_healing
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = flask, resource, mana, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

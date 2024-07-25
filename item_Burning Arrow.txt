@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Burning Arrow
 |class_id                                = Active Skill Gem
@@ -8,6 +8,7 @@
 |tags                                    = up_to_level_2_gem, up_to_level_8_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemBurningArrow
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|vaal_variant_id                         = Metadata/Items/Gems/SkillGemVaalBurningArrow
 |dexterity_percent                       = 100
 |gem_tags                                = Attack, Projectile, Fire, Bow
 |gem_description                         = Fires a burning arrow that deals fire damage and has a chance to ignite.
@@ -17,18 +18,10 @@
 |skill_id                                = BurningArrow
 |cast_time                               = 1.0
 |required_level                          = 1
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Fire Damage
-|quality_type1_stat1_id                  = fire_damage_+%
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% more Damage with Ignite
+|quality_type1_stat1_id                  = active_skill_ignite_damage_+%_final
 |quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 3% increased Critical Strike Chance
-|quality_type2_stat1_id                  = critical_strike_chance_+%
-|quality_type2_stat1_value               = 3000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = Projectiles Pierce 0.1 additional Targets
-|quality_type3_stat1_id                  = projectile_base_number_of_targets_to_pierce
-|quality_type3_stat1_value               = 100
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 70
 |static_stat1_id                         = skill_can_fire_arrows
@@ -479,5 +472,4 @@
 |level20_dexterity_requirement           = 155
 |level20_experience                      = 342051651
 |level21_dexterity_requirement           = 159
-|inventory_icon                          = Burning Arrow
 }}

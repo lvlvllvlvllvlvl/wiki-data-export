@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapLeaguestoneRareBreachMonsterDropsBreachRingChance
+|mod_groups                       = MapLeaguestoneRareBreachMonsterDropsBreachRingChance
+|domain                           = 12
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Promise
+|mod_type                         = MapLeaguestoneRareBreachMonsterDropsBreachRingChance
+|stat_text                        = Rare Monsters from Breaches in the next Area have a 50% chance to Drop a Breach Ring
+|stat1_id                         = map_rare_breach_monster_additional_breach_ring_drop_chance_%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|spawn_weight1_tag                = breach_leaguestone
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

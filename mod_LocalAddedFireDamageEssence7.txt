@@ -1,0 +1,21 @@
+{{Mod
+|id                               = LocalAddedFireDamageEssence7
+|mod_groups                       = FireDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 82
+|name                             = Essences
+|mod_type                         = LocalFireDamage
+|stat_text                        = Adds (80-109) to (162-189) [[Fire Damage]]
+|stat1_id                         = local_minimum_added_fire_damage
+|stat1_min                        = 80
+|stat1_max                        = 109
+|stat2_id                         = local_maximum_added_fire_damage
+|stat2_min                        = 162
+|stat2_max                        = 189
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

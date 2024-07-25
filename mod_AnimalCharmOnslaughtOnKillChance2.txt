@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmOnslaughtOnKillChance2
+|mod_groups                       = AnimalCharmOnslaughtOnKillChance
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Raider's
+|mod_type                         = AnimalCharmOnslaughtOnKillChance
+|stat_text                        = (16-25)% chance to gain [[Onslaught]] for 4 seconds on [[Kill]]
+|stat1_id                         = chance_to_gain_onslaught_on_kill_for_4_seconds_%
+|stat1_min                        = 16
+|stat1_max                        = 25
+|spawn_weight1_tag                = dex_animal_charm
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

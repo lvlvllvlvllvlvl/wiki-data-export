@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Polished Harbinger Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = For deciphering the language of the inscrutable ones, honoured Sarina,<br>we charge you with investigating their intent in our land.
 |drop_level                              = 68
-|tags                                    = polished_scarab, default
+|tags                                    = scarab, harbinger_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabHarbinger2
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabHarbinger2
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = Area contains 3 additional Harbingers
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabHarbinger2
 }}

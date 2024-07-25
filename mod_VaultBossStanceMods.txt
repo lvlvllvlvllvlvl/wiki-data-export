@@ -1,0 +1,25 @@
+{{Mod
+|id                               = VaultBossStanceMods
+|mod_groups                       = VaultBossStanceMods
+|domain                           = 3
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = VaultBossStanceMods
+|stat_text                        = 50% increased [[Attack Speed]] (Hidden)<br>50% increased [[Cast Speed]] (Hidden)<br>50% increased [[Movement Speed]] (Hidden)<br>400% increased Knockback Distance (Hidden)<br>Knock Enemies back on [[Hit]] (Hidden)
+|stat1_id                         = attack_speed_+%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = base_cast_speed_+%
+|stat2_min                        = 50
+|stat2_max                        = 50
+|stat3_id                         = base_movement_velocity_+%
+|stat3_min                        = 50
+|stat3_max                        = 50
+|stat4_id                         = knockback_distance_+%
+|stat4_min                        = 400
+|stat4_max                        = 400
+|stat5_id                         = base_global_chance_to_knockback_%
+|stat5_min                        = 100
+|stat5_max                        = 100
+|tags                             = attack, caster, speed
+}}

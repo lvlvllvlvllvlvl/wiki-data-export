@@ -16,10 +16,10 @@
 |static_stat2_value                      = 20000
 |static_stat3_id                         = active_skill_elemental_damage_+%_final
 |static_stat3_value                      = -50
-|stat_text                               = Maximum (4-36) Summoned Skeletons<br>Base duration is 20 seconds<br>(20-60)% increased Minion Movement Speed<br>Minions have (0-220)% more Maximum Life<br>Minions deal 50% less Elemental Damage<br>Minions deal (30-80)% more Damage<br>Summons (2-8) Skeleton Warriors
+|stat_text                               = +(4-36) to Maximum Summoned Skeletons<br>Base duration is 20.00 seconds<br>(20-60)% increased Minion Movement Speed<br>Minions have (0-220)% more Maximum Life<br>Minions deal 50% less Elemental Damage<br>Minions deal (30-80)% more Damage<br>Summons (2-8) Skeleton Warriors
 |level1                                  = True
 |level1_level_requirement                = 4
-|level1_stat_text                        = Maximum 4 Summoned Skeletons<br>20% increased Minion Movement Speed<br>Minions deal 30% more Damage<br>Summons 2 Skeleton Warriors
+|level1_stat_text                        = +4 to Maximum Summoned Skeletons<br>20% increased Minion Movement Speed<br>Minions deal 30% more Damage<br>Summons 2 Skeleton Warriors
 |level1_stat1_id                         = base_number_of_skeletons_allowed
 |level1_stat1_value                      = 4
 |level1_stat2_id                         = minion_movement_speed_+%
@@ -30,7 +30,7 @@
 |level1_stat4_value                      = 2
 |level2                                  = True
 |level2_level_requirement                = 39
-|level2_stat_text                        = Maximum 6 Summoned Skeletons<br>20% increased Minion Movement Speed<br>Minions deal 30% more Damage<br>Summons 3 Skeleton Warriors
+|level2_stat_text                        = +6 to Maximum Summoned Skeletons<br>20% increased Minion Movement Speed<br>Minions deal 30% more Damage<br>Summons 3 Skeleton Warriors
 |level2_stat1_id                         = base_number_of_skeletons_allowed
 |level2_stat1_value                      = 6
 |level2_stat2_id                         = minion_movement_speed_+%
@@ -41,7 +41,7 @@
 |level2_stat4_value                      = 3
 |level3                                  = True
 |level3_level_requirement                = 55
-|level3_stat_text                        = Maximum 24 Summoned Skeletons<br>40% increased Minion Movement Speed<br>Minions have 125% more Maximum Life<br>Minions deal 50% more Damage<br>Summons 4 Skeleton Warriors
+|level3_stat_text                        = +24 to Maximum Summoned Skeletons<br>40% increased Minion Movement Speed<br>Minions have 125% more Maximum Life<br>Minions deal 50% more Damage<br>Summons 4 Skeleton Warriors
 |level3_stat1_id                         = base_number_of_skeletons_allowed
 |level3_stat1_value                      = 24
 |level3_stat2_id                         = minion_movement_speed_+%
@@ -54,7 +54,7 @@
 |level3_stat5_value                      = 4
 |level4                                  = True
 |level4_level_requirement                = 58
-|level4_stat_text                        = Maximum 24 Summoned Skeletons<br>40% increased Minion Movement Speed<br>Minions have 130% more Maximum Life<br>Minions deal 50% more Damage<br>Summons 4 Skeleton Warriors
+|level4_stat_text                        = +24 to Maximum Summoned Skeletons<br>40% increased Minion Movement Speed<br>Minions have 130% more Maximum Life<br>Minions deal 50% more Damage<br>Summons 4 Skeleton Warriors
 |level4_stat1_id                         = base_number_of_skeletons_allowed
 |level4_stat1_value                      = 24
 |level4_stat2_id                         = minion_movement_speed_+%
@@ -67,7 +67,7 @@
 |level4_stat5_value                      = 4
 |level5                                  = True
 |level5_level_requirement                = 61
-|level5_stat_text                        = Maximum 24 Summoned Skeletons<br>40% increased Minion Movement Speed<br>Minions have 135% more Maximum Life<br>Minions deal 50% more Damage<br>Summons 4 Skeleton Warriors
+|level5_stat_text                        = +24 to Maximum Summoned Skeletons<br>40% increased Minion Movement Speed<br>Minions have 135% more Maximum Life<br>Minions deal 50% more Damage<br>Summons 4 Skeleton Warriors
 |level5_stat1_id                         = base_number_of_skeletons_allowed
 |level5_stat1_value                      = 24
 |level5_stat2_id                         = minion_movement_speed_+%
@@ -80,7 +80,7 @@
 |level5_stat5_value                      = 4
 |level6                                  = True
 |level6_level_requirement                = 64
-|level6_stat_text                        = Maximum 24 Summoned Skeletons<br>40% increased Minion Movement Speed<br>Minions have 140% more Maximum Life<br>Minions deal 50% more Damage<br>Summons 4 Skeleton Warriors
+|level6_stat_text                        = +24 to Maximum Summoned Skeletons<br>40% increased Minion Movement Speed<br>Minions have 140% more Maximum Life<br>Minions deal 50% more Damage<br>Summons 4 Skeleton Warriors
 |level6_stat1_id                         = base_number_of_skeletons_allowed
 |level6_stat1_value                      = 24
 |level6_stat2_id                         = minion_movement_speed_+%
@@ -93,7 +93,7 @@
 |level6_stat5_value                      = 4
 |level7                                  = True
 |level7_level_requirement                = 66
-|level7_stat_text                        = Maximum 24 Summoned Skeletons<br>40% increased Minion Movement Speed<br>Minions have 145% more Maximum Life<br>Minions deal 50% more Damage<br>Summons 4 Skeleton Warriors
+|level7_stat_text                        = +24 to Maximum Summoned Skeletons<br>40% increased Minion Movement Speed<br>Minions have 145% more Maximum Life<br>Minions deal 50% more Damage<br>Summons 4 Skeleton Warriors
 |level7_stat1_id                         = base_number_of_skeletons_allowed
 |level7_stat1_value                      = 24
 |level7_stat2_id                         = minion_movement_speed_+%
@@ -106,7 +106,7 @@
 |level7_stat5_value                      = 4
 |level8                                  = True
 |level8_level_requirement                = 67
-|level8_stat_text                        = Maximum 24 Summoned Skeletons<br>40% increased Minion Movement Speed<br>Minions have 150% more Maximum Life<br>Minions deal 50% more Damage<br>Summons 4 Skeleton Warriors
+|level8_stat_text                        = +24 to Maximum Summoned Skeletons<br>40% increased Minion Movement Speed<br>Minions have 150% more Maximum Life<br>Minions deal 50% more Damage<br>Summons 4 Skeleton Warriors
 |level8_stat1_id                         = base_number_of_skeletons_allowed
 |level8_stat1_value                      = 24
 |level8_stat2_id                         = minion_movement_speed_+%
@@ -119,7 +119,7 @@
 |level8_stat5_value                      = 4
 |level9                                  = True
 |level9_level_requirement                = 68
-|level9_stat_text                        = Maximum 30 Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 155% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 6 Skeleton Warriors
+|level9_stat_text                        = +30 to Maximum Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 155% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 6 Skeleton Warriors
 |level9_stat1_id                         = base_number_of_skeletons_allowed
 |level9_stat1_value                      = 30
 |level9_stat2_id                         = minion_movement_speed_+%
@@ -132,7 +132,7 @@
 |level9_stat5_value                      = 6
 |level10                                 = True
 |level10_level_requirement               = 69
-|level10_stat_text                       = Maximum 30 Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 160% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 6 Skeleton Warriors
+|level10_stat_text                       = +30 to Maximum Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 160% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 6 Skeleton Warriors
 |level10_stat1_id                        = base_number_of_skeletons_allowed
 |level10_stat1_value                     = 30
 |level10_stat2_id                        = minion_movement_speed_+%
@@ -145,7 +145,7 @@
 |level10_stat5_value                     = 6
 |level11                                 = True
 |level11_level_requirement               = 70
-|level11_stat_text                       = Maximum 30 Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 165% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 6 Skeleton Warriors
+|level11_stat_text                       = +30 to Maximum Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 165% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 6 Skeleton Warriors
 |level11_stat1_id                        = base_number_of_skeletons_allowed
 |level11_stat1_value                     = 30
 |level11_stat2_id                        = minion_movement_speed_+%
@@ -158,7 +158,7 @@
 |level11_stat5_value                     = 6
 |level12                                 = True
 |level12_level_requirement               = 71
-|level12_stat_text                       = Maximum 30 Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 170% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 6 Skeleton Warriors
+|level12_stat_text                       = +30 to Maximum Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 170% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 6 Skeleton Warriors
 |level12_stat1_id                        = base_number_of_skeletons_allowed
 |level12_stat1_value                     = 30
 |level12_stat2_id                        = minion_movement_speed_+%
@@ -171,7 +171,7 @@
 |level12_stat5_value                     = 6
 |level13                                 = True
 |level13_level_requirement               = 72
-|level13_stat_text                       = Maximum 30 Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 175% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 6 Skeleton Warriors
+|level13_stat_text                       = +30 to Maximum Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 175% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 6 Skeleton Warriors
 |level13_stat1_id                        = base_number_of_skeletons_allowed
 |level13_stat1_value                     = 30
 |level13_stat2_id                        = minion_movement_speed_+%
@@ -184,7 +184,7 @@
 |level13_stat5_value                     = 6
 |level14                                 = True
 |level14_level_requirement               = 73
-|level14_stat_text                       = Maximum 30 Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 180% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 6 Skeleton Warriors
+|level14_stat_text                       = +30 to Maximum Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 180% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 6 Skeleton Warriors
 |level14_stat1_id                        = base_number_of_skeletons_allowed
 |level14_stat1_value                     = 30
 |level14_stat2_id                        = minion_movement_speed_+%
@@ -197,7 +197,7 @@
 |level14_stat5_value                     = 6
 |level15                                 = True
 |level15_level_requirement               = 74
-|level15_stat_text                       = Maximum 36 Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 185% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 8 Skeleton Warriors
+|level15_stat_text                       = +36 to Maximum Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 185% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 8 Skeleton Warriors
 |level15_stat1_id                        = base_number_of_skeletons_allowed
 |level15_stat1_value                     = 36
 |level15_stat2_id                        = minion_movement_speed_+%
@@ -210,7 +210,7 @@
 |level15_stat5_value                     = 8
 |level16                                 = True
 |level16_level_requirement               = 75
-|level16_stat_text                       = Maximum 36 Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 190% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 8 Skeleton Warriors
+|level16_stat_text                       = +36 to Maximum Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 190% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 8 Skeleton Warriors
 |level16_stat1_id                        = base_number_of_skeletons_allowed
 |level16_stat1_value                     = 36
 |level16_stat2_id                        = minion_movement_speed_+%
@@ -223,7 +223,7 @@
 |level16_stat5_value                     = 8
 |level17                                 = True
 |level17_level_requirement               = 76
-|level17_stat_text                       = Maximum 36 Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 195% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 8 Skeleton Warriors
+|level17_stat_text                       = +36 to Maximum Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 195% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 8 Skeleton Warriors
 |level17_stat1_id                        = base_number_of_skeletons_allowed
 |level17_stat1_value                     = 36
 |level17_stat2_id                        = minion_movement_speed_+%
@@ -236,7 +236,7 @@
 |level17_stat5_value                     = 8
 |level18                                 = True
 |level18_level_requirement               = 77
-|level18_stat_text                       = Maximum 36 Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 200% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 8 Skeleton Warriors
+|level18_stat_text                       = +36 to Maximum Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 200% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 8 Skeleton Warriors
 |level18_stat1_id                        = base_number_of_skeletons_allowed
 |level18_stat1_value                     = 36
 |level18_stat2_id                        = minion_movement_speed_+%
@@ -249,7 +249,7 @@
 |level18_stat5_value                     = 8
 |level19                                 = True
 |level19_level_requirement               = 78
-|level19_stat_text                       = Maximum 36 Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 205% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 8 Skeleton Warriors
+|level19_stat_text                       = +36 to Maximum Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 205% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 8 Skeleton Warriors
 |level19_stat1_id                        = base_number_of_skeletons_allowed
 |level19_stat1_value                     = 36
 |level19_stat2_id                        = minion_movement_speed_+%
@@ -262,7 +262,7 @@
 |level19_stat5_value                     = 8
 |level20                                 = True
 |level20_level_requirement               = 80
-|level20_stat_text                       = Maximum 36 Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 210% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 8 Skeleton Warriors
+|level20_stat_text                       = +36 to Maximum Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 210% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 8 Skeleton Warriors
 |level20_stat1_id                        = base_number_of_skeletons_allowed
 |level20_stat1_value                     = 36
 |level20_stat2_id                        = minion_movement_speed_+%
@@ -275,7 +275,7 @@
 |level20_stat5_value                     = 8
 |level21                                 = True
 |level21_level_requirement               = 81
-|level21_stat_text                       = Maximum 36 Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 215% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 8 Skeleton Warriors
+|level21_stat_text                       = +36 to Maximum Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 215% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 8 Skeleton Warriors
 |level21_stat1_id                        = base_number_of_skeletons_allowed
 |level21_stat1_value                     = 36
 |level21_stat2_id                        = minion_movement_speed_+%
@@ -288,7 +288,7 @@
 |level21_stat5_value                     = 8
 |level22                                 = True
 |level22_level_requirement               = 82
-|level22_stat_text                       = Maximum 36 Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 220% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 8 Skeleton Warriors
+|level22_stat_text                       = +36 to Maximum Summoned Skeletons<br>60% increased Minion Movement Speed<br>Minions have 220% more Maximum Life<br>Minions deal 80% more Damage<br>Summons 8 Skeleton Warriors
 |level22_stat1_id                        = base_number_of_skeletons_allowed
 |level22_stat1_value                     = 36
 |level22_stat2_id                        = minion_movement_speed_+%

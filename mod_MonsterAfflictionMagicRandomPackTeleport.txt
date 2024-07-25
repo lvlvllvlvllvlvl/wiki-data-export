@@ -1,0 +1,15 @@
+{{Mod
+|id                               = MonsterAfflictionMagicRandomPackTeleport
+|mod_groups                       = MonsterAfflictionNormalMagicSkillDaemon
+|domain                           = 3
+|generation_type                  = 20
+|required_level                   = 1
+|name                             = Spatial Distortion
+|granted_buff_id                  = visual_display_buff_not_hidden
+|granted_buff_value               = 0
+|mod_type                         = MonsterAfflictionPackTeleportDaemon
+|stat_text                        = Corpse can not be destroyed (Hidden)
+|stat1_id                         = corpse_cannot_be_destroyed
+|stat1_min                        = 1
+|stat1_max                        = 1
+}}

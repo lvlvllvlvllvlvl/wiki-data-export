@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = Launches a shard of ice that splits on hitting terrain or enemies. After splitting, the projectiles are in second form, which moves much faster and pierces through enemies.
+|active_skill_name                       = Ice Spear of Splitting
+|skill_id                                = IceSpearGemling
+|cast_time                               = 0.7
+|required_level                          = 1
+|static_critical_strike_chance           = 7
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_cold_damage
+|static_stat2_value                      = 7
+|static_stat3_id                         = spell_maximum_base_cold_damage
+|static_stat3_value                      = 10
+|static_stat4_id                         = modifiers_to_number_of_projectiles_instead_apply_to_splitting
+|static_stat4_value                      = 1
+|static_stat5_id                         = projectile_number_to_split
+|static_stat5_value                      = 5
+|static_stat6_id                         = projectiles_can_split_from_terrain
+|static_stat6_value                      = 1
+|stat_text                               = Deals 7 to 10 Cold Damage<br>Modifiers to number of Projectiles instead apply to<br>the number of targets Projectile Splits towards<br>Projectiles Split towards 5 targets<br>Projectiles can Split from hitting terrain
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

@@ -1,0 +1,22 @@
+{{Mod
+|id                               = WeaponTreeSpellDamage2h3
+|mod_groups                       = SpellDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 46
+|mod_type                         = WeaponTreeSpellDamage
+|stat_text                        = 32% increased [[Spell Damage]]
+|stat1_id                         = spell_damage_+%
+|stat1_min                        = 32
+|stat1_max                        = 32
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 1500
+|spawn_weight3_tag                = attack_staff
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = staff
+|spawn_weight4_value              = 1500
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+}}

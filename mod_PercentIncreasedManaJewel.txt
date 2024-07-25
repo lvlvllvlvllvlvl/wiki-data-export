@@ -1,0 +1,20 @@
+{{Mod
+|id                               = PercentIncreasedManaJewel
+|mod_groups                       = MaximumManaIncreasePercent
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Enlightened
+|mod_type                         = PercentIncreasedManaForJewel
+|stat_text                        = (8-10)% increased maximum [[Mana]]
+|stat1_id                         = maximum_mana_+%
+|stat1_min                        = 8
+|stat1_max                        = 10
+|spawn_weight1_tag                = not_str
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 250
+|tags                             = resource, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

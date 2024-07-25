@@ -1,0 +1,19 @@
+{{Mod
+|id                               = IncursionMonsterResists1
+|mod_groups                       = IncursionMonsterResists
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = IncursionMonsterResists
+|stat_text                        = +20% Monster [[Physical Damage]] Reduction<br>+20% Monster [[Elemental Resistance|Elemental Resistances]]<br>+15% Monster [[Chaos Resistance]]
+|stat1_id                         = map_monsters_additional_physical_damage_reduction
+|stat1_min                        = 20
+|stat1_max                        = 20
+|stat2_id                         = map_monsters_additional_elemental_resistance
+|stat2_min                        = 20
+|stat2_max                        = 20
+|stat3_id                         = map_monsters_additional_chaos_resistance
+|stat3_min                        = 15
+|stat3_max                        = 15
+|tags                             = elemental, chaos, resistance
+}}

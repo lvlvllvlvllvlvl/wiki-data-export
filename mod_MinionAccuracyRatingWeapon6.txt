@@ -1,0 +1,22 @@
+{{Mod
+|id                               = MinionAccuracyRatingWeapon6
+|mod_groups                       = MinionAccuracyRating
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 85
+|name                             = of the Monarch
+|mod_type                         = MinionFlatAccuracyRating
+|stat_text                        = [[Minion|Minions]] have +(546-624) to [[Accuracy Rating]]
+|stat1_id                         = minion_accuracy_rating
+|stat1_min                        = 546
+|stat1_max                        = 624
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = weapon_can_roll_minion_modifiers
+|spawn_weight2_value              = 2000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = attack, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

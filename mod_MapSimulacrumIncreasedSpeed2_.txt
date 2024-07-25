@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapSimulacrumIncreasedSpeed2_
+|mod_groups                       = MapSimulacrumMonsterSpeed
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSimulacrumIncreasedSpeed
+|stat_text                        = 12% increased Monster [[Movement Speed]]<br>12% increased Monster [[Cast Speed]]<br>12% increased Monster [[Attack Speed]]
+|stat1_id                         = map_monsters_movement_speed_+%
+|stat1_min                        = 12
+|stat1_max                        = 12
+|stat2_id                         = map_monsters_cast_speed_+%
+|stat2_min                        = 12
+|stat2_max                        = 12
+|stat3_id                         = map_monsters_attack_speed_+%
+|stat3_min                        = 12
+|stat3_max                        = 12
+|tags                             = attack, caster, speed
+}}

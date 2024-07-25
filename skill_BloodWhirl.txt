@@ -1,0 +1,29 @@
+{{Skill
+|gem_description                         = [UNUSED] Whily Twirly 
+|active_skill_name                       = [UNUSED] Blood Whirl
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Unarmed, Warstaff, Rune Dagger
+|skill_id                                = BloodWhirl
+|cast_time                               = 1.0
+|required_level                          = 28
+|static_cost_amounts                     = 2
+|static_cost_types                       = Mana
+|static_stored_uses                      = 1
+|static_cooldown                         = 6
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 3
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_can_add_multiple_charges_per_action
+|static_stat2_value                      = 1
+|static_stat3_id                         = maim_on_hit_%_vs_poisoned_enemies
+|static_stat3_value                      = 100
+|static_stat4_id                         = base_skill_effect_duration
+|static_stat4_value                      = 3000
+|static_stat5_id                         = cyclone_movement_speed_+%_final
+|static_stat5_value                      = 60
+|stat_text                               = Attacks always Maim on Hit against Poisoned Enemies<br>Base duration is 3.00 seconds<br>60% more Movement Speed
+|level1                                  = True
+|level1_level_requirement                = 28
+}}

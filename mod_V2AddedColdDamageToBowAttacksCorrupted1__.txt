@@ -1,0 +1,20 @@
+{{Mod
+|id                               = V2AddedColdDamageToBowAttacksCorrupted1__
+|mod_groups                       = AddedColdDamageToBowAttacksCorrupted
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = AddedColdDamageToBowAttacksCorrupted
+|stat_text                        = (8-11) to (18-21) Added [[Cold Damage]] with [[Bow]] [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_cold_damage_with_bows
+|stat1_min                        = 8
+|stat1_max                        = 11
+|stat2_id                         = attack_maximum_added_cold_damage_with_bows
+|stat2_min                        = 18
+|stat2_max                        = 21
+|spawn_weight1_tag                = quiver
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, cold, attack
+}}

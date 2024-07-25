@@ -1,0 +1,17 @@
+{{Mod
+|id                               = UniqueTreeWeaponTreeSupportFasterCast
+|mod_groups                       = WeaponTreeSupportFasterCast
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|granted_skill                    = SupportFasterCast
+|mod_type                         = WeaponTreeSupportFasterCast
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Faster Casting Support|Level 30 Faster Casting]]
+|stat1_id                         = local_display_socketed_gems_get_faster_cast_level
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = crucible_unique_staff
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

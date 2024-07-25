@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeWrathEffectAndReservation2h2
+|mod_groups                       = WeaponTreeWrathEffectAndReservation
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 56
+|mod_type                         = WeaponTreeWrathEffectAndReservation
+|stat_text                        = [[Wrath]] has 50% increased Aura Effect<br>[[Wrath]] has 50% increased Reservation
+|stat1_id                         = wrath_aura_effect_+%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = wrath_mana_reservation_+%
+|stat2_min                        = 50
+|stat2_max                        = 50
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 150
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

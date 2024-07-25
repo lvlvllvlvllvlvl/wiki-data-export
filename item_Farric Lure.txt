@@ -1,12 +1,15 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Farric Lure
 |class_id                                = MapFragment
 |size_x                                  = 1
 |size_y                                  = 1
-|drop_level                              = 1
+|drop_level                              = 68
 |tags                                    = default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabBeasts4a
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabBeasts4a
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 1
+|description                             = Area contains Einhar<br>Area contains 4 additional Red Beasts from The Wilds<br>Cannot be used alongside a Bestiary Scarab
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabBeasts4a
 }}

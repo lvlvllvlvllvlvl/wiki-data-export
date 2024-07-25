@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeIncreasedLifeReducedAllResistance2
+|mod_groups                       = IncreasedLife
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 45
+|mod_type                         = WeaponTreeIncreasedLifeReducedAllResistance
+|stat_text                        = +75 to maximum [[Life]]<br>-5% to all [[Elemental Resistance|Elemental Resistances]]
+|stat1_id                         = base_maximum_life
+|stat1_min                        = 75
+|stat1_max                        = 75
+|stat2_id                         = base_resist_all_elements_%
+|stat2_min                        = -5
+|stat2_max                        = -5
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

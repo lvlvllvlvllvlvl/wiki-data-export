@@ -1,0 +1,26 @@
+{{Mod
+|id                               = AbyssManaRegenerationRateWhileMovingJewel1
+|mod_groups                       = ManaRegenerationRateWhileMoving
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Praxis
+|mod_type                         = ManaRegenerationRateWhileMoving
+|stat_text                        = (20-25)% increased [[Mana]] Regeneration Rate while moving
+|stat1_id                         = mana_regeneration_rate_+%_while_moving
+|stat1_min                        = 20
+|stat1_max                        = 25
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = abyss_jewel_ranged
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = abyss_jewel_caster
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = abyss_jewel_summoner
+|spawn_weight4_value              = 250
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = resource, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

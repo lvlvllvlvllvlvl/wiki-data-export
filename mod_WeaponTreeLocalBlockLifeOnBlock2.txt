@@ -1,0 +1,21 @@
+{{Mod
+|id                               = WeaponTreeLocalBlockLifeOnBlock2
+|mod_groups                       = WeaponTreeLocalBlock
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 42
+|mod_type                         = WeaponTreeLocalBlockLifeOnBlock
+|stat_text                        = +3% Chance to [[Block]]<br>30 [[Life]] gained when you [[Block]]
+|stat1_id                         = local_additional_block_chance_%
+|stat1_min                        = 3
+|stat1_max                        = 3
+|stat2_id                         = life_gained_on_block
+|stat2_min                        = 30
+|stat2_max                        = 30
+|spawn_weight1_tag                = crucible_unique_helmet
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = shield
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeSkillToxicRainRainofArrows
+|mod_groups                       = WeaponTreeSkillToxicRainRainofArrows
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSkillToxicRainRainofArrows
+|stat_text                        = [[Rain of Arrows]] and Toxic Rain deal 300% more Damage with Bleeding<br>-60% of Toxic Rain [[Physical Damage]] Converted to [[Chaos Damage]]
+|stat1_id                         = rain_of_arrows_toxic_rain_active_skill_bleeding_damage_+%_final
+|stat1_min                        = 300
+|stat1_max                        = 300
+|stat2_id                         = toxic_rain_skill_physical_damage_%_to_convert_to_chaos
+|stat2_min                        = -60
+|stat2_max                        = -60
+|spawn_weight1_tag                = bow
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

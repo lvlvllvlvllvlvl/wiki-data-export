@@ -1,0 +1,18 @@
+{{Mod
+|id                               = TinctureLightningPen3
+|mod_groups                       = LightningResistancePenetration
+|domain                           = 34
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Sparking
+|mod_type                         = LightningPenetrationWeapon
+|stat_text                        = Damage Penetrates (9-12)% [[Lightning Resistance]]
+|stat1_id                         = reduce_enemy_lightning_resistance_with_weapons_%
+|stat1_min                        = 9
+|stat1_max                        = 12
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, lightning, attack
+}}

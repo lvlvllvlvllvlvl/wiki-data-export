@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeWitherOnHitChance2h1
+|mod_groups                       = WeaponTreeWitherOnHitChance
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 38
+|mod_type                         = WeaponTreeWitherOnHitChance
+|stat_text                        = 10% chance to inflict Withered for 2 seconds on [[Hit]]<br>50% chance to be Withered for 2 seconds when you take [[Chaos Damage]] from a [[Hit]]
+|stat1_id                         = withered_on_hit_for_2_seconds_%_chance
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = inflicted_with_wither_for_2_seconds_on_taking_chaos_damage_from_hit_chance_%
+|stat2_min                        = 50
+|stat2_max                        = 50
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 150
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

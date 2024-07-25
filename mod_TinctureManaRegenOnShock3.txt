@@ -1,0 +1,19 @@
+{{Mod
+|id                               = TinctureManaRegenOnShock3
+|mod_groups                       = ManaRegenerationOnWeaponShock
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of Dynamism
+|mod_type                         = ManaRegenerationOnWeaponShock
+|stat_text                        = (51-70)% increased [[Mana]] Regeneration Rate if you have [[Shock|Shocked]] an Enemy [[Recently]]
+|stat1_id                         = mana_regeneration_rate_+%_if_enemy_shocked_with_weapon_recently
+|stat1_min                        = 51
+|stat1_max                        = 70
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

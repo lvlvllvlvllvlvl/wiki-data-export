@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TinctureOverwhelm2
+|mod_groups                       = WeaponOverwhelm
+|domain                           = 34
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Battering
+|mod_type                         = WeaponOverwhelm
+|stat_text                        = Overwhelm (13-16)% of [[Physical Damage]] Reduction
+|stat1_id                         = overwhelm_%_physical_damage_reduction_with_weapons_%
+|stat1_min                        = 13
+|stat1_max                        = 16
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

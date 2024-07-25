@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MinionPhysicalDamageReduction2
+|mod_groups                       = MinionPhysicalDamageReduction
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of the Brigade
+|mod_type                         = MinionPhysicalDamageReduction
+|stat_text                        = [[Minion|Minions]] have (10-12)% additional [[Physical Damage]] Reduction
+|stat1_id                         = minion_additional_physical_damage_reduction_%
+|stat1_min                        = 10
+|stat1_max                        = 12
+|spawn_weight1_tag                = focus_can_roll_minion_modifiers
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

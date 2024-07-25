@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SpiritMinionEssence1
+|mod_groups                       = GrantsMinion
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 63
+|name                             = of the Essence
+|granted_skill                    = SummonEssenceSpirits
+|mod_type                         = GrantsEssenceMinion
+|stat_text                        = Triggers [[Level]] 20 Spectral Spirits when Equipped<br />+3 to maximum number of Spectral Spirits
+|stat1_id                         = base_number_of_essence_spirits_allowed
+|stat1_min                        = 3
+|stat1_max                        = 3
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Storm Rain
 |class_id                                = Active Skill Gem
@@ -16,18 +16,11 @@
 |skill_id                                = StormRain
 |cast_time                               = 1.0
 |required_level                          = 28
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Area of Effect
-|quality_type1_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = Storm Rain has 0.5% increased Beam frequency
-|quality_type2_stat1_id                  = prismatic_rain_beam_frequency_+%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = 0.5% reduced Area of Effect
-|quality_type3_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type3_stat1_value               = -500
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Each Arrow can fire +(0.05-1) Beams
+|quality_type1_breakpoints               = 20.0
+|quality_type1_stat1_id                  = storm_rain_pulse_count
+|quality_type1_stat1_value               = 50
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_is_projectile
@@ -48,13 +41,15 @@
 |static_stat8_value                      = 100
 |static_stat9_id                         = storm_rain_pulse_count
 |static_stat9_value                      = 4
-|stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>Arrows fire Beams every (0.5-0.41) seconds<br>Maximum 100 Arrows in the ground<br>Each Arrow can fire 4 Beams
+|static_stat10_id                        = quality_display_storm_rain_is_gem
+|static_stat10_value                     = 1
+|stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>Arrows fire Beams every (0.50-0.41) seconds<br>Maximum 100 Arrows in the ground<br>Each Arrow can fire 4 Beams
 |level1                                  = True
 |level1_level_requirement                = 28
 |level1_cost_amounts                     = 7
 |level1_damage_effectiveness             = 46
 |level1_damage_multiplier                = 46
-|level1_stat_text                        = Arrows fire Beams every 0.5 seconds
+|level1_stat_text                        = Arrows fire Beams every 0.50 seconds
 |level1_stat1_id                         = prismatic_rain_beam_base_frequency_ms
 |level1_stat1_value                      = 500
 |level2                                  = True
@@ -62,7 +57,7 @@
 |level2_cost_amounts                     = 7
 |level2_damage_effectiveness             = 47
 |level2_damage_multiplier                = 46.6
-|level2_stat_text                        = Arrows fire Beams every 0.5 seconds
+|level2_stat_text                        = Arrows fire Beams every 0.50 seconds
 |level2_stat1_id                         = prismatic_rain_beam_base_frequency_ms
 |level2_stat1_value                      = 500
 |level3                                  = True
@@ -214,7 +209,7 @@
 |level21_cost_amounts                    = 11
 |level21_damage_effectiveness            = 59
 |level21_damage_multiplier               = 58.6
-|level21_stat_text                       = Arrows fire Beams every 0.4 seconds
+|level21_stat_text                       = Arrows fire Beams every 0.40 seconds
 |level21_stat1_id                        = prismatic_rain_beam_base_frequency_ms
 |level21_stat1_value                     = 400
 |level22                                 = True
@@ -222,7 +217,7 @@
 |level22_cost_amounts                    = 11
 |level22_damage_effectiveness            = 59
 |level22_damage_multiplier               = 59.3
-|level22_stat_text                       = Arrows fire Beams every 0.4 seconds
+|level22_stat_text                       = Arrows fire Beams every 0.40 seconds
 |level22_stat1_id                        = prismatic_rain_beam_base_frequency_ms
 |level22_stat1_value                     = 400
 |level23                                 = True

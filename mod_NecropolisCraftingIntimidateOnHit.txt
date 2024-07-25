@@ -1,0 +1,20 @@
+{{Mod
+|id                               = NecropolisCraftingIntimidateOnHit
+|mod_groups                       = IntimidateOnHit
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 38
+|name                             = of Haunting
+|mod_type                         = IntimidateOnHit
+|stat_text                        = (15-25)% chance to Intimidate Enemies for 4 seconds on [[Hit]] with [[Attack|Attacks]]
+|stat1_id                         = attacks_intimidate_on_hit_%
+|stat1_min                        = 15
+|stat1_max                        = 25
+|spawn_weight1_tag                = necropolis_gloves
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = necropolis_exclusive_mod, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

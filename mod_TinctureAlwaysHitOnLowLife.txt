@@ -1,0 +1,19 @@
+{{Mod
+|id                               = TinctureAlwaysHitOnLowLife
+|mod_groups                       = WeaponHitsCannotBeEvadedOnLowLife
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 81
+|name                             = of Desperation
+|mod_type                         = WeaponHitsCannotBeEvadedOnLowLife
+|stat_text                        = Your [[Hit|hits]] can't be Evaded while you are on [[Low Life]]
+|stat1_id                         = weapon_hits_cannot_be_evaded_while_on_low_life
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 20
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

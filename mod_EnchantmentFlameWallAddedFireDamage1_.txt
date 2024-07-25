@@ -1,0 +1,23 @@
+{{Mod
+|id                               = EnchantmentFlameWallAddedFireDamage1_
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Flame Wall Added Damage 1
+|mod_type                         = EnchantmentFlameWallAddedFireDamage
+|stat_text                        = Flame Wall grants 19 to 28 Added [[Fire Damage]] to Projectiles
+|stat1_id                         = flame_wall_minimum_added_fire_damage
+|stat1_min                        = 19
+|stat1_max                        = 19
+|stat2_id                         = flame_wall_maximum_added_fire_damage
+|stat2_min                        = 28
+|stat2_max                        = 28
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, fire, caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

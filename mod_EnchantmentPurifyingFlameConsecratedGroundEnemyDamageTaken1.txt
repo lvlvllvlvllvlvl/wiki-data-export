@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentPurifyingFlameConsecratedGroundEnemyDamageTaken1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Purifying Flame Consecrated Ground Enemy Damage Taken 1
+|mod_type                         = EnchantmentPurifyingFlameConsecratedGroundEnemyDamageTaken
+|stat_text                        = Consecrated Ground from Purifying Flame applies 6% increased Damage taken to Enemies
+|stat1_id                         = sanctify_consecrated_ground_enemy_damage_taken_+%
+|stat1_min                        = 6
+|stat1_max                        = 6
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster_damage, damage, caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,22 @@
+{{Mod
+|id                               = WeaponTreeAddedLightning2hHighIncreasedDamageTaken5
+|mod_groups                       = LightningDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 82
+|mod_type                         = WeaponTreeLocalLightningDamageAndDamageTaken
+|stat_text                        = Adds 13 to 242 [[Lightning Damage]]<br>6% increased [[Lightning Damage]] taken
+|stat1_id                         = local_minimum_added_lightning_damage
+|stat1_min                        = 13
+|stat1_max                        = 13
+|stat2_id                         = local_maximum_added_lightning_damage
+|stat2_min                        = 242
+|stat2_max                        = 242
+|stat3_id                         = lightning_damage_taken_+%
+|stat3_min                        = 6
+|stat3_max                        = 6
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 125
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

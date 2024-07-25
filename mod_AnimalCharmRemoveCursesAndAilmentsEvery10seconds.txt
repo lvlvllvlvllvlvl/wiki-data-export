@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmRemoveCursesAndAilmentsEvery10seconds
+|mod_groups                       = AnimalCharmRemoveCursesAndAilmentsEvery10seconds
+|domain                           = 35
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of the Guardian
+|mod_type                         = AnimalCharmRemoveCursesAndAilmentsEvery10seconds
+|stat_text                        = Every 4 seconds, remove [[Curse|Curses]] and Elemental Ailments from you
+|stat1_id                         = guardian_remove_curses_and_status_ailments_every_10_seconds
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = str_animal_charm
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

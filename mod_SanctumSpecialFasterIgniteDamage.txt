@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialFasterIgniteDamage
+|mod_groups                       = FasterDamageAilments
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Witch-burning
+|mod_type                         = FasterIgniteDamage
+|stat_text                        = [[Ignite|Ignites]] you inflict deal Damage (7-10)% faster
+|stat1_id                         = faster_burn_%
+|stat1_min                        = 7
+|stat1_max                        = 10
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 50
+|tags                             = elemental_damage, damage, elemental, fire, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

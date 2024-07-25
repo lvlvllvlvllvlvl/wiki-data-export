@@ -1,0 +1,21 @@
+{{Mod
+|id                               = DamageTakenGainedAsLifeEldritchImplicit2
+|mod_groups                       = DamageTakenGainedAsLife
+|domain                           = 1
+|generation_type                  = 28
+|required_level                   = 75
+|mod_type                         = DamageTakenGainedAsLife
+|stat_text                        = (10-11)% of Damage taken Recouped as [[Life]]
+|stat1_id                         = damage_taken_goes_to_life_over_4_seconds_%
+|stat1_min                        = 10
+|stat1_max                        = 11
+|spawn_weight1_tag                = no_tier_5_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = body_armour
+|spawn_weight2_value              = 700
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

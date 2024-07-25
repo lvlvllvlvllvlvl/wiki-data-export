@@ -1,0 +1,19 @@
+{{Mod
+|id                               = ChanceToBeCritJewelCorrupted
+|mod_groups                       = ChanceToTakeCriticalStrike
+|domain                           = 10
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = ChanceToTakeCriticalStrike
+|stat_text                        = [[Hit|Hits]] have (60-100)% increased [[Critical Strike Chance]] against you
+|stat1_id                         = enemy_critical_strike_chance_+%_against_self_20_times_value
+|stat1_min                        = 3
+|stat1_max                        = 5
+|spawn_weight1_tag                = jewel
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = critical
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

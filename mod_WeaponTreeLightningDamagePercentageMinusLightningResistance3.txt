@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeLightningDamagePercentageMinusLightningResistance3
+|mod_groups                       = LightningDamagePercentage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 72
+|mod_type                         = WeaponTreeLightningDamagePercentageMinusLightningResistance
+|stat_text                        = 40% increased [[Lightning Damage]]<br>-10% to [[Lightning Resistance]]
+|stat1_id                         = lightning_damage_+%
+|stat1_min                        = 40
+|stat1_max                        = 40
+|stat2_id                         = base_lightning_damage_resistance_%
+|stat2_min                        = -10
+|stat2_max                        = -10
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

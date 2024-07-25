@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MonsterModResistantToChaos
+|mod_groups                       = MonsterModResistantToChaos
+|domain                           = 3
+|generation_type                  = 2
+|required_level                   = 15
+|name                             = of Exile
+|mod_type                         = MonsterModResistantToChaos
+|stat_text                        = +60% to [[Chaos Resistance]] (Hidden)
+|stat1_id                         = base_chaos_damage_resistance_%
+|stat1_min                        = 60
+|stat1_max                        = 60
+|stat2_id                         = self_wither_duration_+%
+|stat2_min                        = -80
+|stat2_max                        = -80
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 3000
+}}

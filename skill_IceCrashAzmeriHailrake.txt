@@ -1,0 +1,30 @@
+{{Skill
+|gem_description                         = Slam the ground, damaging enemies in an area around the impact in three stages of increasing size. Enemies take slightly less damage on the second and third stage, and can only be hit by one stage. Works with Swords, Maces, Sceptres, Axes, Staves and Unarmed.
+|active_skill_name                       = Ice Crash
+|item_class_id_restriction               = One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Unarmed, Warstaff
+|skill_id                                = IceCrashAzmeriHailrake
+|cast_time                               = 1.0
+|required_level                          = 0
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_physical_damage_%_to_convert_to_cold
+|static_stat2_value                      = 50
+|static_stat3_id                         = active_skill_attack_speed_+%_final
+|static_stat3_value                      = -66
+|static_stat4_id                         = ice_crash_second_hit_damage_+%_final
+|static_stat4_value                      = -15
+|static_stat5_id                         = ice_crash_third_hit_damage_+%_final
+|static_stat5_value                      = -30
+|static_stat6_id                         = active_skill_base_area_of_effect_radius
+|static_stat6_value                      = 11
+|static_stat7_id                         = active_skill_base_secondary_area_of_effect_radius
+|static_stat7_value                      = 21
+|static_stat8_id                         = active_skill_base_tertiary_area_of_effect_radius
+|static_stat8_value                      = 31
+|stat_text                               = 50% of Physical Damage Converted to Cold Damage<br>66% less Attack Speed<br>Second Stage deals 15% less Damage<br>Third Stage deals 30% less Damage<br>Base radius is 1.1 metres<br>Base secondary radius is 2.1 metres<br>Base tertiary radius is 3.1 metres
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

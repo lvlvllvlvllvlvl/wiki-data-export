@@ -1,0 +1,25 @@
+{{Mod
+|id                               = AbyssAddedChaosSuffixJewel3
+|mod_groups                       = AddedChaosSuffix
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 64
+|name                             = of Sin
+|mod_type                         = AddedChaosSuffix
+|stat_text                        = Adds (10-11) to (18-21) [[Chaos Damage]] to [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_chaos_damage
+|stat1_min                        = 10
+|stat1_max                        = 11
+|stat2_id                         = attack_maximum_added_chaos_damage
+|stat2_min                        = 18
+|stat2_max                        = 21
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 375
+|spawn_weight2_tag                = abyss_jewel_ranged
+|spawn_weight2_value              = 375
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = chaos_damage, damage, chaos, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

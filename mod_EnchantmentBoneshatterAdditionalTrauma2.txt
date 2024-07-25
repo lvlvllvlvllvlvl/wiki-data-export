@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentBoneshatterAdditionalTrauma2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Boneshatter Chance for Additional Trauma 2
+|mod_type                         = EnchantmentBoneshatterAdditionalTrauma
+|stat_text                        = Boneshatter has 24% chance to grant +1 Trauma
+|stat1_id                         = boneshatter_chance_to_gain_+1_trauma
+|stat1_min                        = 24
+|stat1_max                        = 24
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmCriticalStrikeDamageCannotBeReflected
+|mod_groups                       = AnimalCharmCriticalStrikeDamageCannotBeReflected
+|domain                           = 35
+|generation_type                  = 2
+|required_level                   = 45
+|name                             = of the Assassin
+|mod_type                         = AnimalCharmCriticalStrikeDamageCannotBeReflected
+|stat_text                        = Damage from your [[Critical strike|Critical Strikes]] cannot be Reflected
+|stat1_id                         = critical_strike_damage_cannot_be_reflected
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = dex_animal_charm
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

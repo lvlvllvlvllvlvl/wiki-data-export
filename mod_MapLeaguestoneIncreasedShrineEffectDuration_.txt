@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MapLeaguestoneIncreasedShrineEffectDuration_
+|mod_groups                       = MapLeaguestoneIncreasedShrineEffectDuration
+|domain                           = 12
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Protraction
+|mod_type                         = MapLeaguestoneIncreasedShrineEffectDuration
+|stat_text                        = 75% increased Duration of Shrine Effects on Players in next Area
+|stat1_id                         = map_player_shrine_effect_duration_+%
+|stat1_min                        = 75
+|stat1_max                        = 75
+|spawn_weight1_tag                = domination_leaguestone
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

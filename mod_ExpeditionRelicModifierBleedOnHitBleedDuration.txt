@@ -1,0 +1,17 @@
+{{Mod
+|id                               = ExpeditionRelicModifierBleedOnHitBleedDuration
+|mod_groups                       = ExpeditionRelicModifierBleedOnHitBleedDuration
+|domain                           = 27
+|generation_type                  = 1
+|required_level                   = 12
+|mod_type                         = ExpeditionRelicModifierBleedOnHitBleedDuration
+|stat_text                        = [[Attack|Attacks]] cause Bleeding<br>100% increased Bleeding Duration
+|stat1_id                         = global_bleed_on_hit
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = base_bleed_duration_+%
+|stat2_min                        = 100
+|stat2_max                        = 100
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+}}

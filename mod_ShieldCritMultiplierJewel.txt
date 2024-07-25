@@ -1,0 +1,17 @@
+{{Mod
+|id                               = ShieldCritMultiplierJewel
+|mod_groups                       = MeleeTypeCritMultiplier
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|mod_type                         = ShieldCritMultiplierForJewel
+|stat_text                        = +(6-8)% to Melee [[Critical Strike Multiplier]] while holding a [[Shield]]
+|stat1_id                         = melee_critical_strike_multiplier_+_while_wielding_shield
+|stat1_min                        = 6
+|stat1_max                        = 8
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = damage, attack, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

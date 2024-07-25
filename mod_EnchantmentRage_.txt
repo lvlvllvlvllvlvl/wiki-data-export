@@ -1,0 +1,19 @@
+{{Mod
+|id                               = EnchantmentRage_
+|mod_groups                       = BuffEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 83
+|mod_type                         = EnchantmentRage
+|stat_text                        = Recover 2% of [[Life]] when you [[Kill]] an Enemy while you have Rage
+|stat1_id                         = recover_%_maximum_life_on_killing_enemy_while_you_have_rage
+|stat1_min                        = 2
+|stat1_max                        = 2
+|spawn_weight1_tag                = belt
+|spawn_weight1_value              = 1
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

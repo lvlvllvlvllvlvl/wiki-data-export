@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Volcanic Fissure
 |class_id                                = Active Skill Gem
@@ -8,6 +8,7 @@
 |tags                                    = gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVolcanicFissure
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|vaal_variant_id                         = Metadata/Items/Gems/SkillGemVaalVolcanicFissure
 |strength_percent                        = 100
 |gem_tags                                = Melee, Attack, Projectile, AoE, Slam, Fire
 |gem_description                         = Slam the ground, creating a winding fissure that deals area damage while travelling outwards. When it reaches the target location it erupts, releasing a burst of molten projectiles. Requires an Axe, Mace, Sceptre, Staff or Unarmed.
@@ -16,14 +17,11 @@
 |skill_id                                = VolcanicFissure
 |cast_time                               = 1.0
 |required_level                          = 12
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Fire Damage
-|quality_type1_stat1_id                  = fire_damage_+%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Fires an additional Projectile
-|quality_type2_stat1_id                  = number_of_additional_projectiles
-|quality_type2_stat1_value               = 50
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Fires +(0.1-2) Projectiles
+|quality_type1_breakpoints               = 10.0
+|quality_type1_stat1_id                  = base_number_of_projectiles
+|quality_type1_stat1_value               = 100
 |static_cost_amounts                     = 8
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 80
@@ -33,13 +31,17 @@
 |static_stat2_value                      = 1
 |static_stat3_id                         = show_number_of_projectiles
 |static_stat3_value                      = 1
-|static_stat4_id                         = number_of_additional_projectiles
-|static_stat4_value                      = 4
-|static_stat5_id                         = skill_physical_damage_%_to_convert_to_fire
-|static_stat5_value                      = 60
-|static_stat6_id                         = active_skill_hit_ailment_damage_with_projectile_+%_final
-|static_stat6_value                      = -50
-|stat_text                               = Fires 4 additional Projectiles<br>60% of Physical Damage Converted to Fire Damage<br>Projectiles deal 50% less Damage with Hits and Ailments
+|static_stat4_id                         = base_number_of_projectiles
+|static_stat4_value                      = 5
+|static_stat5_id                         = quality_display_base_number_of_projectiles_is_gem
+|static_stat5_value                      = 1
+|static_stat6_id                         = quality_display_base_number_of_projectiles_is_gem
+|static_stat6_value                      = 1
+|static_stat7_id                         = skill_physical_damage_%_to_convert_to_fire
+|static_stat7_value                      = 60
+|static_stat8_id                         = active_skill_hit_ailment_damage_with_projectile_+%_final
+|static_stat8_value                      = -50
+|stat_text                               = Fires 5 Projectiles<br>60% of Physical Damage Converted to Fire Damage<br>Projectiles deal 50% less Damage with Hits and Ailments
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_damage_effectiveness             = 130

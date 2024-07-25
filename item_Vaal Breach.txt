@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vaal Breach
 |class_id                                = Active Skill Gem
@@ -8,17 +8,19 @@
 |tags                                    = level_capped_gem, vaal_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalPortal
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |strength_percent                        = 33
 |dexterity_percent                       = 33
 |intelligence_percent                    = 34
 |gem_tags                                = Spell, Vaal
+|secondary_skill_id                      = Portal
 |gem_description                         = Creates a breach, making you vulnerable to its powerful inhabitants.
 |active_skill_name                       = Vaal Breach
 |skill_id                                = VaalBreach
 |cast_time                               = 2.5
 |required_level                          = 10
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 3% increased Cast Speed
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (3-60)% increased Cast Speed
 |quality_type1_stat1_id                  = base_cast_speed_+%
 |quality_type1_stat1_value               = 3000
 |static_vaal_souls_requirement           = 100

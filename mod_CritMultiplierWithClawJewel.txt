@@ -1,0 +1,24 @@
+{{Mod
+|id                               = CritMultiplierWithClawJewel
+|mod_groups                       = SpecificWeaponCritMultiplier
+|domain                           = 10
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = of the Bear FIX ME
+|mod_type                         = CritMultiplierWithClawForJewel
+|stat_text                        = +(8-10)% to [[Critical Strike Multiplier]] with [[Claw|Claws]]
+|stat1_id                         = claw_critical_strike_multiplier_+
+|stat1_min                        = 8
+|stat1_max                        = 10
+|spawn_weight1_tag                = claw
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = specific_weapon
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = not_dex
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = damage, attack, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

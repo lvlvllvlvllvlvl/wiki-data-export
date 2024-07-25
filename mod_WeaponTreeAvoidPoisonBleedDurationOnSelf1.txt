@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeAvoidPoisonBleedDurationOnSelf1
+|mod_groups                       = WeaponTreeAvoidPoisonBleedDurationOnSelf
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 12
+|mod_type                         = WeaponTreeAvoidPoisonBleedDurationOnSelf
+|stat_text                        = 60% chance to Avoid being [[Poison|Poisoned]]<br>50% increased Bleed Duration on you
+|stat1_id                         = base_avoid_poison_%
+|stat1_min                        = 60
+|stat1_max                        = 60
+|stat2_id                         = self_bleed_duration_+%
+|stat2_min                        = 50
+|stat2_max                        = 50
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 750
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

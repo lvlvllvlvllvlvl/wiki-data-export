@@ -1,0 +1,23 @@
+{{Mod
+|id                               = PoisonDamageAndDurationInfluence3__
+|mod_groups                       = PoisonDamage
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of the Hunt
+|mod_type                         = PoisonDamageAndDuration
+|stat_text                        = (18-22)% increased Damage with [[Poison]]<br>(9-10)% increased [[Poison]] Duration
+|stat1_id                         = base_poison_damage_+%
+|stat1_min                        = 18
+|stat1_max                        = 22
+|stat2_id                         = base_poison_duration_+%
+|stat2_min                        = 9
+|stat2_max                        = 10
+|spawn_weight1_tag                = ring_basilisk
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = chaos_damage, poison, damage, chaos, ailment
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialChanceToIgnite
+|mod_groups                       = ChanceToIgnite
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Ignition
+|mod_type                         = ChanceToIgnite
+|stat_text                        = (20-30)% chance to [[Ignite]]
+|stat1_id                         = base_chance_to_ignite_%
+|stat1_min                        = 20
+|stat1_max                        = 30
+|spawn_weight1_tag                = str_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = elemental, fire, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

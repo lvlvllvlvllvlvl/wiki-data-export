@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Simulacrum
 |class_id                                = MapFragment
@@ -8,6 +8,8 @@
 |drop_level                              = 75
 |tags                                    = affliction_splinter, default
 |metadata_id                             = Metadata/Items/MapFragments/CurrencyAfflictionFragment
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = AfflictionFragmentImplicit
+|help_text                               = Open a Delirium portal by using this item in a personal Map Device. Can only be used once.
+|stack_size                              = 1
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = AfflictionFragmentImplicit
 }}

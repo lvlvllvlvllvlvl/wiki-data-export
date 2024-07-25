@@ -1,0 +1,22 @@
+{{Mod
+|id                               = WeaponTreeAddedColdLowAttackSpeed1
+|mod_groups                       = ColdDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 10
+|mod_type                         = WeaponTreeLocalColdDamageAndAttackSpeed
+|stat_text                        = Adds 1 to 5 [[Cold Damage]]<br>4% increased [[Attack Speed]]
+|stat1_id                         = local_minimum_added_cold_damage
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_maximum_added_cold_damage
+|stat2_min                        = 5
+|stat2_max                        = 5
+|stat3_id                         = local_attack_speed_+%
+|stat3_min                        = 4
+|stat3_max                        = 4
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

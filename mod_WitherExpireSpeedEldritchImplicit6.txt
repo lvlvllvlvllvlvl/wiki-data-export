@@ -1,0 +1,18 @@
+{{Mod
+|id                               = WitherExpireSpeedEldritchImplicit6
+|mod_groups                       = WitherOnHitChance
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|mod_type                         = WitherExpireSpeed
+|stat_text                        = Withered you Inflict expires (24-23)% slower
+|stat1_id                         = wither_expire_speed_+%
+|stat1_min                        = -24
+|stat1_max                        = -23
+|spawn_weight1_tag                = no_tier_1_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = gloves
+|spawn_weight2_value              = 700
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

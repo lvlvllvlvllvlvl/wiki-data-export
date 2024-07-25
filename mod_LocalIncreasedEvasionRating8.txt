@@ -1,0 +1,26 @@
+{{Mod
+|id                               = LocalIncreasedEvasionRating8
+|mod_groups                       = BaseLocalDefences
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 51
+|name                             = Elusory
+|mod_type                         = LocalEvasionRating
+|stat_text                        = +(151-200) to [[Evasion Rating]]
+|stat1_id                         = local_base_evasion_rating
+|stat1_min                        = 151
+|stat1_max                        = 200
+|spawn_weight1_tag                = gloves
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = boots
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = dex_armour
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = str_dex_int_armour
+|spawn_weight4_value              = 166
+|spawn_weight5_tag                = default
+|spawn_weight5_value              = 0
+|tags                             = defences, evasion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

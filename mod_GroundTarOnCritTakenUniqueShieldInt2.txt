@@ -1,0 +1,21 @@
+{{Mod
+|id                               = GroundTarOnCritTakenUniqueShieldInt2
+|mod_groups                       = GroundTarOnCritTaken
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = GroundTarOnCritTaken
+|stat_text                        = Spreads Tar when you take a [[Critical Strike]]<br>Tar lasts 4.5 seconds (Hidden)<br>When hit by a Critical Strike, creates patches of Tar reducing Movement Speed by 50% (Hidden)
+|stat1_id                         = ground_tar_on_take_crit_base_area_of_effect_radius
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = ground_tar_on_take_crit_duration_ms
+|stat2_min                        = 4500
+|stat2_max                        = 4500
+|stat3_id                         = ground_tar_on_take_crit_monvement_speed_pluspercent
+|stat3_min                        = -50
+|stat3_max                        = -50
+|tags                             = speed
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

@@ -647,6 +647,12 @@ local data = {	{
 		monster = "Craiceann, First of the Deep", 
 	},
 	{
+		id = "Morrigan", 
+		min_level = 0, 
+		monster = "The Black Mórrigan", 
+		rarity = "Unique", 
+	},
+	{
 		id = "Rhoa", 
 		min_level = 0, 
 		genus = "Rhoas", 

@@ -1,0 +1,21 @@
+{{Mod
+|id                               = SpellDamageOnWeaponEnhancedMod
+|mod_groups                       = WeaponCasterDamagePrefix
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Tacati's
+|mod_type                         = WeaponSpellDamageAddedAsChaos
+|stat_text                        = (70-74)% increased [[Spell Damage]]<br>Gain 5% of Non-Chaos Damage as extra [[Chaos Damage]]
+|stat1_id                         = spell_damage_+%
+|stat1_min                        = 70
+|stat1_max                        = 74
+|stat2_id                         = non_chaos_damage_to_add_as_chaos_damage_%
+|stat2_min                        = 5
+|stat2_max                        = 5
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = caster_damage, chaos_damage, damage, chaos, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

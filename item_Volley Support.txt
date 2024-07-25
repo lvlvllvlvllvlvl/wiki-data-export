@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Volley Support
 |class_id                                = Support Skill Gem
@@ -7,24 +7,17 @@
 |drop_level                              = 5
 |tags                                    = up_to_level_8_gem, support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemParallelProjectiles
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |dexterity_percent                       = 100
 |gem_tags                                = Support, Projectile
 |skill_id                                = SupportParallelProjectiles
 |support_gem_letter                      = =
 |required_level                          = 4
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills deal 1% increased Projectile Damage
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills deal (0.5-10)% increased Projectile Damage
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = projectile_damage_+%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% increased distance between Firing Points
-|quality_type2_stat1_id                  = parallel_projectile_firing_point_x_dist_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = Supported Skills have 0.5% increased Area of Effect
-|quality_type3_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type3_stat1_value               = 500
+|quality_type1_stat1_value               = 500
 |static_cost_multiplier                  = 130
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
@@ -230,7 +223,7 @@
 |level40_stat_text                       = Supported Skills deal 5% more Projectile Damage
 |level40_stat1_id                        = support_parallel_projectiles_damage_+%_final
 |level40_stat1_value                     = 5
-|gem_description                         = Supports skills that fire projectiles from the user. Does not affect projectiles fired from other locations as secondary effects.
+|gem_description                         = Supports skills that fire projectiles from the user. Does not affect projectiles fired from other locations as secondary effects. Does not support skills that fire projectiles in a spiral.
 |level1_dexterity_requirement            = 0
 |level1_experience                       = 0
 |level2_dexterity_requirement            = 15
@@ -272,5 +265,4 @@
 |level20_dexterity_requirement           = 111
 |level20_experience                      = 342050139
 |level21_dexterity_requirement           = 114
-|inventory_icon                          = Volley Support
 }}

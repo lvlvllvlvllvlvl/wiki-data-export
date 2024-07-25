@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmStunImmuneWhileFortified
+|mod_groups                       = AnimalCharmStunImmuneWhileFortified
+|domain                           = 35
+|generation_type                  = 2
+|required_level                   = 70
+|name                             = of the Champion
+|mod_type                         = AnimalCharmStunImmuneWhileFortified
+|stat_text                        = Cannot be Stunned while Fortified
+|stat1_id                         = cannot_be_stunned_while_fortified
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = dex_animal_charm
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = str_animal_charm
+|spawn_weight2_value              = 50
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

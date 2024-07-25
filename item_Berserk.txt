@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Berserk
 |class_id                                = Active Skill Gem
@@ -15,28 +15,21 @@
 |skill_id                                = Berserk
 |cast_time                               = 0.0
 |required_level                          = 34
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Attack Damage
-|quality_type1_stat1_id                  = attack_damage_+%
-|quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 0.5% increased Cooldown Recovery Rate
-|quality_type2_stat1_id                  = base_cooldown_speed_+%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 20
-|quality_type3_stat_text                 = Buff grants 0.25% more Spell Damage
-|quality_type3_stat1_id                  = berserk_spell_damage_+%_final
-|quality_type3_stat1_value               = 250
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.5-10)% increased Cooldown Recovery Rate
+|quality_type1_breakpoints               = 2.0
+|quality_type1_stat1_id                  = base_cooldown_speed_+%
+|quality_type1_stat1_value               = 500
 |static_cost_types                       = Mana
 |static_stored_uses                      = 1
 |static_cooldown                         = 5
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
-|static_stat1_id                         = base_deal_no_damage
-|static_stat1_value                      = 1
-|static_stat2_id                         = base_actor_scale_+%
-|static_stat2_value                      = 25
+|static_stat1_id                         = base_actor_scale_+%
+|static_stat1_value                      = 25
+|static_stat2_id                         = base_deal_no_damage
+|static_stat2_value                      = 1
 |static_stat3_id                         = berserk_base_rage_loss_per_second
 |static_stat3_value                      = 5
 |static_stat4_id                         = berserk_minimum_rage
@@ -45,7 +38,7 @@
 |static_stat5_value                      = 20
 |static_stat6_id                         = display_this_skill_cooldown_does_not_recover_during_buff
 |static_stat6_value                      = 1
-|stat_text                               = 25% increased Character Size<br>Lose 5 Rage per second<br>At least 5 Rage required to start Berserking<br>(15-20)% more Damage with Attacks<br>(15-20)% more Attack Speed<br>(25-30)% more Movement Speed<br>(15-19)% less Damage taken<br>Each second, 20% more Rage loss Rate<br>This Skill's Cooldown does not recover during its effect
+|stat_text                               = Lose 5 Rage per second<br>At least 5 Rage required to start Berserking<br>(15-20)% more Damage with Attacks<br>(15-20)% more Attack Speed<br>(25-30)% more Movement Speed<br>(15-19)% less Damage taken<br>Each second, 20% more Rage loss Rate<br>This Skill's Cooldown does not recover during its effect
 |level1                                  = True
 |level1_level_requirement                = 34
 |level1_cost_amounts                     = 10

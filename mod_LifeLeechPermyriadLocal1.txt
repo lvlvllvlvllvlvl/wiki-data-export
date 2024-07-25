@@ -1,0 +1,26 @@
+{{Mod
+|id                               = LifeLeechPermyriadLocal1
+|mod_groups                       = LifeLeech
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 50
+|name                             = Remora's
+|mod_type                         = LifeLeechLocalPermyriad
+|stat_text                        = (0.2-0.4)% of Physical [[Attack Damage]] Leeched as [[Life]]
+|stat1_id                         = local_life_leech_from_physical_damage_permyriad
+|stat1_min                        = 20
+|stat1_max                        = 40
+|spawn_weight1_tag                = weapon
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|generation_weight1_tag           = has_attack_mod
+|generation_weight1_value         = 100
+|generation_weight2_tag           = has_caster_mod
+|generation_weight2_value         = 65
+|generation_weight3_tag           = default
+|generation_weight3_value         = 100
+|tags                             = resource, life, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

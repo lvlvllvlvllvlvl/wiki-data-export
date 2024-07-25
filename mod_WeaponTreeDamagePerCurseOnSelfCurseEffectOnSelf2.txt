@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeDamagePerCurseOnSelfCurseEffectOnSelf2
+|mod_groups                       = WeaponTreeDamagePerCurseOnSelfCurseEffectOnSelf
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 73
+|mod_type                         = WeaponTreeDamagePerCurseOnSelfCurseEffectOnSelf
+|stat_text                        = 15% increased Damage per [[Curse]] on you<br>25% increased Effect of [[Curse|Curses]] on you
+|stat1_id                         = damage_+%_per_active_curse_on_self
+|stat1_min                        = 15
+|stat1_max                        = 15
+|stat2_id                         = curse_effect_on_self_+%
+|stat2_min                        = 25
+|stat2_max                        = 25
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

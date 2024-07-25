@@ -1,0 +1,37 @@
+{{Mod
+|id                               = WeaponTreeSkillBlightWither
+|mod_groups                       = WeaponTreeSkillBlightWither
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 1
+|mod_type                         = WeaponTreeSkillBlightWither
+|stat_text                        = [[Blight]] has 50% increased Area of Effect per second you have been Channelling, up to a maximum of 200%<br>[[Wither]] has 50% increased Area of Effect per second you have been Channelling, up to a maximum of 200%
+|stat1_id                         = blight_area_of_effect_+%_every_second_while_channelling_up_to_+200%
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = wither_area_of_effect_+%_every_second_while_channelling_up_to_+200%
+|stat2_min                        = 50
+|stat2_max                        = 50
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = caster_unique_weapon
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = attack_staff
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = attack_dagger
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = weapon_can_roll_minion_modifiers
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = wand
+|spawn_weight6_value              = 1000
+|spawn_weight7_tag                = staff
+|spawn_weight7_value              = 1000
+|spawn_weight8_tag                = dagger
+|spawn_weight8_value              = 1000
+|spawn_weight9_tag                = sceptre
+|spawn_weight9_value              = 1000
+|spawn_weight10_tag               = shield
+|spawn_weight10_value             = 500
+|spawn_weight11_tag               = default
+|spawn_weight11_value             = 0
+}}

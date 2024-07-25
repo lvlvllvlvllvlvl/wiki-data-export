@@ -5,14 +5,8 @@
 |ascendancy_class                    = Chieftain
 |is_notable                          = True
 |icon                                = ValakoStormsEmbrace (Chieftain)
-|stat1_id                            = max_endurance_charges
+|stat1_id                            = modifiers_to_maximum_fire_resistance_apply_to_maximum_cold_and_lightning_resistance
 |stat1_value                         = 1
-|stat2_id                            = life_regeneration_rate_per_minute_%_per_endurance_charge
-|stat2_value                         = 30
-|stat3_id                            = damage_+%_final_if_lost_endurance_charge_in_past_8_seconds
-|stat3_value                         = 15
-|stat4_id                            = gain_endurance_charge_per_second_if_have_used_warcry_recently
-|stat4_value                         = 1
-|stat_text                           = +1 to Maximum [[Endurance Charge|Endurance Charges]]<br>Regenerate 0.5% of [[Life]] per second per [[Endurance Charge]]<br>15% more Damage if you've lost an [[Endurance Charge]] in the past 8 seconds<br>Gain 1 [[Endurance Charge]] every second if you've used a Warcry [[Recently]]
-|connections                         = AscendancyChieftan1
+|stat_text                           = Modifiers to Maximum [[Fire Resistance]] also apply to Maximum Cold and [[Lightning Resistance|Lightning Resistances]]
+|connections                         = AscendancyChieftan2
 }}

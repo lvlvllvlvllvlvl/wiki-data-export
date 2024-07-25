@@ -1,0 +1,24 @@
+{{Mod
+|id                               = LocalAddedLightningDamageEnhancedLevel50Mod
+|mod_groups                       = LightningDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 50
+|name                             = Topotante's
+|mod_type                         = LocalLightningDamageAndPen
+|stat_text                        = Adds (4-13) to (158-166) [[Lightning Damage]]<br>[[Attack|Attacks]] with this Weapon Penetrate (5-7)% [[Lightning Resistance]]
+|stat1_id                         = local_minimum_added_lightning_damage
+|stat1_min                        = 4
+|stat1_max                        = 13
+|stat2_id                         = local_maximum_added_lightning_damage
+|stat2_min                        = 158
+|stat2_max                        = 166
+|stat3_id                         = local_lightning_penetration_%
+|stat3_min                        = 5
+|stat3_max                        = 7
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, lightning, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

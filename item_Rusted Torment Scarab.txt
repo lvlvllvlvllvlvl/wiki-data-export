@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Rusted Torment Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = Young Tsarsk, you were a broken and forgotten child lying glassy-eyed<br>in a flesh-pit in Trarthus, but the Order found and cleansed you.
 |drop_level                              = 68
-|tags                                    = rusted_scarab, default
+|tags                                    = scarab, torment_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabTorment1
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabTorment1
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = Area is haunted by 3 additional Tormented Spirits
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabTorment1
 }}

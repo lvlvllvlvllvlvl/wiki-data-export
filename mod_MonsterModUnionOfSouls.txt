@@ -1,0 +1,22 @@
+{{Mod
+|id                               = MonsterModUnionOfSouls
+|mod_groups                       = MonsterModUnionOfSouls
+|domain                           = 3
+|generation_type                  = 1
+|required_level                   = 24
+|name                             = Empowering
+|mod_type                         = MonsterModUnionOfSouls
+|stat_text                        = Grants 10% increased Character Size to Pack Members on death (Hidden)<br>Grants 40% increased Maximum Life to Pack Members on death (Hidden)
+|stat1_id                         = actor_scale_+%_granted_to_pack_members_on_death
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = maximum_life_+%_granted_to_pack_members_on_death
+|stat2_min                        = 40
+|stat2_max                        = 40
+|spawn_weight1_tag                = not_part_of_pack
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = rare
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 1000
+}}

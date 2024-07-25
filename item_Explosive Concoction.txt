@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Explosive Concoction
 |class_id                                = Active Skill Gem
@@ -16,18 +16,11 @@
 |skill_id                                = ExplosiveConcoction
 |cast_time                               = 1.0
 |required_level                          = 28
-|quality_type1_weight                    = 100
-|quality_type1_stat_text                 = 0.5% increased Area of Effect
-|quality_type1_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = 1% increased Duration of Elemental Ailments on Enemies
-|quality_type2_stat1_id                  = base_elemental_status_ailment_duration_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = 1.5% increased Critical Strike Chance
-|quality_type3_stat1_id                  = critical_strike_chance_+%
-|quality_type3_stat1_value               = 1500
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.75-15)% reduced Flask Charges used
+|quality_type1_breakpoints               = 1.3333333333333333
+|quality_type1_stat1_id                  = flask_charges_used_+%
+|quality_type1_stat1_value               = -750
 |static_cost_types                       = Mana
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
@@ -42,9 +35,11 @@
 |static_stat4_value                      = 1
 |static_stat5_id                         = additional_base_critical_strike_chance
 |static_stat5_value                      = 600
-|static_stat6_id                         = flask_throw_charges_used_per_projectile
-|static_stat6_value                      = 1
-|stat_text                               = (96-1003) to (145-1505) Added Fire Damage<br>+6% to Critical Strike Chance<br>Can consume Charges from Ruby, Sapphire, and Topaz Flasks<br>Consumes 1 Charge per Projectile Fired from 1 Flask of each valid type, if possible<br>Deals (37-389) to (57-589) Added Cold Damage if Charges were consumed from a Sapphire Flask<br>Deals (8-88) to (87-903) Added Lightning Damage if Charges were consumed from a Topaz Flask<br>+(60-98)% to Damage over Time Multiplier with Ignite if Charges were consumed from a Ruby Flask
+|static_stat6_id                         = active_skill_base_area_of_effect_radius
+|static_stat6_value                      = 18
+|static_stat7_id                         = flask_throw_charges_used_per_projectile
+|static_stat7_value                      = 1
+|stat_text                               = (96-1003) to (145-1505) Added Fire Damage<br>+6% to Critical Strike Chance<br>Base radius is 1.8 metres<br>Can consume Charges from Ruby, Sapphire, and Topaz Flasks<br>Consumes 1 Charge per Projectile Fired from 1 Flask of each valid type, if possible<br>Deals (37-389) to (57-589) Added Cold Damage if Charges were consumed from a Sapphire Flask<br>Deals (8-88) to (87-903) Added Lightning Damage if Charges were consumed from a Topaz Flask<br>+(60-98)% to Damage over Time Multiplier with Ignite if Charges were consumed from a Ruby Flask
 |level1                                  = True
 |level1_level_requirement                = 28
 |level1_cost_amounts                     = 7

@@ -1,0 +1,16 @@
+{{Mod
+|id                               = WeaponEnchantmentHeistCasterDamageEffectAttributeRequirement1_
+|mod_groups                       = EnchantmentHeistWeapon
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 20
+|name                             = Enchantment Caster Damage Modifier Effect and Attribute Requirement
+|mod_type                         = WeaponEnchantmentHeistCasterDamageModifierEffectAttributeRequirement
+|stat_text                        = 6% increased Explicit Caster Damage Modifier magnitudes<br>25% reduced Attribute Requirements
+|stat1_id                         = heist_enchantment_casterdamage_mod_effect_+%
+|stat1_min                        = 6
+|stat1_max                        = 6
+|stat2_id                         = local_attribute_requirements_+%
+|stat2_min                        = -25
+|stat2_max                        = -25
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SanctumSpecialGlobalCooldownRecovery
+|mod_groups                       = CooldownRecovery
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 82
+|name                             = of Alacrity
+|mod_type                         = GlobalCooldownRecovery
+|stat_text                        = (8-12)% increased Cooldown Recovery Rate
+|stat1_id                         = base_cooldown_speed_+%
+|stat1_min                        = 8
+|stat1_max                        = 12
+|spawn_weight1_tag                = dex_special_relic
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 50
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

@@ -1,0 +1,23 @@
+{{Mod
+|id                               = AddedLightningDamageQuiver4
+|mod_groups                       = LightningDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 28
+|name                             = Crackling
+|mod_type                         = LightningDamage
+|stat_text                        = Adds (2-3) to (35-40) [[Lightning Damage]] to [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_lightning_damage
+|stat1_min                        = 2
+|stat1_max                        = 3
+|stat2_id                         = attack_maximum_added_lightning_damage
+|stat2_min                        = 35
+|stat2_max                        = 40
+|spawn_weight1_tag                = quiver
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, lightning, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

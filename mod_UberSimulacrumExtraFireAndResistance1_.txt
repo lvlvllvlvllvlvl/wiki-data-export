@@ -1,0 +1,16 @@
+{{Mod
+|id                               = UberSimulacrumExtraFireAndResistance1_
+|mod_groups                       = MapSimulacrumMonsterElements
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSimulacrumExtraFireAndResistance
+|stat_text                        = Monsters deal (101-110)% extra [[Physical Damage]] as Fire<br>+(51-80)% Monster [[Fire Resistance]]
+|stat1_id                         = map_monsters_%_physical_damage_to_add_as_fire
+|stat1_min                        = 101
+|stat1_max                        = 110
+|stat2_id                         = map_monsters_additional_fire_resistance
+|stat2_min                        = 51
+|stat2_max                        = 80
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, fire, resistance
+}}

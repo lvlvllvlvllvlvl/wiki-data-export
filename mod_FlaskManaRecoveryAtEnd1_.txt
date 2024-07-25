@@ -1,0 +1,25 @@
+{{Mod
+|id                               = FlaskManaRecoveryAtEnd1_
+|mod_groups                       = FlaskManaRecoveryAtEnd
+|domain                           = 2
+|generation_type                  = 1
+|required_level                   = 16
+|name                             = Foreboding
+|mod_type                         = FlaskManaRecoveryAtEnd
+|stat_text                        = [[Mana]] Recovery occurs instantly at the end of Effect<br>66% increased Amount Recovered
+|stat1_id                         = local_flask_mana_recovery_occurs_instantly_at_end_of_flask_effect
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_flask_amount_to_recover_+%
+|stat2_min                        = 66
+|stat2_max                        = 66
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = life_flask
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 3000
+|tags                             = flask, resource, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

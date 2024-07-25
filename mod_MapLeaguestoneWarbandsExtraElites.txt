@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MapLeaguestoneWarbandsExtraElites
+|mod_groups                       = MapLeaguestoneWarbandsExtraElites
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 41
+|name                             = Lieutenant's
+|mod_type                         = MapLeaguestoneWarbandsExtraElites
+|stat_text                        = Warbands in the next Area will have an additional Elite Member
+|stat1_id                         = map_warbands_packs_have_additional_elites
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = leaguestone_prefix_minimum_area_level
+|stat2_min                        = 41
+|stat2_max                        = 41
+|spawn_weight1_tag                = warbands_leaguestone
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

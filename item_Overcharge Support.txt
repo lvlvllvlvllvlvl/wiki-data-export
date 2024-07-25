@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Overcharge Support
 |class_id                                = Support Skill Gem
@@ -7,24 +7,16 @@
 |drop_level                              = 18
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemOvercharge
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |intelligence_percent                    = 100
 |gem_tags                                = Lightning, Support
 |skill_id                                = SupportOvercharge
 |support_gem_letter                      = Z
 |required_level                          = 18
-|quality_type1_weight                    = 100
-|quality_type1_stat_text                 = Supported Skills have 1.5% increased Shock Duration on Enemies
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills have (1-20)% increased Shock Duration on Enemies
 |quality_type1_stat1_id                  = shock_duration_+%
-|quality_type1_stat1_value               = 1500
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = 1% increased Effect of Shocks inflicted with Critical Strikes from Supported Skills
-|quality_type2_stat1_id                  = shock_effect_+%_with_critical_strikes
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = Supported Skills have 2% increased Critical Strike Chance
-|quality_type3_stat1_id                  = critical_strike_chance_+%
-|quality_type3_stat1_value               = 2000
+|quality_type1_stat1_value               = 1000
 |static_cost_multiplier                  = 120
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

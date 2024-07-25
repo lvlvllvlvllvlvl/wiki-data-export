@@ -1,0 +1,21 @@
+{{Mod
+|id                               = HellscapeUpsideChaosDamageOverTimeMultiplier1h4___
+|mod_groups                       = DamageOverTimeMultiplier
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = ChaosDamageOverTimeMultiplier
+|stat_text                        = +(14-16)% to [[Chaos Damage]] over Time Multiplier
+|stat1_id                         = chaos_dot_multiplier_+
+|stat1_min                        = 14
+|stat1_max                        = 16
+|spawn_weight1_tag                = wand
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = sceptre
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = dot_multi, chaos_damage, damage, chaos
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

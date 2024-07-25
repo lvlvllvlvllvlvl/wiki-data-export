@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmAccuracyIfCritInLast8Seconds1
+|mod_groups                       = AnimalCharmAccuracyIfCritInLast8Seconds
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Deadeye's
+|mod_type                         = AnimalCharmAccuracyIfCritInLast8Seconds
+|stat_text                        = (7-13)% increased [[Accuracy Rating]] if you've dealt a [[Critical Strike]] in the past 8 seconds
+|stat1_id                         = accuracy_rating_+%_if_have_crit_in_past_8_seconds
+|stat1_min                        = 7
+|stat1_max                        = 13
+|spawn_weight1_tag                = dex_animal_charm
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

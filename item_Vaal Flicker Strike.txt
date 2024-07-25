@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vaal Flicker Strike
 |class_id                                = Active Skill Gem
@@ -8,18 +8,21 @@
 |tags                                    = vaal_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalFlickerStrike
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |dexterity_percent                       = 100
 |gem_tags                                = Attack, Melee, Strike, Movement, Vaal, Duration
+|secondary_skill_id                      = FlickerStrike
 |gem_description                         = Repeatedly teleports to enemies and hits them, inflicting a wound but dealing no damage. After the repeating finishes, each enemy is hit by the total damage of their wounds, which are removed.
 |active_skill_name                       = Vaal Flicker Strike
 |item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff, Rune Dagger
 |skill_id                                = VaalFlickerStrike
 |cast_time                               = 1.0
 |required_level                          = 10
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.25% chance to gain a Frenzy Charge on Hit
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (0.5-10)% chance to gain a Frenzy Charge on Hit
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = add_frenzy_charge_on_skill_hit_%
-|quality_type1_stat1_value               = 250
+|quality_type1_stat1_value               = 500
 |static_vaal_souls_requirement           = 30
 |static_vaal_stored_uses                 = 1
 |static_vaal_soul_gain_prevention_time   = 6

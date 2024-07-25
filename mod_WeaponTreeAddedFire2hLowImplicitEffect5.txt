@@ -1,0 +1,22 @@
+{{Mod
+|id                               = WeaponTreeAddedFire2hLowImplicitEffect5
+|mod_groups                       = FireDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 84
+|mod_type                         = WeaponTreeLocalFireDamageAndImplicitEffect
+|stat_text                        = Adds 48 to 71 [[Fire Damage]]<br>25% increased Implicit Modifier magnitudes
+|stat1_id                         = local_minimum_added_fire_damage
+|stat1_min                        = 48
+|stat1_max                        = 48
+|stat2_id                         = local_maximum_added_fire_damage
+|stat2_min                        = 71
+|stat2_max                        = 71
+|stat3_id                         = local_implicit_stat_magnitude_+%
+|stat3_min                        = 25
+|stat3_max                        = 25
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 63
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

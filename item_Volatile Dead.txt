@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Volatile Dead
 |class_id                                = Active Skill Gem
@@ -16,18 +16,10 @@
 |skill_id                                = VolatileDead
 |cast_time                               = 0.8
 |required_level                          = 12
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Area of Effect
-|quality_type1_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 1% increased Fire Damage
-|quality_type2_stat1_id                  = fire_damage_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 20
-|quality_type3_stat_text                 = 1% increased Orb Movement Speed
-|quality_type3_stat1_id                  = volatile_dead_core_movement_speed_+%
-|quality_type3_stat1_value               = 1000
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (2-40)% increased Orb Movement Speed
+|quality_type1_stat1_id                  = volatile_dead_core_movement_speed_+%
+|quality_type1_stat1_value               = 2000
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 5
 |static_damage_effectiveness             = 170
@@ -39,9 +31,15 @@
 |static_stat2_value                      = 1
 |static_stat3_id                         = volatile_dead_base_number_of_corpses_to_consume
 |static_stat3_value                      = 3
-|static_stat4_id                         = volatile_dead_max_cores_allowed
-|static_stat4_value                      = 60
-|stat_text                               = Deals (20-753) to (30-1129) Fire Damage<br>Explosion deals base Fire Damage equal to (3-4)% of the corpse's Maximum Life<br>Consumes up to 3 corpses<br>Maximum of 60 Orbs at a time
+|static_stat4_id                         = active_skill_base_area_of_effect_radius
+|static_stat4_value                      = 20
+|static_stat5_id                         = active_skill_secondary_area_of_effect_description_mode
+|static_stat5_value                      = 1
+|static_stat6_id                         = active_skill_base_secondary_area_of_effect_radius
+|static_stat6_value                      = 15
+|static_stat7_id                         = volatile_dead_max_cores_allowed
+|static_stat7_value                      = 60
+|stat_text                               = Deals (20-753) to (30-1129) Fire Damage<br>Explosion deals base Fire Damage equal to (3-4)% of the corpse's Maximum Life<br>Consumes up to 3 corpses<br>Base radius is 2 metres<br>Base explosion radius is 1.5 metres<br>Maximum of 60 Orbs at a time
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_cost_amounts                     = 9

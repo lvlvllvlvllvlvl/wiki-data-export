@@ -1,0 +1,19 @@
+{{Mod
+|id                               = HellscapeUpsideLocalIncreaseSocketedChaosGemLevel
+|mod_groups                       = IncreaseSpecificSocketedGemLevel
+|domain                           = 1
+|generation_type                  = 24
+|required_level                   = 68
+|mod_type                         = LocalIncreaseSocketedChaosGemLevel
+|stat_text                        = +1 to [[Level]] of [[Item socket|Socketed]] Chaos Gems
+|stat1_id                         = local_socketed_chaos_gem_level_+
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = body_armour
+|spawn_weight1_value              = 25
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = chaos, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

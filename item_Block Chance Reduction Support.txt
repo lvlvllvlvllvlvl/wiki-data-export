@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Block Chance Reduction Support
 |class_id                                = Support Skill Gem
@@ -7,21 +7,18 @@
 |drop_level                              = 18
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemBlockChanceReduction
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |dexterity_percent                       = 60
 |intelligence_percent                    = 40
 |gem_tags                                = Support, Duration
 |skill_id                                = SupportBlockReduction
 |support_gem_letter                      = B
 |required_level                          = 18
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills have 0.25% reduced Enemy Block Chance
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills have (0.25-5)% reduced Enemy Block Chance
+|quality_type1_breakpoints               = 4.0
 |quality_type1_stat1_id                  = global_reduce_enemy_block_%
 |quality_type1_stat1_value               = 250
-|quality_type2_weight                    = 20
-|quality_type2_stat_text                 = Supported Skills have 2% increased Overpowered Effect
-|quality_type2_stat1_id                  = overpowered_effect_+%
-|quality_type2_stat1_value               = 2000
 |static_cost_multiplier                  = 100
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

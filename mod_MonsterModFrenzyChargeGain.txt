@@ -1,0 +1,15 @@
+{{Mod
+|id                               = MonsterModFrenzyChargeGain
+|mod_groups                       = MonsterModFrenzyChargeGain
+|domain                           = 3
+|generation_type                  = 2
+|required_level                   = 24
+|name                             = of Frenzy
+|mod_type                         = MonsterModFrenzyChargeGain
+|stat_text                        = 100% chance to gain a [[Frenzy Charge]] on [[Hit]] (Hidden)
+|stat1_id                         = add_frenzy_charge_on_skill_hit_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 2000
+}}

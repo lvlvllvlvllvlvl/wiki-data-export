@@ -1,0 +1,19 @@
+{{Mod
+|id                               = WeaponTreeIncreasedLifeAndLifeRegen3
+|mod_groups                       = IncreasedLife
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 65
+|mod_type                         = WeaponTreeIncreasedLifeAndLifeRegen
+|stat_text                        = +25 to maximum [[Life]]<br>Regenerate 0.4% of [[Life]] per second
+|stat1_id                         = base_maximum_life
+|stat1_min                        = 25
+|stat1_max                        = 25
+|stat2_id                         = life_regeneration_rate_per_minute_%
+|stat2_min                        = 24
+|stat2_max                        = 24
+|spawn_weight1_tag                = shield
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

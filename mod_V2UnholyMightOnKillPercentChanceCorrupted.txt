@@ -1,0 +1,20 @@
+{{Mod
+|id                               = V2UnholyMightOnKillPercentChanceCorrupted
+|mod_groups                       = UnholyMightOnKillPercentChance
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = UnholyMightOnKillPercentChance
+|stat_text                        = (10-15)% chance to gain Unholy Might for 3 seconds on [[Kill]]
+|stat1_id                         = chance_to_gain_unholy_might_on_kill_for_3_seconds_%
+|stat1_min                        = 10
+|stat1_max                        = 15
+|spawn_weight1_tag                = wand
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = dagger
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

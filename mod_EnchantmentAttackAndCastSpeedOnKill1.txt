@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentAttackAndCastSpeedOnKill1
+|mod_groups                       = ConditionalBuffEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 53
+|name                             = Enchantment Attack and Cast Speed 1
+|mod_type                         = EnchantmentAttackAndCastSpeedOnKill
+|stat_text                        = 8% increased [[Attack]] and [[Cast Speed]] if you've Killed [[Recently]]
+|stat1_id                         = enchantment_boots_attack_and_cast_speed_+%_for_4_seconds_on_kill
+|stat1_min                        = 8
+|stat1_max                        = 8
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, caster, speed
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

@@ -1,0 +1,13 @@
+{{Mod
+|id                               = SynthesisImplicitSpellDamageCorruptedItem2
+|mod_groups                       = LocalCorruptedBonus
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 60
+|mod_type                         = SpellDamageCorruptedItem
+|stat_text                        = (60-70)% increased [[Spell Damage]] if Corrupted
+|stat1_id                         = local_spell_damage_+%_if_item_corrupted
+|stat1_min                        = 60
+|stat1_max                        = 70
+|tags                             = caster_damage, damage, caster
+}}

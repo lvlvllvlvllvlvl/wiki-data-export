@@ -1,0 +1,20 @@
+{{Mod
+|id                               = WeaponTreeSellNodeOrbOfAnnulmentHigh
+|mod_groups                       = WeaponTreeSellNodeOrbOfAnnulment
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 78
+|mod_type                         = WeaponTreeSellNodeOrbOfAnnulmentHigh
+|stat_text                        = Item sells for 3 additional Orbs of Annulment
+|stat1_id                         = weapon_tree_local_sell_price_orb_of_annulment
+|stat1_min                        = 3
+|stat1_max                        = 3
+|spawn_weight1_tag                = minion_unique_weapon
+|spawn_weight1_value              = 24
+|spawn_weight2_tag                = weapon_can_roll_minion_modifiers
+|spawn_weight2_value              = 24
+|spawn_weight3_tag                = shield
+|spawn_weight3_value              = 18
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 14
+}}

@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Detonate Mines
 |class_id                                = Active Skill Gem
@@ -17,14 +17,10 @@
 |skill_id                                = GemDetonateMines
 |cast_time                               = 0.0
 |required_level                          = 8
-|quality_type1_weight                    = 1000
-|quality_type1_stat_text                 = Mines have 1% increased Detonation Speed
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Mines have (1-20)% increased Detonation Speed
 |quality_type1_stat1_id                  = mine_detonation_speed_+%
 |quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 1
-|quality_type2_stat_text                 = Recover 0.01% of Life for each Mine Detonated
-|quality_type2_stat1_id                  = detonate_mines_recover_permyriad_of_life_per_mine_detonated
-|quality_type2_stat1_value               = 1000
 |static_stored_uses                      = 1
 |static_cooldown                         = 0.2
 |static_damage_effectiveness             = 100

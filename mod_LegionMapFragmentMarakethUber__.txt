@@ -1,0 +1,28 @@
+{{Mod
+|id                               = LegionMapFragmentMarakethUber__
+|mod_groups                       = LegionMapFragment
+|domain                           = 14
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = LegionMapFragmentMaraketh2Uber
+|stat_text                        = 10% increased Monster Damage<br>15% more Monster [[Life]]<br>Monsters gain 10% increased [[Attack]] and [[Cast Speed]] each time they are Revived<br>Monsters gain 10% increased [[Movement Speed]] each time they are Revived<br>10% improved Rewards
+|stat1_id                         = map_num_legion_uber_fragments
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_monsters_damage_+%
+|stat2_min                        = 10
+|stat2_max                        = 10
+|stat3_id                         = map_monsters_life_+%
+|stat3_min                        = 15
+|stat3_max                        = 15
+|stat4_id                         = uber_domain_monster_attack_and_cast_speed_+%_per_revival
+|stat4_min                        = 10
+|stat4_max                        = 10
+|stat5_id                         = uber_domain_monster_movement_speed_+%_per_revival
+|stat5_min                        = 10
+|stat5_max                        = 10
+|stat6_id                         = display_legion_uber_fragment_improved_rewards_+%
+|stat6_min                        = 10
+|stat6_max                        = 10
+|tags                             = resource, life, damage
+}}

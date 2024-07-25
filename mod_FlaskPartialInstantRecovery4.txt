@@ -1,0 +1,26 @@
+{{Mod
+|id                               = FlaskPartialInstantRecovery4
+|mod_groups                       = FlaskRecoverySpeed
+|domain                           = 2
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Effervescent
+|mod_type                         = FlaskPartialInstantRecovery
+|stat_text                        = 50% of Recovery applied Instantly<br>(43-40)% reduced Amount Recovered<br>135% increased Recovery rate
+|stat1_id                         = local_flask_recovery_amount_%_to_recover_instantly
+|stat1_min                        = 50
+|stat1_max                        = 50
+|stat2_id                         = local_flask_amount_to_recover_+%
+|stat2_min                        = -43
+|stat2_max                        = -40
+|stat3_id                         = local_flask_recovery_speed_+%
+|stat3_min                        = 135
+|stat3_max                        = 135
+|spawn_weight1_tag                = utility_flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 600
+|tags                             = flask
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

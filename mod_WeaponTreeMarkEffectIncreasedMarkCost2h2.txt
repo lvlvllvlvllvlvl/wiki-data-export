@@ -1,0 +1,21 @@
+{{Mod
+|id                               = WeaponTreeMarkEffectIncreasedMarkCost2h2
+|mod_groups                       = WeaponTreeMarkEffectIncreasedMarkCost
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 76
+|mod_type                         = WeaponTreeMarkEffectIncreasedMarkCost
+|stat_text                        = 40% increased Effect of your Marks<br>200% increased [[Mana]] Cost of Mark [[Skill|Skills]]
+|stat1_id                         = mark_skills_curse_effect_+%
+|stat1_min                        = 40
+|stat1_max                        = 40
+|stat2_id                         = mark_skill_mana_cost_+%
+|stat2_min                        = 200
+|stat2_max                        = 200
+|spawn_weight1_tag                = staff
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = two_hand_weapon
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

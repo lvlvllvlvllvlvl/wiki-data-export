@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentSummonedRagingSpiritChanceToSpawnAdditionalMinion2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Summoned Raging Spirit Additional 2
+|mod_type                         = EnchantmentSummonedRagingSpiritChanceToSpawnAdditionalMinion
+|stat_text                        = [[Summon Raging Spirit]] has 24% chance to summon an extra [[Minion]]
+|stat1_id                         = summoned_raging_spirit_chance_to_spawn_additional_minion_%
+|stat1_min                        = 24
+|stat1_max                        = 24
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = minion
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

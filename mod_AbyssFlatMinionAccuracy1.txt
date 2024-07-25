@@ -1,0 +1,20 @@
+{{Mod
+|id                               = AbyssFlatMinionAccuracy1
+|mod_groups                       = MinionAccuracyRating
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Suggestion
+|mod_type                         = MinionAccuracyRatingFlat
+|stat_text                        = [[Minion|Minions]] have +(95-125) to [[Accuracy Rating]]
+|stat1_id                         = minion_accuracy_rating
+|stat1_min                        = 95
+|stat1_max                        = 125
+|spawn_weight1_tag                = abyss_jewel_summoner
+|spawn_weight1_value              = 300
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

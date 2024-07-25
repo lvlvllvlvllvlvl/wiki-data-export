@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentBoneOfferingBlockChance2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Bone Offering Block Chance 2
+|mod_type                         = EnchantmentBoneOfferingBlockChance
+|stat_text                        = [[Bone Offering]] grants an additional +9% Chance to [[Block]] [[Attack Damage]]
+|stat1_id                         = bone_offering_block_chance_+%
+|stat1_min                        = 9
+|stat1_max                        = 9
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = block, minion
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

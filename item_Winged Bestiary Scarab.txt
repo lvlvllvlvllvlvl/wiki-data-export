@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Winged Bestiary Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = Without an experienced Beastmaster to find them new realms,<br>the First Ones' ravaging hunt brings them ever closer to Wraeclast.
 |drop_level                              = 68
-|tags                                    = jewelled_scarab, default
+|tags                                    = scarab, bestiary_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabBeasts4
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabBeasts4
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = Area contains Einhar<br>Area contains 5 additional Red Beasts
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabBeasts4
 }}

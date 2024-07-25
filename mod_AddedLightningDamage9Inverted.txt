@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AddedLightningDamage9Inverted
+|mod_groups                       = LightningDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 76
+|name                             = Electrocuting
+|mod_type                         = SelfLightningDamageTaken
+|stat_text                        = Adds (3-7) to (68-72) [[Lightning Damage]] to [[Attack|Attacks]] against you
+|stat1_id                         = from_self_minimum_added_attack_lightning_damage_taken
+|stat1_min                        = 3
+|stat1_max                        = 7
+|stat2_id                         = from_self_maximum_added_attack_lightning_damage_taken
+|stat2_min                        = 68
+|stat2_max                        = 72
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental_damage, damage, elemental, lightning, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

@@ -1,5 +1,5 @@
 {{Skill
-|gem_description                         = Jump into the air, damaging and knocking back enemies with your weapon where you land. Enemies you would land on are pushed out of the way. Requires an Axe, Mace, Sceptre, Sword or Staff. Cannot be supported by Multistrike.
+|gem_description                         = Jump through the air, damaging and knocking back enemies with your weapon where you land. Enemies you would land on are pushed out of the way. Requires an Axe, Mace, Sceptre, Sword or Staff. Cannot be supported by Multistrike.
 |active_skill_name                       = Leap Slam
 |item_class_id_restriction               = One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff
 |skill_id                                = TalismanBossLeapSlamCausticCloud
@@ -18,11 +18,13 @@
 |static_stat3_value                      = 1
 |static_stat4_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
 |static_stat4_value                      = -30
-|stat_text                               = Base duration is (4-9) seconds
+|static_stat5_id                         = active_skill_base_area_of_effect_radius
+|static_stat5_value                      = 15
+|stat_text                               = Base duration is (4.00-9.00) seconds<br>Base radius is 1.5 metres
 |level1                                  = True
 |level1_level_requirement                = 3
 |level1_duration                         = 4
-|level1_stat_text                        = Base duration is 4 seconds
+|level1_stat_text                        = Base duration is 4.00 seconds
 |level1_stat1_id                         = leap_slam_base_caustic_cloud_damage_to_deal_per_minute
 |level1_stat1_value                      = 144
 |level1_stat2_id                         = base_skill_effect_duration
@@ -30,7 +32,7 @@
 |level2                                  = True
 |level2_level_requirement                = 31
 |level2_duration                         = 4
-|level2_stat_text                        = Base duration is 4 seconds
+|level2_stat_text                        = Base duration is 4.00 seconds
 |level2_stat1_id                         = leap_slam_base_caustic_cloud_damage_to_deal_per_minute
 |level2_stat1_value                      = 1688
 |level2_stat2_id                         = base_skill_effect_duration
@@ -38,7 +40,7 @@
 |level3                                  = True
 |level3_level_requirement                = 36
 |level3_duration                         = 6
-|level3_stat_text                        = Base duration is 6 seconds
+|level3_stat_text                        = Base duration is 6.00 seconds
 |level3_stat1_id                         = leap_slam_base_caustic_cloud_damage_to_deal_per_minute
 |level3_stat1_value                      = 2535
 |level3_stat2_id                         = base_skill_effect_duration
@@ -46,7 +48,7 @@
 |level4                                  = True
 |level4_level_requirement                = 52
 |level4_duration                         = 6
-|level4_stat_text                        = Base duration is 6 seconds
+|level4_stat_text                        = Base duration is 6.00 seconds
 |level4_stat1_id                         = leap_slam_base_caustic_cloud_damage_to_deal_per_minute
 |level4_stat1_value                      = 5794
 |level4_stat2_id                         = base_skill_effect_duration
@@ -54,7 +56,7 @@
 |level5                                  = True
 |level5_level_requirement                = 57
 |level5_duration                         = 9
-|level5_stat_text                        = Base duration is 9 seconds
+|level5_stat_text                        = Base duration is 9.00 seconds
 |level5_stat1_id                         = leap_slam_base_caustic_cloud_damage_to_deal_per_minute
 |level5_stat1_value                      = 8382
 |level5_stat2_id                         = base_skill_effect_duration

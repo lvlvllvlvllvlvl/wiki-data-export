@@ -16,11 +16,13 @@
 |static_stat3_value                      = 1
 |static_stat4_id                         = fire_storm_fireball_delay_ms
 |static_stat4_value                      = 125
-|stat_text                               = Deals (4-1606) to (6-2409) Physical Damage<br>Base duration is (2.5-3.5) seconds<br>One impact every 0.12 seconds
+|static_stat5_id                         = active_skill_base_area_of_effect_radius
+|static_stat5_value                      = 10
+|stat_text                               = Deals (4-1606) to (6-2409) Physical Damage<br>Base duration is (2.50-3.50) seconds<br>One impact every 0.12 seconds<br>Base radius is 1 metre
 |level1                                  = True
 |level1_level_requirement                = 3
 |level1_duration                         = 2.5
-|level1_stat_text                        = Deals 4 to 6 Physical Damage<br>Base duration is 2.5 seconds
+|level1_stat_text                        = Deals 4 to 6 Physical Damage<br>Base duration is 2.50 seconds
 |level1_stat1_id                         = damage_+%_vs_players
 |level1_stat1_value                      = 34
 |level1_stat2_id                         = spell_minimum_base_physical_damage
@@ -32,7 +34,7 @@
 |level2                                  = True
 |level2_level_requirement                = 5
 |level2_duration                         = 2.5
-|level2_stat_text                        = Deals 5 to 8 Physical Damage<br>Base duration is 2.5 seconds
+|level2_stat_text                        = Deals 5 to 8 Physical Damage<br>Base duration is 2.50 seconds
 |level2_stat1_id                         = damage_+%_vs_players
 |level2_stat1_value                      = 45
 |level2_stat2_id                         = spell_minimum_base_physical_damage
@@ -44,7 +46,7 @@
 |level3                                  = True
 |level3_level_requirement                = 8
 |level3_duration                         = 2.5
-|level3_stat_text                        = Deals 7 to 11 Physical Damage<br>Base duration is 2.5 seconds
+|level3_stat_text                        = Deals 7 to 11 Physical Damage<br>Base duration is 2.50 seconds
 |level3_stat1_id                         = damage_+%_vs_players
 |level3_stat1_value                      = 44
 |level3_stat2_id                         = spell_minimum_base_physical_damage
@@ -56,7 +58,7 @@
 |level4                                  = True
 |level4_level_requirement                = 12
 |level4_duration                         = 2.5
-|level4_stat_text                        = Deals 11 to 16 Physical Damage<br>Base duration is 2.5 seconds
+|level4_stat_text                        = Deals 11 to 16 Physical Damage<br>Base duration is 2.50 seconds
 |level4_stat1_id                         = damage_+%_vs_players
 |level4_stat1_value                      = 32
 |level4_stat2_id                         = spell_minimum_base_physical_damage
@@ -68,7 +70,7 @@
 |level5                                  = True
 |level5_level_requirement                = 15
 |level5_duration                         = 2.5
-|level5_stat_text                        = Deals 15 to 22 Physical Damage<br>Base duration is 2.5 seconds
+|level5_stat_text                        = Deals 15 to 22 Physical Damage<br>Base duration is 2.50 seconds
 |level5_stat1_id                         = damage_+%_vs_players
 |level5_stat1_value                      = 17
 |level5_stat2_id                         = spell_minimum_base_physical_damage
@@ -80,7 +82,7 @@
 |level6                                  = True
 |level6_level_requirement                = 19
 |level6_duration                         = 2.5
-|level6_stat_text                        = Deals 21 to 31 Physical Damage<br>Base duration is 2.5 seconds
+|level6_stat_text                        = Deals 21 to 31 Physical Damage<br>Base duration is 2.50 seconds
 |level6_stat1_id                         = damage_+%_vs_players
 |level6_stat1_value                      = 2
 |level6_stat2_id                         = spell_minimum_base_physical_damage
@@ -92,7 +94,7 @@
 |level7                                  = True
 |level7_level_requirement                = 20
 |level7_duration                         = 2.5
-|level7_stat_text                        = Deals 22 to 34 Physical Damage<br>Base duration is 2.5 seconds
+|level7_stat_text                        = Deals 22 to 34 Physical Damage<br>Base duration is 2.50 seconds
 |level7_stat1_id                         = damage_+%_vs_players
 |level7_stat1_value                      = -3
 |level7_stat2_id                         = spell_minimum_base_physical_damage
@@ -104,7 +106,7 @@
 |level8                                  = True
 |level8_level_requirement                = 21
 |level8_duration                         = 2.5
-|level8_stat_text                        = Deals 24 to 37 Physical Damage<br>Base duration is 2.5 seconds
+|level8_stat_text                        = Deals 24 to 37 Physical Damage<br>Base duration is 2.50 seconds
 |level8_stat1_id                         = damage_+%_vs_players
 |level8_stat1_value                      = -6
 |level8_stat2_id                         = spell_minimum_base_physical_damage
@@ -116,7 +118,7 @@
 |level9                                  = True
 |level9_level_requirement                = 26
 |level9_duration                         = 2.5
-|level9_stat_text                        = Deals 37 to 55 Physical Damage<br>Base duration is 2.5 seconds
+|level9_stat_text                        = Deals 37 to 55 Physical Damage<br>Base duration is 2.50 seconds
 |level9_stat1_id                         = damage_+%_vs_players
 |level9_stat1_value                      = -22
 |level9_stat2_id                         = spell_minimum_base_physical_damage
@@ -128,7 +130,7 @@
 |level10                                 = True
 |level10_level_requirement               = 30
 |level10_duration                        = 2.5
-|level10_stat_text                       = Deals 50 to 75 Physical Damage<br>Base duration is 2.5 seconds
+|level10_stat_text                       = Deals 50 to 75 Physical Damage<br>Base duration is 2.50 seconds
 |level10_stat1_id                        = damage_+%_vs_players
 |level10_stat1_value                     = -35
 |level10_stat2_id                        = spell_minimum_base_physical_damage
@@ -140,7 +142,7 @@
 |level11                                 = True
 |level11_level_requirement               = 34
 |level11_duration                        = 2.5
-|level11_stat_text                       = Deals 67 to 101 Physical Damage<br>Base duration is 2.5 seconds
+|level11_stat_text                       = Deals 67 to 101 Physical Damage<br>Base duration is 2.50 seconds
 |level11_stat1_id                        = damage_+%_vs_players
 |level11_stat1_value                     = -44
 |level11_stat2_id                        = spell_minimum_base_physical_damage
@@ -152,7 +154,7 @@
 |level12                                 = True
 |level12_level_requirement               = 38
 |level12_duration                        = 2.5
-|level12_stat_text                       = Deals 90 to 135 Physical Damage<br>Base duration is 2.5 seconds
+|level12_stat_text                       = Deals 90 to 135 Physical Damage<br>Base duration is 2.50 seconds
 |level12_stat1_id                        = damage_+%_vs_players
 |level12_stat1_value                     = -53
 |level12_stat2_id                        = spell_minimum_base_physical_damage
@@ -164,7 +166,7 @@
 |level13                                 = True
 |level13_level_requirement               = 43
 |level13_duration                        = 2.5
-|level13_stat_text                       = Deals 128 to 192 Physical Damage<br>Base duration is 2.5 seconds
+|level13_stat_text                       = Deals 128 to 192 Physical Damage<br>Base duration is 2.50 seconds
 |level13_stat1_id                        = damage_+%_vs_players
 |level13_stat1_value                     = -41
 |level13_stat2_id                        = spell_minimum_base_physical_damage
@@ -176,7 +178,7 @@
 |level14                                 = True
 |level14_level_requirement               = 45
 |level14_duration                        = 3.5
-|level14_stat_text                       = Deals 147 to 220 Physical Damage<br>Base duration is 3.5 seconds
+|level14_stat_text                       = Deals 147 to 220 Physical Damage<br>Base duration is 3.50 seconds
 |level14_stat1_id                        = damage_+%_vs_players
 |level14_stat1_value                     = -45
 |level14_stat2_id                        = spell_minimum_base_physical_damage
@@ -188,7 +190,7 @@
 |level15                                 = True
 |level15_level_requirement               = 53
 |level15_duration                        = 3.5
-|level15_stat_text                       = Deals 253 to 379 Physical Damage<br>Base duration is 3.5 seconds
+|level15_stat_text                       = Deals 253 to 379 Physical Damage<br>Base duration is 3.50 seconds
 |level15_stat1_id                        = damage_+%_vs_players
 |level15_stat1_value                     = -60
 |level15_stat2_id                        = spell_minimum_base_physical_damage
@@ -200,7 +202,7 @@
 |level16                                 = True
 |level16_level_requirement               = 58
 |level16_duration                        = 3.5
-|level16_stat_text                       = Deals 351 to 527 Physical Damage<br>Base duration is 3.5 seconds
+|level16_stat_text                       = Deals 351 to 527 Physical Damage<br>Base duration is 3.50 seconds
 |level16_stat1_id                        = damage_+%_vs_players
 |level16_stat1_value                     = -34
 |level16_stat2_id                        = spell_minimum_base_physical_damage
@@ -212,7 +214,7 @@
 |level17                                 = True
 |level17_level_requirement               = 62
 |level17_duration                        = 3.5
-|level17_stat_text                       = Deals 456 to 684 Physical Damage<br>Base duration is 3.5 seconds
+|level17_stat_text                       = Deals 456 to 684 Physical Damage<br>Base duration is 3.50 seconds
 |level17_stat1_id                        = damage_+%_vs_players
 |level17_stat1_value                     = -44
 |level17_stat2_id                        = spell_minimum_base_physical_damage
@@ -224,7 +226,7 @@
 |level18                                 = True
 |level18_level_requirement               = 63
 |level18_duration                        = 3.5
-|level18_stat_text                       = Deals 486 to 729 Physical Damage<br>Base duration is 3.5 seconds
+|level18_stat_text                       = Deals 486 to 729 Physical Damage<br>Base duration is 3.50 seconds
 |level18_stat1_id                        = damage_+%_vs_players
 |level18_stat1_value                     = -46
 |level18_stat2_id                        = spell_minimum_base_physical_damage
@@ -236,7 +238,7 @@
 |level19                                 = True
 |level19_level_requirement               = 66
 |level19_duration                        = 3.5
-|level19_stat_text                       = Deals 589 to 884 Physical Damage<br>Base duration is 3.5 seconds
+|level19_stat_text                       = Deals 589 to 884 Physical Damage<br>Base duration is 3.50 seconds
 |level19_stat1_id                        = damage_+%_vs_players
 |level19_stat1_value                     = -53
 |level19_stat2_id                        = spell_minimum_base_physical_damage
@@ -248,7 +250,7 @@
 |level20                                 = True
 |level20_level_requirement               = 67
 |level20_duration                        = 3.5
-|level20_stat_text                       = Deals 628 to 942 Physical Damage<br>Base duration is 3.5 seconds
+|level20_stat_text                       = Deals 628 to 942 Physical Damage<br>Base duration is 3.50 seconds
 |level20_stat1_id                        = damage_+%_vs_players
 |level20_stat1_value                     = -54
 |level20_stat2_id                        = spell_minimum_base_physical_damage
@@ -260,7 +262,7 @@
 |level21                                 = True
 |level21_level_requirement               = 68
 |level21_duration                        = 3.5
-|level21_stat_text                       = Deals 669 to 1004 Physical Damage<br>Base duration is 3.5 seconds
+|level21_stat_text                       = Deals 669 to 1004 Physical Damage<br>Base duration is 3.50 seconds
 |level21_stat1_id                        = damage_+%_vs_players
 |level21_stat1_value                     = -56
 |level21_stat2_id                        = spell_minimum_base_physical_damage
@@ -272,7 +274,7 @@
 |level22                                 = True
 |level22_level_requirement               = 69
 |level22_duration                        = 3.5
-|level22_stat_text                       = Deals 713 to 1070 Physical Damage<br>Base duration is 3.5 seconds
+|level22_stat_text                       = Deals 713 to 1070 Physical Damage<br>Base duration is 3.50 seconds
 |level22_stat1_id                        = damage_+%_vs_players
 |level22_stat1_value                     = -58
 |level22_stat2_id                        = spell_minimum_base_physical_damage
@@ -284,7 +286,7 @@
 |level23                                 = True
 |level23_level_requirement               = 70
 |level23_duration                        = 3.5
-|level23_stat_text                       = Deals 760 to 1140 Physical Damage<br>Base duration is 3.5 seconds
+|level23_stat_text                       = Deals 760 to 1140 Physical Damage<br>Base duration is 3.50 seconds
 |level23_stat1_id                        = damage_+%_vs_players
 |level23_stat1_value                     = -59
 |level23_stat2_id                        = spell_minimum_base_physical_damage
@@ -296,7 +298,7 @@
 |level24                                 = True
 |level24_level_requirement               = 71
 |level24_duration                        = 3.5
-|level24_stat_text                       = Deals 809 to 1214 Physical Damage<br>Base duration is 3.5 seconds
+|level24_stat_text                       = Deals 809 to 1214 Physical Damage<br>Base duration is 3.50 seconds
 |level24_stat1_id                        = damage_+%_vs_players
 |level24_stat1_value                     = -61
 |level24_stat2_id                        = spell_minimum_base_physical_damage
@@ -308,7 +310,7 @@
 |level25                                 = True
 |level25_level_requirement               = 72
 |level25_duration                        = 3.5
-|level25_stat_text                       = Deals 862 to 1293 Physical Damage<br>Base duration is 3.5 seconds
+|level25_stat_text                       = Deals 862 to 1293 Physical Damage<br>Base duration is 3.50 seconds
 |level25_stat1_id                        = damage_+%_vs_players
 |level25_stat1_value                     = -62
 |level25_stat2_id                        = spell_minimum_base_physical_damage
@@ -320,7 +322,7 @@
 |level26                                 = True
 |level26_level_requirement               = 73
 |level26_duration                        = 3.5
-|level26_stat_text                       = Deals 918 to 1377 Physical Damage<br>Base duration is 3.5 seconds
+|level26_stat_text                       = Deals 918 to 1377 Physical Damage<br>Base duration is 3.50 seconds
 |level26_stat1_id                        = damage_+%_vs_players
 |level26_stat1_value                     = -65
 |level26_stat2_id                        = spell_minimum_base_physical_damage
@@ -332,7 +334,7 @@
 |level27                                 = True
 |level27_level_requirement               = 74
 |level27_duration                        = 3.5
-|level27_stat_text                       = Deals 977 to 1466 Physical Damage<br>Base duration is 3.5 seconds
+|level27_stat_text                       = Deals 977 to 1466 Physical Damage<br>Base duration is 3.50 seconds
 |level27_stat1_id                        = damage_+%_vs_players
 |level27_stat1_value                     = -66
 |level27_stat2_id                        = spell_minimum_base_physical_damage
@@ -344,7 +346,7 @@
 |level28                                 = True
 |level28_level_requirement               = 75
 |level28_duration                        = 3.5
-|level28_stat_text                       = Deals 1040 to 1560 Physical Damage<br>Base duration is 3.5 seconds
+|level28_stat_text                       = Deals 1040 to 1560 Physical Damage<br>Base duration is 3.50 seconds
 |level28_stat1_id                        = damage_+%_vs_players
 |level28_stat1_value                     = -67
 |level28_stat2_id                        = spell_minimum_base_physical_damage
@@ -356,7 +358,7 @@
 |level29                                 = True
 |level29_level_requirement               = 76
 |level29_duration                        = 3.5
-|level29_stat_text                       = Deals 1107 to 1661 Physical Damage<br>Base duration is 3.5 seconds
+|level29_stat_text                       = Deals 1107 to 1661 Physical Damage<br>Base duration is 3.50 seconds
 |level29_stat1_id                        = damage_+%_vs_players
 |level29_stat1_value                     = -69
 |level29_stat2_id                        = spell_minimum_base_physical_damage
@@ -368,7 +370,7 @@
 |level30                                 = True
 |level30_level_requirement               = 77
 |level30_duration                        = 3.5
-|level30_stat_text                       = Deals 1178 to 1768 Physical Damage<br>Base duration is 3.5 seconds
+|level30_stat_text                       = Deals 1178 to 1768 Physical Damage<br>Base duration is 3.50 seconds
 |level30_stat1_id                        = damage_+%_vs_players
 |level30_stat1_value                     = -70
 |level30_stat2_id                        = spell_minimum_base_physical_damage
@@ -380,7 +382,7 @@
 |level31                                 = True
 |level31_level_requirement               = 78
 |level31_duration                        = 3.5
-|level31_stat_text                       = Deals 1254 to 1881 Physical Damage<br>Base duration is 3.5 seconds
+|level31_stat_text                       = Deals 1254 to 1881 Physical Damage<br>Base duration is 3.50 seconds
 |level31_stat1_id                        = damage_+%_vs_players
 |level31_stat1_value                     = -72
 |level31_stat2_id                        = spell_minimum_base_physical_damage
@@ -392,7 +394,7 @@
 |level32                                 = True
 |level32_level_requirement               = 79
 |level32_duration                        = 3.5
-|level32_stat_text                       = Deals 1334 to 2001 Physical Damage<br>Base duration is 3.5 seconds
+|level32_stat_text                       = Deals 1334 to 2001 Physical Damage<br>Base duration is 3.50 seconds
 |level32_stat1_id                        = damage_+%_vs_players
 |level32_stat1_value                     = -73
 |level32_stat2_id                        = spell_minimum_base_physical_damage
@@ -404,7 +406,7 @@
 |level33                                 = True
 |level33_level_requirement               = 80
 |level33_duration                        = 3.5
-|level33_stat_text                       = Deals 1420 to 2129 Physical Damage<br>Base duration is 3.5 seconds
+|level33_stat_text                       = Deals 1420 to 2129 Physical Damage<br>Base duration is 3.50 seconds
 |level33_stat1_id                        = damage_+%_vs_players
 |level33_stat1_value                     = -75
 |level33_stat2_id                        = spell_minimum_base_physical_damage
@@ -416,7 +418,7 @@
 |level34                                 = True
 |level34_level_requirement               = 81
 |level34_duration                        = 3.5
-|level34_stat_text                       = Deals 1510 to 2265 Physical Damage<br>Base duration is 3.5 seconds
+|level34_stat_text                       = Deals 1510 to 2265 Physical Damage<br>Base duration is 3.50 seconds
 |level34_stat1_id                        = damage_+%_vs_players
 |level34_stat1_value                     = -76
 |level34_stat2_id                        = spell_minimum_base_physical_damage
@@ -428,7 +430,7 @@
 |level35                                 = True
 |level35_level_requirement               = 82
 |level35_duration                        = 3.5
-|level35_stat_text                       = Deals 1606 to 2409 Physical Damage<br>Base duration is 3.5 seconds
+|level35_stat_text                       = Deals 1606 to 2409 Physical Damage<br>Base duration is 3.50 seconds
 |level35_stat1_id                        = damage_+%_vs_players
 |level35_stat1_value                     = -78
 |level35_stat2_id                        = spell_minimum_base_physical_damage

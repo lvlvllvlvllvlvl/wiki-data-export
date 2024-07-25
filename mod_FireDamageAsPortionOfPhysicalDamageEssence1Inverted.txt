@@ -1,0 +1,18 @@
+{{Mod
+|id                               = FireDamageAsPortionOfPhysicalDamageEssence1Inverted
+|mod_groups                       = FireDamageAsPortionOfDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 63
+|name                             = Essences
+|mod_type                         = SelfPhysAsExtraFireTaken
+|stat_text                        = [[Hit|Hits]] against you gain 10% of [[Physical Damage]] as Extra [[Fire Damage]]
+|stat1_id                         = enemy_physical_damage_%_as_extra_fire_vs_you
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = physical_damage, elemental_damage, damage, physical, elemental, fire
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

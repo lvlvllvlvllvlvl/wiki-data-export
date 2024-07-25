@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Vaal Caustic Arrow
 |class_id                                = Active Skill Gem
@@ -8,18 +8,21 @@
 |tags                                    = up_to_level_2_gem, up_to_level_8_gem, vaal_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalCausticArrow
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
+|is_vaal_skill_gem                       = true
 |dexterity_percent                       = 100
 |gem_tags                                = Attack, Projectile, AoE, Duration, Chaos, Vaal, Bow
+|secondary_skill_id                      = PoisonArrow
 |gem_description                         = Fires a slow-moving serpentine arrow which deals chaos damage while piercing enemies, and leaves a trail of caustic ground. Enemies standing on the caustic ground take chaos damage over time.
 |active_skill_name                       = Vaal Caustic Arrow
 |item_class_id_restriction               = Bow
 |skill_id                                = VaalCausticArrow
 |cast_time                               = 1.0
 |required_level                          = 1
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Area of Effect
-|quality_type1_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type1_stat1_value               = 500
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = +(0.01-0.2) metres to radius
+|quality_type1_breakpoints               = 10.0
+|quality_type1_stat1_id                  = active_skill_base_radius_+
+|quality_type1_stat1_value               = 100
 |static_vaal_souls_requirement           = 20
 |static_vaal_stored_uses                 = 2
 |static_vaal_soul_gain_prevention_time   = 8
@@ -45,7 +48,7 @@
 |static_stat9_value                      = 60
 |static_stat10_id                        = global_always_hit
 |static_stat10_value                     = 1
-|stat_text                               = Projectiles Pierce all Targets<br>Deals (21.1-4622.5) Base Chaos Damage per second<br>Base duration is 6 seconds<br>Modifiers to Projectile Damage apply to this Skill's Damage Over Time effect<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>60% of Physical Damage Converted to Chaos Damage<br>Can't be Evaded
+|stat_text                               = Projectiles Pierce all Targets<br>Deals (21.1-4622.5) Base Chaos Damage per second<br>Base duration is 6.00 seconds<br>Modifiers to Projectile Damage apply to this Skill's Damage Over Time effect<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>60% of Physical Damage Converted to Chaos Damage<br>Can't be Evaded
 |level1                                  = True
 |level1_level_requirement                = 1
 |level1_damage_effectiveness             = 280

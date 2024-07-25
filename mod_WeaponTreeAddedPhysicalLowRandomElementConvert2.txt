@@ -1,0 +1,22 @@
+{{Mod
+|id                               = WeaponTreeAddedPhysicalLowRandomElementConvert2
+|mod_groups                       = PhysicalDamage
+|domain                           = 1
+|generation_type                  = 31
+|required_level                   = 27
+|mod_type                         = WeaponTreeLocalPhysicalDamageAndRandomElementConversion
+|stat_text                        = Adds 1 to 4 [[Physical Damage]]<br>20% of [[Physical Damage]] converted to a random Element
+|stat1_id                         = local_minimum_added_physical_damage
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_maximum_added_physical_damage
+|stat2_min                        = 4
+|stat2_max                        = 4
+|stat3_id                         = base_convert_%_physical_damage_to_random_element
+|stat3_min                        = 20
+|stat3_max                        = 20
+|spawn_weight1_tag                = one_hand_weapon
+|spawn_weight1_value              = 50
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

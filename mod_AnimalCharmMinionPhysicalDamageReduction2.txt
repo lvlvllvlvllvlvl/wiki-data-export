@@ -1,0 +1,19 @@
+{{Mod
+|id                               = AnimalCharmMinionPhysicalDamageReduction2
+|mod_groups                       = AnimalCharmMinionPhysicalDamageReduction
+|domain                           = 35
+|generation_type                  = 2
+|required_level                   = 60
+|name                             = of the Necromancer
+|mod_type                         = AnimalCharmMinionPhysicalDamageReduction
+|stat_text                        = [[Minion|Minions]] have (9-12)% additional [[Physical Damage]] Reduction
+|stat1_id                         = minion_additional_physical_damage_reduction_%
+|stat1_min                        = 9
+|stat1_max                        = 12
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

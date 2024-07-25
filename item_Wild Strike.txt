@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Wild Strike
 |class_id                                = Active Skill Gem
@@ -18,22 +18,10 @@
 |skill_id                                = WildStrike
 |cast_time                               = 1.0
 |required_level                          = 28
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 1% increased Elemental Damage
-|quality_type1_stat1_id                  = elemental_damage_+%
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = (1-20)% chance to Freeze, Shock and Ignite
+|quality_type1_stat1_id                  = chance_to_freeze_shock_ignite_%
 |quality_type1_stat1_value               = 1000
-|quality_type2_weight                    = 50
-|quality_type2_stat_text                 = 1% increased Area of Effect
-|quality_type2_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type2_stat1_value               = 1000
-|quality_type3_weight                    = 50
-|quality_type3_stat_text                 = Fires 0.1 additional Projectiles
-|quality_type3_stat1_id                  = number_of_additional_projectiles
-|quality_type3_stat1_value               = 100
-|quality_type4_weight                    = 50
-|quality_type4_stat_text                 = 1% increased Chaining range
-|quality_type4_stat1_id                  = chaining_range_+%
-|quality_type4_stat1_value               = 1000
 |static_cost_amounts                     = 6
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 100
@@ -45,11 +33,13 @@
 |static_stat3_value                      = 1
 |static_stat4_id                         = always_pierce
 |static_stat4_value                      = 1
-|static_stat5_id                         = number_of_additional_projectiles
-|static_stat5_value                      = 2
-|static_stat6_id                         = elemental_strike_physical_damage_%_to_convert
-|static_stat6_value                      = 100
-|stat_text                               = Projectiles Pierce all Targets<br>Beams Chain (4-7) Times<br>(0-19)% increased Area of Effect<br>Fires 2 additional Projectiles<br>100% of Physical Damage Converted to Fire, Cold or Lightning Damage
+|static_stat5_id                         = base_number_of_projectiles
+|static_stat5_value                      = 3
+|static_stat6_id                         = quality_display_base_number_of_projectiles_is_gem
+|static_stat6_value                      = 1
+|static_stat7_id                         = elemental_strike_physical_damage_%_to_convert
+|static_stat7_value                      = 100
+|stat_text                               = Projectiles Pierce all Targets<br>Beams Chain (4-7) Times<br>Fires 3 Projectiles<br>(0-19)% increased Area of Effect<br>100% of Physical Damage Converted to Fire, Cold or Lightning Damage
 |level1                                  = True
 |level1_level_requirement                = 28
 |level1_damage_effectiveness             = 160
@@ -470,5 +460,4 @@
 |level20_experience                      = 340652931
 |level21_strength_requirement            = 70
 |level21_dexterity_requirement           = 100
-|inventory_icon                          = Wild Strike
 }}

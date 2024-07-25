@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialMineLayingSpeed
+|mod_groups                       = MineLayingSpeed
+|domain                           = 32
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Planning
+|mod_type                         = MineLayingSpeed
+|stat_text                        = (10-15)% increased [[Mine]] Throwing Speed
+|stat1_id                         = mine_laying_speed_+%
+|stat1_min                        = 10
+|stat1_max                        = 15
+|spawn_weight1_tag                = dex_special_relic
+|spawn_weight1_value              = 600
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 150
+|tags                             = speed
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

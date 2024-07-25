@@ -1,0 +1,20 @@
+{{Mod
+|id                               = SanctumSpecialGlobalEvasionRatingPercent
+|mod_groups                       = EvasionRatingPercent
+|domain                           = 32
+|generation_type                  = 1
+|required_level                   = 75
+|name                             = Evasive
+|mod_type                         = GlobalEvasionRatingPercent
+|stat_text                        = (20-30)% increased [[Evasion Rating]]
+|stat1_id                         = evasion_rating_+%
+|stat1_min                        = 20
+|stat1_max                        = 30
+|spawn_weight1_tag                = dex_special_relic
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 250
+|tags                             = defences, evasion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

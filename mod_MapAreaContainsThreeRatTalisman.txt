@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MapAreaContainsThreeRatTalisman
+|mod_groups                       = MapAreaContainsThreeRatTalisman
+|domain                           = 12
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Squeaking
+|mod_type                         = MapAreaContainsThreeRatTalisman
+|stat_text                        = Next Area will contain an additional Three Rat Talisman<br>-4 to Maximum [[Charge|Charges]]
+|stat1_id                         = map_contains_additional_three_rat_talisman
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = local_extra_max_charges
+|stat2_min                        = -4
+|stat2_max                        = -4
+|spawn_weight1_tag                = talisman_leaguestone
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

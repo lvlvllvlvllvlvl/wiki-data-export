@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentRuneBlastTeleport2_
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Rune Blast Teleport 2
+|mod_type                         = EnchantmentRuneBlastTeleport1500
+|stat_text                        = Rune Blast teleports you to the detonated Rune if you have not detonated Runes in the past 1.5 seconds
+|stat1_id                         = rune_blast_teleports_to_detonated_rune_with_150_ms_cooldown
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

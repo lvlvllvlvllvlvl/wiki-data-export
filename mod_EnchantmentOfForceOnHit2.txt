@@ -1,0 +1,21 @@
+{{Mod
+|id                               = EnchantmentOfForceOnHit2
+|mod_groups                       = TriggerEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 53
+|name                             = Enchantment Edict of Force
+|granted_skill                    = EnchantmentOfForceOnHit2
+|mod_type                         = EnchantmentOfForceOnHit
+|stat_text                        = Trigger [[Edict of Force]] on [[Hit]]
+|stat1_id                         = display_attack_with_edict_of_force_on_hit_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|spawn_weight1_tag                = gloves
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = skill
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

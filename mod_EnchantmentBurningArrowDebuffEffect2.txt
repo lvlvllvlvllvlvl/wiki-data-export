@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentBurningArrowDebuffEffect2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Burning Arrow Ignite Chance 2
+|mod_type                         = EnchantmentBurningArrowIgniteChance
+|stat_text                        = [[Burning Arrow]] has +24% chance to [[Ignite]]
+|stat1_id                         = burning_arrow_ignite_chance_%
+|stat1_min                        = 24
+|stat1_max                        = 24
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, fire, attack, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

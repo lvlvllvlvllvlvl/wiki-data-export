@@ -1,0 +1,18 @@
+{{Mod
+|id                               = EnchantmentAncestorTotemAttackSpeed1
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 66
+|name                             = Enchantment Ancestral Protector Attack Speed 1
+|mod_type                         = EnchantmentAncestorTotemAttackSpeed
+|stat_text                        = [[Ancestral Protector]] [[Totem]] grants 12% increased [[Attack Speed]] while Active
+|stat1_id                         = melee_ancestor_totem_grant_owner_attack_speed_+%
+|stat1_min                        = 12
+|stat1_max                        = 12
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, speed
+}}

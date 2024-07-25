@@ -1,0 +1,14 @@
+{{Mod
+|id                               = MapSynthesisedRareMonsterGiveModsToKiller1
+|mod_groups                       = MapSynthesisedMonsterGiveModsToKiller
+|domain                           = 19
+|generation_type                  = 16
+|required_level                   = 1
+|mod_type                         = MapSynthesisedRareMonsterGiveModsToKiller
+|stat_text                        = When a Player [[Kill|Kills]] a Synthesised Rare Monster, they gain its Modifiers for 20 seconds
+|stat1_id                         = map_synthesised_rare_monster_gives_mods_to_killer_chance_%
+|stat1_min                        = 100
+|stat1_max                        = 100
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 1000
+}}

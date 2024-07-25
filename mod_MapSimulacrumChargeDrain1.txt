@@ -1,0 +1,13 @@
+{{Mod
+|id                               = MapSimulacrumChargeDrain1
+|mod_groups                       = MapSimulacrumMonsterAnnoying
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapSimulacrumChargeDrain
+|stat_text                        = Monsters have 5% chance to remove [[Charge|Charges]] on [[Hit]]
+|stat1_id                         = map_monsters_remove_charges_on_hit_%
+|stat1_min                        = 5
+|stat1_max                        = 5
+|tags                             = endurance_charge, frenzy_charge, power_charge
+}}

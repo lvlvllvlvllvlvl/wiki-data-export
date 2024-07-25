@@ -1,0 +1,21 @@
+{{Mod
+|id                               = ChestExtraRareItems
+|mod_groups                       = ChestExtraRareItems
+|domain                           = 4
+|generation_type                  = 2
+|required_level                   = 8
+|name                             = of Affluence
+|mod_type                         = ChestExtraRareItems
+|stat_text                        = Contains (1-3) additional Rare Items
+|stat1_id                         = chest_drop_additional_rare_items_up_to
+|stat1_min                        = 1
+|stat1_max                        = 3
+|spawn_weight1_tag                = drops_no_rares
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = drops_no_mods
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = limited_strongbox_benefits
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 800
+}}

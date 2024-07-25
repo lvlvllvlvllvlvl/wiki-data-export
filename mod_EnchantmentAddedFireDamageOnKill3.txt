@@ -1,0 +1,23 @@
+{{Mod
+|id                               = EnchantmentAddedFireDamageOnKill3
+|mod_groups                       = ConditionalBuffEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Fire Damage 3
+|mod_type                         = EnchantmentAddedFireDamageOnKill
+|stat_text                        = Adds 45 to 68 [[Fire Damage]] if you've Killed [[Recently]]
+|stat1_id                         = enchantment_boots_minimum_added_fire_damage_on_kill_4s
+|stat1_min                        = 45
+|stat1_max                        = 45
+|stat2_id                         = enchantment_boots_maximum_added_fire_damage_on_kill_4s
+|stat2_min                        = 68
+|stat2_max                        = 68
+|spawn_weight1_tag                = boots
+|spawn_weight1_value              = 100
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

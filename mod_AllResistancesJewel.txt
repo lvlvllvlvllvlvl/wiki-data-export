@@ -1,0 +1,18 @@
+{{Mod
+|id                               = AllResistancesJewel
+|mod_groups                       = AllResistances
+|domain                           = 10
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Resistance
+|mod_type                         = AllResistancesForJewel
+|stat_text                        = +(8-10)% to all [[Elemental Resistance|Elemental Resistances]]
+|stat1_id                         = base_resist_all_elements_%
+|stat1_min                        = 8
+|stat1_max                        = 10
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 300
+|tags                             = elemental, resistance
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

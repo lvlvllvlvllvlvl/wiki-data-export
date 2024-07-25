@@ -1,0 +1,21 @@
+{{Mod
+|id                               = BlockChanceCorrupted
+|mod_groups                       = BlockPercent
+|domain                           = 1
+|generation_type                  = 5
+|required_level                   = 1
+|mod_type                         = BlockPercent
+|stat_text                        = (2-4)% Chance to [[Block]] [[Attack Damage]]
+|stat1_id                         = monster_base_block_%
+|stat1_min                        = 2
+|stat1_max                        = 4
+|spawn_weight1_tag                = staff
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = amulet
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = block
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

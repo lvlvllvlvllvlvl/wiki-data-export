@@ -1,0 +1,25 @@
+{{Mod
+|id                               = AbyssAddedFireSuffixJewel4_
+|mod_groups                       = AddedFireSuffix
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 64
+|name                             = of Immolation
+|mod_type                         = AddedFireSuffix
+|stat_text                        = Adds (10-12) to (21-24) [[Fire Damage]] to [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_fire_damage
+|stat1_min                        = 10
+|stat1_max                        = 12
+|stat2_id                         = attack_maximum_added_fire_damage
+|stat2_min                        = 21
+|stat2_max                        = 24
+|spawn_weight1_tag                = abyss_jewel_melee
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = abyss_jewel_ranged
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

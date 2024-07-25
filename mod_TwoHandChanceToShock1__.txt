@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TwoHandChanceToShock1__
+|mod_groups                       = ChanceToShock
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 15
+|name                             = of Shocking
+|mod_type                         = ChanceToShock
+|stat_text                        = 20% chance to [[Shock]]
+|stat1_id                         = base_chance_to_shock_%
+|stat1_min                        = 20
+|stat1_max                        = 20
+|spawn_weight1_tag                = staff
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, lightning, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

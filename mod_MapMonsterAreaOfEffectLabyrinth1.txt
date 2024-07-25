@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MapMonsterAreaOfEffectLabyrinth1
+|mod_groups                       = MapMonsterAreaOfEffect
+|domain                           = 5
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = MapMonsterAreaOfEffectMap2Tier
+|stat_text                        = 10% increased Quantity of Items found in this Area<br>20% increased Rarity of Items found in this Area<br>Monsters have 45% increased Area of Effect
+|stat1_id                         = map_item_drop_quantity_+%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|stat2_id                         = map_item_drop_rarity_+%
+|stat2_min                        = 20
+|stat2_max                        = 20
+|stat3_id                         = map_monsters_area_of_effect_+%
+|stat3_min                        = 45
+|stat3_max                        = 45
+}}

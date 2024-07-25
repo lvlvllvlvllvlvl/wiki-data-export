@@ -1,0 +1,20 @@
+{{Mod
+|id                               = JunMaster2DoubleDamageChance2h2
+|mod_groups                       = DoubleDamage
+|domain                           = 9
+|generation_type                  = 2
+|required_level                   = 72
+|name                             = of the Order
+|mod_type                         = DoubleDamageChance
+|stat_text                        = (8-10)% chance to deal Double Damage
+|stat1_id                         = chance_to_deal_double_damage_%
+|stat1_min                        = 8
+|stat1_max                        = 10
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = unveiled_mod, damage
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

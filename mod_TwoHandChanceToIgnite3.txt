@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TwoHandChanceToIgnite3
+|mod_groups                       = ChanceToIgnite
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 75
+|name                             = of Conflagration
+|mod_type                         = ChanceToIgnite
+|stat_text                        = 30% chance to [[Ignite]]
+|stat1_id                         = base_chance_to_ignite_%
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = staff
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, fire, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

@@ -1,0 +1,13 @@
+{{Passive skill
+|id                                  = AlternateAscendancyWardenBarkskin2_
+|int_id                              = 34814
+|name                                = Lesson of the Seasons
+|is_notable                          = True
+|icon                                = WardenBarkskin2 (Warden)
+|stat1_id                            = self_damaging_ailment_duration_+%_per_barkskin_stack
+|stat1_value                         = -10
+|stat2_id                            = avoid_non_damaging_ailments_%_per_missing_barkskin_stack
+|stat2_value                         = 10
+|stat_text                           = 10% reduced Duration of Damaging Ailments on you per Bark<br>10% chance to Avoid non-Damaging Ailments on you per Bark below maximum
+|connections                         = AlternateAscendancyWardenSmall1
+}}

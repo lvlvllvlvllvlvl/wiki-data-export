@@ -1,0 +1,17 @@
+{{Mod
+|id                               = WeaponTreeSupportEnhance2H
+|mod_groups                       = WeaponTreeSupportEnhance
+|domain                           = 1
+|generation_type                  = 32
+|required_level                   = 38
+|granted_skill                    = SupportAdditionalQuality
+|mod_type                         = WeaponTreeSupportEnhance
+|stat_text                        = [[Item socket|Socketed]] Gems are Supported by [[Enhance Support|Level 3 Enhance]]
+|stat1_id                         = local_display_socketed_gems_supported_by_level_x_enhance
+|stat1_min                        = 3
+|stat1_max                        = 3
+|spawn_weight1_tag                = two_hand_weapon
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

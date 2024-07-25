@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Blade Blast
 |class_id                                = Active Skill Gem
@@ -10,27 +10,16 @@
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
 |dexterity_percent                       = 100
 |gem_tags                                = Spell, AoE, Physical
-|gem_description                         = Deals spell damage in a targeted area. When this spell deals damage, if your Lingering Blades or Blade Vortex blades are nearby, it will detonate them, dealing damage again in an area around them. Up to 50 Blades can be detonated this way.
+|gem_description                         = Deals spell damage in a targeted area. Each time this spell deals damage,  it will detonate any of your Lingering Blades it touches, dealing damage again in an area around them. Up to 50 Blades can be detonated this way.
 |active_skill_name                       = Blade Blast
 |skill_id                                = BladeBlast
 |cast_time                               = 0.5
 |required_level                          = 16
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = 0.5% increased Area of Effect
-|quality_type1_stat1_id                  = base_skill_area_of_effect_+%
-|quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 20
-|quality_type2_stat_text                 = +0.5% to Chaos Damage over Time Multiplier
-|quality_type2_stat1_id                  = chaos_dot_multiplier_+
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 10
-|quality_type3_stat_text                 = 0.5% chance to Impale on Spell Hit
-|quality_type3_stat1_id                  = spells_impale_on_hit_%_chance
-|quality_type3_stat1_value               = 500
-|quality_type4_weight                    = 100
-|quality_type4_stat_text                 = 0.5% increased Cast Speed
-|quality_type4_stat1_id                  = base_cast_speed_+%
-|quality_type4_stat1_value               = 500
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Base radius is (0.005-0.1) metres
+|quality_type1_breakpoints               = 20.0
+|quality_type1_stat1_id                  = active_skill_base_area_of_effect_radius
+|quality_type1_stat1_value               = 50
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 6
 |static_damage_effectiveness             = 70
@@ -38,9 +27,9 @@
 |static_attack_speed_multiplier          = 100
 |static_stat1_id                         = is_area_damage
 |static_stat1_value                      = 1
-|static_stat2_id                         = blade_burst_area_of_effect_+%_final_per_blade_vortex_blade_detonated
-|static_stat2_value                      = 80
-|stat_text                               = Deals (11-309) to (17-464) Physical Damage<br>80% more Area of Effect per Blade Vortex blade detonated
+|static_stat2_id                         = active_skill_base_area_of_effect_radius
+|static_stat2_value                      = 14
+|stat_text                               = Deals (11-309) to (17-464) Physical Damage<br>Base radius is 1.4 metres
 |level1                                  = True
 |level1_level_requirement                = 16
 |level1_cost_amounts                     = 6
@@ -402,5 +391,4 @@
 |level20_dexterity_requirement           = 155
 |level20_experience                      = 341913067
 |level21_dexterity_requirement           = 159
-|inventory_icon                          = Blade Blast
 }}

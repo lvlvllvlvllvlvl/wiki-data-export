@@ -1,0 +1,19 @@
+{{Mod
+|id                               = SanctumAvoidAfflictionChance4
+|mod_groups                       = SanctumAvoidAfflictionChance
+|domain                           = 7
+|generation_type                  = 2
+|required_level                   = 85
+|name                             = of Sainthood
+|mod_type                         = SanctumAvoidAfflictionChance
+|stat_text                        = (6-7)% chance to Avoid gaining an Affliction
+|stat1_id                         = sanctum_avoid_affliction_chance_%
+|stat1_min                        = 6
+|stat1_max                        = 7
+|spawn_weight1_tag                = large_sanctum_relic
+|spawn_weight1_value              = 20
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

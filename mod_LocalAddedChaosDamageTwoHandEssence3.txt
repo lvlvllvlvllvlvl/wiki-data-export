@@ -1,0 +1,21 @@
+{{Mod
+|id                               = LocalAddedChaosDamageTwoHandEssence3
+|mod_groups                       = LocalChaosDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 82
+|name                             = Essences
+|mod_type                         = LocalChaosDamageTwoHand
+|stat_text                        = Adds (89-131) to (181-229) [[Chaos Damage]]
+|stat1_id                         = local_minimum_added_chaos_damage
+|stat1_min                        = 89
+|stat1_max                        = 131
+|stat2_id                         = local_maximum_added_chaos_damage
+|stat2_min                        = 181
+|stat2_max                        = 229
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = chaos_damage, damage, chaos, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

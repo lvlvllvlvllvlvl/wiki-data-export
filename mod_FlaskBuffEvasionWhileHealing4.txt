@@ -1,0 +1,22 @@
+{{Mod
+|id                               = FlaskBuffEvasionWhileHealing4
+|mod_groups                       = FlaskBuffWhileHealing
+|domain                           = 2
+|generation_type                  = 2
+|required_level                   = 84
+|name                             = of the Impala
+|mod_type                         = FlaskBuffEvasionWhileHealing
+|stat_text                        = (56-60)% increased [[Evasion Rating]] during Effect
+|stat1_id                         = local_flask_evasion_+%_while_healing
+|stat1_min                        = 56
+|stat1_max                        = 60
+|spawn_weight1_tag                = expedition_flask
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = utility_flask
+|spawn_weight2_value              = 750
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = flask, defences, evasion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,29 @@
+{{Mod
+|id                               = MapUberModMarkedForDeath
+|mod_groups                       = MapUberModMarkedForDeath
+|domain                           = 37
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Retributive
+|mod_type                         = MapUberModMarkedForDeath
+|stat_text                        = Players are Marked for Death for 10 seconds<br />after killing a Rare or Unique monster
+|stat1_id                         = map_player_death_mark_on_rare_unique_kill_ms
+|stat1_min                        = 10000
+|stat1_max                        = 10000
+|stat2_id                         = map_pack_size_+%
+|stat2_min                        = 6
+|stat2_max                        = 6
+|stat3_id                         = map_item_drop_rarity_+%
+|stat3_min                        = 13
+|stat3_max                        = 13
+|stat4_id                         = map_item_drop_quantity_+%
+|stat4_min                        = 20
+|stat4_max                        = 20
+|stat5_id                         = map_currency_drop_chance_+%_final_from_uber_mod
+|stat5_min                        = 70
+|stat5_max                        = 70
+|spawn_weight1_tag                = uber_tier_map
+|spawn_weight1_value              = 60
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+}}

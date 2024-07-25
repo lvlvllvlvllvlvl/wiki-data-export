@@ -1,0 +1,18 @@
+{{Mod
+|id                               = SocketedGemQualityStrMasterVendorItem
+|mod_groups                       = SupportGemQuality
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 1
+|name                             = Haku's
+|mod_type                         = IncreaseSocketedSupportGemQuality
+|stat_text                        = +(3-6)% to Quality of [[Item socket|Socketed]] Support Gems
+|stat1_id                         = local_socketed_support_gem_quality_+
+|stat1_min                        = 3
+|stat1_max                        = 6
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = gem
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

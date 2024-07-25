@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Awakened Generosity Support
 |class_id                                = Support Skill Gem
@@ -7,15 +7,16 @@
 |drop_level                              = 72
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemGenerosityPlus
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
+|is_awakened_support_gem                 = true
 |strength_percent                        = 60
 |intelligence_percent                    = 40
 |gem_tags                                = Support, Aura
 |skill_id                                = SupportGenerosityPlus
 |support_gem_letter                      = G
 |required_level                          = 72
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills have 2% increased Aura Area of Effect
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills have (2-40)% increased Aura Area of Effect
 |quality_type1_stat1_id                  = base_aura_area_of_effect_+%
 |quality_type1_stat1_value               = 2000
 |static_cost_multiplier                  = 100
@@ -157,7 +158,7 @@
 |level20_stat1_value                     = 4
 |level20_stat2_id                        = non_curse_aura_effect_+%
 |level20_stat2_value                     = 52
-|gem_description                         = Supports aura skills that affect you and allies, increasing the aura's effect on allies, but preventing it from affecting you at all. Cannot support curse auras, or other auras that only affect enemies. Cannot support skills used by totems.
+|gem_description                         = Supports aura skills that affect you and allies, increasing the aura's effect on allies, but preventing it from affecting you at all. Cannot support curse auras, or other auras that only affect enemies. Cannot support skills used by totems. Cannot modify the skills of minions.
 |level1_strength_requirement             = 72
 |level1_intelligence_requirement         = 50
 |level1_experience                       = 0

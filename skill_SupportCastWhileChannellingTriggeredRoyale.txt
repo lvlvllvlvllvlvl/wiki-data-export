@@ -1,4 +1,5 @@
 {{Skill
+|gem_description                         = Must support both a channelling skill and a non-channelling spell skill to work. The channelling skill will trigger a spell periodically while channelling. Cannot support skills used by totems, traps, or mines. Vaal skills and skills with a reservation cannot be triggered.
 |skill_id                                = SupportCastWhileChannellingTriggeredRoyale
 |support_gem_letter                      = W
 |required_level                          = 4
@@ -10,7 +11,7 @@
 |static_stat1_value                      = 1
 |static_stat2_id                         = spell_uncastable_if_triggerable
 |static_stat2_value                      = 1
-|stat_text                               = Supported Triggered Spells deal (0-4)% more Damage<br>You cannot Cast Supported Triggerable Spells directly
+|stat_text                               = Supported Triggered Spells deal (0-4)% more Damage
 |level1                                  = True
 |level1_level_requirement                = 4
 |level2                                  = True

@@ -1,0 +1,23 @@
+{{Mod
+|id                               = AbyssSpellAddedChaosDamageJewel2
+|mod_groups                       = SpellAddedChaosSuffix
+|domain                           = 13
+|generation_type                  = 2
+|required_level                   = 48
+|name                             = of Harm
+|mod_type                         = SpellAddedChaosSuffix
+|stat_text                        = Adds (5-7) to (8-10) [[Chaos Damage]] to [[Spell|Spells]]
+|stat1_id                         = spell_minimum_added_chaos_damage
+|stat1_min                        = 5
+|stat1_max                        = 7
+|stat2_id                         = spell_maximum_added_chaos_damage
+|stat2_min                        = 8
+|stat2_max                        = 10
+|spawn_weight1_tag                = abyss_jewel_caster
+|spawn_weight1_value              = 700
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = caster_damage, chaos_damage, damage, chaos, caster
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

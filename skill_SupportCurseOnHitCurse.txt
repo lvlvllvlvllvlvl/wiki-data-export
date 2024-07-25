@@ -1,21 +1,13 @@
 {{Skill
+|gem_description                         = Must support both a skill that hits enemies, and a hex curse skill to work. The hex will be applied when enemies are hit by the other skill. Cannot support totems, traps, or mines. Minions cannot apply hexes this way.
 |skill_id                                = SupportCurseOnHitCurse
 |support_gem_letter                      = &
 |required_level                          = 38
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills have 0.5% increased Curse Duration
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills have (0.5-10)% increased Curse Duration
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = base_curse_duration_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 
-|quality_type2_stat1_id                  = dummy_stat_display_nothing
-|quality_type2_stat1_value               = 0
-|quality_type3_weight                    = 100
-|quality_type3_stat_text                 = 0.5% reduced Effect of Supported Curses<br>Supported Skills have 2% increased Curse Duration
-|quality_type3_stat1_id                  = curse_effect_+%
-|quality_type3_stat1_value               = -500
-|quality_type3_stat2_id                  = base_curse_duration_+%
-|quality_type3_stat2_value               = 2000
 |static_cost_multiplier                  = 100
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
@@ -26,7 +18,7 @@
 |static_stat2_value                      = 1
 |static_stat3_id                         = support_hextouch_curse_effect_+%_final
 |static_stat3_value                      = -35
-|stat_text                               = You cannot Cast Supported Curse Spells<br>35% less Effect of Supported Curses<br>Supported Skills have (50-16)% reduced Curse Duration
+|stat_text                               = You cannot Cast Supported Curse Spells<br>35% less Effect of Supported Curses<br>Supported Skills have (50-31)% reduced Curse Duration
 |level1                                  = True
 |level1_level_requirement                = 38
 |level1_stat_text                        = Supported Skills have 50% reduced Curse Duration

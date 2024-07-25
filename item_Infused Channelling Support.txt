@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Infused Channelling Support
 |class_id                                = Support Skill Gem
@@ -7,24 +7,16 @@
 |drop_level                              = 5
 |tags                                    = up_to_level_8_gem, support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemStormBarrier
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |intelligence_percent                    = 100
 |gem_tags                                = Support, Channelling, Duration
 |skill_id                                = SupportStormBarrier
 |support_gem_letter                      = b
 |required_level                          = 4
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Gain Infusion after Channelling a Supported Skill for -0.02 seconds
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Gain Infusion after Channelling a Supported Skill for -(0.02-0.4) seconds
 |quality_type1_stat1_id                  = support_storm_barrier_damage_buff_time_threshold_ms
 |quality_type1_stat1_value               = -20000
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = 0.5% increased Effect of Infusion
-|quality_type2_stat1_id                  = infusion_effect_+%
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 20
-|quality_type3_stat_text                 = Infusion grants 0% of Life Regenerated per second
-|quality_type3_stat1_id                  = infusion_grants_life_regeneration_rate_per_minute_%
-|quality_type3_stat1_value               = 1500
 |static_cost_multiplier                  = 130
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
@@ -316,7 +308,7 @@
 |level40_stat1_value                     = 500
 |level40_stat2_id                        = support_storm_barrier_damage_+%_final
 |level40_stat2_value                     = 32
-|gem_description                         = Supports any channelling skill, protecting you from damage while you channel it.  Cannot support skills used by totems. Cannot modify the skills of minions.
+|gem_description                         = Supports any channelling skill, protecting you from damage while you channel it. Cannot support skills used by totems. Cannot modify the skills of minions.
 |level1_intelligence_requirement         = 0
 |level1_experience                       = 0
 |level2_intelligence_requirement         = 15

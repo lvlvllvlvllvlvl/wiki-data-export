@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Rage Support
 |class_id                                = Support Skill Gem
@@ -7,24 +7,17 @@
 |drop_level                              = 18
 |tags                                    = support_gem, gem, default
 |metadata_id                             = Metadata/Items/Gems/SupportGemRage
-|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.
+|help_text                               = This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.
 |strength_percent                        = 100
 |gem_tags                                = Support, Melee, Attack
 |skill_id                                = SupportRage
 |support_gem_letter                      = g
 |required_level                          = 18
-|quality_type1_weight                    = 50
-|quality_type1_stat_text                 = Supported Skills deal 0.5% increased Attack Damage
+|quality_type1_weight                    = 1
+|quality_type1_stat_text                 = Supported Skills deal (0.5-10)% increased Attack Damage
+|quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = attack_damage_+%
 |quality_type1_stat1_value               = 500
-|quality_type2_weight                    = 100
-|quality_type2_stat_text                 = Supported Skills have 0.5% increased Attack Speed while you have at least 20 Rage
-|quality_type2_stat1_id                  = attack_speed_+%_with_atleast_20_rage
-|quality_type2_stat1_value               = 500
-|quality_type3_weight                    = 5
-|quality_type3_stat_text                 = 1% chance to gain 1 Rage when you use Supported Skills
-|quality_type3_stat1_id                  = gain_1_rage_on_use_%_chance
-|quality_type3_stat1_value               = 1000
 |static_cost_multiplier                  = 130
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
@@ -514,5 +507,4 @@
 |level20_strength_requirement            = 111
 |level20_experience                      = 341831131
 |level21_strength_requirement            = 114
-|inventory_icon                          = Rage Support
 }}

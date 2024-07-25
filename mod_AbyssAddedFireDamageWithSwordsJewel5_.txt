@@ -1,0 +1,27 @@
+{{Mod
+|id                               = AbyssAddedFireDamageWithSwordsJewel5_
+|mod_groups                       = SpecificWeaponFireDamage
+|domain                           = 13
+|generation_type                  = 1
+|required_level                   = 72
+|name                             = Blasting
+|mod_type                         = AddedFireDamageWithSwords
+|stat_text                        = (14-15) to (23-26) Added [[Fire Damage]] with [[Sword]] [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_fire_damage_with_swords
+|stat1_min                        = 14
+|stat1_max                        = 15
+|stat2_id                         = attack_maximum_added_fire_damage_with_swords
+|stat2_min                        = 23
+|stat2_max                        = 26
+|spawn_weight1_tag                = sword
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = specific_weapon
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = abyss_jewel_melee
+|spawn_weight3_value              = 250
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = elemental_damage, damage, elemental, fire, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

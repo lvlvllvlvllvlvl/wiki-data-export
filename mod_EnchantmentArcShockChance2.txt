@@ -1,0 +1,20 @@
+{{Mod
+|id                               = EnchantmentArcShockChance2
+|mod_groups                       = SkillEnchantment
+|domain                           = 1
+|generation_type                  = 10
+|required_level                   = 75
+|name                             = Enchantment Arc Shock Chance 2
+|mod_type                         = EnchantmentArcShockChance
+|stat_text                        = Arc has +30% chance to [[Shock]]
+|stat1_id                         = arc_shock_chance_%
+|stat1_min                        = 30
+|stat1_max                        = 30
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 75
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, lightning, caster, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

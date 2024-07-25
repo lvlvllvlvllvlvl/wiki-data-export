@@ -1,0 +1,24 @@
+{{Mod
+|id                               = DelveWeaponEnergyShieldRegenIfYouHitRecently2h1
+|mod_groups                       = EnergyShieldRegenerationRatePerMinuteIfYouHaveHitAnEnemyRecently
+|domain                           = 16
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Underground
+|mod_type                         = EnergyShieldRegenerationRatePerMinuteIfYouHaveHitAnEnemyRecently
+|stat_text                        = Regenerate 1% of [[Energy Shield]] per second if you've [[Hit]] an Enemy [[Recently]]
+|stat1_id                         = energy_shield_regeneration_rate_per_minute_%_if_you_have_hit_an_enemy_recently
+|stat1_min                        = 60
+|stat1_max                        = 60
+|spawn_weight1_tag                = abyss_jewel
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = jewel
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = staff
+|spawn_weight3_value              = 2000
+|spawn_weight4_tag                = default
+|spawn_weight4_value              = 0
+|tags                             = defences, energy_shield
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

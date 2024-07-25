@@ -1,4 +1,4 @@
-{{Base item
+{{Item
 |rarity_id                               = normal
 |name                                    = Gilded Legion Scarab
 |class_id                                = MapFragment
@@ -6,8 +6,11 @@
 |size_y                                  = 1
 |flavour_text                            = Given the fate of Deacon Eutychus and the men under Cardinal Sanctus Vox,<br>let none dare the Domain, lest they too feed that vile hunger eternal.
 |drop_level                              = 68
-|tags                                    = gilded_scarab, default
+|tags                                    = scarab, legion_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabLegion3
-|help_text                               = Can be used in a personal Map Device.
-|implicit1                               = ScarabLegion3_
+|help_text                               = Can be used in a personal Map Device to add modifiers to a Map.
+|stack_size                              = 10
+|description                             = Area contains an additional Legion Encounter<br>Each Legion contains a War Hoard<br>Each Legion is accompanied by a General
+|stack_size_currency_tab                 = 5000
+|map_fragment_bonus1                     = ScarabLegion3_
 }}

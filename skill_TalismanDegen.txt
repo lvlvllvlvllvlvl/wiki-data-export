@@ -16,10 +16,10 @@
 |static_stat2_value                      = 5000
 |static_stat3_id                         = base_secondary_skill_effect_duration
 |static_stat3_value                      = 3000
-|stat_text                               = Deals (2-290) to (3-435) Physical Damage<br>Your Hits cannot Stun Enemies<br>Base duration is 5 seconds<br>Base secondary duration is 3 seconds<br>(25-0)% reduced Cast Speed<br>Causes (15-50) Bursts
+|stat_text                               = Deals (2-290) to (3-435) Physical Damage<br>Your Hits cannot Stun Enemies<br>Base duration is 5.00 seconds<br>Base secondary duration is 3.00 seconds<br>(25-0)% reduced Cast Speed<br>Causes +(15-50) Bursts
 |level1                                  = True
 |level1_level_requirement                = 3
-|level1_stat_text                        = Deals 2 to 3 Physical Damage<br>25% reduced Cast Speed<br>Causes 15 Bursts
+|level1_stat_text                        = Deals 2 to 3 Physical Damage<br>25% reduced Cast Speed<br>Causes +15 Bursts
 |level1_stat1_id                         = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level1_stat1_value                      = 50
 |level1_stat2_id                         = spell_minimum_base_physical_damage
@@ -32,7 +32,7 @@
 |level1_stat5_value                      = 15
 |level2                                  = True
 |level2_level_requirement                = 5
-|level2_stat_text                        = Deals 3 to 4 Physical Damage<br>25% reduced Cast Speed<br>Causes 15 Bursts
+|level2_stat_text                        = Deals 3 to 4 Physical Damage<br>25% reduced Cast Speed<br>Causes +15 Bursts
 |level2_stat1_id                         = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level2_stat1_value                      = 100
 |level2_stat2_id                         = spell_minimum_base_physical_damage
@@ -45,7 +45,7 @@
 |level2_stat5_value                      = 15
 |level3                                  = True
 |level3_level_requirement                = 8
-|level3_stat_text                        = Deals 4 to 5 Physical Damage<br>25% reduced Cast Speed<br>Causes 15 Bursts
+|level3_stat_text                        = Deals 4 to 5 Physical Damage<br>25% reduced Cast Speed<br>Causes +15 Bursts
 |level3_stat1_id                         = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level3_stat1_value                      = 150
 |level3_stat2_id                         = spell_minimum_base_physical_damage
@@ -58,7 +58,7 @@
 |level3_stat5_value                      = 15
 |level4                                  = True
 |level4_level_requirement                = 10
-|level4_stat_text                        = Deals 6 to 7 Physical Damage<br>25% reduced Cast Speed<br>Causes 15 Bursts
+|level4_stat_text                        = Deals 6 to 7 Physical Damage<br>25% reduced Cast Speed<br>Causes +15 Bursts
 |level4_stat1_id                         = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level4_stat1_value                      = 200
 |level4_stat2_id                         = spell_minimum_base_physical_damage
@@ -71,7 +71,7 @@
 |level4_stat5_value                      = 15
 |level5                                  = True
 |level5_level_requirement                = 12
-|level5_stat_text                        = Deals 7 to 8 Physical Damage<br>25% reduced Cast Speed<br>Causes 15 Bursts
+|level5_stat_text                        = Deals 7 to 8 Physical Damage<br>25% reduced Cast Speed<br>Causes +15 Bursts
 |level5_stat1_id                         = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level5_stat1_value                      = 275
 |level5_stat2_id                         = spell_minimum_base_physical_damage
@@ -84,7 +84,7 @@
 |level5_stat5_value                      = 15
 |level6                                  = True
 |level6_level_requirement                = 14
-|level6_stat_text                        = Deals 8 to 9 Physical Damage<br>25% reduced Cast Speed<br>Causes 15 Bursts
+|level6_stat_text                        = Deals 8 to 9 Physical Damage<br>25% reduced Cast Speed<br>Causes +15 Bursts
 |level6_stat1_id                         = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level6_stat1_value                      = 350
 |level6_stat2_id                         = spell_minimum_base_physical_damage
@@ -97,7 +97,7 @@
 |level6_stat5_value                      = 15
 |level7                                  = True
 |level7_level_requirement                = 17
-|level7_stat_text                        = Deals 9 to 12 Physical Damage<br>Causes 20 Bursts
+|level7_stat_text                        = Deals 9 to 12 Physical Damage<br>Causes +20 Bursts
 |level7_stat1_id                         = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level7_stat1_value                      = 450
 |level7_stat2_id                         = spell_minimum_base_physical_damage
@@ -108,7 +108,7 @@
 |level7_stat4_value                      = 20
 |level8                                  = True
 |level8_level_requirement                = 20
-|level8_stat_text                        = Deals 13 to 17 Physical Damage<br>Causes 20 Bursts
+|level8_stat_text                        = Deals 13 to 17 Physical Damage<br>Causes +20 Bursts
 |level8_stat1_id                         = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level8_stat1_value                      = 500
 |level8_stat2_id                         = spell_minimum_base_physical_damage
@@ -119,7 +119,7 @@
 |level8_stat4_value                      = 20
 |level9                                  = True
 |level9_level_requirement                = 25
-|level9_stat_text                        = Deals 18 to 23 Physical Damage<br>Causes 20 Bursts
+|level9_stat_text                        = Deals 18 to 23 Physical Damage<br>Causes +20 Bursts
 |level9_stat1_id                         = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level9_stat1_value                      = 550
 |level9_stat2_id                         = spell_minimum_base_physical_damage
@@ -130,7 +130,7 @@
 |level9_stat4_value                      = 20
 |level10                                 = True
 |level10_level_requirement               = 28
-|level10_stat_text                       = Deals 21 to 27 Physical Damage<br>Causes 20 Bursts
+|level10_stat_text                       = Deals 21 to 27 Physical Damage<br>Causes +20 Bursts
 |level10_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level10_stat1_value                     = 675
 |level10_stat2_id                        = spell_minimum_base_physical_damage
@@ -141,7 +141,7 @@
 |level10_stat4_value                     = 20
 |level11                                 = True
 |level11_level_requirement               = 31
-|level11_stat_text                       = Deals 29 to 43 Physical Damage<br>Causes 25 Bursts
+|level11_stat_text                       = Deals 29 to 43 Physical Damage<br>Causes +25 Bursts
 |level11_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level11_stat1_value                     = 750
 |level11_stat2_id                        = spell_minimum_base_physical_damage
@@ -152,7 +152,7 @@
 |level11_stat4_value                     = 25
 |level12                                 = True
 |level12_level_requirement               = 36
-|level12_stat_text                       = Deals 37 to 56 Physical Damage<br>Causes 25 Bursts
+|level12_stat_text                       = Deals 37 to 56 Physical Damage<br>Causes +25 Bursts
 |level12_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level12_stat1_value                     = 850
 |level12_stat2_id                        = spell_minimum_base_physical_damage
@@ -163,7 +163,7 @@
 |level12_stat4_value                     = 25
 |level13                                 = True
 |level13_level_requirement               = 41
-|level13_stat_text                       = Deals 48 to 72 Physical Damage<br>Causes 25 Bursts
+|level13_stat_text                       = Deals 48 to 72 Physical Damage<br>Causes +25 Bursts
 |level13_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level13_stat1_value                     = 975
 |level13_stat2_id                        = spell_minimum_base_physical_damage
@@ -174,7 +174,7 @@
 |level13_stat4_value                     = 25
 |level14                                 = True
 |level14_level_requirement               = 46
-|level14_stat_text                       = Deals 61 to 91 Physical Damage<br>Causes 25 Bursts
+|level14_stat_text                       = Deals 61 to 91 Physical Damage<br>Causes +25 Bursts
 |level14_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level14_stat1_value                     = 1100
 |level14_stat2_id                        = spell_minimum_base_physical_damage
@@ -185,7 +185,7 @@
 |level14_stat4_value                     = 25
 |level15                                 = True
 |level15_level_requirement               = 51
-|level15_stat_text                       = Deals 77 to 115 Physical Damage<br>Causes 25 Bursts
+|level15_stat_text                       = Deals 77 to 115 Physical Damage<br>Causes +25 Bursts
 |level15_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level15_stat1_value                     = 1200
 |level15_stat2_id                        = spell_minimum_base_physical_damage
@@ -196,7 +196,7 @@
 |level15_stat4_value                     = 25
 |level16                                 = True
 |level16_level_requirement               = 52
-|level16_stat_text                       = Deals 80 to 121 Physical Damage<br>Causes 25 Bursts
+|level16_stat_text                       = Deals 80 to 121 Physical Damage<br>Causes +25 Bursts
 |level16_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level16_stat1_value                     = 1300
 |level16_stat2_id                        = spell_minimum_base_physical_damage
@@ -207,7 +207,7 @@
 |level16_stat4_value                     = 25
 |level17                                 = True
 |level17_level_requirement               = 57
-|level17_stat_text                       = Deals 101 to 151 Physical Damage<br>Causes 25 Bursts
+|level17_stat_text                       = Deals 101 to 151 Physical Damage<br>Causes +25 Bursts
 |level17_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level17_stat1_value                     = 1473
 |level17_stat2_id                        = spell_minimum_base_physical_damage
@@ -218,7 +218,7 @@
 |level17_stat4_value                     = 25
 |level18                                 = True
 |level18_level_requirement               = 65
-|level18_stat_text                       = Deals 143 to 214 Physical Damage<br>Causes 30 Bursts
+|level18_stat_text                       = Deals 143 to 214 Physical Damage<br>Causes +30 Bursts
 |level18_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level18_stat1_value                     = 2450
 |level18_stat2_id                        = spell_minimum_base_physical_damage
@@ -229,7 +229,7 @@
 |level18_stat4_value                     = 30
 |level19                                 = True
 |level19_level_requirement               = 66
-|level19_stat_text                       = Deals 149 to 224 Physical Damage<br>Causes 30 Bursts
+|level19_stat_text                       = Deals 149 to 224 Physical Damage<br>Causes +30 Bursts
 |level19_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level19_stat1_value                     = 2721
 |level19_stat2_id                        = spell_minimum_base_physical_damage
@@ -240,7 +240,7 @@
 |level19_stat4_value                     = 30
 |level20                                 = True
 |level20_level_requirement               = 67
-|level20_stat_text                       = Deals 156 to 234 Physical Damage<br>Causes 30 Bursts
+|level20_stat_text                       = Deals 156 to 234 Physical Damage<br>Causes +30 Bursts
 |level20_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level20_stat1_value                     = 3071
 |level20_stat2_id                        = spell_minimum_base_physical_damage
@@ -251,7 +251,7 @@
 |level20_stat4_value                     = 30
 |level21                                 = True
 |level21_level_requirement               = 68
-|level21_stat_text                       = Deals 162 to 244 Physical Damage<br>Causes 30 Bursts
+|level21_stat_text                       = Deals 162 to 244 Physical Damage<br>Causes +30 Bursts
 |level21_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level21_stat1_value                     = 3421
 |level21_stat2_id                        = spell_minimum_base_physical_damage
@@ -262,7 +262,7 @@
 |level21_stat4_value                     = 30
 |level22                                 = True
 |level22_level_requirement               = 69
-|level22_stat_text                       = Deals 169 to 254 Physical Damage<br>Causes 30 Bursts
+|level22_stat_text                       = Deals 169 to 254 Physical Damage<br>Causes +30 Bursts
 |level22_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level22_stat1_value                     = 3770
 |level22_stat2_id                        = spell_minimum_base_physical_damage
@@ -273,7 +273,7 @@
 |level22_stat4_value                     = 30
 |level23                                 = True
 |level23_level_requirement               = 70
-|level23_stat_text                       = Deals 177 to 265 Physical Damage<br>Causes 35 Bursts
+|level23_stat_text                       = Deals 177 to 265 Physical Damage<br>Causes +35 Bursts
 |level23_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level23_stat1_value                     = 4120
 |level23_stat2_id                        = spell_minimum_base_physical_damage
@@ -284,7 +284,7 @@
 |level23_stat4_value                     = 35
 |level24                                 = True
 |level24_level_requirement               = 71
-|level24_stat_text                       = Deals 184 to 277 Physical Damage<br>Causes 35 Bursts
+|level24_stat_text                       = Deals 184 to 277 Physical Damage<br>Causes +35 Bursts
 |level24_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level24_stat1_value                     = 4524
 |level24_stat2_id                        = spell_minimum_base_physical_damage
@@ -295,7 +295,7 @@
 |level24_stat4_value                     = 35
 |level25                                 = True
 |level25_level_requirement               = 72
-|level25_stat_text                       = Deals 192 to 288 Physical Damage<br>Causes 35 Bursts
+|level25_stat_text                       = Deals 192 to 288 Physical Damage<br>Causes +35 Bursts
 |level25_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level25_stat1_value                     = 4929
 |level25_stat2_id                        = spell_minimum_base_physical_damage
@@ -306,7 +306,7 @@
 |level25_stat4_value                     = 35
 |level26                                 = True
 |level26_level_requirement               = 73
-|level26_stat_text                       = Deals 200 to 301 Physical Damage<br>Causes 35 Bursts
+|level26_stat_text                       = Deals 200 to 301 Physical Damage<br>Causes +35 Bursts
 |level26_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level26_stat1_value                     = 5333
 |level26_stat2_id                        = spell_minimum_base_physical_damage
@@ -317,7 +317,7 @@
 |level26_stat4_value                     = 35
 |level27                                 = True
 |level27_level_requirement               = 74
-|level27_stat_text                       = Deals 209 to 313 Physical Damage<br>Causes 35 Bursts
+|level27_stat_text                       = Deals 209 to 313 Physical Damage<br>Causes +35 Bursts
 |level27_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level27_stat1_value                     = 5737
 |level27_stat2_id                        = spell_minimum_base_physical_damage
@@ -328,7 +328,7 @@
 |level27_stat4_value                     = 35
 |level28                                 = True
 |level28_level_requirement               = 75
-|level28_stat_text                       = Deals 218 to 327 Physical Damage<br>Causes 35 Bursts
+|level28_stat_text                       = Deals 218 to 327 Physical Damage<br>Causes +35 Bursts
 |level28_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level28_stat1_value                     = 6142
 |level28_stat2_id                        = spell_minimum_base_physical_damage
@@ -339,7 +339,7 @@
 |level28_stat4_value                     = 35
 |level29                                 = True
 |level29_level_requirement               = 76
-|level29_stat_text                       = Deals 227 to 340 Physical Damage<br>Causes 40 Bursts
+|level29_stat_text                       = Deals 227 to 340 Physical Damage<br>Causes +40 Bursts
 |level29_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level29_stat1_value                     = 6546
 |level29_stat2_id                        = spell_minimum_base_physical_damage
@@ -350,7 +350,7 @@
 |level29_stat4_value                     = 40
 |level30                                 = True
 |level30_level_requirement               = 77
-|level30_stat_text                       = Deals 236 to 355 Physical Damage<br>Causes 40 Bursts
+|level30_stat_text                       = Deals 236 to 355 Physical Damage<br>Causes +40 Bursts
 |level30_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level30_stat1_value                     = 6950
 |level30_stat2_id                        = spell_minimum_base_physical_damage
@@ -361,7 +361,7 @@
 |level30_stat4_value                     = 40
 |level31                                 = True
 |level31_level_requirement               = 78
-|level31_stat_text                       = Deals 246 to 370 Physical Damage<br>Causes 40 Bursts
+|level31_stat_text                       = Deals 246 to 370 Physical Damage<br>Causes +40 Bursts
 |level31_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level31_stat1_value                     = 7355
 |level31_stat2_id                        = spell_minimum_base_physical_damage
@@ -372,7 +372,7 @@
 |level31_stat4_value                     = 40
 |level32                                 = True
 |level32_level_requirement               = 79
-|level32_stat_text                       = Deals 257 to 385 Physical Damage<br>Causes 40 Bursts
+|level32_stat_text                       = Deals 257 to 385 Physical Damage<br>Causes +40 Bursts
 |level32_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level32_stat1_value                     = 7759
 |level32_stat2_id                        = spell_minimum_base_physical_damage
@@ -383,7 +383,7 @@
 |level32_stat4_value                     = 40
 |level33                                 = True
 |level33_level_requirement               = 80
-|level33_stat_text                       = Deals 267 to 401 Physical Damage<br>Causes 50 Bursts
+|level33_stat_text                       = Deals 267 to 401 Physical Damage<br>Causes +50 Bursts
 |level33_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level33_stat1_value                     = 8164
 |level33_stat2_id                        = spell_minimum_base_physical_damage
@@ -394,7 +394,7 @@
 |level33_stat4_value                     = 50
 |level34                                 = True
 |level34_level_requirement               = 81
-|level34_stat_text                       = Deals 278 to 418 Physical Damage<br>Causes 50 Bursts
+|level34_stat_text                       = Deals 278 to 418 Physical Damage<br>Causes +50 Bursts
 |level34_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level34_stat1_value                     = 8568
 |level34_stat2_id                        = spell_minimum_base_physical_damage
@@ -405,7 +405,7 @@
 |level34_stat4_value                     = 50
 |level35                                 = True
 |level35_level_requirement               = 82
-|level35_stat_text                       = Deals 290 to 435 Physical Damage<br>Causes 50 Bursts
+|level35_stat_text                       = Deals 290 to 435 Physical Damage<br>Causes +50 Bursts
 |level35_stat1_id                        = base_physical_damage_taken_per_minute_per_talisman_degen_stack
 |level35_stat1_value                     = 8973
 |level35_stat2_id                        = spell_minimum_base_physical_damage

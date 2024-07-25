@@ -1,0 +1,26 @@
+{{Skill
+|gem_description                         = Fires multiple arrows into the air, to land in sequence after a delay, starting in front of you and proceeding in a line in the direction of the target. Each arrow deals damage in an area around it.
+|active_skill_name                       = Rain of Arrows of Artillery
+|item_class_id_restriction               = Bow
+|skill_id                                = RainOfArrowsGemling
+|cast_time                               = 1.0
+|required_level                          = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 120
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = cannot_pierce
+|static_stat2_value                      = 1
+|static_stat3_id                         = is_area_damage
+|static_stat3_value                      = 1
+|static_stat4_id                         = main_hand_base_maximum_attack_distance
+|static_stat4_value                      = 50
+|static_stat5_id                         = skill_can_fire_arrows
+|static_stat5_value                      = 1
+|static_stat6_id                         = base_number_of_arrows
+|static_stat6_value                      = 30
+|stat_text                               = Fires +30 Arrows
+|level1                                  = True
+|level1_level_requirement                = 1
+}}

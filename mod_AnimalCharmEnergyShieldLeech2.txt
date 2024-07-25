@@ -1,0 +1,21 @@
+{{Mod
+|id                               = AnimalCharmEnergyShieldLeech2
+|mod_groups                       = AnimalCharmEnergyShieldLeech
+|domain                           = 35
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Trickster's
+|mod_type                         = AnimalCharmEnergyShieldLeech
+|stat_text                        = (1.1-2)% of Damage Leeched as [[Energy Shield]]
+|stat1_id                         = energy_shield_leech_from_any_damage_permyriad
+|stat1_min                        = 110
+|stat1_max                        = 200
+|spawn_weight1_tag                = int_animal_charm
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = dex_animal_charm
+|spawn_weight2_value              = 250
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

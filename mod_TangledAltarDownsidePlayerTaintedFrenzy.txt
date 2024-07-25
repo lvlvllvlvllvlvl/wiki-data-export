@@ -1,0 +1,18 @@
+{{Mod
+|id                               = TangledAltarDownsidePlayerTaintedFrenzy
+|mod_groups                       = TangledAltarDownsidePlayerTaintedFrenzy
+|domain                           = 29
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = TangledAltarDownsidePlayerTaintedFrenzy
+|stat_text                        = (50-30)% reduced Defences per [[Frenzy Charge]]
+|stat1_id                         = global_defences_+%_per_frenzy_charge
+|stat1_min                        = -50
+|stat1_max                        = -30
+|spawn_weight1_tag                = primordial_altar_upside
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = tangle_altar
+|spawn_weight2_value              = 400
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+}}

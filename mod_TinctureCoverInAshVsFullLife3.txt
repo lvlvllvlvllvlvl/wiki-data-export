@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TinctureCoverInAshVsFullLife3
+|mod_groups                       = WeaponCoverInAshVsFullLife
+|domain                           = 34
+|generation_type                  = 1
+|required_level                   = 72
+|name                             = Cindered
+|mod_type                         = WeaponCoverInAshVsFullLife
+|stat_text                        = Cover Enemies in Ash on [[Hit]] for (8-12) seconds against Enemies that are on [[Full Life]]
+|stat1_id                         = weapon_cover_in_ash_on_hit_for_X_seconds_vs_full_life_enemies
+|stat1_min                        = 8
+|stat1_max                        = 12
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental, fire, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

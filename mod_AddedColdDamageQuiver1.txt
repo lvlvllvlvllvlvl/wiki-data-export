@@ -1,0 +1,23 @@
+{{Mod
+|id                               = AddedColdDamageQuiver1
+|mod_groups                       = ColdDamage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 2
+|name                             = Frosted
+|mod_type                         = ColdDamage
+|stat_text                        = Adds (1-2) to (2-3) [[Cold Damage]] to [[Attack|Attacks]]
+|stat1_id                         = attack_minimum_added_cold_damage
+|stat1_min                        = 1
+|stat1_max                        = 2
+|stat2_id                         = attack_maximum_added_cold_damage
+|stat2_min                        = 2
+|stat2_max                        = 3
+|spawn_weight1_tag                = quiver
+|spawn_weight1_value              = 250
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, cold, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}
