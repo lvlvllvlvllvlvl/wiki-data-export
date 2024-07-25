@@ -50,6 +50,7 @@ jobs:
           poetry run pypoe_schema_import -a stable
           poetry run pypoe_exporter config set out_dir ./out/
           poetry run pypoe_exporter config set temp_dir ./out/img/
+          poetry run pypoe_exporter config set version generated
           poetry run pypoe_exporter setup perform
           poetry run ./export.bash -w -i md5sum
           poetry run ./export.bash -w atlas-icons
