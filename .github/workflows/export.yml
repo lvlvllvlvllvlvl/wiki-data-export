@@ -47,7 +47,7 @@ jobs:
         run: poetry install
       - name: export data
         run: |
-          poetry run pypoe_schema_import -a stable -f ../dat-schema/schema.min.json
+          poetry run pypoe_schema_import -a stable
           poetry run pypoe_exporter config set out_dir ./out/
           poetry run pypoe_exporter config set temp_dir ./out/img/
           poetry run pypoe_exporter setup perform
