@@ -6,8 +6,8 @@
 |required_level                   = 60
 |name                             = of the Champion
 |mod_type                         = AnimalCharmRecoverBannerStagesOnPlacingBanner
-|stat_text                        = When you create a Banner, it gains (16-25)% of the Stages of your placed Banner
-|stat1_id                         = on_casting_banner_recover_%_of_planted_banner_stages
+|stat_text                        = When you leave your Banner's Area, recover (16-25)% of the Valour consumed for that Banner
+|stat1_id                         = on_leaving_banner_area_recover_%_of_planted_banner_resources
 |stat1_min                        = 16
 |stat1_max                        = 25
 |spawn_weight1_tag                = dex_animal_charm

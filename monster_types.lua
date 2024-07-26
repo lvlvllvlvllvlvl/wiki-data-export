@@ -721,7 +721,7 @@ local data = {	{
 	{
 		id = "Zombie", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -729,7 +729,7 @@ local data = {	{
 	{
 		id = "ZombieTutorial", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -737,7 +737,7 @@ local data = {	{
 	{
 		id = "ZombieTolman", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -745,7 +745,7 @@ local data = {	{
 	{
 		id = "ZombieTolmanFast", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -753,7 +753,7 @@ local data = {	{
 	{
 		id = "BlightZombieBossMinion", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -761,7 +761,7 @@ local data = {	{
 	{
 		id = "ZombieDoedreMinion", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -769,7 +769,7 @@ local data = {	{
 	{
 		id = "ZombieStrand", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -777,7 +777,7 @@ local data = {	{
 	{
 		id = "ZombieChampion", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -785,7 +785,7 @@ local data = {	{
 	{
 		id = "ZombieBossTolman", 
 		monster_resistance_id = "ColdBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -793,7 +793,7 @@ local data = {	{
 	{
 		id = "ZombieBossTolmanMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -801,7 +801,7 @@ local data = {	{
 	{
 		id = "ZombieBossMinion", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -809,7 +809,7 @@ local data = {	{
 	{
 		id = "ZombieBossMinionFast", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -817,7 +817,7 @@ local data = {	{
 	{
 		id = "ProphecyDoedreMinionBasic", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -825,7 +825,7 @@ local data = {	{
 	{
 		id = "ProphecyDoedreMinionSupport", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -833,7 +833,7 @@ local data = {	{
 	{
 		id = "ProphecyDoedreMinionChampion", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -841,7 +841,7 @@ local data = {	{
 	{
 		id = "BlackguardZombieBossMinion", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -849,7 +849,7 @@ local data = {	{
 	{
 		id = "ZombieRoyale", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -857,7 +857,7 @@ local data = {	{
 	{
 		id = "RaisedZombie", 
 		monster_resistance_id = "MinionZombie", 
-		armour_multiplier = 0.7, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.4, 
@@ -865,7 +865,7 @@ local data = {	{
 	{
 		id = "IntMissionRaisedZombie", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.7, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -873,7 +873,7 @@ local data = {	{
 	{
 		id = "ArenaChampionZombie", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -889,7 +889,7 @@ local data = {	{
 	{
 		id = "SkeletonMelee", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -897,7 +897,7 @@ local data = {	{
 	{
 		id = "SkeletonMeleeAtlasUber", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -905,7 +905,7 @@ local data = {	{
 	{
 		id = "SkeletonMeleeDelve", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -913,7 +913,7 @@ local data = {	{
 	{
 		id = "SkeletonMeleePitchfork", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -921,7 +921,7 @@ local data = {	{
 	{
 		id = "SkeletonMeleeRomanSpear", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -929,7 +929,7 @@ local data = {	{
 	{
 		id = "SkeletonBanditMelee", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -937,7 +937,7 @@ local data = {	{
 	{
 		id = "SkeletonBanditMeleeDelve", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -953,7 +953,7 @@ local data = {	{
 	{
 		id = "SkeletonMeleeScytheCyclone", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.1, 
@@ -961,7 +961,7 @@ local data = {	{
 	{
 		id = "SkeletonMeleeRoyale", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -969,7 +969,7 @@ local data = {	{
 	{
 		id = "ScarecrowMelee", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -977,7 +977,7 @@ local data = {	{
 	{
 		id = "ScarecrowMeleeReach", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -985,7 +985,7 @@ local data = {	{
 	{
 		id = "ScarecrowMeleeChampionType", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -993,7 +993,7 @@ local data = {	{
 	{
 		id = "ScarecrowMeleeBoss", 
 		monster_resistance_id = "LightningBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -1049,7 +1049,7 @@ local data = {	{
 	{
 		id = "ConstructRangedArmouredBossSideArea", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1065,7 +1065,7 @@ local data = {	{
 	{
 		id = "SkeletonMeleeColdResist", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -1073,7 +1073,7 @@ local data = {	{
 	{
 		id = "SkeletonMeleeLightResist", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -1081,7 +1081,7 @@ local data = {	{
 	{
 		id = "SkeletonMeleeSawbones", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -1089,7 +1089,7 @@ local data = {	{
 	{
 		id = "SkeletonAbyss", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -1097,7 +1097,7 @@ local data = {	{
 	{
 		id = "SkeletonAbyssDelve", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -1105,7 +1105,7 @@ local data = {	{
 	{
 		id = "SkeletonAbyssLance", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -1113,7 +1113,7 @@ local data = {	{
 	{
 		id = "SkeletonAbyssLanceDelve", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -1145,7 +1145,7 @@ local data = {	{
 	{
 		id = "SkeletonMeleeFire", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.3, 
@@ -1153,7 +1153,7 @@ local data = {	{
 	{
 		id = "SkeletonMeleeFireMaps", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.3, 
@@ -1161,7 +1161,7 @@ local data = {	{
 	{
 		id = "IntMissionSkeletonMeleeFire", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.3, 
@@ -1201,7 +1201,7 @@ local data = {	{
 	{
 		id = "SkeletonMeleeCold", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.3, 
@@ -1225,7 +1225,7 @@ local data = {	{
 	{
 		id = "SkeletonMeleeLightning", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.65, 
 		damage_spread = 0.3, 
@@ -1233,7 +1233,7 @@ local data = {	{
 	{
 		id = "SkeletonMeleeLightning2", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.65, 
 		damage_spread = 0.3, 
@@ -1257,7 +1257,7 @@ local data = {	{
 	{
 		id = "SkeletonMeleeLightningDescent2", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.65, 
 		damage_spread = 0.3, 
@@ -1265,7 +1265,7 @@ local data = {	{
 	{
 		id = "SkeletonMeleeFairgravesCrew", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -1273,7 +1273,7 @@ local data = {	{
 	{
 		id = "SkeletonMeleeFairgravesCrewFast", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -1281,7 +1281,7 @@ local data = {	{
 	{
 		id = "SkeletonLarge", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1289,7 +1289,7 @@ local data = {	{
 	{
 		id = "SkeletonLargeBossInvasion", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1305,7 +1305,7 @@ local data = {	{
 	{
 		id = "SkeletonLargeDelve", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1313,7 +1313,7 @@ local data = {	{
 	{
 		id = "ConstructLarge", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1321,7 +1321,7 @@ local data = {	{
 	{
 		id = "ConstructLarge2", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.7, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.3, 
 		damage_spread = 0.2, 
@@ -1329,7 +1329,7 @@ local data = {	{
 	{
 		id = "ConstructLargeBossType", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1337,7 +1337,7 @@ local data = {	{
 	{
 		id = "SkeletonLargeBossSideArea", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1345,7 +1345,7 @@ local data = {	{
 	{
 		id = "SkeletonLargeBossLake", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1353,7 +1353,7 @@ local data = {	{
 	{
 		id = "SkeletonMeleeBossCrossroads", 
 		monster_resistance_id = "ColdBoss", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1361,7 +1361,7 @@ local data = {	{
 	{
 		id = "Fairgraves", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1369,7 +1369,7 @@ local data = {	{
 	{
 		id = "DelveSkeletonBoss", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1377,7 +1377,7 @@ local data = {	{
 	{
 		id = "FairgravesMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1385,7 +1385,7 @@ local data = {	{
 	{
 		id = "FairgravesTreasure", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1393,7 +1393,7 @@ local data = {	{
 	{
 		id = "FairgravesTreasurePinata", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1401,7 +1401,7 @@ local data = {	{
 	{
 		id = "SkeletonCasterFire", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -1409,7 +1409,7 @@ local data = {	{
 	{
 		id = "ConstructCasterFire", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -1441,7 +1441,7 @@ local data = {	{
 	{
 		id = "ConstructCasterCold", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -1465,7 +1465,7 @@ local data = {	{
 	{
 		id = "SkeletonCasterMalachai", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -1473,7 +1473,7 @@ local data = {	{
 	{
 		id = "ConstructCasterLightning", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -1513,7 +1513,7 @@ local data = {	{
 	{
 		id = "SkeletonBoss", 
 		monster_resistance_id = "ColdBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1521,7 +1521,7 @@ local data = {	{
 	{
 		id = "SkeletonBossLake", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1529,7 +1529,7 @@ local data = {	{
 	{
 		id = "SkeletonBossMapChatters", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1553,7 +1553,7 @@ local data = {	{
 	{
 		id = "ProphecySkeletonBossFire", 
 		monster_resistance_id = "FireBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1561,7 +1561,7 @@ local data = {	{
 	{
 		id = "ProphecySkeletonBossCold", 
 		monster_resistance_id = "ColdBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1569,7 +1569,7 @@ local data = {	{
 	{
 		id = "ProphecySkeletonBossLightning", 
 		monster_resistance_id = "LightningBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1577,7 +1577,7 @@ local data = {	{
 	{
 		id = "SkeletonBossDescent", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1585,7 +1585,7 @@ local data = {	{
 	{
 		id = "SkeletonMeleeBossInvasion", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1593,7 +1593,7 @@ local data = {	{
 	{
 		id = "SkeletonBossEndlessLedge", 
 		monster_resistance_id = "ColdBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1601,7 +1601,7 @@ local data = {	{
 	{
 		id = "SkeletonMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1609,7 +1609,7 @@ local data = {	{
 	{
 		id = "SkeletonBurnBossMinion", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -1649,7 +1649,7 @@ local data = {	{
 	{
 		id = "SkeletonSoldierMeleeBossSideArea", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -1665,7 +1665,7 @@ local data = {	{
 	{
 		id = "SkeletonSoldierRanged", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1673,7 +1673,7 @@ local data = {	{
 	{
 		id = "SkeletonSoldierRangedChampion", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1681,7 +1681,7 @@ local data = {	{
 	{
 		id = "SkeletonSoldierRangedChampionAtlasUber", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1697,7 +1697,7 @@ local data = {	{
 	{
 		id = "SkeletonSoldierRangedBoss", 
 		monster_resistance_id = "LightningBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1705,7 +1705,7 @@ local data = {	{
 	{
 		id = "SkeletonSoldierRangedBossClone", 
 		monster_resistance_id = "LightningBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1713,7 +1713,7 @@ local data = {	{
 	{
 		id = "SkeletonSoldierRangedMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1721,7 +1721,7 @@ local data = {	{
 	{
 		id = "SkeletonSoldierRangedMapBoss2", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1729,7 +1729,7 @@ local data = {	{
 	{
 		id = "SkeletonSoldierRangedMapBossClone", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1737,7 +1737,7 @@ local data = {	{
 	{
 		id = "VollBoss", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1745,7 +1745,7 @@ local data = {	{
 	{
 		id = "VollMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1753,7 +1753,7 @@ local data = {	{
 	{
 		id = "VollMapBossAtlasUber", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1761,7 +1761,7 @@ local data = {	{
 	{
 		id = "VollMapBoss2", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1873,7 +1873,7 @@ local data = {	{
 	{
 		id = "Malachai", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -1881,7 +1881,7 @@ local data = {	{
 	{
 		id = "MalachaiMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -1889,7 +1889,7 @@ local data = {	{
 	{
 		id = "MalachaiMapBossShaper", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -1897,7 +1897,7 @@ local data = {	{
 	{
 		id = "MalachaiMapBossSimplified", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -1905,7 +1905,7 @@ local data = {	{
 	{
 		id = "DaressoBoss", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -1913,7 +1913,7 @@ local data = {	{
 	{
 		id = "DaressoBossMerciless", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -1921,7 +1921,7 @@ local data = {	{
 	{
 		id = "DaressoMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -1929,7 +1929,7 @@ local data = {	{
 	{
 		id = "DaressoProphecy", 
 		monster_resistance_id = "ColdBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -1937,7 +1937,7 @@ local data = {	{
 	{
 		id = "Bandit", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1945,7 +1945,7 @@ local data = {	{
 	{
 		id = "BanditDockhand", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1953,7 +1953,7 @@ local data = {	{
 	{
 		id = "BanditChestGuard", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1961,7 +1961,7 @@ local data = {	{
 	{
 		id = "BanditLordMinion", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1977,7 +1977,7 @@ local data = {	{
 	{
 		id = "BanditShaped", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1985,7 +1985,7 @@ local data = {	{
 	{
 		id = "BanditChampion", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -1993,7 +1993,7 @@ local data = {	{
 	{
 		id = "BanditBoar", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2001,7 +2001,7 @@ local data = {	{
 	{
 		id = "Hostage", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2009,7 +2009,7 @@ local data = {	{
 	{
 		id = "BanditBoss", 
 		monster_resistance_id = "ElementalBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2017,7 +2017,7 @@ local data = {	{
 	{
 		id = "BanditBossInvasion", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2025,7 +2025,7 @@ local data = {	{
 	{
 		id = "BanditMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2033,7 +2033,7 @@ local data = {	{
 	{
 		id = "BanditBossDescent", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2041,7 +2041,7 @@ local data = {	{
 	{
 		id = "BanditBossEndlessLedge", 
 		monster_resistance_id = "ElementalBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2049,7 +2049,7 @@ local data = {	{
 	{
 		id = "BanditMartyr", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2089,7 +2089,7 @@ local data = {	{
 	{
 		id = "BanditDockChampionType", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2097,7 +2097,7 @@ local data = {	{
 	{
 		id = "BanditTwoHandedWeaponShaped", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2105,7 +2105,7 @@ local data = {	{
 	{
 		id = "BanditTwoHandedWeaponBear", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2129,7 +2129,7 @@ local data = {	{
 	{
 		id = "BanditAnimalTrioBoss", 
 		monster_resistance_id = "ElementalBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.8, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2137,7 +2137,7 @@ local data = {	{
 	{
 		id = "BanditAnimalTrioBossLake", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.8, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2145,7 +2145,7 @@ local data = {	{
 	{
 		id = "BanditAnimalTrioBossSpawned", 
 		monster_resistance_id = "ElementalBoss", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2289,7 +2289,7 @@ local data = {	{
 	{
 		id = "BanditBow", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2313,7 +2313,7 @@ local data = {	{
 	{
 		id = "BanditBowChampion", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2353,7 +2353,7 @@ local data = {	{
 	{
 		id = "BanditBowMapBossFire", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2361,7 +2361,7 @@ local data = {	{
 	{
 		id = "BanditBowStag", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2369,7 +2369,7 @@ local data = {	{
 	{
 		id = "Goatman", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2377,7 +2377,7 @@ local data = {	{
 	{
 		id = "GoatmanAbberath", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2385,7 +2385,7 @@ local data = {	{
 	{
 		id = "MountainGoatman", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2393,7 +2393,7 @@ local data = {	{
 	{
 		id = "GoatmanChimera", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2401,7 +2401,7 @@ local data = {	{
 	{
 		id = "GoatmanChimeraTough", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2409,7 +2409,7 @@ local data = {	{
 	{
 		id = "GoatmanChimeraBoss", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2417,7 +2417,7 @@ local data = {	{
 	{
 		id = "GoatmanMapSubBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2425,7 +2425,7 @@ local data = {	{
 	{
 		id = "GoatmanMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2433,7 +2433,7 @@ local data = {	{
 	{
 		id = "GoatmanMapBossAtlasUber", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2441,7 +2441,7 @@ local data = {	{
 	{
 		id = "GoatmanMaps", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2449,7 +2449,7 @@ local data = {	{
 	{
 		id = "GoatmanBossInvasion", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2457,7 +2457,7 @@ local data = {	{
 	{
 		id = "GoatmanBossNavali", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2465,7 +2465,7 @@ local data = {	{
 	{
 		id = "GoatmanBossSideArea", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2473,7 +2473,7 @@ local data = {	{
 	{
 		id = "GoatmanBossSideAreaLowbie", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2521,7 +2521,7 @@ local data = {	{
 	{
 		id = "MountainGoatmanChampion", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2529,7 +2529,7 @@ local data = {	{
 	{
 		id = "MountainGoatmanChampionAtlasUber", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2601,7 +2601,7 @@ local data = {	{
 	{
 		id = "Lion", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2609,7 +2609,7 @@ local data = {	{
 	{
 		id = "LionAtlasUber", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2617,7 +2617,7 @@ local data = {	{
 	{
 		id = "LionRyslathaMinion", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2625,7 +2625,7 @@ local data = {	{
 	{
 		id = "LionWolf", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2633,7 +2633,7 @@ local data = {	{
 	{
 		id = "LionWolfChampion", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2641,7 +2641,7 @@ local data = {	{
 	{
 		id = "LionWolfDelve", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2649,7 +2649,7 @@ local data = {	{
 	{
 		id = "LionWolfDelveMedium", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2657,7 +2657,7 @@ local data = {	{
 	{
 		id = "LionWolfDelveSmall", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2665,7 +2665,7 @@ local data = {	{
 	{
 		id = "LionWolfChampionDelve", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2673,7 +2673,7 @@ local data = {	{
 	{
 		id = "LionAlpha", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2681,7 +2681,7 @@ local data = {	{
 	{
 		id = "LionChimera", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2689,7 +2689,7 @@ local data = {	{
 	{
 		id = "LionChimeraTough", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2697,7 +2697,7 @@ local data = {	{
 	{
 		id = "LionChimeraBoss", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2705,7 +2705,7 @@ local data = {	{
 	{
 		id = "LionBoss", 
 		monster_resistance_id = "FireBoss", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2713,7 +2713,7 @@ local data = {	{
 	{
 		id = "LionBossPrisonersGate", 
 		monster_resistance_id = "FireBoss", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2721,7 +2721,7 @@ local data = {	{
 	{
 		id = "LionBossInvasion", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2729,7 +2729,7 @@ local data = {	{
 	{
 		id = "LionBossDexMission", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2737,7 +2737,7 @@ local data = {	{
 	{
 		id = "LionBossEndlessLedge", 
 		monster_resistance_id = "FireBoss", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2745,7 +2745,7 @@ local data = {	{
 	{
 		id = "LionTalisman", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2753,7 +2753,7 @@ local data = {	{
 	{
 		id = "SummonedWolfRigwald", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2825,7 +2825,7 @@ local data = {	{
 	{
 		id = "Hound", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2833,7 +2833,7 @@ local data = {	{
 	{
 		id = "Hound2", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2841,7 +2841,7 @@ local data = {	{
 	{
 		id = "HoundBoss", 
 		monster_resistance_id = "FireBoss", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2849,7 +2849,7 @@ local data = {	{
 	{
 		id = "HoundBoss2", 
 		monster_resistance_id = "FireBoss", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2857,7 +2857,7 @@ local data = {	{
 	{
 		id = "HoundMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2865,7 +2865,7 @@ local data = {	{
 	{
 		id = "AlbinoRhoa", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2873,7 +2873,7 @@ local data = {	{
 	{
 		id = "Rhoa", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2881,7 +2881,7 @@ local data = {	{
 	{
 		id = "RhoaUntaintedBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2889,7 +2889,7 @@ local data = {	{
 	{
 		id = "RhoaDexMissionMinion", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2897,7 +2897,7 @@ local data = {	{
 	{
 		id = "RhoaDexMissionBoss", 
 		monster_resistance_id = "ColdBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2905,7 +2905,7 @@ local data = {	{
 	{
 		id = "RhoaTalisman", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2913,7 +2913,7 @@ local data = {	{
 	{
 		id = "ProphecyRhoa", 
 		monster_resistance_id = "ColdBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2921,7 +2921,7 @@ local data = {	{
 	{
 		id = "Spiker", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2929,7 +2929,7 @@ local data = {	{
 	{
 		id = "SpikerAtlasUber", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2937,7 +2937,7 @@ local data = {	{
 	{
 		id = "SpikerChrome", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2945,7 +2945,7 @@ local data = {	{
 	{
 		id = "SpikerMaps", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2953,7 +2953,7 @@ local data = {	{
 	{
 		id = "SpikerBossInvasion", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2961,7 +2961,7 @@ local data = {	{
 	{
 		id = "BloodChieftain", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2969,7 +2969,7 @@ local data = {	{
 	{
 		id = "BloodChieftainUpdatedRig", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2977,7 +2977,7 @@ local data = {	{
 	{
 		id = "BloodChieftainUntaintedBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2985,7 +2985,7 @@ local data = {	{
 	{
 		id = "BloodChieftainDexMissionBoss", 
 		monster_resistance_id = "FireBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -2993,7 +2993,7 @@ local data = {	{
 	{
 		id = "BloodChieftainBossSideArea", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -3009,7 +3009,7 @@ local data = {	{
 	{
 		id = "BloodChieftainBossInvasion", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -3017,7 +3017,7 @@ local data = {	{
 	{
 		id = "BloodChieftainBossLake", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -3025,7 +3025,7 @@ local data = {	{
 	{
 		id = "BloodChieftainMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -3033,7 +3033,7 @@ local data = {	{
 	{
 		id = "BloodChieftainBossEndlessLedge", 
 		monster_resistance_id = "FireBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -3041,7 +3041,7 @@ local data = {	{
 	{
 		id = "BloodChieftainTalisman", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -3049,7 +3049,7 @@ local data = {	{
 	{
 		id = "BloodChieftainParasite", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -3057,7 +3057,7 @@ local data = {	{
 	{
 		id = "BloodChieftainParasiteBoss", 
 		monster_resistance_id = "ColdBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -3065,7 +3065,7 @@ local data = {	{
 	{
 		id = "BloodChieftainUltimatum", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -3905,7 +3905,7 @@ local data = {	{
 	{
 		id = "ZombieBoss", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -3913,7 +3913,7 @@ local data = {	{
 	{
 		id = "ZombieBossSpecialEvent", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -3921,7 +3921,7 @@ local data = {	{
 	{
 		id = "ZombieBossUniqueMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -3929,7 +3929,7 @@ local data = {	{
 	{
 		id = "ZombieBossNormal", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -3937,7 +3937,7 @@ local data = {	{
 	{
 		id = "ZombieBossMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -3977,7 +3977,7 @@ local data = {	{
 	{
 		id = "StrdexBanditBoss", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -3985,7 +3985,7 @@ local data = {	{
 	{
 		id = "StrdexBanditBossZombie", 
 		monster_resistance_id = "ElementalBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -3993,7 +3993,7 @@ local data = {	{
 	{
 		id = "StrDexBanditBossMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4001,7 +4001,7 @@ local data = {	{
 	{
 		id = "StrdexBanditBossEndlessLedge", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4097,7 +4097,7 @@ local data = {	{
 	{
 		id = "SkeletonBanditRanged", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4105,7 +4105,7 @@ local data = {	{
 	{
 		id = "SkeletonBanditRangedDelve", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4113,7 +4113,7 @@ local data = {	{
 	{
 		id = "ConstructRanged", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4209,7 +4209,7 @@ local data = {	{
 	{
 		id = "Beast", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4217,7 +4217,7 @@ local data = {	{
 	{
 		id = "BeastCharge", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4225,7 +4225,7 @@ local data = {	{
 	{
 		id = "BeastChargeAtlasUber", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4233,7 +4233,7 @@ local data = {	{
 	{
 		id = "SkeletalBeast", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4241,7 +4241,7 @@ local data = {	{
 	{
 		id = "SkeletalBeastMap", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4249,7 +4249,7 @@ local data = {	{
 	{
 		id = "SkeletalBeastMapAtlasUber", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4257,7 +4257,7 @@ local data = {	{
 	{
 		id = "SkeletalBeastBossInvasion", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4265,7 +4265,7 @@ local data = {	{
 	{
 		id = "SkeletalBeastBossDexMission", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4273,7 +4273,7 @@ local data = {	{
 	{
 		id = "BeastBoss", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4289,7 +4289,7 @@ local data = {	{
 	{
 		id = "BeastBossTalisman", 
 		monster_resistance_id = "ColdBoss", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4297,7 +4297,7 @@ local data = {	{
 	{
 		id = "BeastBossProphecy", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4305,7 +4305,7 @@ local data = {	{
 	{
 		id = "BeastBossInvasion", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4313,7 +4313,7 @@ local data = {	{
 	{
 		id = "BeastBossDexMission", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4321,7 +4321,7 @@ local data = {	{
 	{
 		id = "BeastMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4329,7 +4329,7 @@ local data = {	{
 	{
 		id = "BeastMapBossAtlasUber", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4337,7 +4337,7 @@ local data = {	{
 	{
 		id = "BeastBossEndlessLedge", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4345,7 +4345,7 @@ local data = {	{
 	{
 		id = "BeastTalisman", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4353,7 +4353,7 @@ local data = {	{
 	{
 		id = "FourLeggedDemon", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4361,7 +4361,7 @@ local data = {	{
 	{
 		id = "FourLeggedDemonUniqueMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4369,7 +4369,7 @@ local data = {	{
 	{
 		id = "FourLeggedDemonBossDescent", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4377,7 +4377,7 @@ local data = {	{
 	{
 		id = "CityStalker", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4385,7 +4385,7 @@ local data = {	{
 	{
 		id = "CityStalkerAtlasUber", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4393,7 +4393,7 @@ local data = {	{
 	{
 		id = "AbyssCityStalker", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4401,7 +4401,7 @@ local data = {	{
 	{
 		id = "CityStalkerSpace", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4409,7 +4409,7 @@ local data = {	{
 	{
 		id = "CityStalkerColdRefinery", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4417,7 +4417,7 @@ local data = {	{
 	{
 		id = "CityStalkerLightningRefinery", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4425,7 +4425,7 @@ local data = {	{
 	{
 		id = "CityStalkerShaped", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4433,7 +4433,7 @@ local data = {	{
 	{
 		id = "CityStalkerBossInvasion", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4489,7 +4489,7 @@ local data = {	{
 	{
 		id = "CitystalkerProphecy", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4513,7 +4513,7 @@ local data = {	{
 	{
 		id = "CityStalkerMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4521,7 +4521,7 @@ local data = {	{
 	{
 		id = "CityStalkerMapBossPier", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4529,7 +4529,7 @@ local data = {	{
 	{
 		id = "CityStalkerMapBossRift", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4537,7 +4537,7 @@ local data = {	{
 	{
 		id = "CityStalkerShaperMiniBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4545,7 +4545,7 @@ local data = {	{
 	{
 		id = "CityStalkerShaperQuestBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4553,7 +4553,7 @@ local data = {	{
 	{
 		id = "CityStalker2", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4561,7 +4561,7 @@ local data = {	{
 	{
 		id = "CityStalkerNecropolis", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4889,7 +4889,7 @@ local data = {	{
 	{
 		id = "IncaShadowMonster", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4897,7 +4897,7 @@ local data = {	{
 	{
 		id = "IncaShadowMonsterUniqueMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4905,7 +4905,7 @@ local data = {	{
 	{
 		id = "IncaShadowMonsterMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4913,7 +4913,7 @@ local data = {	{
 	{
 		id = "IncaShadowMonsterAtziri", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4921,7 +4921,7 @@ local data = {	{
 	{
 		id = "IncaShadowMonsterDoryani", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -4929,7 +4929,7 @@ local data = {	{
 	{
 		id = "IncaShadowMonsterProphecy", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5009,7 +5009,7 @@ local data = {	{
 	{
 		id = "BigRhoa", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5017,7 +5017,7 @@ local data = {	{
 	{
 		id = "BigRhoaBoss", 
 		monster_resistance_id = "ColdBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5025,7 +5025,7 @@ local data = {	{
 	{
 		id = "BigRhoaBossInvasion", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5033,7 +5033,7 @@ local data = {	{
 	{
 		id = "BigRhoaBossEndlessLedge", 
 		monster_resistance_id = "ColdBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5041,7 +5041,7 @@ local data = {	{
 	{
 		id = "BigRhoaMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5049,7 +5049,7 @@ local data = {	{
 	{
 		id = "BigRhoaProphecyBossSummoned", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5057,7 +5057,7 @@ local data = {	{
 	{
 		id = "BigRhoaProphecyBossSummonedMap", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5065,7 +5065,7 @@ local data = {	{
 	{
 		id = "RhoaUniqueSummoned", 
 		monster_resistance_id = "MinionGeneric", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5153,7 +5153,7 @@ local data = {	{
 	{
 		id = "SpiderMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -5161,7 +5161,7 @@ local data = {	{
 	{
 		id = "SpiderMapBossSimplified", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -5169,7 +5169,7 @@ local data = {	{
 	{
 		id = "SpiderBossDescent", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -5241,7 +5241,7 @@ local data = {	{
 	{
 		id = "GuardBandit", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5249,7 +5249,7 @@ local data = {	{
 	{
 		id = "GuardBanditMap", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5273,7 +5273,7 @@ local data = {	{
 	{
 		id = "ZombiePusPuke", 
 		monster_resistance_id = "ColdBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5281,7 +5281,7 @@ local data = {	{
 	{
 		id = "ZombiePusPukeBossInvasion", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5289,7 +5289,7 @@ local data = {	{
 	{
 		id = "AxisSoldier", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5297,7 +5297,7 @@ local data = {	{
 	{
 		id = "AxisSoldierTolman", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5305,7 +5305,7 @@ local data = {	{
 	{
 		id = "AxisSoldierSolarisLunaris", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5313,7 +5313,7 @@ local data = {	{
 	{
 		id = "AxisSoldierElite", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5321,7 +5321,7 @@ local data = {	{
 	{
 		id = "AxisSoldierEliteTolman", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5329,7 +5329,7 @@ local data = {	{
 	{
 		id = "AxisSoldierEliteGravicius", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5337,7 +5337,7 @@ local data = {	{
 	{
 		id = "AxisSoldierEliteDominusBoss", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5345,7 +5345,7 @@ local data = {	{
 	{
 		id = "AxisSoldierEliteLunaris", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5353,7 +5353,7 @@ local data = {	{
 	{
 		id = "AxisSoldierEliteLunarisChampion", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5361,7 +5361,7 @@ local data = {	{
 	{
 		id = "AxisSoldierEliteSolaris", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5369,7 +5369,7 @@ local data = {	{
 	{
 		id = "AxisSoldierEliteSolarisChampion", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5377,7 +5377,7 @@ local data = {	{
 	{
 		id = "AxisSoldierEliteBoss", 
 		monster_resistance_id = "ElementalBoss", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5385,7 +5385,7 @@ local data = {	{
 	{
 		id = "AxisSoldierEliteBossLake", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5393,7 +5393,7 @@ local data = {	{
 	{
 		id = "AxisSoldierBattlefrontBoss", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5401,7 +5401,7 @@ local data = {	{
 	{
 		id = "AxisSoldierBattlefrontBossLake", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5409,7 +5409,7 @@ local data = {	{
 	{
 		id = "AxisSoldierBossInvasion", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5425,7 +5425,7 @@ local data = {	{
 	{
 		id = "AxisSoldierEliteMapBoss2", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5433,7 +5433,7 @@ local data = {	{
 	{
 		id = "DominatingBlowMinion", 
 		monster_resistance_id = "MinionGeneric", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5441,7 +5441,7 @@ local data = {	{
 	{
 		id = "DominatingBlowMinionVaal", 
 		monster_resistance_id = "MinionGeneric", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5449,7 +5449,7 @@ local data = {	{
 	{
 		id = "DominatingBlowMinionMonster", 
 		monster_resistance_id = "MinionGeneric", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5457,7 +5457,7 @@ local data = {	{
 	{
 		id = "BetrayalElreonSentinel", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -5465,7 +5465,7 @@ local data = {	{
 	{
 		id = "HeraldOfLightMinion", 
 		monster_resistance_id = "MinionGeneric", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5473,7 +5473,7 @@ local data = {	{
 	{
 		id = "RadianceSentinel", 
 		monster_resistance_id = "MinionGeneric", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5481,7 +5481,7 @@ local data = {	{
 	{
 		id = "RadianceSentinelHardMode", 
 		monster_resistance_id = "MinionGeneric", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5497,7 +5497,7 @@ local data = {	{
 	{
 		id = "AxisCaster", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -5505,7 +5505,7 @@ local data = {	{
 	{
 		id = "AxisCasterTolman", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -5513,7 +5513,7 @@ local data = {	{
 	{
 		id = "AxisCasterGravicius", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -5521,7 +5521,7 @@ local data = {	{
 	{
 		id = "AxisCasterLunaris", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -5529,7 +5529,7 @@ local data = {	{
 	{
 		id = "AxisCasterSolaris", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -5545,7 +5545,7 @@ local data = {	{
 	{
 		id = "AxisCasterChampionLunaris", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -5553,7 +5553,7 @@ local data = {	{
 	{
 		id = "AxisCasterChampionSolaris", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -5561,7 +5561,7 @@ local data = {	{
 	{
 		id = "AxisCasterRestoreLife", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -5569,7 +5569,7 @@ local data = {	{
 	{
 		id = "AxisCasterBoss", 
 		monster_resistance_id = "LightningBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -5577,7 +5577,7 @@ local data = {	{
 	{
 		id = "AxisCasterBossInvasion", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -5585,7 +5585,7 @@ local data = {	{
 	{
 		id = "AxisCasterMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -5593,7 +5593,7 @@ local data = {	{
 	{
 		id = "AxisCasterMapBoss2", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.5, 
 		damage_spread = 0.2, 
@@ -5601,7 +5601,7 @@ local data = {	{
 	{
 		id = "AxisSoldierMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5609,7 +5609,7 @@ local data = {	{
 	{
 		id = "AxisGeneral", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5617,7 +5617,7 @@ local data = {	{
 	{
 		id = "AxisGeneralMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5625,7 +5625,7 @@ local data = {	{
 	{
 		id = "AxisGeneralMapBoss2", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5633,7 +5633,7 @@ local data = {	{
 	{
 		id = "AxisGeneralBossDescent", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5641,7 +5641,7 @@ local data = {	{
 	{
 		id = "AxisGeneralBossDescent2", 
 		monster_resistance_id = "FireBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5649,7 +5649,7 @@ local data = {	{
 	{
 		id = "AxisLieutenant", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5657,7 +5657,7 @@ local data = {	{
 	{
 		id = "AxisLieutenantWesternForest", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5665,7 +5665,7 @@ local data = {	{
 	{
 		id = "AxisLieutenantMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5873,7 +5873,7 @@ local data = {	{
 	{
 		id = "Snake", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5881,7 +5881,7 @@ local data = {	{
 	{
 		id = "SnakeParasite", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5889,7 +5889,7 @@ local data = {	{
 	{
 		id = "SnakeChimera", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5897,7 +5897,7 @@ local data = {	{
 	{
 		id = "SnakeChimeraTough", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5905,7 +5905,7 @@ local data = {	{
 	{
 		id = "SnakeChimeraBoss", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5913,7 +5913,7 @@ local data = {	{
 	{
 		id = "SnakeTalisman", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5921,7 +5921,7 @@ local data = {	{
 	{
 		id = "SnakeDexMissionMinion", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5929,7 +5929,7 @@ local data = {	{
 	{
 		id = "SnakeDexMissionBoss", 
 		monster_resistance_id = "LightningBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5937,7 +5937,7 @@ local data = {	{
 	{
 		id = "SnakeMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5945,7 +5945,7 @@ local data = {	{
 	{
 		id = "SnakeBossDescent", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5953,7 +5953,7 @@ local data = {	{
 	{
 		id = "SnakeScorpion", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5961,7 +5961,7 @@ local data = {	{
 	{
 		id = "SnakeScorpion2", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5969,7 +5969,7 @@ local data = {	{
 	{
 		id = "SnakeScorpion2AtlasUber", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5977,7 +5977,7 @@ local data = {	{
 	{
 		id = "SnakeScorpionBossInvasion", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5985,7 +5985,7 @@ local data = {	{
 	{
 		id = "SnakeScorpionBossSideArea", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -5993,7 +5993,7 @@ local data = {	{
 	{
 		id = "SnakeBoss", 
 		monster_resistance_id = "FireChaosBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -6001,7 +6001,7 @@ local data = {	{
 	{
 		id = "SnakeSlither", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -6009,7 +6009,7 @@ local data = {	{
 	{
 		id = "SnakeSlitherBossMinion", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -6017,7 +6017,7 @@ local data = {	{
 	{
 		id = "SnakeSlitherSideArea", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -6025,7 +6025,7 @@ local data = {	{
 	{
 		id = "SnakeSlitherAtziri", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -6033,7 +6033,7 @@ local data = {	{
 	{
 		id = "SnakeSlitherDelve", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -6041,7 +6041,7 @@ local data = {	{
 	{
 		id = "SnakeSlitherBossInvasion", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -6049,7 +6049,7 @@ local data = {	{
 	{
 		id = "SnakeSlitherBossLake", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -6057,7 +6057,7 @@ local data = {	{
 	{
 		id = "SnakeSlitherBossRiverways", 
 		monster_resistance_id = "FireChaosBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -6065,7 +6065,7 @@ local data = {	{
 	{
 		id = "SnakeSlitherBossSideArea", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -6081,7 +6081,7 @@ local data = {	{
 	{
 		id = "SnakeProphecyBossSummoned", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -6097,7 +6097,7 @@ local data = {	{
 	{
 		id = "SnakeUniqueSummoned", 
 		monster_resistance_id = "MinionGeneric", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -6177,7 +6177,7 @@ local data = {	{
 	{
 		id = "GrapplerBossInvasion", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.25, 
 		damage_spread = 0.2, 
@@ -6185,7 +6185,7 @@ local data = {	{
 	{
 		id = "GrapplerBossLake", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.25, 
 		damage_spread = 0.2, 
@@ -6465,7 +6465,7 @@ local data = {	{
 	{
 		id = "TotemMapBossCold", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.0, 
@@ -6473,7 +6473,7 @@ local data = {	{
 	{
 		id = "TotemMapBossLightning", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.0, 
@@ -6481,7 +6481,7 @@ local data = {	{
 	{
 		id = "TotemMapBossColdPlateau", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.0, 
@@ -6489,7 +6489,7 @@ local data = {	{
 	{
 		id = "TotemMapBossLightningPlateau", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.0, 
@@ -6497,7 +6497,7 @@ local data = {	{
 	{
 		id = "BreachTotemCold", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.0, 
@@ -6505,7 +6505,7 @@ local data = {	{
 	{
 		id = "BreachBossTotemCold", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.0, 
@@ -6513,7 +6513,7 @@ local data = {	{
 	{
 		id = "GuardianArenaReefColdTotem", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.0, 
@@ -6585,7 +6585,7 @@ local data = {	{
 	{
 		id = "MonsterTotemMapSubBossLegends", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.0, 
@@ -6713,7 +6713,7 @@ local data = {	{
 	{
 		id = "Pope", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.24, 
@@ -6721,7 +6721,7 @@ local data = {	{
 	{
 		id = "PopeMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.24, 
@@ -6729,7 +6729,7 @@ local data = {	{
 	{
 		id = "DominusDemon", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -6737,7 +6737,7 @@ local data = {	{
 	{
 		id = "DominusDemonMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -6993,7 +6993,7 @@ local data = {	{
 	{
 		id = "NecromancerRaisedZombie", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -7001,7 +7001,7 @@ local data = {	{
 	{
 		id = "NecromancerRaisedZombieProject", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -7009,7 +7009,7 @@ local data = {	{
 	{
 		id = "ZombieCauldronZerg", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -7017,7 +7017,7 @@ local data = {	{
 	{
 		id = "NecromancerRaisedZombieMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -7025,7 +7025,7 @@ local data = {	{
 	{
 		id = "NecromancerRaisedZombieSewerBoss", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -7033,7 +7033,7 @@ local data = {	{
 	{
 		id = "NecromancerRaisedZombiePack", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -7113,7 +7113,7 @@ local data = {	{
 	{
 		id = "StatueBow", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -7121,7 +7121,7 @@ local data = {	{
 	{
 		id = "StatueBowBrittle", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -7345,7 +7345,7 @@ local data = {	{
 	{
 		id = "UndeadRhoa", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -7353,7 +7353,7 @@ local data = {	{
 	{
 		id = "UndeadRhoaDelve", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -7361,7 +7361,7 @@ local data = {	{
 	{
 		id = "UndeadRhoaDelveSmall", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -7369,7 +7369,7 @@ local data = {	{
 	{
 		id = "UndeadRhoaDelveLarge", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -7377,7 +7377,7 @@ local data = {	{
 	{
 		id = "UndeadRhoaMap", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -7385,7 +7385,7 @@ local data = {	{
 	{
 		id = "IntMissionUndeadRhoa", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -7393,7 +7393,7 @@ local data = {	{
 	{
 		id = "UndeadRhoaWeak", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -7409,7 +7409,7 @@ local data = {	{
 	{
 		id = "UndeadRhoaBossInvasion", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -7417,7 +7417,7 @@ local data = {	{
 	{
 		id = "UndeadRhoaMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -7425,7 +7425,7 @@ local data = {	{
 	{
 		id = "UndeadRhoaTalisman", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -7433,7 +7433,7 @@ local data = {	{
 	{
 		id = "BoneRhoaTalisman", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -7441,7 +7441,7 @@ local data = {	{
 	{
 		id = "ZombieRhoa", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -7753,7 +7753,7 @@ local data = {	{
 	{
 		id = "PietyFireBoss", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -8337,7 +8337,7 @@ local data = {	{
 	{
 		id = "WolfKingTalismanWolfForm", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -8345,7 +8345,7 @@ local data = {	{
 	{
 		id = "WolfKingTalismanWolfFormMapBoss", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -8369,7 +8369,7 @@ local data = {	{
 	{
 		id = "WbLightningElite", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8377,7 +8377,7 @@ local data = {	{
 	{
 		id = "WbLightningLeader", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8417,7 +8417,7 @@ local data = {	{
 	{
 		id = "WbFireElite", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8425,7 +8425,7 @@ local data = {	{
 	{
 		id = "WbFireEliteGroundSlammer", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8433,7 +8433,7 @@ local data = {	{
 	{
 		id = "WbFireLeader", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8441,7 +8441,7 @@ local data = {	{
 	{
 		id = "WbFireLeader1", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8473,7 +8473,7 @@ local data = {	{
 	{
 		id = "WbColdElite", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8481,7 +8481,7 @@ local data = {	{
 	{
 		id = "WbColdLeader", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8489,7 +8489,7 @@ local data = {	{
 	{
 		id = "WbChaosLeader", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8497,7 +8497,7 @@ local data = {	{
 	{
 		id = "WbChaosLeader1", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8505,7 +8505,7 @@ local data = {	{
 	{
 		id = "WbChaosLeader2", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8513,7 +8513,7 @@ local data = {	{
 	{
 		id = "WbChaosSkeleton", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8521,7 +8521,7 @@ local data = {	{
 	{
 		id = "WbChaosLeader4", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8529,7 +8529,7 @@ local data = {	{
 	{
 		id = "WbChaosLeader4Minion", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8537,7 +8537,7 @@ local data = {	{
 	{
 		id = "WbChaosLeader5", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8545,7 +8545,7 @@ local data = {	{
 	{
 		id = "WbChaosLeader6", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8553,7 +8553,7 @@ local data = {	{
 	{
 		id = "WbChaosLeader7", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8561,7 +8561,7 @@ local data = {	{
 	{
 		id = "WbChaosLeader8", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8625,7 +8625,7 @@ local data = {	{
 	{
 		id = "PerandusMapBoss1", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8633,7 +8633,7 @@ local data = {	{
 	{
 		id = "PerandusMapBoss2", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8641,7 +8641,7 @@ local data = {	{
 	{
 		id = "PerandusMapBoss3", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8657,7 +8657,7 @@ local data = {	{
 	{
 		id = "PerandusMapBoss5", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8665,7 +8665,7 @@ local data = {	{
 	{
 		id = "PerandusMapBoss6", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8673,7 +8673,7 @@ local data = {	{
 	{
 		id = "PerandusMapBoss7", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -8681,7 +8681,7 @@ local data = {	{
 	{
 		id = "VinktarSquareBoss1", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -8689,7 +8689,7 @@ local data = {	{
 	{
 		id = "VinktarSquareBoss2", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -8697,7 +8697,7 @@ local data = {	{
 	{
 		id = "VinktarSquareBoss3", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -8705,7 +8705,7 @@ local data = {	{
 	{
 		id = "VinktarSquareBoss4", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -8713,7 +8713,7 @@ local data = {	{
 	{
 		id = "VinktarSquareBoss1Revived", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -8721,7 +8721,7 @@ local data = {	{
 	{
 		id = "VinktarSquareBoss2Revived", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -8729,7 +8729,7 @@ local data = {	{
 	{
 		id = "VinktarSquareBoss3Revived", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -8737,7 +8737,7 @@ local data = {	{
 	{
 		id = "VinktarSquareBoss4Revived", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9047,6 +9047,14 @@ local data = {	{
 		damage_spread = 0.0, 
 	},
 	{
+		id = "RitualWispDaemon", 
+		monster_resistance_id = "None", 
+		armour_multiplier = 0.0, 
+		evasion_multiplier = 0.0, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.0, 
+	},
+	{
 		id = "VaalBladeVortexDaemon", 
 		monster_resistance_id = "None", 
 		armour_multiplier = 0.0, 
@@ -9153,7 +9161,7 @@ local data = {	{
 	{
 		id = "AnimatedArmourMonster", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9161,7 +9169,7 @@ local data = {	{
 	{
 		id = "AnimatedArmourMonsterTreasure", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9169,7 +9177,7 @@ local data = {	{
 	{
 		id = "AnimatedArmourDelve", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9177,7 +9185,7 @@ local data = {	{
 	{
 		id = "AnimatedArmourProphecyBossSummon", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9185,7 +9193,7 @@ local data = {	{
 	{
 		id = "AnimatedArmourWestBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9193,7 +9201,7 @@ local data = {	{
 	{
 		id = "AnimatedArmourWestBossFinal", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9361,7 +9369,7 @@ local data = {	{
 	{
 		id = "AnimatedWeaponRampage", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9369,7 +9377,7 @@ local data = {	{
 	{
 		id = "AnimatedWeaponRampageRanged", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9377,7 +9385,7 @@ local data = {	{
 	{
 		id = "AnimatedWeaponRampageLeaguestone", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9385,7 +9393,7 @@ local data = {	{
 	{
 		id = "AnimatedWeaponRampageRangedLeaguestone", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9393,7 +9401,7 @@ local data = {	{
 	{
 		id = "AnimatedWeaponRampageLeaguestoneBoss", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9401,7 +9409,7 @@ local data = {	{
 	{
 		id = "AnimatedWeaponRampageRangedLeaguestoneBoss", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9713,7 +9721,7 @@ local data = {	{
 	{
 		id = "DropBear", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9721,7 +9729,7 @@ local data = {	{
 	{
 		id = "DropBearParasite", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9729,7 +9737,7 @@ local data = {	{
 	{
 		id = "DropBearParasiteRyslathaMinion", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9737,7 +9745,7 @@ local data = {	{
 	{
 		id = "DropBearProphecySummoned", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9745,7 +9753,7 @@ local data = {	{
 	{
 		id = "DropBearUniqueSummoned", 
 		monster_resistance_id = "MinionGeneric", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9753,7 +9761,7 @@ local data = {	{
 	{
 		id = "DropBearTalisman", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9761,7 +9769,7 @@ local data = {	{
 	{
 		id = "DropBearBoss", 
 		monster_resistance_id = "FireBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9769,7 +9777,7 @@ local data = {	{
 	{
 		id = "DropBearBossTalisman", 
 		monster_resistance_id = "ElementalBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9777,7 +9785,7 @@ local data = {	{
 	{
 		id = "DropBearMaps", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9785,7 +9793,7 @@ local data = {	{
 	{
 		id = "DropBearMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9793,7 +9801,7 @@ local data = {	{
 	{
 		id = "DemonBoss1", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9801,7 +9809,7 @@ local data = {	{
 	{
 		id = "DemonBoss1Map", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9809,7 +9817,7 @@ local data = {	{
 	{
 		id = "DemonBoss1SideArea", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9865,7 +9873,7 @@ local data = {	{
 	{
 		id = "Atziri", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -9873,7 +9881,7 @@ local data = {	{
 	{
 		id = "AtziriIncursion", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -9881,7 +9889,7 @@ local data = {	{
 	{
 		id = "AtziriMirroredUber", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -9889,7 +9897,7 @@ local data = {	{
 	{
 		id = "AtziriMirrored", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -9905,7 +9913,7 @@ local data = {	{
 	{
 		id = "BeyondDemon1", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9913,7 +9921,7 @@ local data = {	{
 	{
 		id = "BeyondDemonSquid1", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9929,7 +9937,7 @@ local data = {	{
 	{
 		id = "BeyondDemon2", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9937,7 +9945,7 @@ local data = {	{
 	{
 		id = "BeyondDemon2Bow", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9945,7 +9953,7 @@ local data = {	{
 	{
 		id = "BeyondDemon3", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9953,7 +9961,7 @@ local data = {	{
 	{
 		id = "BeyondDemon3Bow", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -9961,7 +9969,7 @@ local data = {	{
 	{
 		id = "BeyondDemon4", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10169,7 +10177,7 @@ local data = {	{
 	{
 		id = "MannequinDelve", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10177,7 +10185,7 @@ local data = {	{
 	{
 		id = "MannequinDelveProtoVaal", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10321,7 +10329,7 @@ local data = {	{
 	{
 		id = "VultureParasiteMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10329,7 +10337,7 @@ local data = {	{
 	{
 		id = "VultureParasiteMapBossAtlasUber", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10337,7 +10345,7 @@ local data = {	{
 	{
 		id = "VultureParasiteBossProphecy", 
 		monster_resistance_id = "ColdChaos1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10353,7 +10361,7 @@ local data = {	{
 	{
 		id = "Handfinger", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10361,7 +10369,7 @@ local data = {	{
 	{
 		id = "HandfingerBoss", 
 		monster_resistance_id = "ColdBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10369,7 +10377,7 @@ local data = {	{
 	{
 		id = "HandfingerMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10377,7 +10385,7 @@ local data = {	{
 	{
 		id = "Viking", 
 		monster_resistance_id = "ElementalBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10385,7 +10393,7 @@ local data = {	{
 	{
 		id = "VikingMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10393,7 +10401,7 @@ local data = {	{
 	{
 		id = "VikingMapBoss2", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10401,7 +10409,7 @@ local data = {	{
 	{
 		id = "VikingBossVinktarsSquare", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10465,7 +10473,7 @@ local data = {	{
 	{
 		id = "Taniwha", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -10473,7 +10481,7 @@ local data = {	{
 	{
 		id = "TaniwhaBoss", 
 		monster_resistance_id = "FireBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -10513,7 +10521,7 @@ local data = {	{
 	{
 		id = "TaniwhaNew", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -10889,7 +10897,7 @@ local data = {	{
 	{
 		id = "RockGolem", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10897,7 +10905,7 @@ local data = {	{
 	{
 		id = "RockGolemSpectre", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10905,7 +10913,7 @@ local data = {	{
 	{
 		id = "RockGolemSmall", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10913,7 +10921,7 @@ local data = {	{
 	{
 		id = "RockGolemSmallDelve", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10921,7 +10929,7 @@ local data = {	{
 	{
 		id = "RockGolemSummoned", 
 		monster_resistance_id = "MinionGeneric", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10937,7 +10945,7 @@ local data = {	{
 	{
 		id = "RockGolemCoral", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10945,7 +10953,7 @@ local data = {	{
 	{
 		id = "RockGolemCoralAtlasUber", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10953,7 +10961,7 @@ local data = {	{
 	{
 		id = "RockGolemDelve", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10961,7 +10969,7 @@ local data = {	{
 	{
 		id = "RockGolemLakeBoss", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10977,7 +10985,7 @@ local data = {	{
 	{
 		id = "RockGolemMinotaur", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10985,7 +10993,7 @@ local data = {	{
 	{
 		id = "RockGolemSupporter", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -10993,7 +11001,7 @@ local data = {	{
 	{
 		id = "EssenceRockGolem", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11001,7 +11009,7 @@ local data = {	{
 	{
 		id = "RockGolemMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11009,7 +11017,7 @@ local data = {	{
 	{
 		id = "TreasureGolemMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11017,7 +11025,7 @@ local data = {	{
 	{
 		id = "RockGolemSummonedTalismanT2", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11025,7 +11033,7 @@ local data = {	{
 	{
 		id = "ClockworkGolem", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.6, 
 		damage_spread = 0.2, 
@@ -11033,7 +11041,7 @@ local data = {	{
 	{
 		id = "ClockworkGolemAtlasUber2", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.6, 
 		damage_spread = 0.2, 
@@ -11041,7 +11049,7 @@ local data = {	{
 	{
 		id = "ClockworkGolemAtlasUber", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.6, 
 		damage_spread = 0.2, 
@@ -11049,7 +11057,7 @@ local data = {	{
 	{
 		id = "ClockworkGolemDelve", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.6, 
 		damage_spread = 0.2, 
@@ -11057,7 +11065,7 @@ local data = {	{
 	{
 		id = "ClockworkGolemSpace", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.6, 
 		damage_spread = 0.2, 
@@ -11073,7 +11081,7 @@ local data = {	{
 	{
 		id = "ClockworkGolemElementalSpace", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.6, 
 		damage_spread = 0.2, 
@@ -11089,7 +11097,7 @@ local data = {	{
 	{
 		id = "ClockworkGolemElemental2Space", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.6, 
 		damage_spread = 0.2, 
@@ -11097,7 +11105,7 @@ local data = {	{
 	{
 		id = "RockGolemProclamationBoss", 
 		monster_resistance_id = "FireBoss", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11257,7 +11265,7 @@ local data = {	{
 	{
 		id = "Pitbull", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.6, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11265,7 +11273,7 @@ local data = {	{
 	{
 		id = "PitbullShaped", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.6, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11273,7 +11281,7 @@ local data = {	{
 	{
 		id = "PitbullBoss", 
 		monster_resistance_id = "FireBoss", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.6, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11281,7 +11289,7 @@ local data = {	{
 	{
 		id = "PitbullMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.6, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11289,7 +11297,7 @@ local data = {	{
 	{
 		id = "PitbullEmerge", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.6, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11297,7 +11305,7 @@ local data = {	{
 	{
 		id = "PitbullEmergeBoss", 
 		monster_resistance_id = "FireBoss", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.6, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11305,7 +11313,7 @@ local data = {	{
 	{
 		id = "PitbullEmergeMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.6, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11377,7 +11385,7 @@ local data = {	{
 	{
 		id = "KaomWarrior2", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11385,7 +11393,7 @@ local data = {	{
 	{
 		id = "KaomWarrior2AtlasUber", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11393,7 +11401,7 @@ local data = {	{
 	{
 		id = "KaomWarrior2Shaped", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11401,7 +11409,7 @@ local data = {	{
 	{
 		id = "Tukohama", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11409,7 +11417,7 @@ local data = {	{
 	{
 		id = "TukohamaMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11417,7 +11425,7 @@ local data = {	{
 	{
 		id = "KaomWarrior3", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11425,7 +11433,7 @@ local data = {	{
 	{
 		id = "KaomWarrior3Shaped", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11449,7 +11457,7 @@ local data = {	{
 	{
 		id = "KaomWarrior4", 
 		monster_resistance_id = "Fire1b", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11457,7 +11465,7 @@ local data = {	{
 	{
 		id = "KaomWarrior5", 
 		monster_resistance_id = "Fire1b", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11513,7 +11521,7 @@ local data = {	{
 	{
 		id = "Gladiator", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11521,7 +11529,7 @@ local data = {	{
 	{
 		id = "GladiatorMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11529,7 +11537,7 @@ local data = {	{
 	{
 		id = "HalfSkeleton", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -11537,7 +11545,7 @@ local data = {	{
 	{
 		id = "HalfSkeletonRoyale", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -11641,7 +11649,7 @@ local data = {	{
 	{
 		id = "ChaosGolemSummoned", 
 		monster_resistance_id = "MinionChaosGolem", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -11649,7 +11657,7 @@ local data = {	{
 	{
 		id = "ChaosGolem", 
 		monster_resistance_id = "Chaos1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -11657,7 +11665,7 @@ local data = {	{
 	{
 		id = "ChaosGolemDelve", 
 		monster_resistance_id = "Chaos1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -11665,7 +11673,7 @@ local data = {	{
 	{
 		id = "ChaosGolemDelveSmall", 
 		monster_resistance_id = "Chaos1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -11673,7 +11681,7 @@ local data = {	{
 	{
 		id = "ChaosGolemBoss", 
 		monster_resistance_id = "Chaos1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -11681,7 +11689,7 @@ local data = {	{
 	{
 		id = "ChaosGolemMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -11689,7 +11697,7 @@ local data = {	{
 	{
 		id = "ChaosGolemTalismanT2", 
 		monster_resistance_id = "Chaos1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -11697,7 +11705,7 @@ local data = {	{
 	{
 		id = "ChaosGolemProphecy", 
 		monster_resistance_id = "Chaos1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -11713,7 +11721,7 @@ local data = {	{
 	{
 		id = "ChaosGolemUnique", 
 		monster_resistance_id = "Chaos1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -12065,7 +12073,7 @@ local data = {	{
 	{
 		id = "GemlingLegionnaireWitch", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -12073,7 +12081,7 @@ local data = {	{
 	{
 		id = "GemlingLegionnaireWitchMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -12105,7 +12113,7 @@ local data = {	{
 	{
 		id = "GemlingLegionnaireDuelist", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -12113,7 +12121,7 @@ local data = {	{
 	{
 		id = "GemlingLegionnaireDuelistMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -12129,7 +12137,7 @@ local data = {	{
 	{
 		id = "GemlingLegionnaireTemplar", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -12137,7 +12145,7 @@ local data = {	{
 	{
 		id = "GemlingLegionnaireTemplarMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -12193,7 +12201,7 @@ local data = {	{
 	{
 		id = "LionColosseum", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -12201,7 +12209,7 @@ local data = {	{
 	{
 		id = "LionColosseumMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -12257,7 +12265,7 @@ local data = {	{
 	{
 		id = "Taster", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -12265,7 +12273,7 @@ local data = {	{
 	{
 		id = "TasterAtlasUber", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -12273,7 +12281,7 @@ local data = {	{
 	{
 		id = "TasterBossTalisman", 
 		monster_resistance_id = "ColdBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -12281,7 +12289,7 @@ local data = {	{
 	{
 		id = "ExileArenaMarauder", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -12289,7 +12297,7 @@ local data = {	{
 	{
 		id = "ExileArenaRanger", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -12305,7 +12313,7 @@ local data = {	{
 	{
 		id = "GladiatorBossSupport", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -12313,7 +12321,7 @@ local data = {	{
 	{
 		id = "GladiatorBossSupportMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -12337,7 +12345,7 @@ local data = {	{
 	{
 		id = "GladiatorBossLeader", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -12345,7 +12353,7 @@ local data = {	{
 	{
 		id = "GladiatorBossLeaderMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -12369,7 +12377,7 @@ local data = {	{
 	{
 		id = "LabyrinthBoss1", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -12481,7 +12489,7 @@ local data = {	{
 	{
 		id = "LabyrinthLieutenantSkeletonMeleeMinion", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.3, 
@@ -12553,7 +12561,7 @@ local data = {	{
 	{
 		id = "IzaroSkeletonCasterFire", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -12585,7 +12593,7 @@ local data = {	{
 	{
 		id = "IzaroSkeletonMelee", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -12633,7 +12641,7 @@ local data = {	{
 	{
 		id = "RatTalismanSummonerTotem", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.0, 
@@ -12689,7 +12697,7 @@ local data = {	{
 	{
 		id = "KaruiSpirit", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -12697,7 +12705,7 @@ local data = {	{
 	{
 		id = "KaruiSpiritEssence", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -12929,7 +12937,7 @@ local data = {	{
 	{
 		id = "PurgeHound", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -12937,7 +12945,7 @@ local data = {	{
 	{
 		id = "PurgeHoundSpawn", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -12945,7 +12953,7 @@ local data = {	{
 	{
 		id = "PurgeHoundSpawnMapBoss", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -12953,7 +12961,7 @@ local data = {	{
 	{
 		id = "Book", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -12961,7 +12969,7 @@ local data = {	{
 	{
 		id = "BookSummoned", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -12985,7 +12993,7 @@ local data = {	{
 	{
 		id = "RaisedSkeletonKitava", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13009,7 +13017,7 @@ local data = {	{
 	{
 		id = "KitavaSkeleton", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13025,7 +13033,7 @@ local data = {	{
 	{
 		id = "AtlasBossHydra", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13041,7 +13049,7 @@ local data = {	{
 	{
 		id = "AtlasBossChimera", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -13065,7 +13073,7 @@ local data = {	{
 	{
 		id = "StatueFingerMage", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13073,7 +13081,7 @@ local data = {	{
 	{
 		id = "StatueFingerMageMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13081,7 +13089,7 @@ local data = {	{
 	{
 		id = "StatueFingerMageVaalSideAreaBoss", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13121,7 +13129,7 @@ local data = {	{
 	{
 		id = "BlackguardInquisitor", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.2, 
 		damage_spread = 0.2, 
@@ -13217,7 +13225,7 @@ local data = {	{
 	{
 		id = "Fleshmonster", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13305,7 +13313,7 @@ local data = {	{
 	{
 		id = "TheShaperBoss", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -13313,7 +13321,7 @@ local data = {	{
 	{
 		id = "TheShaperBossUberElder", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -13321,7 +13329,7 @@ local data = {	{
 	{
 		id = "TheShaperBossElderEncounter", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -13345,7 +13353,7 @@ local data = {	{
 	{
 		id = "Zana", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -13353,7 +13361,7 @@ local data = {	{
 	{
 		id = "ZanaGauntlet", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -13361,7 +13369,7 @@ local data = {	{
 	{
 		id = "ZanaElder", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -13433,7 +13441,7 @@ local data = {	{
 	{
 		id = "ReligiousTemplar", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.4, 
 		damage_spread = 0.2, 
@@ -13441,7 +13449,7 @@ local data = {	{
 	{
 		id = "ReligiousTemplarAtlasUber", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.4, 
 		damage_spread = 0.2, 
@@ -13449,7 +13457,7 @@ local data = {	{
 	{
 		id = "ReligiousTemplar2h", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.4, 
 		damage_spread = 0.2, 
@@ -13457,7 +13465,7 @@ local data = {	{
 	{
 		id = "ReligiousTemplarCultist", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.4, 
 		damage_spread = 0.2, 
@@ -13465,7 +13473,7 @@ local data = {	{
 	{
 		id = "ReligiousTemplar2hCultist", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.4, 
 		damage_spread = 0.2, 
@@ -13481,7 +13489,7 @@ local data = {	{
 	{
 		id = "BreachBossFireMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13497,7 +13505,7 @@ local data = {	{
 	{
 		id = "BreachBossColdMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13513,7 +13521,7 @@ local data = {	{
 	{
 		id = "BreachBossLightningMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13529,7 +13537,7 @@ local data = {	{
 	{
 		id = "BreachBossPhysicalMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13545,7 +13553,7 @@ local data = {	{
 	{
 		id = "BreachBossChaosMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13593,7 +13601,7 @@ local data = {	{
 	{
 		id = "BreachHellionMapSpectre", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13601,7 +13609,7 @@ local data = {	{
 	{
 		id = "BreachHellionAvatar", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13609,7 +13617,7 @@ local data = {	{
 	{
 		id = "BreachHellionSpawner", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13617,7 +13625,7 @@ local data = {	{
 	{
 		id = "BreachHellionCommanderNormal", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13625,7 +13633,7 @@ local data = {	{
 	{
 		id = "BreachHellionCommander", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13633,7 +13641,7 @@ local data = {	{
 	{
 		id = "BreachHellionCommanderUber", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13641,7 +13649,7 @@ local data = {	{
 	{
 		id = "BreachHellionCommanderAvatar", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13929,7 +13937,7 @@ local data = {	{
 	{
 		id = "BreachHalfSkeleton", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13937,7 +13945,7 @@ local data = {	{
 	{
 		id = "BreachHalfSkeletonMap", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13945,7 +13953,7 @@ local data = {	{
 	{
 		id = "BreachHalfSkeletonMapSpectre", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13953,7 +13961,7 @@ local data = {	{
 	{
 		id = "BreachHalfSkeletonAvatar", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13961,7 +13969,7 @@ local data = {	{
 	{
 		id = "BreachHalfSkeletonChaos", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13969,7 +13977,7 @@ local data = {	{
 	{
 		id = "BreachHalfSkeletonChaosMap", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13977,7 +13985,7 @@ local data = {	{
 	{
 		id = "BreachHalfSkeletonChaosAvatar", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -13985,7 +13993,7 @@ local data = {	{
 	{
 		id = "BreachHalfSkeletonChaosSpawner", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14161,7 +14169,7 @@ local data = {	{
 	{
 		id = "BrineKing", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14169,7 +14177,7 @@ local data = {	{
 	{
 		id = "BrineKingMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.05, 
@@ -14249,7 +14257,7 @@ local data = {	{
 	{
 		id = "BlackguardJaegerMelee", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14257,7 +14265,7 @@ local data = {	{
 	{
 		id = "BlackguardJaegerRanged", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14265,7 +14273,7 @@ local data = {	{
 	{
 		id = "BlackguardJaegerZombie", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14273,7 +14281,7 @@ local data = {	{
 	{
 		id = "KitavaDemon", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14281,7 +14289,7 @@ local data = {	{
 	{
 		id = "KitavaDemonPlaguewing", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14289,7 +14297,7 @@ local data = {	{
 	{
 		id = "KitavaDemonPlaguewingMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14297,7 +14305,7 @@ local data = {	{
 	{
 		id = "KitavaDemonPlaguewingMapAtlasUber", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14305,7 +14313,7 @@ local data = {	{
 	{
 		id = "KitavaDemonMinion", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14313,7 +14321,7 @@ local data = {	{
 	{
 		id = "CageSpider", 
 		monster_resistance_id = "Lightning1b", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14321,7 +14329,7 @@ local data = {	{
 	{
 		id = "CageSpider2", 
 		monster_resistance_id = "Lightning1b", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14329,7 +14337,7 @@ local data = {	{
 	{
 		id = "CageSpider2AtlasUber", 
 		monster_resistance_id = "Lightning1b", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14337,7 +14345,7 @@ local data = {	{
 	{
 		id = "CageSpiderSpectre", 
 		monster_resistance_id = "Lightning1b", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14345,7 +14353,7 @@ local data = {	{
 	{
 		id = "CageSpider2Spectre", 
 		monster_resistance_id = "Lightning1b", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14377,7 +14385,7 @@ local data = {	{
 	{
 		id = "OriathanCitizen", 
 		monster_resistance_id = "Cold1b", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14385,7 +14393,7 @@ local data = {	{
 	{
 		id = "OriathanCitizenFast", 
 		monster_resistance_id = "Cold1b", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14393,7 +14401,7 @@ local data = {	{
 	{
 		id = "OriathanCitizenBoss", 
 		monster_resistance_id = "ColdBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14441,7 +14449,7 @@ local data = {	{
 	{
 		id = "CorpseWheel", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -14449,7 +14457,7 @@ local data = {	{
 	{
 		id = "CorpseWheelBoss", 
 		monster_resistance_id = "LightningBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -14457,7 +14465,7 @@ local data = {	{
 	{
 		id = "CorpseWheelBossLake", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -14465,7 +14473,7 @@ local data = {	{
 	{
 		id = "Mauler", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14473,7 +14481,7 @@ local data = {	{
 	{
 		id = "MaulerBoss", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14553,7 +14561,7 @@ local data = {	{
 	{
 		id = "AbsolutionTemplarJudge", 
 		monster_resistance_id = "MinionGeneric", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -14561,7 +14569,7 @@ local data = {	{
 	{
 		id = "AbsolutionTemplarJudgeVaal", 
 		monster_resistance_id = "MinionGeneric", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -14569,7 +14577,7 @@ local data = {	{
 	{
 		id = "OriathBlackguard", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14577,7 +14585,7 @@ local data = {	{
 	{
 		id = "OriathBlackguard2", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14625,7 +14633,7 @@ local data = {	{
 	{
 		id = "LunarisGuard", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.25, 
 		damage_spread = 0.2, 
@@ -14633,7 +14641,7 @@ local data = {	{
 	{
 		id = "LunarisGuardMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.25, 
 		damage_spread = 0.2, 
@@ -14641,7 +14649,7 @@ local data = {	{
 	{
 		id = "LunarisGuardUniqueMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.25, 
 		damage_spread = 0.2, 
@@ -14689,7 +14697,7 @@ local data = {	{
 	{
 		id = "SolarisGuard", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.25, 
 		damage_spread = 0.2, 
@@ -14697,7 +14705,7 @@ local data = {	{
 	{
 		id = "SolarisGuardMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.25, 
 		damage_spread = 0.2, 
@@ -14705,7 +14713,7 @@ local data = {	{
 	{
 		id = "SolarisGuardUniqueMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.25, 
 		damage_spread = 0.2, 
@@ -14761,7 +14769,7 @@ local data = {	{
 	{
 		id = "RalakeshGreust", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14769,7 +14777,7 @@ local data = {	{
 	{
 		id = "RalakeshGreustMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14777,7 +14785,7 @@ local data = {	{
 	{
 		id = "RalakeshOak", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14967,7 +14975,7 @@ local data = {	{
 	{
 		id = "TukohamaTotem", 
 		monster_resistance_id = "Totem", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -14998,6 +15006,14 @@ local data = {	{
 	},
 	{
 		id = "HarbingerTotemUber", 
+		monster_resistance_id = "None", 
+		armour_multiplier = 1.0, 
+		evasion_multiplier = 0.0, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.0, 
+	},
+	{
+		id = "HarbingerTotemScarab", 
 		monster_resistance_id = "None", 
 		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
@@ -15095,7 +15111,7 @@ local data = {	{
 	{
 		id = "KitavaCultist", 
 		monster_resistance_id = "Lightning1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15103,7 +15119,7 @@ local data = {	{
 	{
 		id = "KitavaCultistSpear", 
 		monster_resistance_id = "Lightning1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15111,7 +15127,7 @@ local data = {	{
 	{
 		id = "KitavaCultistAtlasUber", 
 		monster_resistance_id = "Lightning1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15119,7 +15135,7 @@ local data = {	{
 	{
 		id = "KitavaCultistSpearAtlasUber", 
 		monster_resistance_id = "Lightning1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15127,7 +15143,7 @@ local data = {	{
 	{
 		id = "KitavaCultistEvent", 
 		monster_resistance_id = "Lightning1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15135,7 +15151,7 @@ local data = {	{
 	{
 		id = "KitavaCultistSpearEvent", 
 		monster_resistance_id = "Lightning1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15143,7 +15159,7 @@ local data = {	{
 	{
 		id = "KitavaCultistSpearBoss", 
 		monster_resistance_id = "Lightning1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15151,7 +15167,7 @@ local data = {	{
 	{
 		id = "WarHero1", 
 		monster_resistance_id = "Cold1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15159,7 +15175,7 @@ local data = {	{
 	{
 		id = "WarHero1AtlasUber", 
 		monster_resistance_id = "Cold1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15167,7 +15183,7 @@ local data = {	{
 	{
 		id = "WarHero1AtlasUber1", 
 		monster_resistance_id = "Cold1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15175,7 +15191,7 @@ local data = {	{
 	{
 		id = "WarHeroDuelistBoss", 
 		monster_resistance_id = "ColdBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15183,7 +15199,7 @@ local data = {	{
 	{
 		id = "WarHero2", 
 		monster_resistance_id = "Lightning1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15191,7 +15207,7 @@ local data = {	{
 	{
 		id = "WarHero3", 
 		monster_resistance_id = "Fire1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15215,7 +15231,7 @@ local data = {	{
 	{
 		id = "EnlightenedDuelist", 
 		monster_resistance_id = "Fire1b", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -15247,7 +15263,7 @@ local data = {	{
 	{
 		id = "Abberath", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15255,7 +15271,7 @@ local data = {	{
 	{
 		id = "AbberathMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15279,7 +15295,7 @@ local data = {	{
 	{
 		id = "DespairBear", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15287,7 +15303,7 @@ local data = {	{
 	{
 		id = "DespairBearMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15311,7 +15327,7 @@ local data = {	{
 	{
 		id = "VaalSideAreaBossBlackguardScout", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15319,7 +15335,7 @@ local data = {	{
 	{
 		id = "KitavaMinionBoss1", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -15327,7 +15343,7 @@ local data = {	{
 	{
 		id = "KitavaMinionBoss2", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -15335,7 +15351,7 @@ local data = {	{
 	{
 		id = "KitavaGuardian", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15359,7 +15375,7 @@ local data = {	{
 	{
 		id = "VaalSideAreaBossReligiousTemplar", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15391,7 +15407,7 @@ local data = {	{
 	{
 		id = "VaalSideAreaBossHolyFireElemental", 
 		monster_resistance_id = "SideAreaBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15439,7 +15455,7 @@ local data = {	{
 	{
 		id = "HectorTitucius", 
 		monster_resistance_id = "ElementalBoss", 
-		armour_multiplier = 0.75, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15447,7 +15463,7 @@ local data = {	{
 	{
 		id = "HectorTituciusMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.75, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15599,7 +15615,7 @@ local data = {	{
 	{
 		id = "RaisedMummyEvent", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.7, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.4, 
@@ -15751,7 +15767,7 @@ local data = {	{
 	{
 		id = "BoneStalker", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.75, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15879,7 +15895,7 @@ local data = {	{
 	{
 		id = "HarbingerTiger", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15887,7 +15903,7 @@ local data = {	{
 	{
 		id = "Shakari", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -15895,7 +15911,7 @@ local data = {	{
 	{
 		id = "ShakariMap", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16023,7 +16039,7 @@ local data = {	{
 	{
 		id = "AbyssLichBoss2", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.2, 
 		damage_spread = 0.2, 
@@ -16031,7 +16047,7 @@ local data = {	{
 	{
 		id = "AbyssLichBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.2, 
 		damage_spread = 0.2, 
@@ -16039,7 +16055,7 @@ local data = {	{
 	{
 		id = "AbyssLichBoss3", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.2, 
 		damage_spread = 0.2, 
@@ -16047,7 +16063,7 @@ local data = {	{
 	{
 		id = "AbyssLichBoss1Map", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.2, 
 		damage_spread = 0.2, 
@@ -16055,7 +16071,7 @@ local data = {	{
 	{
 		id = "AbyssLichBoss2Map", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.2, 
 		damage_spread = 0.2, 
@@ -16063,7 +16079,7 @@ local data = {	{
 	{
 		id = "AbyssLichBoss3Map", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.2, 
 		damage_spread = 0.2, 
@@ -16071,7 +16087,7 @@ local data = {	{
 	{
 		id = "ElderGuardian1", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -16079,7 +16095,7 @@ local data = {	{
 	{
 		id = "ElderGuardian2", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -16087,7 +16103,7 @@ local data = {	{
 	{
 		id = "ElderGuardian3", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -16095,7 +16111,7 @@ local data = {	{
 	{
 		id = "ElderGuardian3Clone", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -16103,7 +16119,7 @@ local data = {	{
 	{
 		id = "ElderGuardian4", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -16111,7 +16127,7 @@ local data = {	{
 	{
 		id = "PurifierBossSanctum", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -16119,7 +16135,7 @@ local data = {	{
 	{
 		id = "PurifierBossSanctumAtlasUber", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -16127,7 +16143,7 @@ local data = {	{
 	{
 		id = "TheElder", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 20.0, 
 		damage_spread = 0.2, 
@@ -16135,7 +16151,7 @@ local data = {	{
 	{
 		id = "TheElderUnstable", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 20.0, 
 		damage_spread = 0.2, 
@@ -16143,7 +16159,7 @@ local data = {	{
 	{
 		id = "TheElderUber", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 20.0, 
 		damage_spread = 0.2, 
@@ -16239,7 +16255,7 @@ local data = {	{
 	{
 		id = "RhoaSpiritBestiaryBoss", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16279,7 +16295,7 @@ local data = {	{
 	{
 		id = "RhoaBestiary", 
 		monster_resistance_id = "BestiaryLegendary", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16287,7 +16303,7 @@ local data = {	{
 	{
 		id = "RhoaBestiaryMinion", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16295,7 +16311,7 @@ local data = {	{
 	{
 		id = "RhoaBestiaryMinion2", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16359,7 +16375,7 @@ local data = {	{
 	{
 		id = "Snake1Bestiary", 
 		monster_resistance_id = "BestiaryLegendary", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16367,7 +16383,7 @@ local data = {	{
 	{
 		id = "Snake1BestiaryMinion", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16375,7 +16391,7 @@ local data = {	{
 	{
 		id = "Snake1BestiaryMinion2", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16383,7 +16399,7 @@ local data = {	{
 	{
 		id = "SnakeBestiarySpiritBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16391,7 +16407,7 @@ local data = {	{
 	{
 		id = "SnakeBestiarySpiritBossClone", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16399,7 +16415,7 @@ local data = {	{
 	{
 		id = "Snake2Bestiary", 
 		monster_resistance_id = "BestiaryLegendary", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16407,7 +16423,7 @@ local data = {	{
 	{
 		id = "Snake2BestiaryMinion", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16415,7 +16431,7 @@ local data = {	{
 	{
 		id = "Snake2BestiaryMinion2", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16455,7 +16471,7 @@ local data = {	{
 	{
 		id = "HellionBestiary", 
 		monster_resistance_id = "BestiaryLegendary", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16463,7 +16479,7 @@ local data = {	{
 	{
 		id = "HellionBestiaryMinion", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16471,7 +16487,7 @@ local data = {	{
 	{
 		id = "HellionBestiaryMinion2", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16511,7 +16527,7 @@ local data = {	{
 	{
 		id = "TigerBestiary", 
 		monster_resistance_id = "BestiaryLegendary", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16519,7 +16535,7 @@ local data = {	{
 	{
 		id = "TigerBestiaryStandalone", 
 		monster_resistance_id = "BestiaryLegendary", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16527,7 +16543,7 @@ local data = {	{
 	{
 		id = "TigerBestiaryBossMinion", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16535,7 +16551,7 @@ local data = {	{
 	{
 		id = "TigerBestiaryMinion", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16543,7 +16559,7 @@ local data = {	{
 	{
 		id = "TigerBestiaryMinionStandalone", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16551,7 +16567,7 @@ local data = {	{
 	{
 		id = "TigerBestiaryMinion2", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16559,7 +16575,7 @@ local data = {	{
 	{
 		id = "TigerBestiarySpiritBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16567,7 +16583,7 @@ local data = {	{
 	{
 		id = "WolfBestiary", 
 		monster_resistance_id = "BestiaryLegendary", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16575,7 +16591,7 @@ local data = {	{
 	{
 		id = "WolfBestiaryBossMinion", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16583,7 +16599,7 @@ local data = {	{
 	{
 		id = "WolfBestiaryMinion", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16591,7 +16607,7 @@ local data = {	{
 	{
 		id = "WolfBestiaryMinion2", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16599,7 +16615,7 @@ local data = {	{
 	{
 		id = "NessaCrabSpiritBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16799,7 +16815,7 @@ local data = {	{
 	{
 		id = "SpikerBestiary", 
 		monster_resistance_id = "BestiaryLegendary", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16807,7 +16823,7 @@ local data = {	{
 	{
 		id = "SpikerBestiaryBossMinion", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16815,7 +16831,7 @@ local data = {	{
 	{
 		id = "SpikerBestiaryMinion", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16823,7 +16839,7 @@ local data = {	{
 	{
 		id = "SpikerBestiaryMinion2", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16831,7 +16847,7 @@ local data = {	{
 	{
 		id = "BullBestiary", 
 		monster_resistance_id = "BestiaryLegendary", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16839,7 +16855,7 @@ local data = {	{
 	{
 		id = "BullBestiaryMinion", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16847,7 +16863,7 @@ local data = {	{
 	{
 		id = "BullBestiaryMinion2", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16855,7 +16871,7 @@ local data = {	{
 	{
 		id = "BeastBestiary", 
 		monster_resistance_id = "BestiaryLegendary", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16863,7 +16879,7 @@ local data = {	{
 	{
 		id = "BeastBestiaryBossMinion", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16871,7 +16887,7 @@ local data = {	{
 	{
 		id = "BeastBestiaryMinion", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16879,7 +16895,7 @@ local data = {	{
 	{
 		id = "BeastBestiaryMinion2", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16887,7 +16903,7 @@ local data = {	{
 	{
 		id = "DropBearBestiary", 
 		monster_resistance_id = "BestiaryLegendary", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16895,7 +16911,7 @@ local data = {	{
 	{
 		id = "DropBearBestiaryMinion", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16903,7 +16919,7 @@ local data = {	{
 	{
 		id = "DropBearBestiaryMinion2", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16919,7 +16935,7 @@ local data = {	{
 	{
 		id = "BloodChieftainBestiary", 
 		monster_resistance_id = "BestiaryLegendary", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16927,7 +16943,7 @@ local data = {	{
 	{
 		id = "BloodChieftainBestiaryBossMinion", 
 		monster_resistance_id = "ActBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16935,7 +16951,7 @@ local data = {	{
 	{
 		id = "BloodChieftainBestiaryMinion", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16943,7 +16959,7 @@ local data = {	{
 	{
 		id = "BloodChieftainBestiaryMinion2", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16975,7 +16991,7 @@ local data = {	{
 	{
 		id = "GoatmanBestiary", 
 		monster_resistance_id = "BestiaryLegendary", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16983,7 +16999,7 @@ local data = {	{
 	{
 		id = "GoatmanBestiaryMinion", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16991,7 +17007,7 @@ local data = {	{
 	{
 		id = "GoatmanBestiaryMinion2", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -16999,7 +17015,7 @@ local data = {	{
 	{
 		id = "HoundBestiary", 
 		monster_resistance_id = "BestiaryLegendary", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17007,7 +17023,7 @@ local data = {	{
 	{
 		id = "HoundBestiaryMinion", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17015,7 +17031,7 @@ local data = {	{
 	{
 		id = "HoundBestiaryMinion2", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17023,7 +17039,7 @@ local data = {	{
 	{
 		id = "PitbullBestiary", 
 		monster_resistance_id = "BestiaryLegendary", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.6, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17031,7 +17047,7 @@ local data = {	{
 	{
 		id = "PitbullBestiaryMinion", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.6, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17039,7 +17055,7 @@ local data = {	{
 	{
 		id = "PitbullBestiaryMinion2", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.6, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17047,7 +17063,7 @@ local data = {	{
 	{
 		id = "PurgeHoundBestiary", 
 		monster_resistance_id = "BestiaryLegendary", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17055,7 +17071,7 @@ local data = {	{
 	{
 		id = "PurgeHoundBestiaryMinion", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17063,7 +17079,7 @@ local data = {	{
 	{
 		id = "PurgeHoundBestiaryMinion2", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17335,7 +17351,7 @@ local data = {	{
 	{
 		id = "BearFormosan", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17343,7 +17359,7 @@ local data = {	{
 	{
 		id = "BearFormosanGruthkul", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17375,7 +17391,7 @@ local data = {	{
 	{
 		id = "RhoaRoyale", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17383,7 +17399,7 @@ local data = {	{
 	{
 		id = "BigRhoaRoyale", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17391,7 +17407,7 @@ local data = {	{
 	{
 		id = "ZombieStrandRoyale", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -17407,7 +17423,7 @@ local data = {	{
 	{
 		id = "BanditMeleeRoyale", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17439,7 +17455,7 @@ local data = {	{
 	{
 		id = "LionRoyale", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17447,7 +17463,7 @@ local data = {	{
 	{
 		id = "LionAlphaRoyale", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17455,7 +17471,7 @@ local data = {	{
 	{
 		id = "LionWolfRoyale", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17463,7 +17479,7 @@ local data = {	{
 	{
 		id = "CrabParasiteSmallRoyale", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17471,7 +17487,7 @@ local data = {	{
 	{
 		id = "CrabParasiteMediumRoyale", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17503,7 +17519,7 @@ local data = {	{
 	{
 		id = "SnakeRoyale", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17519,7 +17535,7 @@ local data = {	{
 	{
 		id = "BloodChieftainRoyale", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17535,7 +17551,7 @@ local data = {	{
 	{
 		id = "ConstructCasterFireRoyale", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -17543,7 +17559,7 @@ local data = {	{
 	{
 		id = "ConstructCasterColdRoyale", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -17551,7 +17567,7 @@ local data = {	{
 	{
 		id = "ConstructCasterLightningRoyale", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -17559,7 +17575,7 @@ local data = {	{
 	{
 		id = "SnakeSlitherRoyale", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17615,7 +17631,7 @@ local data = {	{
 	{
 		id = "VaalCultistSpear", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17623,7 +17639,7 @@ local data = {	{
 	{
 		id = "VaalCultistSpearMap", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17631,7 +17647,7 @@ local data = {	{
 	{
 		id = "VaalCultistSpearMapAtlasUber", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17639,7 +17655,7 @@ local data = {	{
 	{
 		id = "VaalCultistSpearTemple", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17647,7 +17663,7 @@ local data = {	{
 	{
 		id = "VaalCultistSpearTempleMap", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17655,7 +17671,7 @@ local data = {	{
 	{
 		id = "VaalCultistSpearMapSideArea", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17663,7 +17679,7 @@ local data = {	{
 	{
 		id = "VaalCultistSpearChampion", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17671,7 +17687,7 @@ local data = {	{
 	{
 		id = "VaalCultistSpearChampionMap", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17679,7 +17695,7 @@ local data = {	{
 	{
 		id = "VaalCultistSpearChampionTemple", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17687,7 +17703,7 @@ local data = {	{
 	{
 		id = "VaalCultistSpearChampionTempleMap", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17695,7 +17711,7 @@ local data = {	{
 	{
 		id = "VaalCultistSpearChampionTempleSpectre", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17703,7 +17719,7 @@ local data = {	{
 	{
 		id = "VaalCultistSpearChampionTempleMapSpectre", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17711,7 +17727,7 @@ local data = {	{
 	{
 		id = "VaalCultistDaggers", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17719,7 +17735,7 @@ local data = {	{
 	{
 		id = "VaalCultistDaggersMap", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17727,7 +17743,7 @@ local data = {	{
 	{
 		id = "VaalCultistDaggersTemple", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17735,7 +17751,7 @@ local data = {	{
 	{
 		id = "VaalCultistDaggersTempleMap", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17743,7 +17759,7 @@ local data = {	{
 	{
 		id = "VaalCultistDaggersMapSideArea", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17751,7 +17767,7 @@ local data = {	{
 	{
 		id = "VaalCultistKnifestick", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17759,7 +17775,7 @@ local data = {	{
 	{
 		id = "VaalCultistKnifestickMap", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17767,7 +17783,7 @@ local data = {	{
 	{
 		id = "VaalCultistKnifestickTemple", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17775,7 +17791,7 @@ local data = {	{
 	{
 		id = "VaalCultistKnifestickTempleMap", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17783,7 +17799,7 @@ local data = {	{
 	{
 		id = "VaalCultistKnifestickMapSideArea", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17791,7 +17807,7 @@ local data = {	{
 	{
 		id = "VaalCultistDaggersDelve", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17799,7 +17815,7 @@ local data = {	{
 	{
 		id = "VaalCultistKnifestickDelve", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17807,7 +17823,7 @@ local data = {	{
 	{
 		id = "VaalCultistSpearDelve", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17815,7 +17831,7 @@ local data = {	{
 	{
 		id = "VaalCultistSpearChampionDelve", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17855,7 +17871,7 @@ local data = {	{
 	{
 		id = "VaalSnakeSlitherIncursion", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17863,7 +17879,7 @@ local data = {	{
 	{
 		id = "VaalSnakeSlitherIncursionMap", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17871,7 +17887,7 @@ local data = {	{
 	{
 		id = "VaalSnakeSlitherIncursionTemple", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17879,7 +17895,7 @@ local data = {	{
 	{
 		id = "VaalSnakeSlitherIncursionTempleMap", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17959,7 +17975,7 @@ local data = {	{
 	{
 		id = "VaalSnakeTemple", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17967,7 +17983,7 @@ local data = {	{
 	{
 		id = "VaalSnakeTempleMap", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17975,7 +17991,7 @@ local data = {	{
 	{
 		id = "VaalBloodChieftainTemple", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -17983,7 +17999,7 @@ local data = {	{
 	{
 		id = "VaalBloodChieftainTempleMap", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18039,7 +18055,7 @@ local data = {	{
 	{
 		id = "VaalConstructRangedIncursion", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18047,7 +18063,7 @@ local data = {	{
 	{
 		id = "VaalConstructRangedIncursionMap", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18055,7 +18071,7 @@ local data = {	{
 	{
 		id = "VaalConstructRangedIncursionTemple", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18063,7 +18079,7 @@ local data = {	{
 	{
 		id = "VaalConstructRangedIncursionTempleMap", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18071,7 +18087,7 @@ local data = {	{
 	{
 		id = "VaalConstructLargeIncursion", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18079,7 +18095,7 @@ local data = {	{
 	{
 		id = "VaalConstructLargeIncursionMap", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18087,7 +18103,7 @@ local data = {	{
 	{
 		id = "VaalConstructLargeIncursionTemple", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18095,7 +18111,7 @@ local data = {	{
 	{
 		id = "VaalConstructLargeIncursionTempleMap", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18207,7 +18223,7 @@ local data = {	{
 	{
 		id = "AlvaValai", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -18223,7 +18239,7 @@ local data = {	{
 	{
 		id = "Kirac", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18343,7 +18359,7 @@ local data = {	{
 	{
 		id = "WetaGiant", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18351,7 +18367,7 @@ local data = {	{
 	{
 		id = "TaowuChampion", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -18359,7 +18375,7 @@ local data = {	{
 	{
 		id = "TaowuChampionSpectre", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -18367,7 +18383,7 @@ local data = {	{
 	{
 		id = "TaowuEncounterBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -18423,7 +18439,7 @@ local data = {	{
 	{
 		id = "ProtoVaalWarrior", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.6, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18463,7 +18479,7 @@ local data = {	{
 	{
 		id = "ProtoVaalNecromancer", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -18471,7 +18487,7 @@ local data = {	{
 	{
 		id = "ProtoVaalNecromancerSpectre", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -18479,7 +18495,7 @@ local data = {	{
 	{
 		id = "ProtoVaalNecromancerMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -18487,7 +18503,7 @@ local data = {	{
 	{
 		id = "ProtoVaalNecromancerBossSanctum", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -18495,7 +18511,7 @@ local data = {	{
 	{
 		id = "QiongqiChampion", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18503,7 +18519,7 @@ local data = {	{
 	{
 		id = "QiongqiChampionSpectre", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18511,7 +18527,7 @@ local data = {	{
 	{
 		id = "QiongqiEncounterBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18559,7 +18575,7 @@ local data = {	{
 	{
 		id = "ArcticGolemDelve", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18615,7 +18631,7 @@ local data = {	{
 	{
 		id = "DelveAzuriteAnt", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -18719,7 +18735,7 @@ local data = {	{
 	{
 		id = "BetrayalHaku", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18767,7 +18783,7 @@ local data = {	{
 	{
 		id = "BetrayalHillock_", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18775,7 +18791,7 @@ local data = {	{
 	{
 		id = "BetrayalLeo", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18783,7 +18799,7 @@ local data = {	{
 	{
 		id = "BetrayalGrenn", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -18799,7 +18815,7 @@ local data = {	{
 	{
 		id = "BetrayalBreach", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -18807,7 +18823,7 @@ local data = {	{
 	{
 		id = "BetrayalGravicius", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -18823,7 +18839,7 @@ local data = {	{
 	{
 		id = "BetrayalKeema", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18831,7 +18847,7 @@ local data = {	{
 	{
 		id = "BetrayalRin", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18847,7 +18863,7 @@ local data = {	{
 	{
 		id = "BetrayalAislin", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -18863,7 +18879,7 @@ local data = {	{
 	{
 		id = "BetrayalRaisedZombie", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18895,7 +18911,7 @@ local data = {	{
 	{
 		id = "BetrayalOssuaryWitch", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -18903,7 +18919,7 @@ local data = {	{
 	{
 		id = "BetrayalSkeleton", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18911,7 +18927,7 @@ local data = {	{
 	{
 		id = "BetrayalSkeletonRanged", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -18919,7 +18935,7 @@ local data = {	{
 	{
 		id = "BetrayalTotem", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.0, 
@@ -18975,7 +18991,7 @@ local data = {	{
 	{
 		id = "BetrayalHandfinger", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19023,7 +19039,7 @@ local data = {	{
 	{
 		id = "BetrayalBlackguard1h", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19031,7 +19047,7 @@ local data = {	{
 	{
 		id = "BetrayalBlackguard1hCartGuard", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19039,7 +19055,7 @@ local data = {	{
 	{
 		id = "BetrayalBlackguard2h", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19047,7 +19063,7 @@ local data = {	{
 	{
 		id = "BetrayalBlackguard2hCartGuard", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19055,7 +19071,7 @@ local data = {	{
 	{
 		id = "BetrayalBlackguardChampion", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19063,7 +19079,7 @@ local data = {	{
 	{
 		id = "BetrayalBlackguardChampionCartGuard", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19071,7 +19087,7 @@ local data = {	{
 	{
 		id = "BetrayalBlackguardRanged", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19079,7 +19095,7 @@ local data = {	{
 	{
 		id = "BetrayalBlackguardRangedCartGuard", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19087,7 +19103,7 @@ local data = {	{
 	{
 		id = "BetrayalDjinnMemberMelee", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19127,7 +19143,7 @@ local data = {	{
 	{
 		id = "SynthesisRibbon", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19183,7 +19199,7 @@ local data = {	{
 	{
 		id = "SynthesisSoulstealer1", 
 		monster_resistance_id = "FireBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 2.0, 
 		damage_spread = 0.2, 
@@ -19191,7 +19207,7 @@ local data = {	{
 	{
 		id = "SynthesisSoulstealer2", 
 		monster_resistance_id = "ColdBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 2.0, 
 		damage_spread = 0.2, 
@@ -19199,7 +19215,7 @@ local data = {	{
 	{
 		id = "SynthesisSoulstealer3", 
 		monster_resistance_id = "LightningBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 2.0, 
 		damage_spread = 0.2, 
@@ -19207,7 +19223,7 @@ local data = {	{
 	{
 		id = "SynthesisSoulstealer4", 
 		monster_resistance_id = "ElementalBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 2.0, 
 		damage_spread = 0.2, 
@@ -19215,7 +19231,7 @@ local data = {	{
 	{
 		id = "SynthesisSoulstealer1Spectre", 
 		monster_resistance_id = "FireBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 2.0, 
 		damage_spread = 0.2, 
@@ -19223,7 +19239,7 @@ local data = {	{
 	{
 		id = "SynthesisSoulstealer2Spectre", 
 		monster_resistance_id = "ColdBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 2.0, 
 		damage_spread = 0.2, 
@@ -19231,7 +19247,7 @@ local data = {	{
 	{
 		id = "SynthesisSoulstealer3Spectre", 
 		monster_resistance_id = "LightningBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 2.0, 
 		damage_spread = 0.2, 
@@ -19239,7 +19255,7 @@ local data = {	{
 	{
 		id = "SynthesisSoulstealer4Spectre", 
 		monster_resistance_id = "ElementalBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 2.0, 
 		damage_spread = 0.2, 
@@ -19263,7 +19279,7 @@ local data = {	{
 	{
 		id = "SynthesisSoulstealerGuardian1", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 3.0, 
 		damage_spread = 0.2, 
@@ -19271,7 +19287,7 @@ local data = {	{
 	{
 		id = "SynthesisSoulstealerGuardian1Cortex", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 3.0, 
 		damage_spread = 0.2, 
@@ -19279,7 +19295,7 @@ local data = {	{
 	{
 		id = "SynthesisSoulstealerGuardian2", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 3.0, 
 		damage_spread = 0.2, 
@@ -19287,7 +19303,7 @@ local data = {	{
 	{
 		id = "SynthesisSoulstealerGuardian2Cortex", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 3.0, 
 		damage_spread = 0.2, 
@@ -19295,7 +19311,7 @@ local data = {	{
 	{
 		id = "SynthesisSoulstealerGuardian3", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 3.0, 
 		damage_spread = 0.2, 
@@ -19303,7 +19319,7 @@ local data = {	{
 	{
 		id = "SynthesisSoulstealerGuardian3Cortex", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 3.0, 
 		damage_spread = 0.2, 
@@ -19327,7 +19343,7 @@ local data = {	{
 	{
 		id = "SynthesisSoulstealerBoss", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 5.0, 
 		damage_spread = 0.2, 
@@ -19335,7 +19351,7 @@ local data = {	{
 	{
 		id = "SynthesisSoulstealerBossStandalone", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 5.0, 
 		damage_spread = 0.2, 
@@ -19343,7 +19359,7 @@ local data = {	{
 	{
 		id = "SynthesisVenarius", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -19351,7 +19367,7 @@ local data = {	{
 	{
 		id = "SynthesisWyvern", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.75, 
 		energy_shield_multiplier = 0.25, 
 		damage_spread = 0.2, 
@@ -19359,7 +19375,7 @@ local data = {	{
 	{
 		id = "SynthesisFireElemental", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19367,7 +19383,7 @@ local data = {	{
 	{
 		id = "SynthesisIceElemental", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19407,7 +19423,7 @@ local data = {	{
 	{
 		id = "SynthesisKaomWarrior1", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19415,7 +19431,7 @@ local data = {	{
 	{
 		id = "SynthesisKaomWarrior2", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19439,7 +19455,7 @@ local data = {	{
 	{
 		id = "SynthesisHalfSkeleton", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -19487,7 +19503,7 @@ local data = {	{
 	{
 		id = "SynthesisCityStalkerElite", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -19495,7 +19511,7 @@ local data = {	{
 	{
 		id = "SynthesisCityStalkerArmour", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -19575,7 +19591,7 @@ local data = {	{
 	{
 		id = "SynthesisSpiker", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19583,7 +19599,7 @@ local data = {	{
 	{
 		id = "SynthesisSpikerChampion", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19599,7 +19615,7 @@ local data = {	{
 	{
 		id = "LegionKaruiMelee", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19607,7 +19623,7 @@ local data = {	{
 	{
 		id = "LegionKaruiMelee2H", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19615,7 +19631,7 @@ local data = {	{
 	{
 		id = "LegionKaruiMeleeFire", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19631,7 +19647,7 @@ local data = {	{
 	{
 		id = "LegionKaruiAncestor", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -19639,7 +19655,7 @@ local data = {	{
 	{
 		id = "LegionKaruiSergeantMeleeFire", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19719,7 +19735,7 @@ local data = {	{
 	{
 		id = "LegionMarakethMelee", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19727,7 +19743,7 @@ local data = {	{
 	{
 		id = "LegionMarakethMelee2", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19743,7 +19759,7 @@ local data = {	{
 	{
 		id = "LegionMarakethRider", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19751,7 +19767,7 @@ local data = {	{
 	{
 		id = "LegionMarakethRiderSpectre", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19759,7 +19775,7 @@ local data = {	{
 	{
 		id = "LegionMarakethRiderSpear", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19767,7 +19783,7 @@ local data = {	{
 	{
 		id = "LegionMarakethRiderSpearSpectre", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19775,7 +19791,7 @@ local data = {	{
 	{
 		id = "LegionMarakethSergeantMelee", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19783,7 +19799,7 @@ local data = {	{
 	{
 		id = "LegionMarakethSergeantRanged", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19791,7 +19807,7 @@ local data = {	{
 	{
 		id = "LegionMarakethGeneral", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19799,7 +19815,7 @@ local data = {	{
 	{
 		id = "LegionMarakethGeneralDismounted", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19807,7 +19823,7 @@ local data = {	{
 	{
 		id = "LegionMarakethGeneralBird", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19815,7 +19831,7 @@ local data = {	{
 	{
 		id = "LegionTemplarMelee1", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -19823,7 +19839,7 @@ local data = {	{
 	{
 		id = "LegionTemplarMelee2", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -19839,7 +19855,7 @@ local data = {	{
 	{
 		id = "LegionTemplarCaster1", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -19847,7 +19863,7 @@ local data = {	{
 	{
 		id = "LegionTemplarCaster2", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -19855,7 +19871,7 @@ local data = {	{
 	{
 		id = "LegionTemplarSergeantCaster", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -19879,7 +19895,7 @@ local data = {	{
 	{
 		id = "LegionTemplarGeneral", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -19887,7 +19903,7 @@ local data = {	{
 	{
 		id = "LegionVaalCultistMelee", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19895,7 +19911,7 @@ local data = {	{
 	{
 		id = "LegionVaalCultistKnifestick", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19903,7 +19919,7 @@ local data = {	{
 	{
 		id = "LegionVaalCultistSpear", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19919,7 +19935,7 @@ local data = {	{
 	{
 		id = "LegionVaalConstructMelee", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19927,7 +19943,7 @@ local data = {	{
 	{
 		id = "LegionVaalConstructSlashy", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19935,7 +19951,7 @@ local data = {	{
 	{
 		id = "LegionVaalConstructMeleeLarge", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19943,7 +19959,7 @@ local data = {	{
 	{
 		id = "LegionVaalCultistSergeant", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19951,7 +19967,7 @@ local data = {	{
 	{
 		id = "LegionVaalCultistSergeantMelee", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -19959,7 +19975,7 @@ local data = {	{
 	{
 		id = "LegionVaalGeneral", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -20039,7 +20055,7 @@ local data = {	{
 	{
 		id = "BlightFireHellion", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20047,7 +20063,7 @@ local data = {	{
 	{
 		id = "BlightFireHellion2", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20055,7 +20071,7 @@ local data = {	{
 	{
 		id = "BlightFireHellionBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20063,7 +20079,7 @@ local data = {	{
 	{
 		id = "BlightFireHound", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20183,7 +20199,7 @@ local data = {	{
 	{
 		id = "BlightColdAlphaWolf", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20191,7 +20207,7 @@ local data = {	{
 	{
 		id = "BlightColdAlphaWolfBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20199,7 +20215,7 @@ local data = {	{
 	{
 		id = "BlightLightningSkeleton", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20207,7 +20223,7 @@ local data = {	{
 	{
 		id = "BlightLightningSkeletonCharged", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20215,7 +20231,7 @@ local data = {	{
 	{
 		id = "BlightLightningSkeletonCaster", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -20223,7 +20239,7 @@ local data = {	{
 	{
 		id = "BlightLightningCageSkeleton", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20287,7 +20303,7 @@ local data = {	{
 	{
 		id = "BlightPhysicalBeastStampede", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20295,7 +20311,7 @@ local data = {	{
 	{
 		id = "BlightPhysicalRockGolemBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20303,7 +20319,7 @@ local data = {	{
 	{
 		id = "BlightPhysicalRockGolemMinion", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20319,7 +20335,7 @@ local data = {	{
 	{
 		id = "BlightGenericZombie", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20327,7 +20343,7 @@ local data = {	{
 	{
 		id = "BlightGenericZombieMixed", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20335,7 +20351,7 @@ local data = {	{
 	{
 		id = "BlightGenericZombieSwarm", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20343,7 +20359,7 @@ local data = {	{
 	{
 		id = "BlightGenericZombieBossMixed", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20359,7 +20375,7 @@ local data = {	{
 	{
 		id = "BlightRhoa", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20367,7 +20383,7 @@ local data = {	{
 	{
 		id = "BlightRhoaSlow", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20375,7 +20391,7 @@ local data = {	{
 	{
 		id = "BlightBigRhoa", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20383,7 +20399,7 @@ local data = {	{
 	{
 		id = "BlightBigRhoaCharge", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20391,7 +20407,7 @@ local data = {	{
 	{
 		id = "BlightSkeletonRhoaFast", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20399,7 +20415,7 @@ local data = {	{
 	{
 		id = "BlightSkeletonRhoaBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20407,7 +20423,7 @@ local data = {	{
 	{
 		id = "BlightSkeletonRhoaRevive", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20415,7 +20431,7 @@ local data = {	{
 	{
 		id = "BlightZombieRhoaRevive", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20471,7 +20487,7 @@ local data = {	{
 	{
 		id = "BlightBanditSlow", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20479,7 +20495,7 @@ local data = {	{
 	{
 		id = "BlightBandit", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20495,7 +20511,7 @@ local data = {	{
 	{
 		id = "BlightBanditKamikaze", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20503,7 +20519,7 @@ local data = {	{
 	{
 		id = "BlightBanditKamikazeBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20679,7 +20695,7 @@ local data = {	{
 	{
 		id = "BlightBlackguardInquisitor", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.2, 
 		damage_spread = 0.2, 
@@ -20687,7 +20703,7 @@ local data = {	{
 	{
 		id = "BlightReligiousTemplar", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.4, 
 		damage_spread = 0.2, 
@@ -20695,7 +20711,7 @@ local data = {	{
 	{
 		id = "BlightReligiousTemplar2h", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.4, 
 		damage_spread = 0.2, 
@@ -20735,7 +20751,7 @@ local data = {	{
 	{
 		id = "BlightGoatman", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20759,7 +20775,7 @@ local data = {	{
 	{
 		id = "BlightGoatmanBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.05, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20767,7 +20783,7 @@ local data = {	{
 	{
 		id = "BlightSkeletonSlow", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -20775,7 +20791,7 @@ local data = {	{
 	{
 		id = "BlightSkeleton", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -20791,7 +20807,7 @@ local data = {	{
 	{
 		id = "BlightSkeletonLarge", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20831,7 +20847,7 @@ local data = {	{
 	{
 		id = "BlightMonkeyChieftain", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20839,7 +20855,7 @@ local data = {	{
 	{
 		id = "BlightMonkeyChieftainBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20847,7 +20863,7 @@ local data = {	{
 	{
 		id = "BlightUndyingSlow", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20855,7 +20871,7 @@ local data = {	{
 	{
 		id = "BlightUndying", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20871,7 +20887,7 @@ local data = {	{
 	{
 		id = "BlightUndyingEvangalist", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20879,7 +20895,7 @@ local data = {	{
 	{
 		id = "BlightUndyingEvangalistBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20887,7 +20903,7 @@ local data = {	{
 	{
 		id = "BlightAxisSoldierSlow", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20895,7 +20911,7 @@ local data = {	{
 	{
 		id = "BlightAxisSoldier", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20903,7 +20919,7 @@ local data = {	{
 	{
 		id = "BlightAxisSoldierElite", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20943,7 +20959,7 @@ local data = {	{
 	{
 		id = "BlightSnakeSlither", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20951,7 +20967,7 @@ local data = {	{
 	{
 		id = "BlightSnake", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20959,7 +20975,7 @@ local data = {	{
 	{
 		id = "BlightSnakeScorpion", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20967,7 +20983,7 @@ local data = {	{
 	{
 		id = "BlightSnakeSlitherFast", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20975,7 +20991,7 @@ local data = {	{
 	{
 		id = "BlightSnakeSlitherBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20991,7 +21007,7 @@ local data = {	{
 	{
 		id = "BlightKitavaCultistSlow", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -20999,7 +21015,7 @@ local data = {	{
 	{
 		id = "BlightKitavaCultistSpearSlow", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21007,7 +21023,7 @@ local data = {	{
 	{
 		id = "BlightKitavaCultist", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21015,7 +21031,7 @@ local data = {	{
 	{
 		id = "BlightKitavaCultistSpear", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21039,7 +21055,7 @@ local data = {	{
 	{
 		id = "BlightKitavaDemon", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21047,7 +21063,7 @@ local data = {	{
 	{
 		id = "BlightKitavaDemonBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21087,7 +21103,7 @@ local data = {	{
 	{
 		id = "BlightPitbullSlow", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.6, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21095,7 +21111,7 @@ local data = {	{
 	{
 		id = "BlightPitbull", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.6, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21127,7 +21143,7 @@ local data = {	{
 	{
 		id = "BlightGladiator", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21143,7 +21159,7 @@ local data = {	{
 	{
 		id = "BlightLion", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21231,7 +21247,7 @@ local data = {	{
 	{
 		id = "CrusaderMageguardCaster", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 2.0, 
 		damage_spread = 0.2, 
@@ -21239,7 +21255,7 @@ local data = {	{
 	{
 		id = "CrusaderMageguardCasterSpectre", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 2.0, 
 		damage_spread = 0.2, 
@@ -21247,7 +21263,7 @@ local data = {	{
 	{
 		id = "CrusaderReligiousTemplar", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.4, 
 		damage_spread = 0.2, 
@@ -21279,7 +21295,7 @@ local data = {	{
 	{
 		id = "CrusaderTemplarJudge", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -21287,7 +21303,7 @@ local data = {	{
 	{
 		id = "CrusaderFallenAngelWarrior", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.8, 
 		damage_spread = 0.2, 
@@ -21295,7 +21311,7 @@ local data = {	{
 	{
 		id = "CrusaderFallenAngelWarriorSpectre", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.8, 
 		damage_spread = 0.2, 
@@ -21359,7 +21375,7 @@ local data = {	{
 	{
 		id = "EyrieSeraphFighter", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.8, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21367,7 +21383,7 @@ local data = {	{
 	{
 		id = "EyrieSeraphFighterSpectre", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.8, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21375,7 +21391,7 @@ local data = {	{
 	{
 		id = "EyrieSeraphArcher", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.8, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21383,7 +21399,7 @@ local data = {	{
 	{
 		id = "EyrieSeraphArcherSpectre", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.8, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21447,7 +21463,7 @@ local data = {	{
 	{
 		id = "BasiliskSnake", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21463,7 +21479,7 @@ local data = {	{
 	{
 		id = "BasiliskTaster", 
 		monster_resistance_id = "FireChaos1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21519,7 +21535,7 @@ local data = {	{
 	{
 		id = "BasiliskFemaleViper", 
 		monster_resistance_id = "Chaos2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.8, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21527,7 +21543,7 @@ local data = {	{
 	{
 		id = "BasiliskFemaleViperSpectre", 
 		monster_resistance_id = "Chaos2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.8, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21535,7 +21551,7 @@ local data = {	{
 	{
 		id = "BasiliskFemaleGorgon", 
 		monster_resistance_id = "Chaos2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.8, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21543,7 +21559,7 @@ local data = {	{
 	{
 		id = "BasiliskFemaleGorgonSpectre", 
 		monster_resistance_id = "Chaos2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.8, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21615,7 +21631,7 @@ local data = {	{
 	{
 		id = "AdjudicatorPitbull", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21623,7 +21639,7 @@ local data = {	{
 	{
 		id = "AdjudicatorPitbullBoss", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21647,7 +21663,7 @@ local data = {	{
 	{
 		id = "AdjudicatorMaster", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.8, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21655,7 +21671,7 @@ local data = {	{
 	{
 		id = "AdjudicatorMasterSpectre", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.8, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21663,7 +21679,7 @@ local data = {	{
 	{
 		id = "AdjudicatorGrandMaster", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.8, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21671,7 +21687,7 @@ local data = {	{
 	{
 		id = "AdjudicatorGrandMasterSpectre", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.8, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21759,7 +21775,7 @@ local data = {	{
 	{
 		id = "AtlasQuestBlackguardRanged", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21767,7 +21783,7 @@ local data = {	{
 	{
 		id = "AtlasQuestBlackguardChampion", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21791,7 +21807,7 @@ local data = {	{
 	{
 		id = "AtlasQuestKitavaCultist", 
 		monster_resistance_id = "Lightning1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21799,7 +21815,7 @@ local data = {	{
 	{
 		id = "AtlasQuestKitavaCultistSpear", 
 		monster_resistance_id = "Lightning1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21815,7 +21831,7 @@ local data = {	{
 	{
 		id = "AtlasQuestReligiousTemplar2hCultist", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.4, 
 		damage_spread = 0.2, 
@@ -21823,7 +21839,7 @@ local data = {	{
 	{
 		id = "AtlasQuestReligiousTemplarCultist", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.4, 
 		damage_spread = 0.2, 
@@ -21935,7 +21951,7 @@ local data = {	{
 	{
 		id = "SaplingIced", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -21943,7 +21959,7 @@ local data = {	{
 	{
 		id = "SaplingIcedOrb", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -21951,7 +21967,7 @@ local data = {	{
 	{
 		id = "DragonGrey", 
 		monster_resistance_id = "FireBoss", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.3, 
 		damage_spread = 0.2, 
@@ -21959,7 +21975,7 @@ local data = {	{
 	{
 		id = "BeehiveBehemoth", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.1, 
 		damage_spread = 0.2, 
@@ -21967,7 +21983,7 @@ local data = {	{
 	{
 		id = "BeehiveBehemothAtlasUber", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.1, 
 		damage_spread = 0.2, 
@@ -21975,7 +21991,7 @@ local data = {	{
 	{
 		id = "BeehiveBehemothVine", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -21999,7 +22015,7 @@ local data = {	{
 	{
 		id = "CrimsonPriest", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.3, 
 		damage_spread = 0.2, 
@@ -22007,7 +22023,7 @@ local data = {	{
 	{
 		id = "CrimsonPriestStandalone", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.3, 
 		damage_spread = 0.2, 
@@ -22015,7 +22031,7 @@ local data = {	{
 	{
 		id = "CrimsonPriestClone", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.3, 
 		damage_spread = 0.2, 
@@ -22023,7 +22039,7 @@ local data = {	{
 	{
 		id = "CrimsonPriestSanctum", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.3, 
 		damage_spread = 0.2, 
@@ -22031,7 +22047,7 @@ local data = {	{
 	{
 		id = "CrimsonPriestCloneSanctum", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.3, 
 		damage_spread = 0.2, 
@@ -22039,7 +22055,7 @@ local data = {	{
 	{
 		id = "SpikerBull", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22047,7 +22063,7 @@ local data = {	{
 	{
 		id = "SpikerBullAtlasUber", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22055,7 +22071,7 @@ local data = {	{
 	{
 		id = "Barghest", 
 		monster_resistance_id = "FireBoss", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.3, 
 		damage_spread = 0.2, 
@@ -22079,7 +22095,7 @@ local data = {	{
 	{
 		id = "PirateLordBrutal", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -22087,7 +22103,7 @@ local data = {	{
 	{
 		id = "PirateLordBrutalAtlasUber", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -22095,7 +22111,7 @@ local data = {	{
 	{
 		id = "PirateLordFigurehead", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -22103,7 +22119,7 @@ local data = {	{
 	{
 		id = "PirateLordBrutalShipmate", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -22111,7 +22127,7 @@ local data = {	{
 	{
 		id = "PirateLordBrutalShipmateRoyale", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -22119,7 +22135,7 @@ local data = {	{
 	{
 		id = "HarvestDropBear", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22127,7 +22143,7 @@ local data = {	{
 	{
 		id = "HarvestHellion", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22135,7 +22151,7 @@ local data = {	{
 	{
 		id = "HarvestHellionT3", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22143,7 +22159,7 @@ local data = {	{
 	{
 		id = "HarvestWolf", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22175,7 +22191,7 @@ local data = {	{
 	{
 		id = "HarvestBeast", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22183,7 +22199,7 @@ local data = {	{
 	{
 		id = "HarvestBeastSpectre", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22191,7 +22207,7 @@ local data = {	{
 	{
 		id = "HarvestBeastT3", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22199,7 +22215,7 @@ local data = {	{
 	{
 		id = "HarvestBeastT3Spectre", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22207,7 +22223,7 @@ local data = {	{
 	{
 		id = "HarvestHound", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22215,7 +22231,7 @@ local data = {	{
 	{
 		id = "HarvestChieftain", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22223,7 +22239,7 @@ local data = {	{
 	{
 		id = "HarvestChieftainSpectre", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22239,7 +22255,7 @@ local data = {	{
 	{
 		id = "HarvestSpiker", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22247,7 +22263,7 @@ local data = {	{
 	{
 		id = "HarvestBirddog", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22255,7 +22271,7 @@ local data = {	{
 	{
 		id = "HarvestBrambleHulk", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.1, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22415,7 +22431,7 @@ local data = {	{
 	{
 		id = "HarvestRhoa", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22423,7 +22439,7 @@ local data = {	{
 	{
 		id = "HarvestRhoaSpectre", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22551,7 +22567,7 @@ local data = {	{
 	{
 		id = "HarvestKitavaDemon", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22559,7 +22575,7 @@ local data = {	{
 	{
 		id = "HarvestKitavaDemonSpectre", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22583,7 +22599,7 @@ local data = {	{
 	{
 		id = "HarvestBossBear", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22607,7 +22623,7 @@ local data = {	{
 	{
 		id = "HarvestBossBearMapBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22764,7 +22780,7 @@ local data = {	{
 	{
 		id = "HeistBossDanai", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22772,7 +22788,7 @@ local data = {	{
 	{
 		id = "HeistBossFreidrich", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22780,7 +22796,7 @@ local data = {	{
 	{
 		id = "HeistBossFreidrichSlave", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22788,7 +22804,7 @@ local data = {	{
 	{
 		id = "HeistBossJamanra", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -22796,7 +22812,7 @@ local data = {	{
 	{
 		id = "HeistBossAdmiralDarnaw", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22804,7 +22820,7 @@ local data = {	{
 	{
 		id = "HeistBossTwinsVic", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -22812,7 +22828,7 @@ local data = {	{
 	{
 		id = "HeistBossTwinsVin", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -22860,7 +22876,7 @@ local data = {	{
 	{
 		id = "HeistMilitaryRanged1", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -22868,7 +22884,7 @@ local data = {	{
 	{
 		id = "HeistMilitaryCaster1", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -22908,7 +22924,7 @@ local data = {	{
 	{
 		id = "HeistMilitaryCaster1Elite", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -22916,7 +22932,7 @@ local data = {	{
 	{
 		id = "HeistMilitaryCaster1EliteSpectre", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -22940,7 +22956,7 @@ local data = {	{
 	{
 		id = "HeistThaumaturgistMiniBossStaff", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -22980,7 +22996,7 @@ local data = {	{
 	{
 		id = "HeistProjectZombie", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -22988,7 +23004,7 @@ local data = {	{
 	{
 		id = "HeistProjectSkeletonMelee", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -22996,7 +23012,7 @@ local data = {	{
 	{
 		id = "HeistProjectSkeletonRanged", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23004,7 +23020,7 @@ local data = {	{
 	{
 		id = "HeistProjectSkeletonMeleeRoyale", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -23012,7 +23028,7 @@ local data = {	{
 	{
 		id = "HeistProjectSkeletonRangedRoyale", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23028,7 +23044,7 @@ local data = {	{
 	{
 		id = "HeistScientistWand", 
 		monster_resistance_id = "Chaos2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -23036,7 +23052,7 @@ local data = {	{
 	{
 		id = "HeistProjectWand", 
 		monster_resistance_id = "Chaos2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -23044,7 +23060,7 @@ local data = {	{
 	{
 		id = "HeistProjectCasterElite", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -23052,7 +23068,7 @@ local data = {	{
 	{
 		id = "HeistProjectCasterEliteAtlasUber", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -23060,7 +23076,7 @@ local data = {	{
 	{
 		id = "HeistProjectCasterEliteSpectre", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -23068,7 +23084,7 @@ local data = {	{
 	{
 		id = "HeistScientistCasterElite", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -23076,7 +23092,7 @@ local data = {	{
 	{
 		id = "HeistScientistCasterEliteSpectre", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -23108,7 +23124,7 @@ local data = {	{
 	{
 		id = "HeistThugMelee2", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23124,7 +23140,7 @@ local data = {	{
 	{
 		id = "HeistThugMelee4", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23148,7 +23164,7 @@ local data = {	{
 	{
 		id = "HeistThugTrapper1", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -23156,7 +23172,7 @@ local data = {	{
 	{
 		id = "HeistThugMelee2Elite", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23164,7 +23180,7 @@ local data = {	{
 	{
 		id = "HeistThugMelee2EliteSpectre", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23172,7 +23188,7 @@ local data = {	{
 	{
 		id = "HeistThugMelee4Elite", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23180,7 +23196,7 @@ local data = {	{
 	{
 		id = "HeistThugMelee4EliteSpectre", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23244,7 +23260,7 @@ local data = {	{
 	{
 		id = "HeistThugTrapper1Miniboss", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -23316,7 +23332,7 @@ local data = {	{
 	{
 		id = "HeistRobotPyreKnightElite", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -23324,7 +23340,7 @@ local data = {	{
 	{
 		id = "HeistRobotPyreKnightEliteSpectre", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -23332,7 +23348,7 @@ local data = {	{
 	{
 		id = "HeistRobotPyreKnightEliteAtlasUber", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -23340,7 +23356,7 @@ local data = {	{
 	{
 		id = "HeistRobotAutomatonElite", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -23348,7 +23364,7 @@ local data = {	{
 	{
 		id = "HeistRobotAutomatonEliteSpectre", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -23356,7 +23372,7 @@ local data = {	{
 	{
 		id = "HeistRobotAutomatonEliteAtlasUber", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -23476,7 +23492,7 @@ local data = {	{
 	{
 		id = "DjinnDemon", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -23484,7 +23500,7 @@ local data = {	{
 	{
 		id = "DjinnDemonAtlasUber", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -23492,7 +23508,7 @@ local data = {	{
 	{
 		id = "TheMaven", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -23500,7 +23516,7 @@ local data = {	{
 	{
 		id = "TheMavenEnraged", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -23508,7 +23524,7 @@ local data = {	{
 	{
 		id = "TheMavenMap", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -23516,7 +23532,7 @@ local data = {	{
 	{
 		id = "TheMavenMapSupporter", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -23524,7 +23540,7 @@ local data = {	{
 	{
 		id = "MavenBrainBoss", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -23540,7 +23556,7 @@ local data = {	{
 	{
 		id = "VaalGuardRanged", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23548,7 +23564,7 @@ local data = {	{
 	{
 		id = "VaalGuardFast", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.6, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23556,7 +23572,7 @@ local data = {	{
 	{
 		id = "VaalGuardOverseer", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23564,7 +23580,7 @@ local data = {	{
 	{
 		id = "VaalGuard", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23572,7 +23588,7 @@ local data = {	{
 	{
 		id = "VaalSpinner", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.6, 
 		damage_spread = 0.2, 
@@ -23580,7 +23596,7 @@ local data = {	{
 	{
 		id = "VaalSkitterConstruct", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.6, 
 		damage_spread = 0.2, 
@@ -23588,7 +23604,7 @@ local data = {	{
 	{
 		id = "TrialMasterBoss", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -23596,7 +23612,7 @@ local data = {	{
 	{
 		id = "VaalSpinnerUltimatum", 
 		monster_resistance_id = "LightningChaos1b", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.6, 
 		damage_spread = 0.2, 
@@ -23604,7 +23620,7 @@ local data = {	{
 	{
 		id = "VaalSkitterConstructUltimatum", 
 		monster_resistance_id = "ColdChaos1", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.6, 
 		damage_spread = 0.2, 
@@ -23612,7 +23628,7 @@ local data = {	{
 	{
 		id = "VaalSkitterConstructUltimatumSpectre", 
 		monster_resistance_id = "ColdChaos1", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.6, 
 		damage_spread = 0.2, 
@@ -23652,7 +23668,7 @@ local data = {	{
 	{
 		id = "VaalGuardUltimatum", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23660,7 +23676,7 @@ local data = {	{
 	{
 		id = "VaalGuardUltimatumAtlasUber", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23668,7 +23684,7 @@ local data = {	{
 	{
 		id = "VaalGuardUltimatumSpectre", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23676,7 +23692,7 @@ local data = {	{
 	{
 		id = "VaalGuardRareUltimatum", 
 		monster_resistance_id = "Fire1b", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23684,7 +23700,7 @@ local data = {	{
 	{
 		id = "VaalGuardRangedUltimatum", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23692,7 +23708,7 @@ local data = {	{
 	{
 		id = "VaalGuardFastUltimatum", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.6, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23708,7 +23724,7 @@ local data = {	{
 	{
 		id = "VaalGoliathUltimatum", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23716,7 +23732,7 @@ local data = {	{
 	{
 		id = "VaalGoliathUltimatumAtlasUber", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23724,7 +23740,7 @@ local data = {	{
 	{
 		id = "VaalBeastUltimatum", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.0, 
@@ -23748,7 +23764,7 @@ local data = {	{
 	{
 		id = "ExpeditionApparition", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23756,7 +23772,7 @@ local data = {	{
 	{
 		id = "ExpeditionApparitionMap", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23764,7 +23780,7 @@ local data = {	{
 	{
 		id = "ExpeditionApparitionMapStandalone", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23772,7 +23788,7 @@ local data = {	{
 	{
 		id = "ExpeditionReaperBoss", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23780,7 +23796,7 @@ local data = {	{
 	{
 		id = "ExpeditionReaperBossMap", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23796,7 +23812,7 @@ local data = {	{
 	{
 		id = "ExpeditionSkeletonSword", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23820,7 +23836,7 @@ local data = {	{
 	{
 		id = "ExpeditionZombie", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23828,7 +23844,7 @@ local data = {	{
 	{
 		id = "ExpeditionZombieLarge", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23836,7 +23852,7 @@ local data = {	{
 	{
 		id = "ExpeditionZombieTorso", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23876,7 +23892,7 @@ local data = {	{
 	{
 		id = "ExpeditionDeathKnight", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23884,7 +23900,7 @@ local data = {	{
 	{
 		id = "ExpeditionArmourCaster", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -23892,7 +23908,7 @@ local data = {	{
 	{
 		id = "ExpeditionGolemancer", 
 		monster_resistance_id = "Elemental2", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24012,7 +24028,7 @@ local data = {	{
 	{
 		id = "SummonedReaper", 
 		monster_resistance_id = "MinionGeneric", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24028,7 +24044,7 @@ local data = {	{
 	{
 		id = "SummonedArbalest", 
 		monster_resistance_id = "MinionGeneric", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24052,7 +24068,7 @@ local data = {	{
 	{
 		id = "TestSkeletonsShield", 
 		monster_resistance_id = "ColdBoss", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24100,7 +24116,7 @@ local data = {	{
 	{
 		id = "VaalSmallGolem", 
 		monster_resistance_id = "LightningChaos1b", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.6, 
 		damage_spread = 0.2, 
@@ -24108,7 +24124,7 @@ local data = {	{
 	{
 		id = "HellscapeDemonFodder1", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.66, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24116,7 +24132,7 @@ local data = {	{
 	{
 		id = "HellscapeDemonFodder2", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24132,7 +24148,7 @@ local data = {	{
 	{
 		id = "HellscapeDemonElite1", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24156,7 +24172,7 @@ local data = {	{
 	{
 		id = "HellscapeFleshFodder1", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24164,7 +24180,7 @@ local data = {	{
 	{
 		id = "HellscapeFleshFodder2", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24196,7 +24212,7 @@ local data = {	{
 	{
 		id = "HellscapeFleshElite2", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24204,7 +24220,7 @@ local data = {	{
 	{
 		id = "HellscapeFleshBoss", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24220,7 +24236,7 @@ local data = {	{
 	{
 		id = "HellscapePaleFodder2", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24228,7 +24244,7 @@ local data = {	{
 	{
 		id = "HellscapePaleFodder3", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24244,7 +24260,7 @@ local data = {	{
 	{
 		id = "HellscapePaleElite2", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.66, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24276,7 +24292,7 @@ local data = {	{
 	{
 		id = "HellscapeFleshGiantTentacleSlam", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.0, 
@@ -24284,7 +24300,7 @@ local data = {	{
 	{
 		id = "AtlasInvadersBlackStarFodder1", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -24292,7 +24308,7 @@ local data = {	{
 	{
 		id = "AtlasInvadersBlackStarFodder2", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24300,7 +24316,7 @@ local data = {	{
 	{
 		id = "AtlasInvadersBlackStarFodder3", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.66, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24308,7 +24324,7 @@ local data = {	{
 	{
 		id = "AtlasInvadersBlackStarFodder4", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -24324,7 +24340,7 @@ local data = {	{
 	{
 		id = "AtlasInvadersCleansingFodder2", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24332,7 +24348,7 @@ local data = {	{
 	{
 		id = "AtlasInvadersCleansingFodder2Uber", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24340,7 +24356,7 @@ local data = {	{
 	{
 		id = "AtlasInvadersCleansingFodder3", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24348,7 +24364,7 @@ local data = {	{
 	{
 		id = "AtlasInvadersCleansingFodder4", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24468,7 +24484,7 @@ local data = {	{
 	{
 		id = "AtlasInvadersDoomFodder3", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.7, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24476,7 +24492,7 @@ local data = {	{
 	{
 		id = "AtlasInvadersDoomFodder3Summoned", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.7, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24484,7 +24500,7 @@ local data = {	{
 	{
 		id = "AtlasInvadersDoomFodder4", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24492,7 +24508,7 @@ local data = {	{
 	{
 		id = "AtlasInvadersDoomFodder4Summoned", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24532,7 +24548,7 @@ local data = {	{
 	{
 		id = "AtlasInvadersConsumeBossTentacle", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.0, 
@@ -24540,7 +24556,7 @@ local data = {	{
 	{
 		id = "AtlasInvadersDoomBoss", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.0, 
@@ -24548,7 +24564,7 @@ local data = {	{
 	{
 		id = "ScalySabreSpider", 
 		monster_resistance_id = "Lightning1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24556,7 +24572,7 @@ local data = {	{
 	{
 		id = "TwigMonster", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -24564,7 +24580,7 @@ local data = {	{
 	{
 		id = "TwigMonsterArchnemesis", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24636,7 +24652,7 @@ local data = {	{
 	{
 		id = "SanctumGuard1", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -24652,7 +24668,7 @@ local data = {	{
 	{
 		id = "SanctumGuard3", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 1.0, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24660,7 +24676,7 @@ local data = {	{
 	{
 		id = "SanctumGuard4", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -24668,7 +24684,7 @@ local data = {	{
 	{
 		id = "SanctumGuard5", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24684,7 +24700,7 @@ local data = {	{
 	{
 		id = "SanctumGuard7", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24708,7 +24724,7 @@ local data = {	{
 	{
 		id = "SanctumGuard10", 
 		monster_resistance_id = "SubBoss", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24716,7 +24732,7 @@ local data = {	{
 	{
 		id = "SanctumGargoyleBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24740,7 +24756,7 @@ local data = {	{
 	{
 		id = "SanctumTemplarReaperBoss", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -24756,7 +24772,7 @@ local data = {	{
 	{
 		id = "SanctumLycia2Boss", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -24764,7 +24780,7 @@ local data = {	{
 	{
 		id = "SanctumLycia2BossMap", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -24772,7 +24788,7 @@ local data = {	{
 	{
 		id = "SanctumLycia2BossMapStandalone", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -24780,7 +24796,7 @@ local data = {	{
 	{
 		id = "SanctumGoliath", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24828,7 +24844,7 @@ local data = {	{
 	{
 		id = "SanctumLithomancer", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -24836,7 +24852,7 @@ local data = {	{
 	{
 		id = "SanctumLithomancerAtlasUber", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -24876,7 +24892,7 @@ local data = {	{
 	{
 		id = "SanctumPaleElite2", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.66, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24940,7 +24956,7 @@ local data = {	{
 	{
 		id = "CrucibleSkeletonMelee", 
 		monster_resistance_id = "Chaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -24948,7 +24964,7 @@ local data = {	{
 	{
 		id = "CrucibleSkeletonMeleeAtlasUber", 
 		monster_resistance_id = "Chaos1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -24956,7 +24972,7 @@ local data = {	{
 	{
 		id = "CrucibleLargeSkeleton", 
 		monster_resistance_id = "Chaos2", 
-		armour_multiplier = 0.8, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -24972,7 +24988,7 @@ local data = {	{
 	{
 		id = "CrucibleMonkeyChieftain", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -25004,7 +25020,7 @@ local data = {	{
 	{
 		id = "CrucibleSkeletonBeast", 
 		monster_resistance_id = "Chaos2", 
-		armour_multiplier = 0.4, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -25020,7 +25036,7 @@ local data = {	{
 	{
 		id = "CrucibleGrappler", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -25068,7 +25084,7 @@ local data = {	{
 	{
 		id = "CrucibleSpittingSnake", 
 		monster_resistance_id = "Fire1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -25076,7 +25092,7 @@ local data = {	{
 	{
 		id = "CrucibleFlameSnake", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.15, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -25084,7 +25100,7 @@ local data = {	{
 	{
 		id = "CrucibleSnakeRiverways", 
 		monster_resistance_id = "FireChaos1b", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.1, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -25140,7 +25156,7 @@ local data = {	{
 	{
 		id = "CrucibleCityStalker", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -25156,7 +25172,7 @@ local data = {	{
 	{
 		id = "CrucibleClockworkGolem", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.6, 
 		damage_spread = 0.2, 
@@ -25220,7 +25236,7 @@ local data = {	{
 	{
 		id = "CrucibleKitavaHerald", 
 		monster_resistance_id = "ElementalChaos", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -25228,7 +25244,7 @@ local data = {	{
 	{
 		id = "CrucibleCageSpider", 
 		monster_resistance_id = "Chaos2", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -25260,7 +25276,7 @@ local data = {	{
 	{
 		id = "CrucibleShakariBoss", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 1.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -25340,7 +25356,7 @@ local data = {	{
 	{
 		id = "CrucibleSaplingBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -25348,7 +25364,7 @@ local data = {	{
 	{
 		id = "CrucibleCityStalkerCaster", 
 		monster_resistance_id = "Elemental1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -25356,7 +25372,7 @@ local data = {	{
 	{
 		id = "CrucibleReaperBoss", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26258,7 +26274,7 @@ local data = {	{
 	{
 		id = "PitifulFabrication_Summon1", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26266,7 +26282,7 @@ local data = {	{
 	{
 		id = "PitifulFabrication_Summon2", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 2.0, 
 		damage_spread = 0.2, 
@@ -26274,7 +26290,7 @@ local data = {	{
 	{
 		id = "PitifulFabrication_Summon2AtlasUber", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 2.0, 
 		damage_spread = 0.2, 
@@ -26282,7 +26298,7 @@ local data = {	{
 	{
 		id = "PitifulFabrication_Summon3", 
 		monster_resistance_id = "None", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26290,7 +26306,7 @@ local data = {	{
 	{
 		id = "AzmeriWerewolf", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26298,7 +26314,7 @@ local data = {	{
 	{
 		id = "AzmeriWolf", 
 		monster_resistance_id = "Cold1b", 
-		armour_multiplier = 0.25, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -26314,7 +26330,7 @@ local data = {	{
 	{
 		id = "AzmeriBlackstrider", 
 		monster_resistance_id = "Lightning2", 
-		armour_multiplier = 0.3, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26322,7 +26338,7 @@ local data = {	{
 	{
 		id = "GruthkulDropBear", 
 		monster_resistance_id = "Fire2", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26402,7 +26418,7 @@ local data = {	{
 	{
 		id = "AzmeriFungusZombie", 
 		monster_resistance_id = "ColdChaos1b", 
-		armour_multiplier = 0.65, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -26410,7 +26426,7 @@ local data = {	{
 	{
 		id = "AzmeriFungusZombieAtlasUber", 
 		monster_resistance_id = "ColdChaos1b", 
-		armour_multiplier = 0.65, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.3, 
@@ -26418,7 +26434,7 @@ local data = {	{
 	{
 		id = "PrimordialMonster3", 
 		monster_resistance_id = "Lightning1b", 
-		armour_multiplier = 0.35, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26426,7 +26442,7 @@ local data = {	{
 	{
 		id = "FallenStag", 
 		monster_resistance_id = "ColdChaos1b", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.2, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26434,7 +26450,7 @@ local data = {	{
 	{
 		id = "FallenHooks", 
 		monster_resistance_id = "LightningChaos1b", 
-		armour_multiplier = 0.35, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26442,7 +26458,7 @@ local data = {	{
 	{
 		id = "FallenSplit", 
 		monster_resistance_id = "FireChaos1b", 
-		armour_multiplier = 0.35, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26474,7 +26490,7 @@ local data = {	{
 	{
 		id = "PictFemaleBow", 
 		monster_resistance_id = "Chaos1b", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.65, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26482,7 +26498,7 @@ local data = {	{
 	{
 		id = "PictFemaleDaggerDagger", 
 		monster_resistance_id = "Chaos1b", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.65, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26490,7 +26506,7 @@ local data = {	{
 	{
 		id = "PictFemaleStaff", 
 		monster_resistance_id = "Chaos2", 
-		armour_multiplier = 0.15, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -26498,7 +26514,7 @@ local data = {	{
 	{
 		id = "PictMaleAxe", 
 		monster_resistance_id = "Chaos1b", 
-		armour_multiplier = 0.65, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26506,7 +26522,7 @@ local data = {	{
 	{
 		id = "PictMaleAxeAxe", 
 		monster_resistance_id = "Chaos1b", 
-		armour_multiplier = 0.65, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26514,7 +26530,7 @@ local data = {	{
 	{
 		id = "PictMaleAxeDagger", 
 		monster_resistance_id = "Chaos1b", 
-		armour_multiplier = 0.65, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26522,7 +26538,7 @@ local data = {	{
 	{
 		id = "PictMaleAxeShield", 
 		monster_resistance_id = "Chaos1b", 
-		armour_multiplier = 0.65, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26554,7 +26570,7 @@ local data = {	{
 	{
 		id = "AzmeriSaplingIced", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.33, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.33, 
 		energy_shield_multiplier = 0.33, 
 		damage_spread = 0.2, 
@@ -26562,7 +26578,7 @@ local data = {	{
 	{
 		id = "AzmeriTwigMonster", 
 		monster_resistance_id = "Cold1b", 
-		armour_multiplier = 0.6, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
@@ -26578,7 +26594,7 @@ local data = {	{
 	{
 		id = "AzmeriSentinel", 
 		monster_resistance_id = "Chaos2", 
-		armour_multiplier = 0.65, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26586,7 +26602,7 @@ local data = {	{
 	{
 		id = "CaveDwellerAzmeri", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.35, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26594,7 +26610,7 @@ local data = {	{
 	{
 		id = "CaveDwellerAzmeriBestiary", 
 		monster_resistance_id = "Cold2", 
-		armour_multiplier = 0.35, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26602,7 +26618,7 @@ local data = {	{
 	{
 		id = "PictBigMale", 
 		monster_resistance_id = "Chaos2", 
-		armour_multiplier = 0.7, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26610,7 +26626,7 @@ local data = {	{
 	{
 		id = "AzmeriGullGoliath", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.85, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26618,7 +26634,7 @@ local data = {	{
 	{
 		id = "AzmeriGullGoliathBeast", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.85, 
+		armour_multiplier = 0.75, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26626,7 +26642,7 @@ local data = {	{
 	{
 		id = "VoodooKingBoss", 
 		monster_resistance_id = "MapBoss", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -26666,7 +26682,7 @@ local data = {	{
 	{
 		id = "VoodooKingBoss2", 
 		monster_resistance_id = "MapBossSuper", 
-		armour_multiplier = 0.2, 
+		armour_multiplier = 0.25, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 1.0, 
 		damage_spread = 0.2, 
@@ -26693,20 +26709,20 @@ local data = {	{
 		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.25, 
 		energy_shield_multiplier = 0.0, 
-		damage_spread = 0.0, 
+		damage_spread = 0.2, 
 	},
 	{
 		id = "AzmeriCorpseFirefury", 
 		monster_resistance_id = "Fire2", 
 		armour_multiplier = 0.0, 
-		evasion_multiplier = 0.25, 
-		energy_shield_multiplier = 0.0, 
+		evasion_multiplier = 0.0, 
+		energy_shield_multiplier = 0.25, 
 		damage_spread = 0.2, 
 	},
 	{
 		id = "AzmeriCorpseMannequin", 
 		monster_resistance_id = "Elemental1b", 
-		armour_multiplier = 1.0, 
+		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -26837,7 +26853,7 @@ local data = {	{
 		armour_multiplier = 2.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
-		damage_spread = 0.0, 
+		damage_spread = 0.4, 
 	},
 	{
 		id = "AzmeriRobotArgus", 
@@ -26973,7 +26989,7 @@ local data = {	{
 		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.8, 
 		energy_shield_multiplier = 0.0, 
-		damage_spread = 0.0, 
+		damage_spread = 0.2, 
 	},
 	{
 		id = "AzmeriOak", 
@@ -26981,15 +26997,15 @@ local data = {	{
 		armour_multiplier = 0.8, 
 		evasion_multiplier = 0.4, 
 		energy_shield_multiplier = 0.0, 
-		damage_spread = 0.0, 
+		damage_spread = 0.2, 
 	},
 	{
 		id = "AzmeriGeofri", 
-		monster_resistance_id = "None", 
-		armour_multiplier = 0.0, 
+		monster_resistance_id = "Chaos2", 
+		armour_multiplier = 0.8, 
 		evasion_multiplier = 0.0, 
-		energy_shield_multiplier = 0.0, 
-		damage_spread = 0.0, 
+		energy_shield_multiplier = 0.2, 
+		damage_spread = 0.2, 
 	},
 	{
 		id = "VoodooDollPlayerSkill", 
@@ -27010,7 +27026,7 @@ local data = {	{
 	{
 		id = "NecropolisTankyZombie", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -27018,7 +27034,7 @@ local data = {	{
 	{
 		id = "NecropolisTankyZombieSpectre", 
 		monster_resistance_id = "Cold1", 
-		armour_multiplier = 0.5, 
+		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
@@ -27062,5 +27078,197 @@ local data = {	{
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.0, 
+	},
+	{
+		id = "KalguurBanditArcherBoss", 
+		monster_resistance_id = "MapBossSuper", 
+		armour_multiplier = 0.5, 
+		evasion_multiplier = 0.5, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "KalguurVerisiumGuardBoss", 
+		monster_resistance_id = "MapBossSuper", 
+		armour_multiplier = 1.0, 
+		evasion_multiplier = 0.5, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "KalguurPirateCoveBoss", 
+		monster_resistance_id = "MapBossSuper", 
+		armour_multiplier = 0.0, 
+		evasion_multiplier = 0.5, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "CrimsonGrowthSmall", 
+		monster_resistance_id = "None", 
+		armour_multiplier = 0.0, 
+		evasion_multiplier = 0.0, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.0, 
+	},
+	{
+		id = "CrimsonGrowthSmallMaps", 
+		monster_resistance_id = "None", 
+		armour_multiplier = 0.0, 
+		evasion_multiplier = 0.0, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.0, 
+	},
+	{
+		id = "FellshrineTemplarReaperBoss", 
+		monster_resistance_id = "ActBoss", 
+		armour_multiplier = 0.5, 
+		evasion_multiplier = 0.5, 
+		energy_shield_multiplier = 0.5, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "KalguurFungusZombie", 
+		monster_resistance_id = "ColdChaos1b", 
+		armour_multiplier = 0.0, 
+		evasion_multiplier = 0.0, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.3, 
+	},
+	{
+		id = "KalguurPrimordialMonster1", 
+		monster_resistance_id = "ColdChaos1b", 
+		armour_multiplier = 0.0, 
+		evasion_multiplier = 0.0, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "KalguurPrimordialMonster2", 
+		monster_resistance_id = "Cold1b", 
+		armour_multiplier = 0.0, 
+		evasion_multiplier = 0.5, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "KalguurPrimordialMonster3", 
+		monster_resistance_id = "Lightning1b", 
+		armour_multiplier = 0.0, 
+		evasion_multiplier = 0.25, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "KalguurFallenSplit", 
+		monster_resistance_id = "FireChaos1b", 
+		armour_multiplier = 0.25, 
+		evasion_multiplier = 0.25, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "KalguurSentinel", 
+		monster_resistance_id = "Chaos2", 
+		armour_multiplier = 0.5, 
+		evasion_multiplier = 0.3, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "KalguurDemonFodder1", 
+		monster_resistance_id = "Fire1", 
+		armour_multiplier = 0.0, 
+		evasion_multiplier = 0.33, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "KalguurDemonFodder2", 
+		monster_resistance_id = "Fire1", 
+		armour_multiplier = 0.5, 
+		evasion_multiplier = 0.5, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "KalguurDemonFodder3", 
+		monster_resistance_id = "Fire1", 
+		armour_multiplier = 0.0, 
+		evasion_multiplier = 0.0, 
+		energy_shield_multiplier = 1.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "KalguurDemonElite1", 
+		monster_resistance_id = "Fire2", 
+		armour_multiplier = 0.5, 
+		evasion_multiplier = 0.5, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "KalguurDemonElite2", 
+		monster_resistance_id = "Lightning2", 
+		armour_multiplier = 0.0, 
+		evasion_multiplier = 0.0, 
+		energy_shield_multiplier = 1.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "KalguurPaleFodder1", 
+		monster_resistance_id = "Cold1", 
+		armour_multiplier = 0.0, 
+		evasion_multiplier = 0.0, 
+		energy_shield_multiplier = 1.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "KalguurPaleFodder2", 
+		monster_resistance_id = "Lightning1", 
+		armour_multiplier = 0.0, 
+		evasion_multiplier = 0.5, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "KalguurPaleFodder3", 
+		monster_resistance_id = "Cold1", 
+		armour_multiplier = 0.0, 
+		evasion_multiplier = 0.5, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "KalguurPaleElite1", 
+		monster_resistance_id = "Lightning2", 
+		armour_multiplier = 0.0, 
+		evasion_multiplier = 0.25, 
+		energy_shield_multiplier = 1.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "KalguurPaleElite2", 
+		monster_resistance_id = "Cold2", 
+		armour_multiplier = 0.5, 
+		evasion_multiplier = 0.33, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "CardMonster", 
+		monster_resistance_id = "None", 
+		armour_multiplier = 0.0, 
+		evasion_multiplier = 0.0, 
+		energy_shield_multiplier = 0.5, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "BookMonster", 
+		monster_resistance_id = "None", 
+		armour_multiplier = 0.0, 
+		evasion_multiplier = 0.0, 
+		energy_shield_multiplier = 0.5, 
+		damage_spread = 0.2, 
 	}}
 return data

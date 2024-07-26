@@ -1,12 +1,13 @@
 {{Passive skill
 |id                                  = AscendancyRaider6
 |int_id                              = 4849
-|name                                = Rapid Assault
-|ascendancy_class                    = Raider
+|name                                = Mother's Teachings
+|reminder_text                       = (Adopt the power of the forest, gradually covering your body in bark. Getting hit by enemy attacks causes bark to be removed. You take reduced damage from physical attack hits the more bark builds up, but higher chance to evade when less covered in bark)
+|ascendancy_class                    = Warden
 |is_notable                          = True
-|icon                                = AvatarOfOnslaught (Raider)
-|stat1_id                            = base_should_have_onslaught_from_stat
-|stat1_value                         = 1
-|stat_text                           = [[Onslaught]]
-|connections                         = AscendancyRaider5,AscendancyRaider7
+|icon                                = WardenBarkskin1 (Warden)
+|stat1_id                            = local_display_grants_skill_barkskin
+|stat1_value                         = 20
+|stat_text                           = Grants [[Level]] 20 Barkskin [[Skill]]
+|connections                         = AscendancyRaider7,AscendancyRaider5,AscendancyRaider7
 }}

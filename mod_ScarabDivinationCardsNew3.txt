@@ -4,12 +4,9 @@
 |domain                           = 14
 |generation_type                  = 3
 |required_level                   = 1
-|mod_type                         = ScarabDivinationFavouredMaps
-|stat_text                        = Divination Card drops are replaced by those of your Favoured Maps<br>10% more Divination Cards found per different Favoured Map
-|stat1_id                         = map_divination_card_drops_as_though_favoured_maps
-|stat1_min                        = 1
-|stat1_max                        = 1
-|stat2_id                         = map_divination_card_drop_+%_per_different_favoured_map
-|stat2_min                        = 10
-|stat2_max                        = 10
+|mod_type                         = ScarabDivinationMagicMonsters
+|stat_text                        = Up to 3 Packs of Magic Monsters are granted Divination Cards<br />Monsters granted Divination Cards drop those Cards on death
+|stat1_id                         = map_X_magic_packs_drop_cards_from_area
+|stat1_min                        = 3
+|stat1_max                        = 3
 }}

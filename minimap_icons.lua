@@ -1928,6 +1928,54 @@ local data = {	{
 		id = "CorpseTypeBeast", 
 	},
 	{
+		id = "OreTypeVerisium", 
+	},
+	{
+		id = "OreTypePetrifiedWood", 
+	},
+	{
+		id = "OreTypeDemonCopper", 
+	},
+	{
+		id = "OreTypeCrimsonIron", 
+	},
+	{
+		id = "OreTypeBismuth", 
+	},
+	{
+		id = "VillageMining", 
+	},
+	{
+		id = "VillageFarming", 
+	},
+	{
+		id = "VillageSmelting", 
+	},
+	{
+		id = "VillageDisenchanting", 
+	},
+	{
+		id = "VillageShipping", 
+	},
+	{
+		id = "VillageMapping", 
+	},
+	{
+		id = "VillageTavern", 
+	},
+	{
+		id = "VillageRecombinating", 
+	},
+	{
+		id = "VillageRunesmithing", 
+	},
+	{
+		id = "VillageMapDevice", 
+	},
+	{
+		id = "VillageFarmingPlot", 
+	},
+	{
 		id = "RacetrackCyanRhoa", 
 	},
 	{
@@ -1944,5 +1992,8 @@ local data = {	{
 	},
 	{
 		id = "RacetrackBlueRhoa", 
+	},
+	{
+		id = "VillageMiningInteractable", 
 	}}
 return data

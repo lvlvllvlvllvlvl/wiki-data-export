@@ -1,0 +1,13 @@
+{{Passive skill
+|id                                  = bleed_notable_2904
+|int_id                              = 31473
+|name                                = Master of Wounds
+|is_notable                          = True
+|icon                                = BleedingNotable2
+|stat1_id                            = bleeding_dot_multiplier_+
+|stat1_value                         = 12
+|stat2_id                            = self_bleed_duration_+%
+|stat2_value                         = -30
+|stat_text                           = +12% to Damage over Time Multiplier for Bleeding<br>30% reduced Bleed Duration on you
+|connections                         = mastery_bleed_283,bleed_node_2903_2,bleed_node_2902,mastery_bleed_283
+}}

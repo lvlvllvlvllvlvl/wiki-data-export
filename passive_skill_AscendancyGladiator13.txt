@@ -1,13 +1,13 @@
 {{Passive skill
 |id                                  = AscendancyGladiator13
 |int_id                              = 14726
-|name                                = Attack Speed, Movement Speed
+|name                                = Attack Speed, Attack Damage
 |ascendancy_class                    = Gladiator
-|icon                                = GLADSpeedAoE (Gladiator)
+|icon                                = GLADOneHand (Gladiator)
 |stat1_id                            = attack_speed_+%
-|stat1_value                         = 4
-|stat2_id                            = base_movement_velocity_+%
-|stat2_value                         = 4
-|stat_text                           = 4% increased [[Attack Speed]]<br>4% increased [[Movement Speed]]
+|stat1_value                         = 5
+|stat2_id                            = attack_damage_+%
+|stat2_value                         = 10
+|stat_text                           = 5% increased [[Attack Speed]]<br>10% increased [[Attack Damage]]
 |connections                         = AscendancyGladiator14,AscendancyGladiator14,AscendancyGladiatorStart
 }}

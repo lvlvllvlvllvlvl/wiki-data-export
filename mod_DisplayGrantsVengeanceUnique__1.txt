@@ -1,13 +1,13 @@
 {{Mod
 |id                               = DisplayGrantsVengeanceUnique__1
-|mod_groups                       = DisplayGrantsVengeance
+|mod_groups                       = GrantedSkill
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
-|granted_skill                    = Vengeance
-|mod_type                         = DisplayGrantsVengeance
-|stat_text                        = Grants [[Level]] 15 [[Vengeance]] [[Skill]]
-|stat1_id                         = local_display_grants_level_X_vengeance
+|granted_skill                    = BattlemagesCry, BattlemagesCrySupport
+|mod_type                         = BattlemagesCry
+|stat_text                        = Grants [[Level]] 15 Battlemage's Cry [[Skill]]
+|stat1_id                         = local_display_grants_skill_battlemages_cry_level
 |stat1_min                        = 15
 |stat1_max                        = 15
 |tags                             = skill

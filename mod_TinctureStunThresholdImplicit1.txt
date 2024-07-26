@@ -1,0 +1,16 @@
+{{Mod
+|id                               = TinctureStunThresholdImplicit1
+|mod_groups                       = StunThresholdReduction
+|domain                           = 34
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = TinctureStunThresholdDuration
+|stat_text                        = (15-25)% increased Stun Duration with Melee Weapons<br>40% reduced Enemy Stun Threshold with Melee Weapons
+|stat1_id                         = stun_duration_+%_with_tinctured_weapons
+|stat1_min                        = 15
+|stat1_max                        = 25
+|stat2_id                         = stun_threshold_reduction_+%_with_tinctured_weapons
+|stat2_min                        = 40
+|stat2_max                        = 40
+|tags                             = attack
+}}

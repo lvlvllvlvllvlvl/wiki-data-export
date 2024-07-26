@@ -1,12 +1,12 @@
 {{Passive skill
 |id                                  = totem_duration22
 |int_id                              = 11431
-|name                                = Totem Life and Physical Damage Reduction
+|name                                = Totem Life and Damage
 |icon                                = totemlife
 |stat1_id                            = totem_life_+%
-|stat1_value                         = 15
-|stat2_id                            = totem_additional_physical_damage_reduction_%
-|stat2_value                         = 15
-|stat_text                           = 15% increased [[Totem]] [[Life]]<br>[[Totem|Totems]] have 15% additional [[Physical Damage]] Reduction
-|connections                         = totem_placement_speed1507,strength1005,totem_placement_speed1507
+|stat1_value                         = 10
+|stat2_id                            = totem_damage_+%
+|stat2_value                         = 10
+|stat_text                           = 10% increased [[Totem]] [[Life]]<br>10% increased [[Totem]] Damage
+|connections                         = totem_damage1491_,totem_placement_speed1507,strength784,totem_placement_speed1507
 }}

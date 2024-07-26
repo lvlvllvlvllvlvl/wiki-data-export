@@ -29,9 +29,9 @@
 |static_stat1_value                      = 1
 |static_stat2_id                         = chance_to_grant_endurance_charge_on_death_%
 |static_stat2_value                      = 100
-|static_stat3_id                         = enemy_rage_regeneration_on_stun
-|static_stat3_value                      = 20
-|stat_text                               = Cursed enemies grant (2-2.95)% Life Leech when Hit by Attacks<br>Cursed enemies grant (2-2.95)% Mana Leech when Hit by Attacks<br>Cursed enemies have a 100% chance to grant an Endurance Charge when slain<br>Hits against Cursed Enemies have (40-59)% chance to double Stun Duration<br>Cursed Enemies grant 20 Rage Regenerated over 1 second when Stunned
+|static_stat3_id                         = enemy_grant_X_rage_on_stun
+|static_stat3_value                      = 10
+|stat_text                               = Cursed enemies grant (2-2.95)% Life Leech when Hit by Attacks<br>Cursed enemies grant (2-2.95)% Mana Leech when Hit by Attacks<br>Cursed enemies have a 100% chance to grant an Endurance Charge when slain<br>Hits against Cursed Enemies have (40-59)% chance to double Stun Duration<br>Cursed Enemies grant 10 Rage when Stunned
 |level1                                  = True
 |level1_level_requirement                = 16
 |level1_cost_amounts                     = 16

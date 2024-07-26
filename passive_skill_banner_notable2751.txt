@@ -4,10 +4,10 @@
 |name                                = Bannerman
 |is_notable                          = True
 |icon                                = BannersNotable
-|stat1_id                            = non_curse_aura_effect_+%_vs_enemies
-|stat1_value                         = 15
-|stat2_id                            = placed_banner_attack_damage_+%
-|stat2_value                         = 30
-|stat_text                           = 15% increased Effect of Non-Curse Auras from your [[Skill|Skills]] on Enemies<br>Placed Banners also grant 30% increased [[Attack Damage]] to you and Allies
-|connections                         = mastery_reservation207,aura_banner2426,banners2750,mastery_reservation207
+|stat1_id                            = banner_duration_+%
+|stat1_value                         = 20
+|stat2_id                            = banner_buff_lingers_for_X_seconds_after_leaving_area
+|stat2_value                         = 3
+|stat_text                           = Banner [[Skill|Skills]] have 20% increased Duration<br>Banner Buffs Linger on you for 3 seconds after you leave the Area
+|connections                         = banner_node_2886_,mastery_banner_274,banner_node_2890,mastery_banner_274
 }}

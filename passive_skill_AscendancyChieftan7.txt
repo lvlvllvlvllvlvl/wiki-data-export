@@ -1,16 +1,14 @@
 {{Passive skill
 |id                                  = AscendancyChieftan7
 |int_id                              = 31667
-|name                                = Arohongui, Moon's Presence
+|name                                = Sione, Sun's Roar
 |ascendancy_class                    = Chieftain
 |is_notable                          = True
-|icon                                = ArohunguiMoonsPresence (Chieftain)
-|stat1_id                            = totems_taunt_enemies_around_them_for_x_seconds_when_summoned
-|stat1_value                         = 4
-|stat2_id                            = recoup_%_of_damage_taken_by_your_totems_as_life
-|stat2_value                         = 25
-|stat3_id                            = totems_regenerate_1_life_per_x_player_life_regeneration
-|stat3_value                         = 4
-|stat_text                           = [[Totem|Totems]] Taunt Enemies around them for 4 seconds when Summoned<br>Recoup 25% of Damage Taken by your [[Totem|Totems]] as [[Life]]<br>[[Totem|Totems]] Regenerate 1 [[Life]] per second per 4 of your [[Life]] Recovery per second from Regeneration
-|connections                         = AscendancyChieftan6
+|icon                                = ArohunguiMoonsPresenceWarcry (Chieftain)
+|stat1_id                            = warcries_have_infinite_power
+|stat1_value                         = 1
+|stat2_id                            = warcry_buff_effect_+%
+|stat2_value                         = 30
+|stat_text                           = Warcries have infinite Power<br>30% increased Warcry Buff Effect
+|connections                         = AscendancyChieftan1,AscendancyChieftan6
 }}

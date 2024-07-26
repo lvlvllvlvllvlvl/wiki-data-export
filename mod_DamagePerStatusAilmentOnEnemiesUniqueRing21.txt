@@ -5,11 +5,11 @@
 |generation_type                  = 3
 |required_level                   = 1
 |mod_type                         = DamagePerStatusAilmentOnEnemies
-|stat_text                        = 20% increased Damage with [[Hit|Hits]] and Ailments per [[Freeze]], [[Shock]] or [[Ignite]] on Enemy
-|stat1_id                         = damage_+%_vs_enemies_per_freeze_shock_ignite
-|stat1_min                        = 20
-|stat1_max                        = 20
-|tags                             = damage
+|stat_text                        = (30-40)% increased [[Elemental Damage]] with [[Hit|Hits]] and Ailments for<br />each type of Elemental Ailment on Enemy
+|stat1_id                         = elemental_damage_+%_per_different_enemy_elemental_ailment
+|stat1_min                        = 30
+|stat1_max                        = 40
+|tags                             = elemental_damage, damage, elemental
 |sell_price1_name                 = Alchemy Shard
 |sell_price1_amount               = 8
 }}

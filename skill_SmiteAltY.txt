@@ -10,7 +10,6 @@
 |quality_type1_breakpoints               = 2.0
 |quality_type1_stat1_id                  = active_skill_area_damage_+%_final
 |quality_type1_stat1_value               = 500
-|static_cost_amounts                     = 6
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 85
 |static_duration                         = 4
@@ -29,6 +28,7 @@
 |stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>Base duration is 4.00 seconds<br>(30-20)% less Area Damage<br>Base radius is (1.5-2.1) metres<br>Base Aura radius is (3.6-4.2) metres<br>Lightning strikes 1 target within 5 metres<br>Aura grants (1-12) to (4-220) added Lightning Damage<br>Aura grants (10-19)% chance to Shock
 |level1                                  = True
 |level1_level_requirement                = 1
+|level1_cost_amounts                     = 7
 |level1_damage_effectiveness             = 196
 |level1_damage_multiplier                = 196
 |level1_stat_text                        = 30% less Area Damage<br>Base radius is 1.5 metres<br>Base Aura radius is 3.6 metres<br>Aura grants 1 to 4 added Lightning Damage<br>Aura grants 10% chance to Shock
@@ -50,6 +50,7 @@
 |level1_stat8_value                      = 10
 |level2                                  = True
 |level2_level_requirement                = 2
+|level2_cost_amounts                     = 7
 |level2_damage_effectiveness             = 200
 |level2_damage_multiplier                = 200.1
 |level2_stat_text                        = 29% less Area Damage<br>Base radius is 1.5 metres<br>Base Aura radius is 3.6 metres<br>Aura grants 1 to 5 added Lightning Damage<br>Aura grants 10% chance to Shock
@@ -71,6 +72,7 @@
 |level2_stat8_value                      = 10
 |level3                                  = True
 |level3_level_requirement                = 4
+|level3_cost_amounts                     = 7
 |level3_damage_effectiveness             = 204
 |level3_damage_multiplier                = 204.1
 |level3_stat_text                        = 29% less Area Damage<br>Base radius is 1.6 metres<br>Base Aura radius is 3.7 metres<br>Aura grants 1 to 6 added Lightning Damage<br>Aura grants 11% chance to Shock
@@ -92,6 +94,7 @@
 |level3_stat8_value                      = 11
 |level4                                  = True
 |level4_level_requirement                = 7
+|level4_cost_amounts                     = 7
 |level4_damage_effectiveness             = 208
 |level4_damage_multiplier                = 208.2
 |level4_stat_text                        = 28% less Area Damage<br>Base radius is 1.6 metres<br>Base Aura radius is 3.7 metres<br>Aura grants 1 to 8 added Lightning Damage<br>Aura grants 11% chance to Shock
@@ -113,6 +116,7 @@
 |level4_stat8_value                      = 11
 |level5                                  = True
 |level5_level_requirement                = 11
+|level5_cost_amounts                     = 7
 |level5_damage_effectiveness             = 212
 |level5_damage_multiplier                = 212.2
 |level5_stat_text                        = 28% less Area Damage<br>Base radius is 1.6 metres<br>Base Aura radius is 3.7 metres<br>Aura grants 1 to 11 added Lightning Damage<br>Aura grants 12% chance to Shock
@@ -134,6 +138,7 @@
 |level5_stat8_value                      = 12
 |level6                                  = True
 |level6_level_requirement                = 16
+|level6_cost_amounts                     = 8
 |level6_damage_effectiveness             = 216
 |level6_damage_multiplier                = 216.3
 |level6_stat_text                        = 27% less Area Damage<br>Base radius is 1.7 metres<br>Base Aura radius is 3.8 metres<br>Aura grants 1 to 16 added Lightning Damage<br>Aura grants 12% chance to Shock
@@ -155,6 +160,7 @@
 |level6_stat8_value                      = 12
 |level7                                  = True
 |level7_level_requirement                = 20
+|level7_cost_amounts                     = 8
 |level7_damage_effectiveness             = 220
 |level7_damage_multiplier                = 220.3
 |level7_stat_text                        = 27% less Area Damage<br>Base radius is 1.7 metres<br>Base Aura radius is 3.8 metres<br>Aura grants 1 to 21 added Lightning Damage<br>Aura grants 13% chance to Shock
@@ -176,6 +182,7 @@
 |level7_stat8_value                      = 13
 |level8                                  = True
 |level8_level_requirement                = 24
+|level8_cost_amounts                     = 8
 |level8_damage_effectiveness             = 224
 |level8_damage_multiplier                = 224.4
 |level8_stat_text                        = 26% less Area Damage<br>Base radius is 1.7 metres<br>Base Aura radius is 3.8 metres<br>Aura grants 1 to 26 added Lightning Damage<br>Aura grants 13% chance to Shock
@@ -197,6 +204,7 @@
 |level8_stat8_value                      = 13
 |level9                                  = True
 |level9_level_requirement                = 28
+|level9_cost_amounts                     = 9
 |level9_damage_effectiveness             = 228
 |level9_damage_multiplier                = 228.4
 |level9_stat_text                        = 26% less Area Damage<br>Base radius is 1.8 metres<br>Base Aura radius is 3.9 metres<br>Aura grants 2 to 33 added Lightning Damage<br>Aura grants 14% chance to Shock
@@ -218,6 +226,7 @@
 |level9_stat8_value                      = 14
 |level10                                 = True
 |level10_level_requirement               = 32
+|level10_cost_amounts                    = 9
 |level10_damage_effectiveness            = 232
 |level10_damage_multiplier               = 232.5
 |level10_stat_text                       = 25% less Area Damage<br>Base radius is 1.8 metres<br>Base Aura radius is 3.9 metres<br>Aura grants 2 to 40 added Lightning Damage<br>Aura grants 14% chance to Shock
@@ -239,6 +248,7 @@
 |level10_stat8_value                     = 14
 |level11                                 = True
 |level11_level_requirement               = 36
+|level11_cost_amounts                    = 9
 |level11_damage_effectiveness            = 237
 |level11_damage_multiplier               = 236.5
 |level11_stat_text                       = 25% less Area Damage<br>Base radius is 1.8 metres<br>Base Aura radius is 3.9 metres<br>Aura grants 3 to 49 added Lightning Damage<br>Aura grants 15% chance to Shock
@@ -260,6 +270,7 @@
 |level11_stat8_value                     = 15
 |level12                                 = True
 |level12_level_requirement               = 40
+|level12_cost_amounts                    = 10
 |level12_damage_effectiveness            = 241
 |level12_damage_multiplier               = 240.6
 |level12_stat_text                       = 24% less Area Damage<br>Base radius is 1.9 metres<br>Base Aura radius is 4 metres<br>Aura grants 3 to 60 added Lightning Damage<br>Aura grants 15% chance to Shock
@@ -281,6 +292,7 @@
 |level12_stat8_value                     = 15
 |level13                                 = True
 |level13_level_requirement               = 44
+|level13_cost_amounts                    = 10
 |level13_damage_effectiveness            = 245
 |level13_damage_multiplier               = 244.6
 |level13_stat_text                       = 24% less Area Damage<br>Base radius is 1.9 metres<br>Base Aura radius is 4 metres<br>Aura grants 4 to 72 added Lightning Damage<br>Aura grants 16% chance to Shock
@@ -302,6 +314,7 @@
 |level13_stat8_value                     = 16
 |level14                                 = True
 |level14_level_requirement               = 48
+|level14_cost_amounts                    = 10
 |level14_damage_effectiveness            = 249
 |level14_damage_multiplier               = 248.7
 |level14_stat_text                       = 23% less Area Damage<br>Base radius is 1.9 metres<br>Base Aura radius is 4 metres<br>Aura grants 5 to 87 added Lightning Damage<br>Aura grants 16% chance to Shock
@@ -323,6 +336,7 @@
 |level14_stat8_value                     = 16
 |level15                                 = True
 |level15_level_requirement               = 52
+|level15_cost_amounts                    = 10
 |level15_damage_effectiveness            = 253
 |level15_damage_multiplier               = 252.7
 |level15_stat_text                       = 23% less Area Damage<br>Base radius is 2 metres<br>Base Aura radius is 4.1 metres<br>Aura grants 5 to 104 added Lightning Damage<br>Aura grants 17% chance to Shock
@@ -344,6 +358,7 @@
 |level15_stat8_value                     = 17
 |level16                                 = True
 |level16_level_requirement               = 56
+|level16_cost_amounts                    = 11
 |level16_damage_effectiveness            = 257
 |level16_damage_multiplier               = 256.8
 |level16_stat_text                       = 22% less Area Damage<br>Base radius is 2 metres<br>Base Aura radius is 4.1 metres<br>Aura grants 6 to 123 added Lightning Damage<br>Aura grants 17% chance to Shock
@@ -365,6 +380,7 @@
 |level16_stat8_value                     = 17
 |level17                                 = True
 |level17_level_requirement               = 60
+|level17_cost_amounts                    = 11
 |level17_damage_effectiveness            = 261
 |level17_damage_multiplier               = 260.8
 |level17_stat_text                       = 22% less Area Damage<br>Base radius is 2 metres<br>Base Aura radius is 4.1 metres<br>Aura grants 8 to 146 added Lightning Damage<br>Aura grants 18% chance to Shock
@@ -386,6 +402,7 @@
 |level17_stat8_value                     = 18
 |level18                                 = True
 |level18_level_requirement               = 64
+|level18_cost_amounts                    = 11
 |level18_damage_effectiveness            = 265
 |level18_damage_multiplier               = 264.9
 |level18_stat_text                       = 21% less Area Damage<br>Base radius is 2.1 metres<br>Base Aura radius is 4.2 metres<br>Aura grants 9 to 173 added Lightning Damage<br>Aura grants 18% chance to Shock
@@ -407,6 +424,7 @@
 |level18_stat8_value                     = 18
 |level19                                 = True
 |level19_level_requirement               = 67
+|level19_cost_amounts                    = 12
 |level19_damage_effectiveness            = 269
 |level19_damage_multiplier               = 268.9
 |level19_stat_text                       = 21% less Area Damage<br>Base radius is 2.1 metres<br>Base Aura radius is 4.2 metres<br>Aura grants 10 to 195 added Lightning Damage<br>Aura grants 19% chance to Shock
@@ -428,6 +446,7 @@
 |level19_stat8_value                     = 19
 |level20                                 = True
 |level20_level_requirement               = 70
+|level20_cost_amounts                    = 12
 |level20_damage_effectiveness            = 273
 |level20_damage_multiplier               = 273
 |level20_stat_text                       = 20% less Area Damage<br>Base radius is 2.1 metres<br>Base Aura radius is 4.2 metres<br>Aura grants 12 to 220 added Lightning Damage<br>Aura grants 19% chance to Shock
@@ -449,6 +468,7 @@
 |level20_stat8_value                     = 19
 |level21                                 = True
 |level21_level_requirement               = 72
+|level21_cost_amounts                    = 12
 |level21_damage_effectiveness            = 277
 |level21_damage_multiplier               = 277.1
 |level21_stat_text                       = 20% less Area Damage<br>Base radius is 2.2 metres<br>Base Aura radius is 4.3 metres<br>Aura grants 13 to 239 added Lightning Damage<br>Aura grants 20% chance to Shock
@@ -470,6 +490,7 @@
 |level21_stat8_value                     = 20
 |level22                                 = True
 |level22_level_requirement               = 74
+|level22_cost_amounts                    = 12
 |level22_damage_effectiveness            = 281
 |level22_damage_multiplier               = 281.1
 |level22_stat_text                       = 19% less Area Damage<br>Base radius is 2.2 metres<br>Base Aura radius is 4.3 metres<br>Aura grants 14 to 258 added Lightning Damage<br>Aura grants 20% chance to Shock
@@ -491,6 +512,7 @@
 |level22_stat8_value                     = 20
 |level23                                 = True
 |level23_level_requirement               = 76
+|level23_cost_amounts                    = 12
 |level23_damage_effectiveness            = 285
 |level23_damage_multiplier               = 285.2
 |level23_stat_text                       = 19% less Area Damage<br>Base radius is 2.2 metres<br>Base Aura radius is 4.3 metres<br>Aura grants 15 to 280 added Lightning Damage<br>Aura grants 21% chance to Shock
@@ -512,6 +534,7 @@
 |level23_stat8_value                     = 21
 |level24                                 = True
 |level24_level_requirement               = 78
+|level24_cost_amounts                    = 12
 |level24_damage_effectiveness            = 289
 |level24_damage_multiplier               = 289.2
 |level24_stat_text                       = 18% less Area Damage<br>Base radius is 2.3 metres<br>Base Aura radius is 4.4 metres<br>Aura grants 16 to 302 added Lightning Damage<br>Aura grants 21% chance to Shock
@@ -533,6 +556,7 @@
 |level24_stat8_value                     = 21
 |level25                                 = True
 |level25_level_requirement               = 80
+|level25_cost_amounts                    = 13
 |level25_damage_effectiveness            = 293
 |level25_damage_multiplier               = 293.3
 |level25_stat_text                       = 18% less Area Damage<br>Base radius is 2.3 metres<br>Base Aura radius is 4.4 metres<br>Aura grants 17 to 327 added Lightning Damage<br>Aura grants 22% chance to Shock
@@ -554,6 +578,7 @@
 |level25_stat8_value                     = 22
 |level26                                 = True
 |level26_level_requirement               = 82
+|level26_cost_amounts                    = 13
 |level26_damage_effectiveness            = 297
 |level26_damage_multiplier               = 297.3
 |level26_stat_text                       = 17% less Area Damage<br>Base radius is 2.3 metres<br>Base Aura radius is 4.4 metres<br>Aura grants 19 to 353 added Lightning Damage<br>Aura grants 22% chance to Shock
@@ -575,6 +600,7 @@
 |level26_stat8_value                     = 22
 |level27                                 = True
 |level27_level_requirement               = 84
+|level27_cost_amounts                    = 13
 |level27_damage_effectiveness            = 301
 |level27_damage_multiplier               = 301.4
 |level27_stat_text                       = 17% less Area Damage<br>Base radius is 2.3 metres<br>Base Aura radius is 4.4 metres<br>Aura grants 20 to 381 added Lightning Damage<br>Aura grants 23% chance to Shock
@@ -596,6 +622,7 @@
 |level27_stat8_value                     = 23
 |level28                                 = True
 |level28_level_requirement               = 86
+|level28_cost_amounts                    = 13
 |level28_damage_effectiveness            = 305
 |level28_damage_multiplier               = 305.4
 |level28_stat_text                       = 16% less Area Damage<br>Base radius is 2.4 metres<br>Base Aura radius is 4.5 metres<br>Aura grants 22 to 411 added Lightning Damage<br>Aura grants 23% chance to Shock
@@ -617,6 +644,7 @@
 |level28_stat8_value                     = 23
 |level29                                 = True
 |level29_level_requirement               = 88
+|level29_cost_amounts                    = 13
 |level29_damage_effectiveness            = 309
 |level29_damage_multiplier               = 309.5
 |level29_stat_text                       = 16% less Area Damage<br>Base radius is 2.4 metres<br>Base Aura radius is 4.5 metres<br>Aura grants 23 to 444 added Lightning Damage<br>Aura grants 24% chance to Shock
@@ -638,6 +666,7 @@
 |level29_stat8_value                     = 24
 |level30                                 = True
 |level30_level_requirement               = 90
+|level30_cost_amounts                    = 13
 |level30_damage_effectiveness            = 314
 |level30_damage_multiplier               = 313.5
 |level30_stat_text                       = 15% less Area Damage<br>Base radius is 2.4 metres<br>Base Aura radius is 4.5 metres<br>Aura grants 25 to 479 added Lightning Damage<br>Aura grants 24% chance to Shock
@@ -659,6 +688,7 @@
 |level30_stat8_value                     = 24
 |level31                                 = True
 |level31_level_requirement               = 91
+|level31_cost_amounts                    = 13
 |level31_damage_effectiveness            = 316
 |level31_damage_multiplier               = 315.6
 |level31_stat_text                       = 15% less Area Damage<br>Base radius is 2.5 metres<br>Base Aura radius is 4.6 metres<br>Aura grants 26 to 497 added Lightning Damage<br>Aura grants 24% chance to Shock
@@ -680,6 +710,7 @@
 |level31_stat8_value                     = 24
 |level32                                 = True
 |level32_level_requirement               = 92
+|level32_cost_amounts                    = 14
 |level32_damage_effectiveness            = 318
 |level32_damage_multiplier               = 317.6
 |level32_stat_text                       = 15% less Area Damage<br>Base radius is 2.5 metres<br>Base Aura radius is 4.6 metres<br>Aura grants 27 to 516 added Lightning Damage<br>Aura grants 25% chance to Shock
@@ -701,6 +732,7 @@
 |level32_stat8_value                     = 25
 |level33                                 = True
 |level33_level_requirement               = 93
+|level33_cost_amounts                    = 14
 |level33_damage_effectiveness            = 320
 |level33_damage_multiplier               = 319.6
 |level33_stat_text                       = 15% less Area Damage<br>Base radius is 2.5 metres<br>Base Aura radius is 4.6 metres<br>Aura grants 28 to 536 added Lightning Damage<br>Aura grants 25% chance to Shock
@@ -722,6 +754,7 @@
 |level33_stat8_value                     = 25
 |level34                                 = True
 |level34_level_requirement               = 94
+|level34_cost_amounts                    = 14
 |level34_damage_effectiveness            = 322
 |level34_damage_multiplier               = 321.6
 |level34_stat_text                       = 14% less Area Damage<br>Base radius is 2.5 metres<br>Base Aura radius is 4.6 metres<br>Aura grants 29 to 556 added Lightning Damage<br>Aura grants 25% chance to Shock
@@ -743,6 +776,7 @@
 |level34_stat8_value                     = 25
 |level35                                 = True
 |level35_level_requirement               = 95
+|level35_cost_amounts                    = 14
 |level35_damage_effectiveness            = 324
 |level35_damage_multiplier               = 323.7
 |level35_stat_text                       = 14% less Area Damage<br>Base radius is 2.5 metres<br>Base Aura radius is 4.6 metres<br>Aura grants 30 to 577 added Lightning Damage<br>Aura grants 25% chance to Shock
@@ -764,6 +798,7 @@
 |level35_stat8_value                     = 25
 |level36                                 = True
 |level36_level_requirement               = 96
+|level36_cost_amounts                    = 14
 |level36_damage_effectiveness            = 326
 |level36_damage_multiplier               = 325.7
 |level36_stat_text                       = 14% less Area Damage<br>Base radius is 2.5 metres<br>Base Aura radius is 4.6 metres<br>Aura grants 32 to 599 added Lightning Damage<br>Aura grants 26% chance to Shock
@@ -785,6 +820,7 @@
 |level36_stat8_value                     = 26
 |level37                                 = True
 |level37_level_requirement               = 97
+|level37_cost_amounts                    = 14
 |level37_damage_effectiveness            = 328
 |level37_damage_multiplier               = 327.7
 |level37_stat_text                       = 14% less Area Damage<br>Base radius is 2.6 metres<br>Base Aura radius is 4.7 metres<br>Aura grants 33 to 621 added Lightning Damage<br>Aura grants 26% chance to Shock
@@ -806,6 +842,7 @@
 |level37_stat8_value                     = 26
 |level38                                 = True
 |level38_level_requirement               = 98
+|level38_cost_amounts                    = 14
 |level38_damage_effectiveness            = 330
 |level38_damage_multiplier               = 329.7
 |level38_stat_text                       = 13% less Area Damage<br>Base radius is 2.6 metres<br>Base Aura radius is 4.7 metres<br>Aura grants 34 to 645 added Lightning Damage<br>Aura grants 26% chance to Shock
@@ -827,6 +864,7 @@
 |level38_stat8_value                     = 26
 |level39                                 = True
 |level39_level_requirement               = 99
+|level39_cost_amounts                    = 14
 |level39_damage_effectiveness            = 332
 |level39_damage_multiplier               = 331.8
 |level39_stat_text                       = 13% less Area Damage<br>Base radius is 2.6 metres<br>Base Aura radius is 4.7 metres<br>Aura grants 35 to 669 added Lightning Damage<br>Aura grants 26% chance to Shock
@@ -848,6 +886,7 @@
 |level39_stat8_value                     = 26
 |level40                                 = True
 |level40_level_requirement               = 100
+|level40_cost_amounts                    = 14
 |level40_damage_effectiveness            = 334
 |level40_damage_multiplier               = 333.8
 |level40_stat_text                       = 13% less Area Damage<br>Base radius is 2.6 metres<br>Base Aura radius is 4.7 metres<br>Aura grants 37 to 694 added Lightning Damage<br>Aura grants 27% chance to Shock

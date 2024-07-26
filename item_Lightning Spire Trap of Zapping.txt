@@ -13,7 +13,7 @@
 |gem_tags                                = Trap, Spell, Duration, AoE, Lightning
 |gem_description                         = Throws a trap which, once triggered, will repeatedly strike multiple areas around it for a duration, dealing lightning damage.
 |active_skill_name                       = Lightning Spire Trap of Zapping
-|skill_id                                = LightningTowerTrapAltX
+|skill_id                                = LightningSpireTrapAltX
 |cast_time                               = 1.0
 |required_level                          = 28
 |quality_type1_weight                    = 1
@@ -23,7 +23,6 @@
 |quality_type1_stat1_value               = 750
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 6
-|static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
 |static_duration                         = 1
@@ -51,6 +50,7 @@
 |level1                                  = True
 |level1_level_requirement                = 28
 |level1_cost_amounts                     = 13
+|level1_damage_effectiveness             = 80
 |level1_stat_text                        = Deals 19 to 56 Lightning Damage
 |level1_stat1_id                         = spell_minimum_base_lightning_damage
 |level1_stat1_value                      = 19
@@ -59,6 +59,7 @@
 |level2                                  = True
 |level2_level_requirement                = 31
 |level2_cost_amounts                     = 13
+|level2_damage_effectiveness             = 80
 |level2_stat_text                        = Deals 23 to 69 Lightning Damage
 |level2_stat1_id                         = spell_minimum_base_lightning_damage
 |level2_stat1_value                      = 23
@@ -67,6 +68,7 @@
 |level3                                  = True
 |level3_level_requirement                = 34
 |level3_cost_amounts                     = 14
+|level3_damage_effectiveness             = 80
 |level3_stat_text                        = Deals 29 to 86 Lightning Damage
 |level3_stat1_id                         = spell_minimum_base_lightning_damage
 |level3_stat1_value                      = 29
@@ -75,6 +77,7 @@
 |level4                                  = True
 |level4_level_requirement                = 37
 |level4_cost_amounts                     = 14
+|level4_damage_effectiveness             = 85
 |level4_stat_text                        = Deals 35 to 106 Lightning Damage
 |level4_stat1_id                         = spell_minimum_base_lightning_damage
 |level4_stat1_value                      = 35
@@ -83,6 +86,7 @@
 |level5                                  = True
 |level5_level_requirement                = 40
 |level5_cost_amounts                     = 15
+|level5_damage_effectiveness             = 85
 |level5_stat_text                        = Deals 43 to 130 Lightning Damage
 |level5_stat1_id                         = spell_minimum_base_lightning_damage
 |level5_stat1_value                      = 43
@@ -91,6 +95,7 @@
 |level6                                  = True
 |level6_level_requirement                = 42
 |level6_cost_amounts                     = 15
+|level6_damage_effectiveness             = 85
 |level6_stat_text                        = Deals 50 to 149 Lightning Damage
 |level6_stat1_id                         = spell_minimum_base_lightning_damage
 |level6_stat1_value                      = 50
@@ -99,6 +104,7 @@
 |level7                                  = True
 |level7_level_requirement                = 44
 |level7_cost_amounts                     = 16
+|level7_damage_effectiveness             = 90
 |level7_stat_text                        = Deals 57 to 170 Lightning Damage
 |level7_stat1_id                         = spell_minimum_base_lightning_damage
 |level7_stat1_value                      = 57
@@ -107,6 +113,7 @@
 |level8                                  = True
 |level8_level_requirement                = 46
 |level8_cost_amounts                     = 16
+|level8_damage_effectiveness             = 90
 |level8_stat_text                        = Deals 65 to 194 Lightning Damage
 |level8_stat1_id                         = spell_minimum_base_lightning_damage
 |level8_stat1_value                      = 65
@@ -115,6 +122,7 @@
 |level9                                  = True
 |level9_level_requirement                = 48
 |level9_cost_amounts                     = 17
+|level9_damage_effectiveness             = 90
 |level9_stat_text                        = Deals 74 to 221 Lightning Damage
 |level9_stat1_id                         = spell_minimum_base_lightning_damage
 |level9_stat1_value                      = 74
@@ -123,6 +131,7 @@
 |level10                                 = True
 |level10_level_requirement               = 50
 |level10_cost_amounts                    = 17
+|level10_damage_effectiveness            = 90
 |level10_stat_text                       = Deals 84 to 251 Lightning Damage
 |level10_stat1_id                        = spell_minimum_base_lightning_damage
 |level10_stat1_value                     = 84
@@ -131,6 +140,7 @@
 |level11                                 = True
 |level11_level_requirement               = 52
 |level11_cost_amounts                    = 18
+|level11_damage_effectiveness            = 95
 |level11_stat_text                       = Deals 95 to 286 Lightning Damage
 |level11_stat1_id                        = spell_minimum_base_lightning_damage
 |level11_stat1_value                     = 95
@@ -139,6 +149,7 @@
 |level12                                 = True
 |level12_level_requirement               = 54
 |level12_cost_amounts                    = 18
+|level12_damage_effectiveness            = 95
 |level12_stat_text                       = Deals 108 to 325 Lightning Damage
 |level12_stat1_id                        = spell_minimum_base_lightning_damage
 |level12_stat1_value                     = 108
@@ -147,6 +158,7 @@
 |level13                                 = True
 |level13_level_requirement               = 56
 |level13_cost_amounts                    = 19
+|level13_damage_effectiveness            = 95
 |level13_stat_text                       = Deals 123 to 368 Lightning Damage
 |level13_stat1_id                        = spell_minimum_base_lightning_damage
 |level13_stat1_value                     = 123
@@ -155,6 +167,7 @@
 |level14                                 = True
 |level14_level_requirement               = 58
 |level14_cost_amounts                    = 19
+|level14_damage_effectiveness            = 95
 |level14_stat_text                       = Deals 139 to 418 Lightning Damage
 |level14_stat1_id                        = spell_minimum_base_lightning_damage
 |level14_stat1_value                     = 139
@@ -163,6 +176,7 @@
 |level15                                 = True
 |level15_level_requirement               = 60
 |level15_cost_amounts                    = 20
+|level15_damage_effectiveness            = 100
 |level15_stat_text                       = Deals 158 to 473 Lightning Damage
 |level15_stat1_id                        = spell_minimum_base_lightning_damage
 |level15_stat1_value                     = 158
@@ -171,6 +185,7 @@
 |level16                                 = True
 |level16_level_requirement               = 62
 |level16_cost_amounts                    = 20
+|level16_damage_effectiveness            = 100
 |level16_stat_text                       = Deals 178 to 535 Lightning Damage
 |level16_stat1_id                        = spell_minimum_base_lightning_damage
 |level16_stat1_value                     = 178
@@ -179,6 +194,7 @@
 |level17                                 = True
 |level17_level_requirement               = 64
 |level17_cost_amounts                    = 21
+|level17_damage_effectiveness            = 100
 |level17_stat_text                       = Deals 202 to 605 Lightning Damage
 |level17_stat1_id                        = spell_minimum_base_lightning_damage
 |level17_stat1_value                     = 202
@@ -187,6 +203,7 @@
 |level18                                 = True
 |level18_level_requirement               = 66
 |level18_cost_amounts                    = 21
+|level18_damage_effectiveness            = 100
 |level18_stat_text                       = Deals 228 to 684 Lightning Damage
 |level18_stat1_id                        = spell_minimum_base_lightning_damage
 |level18_stat1_value                     = 228
@@ -195,6 +212,7 @@
 |level19                                 = True
 |level19_level_requirement               = 68
 |level19_cost_amounts                    = 22
+|level19_damage_effectiveness            = 100
 |level19_stat_text                       = Deals 257 to 772 Lightning Damage
 |level19_stat1_id                        = spell_minimum_base_lightning_damage
 |level19_stat1_value                     = 257
@@ -203,6 +221,7 @@
 |level20                                 = True
 |level20_level_requirement               = 70
 |level20_cost_amounts                    = 22
+|level20_damage_effectiveness            = 100
 |level20_stat_text                       = Deals 291 to 872 Lightning Damage
 |level20_stat1_id                        = spell_minimum_base_lightning_damage
 |level20_stat1_value                     = 291
@@ -211,6 +230,7 @@
 |level21                                 = True
 |level21_level_requirement               = 72
 |level21_cost_amounts                    = 23
+|level21_damage_effectiveness            = 100
 |level21_stat_text                       = Deals 328 to 983 Lightning Damage
 |level21_stat1_id                        = spell_minimum_base_lightning_damage
 |level21_stat1_value                     = 328
@@ -219,6 +239,7 @@
 |level22                                 = True
 |level22_level_requirement               = 74
 |level22_cost_amounts                    = 23
+|level22_damage_effectiveness            = 100
 |level22_stat_text                       = Deals 369 to 1108 Lightning Damage
 |level22_stat1_id                        = spell_minimum_base_lightning_damage
 |level22_stat1_value                     = 369
@@ -227,6 +248,7 @@
 |level23                                 = True
 |level23_level_requirement               = 76
 |level23_cost_amounts                    = 24
+|level23_damage_effectiveness            = 100
 |level23_stat_text                       = Deals 416 to 1248 Lightning Damage
 |level23_stat1_id                        = spell_minimum_base_lightning_damage
 |level23_stat1_value                     = 416
@@ -235,6 +257,7 @@
 |level24                                 = True
 |level24_level_requirement               = 78
 |level24_cost_amounts                    = 24
+|level24_damage_effectiveness            = 100
 |level24_stat_text                       = Deals 468 to 1405 Lightning Damage
 |level24_stat1_id                        = spell_minimum_base_lightning_damage
 |level24_stat1_value                     = 468
@@ -243,6 +266,7 @@
 |level25                                 = True
 |level25_level_requirement               = 80
 |level25_cost_amounts                    = 25
+|level25_damage_effectiveness            = 100
 |level25_stat_text                       = Deals 527 to 1581 Lightning Damage
 |level25_stat1_id                        = spell_minimum_base_lightning_damage
 |level25_stat1_value                     = 527
@@ -251,6 +275,7 @@
 |level26                                 = True
 |level26_level_requirement               = 82
 |level26_cost_amounts                    = 25
+|level26_damage_effectiveness            = 100
 |level26_stat_text                       = Deals 593 to 1778 Lightning Damage
 |level26_stat1_id                        = spell_minimum_base_lightning_damage
 |level26_stat1_value                     = 593
@@ -259,6 +284,7 @@
 |level27                                 = True
 |level27_level_requirement               = 84
 |level27_cost_amounts                    = 26
+|level27_damage_effectiveness            = 100
 |level27_stat_text                       = Deals 666 to 1999 Lightning Damage
 |level27_stat1_id                        = spell_minimum_base_lightning_damage
 |level27_stat1_value                     = 666
@@ -267,6 +293,7 @@
 |level28                                 = True
 |level28_level_requirement               = 86
 |level28_cost_amounts                    = 26
+|level28_damage_effectiveness            = 100
 |level28_stat_text                       = Deals 749 to 2246 Lightning Damage
 |level28_stat1_id                        = spell_minimum_base_lightning_damage
 |level28_stat1_value                     = 749
@@ -275,6 +302,7 @@
 |level29                                 = True
 |level29_level_requirement               = 88
 |level29_cost_amounts                    = 27
+|level29_damage_effectiveness            = 100
 |level29_stat_text                       = Deals 841 to 2523 Lightning Damage
 |level29_stat1_id                        = spell_minimum_base_lightning_damage
 |level29_stat1_value                     = 841
@@ -283,6 +311,7 @@
 |level30                                 = True
 |level30_level_requirement               = 90
 |level30_cost_amounts                    = 27
+|level30_damage_effectiveness            = 100
 |level30_stat_text                       = Deals 944 to 2832 Lightning Damage
 |level30_stat1_id                        = spell_minimum_base_lightning_damage
 |level30_stat1_value                     = 944
@@ -291,6 +320,7 @@
 |level31                                 = True
 |level31_level_requirement               = 91
 |level31_cost_amounts                    = 28
+|level31_damage_effectiveness            = 100
 |level31_stat_text                       = Deals 1000 to 3001 Lightning Damage
 |level31_stat1_id                        = spell_minimum_base_lightning_damage
 |level31_stat1_value                     = 1000
@@ -299,6 +329,7 @@
 |level32                                 = True
 |level32_level_requirement               = 92
 |level32_cost_amounts                    = 28
+|level32_damage_effectiveness            = 100
 |level32_stat_text                       = Deals 1060 to 3179 Lightning Damage
 |level32_stat1_id                        = spell_minimum_base_lightning_damage
 |level32_stat1_value                     = 1060
@@ -307,6 +338,7 @@
 |level33                                 = True
 |level33_level_requirement               = 93
 |level33_cost_amounts                    = 29
+|level33_damage_effectiveness            = 100
 |level33_stat_text                       = Deals 1122 to 3367 Lightning Damage
 |level33_stat1_id                        = spell_minimum_base_lightning_damage
 |level33_stat1_value                     = 1122
@@ -315,6 +347,7 @@
 |level34                                 = True
 |level34_level_requirement               = 94
 |level34_cost_amounts                    = 29
+|level34_damage_effectiveness            = 100
 |level34_stat_text                       = Deals 1189 to 3566 Lightning Damage
 |level34_stat1_id                        = spell_minimum_base_lightning_damage
 |level34_stat1_value                     = 1189
@@ -323,6 +356,7 @@
 |level35                                 = True
 |level35_level_requirement               = 95
 |level35_cost_amounts                    = 30
+|level35_damage_effectiveness            = 100
 |level35_stat_text                       = Deals 1259 to 3776 Lightning Damage
 |level35_stat1_id                        = spell_minimum_base_lightning_damage
 |level35_stat1_value                     = 1259
@@ -331,6 +365,7 @@
 |level36                                 = True
 |level36_level_requirement               = 96
 |level36_cost_amounts                    = 30
+|level36_damage_effectiveness            = 100
 |level36_stat_text                       = Deals 1333 to 3999 Lightning Damage
 |level36_stat1_id                        = spell_minimum_base_lightning_damage
 |level36_stat1_value                     = 1333
@@ -339,6 +374,7 @@
 |level37                                 = True
 |level37_level_requirement               = 97
 |level37_cost_amounts                    = 31
+|level37_damage_effectiveness            = 100
 |level37_stat_text                       = Deals 1411 to 4234 Lightning Damage
 |level37_stat1_id                        = spell_minimum_base_lightning_damage
 |level37_stat1_value                     = 1411
@@ -347,6 +383,7 @@
 |level38                                 = True
 |level38_level_requirement               = 98
 |level38_cost_amounts                    = 31
+|level38_damage_effectiveness            = 100
 |level38_stat_text                       = Deals 1494 to 4482 Lightning Damage
 |level38_stat1_id                        = spell_minimum_base_lightning_damage
 |level38_stat1_value                     = 1494
@@ -355,6 +392,7 @@
 |level39                                 = True
 |level39_level_requirement               = 99
 |level39_cost_amounts                    = 32
+|level39_damage_effectiveness            = 100
 |level39_stat_text                       = Deals 1582 to 4745 Lightning Damage
 |level39_stat1_id                        = spell_minimum_base_lightning_damage
 |level39_stat1_value                     = 1582
@@ -363,6 +401,7 @@
 |level40                                 = True
 |level40_level_requirement               = 100
 |level40_cost_amounts                    = 32
+|level40_damage_effectiveness            = 100
 |level40_stat_text                       = Deals 1674 to 5023 Lightning Damage
 |level40_stat1_id                        = spell_minimum_base_lightning_damage
 |level40_stat1_value                     = 1674

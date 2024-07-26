@@ -1,0 +1,18 @@
+{{Mod
+|id                               = TinctureToxicityOnHitUnique__1
+|mod_groups                       = TinctureToxicityOnHit
+|domain                           = 34
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = TinctureToxicityOnHit
+|stat_text                        = Does not inflict [[Mana]] Burn over time<br>Inflicts [[Mana]] Burn on you when you [[Hit]] an Enemy with a Melee Weapon
+|stat1_id                         = local_cannot_generate_toxicity_stacks_over_time
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = toxicity_stacks_gained_on_hit_with_tinctured_weapons
+|stat2_min                        = 1
+|stat2_max                        = 1
+|tags                             = attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

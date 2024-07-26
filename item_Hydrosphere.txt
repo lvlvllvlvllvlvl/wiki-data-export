@@ -12,7 +12,7 @@
 |gem_tags                                = Spell, AoE, Duration, Cold, Orb, Lightning, Physical
 |gem_description                         = Create a sphere of water, or move an existing sphere and reset its duration. The sphere continually applies a drenched debuff with a short duration to enemies in its area or those it moves through. You can hit the sphere with other skills to inflict Cold and Lightning Ailments (other than Chill). The sphere pulses when created, at regular intervals while afflicted by an Ailment, and after moving, damaging all drenched enemies in a large area.
 |active_skill_name                       = Hydrosphere
-|skill_id                                = WaterSphere
+|skill_id                                = Hydrosphere
 |cast_time                               = 0.6
 |required_level                          = 34
 |quality_type1_weight                    = 1
@@ -22,7 +22,6 @@
 |quality_type1_stat1_value               = 500
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 5
-|static_damage_effectiveness             = 110
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
 |static_duration                         = 8
@@ -54,6 +53,7 @@
 |level1                                  = True
 |level1_level_requirement                = 34
 |level1_cost_amounts                     = 12
+|level1_damage_effectiveness             = 65
 |level1_stat_text                        = Deals 37 to 56 Physical Damage
 |level1_stat1_id                         = hydrosphere_ailment_threshold
 |level1_stat1_value                      = 1500
@@ -64,6 +64,7 @@
 |level2                                  = True
 |level2_level_requirement                = 36
 |level2_cost_amounts                     = 12
+|level2_damage_effectiveness             = 70
 |level2_stat_text                        = Deals 43 to 65 Physical Damage
 |level2_stat1_id                         = hydrosphere_ailment_threshold
 |level2_stat1_value                      = 1811
@@ -74,6 +75,7 @@
 |level3                                  = True
 |level3_level_requirement                = 38
 |level3_cost_amounts                     = 13
+|level3_damage_effectiveness             = 70
 |level3_stat_text                        = Deals 51 to 76 Physical Damage
 |level3_stat1_id                         = hydrosphere_ailment_threshold
 |level3_stat1_value                      = 2228
@@ -84,6 +86,7 @@
 |level4                                  = True
 |level4_level_requirement                = 40
 |level4_cost_amounts                     = 13
+|level4_damage_effectiveness             = 75
 |level4_stat_text                        = Deals 59 to 88 Physical Damage
 |level4_stat1_id                         = hydrosphere_ailment_threshold
 |level4_stat1_value                      = 2708
@@ -94,6 +97,7 @@
 |level5                                  = True
 |level5_level_requirement                = 42
 |level5_cost_amounts                     = 14
+|level5_damage_effectiveness             = 75
 |level5_stat_text                        = Deals 69 to 103 Physical Damage
 |level5_stat1_id                         = hydrosphere_ailment_threshold
 |level5_stat1_value                      = 3276
@@ -104,6 +108,7 @@
 |level6                                  = True
 |level6_level_requirement                = 44
 |level6_cost_amounts                     = 14
+|level6_damage_effectiveness             = 75
 |level6_stat_text                        = Deals 80 to 120 Physical Damage
 |level6_stat1_id                         = hydrosphere_ailment_threshold
 |level6_stat1_value                      = 3956
@@ -114,6 +119,7 @@
 |level7                                  = True
 |level7_level_requirement                = 46
 |level7_cost_amounts                     = 15
+|level7_damage_effectiveness             = 80
 |level7_stat_text                        = Deals 93 to 139 Physical Damage
 |level7_stat1_id                         = hydrosphere_ailment_threshold
 |level7_stat1_value                      = 4758
@@ -124,6 +130,7 @@
 |level8                                  = True
 |level8_level_requirement                = 48
 |level8_cost_amounts                     = 15
+|level8_damage_effectiveness             = 80
 |level8_stat_text                        = Deals 107 to 161 Physical Damage
 |level8_stat1_id                         = hydrosphere_ailment_threshold
 |level8_stat1_value                      = 5711
@@ -134,6 +141,7 @@
 |level9                                  = True
 |level9_level_requirement                = 50
 |level9_cost_amounts                     = 15
+|level9_damage_effectiveness             = 85
 |level9_stat_text                        = Deals 124 to 186 Physical Damage
 |level9_stat1_id                         = hydrosphere_ailment_threshold
 |level9_stat1_value                      = 6846
@@ -144,6 +152,7 @@
 |level10                                 = True
 |level10_level_requirement               = 52
 |level10_cost_amounts                    = 16
+|level10_damage_effectiveness            = 85
 |level10_stat_text                       = Deals 144 to 215 Physical Damage
 |level10_stat1_id                        = hydrosphere_ailment_threshold
 |level10_stat1_value                     = 8178
@@ -154,6 +163,7 @@
 |level11                                 = True
 |level11_level_requirement               = 54
 |level11_cost_amounts                    = 16
+|level11_damage_effectiveness            = 90
 |level11_stat_text                       = Deals 166 to 249 Physical Damage
 |level11_stat1_id                        = hydrosphere_ailment_threshold
 |level11_stat1_value                     = 9720
@@ -164,6 +174,7 @@
 |level12                                 = True
 |level12_level_requirement               = 56
 |level12_cost_amounts                    = 17
+|level12_damage_effectiveness            = 95
 |level12_stat_text                       = Deals 191 to 287 Physical Damage
 |level12_stat1_id                        = hydrosphere_ailment_threshold
 |level12_stat1_value                     = 11555
@@ -174,6 +185,7 @@
 |level13                                 = True
 |level13_level_requirement               = 58
 |level13_cost_amounts                    = 17
+|level13_damage_effectiveness            = 95
 |level13_stat_text                       = Deals 221 to 331 Physical Damage
 |level13_stat1_id                        = hydrosphere_ailment_threshold
 |level13_stat1_value                     = 13704
@@ -184,6 +196,7 @@
 |level14                                 = True
 |level14_level_requirement               = 60
 |level14_cost_amounts                    = 18
+|level14_damage_effectiveness            = 100
 |level14_stat_text                       = Deals 254 to 381 Physical Damage
 |level14_stat1_id                        = hydrosphere_ailment_threshold
 |level14_stat1_value                     = 17375
@@ -194,6 +207,7 @@
 |level15                                 = True
 |level15_level_requirement               = 62
 |level15_cost_amounts                    = 18
+|level15_damage_effectiveness            = 100
 |level15_stat_text                       = Deals 293 to 439 Physical Damage
 |level15_stat1_id                        = hydrosphere_ailment_threshold
 |level15_stat1_value                     = 21981
@@ -204,6 +218,7 @@
 |level16                                 = True
 |level16_level_requirement               = 64
 |level16_cost_amounts                    = 18
+|level16_damage_effectiveness            = 110
 |level16_stat_text                       = Deals 337 to 505 Physical Damage
 |level16_stat1_id                        = hydrosphere_ailment_threshold
 |level16_stat1_value                     = 28534
@@ -214,6 +229,7 @@
 |level17                                 = True
 |level17_level_requirement               = 66
 |level17_cost_amounts                    = 19
+|level17_damage_effectiveness            = 110
 |level17_stat_text                       = Deals 387 to 580 Physical Damage
 |level17_stat1_id                        = hydrosphere_ailment_threshold
 |level17_stat1_value                     = 39339
@@ -224,6 +240,7 @@
 |level18                                 = True
 |level18_level_requirement               = 68
 |level18_cost_amounts                    = 19
+|level18_damage_effectiveness            = 110
 |level18_stat_text                       = Deals 444 to 666 Physical Damage
 |level18_stat1_id                        = hydrosphere_ailment_threshold
 |level18_stat1_value                     = 56804
@@ -234,6 +251,7 @@
 |level19                                 = True
 |level19_level_requirement               = 69
 |level19_cost_amounts                    = 20
+|level19_damage_effectiveness            = 110
 |level19_stat_text                       = Deals 476 to 714 Physical Damage
 |level19_stat1_id                        = hydrosphere_ailment_threshold
 |level19_stat1_value                     = 81482
@@ -244,6 +262,7 @@
 |level20                                 = True
 |level20_level_requirement               = 70
 |level20_cost_amounts                    = 20
+|level20_damage_effectiveness            = 110
 |level20_stat_text                       = Deals 510 to 765 Physical Damage
 |level20_stat1_id                        = hydrosphere_ailment_threshold
 |level20_stat1_value                     = 103048
@@ -254,6 +273,7 @@
 |level21                                 = True
 |level21_level_requirement               = 72
 |level21_cost_amounts                    = 20
+|level21_damage_effectiveness            = 110
 |level21_stat_text                       = Deals 585 to 877 Physical Damage
 |level21_stat1_id                        = hydrosphere_ailment_threshold
 |level21_stat1_value                     = 117720
@@ -264,6 +284,7 @@
 |level22                                 = True
 |level22_level_requirement               = 74
 |level22_cost_amounts                    = 21
+|level22_damage_effectiveness            = 110
 |level22_stat_text                       = Deals 670 to 1006 Physical Damage
 |level22_stat1_id                        = hydrosphere_ailment_threshold
 |level22_stat1_value                     = 128197
@@ -274,6 +295,7 @@
 |level23                                 = True
 |level23_level_requirement               = 76
 |level23_cost_amounts                    = 21
+|level23_damage_effectiveness            = 110
 |level23_stat_text                       = Deals 768 to 1152 Physical Damage
 |level23_stat1_id                        = hydrosphere_ailment_threshold
 |level23_stat1_value                     = 139010
@@ -284,6 +306,7 @@
 |level24                                 = True
 |level24_level_requirement               = 78
 |level24_cost_amounts                    = 21
+|level24_damage_effectiveness            = 110
 |level24_stat_text                       = Deals 879 to 1319 Physical Damage
 |level24_stat1_id                        = hydrosphere_ailment_threshold
 |level24_stat1_value                     = 151382
@@ -294,6 +317,7 @@
 |level25                                 = True
 |level25_level_requirement               = 80
 |level25_cost_amounts                    = 22
+|level25_damage_effectiveness            = 110
 |level25_stat_text                       = Deals 1006 to 1510 Physical Damage
 |level25_stat1_id                        = hydrosphere_ailment_threshold
 |level25_stat1_value                     = 164208
@@ -304,6 +328,7 @@
 |level26                                 = True
 |level26_level_requirement               = 82
 |level26_cost_amounts                    = 22
+|level26_damage_effectiveness            = 110
 |level26_stat_text                       = Deals 1151 to 1727 Physical Damage
 |level26_stat1_id                        = hydrosphere_ailment_threshold
 |level26_stat1_value                     = 178841
@@ -314,6 +339,7 @@
 |level27                                 = True
 |level27_level_requirement               = 84
 |level27_cost_amounts                    = 23
+|level27_damage_effectiveness            = 110
 |level27_stat_text                       = Deals 1316 to 1974 Physical Damage
 |level27_stat1_id                        = hydrosphere_ailment_threshold
 |level27_stat1_value                     = 193959
@@ -324,6 +350,7 @@
 |level28                                 = True
 |level28_level_requirement               = 86
 |level28_cost_amounts                    = 23
+|level28_damage_effectiveness            = 110
 |level28_stat_text                       = Deals 1504 to 2256 Physical Damage
 |level28_stat1_id                        = hydrosphere_ailment_threshold
 |level28_stat1_value                     = 210689
@@ -334,6 +361,7 @@
 |level29                                 = True
 |level29_level_requirement               = 88
 |level29_cost_amounts                    = 24
+|level29_damage_effectiveness            = 110
 |level29_stat_text                       = Deals 1718 to 2577 Physical Damage
 |level29_stat1_id                        = hydrosphere_ailment_threshold
 |level29_stat1_value                     = 227952
@@ -344,6 +372,7 @@
 |level30                                 = True
 |level30_level_requirement               = 90
 |level30_cost_amounts                    = 24
+|level30_damage_effectiveness            = 110
 |level30_stat_text                       = Deals 1962 to 2943 Physical Damage
 |level30_stat1_id                        = hydrosphere_ailment_threshold
 |level30_stat1_value                     = 245233
@@ -354,6 +383,7 @@
 |level31                                 = True
 |level31_level_requirement               = 91
 |level31_cost_amounts                    = 24
+|level31_damage_effectiveness            = 110
 |level31_stat_text                       = Deals 2096 to 3144 Physical Damage
 |level31_stat1_id                        = hydrosphere_ailment_threshold
 |level31_stat1_value                     = 260395
@@ -364,6 +394,7 @@
 |level32                                 = True
 |level32_level_requirement               = 92
 |level32_cost_amounts                    = 25
+|level32_damage_effectiveness            = 110
 |level32_stat_text                       = Deals 2239 to 3359 Physical Damage
 |level32_stat1_id                        = hydrosphere_ailment_threshold
 |level32_stat1_value                     = 270000
@@ -374,6 +405,7 @@
 |level33                                 = True
 |level33_level_requirement               = 93
 |level33_cost_amounts                    = 25
+|level33_damage_effectiveness            = 110
 |level33_stat_text                       = Deals 2392 to 3588 Physical Damage
 |level33_stat1_id                        = hydrosphere_ailment_threshold
 |level33_stat1_value                     = 279745
@@ -384,6 +416,7 @@
 |level34                                 = True
 |level34_level_requirement               = 94
 |level34_cost_amounts                    = 25
+|level34_damage_effectiveness            = 110
 |level34_stat_text                       = Deals 2555 to 3832 Physical Damage
 |level34_stat1_id                        = hydrosphere_ailment_threshold
 |level34_stat1_value                     = 289629
@@ -394,6 +427,7 @@
 |level35                                 = True
 |level35_level_requirement               = 95
 |level35_cost_amounts                    = 25
+|level35_damage_effectiveness            = 110
 |level35_stat_text                       = Deals 2729 to 4093 Physical Damage
 |level35_stat1_id                        = hydrosphere_ailment_threshold
 |level35_stat1_value                     = 299653
@@ -404,6 +438,7 @@
 |level36                                 = True
 |level36_level_requirement               = 96
 |level36_cost_amounts                    = 25
+|level36_damage_effectiveness            = 110
 |level36_stat_text                       = Deals 2914 to 4371 Physical Damage
 |level36_stat1_id                        = hydrosphere_ailment_threshold
 |level36_stat1_value                     = 310830
@@ -414,6 +449,7 @@
 |level37                                 = True
 |level37_level_requirement               = 97
 |level37_cost_amounts                    = 26
+|level37_damage_effectiveness            = 110
 |level37_stat_text                       = Deals 3111 to 4667 Physical Damage
 |level37_stat1_id                        = hydrosphere_ailment_threshold
 |level37_stat1_value                     = 322166
@@ -424,6 +460,7 @@
 |level38                                 = True
 |level38_level_requirement               = 98
 |level38_cost_amounts                    = 26
+|level38_damage_effectiveness            = 110
 |level38_stat_text                       = Deals 3322 to 4983 Physical Damage
 |level38_stat1_id                        = hydrosphere_ailment_threshold
 |level38_stat1_value                     = 333662
@@ -434,6 +471,7 @@
 |level39                                 = True
 |level39_level_requirement               = 99
 |level39_cost_amounts                    = 26
+|level39_damage_effectiveness            = 110
 |level39_stat_text                       = Deals 3547 to 5320 Physical Damage
 |level39_stat1_id                        = hydrosphere_ailment_threshold
 |level39_stat1_value                     = 345316
@@ -444,6 +482,7 @@
 |level40                                 = True
 |level40_level_requirement               = 100
 |level40_cost_amounts                    = 26
+|level40_damage_effectiveness            = 110
 |level40_stat_text                       = Deals 3786 to 5679 Physical Damage
 |level40_stat1_id                        = hydrosphere_ailment_threshold
 |level40_stat1_value                     = 357494

@@ -3,13 +3,11 @@
 |int_id                              = 56359
 |name                                = Cannibalistic Rite
 |is_notable                          = True
-|icon                                = CannibalisticRite
-|stat1_id                            = damage_+%_if_skill_costs_life
-|stat1_value                         = 30
-|stat2_id                            = life_%_gained_on_kill_if_spent_life_recently
-|stat2_value                         = 2
-|stat3_id                            = base_life_cost_+%
-|stat3_value                         = -10
-|stat_text                           = 30% increased Damage with [[Skill|Skills]] that Cost [[Life]]<br>Recover 2% of [[Life]] on [[Kill]] if you've Spent [[Life]] [[Recently]]<br>10% reduced [[Life]] Cost of [[Skill|Skills]]
-|connections                         = mastery_life143,bleed_chance2189,mastery_life143
+|icon                                = ReducedManaNotable
+|stat1_id                            = attack_mana_cost_+%
+|stat1_value                         = -15
+|stat2_id                            = base_attack_skill_cost_life_instead_of_mana_%
+|stat2_value                         = 10
+|stat_text                           = 15% reduced [[Mana]] Cost of [[Attack|Attacks]]<br>[[Attack]] [[Skill|Skills]] Cost [[Life]] instead of 10% of [[Mana]] Cost
+|connections                         = bleed_chance2189,mastery_life143,mastery_life143,physical_damage_over_time2188
 }}

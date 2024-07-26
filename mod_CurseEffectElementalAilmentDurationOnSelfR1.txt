@@ -1,0 +1,16 @@
+{{Mod
+|id                               = CurseEffectElementalAilmentDurationOnSelfR1
+|mod_groups                       = ReducedCurseEffect
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 30
+|mod_type                         = CurseEffectElementalAilmentDurationOnSelf
+|stat_text                        = 50% reduced Effect of [[Curse|Curses]] on you<br>50% increased Elemental Ailment Duration on you
+|stat1_id                         = curse_effect_on_self_+%
+|stat1_min                        = -50
+|stat1_max                        = -50
+|stat2_id                         = self_elemental_status_duration_-%
+|stat2_min                        = -50
+|stat2_max                        = -50
+|tags                             = elemental
+}}

@@ -6,11 +6,11 @@
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_unique_monster
 |granted_buff_value               = 0
-|mod_type                         = ArmourPenetrationUniquePresence
-|stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], Overwhelm (14-15)% [[Physical Damage]] Reduction
-|stat1_id                         = enemy_phys_reduction_%_penalty_vs_hit
-|stat1_min                        = 14
-|stat1_max                        = 15
+|mod_type                         = ChanceToIgnoreEnemyArmourUniquePresence
+|stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], [[Hit|Hits]] have (43-45)% chance to ignore Enemy [[Physical Damage]] Reduction
+|stat1_id                         = hits_ignore_enemy_monster_physical_damage_reduction_%_chance
+|stat1_min                        = 43
+|stat1_max                        = 45
 |stat2_id                         = local_influence_mod_requires_unique_monster_presence
 |stat2_min                        = 1
 |stat2_max                        = 1

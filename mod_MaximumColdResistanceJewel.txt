@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MaximumColdResistanceJewel
+|mod_groups                       = MaximumColdResist
+|domain                           = 10
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of the Kraken
+|mod_type                         = MaximumColdResistanceForJewel
+|stat_text                        = +(1-2)% to maximum [[Cold Resistance]]
+|stat1_id                         = base_maximum_cold_damage_resistance_%
+|stat1_min                        = 1
+|stat1_max                        = 2
+|spawn_weight1_tag                = not_dex
+|spawn_weight1_value              = 60
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 100
+|tags                             = elemental, cold, resistance
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

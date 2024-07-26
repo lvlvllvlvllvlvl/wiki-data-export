@@ -1,0 +1,15 @@
+{{Mod
+|id                               = TrapSkillEffectDurationTrapCooldownPenaltyImplicitR2
+|mod_groups                       = TrapSkillEffectDuration
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 40
+|mod_type                         = TrapSkillEffectDurationTrapCooldownPenalty
+|stat_text                        = [[Trap]] [[Skill|Skills]] have (15-20)% increased [[Skill]] Effect Duration<br>30% reduced Cooldown Recovery Rate for throwing [[Trap|Traps]]
+|stat1_id                         = trap_skill_effect_duration_+%
+|stat1_min                        = 15
+|stat1_max                        = 20
+|stat2_id                         = placing_traps_cooldown_recovery_+%
+|stat2_min                        = -30
+|stat2_max                        = -30
+}}

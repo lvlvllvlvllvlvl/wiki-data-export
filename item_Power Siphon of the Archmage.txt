@@ -25,7 +25,7 @@
 |static_cost_types                       = Mana
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
-|static_attack_speed_multiplier          = 100
+|static_attack_speed_multiplier          = 115
 |static_stat1_id                         = number_of_projectiles_override
 |static_stat1_value                      = 1
 |static_stat2_id                         = projectiles_are_not_fired
@@ -34,14 +34,18 @@
 |static_stat3_value                      = 1
 |static_stat4_id                         = skill_can_fire_wand_projectiles
 |static_stat4_value                      = 1
-|static_stat5_id                         = kill_enemy_on_hit_if_under_10%_life
-|static_stat5_value                      = 1
-|static_stat6_id                         = chance_to_gain_power_charge_on_rare_or_unique_enemy_hit_%
-|static_stat6_value                      = 20
-|stat_text                               = Deals Added Lightning Damage equal to (15-24)% of maximum Mana<br>Fires a Projectile at up to (4-7) targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at<br>Culling Strike<br>20% chance to gain a Power Charge when Projectile Hits a Rare or Unique Enemy
+|static_stat5_id                         = active_skill_additive_spell_damage_modifiers_apply_to_attack_damage_at_%_value
+|static_stat5_value                      = 150
+|static_stat6_id                         = quality_display_spell_damage_to_attack_damage_is_gem
+|static_stat6_value                      = 1
+|static_stat7_id                         = kill_enemy_on_hit_if_under_10%_life
+|static_stat7_value                      = 1
+|static_stat8_id                         = chance_to_gain_power_charge_on_rare_or_unique_enemy_hit_%
+|static_stat8_value                      = 20
+|stat_text                               = Increases and Reductions to Spell Damage also apply to Attack Damage from this Skill at 150% of their value<br>Deals Added Lightning Damage equal to (15-24)% of maximum Mana<br>Fires a Projectile at up to (4-7) targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at<br>Culling Strike<br>20% chance to gain a Power Charge when Projectile Hits a Rare or Unique Enemy
 |level1                                  = True
 |level1_level_requirement                = 12
-|level1_cost_amounts                     = 7
+|level1_cost_amounts                     = 5
 |level1_stat_text                        = Deals Added Lightning Damage equal to 15% of maximum Mana<br>Fires a Projectile at up to 4 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level1_stat1_id                         = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level1_stat1_value                      = 15
@@ -49,7 +53,7 @@
 |level1_stat2_value                      = 4
 |level2                                  = True
 |level2_level_requirement                = 15
-|level2_cost_amounts                     = 7
+|level2_cost_amounts                     = 6
 |level2_stat_text                        = Deals Added Lightning Damage equal to 15% of maximum Mana<br>Fires a Projectile at up to 4 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level2_stat1_id                         = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level2_stat1_value                      = 15
@@ -57,7 +61,7 @@
 |level2_stat2_value                      = 4
 |level3                                  = True
 |level3_level_requirement                = 19
-|level3_cost_amounts                     = 7
+|level3_cost_amounts                     = 6
 |level3_stat_text                        = Deals Added Lightning Damage equal to 16% of maximum Mana<br>Fires a Projectile at up to 4 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level3_stat1_id                         = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level3_stat1_value                      = 16
@@ -65,7 +69,7 @@
 |level3_stat2_value                      = 4
 |level4                                  = True
 |level4_level_requirement                = 23
-|level4_cost_amounts                     = 8
+|level4_cost_amounts                     = 6
 |level4_stat_text                        = Deals Added Lightning Damage equal to 16% of maximum Mana<br>Fires a Projectile at up to 4 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level4_stat1_id                         = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level4_stat1_value                      = 16
@@ -73,7 +77,7 @@
 |level4_stat2_value                      = 4
 |level5                                  = True
 |level5_level_requirement                = 27
-|level5_cost_amounts                     = 8
+|level5_cost_amounts                     = 6
 |level5_stat_text                        = Deals Added Lightning Damage equal to 17% of maximum Mana<br>Fires a Projectile at up to 4 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level5_stat1_id                         = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level5_stat1_value                      = 17
@@ -81,7 +85,7 @@
 |level5_stat2_value                      = 4
 |level6                                  = True
 |level6_level_requirement                = 31
-|level6_cost_amounts                     = 8
+|level6_cost_amounts                     = 7
 |level6_stat_text                        = Deals Added Lightning Damage equal to 17% of maximum Mana<br>Fires a Projectile at up to 5 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level6_stat1_id                         = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level6_stat1_value                      = 17
@@ -89,7 +93,7 @@
 |level6_stat2_value                      = 5
 |level7                                  = True
 |level7_level_requirement                = 35
-|level7_cost_amounts                     = 8
+|level7_cost_amounts                     = 7
 |level7_stat_text                        = Deals Added Lightning Damage equal to 18% of maximum Mana<br>Fires a Projectile at up to 5 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level7_stat1_id                         = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level7_stat1_value                      = 18
@@ -97,7 +101,7 @@
 |level7_stat2_value                      = 5
 |level8                                  = True
 |level8_level_requirement                = 38
-|level8_cost_amounts                     = 8
+|level8_cost_amounts                     = 7
 |level8_stat_text                        = Deals Added Lightning Damage equal to 18% of maximum Mana<br>Fires a Projectile at up to 5 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level8_stat1_id                         = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level8_stat1_value                      = 18
@@ -105,7 +109,7 @@
 |level8_stat2_value                      = 5
 |level9                                  = True
 |level9_level_requirement                = 41
-|level9_cost_amounts                     = 9
+|level9_cost_amounts                     = 7
 |level9_stat_text                        = Deals Added Lightning Damage equal to 19% of maximum Mana<br>Fires a Projectile at up to 5 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level9_stat1_id                         = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level9_stat1_value                      = 19
@@ -113,7 +117,7 @@
 |level9_stat2_value                      = 5
 |level10                                 = True
 |level10_level_requirement               = 44
-|level10_cost_amounts                    = 9
+|level10_cost_amounts                    = 7
 |level10_stat_text                       = Deals Added Lightning Damage equal to 19% of maximum Mana<br>Fires a Projectile at up to 5 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level10_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level10_stat1_value                     = 19
@@ -121,7 +125,7 @@
 |level10_stat2_value                     = 5
 |level11                                 = True
 |level11_level_requirement               = 47
-|level11_cost_amounts                    = 9
+|level11_cost_amounts                    = 7
 |level11_stat_text                       = Deals Added Lightning Damage equal to 20% of maximum Mana<br>Fires a Projectile at up to 6 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level11_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level11_stat1_value                     = 20
@@ -129,7 +133,7 @@
 |level11_stat2_value                     = 6
 |level12                                 = True
 |level12_level_requirement               = 50
-|level12_cost_amounts                    = 9
+|level12_cost_amounts                    = 8
 |level12_stat_text                       = Deals Added Lightning Damage equal to 20% of maximum Mana<br>Fires a Projectile at up to 6 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level12_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level12_stat1_value                     = 20
@@ -137,7 +141,7 @@
 |level12_stat2_value                     = 6
 |level13                                 = True
 |level13_level_requirement               = 53
-|level13_cost_amounts                    = 9
+|level13_cost_amounts                    = 8
 |level13_stat_text                       = Deals Added Lightning Damage equal to 21% of maximum Mana<br>Fires a Projectile at up to 6 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level13_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level13_stat1_value                     = 21
@@ -145,7 +149,7 @@
 |level13_stat2_value                     = 6
 |level14                                 = True
 |level14_level_requirement               = 56
-|level14_cost_amounts                    = 10
+|level14_cost_amounts                    = 8
 |level14_stat_text                       = Deals Added Lightning Damage equal to 21% of maximum Mana<br>Fires a Projectile at up to 6 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level14_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level14_stat1_value                     = 21
@@ -153,7 +157,7 @@
 |level14_stat2_value                     = 6
 |level15                                 = True
 |level15_level_requirement               = 59
-|level15_cost_amounts                    = 10
+|level15_cost_amounts                    = 8
 |level15_stat_text                       = Deals Added Lightning Damage equal to 22% of maximum Mana<br>Fires a Projectile at up to 6 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level15_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level15_stat1_value                     = 22
@@ -161,7 +165,7 @@
 |level15_stat2_value                     = 6
 |level16                                 = True
 |level16_level_requirement               = 62
-|level16_cost_amounts                    = 10
+|level16_cost_amounts                    = 8
 |level16_stat_text                       = Deals Added Lightning Damage equal to 22% of maximum Mana<br>Fires a Projectile at up to 7 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level16_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level16_stat1_value                     = 22
@@ -169,7 +173,7 @@
 |level16_stat2_value                     = 7
 |level17                                 = True
 |level17_level_requirement               = 64
-|level17_cost_amounts                    = 10
+|level17_cost_amounts                    = 8
 |level17_stat_text                       = Deals Added Lightning Damage equal to 23% of maximum Mana<br>Fires a Projectile at up to 7 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level17_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level17_stat1_value                     = 23
@@ -177,7 +181,7 @@
 |level17_stat2_value                     = 7
 |level18                                 = True
 |level18_level_requirement               = 66
-|level18_cost_amounts                    = 10
+|level18_cost_amounts                    = 9
 |level18_stat_text                       = Deals Added Lightning Damage equal to 23% of maximum Mana<br>Fires a Projectile at up to 7 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level18_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level18_stat1_value                     = 23
@@ -185,7 +189,7 @@
 |level18_stat2_value                     = 7
 |level19                                 = True
 |level19_level_requirement               = 68
-|level19_cost_amounts                    = 11
+|level19_cost_amounts                    = 9
 |level19_stat_text                       = Deals Added Lightning Damage equal to 24% of maximum Mana<br>Fires a Projectile at up to 7 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level19_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level19_stat1_value                     = 24
@@ -193,7 +197,7 @@
 |level19_stat2_value                     = 7
 |level20                                 = True
 |level20_level_requirement               = 70
-|level20_cost_amounts                    = 11
+|level20_cost_amounts                    = 9
 |level20_stat_text                       = Deals Added Lightning Damage equal to 24% of maximum Mana<br>Fires a Projectile at up to 7 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level20_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level20_stat1_value                     = 24
@@ -201,7 +205,7 @@
 |level20_stat2_value                     = 7
 |level21                                 = True
 |level21_level_requirement               = 72
-|level21_cost_amounts                    = 11
+|level21_cost_amounts                    = 9
 |level21_stat_text                       = Deals Added Lightning Damage equal to 25% of maximum Mana<br>Fires a Projectile at up to 8 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level21_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level21_stat1_value                     = 25
@@ -209,7 +213,7 @@
 |level21_stat2_value                     = 8
 |level22                                 = True
 |level22_level_requirement               = 74
-|level22_cost_amounts                    = 11
+|level22_cost_amounts                    = 9
 |level22_stat_text                       = Deals Added Lightning Damage equal to 25% of maximum Mana<br>Fires a Projectile at up to 8 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level22_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level22_stat1_value                     = 25
@@ -217,7 +221,7 @@
 |level22_stat2_value                     = 8
 |level23                                 = True
 |level23_level_requirement               = 76
-|level23_cost_amounts                    = 11
+|level23_cost_amounts                    = 9
 |level23_stat_text                       = Deals Added Lightning Damage equal to 26% of maximum Mana<br>Fires a Projectile at up to 8 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level23_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level23_stat1_value                     = 26
@@ -225,7 +229,7 @@
 |level23_stat2_value                     = 8
 |level24                                 = True
 |level24_level_requirement               = 78
-|level24_cost_amounts                    = 11
+|level24_cost_amounts                    = 9
 |level24_stat_text                       = Deals Added Lightning Damage equal to 26% of maximum Mana<br>Fires a Projectile at up to 8 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level24_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level24_stat1_value                     = 26
@@ -233,7 +237,7 @@
 |level24_stat2_value                     = 8
 |level25                                 = True
 |level25_level_requirement               = 80
-|level25_cost_amounts                    = 11
+|level25_cost_amounts                    = 9
 |level25_stat_text                       = Deals Added Lightning Damage equal to 27% of maximum Mana<br>Fires a Projectile at up to 8 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level25_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level25_stat1_value                     = 27
@@ -241,7 +245,7 @@
 |level25_stat2_value                     = 8
 |level26                                 = True
 |level26_level_requirement               = 82
-|level26_cost_amounts                    = 12
+|level26_cost_amounts                    = 9
 |level26_stat_text                       = Deals Added Lightning Damage equal to 27% of maximum Mana<br>Fires a Projectile at up to 9 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level26_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level26_stat1_value                     = 27
@@ -249,7 +253,7 @@
 |level26_stat2_value                     = 9
 |level27                                 = True
 |level27_level_requirement               = 84
-|level27_cost_amounts                    = 12
+|level27_cost_amounts                    = 10
 |level27_stat_text                       = Deals Added Lightning Damage equal to 28% of maximum Mana<br>Fires a Projectile at up to 9 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level27_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level27_stat1_value                     = 28
@@ -257,7 +261,7 @@
 |level27_stat2_value                     = 9
 |level28                                 = True
 |level28_level_requirement               = 86
-|level28_cost_amounts                    = 12
+|level28_cost_amounts                    = 10
 |level28_stat_text                       = Deals Added Lightning Damage equal to 28% of maximum Mana<br>Fires a Projectile at up to 9 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level28_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level28_stat1_value                     = 28
@@ -265,7 +269,7 @@
 |level28_stat2_value                     = 9
 |level29                                 = True
 |level29_level_requirement               = 88
-|level29_cost_amounts                    = 12
+|level29_cost_amounts                    = 10
 |level29_stat_text                       = Deals Added Lightning Damage equal to 29% of maximum Mana<br>Fires a Projectile at up to 9 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level29_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level29_stat1_value                     = 29
@@ -273,7 +277,7 @@
 |level29_stat2_value                     = 9
 |level30                                 = True
 |level30_level_requirement               = 90
-|level30_cost_amounts                    = 12
+|level30_cost_amounts                    = 10
 |level30_stat_text                       = Deals Added Lightning Damage equal to 29% of maximum Mana<br>Fires a Projectile at up to 9 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level30_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level30_stat1_value                     = 29
@@ -281,7 +285,7 @@
 |level30_stat2_value                     = 9
 |level31                                 = True
 |level31_level_requirement               = 91
-|level31_cost_amounts                    = 12
+|level31_cost_amounts                    = 10
 |level31_stat_text                       = Deals Added Lightning Damage equal to 29% of maximum Mana<br>Fires a Projectile at up to 10 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level31_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level31_stat1_value                     = 29
@@ -289,7 +293,7 @@
 |level31_stat2_value                     = 10
 |level32                                 = True
 |level32_level_requirement               = 92
-|level32_cost_amounts                    = 13
+|level32_cost_amounts                    = 10
 |level32_stat_text                       = Deals Added Lightning Damage equal to 30% of maximum Mana<br>Fires a Projectile at up to 10 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level32_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level32_stat1_value                     = 30
@@ -297,7 +301,7 @@
 |level32_stat2_value                     = 10
 |level33                                 = True
 |level33_level_requirement               = 93
-|level33_cost_amounts                    = 13
+|level33_cost_amounts                    = 10
 |level33_stat_text                       = Deals Added Lightning Damage equal to 30% of maximum Mana<br>Fires a Projectile at up to 10 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level33_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level33_stat1_value                     = 30
@@ -305,7 +309,7 @@
 |level33_stat2_value                     = 10
 |level34                                 = True
 |level34_level_requirement               = 94
-|level34_cost_amounts                    = 13
+|level34_cost_amounts                    = 10
 |level34_stat_text                       = Deals Added Lightning Damage equal to 30% of maximum Mana<br>Fires a Projectile at up to 10 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level34_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level34_stat1_value                     = 30
@@ -313,7 +317,7 @@
 |level34_stat2_value                     = 10
 |level35                                 = True
 |level35_level_requirement               = 95
-|level35_cost_amounts                    = 13
+|level35_cost_amounts                    = 10
 |level35_stat_text                       = Deals Added Lightning Damage equal to 30% of maximum Mana<br>Fires a Projectile at up to 10 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level35_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level35_stat1_value                     = 30
@@ -321,7 +325,7 @@
 |level35_stat2_value                     = 10
 |level36                                 = True
 |level36_level_requirement               = 96
-|level36_cost_amounts                    = 13
+|level36_cost_amounts                    = 10
 |level36_stat_text                       = Deals Added Lightning Damage equal to 31% of maximum Mana<br>Fires a Projectile at up to 11 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level36_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level36_stat1_value                     = 31
@@ -329,7 +333,7 @@
 |level36_stat2_value                     = 11
 |level37                                 = True
 |level37_level_requirement               = 97
-|level37_cost_amounts                    = 13
+|level37_cost_amounts                    = 10
 |level37_stat_text                       = Deals Added Lightning Damage equal to 31% of maximum Mana<br>Fires a Projectile at up to 11 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level37_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level37_stat1_value                     = 31
@@ -337,7 +341,7 @@
 |level37_stat2_value                     = 11
 |level38                                 = True
 |level38_level_requirement               = 98
-|level38_cost_amounts                    = 13
+|level38_cost_amounts                    = 10
 |level38_stat_text                       = Deals Added Lightning Damage equal to 31% of maximum Mana<br>Fires a Projectile at up to 11 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level38_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level38_stat1_value                     = 31
@@ -345,7 +349,7 @@
 |level38_stat2_value                     = 11
 |level39                                 = True
 |level39_level_requirement               = 99
-|level39_cost_amounts                    = 13
+|level39_cost_amounts                    = 10
 |level39_stat_text                       = Deals Added Lightning Damage equal to 31% of maximum Mana<br>Fires a Projectile at up to 11 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level39_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level39_stat1_value                     = 31
@@ -353,7 +357,7 @@
 |level39_stat2_value                     = 11
 |level40                                 = True
 |level40_level_requirement               = 100
-|level40_cost_amounts                    = 13
+|level40_cost_amounts                    = 10
 |level40_stat_text                       = Deals Added Lightning Damage equal to 32% of maximum Mana<br>Fires a Projectile at up to 11 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at
 |level40_stat1_id                        = attack_skills_have_added_lightning_damage_equal_to_%_of_maximum_mana
 |level40_stat1_value                     = 32

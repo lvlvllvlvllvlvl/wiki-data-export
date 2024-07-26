@@ -72,9 +72,9 @@ local data = {	{
 	},
 	{
 		name = "Character", 
-		id = "resist_all_elements_%_per_endurance_charge", 
+		id = "elemental_damage_reduction_%_per_endurance_charge", 
 		value = 4, 
-		stat_text = "+4% to all [[Elemental Resistance|Elemental Resistances]] per [[Endurance Charge]]", 
+		stat_text = "4% additional [[Elemental Damage]] Reduction per [[Endurance Charge]]", 
 	},
 	{
 		name = "Character", 
@@ -133,7 +133,7 @@ local data = {	{
 	{
 		name = "Character", 
 		id = "inherent_block_while_dual_wielding_%", 
-		value = 15, 
+		value = 20, 
 		stat_text = "", 
 	},
 	{
@@ -283,8 +283,8 @@ local data = {	{
 	{
 		name = "Character", 
 		id = "maximum_rage", 
-		value = 50, 
-		stat_text = "+50 to Maximum Rage", 
+		value = 30, 
+		stat_text = "+30 to Maximum Rage", 
 	},
 	{
 		name = "Character", 
@@ -465,5 +465,11 @@ local data = {	{
 		id = "soul_eater_maximum_stacks", 
 		value = 45, 
 		stat_text = "Maximum 45 Eaten Souls", 
+	},
+	{
+		name = "Character", 
+		id = "rage_loss_delay_ms", 
+		value = 2000, 
+		stat_text = "Inherent Rage Loss starts 2 seconds later", 
 	}}
 return data

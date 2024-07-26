@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TinctureIncreasedAttackSpeed1
+|mod_groups                       = IncreasedAttackSpeed
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 1
+|name                             = of Skill
+|mod_type                         = TinctureIncreasedAttackSpeed
+|stat_text                        = (15-19)% increased Melee Weapon [[Attack Speed]]
+|stat1_id                         = attack_speed_+%_with_tinctured_weapons
+|stat1_min                        = 15
+|stat1_max                        = 19
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = attack, speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

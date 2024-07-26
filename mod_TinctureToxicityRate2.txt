@@ -1,0 +1,19 @@
+{{Mod
+|id                               = TinctureToxicityRate2
+|mod_groups                       = TinctureToxicityRate
+|domain                           = 34
+|generation_type                  = 1
+|required_level                   = 30
+|name                             = Tenacious
+|mod_type                         = TinctureToxicityRate
+|stat_text                        = (20-18)% reduced [[Mana]] Burn rate
+|stat1_id                         = local_tincture_toxicity_rate_+%
+|stat1_min                        = -20
+|stat1_max                        = -18
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

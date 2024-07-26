@@ -5,16 +5,16 @@
 |generation_type                  = 2
 |required_level                   = 75
 |name                             = of the Hunt
-|mod_type                         = ArmourPenetration
-|stat_text                        = Overwhelm (12-15)% [[Physical Damage]] Reduction
-|stat1_id                         = enemy_phys_reduction_%_penalty_vs_hit
-|stat1_min                        = 12
-|stat1_max                        = 15
+|mod_type                         = ChanceToIgnoreEnemyArmour
+|stat_text                        = [[Hit|Hits]] have (40-50)% chance to ignore Enemy [[Physical Damage]] Reduction
+|stat1_id                         = hits_ignore_enemy_monster_physical_damage_reduction_%_chance
+|stat1_min                        = 40
+|stat1_max                        = 50
 |spawn_weight1_tag                = belt_basilisk
 |spawn_weight1_value              = 500
 |spawn_weight2_tag                = default
 |spawn_weight2_value              = 0
-|tags                             = physical_damage, damage, physical
+|tags                             = physical
 |sell_price1_name                 = Alteration Shard
 |sell_price1_amount               = 5
 }}

@@ -10,7 +10,7 @@
 |base_item_id                            = Metadata/Items/Gems/SkillGemFlameDash
 |intelligence_percent                    = 100
 |gem_tags                                = Spell, Movement, Duration, Fire
-|gem_description                         = Teleport to a location, damaging enemies and leaving a trail of burning ground, then repeat the teleport in the other direction. Cannot be triggered, or used by a totem, trap or mine.
+|gem_description                         = Teleport to a location, damaging enemies and leaving a trail of burning ground, then repeat the teleport in the other direction. Cannot be triggered, or used by a totem, trap or mine. Cannot be supported by Unleash.
 |active_skill_name                       = Flame Dash of Return
 |skill_id                                = FlameDashAltY
 |cast_time                               = 0.6
@@ -21,7 +21,6 @@
 |quality_type1_stat1_value               = 2000
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 6
-|static_damage_effectiveness             = 270
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
 |static_duration                         = 4
@@ -39,6 +38,7 @@
 |level1                                  = True
 |level1_level_requirement                = 10
 |level1_cost_amounts                     = 7
+|level1_damage_effectiveness             = 150
 |level1_stat_text                        = Deals 9.4 Base Fire Damage per second<br>Deals 14 to 20 Fire Damage
 |level1_stat1_id                         = base_fire_damage_to_deal_per_minute
 |level1_stat1_value                      = 566
@@ -49,6 +49,7 @@
 |level2                                  = True
 |level2_level_requirement                = 13
 |level2_cost_amounts                     = 8
+|level2_damage_effectiveness             = 150
 |level2_stat_text                        = Deals 12.7 Base Fire Damage per second<br>Deals 18 to 27 Fire Damage
 |level2_stat1_id                         = base_fire_damage_to_deal_per_minute
 |level2_stat1_value                      = 761
@@ -59,6 +60,7 @@
 |level3                                  = True
 |level3_level_requirement                = 17
 |level3_cost_amounts                     = 9
+|level3_damage_effectiveness             = 160
 |level3_stat_text                        = Deals 18.3 Base Fire Damage per second<br>Deals 26 to 40 Fire Damage
 |level3_stat1_id                         = base_fire_damage_to_deal_per_minute
 |level3_stat1_value                      = 1099
@@ -69,6 +71,7 @@
 |level4                                  = True
 |level4_level_requirement                = 21
 |level4_cost_amounts                     = 9
+|level4_damage_effectiveness             = 160
 |level4_stat_text                        = Deals 25.9 Base Fire Damage per second<br>Deals 37 to 56 Fire Damage
 |level4_stat1_id                         = base_fire_damage_to_deal_per_minute
 |level4_stat1_value                      = 1552
@@ -79,6 +82,7 @@
 |level5                                  = True
 |level5_level_requirement                = 25
 |level5_cost_amounts                     = 10
+|level5_damage_effectiveness             = 170
 |level5_stat_text                        = Deals 35.9 Base Fire Damage per second<br>Deals 52 to 78 Fire Damage
 |level5_stat1_id                         = base_fire_damage_to_deal_per_minute
 |level5_stat1_value                      = 2154
@@ -89,6 +93,7 @@
 |level6                                  = True
 |level6_level_requirement                = 29
 |level6_cost_amounts                     = 11
+|level6_damage_effectiveness             = 180
 |level6_stat_text                        = Deals 49.2 Base Fire Damage per second<br>Deals 71 to 106 Fire Damage
 |level6_stat1_id                         = base_fire_damage_to_deal_per_minute
 |level6_stat1_value                      = 2951
@@ -99,6 +104,7 @@
 |level7                                  = True
 |level7_level_requirement                = 33
 |level7_cost_amounts                     = 12
+|level7_damage_effectiveness             = 180
 |level7_stat_text                        = Deals 66.7 Base Fire Damage per second<br>Deals 96 to 144 Fire Damage
 |level7_stat1_id                         = base_fire_damage_to_deal_per_minute
 |level7_stat1_value                      = 3999
@@ -109,6 +115,7 @@
 |level8                                  = True
 |level8_level_requirement                = 36
 |level8_cost_amounts                     = 13
+|level8_damage_effectiveness             = 190
 |level8_stat_text                        = Deals 83.2 Base Fire Damage per second<br>Deals 120 to 180 Fire Damage
 |level8_stat1_id                         = base_fire_damage_to_deal_per_minute
 |level8_stat1_value                      = 4993
@@ -119,6 +126,7 @@
 |level9                                  = True
 |level9_level_requirement                = 39
 |level9_cost_amounts                     = 14
+|level9_damage_effectiveness             = 200
 |level9_stat_text                        = Deals 103.5 Base Fire Damage per second<br>Deals 149 to 224 Fire Damage
 |level9_stat1_id                         = base_fire_damage_to_deal_per_minute
 |level9_stat1_value                      = 6209
@@ -129,6 +137,7 @@
 |level10                                 = True
 |level10_level_requirement               = 42
 |level10_cost_amounts                    = 14
+|level10_damage_effectiveness            = 200
 |level10_stat_text                       = Deals 128.2 Base Fire Damage per second<br>Deals 185 to 277 Fire Damage
 |level10_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level10_stat1_value                     = 7690
@@ -139,6 +148,7 @@
 |level11                                 = True
 |level11_level_requirement               = 45
 |level11_cost_amounts                    = 15
+|level11_damage_effectiveness            = 210
 |level11_stat_text                       = Deals 158.2 Base Fire Damage per second<br>Deals 228 to 342 Fire Damage
 |level11_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level11_stat1_value                     = 9494
@@ -149,6 +159,7 @@
 |level12                                 = True
 |level12_level_requirement               = 48
 |level12_cost_amounts                    = 15
+|level12_damage_effectiveness            = 210
 |level12_stat_text                       = Deals 194.8 Base Fire Damage per second<br>Deals 280 to 421 Fire Damage
 |level12_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level12_stat1_value                     = 11685
@@ -159,6 +170,7 @@
 |level13                                 = True
 |level13_level_requirement               = 51
 |level13_cost_amounts                    = 16
+|level13_damage_effectiveness            = 220
 |level13_stat_text                       = Deals 239.1 Base Fire Damage per second<br>Deals 344 to 516 Fire Damage
 |level13_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level13_stat1_value                     = 14344
@@ -169,6 +181,7 @@
 |level14                                 = True
 |level14_level_requirement               = 54
 |level14_cost_amounts                    = 16
+|level14_damage_effectiveness            = 230
 |level14_stat_text                       = Deals 292.7 Base Fire Damage per second<br>Deals 422 to 632 Fire Damage
 |level14_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level14_stat1_value                     = 17564
@@ -179,6 +192,7 @@
 |level15                                 = True
 |level15_level_requirement               = 57
 |level15_cost_amounts                    = 17
+|level15_damage_effectiveness            = 240
 |level15_stat_text                       = Deals 357.6 Base Fire Damage per second<br>Deals 515 to 773 Fire Damage
 |level15_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level15_stat1_value                     = 21459
@@ -189,6 +203,7 @@
 |level16                                 = True
 |level16_level_requirement               = 60
 |level16_cost_amounts                    = 18
+|level16_damage_effectiveness            = 240
 |level16_stat_text                       = Deals 436.1 Base Fire Damage per second<br>Deals 628 to 942 Fire Damage
 |level16_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level16_stat1_value                     = 26166
@@ -199,6 +214,7 @@
 |level17                                 = True
 |level17_level_requirement               = 63
 |level17_cost_amounts                    = 18
+|level17_damage_effectiveness            = 250
 |level17_stat_text                       = Deals 530.8 Base Fire Damage per second<br>Deals 764 to 1146 Fire Damage
 |level17_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level17_stat1_value                     = 31846
@@ -209,6 +225,7 @@
 |level18                                 = True
 |level18_level_requirement               = 66
 |level18_cost_amounts                    = 19
+|level18_damage_effectiveness            = 260
 |level18_stat_text                       = Deals 644.9 Base Fire Damage per second<br>Deals 929 to 1393 Fire Damage
 |level18_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level18_stat1_value                     = 38693
@@ -219,6 +236,7 @@
 |level19                                 = True
 |level19_level_requirement               = 68
 |level19_cost_amounts                    = 19
+|level19_damage_effectiveness            = 260
 |level19_stat_text                       = Deals 733.6 Base Fire Damage per second<br>Deals 1056 to 1585 Fire Damage
 |level19_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level19_stat1_value                     = 44019
@@ -229,6 +247,7 @@
 |level20                                 = True
 |level20_level_requirement               = 70
 |level20_cost_amounts                    = 20
+|level20_damage_effectiveness            = 270
 |level20_stat_text                       = Deals 834.1 Base Fire Damage per second<br>Deals 1201 to 1802 Fire Damage
 |level20_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level20_stat1_value                     = 50044
@@ -239,6 +258,7 @@
 |level21                                 = True
 |level21_level_requirement               = 72
 |level21_cost_amounts                    = 21
+|level21_damage_effectiveness            = 270
 |level21_stat_text                       = Deals 947.6 Base Fire Damage per second<br>Deals 1365 to 2047 Fire Damage
 |level21_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level21_stat1_value                     = 56859
@@ -249,6 +269,7 @@
 |level22                                 = True
 |level22_level_requirement               = 74
 |level22_cost_amounts                    = 21
+|level22_damage_effectiveness            = 270
 |level22_stat_text                       = Deals 1076 Base Fire Damage per second<br>Deals 1550 to 2324 Fire Damage
 |level22_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level22_stat1_value                     = 64563
@@ -259,6 +280,7 @@
 |level23                                 = True
 |level23_level_requirement               = 76
 |level23_cost_amounts                    = 21
+|level23_damage_effectiveness            = 270
 |level23_stat_text                       = Deals 1221.2 Base Fire Damage per second<br>Deals 1758 to 2638 Fire Damage
 |level23_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level23_stat1_value                     = 73269
@@ -269,6 +291,7 @@
 |level24                                 = True
 |level24_level_requirement               = 78
 |level24_cost_amounts                    = 21
+|level24_damage_effectiveness            = 270
 |level24_stat_text                       = Deals 1385.1 Base Fire Damage per second<br>Deals 1994 to 2992 Fire Damage
 |level24_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level24_stat1_value                     = 83104
@@ -279,6 +302,7 @@
 |level25                                 = True
 |level25_level_requirement               = 80
 |level25_cost_amounts                    = 22
+|level25_damage_effectiveness            = 270
 |level25_stat_text                       = Deals 1570.2 Base Fire Damage per second<br>Deals 2261 to 3392 Fire Damage
 |level25_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level25_stat1_value                     = 94210
@@ -289,6 +313,7 @@
 |level26                                 = True
 |level26_level_requirement               = 82
 |level26_cost_amounts                    = 22
+|level26_damage_effectiveness            = 270
 |level26_stat_text                       = Deals 1779.1 Base Fire Damage per second<br>Deals 2562 to 3843 Fire Damage
 |level26_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level26_stat1_value                     = 106747
@@ -299,6 +324,7 @@
 |level27                                 = True
 |level27_level_requirement               = 84
 |level27_cost_amounts                    = 23
+|level27_damage_effectiveness            = 270
 |level27_stat_text                       = Deals 2014.9 Base Fire Damage per second<br>Deals 2901 to 4352 Fire Damage
 |level27_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level27_stat1_value                     = 120895
@@ -309,6 +335,7 @@
 |level28                                 = True
 |level28_level_requirement               = 86
 |level28_cost_amounts                    = 23
+|level28_damage_effectiveness            = 270
 |level28_stat_text                       = Deals 2280.9 Base Fire Damage per second<br>Deals 3285 to 4927 Fire Damage
 |level28_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level28_stat1_value                     = 136857
@@ -319,6 +346,7 @@
 |level29                                 = True
 |level29_level_requirement               = 88
 |level29_cost_amounts                    = 24
+|level29_damage_effectiveness            = 270
 |level29_stat_text                       = Deals 2580.9 Base Fire Damage per second<br>Deals 3717 to 5575 Fire Damage
 |level29_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level29_stat1_value                     = 154857
@@ -329,6 +357,7 @@
 |level30                                 = True
 |level30_level_requirement               = 90
 |level30_cost_amounts                    = 24
+|level30_damage_effectiveness            = 270
 |level30_stat_text                       = Deals 2919.2 Base Fire Damage per second<br>Deals 4204 to 6305 Fire Damage
 |level30_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level30_stat1_value                     = 175153
@@ -339,6 +368,7 @@
 |level31                                 = True
 |level31_level_requirement               = 91
 |level31_cost_amounts                    = 24
+|level31_damage_effectiveness            = 270
 |level31_stat_text                       = Deals 3104.2 Base Fire Damage per second<br>Deals 4470 to 6705 Fire Damage
 |level31_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level31_stat1_value                     = 186249
@@ -349,6 +379,7 @@
 |level32                                 = True
 |level32_level_requirement               = 92
 |level32_cost_amounts                    = 25
+|level32_damage_effectiveness            = 270
 |level32_stat_text                       = Deals 3300.5 Base Fire Damage per second<br>Deals 4753 to 7129 Fire Damage
 |level32_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level32_stat1_value                     = 198028
@@ -359,6 +390,7 @@
 |level33                                 = True
 |level33_level_requirement               = 93
 |level33_cost_amounts                    = 25
+|level33_damage_effectiveness            = 270
 |level33_stat_text                       = Deals 3508.9 Base Fire Damage per second<br>Deals 5053 to 7579 Fire Damage
 |level33_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level33_stat1_value                     = 210532
@@ -369,6 +401,7 @@
 |level34                                 = True
 |level34_level_requirement               = 94
 |level34_cost_amounts                    = 25
+|level34_damage_effectiveness            = 270
 |level34_stat_text                       = Deals 3730.1 Base Fire Damage per second<br>Deals 5371 to 8057 Fire Damage
 |level34_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level34_stat1_value                     = 223805
@@ -379,6 +412,7 @@
 |level35                                 = True
 |level35_level_requirement               = 95
 |level35_cost_amounts                    = 25
+|level35_damage_effectiveness            = 270
 |level35_stat_text                       = Deals 3964.9 Base Fire Damage per second<br>Deals 5709 to 8564 Fire Damage
 |level35_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level35_stat1_value                     = 237892
@@ -389,6 +423,7 @@
 |level36                                 = True
 |level36_level_requirement               = 96
 |level36_cost_amounts                    = 26
+|level36_damage_effectiveness            = 270
 |level36_stat_text                       = Deals 4214.1 Base Fire Damage per second<br>Deals 6068 to 9102 Fire Damage
 |level36_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level36_stat1_value                     = 252843
@@ -399,6 +434,7 @@
 |level37                                 = True
 |level37_level_requirement               = 97
 |level37_cost_amounts                    = 26
+|level37_damage_effectiveness            = 270
 |level37_stat_text                       = Deals 4478.5 Base Fire Damage per second<br>Deals 6449 to 9674 Fire Damage
 |level37_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level37_stat1_value                     = 268710
@@ -409,6 +445,7 @@
 |level38                                 = True
 |level38_level_requirement               = 98
 |level38_cost_amounts                    = 26
+|level38_damage_effectiveness            = 270
 |level38_stat_text                       = Deals 4759.1 Base Fire Damage per second<br>Deals 6853 to 10280 Fire Damage
 |level38_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level38_stat1_value                     = 285547
@@ -419,6 +456,7 @@
 |level39                                 = True
 |level39_level_requirement               = 99
 |level39_cost_amounts                    = 26
+|level39_damage_effectiveness            = 270
 |level39_stat_text                       = Deals 5056.9 Base Fire Damage per second<br>Deals 7282 to 10923 Fire Damage
 |level39_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level39_stat1_value                     = 303413
@@ -429,6 +467,7 @@
 |level40                                 = True
 |level40_level_requirement               = 100
 |level40_cost_amounts                    = 27
+|level40_damage_effectiveness            = 270
 |level40_stat_text                       = Deals 5372.8 Base Fire Damage per second<br>Deals 7737 to 11605 Fire Damage
 |level40_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level40_stat1_value                     = 322369

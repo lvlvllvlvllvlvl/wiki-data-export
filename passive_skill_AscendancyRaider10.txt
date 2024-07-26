@@ -1,14 +1,14 @@
 {{Passive skill
 |id                                  = AscendancyRaider10
 |int_id                              = 33645
-|name                                = Quartz Infusion
-|ascendancy_class                    = Raider
+|name                                = Oath of Summer
+|ascendancy_class                    = Warden
 |is_notable                          = True
-|icon                                = AvatarOfPhasing (Raider)
-|stat1_id                            = base_spell_suppression_chance_%
-|stat1_value                         = 40
-|stat2_id                            = base_phasing_without_visual
+|icon                                = WardenFireAilments (Warden)
+|stat1_id                            = apply_scorch_instead_of_ignite
+|stat1_value                         = 1
+|stat2_id                            = can_apply_additional_scorch
 |stat2_value                         = 1
-|stat_text                           = +40% chance to Suppress [[Spell Damage]]<br>Phasing
+|stat_text                           = [[Hit|Hits]] that would [[Ignite]] instead Scorch<br>You can inflict an additional Scorch on each Enemy
 |connections                         = AscendancyRaider11,AscendancyRaider11,AscendancyRaider9
 }}

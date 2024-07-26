@@ -6,10 +6,10 @@
 |required_level                   = 71
 |name                             = of the Hunt
 |mod_type                         = LocalArmourPenetration
-|stat_text                        = [[Hit|Hits]] with this Weapon Overwhelm (17-20)% [[Physical Damage]] Reduction
-|stat1_id                         = local_weapon_enemy_phys_reduction_%_penalty
-|stat1_min                        = 17
-|stat1_max                        = 20
+|stat_text                        = [[Hit|Hits]] with this Weapon have (66-80)% chance to ignore Enemy [[Physical Damage]] Reduction
+|stat1_id                         = local_hits_ignore_enemy_monster_physical_damage_reduction_%_chance
+|stat1_min                        = 66
+|stat1_max                        = 80
 |spawn_weight1_tag                = 2h_sword_basilisk
 |spawn_weight1_value              = 500
 |spawn_weight2_tag                = 2h_axe_basilisk

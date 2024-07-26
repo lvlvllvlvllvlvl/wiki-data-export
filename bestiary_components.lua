@@ -649,7 +649,7 @@ local data = {	{
 	{
 		id = "Morrigan", 
 		min_level = 0, 
-		monster = "The Black Mórrigan", 
+		monster = "Black Mórrigan", 
 		rarity = "Unique", 
 	},
 	{

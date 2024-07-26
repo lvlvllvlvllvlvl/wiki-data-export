@@ -1,14 +1,19 @@
 {{Passive skill
 |id                                  = AscendancyRaider12
 |int_id                              = 55509
-|name                                = Avatar of the Veil
-|ascendancy_class                    = Raider
+|name                                = Avatar of the Wilds
+|reminder_text                       = (Unbound Avatar requires 100 Unbound Fury to use and causes you to become Unbound for 10 seconds, which has no effects beyond those listed here)
+|ascendancy_class                    = Warden
 |is_notable                          = True
-|icon                                = QuartzInfusion (Raider)
-|stat1_id                            = nearby_enemies_all_exposure_%_while_phasing
-|stat1_value                         = -20
-|stat2_id                            = avoid_elemental_ailments_%_while_phasing
-|stat2_value                         = 50
-|stat_text                           = [[Nearby]] Enemies have Fire, Cold and Lightning Exposure while you have Phasing, applying -20% to those Resistances<br>50% chance to Avoid Elemental Ailments while Phasing
-|connections                         = AscendancyRaider11
+|icon                                = WardenAllAilments (Warden)
+|stat1_id                            = local_display_grants_skill_ailment_bearer
+|stat1_value                         = 20
+|stat2_id                            = ailment_bearer_always_freeze_shock_ignite
+|stat2_value                         = 1
+|stat3_id                            = display_ailment_bearer_charge_interval
+|stat3_value                         = 1
+|stat4_id                            = ailment_bearer_elemental_damage_+%_final
+|stat4_value                         = 80
+|stat_text                           = Grants [[Level]] 20 Unbound Avatar [[Skill]]<br>Your [[Hit|Hits]] always inflict [[Freeze]], [[Shock]] and [[Ignite]] while Unbound<br>Gain 1 Unbound Fury when you inflict an Elemental Ailment with a [[Hit]] on an Enemy, no more than once every 0.2 seconds for each type of Ailment<br />Cannot gain Unbound Fury while Unbound<br>80% more [[Elemental Damage]] while Unbound
+|connections                         = AscendancyRaider11,AscendancyRaider15,AscendancyRaider16
 }}

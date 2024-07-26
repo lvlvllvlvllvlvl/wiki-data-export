@@ -1,51 +1,51 @@
 local data = {	{
 		id = "InverseWeighting3", 
-		passive_id = "agility837", 
+		passive_id = "Retaliation_notable_5", 
 		type = "UniqueOrAmulet", 
 	},
 	{
 		id = "InverseWeighting4", 
-		passive_id = "might772", 
+		passive_id = "Retaliation_notable_4", 
 		type = "UniqueOrAmulet", 
 	},
 	{
 		id = "InverseWeighting5", 
-		passive_id = "agility834", 
+		passive_id = "Retaliation_notable_2", 
 		type = "UniqueOrAmulet", 
 	},
 	{
 		id = "InverseWeighting6", 
-		passive_id = "savant937", 
+		passive_id = "Retaliation_notable_1", 
 		type = "UniqueOrAmulet", 
 	},
 	{
 		id = "InverseWeighting6_2", 
-		passive_id = "agility876", 
+		passive_id = "tincture_notable_2921", 
 		type = "UniqueOrAmulet", 
 	},
 	{
 		id = "InverseWeighting7", 
-		passive_id = "savant903", 
+		passive_id = "Retaliation_notable_6", 
 		type = "UniqueOrAmulet", 
 	},
 	{
 		id = "InverseWeighting8", 
-		passive_id = "might770", 
+		passive_id = "tincture_notable_2924", 
 		type = "UniqueOrAmulet", 
 	},
 	{
 		id = "InverseWeighting8_2", 
-		passive_id = "agility863", 
+		passive_id = "Retaliation_notable_3", 
 		type = "UniqueOrAmulet", 
 	},
 	{
 		id = "InverseWeighting9", 
-		passive_id = "savant878", 
+		passive_id = "warcry_notable_2971", 
 		type = "UniqueOrAmulet", 
 	},
 	{
 		id = "InverseWeighting9_2", 
-		passive_id = "might1011", 
+		passive_id = "tincture_notable_2960_", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -55,12 +55,12 @@ local data = {	{
 	},
 	{
 		id = "InverseWeighting10_2", 
-		passive_id = "savant954", 
+		passive_id = "rage_notable2104", 
 		type = "UniqueOrAmulet", 
 	},
 	{
 		id = "InverseWeighting11", 
-		passive_id = "might813", 
+		passive_id = "dualwield_block_notable_2931", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -179,6 +179,11 @@ local data = {	{
 		type = "UniqueOrAmulet", 
 	},
 	{
+		id = "InverseWeighting20_3", 
+		passive_id = "warcry_notable_2941", 
+		type = "UniqueOrAmulet", 
+	},
+	{
 		id = "InverseWeighting21", 
 		passive_id = "two_hand_damage_notable1733", 
 		type = "UniqueOrAmulet", 
@@ -186,6 +191,11 @@ local data = {	{
 	{
 		id = "InverseWeighting21_2", 
 		passive_id = "fury_bolts1132", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "InverseWeighting21_3", 
+		passive_id = "impale_notable_2944", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -269,6 +279,11 @@ local data = {	{
 		type = "UniqueOrAmulet", 
 	},
 	{
+		id = "InverseWeighting26_4", 
+		passive_id = "bleeding_notable_2952", 
+		type = "UniqueOrAmulet", 
+	},
+	{
 		id = "InverseWeighting27", 
 		passive_id = "weapon_artistry620", 
 		type = "UniqueOrAmulet", 
@@ -291,6 +306,11 @@ local data = {	{
 	{
 		id = "InverseWeighting28_2", 
 		passive_id = "attack_ignite_notable2876", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "InverseWeighting28_3", 
+		passive_id = "bleed_notable_2900", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -340,7 +360,7 @@ local data = {	{
 	},
 	{
 		id = "InverseWeighting32", 
-		passive_id = "blight_special_notable11", 
+		passive_id = "bleed_notable_2904", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -381,6 +401,11 @@ local data = {	{
 	{
 		id = "InverseWeighting35", 
 		passive_id = "gemini429", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "InverseWeighting36", 
+		passive_id = "tincture_notable_2966", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -601,6 +626,11 @@ local data = {	{
 	{
 		id = "InverseWeighting58_3", 
 		passive_id = "mace_accuracy_speed_notable2484", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "InverseWeighting58_4", 
+		passive_id = "tincture_notable_2927", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -1055,7 +1085,7 @@ local data = {	{
 	},
 	{
 		id = "InverseWeighting141", 
-		passive_id = "blight_special_notable5", 
+		passive_id = "block_notable_2938", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -1095,12 +1125,17 @@ local data = {	{
 	},
 	{
 		id = "InverseWeighting148_2", 
-		passive_id = "blight_special_notable4", 
+		passive_id = "rage_notable2111", 
 		type = "UniqueOrAmulet", 
 	},
 	{
 		id = "InverseWeighting151", 
 		passive_id = "dual_wield_spells_and_block_notable2309", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "InverseWeighting153", 
+		passive_id = "banner_notable_2879", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -1585,7 +1620,7 @@ local data = {	{
 	},
 	{
 		id = "InverseWeighting258", 
-		passive_id = "blight_special_notable12", 
+		passive_id = "banner_notable_2880", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -1650,7 +1685,7 @@ local data = {	{
 	},
 	{
 		id = "InverseWeighting266", 
-		passive_id = "blight_special_notable10", 
+		passive_id = "attack_mana_cost_notable_2916", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -1715,7 +1750,7 @@ local data = {	{
 	},
 	{
 		id = "InverseWeighting280_2", 
-		passive_id = "blight_special_notable1", 
+		passive_id = "block_notable_2934", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -1775,7 +1810,7 @@ local data = {	{
 	},
 	{
 		id = "InverseWeighting304", 
-		passive_id = "blight_special_notable3", 
+		passive_id = "rage_notable2108", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -1835,7 +1870,7 @@ local data = {	{
 	},
 	{
 		id = "InverseWeighting329", 
-		passive_id = "blight_special_notable2", 
+		passive_id = "banner_notable_2881_", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -1929,6 +1964,11 @@ local data = {	{
 		type = "UniqueOrAmulet", 
 	},
 	{
+		id = "InverseWeighting371", 
+		passive_id = "banner_notable_2882", 
+		type = "UniqueOrAmulet", 
+	},
+	{
 		id = "InverseWeighting372", 
 		passive_id = "blood_drinker143", 
 		type = "UniqueOrAmulet", 
@@ -1996,6 +2036,11 @@ local data = {	{
 	{
 		id = "InverseWeighting429", 
 		passive_id = "minion_damage_notable2621", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "InverseWeighting429_2", 
+		passive_id = "attack_mana_cost_notable_2913", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -2070,7 +2115,7 @@ local data = {	{
 	},
 	{
 		id = "InverseWeighting500", 
-		passive_id = "blight_special_notable8", 
+		passive_id = "impale_notable_2907", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -2080,12 +2125,12 @@ local data = {	{
 	},
 	{
 		id = "InverseWeighting508", 
-		passive_id = "blight_special_notable13", 
+		passive_id = "rage_notable2117", 
 		type = "UniqueOrAmulet", 
 	},
 	{
 		id = "InverseWeighting526", 
-		passive_id = "blight_special_notable7", 
+		passive_id = "reservation_notable_2910", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -2100,7 +2145,7 @@ local data = {	{
 	},
 	{
 		id = "InverseWeighting566", 
-		passive_id = "blight_special_notable9", 
+		passive_id = "resistances_notable_2947", 
 		type = "UniqueOrAmulet", 
 	},
 	{
@@ -2642,5 +2687,160 @@ local data = {	{
 		id = "BlightedMapMod12", 
 		modifier_id = "BlightFragmentMushrune12", 
 		type = "InfectedMap", 
+	},
+	{
+		id = "OffTreeAnoint1", 
+		passive_id = "blight_special_notable14", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint2", 
+		passive_id = "blight_special_notable15", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint3", 
+		passive_id = "blight_special_notable16_", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint4", 
+		passive_id = "blight_special_notable17", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint5", 
+		passive_id = "blight_special_notable18", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint6", 
+		passive_id = "blight_special_notable19", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint7", 
+		passive_id = "blight_special_notable20", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint8", 
+		passive_id = "blight_special_notable21", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint9", 
+		passive_id = "blight_special_notable22", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint10", 
+		passive_id = "blight_special_notable23", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint11", 
+		passive_id = "blight_special_notable24", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint12", 
+		passive_id = "blight_special_notable25", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint13", 
+		passive_id = "blight_special_notable26", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint14", 
+		passive_id = "blight_special_notable27", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint15", 
+		passive_id = "blight_special_notable28", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint16", 
+		passive_id = "blight_special_notable29_", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint17", 
+		passive_id = "blight_special_notable30", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint18", 
+		passive_id = "blight_special_notable31", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint19", 
+		passive_id = "blight_special_notable11", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint20", 
+		passive_id = "blight_special_notable5", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint21", 
+		passive_id = "blight_special_notable4", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint22", 
+		passive_id = "blight_special_notable12", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint23", 
+		passive_id = "blight_special_notable10", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint24", 
+		passive_id = "blight_special_notable1", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint25", 
+		passive_id = "blight_special_notable3", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint26", 
+		passive_id = "blight_special_notable2", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint27", 
+		passive_id = "blight_special_notable8", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint28", 
+		passive_id = "blight_special_notable13", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint29", 
+		passive_id = "blight_special_notable7", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint30", 
+		passive_id = "blight_special_notable9", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "OffTreeAnoint31", 
+		passive_id = "blight_special_keystone1", 
+		type = "UniqueOrAmulet", 
 	}}
 return data

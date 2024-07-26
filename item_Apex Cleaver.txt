@@ -8,11 +8,13 @@
 |drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = not_for_sale, experimental_base, axe, two_hand_weapon, twohand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxeE3
-|implicit1                               = LocalMaximumQualityImplicitE3
+|implicit1                               = LocalIgnorePhysReductionImplicitE3
 |required_level                          = 70
+|required_strength                       = 139
+|required_dexterity                      = 65
 |critical_strike_chance                  = 5
 |attack_speed                            = 1.35
-|physical_damage_min                     = 71
-|physical_damage_max                     = 111
+|physical_damage_min                     = 78
+|physical_damage_max                     = 121
 |weapon_range                            = 1.3
 }}

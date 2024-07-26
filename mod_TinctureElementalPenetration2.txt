@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TinctureElementalPenetration2
+|mod_groups                       = ElementalPenetration
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 32
+|name                             = of Infusing
+|mod_type                         = TinctureElementalPenetration
+|stat_text                        = Melee Weapon Damage Penetrates (8-10)% [[Elemental Resistance|Elemental Resistances]]
+|stat1_id                         = penetrate_elemental_resistances_%_with_tinctured_weapons
+|stat1_min                        = 8
+|stat1_max                        = 10
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = elemental_damage, damage, elemental, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

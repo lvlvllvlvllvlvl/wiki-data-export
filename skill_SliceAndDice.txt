@@ -5,7 +5,6 @@
 |skill_id                                = SliceAndDice
 |cast_time                               = 1.0
 |required_level                          = 1
-|static_cost_amounts                     = 6
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 160
 |static_stat1_id                         = slice_and_dice_attack_speed_+%_final_on_final_strike
@@ -17,6 +16,7 @@
 |stat_text                               = 
 |level1                                  = True
 |level1_level_requirement                = 1
+|level1_cost_amounts                     = 3
 |level1_damage_effectiveness             = 45
 |level1_damage_multiplier                = 45
 |level1_stat1_id                         = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -25,6 +25,7 @@
 |level1_stat2_value                      = 3
 |level2                                  = True
 |level2_level_requirement                = 2
+|level2_cost_amounts                     = 4
 |level2_damage_effectiveness             = 46
 |level2_damage_multiplier                = 45.7
 |level2_stat1_id                         = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -33,6 +34,7 @@
 |level2_stat2_value                      = 3
 |level3                                  = True
 |level3_level_requirement                = 4
+|level3_cost_amounts                     = 4
 |level3_damage_effectiveness             = 46
 |level3_damage_multiplier                = 46.4
 |level3_stat1_id                         = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -41,6 +43,7 @@
 |level3_stat2_value                      = 4
 |level4                                  = True
 |level4_level_requirement                = 7
+|level4_cost_amounts                     = 4
 |level4_damage_effectiveness             = 47
 |level4_damage_multiplier                = 47.1
 |level4_stat1_id                         = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -49,6 +52,7 @@
 |level4_stat2_value                      = 5
 |level5                                  = True
 |level5_level_requirement                = 11
+|level5_cost_amounts                     = 4
 |level5_damage_effectiveness             = 48
 |level5_damage_multiplier                = 47.8
 |level5_stat1_id                         = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -57,6 +61,7 @@
 |level5_stat2_value                      = 6
 |level6                                  = True
 |level6_level_requirement                = 16
+|level6_cost_amounts                     = 4
 |level6_damage_effectiveness             = 48
 |level6_damage_multiplier                = 48.5
 |level6_stat1_id                         = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -65,6 +70,7 @@
 |level6_stat2_value                      = 7
 |level7                                  = True
 |level7_level_requirement                = 20
+|level7_cost_amounts                     = 4
 |level7_damage_effectiveness             = 49
 |level7_damage_multiplier                = 49.2
 |level7_stat1_id                         = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -73,6 +79,7 @@
 |level7_stat2_value                      = 9
 |level8                                  = True
 |level8_level_requirement                = 24
+|level8_cost_amounts                     = 4
 |level8_damage_effectiveness             = 50
 |level8_damage_multiplier                = 49.9
 |level8_stat1_id                         = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -81,6 +88,7 @@
 |level8_stat2_value                      = 10
 |level9                                  = True
 |level9_level_requirement                = 28
+|level9_cost_amounts                     = 5
 |level9_damage_effectiveness             = 51
 |level9_damage_multiplier                = 50.6
 |level9_stat1_id                         = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -89,6 +97,7 @@
 |level9_stat2_value                      = 11
 |level10                                 = True
 |level10_level_requirement               = 32
+|level10_cost_amounts                    = 5
 |level10_damage_effectiveness            = 51
 |level10_damage_multiplier               = 51.3
 |level10_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -97,6 +106,7 @@
 |level10_stat2_value                     = 12
 |level11                                 = True
 |level11_level_requirement               = 36
+|level11_cost_amounts                    = 5
 |level11_damage_effectiveness            = 52
 |level11_damage_multiplier               = 52
 |level11_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -105,6 +115,7 @@
 |level11_stat2_value                     = 13
 |level12                                 = True
 |level12_level_requirement               = 40
+|level12_cost_amounts                    = 5
 |level12_damage_effectiveness            = 53
 |level12_damage_multiplier               = 52.7
 |level12_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -113,6 +124,7 @@
 |level12_stat2_value                     = 14
 |level13                                 = True
 |level13_level_requirement               = 44
+|level13_cost_amounts                    = 5
 |level13_damage_effectiveness            = 53
 |level13_damage_multiplier               = 53.4
 |level13_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -121,6 +133,7 @@
 |level13_stat2_value                     = 16
 |level14                                 = True
 |level14_level_requirement               = 48
+|level14_cost_amounts                    = 5
 |level14_damage_effectiveness            = 54
 |level14_damage_multiplier               = 54.1
 |level14_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -129,6 +142,7 @@
 |level14_stat2_value                     = 17
 |level15                                 = True
 |level15_level_requirement               = 52
+|level15_cost_amounts                    = 6
 |level15_damage_effectiveness            = 55
 |level15_damage_multiplier               = 54.8
 |level15_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -137,6 +151,7 @@
 |level15_stat2_value                     = 18
 |level16                                 = True
 |level16_level_requirement               = 56
+|level16_cost_amounts                    = 6
 |level16_damage_effectiveness            = 55
 |level16_damage_multiplier               = 55.5
 |level16_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -145,6 +160,7 @@
 |level16_stat2_value                     = 19
 |level17                                 = True
 |level17_level_requirement               = 60
+|level17_cost_amounts                    = 6
 |level17_damage_effectiveness            = 56
 |level17_damage_multiplier               = 56.2
 |level17_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -153,6 +169,7 @@
 |level17_stat2_value                     = 20
 |level18                                 = True
 |level18_level_requirement               = 64
+|level18_cost_amounts                    = 6
 |level18_damage_effectiveness            = 57
 |level18_damage_multiplier               = 56.9
 |level18_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -161,6 +178,7 @@
 |level18_stat2_value                     = 21
 |level19                                 = True
 |level19_level_requirement               = 67
+|level19_cost_amounts                    = 6
 |level19_damage_effectiveness            = 58
 |level19_damage_multiplier               = 57.6
 |level19_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -169,6 +187,7 @@
 |level19_stat2_value                     = 22
 |level20                                 = True
 |level20_level_requirement               = 70
+|level20_cost_amounts                    = 6
 |level20_damage_effectiveness            = 58
 |level20_damage_multiplier               = 58.3
 |level20_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -177,6 +196,7 @@
 |level20_stat2_value                     = 23
 |level21                                 = True
 |level21_level_requirement               = 72
+|level21_cost_amounts                    = 6
 |level21_damage_effectiveness            = 59
 |level21_damage_multiplier               = 59
 |level21_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -185,6 +205,7 @@
 |level21_stat2_value                     = 24
 |level22                                 = True
 |level22_level_requirement               = 74
+|level22_cost_amounts                    = 6
 |level22_damage_effectiveness            = 60
 |level22_damage_multiplier               = 59.7
 |level22_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -193,6 +214,7 @@
 |level22_stat2_value                     = 24
 |level23                                 = True
 |level23_level_requirement               = 76
+|level23_cost_amounts                    = 7
 |level23_damage_effectiveness            = 60
 |level23_damage_multiplier               = 60.4
 |level23_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -201,6 +223,7 @@
 |level23_stat2_value                     = 25
 |level24                                 = True
 |level24_level_requirement               = 78
+|level24_cost_amounts                    = 7
 |level24_damage_effectiveness            = 61
 |level24_damage_multiplier               = 61.1
 |level24_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -209,6 +232,7 @@
 |level24_stat2_value                     = 25
 |level25                                 = True
 |level25_level_requirement               = 80
+|level25_cost_amounts                    = 7
 |level25_damage_effectiveness            = 62
 |level25_damage_multiplier               = 61.8
 |level25_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -217,6 +241,7 @@
 |level25_stat2_value                     = 26
 |level26                                 = True
 |level26_level_requirement               = 82
+|level26_cost_amounts                    = 7
 |level26_damage_effectiveness            = 62
 |level26_damage_multiplier               = 62.5
 |level26_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -225,6 +250,7 @@
 |level26_stat2_value                     = 26
 |level27                                 = True
 |level27_level_requirement               = 84
+|level27_cost_amounts                    = 7
 |level27_damage_effectiveness            = 63
 |level27_damage_multiplier               = 63.3
 |level27_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -233,6 +259,7 @@
 |level27_stat2_value                     = 27
 |level28                                 = True
 |level28_level_requirement               = 86
+|level28_cost_amounts                    = 7
 |level28_damage_effectiveness            = 64
 |level28_damage_multiplier               = 64
 |level28_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -241,6 +268,7 @@
 |level28_stat2_value                     = 28
 |level29                                 = True
 |level29_level_requirement               = 88
+|level29_cost_amounts                    = 7
 |level29_damage_effectiveness            = 65
 |level29_damage_multiplier               = 64.7
 |level29_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -249,6 +277,7 @@
 |level29_stat2_value                     = 28
 |level30                                 = True
 |level30_level_requirement               = 90
+|level30_cost_amounts                    = 7
 |level30_damage_effectiveness            = 65
 |level30_damage_multiplier               = 65.4
 |level30_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -257,6 +286,7 @@
 |level30_stat2_value                     = 29
 |level31                                 = True
 |level31_level_requirement               = 91
+|level31_cost_amounts                    = 7
 |level31_damage_effectiveness            = 65
 |level31_damage_multiplier               = 65.4
 |level31_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -265,6 +295,7 @@
 |level31_stat2_value                     = 29
 |level32                                 = True
 |level32_level_requirement               = 92
+|level32_cost_amounts                    = 7
 |level32_damage_effectiveness            = 66
 |level32_damage_multiplier               = 66.1
 |level32_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -273,6 +304,7 @@
 |level32_stat2_value                     = 29
 |level33                                 = True
 |level33_level_requirement               = 93
+|level33_cost_amounts                    = 7
 |level33_damage_effectiveness            = 67
 |level33_damage_multiplier               = 66.8
 |level33_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -281,6 +313,7 @@
 |level33_stat2_value                     = 30
 |level34                                 = True
 |level34_level_requirement               = 94
+|level34_cost_amounts                    = 7
 |level34_damage_effectiveness            = 67
 |level34_damage_multiplier               = 67.5
 |level34_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -289,6 +322,7 @@
 |level34_stat2_value                     = 30
 |level35                                 = True
 |level35_level_requirement               = 95
+|level35_cost_amounts                    = 7
 |level35_damage_effectiveness            = 68
 |level35_damage_multiplier               = 68.2
 |level35_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -297,6 +331,7 @@
 |level35_stat2_value                     = 30
 |level36                                 = True
 |level36_level_requirement               = 96
+|level36_cost_amounts                    = 7
 |level36_damage_effectiveness            = 69
 |level36_damage_multiplier               = 68.9
 |level36_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -305,6 +340,7 @@
 |level36_stat2_value                     = 30
 |level37                                 = True
 |level37_level_requirement               = 97
+|level37_cost_amounts                    = 7
 |level37_damage_effectiveness            = 70
 |level37_damage_multiplier               = 69.6
 |level37_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -313,6 +349,7 @@
 |level37_stat2_value                     = 31
 |level38                                 = True
 |level38_level_requirement               = 98
+|level38_cost_amounts                    = 7
 |level38_damage_effectiveness            = 70
 |level38_damage_multiplier               = 70.3
 |level38_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -321,6 +358,7 @@
 |level38_stat2_value                     = 31
 |level39                                 = True
 |level39_level_requirement               = 99
+|level39_cost_amounts                    = 7
 |level39_damage_effectiveness            = 71
 |level39_damage_multiplier               = 71
 |level39_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike
@@ -329,6 +367,7 @@
 |level39_stat2_value                     = 31
 |level40                                 = True
 |level40_level_requirement               = 100
+|level40_cost_amounts                    = 8
 |level40_damage_effectiveness            = 72
 |level40_damage_multiplier               = 71.7
 |level40_stat1_id                        = slice_and_dice_maximum_added_physical_damage_on_final_strike

@@ -1,0 +1,22 @@
+{{Mod
+|id                               = TinctureEffectSlowerToxicity3
+|mod_groups                       = TinctureEffect
+|domain                           = 34
+|generation_type                  = 1
+|required_level                   = 84
+|name                             = Measured
+|mod_type                         = TinctureEffectSlowerToxicity
+|stat_text                        = (25-21)% reduced effect<br>50% reduced [[Mana]] Burn rate
+|stat1_id                         = local_tincture_mod_effect_+%
+|stat1_min                        = -25
+|stat1_max                        = -21
+|stat2_id                         = local_tincture_toxicity_rate_+%
+|stat2_min                        = -50
+|stat2_max                        = -50
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

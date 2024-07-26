@@ -24,7 +24,6 @@ Cannot be supported by Volley.
 |quality_type1_stat1_value               = 100
 |static_cost_types                       = Mana
 |static_critical_strike_chance           = 6
-|static_damage_effectiveness             = 220
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
 |static_duration                         = 6
@@ -44,6 +43,7 @@ Cannot be supported by Volley.
 |level1                                  = True
 |level1_level_requirement                = 1
 |level1_cost_amounts                     = 5
+|level1_damage_effectiveness             = 190
 |level1_stat_text                        = Deals 7 to 10 Physical Damage<br>Fires 6 Projectiles
 |level1_stat1_id                         = spell_minimum_base_physical_damage
 |level1_stat1_value                      = 7
@@ -56,6 +56,7 @@ Cannot be supported by Volley.
 |level2                                  = True
 |level2_level_requirement                = 2
 |level2_cost_amounts                     = 5
+|level2_damage_effectiveness             = 190
 |level2_stat_text                        = Deals 9 to 12 Physical Damage<br>Fires 6 Projectiles
 |level2_stat1_id                         = spell_minimum_base_physical_damage
 |level2_stat1_value                      = 9
@@ -68,6 +69,7 @@ Cannot be supported by Volley.
 |level3                                  = True
 |level3_level_requirement                = 4
 |level3_cost_amounts                     = 5
+|level3_damage_effectiveness             = 190
 |level3_stat_text                        = Deals 10 to 15 Physical Damage<br>Fires 6 Projectiles
 |level3_stat1_id                         = spell_minimum_base_physical_damage
 |level3_stat1_value                      = 10
@@ -80,6 +82,7 @@ Cannot be supported by Volley.
 |level4                                  = True
 |level4_level_requirement                = 7
 |level4_cost_amounts                     = 6
+|level4_damage_effectiveness             = 190
 |level4_stat_text                        = Deals 14 to 20 Physical Damage<br>Fires 6 Projectiles
 |level4_stat1_id                         = spell_minimum_base_physical_damage
 |level4_stat1_value                      = 14
@@ -92,6 +95,7 @@ Cannot be supported by Volley.
 |level5                                  = True
 |level5_level_requirement                = 11
 |level5_cost_amounts                     = 7
+|level5_damage_effectiveness             = 190
 |level5_stat_text                        = Deals 20 to 30 Physical Damage<br>Fires 7 Projectiles
 |level5_stat1_id                         = spell_minimum_base_physical_damage
 |level5_stat1_value                      = 20
@@ -104,6 +108,7 @@ Cannot be supported by Volley.
 |level6                                  = True
 |level6_level_requirement                = 16
 |level6_cost_amounts                     = 8
+|level6_damage_effectiveness             = 200
 |level6_stat_text                        = Deals 31 to 46 Physical Damage<br>Fires 7 Projectiles
 |level6_stat1_id                         = spell_minimum_base_physical_damage
 |level6_stat1_value                      = 31
@@ -116,6 +121,7 @@ Cannot be supported by Volley.
 |level7                                  = True
 |level7_level_requirement                = 20
 |level7_cost_amounts                     = 9
+|level7_damage_effectiveness             = 200
 |level7_stat_text                        = Deals 42 to 63 Physical Damage<br>Fires 7 Projectiles
 |level7_stat1_id                         = spell_minimum_base_physical_damage
 |level7_stat1_value                      = 42
@@ -128,6 +134,7 @@ Cannot be supported by Volley.
 |level8                                  = True
 |level8_level_requirement                = 24
 |level8_cost_amounts                     = 10
+|level8_damage_effectiveness             = 200
 |level8_stat_text                        = Deals 56 to 85 Physical Damage<br>Fires 7 Projectiles
 |level8_stat1_id                         = spell_minimum_base_physical_damage
 |level8_stat1_value                      = 56
@@ -140,6 +147,7 @@ Cannot be supported by Volley.
 |level9                                  = True
 |level9_level_requirement                = 28
 |level9_cost_amounts                     = 11
+|level9_damage_effectiveness             = 200
 |level9_stat_text                        = Deals 75 to 112 Physical Damage<br>Fires 7 Projectiles
 |level9_stat1_id                         = spell_minimum_base_physical_damage
 |level9_stat1_value                      = 75
@@ -152,6 +160,7 @@ Cannot be supported by Volley.
 |level10                                 = True
 |level10_level_requirement               = 32
 |level10_cost_amounts                    = 11
+|level10_damage_effectiveness            = 200
 |level10_stat_text                       = Deals 98 to 147 Physical Damage<br>Fires 7 Projectiles
 |level10_stat1_id                        = spell_minimum_base_physical_damage
 |level10_stat1_value                     = 98
@@ -164,6 +173,7 @@ Cannot be supported by Volley.
 |level11                                 = True
 |level11_level_requirement               = 36
 |level11_cost_amounts                    = 12
+|level11_damage_effectiveness            = 200
 |level11_stat_text                       = Deals 128 to 191 Physical Damage<br>Fires 7 Projectiles
 |level11_stat1_id                        = spell_minimum_base_physical_damage
 |level11_stat1_value                     = 128
@@ -176,6 +186,7 @@ Cannot be supported by Volley.
 |level12                                 = True
 |level12_level_requirement               = 40
 |level12_cost_amounts                    = 13
+|level12_damage_effectiveness            = 200
 |level12_stat_text                       = Deals 165 to 247 Physical Damage<br>Fires 7 Projectiles
 |level12_stat1_id                        = spell_minimum_base_physical_damage
 |level12_stat1_value                     = 165
@@ -188,6 +199,7 @@ Cannot be supported by Volley.
 |level13                                 = True
 |level13_level_requirement               = 44
 |level13_cost_amounts                    = 14
+|level13_damage_effectiveness            = 200
 |level13_stat_text                       = Deals 211 to 316 Physical Damage<br>Fires 8 Projectiles
 |level13_stat1_id                        = spell_minimum_base_physical_damage
 |level13_stat1_value                     = 211
@@ -200,6 +212,7 @@ Cannot be supported by Volley.
 |level14                                 = True
 |level14_level_requirement               = 48
 |level14_cost_amounts                    = 15
+|level14_damage_effectiveness            = 210
 |level14_stat_text                       = Deals 269 to 403 Physical Damage<br>Fires 8 Projectiles
 |level14_stat1_id                        = spell_minimum_base_physical_damage
 |level14_stat1_value                     = 269
@@ -212,6 +225,7 @@ Cannot be supported by Volley.
 |level15                                 = True
 |level15_level_requirement               = 52
 |level15_cost_amounts                    = 16
+|level15_damage_effectiveness            = 210
 |level15_stat_text                       = Deals 341 to 511 Physical Damage<br>Fires 8 Projectiles
 |level15_stat1_id                        = spell_minimum_base_physical_damage
 |level15_stat1_value                     = 341
@@ -224,6 +238,7 @@ Cannot be supported by Volley.
 |level16                                 = True
 |level16_level_requirement               = 56
 |level16_cost_amounts                    = 17
+|level16_damage_effectiveness            = 210
 |level16_stat_text                       = Deals 431 to 646 Physical Damage<br>Fires 8 Projectiles
 |level16_stat1_id                        = spell_minimum_base_physical_damage
 |level16_stat1_value                     = 431
@@ -236,6 +251,7 @@ Cannot be supported by Volley.
 |level17                                 = True
 |level17_level_requirement               = 60
 |level17_cost_amounts                    = 18
+|level17_damage_effectiveness            = 210
 |level17_stat_text                       = Deals 542 to 813 Physical Damage<br>Fires 8 Projectiles
 |level17_stat1_id                        = spell_minimum_base_physical_damage
 |level17_stat1_value                     = 542
@@ -248,6 +264,7 @@ Cannot be supported by Volley.
 |level18                                 = True
 |level18_level_requirement               = 64
 |level18_cost_amounts                    = 18
+|level18_damage_effectiveness            = 210
 |level18_stat_text                       = Deals 679 to 1019 Physical Damage<br>Fires 8 Projectiles
 |level18_stat1_id                        = spell_minimum_base_physical_damage
 |level18_stat1_value                     = 679
@@ -260,6 +277,7 @@ Cannot be supported by Volley.
 |level19                                 = True
 |level19_level_requirement               = 67
 |level19_cost_amounts                    = 19
+|level19_damage_effectiveness            = 210
 |level19_stat_text                       = Deals 804 to 1205 Physical Damage<br>Fires 8 Projectiles
 |level19_stat1_id                        = spell_minimum_base_physical_damage
 |level19_stat1_value                     = 804
@@ -272,6 +290,7 @@ Cannot be supported by Volley.
 |level20                                 = True
 |level20_level_requirement               = 70
 |level20_cost_amounts                    = 20
+|level20_damage_effectiveness            = 220
 |level20_stat_text                       = Deals 949 to 1423 Physical Damage<br>Fires 8 Projectiles
 |level20_stat1_id                        = spell_minimum_base_physical_damage
 |level20_stat1_value                     = 949
@@ -284,6 +303,7 @@ Cannot be supported by Volley.
 |level21                                 = True
 |level21_level_requirement               = 72
 |level21_cost_amounts                    = 20
+|level21_damage_effectiveness            = 220
 |level21_stat_text                       = Deals 1059 to 1589 Physical Damage<br>Fires 9 Projectiles
 |level21_stat1_id                        = spell_minimum_base_physical_damage
 |level21_stat1_value                     = 1059
@@ -296,6 +316,7 @@ Cannot be supported by Volley.
 |level22                                 = True
 |level22_level_requirement               = 74
 |level22_cost_amounts                    = 21
+|level22_damage_effectiveness            = 220
 |level22_stat_text                       = Deals 1182 to 1773 Physical Damage<br>Fires 9 Projectiles
 |level22_stat1_id                        = spell_minimum_base_physical_damage
 |level22_stat1_value                     = 1182
@@ -308,6 +329,7 @@ Cannot be supported by Volley.
 |level23                                 = True
 |level23_level_requirement               = 76
 |level23_cost_amounts                    = 21
+|level23_damage_effectiveness            = 220
 |level23_stat_text                       = Deals 1318 to 1977 Physical Damage<br>Fires 9 Projectiles
 |level23_stat1_id                        = spell_minimum_base_physical_damage
 |level23_stat1_value                     = 1318
@@ -320,6 +342,7 @@ Cannot be supported by Volley.
 |level24                                 = True
 |level24_level_requirement               = 78
 |level24_cost_amounts                    = 21
+|level24_damage_effectiveness            = 220
 |level24_stat_text                       = Deals 1469 to 2204 Physical Damage<br>Fires 9 Projectiles
 |level24_stat1_id                        = spell_minimum_base_physical_damage
 |level24_stat1_value                     = 1469
@@ -332,6 +355,7 @@ Cannot be supported by Volley.
 |level25                                 = True
 |level25_level_requirement               = 80
 |level25_cost_amounts                    = 22
+|level25_damage_effectiveness            = 220
 |level25_stat_text                       = Deals 1636 to 2455 Physical Damage<br>Fires 9 Projectiles
 |level25_stat1_id                        = spell_minimum_base_physical_damage
 |level25_stat1_value                     = 1636
@@ -344,6 +368,7 @@ Cannot be supported by Volley.
 |level26                                 = True
 |level26_level_requirement               = 82
 |level26_cost_amounts                    = 22
+|level26_damage_effectiveness            = 220
 |level26_stat_text                       = Deals 1822 to 2733 Physical Damage<br>Fires 9 Projectiles
 |level26_stat1_id                        = spell_minimum_base_physical_damage
 |level26_stat1_value                     = 1822
@@ -356,6 +381,7 @@ Cannot be supported by Volley.
 |level27                                 = True
 |level27_level_requirement               = 84
 |level27_cost_amounts                    = 23
+|level27_damage_effectiveness            = 220
 |level27_stat_text                       = Deals 2027 to 3041 Physical Damage<br>Fires 9 Projectiles
 |level27_stat1_id                        = spell_minimum_base_physical_damage
 |level27_stat1_value                     = 2027
@@ -368,6 +394,7 @@ Cannot be supported by Volley.
 |level28                                 = True
 |level28_level_requirement               = 86
 |level28_cost_amounts                    = 23
+|level28_damage_effectiveness            = 220
 |level28_stat_text                       = Deals 2255 to 3383 Physical Damage<br>Fires 9 Projectiles
 |level28_stat1_id                        = spell_minimum_base_physical_damage
 |level28_stat1_value                     = 2255
@@ -380,6 +407,7 @@ Cannot be supported by Volley.
 |level29                                 = True
 |level29_level_requirement               = 88
 |level29_cost_amounts                    = 24
+|level29_damage_effectiveness            = 220
 |level29_stat_text                       = Deals 2507 to 3761 Physical Damage<br>Fires 10 Projectiles
 |level29_stat1_id                        = spell_minimum_base_physical_damage
 |level29_stat1_value                     = 2507
@@ -392,6 +420,7 @@ Cannot be supported by Volley.
 |level30                                 = True
 |level30_level_requirement               = 90
 |level30_cost_amounts                    = 24
+|level30_damage_effectiveness            = 220
 |level30_stat_text                       = Deals 2787 to 4180 Physical Damage<br>Fires 10 Projectiles
 |level30_stat1_id                        = spell_minimum_base_physical_damage
 |level30_stat1_value                     = 2787
@@ -404,6 +433,7 @@ Cannot be supported by Volley.
 |level31                                 = True
 |level31_level_requirement               = 91
 |level31_cost_amounts                    = 24
+|level31_damage_effectiveness            = 220
 |level31_stat_text                       = Deals 2937 to 4406 Physical Damage<br>Fires 10 Projectiles
 |level31_stat1_id                        = spell_minimum_base_physical_damage
 |level31_stat1_value                     = 2937
@@ -416,6 +446,7 @@ Cannot be supported by Volley.
 |level32                                 = True
 |level32_level_requirement               = 92
 |level32_cost_amounts                    = 25
+|level32_damage_effectiveness            = 220
 |level32_stat_text                       = Deals 3096 to 4644 Physical Damage<br>Fires 10 Projectiles
 |level32_stat1_id                        = spell_minimum_base_physical_damage
 |level32_stat1_value                     = 3096
@@ -428,6 +459,7 @@ Cannot be supported by Volley.
 |level33                                 = True
 |level33_level_requirement               = 93
 |level33_cost_amounts                    = 25
+|level33_damage_effectiveness            = 220
 |level33_stat_text                       = Deals 3263 to 4894 Physical Damage<br>Fires 10 Projectiles
 |level33_stat1_id                        = spell_minimum_base_physical_damage
 |level33_stat1_value                     = 3263
@@ -440,6 +472,7 @@ Cannot be supported by Volley.
 |level34                                 = True
 |level34_level_requirement               = 94
 |level34_cost_amounts                    = 25
+|level34_damage_effectiveness            = 220
 |level34_stat_text                       = Deals 3438 to 5157 Physical Damage<br>Fires 10 Projectiles
 |level34_stat1_id                        = spell_minimum_base_physical_damage
 |level34_stat1_value                     = 3438
@@ -452,6 +485,7 @@ Cannot be supported by Volley.
 |level35                                 = True
 |level35_level_requirement               = 95
 |level35_cost_amounts                    = 25
+|level35_damage_effectiveness            = 220
 |level35_stat_text                       = Deals 3622 to 5434 Physical Damage<br>Fires 10 Projectiles
 |level35_stat1_id                        = spell_minimum_base_physical_damage
 |level35_stat1_value                     = 3622
@@ -464,6 +498,7 @@ Cannot be supported by Volley.
 |level36                                 = True
 |level36_level_requirement               = 96
 |level36_cost_amounts                    = 25
+|level36_damage_effectiveness            = 220
 |level36_stat_text                       = Deals 3816 to 5725 Physical Damage<br>Fires 10 Projectiles
 |level36_stat1_id                        = spell_minimum_base_physical_damage
 |level36_stat1_value                     = 3816
@@ -476,6 +511,7 @@ Cannot be supported by Volley.
 |level37                                 = True
 |level37_level_requirement               = 97
 |level37_cost_amounts                    = 26
+|level37_damage_effectiveness            = 220
 |level37_stat_text                       = Deals 4020 to 6031 Physical Damage<br>Fires 10 Projectiles
 |level37_stat1_id                        = spell_minimum_base_physical_damage
 |level37_stat1_value                     = 4020
@@ -488,6 +524,7 @@ Cannot be supported by Volley.
 |level38                                 = True
 |level38_level_requirement               = 98
 |level38_cost_amounts                    = 26
+|level38_damage_effectiveness            = 220
 |level38_stat_text                       = Deals 4235 to 6352 Physical Damage<br>Fires 10 Projectiles
 |level38_stat1_id                        = spell_minimum_base_physical_damage
 |level38_stat1_value                     = 4235
@@ -500,6 +537,7 @@ Cannot be supported by Volley.
 |level39                                 = True
 |level39_level_requirement               = 99
 |level39_cost_amounts                    = 26
+|level39_damage_effectiveness            = 220
 |level39_stat_text                       = Deals 4461 to 6691 Physical Damage<br>Fires 10 Projectiles
 |level39_stat1_id                        = spell_minimum_base_physical_damage
 |level39_stat1_value                     = 4461
@@ -512,6 +550,7 @@ Cannot be supported by Volley.
 |level40                                 = True
 |level40_level_requirement               = 100
 |level40_cost_amounts                    = 26
+|level40_damage_effectiveness            = 220
 |level40_stat_text                       = Deals 4698 to 7047 Physical Damage<br>Fires 10 Projectiles
 |level40_stat1_id                        = spell_minimum_base_physical_damage
 |level40_stat1_value                     = 4698

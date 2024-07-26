@@ -1,5 +1,5 @@
 {{Skill
-|gem_description                         = Spawns corpses around you while you move. The corpses will be chosen from the monsters in the current area and any Spectres that have existed in this instance.
+|gem_description                         = Spawns corpses around you while you move, based on monsters in the current area. If you are using the Raise Spectre skill there is a chance to spawn spectral corpses matching your most recently raised Spectres. Spectral corpses cannot be interacted with except by Minion skills.
 |active_skill_name                       = Corpse Walk
 |skill_id                                = CorpseWalk
 |cast_time                               = 1.0
@@ -15,7 +15,7 @@
 |static_stat3_value                      = 1
 |static_stat4_id                         = no_cost
 |static_stat4_value                      = 1
-|stat_text                               = Spawns corpses up to Level 100<br>This Spell is Triggered when Gained<br>This Skill Costs nothing
+|stat_text                               = Spawned corpses' level matches the area level, up to a maximum of Level 100<br>This Spell is Triggered when Gained<br>This Skill Costs nothing
 |level1                                  = True
 |level1_level_requirement                = 60
 }}

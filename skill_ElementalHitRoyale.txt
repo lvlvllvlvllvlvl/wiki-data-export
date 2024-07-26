@@ -1,6 +1,7 @@
 {{Skill
-|gem_description                         = Each attack with this skill will choose an element at random, and will only be able to deal damage of that element. If the attack hits an enemy, it will deal damage in an area around them, with the radius being larger if that enemy is suffering from an ailment of the chosen element. It will avoid choosing the same element twice in a row.
+|gem_description                         = Each attack with a melee weapon will choose an element at random, and will only be able to deal damage of that element. If the attack hits an enemy, it will deal damage in an area around them, with the radius being larger if that enemy is suffering from an ailment of the chosen element. It will avoid choosing the same element twice in a row.
 |active_skill_name                       = Elemental Hit
+|item_class_id_restriction               = One Hand Sword, Thrusting One Hand Sword, Two Hand Sword, One Hand Axe, Two Hand Axe, One Hand Mace, Sceptre, Two Hand Mace, Staff, Unarmed, Warstaff, Dagger, Rune Dagger, Claw
 |skill_id                                = ElementalHitRoyale
 |cast_time                               = 1.0
 |required_level                          = 1
@@ -23,7 +24,7 @@
 |static_stat6_value                      = 1
 |static_stat7_id                         = elemental_hit_damage_+%_final_per_enemy_elemental_ailment
 |static_stat7_value                      = 10
-|stat_text                               = (6-64) to (12-119) Added Cold Damage<br>(8-78) to (14-145) Added Fire Damage<br>(1-13) to (24-239) Added Lightning Damage<br>Only Deals Damage of the chosen Element<br>Deals no Damage of other Damage Types<br>(10-19)% chance to Freeze, Shock and Ignite<br>+(0-0.1) metres to Melee Strike Range<br>Base radius is 1.3 metres<br>80% more Area Radius against Enemies affected by an Ailment of the chosen Element<br>+10% more Damage per Elemental Ailment on the Enemy
+|stat_text                               = (6-64) to (12-119) Added Cold Damage<br>(8-78) to (14-145) Added Fire Damage<br>(1-13) to (24-239) Added Lightning Damage<br>Only Deals Damage of the chosen Element<br>Deals no Damage of other Damage Types<br>(10-19)% chance to Freeze, Shock and Ignite<br>+(0-0.1) metres to Melee Strike Range<br>Base radius is 1.3 metres<br>80% more Area Radius against Enemies affected by an Ailment of the chosen Element<br>+10% more Damage for each type of Elemental Ailment on the Enemy
 |level1                                  = True
 |level1_level_requirement                = 1
 |level1_stat_text                        = 6 to 12 Added Cold Damage<br>8 to 14 Added Fire Damage<br>1 to 24 Added Lightning Damage<br>10% chance to Freeze, Shock and Ignite

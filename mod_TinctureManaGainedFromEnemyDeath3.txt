@@ -1,0 +1,19 @@
+{{Mod
+|id                               = TinctureManaGainedFromEnemyDeath3
+|mod_groups                       = ManaGainedOnWeaponKill
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Consumption
+|mod_type                         = ManaGainedOnWeaponKill
+|stat_text                        = Gain (6-8) [[Mana]] per Enemy Killed with Melee Weapons
+|stat1_id                         = base_mana_gained_on_tinctured_weapon_kill
+|stat1_min                        = 6
+|stat1_max                        = 8
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

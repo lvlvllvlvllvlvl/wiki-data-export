@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TinctureLifeGainedFromEnemyDeath2
+|mod_groups                       = LifeGainedFromEnemyDeath
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 35
+|name                             = of Victory
+|mod_type                         = TinctureLifeGainedFromEnemyDeath
+|stat_text                        = Gain (16-20) [[Life]] per Enemy Killed with Melee Weapons
+|stat1_id                         = life_gained_on_killing_enemies_with_tinctured_weapons
+|stat1_min                        = 16
+|stat1_max                        = 20
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

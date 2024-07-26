@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TinctureIgnorePhysDR3
+|mod_groups                       = ArmourPenetration
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 80
+|name                             = of Overwhelming
+|mod_type                         = TinctureIgnorePhysDR
+|stat_text                        = Melee Weapon [[Hit|Hits]] have (50-60)% chance to ignore Enemy [[Physical Damage]] Reduction
+|stat1_id                         = hits_ignore_enemy_monster_physical_damage_reduction_%_chance_with_tinctured_weapons
+|stat1_min                        = 50
+|stat1_max                        = 60
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = physical_damage, damage, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

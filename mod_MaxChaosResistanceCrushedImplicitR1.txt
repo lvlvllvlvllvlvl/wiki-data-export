@@ -1,0 +1,17 @@
+{{Mod
+|id                               = MaxChaosResistanceCrushedImplicitR1
+|mod_groups                       = MaxChaosResistanceCrushed
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 15
+|granted_buff_id                  = crushed
+|granted_buff_value               = 0
+|mod_type                         = MaxChaosResistanceCrushed
+|stat_text                        = You are [[Crushed]]<br>+2% to maximum [[Chaos Resistance]]
+|stat1_id                         = local_display_self_crushed
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = base_maximum_chaos_damage_resistance_%
+|stat2_min                        = 2
+|stat2_max                        = 2
+}}

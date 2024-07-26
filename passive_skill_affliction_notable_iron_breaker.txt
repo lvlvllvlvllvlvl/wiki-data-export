@@ -4,9 +4,9 @@
 |name                                = Iron Breaker
 |is_notable                          = True
 |icon                                = IncreasedPhysicalDamage
-|stat1_id                            = enemy_phys_reduction_%_penalty_vs_hit
-|stat1_value                         = 10
+|stat1_id                            = hits_ignore_enemy_monster_physical_damage_reduction_%_chance
+|stat1_value                         = 50
 |stat2_id                            = physical_damage_+%
-|stat2_value                         = 35
-|stat_text                           = Overwhelm 10% [[Physical Damage]] Reduction<br>35% increased [[Physical Damage]]
+|stat2_value                         = 30
+|stat_text                           = [[Hit|Hits]] have 50% chance to ignore Enemy [[Physical Damage]] Reduction<br>30% increased [[Physical Damage]]
 }}

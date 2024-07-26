@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TinctureLifeGainPerTarget3
+|mod_groups                       = LifeGainPerTarget
+|domain                           = 34
+|generation_type                  = 2
+|required_level                   = 77
+|name                             = of Regrowth
+|mod_type                         = TinctureLifeGainPerTarget
+|stat_text                        = Gain (5-7) [[Life]] per Enemy [[Hit]] with Melee Weapons
+|stat1_id                         = life_gained_on_hitting_enemies_with_tinctured_weapons
+|stat1_min                        = 5
+|stat1_max                        = 7
+|spawn_weight1_tag                = tincture
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, life, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

@@ -8,13 +8,13 @@
 |tags                                    = essence, currency, default
 |metadata_id                             = Metadata/Items/Currency/CurrencyEssenceGreed1
 |stack_size                              = 9
-|description                             = Upgrades a normal item to rare with one guaranteed property<br />Properties restricted to level 35 and below<br /><br />Weapon: (0.5-0.7)% of Physical [[Attack Damage]] Leeched as [[Life]]<br />Armour: +(5-14) to maximum [[Life]]<br />Quiver: (0.5-0.7)% of Physical [[Attack Damage]] Leeched as [[Life]]<br />Belt: (8-11)% increased [[Flask]] [[Life]] Recovery rate<br />Other Jewellery: Regenerate (1-2) [[Life]] per second
+|description                             = Upgrades a normal item to rare with one guaranteed property<br />Properties restricted to level 35 and below<br /><br />Weapon: (0.5-0.7)% of Physical [[Attack Damage]] Leeched as [[Life]]<br />Gloves: +(5-14) to maximum [[Life]]<br />Boots: +(5-14) to maximum [[Life]]<br />Helmet: +(5-14) to maximum [[Life]]<br />Other Armour: +(10-24) to maximum [[Life]]<br />Quiver: (0.5-0.7)% of Physical [[Attack Damage]] Leeched as [[Life]]<br />Belt: (8-11)% increased [[Flask]] [[Life]] Recovery rate<br />Other Jewellery: Regenerate (1-2) [[Life]] per second
 |help_text                               = Right click this item then left click a normal item to apply it.
 |stack_size_currency_tab                 = 5000
 |essence_level_restriction               = 35
 |essence_level                           = 1
 |essence_type                            = 1
 |essence_category                        = Essence of Greed
-|essence_monster_modifier_ids            = EssenceDaemonModLifeAndDamageLevel1
+|essence_monster_modifier_ids            = EssenceDaemonModLifeAndDamageLevel1, EssenceDaemonModRarityAndQuantityLevel1
 |is_essence                              = True
 }}

@@ -1,0 +1,16 @@
+{{Mod
+|id                               = VillageTriggerSocketedFireSpellOnHit
+|mod_groups                       = SupportedByTrigger
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|granted_skill                    = SupportTriggerFireSpellOnHit
+|mod_type                         = TriggerSocketedSpellOnHit
+|stat_text                        = Trigger a [[Item socket|Socketed]] Fire [[Spell]] on [[Hit]], with a 0.25 second Cooldown
+|stat1_id                         = local_weapon_trigger_socketed_fire_spell_on_hit_display_cooldown
+|stat1_min                        = 250
+|stat1_max                        = 250
+|tags                             = skill, village_runesmithing_enchant, caster, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

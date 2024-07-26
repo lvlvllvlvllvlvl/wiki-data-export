@@ -1,12 +1,16 @@
 {{Passive skill
 |id                                  = AscendancyDeadeye10
 |int_id                              = 44482
-|name                                = Rupturing
+|name                                = Avidity
 |ascendancy_class                    = Deadeye
 |is_notable                          = True
-|icon                                = SharpAndVenomous (DeadEye)
-|stat1_id                            = critical_strikes_that_inflict_bleeding_also_rupture
+|icon                                = DeadeyeFrenzyChargeNotable (DeadEye)
+|stat1_id                            = max_frenzy_charges
 |stat1_value                         = 1
-|stat_text                           = [[Critical strike|Critical Strikes]] which inflict Bleeding also inflict Rupture
+|stat2_id                            = gain_a_frenzy_charge_every_X_seconds_while_moving
+|stat2_value                         = 1
+|stat3_id                            = deadeye_accuracy_rating_+%_final_per_frenzy_charge
+|stat3_value                         = 5
+|stat_text                           = +1 to Maximum [[Frenzy Charge|Frenzy Charges]]<br>Gain a [[Frenzy Charge]] each second while Moving<br>5% more [[Accuracy Rating]] per [[Frenzy Charge]]
 |connections                         = AscendancyDeadeye11
 }}

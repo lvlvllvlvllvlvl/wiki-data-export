@@ -209,7 +209,7 @@ local data = {	{
 		cost_lifeforce = 30, 
 		cost_sacred = 0, 
 		command = "exchange_item_in_set_for_other_item_in_set", 
-		parameters = {"mushrune"}, 
+		parameters = {"mushrunebasic"}, 
 	},
 	{
 		id = "RerollCatalysts", 

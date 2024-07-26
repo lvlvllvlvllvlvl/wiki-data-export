@@ -1,0 +1,18 @@
+{{Mod
+|id                               = VillageLocalElementalDamageNoPhysical
+|mod_groups                       = IncreasedWeaponElementalDamagePercent
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = LocalElementalDamageNoPhysical
+|stat_text                        = Has (50-100)% increased [[Elemental Damage]]<br>No [[Physical Damage]]
+|stat1_id                         = local_elemental_damage_+%
+|stat1_min                        = 50
+|stat1_max                        = 100
+|stat2_id                         = local_weapon_no_physical_damage
+|stat2_min                        = 1
+|stat2_max                        = 1
+|tags                             = village_runesmithing_enchant, elemental
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

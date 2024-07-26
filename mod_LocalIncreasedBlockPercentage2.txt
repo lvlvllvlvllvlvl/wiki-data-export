@@ -1,0 +1,30 @@
+{{Mod
+|id                               = LocalIncreasedBlockPercentage2
+|mod_groups                       = IncreasedShieldBlockPercentage
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 15
+|name                             = Unrelenting
+|mod_type                         = LocalIncreasedBlockPercentage
+|stat_text                        = (46-51)% increased Chance to [[Block]]
+|stat1_id                         = local_block_chance_+%
+|stat1_min                        = 46
+|stat1_max                        = 51
+|spawn_weight1_tag                = str_shield
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = str_dex_shield
+|spawn_weight2_value              = 1000
+|spawn_weight3_tag                = str_int_shield
+|spawn_weight3_value              = 1000
+|spawn_weight4_tag                = dex_shield
+|spawn_weight4_value              = 1000
+|spawn_weight5_tag                = dex_int_shield
+|spawn_weight5_value              = 500
+|spawn_weight6_tag                = focus
+|spawn_weight6_value              = 500
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+|tags                             = block
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

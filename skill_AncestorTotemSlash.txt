@@ -5,7 +5,6 @@
 |skill_id                                = AncestorTotemSlash
 |cast_time                               = 1.0
 |required_level                          = 12
-|static_cost_amounts                     = 8
 |static_cost_types                       = Mana
 |static_attack_speed_multiplier          = 100
 |static_stat1_id                         = ancestor_totem_parent_activiation_range
@@ -29,6 +28,7 @@
 |stat_text                               = +1 to maximum number of Summoned Totems<br>Totem lasts 12 seconds<br>Summons a Totem which uses this Skill<br>(12-22)% of Physical Damage gained as Extra Fire Damage while Totem is Active<br>50% increased Totem Placement speed
 |level1                                  = True
 |level1_level_requirement                = 12
+|level1_cost_amounts                     = 6
 |level1_damage_effectiveness             = 40
 |level1_damage_multiplier                = 40
 |level1_stat_text                        = 12% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -38,6 +38,7 @@
 |level1_stat2_value                      = 12
 |level2                                  = True
 |level2_level_requirement                = 15
+|level2_cost_amounts                     = 6
 |level2_damage_effectiveness             = 40
 |level2_damage_multiplier                = 40.4
 |level2_stat_text                        = 13% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -47,6 +48,7 @@
 |level2_stat2_value                      = 13
 |level3                                  = True
 |level3_level_requirement                = 19
+|level3_cost_amounts                     = 7
 |level3_damage_effectiveness             = 41
 |level3_damage_multiplier                = 40.8
 |level3_stat_text                        = 13% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -56,6 +58,7 @@
 |level3_stat2_value                      = 13
 |level4                                  = True
 |level4_level_requirement                = 23
+|level4_cost_amounts                     = 7
 |level4_damage_effectiveness             = 41
 |level4_damage_multiplier                = 41.2
 |level4_stat_text                        = 14% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -65,6 +68,7 @@
 |level4_stat2_value                      = 14
 |level5                                  = True
 |level5_level_requirement                = 27
+|level5_cost_amounts                     = 7
 |level5_damage_effectiveness             = 42
 |level5_damage_multiplier                = 41.6
 |level5_stat_text                        = 14% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -74,6 +78,7 @@
 |level5_stat2_value                      = 14
 |level6                                  = True
 |level6_level_requirement                = 31
+|level6_cost_amounts                     = 8
 |level6_damage_effectiveness             = 42
 |level6_damage_multiplier                = 42
 |level6_stat_text                        = 15% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -83,6 +88,7 @@
 |level6_stat2_value                      = 15
 |level7                                  = True
 |level7_level_requirement                = 35
+|level7_cost_amounts                     = 8
 |level7_damage_effectiveness             = 42
 |level7_damage_multiplier                = 42.4
 |level7_stat_text                        = 15% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -92,6 +98,7 @@
 |level7_stat2_value                      = 15
 |level8                                  = True
 |level8_level_requirement                = 38
+|level8_cost_amounts                     = 8
 |level8_damage_effectiveness             = 43
 |level8_damage_multiplier                = 42.8
 |level8_stat_text                        = 16% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -101,6 +108,7 @@
 |level8_stat2_value                      = 16
 |level9                                  = True
 |level9_level_requirement                = 41
+|level9_cost_amounts                     = 8
 |level9_damage_effectiveness             = 43
 |level9_damage_multiplier                = 43.2
 |level9_stat_text                        = 16% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -110,6 +118,7 @@
 |level9_stat2_value                      = 16
 |level10                                 = True
 |level10_level_requirement               = 44
+|level10_cost_amounts                    = 8
 |level10_damage_effectiveness            = 44
 |level10_damage_multiplier               = 43.6
 |level10_stat_text                       = 17% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -119,6 +128,7 @@
 |level10_stat2_value                     = 17
 |level11                                 = True
 |level11_level_requirement               = 47
+|level11_cost_amounts                    = 9
 |level11_damage_effectiveness            = 44
 |level11_damage_multiplier               = 44
 |level11_stat_text                       = 17% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -128,6 +138,7 @@
 |level11_stat2_value                     = 17
 |level12                                 = True
 |level12_level_requirement               = 50
+|level12_cost_amounts                    = 9
 |level12_damage_effectiveness            = 44
 |level12_damage_multiplier               = 44.4
 |level12_stat_text                       = 18% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -137,6 +148,7 @@
 |level12_stat2_value                     = 18
 |level13                                 = True
 |level13_level_requirement               = 53
+|level13_cost_amounts                    = 9
 |level13_damage_effectiveness            = 45
 |level13_damage_multiplier               = 44.8
 |level13_stat_text                       = 18% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -146,6 +158,7 @@
 |level13_stat2_value                     = 18
 |level14                                 = True
 |level14_level_requirement               = 56
+|level14_cost_amounts                    = 9
 |level14_damage_effectiveness            = 45
 |level14_damage_multiplier               = 45.2
 |level14_stat_text                       = 19% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -155,6 +168,7 @@
 |level14_stat2_value                     = 19
 |level15                                 = True
 |level15_level_requirement               = 59
+|level15_cost_amounts                    = 9
 |level15_damage_effectiveness            = 46
 |level15_damage_multiplier               = 45.6
 |level15_stat_text                       = 19% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -164,6 +178,7 @@
 |level15_stat2_value                     = 19
 |level16                                 = True
 |level16_level_requirement               = 62
+|level16_cost_amounts                    = 10
 |level16_damage_effectiveness            = 46
 |level16_damage_multiplier               = 46
 |level16_stat_text                       = 20% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -173,6 +188,7 @@
 |level16_stat2_value                     = 20
 |level17                                 = True
 |level17_level_requirement               = 64
+|level17_cost_amounts                    = 10
 |level17_damage_effectiveness            = 46
 |level17_damage_multiplier               = 46.4
 |level17_stat_text                       = 20% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -182,6 +198,7 @@
 |level17_stat2_value                     = 20
 |level18                                 = True
 |level18_level_requirement               = 66
+|level18_cost_amounts                    = 10
 |level18_damage_effectiveness            = 47
 |level18_damage_multiplier               = 46.8
 |level18_stat_text                       = 21% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -191,6 +208,7 @@
 |level18_stat2_value                     = 21
 |level19                                 = True
 |level19_level_requirement               = 68
+|level19_cost_amounts                    = 10
 |level19_damage_effectiveness            = 47
 |level19_damage_multiplier               = 47.2
 |level19_stat_text                       = 21% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -200,6 +218,7 @@
 |level19_stat2_value                     = 21
 |level20                                 = True
 |level20_level_requirement               = 70
+|level20_cost_amounts                    = 10
 |level20_damage_effectiveness            = 48
 |level20_damage_multiplier               = 47.6
 |level20_stat_text                       = 22% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -209,6 +228,7 @@
 |level20_stat2_value                     = 22
 |level21                                 = True
 |level21_level_requirement               = 72
+|level21_cost_amounts                    = 10
 |level21_damage_effectiveness            = 48
 |level21_damage_multiplier               = 48
 |level21_stat_text                       = 22% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -218,6 +238,7 @@
 |level21_stat2_value                     = 22
 |level22                                 = True
 |level22_level_requirement               = 74
+|level22_cost_amounts                    = 10
 |level22_damage_effectiveness            = 48
 |level22_damage_multiplier               = 48.4
 |level22_stat_text                       = 23% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -227,6 +248,7 @@
 |level22_stat2_value                     = 23
 |level23                                 = True
 |level23_level_requirement               = 76
+|level23_cost_amounts                    = 10
 |level23_damage_effectiveness            = 49
 |level23_damage_multiplier               = 48.8
 |level23_stat_text                       = 23% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -236,6 +258,7 @@
 |level23_stat2_value                     = 23
 |level24                                 = True
 |level24_level_requirement               = 78
+|level24_cost_amounts                    = 11
 |level24_damage_effectiveness            = 49
 |level24_damage_multiplier               = 49.2
 |level24_stat_text                       = 24% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -245,6 +268,7 @@
 |level24_stat2_value                     = 24
 |level25                                 = True
 |level25_level_requirement               = 80
+|level25_cost_amounts                    = 11
 |level25_damage_effectiveness            = 50
 |level25_damage_multiplier               = 49.6
 |level25_stat_text                       = 24% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -254,6 +278,7 @@
 |level25_stat2_value                     = 24
 |level26                                 = True
 |level26_level_requirement               = 82
+|level26_cost_amounts                    = 11
 |level26_damage_effectiveness            = 50
 |level26_damage_multiplier               = 50
 |level26_stat_text                       = 25% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -263,6 +288,7 @@
 |level26_stat2_value                     = 25
 |level27                                 = True
 |level27_level_requirement               = 84
+|level27_cost_amounts                    = 11
 |level27_damage_effectiveness            = 50
 |level27_damage_multiplier               = 50.4
 |level27_stat_text                       = 25% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -272,6 +298,7 @@
 |level27_stat2_value                     = 25
 |level28                                 = True
 |level28_level_requirement               = 86
+|level28_cost_amounts                    = 11
 |level28_damage_effectiveness            = 51
 |level28_damage_multiplier               = 50.8
 |level28_stat_text                       = 26% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -281,6 +308,7 @@
 |level28_stat2_value                     = 26
 |level29                                 = True
 |level29_level_requirement               = 88
+|level29_cost_amounts                    = 11
 |level29_damage_effectiveness            = 51
 |level29_damage_multiplier               = 51.2
 |level29_stat_text                       = 26% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -290,6 +318,7 @@
 |level29_stat2_value                     = 26
 |level30                                 = True
 |level30_level_requirement               = 90
+|level30_cost_amounts                    = 11
 |level30_damage_effectiveness            = 52
 |level30_damage_multiplier               = 51.6
 |level30_stat_text                       = 27% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -299,6 +328,7 @@
 |level30_stat2_value                     = 27
 |level31                                 = True
 |level31_level_requirement               = 91
+|level31_cost_amounts                    = 11
 |level31_damage_effectiveness            = 52
 |level31_damage_multiplier               = 51.8
 |level31_stat_text                       = 27% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -308,6 +338,7 @@
 |level31_stat2_value                     = 27
 |level32                                 = True
 |level32_level_requirement               = 92
+|level32_cost_amounts                    = 11
 |level32_damage_effectiveness            = 52
 |level32_damage_multiplier               = 52
 |level32_stat_text                       = 27% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -317,6 +348,7 @@
 |level32_stat2_value                     = 27
 |level33                                 = True
 |level33_level_requirement               = 93
+|level33_cost_amounts                    = 12
 |level33_damage_effectiveness            = 52
 |level33_damage_multiplier               = 52.2
 |level33_stat_text                       = 27% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -326,6 +358,7 @@
 |level33_stat2_value                     = 27
 |level34                                 = True
 |level34_level_requirement               = 94
+|level34_cost_amounts                    = 12
 |level34_damage_effectiveness            = 52
 |level34_damage_multiplier               = 52.4
 |level34_stat_text                       = 28% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -335,6 +368,7 @@
 |level34_stat2_value                     = 28
 |level35                                 = True
 |level35_level_requirement               = 95
+|level35_cost_amounts                    = 12
 |level35_damage_effectiveness            = 53
 |level35_damage_multiplier               = 52.6
 |level35_stat_text                       = 28% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -344,6 +378,7 @@
 |level35_stat2_value                     = 28
 |level36                                 = True
 |level36_level_requirement               = 96
+|level36_cost_amounts                    = 12
 |level36_damage_effectiveness            = 53
 |level36_damage_multiplier               = 52.8
 |level36_stat_text                       = 28% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -353,6 +388,7 @@
 |level36_stat2_value                     = 28
 |level37                                 = True
 |level37_level_requirement               = 97
+|level37_cost_amounts                    = 12
 |level37_damage_effectiveness            = 53
 |level37_damage_multiplier               = 53
 |level37_stat_text                       = 28% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -362,6 +398,7 @@
 |level37_stat2_value                     = 28
 |level38                                 = True
 |level38_level_requirement               = 98
+|level38_cost_amounts                    = 12
 |level38_damage_effectiveness            = 53
 |level38_damage_multiplier               = 53.2
 |level38_stat_text                       = 29% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -371,6 +408,7 @@
 |level38_stat2_value                     = 29
 |level39                                 = True
 |level39_level_requirement               = 99
+|level39_cost_amounts                    = 12
 |level39_damage_effectiveness            = 53
 |level39_damage_multiplier               = 53.4
 |level39_stat_text                       = 29% of Physical Damage gained as Extra Fire Damage while Totem is Active
@@ -380,6 +418,7 @@
 |level39_stat2_value                     = 29
 |level40                                 = True
 |level40_level_requirement               = 100
+|level40_cost_amounts                    = 12
 |level40_damage_effectiveness            = 54
 |level40_damage_multiplier               = 53.6
 |level40_stat_text                       = 29% of Physical Damage gained as Extra Fire Damage while Totem is Active

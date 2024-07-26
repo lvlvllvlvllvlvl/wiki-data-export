@@ -540,6 +540,21 @@ local data = {	{
 	},
 	{
 		ordinal = 1, 
+		recipe_id = "InverseWeighting20_3", 
+		item_id = "Metadata/Items/Currency/Mushrune1", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "InverseWeighting20_3", 
+		item_id = "Metadata/Items/Currency/Mushrune1", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "InverseWeighting20_3", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
+	},
+	{
+		ordinal = 1, 
 		recipe_id = "InverseWeighting21", 
 		item_id = "Metadata/Items/Currency/Mushrune1", 
 	},
@@ -567,6 +582,21 @@ local data = {	{
 		ordinal = 3, 
 		recipe_id = "InverseWeighting21_2", 
 		item_id = "Metadata/Items/Currency/Mushrune5", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "InverseWeighting21_3", 
+		item_id = "Metadata/Items/Currency/Mushrune1", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "InverseWeighting21_3", 
+		item_id = "Metadata/Items/Currency/Mushrune2", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "InverseWeighting21_3", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
 	},
 	{
 		ordinal = 1, 
@@ -810,6 +840,21 @@ local data = {	{
 	},
 	{
 		ordinal = 1, 
+		recipe_id = "InverseWeighting26_4", 
+		item_id = "Metadata/Items/Currency/Mushrune3", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "InverseWeighting26_4", 
+		item_id = "Metadata/Items/Currency/Mushrune3", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "InverseWeighting26_4", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
+	},
+	{
+		ordinal = 1, 
 		recipe_id = "InverseWeighting27", 
 		item_id = "Metadata/Items/Currency/Mushrune1", 
 	},
@@ -881,6 +926,21 @@ local data = {	{
 	{
 		ordinal = 3, 
 		recipe_id = "InverseWeighting28_2", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "InverseWeighting28_3", 
+		item_id = "Metadata/Items/Currency/Mushrune3", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "InverseWeighting28_3", 
+		item_id = "Metadata/Items/Currency/Mushrune4", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "InverseWeighting28_3", 
 		item_id = "Metadata/Items/Currency/Mushrune6b", 
 	},
 	{
@@ -1152,6 +1212,21 @@ local data = {	{
 		ordinal = 3, 
 		recipe_id = "InverseWeighting35", 
 		item_id = "Metadata/Items/Currency/Mushrune7", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "InverseWeighting36", 
+		item_id = "Metadata/Items/Currency/Mushrune5", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "InverseWeighting36", 
+		item_id = "Metadata/Items/Currency/Mushrune5", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "InverseWeighting36", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
 	},
 	{
 		ordinal = 1, 
@@ -1811,6 +1886,21 @@ local data = {	{
 	{
 		ordinal = 3, 
 		recipe_id = "InverseWeighting58_3", 
+		item_id = "Metadata/Items/Currency/Mushrune7", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "InverseWeighting58_4", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "InverseWeighting58_4", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "InverseWeighting58_4", 
 		item_id = "Metadata/Items/Currency/Mushrune7", 
 	},
 	{
@@ -3311,6 +3401,21 @@ local data = {	{
 	{
 		ordinal = 3, 
 		recipe_id = "InverseWeighting151", 
+		item_id = "Metadata/Items/Currency/Mushrune10", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "InverseWeighting153", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "InverseWeighting153", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "InverseWeighting153", 
 		item_id = "Metadata/Items/Currency/Mushrune10", 
 	},
 	{
@@ -5790,6 +5895,21 @@ local data = {	{
 	},
 	{
 		ordinal = 1, 
+		recipe_id = "InverseWeighting371", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "InverseWeighting371", 
+		item_id = "Metadata/Items/Currency/Mushrune10", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "InverseWeighting371", 
+		item_id = "Metadata/Items/Currency/Mushrune12", 
+	},
+	{
+		ordinal = 1, 
 		recipe_id = "InverseWeighting372", 
 		item_id = "Metadata/Items/Currency/Mushrune5", 
 	},
@@ -5996,6 +6116,21 @@ local data = {	{
 	{
 		ordinal = 3, 
 		recipe_id = "InverseWeighting429", 
+		item_id = "Metadata/Items/Currency/Mushrune12", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "InverseWeighting429_2", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "InverseWeighting429_2", 
+		item_id = "Metadata/Items/Currency/Mushrune11", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "InverseWeighting429_2", 
 		item_id = "Metadata/Items/Currency/Mushrune12", 
 	},
 	{
@@ -7347,5 +7482,470 @@ local data = {	{
 		ordinal = 1, 
 		recipe_id = "BlightedMapMod12", 
 		item_id = "Metadata/Items/Currency/Mushrune12", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint1", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint1", 
+		item_id = "Metadata/Items/Currency/Mushrune9", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint1", 
+		item_id = "Metadata/Items/Currency/Mushrune11", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint2", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint2", 
+		item_id = "Metadata/Items/Currency/Mushrune8", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint2", 
+		item_id = "Metadata/Items/Currency/Mushrune12", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint3", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint3", 
+		item_id = "Metadata/Items/Currency/Mushrune8", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint3", 
+		item_id = "Metadata/Items/Currency/Mushrune9", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint4", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint4", 
+		item_id = "Metadata/Items/Currency/Mushrune8", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint4", 
+		item_id = "Metadata/Items/Currency/Mushrune11", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint5", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint5", 
+		item_id = "Metadata/Items/Currency/Mushrune10", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint5", 
+		item_id = "Metadata/Items/Currency/Mushrune10", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint6", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint6", 
+		item_id = "Metadata/Items/Currency/Mushrune7", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint6", 
+		item_id = "Metadata/Items/Currency/Mushrune10", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint7", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint7", 
+		item_id = "Metadata/Items/Currency/Mushrune9", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint7", 
+		item_id = "Metadata/Items/Currency/Mushrune9", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint8", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint8", 
+		item_id = "Metadata/Items/Currency/Mushrune6", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint8", 
+		item_id = "Metadata/Items/Currency/Mushrune11", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint9", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint9", 
+		item_id = "Metadata/Items/Currency/Mushrune6", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint9", 
+		item_id = "Metadata/Items/Currency/Mushrune9", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint10", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint10", 
+		item_id = "Metadata/Items/Currency/Mushrune8", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint10", 
+		item_id = "Metadata/Items/Currency/Mushrune8", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint11", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint11", 
+		item_id = "Metadata/Items/Currency/Mushrune7", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint11", 
+		item_id = "Metadata/Items/Currency/Mushrune8", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint12", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint12", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint12", 
+		item_id = "Metadata/Items/Currency/Mushrune11", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint13", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint13", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint13", 
+		item_id = "Metadata/Items/Currency/Mushrune12", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint14", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint14", 
+		item_id = "Metadata/Items/Currency/Mushrune9", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint14", 
+		item_id = "Metadata/Items/Currency/Mushrune12", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint15", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint15", 
+		item_id = "Metadata/Items/Currency/Mushrune7", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint15", 
+		item_id = "Metadata/Items/Currency/Mushrune11", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint16", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint16", 
+		item_id = "Metadata/Items/Currency/Mushrune10", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint16", 
+		item_id = "Metadata/Items/Currency/Mushrune11", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint17", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint17", 
+		item_id = "Metadata/Items/Currency/Mushrune11", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint17", 
+		item_id = "Metadata/Items/Currency/Mushrune11", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint18", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint18", 
+		item_id = "Metadata/Items/Currency/Mushrune8", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint18", 
+		item_id = "Metadata/Items/Currency/Mushrune10", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint19", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint19", 
+		item_id = "Metadata/Items/Currency/Mushrune6", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint19", 
+		item_id = "Metadata/Items/Currency/Mushrune8", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint20", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint20", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint20", 
+		item_id = "Metadata/Items/Currency/Mushrune10", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint21", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint21", 
+		item_id = "Metadata/Items/Currency/Mushrune7", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint21", 
+		item_id = "Metadata/Items/Currency/Mushrune7", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint22", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint22", 
+		item_id = "Metadata/Items/Currency/Mushrune6", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint22", 
+		item_id = "Metadata/Items/Currency/Mushrune12", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint23", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint23", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint23", 
+		item_id = "Metadata/Items/Currency/Mushrune8", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint24", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint24", 
+		item_id = "Metadata/Items/Currency/Mushrune9", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint24", 
+		item_id = "Metadata/Items/Currency/Mushrune10", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint25", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint25", 
+		item_id = "Metadata/Items/Currency/Mushrune6", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint25", 
+		item_id = "Metadata/Items/Currency/Mushrune10", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint26", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint26", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint26", 
+		item_id = "Metadata/Items/Currency/Mushrune9", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint27", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint27", 
+		item_id = "Metadata/Items/Currency/Mushrune11", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint27", 
+		item_id = "Metadata/Items/Currency/Mushrune12", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint28", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint28", 
+		item_id = "Metadata/Items/Currency/Mushrune7", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint28", 
+		item_id = "Metadata/Items/Currency/Mushrune12", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint29", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint29", 
+		item_id = "Metadata/Items/Currency/Mushrune12", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint29", 
+		item_id = "Metadata/Items/Currency/Mushrune12", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint30", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint30", 
+		item_id = "Metadata/Items/Currency/Mushrune10", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint30", 
+		item_id = "Metadata/Items/Currency/Mushrune12", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "OffTreeAnoint31", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "OffTreeAnoint31", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "OffTreeAnoint31", 
+		item_id = "Metadata/Items/Currency/MushruneUber", 
 	}}
 return data

@@ -1,0 +1,13 @@
+{{Passive skill
+|id                                  = attack_mana_cost_notable_2916
+|int_id                              = 27422
+|name                                = Spirit of War
+|is_notable                          = True
+|icon                                = ReducedManaNotable
+|stat1_id                            = attack_mana_cost_+%
+|stat1_value                         = -15
+|stat2_id                            = mana_leech_from_physical_attack_damage_permyriad
+|stat2_value                         = 50
+|stat_text                           = 15% reduced [[Mana]] Cost of [[Attack|Attacks]]<br>0.5% of Physical [[Attack Damage]] Leeched as [[Mana]]
+|connections                         = attack_mana_cost_node_2915,mastery_mana_287,attack_mana_cost_node_2914,mastery_mana_287
+}}

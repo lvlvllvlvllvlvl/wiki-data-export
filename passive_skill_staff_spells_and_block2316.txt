@@ -1,9 +1,10 @@
 {{Passive skill
 |id                                  = staff_spells_and_block2316
 |int_id                              = 7347
-|name                                = Staff Spell Damage
+|name                                = Staff Spell Block
 |icon                                = StaffNodeDefensive
-|stat1_id                            = spell_staff_damage_+%
-|stat1_value                         = 10
-|stat_text                           = 10% increased [[Spell Damage]] while wielding a [[Staff]]
+|stat1_id                            = spell_block_with_staff_%
+|stat1_value                         = 4
+|stat_text                           = +4% Chance to [[Block]] [[Spell Damage]] while wielding a [[Staff]]
+|connections                         = staff_spells_and_area_notable2319,staff_spells2310
 }}

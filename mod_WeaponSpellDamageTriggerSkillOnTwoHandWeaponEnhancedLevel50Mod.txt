@@ -1,0 +1,22 @@
+{{Mod
+|id                               = WeaponSpellDamageTriggerSkillOnTwoHandWeaponEnhancedLevel50Mod
+|mod_groups                       = WeaponCasterDamagePrefix, SupportedByTrigger
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 50
+|name                             = Tacati's
+|granted_skill                    = SupportTriggerSpellOnSkillUse
+|mod_type                         = WeaponSpellDamageTriggerSkill
+|stat_text                        = (105-110)% increased [[Spell Damage]]<br>Trigger a [[Item socket|Socketed]] [[Spell]] on Using a [[Skill]], with a 4 second Cooldown<br />Spells Triggered this way have 150% more Cost
+|stat1_id                         = spell_damage_+%
+|stat1_min                        = 105
+|stat1_max                        = 110
+|stat2_id                         = local_weapon_trigger_socketed_spell_on_skill_use_display_cooldown_ms
+|stat2_min                        = 4000
+|stat2_max                        = 4000
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = skill, caster_damage, damage, caster, gem
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

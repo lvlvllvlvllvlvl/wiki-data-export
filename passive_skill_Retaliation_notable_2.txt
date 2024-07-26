@@ -1,0 +1,13 @@
+{{Passive skill
+|id                                  = Retaliation_notable_2
+|int_id                              = 2599
+|name                                = Prepared Response
+|is_notable                          = True
+|icon                                = RetaliationDurationCooldown
+|stat1_id                            = gain_random_retaliation_requirement_on_retaliation_used_chance_%
+|stat1_value                         = 25
+|stat2_id                            = retaliation_use_window_duration_+%
+|stat2_value                         = 30
+|stat_text                           = 25% chance when you use a Retaliation [[Skill]] for a different Retaliation [[Skill]] to become Usable<br>Retaliation [[Skill|Skills]] become Usable for 30% longer
+|connections                         = mastery_Retalliation_2,Retaliation_node_2002,Retaliation_node_2003,mastery_Retalliation_2
+}}

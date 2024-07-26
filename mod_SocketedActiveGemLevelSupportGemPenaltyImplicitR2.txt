@@ -1,0 +1,15 @@
+{{Mod
+|id                               = SocketedActiveGemLevelSupportGemPenaltyImplicitR2
+|mod_groups                       = IncreaseSocketedGemLevel
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 45
+|mod_type                         = SocketedActiveGemLevelSupportGemPenalty
+|stat_text                        = +2 to [[Level]] of [[Item socket|Socketed]] [[Skill]] Gems<br>-2 to [[Level]] of [[Item socket|Socketed]] Support Gems
+|stat1_id                         = local_socketed_active_skill_gem_level_+
+|stat1_min                        = 2
+|stat1_max                        = 2
+|stat2_id                         = local_socketed_support_gem_level_+
+|stat2_min                        = -2
+|stat2_max                        = -2
+}}

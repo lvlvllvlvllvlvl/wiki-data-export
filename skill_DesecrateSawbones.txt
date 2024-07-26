@@ -1,5 +1,5 @@
 {{Skill
-|gem_description                         = Desecrates the ground, summoning corpses and dealing chaos damage to all enemies in the area. The corpses will be chosen from the monsters in the current area and any Spectres that have existed in this instance.
+|gem_description                         = Desecrates the ground, spawning corpses based on monsters in the current area and dealing chaos damage over time to enemies. If you are using the Raise Spectre skill there is a chance to spawn spectral corpses matching your most recently raised Spectres. Spectral corpses cannot be interacted with except by Minion skills.
 |active_skill_name                       = Desecrate
 |skill_id                                = DesecrateSawbones
 |cast_time                               = 1.0
@@ -22,7 +22,7 @@
 |static_stat5_value                      = 100
 |static_stat6_id                         = desecrate_maximum_number_of_corpses
 |static_stat6_value                      = 10
-|stat_text                               = Deals 0.7 Base Chaos Damage per second<br>Base duration is 5.00 seconds<br>Spawns 3 corpses<br>Spawns corpses up to Level 100<br>Maximum of 10 corpses allowed
+|stat_text                               = Deals 0.7 Base Chaos Damage per second<br>Base duration is 5.00 seconds<br>Spawns 3 corpses<br>Spawned corpses' level matches the area level, up to a maximum of Level 100<br>Maximum of 10 corpses allowed
 |level1                                  = True
 |level1_level_requirement                = 1
 }}

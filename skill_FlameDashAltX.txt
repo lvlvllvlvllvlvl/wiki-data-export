@@ -13,7 +13,6 @@
 |static_stored_uses                      = 1
 |static_cooldown                         = 4
 |static_critical_strike_chance           = 6
-|static_damage_effectiveness             = 140
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
 |static_duration                         = 4
@@ -27,6 +26,7 @@
 |level1                                  = True
 |level1_level_requirement                = 10
 |level1_cost_amounts                     = 8
+|level1_damage_effectiveness             = 80
 |level1_stat_text                        = Deals 34.2 Base Fire Damage per second<br>Deals 7 to 11 Fire Damage
 |level1_stat1_id                         = base_fire_damage_to_deal_per_minute
 |level1_stat1_value                      = 2050
@@ -37,6 +37,7 @@
 |level2                                  = True
 |level2_level_requirement                = 13
 |level2_cost_amounts                     = 9
+|level2_damage_effectiveness             = 80
 |level2_stat_text                        = Deals 45.9 Base Fire Damage per second<br>Deals 10 to 15 Fire Damage<br>5% increased maximum travel distance
 |level2_stat1_id                         = base_fire_damage_to_deal_per_minute
 |level2_stat1_value                      = 2755
@@ -49,6 +50,7 @@
 |level3                                  = True
 |level3_level_requirement                = 17
 |level3_cost_amounts                     = 10
+|level3_damage_effectiveness             = 90
 |level3_stat_text                        = Deals 66.3 Base Fire Damage per second<br>Deals 14 to 22 Fire Damage<br>10% increased maximum travel distance
 |level3_stat1_id                         = base_fire_damage_to_deal_per_minute
 |level3_stat1_value                      = 3979
@@ -61,6 +63,7 @@
 |level4                                  = True
 |level4_level_requirement                = 21
 |level4_cost_amounts                     = 11
+|level4_damage_effectiveness             = 90
 |level4_stat_text                        = Deals 93.6 Base Fire Damage per second<br>Deals 20 to 31 Fire Damage<br>15% increased maximum travel distance
 |level4_stat1_id                         = base_fire_damage_to_deal_per_minute
 |level4_stat1_value                      = 5618
@@ -73,6 +76,7 @@
 |level5                                  = True
 |level5_level_requirement                = 25
 |level5_cost_amounts                     = 12
+|level5_damage_effectiveness             = 90
 |level5_stat_text                        = Deals 130 Base Fire Damage per second<br>Deals 28 to 43 Fire Damage<br>20% increased maximum travel distance
 |level5_stat1_id                         = base_fire_damage_to_deal_per_minute
 |level5_stat1_value                      = 7798
@@ -85,6 +89,7 @@
 |level6                                  = True
 |level6_level_requirement                = 29
 |level6_cost_amounts                     = 13
+|level6_damage_effectiveness             = 100
 |level6_stat_text                        = Deals 178 Base Fire Damage per second<br>Deals 39 to 58 Fire Damage<br>25% increased maximum travel distance
 |level6_stat1_id                         = base_fire_damage_to_deal_per_minute
 |level6_stat1_value                      = 10682
@@ -97,6 +102,7 @@
 |level7                                  = True
 |level7_level_requirement                = 33
 |level7_cost_amounts                     = 14
+|level7_damage_effectiveness             = 100
 |level7_stat_text                        = Deals 241.3 Base Fire Damage per second<br>Deals 53 to 79 Fire Damage<br>30% increased maximum travel distance
 |level7_stat1_id                         = base_fire_damage_to_deal_per_minute
 |level7_stat1_value                      = 14477
@@ -109,6 +115,7 @@
 |level8                                  = True
 |level8_level_requirement                = 36
 |level8_cost_amounts                     = 14
+|level8_damage_effectiveness             = 100
 |level8_stat_text                        = Deals 301.3 Base Fire Damage per second<br>Deals 66 to 99 Fire Damage<br>35% increased maximum travel distance
 |level8_stat1_id                         = base_fire_damage_to_deal_per_minute
 |level8_stat1_value                      = 18078
@@ -121,6 +128,7 @@
 |level9                                  = True
 |level9_level_requirement                = 39
 |level9_cost_amounts                     = 15
+|level9_damage_effectiveness             = 110
 |level9_stat_text                        = Deals 374.6 Base Fire Damage per second<br>Deals 82 to 123 Fire Damage<br>40% increased maximum travel distance
 |level9_stat1_id                         = base_fire_damage_to_deal_per_minute
 |level9_stat1_value                      = 22477
@@ -133,6 +141,7 @@
 |level10                                 = True
 |level10_level_requirement               = 42
 |level10_cost_amounts                    = 16
+|level10_damage_effectiveness            = 110
 |level10_stat_text                       = Deals 464 Base Fire Damage per second<br>Deals 101 to 152 Fire Damage<br>45% increased maximum travel distance
 |level10_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level10_stat1_value                     = 27842
@@ -145,6 +154,7 @@
 |level11                                 = True
 |level11_level_requirement               = 45
 |level11_cost_amounts                    = 17
+|level11_damage_effectiveness            = 110
 |level11_stat_text                       = Deals 572.9 Base Fire Damage per second<br>Deals 125 to 187 Fire Damage<br>50% increased maximum travel distance
 |level11_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level11_stat1_value                     = 34371
@@ -157,6 +167,7 @@
 |level12                                 = True
 |level12_level_requirement               = 48
 |level12_cost_amounts                    = 17
+|level12_damage_effectiveness            = 120
 |level12_stat_text                       = Deals 705.1 Base Fire Damage per second<br>Deals 154 to 231 Fire Damage<br>55% increased maximum travel distance
 |level12_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level12_stat1_value                     = 42304
@@ -169,6 +180,7 @@
 |level13                                 = True
 |level13_level_requirement               = 51
 |level13_cost_amounts                    = 18
+|level13_damage_effectiveness            = 120
 |level13_stat_text                       = Deals 865.5 Base Fire Damage per second<br>Deals 189 to 283 Fire Damage<br>60% increased maximum travel distance
 |level13_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level13_stat1_value                     = 51928
@@ -181,6 +193,7 @@
 |level14                                 = True
 |level14_level_requirement               = 54
 |level14_cost_amounts                    = 19
+|level14_damage_effectiveness            = 130
 |level14_stat_text                       = Deals 1059.8 Base Fire Damage per second<br>Deals 231 to 347 Fire Damage<br>65% increased maximum travel distance
 |level14_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level14_stat1_value                     = 63587
@@ -193,6 +206,7 @@
 |level15                                 = True
 |level15_level_requirement               = 57
 |level15_cost_amounts                    = 20
+|level15_damage_effectiveness            = 130
 |level15_stat_text                       = Deals 1294.8 Base Fire Damage per second<br>Deals 283 to 424 Fire Damage<br>70% increased maximum travel distance
 |level15_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level15_stat1_value                     = 77690
@@ -205,6 +219,7 @@
 |level16                                 = True
 |level16_level_requirement               = 60
 |level16_cost_amounts                    = 20
+|level16_damage_effectiveness            = 130
 |level16_stat_text                       = Deals 1578.8 Base Fire Damage per second<br>Deals 344 to 517 Fire Damage<br>75% increased maximum travel distance
 |level16_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level16_stat1_value                     = 94729
@@ -217,6 +232,7 @@
 |level17                                 = True
 |level17_level_requirement               = 63
 |level17_cost_amounts                    = 21
+|level17_damage_effectiveness            = 140
 |level17_stat_text                       = Deals 1921.5 Base Fire Damage per second<br>Deals 419 to 629 Fire Damage<br>80% increased maximum travel distance
 |level17_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level17_stat1_value                     = 115293
@@ -229,6 +245,7 @@
 |level18                                 = True
 |level18_level_requirement               = 66
 |level18_cost_amounts                    = 22
+|level18_damage_effectiveness            = 140
 |level18_stat_text                       = Deals 2334.7 Base Fire Damage per second<br>Deals 509 to 764 Fire Damage<br>85% increased maximum travel distance
 |level18_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level18_stat1_value                     = 140081
@@ -241,6 +258,7 @@
 |level19                                 = True
 |level19_level_requirement               = 68
 |level19_cost_amounts                    = 22
+|level19_damage_effectiveness            = 140
 |level19_stat_text                       = Deals 2656 Base Fire Damage per second<br>Deals 579 to 869 Fire Damage<br>90% increased maximum travel distance
 |level19_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level19_stat1_value                     = 159362
@@ -253,6 +271,7 @@
 |level20                                 = True
 |level20_level_requirement               = 70
 |level20_cost_amounts                    = 23
+|level20_damage_effectiveness            = 140
 |level20_stat_text                       = Deals 3019.6 Base Fire Damage per second<br>Deals 659 to 988 Fire Damage<br>95% increased maximum travel distance
 |level20_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level20_stat1_value                     = 181177
@@ -265,6 +284,7 @@
 |level21                                 = True
 |level21_level_requirement               = 72
 |level21_cost_amounts                    = 24
+|level21_damage_effectiveness            = 140
 |level21_stat_text                       = Deals 3430.8 Base Fire Damage per second<br>Deals 749 to 1123 Fire Damage<br>100% increased maximum travel distance
 |level21_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level21_stat1_value                     = 205848
@@ -277,6 +297,7 @@
 |level22                                 = True
 |level22_level_requirement               = 74
 |level22_cost_amounts                    = 24
+|level22_damage_effectiveness            = 140
 |level22_stat_text                       = Deals 3895.7 Base Fire Damage per second<br>Deals 850 to 1275 Fire Damage<br>105% increased maximum travel distance
 |level22_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level22_stat1_value                     = 233739
@@ -289,6 +310,7 @@
 |level23                                 = True
 |level23_level_requirement               = 76
 |level23_cost_amounts                    = 25
+|level23_damage_effectiveness            = 140
 |level23_stat_text                       = Deals 4420.9 Base Fire Damage per second<br>Deals 965 to 1447 Fire Damage<br>110% increased maximum travel distance
 |level23_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level23_stat1_value                     = 265257
@@ -301,6 +323,7 @@
 |level24                                 = True
 |level24_level_requirement               = 78
 |level24_cost_amounts                    = 25
+|level24_damage_effectiveness            = 140
 |level24_stat_text                       = Deals 5014.4 Base Fire Damage per second<br>Deals 1094 to 1641 Fire Damage<br>115% increased maximum travel distance
 |level24_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level24_stat1_value                     = 300863
@@ -313,6 +336,7 @@
 |level25                                 = True
 |level25_level_requirement               = 80
 |level25_cost_amounts                    = 26
+|level25_damage_effectiveness            = 140
 |level25_stat_text                       = Deals 5684.5 Base Fire Damage per second<br>Deals 1240 to 1860 Fire Damage<br>120% increased maximum travel distance
 |level25_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level25_stat1_value                     = 341070
@@ -325,6 +349,7 @@
 |level26                                 = True
 |level26_level_requirement               = 82
 |level26_cost_amounts                    = 26
+|level26_damage_effectiveness            = 140
 |level26_stat_text                       = Deals 6441 Base Fire Damage per second<br>Deals 1405 to 2108 Fire Damage<br>125% increased maximum travel distance
 |level26_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level26_stat1_value                     = 386459
@@ -337,6 +362,7 @@
 |level27                                 = True
 |level27_level_requirement               = 84
 |level27_cost_amounts                    = 27
+|level27_damage_effectiveness            = 140
 |level27_stat_text                       = Deals 7294.7 Base Fire Damage per second<br>Deals 1592 to 2387 Fire Damage<br>130% increased maximum travel distance
 |level27_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level27_stat1_value                     = 437680
@@ -349,6 +375,7 @@
 |level28                                 = True
 |level28_level_requirement               = 86
 |level28_cost_amounts                    = 27
+|level28_damage_effectiveness            = 140
 |level28_stat_text                       = Deals 8257.8 Base Fire Damage per second<br>Deals 1802 to 2703 Fire Damage<br>135% increased maximum travel distance
 |level28_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level28_stat1_value                     = 495465
@@ -361,6 +388,7 @@
 |level29                                 = True
 |level29_level_requirement               = 88
 |level29_cost_amounts                    = 28
+|level29_damage_effectiveness            = 140
 |level29_stat_text                       = Deals 9343.9 Base Fire Damage per second<br>Deals 2039 to 3058 Fire Damage<br>140% increased maximum travel distance
 |level29_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level29_stat1_value                     = 560634
@@ -373,6 +401,7 @@
 |level30                                 = True
 |level30_level_requirement               = 90
 |level30_cost_amounts                    = 28
+|level30_damage_effectiveness            = 140
 |level30_stat_text                       = Deals 10568.5 Base Fire Damage per second<br>Deals 2306 to 3459 Fire Damage<br>145% increased maximum travel distance
 |level30_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level30_stat1_value                     = 634109
@@ -385,6 +414,7 @@
 |level31                                 = True
 |level31_level_requirement               = 91
 |level31_cost_amounts                    = 28
+|level31_damage_effectiveness            = 140
 |level31_stat_text                       = Deals 11238 Base Fire Damage per second<br>Deals 2452 to 3678 Fire Damage<br>147% increased maximum travel distance
 |level31_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level31_stat1_value                     = 674280
@@ -397,6 +427,7 @@
 |level32                                 = True
 |level32_level_requirement               = 92
 |level32_cost_amounts                    = 29
+|level32_damage_effectiveness            = 140
 |level32_stat_text                       = Deals 11948.8 Base Fire Damage per second<br>Deals 2607 to 3911 Fire Damage<br>150% increased maximum travel distance
 |level32_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level32_stat1_value                     = 716926
@@ -409,6 +440,7 @@
 |level33                                 = True
 |level33_level_requirement               = 93
 |level33_cost_amounts                    = 29
+|level33_damage_effectiveness            = 140
 |level33_stat_text                       = Deals 12703.2 Base Fire Damage per second<br>Deals 2772 to 4157 Fire Damage<br>152% increased maximum travel distance
 |level33_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level33_stat1_value                     = 762195
@@ -421,6 +453,7 @@
 |level34                                 = True
 |level34_level_requirement               = 94
 |level34_cost_amounts                    = 29
+|level34_damage_effectiveness            = 140
 |level34_stat_text                       = Deals 13504.1 Base Fire Damage per second<br>Deals 2946 to 4420 Fire Damage<br>155% increased maximum travel distance
 |level34_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level34_stat1_value                     = 810246
@@ -433,6 +466,7 @@
 |level35                                 = True
 |level35_level_requirement               = 95
 |level35_cost_amounts                    = 29
+|level35_damage_effectiveness            = 140
 |level35_stat_text                       = Deals 14354.1 Base Fire Damage per second<br>Deals 3132 to 4698 Fire Damage<br>157% increased maximum travel distance
 |level35_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level35_stat1_value                     = 861246
@@ -445,6 +479,7 @@
 |level36                                 = True
 |level36_level_requirement               = 96
 |level36_cost_amounts                    = 30
+|level36_damage_effectiveness            = 140
 |level36_stat_text                       = Deals 15256.2 Base Fire Damage per second<br>Deals 3329 to 4993 Fire Damage<br>160% increased maximum travel distance
 |level36_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level36_stat1_value                     = 915373
@@ -457,6 +492,7 @@
 |level37                                 = True
 |level37_level_requirement               = 97
 |level37_cost_amounts                    = 30
+|level37_damage_effectiveness            = 140
 |level37_stat_text                       = Deals 16213.6 Base Fire Damage per second<br>Deals 3538 to 5306 Fire Damage<br>162% increased maximum travel distance
 |level37_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level37_stat1_value                     = 972814
@@ -469,6 +505,7 @@
 |level38                                 = True
 |level38_level_requirement               = 98
 |level38_cost_amounts                    = 30
+|level38_damage_effectiveness            = 140
 |level38_stat_text                       = Deals 17229.5 Base Fire Damage per second<br>Deals 3759 to 5639 Fire Damage<br>165% increased maximum travel distance
 |level38_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level38_stat1_value                     = 1033770
@@ -481,6 +518,7 @@
 |level39                                 = True
 |level39_level_requirement               = 99
 |level39_cost_amounts                    = 30
+|level39_damage_effectiveness            = 140
 |level39_stat_text                       = Deals 18307.5 Base Fire Damage per second<br>Deals 3994 to 5992 Fire Damage<br>167% increased maximum travel distance
 |level39_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level39_stat1_value                     = 1098451
@@ -493,6 +531,7 @@
 |level40                                 = True
 |level40_level_requirement               = 100
 |level40_cost_amounts                    = 31
+|level40_damage_effectiveness            = 140
 |level40_stat_text                       = Deals 19451.3 Base Fire Damage per second<br>Deals 4244 to 6366 Fire Damage<br>170% increased maximum travel distance
 |level40_stat1_id                        = base_fire_damage_to_deal_per_minute
 |level40_stat1_value                     = 1167079

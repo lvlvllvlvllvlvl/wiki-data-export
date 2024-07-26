@@ -138,14 +138,14 @@ local data = {	{
 	},
 	{
 		name = "Monster", 
-		id = "resist_all_elements_%_per_endurance_charge", 
+		id = "elemental_damage_reduction_%_per_endurance_charge_if_player_minion", 
 		value = 4, 
-		stat_text = "+4% to all [[Elemental Resistance|Elemental Resistances]] per [[Endurance Charge]]", 
+		stat_text = "", 
 	},
 	{
 		name = "Monster", 
 		id = "resist_all_elements_%_per_endurance_charge_if_not_player_minion", 
-		value = 11, 
+		value = 15, 
 		stat_text = "", 
 	},
 	{

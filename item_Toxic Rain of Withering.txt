@@ -13,7 +13,7 @@
 |gem_description                         = Fire arrows into the air that rain down around the targeted area, dealing damage to enemies they hit and creating spore pods where they land. Each spore pod deals chaos damage over time to nearby enemies and withers them, causing them to take increased chaos damage. The pods last for a duration before bursting, dealing area damage.
 |active_skill_name                       = Toxic Rain of Withering
 |item_class_id_restriction               = Bow
-|skill_id                                = RainOfSporesAltY
+|skill_id                                = ToxicRainAltY
 |cast_time                               = 1.0
 |required_level                          = 12
 |quality_type1_weight                    = 1
@@ -48,7 +48,7 @@
 |stat_text                               = Deals (8-238) Base Chaos Damage per second<br>Base duration is 0.40 seconds<br>Fires 5 Arrows<br>Modifiers to Projectile Damage apply to this Skill's Damage Over Time effect<br>60% of Physical Damage Converted to Chaos Damage<br>Each Spore Pod inflicts 1 Withered Debuff on nearby Enemies
 |level1                                  = True
 |level1_level_requirement                = 12
-|level1_cost_amounts                     = 7
+|level1_cost_amounts                     = 6
 |level1_damage_effectiveness             = 50
 |level1_damage_multiplier                = 50
 |level1_stat_text                        = Deals 8 Base Chaos Damage per second
@@ -56,7 +56,7 @@
 |level1_stat1_value                      = 477
 |level2                                  = True
 |level2_level_requirement                = 15
-|level2_cost_amounts                     = 7
+|level2_cost_amounts                     = 6
 |level2_damage_effectiveness             = 51
 |level2_damage_multiplier                = 51.2
 |level2_stat_text                        = Deals 10.1 Base Chaos Damage per second
@@ -72,7 +72,7 @@
 |level3_stat1_value                      = 812
 |level4                                  = True
 |level4_level_requirement                = 23
-|level4_cost_amounts                     = 8
+|level4_cost_amounts                     = 7
 |level4_damage_effectiveness             = 54
 |level4_damage_multiplier                = 53.6
 |level4_stat_text                        = Deals 17.8 Base Chaos Damage per second
@@ -80,7 +80,7 @@
 |level4_stat1_value                      = 1069
 |level5                                  = True
 |level5_level_requirement                = 27
-|level5_cost_amounts                     = 8
+|level5_cost_amounts                     = 7
 |level5_damage_effectiveness             = 55
 |level5_damage_multiplier                = 54.8
 |level5_stat_text                        = Deals 23.1 Base Chaos Damage per second
@@ -112,7 +112,7 @@
 |level8_stat1_value                      = 2682
 |level9                                  = True
 |level9_level_requirement                = 41
-|level9_cost_amounts                     = 9
+|level9_cost_amounts                     = 8
 |level9_damage_effectiveness             = 60
 |level9_damage_multiplier                = 59.6
 |level9_stat_text                        = Deals 53 Base Chaos Damage per second
@@ -120,7 +120,7 @@
 |level9_stat1_value                      = 3178
 |level10                                 = True
 |level10_level_requirement               = 44
-|level10_cost_amounts                    = 9
+|level10_cost_amounts                    = 8
 |level10_damage_effectiveness            = 61
 |level10_damage_multiplier               = 60.8
 |level10_stat_text                       = Deals 62.5 Base Chaos Damage per second
@@ -152,7 +152,7 @@
 |level13_stat1_value                     = 6069
 |level14                                 = True
 |level14_level_requirement               = 56
-|level14_cost_amounts                    = 10
+|level14_cost_amounts                    = 9
 |level14_damage_effectiveness            = 66
 |level14_damage_multiplier               = 65.6
 |level14_stat_text                       = Deals 118.2 Base Chaos Damage per second
@@ -160,7 +160,7 @@
 |level14_stat1_value                     = 7089
 |level15                                 = True
 |level15_level_requirement               = 59
-|level15_cost_amounts                    = 10
+|level15_cost_amounts                    = 9
 |level15_damage_effectiveness            = 67
 |level15_damage_multiplier               = 66.8
 |level15_stat_text                       = Deals 137.7 Base Chaos Damage per second
@@ -192,7 +192,7 @@
 |level18_stat1_value                     = 11734
 |level19                                 = True
 |level19_level_requirement               = 68
-|level19_cost_amounts                    = 11
+|level19_cost_amounts                    = 10
 |level19_damage_effectiveness            = 72
 |level19_damage_multiplier               = 71.6
 |level19_stat_text                       = Deals 215.8 Base Chaos Damage per second
@@ -200,7 +200,7 @@
 |level19_stat1_value                     = 12949
 |level20                                 = True
 |level20_level_requirement               = 70
-|level20_cost_amounts                    = 11
+|level20_cost_amounts                    = 10
 |level20_damage_effectiveness            = 73
 |level20_damage_multiplier               = 72.8
 |level20_stat_text                       = Deals 238 Base Chaos Damage per second
@@ -208,7 +208,7 @@
 |level20_stat1_value                     = 14280
 |level21                                 = True
 |level21_level_requirement               = 72
-|level21_cost_amounts                    = 11
+|level21_cost_amounts                    = 10
 |level21_damage_effectiveness            = 74
 |level21_damage_multiplier               = 74
 |level21_stat_text                       = Deals 262.3 Base Chaos Damage per second
@@ -216,7 +216,7 @@
 |level21_stat1_value                     = 15738
 |level22                                 = True
 |level22_level_requirement               = 74
-|level22_cost_amounts                    = 11
+|level22_cost_amounts                    = 10
 |level22_damage_effectiveness            = 75
 |level22_damage_multiplier               = 75.2
 |level22_stat_text                       = Deals 288.9 Base Chaos Damage per second
@@ -224,7 +224,7 @@
 |level22_stat1_value                     = 17335
 |level23                                 = True
 |level23_level_requirement               = 76
-|level23_cost_amounts                    = 11
+|level23_cost_amounts                    = 10
 |level23_damage_effectiveness            = 76
 |level23_damage_multiplier               = 76.4
 |level23_stat_text                       = Deals 318.1 Base Chaos Damage per second
@@ -248,7 +248,7 @@
 |level25_stat1_value                     = 23088
 |level26                                 = True
 |level26_level_requirement               = 82
-|level26_cost_amounts                    = 12
+|level26_cost_amounts                    = 11
 |level26_damage_effectiveness            = 80
 |level26_damage_multiplier               = 80
 |level26_stat_text                       = Deals 422.9 Base Chaos Damage per second
@@ -256,7 +256,7 @@
 |level26_stat1_value                     = 25376
 |level27                                 = True
 |level27_level_requirement               = 84
-|level27_cost_amounts                    = 12
+|level27_cost_amounts                    = 11
 |level27_damage_effectiveness            = 81
 |level27_damage_multiplier               = 81.2
 |level27_stat_text                       = Deals 464.6 Base Chaos Damage per second
@@ -264,7 +264,7 @@
 |level27_stat1_value                     = 27878
 |level28                                 = True
 |level28_level_requirement               = 86
-|level28_cost_amounts                    = 12
+|level28_cost_amounts                    = 11
 |level28_damage_effectiveness            = 82
 |level28_damage_multiplier               = 82.4
 |level28_stat_text                       = Deals 510.2 Base Chaos Damage per second
@@ -272,7 +272,7 @@
 |level28_stat1_value                     = 30612
 |level29                                 = True
 |level29_level_requirement               = 88
-|level29_cost_amounts                    = 12
+|level29_cost_amounts                    = 11
 |level29_damage_effectiveness            = 84
 |level29_damage_multiplier               = 83.6
 |level29_stat_text                       = Deals 560 Base Chaos Damage per second
@@ -280,7 +280,7 @@
 |level29_stat1_value                     = 33600
 |level30                                 = True
 |level30_level_requirement               = 90
-|level30_cost_amounts                    = 12
+|level30_cost_amounts                    = 11
 |level30_damage_effectiveness            = 85
 |level30_damage_multiplier               = 84.8
 |level30_stat_text                       = Deals 614.4 Base Chaos Damage per second
@@ -288,7 +288,7 @@
 |level30_stat1_value                     = 36864
 |level31                                 = True
 |level31_level_requirement               = 91
-|level31_cost_amounts                    = 13
+|level31_cost_amounts                    = 11
 |level31_damage_effectiveness            = 85
 |level31_damage_multiplier               = 85.4
 |level31_stat_text                       = Deals 643.5 Base Chaos Damage per second
@@ -296,7 +296,7 @@
 |level31_stat1_value                     = 38608
 |level32                                 = True
 |level32_level_requirement               = 92
-|level32_cost_amounts                    = 13
+|level32_cost_amounts                    = 11
 |level32_damage_effectiveness            = 86
 |level32_damage_multiplier               = 86
 |level32_stat_text                       = Deals 673.8 Base Chaos Damage per second
@@ -304,7 +304,7 @@
 |level32_stat1_value                     = 40430
 |level33                                 = True
 |level33_level_requirement               = 93
-|level33_cost_amounts                    = 13
+|level33_cost_amounts                    = 12
 |level33_damage_effectiveness            = 87
 |level33_damage_multiplier               = 86.6
 |level33_stat_text                       = Deals 705.5 Base Chaos Damage per second
@@ -312,7 +312,7 @@
 |level33_stat1_value                     = 42333
 |level34                                 = True
 |level34_level_requirement               = 94
-|level34_cost_amounts                    = 13
+|level34_cost_amounts                    = 12
 |level34_damage_effectiveness            = 87
 |level34_damage_multiplier               = 87.2
 |level34_stat_text                       = Deals 738.7 Base Chaos Damage per second
@@ -320,7 +320,7 @@
 |level34_stat1_value                     = 44323
 |level35                                 = True
 |level35_level_requirement               = 95
-|level35_cost_amounts                    = 13
+|level35_cost_amounts                    = 12
 |level35_damage_effectiveness            = 88
 |level35_damage_multiplier               = 87.8
 |level35_stat_text                       = Deals 773.4 Base Chaos Damage per second
@@ -328,7 +328,7 @@
 |level35_stat1_value                     = 46401
 |level36                                 = True
 |level36_level_requirement               = 96
-|level36_cost_amounts                    = 14
+|level36_cost_amounts                    = 12
 |level36_damage_effectiveness            = 88
 |level36_damage_multiplier               = 88.4
 |level36_stat_text                       = Deals 809.5 Base Chaos Damage per second
@@ -336,7 +336,7 @@
 |level36_stat1_value                     = 48572
 |level37                                 = True
 |level37_level_requirement               = 97
-|level37_cost_amounts                    = 14
+|level37_cost_amounts                    = 12
 |level37_damage_effectiveness            = 89
 |level37_damage_multiplier               = 89
 |level37_stat_text                       = Deals 847.4 Base Chaos Damage per second
@@ -344,7 +344,7 @@
 |level37_stat1_value                     = 50841
 |level38                                 = True
 |level38_level_requirement               = 98
-|level38_cost_amounts                    = 14
+|level38_cost_amounts                    = 12
 |level38_damage_effectiveness            = 90
 |level38_damage_multiplier               = 89.6
 |level38_stat_text                       = Deals 886.8 Base Chaos Damage per second
@@ -352,7 +352,7 @@
 |level38_stat1_value                     = 53210
 |level39                                 = True
 |level39_level_requirement               = 99
-|level39_cost_amounts                    = 14
+|level39_cost_amounts                    = 12
 |level39_damage_effectiveness            = 90
 |level39_damage_multiplier               = 90.2
 |level39_stat_text                       = Deals 928.1 Base Chaos Damage per second
@@ -360,7 +360,7 @@
 |level39_stat1_value                     = 55686
 |level40                                 = True
 |level40_level_requirement               = 100
-|level40_cost_amounts                    = 14
+|level40_cost_amounts                    = 12
 |level40_damage_effectiveness            = 91
 |level40_damage_multiplier               = 90.8
 |level40_stat_text                       = Deals 971.2 Base Chaos Damage per second

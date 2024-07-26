@@ -1,0 +1,16 @@
+{{Mod
+|id                               = VillageGrantsIcicleNovaTrigger
+|mod_groups                       = GrantedSkill
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|granted_skill                    = IcicleBurst
+|mod_type                         = GrantsLevel20IcicleNovaTrigger
+|stat_text                        = Trigger [[Level]] 10 Icicle Burst when you [[Hit]] a [[Freeze|Frozen]] Enemy
+|stat1_id                         = local_display_trigger_level_x_icicle_nova_on_hit_vs_frozen_enemy
+|stat1_min                        = 10
+|stat1_max                        = 10
+|tags                             = skill, village_runesmithing_enchant, attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

@@ -17,11 +17,11 @@
 |static_stat3_value                      = 1
 |static_stat4_id                         = base_skill_effect_duration
 |static_stat4_value                      = 6000
-|stat_text                               = Deals (9-1843) to (14-2765) Physical Damage<br>Projectiles Pierce all Targets<br>Base duration is 6.00 seconds<br>Spawns corpses with Level (1-90)
+|stat_text                               = Deals (9-1843) to (14-2765) Physical Damage<br>Projectiles Pierce all Targets<br>Base duration is 6.00 seconds<br>Spawned corpses are Level (1-90)
 |level1                                  = True
 |level1_level_requirement                = 1
 |level1_cost_amounts                     = 6
-|level1_stat_text                        = Deals 9 to 14 Physical Damage<br>Spawns corpses with Level 1
+|level1_stat_text                        = Deals 9 to 14 Physical Damage<br>Spawned corpses are Level 1
 |level1_stat1_id                         = spell_minimum_base_physical_damage
 |level1_stat1_value                      = 9
 |level1_stat2_id                         = spell_maximum_base_physical_damage
@@ -31,7 +31,7 @@
 |level2                                  = True
 |level2_level_requirement                = 2
 |level2_cost_amounts                     = 7
-|level2_stat_text                        = Deals 11 to 16 Physical Damage<br>Spawns corpses with Level 2
+|level2_stat_text                        = Deals 11 to 16 Physical Damage<br>Spawned corpses are Level 2
 |level2_stat1_id                         = spell_minimum_base_physical_damage
 |level2_stat1_value                      = 11
 |level2_stat2_id                         = spell_maximum_base_physical_damage
@@ -41,7 +41,7 @@
 |level3                                  = True
 |level3_level_requirement                = 4
 |level3_cost_amounts                     = 8
-|level3_stat_text                        = Deals 13 to 20 Physical Damage<br>Spawns corpses with Level 4
+|level3_stat_text                        = Deals 13 to 20 Physical Damage<br>Spawned corpses are Level 4
 |level3_stat1_id                         = spell_minimum_base_physical_damage
 |level3_stat1_value                      = 13
 |level3_stat2_id                         = spell_maximum_base_physical_damage
@@ -51,7 +51,7 @@
 |level4                                  = True
 |level4_level_requirement                = 7
 |level4_cost_amounts                     = 9
-|level4_stat_text                        = Deals 18 to 27 Physical Damage<br>Spawns corpses with Level 7
+|level4_stat_text                        = Deals 18 to 27 Physical Damage<br>Spawned corpses are Level 7
 |level4_stat1_id                         = spell_minimum_base_physical_damage
 |level4_stat1_value                      = 18
 |level4_stat2_id                         = spell_maximum_base_physical_damage
@@ -61,7 +61,7 @@
 |level5                                  = True
 |level5_level_requirement                = 11
 |level5_cost_amounts                     = 10
-|level5_stat_text                        = Deals 25 to 38 Physical Damage<br>Spawns corpses with Level 11
+|level5_stat_text                        = Deals 25 to 38 Physical Damage<br>Spawned corpses are Level 11
 |level5_stat1_id                         = spell_minimum_base_physical_damage
 |level5_stat1_value                      = 25
 |level5_stat2_id                         = spell_maximum_base_physical_damage
@@ -71,7 +71,7 @@
 |level6                                  = True
 |level6_level_requirement                = 16
 |level6_cost_amounts                     = 11
-|level6_stat_text                        = Deals 37 to 56 Physical Damage<br>Spawns corpses with Level 16
+|level6_stat_text                        = Deals 37 to 56 Physical Damage<br>Spawned corpses are Level 16
 |level6_stat1_id                         = spell_minimum_base_physical_damage
 |level6_stat1_value                      = 37
 |level6_stat2_id                         = spell_maximum_base_physical_damage
@@ -81,7 +81,7 @@
 |level7                                  = True
 |level7_level_requirement                = 20
 |level7_cost_amounts                     = 12
-|level7_stat_text                        = Deals 50 to 74 Physical Damage<br>Spawns corpses with Level 20
+|level7_stat_text                        = Deals 50 to 74 Physical Damage<br>Spawned corpses are Level 20
 |level7_stat1_id                         = spell_minimum_base_physical_damage
 |level7_stat1_value                      = 50
 |level7_stat2_id                         = spell_maximum_base_physical_damage
@@ -91,7 +91,7 @@
 |level8                                  = True
 |level8_level_requirement                = 24
 |level8_cost_amounts                     = 13
-|level8_stat_text                        = Deals 64 to 97 Physical Damage<br>Spawns corpses with Level 24
+|level8_stat_text                        = Deals 64 to 97 Physical Damage<br>Spawned corpses are Level 24
 |level8_stat1_id                         = spell_minimum_base_physical_damage
 |level8_stat1_value                      = 64
 |level8_stat2_id                         = spell_maximum_base_physical_damage
@@ -101,7 +101,7 @@
 |level9                                  = True
 |level9_level_requirement                = 28
 |level9_cost_amounts                     = 14
-|level9_stat_text                        = Deals 83 to 124 Physical Damage<br>Spawns corpses with Level 28
+|level9_stat_text                        = Deals 83 to 124 Physical Damage<br>Spawned corpses are Level 28
 |level9_stat1_id                         = spell_minimum_base_physical_damage
 |level9_stat1_value                      = 83
 |level9_stat2_id                         = spell_maximum_base_physical_damage
@@ -111,7 +111,7 @@
 |level10                                 = True
 |level10_level_requirement               = 32
 |level10_cost_amounts                    = 16
-|level10_stat_text                       = Deals 105 to 157 Physical Damage<br>Spawns corpses with Level 32
+|level10_stat_text                       = Deals 105 to 157 Physical Damage<br>Spawned corpses are Level 32
 |level10_stat1_id                        = spell_minimum_base_physical_damage
 |level10_stat1_value                     = 105
 |level10_stat2_id                        = spell_maximum_base_physical_damage
@@ -121,7 +121,7 @@
 |level11                                 = True
 |level11_level_requirement               = 36
 |level11_cost_amounts                    = 18
-|level11_stat_text                       = Deals 132 to 198 Physical Damage<br>Spawns corpses with Level 36
+|level11_stat_text                       = Deals 132 to 198 Physical Damage<br>Spawned corpses are Level 36
 |level11_stat1_id                        = spell_minimum_base_physical_damage
 |level11_stat1_value                     = 132
 |level11_stat2_id                        = spell_maximum_base_physical_damage
@@ -131,7 +131,7 @@
 |level12                                 = True
 |level12_level_requirement               = 40
 |level12_cost_amounts                    = 19
-|level12_stat_text                       = Deals 165 to 247 Physical Damage<br>Spawns corpses with Level 40
+|level12_stat_text                       = Deals 165 to 247 Physical Damage<br>Spawned corpses are Level 40
 |level12_stat1_id                        = spell_minimum_base_physical_damage
 |level12_stat1_value                     = 165
 |level12_stat2_id                        = spell_maximum_base_physical_damage
@@ -141,7 +141,7 @@
 |level13                                 = True
 |level13_level_requirement               = 44
 |level13_cost_amounts                    = 20
-|level13_stat_text                       = Deals 204 to 306 Physical Damage<br>Spawns corpses with Level 44
+|level13_stat_text                       = Deals 204 to 306 Physical Damage<br>Spawned corpses are Level 44
 |level13_stat1_id                        = spell_minimum_base_physical_damage
 |level13_stat1_value                     = 204
 |level13_stat2_id                        = spell_maximum_base_physical_damage
@@ -151,7 +151,7 @@
 |level14                                 = True
 |level14_level_requirement               = 48
 |level14_cost_amounts                    = 21
-|level14_stat_text                       = Deals 252 to 377 Physical Damage<br>Spawns corpses with Level 48
+|level14_stat_text                       = Deals 252 to 377 Physical Damage<br>Spawned corpses are Level 48
 |level14_stat1_id                        = spell_minimum_base_physical_damage
 |level14_stat1_value                     = 252
 |level14_stat2_id                        = spell_maximum_base_physical_damage
@@ -161,7 +161,7 @@
 |level15                                 = True
 |level15_level_requirement               = 52
 |level15_cost_amounts                    = 22
-|level15_stat_text                       = Deals 309 to 463 Physical Damage<br>Spawns corpses with Level 52
+|level15_stat_text                       = Deals 309 to 463 Physical Damage<br>Spawned corpses are Level 52
 |level15_stat1_id                        = spell_minimum_base_physical_damage
 |level15_stat1_value                     = 309
 |level15_stat2_id                        = spell_maximum_base_physical_damage
@@ -171,7 +171,7 @@
 |level16                                 = True
 |level16_level_requirement               = 56
 |level16_cost_amounts                    = 23
-|level16_stat_text                       = Deals 377 to 566 Physical Damage<br>Spawns corpses with Level 56
+|level16_stat_text                       = Deals 377 to 566 Physical Damage<br>Spawned corpses are Level 56
 |level16_stat1_id                        = spell_minimum_base_physical_damage
 |level16_stat1_value                     = 377
 |level16_stat2_id                        = spell_maximum_base_physical_damage
@@ -181,7 +181,7 @@
 |level17                                 = True
 |level17_level_requirement               = 60
 |level17_cost_amounts                    = 24
-|level17_stat_text                       = Deals 459 to 689 Physical Damage<br>Spawns corpses with Level 60
+|level17_stat_text                       = Deals 459 to 689 Physical Damage<br>Spawned corpses are Level 60
 |level17_stat1_id                        = spell_minimum_base_physical_damage
 |level17_stat1_value                     = 459
 |level17_stat2_id                        = spell_maximum_base_physical_damage
@@ -191,7 +191,7 @@
 |level18                                 = True
 |level18_level_requirement               = 64
 |level18_cost_amounts                    = 25
-|level18_stat_text                       = Deals 557 to 836 Physical Damage<br>Spawns corpses with Level 64
+|level18_stat_text                       = Deals 557 to 836 Physical Damage<br>Spawned corpses are Level 64
 |level18_stat1_id                        = spell_minimum_base_physical_damage
 |level18_stat1_value                     = 557
 |level18_stat2_id                        = spell_maximum_base_physical_damage
@@ -201,7 +201,7 @@
 |level19                                 = True
 |level19_level_requirement               = 67
 |level19_cost_amounts                    = 26
-|level19_stat_text                       = Deals 643 to 964 Physical Damage<br>Spawns corpses with Level 67
+|level19_stat_text                       = Deals 643 to 964 Physical Damage<br>Spawned corpses are Level 67
 |level19_stat1_id                        = spell_minimum_base_physical_damage
 |level19_stat1_value                     = 643
 |level19_stat2_id                        = spell_maximum_base_physical_damage
@@ -211,7 +211,7 @@
 |level20                                 = True
 |level20_level_requirement               = 70
 |level20_cost_amounts                    = 26
-|level20_stat_text                       = Deals 741 to 1111 Physical Damage<br>Spawns corpses with Level 70
+|level20_stat_text                       = Deals 741 to 1111 Physical Damage<br>Spawned corpses are Level 70
 |level20_stat1_id                        = spell_minimum_base_physical_damage
 |level20_stat1_value                     = 741
 |level20_stat2_id                        = spell_maximum_base_physical_damage
@@ -221,7 +221,7 @@
 |level21                                 = True
 |level21_level_requirement               = 72
 |level21_cost_amounts                    = 27
-|level21_stat_text                       = Deals 813 to 1220 Physical Damage<br>Spawns corpses with Level 72
+|level21_stat_text                       = Deals 813 to 1220 Physical Damage<br>Spawned corpses are Level 72
 |level21_stat1_id                        = spell_minimum_base_physical_damage
 |level21_stat1_value                     = 813
 |level21_stat2_id                        = spell_maximum_base_physical_damage
@@ -231,7 +231,7 @@
 |level22                                 = True
 |level22_level_requirement               = 74
 |level22_cost_amounts                    = 27
-|level22_stat_text                       = Deals 893 to 1339 Physical Damage<br>Spawns corpses with Level 74
+|level22_stat_text                       = Deals 893 to 1339 Physical Damage<br>Spawned corpses are Level 74
 |level22_stat1_id                        = spell_minimum_base_physical_damage
 |level22_stat1_value                     = 893
 |level22_stat2_id                        = spell_maximum_base_physical_damage
@@ -241,7 +241,7 @@
 |level23                                 = True
 |level23_level_requirement               = 76
 |level23_cost_amounts                    = 28
-|level23_stat_text                       = Deals 979 to 1468 Physical Damage<br>Spawns corpses with Level 76
+|level23_stat_text                       = Deals 979 to 1468 Physical Damage<br>Spawned corpses are Level 76
 |level23_stat1_id                        = spell_minimum_base_physical_damage
 |level23_stat1_value                     = 979
 |level23_stat2_id                        = spell_maximum_base_physical_damage
@@ -251,7 +251,7 @@
 |level24                                 = True
 |level24_level_requirement               = 78
 |level24_cost_amounts                    = 28
-|level24_stat_text                       = Deals 1073 to 1610 Physical Damage<br>Spawns corpses with Level 78
+|level24_stat_text                       = Deals 1073 to 1610 Physical Damage<br>Spawned corpses are Level 78
 |level24_stat1_id                        = spell_minimum_base_physical_damage
 |level24_stat1_value                     = 1073
 |level24_stat2_id                        = spell_maximum_base_physical_damage
@@ -261,7 +261,7 @@
 |level25                                 = True
 |level25_level_requirement               = 80
 |level25_cost_amounts                    = 29
-|level25_stat_text                       = Deals 1176 to 1764 Physical Damage<br>Spawns corpses with Level 80
+|level25_stat_text                       = Deals 1176 to 1764 Physical Damage<br>Spawned corpses are Level 80
 |level25_stat1_id                        = spell_minimum_base_physical_damage
 |level25_stat1_value                     = 1176
 |level25_stat2_id                        = spell_maximum_base_physical_damage
@@ -271,7 +271,7 @@
 |level26                                 = True
 |level26_level_requirement               = 82
 |level26_cost_amounts                    = 29
-|level26_stat_text                       = Deals 1288 to 1931 Physical Damage<br>Spawns corpses with Level 82
+|level26_stat_text                       = Deals 1288 to 1931 Physical Damage<br>Spawned corpses are Level 82
 |level26_stat1_id                        = spell_minimum_base_physical_damage
 |level26_stat1_value                     = 1288
 |level26_stat2_id                        = spell_maximum_base_physical_damage
@@ -281,7 +281,7 @@
 |level27                                 = True
 |level27_level_requirement               = 84
 |level27_cost_amounts                    = 30
-|level27_stat_text                       = Deals 1409 to 2114 Physical Damage<br>Spawns corpses with Level 84
+|level27_stat_text                       = Deals 1409 to 2114 Physical Damage<br>Spawned corpses are Level 84
 |level27_stat1_id                        = spell_minimum_base_physical_damage
 |level27_stat1_value                     = 1409
 |level27_stat2_id                        = spell_maximum_base_physical_damage
@@ -291,7 +291,7 @@
 |level28                                 = True
 |level28_level_requirement               = 86
 |level28_cost_amounts                    = 30
-|level28_stat_text                       = Deals 1542 to 2313 Physical Damage<br>Spawns corpses with Level 86
+|level28_stat_text                       = Deals 1542 to 2313 Physical Damage<br>Spawned corpses are Level 86
 |level28_stat1_id                        = spell_minimum_base_physical_damage
 |level28_stat1_value                     = 1542
 |level28_stat2_id                        = spell_maximum_base_physical_damage
@@ -301,7 +301,7 @@
 |level29                                 = True
 |level29_level_requirement               = 88
 |level29_cost_amounts                    = 31
-|level29_stat_text                       = Deals 1686 to 2529 Physical Damage<br>Spawns corpses with Level 88
+|level29_stat_text                       = Deals 1686 to 2529 Physical Damage<br>Spawned corpses are Level 88
 |level29_stat1_id                        = spell_minimum_base_physical_damage
 |level29_stat1_value                     = 1686
 |level29_stat2_id                        = spell_maximum_base_physical_damage
@@ -311,7 +311,7 @@
 |level30                                 = True
 |level30_level_requirement               = 90
 |level30_cost_amounts                    = 31
-|level30_stat_text                       = Deals 1843 to 2765 Physical Damage<br>Spawns corpses with Level 90
+|level30_stat_text                       = Deals 1843 to 2765 Physical Damage<br>Spawned corpses are Level 90
 |level30_stat1_id                        = spell_minimum_base_physical_damage
 |level30_stat1_value                     = 1843
 |level30_stat2_id                        = spell_maximum_base_physical_damage

@@ -216,6 +216,13 @@ local data = {	{
 		weight = 1000, 
 	},
 	{
+		base_item_id = "Metadata/Items/Currency/CurrencyDelveCraftingQuality", 
+		type = "added", 
+		ordinal = 0, 
+		tag = "drop", 
+		weight = 1000, 
+	},
+	{
 		base_item_id = "Metadata/Items/Currency/CurrencyDelveCraftingEnchant", 
 		type = "override", 
 		ordinal = 0, 

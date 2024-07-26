@@ -4,18 +4,18 @@
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
-|mod_type                         = ArmourPenetration
-|stat_text                        = Overwhelm (10-11)% [[Physical Damage]] Reduction
-|stat1_id                         = enemy_phys_reduction_%_penalty_vs_hit
-|stat1_min                        = 10
-|stat1_max                        = 11
+|mod_type                         = ChanceToIgnoreEnemyArmour
+|stat_text                        = [[Hit|Hits]] have (35-38)% chance to ignore Enemy [[Physical Damage]] Reduction
+|stat1_id                         = hits_ignore_enemy_monster_physical_damage_reduction_%_chance
+|stat1_min                        = 35
+|stat1_max                        = 38
 |spawn_weight1_tag                = no_tier_5_eldritch_implicit
 |spawn_weight1_value              = 0
 |spawn_weight2_tag                = gloves
 |spawn_weight2_value              = 700
 |spawn_weight3_tag                = default
 |spawn_weight3_value              = 0
-|tags                             = physical_damage, damage, physical
+|tags                             = physical
 |sell_price1_name                 = Alteration Shard
 |sell_price1_amount               = 5
 }}

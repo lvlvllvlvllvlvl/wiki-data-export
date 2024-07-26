@@ -1,0 +1,21 @@
+{{Mod
+|id                               = ChanceToAggravateBleedEldritchImplicit1
+|mod_groups                       = ChanceToAggravateBleed
+|domain                           = 1
+|generation_type                  = 29
+|required_level                   = 75
+|mod_type                         = ChanceToAggravateBleed
+|stat_text                        = 5% chance to Aggravate Bleeding on targets you [[Hit]] with [[Attack|Attacks]]
+|stat1_id                         = base_aggravate_bleeding_on_attack_hit_chance_%
+|stat1_min                        = 5
+|stat1_max                        = 5
+|spawn_weight1_tag                = no_tier_6_eldritch_implicit
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = gloves
+|spawn_weight2_value              = 400
+|spawn_weight3_tag                = default
+|spawn_weight3_value              = 0
+|tags                             = bleed, physical, attack, ailment
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

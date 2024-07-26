@@ -4,12 +4,12 @@
 |domain                           = 3
 |generation_type                  = 1
 |required_level                   = 6
-|name                             = Overwhelming
-|mod_type                         = MonsterModOverwhelmPDR
-|stat_text                        = Overwhelm 30% [[Physical Damage]] Reduction (Hidden)
-|stat1_id                         = enemy_phys_reduction_%_penalty_vs_hit
-|stat1_min                        = 30
-|stat1_max                        = 30
+|name                             = Crushing
+|mod_type                         = MonsterModCrushOnHit
+|stat_text                        = [[Crushed|Crush]] on [[Hit]] (Hidden)
+|stat1_id                         = chance_to_crush_on_hit_%
+|stat1_min                        = 100
+|stat1_max                        = 100
 |spawn_weight1_tag                = default
 |spawn_weight1_value              = 5000
 }}

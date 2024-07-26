@@ -20,19 +20,19 @@ local data = {	{
 		mod_id = "MapSynthesisedRareMonsterAdditionalQualityCurrencyDrops1", 
 		min_level = 13, 
 		max_level = 100, 
-		weight = 80, 
+		weight = 40, 
 	},
 	{
 		mod_id = "MapSynthesisedMagicMonsterAdditionalQualityCurrencyDrops1_", 
 		min_level = 0, 
 		max_level = 100, 
-		weight = 80, 
+		weight = 40, 
 	},
 	{
 		mod_id = "MapSynthesisedMonsterAdditionalQualityCurrencyDrops1_", 
 		min_level = 0, 
 		max_level = 100, 
-		weight = 80, 
+		weight = 40, 
 	},
 	{
 		mod_id = "MapSynthesisedRareMonsterIncreasedFracturedItemDrops1", 

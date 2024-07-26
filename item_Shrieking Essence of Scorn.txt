@@ -8,12 +8,12 @@
 |tags                                    = essence, currency, default
 |metadata_id                             = Metadata/Items/Currency/CurrencyEssenceScorn2
 |stack_size                              = 9
-|description                             = Upgrades a normal item to rare or reforges a rare item, guaranteeing one property<br />Weapon: (100-109)% increased [[Critical Strike Chance]] for [[Spell|Spells]]<br />Body Armour: (40-45)% increased Stun Threshold<br />Shield: (100-109)% increased [[Critical Strike Chance]] for [[Spell|Spells]]<br />Other Armour: (27-30)% chance to Avoid being Stunned<br />Quiver: +(30-34)% to Global [[Critical Strike Multiplier]]<br />Amulet: +(30-34)% to Global [[Critical Strike Multiplier]]<br />Ring: +(18-20)% to Global [[Critical Strike Multiplier]]<br />Belt: (14-15)% reduced Enemy Stun Threshold
+|description                             = Upgrades a normal item to rare or reforges a rare item, guaranteeing one property<br />Weapon: (100-109)% increased [[Spell]] [[Critical Strike Chance]]<br />Body Armour: (40-45)% increased Stun Threshold<br />Shield: (100-109)% increased [[Spell]] [[Critical Strike Chance]]<br />Other Armour: (27-30)% chance to Avoid being Stunned<br />Quiver: +(30-34)% to Global [[Critical Strike Multiplier]]<br />Amulet: +(30-34)% to Global [[Critical Strike Multiplier]]<br />Ring: +(18-20)% to Global [[Critical Strike Multiplier]]<br />Belt: (14-15)% reduced Enemy Stun Threshold
 |help_text                               = Right click this item then left click a normal or rare item to apply it.
 |stack_size_currency_tab                 = 5000
 |essence_level                           = 6
 |essence_type                            = 5
 |essence_category                        = Essence of Scorn
-|essence_monster_modifier_ids            = EssenceDaemonModLifeAndDamageLevel6
+|essence_monster_modifier_ids            = EssenceDaemonModLifeAndDamageLevel6, EssenceDaemonModRarityAndQuantityLevel6
 |is_essence                              = True
 }}

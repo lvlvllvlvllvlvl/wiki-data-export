@@ -5,9 +5,11 @@
 |is_notable                          = True
 |icon                                = ShieldNotable
 |stat1_id                            = spell_damage_+%_while_holding_shield
-|stat1_value                         = 30
+|stat1_value                         = 25
 |stat2_id                            = elemental_ailment_duration_on_self_+%_while_holding_shield
-|stat2_value                         = -30
-|stat_text                           = 30% increased [[Spell Damage]] while holding a [[Shield]]<br>30% reduced Elemental Ailment Duration on you while holding a [[Shield]]
+|stat2_value                         = -25
+|stat3_id                            = shield_spell_block_%
+|stat3_value                         = 8
+|stat_text                           = 25% increased [[Spell Damage]] while holding a [[Shield]]<br>25% reduced Elemental Ailment Duration on you while holding a [[Shield]]<br>+8% Chance to [[Block]] [[Spell Damage]] while holding a [[Shield]]
 |connections                         = mastery_shield215,shield_spells_avoid_and_block2327,shield_spells_avoid_and_block2334
 }}

@@ -1,0 +1,16 @@
+{{Mod
+|id                               = TinctureChanceToShockImplicit1
+|mod_groups                       = ChanceToShock
+|domain                           = 34
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = TinctureChanceToShockEffect
+|stat_text                        = 25% chance to [[Shock]] with Melee Weapons<br>(25-35)% increased Effect of [[Shock]] from Melee Weapons
+|stat1_id                         = chance_to_shock_%_with_tinctured_weapons
+|stat1_min                        = 25
+|stat1_max                        = 25
+|stat2_id                         = shock_effect_+%_with_tinctured_weapons
+|stat2_min                        = 25
+|stat2_max                        = 35
+|tags                             = elemental_damage, damage, elemental, lightning, attack, ailment
+}}

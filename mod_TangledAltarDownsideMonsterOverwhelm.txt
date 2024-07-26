@@ -4,9 +4,9 @@
 |domain                           = 29
 |generation_type                  = 3
 |required_level                   = 1
-|mod_type                         = TangledAltarDownsideMonsterOverwhelm
-|stat_text                        = Overwhelm (50-80)% [[Physical Damage]] Reduction
-|stat1_id                         = enemy_phys_reduction_%_penalty_vs_hit
+|mod_type                         = TangledAltarDownsideMonsterChanceToIgnoreArmour
+|stat_text                        = [[Hit|Hits]] have (50-80)% chance to ignore Enemy [[Physical Damage]] Reduction
+|stat1_id                         = hits_ignore_enemy_monster_physical_damage_reduction_%_chance
 |stat1_min                        = 50
 |stat1_max                        = 80
 |spawn_weight1_tag                = primordial_altar_upside

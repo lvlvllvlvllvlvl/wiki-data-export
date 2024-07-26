@@ -156,9 +156,8 @@ local data = {	{
 	},
 	{
 		id = "EinharMasterCraft28", 
-		header = "Corrupt an Item", 
+		header = "Corrupt a Map", 
 		subheader = "To have 30% Quality", 
-		notes = "Only works on armour and weapons", 
 		game_mode = 1, 
 	},
 	{
@@ -358,8 +357,8 @@ local data = {	{
 	},
 	{
 		id = "EinharMasterCraft48", 
-		header = "Corrupt an Item", 
-		subheader = "Double Corrupt a Map", 
+		header = "Corrupt a Map", 
+		subheader = "Twice", 
 		game_mode = 1, 
 	},
 	{
@@ -732,9 +731,8 @@ local data = {	{
 	},
 	{
 		id = "EinharMasterCraft32HardMode", 
-		header = "Corrupt an Item", 
+		header = "Corrupt a Map", 
 		subheader = "To have 30% Quality", 
-		notes = "Only works on armour and weapons", 
 		game_mode = 2, 
 	},
 	{
@@ -745,8 +743,8 @@ local data = {	{
 	},
 	{
 		id = "EinharMasterCraft34HardMode", 
-		header = "Corrupt an Item", 
-		subheader = "Double Corrupt a Map", 
+		header = "Corrupt a Map", 
+		subheader = "Twice", 
 		game_mode = 2, 
 	},
 	{
