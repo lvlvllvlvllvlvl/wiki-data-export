@@ -3,6 +3,8 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 1 * * *"
+  push:
+    branches: ["develop"]
 
 jobs:
   check_version:
@@ -66,7 +68,7 @@ jobs:
         run: poetry run ./export.bash -w -i .png
       - name: create artifact
         working-directory: ./out/img/
-        run: git diff --name-only HEAD~ | while read i ; do [[ "$i" == *.md5sum ]] && zip images.zip $(basename "$i" | sed s/md5sum/png/); done
+        run: git diff --name-only HEAD~ | while read i ; do [[ "$i" == *.md5sum ]] && zip images.zip "$(basename "$i" | sed s/md5sum/png/)"; done
       - name: upload artifact
         uses: actions/upload-artifact@v4
         with:
