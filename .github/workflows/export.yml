@@ -56,7 +56,9 @@ jobs:
           poetry run pypoe_exporter setup perform
           poetry run ./export.bash -w -i md5sum
           poetry run ./export.bash -w atlas-icons
-          ls -1 ./out/img/ | while read i ; do [[ "$i" == *.png ]] && [[ ! -f "./out/img/${i%.png}.md5sum" ]] && touch "./out/img/${i%.png}.md5sum"; done || true
+          cd ./out/img/
+          ls -1 . | while read i ; do if [[ "$i" == *.png ]] && [[ ! -f "${i%.png}.md5sum" ]]; then touch "${i%.png}.md5sum"; fi; done
+          git diff --name-only | while read i ; do if [[ "$i" == *.md5sum ]]; then zip images.zip "$(basename "$i" | sed s/md5sum/png/)"; fi; done
       - name: commit changes
         id: autocommit
         uses: stefanzweifel/git-auto-commit-action@v5.0.1
