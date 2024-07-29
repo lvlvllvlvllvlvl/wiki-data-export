@@ -57,20 +57,12 @@ jobs:
           poetry run ./export.bash -w -i md5sum
           poetry run ./export.bash -w atlas-icons
           cd ./out/img/
+          if ! git diff --quiet ./
+          then
+            poetry run ./export.bash -w -i .png
+          fi
           ls -1 . | while read i ; do if [[ "$i" == *.png ]] && [[ ! -f "${i%.png}.md5sum" ]]; then touch "${i%.png}.md5sum"; fi; done
           git diff --name-only | while read i ; do if [[ "$i" == *.md5sum ]]; then zip images.zip "$(basename "$i" | sed s/md5sum/png/)"; fi; done
-      - name: commit changes
-        id: autocommit
-        uses: stefanzweifel/git-auto-commit-action@v5.0.1
-        with:
-          repository: out
-          commit_message: "[skip ci] Automated export"
-      - name: export images
-        if: steps.autocommit.outputs.changes_detected == 'true'
-        run: poetry run ./export.bash -w -i .png
-      - name: create artifact
-        working-directory: ./out/img/
-        run: git diff --name-only HEAD~ | while read i ; do [[ "$i" == *.md5sum ]] && zip images.zip "$(basename "$i" | sed s/md5sum/png/)"; done
       - name: upload artifact
         uses: actions/upload-artifact@v4
         with:
@@ -78,3 +70,9 @@ jobs:
           path: ./out/img/images.zip
           if-no-files-found: ignore
           compression-level: 0
+      - name: commit changes
+        id: autocommit
+        uses: stefanzweifel/git-auto-commit-action@v5.0.1
+        with:
+          repository: out
+          commit_message: "[skip ci] Automated export"
