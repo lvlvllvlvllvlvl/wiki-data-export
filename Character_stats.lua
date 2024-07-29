@@ -134,7 +134,7 @@ local data = {	{
 		name = "Character", 
 		id = "inherent_block_while_dual_wielding_%", 
 		value = 20, 
-		stat_text = "", 
+		stat_text = "+20% chance to [[Block]] [[Attack Damage]] while [[Dual Wield|Dual Wielding]]", 
 	},
 	{
 		name = "Character", 
