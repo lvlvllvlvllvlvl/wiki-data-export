@@ -26491,7 +26491,7 @@ local data = {	{
 		id = "PictFemaleBow", 
 		monster_resistance_id = "Chaos1b", 
 		armour_multiplier = 0.0, 
-		evasion_multiplier = 0.65, 
+		evasion_multiplier = 0.6, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
 	},
@@ -26594,7 +26594,7 @@ local data = {	{
 	{
 		id = "AzmeriSentinel", 
 		monster_resistance_id = "Chaos2", 
-		armour_multiplier = 0.75, 
+		armour_multiplier = 0.7, 
 		evasion_multiplier = 0.3, 
 		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
