@@ -75,4 +75,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5.0.1
         with:
           repository: out
-          commit_message: "[skip ci] Automated export"
+          commit_message: "[skip ci] Automated export ${{needs.check_version.outputs.updated}}"
