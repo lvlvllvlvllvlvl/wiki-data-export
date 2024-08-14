@@ -1,13 +1,19 @@
 {{Item
 |rarity_id                               = normal
 |name                                    = Conquest Helmet
-|class_id                                = Microtransaction
+|class_id                                = Helmet
 |size_x                                  = 2
 |size_y                                  = 2
-|tags                                    = not_for_sale, default
-|metadata_id                             = Metadata/Items/MicrotransactionItemEffects/MicrotransactionConquestHelmet
-|stack_size                              = 1
-|description                             = Changes the appearance of any equipped helmet to the Conquest Helmet.
-|cosmetic_type                           = Helmet Skin
-|cosmetic_theme                          = Incursion
+|drop_level                              = 78
+|drop_rarities_ids                       = normal, magic, rare, unique
+|tags                                    = str_dex_armour, top_tier_base_item_type, not_for_sale, helmet, armour, default
+|metadata_id                             = Metadata/Items/Armours/Helmets/HelmetStrDex12
+|required_level                          = 78
+|required_strength                       = 116
+|required_dexterity                      = 116
+|armour_min                              = 308
+|armour_max                              = 355
+|evasion_min                             = 308
+|evasion_max                             = 355
+|inventory_icon                          = Conquest Helmet
 }}

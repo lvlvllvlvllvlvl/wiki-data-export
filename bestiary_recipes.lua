@@ -157,7 +157,7 @@ local data = {	{
 	{
 		id = "EinharMasterCraft28", 
 		header = "Corrupt a Map", 
-		subheader = "To have 30% Quality", 
+		subheader = "To have 30% base Quality", 
 		game_mode = 1, 
 	},
 	{

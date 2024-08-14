@@ -1,13 +1,16 @@
 {{Item
 |rarity_id                               = normal
 |name                                    = Warlock Boots
-|class_id                                = Microtransaction
+|class_id                                = Boots
 |size_x                                  = 2
 |size_y                                  = 2
-|tags                                    = not_for_sale, default
-|metadata_id                             = Metadata/Items/MicrotransactionItemEffects/MicrotransactionWarlockBoots
-|stack_size                              = 1
-|description                             = Changes the appearance of any equipped boots to the Warlock Boots.
-|cosmetic_type                           = Boots Skin
-|cosmetic_theme                          = Warlock
+|drop_level                              = 84
+|drop_rarities_ids                       = normal, magic, rare, unique
+|tags                                    = int_armour, top_tier_base_item_type, not_for_sale, boots, armour, default
+|metadata_id                             = Metadata/Items/Armours/Boots/BootsInt11
+|required_level                          = 84
+|required_intelligence                   = 177
+|energy_shield_min                       = 72
+|energy_shield_max                       = 83
+|inventory_icon                          = Warlock Boots
 }}
