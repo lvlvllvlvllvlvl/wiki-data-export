@@ -7135,6 +7135,14 @@ local data = {	{
 		damage_spread = 0.2, 
 	},
 	{
+		id = "StatueLargeGauntlet", 
+		monster_resistance_id = "None", 
+		armour_multiplier = 1.0, 
+		evasion_multiplier = 0.0, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.0, 
+	},
+	{
 		id = "StatueLargeSpectre", 
 		monster_resistance_id = "None", 
 		armour_multiplier = 1.0, 
@@ -13111,6 +13119,14 @@ local data = {	{
 		damage_spread = 0.2, 
 	},
 	{
+		id = "TemplarSlaveDriverBossGauntlet", 
+		monster_resistance_id = "ColdBoss", 
+		armour_multiplier = 0.25, 
+		evasion_multiplier = 0.25, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.2, 
+	},
+	{
 		id = "TemplarSlaveDriverBossLake", 
 		monster_resistance_id = "SideAreaBoss", 
 		armour_multiplier = 0.25, 
@@ -15781,6 +15797,14 @@ local data = {	{
 		damage_spread = 0.2, 
 	},
 	{
+		id = "GeneralAdusGauntlet", 
+		monster_resistance_id = "ActBoss", 
+		armour_multiplier = 1.0, 
+		evasion_multiplier = 0.0, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.2, 
+	},
+	{
 		id = "GeneralAdusMap", 
 		monster_resistance_id = "MapBoss", 
 		armour_multiplier = 1.0, 
@@ -17598,6 +17622,14 @@ local data = {	{
 	},
 	{
 		id = "VaalArchitect", 
+		monster_resistance_id = "SubBoss", 
+		armour_multiplier = 0.0, 
+		evasion_multiplier = 0.0, 
+		energy_shield_multiplier = 1.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "VaalArchitectGauntlet", 
 		monster_resistance_id = "SubBoss", 
 		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
@@ -21930,6 +21962,14 @@ local data = {	{
 		armour_multiplier = 0.5, 
 		evasion_multiplier = 0.5, 
 		energy_shield_multiplier = 5.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "AfflictionMonsterBossWildPhysOakGauntlet", 
+		monster_resistance_id = "MapBoss", 
+		armour_multiplier = 0.5, 
+		evasion_multiplier = 0.5, 
+		energy_shield_multiplier = 0.0, 
 		damage_spread = 0.2, 
 	},
 	{
