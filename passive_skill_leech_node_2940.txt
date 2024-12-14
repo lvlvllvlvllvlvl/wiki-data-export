@@ -1,9 +1,10 @@
 {{Passive skill
 |id                                  = leech_node_2940
-|int_id                              = -15498
+|int_id                              = 50038
 |name                                = Life Leech
 |icon                                = lifegainpertarget
 |stat1_id                            = base_life_leech_from_attack_damage_permyriad
 |stat1_value                         = 50
 |stat_text                           = 0.5% of [[Attack Damage]] Leeched as [[Life]]
+|connections                         = leech_node_2939,totem_attack_notable2680,totem_attack_notable2680,dexterity873
 }}

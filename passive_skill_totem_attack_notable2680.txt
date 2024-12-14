@@ -1,6 +1,6 @@
 {{Passive skill
 |id                                  = totem_attack_notable2680
-|int_id                              = -4497
+|int_id                              = 61039
 |name                                = Wild Hunger
 |is_notable                          = True
 |icon                                = lifeleech
@@ -9,4 +9,5 @@
 |stat2_id                            = maximum_life_leech_rate_+%
 |stat2_value                         = 30
 |stat_text                           = 0.8% of [[Attack Damage]] Leeched as [[Life]]<br>30% increased Maximum total [[Life]] Recovery per second from [[Leech]]
+|connections                         = mastery_leech_293,leech_node_2939,leech_node_2940
 }}

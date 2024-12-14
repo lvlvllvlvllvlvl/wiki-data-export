@@ -1,6 +1,6 @@
 {{Passive skill
 |id                                  = staff_damage_block_notable2573
-|int_id                              = -28677
+|int_id                              = 36859
 |name                                = Steelwood Stance
 |is_notable                          = True
 |icon                                = StaffNotable3
@@ -11,4 +11,5 @@
 |stat3_id                            = staff_block_%
 |stat3_value                         = 10
 |stat_text                           = [[Staff]] [[Attack|Attacks]] deal 30% increased Damage with [[Hit|Hits]] and Ailments<br>+800 [[Armour]] if you've Blocked [[Recently]]<br>+10% Chance to [[Block]] [[Attack Damage]] while wielding a [[Staff]]
+|connections                         = mastery_staff221,staff_accu2566,staff_damage_block2572
 }}

@@ -1,6 +1,6 @@
 {{Passive skill
 |id                                  = AscendancyRaider12
-|int_id                              = -10027
+|int_id                              = 55509
 |name                                = Avatar of the Wilds
 |reminder_text                       = (Unbound Avatar requires 100 Unbound Fury to use and causes you to become Unbound for 10 seconds, which has no effects beyond those listed here)
 |ascendancy_class                    = Warden
@@ -15,4 +15,5 @@
 |stat4_id                            = ailment_bearer_elemental_damage_+%_final
 |stat4_value                         = 80
 |stat_text                           = Grants [[Level]] 20 Unbound Avatar [[Skill]]<br>Your [[Hit|Hits]] always inflict [[Freeze]], [[Shock]] and [[Ignite]] while Unbound<br>Gain 1 Unbound Fury when you inflict an Elemental Ailment with a [[Hit]] on an Enemy, no more than once every 0.2 seconds for each type of Ailment<br />Cannot gain Unbound Fury while Unbound<br>80% more [[Elemental Damage]] while Unbound
+|connections                         = AscendancyRaider11,AscendancyRaider15,AscendancyRaider16
 }}

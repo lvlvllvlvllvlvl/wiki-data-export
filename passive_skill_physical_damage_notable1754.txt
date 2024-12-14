@@ -1,6 +1,6 @@
 {{Passive skill
 |id                                  = physical_damage_notable1754
-|int_id                              = -18471
+|int_id                              = 47065
 |name                                = Master of Blades
 |is_notable                          = True
 |icon                                = MasterofForce
@@ -11,4 +11,5 @@
 |stat3_id                            = hits_ignore_enemy_monster_physical_damage_reduction_%_chance
 |stat3_value                         = 30
 |stat_text                           = 30% increased [[Physical Damage]]<br>+30 to [[Strength]]<br>[[Hit|Hits]] have 30% chance to ignore Enemy [[Physical Damage]] Reduction
+|connections                         = physical_damage1752,mastery_physical196
 }}

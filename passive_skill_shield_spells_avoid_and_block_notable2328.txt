@@ -1,6 +1,6 @@
 {{Passive skill
 |id                                  = shield_spells_avoid_and_block_notable2328
-|int_id                              = -18632
+|int_id                              = 46904
 |name                                = Arcane Sanctuary
 |is_notable                          = True
 |icon                                = ShieldNotable
@@ -11,4 +11,5 @@
 |stat3_id                            = shield_spell_block_%
 |stat3_value                         = 8
 |stat_text                           = 25% increased [[Spell Damage]] while holding a [[Shield]]<br>25% reduced Elemental Ailment Duration on you while holding a [[Shield]]<br>+8% Chance to [[Block]] [[Spell Damage]] while holding a [[Shield]]
+|connections                         = mastery_shield215,shield_spells_avoid_and_block2327,shield_spells_avoid_and_block2334
 }}

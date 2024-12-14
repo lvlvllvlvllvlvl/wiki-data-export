@@ -1,9 +1,10 @@
 {{Passive skill
 |id                                  = rage2102
-|int_id                              = -12204
+|int_id                              = 53332
 |name                                = Slower Rage Decay
 |icon                                = Rage
 |stat1_id                            = rage_decay_speed_+%
 |stat1_value                         = -10
 |stat_text                           = Inherent loss of Rage is 10% slower
+|connections                         = rage2103,rage2100,rage2103
 }}

@@ -1,6 +1,6 @@
 {{Passive skill
 |id                                  = additional_trap_and_mine_and_damage1536
-|int_id                              = -18571
+|int_id                              = 46965
 |name                                = Saboteur
 |is_notable                          = True
 |icon                                = saboteur
@@ -13,4 +13,5 @@
 |stat4_id                            = number_of_additional_remote_mines_allowed
 |stat4_value                         = 2
 |stat_text                           = 30% increased [[Trap]] Damage<br>30% increased [[Mine]] Damage<br>Can have up to 2 additional [[Trap|Traps]] placed at a time<br>Can have up to 2 additional Remote [[Mine|Mines]] placed at a time
+|connections                         = trap_and_mine_damage1511,trap_and_mine_damage1511,trap_laying_speed1261
 }}

@@ -1,6 +1,6 @@
 {{Passive skill
 |id                                  = melee_damage707
-|int_id                              = -31548
+|int_id                              = 33988
 |name                                = Melee Damage
 |icon                                = damagemelee
 |stat1_id                            = melee_physical_damage_+%
@@ -8,4 +8,5 @@
 |stat2_id                            = melee_weapon_ailment_damage_+%
 |stat2_value                         = 0
 |stat_text                           = 12% increased Melee [[Physical Damage]]
+|connections                         = melee_damage687,melee_physical_damage1593,melee_damage687
 }}

@@ -1,6 +1,6 @@
 {{Passive skill
 |id                                  = ignite_bleed_notable2878
-|int_id                              = -15891
+|int_id                              = 49645
 |name                                = Cauterisation
 |is_notable                          = True
 |icon                                = IgniteBleedNotable
@@ -9,4 +9,5 @@
 |stat2_id                            = cannot_be_bled_by_bleeding_enemies
 |stat2_value                         = 1
 |stat_text                           = Ignited enemies cannot [[Ignite]] you<br>Bleeding enemies cannot inflict Bleeding on you
+|connections                         = mastery_damageovertime265,ignite_bleed_duration2873,mastery_damageovertime265
 }}

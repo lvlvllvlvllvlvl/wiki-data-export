@@ -1,9 +1,10 @@
 {{Passive skill
 |id                                  = poison_bleed_duration_2180
-|int_id                              = -21852
+|int_id                              = 43684
 |name                                = Faster Ailments
 |icon                                = DamageOverTime
 |stat1_id                            = damaging_ailments_deal_damage_+%_faster
 |stat1_value                         = 5
 |stat_text                           = Damaging Ailments deal damage 5% faster
+|connections                         = poison_bleed_chance_2179,poison_bleed_notable_2181
 }}

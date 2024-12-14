@@ -1,6 +1,6 @@
 {{Passive skill
 |id                                  = AscendancyOccultist16
-|int_id                              = -17906
+|int_id                              = 47630
 |name                                = Frigid Wake
 |reminder_text                       = (Freeze lowers Enemy Action Speed to zero, preventing them from acting. Duration is based on the Cold Damage of the Hit)
 |buff_id                             = freeze_nearby_chilled_enemies_every_4_seconds,occultist_hit_damage_while_chilled
@@ -18,4 +18,5 @@
 |stat4_value                         = 50
 |stat5_id                            = hit_damage_+%_while_chilled
 |stat5_value                         = -10
+|connections                         = AscendancyOccultist14
 }}

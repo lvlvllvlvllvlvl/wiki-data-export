@@ -1,10 +1,11 @@
 {{Passive skill
 |id                                  = tincture_notable_2960_
-|int_id                              = -13506
+|int_id                              = 52030
 |name                                = Burst of Energy
 |is_notable                          = True
 |icon                                = TinctureManaNotable1
 |stat1_id                            = recover_%_maximum_mana_on_activating_tincture
 |stat1_value                         = 15
 |stat_text                           = Recover 15% of [[Mana]] when you activate a Tincture
+|connections                         = mastery_tincture_300,tincture_node_2956,tincture_node_2958
 }}
