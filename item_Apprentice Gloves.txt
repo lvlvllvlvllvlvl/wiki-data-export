@@ -1,13 +1,16 @@
 {{Item
 |rarity_id                               = normal
 |name                                    = Apprentice Gloves
-|class_id                                = Microtransaction
+|class_id                                = Gloves
 |size_x                                  = 2
 |size_y                                  = 2
-|tags                                    = not_for_sale, default
-|metadata_id                             = Metadata/Items/MicrotransactionItemEffects/MasterArmour1Gloves
-|stack_size                              = 1
-|description                             = Changes the appearance of any equipped gloves to the Apprentice Supporter gloves.
-|cosmetic_type                           = Gloves Skin
-|cosmetic_theme                          = Forsaken Masters
+|drop_level                              = 40
+|drop_rarities_ids                       = normal, magic, rare, unique
+|tags                                    = dex_armour, not_for_sale, gloves, armour, default
+|metadata_id                             = Metadata/Items/Armours/Gloves/GlovesDexRitual2
+|implicit1                               = TrapSkillEffectDurationTrapCooldownPenaltyImplicitR2
+|required_level                          = 40
+|required_dexterity                      = 59
+|evasion_min                             = 132
+|evasion_max                             = 152
 }}
