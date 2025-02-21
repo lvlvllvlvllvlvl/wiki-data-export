@@ -1,0 +1,15 @@
+{{Passive skill
+|id                                  = AscendancyCustomNecromancer10
+|int_id                              = 7842
+|name                                = Venom Drinker
+|ascendancy_class                    = Necromancer
+|is_notable                          = True
+|icon                                = VoodooShamanBloodMagic2 (VoodooShaman)
+|stat1_id                            = chance_to_be_poisoned_%
+|stat1_value                         = 100
+|stat2_id                            = cannot_be_poisoned_if_x_poisons_on_you
+|stat2_value                         = 5
+|stat3_id                            = additional_maximum_all_resistances_%_while_poisoned
+|stat3_value                         = 5
+|stat_text                           = +100% chance to be [[Poison|Poisoned]]<br>You cannot be [[Poison|Poisoned]] while there are at least 5 [[Poison|Poisons]] on you<br>+5% to all maximum Resistances while [[Poison|Poisoned]]
+}}

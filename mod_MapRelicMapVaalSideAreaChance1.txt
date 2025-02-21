@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapRelicMapVaalSideAreaChance1
+|mod_groups                       = MapRelicMapVaalSideAreaChance
+|domain                           = 38
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Corrupting
+|mod_type                         = MapRelicMapVaalSideAreaChance
+|stat_text                        = +(5-8)% Chance to contain a Vaal Side Area
+|stat1_id                         = map_vaal_side_area_chance_%
+|stat1_min                        = 5
+|stat1_max                        = 8
+|spawn_weight1_tag                = atlas_relic_medium
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

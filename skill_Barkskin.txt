@@ -12,11 +12,19 @@
 |static_mana_reservation_percent         = 10
 |static_stat1_id                         = max_barkskin_stacks
 |static_stat1_value                      = 10
-|static_stat2_id                         = physical_attack_damage_taken_+_per_barkskin_stack
-|static_stat2_value                      = -30
-|static_stat3_id                         = chance_to_evade_attacks_+%_final_per_missing_barkskin_stack
-|static_stat3_value                      = 2
-|stat_text                               = Gain 1 Bark each second if you haven't been Hit by an Enemy Attack Recently<br>Lose 1 Bark when Hit by an Enemy Attack<br>Maximum 10 Bark<br>-30 Physical Damage taken from Attack Hits per Bark<br>2% more chance to Evade Attacks per Bark below maximum
+|stat_text                               = Gain 1 Bark each second if you haven't been Hit by an Enemy Attack Recently<br>Lose 1 Bark when Hit by an Enemy Attack<br>Maximum 10 Bark<br>-(60-90) Physical Damage taken from Attack Hits per Bark<br>(4-5)% more chance to Evade Attacks per Bark below maximum
 |level1                                  = True
 |level1_level_requirement                = 70
+|level1_stat_text                        = -60 Physical Damage taken from Attack Hits per Bark<br>4% more chance to Evade Attacks per Bark below maximum
+|level1_stat1_id                         = physical_attack_damage_taken_+_per_barkskin_stack
+|level1_stat1_value                      = -60
+|level1_stat2_id                         = chance_to_evade_attacks_+%_final_per_missing_barkskin_stack
+|level1_stat2_value                      = 4
+|level2                                  = True
+|level2_level_requirement                = 90
+|level2_stat_text                        = -90 Physical Damage taken from Attack Hits per Bark<br>5% more chance to Evade Attacks per Bark below maximum
+|level2_stat1_id                         = physical_attack_damage_taken_+_per_barkskin_stack
+|level2_stat1_value                      = -90
+|level2_stat2_id                         = chance_to_evade_attacks_+%_final_per_missing_barkskin_stack
+|level2_stat2_value                      = 5
 }}

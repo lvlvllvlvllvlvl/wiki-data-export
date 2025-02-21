@@ -5,7 +5,6 @@
 |cast_time                               = 1.0
 |required_level                          = 1
 |static_stored_uses                      = 1
-|static_cooldown                         = 40
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
@@ -21,4 +20,8 @@
 |stat_text                               = Base duration is 3.00 seconds<br>Trigger this Spell when you're Hit<br>This Skill's Cooldown does not recover during its effect<br>100% increased Stealth
 |level1                                  = True
 |level1_level_requirement                = 1
+|level1_cooldown                         = 40
+|level2                                  = True
+|level2_level_requirement                = 1
+|level2_cooldown                         = 20
 }}

@@ -1,0 +1,20 @@
+{{Mod
+|id                               = UniqueMapRelicGruellingGauntlet
+|mod_groups                       = UniqueMapRelicGruellingGauntlet
+|domain                           = 38
+|generation_type                  = 3
+|required_level                   = 1
+|mod_type                         = UniqueMapRelicGruellingGauntlet
+|stat_text                        = Ultimatum Encounters in your Maps last up to 13 Rounds<br>Players cannot choose which Ultimatum Modifier is applied each Round<br>Cannot have a Boss in the final Round
+|stat1_id                         = map_ultimatum_lasts_13_rounds
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_ultimatum_modifiers_are_chosen_for_you
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = map_ultimatum_trialmaster_cannot_spawn
+|stat3_min                        = 1
+|stat3_max                        = 1
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

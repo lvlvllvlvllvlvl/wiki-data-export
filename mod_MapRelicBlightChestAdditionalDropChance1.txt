@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapRelicBlightChestAdditionalDropChance1
+|mod_groups                       = MapRelicBlightChestAdditionalDropChance
+|domain                           = 38
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Blight
+|mod_type                         = MapRelicBlightChestAdditionalDropChance
+|stat_text                        = (15-25)% chance for [[Blight]] Chests to contain an additional Reward
+|stat1_id                         = map_blight_chest_%_chance_for_additional_drop
+|stat1_min                        = 15
+|stat1_max                        = 25
+|spawn_weight1_tag                = atlas_relic_medium
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

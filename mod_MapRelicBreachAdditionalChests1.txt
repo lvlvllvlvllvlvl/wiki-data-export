@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapRelicBreachAdditionalChests1
+|mod_groups                       = MapRelicBreachAdditionalChests
+|domain                           = 38
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Breach
+|mod_type                         = MapRelicBreachAdditionalChests
+|stat_text                        = Breaches in Area contain (2-3) additional Clasped Hands
+|stat1_id                         = map_breaches_num_additional_chests_to_spawn
+|stat1_min                        = 2
+|stat1_max                        = 3
+|spawn_weight1_tag                = atlas_relic_very_large
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

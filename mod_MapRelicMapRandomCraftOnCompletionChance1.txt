@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapRelicMapRandomCraftOnCompletionChance1
+|mod_groups                       = MapRelicMapRandomCraftOnCompletionChance
+|domain                           = 38
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Cartographer's
+|mod_type                         = MapRelicMapRandomCraftOnCompletionChance
+|stat_text                        = [DNT] (8-12)% chance on Completing this Map to gain a free use of a random Map Crafting option
+|stat1_id                         = map_gain_random_map_craft_on_completion_chance_%
+|stat1_min                        = 8
+|stat1_max                        = 12
+|spawn_weight1_tag                = atlas_relic_very_large
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

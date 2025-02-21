@@ -665,5 +665,6 @@ local data = {
 	RacetrackGreenRhoa = 664, 
 	RacetrackBlueRhoa = 665, 
 	VillageMiningInteractable = 666, 
+	VillageGambling = 667, 
 }
 return data

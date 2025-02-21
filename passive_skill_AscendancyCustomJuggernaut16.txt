@@ -1,0 +1,14 @@
+{{Passive skill
+|id                                  = AscendancyCustomJuggernaut16
+|int_id                              = 17140
+|name                                = Spirit of Kaom
+|reminder_text                       = (Summons an immortal chieftain minion of the Ngamahu tribe to fight alongside you for a duration. This minion grants you a buff which allows totems to take some damage from hits for you)
+|ascendancy_class                    = Juggernaut
+|is_multiple_choice_option           = True
+|icon                                = JuggernautArmourNotable (Juggernaut)
+|stat1_id                            = local_display_tattoo_trigger_level_x_kaom
+|stat1_value                         = 20
+|stat2_id                            = has_trigger_on_totem_death_in_presence_of_unique
+|stat2_value                         = 1
+|stat_text                           = Trigger [[Level|level]] 20 Summon Spirit of Kaom [[Skill]] when a [[Totem]] dies while<br />a Unique Enemy is [[In your presence|in your Presence]]
+}}

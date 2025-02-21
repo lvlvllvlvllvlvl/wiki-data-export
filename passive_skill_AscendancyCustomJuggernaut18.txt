@@ -1,0 +1,14 @@
+{{Passive skill
+|id                                  = AscendancyCustomJuggernaut18
+|int_id                              = 16639
+|name                                = Spirit of Kiloava
+|reminder_text                       = (Summons an immortal chieftain minion of the Valako tribe to fight alongside you for a duration. This minion grants you a buff which recovers life, mana and energy shield when you block)
+|ascendancy_class                    = Juggernaut
+|is_multiple_choice_option           = True
+|icon                                = JuggernautArmourNotable (Juggernaut)
+|stat1_id                            = local_display_tattoo_trigger_level_x_kiloava
+|stat1_value                         = 20
+|stat2_id                            = has_trigger_on_block_hit_from_unique
+|stat2_value                         = 1
+|stat_text                           = Trigger [[Level|level]] 20 Summon Spirit of Kiloava [[Skill]] when you [[Block]] Damage from a Unique Enemy
+}}

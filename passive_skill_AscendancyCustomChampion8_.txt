@@ -1,0 +1,13 @@
+{{Passive skill
+|id                                  = AscendancyCustomChampion8_
+|int_id                              = 40299
+|name                                = Elemental Valiance
+|reminder_text                       = (Summons a Relic of a random element that stays near you. Depending on the element chosen, the relic minion will have an Anger, Hatred, or Wrath aura. These relics explode when they die, dealing elemental damage to enemies around them. If you already have a relic of the chosen element, its duration will be refreshed instead of summoning a new one)
+|buff_id                             = trigger_allied_guardian_relic_on_kill
+|ascendancy_class                    = Champion
+|is_notable                          = True
+|icon                                = OneHandedPhysicalAndLeechNotable
+|stat_text                           = 25% chance to Trigger [[Level]] 20 Summon Elemental Relic when you or a {{Radius|nearby|6.0m}} Ally [[Kill]] an Enemy, or [[Hit]] a Rare or Unique Enemy
+|stat1_id                            = can_trigger_summon_elemental_relic_on_nearby_ally_kill_or_on_hit_rare_or_unique
+|stat1_value                         = 25
+}}

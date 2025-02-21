@@ -1,0 +1,14 @@
+{{Passive skill
+|id                                  = AscendancyCustomNecromancer8
+|int_id                              = 35066
+|name                                = Eerie Silence
+|reminder_text                       = (Pacify curses all targets in an area, having no effect at first, but causing them to deal no damage once 60% of the curse's duration has expired)
+|ascendancy_class                    = Necromancer
+|is_notable                          = True
+|icon                                = VoodooShamanBloodMagic2 (VoodooShaman)
+|stat1_id                            = local_display_grants_skill_quieten
+|stat1_value                         = 20
+|stat2_id                            = enemies_pacified_by_you_take_+%_damage
+|stat2_value                         = 30
+|stat_text                           = Grants [[Level]] 20 Pacify [[Skill]]<br>Enemies Pacified by you take 30% increased Damage
+}}

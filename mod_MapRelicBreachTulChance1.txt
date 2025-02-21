@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapRelicBreachTulChance1
+|mod_groups                       = MapRelicBreachTulChance
+|domain                           = 38
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Breach
+|mod_type                         = MapRelicBreachTulChance
+|stat_text                        = Breaches in Area have (80-120)% increased chance to belong to Tul
+|stat1_id                         = map_breach_chance_to_be_tul_+%
+|stat1_min                        = 80
+|stat1_max                        = 120
+|spawn_weight1_tag                = atlas_relic_medium
+|spawn_weight1_value              = 160
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 7
+}}

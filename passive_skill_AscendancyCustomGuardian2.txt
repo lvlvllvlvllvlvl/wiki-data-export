@@ -1,0 +1,16 @@
+{{Passive skill
+|id                                  = AscendancyCustomGuardian2
+|int_id                              = 32742
+|name                                = Devout of Solaris
+|buff_id                             = generic_buff_aura
+|ascendancy_class                    = Guardian
+|is_notable                          = True
+|icon                                = RadientFaith (Guardian)
+|stat1_id                            = enemies_you_blind_have_critical_strike_chance_+%
+|stat1_value                         = -100
+|stat2_id                            = critical_strike_chance_+%_vs_blinded_enemies
+|stat2_value                         = 100
+|stat3_id                            = local_display_nearby_enemies_are_blinded
+|stat3_value                         = 1
+|stat_text                           = Enemies Blinded by you have 100% reduced [[Critical Strike Chance]]<br>100% increased [[Critical Strike Chance]] against Blinded Enemies<br>[[Nearby]] Enemies are Blinded<br>
+}}

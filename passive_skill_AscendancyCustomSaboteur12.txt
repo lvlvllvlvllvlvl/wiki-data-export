@@ -1,0 +1,20 @@
+{{Passive skill
+|id                                  = AscendancyCustomSaboteur12
+|int_id                              = 37553
+|name                                = Ghost of the Deep
+|buff_id                             = custom_ascendancy_possessed_by_tormented_fisherman
+|ascendancy_class                    = Saboteur
+|is_notable                          = True
+|icon                                = TempestNotable1 (AtlasTrees)
+|stat1_id                            = local_display_touched_by_tormented_illegal_fisherman
+|stat1_value                         = 1
+|stat_text                           = You are Touched by a Tormented Illegal Fisherman granting:<br>You and [[Nearby|nearby]] Allies have 30% increased [[Movement Speed]]<br>30% increased [[Attack Speed]]<br>30% increased [[Cast Speed]]<br>[[Nearby]] Allies deal 20% increased Damage
+|stat2_id                            = base_movement_velocity_+%
+|stat2_value                         = 30
+|stat3_id                            = attack_speed_+%
+|stat3_value                         = 30
+|stat4_id                            = base_cast_speed_+%
+|stat4_value                         = 30
+|stat5_id                            = damage_+%
+|stat5_value                         = 20
+}}

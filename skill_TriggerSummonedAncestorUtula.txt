@@ -19,7 +19,7 @@
 |static_stat4_value                      = 1
 |static_stat5_id                         = minion_actor_level_is_user_level_up_to_maximum
 |static_stat5_value                      = 85
-|stat_text                               = Base duration is 12.00 seconds<br>(0-10)% chance to Trigger this Spell on Kill<br>Buff makes 25% of Leech Instant<br>20% increased Buff Effect per Allocated Kitava Tattoo<br>This Skill's Cooldown does not recover during its effect<br>Minions' Level is equal to yours, up to a maximum of 85
+|stat_text                               = Base duration is 12.00 seconds<br>Buff makes 25% of Leech Instant<br>20% increased Buff Effect per Allocated Kitava Tattoo<br>This Skill's Cooldown does not recover during its effect<br>Minions' Level is equal to yours, up to a maximum of 85
 |level1                                  = True
 |level1_level_requirement                = 0
 |level1_cooldown                         = 80
@@ -29,4 +29,7 @@
 |level2_stat_text                        = 10% chance to Trigger this Spell on Kill
 |level2_stat1_id                         = chance_to_cast_on_kill_%
 |level2_stat1_value                      = 10
+|level3                                  = True
+|level3_level_requirement                = 0
+|level3_cooldown                         = 20
 }}

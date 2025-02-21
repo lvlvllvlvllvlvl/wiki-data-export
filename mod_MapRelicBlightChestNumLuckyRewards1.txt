@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapRelicBlightChestNumLuckyRewards1
+|mod_groups                       = MapRelicBlightChestNumLuckyRewards
+|domain                           = 38
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Blight
+|mod_type                         = MapRelicBlightChestNumLuckyRewards
+|stat_text                        = Varieties of Items contained in (3-5) [[Blight]] Chests are [[Lucky]]
+|stat1_id                         = blighted_map_chest_reward_lucky_count
+|stat1_min                        = 3
+|stat1_max                        = 5
+|spawn_weight1_tag                = atlas_relic_very_large
+|spawn_weight1_value              = 800
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

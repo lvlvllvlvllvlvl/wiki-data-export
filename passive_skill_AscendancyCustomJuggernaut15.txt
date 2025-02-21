@@ -1,0 +1,14 @@
+{{Passive skill
+|id                                  = AscendancyCustomJuggernaut15
+|int_id                              = 59500
+|name                                = Spirit of Kahuturoa
+|reminder_text                       = (Summons an immortal chieftain minion of the Rongokurai tribe to fight alongside you for a duration. This minion grants you a buff which lets a percentage of your armour protect against all damage types)
+|ascendancy_class                    = Juggernaut
+|is_multiple_choice_option           = True
+|icon                                = JuggernautArmourNotable (Juggernaut)
+|stat1_id                            = local_display_tattoo_trigger_level_x_kahuturoa
+|stat1_value                         = 20
+|stat2_id                            = has_trigger_on_crit_by_unique_enemy
+|stat2_value                         = 1
+|stat_text                           = Trigger [[Level|level]] 20 Summon Spirit of Kahuturoa [[Skill]] when you take<br />a [[Critical Strike]] from a Unique Enemy
+}}

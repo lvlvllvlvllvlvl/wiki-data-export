@@ -1,0 +1,17 @@
+{{Passive skill
+|id                                  = AscendancyCustomElementalist14
+|int_id                              = 6613
+|name                                = Damnation
+|ascendancy_class                    = Elementalist
+|is_notable                          = True
+|icon                                = HeraldDamageNotable
+|stat1_id                            = damage_taken_+%_to_an_element_for_4_seconds_when_hit_by_damage_from_an_element
+|stat1_value                         = -20
+|stat2_id                            = fire_damage_taken_goes_to_life_over_4_seconds_%
+|stat2_value                         = 20
+|stat3_id                            = cold_damage_taken_goes_to_life_over_4_seconds_%
+|stat3_value                         = 20
+|stat4_id                            = lightning_damage_taken_goes_to_life_over_4_seconds_%
+|stat4_value                         = 20
+|stat_text                           = For each Element you've been [[Hit|hit]] by Damage of [[Recently]], 20% reduced Damage taken of that Element<br>20% of [[Fire Damage]] taken Recouped as [[Life]]<br>20% of [[Cold Damage]] taken Recouped as [[Life]]<br>20% of [[Lightning Damage]] taken Recouped as [[Life]]
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapRelicBreachBossBreachstoneChance1
+|mod_groups                       = MapRelicBreachBossBreachstoneChance
+|domain                           = 38
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Breach
+|mod_type                         = MapRelicBreachBossBreachstoneChance
+|stat_text                        = Breach Bosses Defeated in Area have (3-5)% chance to drop a Breachstone
+|stat1_id                         = map_chance_for_breach_bosses_to_drop_breachstone_%
+|stat1_min                        = 3
+|stat1_max                        = 5
+|spawn_weight1_tag                = atlas_relic_very_large
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1995,5 +1995,8 @@ local data = {	{
 	},
 	{
 		id = "VillageMiningInteractable", 
+	},
+	{
+		id = "VillageGambling", 
 	}}
 return data

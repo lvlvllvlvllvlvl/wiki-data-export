@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapRelicExpeditionExtraRelicSuffixChance1
+|mod_groups                       = MapRelicExpeditionExtraRelicSuffixChance
+|domain                           = 38
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Expedition
+|mod_type                         = MapRelicExpeditionExtraRelicSuffixChance
+|stat_text                        = Remnants have (25-35)% chance to have an additional Suffix Modifier
+|stat1_id                         = map_expedition_extra_relic_suffix_chance_%
+|stat1_min                        = 25
+|stat1_max                        = 35
+|spawn_weight1_tag                = atlas_relic_large
+|spawn_weight1_value              = 400
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

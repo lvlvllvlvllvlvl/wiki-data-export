@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapRelicStrongboxAdditionalLarge
+|mod_groups                       = MapRelicStrongboxAdditional
+|domain                           = 38
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Trapped
+|mod_type                         = MapRelicStrongboxAdditional
+|stat_text                        = Area contains an additional Strongbox
+|stat1_id                         = map_num_extra_strongboxes
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = atlas_relic_large
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapRelicShrineBuffEffect1
+|mod_groups                       = MapRelicShrineBuffEffect
+|domain                           = 38
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Domination
+|mod_type                         = MapRelicShrineBuffEffect
+|stat_text                        = (25-35)% increased Effect of Shrine Buffs on Players
+|stat1_id                         = map_player_shrine_buff_effect_on_self_+%
+|stat1_min                        = 25
+|stat1_max                        = 35
+|spawn_weight1_tag                = atlas_relic_medium
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

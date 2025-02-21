@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MapRelicEssenceThreeAdditionalEssenceChance1
+|mod_groups                       = MapRelicEssenceThreeAdditionalEssenceChance
+|domain                           = 38
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Essences
+|mod_type                         = MapRelicEssenceThreeAdditionalEssenceChance
+|stat_text                        = Imprisoned Monsters in Area have (12-17)% chance to have 3 additional Essences
+|stat1_id                         = map_essence_monsters_chance_for_3_additional_essences_%
+|stat1_min                        = 12
+|stat1_max                        = 17
+|spawn_weight1_tag                = atlas_relic_large
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}
