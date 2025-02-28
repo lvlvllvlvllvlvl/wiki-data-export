@@ -1,12 +1,13 @@
 {{Mod
 |id                               = NearbyEnemiesAreBlindedUnique__1
-|mod_groups                       = NearbyEnemiesAreBlinded
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 10
 |granted_buff_id                  = generic_buff_aura
 |granted_buff_value               = 35
+|mod_groups                       = NearbyEnemiesAreBlinded
 |mod_type                         = NearbyEnemiesAreBlinded
+|game_mode                        = 0
 |stat_text                        = {{Radius||3.5m}} Enemies are Blinded
 |stat1_id                         = dummy_stat_display_nothing
 |stat1_min                        = 1

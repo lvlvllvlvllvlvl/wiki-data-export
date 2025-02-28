@@ -1,12 +1,13 @@
 {{Mod
 |id                               = ReducedShockEffectOnSelfEldritchImplicitPinnaclePresence4
-|mod_groups                       = ShockEffect
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = ShockEffect
 |mod_type                         = ReducedShockEffectOnSelfPinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], (62-60)% reduced Effect of [[Shock]] on you
 |stat1_id                         = shocked_effect_on_self_+%
 |stat1_min                        = -62

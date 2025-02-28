@@ -1,11 +1,12 @@
 {{Mod
 |id                               = RecombinatorSpecialLightningDamageToAttacksPerIntelligence
-|mod_groups                       = GlobalAddedDamagePerAttribute
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 68
 |name                             = Sentinel's
+|mod_groups                       = GlobalAddedDamagePerAttribute
 |mod_type                         = LightningDamageToAttacksPerIntelligence
+|game_mode                        = 0
 |stat_text                        = Adds 1 to 5 [[Lightning Damage]] to [[Attack|Attacks]] per 10 [[Intelligence]]
 |stat1_id                         = minimum_added_lightning_damage_to_attacks_per_10_intelligence
 |stat1_min                        = 1

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AbyssDamageRecoupedAsMana2
-|mod_groups                       = PercentDamageGoesToMana
 |domain                           = 13
 |generation_type                  = 1
 |required_level                   = 86
 |name                             = Motivating
+|mod_groups                       = PercentDamageGoesToMana
 |mod_type                         = PercentDamageGoesToMana
+|game_mode                        = 0
 |stat_text                        = 3% of Damage taken Recouped as [[Mana]]
 |stat1_id                         = damage_taken_goes_to_mana_%
 |stat1_min                        = 3

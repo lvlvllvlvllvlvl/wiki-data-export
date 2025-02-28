@@ -1,11 +1,12 @@
 {{Mod
 |id                               = UniqueSpecialCorruptionSocketedGemsManaMultiplier_
-|mod_groups                       = SocketedGemsHaveReducedManaCost
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = SocketedGemsHaveReducedManaCost
 |granted_skill                    = ReducedManaCorruptedSpecial
 |mod_type                         = SocketedSkillsManaMultiplier
+|game_mode                        = 0
 |stat_text                        = [[Item socket|Socketed]] [[Skill]] Gems get a 80% Cost & Reservation Multiplier
 |stat1_id                         = local_display_socketed_gems_get_mana_multplier_%
 |stat1_min                        = 80

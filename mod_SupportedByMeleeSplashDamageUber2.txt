@@ -1,12 +1,13 @@
 {{Mod
 |id                               = SupportedByMeleeSplashDamageUber2
-|mod_groups                       = SupportedByMelee
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 75
 |name                             = of Shaping
+|mod_groups                       = SupportedByMelee
 |granted_skill                    = SupportMeleeSplash
 |mod_type                         = SupportedByMeleeSplashDamage
+|game_mode                        = 0
 |stat_text                        = [[Item socket|Socketed]] Gems are supported by [[Melee Splash Support|Level 18 Melee Splash]]<br>(28-32)% increased Area Damage
 |stat1_id                         = local_display_socketed_gems_get_melee_splash_level
 |stat1_min                        = 18

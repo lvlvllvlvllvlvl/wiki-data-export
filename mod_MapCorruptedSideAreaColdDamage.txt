@@ -1,11 +1,12 @@
 {{Mod
 |id                               = MapCorruptedSideAreaColdDamage
-|mod_groups                       = MapMonsterElementalDamage
 |domain                           = 5
 |generation_type                  = 1
 |required_level                   = 69
 |name                             = Freezing
+|mod_groups                       = MapMonsterElementalDamage
 |mod_type                         = MapCorruptedSideAreaMonsterColdDamage
+|game_mode                        = 0
 |stat_text                        = 18% increased Quantity of Items found in this Area<br>Found Items have 2% chance to drop Corrupted in Area<br>Monsters deal (120-160)% extra [[Physical Damage]] as Cold
 |stat1_id                         = map_item_drop_quantity_+%
 |stat1_min                        = 18

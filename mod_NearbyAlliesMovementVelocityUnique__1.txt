@@ -1,12 +1,13 @@
 {{Mod
 |id                               = NearbyAlliesMovementVelocityUnique__1
-|mod_groups                       = NearbyAlliesMovementVelocity
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
 |granted_buff_id                  = unique_victarios_flight_movement_velocity
 |granted_buff_value               = 50
+|mod_groups                       = NearbyAlliesMovementVelocity
 |mod_type                         = NearbyAlliesMovementVelocity
+|game_mode                        = 0
 |stat_text                        = 10% increased [[Movement Speed]] for you and {{Radius|nearby|5.0m}} Allies
 |stat1_id                         = local_display_movement_speed_+%_for_you_and_nearby_allies
 |stat1_min                        = 10

@@ -1,12 +1,13 @@
 {{Mod
 |id                               = SocketedAttacksManaCostInfluenceMaven
-|mod_groups                       = SocketedAttacksManaCost
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 95
 |name                             = of the Elevated Conquest
+|mod_groups                       = SocketedAttacksManaCost
 |granted_skill                    = DelveModSocketedAttackFlatManaCost
 |mod_type                         = SocketedAttacksManaCostMaven
+|game_mode                        = 0
 |stat_text                        = [[Item socket|Socketed]] [[Attack|Attacks]] have -20 to Total [[Mana]] Cost<br>Ignore Stuns while using [[Item socket|Socketed]] [[Attack]] [[Skill|Skills]]
 |stat1_id                         = local_display_socketed_attacks_mana_cost_+
 |stat1_min                        = -20

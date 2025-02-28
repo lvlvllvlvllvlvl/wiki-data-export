@@ -1,11 +1,12 @@
 {{Mod
 |id                               = HeistContractMonsterColdDamage2
-|mod_groups                       = MapMonsterColdDamage
 |domain                           = 22
 |generation_type                  = 1
 |required_level                   = 46
 |name                             = Freezing
+|mod_groups                       = MapMonsterColdDamage
 |mod_type                         = HeistContractMonsterColdDamage
+|game_mode                        = 0
 |stat_text                        = Monsters deal (30-49)% extra [[Physical Damage]] as Cold
 |stat1_id                         = map_monsters_%_physical_damage_to_add_as_cold
 |stat1_min                        = 30

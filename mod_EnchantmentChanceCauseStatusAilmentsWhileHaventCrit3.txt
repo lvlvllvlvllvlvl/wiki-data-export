@@ -1,11 +1,12 @@
 {{Mod
 |id                               = EnchantmentChanceCauseStatusAilmentsWhileHaventCrit3
-|mod_groups                       = ConditionalBuffEnchantment
 |domain                           = 1
 |generation_type                  = 10
 |required_level                   = 75
 |name                             = Enchantment Status Ailments 3
+|mod_groups                       = ConditionalBuffEnchantment
 |mod_type                         = EnchantmentChanceCauseStatusAilmentsWhileHaventCrit
+|game_mode                        = 0
 |stat_text                        = 10% chance to [[Freeze]], [[Shock]] and [[Ignite]] if you haven't Crit [[Recently]]
 |stat1_id                         = enchantment_boots_status_ailment_chance_+%_when_havent_crit_for_4_seconds
 |stat1_min                        = 10

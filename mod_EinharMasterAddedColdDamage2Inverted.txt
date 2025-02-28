@@ -1,11 +1,12 @@
 {{Mod
 |id                               = EinharMasterAddedColdDamage2Inverted
-|mod_groups                       = ColdDamage
 |domain                           = 9
 |generation_type                  = 1
 |required_level                   = 40
 |name                             = Upgraded
+|mod_groups                       = ColdDamage
 |mod_type                         = SelfColdDamageTaken
+|game_mode                        = 0
 |stat_text                        = Adds (11-15) to (23-27) [[Cold Damage]] to [[Attack|Attacks]] against you
 |stat1_id                         = from_self_minimum_added_attack_cold_damage_taken
 |stat1_min                        = 11

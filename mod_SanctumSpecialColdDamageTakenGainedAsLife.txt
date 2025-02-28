@@ -1,11 +1,12 @@
 {{Mod
 |id                               = SanctumSpecialColdDamageTakenGainedAsLife
-|mod_groups                       = DamageTakenGainedAsLife
 |domain                           = 32
 |generation_type                  = 1
 |required_level                   = 75
 |name                             = Iceborn
+|mod_groups                       = DamageTakenGainedAsLife
 |mod_type                         = ColdDamageTakenGainedAsLife
+|game_mode                        = 0
 |stat_text                        = (15-20)% of [[Cold Damage]] taken Recouped as [[Life]]
 |stat1_id                         = cold_damage_taken_goes_to_life_over_4_seconds_%
 |stat1_min                        = 15

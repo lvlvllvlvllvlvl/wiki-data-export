@@ -1,11 +1,12 @@
 {{Mod
 |id                               = MapUberModActionSpeed
-|mod_groups                       = MapUberModActionSpeed
 |domain                           = 37
 |generation_type                  = 2
 |required_level                   = 1
 |name                             = of Deceleration
+|mod_groups                       = MapUberModActionSpeed
 |mod_type                         = MapUberModActionSpeed
+|game_mode                        = 0
 |stat_text                        = Players have 3% reduced Action Speed for each time they've used a [[Skill]] [[Recently]]
 |stat1_id                         = map_player_action_speed_+%_per_recent_skill_use
 |stat1_min                        = -3

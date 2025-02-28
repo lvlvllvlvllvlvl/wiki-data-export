@@ -1,10 +1,11 @@
 {{Mod
 |id                               = EnemiesExplodeOnDeathUniqueTwoHandMace7
-|mod_groups                       = EnemiesExplodeOnDeath
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = EnemiesExplodeOnDeath
 |mod_type                         = EnemiesExplodeOnDeath
+|game_mode                        = 0
 |stat_text                        = Enemies Killed with [[Attack]] or [[Spell]] [[Hit|Hits]] Explode, dealing 10% of their [[Life]] as [[Fire Damage]]
 |stat1_id                         = explode_on_kill_%_fire_damage_to_deal
 |stat1_min                        = 10

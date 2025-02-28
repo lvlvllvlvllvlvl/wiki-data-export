@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AddedLightningDamageCritRecentlyInfluence2
-|mod_groups                       = AddedLightningDamage
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 73
 |name                             = Redeemer's
+|mod_groups                       = AddedLightningDamage
 |mod_type                         = AddedLightningDamageIfCritRecently
+|game_mode                        = 0
 |stat_text                        = Adds 1 to (48-60) [[Lightning Damage]] if you've dealt a [[Critical Strike]] [[Recently]]
 |stat1_id                         = minimum_added_lightning_damage_if_have_crit_recently
 |stat1_min                        = 1

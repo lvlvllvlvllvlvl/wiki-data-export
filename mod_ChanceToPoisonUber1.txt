@@ -1,12 +1,13 @@
 {{Mod
 |id                               = ChanceToPoisonUber1
-|mod_groups                       = LocalChanceToPoisonOnHit
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 68
 |name                             = of the Elder
+|mod_groups                       = LocalChanceToPoisonOnHit
 |granted_skill                    = SupportChanceToPoison
 |mod_type                         = ChanceToPoisonSupported
+|game_mode                        = 0
 |stat_text                        = 15% chance to [[Poison]] on [[Hit]]<br>[[Item socket|Socketed]] Gems are Supported by [[Level]] 18 Chance to [[Poison]]
 |stat1_id                         = local_poison_on_hit_%
 |stat1_min                        = 15

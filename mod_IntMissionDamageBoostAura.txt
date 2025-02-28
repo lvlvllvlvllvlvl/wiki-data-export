@@ -1,12 +1,13 @@
 {{Mod
 |id                               = IntMissionDamageBoostAura
-|mod_groups                       = MonsterAura
 |domain                           = 3
 |generation_type                  = 3
 |required_level                   = 1
 |granted_buff_id                  = int_mission_dying_breath_aura
 |granted_buff_value               = 50
+|mod_groups                       = MonsterAura
 |mod_type                         = MonsterAuraLargeDamageAll
+|game_mode                        = 0
 |stat_text                        = 
 |tags                             = damage
 }}

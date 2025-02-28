@@ -1,11 +1,12 @@
 {{Mod
 |id                               = MapUberModAllyPunishment
-|mod_groups                       = MapUberModAllyPunishment
 |domain                           = 37
 |generation_type                  = 1
 |required_level                   = 1
 |name                             = Distanced
+|mod_groups                       = MapUberModAllyPunishment
 |mod_type                         = MapUberModAllyPunishment
+|game_mode                        = 0
 |stat_text                        = Players in Area take 20% increased Damage per [[Nearby|nearby]] Ally
 |stat1_id                         = map_damage_taken_+%_per_nearby_ally
 |stat1_min                        = 20

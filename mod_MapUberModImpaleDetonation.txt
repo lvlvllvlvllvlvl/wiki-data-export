@@ -1,11 +1,12 @@
 {{Mod
 |id                               = MapUberModImpaleDetonation
-|mod_groups                       = MapUberModImpaleDetonation
 |domain                           = 37
 |generation_type                  = 1
 |required_level                   = 1
 |name                             = Impaling
+|mod_groups                       = MapUberModImpaleDetonation
 |mod_type                         = MapUberModImpaleDetonation
+|game_mode                        = 0
 |stat_text                        = When a fifth Impale is inflicted on a Player, Impales are removed to Reflect their [[Physical Damage]] multiplied by their remaining [[Hit|Hits]] to that Player and their Allies within 1.8 metres<br>Monsters' [[Attack|Attacks]] Impale on [[Hit]]
 |stat1_id                         = map_impales_on_players_detonate_when_players_have_X_impale_debuffs
 |stat1_min                        = 5

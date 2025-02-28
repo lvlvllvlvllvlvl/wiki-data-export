@@ -1,11 +1,12 @@
 {{Mod
 |id                               = MonsterDamageReduction1
-|mod_groups                       = AdditionalPhysicalDamageReduction
 |domain                           = 3
 |generation_type                  = 3
 |required_level                   = 1
 |name                             = Plated
+|mod_groups                       = AdditionalPhysicalDamageReduction
 |mod_type                         = MonsterPhysicalDamageReduction
+|game_mode                        = 0
 |stat_text                        = 30% additional [[Physical Damage]] Reduction (Hidden)
 |stat1_id                         = base_additional_physical_damage_reduction_%
 |stat1_min                        = 30

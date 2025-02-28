@@ -1,12 +1,13 @@
 {{Mod
 |id                               = IncreasedChaosDamageEldritchImplicitPinnaclePresence6
-|mod_groups                       = IncreasedChaosDamage
 |domain                           = 1
 |generation_type                  = 28
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = IncreasedChaosDamage
 |mod_type                         = IncreasedChaosDamagePinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], (41-42)% increased [[Chaos Damage]]
 |stat1_id                         = chaos_damage_+%
 |stat1_min                        = 41

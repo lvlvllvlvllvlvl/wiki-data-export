@@ -1,12 +1,13 @@
 {{Mod
 |id                               = SpellAddedLightningDamageEldritchImplicitPinnaclePresence2
-|mod_groups                       = SpellAddedElementalDamage
 |domain                           = 1
 |generation_type                  = 28
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = SpellAddedElementalDamage
 |mod_type                         = SpellAddedLightningDamagePinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], Adds (3-7) to (66-70) [[Lightning Damage]] to [[Spell|Spells]]
 |stat1_id                         = spell_minimum_added_lightning_damage
 |stat1_min                        = 3

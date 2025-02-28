@@ -1,12 +1,13 @@
 {{Mod
 |id                               = NearbyEnemiesAreScorchedUnique__1
-|mod_groups                       = NearbyEnemiesAreScorched
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
 |granted_buff_id                  = generic_buff_aura
 |granted_buff_value               = 30
+|mod_groups                       = NearbyEnemiesAreScorched
 |mod_type                         = NearbyEnemiesAreScorched
+|game_mode                        = 0
 |stat_text                        = {{Radius||3.0m}} Enemies are Scorched
 |stat1_id                         = local_display_nearby_enemies_scorched
 |stat1_min                        = 1

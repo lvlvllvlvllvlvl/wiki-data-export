@@ -1,11 +1,12 @@
 {{Mod
 |id                               = EnchantmentElementalPenetrationWhileHaventKilled3
-|mod_groups                       = ConditionalBuffEnchantment
 |domain                           = 1
 |generation_type                  = 10
 |required_level                   = 75
 |name                             = Enchantment Elemental Penetration 3
+|mod_groups                       = ConditionalBuffEnchantment
 |mod_type                         = EnchantmentElementalPenetrationWhileHaventKilled
+|game_mode                        = 0
 |stat_text                        = Damage Penetrates 10% of Enemy [[Elemental Resistance|Elemental Resistances]] if you haven't Killed [[Recently]]
 |stat1_id                         = enchantment_boots_damage_penetrates_elemental_resistance_%_while_you_havent_killed_for_4_seconds
 |stat1_min                        = 10

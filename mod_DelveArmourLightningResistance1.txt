@@ -1,11 +1,12 @@
 {{Mod
 |id                               = DelveArmourLightningResistance1
-|mod_groups                       = LightningResistancePrefix
 |domain                           = 16
 |generation_type                  = 1
 |required_level                   = 1
 |name                             = Subterranean
+|mod_groups                       = LightningResistancePrefix
 |mod_type                         = LightningResistancePrefix
+|game_mode                        = 0
 |stat_text                        = +(20-35)% to [[Lightning Resistance]]
 |stat1_id                         = base_lightning_damage_resistance_%
 |stat1_min                        = 20

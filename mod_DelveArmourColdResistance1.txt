@@ -1,11 +1,12 @@
 {{Mod
 |id                               = DelveArmourColdResistance1
-|mod_groups                       = ColdResistancePrefix
 |domain                           = 16
 |generation_type                  = 1
 |required_level                   = 1
 |name                             = Subterranean
+|mod_groups                       = ColdResistancePrefix
 |mod_type                         = ColdResistancePrefix
+|game_mode                        = 0
 |stat_text                        = +(20-35)% to [[Cold Resistance]]
 |stat1_id                         = base_cold_damage_resistance_%
 |stat1_min                        = 20

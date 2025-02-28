@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AddedLightningDamage2Inverted
-|mod_groups                       = LightningDamage
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 13
 |name                             = Buzzing
+|mod_groups                       = LightningDamage
 |mod_type                         = SelfLightningDamageTaken
+|game_mode                        = 0
 |stat_text                        = Adds 1 to (14-15) [[Lightning Damage]] to [[Attack|Attacks]] against you
 |stat1_id                         = from_self_minimum_added_attack_lightning_damage_taken
 |stat1_min                        = 1

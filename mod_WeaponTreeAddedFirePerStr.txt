@@ -1,10 +1,11 @@
 {{Mod
 |id                               = WeaponTreeAddedFirePerStr
-|mod_groups                       = AddedFireDamagePerStrength
 |domain                           = 1
 |generation_type                  = 32
 |required_level                   = 60
+|mod_groups                       = AddedFireDamagePerStrength
 |mod_type                         = WeaponTreeAddedFireDamagePerStrength
+|game_mode                        = 0
 |stat_text                        = Adds 1 to 3 [[Fire Damage]] to [[Attack|Attacks]] with this Weapon per 10 [[Strength]]
 |stat1_id                         = attack_minimum_added_fire_damage_per_10_strength
 |stat1_min                        = 1

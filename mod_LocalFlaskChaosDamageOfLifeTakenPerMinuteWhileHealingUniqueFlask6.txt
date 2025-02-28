@@ -1,10 +1,11 @@
 {{Mod
 |id                               = LocalFlaskChaosDamageOfLifeTakenPerMinuteWhileHealingUniqueFlask6
-|mod_groups                       = LocalFlaskChaosDamageWhileHealing
 |domain                           = 2
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = LocalFlaskChaosDamageWhileHealing
 |mod_type                         = LocalFlaskChaosDamageOfLifeTakenPerMinuteWhileHealing
+|game_mode                        = 0
 |stat_text                        = 25% of Maximum [[Life]] taken as [[Chaos Damage]] per second
 |stat1_id                         = local_unique_flask_chaos_damage_%_of_maximum_life_to_deal_per_minute_while_healing
 |stat1_min                        = 1500

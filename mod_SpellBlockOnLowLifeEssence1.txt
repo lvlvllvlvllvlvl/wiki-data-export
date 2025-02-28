@@ -1,11 +1,12 @@
 {{Mod
 |id                               = SpellBlockOnLowLifeEssence1
-|mod_groups                       = SpellBlockPercentage
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 63
 |name                             = of the Essence
+|mod_groups                       = SpellBlockPercentage
 |mod_type                         = SpellBlockPercentageOnLowLife
+|game_mode                        = 0
 |stat_text                        = +15% Chance to [[Block]] [[Spell Damage]] while on [[Low Life]]
 |stat1_id                         = spell_block_%_while_on_low_life
 |stat1_min                        = 15

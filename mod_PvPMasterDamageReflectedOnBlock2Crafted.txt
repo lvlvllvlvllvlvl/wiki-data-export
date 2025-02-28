@@ -1,11 +1,12 @@
 {{Mod
 |id                               = PvPMasterDamageReflectedOnBlock2Crafted
-|mod_groups                       = ReflectDamageToAttackersOnBlock
 |domain                           = 9
 |generation_type                  = 1
 |required_level                   = 40
 |name                             = Punishing
+|mod_groups                       = ReflectDamageToAttackersOnBlock
 |mod_type                         = ReflectDamageToAttackersOnBlock
+|game_mode                        = 0
 |stat_text                        = Reflects (150-200) to (350-450) [[Physical Damage]] to Attackers on [[Block]]
 |stat1_id                         = minimum_physical_damage_to_return_on_block
 |stat1_min                        = 150

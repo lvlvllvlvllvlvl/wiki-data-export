@@ -1,12 +1,13 @@
 {{Mod
 |id                               = ChanceToAvoidBleedingEldritchImplicitPinnaclePresence1
-|mod_groups                       = ChanceToAvoidBleeding
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = ChanceToAvoidBleeding
 |mod_type                         = ChanceToAvoidBleedingPinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], (51-53)% chance to Avoid Bleeding
 |stat1_id                         = base_avoid_bleed_%
 |stat1_min                        = 51

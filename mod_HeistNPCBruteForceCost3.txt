@@ -1,11 +1,12 @@
 {{Mod
 |id                               = HeistNPCBruteForceCost3
-|mod_groups                       = HeistNPCJobSpecificCost
 |domain                           = 23
 |generation_type                  = 2
 |required_level                   = 75
 |name                             = of Concession
+|mod_groups                       = HeistNPCJobSpecificCost
 |mod_type                         = HeistNPCBruteForceCost
+|game_mode                        = 0
 |stat_text                        = (12-10)% reduced Hiring Fee for Brute Force Jobs
 |stat1_id                         = heist_contract_npc_brute_force_cost_+%
 |stat1_min                        = -12

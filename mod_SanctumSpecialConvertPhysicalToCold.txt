@@ -1,11 +1,12 @@
 {{Mod
 |id                               = SanctumSpecialConvertPhysicalToCold
-|mod_groups                       = ConvertPhysicalToCold
 |domain                           = 32
 |generation_type                  = 1
 |required_level                   = 75
 |name                             = Glaciating
+|mod_groups                       = ConvertPhysicalToCold
 |mod_type                         = ConvertPhysicalToColdImplicit
+|game_mode                        = 0
 |stat_text                        = (20-30)% of [[Physical Damage]] Converted to [[Cold Damage]]
 |stat1_id                         = base_physical_damage_%_to_convert_to_cold
 |stat1_min                        = 20

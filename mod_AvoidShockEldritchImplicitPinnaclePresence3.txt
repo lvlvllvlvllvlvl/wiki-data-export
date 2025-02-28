@@ -1,12 +1,13 @@
 {{Mod
 |id                               = AvoidShockEldritchImplicitPinnaclePresence3
-|mod_groups                       = AvoidShock
 |domain                           = 1
 |generation_type                  = 28
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = AvoidShock
 |mod_type                         = AvoidShockPinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], (57-59)% chance to Avoid being [[Shock|Shocked]]
 |stat1_id                         = base_avoid_shock_%
 |stat1_min                        = 57

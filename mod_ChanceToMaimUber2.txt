@@ -1,12 +1,13 @@
 {{Mod
 |id                               = ChanceToMaimUber2
-|mod_groups                       = LocalChanceToMaim
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 75
 |name                             = of Shaping
+|mod_groups                       = LocalChanceToMaim
 |granted_skill                    = SupportMaim
 |mod_type                         = ChanceToMaimSupported
+|game_mode                        = 0
 |stat_text                        = 20% chance to Maim on [[Hit]]<br>[[Item socket|Socketed]] Gems are Supported by [[Maim Support|Level 20 Maim]]
 |stat1_id                         = local_maim_on_hit_%
 |stat1_min                        = 20

@@ -1,10 +1,11 @@
 {{Mod
 |id                               = RandomMovementVelocityWhenHitUnique__1
-|mod_groups                       = MovementVelocity
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = MovementVelocity
 |mod_type                         = RandomMovementVelocityWhenHit
+|game_mode                        = 0
 |stat_text                        = When [[Hit]], gain a random [[Movement Speed]] modifier from 40% reduced to 100% increased, until [[Hit]] again
 |stat1_id                         = minimum_random_movement_velocity_+%_when_hit
 |stat1_min                        = -40

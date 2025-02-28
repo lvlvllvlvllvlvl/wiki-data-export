@@ -1,12 +1,13 @@
 {{Mod
 |id                               = SentinelDroneMalevolenceAuraUnique1
-|mod_groups                       = SentinelDroneAura
 |domain                           = 30
 |generation_type                  = 3
 |required_level                   = 1
 |granted_buff_id                  = player_aura_damage_over_time
 |granted_buff_value               = 60
+|mod_groups                       = SentinelDroneAura
 |mod_type                         = SentinelDroneMalevolenceAura
+|game_mode                        = 0
 |stat_text                        = Grants [[Level]] 20 Malevolence Aura
 |stat1_id                         = local_display_sentinel_uses_level_x_malevolence_aura
 |stat1_min                        = 20

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = JunMasterReduceGlobalFlatManaCost2
-|mod_groups                       = IncreaseFlatManaCost
 |domain                           = 9
 |generation_type                  = 1
 |required_level                   = 25
 |name                             = Elreon's
+|mod_groups                       = IncreaseFlatManaCost
 |mod_type                         = IncreaseManaCostFlat
+|game_mode                        = 0
 |stat_text                        = -(5-4) to Total [[Mana]] Cost of [[Skill|Skills]]
 |stat1_id                         = skill_mana_cost_+
 |stat1_min                        = -5

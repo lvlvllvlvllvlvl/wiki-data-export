@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AddedPhysicalDamage7Inverted
-|mod_groups                       = PhysicalDamage
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 52
 |name                             = Razor-sharp
+|mod_groups                       = PhysicalDamage
 |mod_type                         = SelfPhysicalDamageTaken
+|game_mode                        = 0
 |stat_text                        = Adds (7-10) to (15-18) [[Physical Damage]] to [[Attack|Attacks]] against you
 |stat1_id                         = from_self_minimum_added_attack_physical_damage_taken
 |stat1_min                        = 7

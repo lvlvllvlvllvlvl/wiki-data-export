@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AddedLightningDamage7Inverted
-|mod_groups                       = LightningDamage
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 52
 |name                             = Shocking
+|mod_groups                       = LightningDamage
 |mod_type                         = SelfLightningDamageTaken
+|game_mode                        = 0
 |stat_text                        = Adds (2-5) to (47-50) [[Lightning Damage]] to [[Attack|Attacks]] against you
 |stat1_id                         = from_self_minimum_added_attack_lightning_damage_taken
 |stat1_min                        = 2

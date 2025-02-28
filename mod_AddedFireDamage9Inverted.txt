@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AddedFireDamage9Inverted
-|mod_groups                       = FireDamage
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 76
 |name                             = Cremating
+|mod_groups                       = FireDamage
 |mod_type                         = SelfFireDamageTaken
+|game_mode                        = 0
 |stat_text                        = Adds (19-25) to (39-45) [[Fire Damage]] to [[Attack|Attacks]] against you
 |stat1_id                         = from_self_minimum_added_attack_fire_damage_taken
 |stat1_min                        = 19

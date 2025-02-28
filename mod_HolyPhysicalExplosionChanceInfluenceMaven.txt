@@ -1,11 +1,12 @@
 {{Mod
 |id                               = HolyPhysicalExplosionChanceInfluenceMaven
-|mod_groups                       = EnemiesExplodeOnDeath
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 95
 |name                             = Elevated Crusader's
+|mod_groups                       = EnemiesExplodeOnDeath
 |mod_type                         = EnemiesExplodeOnDeathPhysicalChanceMaven
+|game_mode                        = 0
 |stat_text                        = Enemies you [[Kill]] have a (31-35)% chance to Explode, dealing a tenth of their maximum [[Life]] as [[Physical Damage]]<br>(8-12)% increased Area of Effect
 |stat1_id                         = explode_enemies_for_10%_life_as_physical_on_kill_chance_%
 |stat1_min                        = 31

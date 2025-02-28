@@ -1,13 +1,14 @@
 {{Mod
 |id                               = SentinelDroneHasteAura
-|mod_groups                       = SentinelDroneAura
 |domain                           = 30
 |generation_type                  = 2
 |required_level                   = 1
 |name                             = of Haste
 |granted_buff_id                  = player_aura_speed
 |granted_buff_value               = 60
+|mod_groups                       = SentinelDroneAura
 |mod_type                         = SentinelDroneHasteAura
+|game_mode                        = 0
 |stat_text                        = Grants [[Level]] 20 [[Haste]] Aura
 |stat1_id                         = local_display_sentinel_uses_level_x_haste_aura
 |stat1_min                        = 20

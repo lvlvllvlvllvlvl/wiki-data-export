@@ -1,12 +1,13 @@
 {{Mod
 |id                               = NearbyEnemiesReducedStunRecoveryUnique__1
-|mod_groups                       = NearbyEnemiesBonuses
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
 |granted_buff_id                  = unique_nearby_enemies_reduced_stun_recovery
 |granted_buff_value               = 60
+|mod_groups                       = NearbyEnemiesBonuses
 |mod_type                         = NearbyEnemiesReducedStunRecovery
+|game_mode                        = 0
 |stat_text                        = {{Radius||6.0m}} Enemies have 10% reduced Stun and [[Block]] Recovery
 |stat1_id                         = local_display_nearby_enemies_stun_and_block_recovery_+%
 |stat1_min                        = -10

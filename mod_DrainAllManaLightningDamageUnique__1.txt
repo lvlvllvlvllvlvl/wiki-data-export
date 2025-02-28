@@ -1,10 +1,11 @@
 {{Mod
 |id                               = DrainAllManaLightningDamageUnique__1
-|mod_groups                       = DrainAllManaLightningDamage
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = DrainAllManaLightningDamage
 |mod_type                         = DrainAllManaLightningDamage
+|game_mode                        = 0
 |stat_text                        = When you Cast a [[Spell]], Sacrifice all [[Mana]] to gain Added Maximum [[Lightning Damage]]<br />equal to 50% of Sacrificed [[Mana]] for 4 seconds
 |stat1_id                         = on_cast_lose_all_mana_gain_%_as_maximum_lightning_damage_for_4_seconds
 |stat1_min                        = 50

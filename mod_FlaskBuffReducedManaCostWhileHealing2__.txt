@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskBuffReducedManaCostWhileHealing2__
-|mod_groups                       = LocalFlaskSkillManaCostDuringFlaskEffect
 |domain                           = 2
 |generation_type                  = 2
 |required_level                   = 29
 |name                             = of the Initiate
+|mod_groups                       = LocalFlaskSkillManaCostDuringFlaskEffect
 |mod_type                         = LocalFlaskSkillManaCostDuringFlaskEffect
+|game_mode                        = 0
 |stat_text                        = (18-15)% reduced [[Mana]] Cost of [[Skill|Skills]] during Effect
 |stat1_id                         = local_flask_skill_mana_cost_+%_during_flask_effect
 |stat1_min                        = -18

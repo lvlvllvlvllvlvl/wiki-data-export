@@ -1,12 +1,13 @@
 {{Mod
 |id                               = AvoidShockEldritchImplicitUniquePresence6
-|mod_groups                       = AvoidShock
 |domain                           = 1
 |generation_type                  = 28
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_unique_monster
 |granted_buff_value               = 0
+|mod_groups                       = AvoidShock
 |mod_type                         = AvoidShockUniquePresence
+|game_mode                        = 0
 |stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], (58-61)% chance to Avoid being [[Shock|Shocked]]
 |stat1_id                         = base_avoid_shock_%
 |stat1_min                        = 58

@@ -1,12 +1,13 @@
 {{Mod
 |id                               = AdditionalPierceEldritchImplicitPinnaclePresence6
-|mod_groups                       = Pierce
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = Pierce
 |mod_type                         = AdditionalPiercePinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], Projectiles Pierce 4 additional Targets
 |stat1_id                         = projectile_base_number_of_targets_to_pierce
 |stat1_min                        = 4

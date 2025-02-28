@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskBuffAvoidShock5
-|mod_groups                       = FlaskBuffWhileHealing
 |domain                           = 2
 |generation_type                  = 2
 |required_level                   = 82
 |name                             = of Bog Moss
+|mod_groups                       = FlaskBuffWhileHealing
 |mod_type                         = FlaskBuffAvoidShock
+|game_mode                        = 0
 |stat_text                        = (51-55)% chance to Avoid being [[Shock|Shocked]] during Effect
 |stat1_id                         = local_avoid_shock_%_during_flask_effect
 |stat1_min                        = 51

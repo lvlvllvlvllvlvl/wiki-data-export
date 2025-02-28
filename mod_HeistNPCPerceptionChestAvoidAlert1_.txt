@@ -1,11 +1,12 @@
 {{Mod
 |id                               = HeistNPCPerceptionChestAvoidAlert1_
-|mod_groups                       = HeistNPCJobChestAvoidAlert
 |domain                           = 23
 |generation_type                  = 2
 |required_level                   = 1
 |name                             = of Gentleness
+|mod_groups                       = HeistNPCJobChestAvoidAlert
 |mod_type                         = HeistNPCPerceptionChestAvoidAlert
+|game_mode                        = 0
 |stat_text                        = (3-4)% chance to not generate Alert [[Level]] on opening a Chest using Perception
 |stat1_id                         = heist_job_perception_avoid_alarm_chance_%_on_open_chest
 |stat1_min                        = 3

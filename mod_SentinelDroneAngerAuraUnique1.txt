@@ -1,12 +1,13 @@
 {{Mod
 |id                               = SentinelDroneAngerAuraUnique1
-|mod_groups                       = SentinelDroneAura
 |domain                           = 30
 |generation_type                  = 3
 |required_level                   = 1
 |granted_buff_id                  = player_aura_fire_damage
 |granted_buff_value               = 60
+|mod_groups                       = SentinelDroneAura
 |mod_type                         = SentinelDroneAngerAura
+|game_mode                        = 0
 |stat_text                        = Grants [[Level]] 20 [[Anger]] Aura
 |stat1_id                         = local_display_sentinel_uses_level_x_anger_aura
 |stat1_min                        = 20

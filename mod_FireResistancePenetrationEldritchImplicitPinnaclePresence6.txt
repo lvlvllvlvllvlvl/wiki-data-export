@@ -1,12 +1,13 @@
 {{Mod
 |id                               = FireResistancePenetrationEldritchImplicitPinnaclePresence6
-|mod_groups                       = FireResistancePenetration
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = FireResistancePenetration
 |mod_type                         = FireResistancePenetrationPinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], Damage Penetrates 10% [[Fire Resistance]]
 |stat1_id                         = base_reduce_enemy_fire_resistance_%
 |stat1_min                        = 10

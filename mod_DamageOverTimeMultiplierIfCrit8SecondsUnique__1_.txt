@@ -1,10 +1,11 @@
 {{Mod
 |id                               = DamageOverTimeMultiplierIfCrit8SecondsUnique__1_
-|mod_groups                       = DamageOverTimeMultiplier
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = DamageOverTimeMultiplier
 |mod_type                         = DamageOverTimeMultiplierIfCrit8Seconds
+|game_mode                        = 0
 |stat_text                        = +(40-60)% to Damage over Time Multiplier if you've dealt a [[Critical Strike]] in the past 8 seconds
 |stat1_id                         = dot_multiplier_+_if_crit_in_past_8_seconds
 |stat1_min                        = 40

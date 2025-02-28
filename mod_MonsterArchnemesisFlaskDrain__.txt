@@ -1,13 +1,14 @@
 {{Mod
 |id                               = MonsterArchnemesisFlaskDrain__
-|mod_groups                       = MonsterArchnemesisFlaskDrain
 |domain                           = 3
 |generation_type                  = 3
 |required_level                   = 46
 |name                             = of Drought
 |granted_buff_id                  = archnemesis_flask_drain
 |granted_buff_value               = 50
+|mod_groups                       = MonsterArchnemesisFlaskDrain
 |mod_type                         = MonsterArchnemesisFlaskDrain
+|game_mode                        = 0
 |stat_text                        = Regenerate 1.5% of [[Life]] per second (Hidden)
 |stat1_id                         = remove_enemy_flask_charge_on_hit_%_chance
 |stat1_min                        = 100

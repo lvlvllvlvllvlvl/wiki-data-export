@@ -1,11 +1,12 @@
 {{Mod
 |id                               = JunMaster2AddedColdAndLightningDamage3Inverted
-|mod_groups                       = AddedColdAndLightningDamage
 |domain                           = 9
 |generation_type                  = 1
 |required_level                   = 81
 |name                             = Chosen
+|mod_groups                       = AddedColdAndLightningDamage
 |mod_type                         = SelfColdAndLightningDamageTaken
+|game_mode                        = 0
 |stat_text                        = Adds (10-12) to (14-16) [[Cold Damage]] to [[Hit|Hits]] against you<br>Adds (10-12) to (14-16) [[Lightning Damage]] to [[Hit|Hits]] against you
 |stat1_id                         = from_self_minimum_added_cold_damage_taken
 |stat1_min                        = 10

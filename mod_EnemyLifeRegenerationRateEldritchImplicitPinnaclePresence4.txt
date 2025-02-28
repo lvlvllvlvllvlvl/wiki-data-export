@@ -1,12 +1,13 @@
 {{Mod
 |id                               = EnemyLifeRegenerationRateEldritchImplicitPinnaclePresence4
-|mod_groups                       = EnemyLifeRegenerationRate
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = EnemyLifeRegenerationRate
 |mod_type                         = EnemyLifeRegenerationRatePinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], Enemies you've [[Hit]] [[Recently]] have (94-92)% reduced [[Life]] Regeneration rate
 |stat1_id                         = enemy_life_regeneration_rate_+%_for_4_seconds_on_hit
 |stat1_min                        = -94

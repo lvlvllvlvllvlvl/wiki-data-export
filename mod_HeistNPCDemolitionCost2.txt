@@ -1,11 +1,12 @@
 {{Mod
 |id                               = HeistNPCDemolitionCost2
-|mod_groups                       = HeistNPCJobSpecificCost
 |domain                           = 23
 |generation_type                  = 2
 |required_level                   = 45
 |name                             = of Reduction
+|mod_groups                       = HeistNPCJobSpecificCost
 |mod_type                         = HeistNPCDemolitionCost
+|game_mode                        = 0
 |stat_text                        = (9-8)% reduced Hiring Fee for Demolition Jobs
 |stat1_id                         = heist_contract_npc_demolition_cost_+%
 |stat1_min                        = -9

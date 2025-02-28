@@ -1,12 +1,13 @@
 {{Mod
 |id                               = DamagePer100DEXEldritchImplicitPinnaclePresence5
-|mod_groups                       = AllDamage
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = AllDamage
 |mod_type                         = DamagePer100DEXPinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], 6% increased Damage per 100 [[Dexterity]]
 |stat1_id                         = damage_+%_per_100_dexterity
 |stat1_min                        = 6

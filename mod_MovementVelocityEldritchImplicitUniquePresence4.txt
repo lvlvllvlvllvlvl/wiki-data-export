@@ -1,12 +1,13 @@
 {{Mod
 |id                               = MovementVelocityEldritchImplicitUniquePresence4
-|mod_groups                       = MovementVelocity
 |domain                           = 1
 |generation_type                  = 28
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_unique_monster
 |granted_buff_value               = 0
+|mod_groups                       = MovementVelocity
 |mod_type                         = MovementVelocityUniquePresence
+|game_mode                        = 0
 |stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], 11% increased [[Movement Speed]]
 |stat1_id                         = base_movement_velocity_+%
 |stat1_min                        = 11

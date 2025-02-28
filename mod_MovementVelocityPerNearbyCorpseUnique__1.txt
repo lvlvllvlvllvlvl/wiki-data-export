@@ -1,10 +1,11 @@
 {{Mod
 |id                               = MovementVelocityPerNearbyCorpseUnique__1
-|mod_groups                       = MovementVelocity
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = MovementVelocity
 |mod_type                         = MovementVelocityPerNearbyCorpse
+|game_mode                        = 0
 |stat_text                        = For each [[Nearby|nearby]] corpse, 1% increased [[Movement Speed]]
 |stat1_id                         = movement_speed_+%_per_nearby_corpse
 |stat1_min                        = 1

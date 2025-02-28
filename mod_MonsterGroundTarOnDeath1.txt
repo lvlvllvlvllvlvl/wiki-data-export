@@ -1,10 +1,11 @@
 {{Mod
 |id                               = MonsterGroundTarOnDeath1
-|mod_groups                       = MonsterEffectOnDeath
 |domain                           = 3
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = MonsterEffectOnDeath
 |mod_type                         = MonsterGroundTarOnDeath
+|game_mode                        = 0
 |stat_text                        = Spreads Tar on Death<br>On death ground effects lasts 6 seconds (Hidden)<br>Monster creates Tar on death reducing Movement Speed by 60% (Hidden)
 |stat1_id                         = monster_ground_tar_on_death_base_area_of_effect_radius
 |stat1_min                        = 16

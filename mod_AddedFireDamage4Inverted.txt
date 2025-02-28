@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AddedFireDamage4Inverted
-|mod_groups                       = FireDamage
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 28
 |name                             = Burning
+|mod_groups                       = FireDamage
 |mod_type                         = SelfFireDamageTaken
+|game_mode                        = 0
 |stat_text                        = Adds (7-10) to (15-18) [[Fire Damage]] to [[Attack|Attacks]] against you
 |stat1_id                         = from_self_minimum_added_attack_fire_damage_taken
 |stat1_min                        = 7

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = StrUniqueShieldTriggerShieldShatterOnBlockRoyale
-|mod_groups                       = GrantedSkill
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = GrantedSkill
 |granted_skill                    = ShieldShatter
 |mod_type                         = UniqueTriggerShieldShatter
+|game_mode                        = 0
 |stat_text                        = Trigger [[Level]] 1 [[Shield]] [[Shatter]] when you [[Block]]
 |stat1_id                         = local_display_trigger_level_X_shield_shatter_on_block
 |stat1_min                        = 1

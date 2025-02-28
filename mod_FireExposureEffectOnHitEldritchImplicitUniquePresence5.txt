@@ -1,12 +1,13 @@
 {{Mod
 |id                               = FireExposureEffectOnHitEldritchImplicitUniquePresence5
-|mod_groups                       = ExposureOnHit
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_unique_monster
 |granted_buff_value               = 0
+|mod_groups                       = ExposureOnHit
 |mod_type                         = FireExposureEffectOnHitUniquePresence
+|game_mode                        = 0
 |stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], Inflict Fire Exposure on [[Hit]], applying -18% to [[Fire Resistance]]
 |stat1_id                         = fire_exposure_on_hit_magnitude
 |stat1_min                        = -18

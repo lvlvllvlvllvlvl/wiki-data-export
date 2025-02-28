@@ -1,10 +1,11 @@
 {{Mod
 |id                               = GainEnergyShieldOnKillShockedEnemyUniqueGlovesStr4
-|mod_groups                       = EnergyShieldGainedFromEnemyDeath
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = EnergyShieldGainedFromEnemyDeath
 |mod_type                         = GainEnergyShieldOnKillShockedEnemy
+|game_mode                        = 0
 |stat_text                        = +(200-250) [[Energy Shield]] gained on Killing a [[Shock|Shocked]] Enemy
 |stat1_id                         = gain_X_energy_shield_on_killing_shocked_enemy
 |stat1_min                        = 200

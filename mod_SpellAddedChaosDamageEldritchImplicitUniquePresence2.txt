@@ -1,12 +1,13 @@
 {{Mod
 |id                               = SpellAddedChaosDamageEldritchImplicitUniquePresence2
-|mod_groups                       = SpellAddedChaosDamage
 |domain                           = 1
 |generation_type                  = 28
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_unique_monster
 |granted_buff_value               = 0
+|mod_groups                       = SpellAddedChaosDamage
 |mod_type                         = SpellAddedChaosDamageUniquePresence
+|game_mode                        = 0
 |stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], Adds (10-14) to (21-25) [[Chaos Damage]] to [[Spell|Spells]]
 |stat1_id                         = spell_minimum_added_chaos_damage
 |stat1_min                        = 10

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = LightningResistEnhancedLevel50ModPhys
-|mod_groups                       = LightningResistance, PhysicalDamageTakenAsElement
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 50
 |name                             = of Puhuarte
+|mod_groups                       = LightningResistance, PhysicalDamageTakenAsElement
 |mod_type                         = LightningResistancePhysTakenAsLightning
+|game_mode                        = 0
 |stat_text                        = +(46-48)% to [[Lightning Resistance]]<br>(3-5)% of [[Physical Damage]] from [[Hit|Hits]] taken as [[Lightning Damage]]
 |stat1_id                         = base_lightning_damage_resistance_%
 |stat1_min                        = 46

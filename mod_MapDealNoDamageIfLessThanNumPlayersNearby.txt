@@ -1,10 +1,11 @@
 {{Mod
 |id                               = MapDealNoDamageIfLessThanNumPlayersNearby
-|mod_groups                       = Other
 |domain                           = 5
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = Other
 |mod_type                         = MapDealNoDamageIfLessThanNumPlayersNearby
+|game_mode                        = 0
 |stat_text                        = Players can only deal Damage when near 2 other Players
 |stat1_id                         = map_deal_no_damage_if_less_than_X_players_nearby
 |stat1_min                        = 2

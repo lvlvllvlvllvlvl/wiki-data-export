@@ -1,10 +1,11 @@
 {{Mod
 |id                               = AncestralItemExplodeOnDeath
-|mod_groups                       = MonsterEffectOnDeath
 |domain                           = 3
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = MonsterEffectOnDeath
 |mod_type                         = AncestralTrialExplodeOnDeath
+|game_mode                        = 0
 |stat_text                        = Explode on Death, dealing 500% of Maximum [[Life]] as [[Fire Damage]] (Hidden)
 |stat1_id                         = explode_on_death_for_%_life_as_fire_damage
 |stat1_min                        = 500

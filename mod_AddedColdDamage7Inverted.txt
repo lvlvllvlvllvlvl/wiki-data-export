@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AddedColdDamage7Inverted
-|mod_groups                       = ColdDamage
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 53
 |name                             = Glaciated
+|mod_groups                       = ColdDamage
 |mod_type                         = SelfColdDamageTaken
+|game_mode                        = 0
 |stat_text                        = Adds (12-16) to (24-28) [[Cold Damage]] to [[Attack|Attacks]] against you
 |stat1_id                         = from_self_minimum_added_attack_cold_damage_taken
 |stat1_min                        = 12

@@ -1,10 +1,11 @@
 {{Mod
 |id                               = MapPlayerNoProjectileDamage
-|mod_groups                       = MapPlayerProjectileDamage
 |domain                           = 5
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = MapPlayerProjectileDamage
 |mod_type                         = MapPlayerProjectileDamage
+|game_mode                        = 0
 |stat_text                        = Players deal 100% less Projectile Damage
 |stat1_id                         = map_player_projectile_damage_+%_final
 |stat1_min                        = -100

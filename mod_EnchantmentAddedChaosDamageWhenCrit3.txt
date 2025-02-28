@@ -1,11 +1,12 @@
 {{Mod
 |id                               = EnchantmentAddedChaosDamageWhenCrit3
-|mod_groups                       = ConditionalBuffEnchantment
 |domain                           = 1
 |generation_type                  = 10
 |required_level                   = 75
 |name                             = Enchantment Chaos Damage 3
+|mod_groups                       = ConditionalBuffEnchantment
 |mod_type                         = EnchantmentAddedChaosDamageWhenCrit
+|game_mode                        = 0
 |stat_text                        = Adds 120 to 180 [[Chaos Damage]] if you've taken a [[Critical Strike]] [[Recently]]
 |stat1_id                         = enchantment_boots_minimum_added_chaos_damage_for_4_seconds_when_crit_4s
 |stat1_min                        = 120

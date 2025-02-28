@@ -1,11 +1,12 @@
 {{Mod
 |id                               = ColdDamageTakenDelve
-|mod_groups                       = ColdDamageTaken
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 60
 |name                             = Subterranean
+|mod_groups                       = ColdDamageTaken
 |mod_type                         = ColdDamageTakenPercentage
+|game_mode                        = 0
 |stat_text                        = (6-4)% reduced [[Cold Damage]] taken
 |stat1_id                         = cold_damage_taken_+%
 |stat1_min                        = -6

@@ -1,12 +1,13 @@
 {{Mod
 |id                               = WarcryEffectEldritchImplicitUniquePresence3
-|mod_groups                       = WarcryEffect
 |domain                           = 1
 |generation_type                  = 28
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_unique_monster
 |granted_buff_value               = 0
+|mod_groups                       = WarcryEffect
 |mod_type                         = WarcryEffectUniquePresence
+|game_mode                        = 0
 |stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], (29-30)% increased Warcry Buff Effect
 |stat1_id                         = warcry_buff_effect_+%
 |stat1_min                        = 29

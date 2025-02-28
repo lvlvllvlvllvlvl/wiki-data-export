@@ -1,12 +1,13 @@
 {{Mod
 |id                               = DelveArmourSocketedSpellsManaCost1_
-|mod_groups                       = SocketedSpellsManaCost
 |domain                           = 16
 |generation_type                  = 2
 |required_level                   = 1
 |name                             = of the Underground
+|mod_groups                       = SocketedSpellsManaCost
 |granted_skill                    = DelveModSocketedSpellManaCost
 |mod_type                         = SocketedSpellsManaCost
+|game_mode                        = 0
 |stat_text                        = [[Item socket|Socketed]] [[Spell|Spells]] have 20% reduced [[Mana]] Cost
 |stat1_id                         = local_display_socketed_spells_mana_cost_+%
 |stat1_min                        = -20

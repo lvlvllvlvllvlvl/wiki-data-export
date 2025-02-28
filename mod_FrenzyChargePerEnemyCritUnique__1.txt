@@ -1,10 +1,11 @@
 {{Mod
 |id                               = FrenzyChargePerEnemyCritUnique__1
-|mod_groups                       = FrenzyChargeOnCriticalHit
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = FrenzyChargeOnCriticalHit
 |mod_type                         = FrenzyChargePerEnemyCrit
+|game_mode                        = 0
 |stat_text                        = (20-40)% chance to gain a [[Frenzy Charge]] for each Enemy you [[Hit|hit]] with a [[Critical Strike]]
 |stat1_id                         = gain_frenzy_charge_per_enemy_you_crit_%_chance
 |stat1_min                        = 20

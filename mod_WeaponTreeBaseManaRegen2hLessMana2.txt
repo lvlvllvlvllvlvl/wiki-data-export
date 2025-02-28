@@ -1,10 +1,11 @@
 {{Mod
 |id                               = WeaponTreeBaseManaRegen2hLessMana2
-|mod_groups                       = BaseManaRegeneration
 |domain                           = 1
 |generation_type                  = 31
 |required_level                   = 30
+|mod_groups                       = BaseManaRegeneration
 |mod_type                         = WeaponTreeBaseManaRegenerationAndMultiplicativeMana
+|game_mode                        = 0
 |stat_text                        = Regenerate 2.5% of [[Mana]] per second<br>25% less maximum [[Mana]]
 |stat1_id                         = mana_regeneration_rate_per_minute_%
 |stat1_min                        = 150

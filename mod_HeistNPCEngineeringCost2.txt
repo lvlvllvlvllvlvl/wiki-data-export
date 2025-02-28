@@ -1,11 +1,12 @@
 {{Mod
 |id                               = HeistNPCEngineeringCost2
-|mod_groups                       = HeistNPCJobSpecificCost
 |domain                           = 23
 |generation_type                  = 2
 |required_level                   = 45
 |name                             = of Reduction
+|mod_groups                       = HeistNPCJobSpecificCost
 |mod_type                         = HeistNPCEngineeringCost
+|game_mode                        = 0
 |stat_text                        = (9-8)% reduced Hiring Fee for Engineering Jobs
 |stat1_id                         = heist_contract_npc_engineering_cost_+%
 |stat1_min                        = -9

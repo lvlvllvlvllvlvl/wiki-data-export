@@ -1,12 +1,13 @@
 {{Mod
 |id                               = PhysicalAddedAsLightningEldritchImplicitPinnaclePresence2
-|mod_groups                       = PhysicalAddedAsLightning
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = PhysicalAddedAsLightning
 |mod_type                         = PhysicalAddedAsLightningPinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], Gain 8% of [[Physical Damage]] as Extra [[Lightning Damage]]
 |stat1_id                         = physical_damage_%_to_add_as_lightning
 |stat1_min                        = 8

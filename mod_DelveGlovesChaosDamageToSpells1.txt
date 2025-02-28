@@ -1,11 +1,12 @@
 {{Mod
 |id                               = DelveGlovesChaosDamageToSpells1
-|mod_groups                       = AddedChaosDamage
 |domain                           = 16
 |generation_type                  = 1
 |required_level                   = 1
 |name                             = Subterranean
+|mod_groups                       = AddedChaosDamage
 |mod_type                         = GlobalAddedChaosDamage
+|game_mode                        = 0
 |stat_text                        = Adds (15-20) to (21-30) [[Chaos Damage]]
 |stat1_id                         = global_minimum_added_chaos_damage
 |stat1_min                        = 15

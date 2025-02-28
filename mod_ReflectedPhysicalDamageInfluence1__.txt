@@ -1,11 +1,12 @@
 {{Mod
 |id                               = ReflectedPhysicalDamageInfluence1__
-|mod_groups                       = ReflectedDamage
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 75
 |name                             = Warlord's
+|mod_groups                       = ReflectedDamage
 |mod_type                         = ReducedPhysicalReflectTaken
+|game_mode                        = 0
 |stat_text                        = You and your [[Minion|Minions]] take 100% reduced Reflected [[Physical Damage]]
 |stat1_id                         = physical_reflect_damage_taken_and_minion_physical_reflect_damage_taken_+%
 |stat1_min                        = -100

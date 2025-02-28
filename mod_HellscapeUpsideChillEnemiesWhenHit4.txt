@@ -1,10 +1,11 @@
 {{Mod
 |id                               = HellscapeUpsideChillEnemiesWhenHit4
-|mod_groups                       = ChillEnemiesWhenHit
 |domain                           = 1
 |generation_type                  = 24
 |required_level                   = 68
+|mod_groups                       = ChillEnemiesWhenHit
 |mod_type                         = ChillEnemiesWhenHit
+|game_mode                        = 0
 |stat_text                        = [[Chill]] Enemy for 5 seconds when [[Hit]], reducing their Action Speed by 30%
 |stat1_id                         = chill_enemy_when_hit_duration_ms
 |stat1_min                        = 5000

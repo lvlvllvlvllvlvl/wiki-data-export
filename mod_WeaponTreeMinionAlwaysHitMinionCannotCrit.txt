@@ -1,10 +1,11 @@
 {{Mod
 |id                               = WeaponTreeMinionAlwaysHitMinionCannotCrit
-|mod_groups                       = MinionAlwaysHit
 |domain                           = 1
 |generation_type                  = 31
 |required_level                   = 60
+|mod_groups                       = MinionAlwaysHit
 |mod_type                         = WeaponTreeMinionAlwaysHitAndCannotCrit
+|game_mode                        = 0
 |stat_text                        = [[Minion|Minions]]' [[Hit|Hits]] can't be Evaded<br>[[Minion|Minions]] never deal [[Critical strike|Critical Strikes]]
 |stat1_id                         = minion_global_always_hit
 |stat1_min                        = 1

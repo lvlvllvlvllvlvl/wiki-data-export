@@ -1,11 +1,12 @@
 {{Mod
 |id                               = ChestExplodeCorpses
-|mod_groups                       = ChestDelayedSkill
 |domain                           = 4
 |generation_type                  = 1
 |required_level                   = 4
 |name                             = Putrifying
+|mod_groups                       = ChestDelayedSkill
 |mod_type                         = ChestExplodeCorpses
+|game_mode                        = 0
 |stat_text                        = Detonates [[Nearby|nearby]] corpses<br>Chest plays warning sound (Hidden)
 |stat1_id                         = chest_display_explodes_corpses
 |stat1_min                        = 1

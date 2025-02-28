@@ -1,12 +1,13 @@
 {{Mod
 |id                               = ReducedIgniteDurationOnSelfEldritchImplicitUniquePresence3
-|mod_groups                       = ReducedSelfIgniteDuration
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_unique_monster
 |granted_buff_value               = 0
+|mod_groups                       = ReducedSelfIgniteDuration
 |mod_type                         = ReducedIgniteDurationOnSelfUniquePresence
+|game_mode                        = 0
 |stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], (48-50)% reduced [[Ignite]] Duration on you
 |stat1_id                         = base_self_ignite_duration_-%
 |stat1_min                        = 48

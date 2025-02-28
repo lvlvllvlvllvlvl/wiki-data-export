@@ -1,10 +1,11 @@
 {{Mod
 |id                               = VillageCriticalAilmentDamageOverTimeMultiplier
-|mod_groups                       = DamageOverTimeMultiplier
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = DamageOverTimeMultiplier
 |mod_type                         = CriticalAilmentDamageOverTimeMultiplier
+|game_mode                        = 0
 |stat_text                        = +(15-25)% to Damage over Time Multiplier for Ailments from [[Critical strike|Critical Strikes]]
 |stat1_id                         = critical_ailment_dot_multiplier_+
 |stat1_min                        = 15

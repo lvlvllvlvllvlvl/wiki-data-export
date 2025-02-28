@@ -1,11 +1,12 @@
 {{Mod
 |id                               = LocalChanceToMaimPhysicalDamageInfluence1
-|mod_groups                       = LocalMaimOnHit
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 68
 |name                             = of the Conquest
+|mod_groups                       = LocalMaimOnHit
 |mod_type                         = LocalChanceToMaimPhysicalDamage
+|game_mode                        = 0
 |stat_text                        = 10% chance to Maim on [[Hit]]<br>(10-13)% increased [[Physical Damage]]
 |stat1_id                         = local_maim_on_hit_%
 |stat1_min                        = 10

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = ArmourPenetrationSpellWeaponInfluence1__
-|mod_groups                       = ArmourPenetration
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 68
 |name                             = of the Hunt
+|mod_groups                       = ArmourPenetration
 |mod_type                         = ChanceToIgnoreEnemyArmour
+|game_mode                        = 0
 |stat_text                        = [[Hit|Hits]] have (25-29)% chance to ignore Enemy [[Physical Damage]] Reduction
 |stat1_id                         = hits_ignore_enemy_monster_physical_damage_reduction_%_chance
 |stat1_min                        = 25

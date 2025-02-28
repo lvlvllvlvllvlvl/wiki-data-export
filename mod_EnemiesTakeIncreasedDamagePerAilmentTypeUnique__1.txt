@@ -1,10 +1,11 @@
 {{Mod
 |id                               = EnemiesTakeIncreasedDamagePerAilmentTypeUnique__1
-|mod_groups                       = EnemiesTakeIncreasedDamagePerAilmentType
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = EnemiesTakeIncreasedDamagePerAilmentType
 |mod_type                         = EnemiesTakeIncreasedDamagePerAilmentType
+|game_mode                        = 0
 |stat_text                        = Enemies take (5-10)% increased Damage for each type of Ailment you have inflicted on them
 |stat1_id                         = ailment_types_apply_damage_taken_+%
 |stat1_min                        = 5

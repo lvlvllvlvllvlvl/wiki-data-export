@@ -1,11 +1,12 @@
 {{Mod
 |id                               = SanctumSpecialLightningExposureEffectOnHit
-|mod_groups                       = ExposureOnHit
 |domain                           = 32
 |generation_type                  = 2
 |required_level                   = 82
 |name                             = of Potential
+|mod_groups                       = ExposureOnHit
 |mod_type                         = LightningExposureEffectOnHit
+|game_mode                        = 0
 |stat_text                        = Inflict Lightning Exposure on [[Hit]], applying -15% to [[Lightning Resistance]]
 |stat1_id                         = lightning_exposure_on_hit_magnitude
 |stat1_min                        = -15

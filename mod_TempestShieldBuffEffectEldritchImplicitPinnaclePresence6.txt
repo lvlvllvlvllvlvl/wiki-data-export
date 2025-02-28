@@ -1,12 +1,13 @@
 {{Mod
 |id                               = TempestShieldBuffEffectEldritchImplicitPinnaclePresence6
-|mod_groups                       = TempestShieldBuffEffect
 |domain                           = 1
 |generation_type                  = 28
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = TempestShieldBuffEffect
 |mod_type                         = TempestShieldBuffEffectPinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], [[Tempest Shield]] has (48-50)% increased Buff Effect
 |stat1_id                         = tempest_shield_buff_effect_+%
 |stat1_min                        = 48

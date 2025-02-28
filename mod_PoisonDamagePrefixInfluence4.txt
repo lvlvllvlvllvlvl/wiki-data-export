@@ -1,11 +1,12 @@
 {{Mod
 |id                               = PoisonDamagePrefixInfluence4
-|mod_groups                       = WeaponCasterDamagePrefix
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 78
 |name                             = Hunter's
+|mod_groups                       = WeaponCasterDamagePrefix
 |mod_type                         = ChaosDamageOverTimePrefix
+|game_mode                        = 0
 |stat_text                        = (90-94)% increased [[Chaos Damage]] over Time
 |stat1_id                         = chaos_damage_over_time_+%
 |stat1_min                        = 90

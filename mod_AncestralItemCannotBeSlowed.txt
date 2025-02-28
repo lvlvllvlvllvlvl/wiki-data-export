@@ -1,10 +1,11 @@
 {{Mod
 |id                               = AncestralItemCannotBeSlowed
-|mod_groups                       = AncestralTrialItem
 |domain                           = 3
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = AncestralTrialItem
 |mod_type                         = AncestralItemCannotBeSlowed
+|game_mode                        = 0
 |stat_text                        = <abbr title="Cannot be Slowed">Action Speed cannot be modified to below Base Value</abbr><br>[[Movement Speed]] cannot be modified to below Base Value (Hidden)
 |stat1_id                         = action_speed_cannot_be_reduced_below_base
 |stat1_min                        = 1

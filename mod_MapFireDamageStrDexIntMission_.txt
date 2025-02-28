@@ -1,10 +1,11 @@
 {{Mod
 |id                               = MapFireDamageStrDexIntMission_
-|mod_groups                       = MapMonsterElementalDamage
 |domain                           = 5
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = MapMonsterElementalDamage
 |mod_type                         = MapMonsterFireDamageMap2Tier
+|game_mode                        = 0
 |stat_text                        = Monsters deal (40-60)% extra [[Physical Damage]] as Fire
 |stat1_id                         = map_monsters_%_physical_damage_to_add_as_fire
 |stat1_min                        = 40

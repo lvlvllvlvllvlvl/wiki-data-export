@@ -1,12 +1,13 @@
 {{Mod
 |id                               = IgniteProliferationEldritchImplicitUniquePresence3
-|mod_groups                       = GlobalIgniteProlif
 |domain                           = 1
 |generation_type                  = 28
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_unique_monster
 |granted_buff_value               = 0
+|mod_groups                       = GlobalIgniteProlif
 |mod_type                         = GlobalIgniteProlifUniquePresence
+|game_mode                        = 0
 |stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], [[Ignite|Ignites]] you inflict spread to other Enemies within 1.7 metres
 |stat1_id                         = gloves_ignite_proliferation_radius
 |stat1_min                        = 17

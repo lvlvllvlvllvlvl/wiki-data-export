@@ -1,12 +1,13 @@
 {{Mod
 |id                               = BlockPercentEldritchImplicitUniquePresence2
-|mod_groups                       = BlockPercent
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_unique_monster
 |granted_buff_value               = 0
+|mod_groups                       = BlockPercent
 |mod_type                         = BlockPercentUniquePresence
+|game_mode                        = 0
 |stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], 8% Chance to [[Block]] [[Attack Damage]]
 |stat1_id                         = monster_base_block_%
 |stat1_min                        = 8

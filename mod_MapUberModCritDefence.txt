@@ -1,11 +1,12 @@
 {{Mod
 |id                               = MapUberModCritDefence
-|mod_groups                       = MapMonstersBaseSelfCriticalMultiplier
 |domain                           = 37
 |generation_type                  = 2
 |required_level                   = 1
 |name                             = of Toughness
+|mod_groups                       = MapMonstersBaseSelfCriticalMultiplier
 |mod_type                         = MapUberModCritDefence
+|game_mode                        = 0
 |stat_text                        = Monsters take (35-45)% reduced Extra Damage from [[Critical strike|Critical Strikes]]
 |stat1_id                         = map_monsters_base_self_critical_strike_multiplier_-%
 |stat1_min                        = 35

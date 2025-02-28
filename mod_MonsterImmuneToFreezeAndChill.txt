@@ -1,10 +1,11 @@
 {{Mod
 |id                               = MonsterImmuneToFreezeAndChill
-|mod_groups                       = AvoidStatusAilments
 |domain                           = 3
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = AvoidStatusAilments
 |mod_type                         = MonsterImmuneToStatusAilments
+|game_mode                        = 0
 |stat_text                        = <abbr title="Cannot be Chilled">100% chance to Avoid being [[Chill|Chilled]]</abbr><br><abbr title="Cannot be Frozen">100% chance to Avoid being [[Freeze|Frozen]]</abbr>
 |stat1_id                         = base_avoid_chill_%
 |stat1_min                        = 100

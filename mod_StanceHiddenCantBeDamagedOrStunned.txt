@@ -1,10 +1,11 @@
 {{Mod
 |id                               = StanceHiddenCantBeDamagedOrStunned
-|mod_groups                       = Stance
 |domain                           = 3
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = Stance
 |mod_type                         = HiddenCantBeDamagedOrStunned
+|game_mode                        = 0
 |stat_text                        = Cannot be Damaged (Hidden)<br>Cannot be Stunned (Hidden)<br>Hidden Monster (Hidden)
 |stat1_id                         = is_hidden_monster
 |stat1_min                        = 1

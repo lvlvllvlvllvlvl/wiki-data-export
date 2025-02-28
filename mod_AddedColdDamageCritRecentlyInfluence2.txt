@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AddedColdDamageCritRecentlyInfluence2
-|mod_groups                       = AddedColdDamage
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 73
 |name                             = Redeemer's
+|mod_groups                       = AddedColdDamage
 |mod_type                         = AddedColdDamageIfCritRecently
+|game_mode                        = 0
 |stat_text                        = Adds (20-25) to (26-35) [[Cold Damage]] if you've dealt a [[Critical Strike]] [[Recently]]
 |stat1_id                         = minimum_added_cold_damage_if_have_crit_recently
 |stat1_min                        = 20

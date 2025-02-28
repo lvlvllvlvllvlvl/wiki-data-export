@@ -1,12 +1,13 @@
 {{Mod
 |id                               = SpellAddedChaosDamageEldritchImplicitPinnaclePresence4
-|mod_groups                       = SpellAddedChaosDamage
 |domain                           = 1
 |generation_type                  = 28
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = SpellAddedChaosDamage
 |mod_type                         = SpellAddedChaosDamagePinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], Adds (18-23) to (36-41) [[Chaos Damage]] to [[Spell|Spells]]
 |stat1_id                         = spell_minimum_added_chaos_damage
 |stat1_min                        = 18

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskFullRechargeOnTakeCrit1
-|mod_groups                       = FlaskRechargeRate
 |domain                           = 2
 |generation_type                  = 1
 |required_level                   = 12
 |name                             = Avenger's
+|mod_groups                       = FlaskRechargeRate
 |mod_type                         = FlaskFullRechargeOnTakeCrit
+|game_mode                        = 0
 |stat_text                        = Recharges 5 [[Charge|Charges]] when you take a [[Critical Strike]]
 |stat1_id                         = local_recharge_on_take_crit
 |stat1_min                        = 5

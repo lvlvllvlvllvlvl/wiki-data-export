@@ -1,11 +1,12 @@
 {{Mod
 |id                               = HeistContractMonsterChaosDamage1
-|mod_groups                       = MapMonsterChaosDamage
 |domain                           = 22
 |generation_type                  = 1
 |required_level                   = 73
 |name                             = Profane
+|mod_groups                       = MapMonsterChaosDamage
 |mod_type                         = HeistContractMonsterChaosDamage
+|game_mode                        = 0
 |stat_text                        = Monsters gain (21-25)% of their [[Physical Damage]] as Extra [[Chaos Damage]]<br>Monsters Inflict Withered for 2 seconds on [[Hit]]
 |stat1_id                         = map_monsters_%_physical_damage_to_add_as_chaos
 |stat1_min                        = 21

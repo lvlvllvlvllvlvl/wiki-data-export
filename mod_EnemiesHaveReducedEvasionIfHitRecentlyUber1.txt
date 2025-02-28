@@ -1,11 +1,12 @@
 {{Mod
 |id                               = EnemiesHaveReducedEvasionIfHitRecentlyUber1
-|mod_groups                       = EnemiesHaveReducedEvasionIfHitRecently
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 68
 |name                             = of Shaping
+|mod_groups                       = EnemiesHaveReducedEvasionIfHitRecently
 |mod_type                         = EnemiesHaveReducedEvasionIfHitRecently
+|game_mode                        = 0
 |stat_text                        = Enemies have 20% reduced [[Evasion]] if you have [[Hit]] them [[Recently]]
 |stat1_id                         = enemy_evasion_+%_if_you_have_hit_them_recently
 |stat1_min                        = -20

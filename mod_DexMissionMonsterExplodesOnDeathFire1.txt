@@ -1,11 +1,12 @@
 {{Mod
 |id                               = DexMissionMonsterExplodesOnDeathFire1
-|mod_groups                       = MonsterNemesis
 |domain                           = 3
 |generation_type                  = 3
 |required_level                   = 2
 |name                             = Volatile Flameblood
+|mod_groups                       = MonsterNemesis
 |mod_type                         = MonsterExplodesOnDeathFire
+|game_mode                        = 0
 |stat_text                        = Explodes on death dealing (300-360)% of main hand damage as Fire Damage (Hidden)<br>Monster corpse will be removed (Hidden)
 |stat1_id                         = explode_on_death_%_main_hand_damage_to_deal_as_fire
 |stat1_min                        = 300

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = BlindingAuraSkillUnique__1
-|mod_groups                       = GrantedSkill
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 79
+|mod_groups                       = GrantedSkill
 |granted_skill                    = BlindingAura
 |mod_type                         = BlindingAuraSkill
+|game_mode                        = 0
 |stat_text                        = Triggers [[Level]] 20 Blinding Aura when Equipped
 |stat1_id                         = local_display_trigger_level_X_blinding_aura_skill_on_equip
 |stat1_min                        = 20

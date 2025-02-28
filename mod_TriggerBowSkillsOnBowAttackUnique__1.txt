@@ -1,11 +1,12 @@
 {{Mod
 |id                               = TriggerBowSkillsOnBowAttackUnique__1
-|mod_groups                       = SupportedByTrigger
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = SupportedByTrigger
 |granted_skill                    = SupportTriggerBowSkillOnBowAttack
 |mod_type                         = TriggerBowSkillsOnBowAttack
+|game_mode                        = 0
 |stat_text                        = Trigger a [[Item socket|Socketed]] [[Bow Skills|Bow Skill]] when you [[Attack]] with a [[Bow]], with a 1 second Cooldown
 |stat1_id                         = chance_to_trigger_socketed_bow_skill_on_bow_attack_%
 |stat1_min                        = 100

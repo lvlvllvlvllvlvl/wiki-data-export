@@ -1,11 +1,12 @@
 {{Mod
 |id                               = SanctumSpecialFlaskGainPerSecond
-|mod_groups                       = FlaskChargesGained
 |domain                           = 32
 |generation_type                  = 1
 |required_level                   = 82
 |name                             = Refilling
+|mod_groups                       = FlaskChargesGained
 |mod_type                         = FlaskGainPerSecond
+|game_mode                        = 0
 |stat_text                        = [[Flask|Flasks]] gain (1-2) [[Charge|Charges]] every 3 seconds
 |stat1_id                         = flask_charges_recovered_per_3_seconds
 |stat1_min                        = 1

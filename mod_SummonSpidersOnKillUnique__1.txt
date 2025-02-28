@@ -1,11 +1,12 @@
 {{Mod
 |id                               = SummonSpidersOnKillUnique__1
-|mod_groups                       = GrantsMinion
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = GrantsMinion
 |granted_skill                    = RaiseSpiders
 |mod_type                         = GrantsSpiderMinion
+|game_mode                        = 0
 |stat_text                        = 100% chance to Trigger [[Level]] 1 Raise Spiders on [[Kill]]
 |stat1_id                         = local_display_raise_spider_on_kill_%_chance
 |stat1_min                        = 100

@@ -1,12 +1,13 @@
 {{Mod
 |id                               = NearbyEnemyZeroChaosDamageResistanceUnique__1
-|mod_groups                       = NearbyEnemyZeroChaosDamageResistance
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 65
 |granted_buff_id                  = unique_no_chaos_resistance
 |granted_buff_value               = 60
+|mod_groups                       = NearbyEnemyZeroChaosDamageResistance
 |mod_type                         = NearbyEnemyZeroChaosDamageResistance
+|game_mode                        = 0
 |stat_text                        = {{Radius||6.0m}} Enemies' [[Chaos Resistance]] is 0
 |stat1_id                         = local_display_nearby_enemy_no_chaos_damage_resistance
 |stat1_min                        = 1

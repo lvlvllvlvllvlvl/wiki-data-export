@@ -1,11 +1,12 @@
 {{Mod
 |id                               = SanctumSpecialPlayerReflectedDamage
-|mod_groups                       = ReflectedDamage
 |domain                           = 32
 |generation_type                  = 1
 |required_level                   = 75
 |name                             = Chosen
+|mod_groups                       = ReflectedDamage
 |mod_type                         = PlayerReflectedDamage
+|game_mode                        = 0
 |stat_text                        = (65-50)% reduced Reflected Damage taken
 |stat1_id                         = reflect_damage_taken_+%
 |stat1_min                        = -65

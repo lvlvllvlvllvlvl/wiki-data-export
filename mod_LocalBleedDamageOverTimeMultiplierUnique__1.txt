@@ -1,10 +1,11 @@
 {{Mod
 |id                               = LocalBleedDamageOverTimeMultiplierUnique__1
-|mod_groups                       = BleedingDamage
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = BleedingDamage
 |mod_type                         = LocalBleedDamageOverTimeMultiplier
+|game_mode                        = 0
 |stat_text                        = +(25-35)% to Damage over Time Multiplier for Bleeding from [[Hit|Hits]] with this Weapon
 |stat1_id                         = local_bleeding_ailment_dot_multiplier_+
 |stat1_min                        = 25

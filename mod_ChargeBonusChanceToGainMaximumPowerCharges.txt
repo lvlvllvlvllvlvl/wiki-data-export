@@ -1,10 +1,11 @@
 {{Mod
 |id                               = ChargeBonusChanceToGainMaximumPowerCharges
-|mod_groups                       = ChanceToGainMaximumPowerCharges
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = ChanceToGainMaximumPowerCharges
 |mod_type                         = ChanceToGainMaximumPowerCharges
+|game_mode                        = 0
 |stat_text                        = 15% chance that if you would gain [[Power Charge|Power Charges]], you instead gain up to<br />your maximum number of [[Power Charge|Power Charges]]
 |stat1_id                         = gain_maximum_power_charges_on_power_charge_gained_%_chance
 |stat1_min                        = 15

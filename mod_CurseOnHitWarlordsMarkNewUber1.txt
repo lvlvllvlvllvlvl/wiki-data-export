@@ -1,12 +1,13 @@
 {{Mod
 |id                               = CurseOnHitWarlordsMarkNewUber1
-|mod_groups                       = CurseOnHitLevel
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 75
 |name                             = of the Elder
+|mod_groups                       = CurseOnHitLevel
 |granted_skill                    = WarlordsMarkTriggered
 |mod_type                         = TriggerOnRareWarlordsMark
+|game_mode                        = 0
 |stat_text                        = Trigger [[Level]] 8 [[Warlord's Mark]] when you [[Hit]] a Rare or Unique Enemy and have no Mark
 |stat1_id                         = local_display_trigger_level_X_warlords_mark_when_you_hit_rare_or_unique_enemy
 |stat1_min                        = 8

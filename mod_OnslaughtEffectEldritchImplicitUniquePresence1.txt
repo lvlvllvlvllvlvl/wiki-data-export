@@ -1,12 +1,13 @@
 {{Mod
 |id                               = OnslaughtEffectEldritchImplicitUniquePresence1
-|mod_groups                       = OnslaughtEffect
 |domain                           = 1
 |generation_type                  = 28
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_unique_monster
 |granted_buff_value               = 0
+|mod_groups                       = OnslaughtEffect
 |mod_type                         = OnslaughtEffectUniquePresence
+|game_mode                        = 0
 |stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], (12-13)% increased Effect of [[Onslaught]] on you
 |stat1_id                         = onslaught_effect_+%
 |stat1_min                        = 12

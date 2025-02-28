@@ -1,11 +1,12 @@
 {{Mod
 |id                               = LocalGrantsStormCascadeOnAttackUnique__1
-|mod_groups                       = GrantedSkill
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = GrantedSkill
 |granted_skill                    = StormCascadeTriggered
 |mod_type                         = LocalDisplayGrantsStormCascadeOnAttack
+|game_mode                        = 0
 |stat_text                        = Trigger [[Level]] 20 Storm Cascade when you [[Attack]]
 |stat1_id                         = local_display_trigger_level_x_storm_cascade_on_attack
 |stat1_min                        = 20

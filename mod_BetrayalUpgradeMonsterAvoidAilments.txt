@@ -1,10 +1,11 @@
 {{Mod
 |id                               = BetrayalUpgradeMonsterAvoidAilments
-|mod_groups                       = AvoidStatusAilments
 |domain                           = 3
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = AvoidStatusAilments
 |mod_type                         = MonsterAvoidAilments
+|game_mode                        = 0
 |stat_text                        = <abbr title="Avoids Chilled">50% chance to Avoid being [[Chill|Chilled]]</abbr><br><abbr title="Avoids Frozen">50% chance to Avoid being [[Freeze|Frozen]]</abbr><br><abbr title="Avoids Ignited">50% chance to Avoid being Ignited</abbr><br><abbr title="Avoids Shocked">50% chance to Avoid being [[Shock|Shocked]]</abbr><br>50% chance to Avoid Bleeding (Hidden)<br>50% chance to Avoid being [[Poison|Poisoned]] (Hidden)
 |stat1_id                         = base_avoid_chill_%
 |stat1_min                        = 50

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = ChanceToBlockProjectileAttacks3
-|mod_groups                       = BlockVsProjectiles
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 30
 |name                             = of Cover
+|mod_groups                       = BlockVsProjectiles
 |mod_type                         = BlockVsProjectiles
+|game_mode                        = 0
 |stat_text                        = +(5-6)% chance to [[Block]] Projectile [[Attack Damage]]
 |stat1_id                         = additional_block_chance_against_projectiles_%
 |stat1_min                        = 5

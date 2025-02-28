@@ -1,12 +1,13 @@
 {{Mod
 |id                               = FrenzyChargePerSecondEldritchImplicitUniquePresence2
-|mod_groups                       = FrenzyChargePerSecond
 |domain                           = 1
 |generation_type                  = 28
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_unique_monster
 |granted_buff_value               = 0
+|mod_groups                       = FrenzyChargePerSecond
 |mod_type                         = FrenzyChargePerSecondUniquePresence
+|game_mode                        = 0
 |stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], Gain a [[Frenzy Charge]] every 10 seconds
 |stat1_id                         = body_armour_implicit_gain_frenzy_charge_every_x_ms
 |stat1_min                        = 10000

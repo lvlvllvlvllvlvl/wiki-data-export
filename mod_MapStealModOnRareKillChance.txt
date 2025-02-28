@@ -1,11 +1,12 @@
 {{Mod
 |id                               = MapStealModOnRareKillChance
-|mod_groups                       = MapStealModOnRareKillChance
 |domain                           = 12
 |generation_type                  = 1
 |required_level                   = 1
 |name                             = Thief's
+|mod_groups                       = MapStealModOnRareKillChance
 |mod_type                         = MapStealModOnRareKillChance
+|game_mode                        = 0
 |stat_text                        = When Players in next Area [[Kill]] a Rare Monster they will gain 1 of its Modifiers for 20 seconds
 |stat1_id                         = map_players_gain_1_rare_monster_mods_on_kill_for_20_seconds_%
 |stat1_min                        = 100

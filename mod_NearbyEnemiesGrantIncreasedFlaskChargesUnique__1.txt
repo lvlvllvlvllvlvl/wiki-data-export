@@ -1,12 +1,13 @@
 {{Mod
 |id                               = NearbyEnemiesGrantIncreasedFlaskChargesUnique__1
-|mod_groups                       = NearbyEnemiesBonuses
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
 |granted_buff_id                  = unique_nearby_enemies_increased_flask_charges
 |granted_buff_value               = 60
+|mod_groups                       = NearbyEnemiesBonuses
 |mod_type                         = NearbyEnemiesGrantIncreasedFlaskCharges
+|game_mode                        = 0
 |stat_text                        = {{Radius||6.0m}} Enemies grant 25% increased [[Flask]] [[Charge|Charges]]
 |stat1_id                         = local_display_nearby_enemies_flask_charges_granted_+%
 |stat1_min                        = 25

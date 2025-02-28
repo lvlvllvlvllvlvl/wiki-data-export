@@ -1,10 +1,11 @@
 {{Mod
 |id                               = AzmeriMannequinReviveAfterTime
-|mod_groups                       = MonsterReviveAfterTime
 |domain                           = 3
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = MonsterReviveAfterTime
 |mod_type                         = SpectreReviveAfterTime
+|game_mode                        = 0
 |stat_text                        = Summoned Spectre is Resummoned 4 seconds after being Killed (Hidden)
 |stat1_id                         = revive_spectre_if_killed_by_enemies_ms
 |stat1_min                        = 4000

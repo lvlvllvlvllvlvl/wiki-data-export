@@ -1,12 +1,13 @@
 {{Mod
 |id                               = EnchantmentOfTheGraveOnKill1__
-|mod_groups                       = TriggerEnchantment
 |domain                           = 1
 |generation_type                  = 10
 |required_level                   = 32
 |name                             = Enchantment Word of the Grave
+|mod_groups                       = TriggerEnchantment
 |granted_skill                    = EnchantmentOfTheGraveOnKill
 |mod_type                         = EnchantmentOfTheGraveOnKill
+|game_mode                        = 0
 |stat_text                        = Trigger [[Word of the Grave]] when your [[Skill|Skills]] or [[Minion|Minions]] [[Kill]]
 |stat1_id                         = display_cast_word_of_the_grave_on_kill_%
 |stat1_min                        = 100

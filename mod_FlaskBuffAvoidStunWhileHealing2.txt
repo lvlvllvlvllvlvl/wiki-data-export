@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskBuffAvoidStunWhileHealing2
-|mod_groups                       = FlaskBuffWhileHealing
 |domain                           = 2
 |generation_type                  = 2
 |required_level                   = 29
 |name                             = of Surefootedness
+|mod_groups                       = FlaskBuffWhileHealing
 |mod_type                         = FlaskBuffAvoidStunWhileHealing
+|game_mode                        = 0
 |stat_text                        = (36-40)% Chance to Avoid being Stunned during Effect
 |stat1_id                         = local_flask_avoid_stun_chance_%_during_flask_effect
 |stat1_min                        = 36

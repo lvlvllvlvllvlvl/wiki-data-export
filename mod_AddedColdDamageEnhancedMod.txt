@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AddedColdDamageEnhancedMod
-|mod_groups                       = ColdDamage, ConvertPhysicalToCold
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 1
 |name                             = Topotante's
+|mod_groups                       = ColdDamage, ConvertPhysicalToCold
 |mod_type                         = ColdDamagePhysConvertedToCold
+|game_mode                        = 0
 |stat_text                        = Adds (5-7) to (10-12) [[Cold Damage]] to [[Attack|Attacks]]<br>25% of [[Physical Damage]] Converted to [[Cold Damage]]
 |stat1_id                         = attack_minimum_added_cold_damage
 |stat1_min                        = 5

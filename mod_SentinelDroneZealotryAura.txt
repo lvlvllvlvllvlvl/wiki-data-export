@@ -1,13 +1,14 @@
 {{Mod
 |id                               = SentinelDroneZealotryAura
-|mod_groups                       = SentinelDroneAura
 |domain                           = 30
 |generation_type                  = 2
 |required_level                   = 1
 |name                             = of Zealotry
 |granted_buff_id                  = player_aura_spell_damage
 |granted_buff_value               = 60
+|mod_groups                       = SentinelDroneAura
 |mod_type                         = SentinelDroneZealotryAura
+|game_mode                        = 0
 |stat_text                        = Grants [[Level]] 20 Zealotry Aura
 |stat1_id                         = local_display_sentinel_uses_level_x_zealotry_aura
 |stat1_min                        = 20

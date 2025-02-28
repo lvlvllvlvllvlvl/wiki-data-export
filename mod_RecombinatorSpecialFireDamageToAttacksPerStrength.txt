@@ -1,11 +1,12 @@
 {{Mod
 |id                               = RecombinatorSpecialFireDamageToAttacksPerStrength
-|mod_groups                       = GlobalAddedDamagePerAttribute
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 68
 |name                             = Sentinel's
+|mod_groups                       = GlobalAddedDamagePerAttribute
 |mod_type                         = FireDamageToAttacksPerStrength
+|game_mode                        = 0
 |stat_text                        = Adds 2 to 4 [[Fire Damage]] to [[Attack|Attacks]] per 10 [[Strength]]
 |stat1_id                         = minimum_added_fire_damage_to_attacks_per_10_strength
 |stat1_min                        = 2

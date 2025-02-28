@@ -1,11 +1,12 @@
 {{Mod
 |id                               = PvPMasterDamageReflectedOnBlock1Crafted
-|mod_groups                       = ReflectDamageToAttackersOnBlock
 |domain                           = 9
 |generation_type                  = 1
 |required_level                   = 20
 |name                             = Chastising
+|mod_groups                       = ReflectDamageToAttackersOnBlock
 |mod_type                         = ReflectDamageToAttackersOnBlock
+|game_mode                        = 0
 |stat_text                        = Reflects (30-40) to (70-80) [[Physical Damage]] to Attackers on [[Block]]
 |stat1_id                         = minimum_physical_damage_to_return_on_block
 |stat1_min                        = 30

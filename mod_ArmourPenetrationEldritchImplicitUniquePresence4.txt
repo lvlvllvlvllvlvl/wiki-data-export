@@ -1,12 +1,13 @@
 {{Mod
 |id                               = ArmourPenetrationEldritchImplicitUniquePresence4
-|mod_groups                       = ArmourPenetration
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_unique_monster
 |granted_buff_value               = 0
+|mod_groups                       = ArmourPenetration
 |mod_type                         = ChanceToIgnoreEnemyArmourUniquePresence
+|game_mode                        = 0
 |stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], [[Hit|Hits]] have (53-56)% chance to ignore Enemy [[Physical Damage]] Reduction
 |stat1_id                         = hits_ignore_enemy_monster_physical_damage_reduction_%_chance
 |stat1_min                        = 53

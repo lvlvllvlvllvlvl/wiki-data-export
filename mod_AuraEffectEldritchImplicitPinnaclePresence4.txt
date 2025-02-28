@@ -1,12 +1,13 @@
 {{Mod
 |id                               = AuraEffectEldritchImplicitPinnaclePresence4
-|mod_groups                       = AuraEffect
 |domain                           = 1
 |generation_type                  = 28
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = AuraEffect
 |mod_type                         = AuraEffectPinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], (31-32)% increased effect of Non-Curse Auras from your [[Skill|Skills]]
 |stat1_id                         = non_curse_aura_effect_+%
 |stat1_min                        = 31

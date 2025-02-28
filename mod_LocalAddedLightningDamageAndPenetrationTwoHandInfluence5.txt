@@ -1,11 +1,12 @@
 {{Mod
 |id                               = LocalAddedLightningDamageAndPenetrationTwoHandInfluence5
-|mod_groups                       = LightningDamageHybrid
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 80
 |name                             = Crusader's
+|mod_groups                       = LightningDamageHybrid
 |mod_type                         = LocalLightningDamagePenetrationHybrid
+|game_mode                        = 0
 |stat_text                        = Adds (6-15) to (165-183) [[Lightning Damage]]<br>[[Attack|Attacks]] with this Weapon Penetrate (5-7)% [[Lightning Resistance]]
 |stat1_id                         = local_minimum_added_lightning_damage
 |stat1_min                        = 6

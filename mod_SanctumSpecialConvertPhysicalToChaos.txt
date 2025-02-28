@@ -1,11 +1,12 @@
 {{Mod
 |id                               = SanctumSpecialConvertPhysicalToChaos
-|mod_groups                       = PhysicalDamageConvertToChaos
 |domain                           = 32
 |generation_type                  = 1
 |required_level                   = 75
 |name                             = Desanctifying
+|mod_groups                       = PhysicalDamageConvertToChaos
 |mod_type                         = PhysicalDamageConvertToChaosImplicit
+|game_mode                        = 0
 |stat_text                        = (20-30)% of [[Physical Damage]] Converted to [[Chaos Damage]]
 |stat1_id                         = base_physical_damage_%_to_convert_to_chaos
 |stat1_min                        = 20

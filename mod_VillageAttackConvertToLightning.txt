@@ -1,10 +1,11 @@
 {{Mod
 |id                               = VillageAttackConvertToLightning
-|mod_groups                       = AttackConversion
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = AttackConversion
 |mod_type                         = AttackConvertToLightning
+|game_mode                        = 0
 |stat_text                        = (20-30)% of [[Attack]] [[Physical Damage]] Converted to [[Lightning Damage]]
 |stat1_id                         = attack_physical_damage_%_to_convert_to_lightning
 |stat1_min                        = 20

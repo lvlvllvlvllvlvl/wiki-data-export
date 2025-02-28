@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskPoisonImmunity4
-|mod_groups                       = FlaskDispellPoison
 |domain                           = 2
 |generation_type                  = 2
 |required_level                   = 82
 |name                             = of the Antidote
+|mod_groups                       = FlaskDispellPoison
 |mod_type                         = FlaskPoisonImmunity
+|game_mode                        = 0
 |stat_text                        = Grants Immunity to [[Poison]] for (15-17) seconds if used while [[Poison|Poisoned]]
 |stat1_id                         = local_flask_poison_immunity_if_poisoned_s
 |stat1_min                        = 15

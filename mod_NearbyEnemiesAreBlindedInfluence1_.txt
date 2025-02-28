@@ -1,13 +1,14 @@
 {{Mod
 |id                               = NearbyEnemiesAreBlindedInfluence1_
-|mod_groups                       = NearbyEnemiesAreBlinded
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 75
 |name                             = Redeemer's
 |granted_buff_id                  = generic_buff_aura
 |granted_buff_value               = 35
+|mod_groups                       = NearbyEnemiesAreBlinded
 |mod_type                         = NearbyEnemiesAreBlinded
+|game_mode                        = 0
 |stat_text                        = {{Radius||3.5m}} Enemies are Blinded
 |stat1_id                         = dummy_stat_display_nothing
 |stat1_min                        = 1

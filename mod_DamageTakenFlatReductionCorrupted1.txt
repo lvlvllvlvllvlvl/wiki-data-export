@@ -1,10 +1,11 @@
 {{Mod
 |id                               = DamageTakenFlatReductionCorrupted1
-|mod_groups                       = PhysicalAttackDamageTaken
 |domain                           = 1
 |generation_type                  = 5
 |required_level                   = 1
+|mod_groups                       = PhysicalAttackDamageTaken
 |mod_type                         = PhysicalAttackDamageTaken
+|game_mode                        = 0
 |stat_text                        = -(10-5) [[Physical Damage]] taken from [[Attack]] [[Hit|Hits]]
 |stat1_id                         = physical_attack_damage_taken_+
 |stat1_min                        = -10

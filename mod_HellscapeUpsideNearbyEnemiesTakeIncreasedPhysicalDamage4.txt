@@ -1,12 +1,13 @@
 {{Mod
 |id                               = HellscapeUpsideNearbyEnemiesTakeIncreasedPhysicalDamage4
-|mod_groups                       = LocalDisplayNearbyEnemyPhysicalDamageTaken
 |domain                           = 1
 |generation_type                  = 24
 |required_level                   = 68
 |granted_buff_id                  = increased_enemy_physical_damage_taken_from_hellscape_item
 |granted_buff_value               = 60
+|mod_groups                       = LocalDisplayNearbyEnemyPhysicalDamageTaken
 |mod_type                         = NearbyEnemyPhysicalDamageTaken
+|game_mode                        = 0
 |stat_text                        = {{Radius||6.0m}} Enemies take 4% increased [[Physical Damage]]
 |stat1_id                         = local_display_nearby_enemy_physical_damage_taken_+%
 |stat1_min                        = 4

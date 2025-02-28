@@ -1,13 +1,14 @@
 {{Mod
 |id                               = MonsterArchnemesisArcaneEnchanted
-|mod_groups                       = MonsterArchnemesisArcaneGuarded
 |domain                           = 3
 |generation_type                  = 3
 |required_level                   = 6
 |name                             = Arcane
 |granted_buff_id                  = monster_aura_energy_shield
 |granted_buff_value               = 50
+|mod_groups                       = MonsterArchnemesisArcaneGuarded
 |mod_type                         = MonsterArchnemesisArcaneGuarded
+|game_mode                        = 0
 |stat_text                        = 150% faster start of [[Energy Shield]] Recharge (Hidden)<br>[[Chaos Damage]] taken does not bypass [[Energy Shield]] (Hidden)
 |stat1_id                         = energy_shield_delay_-%
 |stat1_min                        = 150

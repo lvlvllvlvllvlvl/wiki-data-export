@@ -1,12 +1,13 @@
 {{Mod
 |id                               = DelveWeaponSocketedSpellsDamageFinal2h1
-|mod_groups                       = SocketedSpellsDamageFinal
 |domain                           = 16
 |generation_type                  = 1
 |required_level                   = 1
 |name                             = Subterranean
+|mod_groups                       = SocketedSpellsDamageFinal
 |granted_skill                    = DelveModSocketedSpellDamageFinal2h
 |mod_type                         = SocketedSpellsDamageFinal
+|game_mode                        = 0
 |stat_text                        = [[Item socket|Socketed]] [[Skill|Skills]] deal 20% more [[Spell Damage]]
 |stat1_id                         = local_display_socketed_spell_damage_+%_final
 |stat1_min                        = 20

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = MapUberModMarkedForDeath
-|mod_groups                       = MapUberModMarkedForDeath
 |domain                           = 37
 |generation_type                  = 1
 |required_level                   = 1
 |name                             = Retributive
+|mod_groups                       = MapUberModMarkedForDeath
 |mod_type                         = MapUberModMarkedForDeath
+|game_mode                        = 0
 |stat_text                        = Players are Marked for Death for 10 seconds<br />after killing a Rare or Unique monster
 |stat1_id                         = map_player_death_mark_on_rare_unique_kill_ms
 |stat1_min                        = 10000

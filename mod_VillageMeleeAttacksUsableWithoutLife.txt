@@ -1,10 +1,11 @@
 {{Mod
 |id                               = VillageMeleeAttacksUsableWithoutLife
-|mod_groups                       = MeleeAttacksUsableWithoutMana
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = MeleeAttacksUsableWithoutMana
 |mod_type                         = MeleeAttacksUsableWithoutLife
+|game_mode                        = 0
 |stat_text                        = Insufficient [[Life]] doesn't prevent your Melee [[Attack|Attacks]]
 |stat1_id                         = melee_attacks_usable_without_life_cost
 |stat1_min                        = 1

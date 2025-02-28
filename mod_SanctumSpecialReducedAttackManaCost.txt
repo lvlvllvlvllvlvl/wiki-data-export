@@ -1,11 +1,12 @@
 {{Mod
 |id                               = SanctumSpecialReducedAttackManaCost
-|mod_groups                       = ManaCostReduction
 |domain                           = 32
 |generation_type                  = 1
 |required_level                   = 75
 |name                             = Efficient
+|mod_groups                       = ManaCostReduction
 |mod_type                         = ReducedAttackManaCost
+|game_mode                        = 0
 |stat_text                        = (25-20)% reduced [[Mana]] Cost of [[Attack|Attacks]]
 |stat1_id                         = attack_mana_cost_+%
 |stat1_min                        = -25

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = LocalAddedFireDamageAndPenetrationInfluence3
-|mod_groups                       = FireDamageHybrid
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 74
 |name                             = Warlord's
+|mod_groups                       = FireDamageHybrid
 |mod_type                         = LocalFireDamagePenetrationHybrid
+|game_mode                        = 0
 |stat_text                        = Adds (17-22) to (33-39) [[Fire Damage]]<br>[[Attack|Attacks]] with this Weapon Penetrate (5-7)% [[Fire Resistance]]
 |stat1_id                         = local_minimum_added_fire_damage
 |stat1_min                        = 17

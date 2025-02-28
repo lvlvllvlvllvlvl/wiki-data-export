@@ -1,11 +1,12 @@
 {{Mod
 |id                               = JunMasterCriticalChanceAndAddedChaosDamageIfHaveCritRecently2
-|mod_groups                       = CriticalStrikeChanceIncrease
 |domain                           = 9
 |generation_type                  = 2
 |required_level                   = 25
 |name                             = of the Order
+|mod_groups                       = CriticalStrikeChanceIncrease
 |mod_type                         = CriticalChanceAndAddedChaosDamageIfHaveCritRecently
+|game_mode                        = 0
 |stat_text                        = Adds (6-8) to (9-12) [[Chaos Damage]] if you've dealt a [[Critical Strike]] [[Recently]]<br>(11-12)% increased Global [[Critical Strike Chance]]
 |stat1_id                         = minimum_added_chaos_damage_if_have_crit_recently
 |stat1_min                        = 6

@@ -1,10 +1,11 @@
 {{Mod
 |id                               = LifeRegenPerActiveBuffUniqueBodyInt12
-|mod_groups                       = LifeRegenPerBuff
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = LifeRegenPerBuff
 |mod_type                         = LifeRegenPerBuff
+|game_mode                        = 0
 |stat_text                        = Regenerate (12-20) [[Life]] per second per Buff on you
 |stat1_id                         = life_regeneration_per_minute_per_active_buff
 |stat1_min                        = 720

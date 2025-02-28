@@ -1,11 +1,12 @@
 {{Mod
 |id                               = BlockDualWieldingJewel
-|mod_groups                       = FormBlock
 |domain                           = 10
 |generation_type                  = 1
 |required_level                   = 1
 |name                             = Parrying
+|mod_groups                       = FormBlock
 |mod_type                         = BlockDualWieldingForJewel
+|game_mode                        = 0
 |stat_text                        = +(2-3)% Chance to [[Block]] [[Attack Damage]] while [[Dual Wield|Dual Wielding]]
 |stat1_id                         = block_while_dual_wielding_%
 |stat1_min                        = 2

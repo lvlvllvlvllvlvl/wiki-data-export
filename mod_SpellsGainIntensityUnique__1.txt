@@ -1,10 +1,11 @@
 {{Mod
 |id                               = SpellsGainIntensityUnique__1
-|mod_groups                       = SpellsIntensityModifier
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = SpellsIntensityModifier
 |mod_type                         = SpellsGainIntensity
+|game_mode                        = 0
 |stat_text                        = [[Spell|Spells]] which have gained Intensity [[Recently]] gain 1 Intensity every 0.50 Seconds
 |stat1_id                         = skills_gain_intensity_every_x_milliseconds_if_gained_intensity_recently
 |stat1_min                        = 500

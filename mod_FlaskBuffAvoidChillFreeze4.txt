@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskBuffAvoidChillFreeze4
-|mod_groups                       = FlaskBuffWhileHealing
 |domain                           = 2
 |generation_type                  = 2
 |required_level                   = 61
 |name                             = of the Beluga
+|mod_groups                       = FlaskBuffWhileHealing
 |mod_type                         = FlaskBuffAvoidChillFreeze
+|game_mode                        = 0
 |stat_text                        = (46-50)% chance to Avoid being [[Chill|Chilled]] during Effect<br>(46-50)% chance to Avoid being [[Freeze|Frozen]] during Effect
 |stat1_id                         = local_avoid_chill_%_during_flask_effect
 |stat1_min                        = 46

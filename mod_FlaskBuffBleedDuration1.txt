@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskBuffBleedDuration1
-|mod_groups                       = FlaskBuffWhileHealing
 |domain                           = 2
 |generation_type                  = 2
 |required_level                   = 8
 |name                             = [UNUSED] Bleed duration 1
+|mod_groups                       = FlaskBuffWhileHealing
 |mod_type                         = FlaskBuffBleedDuration
+|game_mode                        = 0
 |stat_text                        = (45-35)% reduced Bleeding Duration on you during Effect
 |stat1_id                         = local_self_bleed_duration_+%_during_flask_effect
 |stat1_min                        = -45

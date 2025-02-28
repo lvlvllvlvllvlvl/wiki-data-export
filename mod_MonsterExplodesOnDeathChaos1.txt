@@ -1,11 +1,12 @@
 {{Mod
 |id                               = MonsterExplodesOnDeathChaos1
-|mod_groups                       = MonsterNemesis
 |domain                           = 3
 |generation_type                  = 3
 |required_level                   = 50
 |name                             = Venomous
+|mod_groups                       = MonsterNemesis
 |mod_type                         = MonsterExplodesOnDeathChaos
+|game_mode                        = 0
 |stat_text                        = Explodes on death dealing 8% of main hand damage as Chaos Damage (Hidden)<br>Monster corpse will be removed (Hidden)
 |stat1_id                         = explode_on_death_%_main_hand_damage_to_deal_as_chaos
 |stat1_min                        = 8

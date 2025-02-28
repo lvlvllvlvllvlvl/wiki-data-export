@@ -1,10 +1,11 @@
 {{Mod
 |id                               = VillageAttackConvertToCold
-|mod_groups                       = AttackConversion
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = AttackConversion
 |mod_type                         = AttackConvertToCold
+|game_mode                        = 0
 |stat_text                        = (20-30)% of [[Attack]] [[Physical Damage]] Converted to [[Cold Damage]]
 |stat1_id                         = attack_physical_damage_%_to_convert_to_cold
 |stat1_min                        = 20

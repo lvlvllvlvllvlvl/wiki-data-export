@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskBuffCriticalChanceWhileHealing3
-|mod_groups                       = FlaskBuffWhileHealing
 |domain                           = 2
 |generation_type                  = 2
 |required_level                   = 50
 |name                             = of Rupturing
+|mod_groups                       = FlaskBuffWhileHealing
 |mod_type                         = FlaskBuffCriticalWhileHealing
+|game_mode                        = 0
 |stat_text                        = (38-43)% increased [[Critical Strike Chance]] during Effect
 |stat1_id                         = local_flask_critical_strike_chance_+%_during_flask_effect
 |stat1_min                        = 38

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = MapUberModRecoveryRate
-|mod_groups                       = MapPlayerReducedRegen
 |domain                           = 37
 |generation_type                  = 2
 |required_level                   = 1
 |name                             = of Smothering
+|mod_groups                       = MapPlayerReducedRegen
 |mod_type                         = MapUberModRecoveryRate
+|game_mode                        = 0
 |stat_text                        = Players have 80% less Recovery Rate of [[Life]] and [[Energy Shield]]
 |stat1_id                         = map_player_life_and_es_recovery_speed_+%_final
 |stat1_min                        = -80

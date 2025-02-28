@@ -1,11 +1,12 @@
 {{Mod
 |id                               = PoisonDamage3
-|mod_groups                       = PoisonDamage
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 60
 |name                             = of Virulence
+|mod_groups                       = PoisonDamage
 |mod_type                         = PoisonDamageAndLocalChanceOnHit
+|game_mode                        = 0
 |stat_text                        = (41-50)% increased Damage with [[Poison]]<br>30% chance to [[Poison]] on [[Hit]]
 |stat1_id                         = base_poison_damage_+%
 |stat1_min                        = 41

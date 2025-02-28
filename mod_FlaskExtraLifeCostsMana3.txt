@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskExtraLifeCostsMana3
-|mod_groups                       = FlaskRecoveryAmount
 |domain                           = 2
 |generation_type                  = 1
 |required_level                   = 47
 |name                             = Depleting
+|mod_groups                       = FlaskRecoveryAmount
 |mod_type                         = FlaskExtraLifeCostsMana
+|game_mode                        = 0
 |stat_text                        = (46-50)% increased [[Life]] Recovered<br>Removes 10% of [[Life]] Recovered from [[Mana]] when used
 |stat1_id                         = local_flask_life_to_recover_+%
 |stat1_min                        = 46

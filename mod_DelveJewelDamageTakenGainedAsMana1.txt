@@ -1,11 +1,12 @@
 {{Mod
 |id                               = DelveJewelDamageTakenGainedAsMana1
-|mod_groups                       = PercentDamageGoesToMana
 |domain                           = 16
 |generation_type                  = 2
 |required_level                   = 1
 |name                             = of the Underground
+|mod_groups                       = PercentDamageGoesToMana
 |mod_type                         = PercentDamageGoesToMana
+|game_mode                        = 0
 |stat_text                        = (2-3)% of Damage taken Recouped as [[Mana]]
 |stat1_id                         = damage_taken_goes_to_mana_%
 |stat1_min                        = 2

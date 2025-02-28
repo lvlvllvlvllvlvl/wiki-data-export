@@ -1,11 +1,12 @@
 {{Mod
 |id                               = GrantsVoidGazeUnique__1
-|mod_groups                       = GrantsVoidGaze
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = GrantsVoidGaze
 |granted_skill                    = VoidGaze
 |mod_type                         = GrantsVoidGaze
+|game_mode                        = 0
 |stat_text                        = Trigger [[Level]] 10 Void Gaze when you use a [[Skill]]
 |stat1_id                         = local_display_trigger_level_X_void_gaze_on_skill_use
 |stat1_min                        = 10

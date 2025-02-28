@@ -1,11 +1,12 @@
 {{Mod
 |id                               = MapPossessedMonstersTakeIncreasedDamage
-|mod_groups                       = MapPossessedMonstersTakeIncreasedDamage
 |domain                           = 12
 |generation_type                  = 1
 |required_level                   = 1
 |name                             = Blessed
+|mod_groups                       = MapPossessedMonstersTakeIncreasedDamage
 |mod_type                         = MapPossessedMonstersTakeIncreasedDamage
+|game_mode                        = 0
 |stat_text                        = Monsters Possessed by Tormented Spirits in next Area will take (15-20)% increased Damage
 |stat1_id                         = map_monster_damage_taken_+%_while_possessed
 |stat1_min                        = 15

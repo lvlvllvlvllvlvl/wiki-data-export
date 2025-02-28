@@ -1,11 +1,12 @@
 {{Mod
 |id                               = TentacleSmashOnKillUnique__1_
-|mod_groups                       = GrantedSkill
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 100
+|mod_groups                       = GrantedSkill
 |granted_skill                    = TentacleSmash
 |mod_type                         = TentacleSmashOnKill
+|game_mode                        = 0
 |stat_text                        = 20% chance to Trigger [[Level]] 20 Tentacle Whip on [[Kill]]
 |stat1_id                         = local_display_trigger_tentacle_smash_on_kill_%_chance
 |stat1_min                        = 20

@@ -1,10 +1,11 @@
 {{Mod
 |id                               = V2ReducedDamageFromAreaOfEffectCorrupted
-|mod_groups                       = ReducedDamageFromAreaOfEffect
 |domain                           = 1
 |generation_type                  = 5
 |required_level                   = 20
+|mod_groups                       = ReducedDamageFromAreaOfEffect
 |mod_type                         = AreaOfEffectDamageTaken
+|game_mode                        = 0
 |stat_text                        = (6-4)% reduced Area Damage taken from [[Hit|Hits]]
 |stat1_id                         = area_damage_taken_from_hits_+%
 |stat1_min                        = -6

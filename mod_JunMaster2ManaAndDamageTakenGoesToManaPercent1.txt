@@ -1,11 +1,12 @@
 {{Mod
 |id                               = JunMaster2ManaAndDamageTakenGoesToManaPercent1
-|mod_groups                       = IncreasedMana
 |domain                           = 9
 |generation_type                  = 1
 |required_level                   = 60
 |name                             = Chosen
+|mod_groups                       = IncreasedMana
 |mod_type                         = ManaAndDamageTakenGoesToManaPercent
+|game_mode                        = 0
 |stat_text                        = +(26-30) to maximum [[Mana]]<br>4% of Damage taken Recouped as [[Mana]]
 |stat1_id                         = base_maximum_mana
 |stat1_min                        = 26

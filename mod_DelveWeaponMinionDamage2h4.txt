@@ -1,11 +1,12 @@
 {{Mod
 |id                               = DelveWeaponMinionDamage2h4
-|mod_groups                       = WeaponCasterDamagePrefix
 |domain                           = 16
 |generation_type                  = 1
 |required_level                   = 75
 |name                             = Subterranean
+|mod_groups                       = WeaponCasterDamagePrefix
 |mod_type                         = MinionDamageOnWeapon
+|game_mode                        = 0
 |stat_text                        = [[Minion|Minions]] deal (111-130)% increased Damage
 |stat1_id                         = minion_damage_+%
 |stat1_min                        = 111

@@ -1,10 +1,11 @@
 {{Mod
 |id                               = CleansingAltarDownsideBossRemoveFlaskChargeOnHit
-|mod_groups                       = CleansingAltarDownsideBossRemoveFlaskChargeOnHit
 |domain                           = 29
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = CleansingAltarDownsideBossRemoveFlaskChargeOnHit
 |mod_type                         = CleansingAltarDownsideBossRemoveFlaskChargeOnHit
+|game_mode                        = 0
 |stat_text                        = Enemies lose 6 [[Flask]] [[Charge|Charges]] every 3 seconds and cannot gain [[Flask]] [[Charge|Charges]] for 6 seconds after being [[Hit]]
 |stat1_id                         = drain_x_flask_charges_over_time_on_hit_for_6_seconds
 |stat1_min                        = 6

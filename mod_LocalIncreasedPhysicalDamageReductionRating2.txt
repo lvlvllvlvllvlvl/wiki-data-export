@@ -1,11 +1,12 @@
 {{Mod
 |id                               = LocalIncreasedPhysicalDamageReductionRating2
-|mod_groups                       = BaseLocalDefences
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 11
 |name                             = Studded
+|mod_groups                       = BaseLocalDefences
 |mod_type                         = LocalPhysicalDamageReductionRating
+|game_mode                        = 0
 |stat_text                        = +(13-35) to [[Armour]]
 |stat1_id                         = local_base_physical_damage_reduction_rating
 |stat1_min                        = 13

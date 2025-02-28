@@ -1,11 +1,12 @@
 {{Mod
 |id                               = JunMaster2AddedFireAndLightningDamage2Inverted
-|mod_groups                       = AddedFireAndLightningDamage
 |domain                           = 9
 |generation_type                  = 1
 |required_level                   = 72
 |name                             = Chosen
+|mod_groups                       = AddedFireAndLightningDamage
 |mod_type                         = SelfFireAndLightningDamageTaken
+|game_mode                        = 0
 |stat_text                        = Adds (8-9) to (11-13) [[Fire Damage]] to [[Hit|Hits]] against you<br>Adds (8-9) to (11-13) [[Lightning Damage]] to [[Hit|Hits]] against you
 |stat1_id                         = from_self_minimum_added_fire_damage_taken
 |stat1_min                        = 8

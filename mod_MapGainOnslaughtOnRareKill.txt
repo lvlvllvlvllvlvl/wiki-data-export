@@ -1,11 +1,12 @@
 {{Mod
 |id                               = MapGainOnslaughtOnRareKill
-|mod_groups                       = MapGainOnslaughtOnRareKill
 |domain                           = 12
 |generation_type                  = 1
 |required_level                   = 1
 |name                             = Hero's
+|mod_groups                       = MapGainOnslaughtOnRareKill
 |mod_type                         = MapGainOnslaughtOnRareKill
+|game_mode                        = 0
 |stat_text                        = Players in next Area gain [[Onslaught]] for 10 seconds when they [[Kill]] a Rare Monster<br>Players in next Area will have 20% increased [[Attack]], Cast and [[Movement Speed]] while they have [[Onslaught]]
 |stat1_id                         = map_gain_onslaught_for_x_ms_on_killing_rare_monster
 |stat1_min                        = 10000

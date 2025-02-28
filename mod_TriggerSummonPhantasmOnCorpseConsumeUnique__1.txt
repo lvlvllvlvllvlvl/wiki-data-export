@@ -1,11 +1,12 @@
 {{Mod
 |id                               = TriggerSummonPhantasmOnCorpseConsumeUnique__1
-|mod_groups                       = GrantedSkill
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = GrantedSkill
 |granted_skill                    = TriggeredSummonGhostOnKill
 |mod_type                         = TriggerSummonPhantasmOnCorpseConsume
+|game_mode                        = 0
 |stat_text                        = Trigger [[Level]] 20 Summon Phantasm [[Skill]] when you Consume a corpse
 |stat1_id                         = local_display_trigger_level_x_summon_phantasm_on_corpse_consume
 |stat1_min                        = 20

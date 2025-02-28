@@ -1,11 +1,12 @@
 {{Mod
 |id                               = SanctumSpecialColdDamageToAttacksPerDexterity
-|mod_groups                       = GlobalAddedDamagePerAttribute
 |domain                           = 32
 |generation_type                  = 1
 |required_level                   = 84
 |name                             = Skillful
+|mod_groups                       = GlobalAddedDamagePerAttribute
 |mod_type                         = ColdDamageToAttacksPerDexterity
+|game_mode                        = 0
 |stat_text                        = Adds 2 to 3 [[Cold Damage]] to [[Attack|Attacks]] per 10 [[Dexterity]]
 |stat1_id                         = minimum_added_cold_damage_to_attacks_per_10_dexterity
 |stat1_min                        = 2

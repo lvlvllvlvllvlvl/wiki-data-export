@@ -1,11 +1,12 @@
 {{Mod
 |id                               = PvPMasterLevel28Crafting
-|mod_groups                       = MaxModRequiredLevelOverride
 |domain                           = 9
 |generation_type                  = 2
 |required_level                   = 1
 |name                             = of Dueling
+|mod_groups                       = MaxModRequiredLevelOverride
 |mod_type                         = MaxModRequiredLevelOverride
+|game_mode                        = 0
 |stat_text                        = Cannot roll Modifiers with Required [[Level]] above 28
 |stat1_id                         = item_generation_local_maximum_mod_required_level_override
 |stat1_min                        = 28

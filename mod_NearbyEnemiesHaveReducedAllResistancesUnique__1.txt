@@ -1,12 +1,13 @@
 {{Mod
 |id                               = NearbyEnemiesHaveReducedAllResistancesUnique__1
-|mod_groups                       = NearbyEnemiesBonuses
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
 |granted_buff_id                  = unique_reduced_enemy_all_resistance
 |granted_buff_value               = 60
+|mod_groups                       = NearbyEnemiesBonuses
 |mod_type                         = NearbyEnemiesHaveReducedAllResistances
+|game_mode                        = 0
 |stat_text                        = {{Radius||6.0m}} Enemies have -10% to all Resistances
 |stat1_id                         = local_display_nearby_enemies_all_resistances_%
 |stat1_min                        = -10

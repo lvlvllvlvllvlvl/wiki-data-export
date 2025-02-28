@@ -1,11 +1,12 @@
 {{Mod
 |id                               = LocalFlaskImmuneToMaimAndHinder1
-|mod_groups                       = LocalFlaskImmuneToHinder
 |domain                           = 2
 |generation_type                  = 2
 |required_level                   = 16
 |name                             = of Movement
+|mod_groups                       = LocalFlaskImmuneToHinder
 |mod_type                         = LocalFlaskImmuneToMaimAndHinder
+|game_mode                        = 0
 |stat_text                        = Grants Immunity to Hinder for (6-8) seconds if used while Hindered<br>Grants Immunity to Maim for (6-8) seconds if used while Maimed
 |stat1_id                         = local_flask_immune_to_hinder_for_x_seconds_if_hindered
 |stat1_min                        = 6

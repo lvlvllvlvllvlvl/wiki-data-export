@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskChillFreezeImmunity4
-|mod_groups                       = FlaskDispellChill
 |domain                           = 2
 |generation_type                  = 2
 |required_level                   = 76
 |name                             = of Thawing
+|mod_groups                       = FlaskDispellChill
 |mod_type                         = FlaskChillFreezeImmunity
+|game_mode                        = 0
 |stat_text                        = Grants Immunity to [[Chill]] for (15-17) seconds if used while [[Chill|Chilled]]<br />Grants Immunity to [[Freeze]] for (15-17) seconds if used while [[Freeze|Frozen]]
 |stat1_id                         = local_flask_chill_or_freeze_immunity_if_chilled_or_frozen_s
 |stat1_min                        = 15

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = CreateSmokeCloudWhenTrapTriggeredUnique__1
-|mod_groups                       = CreateSmokeCloudWhenTrapTriggered
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = CreateSmokeCloudWhenTrapTriggered
 |granted_skill                    = FogOfWar
 |mod_type                         = CreateSmokeCloudWhenTrapTriggered
+|game_mode                        = 0
 |stat_text                        = Trigger [[Level]] 20 Fog of War when your [[Trap]] is triggered
 |stat1_id                         = local_display_trigger_level_x_smoke_cloud_on_trap_triggered
 |stat1_min                        = 20

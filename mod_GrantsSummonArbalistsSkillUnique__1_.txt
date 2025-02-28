@@ -1,11 +1,12 @@
 {{Mod
 |id                               = GrantsSummonArbalistsSkillUnique__1_
-|mod_groups                       = GrantedSkill
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = GrantedSkill
 |granted_skill                    = SummonArbalists
 |mod_type                         = GrantsSummonArbalistsSkill
+|game_mode                        = 0
 |stat_text                        = Triggers [[Level]] 20 Summon Arbalists when Equipped
 |stat1_id                         = local_display_cast_summon_arbalists_on_gain_skill
 |stat1_min                        = 20

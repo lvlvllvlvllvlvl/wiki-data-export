@@ -1,12 +1,13 @@
 {{Mod
 |id                               = TravelSkillCooldownRecoveryEldritchImplicitUniquePresence4
-|mod_groups                       = CooldownRecovery
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_unique_monster
 |granted_buff_value               = 0
+|mod_groups                       = CooldownRecovery
 |mod_type                         = TravelSkillCooldownRecoveryUniquePresence
+|game_mode                        = 0
 |stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], (33-35)% increased Cooldown Recovery Rate of Travel [[Skill|Skills]]
 |stat1_id                         = travel_skill_cooldown_speed_+%
 |stat1_min                        = 33

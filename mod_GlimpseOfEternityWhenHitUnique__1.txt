@@ -1,11 +1,12 @@
 {{Mod
 |id                               = GlimpseOfEternityWhenHitUnique__1
-|mod_groups                       = GrantedSkill
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = GrantedSkill
 |granted_skill                    = GlimpseOfEternity
 |mod_type                         = GlimpseOfEternityWhenHit
+|game_mode                        = 0
 |stat_text                        = Trigger [[Level]] 20 Glimpse of Eternity when [[Hit]]
 |stat1_id                         = local_display_trigger_temporal_anomaly_when_hit_%_chance
 |stat1_min                        = 100

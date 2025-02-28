@@ -1,12 +1,13 @@
 {{Mod
 |id                               = EnchantmentOfReflectionWhenHit1
-|mod_groups                       = TriggerEnchantment
 |domain                           = 1
 |generation_type                  = 10
 |required_level                   = 32
 |name                             = Enchantment Word of Reflection
+|mod_groups                       = TriggerEnchantment
 |granted_skill                    = EnchantmentOfReflectionWhenHit
 |mod_type                         = EnchantmentOfReflectionWhenHit
+|game_mode                        = 0
 |stat_text                        = Trigger [[Word of Reflection]] when [[Hit]]
 |stat1_id                         = display_cast_word_of_reflection_when_hit_%
 |stat1_min                        = 100

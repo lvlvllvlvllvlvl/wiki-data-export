@@ -1,11 +1,12 @@
 {{Mod
 |id                               = SupportedByCastOnStunCorruption
-|mod_groups                       = SupportedByTrigger
 |domain                           = 1
 |generation_type                  = 5
 |required_level                   = 35
+|mod_groups                       = SupportedByTrigger
 |granted_skill                    = SupportCastWhenStunned
 |mod_type                         = SupportedByCastOnStun
+|game_mode                        = 0
 |stat_text                        = [[Item socket|Socketed]] Gems are supported by [[Cast when Stunned Support|Level 12 Cast when Stunned]]
 |stat1_id                         = local_display_socketed_gems_get_cast_when_stunned_level
 |stat1_min                        = 12

@@ -1,12 +1,13 @@
 {{Mod
 |id                               = AddedColdDamageEldritchImplicitPinnaclePresence1
-|mod_groups                       = ColdDamage
 |domain                           = 1
 |generation_type                  = 28
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = ColdDamage
 |mod_type                         = ColdDamagePinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], Adds (10-13) to (20-24) [[Cold Damage]] to [[Attack|Attacks]]
 |stat1_id                         = attack_minimum_added_cold_damage
 |stat1_min                        = 10

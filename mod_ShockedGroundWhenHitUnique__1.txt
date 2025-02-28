@@ -1,11 +1,12 @@
 {{Mod
 |id                               = ShockedGroundWhenHitUnique__1
-|mod_groups                       = ShockedGroundWhenHit
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = ShockedGroundWhenHit
 |granted_skill                    = TriggeredShockedGround
 |mod_type                         = ShockedGroundWhenHitSkill
+|game_mode                        = 0
 |stat_text                        = Trigger [[Level]] 10 [[Shock]] Ground when [[Hit]]
 |stat1_id                         = local_display_cast_level_x_shock_ground_when_hit
 |stat1_min                        = 10

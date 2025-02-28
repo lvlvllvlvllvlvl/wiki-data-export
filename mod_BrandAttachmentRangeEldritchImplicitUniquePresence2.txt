@@ -1,12 +1,13 @@
 {{Mod
 |id                               = BrandAttachmentRangeEldritchImplicitUniquePresence2
-|mod_groups                       = BrandAttachmentRange
 |domain                           = 1
 |generation_type                  = 28
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_unique_monster
 |granted_buff_value               = 0
+|mod_groups                       = BrandAttachmentRange
 |mod_type                         = BrandAttachmentRangeUniquePresence
+|game_mode                        = 0
 |stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], 15% increased Brand Attachment range
 |stat1_id                         = sigil_target_search_range_+%
 |stat1_min                        = 15

@@ -1,12 +1,13 @@
 {{Mod
 |id                               = DamagePerEnduranceChargeEldritchImplicitUniquePresence6
-|mod_groups                       = AllDamage
 |domain                           = 1
 |generation_type                  = 28
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_unique_monster
 |granted_buff_value               = 0
+|mod_groups                       = AllDamage
 |mod_type                         = DamagePerEnduranceChargeUniquePresence
+|game_mode                        = 0
 |stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], 7% increased Damage per [[Endurance Charge]]
 |stat1_id                         = damage_+%_per_endurance_charge
 |stat1_min                        = 7

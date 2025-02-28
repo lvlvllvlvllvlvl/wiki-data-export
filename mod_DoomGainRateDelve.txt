@@ -1,11 +1,12 @@
 {{Mod
 |id                               = DoomGainRateDelve
-|mod_groups                       = AllDamage
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 60
 |name                             = Subterranean
+|mod_groups                       = AllDamage
 |mod_type                         = HitAndAilmentDamageCursedEnemies
+|game_mode                        = 0
 |stat_text                        = (40-60)% increased Damage with [[Hit|Hits]] and Ailments against Cursed Enemies
 |stat1_id                         = hit_and_ailment_damage_+%_vs_cursed_enemies
 |stat1_min                        = 40

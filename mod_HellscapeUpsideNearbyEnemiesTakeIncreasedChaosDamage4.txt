@@ -1,12 +1,13 @@
 {{Mod
 |id                               = HellscapeUpsideNearbyEnemiesTakeIncreasedChaosDamage4
-|mod_groups                       = LocalDisplayNearbyEnemyChaosDamageResistance
 |domain                           = 1
 |generation_type                  = 24
 |required_level                   = 68
 |granted_buff_id                  = reduced_enemy_chaos_resistance_from_hellscape_item
 |granted_buff_value               = 60
+|mod_groups                       = LocalDisplayNearbyEnemyChaosDamageResistance
 |mod_type                         = NearbyEnemyChaosDamageResistance
+|game_mode                        = 0
 |stat_text                        = {{Radius||6.0m}} Enemies have -4% to [[Chaos Resistance]]
 |stat1_id                         = local_display_nearby_enemy_chaos_damage_resistance_%
 |stat1_min                        = -4

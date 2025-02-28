@@ -1,13 +1,14 @@
 {{Mod
 |id                               = NearbyEnemiesAreBlindedInfluenceMaven
-|mod_groups                       = NearbyEnemiesAreBlinded
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 85
 |name                             = Elevated Redeemer's
 |granted_buff_id                  = generic_buff_aura
 |granted_buff_value               = 35
+|mod_groups                       = NearbyEnemiesAreBlinded
 |mod_type                         = NearbyEnemiesAreBlindedMaven
+|game_mode                        = 0
 |stat_text                        = {{Radius||3.5m}} Enemies are Blinded<br>Cannot be Blinded
 |stat1_id                         = local_display_nearby_enemies_are_blinded
 |stat1_min                        = 1

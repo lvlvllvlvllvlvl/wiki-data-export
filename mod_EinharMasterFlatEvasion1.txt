@@ -1,11 +1,12 @@
 {{Mod
 |id                               = EinharMasterFlatEvasion1
-|mod_groups                       = BaseLocalDefences
 |domain                           = 9
 |generation_type                  = 1
 |required_level                   = 30
 |name                             = Upgraded
+|mod_groups                       = BaseLocalDefences
 |mod_type                         = LocalEvasionRating
+|game_mode                        = 0
 |stat_text                        = +(50-75) to [[Evasion Rating]]
 |stat1_id                         = local_base_evasion_rating
 |stat1_min                        = 50

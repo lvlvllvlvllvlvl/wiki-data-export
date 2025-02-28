@@ -1,12 +1,13 @@
 {{Mod
 |id                               = NearbyEnemiesCoveredInAshUnique__1
-|mod_groups                       = NearbyEnemiesCoveredInAsh
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
 |granted_buff_id                  = generic_buff_aura
 |granted_buff_value               = 30
+|mod_groups                       = NearbyEnemiesCoveredInAsh
 |mod_type                         = NearbyEnemiesCoveredInAsh
+|game_mode                        = 0
 |stat_text                        = {{Radius||3.0m}} Enemies are Covered in Ash
 |stat1_id                         = local_display_nearby_enemies_are_covered_in_ash
 |stat1_min                        = 1

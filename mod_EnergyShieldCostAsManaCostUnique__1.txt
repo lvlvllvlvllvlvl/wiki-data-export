@@ -1,10 +1,11 @@
 {{Mod
 |id                               = EnergyShieldCostAsManaCostUnique__1
-|mod_groups                       = LifeCostAsManaCost
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = LifeCostAsManaCost
 |mod_type                         = EnergyShieldCostAsManaCost
+|game_mode                        = 0
 |stat_text                        = [[Skill|Skills]] gain a Base [[Energy Shield]] Cost equal to 200% of Base [[Mana]] Cost
 |stat1_id                         = base_skill_gain_es_cost_%_of_mana_cost
 |stat1_min                        = 200

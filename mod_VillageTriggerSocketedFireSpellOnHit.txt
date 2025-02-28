@@ -1,11 +1,12 @@
 {{Mod
 |id                               = VillageTriggerSocketedFireSpellOnHit
-|mod_groups                       = SupportedByTrigger
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = SupportedByTrigger
 |granted_skill                    = SupportTriggerFireSpellOnHit
 |mod_type                         = TriggerSocketedSpellOnHit
+|game_mode                        = 0
 |stat_text                        = Trigger a [[Item socket|Socketed]] Fire [[Spell]] on [[Hit]], with a 0.25 second Cooldown
 |stat1_id                         = local_weapon_trigger_socketed_fire_spell_on_hit_display_cooldown
 |stat1_min                        = 250

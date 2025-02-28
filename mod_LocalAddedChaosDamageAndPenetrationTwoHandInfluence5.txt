@@ -1,11 +1,12 @@
 {{Mod
 |id                               = LocalAddedChaosDamageAndPenetrationTwoHandInfluence5
-|mod_groups                       = ChaosDamageHybrid
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 80
 |name                             = Hunter's
+|mod_groups                       = ChaosDamageHybrid
 |mod_type                         = LocalChaosDamagePenetrationHybrid
+|game_mode                        = 0
 |stat_text                        = Adds (35-48) to (72-81) [[Chaos Damage]]<br>[[Attack|Attacks]] with this Weapon Penetrate (4-6)% [[Chaos Resistance]]
 |stat1_id                         = local_minimum_added_chaos_damage
 |stat1_min                        = 35

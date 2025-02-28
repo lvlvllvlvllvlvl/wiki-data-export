@@ -1,10 +1,11 @@
 {{Mod
 |id                               = MonsterNoFlaskCharges
-|mod_groups                       = MonsterSlainNoFlaskCharges
 |domain                           = 3
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = MonsterSlainNoFlaskCharges
 |mod_type                         = MonsterSlainGrantNoFlaskCharges
+|game_mode                        = 0
 |stat_text                        = Monsters do not grant [[Flask]] [[Charge|Charges]] when Slain (Hidden)
 |stat1_id                         = monster_grants_no_flask_charges
 |stat1_min                        = 1

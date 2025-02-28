@@ -1,10 +1,11 @@
 {{Mod
 |id                               = ReducedCriticalDamageTakenPoisonUnique__1
-|mod_groups                       = ReducedExtraDamageFromCrits
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = ReducedExtraDamageFromCrits
 |mod_type                         = ReducedCriticalDamageTakenPoison
+|game_mode                        = 0
 |stat_text                        = You take (50-30)% reduced Extra Damage from [[Critical strike|Critical Strikes]] by [[Poison|Poisoned]] Enemies
 |stat1_id                         = extra_damage_taken_from_crit_+%_from_poisoned_enemy
 |stat1_min                        = -50

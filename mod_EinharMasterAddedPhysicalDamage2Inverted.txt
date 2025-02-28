@@ -1,11 +1,12 @@
 {{Mod
 |id                               = EinharMasterAddedPhysicalDamage2Inverted
-|mod_groups                       = PhysicalDamage
 |domain                           = 9
 |generation_type                  = 1
 |required_level                   = 40
 |name                             = Upgraded
+|mod_groups                       = PhysicalDamage
 |mod_type                         = SelfPhysicalDamageTaken
+|game_mode                        = 0
 |stat_text                        = Adds (5-7) to (8-10) [[Physical Damage]] to [[Attack|Attacks]] against you
 |stat1_id                         = from_self_minimum_added_attack_physical_damage_taken
 |stat1_min                        = 5

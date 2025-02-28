@@ -1,11 +1,12 @@
 {{Mod
 |id                               = EnergyShieldRegenHighInfluence1
-|mod_groups                       = EnergyShieldRegeneration
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 75
 |name                             = of the Crusade
+|mod_groups                       = EnergyShieldRegeneration
 |mod_type                         = EnergyShieldRegenerationPerMinute
+|game_mode                        = 0
 |stat_text                        = Regenerate (1.5-2.5)% of [[Energy Shield]] per second
 |stat1_id                         = base_energy_shield_regeneration_rate_per_minute_%
 |stat1_min                        = 90

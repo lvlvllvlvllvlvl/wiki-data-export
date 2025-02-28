@@ -1,11 +1,12 @@
 {{Mod
 |id                               = HeistNPCChestAlertLevel2
-|mod_groups                       = HeistContractChestAlertLevel
 |domain                           = 23
 |generation_type                  = 2
 |required_level                   = 45
 |name                             = of Stealth
+|mod_groups                       = HeistContractChestAlertLevel
 |mod_type                         = HeistNPCChestAlertLevel
+|game_mode                        = 0
 |stat_text                        = (8-6)% reduced raising of Alert [[Level]] from opening Chests
 |stat1_id                         = heist_contract_alert_level_from_chests_+%
 |stat1_min                        = -8

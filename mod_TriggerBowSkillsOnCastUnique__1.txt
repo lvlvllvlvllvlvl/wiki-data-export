@@ -1,11 +1,12 @@
 {{Mod
 |id                               = TriggerBowSkillsOnCastUnique__1
-|mod_groups                       = SupportedByTrigger
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = SupportedByTrigger
 |granted_skill                    = SupportTriggerBowSkillOnBowAttack
 |mod_type                         = TriggerBowSkillsOnCast
+|game_mode                        = 0
 |stat_text                        = Trigger a [[Item socket|Socketed]] [[Bow Skills|Bow Skill]] when you Cast a [[Spell]] while<br />wielding a [[Bow]], with a 1 second Cooldown
 |stat1_id                         = trigger_socketed_bow_skills_on_spell_cast_while_wielding_a_bow_%
 |stat1_min                        = 100

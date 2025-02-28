@@ -1,11 +1,12 @@
 {{Mod
 |id                               = WeaponTreeSkillMirrorArrowBlinkArrow
-|mod_groups                       = WeaponTreeSkillMirrorArrowBlinkArrow
 |domain                           = 1
 |generation_type                  = 31
 |required_level                   = 1
+|mod_groups                       = WeaponTreeSkillMirrorArrowBlinkArrow
 |granted_skill                    = MirrorArrowTriggered, BlinkArrowTriggered
 |mod_type                         = WeaponTreeSkillMirrorArrowBlinkArrow
+|game_mode                        = 1
 |stat_text                        = Trigger [[Level]] 20 [[Mirror Arrow]] when you [[Attack]] with [[Blink Arrow]]<br>Trigger [[Level]] 20 [[Blink Arrow]] when you [[Attack]] with [[Mirror Arrow]]
 |stat1_id                         = cast_mirror_arrow_on_attack_with_blink_arrow
 |stat1_min                        = 1

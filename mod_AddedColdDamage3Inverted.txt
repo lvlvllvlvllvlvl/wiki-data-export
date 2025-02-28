@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AddedColdDamage3Inverted
-|mod_groups                       = ColdDamage
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 21
 |name                             = Icy
+|mod_groups                       = ColdDamage
 |mod_type                         = SelfColdDamageTaken
+|game_mode                        = 0
 |stat_text                        = Adds (5-7) to (10-12) [[Cold Damage]] to [[Attack|Attacks]] against you
 |stat1_id                         = from_self_minimum_added_attack_cold_damage_taken
 |stat1_min                        = 5

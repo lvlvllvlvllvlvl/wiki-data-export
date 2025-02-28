@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AddedLightningDamageEnhancedMod
-|mod_groups                       = LightningDamage, ConvertPhysicalToLightning
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 1
 |name                             = Topotante's
+|mod_groups                       = LightningDamage, ConvertPhysicalToLightning
 |mod_type                         = LightningDamagePhysConvertedToLightning
+|game_mode                        = 0
 |stat_text                        = Adds (1-2) to (22-23) [[Lightning Damage]] to [[Attack|Attacks]]<br>25% of [[Physical Damage]] Converted to [[Lightning Damage]]
 |stat1_id                         = attack_minimum_added_lightning_damage
 |stat1_min                        = 1

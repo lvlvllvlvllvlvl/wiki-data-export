@@ -1,13 +1,14 @@
 {{Mod
 |id                               = PowerChargeOnManaSpentUber1
-|mod_groups                       = PowerChargeOnManaSpent
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 68
 |name                             = of Shaping
 |granted_buff_id                  = power_charge_on_mana_spent
 |granted_buff_value               = 0
+|mod_groups                       = PowerChargeOnManaSpent
 |mod_type                         = PowerChargeOnManaSpent
+|game_mode                        = 0
 |stat_text                        = Gain a [[Power Charge]] after Spending a total of 200 [[Mana]]
 |stat1_id                         = local_display_gain_power_charge_on_spending_mana
 |stat1_min                        = 1

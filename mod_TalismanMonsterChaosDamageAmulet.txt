@@ -1,12 +1,13 @@
 {{Mod
 |id                               = TalismanMonsterChaosDamageAmulet
-|mod_groups                       = MonsterExplodesOnDeath
 |domain                           = 3
 |generation_type                  = 9
 |required_level                   = 1
 |name                             = Deadhand Talisman
+|mod_groups                       = MonsterExplodesOnDeath
 |granted_skill                    = TalismanDaemonSummonBloodWormsWhenHit
 |mod_type                         = TalismanMonsterExplodesOnDeath
+|game_mode                        = 0
 |stat_text                        = Explodes on death dealing 30% of main hand damage as Chaos Damage (Hidden)<br>Monster corpse will be removed (Hidden)
 |stat1_id                         = explode_on_death_%_main_hand_damage_to_deal_as_chaos
 |stat1_min                        = 30

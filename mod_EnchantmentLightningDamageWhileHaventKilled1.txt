@@ -1,11 +1,12 @@
 {{Mod
 |id                               = EnchantmentLightningDamageWhileHaventKilled1
-|mod_groups                       = ConditionalBuffEnchantment
 |domain                           = 1
 |generation_type                  = 10
 |required_level                   = 53
 |name                             = Enchantment Lightning Damage 1
+|mod_groups                       = ConditionalBuffEnchantment
 |mod_type                         = EnchantmentLightningDamageWhileHaventKilled
+|game_mode                        = 0
 |stat_text                        = Adds 1 to 56 [[Lightning Damage]] if you haven't Killed [[Recently]]
 |stat1_id                         = enchantment_boots_minimum_added_lightning_damage_when_you_havent_killed_for_4_seconds
 |stat1_min                        = 1

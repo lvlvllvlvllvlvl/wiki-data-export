@@ -1,12 +1,13 @@
 {{Mod
 |id                               = MinionLifeEldritchImplicitUniquePresence2
-|mod_groups                       = MinionLife
 |domain                           = 1
 |generation_type                  = 28
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_unique_monster
 |granted_buff_value               = 0
+|mod_groups                       = MinionLife
 |mod_type                         = MinionLifeUniquePresence
+|game_mode                        = 0
 |stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], [[Minion|Minions]] have (23-25)% increased maximum [[Life]]
 |stat1_id                         = minion_maximum_life_+%
 |stat1_min                        = 23

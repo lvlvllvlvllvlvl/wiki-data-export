@@ -1,11 +1,12 @@
 {{Mod
 |id                               = JunMaster2ReduceGlobalFlatManaCostNonChannelling1
-|mod_groups                       = IncreaseFlatManaCost
 |domain                           = 9
 |generation_type                  = 1
 |required_level                   = 60
 |name                             = Elreon's
+|mod_groups                       = IncreaseFlatManaCost
 |mod_type                         = ManaCostTotalNonChannelled
+|game_mode                        = 0
 |stat_text                        = Non-Channelling [[Skill|Skills]] have -4 to Total [[Mana]] Cost
 |stat1_id                         = skill_mana_cost_+_with_non_channelling_skills
 |stat1_min                        = -4

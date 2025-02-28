@@ -1,10 +1,11 @@
 {{Mod
 |id                               = EnergyShieldGainedOnBlockUniqueShieldStrInt4
-|mod_groups                       = EnergyShieldGainedOnBlock
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = EnergyShieldGainedOnBlock
 |mod_type                         = EnergyShieldGainedOnBlockBasedOnArmour
+|game_mode                        = 0
 |stat_text                        = Recover [[Energy Shield]] equal to 2% of [[Armour]] when you [[Block]]
 |stat1_id                         = energy_shield_%_of_armour_rating_gained_on_block
 |stat1_min                        = 2

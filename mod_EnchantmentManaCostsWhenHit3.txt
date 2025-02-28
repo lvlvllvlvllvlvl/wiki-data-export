@@ -1,11 +1,12 @@
 {{Mod
 |id                               = EnchantmentManaCostsWhenHit3
-|mod_groups                       = ConditionalBuffEnchantment
 |domain                           = 1
 |generation_type                  = 10
 |required_level                   = 75
 |name                             = Enchantment Mana Cost 3
+|mod_groups                       = ConditionalBuffEnchantment
 |mod_type                         = EnchantmentManaCostsWhenHit
+|game_mode                        = 0
 |stat_text                        = 18% reduced [[Mana]] Cost of [[Skill|Skills]] if you've been [[Hit]] [[Recently]]
 |stat1_id                         = enchantment_boots_mana_costs_when_hit_+%
 |stat1_min                        = -18

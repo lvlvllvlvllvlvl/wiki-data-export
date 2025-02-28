@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AddedColdDamage4Inverted
-|mod_groups                       = ColdDamage
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 29
 |name                             = Frigid
+|mod_groups                       = ColdDamage
 |mod_type                         = SelfColdDamageTaken
+|game_mode                        = 0
 |stat_text                        = Adds (6-9) to (13-16) [[Cold Damage]] to [[Attack|Attacks]] against you
 |stat1_id                         = from_self_minimum_added_attack_cold_damage_taken
 |stat1_min                        = 6

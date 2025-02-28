@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskBuffAvoidIgnite2
-|mod_groups                       = FlaskBuffWhileHealing
 |domain                           = 2
 |generation_type                  = 2
 |required_level                   = 25
 |name                             = of the Goldfish
+|mod_groups                       = FlaskBuffWhileHealing
 |mod_type                         = FlaskBuffAvoidIgnite
+|game_mode                        = 0
 |stat_text                        = (36-40)% chance to Avoid being Ignited during Effect
 |stat1_id                         = local_avoid_ignite_%_during_flask_effect
 |stat1_min                        = 36

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = HeistNPCLockdownTimer3_
-|mod_groups                       = HeistContractLockdownTimer
 |domain                           = 23
 |generation_type                  = 1
 |required_level                   = 75
 |name                             = Delaying
+|mod_groups                       = HeistContractLockdownTimer
 |mod_type                         = HeistNPCLockdownTimerHalved
+|game_mode                        = 0
 |stat_text                        = (7-8)% increased time before Lockdown
 |stat1_id                         = heist_contract_lockdown_timer_+%_halved
 |stat1_min                        = 15

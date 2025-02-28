@@ -1,12 +1,13 @@
 {{Mod
 |id                               = SupportedByCastOnCritUber1
-|mod_groups                       = WeaponSupportUber
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 68
 |name                             = The Shaper's
+|mod_groups                       = WeaponSupportUber
 |granted_skill                    = SupportCastOnCriticalStrike, SupportCastOnCritTriggered
 |mod_type                         = SupportedByCastOnCritWeapon
+|game_mode                        = 0
 |stat_text                        = [[Item socket|Socketed]] Gems are supported by [[Cast On Critical Strike Support|Level 18 Cast On Critical Strike]]
 |stat1_id                         = local_display_socketed_gems_get_cast_on_crit_level
 |stat1_min                        = 18

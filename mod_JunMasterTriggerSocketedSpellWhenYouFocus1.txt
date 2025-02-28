@@ -1,12 +1,13 @@
 {{Mod
 |id                               = JunMasterTriggerSocketedSpellWhenYouFocus1
-|mod_groups                       = TriggerSocketedSpellWhenYouFocus
 |domain                           = 9
 |generation_type                  = 2
 |required_level                   = 1
 |name                             = of the Order
+|mod_groups                       = TriggerSocketedSpellWhenYouFocus
 |granted_skill                    = SupportTriggerSpellFromHelmet
 |mod_type                         = TriggerSocketedSpellWhenYouFocus
+|game_mode                        = 0
 |stat_text                        = Trigger [[Item socket|Socketed]] [[Spell|Spells]] when you Focus, with a 0.25 second Cooldown
 |stat1_id                         = trigger_socketed_spells_when_you_focus_%
 |stat1_min                        = 100

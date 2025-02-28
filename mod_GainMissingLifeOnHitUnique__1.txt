@@ -1,10 +1,11 @@
 {{Mod
 |id                               = GainMissingLifeOnHitUnique__1
-|mod_groups                       = LifeRegeneration
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 62
+|mod_groups                       = LifeRegeneration
 |mod_type                         = GainMissingLifeOnHit
+|game_mode                        = 0
 |stat_text                        = Gain (10-20)% of Missing Unreserved [[Life]] before being [[Hit]] by an Enemy
 |stat1_id                         = missing_unreserved_life_%_gained_as_life_before_hit
 |stat1_min                        = 10

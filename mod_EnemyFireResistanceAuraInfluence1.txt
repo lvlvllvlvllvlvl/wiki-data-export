@@ -1,13 +1,14 @@
 {{Mod
 |id                               = EnemyFireResistanceAuraInfluence1
-|mod_groups                       = LocalDisplayNearbyEnemyFireDamageResistance
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 85
 |name                             = of the Conquest
 |granted_buff_id                  = reduced_enemy_fire_resistance_from_item
 |granted_buff_value               = 60
+|mod_groups                       = LocalDisplayNearbyEnemyFireDamageResistance
 |mod_type                         = NearbyEnemyFireDamageResistance
+|game_mode                        = 0
 |stat_text                        = {{Radius||6.0m}} Enemies have -9% to [[Fire Resistance]]
 |stat1_id                         = local_display_nearby_enemy_fire_damage_resistance_%
 |stat1_min                        = -9

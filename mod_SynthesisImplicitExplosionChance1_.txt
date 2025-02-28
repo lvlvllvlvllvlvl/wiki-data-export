@@ -1,10 +1,11 @@
 {{Mod
 |id                               = SynthesisImplicitExplosionChance1_
-|mod_groups                       = EnemiesExplodeOnDeath
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 75
+|mod_groups                       = EnemiesExplodeOnDeath
 |mod_type                         = EnemiesExplodeOnDeathPhysicalChance
+|game_mode                        = 0
 |stat_text                        = Enemies you [[Kill]] have a 15% chance to Explode, dealing a tenth of their maximum [[Life]] as [[Physical Damage]]
 |stat1_id                         = explode_enemies_for_10%_life_as_physical_on_kill_chance_%
 |stat1_min                        = 15

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = ChanceToPoison3_
-|mod_groups                       = LocalChanceToPoisonOnHit
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 85
 |name                             = of Death
+|mod_groups                       = LocalChanceToPoisonOnHit
 |mod_type                         = LocalChanceToPoisonOnHit
+|game_mode                        = 0
 |stat_text                        = 30% chance to [[Poison]] on [[Hit]]
 |stat1_id                         = local_poison_on_hit_%
 |stat1_min                        = 30

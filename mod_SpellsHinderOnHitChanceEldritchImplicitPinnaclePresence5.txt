@@ -1,12 +1,13 @@
 {{Mod
 |id                               = SpellsHinderOnHitChanceEldritchImplicitPinnaclePresence5
-|mod_groups                       = HinderOnHit
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = HinderOnHit
 |mod_type                         = SpellsHinderOnHitChancePinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], 95% chance to Hinder Enemies on [[Hit]] with [[Spell|Spells]]
 |stat1_id                         = spells_chance_to_hinder_on_hit_%
 |stat1_min                        = 95

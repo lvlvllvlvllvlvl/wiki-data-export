@@ -1,12 +1,13 @@
 {{Mod
 |id                               = JunMasterVeiledTriggerSocketedSpellWhenYouFocus
-|mod_groups                       = TriggerSocketedSpellWhenYouFocus
 |domain                           = 28
 |generation_type                  = 2
 |required_level                   = 60
 |name                             = of the Order
+|mod_groups                       = TriggerSocketedSpellWhenYouFocus
 |granted_skill                    = SupportTriggerSpellFromHelmet
 |mod_type                         = TriggerSocketedSpellWhenYouFocusCDR
+|game_mode                        = 0
 |stat_text                        = Trigger [[Item socket|Socketed]] [[Spell|Spells]] when you Focus, with a 0.25 second Cooldown<br>Focus has (5-8)% increased Cooldown Recovery Rate
 |stat1_id                         = trigger_socketed_spells_when_you_focus_%
 |stat1_min                        = 100

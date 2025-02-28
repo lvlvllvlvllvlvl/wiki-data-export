@@ -1,11 +1,12 @@
 {{Mod
 |id                               = SanctumSpecialEnemyLifeRegenerationRate
-|mod_groups                       = EnemyLifeRegenerationRate
 |domain                           = 32
 |generation_type                  = 1
 |required_level                   = 75
 |name                             = Festering
+|mod_groups                       = EnemyLifeRegenerationRate
 |mod_type                         = EnemyLifeRegenerationRate
+|game_mode                        = 0
 |stat_text                        = Enemies you've [[Hit]] [[Recently]] have (80-70)% reduced [[Life]] Regeneration rate
 |stat1_id                         = enemy_life_regeneration_rate_+%_for_4_seconds_on_hit
 |stat1_min                        = -80

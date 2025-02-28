@@ -1,11 +1,12 @@
 {{Mod
 |id                               = EnchantmentManaRegenerationOnSpellCast3
-|mod_groups                       = ConditionalBuffEnchantment
 |domain                           = 1
 |generation_type                  = 10
 |required_level                   = 75
 |name                             = Enchantment Mana Regeneration 3
+|mod_groups                       = ConditionalBuffEnchantment
 |mod_type                         = EnchantmentManaRegenerationOnSpellCast
+|game_mode                        = 0
 |stat_text                        = 35% increased [[Mana]] Regeneration Rate if you've cast a [[Spell]] [[Recently]]
 |stat1_id                         = enchantment_boots_mana_regeneration_rate_+%_if_cast_spell_recently
 |stat1_min                        = 35

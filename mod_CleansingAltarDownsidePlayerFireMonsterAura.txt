@@ -1,12 +1,13 @@
 {{Mod
 |id                               = CleansingAltarDownsidePlayerFireMonsterAura
-|mod_groups                       = CleansingAltarDownsidePlayerFireMonsterAura
 |domain                           = 29
 |generation_type                  = 3
 |required_level                   = 1
 |granted_buff_id                  = altar_physical_as_extra_fire
 |granted_buff_value               = 40
+|mod_groups                       = CleansingAltarDownsidePlayerFireMonsterAura
 |mod_type                         = CleansingAltarDownsidePlayerFireMonsterAura
+|game_mode                        = 0
 |stat_text                        = {{Radius||4.0m}} Enemies Gain 100% of their [[Physical Damage]] as Extra [[Fire Damage]]
 |stat1_id                         = display_altar_fire_aura
 |stat1_min                        = 100

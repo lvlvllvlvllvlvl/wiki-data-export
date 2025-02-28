@@ -1,12 +1,13 @@
 {{Mod
 |id                               = HellscapeUpsideNearbyEnemiesTakeIncreasedColdDamage4__
-|mod_groups                       = LocalDisplayNearbyEnemyColdDamageResistance
 |domain                           = 1
 |generation_type                  = 24
 |required_level                   = 68
 |granted_buff_id                  = reduced_enemy_cold_resistance_from_hellscape_item
 |granted_buff_value               = 60
+|mod_groups                       = LocalDisplayNearbyEnemyColdDamageResistance
 |mod_type                         = NearbyEnemyColdDamageResistance
+|game_mode                        = 0
 |stat_text                        = {{Radius||6.0m}} Enemies have -4% to [[Cold Resistance]]
 |stat1_id                         = local_display_nearby_enemy_cold_damage_resistance_%
 |stat1_min                        = -4

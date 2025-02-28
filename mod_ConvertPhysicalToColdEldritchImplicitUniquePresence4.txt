@@ -1,12 +1,13 @@
 {{Mod
 |id                               = ConvertPhysicalToColdEldritchImplicitUniquePresence4
-|mod_groups                       = ConvertPhysicalToCold
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_unique_monster
 |granted_buff_value               = 0
+|mod_groups                       = ConvertPhysicalToCold
 |mod_type                         = ConvertPhysicalToColdUniquePresence
+|game_mode                        = 0
 |stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], 40% of [[Physical Damage]] Converted to [[Cold Damage]]
 |stat1_id                         = base_physical_damage_%_to_convert_to_cold
 |stat1_min                        = 40

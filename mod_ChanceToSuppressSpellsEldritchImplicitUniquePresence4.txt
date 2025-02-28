@@ -1,12 +1,13 @@
 {{Mod
 |id                               = ChanceToSuppressSpellsEldritchImplicitUniquePresence4
-|mod_groups                       = ChanceToSuppressSpells
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_unique_monster
 |granted_buff_value               = 0
+|mod_groups                       = ChanceToSuppressSpells
 |mod_type                         = ChanceToSuppressSpellsUniquePresence
+|game_mode                        = 0
 |stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], +10% chance to Suppress [[Spell Damage]]
 |stat1_id                         = base_spell_suppression_chance_%
 |stat1_min                        = 10

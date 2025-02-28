@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AttackerTakesDamage4
-|mod_groups                       = AttackerTakesDamageNoRange
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 35
 |name                             = Jagged
+|mod_groups                       = AttackerTakesDamageNoRange
 |mod_type                         = AttackerTakesDamageNoRange
+|game_mode                        = 0
 |stat_text                        = Reflects (25-50) [[Physical Damage]] to Melee Attackers
 |stat1_id                         = physical_damage_to_return_to_melee_attacker
 |stat1_min                        = 25

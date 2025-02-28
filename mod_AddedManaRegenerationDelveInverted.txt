@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AddedManaRegenerationDelveInverted
-|mod_groups                       = ManaRegeneration
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 60
 |name                             = of the Underground
+|mod_groups                       = ManaRegeneration
 |mod_type                         = ManaDegenerationGracePeriod
+|game_mode                        = 0
 |stat_text                        = Lose (3-5) [[Mana]] per second
 |stat1_id                         = mana_degeneration_per_minute_not_in_grace
 |stat1_min                        = 180

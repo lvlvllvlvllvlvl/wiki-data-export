@@ -1,12 +1,13 @@
 {{Mod
 |id                               = JunMasterTriggerSocketedSpellOnSkillUse1
-|mod_groups                       = SupportedByTrigger
 |domain                           = 9
 |generation_type                  = 2
 |required_level                   = 25
 |name                             = of the Order
+|mod_groups                       = SupportedByTrigger
 |granted_skill                    = SupportTriggerSpellOnSkillUse
 |mod_type                         = TriggerSocketedSpellOnSkillUse
+|game_mode                        = 0
 |stat_text                        = Trigger a [[Item socket|Socketed]] [[Spell]] when you Use a [[Skill]], with a 8 second Cooldown<br />Spells Triggered this way have 150% more Cost
 |stat1_id                         = trigger_socketed_spell_on_skill_use_%
 |stat1_min                        = 100

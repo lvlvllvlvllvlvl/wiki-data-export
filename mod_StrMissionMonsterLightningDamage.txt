@@ -1,10 +1,11 @@
 {{Mod
 |id                               = StrMissionMonsterLightningDamage
-|mod_groups                       = MapMonsterElementalDamage
 |domain                           = 5
 |generation_type                  = 3
 |required_level                   = 35
+|mod_groups                       = MapMonsterElementalDamage
 |mod_type                         = MapMonsterLightningDamage
+|game_mode                        = 0
 |stat_text                        = (20-30)% of Monster Damage is Converted to Lightning<br>Monsters deal (30-40)% extra [[Physical Damage]] as Lightning
 |stat1_id                         = map_monsters_%_physical_damage_to_convert_to_lightning
 |stat1_min                        = 20

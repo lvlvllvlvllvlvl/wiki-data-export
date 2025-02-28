@@ -1,12 +1,13 @@
 {{Mod
 |id                               = GainCriticalStrikeChanceOnManaSpentUnique__1
-|mod_groups                       = GainCriticalStrikeChanceOnManaSpent
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 69
 |granted_buff_id                  = critical_strike_chance_on_mana_spent
 |granted_buff_value               = 0
+|mod_groups                       = GainCriticalStrikeChanceOnManaSpent
 |mod_type                         = GainCriticalStrikeChanceOnManaSpent
+|game_mode                        = 0
 |stat_text                        = Gain +2% to [[Critical Strike Chance]] for 2 seconds after Spending a total of 800 [[Mana]]
 |stat1_id                         = gain_critical_strike_chance_%_for_2_seconds_when_you_spend_800_mana
 |stat1_min                        = 200

@@ -1,10 +1,11 @@
 {{Mod
 |id                               = MayhemEventDifficultyDecreasedMonsterDamageTaken
-|mod_groups                       = MayhemEventDifficulty
 |domain                           = 5
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = MayhemEventDifficulty
 |mod_type                         = MayhemEventDifficulty
+|game_mode                        = 0
 |stat_text                        = Monsters take 35% less Damage
 |stat1_id                         = map_custom_league_damage_taken_+%_final
 |stat1_min                        = -35

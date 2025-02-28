@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskBuffCurseEffect1
-|mod_groups                       = FlaskBuffWhileHealing
 |domain                           = 2
 |generation_type                  = 2
 |required_level                   = 8
 |name                             = of the Petrel
+|mod_groups                       = FlaskBuffWhileHealing
 |mod_type                         = FlaskBuffCurseEffect
+|game_mode                        = 0
 |stat_text                        = (41-36)% reduced Effect of [[Curse|Curses]] on you during Effect
 |stat1_id                         = local_self_curse_effect_+%_during_flask_effect
 |stat1_min                        = -41

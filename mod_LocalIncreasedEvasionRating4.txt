@@ -1,11 +1,12 @@
 {{Mod
 |id                               = LocalIncreasedEvasionRating4
-|mod_groups                       = BaseLocalDefences
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 23
 |name                             = Fleet
+|mod_groups                       = BaseLocalDefences
 |mod_type                         = LocalEvasionRating
+|game_mode                        = 0
 |stat_text                        = +(64-82) to [[Evasion Rating]]
 |stat1_id                         = local_base_evasion_rating
 |stat1_min                        = 64

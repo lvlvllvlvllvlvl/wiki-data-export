@@ -1,13 +1,14 @@
 {{Mod
 |id                               = MonsterAuraCannotDie1
-|mod_groups                       = MonsterAura
 |domain                           = 3
 |generation_type                  = 3
 |required_level                   = 12
 |name                             = Cannot Die Aura
 |granted_buff_id                  = monster_aura_cannot_die
 |granted_buff_value               = 50
+|mod_groups                       = MonsterAura
 |mod_type                         = MonsterAuraCannotDie
+|game_mode                        = 0
 |stat_text                        = 
 |spawn_weight1_tag                = no_cannot_die_aura
 |spawn_weight1_value              = 0

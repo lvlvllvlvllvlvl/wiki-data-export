@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskExtraManaCostsLife4
-|mod_groups                       = FlaskRecoveryAmount
 |domain                           = 2
 |generation_type                  = 1
 |required_level                   = 64
 |name                             = Turbid
+|mod_groups                       = FlaskRecoveryAmount
 |mod_type                         = FlaskExtraManaCostsLife
+|game_mode                        = 0
 |stat_text                        = (59-64)% increased [[Mana]] Recovered<br>Removes 15% of [[Mana]] Recovered from [[Life]] when used
 |stat1_id                         = local_flask_mana_to_recover_+%
 |stat1_min                        = 59

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskPartialInstantRecovery3
-|mod_groups                       = FlaskRecoverySpeed
 |domain                           = 2
 |generation_type                  = 1
 |required_level                   = 41
 |name                             = Effusive
+|mod_groups                       = FlaskRecoverySpeed
 |mod_type                         = FlaskPartialInstantRecovery
+|game_mode                        = 0
 |stat_text                        = 50% of Recovery applied Instantly<br>(47-44)% reduced Amount Recovered<br>135% increased Recovery rate
 |stat1_id                         = local_flask_recovery_amount_%_to_recover_instantly
 |stat1_min                        = 50

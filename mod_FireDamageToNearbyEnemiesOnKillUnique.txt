@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FireDamageToNearbyEnemiesOnKillUnique
-|mod_groups                       = DamageToNearbyEnemiesOnKill
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = DamageToNearbyEnemiesOnKill
 |granted_skill                    = TriggeredExplosion
 |mod_type                         = FireDamageToNearbyEnemiesOnKill
+|game_mode                        = 0
 |stat_text                        = Trigger [[Level]] 1 Fire Burst on [[Kill]]
 |stat1_id                         = display_cast_fire_burst_on_kill
 |stat1_min                        = 1

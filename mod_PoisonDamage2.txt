@@ -1,11 +1,12 @@
 {{Mod
 |id                               = PoisonDamage2
-|mod_groups                       = PoisonDamage
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 40
 |name                             = of Venom
+|mod_groups                       = PoisonDamage
 |mod_type                         = PoisonDamageAndLocalChanceOnHit
+|game_mode                        = 0
 |stat_text                        = (31-40)% increased Damage with [[Poison]]<br>25% chance to [[Poison]] on [[Hit]]
 |stat1_id                         = base_poison_damage_+%
 |stat1_min                        = 31

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = MapUberModTotemLife
-|mod_groups                       = MapUberModTotemLife
 |domain                           = 37
 |generation_type                  = 1
 |required_level                   = 1
 |name                             = Parasitic
+|mod_groups                       = MapUberModTotemLife
 |mod_type                         = MapUberModTotemLife
+|game_mode                        = 0
 |stat_text                        = 15% of Damage Players' [[Totem|Totems]] take from [[Hit|Hits]] is taken from their Summoner's [[Life]] instead
 |stat1_id                         = map_damage_removed_from_player_life_before_totem_life_%
 |stat1_min                        = 15

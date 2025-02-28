@@ -1,11 +1,12 @@
 {{Mod
 |id                               = JunMaster2CriticalMultiplierOnShatter1
-|mod_groups                       = CriticalStrikeChanceIncrease
 |domain                           = 9
 |generation_type                  = 2
 |required_level                   = 60
 |name                             = of Cameria
+|mod_groups                       = CriticalStrikeChanceIncrease
 |mod_type                         = CritChanceAndCriticalStrikeMultiplierIfEnemyShatteredRecently
+|game_mode                        = 0
 |stat_text                        = +(15-17)% to [[Critical Strike Multiplier]] if you've Shattered an Enemy [[Recently]]<br>(10-11)% increased Global [[Critical Strike Chance]]
 |stat1_id                         = critical_strike_multiplier_+_if_enemy_shattered_recently
 |stat1_min                        = 15

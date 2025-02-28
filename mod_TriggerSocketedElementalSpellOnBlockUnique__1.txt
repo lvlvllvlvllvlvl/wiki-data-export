@@ -1,11 +1,12 @@
 {{Mod
 |id                               = TriggerSocketedElementalSpellOnBlockUnique__1
-|mod_groups                       = SupportedByTrigger
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 60
+|mod_groups                       = SupportedByTrigger
 |granted_skill                    = SupportTriggerElementalSpellOnBlock
 |mod_type                         = TriggerSocketedElementalSpellOnBlock
+|game_mode                        = 0
 |stat_text                        = Trigger a [[Item socket|Socketed]] Elemental [[Spell]] on [[Block]], with a 0.25 second Cooldown
 |stat1_id                         = local_shield_trigger_socketed_elemental_spell_on_block_display_cooldown
 |stat1_min                        = 250

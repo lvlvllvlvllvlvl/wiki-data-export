@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskDispellsChill1
-|mod_groups                       = FlaskDispellChill
 |domain                           = 2
 |generation_type                  = 2
 |required_level                   = 4
 |name                             = of Heat
+|mod_groups                       = FlaskDispellChill
 |mod_type                         = FlaskDispellsChill
+|game_mode                        = 0
 |stat_text                        = Grants Immunity to [[Chill]] for 4 seconds if used while [[Chill|Chilled]]<br />Grants Immunity to [[Freeze]] for 4 seconds if used while [[Freeze|Frozen]]
 |stat1_id                         = local_flask_chill_or_freeze_immunity_if_chilled_or_frozen
 |stat1_min                        = 1

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AddedLightningDamage2
-|mod_groups                       = LightningDamage
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 13
 |name                             = Buzzing
+|mod_groups                       = LightningDamage
 |mod_type                         = LightningDamage
+|game_mode                        = 0
 |stat_text                        = Adds 1 to (14-15) [[Lightning Damage]] to [[Attack|Attacks]]
 |stat1_id                         = attack_minimum_added_lightning_damage
 |stat1_min                        = 1

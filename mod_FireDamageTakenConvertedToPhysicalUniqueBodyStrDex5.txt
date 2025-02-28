@@ -1,10 +1,11 @@
 {{Mod
 |id                               = FireDamageTakenConvertedToPhysicalUniqueBodyStrDex5
-|mod_groups                       = FireDamageTakenAsPhysical
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = FireDamageTakenAsPhysical
 |mod_type                         = FireDamageTakenAsPhysicalNegate
+|game_mode                        = 0
 |stat_text                        = 10% of [[Fire Damage]] from [[Hit|Hits]] taken as [[Physical Damage]]
 |stat1_id                         = base_fire_hit_damage_taken_%_as_physical_value_negated
 |stat1_min                        = -10

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = ChanceToDodge2__
-|mod_groups                       = ChanceToSuppressSpells
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 85
 |name                             = of Fog
+|mod_groups                       = ChanceToSuppressSpells
 |mod_type                         = ChanceToSuppressSpellsOld
+|game_mode                        = 0
 |stat_text                        = +(7.5-9)% chance to Suppress [[Spell Damage]]
 |stat1_id                         = base_spell_suppression_chance_150%_of_value
 |stat1_min                        = 5

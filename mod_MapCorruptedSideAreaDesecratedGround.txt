@@ -1,11 +1,12 @@
 {{Mod
 |id                               = MapCorruptedSideAreaDesecratedGround
-|mod_groups                       = MapGroundEffect
 |domain                           = 5
 |generation_type                  = 1
 |required_level                   = 69
 |name                             = Desecrated
+|mod_groups                       = MapGroundEffect
 |mod_type                         = MapCorruptedSideAreaDesecratedGround
+|game_mode                        = 0
 |stat_text                        = 15% increased Quantity of Items found in this Area<br>Found Items have (1-3)% chance to drop Corrupted in Area<br>Area has patches of desecrated ground<br>24 patches with Ground Effect per 100 tiles (Hidden)<br>Ground Effect has a radius of 16 (Hidden)
 |stat1_id                         = map_item_drop_quantity_+%
 |stat1_min                        = 15

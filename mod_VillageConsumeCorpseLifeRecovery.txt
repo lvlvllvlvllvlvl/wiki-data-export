@@ -1,10 +1,11 @@
 {{Mod
 |id                               = VillageConsumeCorpseLifeRecovery
-|mod_groups                       = ConsumeCorpseLifeRecovery
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = ConsumeCorpseLifeRecovery
 |mod_type                         = ConsumeCorpseLifeRecovery
+|game_mode                        = 0
 |stat_text                        = Every 3 seconds, Consume a [[Nearby|nearby]] Corpse to Recover (7-10)% of [[Life]]
 |stat1_id                         = consume_nearby_corpse_every_3_seconds_to_recover_%_maximum_life
 |stat1_min                        = 7

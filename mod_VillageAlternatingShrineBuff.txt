@@ -1,10 +1,11 @@
 {{Mod
 |id                               = VillageAlternatingShrineBuff
-|mod_groups                       = AllowShrines
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = AllowShrines
 |mod_type                         = AlternatingShrineBuff
+|game_mode                        = 0
 |stat_text                        = Gain a random shrine buff every 10 seconds
 |stat1_id                         = gain_shrine_buff_every_x_ms
 |stat1_min                        = 10000

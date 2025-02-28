@@ -1,11 +1,12 @@
 {{Mod
 |id                               = HeistNPCGuardsAlertLevel3
-|mod_groups                       = HeistContractGuardsAlertLevel
 |domain                           = 23
 |generation_type                  = 2
 |required_level                   = 75
 |name                             = of Subjugating
+|mod_groups                       = HeistContractGuardsAlertLevel
 |mod_type                         = HeistNPCGuardsAlertLevel
+|game_mode                        = 0
 |stat_text                        = (10-9)% reduced Alert [[Level]] from killing Guards
 |stat1_id                         = heist_contract_alert_level_from_guards_+%
 |stat1_min                        = -10

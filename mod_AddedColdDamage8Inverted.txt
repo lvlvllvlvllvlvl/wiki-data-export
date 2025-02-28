@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AddedColdDamage8Inverted
-|mod_groups                       = ColdDamage
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 65
 |name                             = Polar
+|mod_groups                       = ColdDamage
 |mod_type                         = SelfColdDamageTaken
+|game_mode                        = 0
 |stat_text                        = Adds (14-19) to (29-34) [[Cold Damage]] to [[Attack|Attacks]] against you
 |stat1_id                         = from_self_minimum_added_attack_cold_damage_taken
 |stat1_min                        = 14

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AddedFireDamage3Inverted
-|mod_groups                       = FireDamage
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 20
 |name                             = Smoking
+|mod_groups                       = FireDamage
 |mod_type                         = SelfFireDamageTaken
+|game_mode                        = 0
 |stat_text                        = Adds (5-7) to (11-13) [[Fire Damage]] to [[Attack|Attacks]] against you
 |stat1_id                         = from_self_minimum_added_attack_fire_damage_taken
 |stat1_min                        = 5

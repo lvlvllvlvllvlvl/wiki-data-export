@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskBuffAvoidStunWhileHealing4
-|mod_groups                       = FlaskBuffWhileHealing
 |domain                           = 2
 |generation_type                  = 2
 |required_level                   = 63
 |name                             = of Relentlessness
+|mod_groups                       = FlaskBuffWhileHealing
 |mod_type                         = FlaskBuffAvoidStunWhileHealing
+|game_mode                        = 0
 |stat_text                        = (46-50)% Chance to Avoid being Stunned during Effect
 |stat1_id                         = local_flask_avoid_stun_chance_%_during_flask_effect
 |stat1_min                        = 46

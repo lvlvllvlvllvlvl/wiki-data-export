@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskBuffShockEffect3___
-|mod_groups                       = FlaskBuffWhileHealing
 |domain                           = 2
 |generation_type                  = 2
 |required_level                   = 44
 |name                             = of the Cormorant
+|mod_groups                       = FlaskBuffWhileHealing
 |mod_type                         = FlaskBuffShockEffect
+|game_mode                        = 0
 |stat_text                        = (52-48)% reduced Effect of [[Shock]] on you during Effect
 |stat1_id                         = local_self_shock_effect_+%_during_flask_effect
 |stat1_min                        = -52

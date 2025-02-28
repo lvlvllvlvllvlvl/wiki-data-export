@@ -1,10 +1,11 @@
 {{Mod
 |id                               = MonsterImmuneToIgnite
-|mod_groups                       = AvoidStatusAilments
 |domain                           = 3
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = AvoidStatusAilments
 |mod_type                         = MonsterImmuneToStatusAilments
+|game_mode                        = 0
 |stat_text                        = <abbr title="Cannot be Ignited">100% chance to Avoid being Ignited</abbr>
 |stat1_id                         = base_avoid_ignite_%
 |stat1_min                        = 100

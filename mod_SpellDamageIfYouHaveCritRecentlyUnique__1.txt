@@ -1,10 +1,11 @@
 {{Mod
 |id                               = SpellDamageIfYouHaveCritRecentlyUnique__1
-|mod_groups                       = SpellDamageIfCritPast8Seconds
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = SpellDamageIfCritPast8Seconds
 |mod_type                         = SpellDamageIfCritPast8Seconds
+|game_mode                        = 0
 |stat_text                        = 200% increased [[Spell Damage]] if you've dealt a [[Critical Strike]] in the past 8 seconds
 |stat1_id                         = spell_damage_+%_if_have_crit_in_past_8_seconds
 |stat1_min                        = 200

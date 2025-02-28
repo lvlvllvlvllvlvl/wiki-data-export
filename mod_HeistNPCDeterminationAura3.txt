@@ -1,11 +1,12 @@
 {{Mod
 |id                               = HeistNPCDeterminationAura3
-|mod_groups                       = HeistNPCGrantedAura
 |domain                           = 23
 |generation_type                  = 2
 |required_level                   = 75
 |name                             = of Cooperation
+|mod_groups                       = HeistNPCGrantedAura
 |mod_type                         = HeistNPCDeterminationAura
+|game_mode                        = 0
 |stat_text                        = Grants [[Level]] 15 [[Determination]] [[Skill]]
 |stat1_id                         = heist_npc_uses_level_x_determination_aura
 |stat1_min                        = 15

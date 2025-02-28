@@ -1,11 +1,12 @@
 {{Mod
 |id                               = ChanceToRecoverManaOnSkillUseEssence1Inverted
-|mod_groups                       = ChanceToRecoverManaOnSkillUse
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 63
 |name                             = of the Essence
+|mod_groups                       = ChanceToRecoverManaOnSkillUse
 |mod_type                         = ChanceToLoseManaOnSkillUse
+|game_mode                        = 0
 |stat_text                        = 10% chance to lose 10% of [[Mana]] when you use a [[Skill]]
 |stat1_id                         = lose_10%_of_maximum_mana_on_skill_use_%_chance
 |stat1_min                        = 10

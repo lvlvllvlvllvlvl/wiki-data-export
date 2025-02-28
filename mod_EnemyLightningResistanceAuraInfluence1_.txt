@@ -1,13 +1,14 @@
 {{Mod
 |id                               = EnemyLightningResistanceAuraInfluence1_
-|mod_groups                       = LocalDisplayNearbyEnemyLightningDamageResistance
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 85
 |name                             = of the Crusade
 |granted_buff_id                  = reduced_enemy_lightning_resistance_from_item
 |granted_buff_value               = 60
+|mod_groups                       = LocalDisplayNearbyEnemyLightningDamageResistance
 |mod_type                         = NearbyEnemyLightningDamageResistance
+|game_mode                        = 0
 |stat_text                        = {{Radius||6.0m}} Enemies have -9% to [[Lightning Resistance]]
 |stat1_id                         = local_display_nearby_enemy_lightning_damage_resistance_%
 |stat1_min                        = -9

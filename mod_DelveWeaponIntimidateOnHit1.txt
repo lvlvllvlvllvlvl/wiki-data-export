@@ -1,11 +1,12 @@
 {{Mod
 |id                               = DelveWeaponIntimidateOnHit1
-|mod_groups                       = ChanceToIntimidateOnHit
 |domain                           = 16
 |generation_type                  = 2
 |required_level                   = 1
 |name                             = of the Underground
+|mod_groups                       = ChanceToIntimidateOnHit
 |mod_type                         = LocalChanceToIntimidateOnHit
+|game_mode                        = 0
 |stat_text                        = 15% chance to Intimidate Enemies for 4 seconds on [[Hit]]
 |stat1_id                         = local_chance_to_intimidate_on_hit_%
 |stat1_min                        = 15

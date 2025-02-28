@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskBuffSpellEnergyShieldLeechWhileHealing1
-|mod_groups                       = FlaskBuffWhileHealing
 |domain                           = 2
 |generation_type                  = 2
 |required_level                   = 10
 |name                             = of Diverting
+|mod_groups                       = FlaskBuffWhileHealing
 |mod_type                         = FlaskBuffSpellEnergyShieldLeechWhileHealing
+|game_mode                        = 0
 |stat_text                        = 0.4% of [[Spell Damage]] Leeched as [[Energy Shield]] during Effect
 |stat1_id                         = local_flask_energy_shield_leech_from_spell_damage_permyriad_while_healing
 |stat1_min                        = 40

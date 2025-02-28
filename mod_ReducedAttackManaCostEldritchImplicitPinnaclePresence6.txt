@@ -1,12 +1,13 @@
 {{Mod
 |id                               = ReducedAttackManaCostEldritchImplicitPinnaclePresence6
-|mod_groups                       = ManaCostReduction
 |domain                           = 1
 |generation_type                  = 28
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = ManaCostReduction
 |mod_type                         = ReducedAttackManaCostPinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], (42-41)% reduced [[Mana]] Cost of [[Attack|Attacks]]
 |stat1_id                         = attack_mana_cost_+%
 |stat1_min                        = -42

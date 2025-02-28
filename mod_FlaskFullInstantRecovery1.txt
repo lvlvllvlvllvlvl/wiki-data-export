@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskFullInstantRecovery1
-|mod_groups                       = FlaskBuffWhileHealing
 |domain                           = 2
 |generation_type                  = 1
 |required_level                   = 7
 |name                             = Seething
+|mod_groups                       = FlaskBuffWhileHealing
 |mod_type                         = FlaskFullInstantRecovery
+|game_mode                        = 0
 |stat_text                        = Instant Recovery<br>66% reduced Amount Recovered
 |stat1_id                         = local_flask_recovers_instantly
 |stat1_min                        = 1

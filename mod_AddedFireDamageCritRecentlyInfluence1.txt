@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AddedFireDamageCritRecentlyInfluence1
-|mod_groups                       = AddedFireDamage
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 68
 |name                             = Redeemer's
+|mod_groups                       = AddedFireDamage
 |mod_type                         = AddedFireDamageIfCritRecently
+|game_mode                        = 0
 |stat_text                        = Adds (16-20) to (22-25) [[Fire Damage]] if you've dealt a [[Critical Strike]] [[Recently]]
 |stat1_id                         = minimum_added_fire_damage_if_have_crit_recently
 |stat1_min                        = 16

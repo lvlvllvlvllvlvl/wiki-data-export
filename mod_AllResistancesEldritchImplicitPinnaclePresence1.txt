@@ -1,12 +1,13 @@
 {{Mod
 |id                               = AllResistancesEldritchImplicitPinnaclePresence1
-|mod_groups                       = AllResistances
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = AllResistances
 |mod_type                         = AllResistancesPinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], +(17-18)% to all [[Elemental Resistance|Elemental Resistances]]
 |stat1_id                         = base_resist_all_elements_%
 |stat1_min                        = 17

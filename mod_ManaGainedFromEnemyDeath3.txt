@@ -1,11 +1,12 @@
 {{Mod
 |id                               = ManaGainedFromEnemyDeath3
-|mod_groups                       = ManaGainedFromEnemyDeath
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 40
 |name                             = of Consumption
+|mod_groups                       = ManaGainedFromEnemyDeath
 |mod_type                         = ManaGainedFromEnemyDeath
+|game_mode                        = 0
 |stat_text                        = Gain (4-6) [[Mana]] per Enemy Killed
 |stat1_id                         = base_mana_gained_on_enemy_death
 |stat1_min                        = 4

@@ -1,10 +1,11 @@
 {{Mod
 |id                               = WeaponPhysicalDamageAddedAsColdOrLightningUnique__1
-|mod_groups                       = WeaponPhysicalDamageAddedAsRandomElement
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = WeaponPhysicalDamageAddedAsRandomElement
 |mod_type                         = WeaponPhysicalDamageAddedAsColdOrLightning
+|game_mode                        = 0
 |stat_text                        = [[Hit|Hits]] with this Weapon gain (75-100)% of [[Physical Damage]] as Extra Cold or [[Lightning Damage]]
 |stat1_id                         = local_physical_damage_%_to_gain_as_cold_or_lightning
 |stat1_min                        = 75

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = JunMaster2BleedOnHitGained1h2_
-|mod_groups                       = PhysicalDamage
 |domain                           = 9
 |generation_type                  = 1
 |required_level                   = 72
 |name                             = Tora's
+|mod_groups                       = PhysicalDamage
 |mod_type                         = LocalAddedPhysicalDamageAndCausesBleeding
+|game_mode                        = 0
 |stat_text                        = Adds (7-8) to (10-11) [[Physical Damage]]<br>35% chance to cause Bleeding on [[Hit]]
 |stat1_id                         = local_minimum_added_physical_damage
 |stat1_min                        = 7

@@ -1,12 +1,13 @@
 {{Mod
 |id                               = LocalIncreasedPhysicalDamagePercentFortifyUber3
-|mod_groups                       = LocalPhysicalDamagePercent
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 80
 |name                             = The Elder's
+|mod_groups                       = LocalPhysicalDamagePercent
 |granted_skill                    = SupportFortify
 |mod_type                         = LocalPhysicalDamagePercentFortify
+|game_mode                        = 0
 |stat_text                        = (127-134)% increased [[Physical Damage]]<br>[[Item socket|Socketed]] Gems are Supported by [[Fortify Support|Level 20 Fortify]]
 |stat1_id                         = local_physical_damage_+%
 |stat1_min                        = 127

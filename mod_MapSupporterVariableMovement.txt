@@ -1,10 +1,11 @@
 {{Mod
 |id                               = MapSupporterVariableMovement
-|mod_groups                       = MapSupporterVariableMovement
 |domain                           = 5
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = MapSupporterVariableMovement
 |mod_type                         = MapSupporterVariableMovement
+|game_mode                        = 0
 |stat_text                        = When [[Hit]], Players gain a random [[Movement Speed]]<br />modifier from 50% less to 50% more, until [[Hit]] again<br>8% Chance to convert Maps to Scarabs<br>28% increased Quantity of Items found in this Area
 |stat1_id                         = map_supporter_players_random_movement_velocity_+%_final_when_hit
 |stat1_min                        = 50

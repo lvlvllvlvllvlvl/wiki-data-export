@@ -1,13 +1,14 @@
 {{Mod
 |id                               = BurningGroundWhileMovingEssence1
-|mod_groups                       = ItemGrantsBuff
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 63
 |name                             = of the Essence
 |granted_buff_id                  = essence_burning_ground
 |granted_buff_value               = 0
+|mod_groups                       = ItemGrantsBuff
 |mod_type                         = BurningGroundWhileMoving
+|game_mode                        = 0
 |stat_text                        = Drops Burning Ground while moving, dealing 2500 [[Fire Damage]] per second for 4 seconds
 |stat1_id                         = essence_buff_ground_fire_damage_to_deal_per_second
 |stat1_min                        = 2500

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = EnchantmentMovementVelocityWhileHaventBeenHit3
-|mod_groups                       = ConditionalBuffEnchantment
 |domain                           = 1
 |generation_type                  = 10
 |required_level                   = 75
 |name                             = Enchantment Movement Speed 3
+|mod_groups                       = ConditionalBuffEnchantment
 |mod_type                         = EnchantmentMovementVelocityWhileHaventBeenHit
+|game_mode                        = 0
 |stat_text                        = 10% increased [[Movement Speed]] if you haven't been [[Hit]] [[Recently]]
 |stat1_id                         = enchantment_boots_movement_speed_+%_when_not_hit_for_4_seconds
 |stat1_min                        = 10

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = VillageLightningStrikesOnCrit
-|mod_groups                       = LightningStrikesOnCrit
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = LightningStrikesOnCrit
 |granted_skill                    = LightningBolt
 |mod_type                         = LightningStrikesOnCrit
+|game_mode                        = 0
 |stat_text                        = Trigger [[Level]] 5 Lightning Bolt when you deal a [[Critical Strike]]
 |stat1_id                         = local_display_cast_lightning_on_critical_strike
 |stat1_min                        = 5

@@ -1,12 +1,13 @@
 {{Mod
 |id                               = BlockPercentEldritchImplicitPinnaclePresence4
-|mod_groups                       = BlockPercent
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = BlockPercent
 |mod_type                         = BlockPercentPinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], 12% Chance to [[Block]] [[Attack Damage]]
 |stat1_id                         = monster_base_block_%
 |stat1_min                        = 12

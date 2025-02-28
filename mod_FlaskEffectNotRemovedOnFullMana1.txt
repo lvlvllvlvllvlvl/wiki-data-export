@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskEffectNotRemovedOnFullMana1
-|mod_groups                       = FlaskEffectNotRemovedOnFullMana
 |domain                           = 2
 |generation_type                  = 1
 |required_level                   = 16
 |name                             = Enduring
+|mod_groups                       = FlaskEffectNotRemovedOnFullMana
 |mod_type                         = FlaskEffectNotRemovedOnFullManaReducedRecovery
+|game_mode                        = 0
 |stat_text                        = Effect is not removed when Unreserved [[Mana]] is Filled<br />Effect does not Queue<br>66% reduced Amount Recovered
 |stat1_id                         = local_flask_effect_not_removed_at_full_mana
 |stat1_min                        = 1

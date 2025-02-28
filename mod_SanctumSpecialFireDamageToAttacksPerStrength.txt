@@ -1,11 +1,12 @@
 {{Mod
 |id                               = SanctumSpecialFireDamageToAttacksPerStrength
-|mod_groups                       = GlobalAddedDamagePerAttribute
 |domain                           = 32
 |generation_type                  = 1
 |required_level                   = 84
 |name                             = Forceful
+|mod_groups                       = GlobalAddedDamagePerAttribute
 |mod_type                         = FireDamageToAttacksPerStrength
+|game_mode                        = 0
 |stat_text                        = Adds 2 to 3 [[Fire Damage]] to [[Attack|Attacks]] per 10 [[Strength]]
 |stat1_id                         = minimum_added_fire_damage_to_attacks_per_10_strength
 |stat1_min                        = 2

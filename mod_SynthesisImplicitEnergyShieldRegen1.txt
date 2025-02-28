@@ -1,10 +1,11 @@
 {{Mod
 |id                               = SynthesisImplicitEnergyShieldRegen1
-|mod_groups                       = EnergyShieldRegeneration
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = EnergyShieldRegeneration
 |mod_type                         = EnergyShieldRegenerationPerMinute
+|game_mode                        = 0
 |stat_text                        = Regenerate (0.6-0.7)% of [[Energy Shield]] per second
 |stat1_id                         = base_energy_shield_regeneration_rate_per_minute_%
 |stat1_min                        = 36

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = TriggeredFieryImpactOnHitWithWeaponImplicitE3
-|mod_groups                       = GrantedSkill
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = GrantedSkill
 |granted_skill                    = FieryImpactHeistMaceImplicit
 |mod_type                         = TriggeredFieryImpactOnHitWithWeapon
+|game_mode                        = 0
 |stat_text                        = Trigger [[Level]] 20 Fiery Impact on Melee [[Hit]] with this Weapon
 |stat1_id                         = local_display_trigger_level_x_fiery_impact_on_melee_hit_with_this_weapon
 |stat1_min                        = 20

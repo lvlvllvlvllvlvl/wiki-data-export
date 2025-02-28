@@ -1,10 +1,11 @@
 {{Mod
 |id                               = FlaskEldritchBatteryUnique__1
-|mod_groups                       = FlaskBuffWhileHealing
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = FlaskBuffWhileHealing
 |mod_type                         = FlaskEldritchBattery
+|game_mode                        = 0
 |stat_text                        = Eldritch Battery during Effect<br>[[Life]] Recovery from [[Flask|Flasks]] also applies to [[Energy Shield]] during Effect
 |stat1_id                         = local_grant_eldritch_battery_during_flask_effect
 |stat1_min                        = 1

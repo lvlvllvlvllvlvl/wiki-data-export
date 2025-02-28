@@ -1,10 +1,11 @@
 {{Mod
 |id                               = ElementalDamageFromBlockedHitsUnique__1
-|mod_groups                       = ElementalDamageBlockBypass
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = ElementalDamageBlockBypass
 |mod_type                         = ElementalDamageFromBlockedHits
+|game_mode                        = 0
 |stat_text                        = You take 100% of [[Elemental Damage]] from Blocked [[Hit|Hits]]
 |stat1_id                         = block_%_damage_taken_from_elemental
 |stat1_min                        = 100

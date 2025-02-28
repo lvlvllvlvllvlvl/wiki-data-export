@@ -1,11 +1,12 @@
 {{Mod
 |id                               = MapUberModLessPlayerLeech
-|mod_groups                       = MapMonsterLifeLeechImmunity
 |domain                           = 37
 |generation_type                  = 2
 |required_level                   = 1
 |name                             = of Congealment
+|mod_groups                       = MapMonsterLifeLeechImmunity
 |mod_type                         = MapUberModLessPlayerLeech
+|game_mode                        = 0
 |stat_text                        = Players have (60-50)% reduced Maximum total [[Life]], [[Mana]] and [[Energy Shield]] Recovery per second from [[Leech]]
 |stat1_id                         = map_player_maximum_leech_rate_+%
 |stat1_min                        = -60

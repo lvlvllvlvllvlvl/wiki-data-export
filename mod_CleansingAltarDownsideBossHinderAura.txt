@@ -1,12 +1,13 @@
 {{Mod
 |id                               = CleansingAltarDownsideBossHinderAura
-|mod_groups                       = CleansingAltarDownsideBossHinderAura
 |domain                           = 29
 |generation_type                  = 3
 |required_level                   = 1
 |granted_buff_id                  = hinder_aura
 |granted_buff_value               = 28
+|mod_groups                       = CleansingAltarDownsideBossHinderAura
 |mod_type                         = CleansingAltarDownsideBossHinderAura
+|game_mode                        = 0
 |stat_text                        = {{Radius||2.8m}} Enemies are Hindered, with 40% reduced [[Movement Speed]]
 |stat1_id                         = local_display_nearby_enemies_movement_speed_+%
 |stat1_min                        = -40

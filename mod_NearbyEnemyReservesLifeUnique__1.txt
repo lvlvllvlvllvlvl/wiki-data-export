@@ -1,12 +1,13 @@
 {{Mod
 |id                               = NearbyEnemyReservesLifeUnique__1
-|mod_groups                       = ReservesLife
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
 |granted_buff_id                  = unique_life_reservation_aura
 |granted_buff_value               = 30
+|mod_groups                       = ReservesLife
 |mod_type                         = NearbyEnemyReservesLife
+|game_mode                        = 0
 |stat_text                        = {{Radius||3.0m}} Enemy Monsters have at least 8% of [[Life]] Reserved
 |stat1_id                         = local_display_nearby_enemy_life_reserved_by_stat_%
 |stat1_min                        = 8

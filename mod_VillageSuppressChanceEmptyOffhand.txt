@@ -1,10 +1,11 @@
 {{Mod
 |id                               = VillageSuppressChanceEmptyOffhand
-|mod_groups                       = ChanceToDodgeWhileOffhandIsEmpty
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = ChanceToDodgeWhileOffhandIsEmpty
 |mod_type                         = ChanceToDodgeWhileOffhandIsEmpty
+|game_mode                        = 0
 |stat_text                        = +(50-75)% chance to Suppress [[Spell Damage]] while your Off Hand is empty
 |stat1_id                         = spell_suppression_chance_%_while_off_hand_empty
 |stat1_min                        = 50

@@ -1,12 +1,13 @@
 {{Mod
 |id                               = VillageTormentHauntedItem
-|mod_groups                       = Torment
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
 |granted_buff_id                  = torment_possessed_player_from_haunted_item
 |granted_buff_value               = 0
+|mod_groups                       = Torment
 |mod_type                         = TormentHauntedItem
+|game_mode                        = 0
 |stat_text                        = Haunted by Tormented Spirits
 |stat1_id                         = item_is_haunted
 |stat1_min                        = 1

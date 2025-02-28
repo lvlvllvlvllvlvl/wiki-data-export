@@ -1,11 +1,12 @@
 {{Mod
 |id                               = TinctureManaGainedFromEnemyDeath3
-|mod_groups                       = ManaGainedOnWeaponKill
 |domain                           = 34
 |generation_type                  = 2
 |required_level                   = 68
 |name                             = of Consumption
+|mod_groups                       = ManaGainedOnWeaponKill
 |mod_type                         = ManaGainedOnWeaponKill
+|game_mode                        = 0
 |stat_text                        = Gain (6-8) [[Mana]] per Enemy Killed with Melee Weapons
 |stat1_id                         = base_mana_gained_on_tinctured_weapon_kill
 |stat1_min                        = 6

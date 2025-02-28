@@ -1,11 +1,12 @@
 {{Mod
 |id                               = ManaGainedFromEnemyDeath1
-|mod_groups                       = ManaGainedFromEnemyDeath
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 1
 |name                             = of Absorption
+|mod_groups                       = ManaGainedFromEnemyDeath
 |mod_type                         = ManaGainedFromEnemyDeath
+|game_mode                        = 0
 |stat_text                        = Gain 1 [[Mana]] per Enemy Killed
 |stat1_id                         = base_mana_gained_on_enemy_death
 |stat1_min                        = 1

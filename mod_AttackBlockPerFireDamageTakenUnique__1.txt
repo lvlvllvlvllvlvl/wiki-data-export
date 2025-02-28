@@ -1,10 +1,11 @@
 {{Mod
 |id                               = AttackBlockPerFireDamageTakenUnique__1
-|mod_groups                       = IncreasedBlockChance
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = IncreasedBlockChance
 |mod_type                         = AttackBlockPerFireDamageTaken
+|game_mode                        = 0
 |stat_text                        = -1% Chance to [[Block]] [[Attack Damage]] for every 200 [[Fire Damage]] taken from [[Hit|Hits]] [[Recently]]
 |stat1_id                         = attack_block_%_per_200_fire_hit_damage_taken_recently
 |stat1_min                        = -1

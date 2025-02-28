@@ -1,12 +1,13 @@
 {{Mod
 |id                               = FasterIgniteDamageEldritchImplicitPinnaclePresence2
-|mod_groups                       = FasterDamageAilments
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = FasterDamageAilments
 |mod_type                         = FasterIgniteDamagePinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], [[Ignite|Ignites]] you inflict deal Damage 12% faster
 |stat1_id                         = faster_burn_%
 |stat1_min                        = 12

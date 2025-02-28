@@ -1,11 +1,12 @@
 {{Mod
 |id                               = JunMasterVeiledSpellDamageAndNonChaosDamageToAddAsChaosDamage1h
-|mod_groups                       = WeaponCasterDamagePrefix
 |domain                           = 28
 |generation_type                  = 1
 |required_level                   = 60
 |name                             = Chosen
+|mod_groups                       = WeaponCasterDamagePrefix
 |mod_type                         = SpellDamageAndNonChaosDamageToAddAsChaosDamage
+|game_mode                        = 0
 |stat_text                        = (60-69)% increased [[Spell Damage]]<br>Gain 5% of Non-Chaos Damage as extra [[Chaos Damage]]
 |stat1_id                         = spell_damage_+%
 |stat1_min                        = 60

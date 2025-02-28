@@ -1,12 +1,13 @@
 {{Mod
 |id                               = SentinelDroneDisciplineAuraUnique1
-|mod_groups                       = SentinelDroneAura
 |domain                           = 30
 |generation_type                  = 3
 |required_level                   = 1
 |granted_buff_id                  = player_aura_energy_shield
 |granted_buff_value               = 60
+|mod_groups                       = SentinelDroneAura
 |mod_type                         = SentinelDroneDisciplineAura
+|game_mode                        = 0
 |stat_text                        = Grants [[Level]] 20 [[Discipline]] Aura
 |stat1_id                         = local_display_sentinel_uses_level_x_discipline_aura
 |stat1_min                        = 20

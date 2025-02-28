@@ -1,12 +1,13 @@
 {{Mod
 |id                               = ChanceToBleedUber2
-|mod_groups                       = LocalChanceToBleed
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 75
 |name                             = of the Elder
+|mod_groups                       = LocalChanceToBleed
 |granted_skill                    = SupportChanceToBleed
 |mod_type                         = ChanceToBleedSupported
+|game_mode                        = 0
 |stat_text                        = 15% chance to cause Bleeding on [[Hit]]<br>[[Item socket|Socketed]] Gems are Supported by [[Chance to Bleed Support|Level 20 Chance To Bleed]]
 |stat1_id                         = local_chance_to_bleed_on_hit_%
 |stat1_min                        = 15

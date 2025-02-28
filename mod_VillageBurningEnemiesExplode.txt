@@ -1,10 +1,11 @@
 {{Mod
 |id                               = VillageBurningEnemiesExplode
-|mod_groups                       = EnemiesExplodeOnDeath
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = EnemiesExplodeOnDeath
 |mod_type                         = BurningEnemiesExplode
+|game_mode                        = 0
 |stat_text                        = Burning Enemies you [[Kill|kill]] have a 10% chance to Explode, dealing a tenth of their maximum [[Life]] as [[Fire Damage]]
 |stat1_id                         = explode_burning_enemies_for_10%_life_as_fire_on_kill_chance_%
 |stat1_min                        = 10

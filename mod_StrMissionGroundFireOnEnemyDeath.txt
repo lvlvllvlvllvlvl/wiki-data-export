@@ -1,10 +1,11 @@
 {{Mod
 |id                               = StrMissionGroundFireOnEnemyDeath
-|mod_groups                       = LeagueOfFire
 |domain                           = 5
 |generation_type                  = 3
 |required_level                   = 10
+|mod_groups                       = LeagueOfFire
 |mod_type                         = LeagueOfFireGroundFire
+|game_mode                        = 0
 |stat_text                        = Monsters drop Burning Ground on death<br>Monsters create Burning Ground for 4 seconds on death (Hidden)
 |stat1_id                         = map_monsters_drop_ground_fire_on_death_base_radius
 |stat1_min                        = 10

@@ -1,12 +1,13 @@
 {{Mod
 |id                               = EnchantmentOfIreWhenHit1
-|mod_groups                       = TriggerEnchantment
 |domain                           = 1
 |generation_type                  = 10
 |required_level                   = 32
 |name                             = Enchantment Word of Ire
+|mod_groups                       = TriggerEnchantment
 |granted_skill                    = EnchantmentOfIreWhenHit
 |mod_type                         = EnchantmentOfIreWhenHit
+|game_mode                        = 0
 |stat_text                        = Trigger [[Word of Ire]] when [[Hit]]
 |stat1_id                         = display_attack_with_word_of_ire_when_hit_%
 |stat1_min                        = 100

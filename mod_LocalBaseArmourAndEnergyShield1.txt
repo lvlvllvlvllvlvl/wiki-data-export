@@ -1,11 +1,12 @@
 {{Mod
 |id                               = LocalBaseArmourAndEnergyShield1
-|mod_groups                       = BaseLocalDefences
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 1
 |name                             = Blessed
+|mod_groups                       = BaseLocalDefences
 |mod_type                         = LocalBaseArmourAndEnergyShield
+|game_mode                        = 0
 |stat_text                        = +(5-9) to [[Armour]]<br>+(3-4) to maximum [[Energy Shield]]
 |stat1_id                         = local_base_physical_damage_reduction_rating
 |stat1_min                        = 5

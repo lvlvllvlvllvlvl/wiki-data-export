@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AddedPhysicalDamage4Inverted
-|mod_groups                       = PhysicalDamage
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 28
 |name                             = Honed
+|mod_groups                       = PhysicalDamage
 |mod_type                         = SelfPhysicalDamageTaken
+|game_mode                        = 0
 |stat_text                        = Adds (4-6) to (9-10) [[Physical Damage]] to [[Attack|Attacks]] against you
 |stat1_id                         = from_self_minimum_added_attack_physical_damage_taken
 |stat1_min                        = 4

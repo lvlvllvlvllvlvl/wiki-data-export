@@ -1,11 +1,12 @@
 {{Mod
 |id                               = ChanceToPoison1
-|mod_groups                       = LocalChanceToPoisonOnHit
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 15
 |name                             = of Poisoning
+|mod_groups                       = LocalChanceToPoisonOnHit
 |mod_type                         = LocalChanceToPoisonOnHit
+|game_mode                        = 0
 |stat_text                        = 10% chance to [[Poison]] on [[Hit]]
 |stat1_id                         = local_poison_on_hit_%
 |stat1_min                        = 10

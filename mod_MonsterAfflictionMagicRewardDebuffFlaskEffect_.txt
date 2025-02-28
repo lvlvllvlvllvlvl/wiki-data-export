@@ -1,13 +1,14 @@
 {{Mod
 |id                               = MonsterAfflictionMagicRewardDebuffFlaskEffect_
-|mod_groups                       = MonsterAfflictionMagicDebuff
 |domain                           = 3
 |generation_type                  = 20
 |required_level                   = 1
 |name                             = Diluting Touch
 |granted_buff_id                  = visual_display_buff_not_hidden
 |granted_buff_value               = 0
+|mod_groups                       = MonsterAfflictionMagicDebuff
 |mod_type                         = MonsterAfflictionMagicRewardDebuffFlaskEffect
+|game_mode                        = 0
 |stat_text                        = 
 |stat1_id                         = affliction_monster_debuff_flask_effect_+%_on_hit
 |stat1_min                        = -9

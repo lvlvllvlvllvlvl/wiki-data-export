@@ -1,10 +1,11 @@
 {{Mod
 |id                               = AtziriMajorDamageReflect
-|mod_groups                       = ReflectedDamage
 |domain                           = 3
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = ReflectedDamage
 |mod_type                         = MonsterReflectDamage
+|game_mode                        = 0
 |stat_text                        = 100% of Physical Damage taken reflected to Attacker (Hidden)<br>100% of Elemental Damage taken reflected to Attacker (Hidden)
 |stat1_id                         = physical_damage_taken_%_to_deal_to_attacker
 |stat1_min                        = 100

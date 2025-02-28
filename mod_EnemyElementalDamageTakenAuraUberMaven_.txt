@@ -1,13 +1,14 @@
 {{Mod
 |id                               = EnemyElementalDamageTakenAuraUberMaven_
-|mod_groups                       = LocalDisplayNearbyEnemyElementalDamageTaken
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 95
 |name                             = of Elevated Shaping
 |granted_buff_id                  = increased_enemy_elemental_damage_taken_from_item
 |granted_buff_value               = 60
+|mod_groups                       = LocalDisplayNearbyEnemyElementalDamageTaken
 |mod_type                         = NearbyEnemyElementalDamageTaken
+|game_mode                        = 0
 |stat_text                        = {{Radius||6.0m}} Enemies take 9% increased [[Elemental Damage]]
 |stat1_id                         = local_display_nearby_enemy_elemental_damage_taken_+%
 |stat1_min                        = 9

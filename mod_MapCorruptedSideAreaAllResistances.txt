@@ -1,11 +1,12 @@
 {{Mod
 |id                               = MapCorruptedSideAreaAllResistances
-|mod_groups                       = MapMonstersAllResistances
 |domain                           = 5
 |generation_type                  = 1
 |required_level                   = 69
 |name                             = Resistant
+|mod_groups                       = MapMonstersAllResistances
 |mod_type                         = MapCorruptedSideAreaMonstersAllResistances
+|game_mode                        = 0
 |stat_text                        = 16% increased Quantity of Items found in this Area<br>Found Items have 2% chance to drop Corrupted in Area<br>+35% Monster [[Chaos Resistance]]<br>+50% Monster [[Elemental Resistance|Elemental Resistances]]
 |stat1_id                         = map_item_drop_quantity_+%
 |stat1_min                        = 16

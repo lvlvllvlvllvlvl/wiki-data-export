@@ -1,10 +1,11 @@
 {{Mod
 |id                               = EnemyElementalResistanceZeroWhenHitUnique__1
-|mod_groups                       = SetElementalResistances
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = SetElementalResistances
 |mod_type                         = EnemyElementalResistanceZeroWhenHit
+|game_mode                        = 0
 |stat_text                        = When an Enemy [[Hit]] deals [[Elemental Damage]] to you, their Resistance to those Elements becomes zero for 4 seconds
 |stat1_id                         = enemy_zero_elemental_resistance_when_hit
 |stat1_min                        = 1

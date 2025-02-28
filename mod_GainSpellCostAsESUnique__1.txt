@@ -1,10 +1,11 @@
 {{Mod
 |id                               = GainSpellCostAsESUnique__1
-|mod_groups                       = EnergyShieldRegeneration
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 55
+|mod_groups                       = EnergyShieldRegeneration
 |mod_type                         = GainSpellCostAsES
+|game_mode                        = 0
 |stat_text                        = [[Spell|Spells]] cause you to gain [[Energy Shield]] equal to their Upfront<br />Cost every fifth time you Pay it
 |stat1_id                         = gain_spell_cost_as_energy_shield_every_fifth_cast
 |stat1_min                        = 1

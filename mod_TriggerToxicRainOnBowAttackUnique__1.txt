@@ -1,11 +1,12 @@
 {{Mod
 |id                               = TriggerToxicRainOnBowAttackUnique__1
-|mod_groups                       = SupportedByTrigger
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = SupportedByTrigger
 |granted_skill                    = ToxicRainTriggered
 |mod_type                         = TriggerToxicRainOnBowAttack
+|game_mode                        = 0
 |stat_text                        = Trigger [[Level]] 5 Toxic Rain when you [[Attack]] with a [[Bow]]
 |stat1_id                         = local_display_trigger_level_x_toxic_rain_on_bow_attack
 |stat1_min                        = 5

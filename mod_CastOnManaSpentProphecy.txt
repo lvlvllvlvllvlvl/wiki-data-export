@@ -1,10 +1,11 @@
 {{Mod
 |id                               = CastOnManaSpentProphecy
-|mod_groups                       = ChanceToCastOnManaSpent
 |domain                           = 3
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = ChanceToCastOnManaSpent
 |mod_type                         = ChanceToCastOnManaSpent
+|game_mode                        = 0
 |stat_text                        = Trigger [[Item socket|Socketed]] [[Spell|Spells]] when you Spend at least 100 [[Mana]] on an<br />Upfront Cost to Use or Trigger a [[Skill]], with a 0.1 second Cooldown (Hidden)
 |stat1_id                         = cast_socketed_spells_on_X_mana_spent
 |stat1_min                        = 100

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskBuffAvoidChillFreeze2
-|mod_groups                       = FlaskBuffWhileHealing
 |domain                           = 2
 |generation_type                  = 2
 |required_level                   = 23
 |name                             = of the Sea Lion
+|mod_groups                       = FlaskBuffWhileHealing
 |mod_type                         = FlaskBuffAvoidChillFreeze
+|game_mode                        = 0
 |stat_text                        = (36-40)% chance to Avoid being [[Chill|Chilled]] during Effect<br>(36-40)% chance to Avoid being [[Freeze|Frozen]] during Effect
 |stat1_id                         = local_avoid_chill_%_during_flask_effect
 |stat1_min                        = 36

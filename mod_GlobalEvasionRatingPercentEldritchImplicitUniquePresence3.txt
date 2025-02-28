@@ -1,12 +1,13 @@
 {{Mod
 |id                               = GlobalEvasionRatingPercentEldritchImplicitUniquePresence3
-|mod_groups                       = EvasionRatingPercent
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_unique_monster
 |granted_buff_value               = 0
+|mod_groups                       = EvasionRatingPercent
 |mod_type                         = GlobalEvasionRatingPercentUniquePresence
+|game_mode                        = 0
 |stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], (27-28)% increased [[Evasion Rating]]
 |stat1_id                         = evasion_rating_+%
 |stat1_min                        = 27

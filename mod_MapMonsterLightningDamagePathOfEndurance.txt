@@ -1,10 +1,11 @@
 {{Mod
 |id                               = MapMonsterLightningDamagePathOfEndurance
-|mod_groups                       = MapMonsterElementalDamage
 |domain                           = 5
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = MapMonsterElementalDamage
 |mod_type                         = MapMonsterLightningDamage
+|game_mode                        = 0
 |stat_text                        = Monsters deal 100% extra [[Physical Damage]] as Lightning
 |stat1_id                         = map_monsters_%_physical_damage_to_add_as_lightning
 |stat1_min                        = 100

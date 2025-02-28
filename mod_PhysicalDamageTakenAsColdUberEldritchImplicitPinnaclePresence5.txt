@@ -1,12 +1,13 @@
 {{Mod
 |id                               = PhysicalDamageTakenAsColdUberEldritchImplicitPinnaclePresence5
-|mod_groups                       = PhysicalDamageTakenAsElement
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = PhysicalDamageTakenAsElement
 |mod_type                         = PhysicalDamageTakenAsColdUberPinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], 12% of [[Physical Damage]] from [[Hit|Hits]] taken as [[Cold Damage]]
 |stat1_id                         = physical_damage_taken_%_as_cold
 |stat1_min                        = 12

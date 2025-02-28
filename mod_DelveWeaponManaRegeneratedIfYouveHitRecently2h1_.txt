@@ -1,11 +1,12 @@
 {{Mod
 |id                               = DelveWeaponManaRegeneratedIfYouveHitRecently2h1_
-|mod_groups                       = BaseManaRegeneration
 |domain                           = 16
 |generation_type                  = 2
 |required_level                   = 1
 |name                             = of the Underground
+|mod_groups                       = BaseManaRegeneration
 |mod_type                         = ManaRegeneratedIfYouveHitRecently
+|game_mode                        = 0
 |stat_text                        = Regenerate 0.8% of [[Mana]] per second if you've [[Hit]] an Enemy [[Recently]]
 |stat1_id                         = mana_regeneration_rate_per_minute_%_if_enemy_hit_recently
 |stat1_min                        = 48

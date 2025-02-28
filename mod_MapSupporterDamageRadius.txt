@@ -1,10 +1,11 @@
 {{Mod
 |id                               = MapSupporterDamageRadius
-|mod_groups                       = MapSupporterDamageRadius
 |domain                           = 5
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = MapSupporterDamageRadius
 |mod_type                         = MapSupporterDamageRadius
+|game_mode                        = 0
 |stat_text                        = Monsters can only be Damaged while within 2 metres of a Player<br />Players' modifiers to Light Radius also apply to this range<br>7% Chance to convert Maps to Conqueror Maps<br>14% increased Pack size
 |stat1_id                         = map_can_only_damage_enemies_in_X_radius
 |stat1_min                        = 20

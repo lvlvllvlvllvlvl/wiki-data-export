@@ -1,11 +1,12 @@
 {{Mod
 |id                               = MapUberModCurses
-|mod_groups                       = MapPlayerTemporalChains, MapPlayerVulnerability, MapPlayerElementalWeakness
 |domain                           = 37
 |generation_type                  = 2
 |required_level                   = 1
 |name                             = of Curses
+|mod_groups                       = MapPlayerTemporalChains, MapPlayerVulnerability, MapPlayerElementalWeakness
 |mod_type                         = MapUberModCurses
+|game_mode                        = 0
 |stat_text                        = Players are Cursed with [[Vulnerability]]<br>Players are Cursed with [[Temporal Chains]]<br>Players are Cursed with [[Elemental Weakness]]
 |stat1_id                         = map_player_has_level_X_vulnerability
 |stat1_min                        = 15

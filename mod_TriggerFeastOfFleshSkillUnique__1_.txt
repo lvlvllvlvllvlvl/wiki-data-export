@@ -1,13 +1,14 @@
 {{Mod
 |id                               = TriggerFeastOfFleshSkillUnique__1_
-|mod_groups                       = GrantedSkill
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
 |granted_buff_id                  = trigger_skills_granted_by_item
 |granted_buff_value               = 0
+|mod_groups                       = GrantedSkill
 |granted_skill                    = FeastOfFlesh
 |mod_type                         = TriggerFeastOfFleshSkill
+|game_mode                        = 0
 |stat_text                        = Trigger [[Level]] 15 Feast of Flesh every 5 seconds
 |stat1_id                         = local_display_trigger_level_X_feast_of_flesh_every_5_seconds
 |stat1_min                        = 15

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AddedPhysicalDamage1Inverted
-|mod_groups                       = PhysicalDamage
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 5
 |name                             = Glinting
+|mod_groups                       = PhysicalDamage
 |mod_type                         = SelfPhysicalDamageTaken
+|game_mode                        = 0
 |stat_text                        = Adds 1 to 2 [[Physical Damage]] to [[Attack|Attacks]] against you
 |stat1_id                         = from_self_minimum_added_attack_physical_damage_taken
 |stat1_min                        = 1

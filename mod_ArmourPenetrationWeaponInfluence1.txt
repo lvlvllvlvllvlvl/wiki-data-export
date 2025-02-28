@@ -1,11 +1,12 @@
 {{Mod
 |id                               = ArmourPenetrationWeaponInfluence1
-|mod_groups                       = ArmourPenetration
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 68
 |name                             = of the Hunt
+|mod_groups                       = ArmourPenetration
 |mod_type                         = LocalArmourPenetration
+|game_mode                        = 0
 |stat_text                        = [[Hit|Hits]] with this Weapon have (50-65)% chance to ignore Enemy [[Physical Damage]] Reduction
 |stat1_id                         = local_hits_ignore_enemy_monster_physical_damage_reduction_%_chance
 |stat1_min                        = 50

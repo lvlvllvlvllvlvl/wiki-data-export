@@ -1,12 +1,13 @@
 {{Mod
 |id                               = LightningGolemBuffEffectEldritchImplicitPinnaclePresence2
-|mod_groups                       = GolemBuffEffect
 |domain                           = 1
 |generation_type                  = 28
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = GolemBuffEffect
 |mod_type                         = LightningGolemBuffEffectPinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], (58-60)% increased Effect of the Buff granted by your [[Summon Lightning Golem|Lightning Golems]]
 |stat1_id                         = base_lightning_golem_granted_buff_effect_+%
 |stat1_min                        = 58

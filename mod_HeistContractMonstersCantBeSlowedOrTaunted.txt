@@ -1,11 +1,12 @@
 {{Mod
 |id                               = HeistContractMonstersCantBeSlowedOrTaunted
-|mod_groups                       = MapMonstersCantBeSlowedOrTaunted
 |domain                           = 22
 |generation_type                  = 1
 |required_level                   = 46
 |name                             = Unstoppable
+|mod_groups                       = MapMonstersCantBeSlowedOrTaunted
 |mod_type                         = HeistContractMonstersCantBeSlowedOrTaunted
+|game_mode                        = 0
 |stat_text                        = Monsters' Action Speed cannot be modified to below Base Value<br />Monsters' [[Movement Speed]] cannot be modified to below Base Value<br>Monsters cannot be Taunted
 |stat1_id                         = map_monsters_movement_speed_cannot_be_reduced_below_base
 |stat1_min                        = 1

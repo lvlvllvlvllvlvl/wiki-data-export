@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskBuffCriticalChanceWhileHealing4__
-|mod_groups                       = FlaskBuffWhileHealing
 |domain                           = 2
 |generation_type                  = 2
 |required_level                   = 66
 |name                             = of Penetrating
+|mod_groups                       = FlaskBuffWhileHealing
 |mod_type                         = FlaskBuffCriticalWhileHealing
+|game_mode                        = 0
 |stat_text                        = (44-49)% increased [[Critical Strike Chance]] during Effect
 |stat1_id                         = local_flask_critical_strike_chance_+%_during_flask_effect
 |stat1_min                        = 44

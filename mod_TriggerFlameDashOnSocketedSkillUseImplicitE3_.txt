@@ -1,11 +1,12 @@
 {{Mod
 |id                               = TriggerFlameDashOnSocketedSkillUseImplicitE3_
-|mod_groups                       = GrantedSkill
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = GrantedSkill
 |granted_skill                    = FlameDash, ModSocketedSkillsTriggerGrantedSkill
 |mod_type                         = TriggerFlameDashOnSocketedSkillUse
+|game_mode                        = 0
 |stat_text                        = Trigger [[Level]] 30 [[Flame Dash]] when you use a [[Item socket|Socketed]] [[Skill]]<br>40% increased Cooldown Recovery Rate of Travel [[Skill|Skills]]
 |stat1_id                         = local_display_trigger_level_x_flame_dash_when_you_use_a_socketed_skill
 |stat1_min                        = 30

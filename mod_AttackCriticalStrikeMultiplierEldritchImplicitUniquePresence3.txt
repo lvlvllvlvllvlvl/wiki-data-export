@@ -1,12 +1,13 @@
 {{Mod
 |id                               = AttackCriticalStrikeMultiplierEldritchImplicitUniquePresence3
-|mod_groups                       = CriticalStrikeMultiplier
 |domain                           = 1
 |generation_type                  = 28
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_unique_monster
 |granted_buff_value               = 0
+|mod_groups                       = CriticalStrikeMultiplier
 |mod_type                         = AttackCriticalStrikeMultiplierUniquePresence
+|game_mode                        = 0
 |stat_text                        = While a Unique Enemy is [[In your presence|in your Presence]], +(30-31)% to [[Critical Strike Multiplier]] for [[Attack Damage]]
 |stat1_id                         = attack_critical_strike_multiplier_+
 |stat1_min                        = 30

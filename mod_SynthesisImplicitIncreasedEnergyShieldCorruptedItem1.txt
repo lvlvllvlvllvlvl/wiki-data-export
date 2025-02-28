@@ -1,10 +1,11 @@
 {{Mod
 |id                               = SynthesisImplicitIncreasedEnergyShieldCorruptedItem1
-|mod_groups                       = LocalCorruptedBonus
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 60
+|mod_groups                       = LocalCorruptedBonus
 |mod_type                         = IncreasedEnergyShieldCorruptedItem
+|game_mode                        = 0
 |stat_text                        = (8-10)% increased maximum [[Energy Shield]] if Corrupted
 |stat1_id                         = local_maximum_energy_shield_+%_if_item_corrupted
 |stat1_min                        = 8

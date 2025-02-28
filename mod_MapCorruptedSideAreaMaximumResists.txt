@@ -1,11 +1,12 @@
 {{Mod
 |id                               = MapCorruptedSideAreaMaximumResists
-|mod_groups                       = MapPlayerMaxResists
 |domain                           = 5
 |generation_type                  = 1
 |required_level                   = 69
 |name                             = Imposing
+|mod_groups                       = MapPlayerMaxResists
 |mod_type                         = MapCorruptedSideAreaPlayerMaxResists
+|game_mode                        = 0
 |stat_text                        = 25% increased Quantity of Items found in this Area<br>Found Items have 3% chance to drop Corrupted in Area<br>Players have -(15-12)% to all maximum Resistances
 |stat1_id                         = map_item_drop_quantity_+%
 |stat1_min                        = 25

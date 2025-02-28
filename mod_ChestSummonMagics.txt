@@ -1,11 +1,12 @@
 {{Mod
 |id                               = ChestSummonMagics
-|mod_groups                       = ChestMonsters
 |domain                           = 4
 |generation_type                  = 1
 |required_level                   = 10
 |name                             = Intimidating
+|mod_groups                       = ChestMonsters
 |mod_type                         = ChestSummonPacks
+|game_mode                        = 0
 |stat_text                        = Guarded by a pack of Magic Monsters<br>Items will not drop until all Bloodline Daemons are killed. (Hidden)
 |stat1_id                         = chest_delay_drops_until_daemons_finish
 |stat1_min                        = 1

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = DelveWeaponEnergyShieldRegenIfYouHitRecently2h1
-|mod_groups                       = EnergyShieldRegenerationRatePerMinuteIfYouHaveHitAnEnemyRecently
 |domain                           = 16
 |generation_type                  = 2
 |required_level                   = 1
 |name                             = of the Underground
+|mod_groups                       = EnergyShieldRegenerationRatePerMinuteIfYouHaveHitAnEnemyRecently
 |mod_type                         = EnergyShieldRegenerationRatePerMinuteIfYouHaveHitAnEnemyRecently
+|game_mode                        = 0
 |stat_text                        = Regenerate 1% of [[Energy Shield]] per second if you've [[Hit]] an Enemy [[Recently]]
 |stat1_id                         = energy_shield_regeneration_rate_per_minute_%_if_you_have_hit_an_enemy_recently
 |stat1_min                        = 60

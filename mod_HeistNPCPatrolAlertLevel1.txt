@@ -1,11 +1,12 @@
 {{Mod
 |id                               = HeistNPCPatrolAlertLevel1
-|mod_groups                       = HeistContractPatrolAlertLevel
 |domain                           = 23
 |generation_type                  = 2
 |required_level                   = 1
 |name                             = of Reaction
+|mod_groups                       = HeistContractPatrolAlertLevel
 |mod_type                         = HeistNPCPatrolAlertLevel
+|game_mode                        = 0
 |stat_text                        = (5-3)% reduced Alert [[Level]] from killing Patrol Packs
 |stat1_id                         = heist_contract_alert_level_from_patrols_+%
 |stat1_min                        = -5

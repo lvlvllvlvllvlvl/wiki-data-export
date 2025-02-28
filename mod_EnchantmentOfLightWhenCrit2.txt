@@ -1,12 +1,13 @@
 {{Mod
 |id                               = EnchantmentOfLightWhenCrit2
-|mod_groups                       = TriggerEnchantment
 |domain                           = 1
 |generation_type                  = 10
 |required_level                   = 53
 |name                             = Enchantment Edict of Light
+|mod_groups                       = TriggerEnchantment
 |granted_skill                    = EnchantmentOfLightWhenCrit2
 |mod_type                         = EnchantmentOfLightWhenCrit
+|game_mode                        = 0
 |stat_text                        = Trigger [[Edict of Light]] when you take a [[Critical Strike]]
 |stat1_id                         = display_attack_with_edict_of_light_when_critically_hit_%
 |stat1_min                        = 100

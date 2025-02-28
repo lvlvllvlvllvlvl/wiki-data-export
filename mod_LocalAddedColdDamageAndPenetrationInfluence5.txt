@@ -1,11 +1,12 @@
 {{Mod
 |id                               = LocalAddedColdDamageAndPenetrationInfluence5
-|mod_groups                       = ColdDamageHybrid
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 80
 |name                             = Redeemer's
+|mod_groups                       = ColdDamageHybrid
 |mod_type                         = LocalColdDamagePenetrationHybrid
+|game_mode                        = 0
 |stat_text                        = Adds (23-32) to (48-55) [[Cold Damage]]<br>[[Attack|Attacks]] with this Weapon Penetrate (5-7)% [[Cold Resistance]]
 |stat1_id                         = local_minimum_added_cold_damage
 |stat1_min                        = 23

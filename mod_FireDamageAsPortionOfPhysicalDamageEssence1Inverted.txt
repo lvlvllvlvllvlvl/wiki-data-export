@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FireDamageAsPortionOfPhysicalDamageEssence1Inverted
-|mod_groups                       = FireDamageAsPortionOfDamage
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 63
 |name                             = Essences
+|mod_groups                       = FireDamageAsPortionOfDamage
 |mod_type                         = SelfPhysAsExtraFireTaken
+|game_mode                        = 0
 |stat_text                        = [[Hit|Hits]] against you gain 10% of [[Physical Damage]] as Extra [[Fire Damage]]
 |stat1_id                         = enemy_physical_damage_%_as_extra_fire_vs_you
 |stat1_min                        = 10

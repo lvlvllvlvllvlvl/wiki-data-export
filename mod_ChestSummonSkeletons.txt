@@ -1,11 +1,12 @@
 {{Mod
 |id                               = ChestSummonSkeletons
-|mod_groups                       = ChestSkeletons
 |domain                           = 4
 |generation_type                  = 1
 |required_level                   = 2
 |name                             = Ossified
+|mod_groups                       = ChestSkeletons
 |mod_type                         = ChestSummonSkeletons
+|game_mode                        = 0
 |stat_text                        = Summons Skeletons<br>Items will not drop until all Bloodline Daemons are killed. (Hidden)
 |stat1_id                         = chest_delay_drops_until_daemons_finish
 |stat1_min                        = 1

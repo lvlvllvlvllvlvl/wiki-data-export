@@ -1,11 +1,12 @@
 {{Mod
 |id                               = ChanceToPoisonEnhancedLevel50Mod
-|mod_groups                       = LocalChanceToPoisonOnHit
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 50
 |name                             = of Tacati
+|mod_groups                       = LocalChanceToPoisonOnHit
 |mod_type                         = LocalChanceToPoisonOnHitChaosDamage
+|game_mode                        = 0
 |stat_text                        = 30% chance to [[Poison]] on [[Hit]]<br>(26-30)% increased [[Chaos Damage]]
 |stat1_id                         = local_poison_on_hit_%
 |stat1_min                        = 30

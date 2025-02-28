@@ -1,11 +1,12 @@
 {{Mod
 |id                               = EinharMasterAddedFireDamage2Inverted
-|mod_groups                       = FireDamage
 |domain                           = 9
 |generation_type                  = 1
 |required_level                   = 40
 |name                             = Upgraded
+|mod_groups                       = FireDamage
 |mod_type                         = SelfFireDamageTaken
+|game_mode                        = 0
 |stat_text                        = Adds (12-17) to (26-30) [[Fire Damage]] to [[Attack|Attacks]] against you
 |stat1_id                         = from_self_minimum_added_attack_fire_damage_taken
 |stat1_min                        = 12

@@ -1,11 +1,12 @@
 {{Mod
 |id                               = PvPMasterFlaskChargeWhenCritCrafted
-|mod_groups                       = GlobalFlaskChargeWhenCrit
 |domain                           = 9
 |generation_type                  = 1
 |required_level                   = 20
 |name                             = Avenger's
+|mod_groups                       = GlobalFlaskChargeWhenCrit
 |mod_type                         = GlobalFlaskChargeWhenCrit
+|game_mode                        = 0
 |stat_text                        = (20-30)% chance for [[Flask|Flasks]] to gain a [[Charge]] when you take a [[Critical Strike]]
 |stat1_id                         = gain_flask_charge_when_crit_%
 |stat1_min                        = 20

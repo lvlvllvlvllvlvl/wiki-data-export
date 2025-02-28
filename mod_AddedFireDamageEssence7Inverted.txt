@@ -1,11 +1,12 @@
 {{Mod
 |id                               = AddedFireDamageEssence7Inverted
-|mod_groups                       = FireDamage
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 82
 |name                             = Essences
+|mod_groups                       = FireDamage
 |mod_type                         = SelfFireDamageTaken
+|game_mode                        = 0
 |stat_text                        = Adds (23-27) to (43-48) [[Fire Damage]] to [[Attack|Attacks]] against you
 |stat1_id                         = from_self_minimum_added_attack_fire_damage_taken
 |stat1_min                        = 23

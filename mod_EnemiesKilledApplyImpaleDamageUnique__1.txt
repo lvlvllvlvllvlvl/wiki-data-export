@@ -1,10 +1,11 @@
 {{Mod
 |id                               = EnemiesKilledApplyImpaleDamageUnique__1
-|mod_groups                       = EnemiesKilledApplyImpaleDamage
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = EnemiesKilledApplyImpaleDamage
 |mod_type                         = EnemiesKilledApplyImpaleDamage
+|game_mode                        = 0
 |stat_text                        = 50% chance for Impales on Enemies you [[Kill]] to Reflect Damage to surrounding Enemies
 |stat1_id                         = killed_enemies_apply_impale_damage_to_nearby_enemies_on_death_%_chance
 |stat1_min                        = 50

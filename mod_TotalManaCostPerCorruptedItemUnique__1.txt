@@ -1,10 +1,11 @@
 {{Mod
 |id                               = TotalManaCostPerCorruptedItemUnique__1
-|mod_groups                       = IncreaseFlatManaCost
 |domain                           = 1
 |generation_type                  = 3
 |required_level                   = 1
+|mod_groups                       = IncreaseFlatManaCost
 |mod_type                         = TotalManaCostPerCorruptedItem
+|game_mode                        = 0
 |stat_text                        = -2 to Total [[Mana]] Cost of [[Skill|Skills]] for each Corrupted Item Equipped
 |stat1_id                         = skill_mana_cost_+_for_each_equipped_corrupted_item
 |stat1_min                        = -2

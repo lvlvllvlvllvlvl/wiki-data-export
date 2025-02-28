@@ -1,10 +1,11 @@
 {{Mod
 |id                               = WeaponTreeAddedChaosLowPoisonChance2
-|mod_groups                       = ChaosDamage
 |domain                           = 1
 |generation_type                  = 31
 |required_level                   = 28
+|mod_groups                       = ChaosDamage
 |mod_type                         = WeaponTreeLocalChaosDamageAndPoisonChance
+|game_mode                        = 0
 |stat_text                        = Adds 3 to 6 [[Chaos Damage]]<br>15% chance to [[Poison]] on [[Hit]]
 |stat1_id                         = local_minimum_added_chaos_damage
 |stat1_min                        = 3

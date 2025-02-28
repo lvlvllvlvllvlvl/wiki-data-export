@@ -1,11 +1,12 @@
 {{Mod
 |id                               = EnchantmentColdDamageWhenHit2_
-|mod_groups                       = ConditionalBuffEnchantment
 |domain                           = 1
 |generation_type                  = 10
 |required_level                   = 66
 |name                             = Enchantment Cold Damage 2
+|mod_groups                       = ConditionalBuffEnchantment
 |mod_type                         = EnchantmentColdDamageWhenHit
+|game_mode                        = 0
 |stat_text                        = Adds 33 to 50 [[Cold Damage]] if you've been [[Hit]] [[Recently]]
 |stat1_id                         = enchantment_boots_added_cold_damage_when_hit_minimum
 |stat1_min                        = 33

@@ -1,12 +1,13 @@
 {{Mod
 |id                               = ManaRecoveryRateEldritchImplicitPinnaclePresence4
-|mod_groups                       = ManaRecoveryRate
 |domain                           = 1
 |generation_type                  = 29
 |required_level                   = 75
 |granted_buff_id                  = influence_stat_condition_presence_celestial_boss
 |granted_buff_value               = 0
+|mod_groups                       = ManaRecoveryRate
 |mod_type                         = ManaRecoveryRatePinnaclePresence
+|game_mode                        = 0
 |stat_text                        = While a Pinnacle Atlas Boss is [[In your presence|in your Presence]], 14% increased [[Mana]] Recovery rate
 |stat1_id                         = mana_recovery_rate_+%
 |stat1_min                        = 14

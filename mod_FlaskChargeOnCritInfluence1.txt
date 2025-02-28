@@ -1,11 +1,12 @@
 {{Mod
 |id                               = FlaskChargeOnCritInfluence1
-|mod_groups                       = FlaskChargeOnCrit
 |domain                           = 1
 |generation_type                  = 1
 |required_level                   = 75
 |name                             = Hunter's
+|mod_groups                       = FlaskChargeOnCrit
 |mod_type                         = FlaskChargeOnCrit
+|game_mode                        = 0
 |stat_text                        = Gain a [[Flask]] [[Charge]] when you deal a [[Critical Strike]]
 |stat1_id                         = gain_flask_chance_on_crit_%
 |stat1_min                        = 100

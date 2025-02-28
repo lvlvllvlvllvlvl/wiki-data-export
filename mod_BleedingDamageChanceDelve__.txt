@@ -1,11 +1,12 @@
 {{Mod
 |id                               = BleedingDamageChanceDelve__
-|mod_groups                       = BleedingDamage
 |domain                           = 1
 |generation_type                  = 2
 |required_level                   = 60
 |name                             = of the Underground
+|mod_groups                       = BleedingDamage
 |mod_type                         = BleedingDamageChance
+|game_mode                        = 0
 |stat_text                        = [[Attack|Attacks]] have 25% chance to cause Bleeding<br>(30-50)% increased Damage with Bleeding
 |stat1_id                         = bleed_on_hit_with_attacks_%
 |stat1_min                        = 25
