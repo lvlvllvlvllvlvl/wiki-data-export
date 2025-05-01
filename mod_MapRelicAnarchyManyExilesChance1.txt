@@ -1,0 +1,20 @@
+{{Mod
+|id                               = MapRelicAnarchyManyExilesChance1
+|domain                           = 38
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Exiled
+|mod_groups                       = MapRelicAnarchyManyExiles
+|mod_type                         = MapRelicAnarchyManyExilesChance
+|game_mode                        = 0
+|stat_text                        = Your Maps have a (5-8)% chance to contain 20 additional Rogue Exiles
+|stat1_id                         = map_spawn_20_additional_exiles_chance_%
+|stat1_min                        = 5
+|stat1_max                        = 8
+|spawn_weight1_tag                = atlas_relic_very_large
+|spawn_weight1_value              = 200
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 7
+}}
