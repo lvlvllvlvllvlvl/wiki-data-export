@@ -27310,5 +27310,12 @@ local data = {	{
 		evasion_multiplier = 0.0, 
 		energy_shield_multiplier = 0.5, 
 		damage_spread = 0.2, 
+	},
+	{
+		id = "MtxWhackAMoleBurrower", 
+		armour_multiplier = 0.5, 
+		evasion_multiplier = 0.0, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.2, 
 	}}
 return data

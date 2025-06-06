@@ -1998,5 +1998,8 @@ local data = {	{
 	},
 	{
 		id = "VillageGambling", 
+	},
+	{
+		id = "PhrecianMagistrateTombstone", 
 	}}
 return data
