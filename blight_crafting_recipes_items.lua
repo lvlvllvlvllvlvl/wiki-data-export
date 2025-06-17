@@ -4470,6 +4470,21 @@ local data = {	{
 	},
 	{
 		ordinal = 1, 
+		recipe_id = "InverseWeighting232", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "InverseWeighting232", 
+		item_id = "Metadata/Items/Currency/Mushrune8", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "InverseWeighting232", 
+		item_id = "Metadata/Items/Currency/Mushrune11", 
+	},
+	{
+		ordinal = 1, 
 		recipe_id = "InverseWeighting234", 
 		item_id = "Metadata/Items/Currency/Mushrune6", 
 	},
@@ -5220,6 +5235,21 @@ local data = {	{
 	},
 	{
 		ordinal = 1, 
+		recipe_id = "InverseWeighting276", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "InverseWeighting276", 
+		item_id = "Metadata/Items/Currency/Mushrune7", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "InverseWeighting276", 
+		item_id = "Metadata/Items/Currency/Mushrune12", 
+	},
+	{
+		ordinal = 1, 
 		recipe_id = "InverseWeighting279", 
 		item_id = "Metadata/Items/Currency/Mushrune6", 
 	},
@@ -5366,6 +5396,21 @@ local data = {	{
 	{
 		ordinal = 3, 
 		recipe_id = "InverseWeighting292", 
+		item_id = "Metadata/Items/Currency/Mushrune12", 
+	},
+	{
+		ordinal = 1, 
+		recipe_id = "InverseWeighting293", 
+		item_id = "Metadata/Items/Currency/Mushrune6b", 
+	},
+	{
+		ordinal = 2, 
+		recipe_id = "InverseWeighting293", 
+		item_id = "Metadata/Items/Currency/Mushrune8", 
+	},
+	{
+		ordinal = 3, 
+		recipe_id = "InverseWeighting293", 
 		item_id = "Metadata/Items/Currency/Mushrune12", 
 	},
 	{

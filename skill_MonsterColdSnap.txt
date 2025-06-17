@@ -7,7 +7,7 @@
 |static_stored_uses                      = 1
 |static_cooldown                         = 6
 |static_critical_strike_chance           = 4
-|static_damage_effectiveness             = 120
+|static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
 |static_attack_speed_multiplier          = 100
 |static_stat1_id                         = is_area_damage
@@ -16,7 +16,7 @@
 |static_stat2_value                      = -60
 |static_stat3_id                         = base_chance_to_freeze_%
 |static_stat3_value                      = 10
-|stat_text                               = Deals (10-2495) to (14-3736) Cold Damage<br>10% chance to Freeze enemies
+|stat_text                               = Deals (10-677) to (14-1016) Cold Damage<br>10% chance to Freeze enemies
 |level1                                  = True
 |level1_level_requirement                = 4
 |level1_stat_text                        = Deals 10 to 14 Cold Damage
@@ -68,9 +68,9 @@
 |level7_stat2_value                      = 82
 |level8                                  = True
 |level8_level_requirement                = 68
-|level8_stat_text                        = Deals 2495 to 3736 Cold Damage
+|level8_stat_text                        = Deals 677 to 1016 Cold Damage
 |level8_stat1_id                         = spell_minimum_base_cold_damage
-|level8_stat1_value                      = 2495
+|level8_stat1_value                      = 677
 |level8_stat2_id                         = spell_maximum_base_cold_damage
-|level8_stat2_value                      = 3736
+|level8_stat2_value                      = 1016
 }}

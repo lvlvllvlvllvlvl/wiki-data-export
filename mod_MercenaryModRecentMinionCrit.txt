@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MercenaryModRecentMinionCrit
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Infamy
+|mod_groups                       = RecentMinionCrit
+|mod_type                         = RecentMinionCrit
+|game_mode                        = 0
+|stat_text                        = [[Minion|Minions]] created [[Recently]] have (60-100)% increased Critical [[Hit]] Chance
+|stat1_id                         = minion_summoned_recently_critical_strike_chance_+%
+|stat1_min                        = 60
+|stat1_max                        = 100
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = minion, critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1489,6 +1489,11 @@ local data = {	{
 		type = "UniqueOrAmulet", 
 	},
 	{
+		id = "InverseWeighting232", 
+		passive_id = "spell_damage_notable_2975", 
+		type = "UniqueOrAmulet", 
+	},
+	{
 		id = "InverseWeighting234", 
 		passive_id = "sigil_notable2264", 
 		type = "UniqueOrAmulet", 
@@ -1739,6 +1744,11 @@ local data = {	{
 		type = "UniqueOrAmulet", 
 	},
 	{
+		id = "InverseWeighting276", 
+		passive_id = "spell_dot_notable_2981", 
+		type = "UniqueOrAmulet", 
+	},
+	{
 		id = "InverseWeighting279", 
 		passive_id = "shock_notable1798", 
 		type = "UniqueOrAmulet", 
@@ -1786,6 +1796,11 @@ local data = {	{
 	{
 		id = "InverseWeighting292", 
 		passive_id = "general_aura_notable1791", 
+		type = "UniqueOrAmulet", 
+	},
+	{
+		id = "InverseWeighting293", 
+		passive_id = "spell_dot_notable_2982", 
 		type = "UniqueOrAmulet", 
 	},
 	{

@@ -2,12 +2,13 @@
 |id                                  = AscendancyChampion7
 |int_id                              = 31700
 |name                                = Fortitude
-|buff_id                             = fortification
 |ascendancy_class                    = Champion
 |is_notable                          = True
 |icon                                = Fortitude (Champion)
-|stat1_id                            = display_you_have_x_fortification
-|stat1_value                         = 15
-|stat_text                           = You have 15 Fortification<br>
+|stat1_id                            = you_have_your_maximum_fortification
+|stat1_value                         = 1
+|stat2_id                            = champion_ascendancy_nearby_allies_fortification_is_equal_to_yours
+|stat2_value                         = 1
+|stat_text                           = You have your maximum Fortification<br>[[Nearby]] Allies count as having Fortification equal to yours
 |connections                         = AscendancyChampion4,AscendancyChampion3
 }}

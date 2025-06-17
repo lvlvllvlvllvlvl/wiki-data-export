@@ -1,0 +1,21 @@
+{{Mod
+|id                               = MemoryAltarContainsEssence
+|domain                           = 5
+|generation_type                  = 36
+|required_level                   = 1
+|mod_groups                       = MemoryAltarContainsEssence
+|mod_type                         = MemoryAltarContainsEssence
+|game_mode                        = 0
+|stat_text                        = Areas can contain Imprisoned Monsters<br>Imprisoned Monsters in Area have (15-25)% chance to have 3 additional Essences<br>Area contains 3 additional Imprisoned Monsters
+|stat1_id                         = map_has_monoliths
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_essence_monsters_chance_for_3_additional_essences_%
+|stat2_min                        = 15
+|stat2_max                        = 25
+|stat3_id                         = map_extra_monoliths
+|stat3_min                        = 3
+|stat3_max                        = 3
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 400
+}}

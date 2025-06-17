@@ -29,11 +29,11 @@
 |static_stat1_value                      = 1
 |static_stat2_id                         = active_skill_base_area_of_effect_radius
 |static_stat2_value                      = 26
-|stat_text                               = Deals (11-309) to (17-464) Physical Damage<br>Deals Added Spell Damage equal to (200-675)% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage<br>Base radius is 2.6 metres
+|stat_text                               = Deals (11-309) to (17-464) Physical Damage<br>Deals Added Spell Damage equal to (200-675)% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage<br>Base radius is 2.6 metres
 |level1                                  = True
 |level1_level_requirement                = 16
 |level1_cost_amounts                     = 8
-|level1_stat_text                        = Deals 11 to 17 Physical Damage<br>Deals Added Spell Damage equal to 200% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level1_stat_text                        = Deals 11 to 17 Physical Damage<br>Deals Added Spell Damage equal to 200% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level1_stat1_id                         = spell_minimum_base_physical_damage
 |level1_stat1_value                      = 11
 |level1_stat2_id                         = spell_maximum_base_physical_damage
@@ -43,7 +43,7 @@
 |level2                                  = True
 |level2_level_requirement                = 20
 |level2_cost_amounts                     = 9
-|level2_stat_text                        = Deals 15 to 23 Physical Damage<br>Deals Added Spell Damage equal to 225% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level2_stat_text                        = Deals 15 to 23 Physical Damage<br>Deals Added Spell Damage equal to 225% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level2_stat1_id                         = spell_minimum_base_physical_damage
 |level2_stat1_value                      = 15
 |level2_stat2_id                         = spell_maximum_base_physical_damage
@@ -53,7 +53,7 @@
 |level3                                  = True
 |level3_level_requirement                = 24
 |level3_cost_amounts                     = 9
-|level3_stat_text                        = Deals 20 to 31 Physical Damage<br>Deals Added Spell Damage equal to 250% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level3_stat_text                        = Deals 20 to 31 Physical Damage<br>Deals Added Spell Damage equal to 250% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level3_stat1_id                         = spell_minimum_base_physical_damage
 |level3_stat1_value                      = 20
 |level3_stat2_id                         = spell_maximum_base_physical_damage
@@ -63,7 +63,7 @@
 |level4                                  = True
 |level4_level_requirement                = 28
 |level4_cost_amounts                     = 10
-|level4_stat_text                        = Deals 27 to 40 Physical Damage<br>Deals Added Spell Damage equal to 275% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level4_stat_text                        = Deals 27 to 40 Physical Damage<br>Deals Added Spell Damage equal to 275% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level4_stat1_id                         = spell_minimum_base_physical_damage
 |level4_stat1_value                      = 27
 |level4_stat2_id                         = spell_maximum_base_physical_damage
@@ -73,7 +73,7 @@
 |level5                                  = True
 |level5_level_requirement                = 31
 |level5_cost_amounts                     = 11
-|level5_stat_text                        = Deals 33 to 49 Physical Damage<br>Deals Added Spell Damage equal to 300% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level5_stat_text                        = Deals 33 to 49 Physical Damage<br>Deals Added Spell Damage equal to 300% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level5_stat1_id                         = spell_minimum_base_physical_damage
 |level5_stat1_value                      = 33
 |level5_stat2_id                         = spell_maximum_base_physical_damage
@@ -83,7 +83,7 @@
 |level6                                  = True
 |level6_level_requirement                = 34
 |level6_cost_amounts                     = 11
-|level6_stat_text                        = Deals 40 to 59 Physical Damage<br>Deals Added Spell Damage equal to 325% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level6_stat_text                        = Deals 40 to 59 Physical Damage<br>Deals Added Spell Damage equal to 325% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level6_stat1_id                         = spell_minimum_base_physical_damage
 |level6_stat1_value                      = 40
 |level6_stat2_id                         = spell_maximum_base_physical_damage
@@ -93,7 +93,7 @@
 |level7                                  = True
 |level7_level_requirement                = 37
 |level7_cost_amounts                     = 12
-|level7_stat_text                        = Deals 48 to 71 Physical Damage<br>Deals Added Spell Damage equal to 350% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level7_stat_text                        = Deals 48 to 71 Physical Damage<br>Deals Added Spell Damage equal to 350% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level7_stat1_id                         = spell_minimum_base_physical_damage
 |level7_stat1_value                      = 48
 |level7_stat2_id                         = spell_maximum_base_physical_damage
@@ -103,7 +103,7 @@
 |level8                                  = True
 |level8_level_requirement                = 40
 |level8_cost_amounts                     = 13
-|level8_stat_text                        = Deals 57 to 86 Physical Damage<br>Deals Added Spell Damage equal to 375% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level8_stat_text                        = Deals 57 to 86 Physical Damage<br>Deals Added Spell Damage equal to 375% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level8_stat1_id                         = spell_minimum_base_physical_damage
 |level8_stat1_value                      = 57
 |level8_stat2_id                         = spell_maximum_base_physical_damage
@@ -113,7 +113,7 @@
 |level9                                  = True
 |level9_level_requirement                = 43
 |level9_cost_amounts                     = 13
-|level9_stat_text                        = Deals 69 to 103 Physical Damage<br>Deals Added Spell Damage equal to 400% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level9_stat_text                        = Deals 69 to 103 Physical Damage<br>Deals Added Spell Damage equal to 400% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level9_stat1_id                         = spell_minimum_base_physical_damage
 |level9_stat1_value                      = 69
 |level9_stat2_id                         = spell_maximum_base_physical_damage
@@ -123,7 +123,7 @@
 |level10                                 = True
 |level10_level_requirement               = 46
 |level10_cost_amounts                    = 14
-|level10_stat_text                       = Deals 82 to 123 Physical Damage<br>Deals Added Spell Damage equal to 425% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level10_stat_text                       = Deals 82 to 123 Physical Damage<br>Deals Added Spell Damage equal to 425% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level10_stat1_id                        = spell_minimum_base_physical_damage
 |level10_stat1_value                     = 82
 |level10_stat2_id                        = spell_maximum_base_physical_damage
@@ -133,7 +133,7 @@
 |level11                                 = True
 |level11_level_requirement               = 49
 |level11_cost_amounts                    = 15
-|level11_stat_text                       = Deals 97 to 146 Physical Damage<br>Deals Added Spell Damage equal to 450% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level11_stat_text                       = Deals 97 to 146 Physical Damage<br>Deals Added Spell Damage equal to 450% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level11_stat1_id                        = spell_minimum_base_physical_damage
 |level11_stat1_value                     = 97
 |level11_stat2_id                        = spell_maximum_base_physical_damage
@@ -143,7 +143,7 @@
 |level12                                 = True
 |level12_level_requirement               = 52
 |level12_cost_amounts                    = 16
-|level12_stat_text                       = Deals 116 to 173 Physical Damage<br>Deals Added Spell Damage equal to 475% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level12_stat_text                       = Deals 116 to 173 Physical Damage<br>Deals Added Spell Damage equal to 475% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level12_stat1_id                        = spell_minimum_base_physical_damage
 |level12_stat1_value                     = 116
 |level12_stat2_id                        = spell_maximum_base_physical_damage
@@ -153,7 +153,7 @@
 |level13                                 = True
 |level13_level_requirement               = 55
 |level13_cost_amounts                    = 16
-|level13_stat_text                       = Deals 137 to 205 Physical Damage<br>Deals Added Spell Damage equal to 500% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level13_stat_text                       = Deals 137 to 205 Physical Damage<br>Deals Added Spell Damage equal to 500% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level13_stat1_id                        = spell_minimum_base_physical_damage
 |level13_stat1_value                     = 137
 |level13_stat2_id                        = spell_maximum_base_physical_damage
@@ -163,7 +163,7 @@
 |level14                                 = True
 |level14_level_requirement               = 58
 |level14_cost_amounts                    = 17
-|level14_stat_text                       = Deals 162 to 242 Physical Damage<br>Deals Added Spell Damage equal to 525% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level14_stat_text                       = Deals 162 to 242 Physical Damage<br>Deals Added Spell Damage equal to 525% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level14_stat1_id                        = spell_minimum_base_physical_damage
 |level14_stat1_value                     = 162
 |level14_stat2_id                        = spell_maximum_base_physical_damage
@@ -173,7 +173,7 @@
 |level15                                 = True
 |level15_level_requirement               = 60
 |level15_cost_amounts                    = 18
-|level15_stat_text                       = Deals 180 to 271 Physical Damage<br>Deals Added Spell Damage equal to 550% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level15_stat_text                       = Deals 180 to 271 Physical Damage<br>Deals Added Spell Damage equal to 550% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level15_stat1_id                        = spell_minimum_base_physical_damage
 |level15_stat1_value                     = 180
 |level15_stat2_id                        = spell_maximum_base_physical_damage
@@ -183,7 +183,7 @@
 |level16                                 = True
 |level16_level_requirement               = 62
 |level16_cost_amounts                    = 18
-|level16_stat_text                       = Deals 201 to 302 Physical Damage<br>Deals Added Spell Damage equal to 575% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level16_stat_text                       = Deals 201 to 302 Physical Damage<br>Deals Added Spell Damage equal to 575% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level16_stat1_id                        = spell_minimum_base_physical_damage
 |level16_stat1_value                     = 201
 |level16_stat2_id                        = spell_maximum_base_physical_damage
@@ -193,7 +193,7 @@
 |level17                                 = True
 |level17_level_requirement               = 64
 |level17_cost_amounts                    = 19
-|level17_stat_text                       = Deals 224 to 336 Physical Damage<br>Deals Added Spell Damage equal to 600% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level17_stat_text                       = Deals 224 to 336 Physical Damage<br>Deals Added Spell Damage equal to 600% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level17_stat1_id                        = spell_minimum_base_physical_damage
 |level17_stat1_value                     = 224
 |level17_stat2_id                        = spell_maximum_base_physical_damage
@@ -203,7 +203,7 @@
 |level18                                 = True
 |level18_level_requirement               = 66
 |level18_cost_amounts                    = 20
-|level18_stat_text                       = Deals 250 to 375 Physical Damage<br>Deals Added Spell Damage equal to 625% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level18_stat_text                       = Deals 250 to 375 Physical Damage<br>Deals Added Spell Damage equal to 625% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level18_stat1_id                        = spell_minimum_base_physical_damage
 |level18_stat1_value                     = 250
 |level18_stat2_id                        = spell_maximum_base_physical_damage
@@ -213,7 +213,7 @@
 |level19                                 = True
 |level19_level_requirement               = 68
 |level19_cost_amounts                    = 20
-|level19_stat_text                       = Deals 278 to 417 Physical Damage<br>Deals Added Spell Damage equal to 650% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level19_stat_text                       = Deals 278 to 417 Physical Damage<br>Deals Added Spell Damage equal to 650% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level19_stat1_id                        = spell_minimum_base_physical_damage
 |level19_stat1_value                     = 278
 |level19_stat2_id                        = spell_maximum_base_physical_damage
@@ -223,7 +223,7 @@
 |level20                                 = True
 |level20_level_requirement               = 70
 |level20_cost_amounts                    = 21
-|level20_stat_text                       = Deals 309 to 464 Physical Damage<br>Deals Added Spell Damage equal to 675% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level20_stat_text                       = Deals 309 to 464 Physical Damage<br>Deals Added Spell Damage equal to 675% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level20_stat1_id                        = spell_minimum_base_physical_damage
 |level20_stat1_value                     = 309
 |level20_stat2_id                        = spell_maximum_base_physical_damage
@@ -233,7 +233,7 @@
 |level21                                 = True
 |level21_level_requirement               = 72
 |level21_cost_amounts                    = 22
-|level21_stat_text                       = Deals 343 to 515 Physical Damage<br>Deals Added Spell Damage equal to 700% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level21_stat_text                       = Deals 343 to 515 Physical Damage<br>Deals Added Spell Damage equal to 700% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level21_stat1_id                        = spell_minimum_base_physical_damage
 |level21_stat1_value                     = 343
 |level21_stat2_id                        = spell_maximum_base_physical_damage
@@ -243,7 +243,7 @@
 |level22                                 = True
 |level22_level_requirement               = 74
 |level22_cost_amounts                    = 22
-|level22_stat_text                       = Deals 382 to 572 Physical Damage<br>Deals Added Spell Damage equal to 725% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level22_stat_text                       = Deals 382 to 572 Physical Damage<br>Deals Added Spell Damage equal to 725% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level22_stat1_id                        = spell_minimum_base_physical_damage
 |level22_stat1_value                     = 382
 |level22_stat2_id                        = spell_maximum_base_physical_damage
@@ -253,7 +253,7 @@
 |level23                                 = True
 |level23_level_requirement               = 76
 |level23_cost_amounts                    = 23
-|level23_stat_text                       = Deals 424 to 635 Physical Damage<br>Deals Added Spell Damage equal to 750% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level23_stat_text                       = Deals 424 to 635 Physical Damage<br>Deals Added Spell Damage equal to 750% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level23_stat1_id                        = spell_minimum_base_physical_damage
 |level23_stat1_value                     = 424
 |level23_stat2_id                        = spell_maximum_base_physical_damage
@@ -263,7 +263,7 @@
 |level24                                 = True
 |level24_level_requirement               = 78
 |level24_cost_amounts                    = 24
-|level24_stat_text                       = Deals 470 to 705 Physical Damage<br>Deals Added Spell Damage equal to 775% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level24_stat_text                       = Deals 470 to 705 Physical Damage<br>Deals Added Spell Damage equal to 775% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level24_stat1_id                        = spell_minimum_base_physical_damage
 |level24_stat1_value                     = 470
 |level24_stat2_id                        = spell_maximum_base_physical_damage
@@ -273,7 +273,7 @@
 |level25                                 = True
 |level25_level_requirement               = 80
 |level25_cost_amounts                    = 24
-|level25_stat_text                       = Deals 521 to 782 Physical Damage<br>Deals Added Spell Damage equal to 800% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level25_stat_text                       = Deals 521 to 782 Physical Damage<br>Deals Added Spell Damage equal to 800% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level25_stat1_id                        = spell_minimum_base_physical_damage
 |level25_stat1_value                     = 521
 |level25_stat2_id                        = spell_maximum_base_physical_damage
@@ -283,7 +283,7 @@
 |level26                                 = True
 |level26_level_requirement               = 82
 |level26_cost_amounts                    = 25
-|level26_stat_text                       = Deals 578 to 867 Physical Damage<br>Deals Added Spell Damage equal to 825% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level26_stat_text                       = Deals 578 to 867 Physical Damage<br>Deals Added Spell Damage equal to 825% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level26_stat1_id                        = spell_minimum_base_physical_damage
 |level26_stat1_value                     = 578
 |level26_stat2_id                        = spell_maximum_base_physical_damage
@@ -293,7 +293,7 @@
 |level27                                 = True
 |level27_level_requirement               = 84
 |level27_cost_amounts                    = 26
-|level27_stat_text                       = Deals 640 to 960 Physical Damage<br>Deals Added Spell Damage equal to 850% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level27_stat_text                       = Deals 640 to 960 Physical Damage<br>Deals Added Spell Damage equal to 850% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level27_stat1_id                        = spell_minimum_base_physical_damage
 |level27_stat1_value                     = 640
 |level27_stat2_id                        = spell_maximum_base_physical_damage
@@ -303,7 +303,7 @@
 |level28                                 = True
 |level28_level_requirement               = 86
 |level28_cost_amounts                    = 26
-|level28_stat_text                       = Deals 709 to 1063 Physical Damage<br>Deals Added Spell Damage equal to 875% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level28_stat_text                       = Deals 709 to 1063 Physical Damage<br>Deals Added Spell Damage equal to 875% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level28_stat1_id                        = spell_minimum_base_physical_damage
 |level28_stat1_value                     = 709
 |level28_stat2_id                        = spell_maximum_base_physical_damage
@@ -313,7 +313,7 @@
 |level29                                 = True
 |level29_level_requirement               = 88
 |level29_cost_amounts                    = 27
-|level29_stat_text                       = Deals 785 to 1177 Physical Damage<br>Deals Added Spell Damage equal to 900% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level29_stat_text                       = Deals 785 to 1177 Physical Damage<br>Deals Added Spell Damage equal to 900% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level29_stat1_id                        = spell_minimum_base_physical_damage
 |level29_stat1_value                     = 785
 |level29_stat2_id                        = spell_maximum_base_physical_damage
@@ -323,7 +323,7 @@
 |level30                                 = True
 |level30_level_requirement               = 90
 |level30_cost_amounts                    = 28
-|level30_stat_text                       = Deals 868 to 1302 Physical Damage<br>Deals Added Spell Damage equal to 925% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level30_stat_text                       = Deals 868 to 1302 Physical Damage<br>Deals Added Spell Damage equal to 925% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level30_stat1_id                        = spell_minimum_base_physical_damage
 |level30_stat1_value                     = 868
 |level30_stat2_id                        = spell_maximum_base_physical_damage
@@ -333,7 +333,7 @@
 |level31                                 = True
 |level31_level_requirement               = 91
 |level31_cost_amounts                    = 28
-|level31_stat_text                       = Deals 913 to 1370 Physical Damage<br>Deals Added Spell Damage equal to 937% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level31_stat_text                       = Deals 913 to 1370 Physical Damage<br>Deals Added Spell Damage equal to 937% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level31_stat1_id                        = spell_minimum_base_physical_damage
 |level31_stat1_value                     = 913
 |level31_stat2_id                        = spell_maximum_base_physical_damage
@@ -343,7 +343,7 @@
 |level32                                 = True
 |level32_level_requirement               = 92
 |level32_cost_amounts                    = 29
-|level32_stat_text                       = Deals 960 to 1441 Physical Damage<br>Deals Added Spell Damage equal to 950% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level32_stat_text                       = Deals 960 to 1441 Physical Damage<br>Deals Added Spell Damage equal to 950% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level32_stat1_id                        = spell_minimum_base_physical_damage
 |level32_stat1_value                     = 960
 |level32_stat2_id                        = spell_maximum_base_physical_damage
@@ -353,7 +353,7 @@
 |level33                                 = True
 |level33_level_requirement               = 93
 |level33_cost_amounts                    = 29
-|level33_stat_text                       = Deals 1010 to 1515 Physical Damage<br>Deals Added Spell Damage equal to 962% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level33_stat_text                       = Deals 1010 to 1515 Physical Damage<br>Deals Added Spell Damage equal to 962% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level33_stat1_id                        = spell_minimum_base_physical_damage
 |level33_stat1_value                     = 1010
 |level33_stat2_id                        = spell_maximum_base_physical_damage
@@ -363,7 +363,7 @@
 |level34                                 = True
 |level34_level_requirement               = 94
 |level34_cost_amounts                    = 29
-|level34_stat_text                       = Deals 1062 to 1593 Physical Damage<br>Deals Added Spell Damage equal to 975% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level34_stat_text                       = Deals 1062 to 1593 Physical Damage<br>Deals Added Spell Damage equal to 975% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level34_stat1_id                        = spell_minimum_base_physical_damage
 |level34_stat1_value                     = 1062
 |level34_stat2_id                        = spell_maximum_base_physical_damage
@@ -373,7 +373,7 @@
 |level35                                 = True
 |level35_level_requirement               = 95
 |level35_cost_amounts                    = 30
-|level35_stat_text                       = Deals 1116 to 1674 Physical Damage<br>Deals Added Spell Damage equal to 987% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level35_stat_text                       = Deals 1116 to 1674 Physical Damage<br>Deals Added Spell Damage equal to 987% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level35_stat1_id                        = spell_minimum_base_physical_damage
 |level35_stat1_value                     = 1116
 |level35_stat2_id                        = spell_maximum_base_physical_damage
@@ -383,7 +383,7 @@
 |level36                                 = True
 |level36_level_requirement               = 96
 |level36_cost_amounts                    = 30
-|level36_stat_text                       = Deals 1174 to 1760 Physical Damage<br>Deals Added Spell Damage equal to 1000% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level36_stat_text                       = Deals 1174 to 1760 Physical Damage<br>Deals Added Spell Damage equal to 1000% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level36_stat1_id                        = spell_minimum_base_physical_damage
 |level36_stat1_value                     = 1174
 |level36_stat2_id                        = spell_maximum_base_physical_damage
@@ -393,7 +393,7 @@
 |level37                                 = True
 |level37_level_requirement               = 97
 |level37_cost_amounts                    = 30
-|level37_stat_text                       = Deals 1234 to 1850 Physical Damage<br>Deals Added Spell Damage equal to 1012% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level37_stat_text                       = Deals 1234 to 1850 Physical Damage<br>Deals Added Spell Damage equal to 1012% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level37_stat1_id                        = spell_minimum_base_physical_damage
 |level37_stat1_value                     = 1234
 |level37_stat2_id                        = spell_maximum_base_physical_damage
@@ -403,7 +403,7 @@
 |level38                                 = True
 |level38_level_requirement               = 98
 |level38_cost_amounts                    = 31
-|level38_stat_text                       = Deals 1296 to 1945 Physical Damage<br>Deals Added Spell Damage equal to 1025% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level38_stat_text                       = Deals 1296 to 1945 Physical Damage<br>Deals Added Spell Damage equal to 1025% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level38_stat1_id                        = spell_minimum_base_physical_damage
 |level38_stat1_value                     = 1296
 |level38_stat2_id                        = spell_maximum_base_physical_damage
@@ -413,7 +413,7 @@
 |level39                                 = True
 |level39_level_requirement               = 99
 |level39_cost_amounts                    = 31
-|level39_stat_text                       = Deals 1363 to 2044 Physical Damage<br>Deals Added Spell Damage equal to 1037% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level39_stat_text                       = Deals 1363 to 2044 Physical Damage<br>Deals Added Spell Damage equal to 1037% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level39_stat1_id                        = spell_minimum_base_physical_damage
 |level39_stat1_value                     = 1363
 |level39_stat2_id                        = spell_maximum_base_physical_damage
@@ -423,7 +423,7 @@
 |level40                                 = True
 |level40_level_requirement               = 100
 |level40_cost_amounts                    = 31
-|level40_stat_text                       = Deals 1432 to 2148 Physical Damage<br>Deals Added Spell Damage equal to 1050% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes half as much Added Damage
+|level40_stat_text                       = Deals 1432 to 2148 Physical Damage<br>Deals Added Spell Damage equal to 1050% of Damage of Equipped Dagger<br>If two Daggers are Equipped, each contributes 60% as much Added Damage
 |level40_stat1_id                        = spell_minimum_base_physical_damage
 |level40_stat1_value                     = 1432
 |level40_stat2_id                        = spell_maximum_base_physical_damage

@@ -5,14 +5,17 @@
 |mod_groups                       = MapEssenceLeague
 |mod_type                         = MapEssenceLeagueCrafted
 |game_mode                        = 0
-|stat_text                        = Areas can contain Imprisoned Monsters<br>Area contains 4 additional Imprisoned Monsters
+|stat_text                        = Areas can contain Imprisoned Monsters<br>Area contains 3 additional Imprisoned Monsters<br>Scarabs dropped in Area have 50% increased chance to be Essence Scarabs
 |stat1_id                         = map_has_monoliths
 |stat1_min                        = 1
 |stat1_max                        = 1
 |stat2_id                         = map_extra_monoliths
-|stat2_min                        = 4
-|stat2_max                        = 4
-|stat3_id                         = map_extra_content_weighting
-|stat3_min                        = 1
-|stat3_max                        = 1
+|stat2_min                        = 3
+|stat2_max                        = 3
+|stat3_id                         = map_essence_scarab_more_likely_%
+|stat3_min                        = 50
+|stat3_max                        = 50
+|stat4_id                         = map_extra_content_weighting
+|stat4_min                        = 1
+|stat4_max                        = 1
 }}

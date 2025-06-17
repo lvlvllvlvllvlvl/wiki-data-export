@@ -1,0 +1,22 @@
+{{Mod
+|id                               = MercenaryModCurseEffect
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Infamous
+|mod_groups                       = CurseEffect
+|mod_type                         = CurseEffectReduceCurseDuration
+|game_mode                        = 0
+|stat_text                        = 20% reduced [[Curse]] Duration<br>15% increased Effect of your [[Curse|Curses]]
+|stat1_id                         = base_curse_duration_+%
+|stat1_min                        = -20
+|stat1_max                        = -20
+|stat2_id                         = curse_effect_+%
+|stat2_min                        = 15
+|stat2_max                        = 15
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = curse
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

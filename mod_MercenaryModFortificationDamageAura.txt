@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MercenaryModFortificationDamageAura
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Infamy
+|mod_groups                       = FortificationDamageAura
+|mod_type                         = FortificationDamageAura
+|game_mode                        = 0
+|stat_text                        = [[Nearby]] Enemies take 1% increased [[Physical Damage]] per two Fortification on you
+|stat1_id                         = nearby_enemies_physical_damage_taken_+%_per_2fortification_on_you
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = physical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

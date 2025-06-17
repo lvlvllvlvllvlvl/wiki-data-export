@@ -1,0 +1,23 @@
+{{Skill
+|gem_description                         = Consumes Petals to cause affected monsters to revive on death, dropping loot and granting experience again. The number of Petals consumed is proportional to the Power of affected monsters. Does not affect Unique monsters.
+|active_skill_name                       = Memory of Panic
+|skill_id                                = ZanaInfluenceMemoryofPanic
+|cast_time                               = 0.0
+|required_level                          = 0
+|static_stored_uses                      = 1
+|static_cooldown                         = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_petal_cost
+|static_stat1_value                      = 50
+|static_stat2_id                         = petal_cost_per_monster_affected_power
+|static_stat2_value                      = 12
+|static_stat3_id                         = zana_skill_affected_monsters_revive_once
+|static_stat3_value                      = 1
+|static_stat4_id                         = zana_skill_first_x_petals_consumed_dont
+|static_stat4_value                      = 30
+|stat_text                               = 
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

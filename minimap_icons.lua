@@ -2000,6 +2000,24 @@ local data = {	{
 		id = "VillageGambling", 
 	},
 	{
+		id = "VillageLostShipment", 
+	},
+	{
+		id = "MercenaryEncounter", 
+	},
+	{
+		id = "MemoryTear", 
+	},
+	{
 		id = "PhrecianMagistrateTombstone", 
+	},
+	{
+		id = "MercenaryEncounterSmall", 
+	},
+	{
+		id = "Recombinator", 
+	},
+	{
+		id = "SanctumGoldConvert", 
 	}}
 return data

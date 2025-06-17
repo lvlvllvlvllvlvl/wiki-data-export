@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MercenaryModConsecratedChaosRes
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Infamy
+|mod_groups                       = ConsecratedChaosRes
+|mod_type                         = ConsecratedChaosRes
+|game_mode                        = 0
+|stat_text                        = Consecrated Ground you create grants +(1-3)% maximum [[Chaos Resistance]] to you and Allies
+|stat1_id                         = your_consecrated_ground_grants_max_chaos_resistance_+
+|stat1_min                        = 1
+|stat1_max                        = 3
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = chaos
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

@@ -1,13 +1,13 @@
 {{Passive skill
 |id                                  = AscendancyBerserker3
 |int_id                              = 8592
-|name                                = Physical Damage, Attack Speed
+|name                                = Physical Damage, Melee Strike Range
 |ascendancy_class                    = Berserker
 |icon                                = DmgAttackSpeed (Berserker)
 |stat1_id                            = physical_damage_+%
 |stat1_value                         = 10
-|stat2_id                            = attack_speed_+%
-|stat2_value                         = 5
-|stat_text                           = 10% increased [[Physical Damage]]<br>5% increased [[Attack Speed]]
-|connections                         = AscendancyBerserker12,AscendancyBerserkerStart
+|stat2_id                            = melee_range_+
+|stat2_value                         = 2
+|stat_text                           = 10% increased [[Physical Damage]]<br>+0.2 metres to Melee Strike Range
+|connections                         = AscendancyBerserker10,AscendancyBerserkerStart
 }}

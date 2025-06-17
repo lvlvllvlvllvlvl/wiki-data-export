@@ -1,0 +1,23 @@
+{{Skill
+|gem_description                         = Shaper's Memory uses this attack for you to teleport to an enemy and attack with a powerful blow, dealing area damage based on your weapon.
+|active_skill_name                       = Shaper's Devastation
+|skill_id                                = ShaperApparitionTeleportSlam
+|cast_time                               = 2.0
+|required_level                          = 72
+|static_damage_effectiveness             = 4100
+|static_damage_multiplier                = 4100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_disabled_unless_cloned
+|static_stat2_value                      = 3
+|static_stat3_id                         = active_skill_attack_speed_+%_final
+|static_stat3_value                      = 25
+|static_stat4_id                         = global_always_hit
+|static_stat4_value                      = 1
+|static_stat5_id                         = active_skill_ailment_damage_+%_final
+|static_stat5_value                      = -70
+|stat_text                               = You cannot use this Skill yourself, Shaper Memory will use it for you<br>25% more Attack Speed<br>Can't be Evaded<br>70% less Damage with Ailments
+|level1                                  = True
+|level1_level_requirement                = 72
+}}

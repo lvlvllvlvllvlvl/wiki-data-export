@@ -1,0 +1,31 @@
+{{Mod
+|id                               = JunMasterVeiledDamageIfConsumedCorpse
+|domain                           = 28
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Catarina's
+|mod_groups                       = AllDamage
+|mod_type                         = DamageIfConsumedCorpse
+|game_mode                        = 0
+|stat_text                        = 20% increased Damage if you have Consumed a corpse [[Recently]]
+|stat1_id                         = damage_+%_if_you_have_consumed_a_corpse_recently
+|stat1_min                        = 20
+|stat1_max                        = 20
+|spawn_weight1_tag                = body_armour
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = quiver
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = flask
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = shield
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = weapon
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = catarina_veiled_prefix
+|spawn_weight6_value              = 2000
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+|tags                             = unveiled_mod, damage
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MercenaryModMinionFireConvertToChaos
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Infamous
+|mod_groups                       = MinionFireConvertToChaos
+|mod_type                         = MinionFireConvertToChaos
+|game_mode                        = 0
+|stat_text                        = [[Minion|Minions]] convert 100% of [[Fire Damage]] to [[Chaos Damage]]
+|stat1_id                         = minion_base_fire_damage_%_to_convert_to_chaos
+|stat1_min                        = 100
+|stat1_max                        = 100
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental, fire, chaos, minion
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

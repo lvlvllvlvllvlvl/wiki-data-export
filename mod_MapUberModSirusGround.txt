@@ -1,13 +1,13 @@
 {{Mod
 |id                               = MapUberModSirusGround
-|domain                           = 37
+|domain                           = 5
 |generation_type                  = 2
 |required_level                   = 1
 |name                             = of Desolation
 |mod_groups                       = MapGroundEffect
 |mod_type                         = MapUberModSirusGround
 |game_mode                        = 0
-|stat_text                        = Area has patches of Awakeners' Desolation<br>20 patches with Ground Effect per 100 tiles (Hidden)<br>Ground Effect has a radius of 12 (Hidden)
+|stat_text                        = Area has patches of Awakeners' Desolation<br>15% increased Pack size<br>20% increased Quantity of Items found in this Area<br>12% increased Rarity of Items found in this Area<br>20 patches with Ground Effect per 100 tiles (Hidden)<br>Ground Effect has a radius of 12 (Hidden)
 |stat1_id                         = map_ground_orion_meteor
 |stat1_min                        = 1
 |stat1_max                        = 1
@@ -18,8 +18,8 @@
 |stat3_min                        = 12
 |stat3_max                        = 12
 |stat4_id                         = map_pack_size_+%
-|stat4_min                        = 25
-|stat4_max                        = 25
+|stat4_min                        = 15
+|stat4_max                        = 15
 |stat5_id                         = map_item_drop_quantity_+%
 |stat5_min                        = 20
 |stat5_max                        = 20

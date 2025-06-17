@@ -1,0 +1,18 @@
+{{Mod
+|id                               = MemoryAltarContainsStrongboxes
+|domain                           = 5
+|generation_type                  = 36
+|required_level                   = 1
+|mod_groups                       = MemoryAltarContainsStrongboxes
+|mod_type                         = MemoryAltarContainsStrongboxes
+|game_mode                        = 0
+|stat_text                        = Area contains 3 additional Strongboxes<br>(100-200)% increased chance for Strongboxes in Area to be Unique
+|stat1_id                         = map_num_extra_strongboxes
+|stat1_min                        = 3
+|stat1_max                        = 3
+|stat2_id                         = map_strongboxes_chance_to_be_unique_+%
+|stat2_min                        = 100
+|stat2_max                        = 200
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 400
+}}

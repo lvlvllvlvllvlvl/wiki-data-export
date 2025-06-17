@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MercenaryModRecoupWhileFrozen
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Infamy
+|mod_groups                       = DamageTakenRecoupedWhileFrozen
+|mod_type                         = RecoupWhileFrozen
+|game_mode                        = 0
+|stat_text                        = (50-90)% of Damage taken while [[Freeze|Frozen]] Recouped as [[Life]]
+|stat1_id                         = damage_taken_while_frozen_recouped_as_life_%
+|stat1_min                        = 50
+|stat1_max                        = 90
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

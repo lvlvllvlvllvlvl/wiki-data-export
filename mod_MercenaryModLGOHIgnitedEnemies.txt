@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MercenaryModLGOHIgnitedEnemies
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Infamy
+|mod_groups                       = LifeGainOnHitVsIgnitedEnemies
+|mod_type                         = LifeGainOnHitVsIgnitedEnemies
+|game_mode                        = 0
+|stat_text                        = Gain (5-10) [[Life]] for each Ignited Enemy [[Hit|hit]] with [[Attack|Attacks]]
+|stat1_id                         = life_gain_on_ignited_enemy_hit
+|stat1_min                        = 5
+|stat1_max                        = 10
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 2
+}}

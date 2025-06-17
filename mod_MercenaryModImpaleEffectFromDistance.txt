@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MercenaryModImpaleEffectFromDistance
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Infamy
+|mod_groups                       = ImpaleEffectFromDistance
+|mod_type                         = ImpaleEffectFromDistance
+|game_mode                        = 0
+|stat_text                        = Projectiles gain Impale effect as they travel farther, causing Impales they inflict to have up to 40% increased effect
+|stat1_id                         = impale_effect_+%_max_as_distance_travelled_increases
+|stat1_min                        = 40
+|stat1_max                        = 40
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = physical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

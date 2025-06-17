@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MercenaryModLifeCostOnLowLife
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Infamy
+|mod_groups                       = LifeCostOnLowLife
+|mod_type                         = LifeCostOnLowLife
+|game_mode                        = 0
+|stat_text                        = 30% less [[Life]] cost of [[Skill|Skills]] while on [[Low Life]]
+|stat1_id                         = skill_life_cost_+%_final_while_on_low_life
+|stat1_min                        = -30
+|stat1_max                        = -30
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

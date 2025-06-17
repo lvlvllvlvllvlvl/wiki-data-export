@@ -1,0 +1,31 @@
+{{Skill
+|gem_description                         = Shaper's Memory casts this spell for you to fire piercing projectiles in front of you that deal cold damage.
+|active_skill_name                       = Shaper's Despair
+|skill_id                                = ShaperApparitionProjectiles
+|cast_time                               = 1.4
+|required_level                          = 72
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_is_projectile
+|static_stat1_value                      = 1
+|static_stat2_id                         = projectile_uses_contact_position
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_cold_damage
+|static_stat3_value                      = 3448
+|static_stat4_id                         = spell_maximum_base_cold_damage
+|static_stat4_value                      = 5172
+|static_stat5_id                         = skill_repeat_count
+|static_stat5_value                      = 2
+|static_stat6_id                         = always_pierce
+|static_stat6_value                      = 1
+|static_stat7_id                         = skill_disabled_unless_cloned
+|static_stat7_value                      = 3
+|static_stat8_id                         = display_fires_x_times
+|static_stat8_value                      = 3
+|static_stat9_id                         = base_reduce_enemy_cold_resistance_%
+|static_stat9_value                      = 200
+|stat_text                               = Deals 3448 to 5172 Cold Damage<br>Skills Repeat an additional 2 Times<br>Projectiles Pierce all Targets<br>You cannot use this Skill yourself, Shaper Memory will use it for you<br>Fires 3 times<br>Penetrates 200% Cold Resistance
+|level1                                  = True
+|level1_level_requirement                = 72
+}}

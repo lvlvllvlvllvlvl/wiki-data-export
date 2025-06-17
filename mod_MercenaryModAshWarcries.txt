@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MercenaryModAshWarcries
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Infamy
+|mod_groups                       = CoverInAshWarcry
+|mod_type                         = CoverInAshWarcry
+|game_mode                        = 0
+|stat_text                        = Your Warcries cover Enemies in Ash for 5 seconds
+|stat1_id                         = warcries_apply_cover_in_ash_for_X_ms
+|stat1_min                        = 5000
+|stat1_max                        = 5000
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = elemental, fire
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

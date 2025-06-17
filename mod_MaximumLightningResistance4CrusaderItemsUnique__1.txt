@@ -1,0 +1,16 @@
+{{Mod
+|id                               = MaximumLightningResistance4CrusaderItemsUnique__1
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_groups                       = CrusaderInfluenceItemsRequirement, AtLeast4MatchedInfluencesTier
+|mod_type                         = MaximumLightningResistance4CrusaderItems
+|game_mode                        = 0
+|stat_text                        = +(2-3)% to maximum [[Lightning Resistance]] if 4 Crusader Items are Equipped
+|stat1_id                         = base_maximum_lightning_damage_resistance_%_if_4_crusader_items
+|stat1_min                        = 2
+|stat1_max                        = 3
+|tags                             = elemental, lightning, resistance
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

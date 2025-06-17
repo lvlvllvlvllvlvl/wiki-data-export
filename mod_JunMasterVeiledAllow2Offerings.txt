@@ -1,0 +1,31 @@
+{{Mod
+|id                               = JunMasterVeiledAllow2Offerings
+|domain                           = 28
+|generation_type                  = 1
+|required_level                   = 60
+|name                             = Catarina's
+|mod_groups                       = MultipleOfferingsAllowed
+|mod_type                         = Allow2Offerings
+|game_mode                        = 0
+|stat_text                        = You can have two Offerings of different types
+|stat1_id                         = allow_2_offerings
+|stat1_min                        = 1
+|stat1_max                        = 1
+|spawn_weight1_tag                = helmet
+|spawn_weight1_value              = 0
+|spawn_weight2_tag                = quiver
+|spawn_weight2_value              = 0
+|spawn_weight3_tag                = flask
+|spawn_weight3_value              = 0
+|spawn_weight4_tag                = shield
+|spawn_weight4_value              = 0
+|spawn_weight5_tag                = weapon
+|spawn_weight5_value              = 0
+|spawn_weight6_tag                = catarina_veiled_prefix
+|spawn_weight6_value              = 2000
+|spawn_weight7_tag                = default
+|spawn_weight7_value              = 0
+|tags                             = unveiled_mod
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

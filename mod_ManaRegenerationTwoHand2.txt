@@ -1,0 +1,21 @@
+{{Mod
+|id                               = ManaRegenerationTwoHand2
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 18
+|name                             = of Joy
+|mod_groups                       = ManaRegeneration
+|mod_type                         = ManaRegeneration
+|game_mode                        = 0
+|stat_text                        = (33-45)% increased [[Mana]] Regeneration Rate
+|stat1_id                         = mana_regeneration_rate_+%
+|stat1_min                        = 33
+|stat1_max                        = 45
+|spawn_weight1_tag                = staff
+|spawn_weight1_value              = 1000
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, mana
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

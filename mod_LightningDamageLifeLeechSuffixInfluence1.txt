@@ -1,0 +1,21 @@
+{{Mod
+|id                               = LightningDamageLifeLeechSuffixInfluence1
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of the Crusade
+|mod_groups                       = LightningDamageLifeLeech
+|mod_type                         = LightningDamageLifeLeechPermyriad
+|game_mode                        = 0
+|stat_text                        = (0.3-0.5)% of [[Lightning Damage]] Leeched as [[Life]]
+|stat1_id                         = base_life_leech_from_lightning_damage_permyriad
+|stat1_min                        = 30
+|stat1_max                        = 50
+|spawn_weight1_tag                = amulet_crusader
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = default
+|spawn_weight2_value              = 0
+|tags                             = resource, influence_mod, life, elemental, lightning
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

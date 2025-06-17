@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = Summon a Void Spawn minion, which casts a lightning projectile spell with a chance to shock enemies.
+|active_skill_name                       = Summon Void Spawn
+|skill_id                                = SummonVoidSpawn
+|cast_time                               = 1.0
+|required_level                          = 70
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_display_minion_actor_level
+|static_stat1_value                      = 70
+|static_stat2_id                         = display_minion_monster_type
+|static_stat2_value                      = 27
+|static_stat3_id                         = infinite_minion_duration
+|static_stat3_value                      = 1
+|static_stat4_id                         = base_number_of_void_spawns_allowed
+|static_stat4_value                      = 4
+|static_stat5_id                         = void_spawn_withered_base_duration_ms
+|static_stat5_value                      = 2000
+|static_stat6_id                         = void_spawn_withered_on_hit_chance_%
+|static_stat6_value                      = 100
+|static_stat7_id                         = triggered_by_item_buff
+|static_stat7_value                      = 1
+|stat_text                               = Maximum 4 Summoned Void Spawns<br>Withered inflicted by Minions has a base duration of 2 seconds<br>Minions inflict Withered on Hit<br>This Skill is Triggered by the Item granting it
+|level1                                  = True
+|level1_level_requirement                = 70
+}}

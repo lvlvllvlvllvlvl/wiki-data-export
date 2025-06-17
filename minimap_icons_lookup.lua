@@ -666,6 +666,12 @@ local data = {
 	RacetrackBlueRhoa = 665, 
 	VillageMiningInteractable = 666, 
 	VillageGambling = 667, 
-	PhrecianMagistrateTombstone = 668, 
+	VillageLostShipment = 668, 
+	MercenaryEncounter = 669, 
+	MemoryTear = 670, 
+	PhrecianMagistrateTombstone = 671, 
+	MercenaryEncounterSmall = 672, 
+	Recombinator = 673, 
+	SanctumGoldConvert = 674, 
 }
 return data

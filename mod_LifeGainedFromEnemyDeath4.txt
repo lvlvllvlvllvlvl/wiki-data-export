@@ -1,0 +1,29 @@
+{{Mod
+|id                               = LifeGainedFromEnemyDeath4
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 52
+|name                             = of Conquest
+|mod_groups                       = LifeGainedFromEnemyDeath
+|mod_type                         = LifeGainedFromEnemyDeath
+|game_mode                        = 0
+|stat_text                        = Gain (35-44) [[Life]] per Enemy Killed
+|stat1_id                         = base_life_gained_on_enemy_death
+|stat1_min                        = 35
+|stat1_max                        = 44
+|spawn_weight1_tag                = weapon
+|spawn_weight1_value              = 500
+|spawn_weight2_tag                = ring
+|spawn_weight2_value              = 500
+|spawn_weight3_tag                = amulet
+|spawn_weight3_value              = 500
+|spawn_weight4_tag                = gloves
+|spawn_weight4_value              = 500
+|spawn_weight5_tag                = quiver
+|spawn_weight5_value              = 500
+|spawn_weight6_tag                = default
+|spawn_weight6_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 1
+}}

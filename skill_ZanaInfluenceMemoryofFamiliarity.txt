@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = Consumes Petals to cause affected nearby monsters to have either 200% more item quantity or 90% less item quantity, and have all dropped items by of the same type. The number of Petals consumed is proportional to the Power of affected monsters.
+|active_skill_name                       = Memory of Familiarity
+|skill_id                                = ZanaInfluenceMemoryofFamiliarity
+|cast_time                               = 0.0
+|required_level                          = 0
+|static_stored_uses                      = 1
+|static_cooldown                         = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_petal_cost
+|static_stat1_value                      = 30
+|static_stat2_id                         = petal_cost_per_monster_affected_power
+|static_stat2_value                      = 4
+|static_stat3_id                         = zana_skill_all_natural_drops_same_class
+|static_stat3_value                      = 1
+|static_stat4_id                         = zana_skill_first_x_petals_consumed_dont
+|static_stat4_value                      = 20
+|static_stat5_id                         = zana_skill_max_monster_dropped_item_quantity_+%_final
+|static_stat5_value                      = 200
+|static_stat6_id                         = zana_skill_min_monster_dropped_item_quantity_+%_final
+|static_stat6_value                      = -90
+|stat_text                               = 
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

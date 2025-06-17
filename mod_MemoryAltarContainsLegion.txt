@@ -1,0 +1,21 @@
+{{Mod
+|id                               = MemoryAltarContainsLegion
+|domain                           = 5
+|generation_type                  = 36
+|required_level                   = 1
+|mod_groups                       = MemoryAltarContainsLegion
+|mod_type                         = MemoryAltarContainsLegion
+|game_mode                        = 0
+|stat_text                        = Area contains an additional Legion Encounter<br>Legion Encounters contain (3-5) additional Sergeants
+|stat1_id                         = map_legion_league
+|stat1_min                        = 1
+|stat1_max                        = 1
+|stat2_id                         = map_legion_league_extra_spawns
+|stat2_min                        = 1
+|stat2_max                        = 1
+|stat3_id                         = map_legion_additional_number_of_sergeants
+|stat3_min                        = 3
+|stat3_max                        = 5
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 400
+}}

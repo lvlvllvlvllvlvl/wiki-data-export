@@ -1,0 +1,16 @@
+{{Mod
+|id                               = TripleDamageIfSpentTimeOnAttackRecentlyUnique__1
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_groups                       = ConditionalTripleDamage
+|mod_type                         = TripleDamageIfSpentTimeOnAttackRecently
+|game_mode                        = 0
+|stat_text                        = [DNT] [[Hit|Hits]] with this Weapon deal Triple Damage if you have spent at least 2 seconds on a single [[Attack|attack]] [[Recently|recently]]
+|stat1_id                         = deal_triple_damage_if_spent_at_least_Xms_on_single_attack_recently
+|stat1_min                        = 2000
+|stat1_max                        = 2000
+|tags                             = attack
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

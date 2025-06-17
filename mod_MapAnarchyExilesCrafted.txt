@@ -5,14 +5,17 @@
 |mod_groups                       = MapAnarchyLeague
 |mod_type                         = MapAnarchyLeagueCrafted
 |game_mode                        = 0
-|stat_text                        = Area is inhabited by 3 additional Rogue Exiles
+|stat_text                        = Area is inhabited by 7 additional Rogue Exiles<br>Scarabs dropped in Area have 50% increased chance to be Anarchy Scarabs
 |stat1_id                         = map_spawn_extra_exiles
-|stat1_min                        = 3
-|stat1_max                        = 3
+|stat1_min                        = 7
+|stat1_max                        = 7
 |stat2_id                         = map_ignore_rogue_exile_rarity_bias
 |stat2_min                        = 1
 |stat2_max                        = 1
-|stat3_id                         = map_extra_content_weighting
-|stat3_min                        = 1
-|stat3_max                        = 1
+|stat3_id                         = map_anarchy_scarab_more_likely_%
+|stat3_min                        = 50
+|stat3_max                        = 50
+|stat4_id                         = map_extra_content_weighting
+|stat4_min                        = 1
+|stat4_max                        = 1
 }}

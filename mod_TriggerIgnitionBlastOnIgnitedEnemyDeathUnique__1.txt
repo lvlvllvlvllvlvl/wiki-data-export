@@ -1,0 +1,20 @@
+{{Mod
+|id                               = TriggerIgnitionBlastOnIgnitedEnemyDeathUnique__1
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_groups                       = TriggerIgnitionBlast
+|granted_skill                    = IgnitionBlast
+|mod_type                         = TriggerIgnitionBlastOnIgnitedEnemyDeath
+|game_mode                        = 0
+|stat_text                        = Trigger [[Level]] 5 Ignition Blast when an enemy dies while Ignited by you
+|stat1_id                         = local_display_trigger_ignition_blast_on_ignited_enemy_death
+|stat1_min                        = 5
+|stat1_max                        = 5
+|stat2_id                         = has_ignited_enemy_death_skill_trigger
+|stat2_min                        = 1
+|stat2_max                        = 1
+|tags                             = skill
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

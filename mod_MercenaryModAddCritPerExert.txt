@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MercenaryModAddCritPerExert
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Infamy
+|mod_groups                       = AddCritPerExert
+|mod_type                         = AddCritPerExert
+|game_mode                        = 0
+|stat_text                        = [[Skill|Skills]] have +(2-3)% to [[Critical Strike Chance]] for each Warcry Exerting them
+|stat1_id                         = additional_critical_strike_chance_permyriad_per_warcry_exerting_action
+|stat1_min                        = 200
+|stat1_max                        = 300
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

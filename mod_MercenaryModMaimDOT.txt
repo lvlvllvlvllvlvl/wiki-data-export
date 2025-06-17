@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MercenaryModMaimDOT
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Infamy
+|mod_groups                       = BuffEnchantment
+|mod_type                         = EnchantmentMaim
+|game_mode                        = 0
+|stat_text                        = Enemies Maimed by you take 10% increased Damage Over Time
+|stat1_id                         = enemies_you_maim_have_damage_taken_over_time_+%
+|stat1_min                        = 10
+|stat1_max                        = 10
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = damage
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 1
+}}

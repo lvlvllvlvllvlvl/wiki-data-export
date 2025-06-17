@@ -264,63 +264,63 @@ local data = {	{
 	},
 	{
 		area_level = 68, 
-		sulphite = 68, 
+		sulphite = 100, 
 	},
 	{
 		area_level = 69, 
-		sulphite = 137, 
+		sulphite = 197, 
 	},
 	{
 		area_level = 70, 
-		sulphite = 209, 
+		sulphite = 294, 
 	},
 	{
 		area_level = 71, 
-		sulphite = 282, 
+		sulphite = 387, 
 	},
 	{
 		area_level = 72, 
-		sulphite = 356, 
+		sulphite = 477, 
 	},
 	{
 		area_level = 73, 
-		sulphite = 433, 
+		sulphite = 565, 
 	},
 	{
 		area_level = 74, 
-		sulphite = 510, 
+		sulphite = 649, 
 	},
 	{
 		area_level = 75, 
-		sulphite = 591, 
+		sulphite = 732, 
 	},
 	{
 		area_level = 76, 
-		sulphite = 671, 
+		sulphite = 808, 
 	},
 	{
 		area_level = 77, 
-		sulphite = 755, 
+		sulphite = 884, 
 	},
 	{
 		area_level = 78, 
-		sulphite = 840, 
+		sulphite = 955, 
 	},
 	{
 		area_level = 79, 
-		sulphite = 927, 
+		sulphite = 1023, 
 	},
 	{
 		area_level = 80, 
-		sulphite = 1016, 
+		sulphite = 1087, 
 	},
 	{
 		area_level = 81, 
-		sulphite = 1106, 
+		sulphite = 1146, 
 	},
 	{
 		area_level = 82, 
-		sulphite = 1198, 
+		sulphite = 1201, 
 	},
 	{
 		area_level = 83, 

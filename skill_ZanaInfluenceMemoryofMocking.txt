@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = Consumes Petals to gain the modifiers of affected nearby magic and rare monsters for 30 seconds. The number of Petals consumed is proportional to the Power of affected monsters.
+|active_skill_name                       = Memory of Mocking
+|skill_id                                = ZanaInfluenceMemoryofMocking
+|cast_time                               = 0.0
+|required_level                          = 0
+|static_stored_uses                      = 1
+|static_cooldown                         = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_petal_cost
+|static_stat1_value                      = 20
+|static_stat2_id                         = petal_cost_per_monster_affected_power
+|static_stat2_value                      = 3
+|static_stat3_id                         = zana_skill_can_affect_monsters_with_no_drops
+|static_stat3_value                      = 1
+|static_stat4_id                         = zana_skill_first_x_petals_consumed_dont
+|static_stat4_value                      = 10
+|static_stat5_id                         = zana_skill_steal_mods_of_affected_monsters
+|static_stat5_value                      = 1
+|stat_text                               = 
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

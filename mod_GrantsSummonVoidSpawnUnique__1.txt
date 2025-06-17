@@ -1,0 +1,19 @@
+{{Mod
+|id                               = GrantsSummonVoidSpawnUnique__1
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 97
+|granted_buff_id                  = trigger_summon_void_spawn_buff
+|granted_buff_value               = 0
+|mod_groups                       = SummonVoidSpawn
+|granted_skill                    = SummonVoidSpawn
+|mod_type                         = GrantSummonVoidSpawnEvery4Seconds
+|game_mode                        = 0
+|stat_text                        = Trigger [[Level]] 20 Summon Void Spawn every 4 seconds
+|stat1_id                         = local_display_grants_summon_void_spawn
+|stat1_min                        = 20
+|stat1_max                        = 20
+|tags                             = skill
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 6
+}}

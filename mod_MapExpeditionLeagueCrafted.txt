@@ -3,10 +3,13 @@
 |domain                           = 5
 |generation_type                  = 3
 |mod_groups                       = ExpeditionLeague
-|mod_type                         = ExpeditionLeague
+|mod_type                         = ExpeditionLeagueCrafted
 |game_mode                        = 0
-|stat_text                        = Area contains an Expedition Encounter
+|stat_text                        = Area contains an Expedition Encounter<br>Scarabs dropped in Area have 50% increased chance to be Expedition Scarabs
 |stat1_id                         = map_expedition_league
 |stat1_min                        = 1
 |stat1_max                        = 1
+|stat2_id                         = map_expedition_scarab_more_likely_%
+|stat2_min                        = 50
+|stat2_max                        = 50
 }}

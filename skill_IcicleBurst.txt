@@ -5,7 +5,6 @@
 |cast_time                               = 1.0
 |required_level                          = 1
 |static_stored_uses                      = 1
-|static_cooldown                         = 0.5
 |static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_is_projectile
 |static_stat1_value                      = 1
@@ -26,10 +25,12 @@
 |stat_text                               = Fires Projectiles in a circle<br>Fires 8 additional Projectiles<br>100% of Physical Damage Converted to Cold Damage<br>Cannot Freeze<br>Trigger this Skill when you Hit a Frozen Enemy
 |level1                                  = True
 |level1_level_requirement                = 1
+|level1_cooldown                         = 0.5
 |level1_damage_effectiveness             = 125
 |level1_damage_multiplier                = 125
 |level2                                  = True
 |level2_level_requirement                = 1
-|level2_damage_effectiveness             = 150
-|level2_damage_multiplier                = 150
+|level2_cooldown                         = 0.3
+|level2_damage_effectiveness             = 200
+|level2_damage_multiplier                = 200
 }}

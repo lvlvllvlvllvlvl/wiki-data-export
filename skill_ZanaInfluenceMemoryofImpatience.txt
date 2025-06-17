@@ -1,0 +1,25 @@
+{{Skill
+|gem_description                         = Consumes Petals to extract Souls from nearby monsters. The number of Petals consumed is proportional to the Power of nearby monsters.
+|active_skill_name                       = Memory of Impatience
+|skill_id                                = ZanaInfluenceMemoryofImpatience
+|cast_time                               = 0.0
+|required_level                          = 0
+|static_stored_uses                      = 1
+|static_cooldown                         = 1
+|static_damage_effectiveness             = 100
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_petal_cost
+|static_stat1_value                      = 20
+|static_stat2_id                         = petal_cost_per_monster_affected_power
+|static_stat2_value                      = 3
+|static_stat3_id                         = zana_skill_affected_monsters_grant_1_soul_per_x_power_to_all_players
+|static_stat3_value                      = 1
+|static_stat4_id                         = zana_skill_can_affect_monsters_with_no_drops
+|static_stat4_value                      = 1
+|static_stat5_id                         = zana_skill_first_x_petals_consumed_dont
+|static_stat5_value                      = 15
+|stat_text                               = 
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

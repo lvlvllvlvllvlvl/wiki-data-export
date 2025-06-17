@@ -5,8 +5,10 @@
 |ascendancy_class                    = Champion
 |is_notable                          = True
 |icon                                = Unstopable (Champion)
-|stat1_id                            = champion_ascendancy_nearby_allies_fortification_is_equal_to_yours
-|stat1_value                         = 1
-|stat_text                           = [[Nearby]] Allies count as having Fortification equal to yours
+|stat1_id                            = attack_speed_+%_per_fortification_above_20
+|stat1_value                         = 3
+|stat2_id                            = armour_evasion_rating_+%_final_per_fortification_above_20
+|stat2_value                         = 3
+|stat_text                           = 3% increased [[Attack Speed]] per Fortification above 20<br>3% more [[Armour]] and [[Evasion Rating]] per Fortification above 20
 |connections                         = AscendancyChampion4
 }}

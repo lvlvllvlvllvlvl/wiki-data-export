@@ -11,7 +11,7 @@
 |strength_percent                        = 60
 |dexterity_percent                       = 40
 |gem_tags                                = Minion, Spell, Golem, Physical
-|gem_description                         = Summons a Stone Golem that grants you life regeneration. In addition to its melee attack, the Stone Golem uses a rolling charge and a powerful slam that can taunt enemies.
+|gem_description                         = Summons a Stone Golem that grants you life regeneration and defences. In addition to its melee attack, the Stone Golem uses a rolling charge and a powerful slam that can taunt enemies.
 |active_skill_name                       = Summon Stone Golem
 |skill_id                                = SummonStoneGolem
 |cast_time                               = 1.0
@@ -32,7 +32,9 @@
 |static_stat2_value                      = 1
 |static_stat3_id                         = base_number_of_golems_allowed
 |static_stat3_value                      = 1
-|stat_text                               = Maximum 1 Summoned Golem<br>Golems grant (33-105) Life Regenerated per second
+|static_stat4_id                         = stone_golem_grants_defences_+%
+|static_stat4_value                      = 20
+|stat_text                               = Maximum 1 Summoned Golem<br>Golems grant (33-105) Life Regenerated per second<br>Golems grant 20% increased Defences
 |level1                                  = True
 |level1_level_requirement                = 34
 |level1_cost_amounts                     = 30

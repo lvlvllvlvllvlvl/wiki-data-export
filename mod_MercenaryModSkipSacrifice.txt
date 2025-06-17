@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MercenaryModSkipSacrifice
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Infamy
+|mod_groups                       = SkipSacrifice
+|mod_type                         = SkipSacrifice
+|game_mode                        = 0
+|stat_text                        = (20-40)% chance on [[Skill]] use to not Sacrifice [[Life]] but<br />still gain benefits as though you had
+|stat1_id                         = skip_life_sacrifice_chance_%
+|stat1_min                        = 20
+|stat1_max                        = 40
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = resource, life
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

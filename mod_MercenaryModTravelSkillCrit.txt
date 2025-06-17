@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MercenaryModTravelSkillCrit
+|domain                           = 1
+|generation_type                  = 1
+|required_level                   = 68
+|name                             = Infamous
+|mod_groups                       = TravelSkillCrit
+|mod_type                         = TravelSkillCrit
+|game_mode                        = 0
+|stat_text                        = Your Travel [[Skill|Skills]] Critically Strike once every 3 uses
+|stat1_id                         = travel_skills_crit_every_X_uses
+|stat1_min                        = 3
+|stat1_max                        = 3
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = critical
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

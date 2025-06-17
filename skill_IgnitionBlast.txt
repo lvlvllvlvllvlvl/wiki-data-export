@@ -1,0 +1,30 @@
+{{Skill
+|gem_description                         = The slain enemy's corpse explodes, dealing a percentage of their Maximum Life as Fire Damage to nearby enemies.
+|active_skill_name                       = Ignition Blast
+|skill_id                                = IgnitionBlast
+|cast_time                               = 1.0
+|required_level                          = 70
+|static_critical_strike_chance           = 6
+|static_damage_effectiveness             = 250
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_uncastable_if_triggerable
+|static_stat2_value                      = 1
+|static_stat3_id                         = spell_minimum_base_fire_damage
+|static_stat3_value                      = 1131
+|static_stat4_id                         = spell_maximum_base_fire_damage
+|static_stat4_value                      = 1696
+|static_stat5_id                         = damage_cannot_be_reflected
+|static_stat5_value                      = 1
+|static_stat6_id                         = ignition_blast_%_max_life_as_fire_on_death
+|static_stat6_value                      = 8
+|static_stat7_id                         = no_cost
+|static_stat7_value                      = 1
+|static_stat8_id                         = trigger_on_ignited_enemy_death
+|static_stat8_value                      = 1
+|stat_text                               = Deals 1131 to 1696 Fire Damage<br>Damage cannot be Reflected<br>Explosion deals Base Fire Damage equal to 8% of Corpse's maximum Life<br>This Skill Costs nothing<br>This Spell is Triggered when an Enemy Ignited by you Dies
+|level1                                  = True
+|level1_level_requirement                = 70
+}}

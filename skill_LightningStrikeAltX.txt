@@ -20,9 +20,11 @@
 |static_stat3_value                      = 50
 |static_stat4_id                         = quality_display_base_number_of_projectiles_is_gem
 |static_stat4_value                      = 1
-|static_stat5_id                         = skill_damage_+%_final_per_chain_from_skill_specific_stat
-|static_stat5_value                      = 10
-|stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>Chains +(4-7) Times<br>10% more Damage for each time this Skill has Chained
+|static_stat5_id                         = active_skill_hit_ailment_damage_with_projectile_+%_final
+|static_stat5_value                      = -50
+|static_stat6_id                         = skill_damage_+%_final_per_chain_from_skill_specific_stat
+|static_stat6_value                      = 10
+|stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>Chains +(4-7) Times<br>Projectiles deal 50% less Damage with Hits and Ailments<br>10% more Damage for each time this Skill has Chained
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_cost_amounts                     = 6

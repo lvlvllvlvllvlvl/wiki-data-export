@@ -1,0 +1,19 @@
+{{Mod
+|id                               = MercenaryModProjSpeedVariance
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 68
+|name                             = of Infamy
+|mod_groups                       = MeleeProjSpeedVariance
+|mod_type                         = MeleeProjSpeedVariance
+|game_mode                        = 0
+|stat_text                        = Each Projectile created by [[Attack|Attacks]] you make with a Melee Weapon has<br />between 50% more and 50% less Projectile Speed at random
+|stat1_id                         = projectile_speed_variation_+%_final_with_melee_weapon_attacks
+|stat1_min                        = 50
+|stat1_max                        = 50
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = speed
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 5
+}}

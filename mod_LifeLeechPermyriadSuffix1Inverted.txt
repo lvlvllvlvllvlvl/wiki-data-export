@@ -1,0 +1,19 @@
+{{Mod
+|id                               = LifeLeechPermyriadSuffix1Inverted
+|domain                           = 1
+|generation_type                  = 2
+|required_level                   = 50
+|name                             = of the Remora
+|mod_groups                       = LifeLeech
+|mod_type                         = EnemyLifeLeechPermyriad
+|game_mode                        = 0
+|stat_text                        = (0.2-0.4)% of Physical [[Attack Damage]] Leeched by Enemy as [[Life]]
+|stat1_id                         = enemy_life_leech_from_physical_attack_damage_permyriad
+|stat1_min                        = 20
+|stat1_max                        = 40
+|spawn_weight1_tag                = default
+|spawn_weight1_value              = 0
+|tags                             = resource, life, physical, attack
+|sell_price1_name                 = Alteration Shard
+|sell_price1_amount               = 3
+}}

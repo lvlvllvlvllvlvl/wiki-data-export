@@ -1,0 +1,16 @@
+{{Mod
+|id                               = PhysicalDamagePreventedAsEnergyShieldRegen6CrusaderItemsUnique__1
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 1
+|mod_groups                       = CrusaderInfluenceItemsRequirement, AtLeast6MatchedInfluencesTier
+|mod_type                         = PhysicalDamagePreventedAsEnergyShieldRegen6CrusaderItems
+|game_mode                        = 0
+|stat_text                        = (1.0-3.0)% of [[Physical Damage]] Prevented [[Recently]] is Regenerated as [[Energy Shield]] Per Second if 6 Crusader Items are Equipped
+|stat1_id                         = gain_permilliage_total_phys_damage_prevented_recently_as_es_regen_per_sec_if_6_crusader_items
+|stat1_min                        = 10
+|stat1_max                        = 30
+|tags                             = defences, armour, energy_shield
+|sell_price1_name                 = Alchemy Shard
+|sell_price1_amount               = 4
+}}

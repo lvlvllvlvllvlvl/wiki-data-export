@@ -1,0 +1,13 @@
+{{Mod
+|id                               = AttackCritAfterBeingCritUnique
+|domain                           = 1
+|generation_type                  = 3
+|required_level                   = 98
+|mod_groups                       = AttackCritAfterBeingCrit
+|mod_type                         = AttackCritAfterBeingCrit
+|game_mode                        = 0
+|stat_text                        = All [[Hit|Hits]] with your next Non-Channelling [[Attack]] within 4 seconds of taking a [[Critical Strike]] will be [[Critical strike|Critical Strikes]]
+|stat1_id                         = always_crit_on_next_non_channelling_attack_within_X_ms_after_being_crit
+|stat1_min                        = 4000
+|stat1_max                        = 4000
+}}

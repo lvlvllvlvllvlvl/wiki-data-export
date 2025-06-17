@@ -1,6 +1,6 @@
 {{Skill
-|gem_description                         = 
-|active_skill_name                       = 
+|gem_description                         = Shaper's Memory uses this attack for you to teleport to an enemy and attack with a powerful blow, dealing area damage based on your weapon.
+|active_skill_name                       = Shaper's Devastation
 |skill_id                                = AtlasBossFlickerSlam
 |cast_time                               = 2.0
 |required_level                          = 84
@@ -13,7 +13,7 @@
 |static_stat1_value                      = 1
 |static_stat2_id                         = monster_penalty_against_minions_damage_+%_final_vs_player_minions
 |static_stat2_value                      = -50
-|stat_text                               = Deals (200-400)% more Damage<br>(50-0)% less Attack Speed<br>Enemy Block Chance reduced by (0-1000)% against this Skill<br>Enemies have (0-1000)% reduced chance to Dodge Hits from this Skill
+|stat_text                               = Deals (200-400)% more Damage<br>(50-0)% less Attack Speed
 |level1                                  = True
 |level1_level_requirement                = 84
 |level1_stat_text                        = Deals 200% more Damage<br>50% less Attack Speed
@@ -23,13 +23,9 @@
 |level1_stat2_value                      = -50
 |level2                                  = True
 |level2_level_requirement                = 85
-|level2_stat_text                        = Deals 400% more Damage<br>Enemy Block Chance reduced by 1000% against this Skill<br>Enemies have 1000% reduced chance to Dodge Hits from this Skill
+|level2_stat_text                        = Deals 400% more Damage
 |level2_stat1_id                         = active_skill_area_of_effect_radius_+%_final
 |level2_stat1_value                      = 30
 |level2_stat2_id                         = active_skill_damage_+%_final
 |level2_stat2_value                      = 400
-|level2_stat3_id                         = global_reduce_enemy_block_%
-|level2_stat3_value                      = 1000
-|level2_stat4_id                         = reduce_enemy_dodge_%
-|level2_stat4_value                      = 1000
 }}

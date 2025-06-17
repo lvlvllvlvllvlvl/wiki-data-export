@@ -16,9 +16,9 @@
 |cast_time                               = 1.0
 |required_level                          = 28
 |quality_type1_weight                    = 1
-|quality_type1_stat_text                 = Minion's Attacks have (1-20)% chance to inflict Bleeding
-|quality_type1_stat1_id                  = bleed_on_hit_with_attacks_%
-|quality_type1_stat1_value               = 1000
+|quality_type1_stat_text                 = Minions have (2-40)% chance to Aggravate Bleeding on targets they Hit with Attacks
+|quality_type1_stat1_id                  = minion_aggravate_bleeding_on_attack_hit_chance_%
+|quality_type1_stat1_value               = 2000
 |static_cost_types                       = Mana
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100

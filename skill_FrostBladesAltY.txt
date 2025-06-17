@@ -20,7 +20,9 @@
 |static_stat3_value                      = 110
 |static_stat4_id                         = skill_physical_damage_%_to_convert_to_cold
 |static_stat4_value                      = 60
-|stat_text                               = Fires (5-8) Projectiles<br>60% of Physical Damage Converted to Cold Damage<br>+(1.8-2.1) metres to Melee Strike Range
+|static_stat5_id                         = active_skill_hit_ailment_damage_with_projectile_+%_final
+|static_stat5_value                      = -30
+|stat_text                               = Fires (5-8) Projectiles<br>60% of Physical Damage Converted to Cold Damage<br>+(1.8-2.1) metres to Melee Strike Range<br>Projectiles deal 30% less Damage with Hits and Ailments
 |level1                                  = True
 |level1_level_requirement                = 1
 |level1_cost_amounts                     = 6
