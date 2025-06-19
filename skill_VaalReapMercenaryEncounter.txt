@@ -1,0 +1,33 @@
+{{Skill
+|gem_description                         = Bloody scythes swipe around a selected area, hitting enemies with physical damage. An area of boiling blood is left beneath them for a duration which deals physical damage over time. Also gives a bonus to maximum Blood Charges for a secondary duration.
+|active_skill_name                       = Vaal Reap
+|skill_id                                = VaalReapMercenaryEncounter
+|cast_time                               = 1.2
+|required_level                          = 0
+|static_stored_uses                      = 1
+|static_cooldown                         = 15
+|static_critical_strike_chance           = 6
+|static_damage_effectiveness             = 390
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 5
+|static_stat1_id                         = is_area_damage
+|static_stat1_value                      = 1
+|static_stat2_id                         = spell_minimum_base_physical_damage
+|static_stat2_value                      = 4
+|static_stat3_id                         = spell_maximum_base_physical_damage
+|static_stat3_value                      = 6
+|static_stat4_id                         = base_physical_damage_to_deal_per_minute
+|static_stat4_value                      = 74
+|static_stat5_id                         = base_skill_effect_duration
+|static_stat5_value                      = 5000
+|static_stat6_id                         = base_secondary_skill_effect_duration
+|static_stat6_value                      = 8000
+|static_stat7_id                         = spell_damage_modifiers_apply_to_skill_dot
+|static_stat7_value                      = 1
+|static_stat8_id                         = blood_ground_leaving_area_lasts_for_ms
+|static_stat8_value                      = 2000
+|stat_text                               = Deals 4 to 6 Physical Damage<br>Deals 1.2 Base Physical Damage per second<br>Base duration is 5.00 seconds<br>Base secondary duration is 8.00 seconds<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>Effects of Boiling Blood Linger for 2 seconds
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

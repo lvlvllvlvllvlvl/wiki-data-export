@@ -1,0 +1,31 @@
+{{Skill
+|gem_description                         = Hits enemies, converting some of your physical damage to chaos damage and inflicting poison which will be affected by modifiers to skill duration. If dual wielding, will strike with both weapons. Requires a claw, dagger or sword.
+|active_skill_name                       = Viper Strike
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, Two Hand Sword, Rune Dagger
+|skill_id                                = ViperStrikeMercenaryEncounter
+|cast_time                               = 1.0
+|required_level                          = 0
+|static_damage_effectiveness             = 254.6
+|static_damage_multiplier                = 254.6
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 4
+|static_stat1_id                         = poison_duration_is_skill_duration
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_double_hits_when_dual_wielding
+|static_stat2_value                      = 1
+|static_stat3_id                         = visual_hit_effect_chaos_is_green
+|static_stat3_value                      = 1
+|static_stat4_id                         = viper_strike_dual_wield_attack_speed_+%_final
+|static_stat4_value                      = -30
+|static_stat5_id                         = viper_strike_dual_wield_damage_+%_final
+|static_stat5_value                      = -20
+|static_stat6_id                         = base_skill_effect_duration
+|static_stat6_value                      = 4000
+|static_stat7_id                         = skill_physical_damage_%_to_convert_to_chaos
+|static_stat7_value                      = 40
+|static_stat8_id                         = base_chance_to_poison_on_hit_%
+|static_stat8_value                      = 60
+|stat_text                               = 30% less Attack Speed if Dual Wielding<br>Each Weapon Hits separately if Dual Wielding, dealing 20% less Damage<br>Base duration is 4.00 seconds<br>40% of Physical Damage Converted to Chaos Damage<br>60% chance to Poison on Hit
+|level1                                  = True
+|level1_level_requirement                = 0
+}}
