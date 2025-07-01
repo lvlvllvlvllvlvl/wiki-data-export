@@ -1,0 +1,32 @@
+{{Skill
+|gem_description                         = Enchants your shield with the power of storms, which lashes out to deal arcing lightning damage to attackers when you block them.
+|active_skill_name                       = Tempest Shield
+|skill_id                                = TempestShieldMercenaryEncounter
+|cast_time                               = 0.3
+|required_level                          = 0
+|static_stored_uses                      = 1
+|static_cooldown                         = 1.2
+|static_critical_strike_chance           = 6
+|static_damage_effectiveness             = 160
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = base_skill_show_average_damage_instead_of_dps
+|static_stat1_value                      = 1
+|static_stat2_id                         = skill_can_add_multiple_charges_per_action
+|static_stat2_value                      = 1
+|static_stat3_id                         = skill_override_pvp_scaling_time_ms
+|static_stat3_value                      = 700
+|static_stat4_id                         = spell_minimum_base_lightning_damage
+|static_stat4_value                      = 7
+|static_stat5_id                         = spell_maximum_base_lightning_damage
+|static_stat5_value                      = 20
+|static_stat6_id                         = number_of_chains
+|static_stat6_value                      = 1
+|static_stat7_id                         = shield_spell_block_%
+|static_stat7_value                      = 25
+|static_stat8_id                         = skill_display_buff_grants_shock_immunity
+|static_stat8_value                      = 1
+|stat_text                               = Deals 7 to 20 Lightning Damage<br>Chains +1 Times<br>Buff grants +25% Chance to Block Spell Damage while holding a Shield<br>Buff grants Immunity to Shock
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

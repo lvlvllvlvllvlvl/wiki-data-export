@@ -673,5 +673,6 @@ local data = {
 	MercenaryEncounterSmall = 672, 
 	Recombinator = 673, 
 	SanctumGoldConvert = 674, 
+	ExpeditionSpecialRemnant = 675, 
 }
 return data

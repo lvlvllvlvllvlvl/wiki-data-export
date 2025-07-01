@@ -1,0 +1,27 @@
+{{Skill
+|gem_description                         = Attack with a melee weapon, gaining static energy for a duration if you hit an enemy. While you have static energy, you'll frequently hit a number of nearby enemies with beams, dealing attack damage.
+|active_skill_name                       = Static Strike
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff, Rune Dagger
+|skill_id                                = StaticStrikeMercenaryEncounteer
+|cast_time                               = 1.0
+|required_level                          = 0
+|static_damage_effectiveness             = 220
+|static_damage_multiplier                = 220
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 3
+|static_stat1_id                         = skill_physical_damage_%_to_convert_to_lightning
+|static_stat1_value                      = 50
+|static_stat2_id                         = base_skill_effect_duration
+|static_stat2_value                      = 3000
+|static_stat3_id                         = static_strike_base_zap_frequency_ms
+|static_stat3_value                      = 300
+|static_stat4_id                         = number_of_chains
+|static_stat4_value                      = 1
+|static_stat5_id                         = static_strike_beam_damage_+%_final
+|static_stat5_value                      = -70
+|static_stat6_id                         = static_strike_number_of_beam_targets
+|static_stat6_value                      = 5
+|stat_text                               = 50% of Physical Damage Converted to Lightning Damage<br>Base duration is 3.00 seconds<br>Beams Hit Enemies every 0.30 seconds<br>Chains +1 Times<br>Beams deal 70% less Damage<br>5 maximum Beam Targets
+|level1                                  = True
+|level1_level_requirement                = 0
+}}

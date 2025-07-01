@@ -24,7 +24,9 @@
 |static_stat7_value                      = 25
 |static_stat8_id                         = skill_physical_damage_%_to_convert_to_lightning
 |static_stat8_value                      = 60
-|stat_text                               = Deals (20-3995) to (31-5992) Physical Damage<br>Base duration is 1.00 seconds<br>Base secondary duration is 10.00 seconds<br>Maximum 3 Summoned Sentinels of Absolution<br>+(0-1.1) metres to radius<br>25% chance to Summon a Sentinel of Absolution on Hitting a Rare or Unique Enemy<br>This Spell and Minions Convert 60% of Physical Damage to Lightning Damage
+|static_stat9_id                         = active_skill_minion_damage_+%_final
+|static_stat9_value                      = -80
+|stat_text                               = Deals (20-3995) to (31-5992) Physical Damage<br>Base duration is 1.00 seconds<br>Base secondary duration is 10.00 seconds<br>Maximum 3 Summoned Sentinels of Absolution<br>+(0-1.1) metres to radius<br>25% chance to Summon a Sentinel of Absolution on Hitting a Rare or Unique Enemy<br>This Spell and Minions Convert 60% of Physical Damage to Lightning Damage<br>Minions deal 80% less Damage
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_damage_effectiveness             = 180

@@ -2019,5 +2019,8 @@ local data = {	{
 	},
 	{
 		id = "SanctumGoldConvert", 
+	},
+	{
+		id = "ExpeditionSpecialRemnant", 
 	}}
 return data

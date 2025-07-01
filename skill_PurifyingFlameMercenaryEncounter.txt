@@ -1,0 +1,35 @@
+{{Skill
+|gem_description                         = A wave of divine fire deals damage in a line, then creates Consecrated Ground and deals damage in an area around the targeted location. A larger shockwave then expands outwards, damaging enemies standing on Consecrated Ground that were not already hit.
+|active_skill_name                       = Purifying Flame
+|skill_id                                = PurifyingFlameMercenaryEncounter
+|cast_time                               = 0.7
+|required_level                          = 0
+|static_critical_strike_chance           = 5.5
+|static_damage_effectiveness             = 250
+|static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
+|static_duration                         = 4
+|static_stat1_id                         = ignite_art_variation
+|static_stat1_value                      = 7
+|static_stat2_id                         = is_area_damage
+|static_stat2_value                      = 1
+|static_stat3_id                         = visual_hit_effect_elemental_is_holy
+|static_stat3_value                      = 1
+|static_stat4_id                         = spell_minimum_base_physical_damage
+|static_stat4_value                      = 5
+|static_stat5_id                         = spell_maximum_base_physical_damage
+|static_stat5_value                      = 8
+|static_stat6_id                         = base_skill_effect_duration
+|static_stat6_value                      = 4000
+|static_stat7_id                         = active_skill_base_radius_+
+|static_stat7_value                      = 4
+|static_stat8_id                         = active_skill_ground_consecration_radius_+
+|static_stat8_value                      = 10
+|static_stat9_id                         = skill_physical_damage_%_to_convert_to_fire
+|static_stat9_value                      = 50
+|static_stat10_id                        = sanctify_wave_damage_+%_final
+|static_stat10_value                     = -25
+|stat_text                               = Deals 5 to 8 Physical Damage<br>Base duration is 4.00 seconds<br>+0.4 metres to radius<br>+1 metre to radius of Consecrated Ground<br>50% of Physical Damage Converted to Fire Damage<br>Shockwave deals -25% more Damage
+|level1                                  = True
+|level1_level_requirement                = 0
+}}
