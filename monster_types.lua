@@ -27488,6 +27488,14 @@ local data = {	{
 		damage_spread = 0.2, 
 	},
 	{
+		id = "BenevolenceZanaBossGAUNTLET", 
+		monster_resistance_id = "MapBossSuper", 
+		armour_multiplier = 0.3, 
+		evasion_multiplier = 0.0, 
+		energy_shield_multiplier = 0.5, 
+		damage_spread = 0.2, 
+	},
+	{
 		id = "BenevolenceZanaBossChaosBall", 
 		monster_resistance_id = "Elemental1b", 
 		armour_multiplier = 0.0, 
@@ -27504,6 +27512,14 @@ local data = {	{
 		damage_spread = 0.2, 
 	},
 	{
+		id = "AngerZanaBossGAUNTLET", 
+		monster_resistance_id = "MapBossSuper", 
+		armour_multiplier = 0.7, 
+		evasion_multiplier = 0.0, 
+		energy_shield_multiplier = 0.0, 
+		damage_spread = 0.2, 
+	},
+	{
 		id = "AngerZanaBossDaemon", 
 		monster_resistance_id = "None", 
 		armour_multiplier = 0.0, 
@@ -27513,6 +27529,14 @@ local data = {	{
 	},
 	{
 		id = "Ignorance", 
+		monster_resistance_id = "MapBossSuper", 
+		armour_multiplier = 0.0, 
+		evasion_multiplier = 0.0, 
+		energy_shield_multiplier = 1.0, 
+		damage_spread = 0.2, 
+	},
+	{
+		id = "IgnoranceGAUNTLET", 
 		monster_resistance_id = "MapBossSuper", 
 		armour_multiplier = 0.0, 
 		evasion_multiplier = 0.0, 
